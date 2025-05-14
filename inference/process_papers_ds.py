@@ -10,7 +10,7 @@ import multiprocessing as mp
 import re
 
 # Replace with your Hugging Face API token
-login("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")
+login("XXX")
 
 # ============================
 # 1. Setup and Configuration
