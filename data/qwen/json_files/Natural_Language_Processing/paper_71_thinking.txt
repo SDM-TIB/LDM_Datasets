@@ -1,0 +1,52 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is titled "Train, Sort, Explain: Learning to Diagnose Translation Models" and it's authored by several researchers from DFKI and TU Berlin. 
+
+First, I'll read through the abstract to get a general idea. The paper discusses evaluating translation models, comparing automatic methods like BLEU with human evaluations. They propose a method using a neural text classifier to distinguish between human and machine translations, and they've implemented this in an open-source tool called DiaMaT.
+
+Moving on to the introduction, they mention the need for diagnostic evaluations of translation models. They reference previous work, including the Transformer model by Vaswani et al. (2017) and the WMT14 data setup by Bojar et al. (2014). This suggests that the WMT14 dataset is being used.
+
+In the datasets and experiments section, they explicitly mention using a corpus translated by an NMT Transformer engine, conforming to the WMT14 data setup. They also reference the WMT13 and WMT18 training data. The validation and test sets are drawn from the WMT18 training data, excluding WMT14. They mention using OpenNMT for training and fastText word vectors for embeddings.
+
+So, the datasets mentioned are:
+1. WMT14 (Bojar et al., 2014)
+2. WMT13
+3. WMT18
+4. OpenNMT (Klein et al., 2017)
+5. fastText word vectors (Grave et al., 2018)
+
+Now, I need to extract metadata for each of these datasets using the specified vocabulary.
+
+For WMT14:
+- Creator: Bojar et al.
+- Description: Corpus used for machine translation evaluation.
+- Title: WMT14
+- Issued: 2014
+- Language: English and other languages, but the paper doesn't specify, so maybe leave as empty.
+- Identifier: DOI or URL if available, but not provided.
+- Theme: Machine Translation, Corpus
+- Keywords: Machine translation, evaluation, corpus
+- Landing Page: URL if available, but not provided.
+- Version: Not mentioned.
+- Format: Text
+- Task: Translation evaluation
+
+Similarly, for WMT13 and WMT18, the metadata would be similar but with different years.
+
+OpenNMT is a toolkit, not a dataset, so it might not be included unless it's providing data.
+
+fastText word vectors are a dataset of pre-trained vectors, so:
+- Creator: Grave et al.
+- Description: Pre-trained word vectors for 157 languages.
+- Title: fastText word vectors
+- Issued: 2018
+- Language: Multilingual
+- Identifier: DOI or URL from the paper.
+- Theme: NLP, Word Embeddings
+- Keywords: Word vectors, embeddings, multilingual
+- Landing Page: URL from the paper.
+- Version: Not mentioned.
+- Format: Text (vectors)
+- Task: Pre-training, embeddings
+
+I need to ensure that each dataset is correctly identified and that the metadata fields are filled based on the information provided in the paper.
+</think>

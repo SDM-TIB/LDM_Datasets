@@ -1,0 +1,11 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the given research paper. The paper is about a system developed for SemEval 2014 Task 7, which involves clinical text analysis. The task has two subtasks: recognizing disorder entities and mapping them to UMLS CUIs.
+
+First, I'll read through the paper to identify any datasets mentioned. The paper mentions the training and development sets from the 2013 ShARe/CLEF challenge. It also talks about the test set used in SemEval 2014 Task 7.
+
+Looking at the details, the training set has 199 notes, the development set has 99 notes, and the test set has 133 notes. These notes are from clinical texts like discharge summaries, radiology reports, and ECG/ECHO reports. The entities are annotated and mapped to UMLS CUIs, with some entities marked as CUI-less if they don't map to SNOMED-CT.
+
+I need to structure this information into the required JSON format. Each dataset should have metadata like creators, description, title, etc. The creators are the authors of the paper, but since the datasets are from previous challenges, I might need to reference those authors. However, the paper doesn't provide explicit references for the datasets, so I'll proceed with the information given.
+
+I'll create two dataset entries: one for the training and development sets from the 2013 ShARe/CLEF challenge and another for the test set from SemEval 2014 Task 7. Each will include the relevant metadata fields based on the paper's description.
+</think>

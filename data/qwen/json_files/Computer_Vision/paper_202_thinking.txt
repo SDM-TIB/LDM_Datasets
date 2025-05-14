@@ -1,0 +1,21 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll go through the abstract and introduction to get an overview. The paper discusses a multistage model for robust face alignment using deep neural networks. It mentions several datasets in the experiments section, which is where most of the datasets are likely to be listed.
+
+Looking at the "IV. EXPERIMENTS" section, the authors evaluate their method on several datasets:
+
+1. **300-W**: This is a widely used dataset for face alignment, containing images from four sources: AFW, LFPW, HELEN, and IBUG. It's split into training and test sets with 68 landmarks each.
+
+2. **300-W private test set**: This is an extension of the 300-W dataset, specifically used for the 300-W Challenge, with 300 indoor and 300 outdoor images.
+
+3. **COFW**: Focuses on occluded faces, with training and test sets, each annotated with 29 landmarks, later reannotated to 68.
+
+4. **WFLW**: A large dataset with 10,000 images, annotated with 98 landmarks, focusing on challenging conditions like occlusion, pose, and illumination.
+
+Each of these datasets is described in the paper, and their usage is detailed in the experiments. I'll need to extract metadata for each, including creators, descriptions, titles, publication years, themes, keywords, and tasks.
+
+For each dataset, I'll look up the references to find creators and publication years. For example, 300-W is cited as [25], which refers to Sagonas et al. (2013). COFW is cited as [7], referring to Burgos-Artizzu et al. (2013). WFLW is cited as [34], referring to Wu et al. (2018).
+
+I'll structure each dataset entry with the required metadata fields, ensuring accuracy based on the paper's descriptions and references.
+</think>

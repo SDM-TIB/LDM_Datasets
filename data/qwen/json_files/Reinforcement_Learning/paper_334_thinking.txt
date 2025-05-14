@@ -1,0 +1,50 @@
+<think>
+Alright, I need to extract the datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Energy-efficient Amortized Inference with Cascaded Deep Classifiers" by Jiaqi Guan and others. It discusses a novel framework for optimizing prediction accuracy and energy cost in deep neural networks, particularly for image classification tasks.
+
+Looking through the abstract, I see that the experiments were conducted on several image classification datasets. The datasets mentioned are CIFAR-10, CIFAR-100, and ImageNet32x32. 
+
+Now, I'll go through each section to gather more details about these datasets.
+
+In the introduction, the authors mention that their method is tested on image classification datasets, specifically CIFAR-10, CIFAR-100, and ImageNet. They describe these datasets as containing 32x32 RGB images.
+
+In the "Datasets" section under the "Implementation and Experimental Setting," the authors provide more details:
+
+- **CIFAR-10**: 50,000 training images and 10,000 test images with 10 classes.
+- **CIFAR-100**: 50,000 training images and 10,000 test images with 100 classes.
+- **ImageNet32x32**: A downsampled version of ImageNet, containing 1.2 million training images and 50,000 test images with 1000 classes.
+
+The authors also mention that these datasets are used to benchmark their method, and they provide details about the structure of the ResNet models used for each dataset.
+
+Now, I'll structure the metadata for each dataset based on the information gathered.
+
+For **CIFAR-10**:
+- **Creators**: The dataset was created by Alex Krizhevsky and Geoffrey Hinton.
+- **Description**: A subset of the 80 million tiny images dataset, containing 60,000 32x32 color images divided into 10 classes.
+- **Title**: CIFAR-10
+- **Issued**: 2009
+- **Theme**: Computer Vision, Image Classification
+- **Keywords**: Image classification, 32x32 images, 10 classes
+- **Task**: Image classification
+
+For **CIFAR-100**:
+- **Creators**: Same as CIFAR-10.
+- **Description**: Similar to CIFAR-10 but with 100 classes, each containing 600 images.
+- **Title**: CIFAR-100
+- **Issued**: 2009
+- **Theme**: Computer Vision, Image Classification
+- **Keywords**: Image classification, 32x32 images, 100 classes
+- **Task**: Image classification
+
+For **ImageNet32x32**:
+- **Creators**: The original ImageNet dataset was created by Fei-Fei Li, but the downsampled version is mentioned in the paper.
+- **Description**: A downsampled version of ImageNet, containing 32x32 RGB images.
+- **Title**: ImageNet32x32
+- **Issued**: 2017 (as per the paper's reference)
+- **Theme**: Computer Vision, Image Classification
+- **Keywords**: Image classification, 32x32 images, 1000 classes
+- **Task**: Image classification
+
+I'll ensure that each dataset's metadata is accurately represented based on the information provided in the paper.
+</think>

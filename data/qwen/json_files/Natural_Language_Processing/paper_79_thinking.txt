@@ -1,0 +1,15 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about structured pruning of BERT-based question answering models. I need to identify all the datasets used or mentioned and describe them using the specified metadata vocabulary.
+
+First, I'll read through the paper to spot any dataset names. I notice that the paper mentions SQuAD 2.0 and Natural Questions (NQ). These are both well-known datasets in the field of question answering.
+
+Next, I'll look for more details about each dataset. SQuAD 2.0 is described as a dataset of questions from Wikipedia passages, created by human annotators. It includes both answerable and unanswerable questions. NQ, on the other hand, uses Google search queries and provides answers from Wikipedia passages, making it more natural as the questions were asked without seeing the passage first.
+
+Now, I'll check the references section of the paper to find the full citations for these datasets. For SQuAD 2.0, the citation is from Rajpurkar et al., 2018, and for NQ, it's from Kwiatkowski et al., 2019.
+
+Using this information, I'll structure each dataset according to the metadata fields. The creators are the authors listed in the references. The descriptions are based on how the paper describes the datasets. The titles are the dataset names. The issued years are taken from the references. Since these datasets are in English, the language field is set to "English". The themes are "Question Answering" for both. The keywords include "Question answering", "Natural language processing", and the dataset names. The landing pages are the URLs from the references. The formats are "Text" as they are text-based datasets. The tasks are "Question Answering" for both.
+
+I need to ensure that all fields are correctly filled based on the information extracted. If any field isn't applicable or not mentioned, it should be left empty. In this case, all necessary information is available.
+
+Finally, I'll compile the JSON response with the extracted datasets, making sure to follow the structure and only include the required fields.
+</think>

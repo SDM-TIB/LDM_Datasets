@@ -1,0 +1,128 @@
+[
+    {
+        "dcterms:creator": [
+            "Yamada, Ikuya",
+            "Shindo, Hiroyuki",
+            "Takeda, Hideaki",
+            "Takefuji, Yoshiyasu"
+        ],
+        "dcterms:description": "Wikipedia2Vec is a dataset that embeds words and entities (Wikipedia URLs) into a common vector space. It is trained using a combination of skipgram Word2Vec, a graph loss based on Wikipedia hyperlink structure, and a version of Word2Vec where words are predicted from entities.",
+        "dcterms:title": "Wikipedia2Vec",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Entity Embeddings"
+        ],
+        "dcat:keyword": [
+            "Entity embeddings",
+            "Word embeddings",
+            "Wikipedia URLs"
+        ],
+        "dcat:landingPage": "https://github.com/ikuyaw/Wikipedia2Vec",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Vectors",
+        "mls:task": [
+            "Entity Embedding",
+            "Word Embedding"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Petroni, Fabio",
+            "Rocktäschel, Tim",
+            "Lewis, Patrick",
+            "Bakhtin, Anton",
+            "Wu, Yuxiang",
+            "Miller, Alexander H.",
+            "Riedel, Sebastian"
+        ],
+        "dcterms:description": "LAMA (LAnguage Model Analysis) is a benchmark dataset for evaluating the factual and commonsense knowledge of pretrained language models. It consists of two subsets: LAMA-Google-RE and LAMA-T-REx, which are aimed at factual knowledge.",
+        "dcterms:title": "LAMA",
+        "dcterms:issued": "2019",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Knowledge Representation"
+        ],
+        "dcat:keyword": [
+            "Language models",
+            "Knowledge extraction",
+            "Factual knowledge"
+        ],
+        "dcat:landingPage": "https://github.com/facebookresearch/LAMA",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Knowledge Extraction",
+            "Question Answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Zhang, Zhilin",
+            "Han, Xu",
+            "Liu, Zhiyuan",
+            "Jiang, Xin",
+            "Sun, Maosong",
+            "Liu, Qun"
+        ],
+        "dcterms:description": "FewRel is a dataset for few-shot relation classification. It contains sentences with annotated subject and object entity mentions, their oracle entity IDs, and their relation, which must be predicted.",
+        "dcterms:title": "FewRel",
+        "dcterms:issued": "2019",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Relation Classification"
+        ],
+        "dcat:keyword": [
+            "Relation classification",
+            "Few-shot learning",
+            "Entity mentions"
+        ],
+        "dcat:landingPage": "https://github.com/thunlp/ERNIE",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Relation Classification",
+            "Few-shot Learning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Hoffart, Johannes",
+            "Yosef, Mohamed Amir",
+            "Bordino, Ilaria",
+            "Fäurstauenau, Hagen",
+            "Pinkal, Manfred",
+            "Spaniol, Marc",
+            "Taneva, Bilyana",
+            "Thater, Stefan",
+            "Weikum, Gerhard"
+        ],
+        "dcterms:description": "AIDA is a dataset for entity linking in news text. It contains documents with annotated entity spans, which must be predicted and linked to the correct Wikipedia URLs.",
+        "dcterms:title": "AIDA",
+        "dcterms:issued": "2011",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Entity Linking"
+        ],
+        "dcat:keyword": [
+            "Entity linking",
+            "News text",
+            "Wikipedia URLs"
+        ],
+        "dcat:landingPage": "https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/aida/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Entity Linking",
+            "Named Entity Recognition"
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll look through the abstract and introduction to get an overview. The paper focuses on causal sentence detection using transfer learning with models like ELMO and BERT. It mentions several datasets, including SemEval-2010, CausalTB, EventSL, and BioCausal.
+
+Next, I'll go through the "3 Datasets" section in detail. Here, the authors describe each dataset they used:
+
+1. **SemEval-2010 (Task 8)**: This dataset contains 10,674 sentences, with 1,325 causal instances. It's used for relation extraction tasks, focusing on cause-effect relationships.
+
+2. **CausalTB**: Derived from the TimeBank corpus, it has 2,470 sentences, with 244 causal instances. The authors used C-SIGNAL and CLINK tags to identify causal sentences.
+
+3. **EventSL**: From the EventStoryLine corpus, it contains 4,107 sentences, with 77 causal instances. The authors used PLOT LINK tags to identify causal relationships.
+
+4. **BioCausal**: The authors developed this biomedical dataset, which includes 13,342 sentences (7,562 causal) in the full version and a subset of 2,000 sentences (1,113 causal) publicly available.
+
+Now, I'll extract the metadata for each dataset based on the provided vocabulary:
+
+- **dcterms:creator**: The authors of the datasets. For SemEval, it's Hendrickx et al. For CausalTB, it's Mirza et al. For EventSL, it's Caselli and Vossen. BioCausal's creators are the paper's authors: Kyriakakis, Androutsopoulos, Ginés, and Saudabayev.
+
+- **dcterms:description**: Summarize each dataset's purpose and content as described in the paper.
+
+- **dcterms:title**: The name of each dataset.
+
+- **dcterms:issued**: The publication year of each dataset. SemEval-2010 was published in 2009, CausalTB in 2014, EventSL in 2017, and BioCausal in 2020 (assuming the paper was published then).
+
+- **dcterms:language**: All datasets are in English.
+
+- **dcterms:identifier**: URLs or DOIs where available. BioCausal's subset is available on archive.org.
+
+- **dcat:theme**: Categories like Relation Extraction, Causality Detection, Biomedical Text.
+
+- **dcat:keyword**: Relevant keywords for each dataset.
+
+- **dcat:landingPage**: URLs for accessing the datasets.
+
+- **dcterms:hasVersion**: For BioCausal, there's a Large and Small version.
+
+- **dcterms:format**: Text format for all datasets.
+
+- **mls:task**: Tasks each dataset is used for, such as causal sentence detection.
+
+I'll structure each dataset into a JSON object with these fields, ensuring all information is accurately captured.
+</think>

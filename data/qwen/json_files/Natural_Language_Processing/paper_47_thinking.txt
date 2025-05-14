@@ -1,0 +1,55 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about Grapheme-to-Phoneme (G2P) conversion using token-level ensemble distillation. 
+
+First, I'll read through the paper to identify any datasets that are mentioned. I'll start by looking at the abstract, introduction, and the sections where experiments and results are discussed.
+
+In the abstract, the paper mentions using the CMU-Dict dataset and an internal English dataset. That's a good start. 
+
+Moving to the introduction, I don't see any additional datasets mentioned beyond what's already in the abstract. 
+
+In the "Experiments and Results" section, the authors provide more details about the datasets they used. They mention two datasets: the publicly available CMUDict 0.7b and an internal dataset. 
+
+Looking further, the CMUDict dataset is split into training, validation, and test sets with specific numbers of words. The internal dataset also has its own split and includes more complex elements like uppercase and lowercase letters and stress markings. 
+
+Additionally, the authors mention crawling nearly 2,000,000 unlabeled source words from the web, but they processed and selected 300,000 for their experiments. However, this doesn't seem to be a dataset per se but rather a collection of data used for training.
+
+I should also check the references section for any citations related to datasets. The CMUDict dataset is cited in reference [5], which is a paper by Chae et al. from 2018. 
+
+So, the datasets identified are:
+1. CMUDict 0.7b
+2. Internal English dataset
+
+Now, I'll extract the metadata for each dataset based on the information provided in the paper.
+
+For CMUDict 0.7b:
+- **dcterms:creator**: The authors of the paper are Hao Sun, Xu Tan, etc., but the dataset's creators are not explicitly mentioned. However, since the dataset is cited in reference [5], the creators would be the authors of that reference, which is Chae et al. (2018).
+- **dcterms:description**: It's a publicly available dataset used for G2P conversion, split into training, validation, and test sets.
+- **dcterms:title**: CMUDict 0.7b
+- **dcterms:issued**: The year from reference [5] is 2018.
+- **dcterms:language**: English
+- **dcterms:identifier**: The URL from the reference is https://github.com/ctr4si/NSGD G2P.
+- **dcat:theme**: Speech Processing, G2P Conversion
+- **dcat:keyword**: Grapheme-to-phoneme, Speech Recognition, Phonetics
+- **dcat:landingPage**: The URL from the reference.
+- **dcterms:hasVersion**: 0.7b
+- **dcterms:format**: Text
+- **mls:task**: Grapheme-to-phoneme conversion
+
+For the Internal English dataset:
+- **dcterms:creator**: The authors of the paper (Hao Sun, Xu Tan, etc.) since it's their internal dataset.
+- **dcterms:description**: An internal dataset containing words with uppercase, lowercase, and stress markings, split into training, validation, and test sets.
+- **dcterms:title**: Internal English dataset
+- **dcterms:issued**: Not specified.
+- **dcterms:language**: English
+- **dcterms:identifier**: Not provided.
+- **dcat:theme**: Speech Processing, G2P Conversion
+- **dcat:keyword**: Grapheme-to-phoneme, Speech Recognition, Phonetics
+- **dcat:landingPage**: Not provided.
+- **dcterms:hasVersion**: Not specified.
+- **dcterms:format**: Text
+- **mls:task**: Grapheme-to-phoneme conversion
+
+I need to ensure that the creators are correctly identified. For CMUDict, the creators are from the reference, while for the internal dataset, it's the authors of the paper.
+
+I also need to check if there are any other datasets mentioned, but from the paper, only these two are explicitly named.
+</think>

@@ -1,0 +1,22 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about integrating language and vision to generate natural language descriptions of videos. 
+
+First, I'll read through the paper to identify any datasets that are mentioned. I notice that in the introduction, they mention using a dataset collected by Chen and Dolan (2011). That's one dataset. 
+
+Looking further into the methods section, they also reference the UIUC 15 scene dataset and the SUN 397 scene dataset. These are used for scene recognition. 
+
+So, the datasets mentioned are:
+1. Chen and Dolan (2011) dataset
+2. UIUC 15 scene dataset
+3. SUN 397 scene dataset
+
+Now, I need to extract metadata for each dataset using the specified vocabulary. 
+
+For the Chen and Dolan dataset, the creators are Chen and Dolan. The description is that it's a YouTube video dataset with human descriptions. The title is "Chen and Dolan (2011) Dataset". It was issued in 2011. The language is English. The format is video. The theme is video description and scene recognition. Keywords include video, description, and scene. The task is video description.
+
+For the UIUC 15 scene dataset, the creators are Lazebnik, Schmid, and Ponce. The description is about scene recognition with 15 categories. The title is "UIUC 15 Scene Dataset". Issued in 2006. Language is English. Format is image. Theme is scene recognition. Keywords are scene, recognition, image. Task is scene recognition.
+
+For the SUN 397 dataset, the creators are Xiao, Hays, and others. Description is about scene recognition with 397 categories. Title is "SUN 397 Scene Dataset". Issued in 2010. Language is English. Format is image. Theme is scene recognition. Keywords include scene, recognition, image. Task is scene recognition.
+
+I need to structure this information into JSON format, ensuring each dataset has all the required fields, even if some are empty.
+</think>

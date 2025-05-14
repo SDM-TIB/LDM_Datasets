@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "On Layer Normalization in the Transformer Architecture" by Ruibin Xiong et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper. The abstract provides a brief overview of the research, and the introduction often outlines the context and significance of the work, which may include references to datasets.
+
+Next, I will focus on the **experiments section** (Section 4) where the authors typically describe the datasets used for their experiments. In this paper, the authors mention two main tasks: **machine translation** and **unsupervised pre-training**. I will look for specific datasets associated with these tasks.
+
+Upon reviewing the paper, I find the following datasets mentioned:
+
+1. **IWSLT14 German-to-English (De-En) dataset**: This dataset is used for machine translation tasks. The authors specify that it contains about 153K sentence pairs for training, with 7K pairs each for validation and testing.
+
+2. **WMT14 English-to-German (En-De) dataset**: This dataset is also used for machine translation and consists of approximately 4.5 million training parallel sentence pairs.
+
+3. **BookCorpus**: This dataset is used for unsupervised pre-training. The authors mention that it is no longer freely distributed, but they followed guidelines to collect it themselves. The combined dataset with English Wikipedia contains roughly 3.4 billion words.
+
+4. **Microsoft Research Paraphrase Corpus (MRPC)**: This dataset is used for evaluating paraphrase detection, consisting of sentence pairs with human annotations for semantic equivalence.
+
+5. **Recognizing Textual Entailment (RTE)**: This dataset is used for textual entailment tasks, derived from a series of annual challenges.
+
+Now, I will gather the full citations for each dataset from the references section of the paper:
+
+- For **IWSLT14**:
+  > Cettolo, M., Girardi, C., & Federico, M. (2012). *WIT3: Web Inventory of Transcribed and Translated Talks*. In Proceedings of the Eighth International Workshop on Spoken Language Translation (IWSLT), 2012.
+
+- For **WMT14**:
+  > Bojar, O., et al. (2014). *Findings of the 2014 Workshop on Statistical Machine Translation*. In Proceedings of the Ninth Workshop on Statistical Machine Translation, 2014.
+
+- For **BookCorpus**:
+  > Zhu, Y., Kiros, R., Zemel, R., Salakhutdinov, R., Urtsasun, R., Torralba, A., & Fidler, S. (2015). *Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books*. arXiv preprint arXiv:1506.06724.
+
+- For **MRPC**:
+  > Dolan, W. B., & Brockett, C. (2005). *Automatically Constructing a Corpus of Sentential Paraphrases*. In Proceedings of the International Workshop on Paraphrasing, 2005.
+
+- For **RTE**:
+  > Bentivogli, L., Dagan, I., Dang, H. T., Giampiccolo, D., & Magnini, B. (2009). *The Fifth PASCAL Recognizing Textual Entailment Challenge*. In Proceedings of the Fifth PASCAL Recognizing Textual Entailment Challenge, 2009.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

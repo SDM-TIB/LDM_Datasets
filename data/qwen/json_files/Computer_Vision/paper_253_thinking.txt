@@ -1,0 +1,28 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "KDEHatEval at SemEval-2019 Task 5: A Neural Network Model for Detecting Hate Speech in Twitter" by Umme Aymun Siddiqua, Abu Nowshed Chy, and Masaki Aono. The abstract mentions that the team participated in SemEval-2019 Task 5, which focuses on detecting hate speech in tweets. 
+
+Looking into the introduction, the authors reference the work by Basile et al. (2019) who proposed the HatEval task. This task involves detecting hate speech in tweets targeting women and immigrants in English and Spanish. The paper specifically mentions using the English dataset from this task.
+
+In the section "4.1 Dataset Collection," the authors detail that the HatEval task provides a benchmark dataset with training, validation, and test sets. The English dataset contains 9000, 1000, and 2971 annotated tweets, respectively. 
+
+I should check if there are any other datasets mentioned. The paper also references pre-trained models like DeepMoji, InferSent, and BERT, but these are models, not datasets. The main dataset used is the SemEval-2019 Task 5 dataset, specifically the English part.
+
+Now, I'll structure the metadata for this dataset based on the provided vocabulary.
+
+- **dcterms:creator**: The authors of the dataset are Basile et al., as cited in the paper.
+- **dcterms:description**: The dataset is for detecting hate speech in English tweets targeting women and immigrants.
+- **dcterms:title**: "SemEval-2019 Task 5: Multilingual Detection of Hate Speech (HatEval)"
+- **dcterms:issued**: The year 2019, as the task was part of SemEval-2019.
+- **dcterms:language**: English, as the paper focuses on the English subset.
+- **dcterms:identifier**: The DOI for the SemEval-2019 proceedings, which is 10.18653/v1/W19-56.
+- **dcat:theme**: Themes include Natural Language Processing, Hate Speech Detection, and Social Media Analysis.
+- **dcat:keyword**: Keywords like hate speech, Twitter, SemEval, and multilingual.
+- **dcat:landingPage**: The URL to the SemEval-2019 proceedings.
+- **dcterms:hasVersion**: The English subset is a specific version.
+- **dcterms:format**: Text, as the dataset contains tweets.
+- **mls:task**: Tasks include hate speech detection, aggression detection, and target identification.
+
+I need to ensure all fields are correctly filled based on the paper's information.
+</think>

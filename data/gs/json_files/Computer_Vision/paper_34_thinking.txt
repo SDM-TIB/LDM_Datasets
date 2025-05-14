@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Long Distance Relationships without Time Travel: Boosting the Performance of a Sparse Predictive Autoencoder in Sequence Modeling" by Jeremy Gordon et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, method, and experiments sections** to identify any datasets mentioned. The abstract mentions the use of a "non-deterministic (stochastic) partially-observable sequence learning task consisting of high-Markov-order sequences of MNIST digits" and also references the **Penn Treebank (PTB) dataset** for a next word prediction task. This indicates that there are at least two datasets involved.
+
+Next, I will focus on the **experiments section** (section 3), which explicitly discusses the tasks and datasets used. In **section 3.1**, the authors describe the **Stochastic Sequential MNIST (ssMNIST)** task, which is based on sequences of MNIST digits. They provide details about how the sequences are generated and the grammar used for this task. This section confirms that the **ssMNIST** dataset is indeed a key dataset in their experiments.
+
+In **section 3.2**, the authors mention the **Penn Treebank (PTB)** dataset again, stating that they present language modeling results using this dataset with preprocessing as per Mikolov et al. This reinforces the importance of the PTB dataset in their work.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+1. For the **Stochastic Sequential MNIST (ssMNIST)**, the dataset is derived from the original MNIST dataset, which is widely known. The citation for the original MNIST dataset is:
+   > Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. *The MNIST Database of Handwritten Digits*. http://yann.lecun.com/exdb/mnist/.
+
+2. For the **Penn Treebank (PTB)** dataset, the citation is:
+   > Marcus, M., Kim, G., Marcinkiewicz, M. A., MacIntyre, R., Bies, A., Ferguson, M., Katz, K., and Schasberger, B. *The Penn Treebank: Annotating Predicate Argument Structure*. In Proceedings of the Workshop on Human Language Technology, 1994, Association for Computational Linguistics, pp. 114–119.
+
+With these citations in hand, I will summarize the datasets:
+
+- **Stochastic Sequential MNIST (ssMNIST)**: A task based on sequences of MNIST digits, generated using a specific grammar.
+- **Penn Treebank (PTB)**: A dataset used for language modeling tasks, known for its annotated structure.
+
+Finally, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all information is accurately represented for future reference or processing.

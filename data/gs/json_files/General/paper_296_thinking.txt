@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "BioFLAIR: Pretrained Pooled Contextualized Embeddings for Biomedical Sequence Labeling Tasks" by Shreyas Sharma and Ron Daniel, Jr., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, method, and results sections** to identify any datasets mentioned. The abstract discusses the evaluation of FLAIR on various bio NER tasks, which suggests that datasets are involved.
+
+In the **introduction**, the authors mention that FLAIR has achieved state-of-the-art results on common NER datasets like CoNLL-03 and Ontonotes, but I need to find specific datasets used in their experiments.
+
+Next, I will focus on the **method section**, particularly where they describe the pretraining corpora and benchmark datasets. In **Table 1**, they list three corpora extracted from PubMed, which are:
+
+1. **PubMed (V1)**: A 5% sample of PubMed abstracts until 2015, containing 1,219,734 abstracts.
+2. **PubMed (V2)**: A sample of PubMed abstracts after 2000, containing 261,736 abstracts.
+3. **PubMed (V3)**: Another sample of PubMed abstracts after 2000, containing 281,394 abstracts.
+
+In **Table 2**, the authors provide a list of benchmark corpora used for evaluation, which includes:
+
+1. **NCBI-disease**: Contains 7,287 sentences related to disease entities.
+2. **BC5CDR-disease**: Contains 15,030 sentences related to disease entities.
+3. **BC5CDR**: Contains 15,030 sentences related to disease and drug/chemical entities.
+4. **JNLPBA**: Contains 24,806 sentences related to gene/protein entities.
+5. **Species-800**: Contains 8,193 sentences related to species entities.
+6. **LINNAEUS**: Contains 23,152 sentences related to species entities.
+
+The **results section** confirms that these datasets were used for evaluation, providing further validation of their relevance.
+
+Now, I will check the **references section** to find full citations for these datasets. The relevant citations are:
+
+- For **NCBI-disease**:
+  > Doğan, Rezarta Islamaj, Robert Leaman, and Zhiyong Lu. "NCBI disease corpus: a resource for disease name recognition and concept normalization." *Journal of biomedical informatics* 47 (2014): 1-10.
+
+- For **BC5CDR-disease**:
+  > Li, Jiao, et al. "BioCreative V CDR task corpus: a resource for chemical disease relation extraction." *Database* 2016 (2016).
+
+- For **JNLPBA**:
+  > Kim, Jin-Dong, et al. "Introduction to the bio-entity recognition task at JNLPBA." *Proceedings of the international joint workshop on natural language processing in biomedicine and its applications*. Association for Computational Linguistics, 2004.
+
+- For **Species-800**:
+  > Pafilis, Evangelos, et al. "The SPECIES and ORGANISMS resources for fast and accurate identification of taxonomic names in text." *PLoS One* 8.6 (2013): e65390.
+
+- For **LINNAEUS**:
+  > Gerner, Martin, Goran Nenadic, and Casey M. Bergman. "LINNAEUS: a species name identification system for biomedical literature." *BMC bioinformatics* 11.1 (2010): 85.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research.

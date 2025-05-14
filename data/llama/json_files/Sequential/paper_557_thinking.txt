@@ -1,0 +1,18 @@
+>
+
+<think>
+To extract datasets from the research paper titled "Sentence-Level Propaganda Detection in News Articles with Transfer Learning and BERT-BiLSTM-Capsule Model" by George-Alexandru Vlad, Mircea-Adrian Tanase, Cristian Onose and Dumitru-Clementin Cercel, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, materials and methods, and results sections** to identify any datasets that are mentioned or referenced. The abstract mentions the SLC task and the use of various datasets for training and evaluation.
+
+In the **introduction**, the authors discuss the importance of propaganda detection in news articles and mention the SLC task.
+
+Next, I will focus on the **materials and methods section**, particularly the subsections that detail the datasets used for training and evaluation. Here, the authors mention the following datasets:
+
+1. **SLC dataset**: This dataset contains 350 articles annotated for the presence of propaganda with two labels: propaganda and non-propaganda.
+2. **Emotion dataset**: This dataset is obtained by unifying a series of datasets annotated for different classes of emotions. The authors use a solution to unify multiple emotion datasets and add the Daily dialogue dataset and the Semeval-2019 Task 3 dataset to augment the emotion dataset.
+3. **Daily dialogue dataset**: This dataset contains 11,318 transcribed dialogues manually annotated for 7 emotions: neutral, anger, disgust, fear, happiness, sadness, and surprise.
+4. **Semeval-2019 Task 3 dataset**: This dataset contains 15k records for three emotion classes (happy, sad, and angry) and 15k records not belonging to any of the previously mentioned emotion classes.
+5. **Proppy dataset**: This dataset is designed by BarrA on-CedeEno et al. to monitor news sources and compute a propaganda index using a maximum entropy classifier based on a variety of features including n-grams, readability scores, and lexicon features.
+6. **Czech newspaper articles dataset**: This dataset is introduced by Baisa et al. and contains over 5,000 Czech newspaper articles annotated for propaganda use, with a large set of features extracted for each one.
+</think>

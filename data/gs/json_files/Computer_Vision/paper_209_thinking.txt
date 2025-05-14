@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Kernel Transformer Networks for Compact Spherical Convolution" by Yu-Chuan Su and Kristen Grauman, I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research and may mention datasets used for validation. The introduction often elaborates on the context and significance of the datasets.
+
+Next, I will focus on the **experiments section**, which typically contains detailed descriptions of the datasets used for training and evaluation. In this paper, the authors mention three datasets:
+
+1. **Spherical MNIST**: This dataset is constructed from the MNIST dataset by back-projecting the digits into equirectangular projection. The paper states that the digit labels are used to train the source CNN, but they are not used to train the KTN. The resolution of the resultant 360° image is 160x80.
+
+2. **Pano2Vid**: This is a real-world 360° video dataset that contains 86 videos from various categories. The authors sample frames from these videos for training and testing, resizing them to 640x320 resolution. The dataset is used to evaluate the KTN's performance without requiring labels for training.
+
+3. **Pascal VOC 2007**: This is a well-known perspective image dataset with object annotations. The authors back-project the object bounding boxes to equirectangular projection with a resolution of 640x320. This dataset is used solely for evaluation purposes.
+
+After identifying the datasets, I will check the **References section** for full citations. The citations for the datasets mentioned in the paper are as follows:
+
+- **Spherical MNIST**: The dataset is derived from the original MNIST dataset, which is cited as:
+  > Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. *The MNIST Database of Handwritten Digits*. 1998.
+
+- **Pano2Vid**: The citation for this dataset is:
+  > Yu-Chuan Su, Dinesh Jayaraman, and Kristen Grauman. *Pano2Vid: Automatic Cinematography for Watching 360° Videos*. In ACCV, 2016.
+
+- **Pascal VOC 2007**: The citation for this dataset is:
+  > Mark Everingham, Luc Van Gool, Christopher K. I. Williams, John Winn, and Andrew Zisserman. *The Pascal Visual Object Classes (VOC) Challenge*. In International Journal of Computer Vision, 2010.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing or review.

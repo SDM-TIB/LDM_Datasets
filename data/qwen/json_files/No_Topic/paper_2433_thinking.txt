@@ -1,0 +1,27 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. Let me go through the paper step by step.
+
+First, the paper is titled "FEW-SHOT REGRESSION VIA LEARNED BASIS FUNCTIONS" by Yi Loo and others. It's a conference paper from ICLR 2019. The abstract mentions few-shot learning and regression tasks, but doesn't specify datasets yet.
+
+Looking at the introduction, the authors discuss regression tasks and few-shot learning. They mention evaluating their model on sinusoidal regression tasks and introducing two more tasks: 1D heat equation and 2D Gaussian distribution. These are likely synthetic datasets used for testing their model.
+
+In the Related Work section, they reference the Omniglot dataset, which is a standard dataset for few-shot learning, but it's for classification, not regression. However, they don't use it in their experiments, so it's not a dataset they mention as being used.
+
+In the Results and Evaluation section, they detail their experiments on three tasks: sinusoidal regression, 1D heat equation, and 2D Gaussian distribution. These are all synthetic datasets created for the purpose of testing their few-shot regression model.
+
+The authors also mention comparing their model against existing methods like Meta-SGD and MAML, but these are algorithms, not datasets.
+
+In the Additional Details section (Appendix B), they provide more information about the datasets:
+
+1. **Sinusoidal Regression Task**: The target function is y(x) = A sin(ωx + φ) + ε, with parameters A, ω, φ, and noise ε. They sample these parameters uniformly from specific ranges.
+
+2. **1D Heat Equation Task**: The function models the temperature distribution over time in a rod, given by the heat equation. They sample 10 points on the curve for each task.
+
+3. **2D Gaussian Distribution Task**: The model predicts the probability distribution of a 2D Gaussian with varying mean and standard deviation.
+
+These datasets are synthetic, meaning they're generated for the purpose of the study rather than collected from real-world data. The authors don't reference external datasets but instead describe how they generate these tasks.
+
+In the references, they cite works that use other datasets like MNIST and Omniglot, but these aren't used in their experiments.
+
+So, the datasets mentioned are all synthetic and created specifically for evaluating their few-shot regression model. They don't cite any external datasets used in their experiments.
+</think>

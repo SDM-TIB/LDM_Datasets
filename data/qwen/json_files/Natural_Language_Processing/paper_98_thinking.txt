@@ -1,0 +1,17 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let's start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Transfer Learning in Biomedical Named Entity Recognition: An Evaluation of BERT in the PharmaCoNER task" by Cong Sun and Zhihao Yang. The abstract mentions the PharmaCoNER task, which is a Named Entity Recognition (NER) task for Spanish biomedical texts. This suggests that PharmaCoNER is a dataset used in the study.
+
+Looking into the introduction, the authors reference PharmaCoNER as the first NER task for Spanish biomedical texts. They also mention BERT, which is a language model, but BERT itself isn't a dataset. However, BERT is pre-trained on large datasets, which might be considered as datasets used in the research.
+
+In the Methods section, the authors discuss using Multilingual BERT and BioBERT. Multilingual BERT is pre-trained on Wikipedia in multiple languages, and BioBERT is pre-trained on Wikipedia, BooksCorpus, PubMed, and PMC. These pre-training datasets are crucial for the models' performance but are not explicitly named as datasets in the paper beyond their sources.
+
+The Results and Discussion section evaluates the models on the PharmaCoNER corpus, confirming its use as the primary dataset. The authors also mention the corpus being split into training, development, and test sets, which further indicates it's a dataset.
+
+In the references, I find that PharmaCoNER is cited as a dataset from Gonzalez-Agirre et al., 2019. This provides the creators, title, and year of the dataset. The description from the paper is that it's for recognizing chemical and protein entities in Spanish biomedical texts.
+
+Multilingual BERT and BioBERT are models, not datasets, but their pre-training data sources are datasets. However, the paper doesn't explicitly name these datasets beyond their sources (e.g., Wikipedia, PubMed). Since the paper doesn't provide specific names for these datasets, I won't include them unless they're explicitly mentioned.
+
+Therefore, the only dataset explicitly mentioned and described in the paper is PharmaCoNER.
+</think>

@@ -1,0 +1,36 @@
+<think>
+Alright, I need to extract the datasets mentioned in the provided research paper. Let's start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Learning to Classify Intents and Slot Labels Given a Handful of Examples" by Jason Krone, Yi Zhang, and Mona Diab. The abstract mentions three datasets: ATIS, TOP, and SNIPS. These are likely the datasets used in their experiments.
+
+Looking into the introduction, the authors discuss intent classification and slot filling, referencing the ATIS dataset as a well-known benchmark for dialog systems. They also mention SNIPS and TOP datasets, which are used for evaluating intent classification and slot filling services.
+
+In the Related Work section, the authors reference the FewRel dataset, which is used for few-shot relation classification. However, since the focus of this paper is on intent classification and slot filling, I'll focus on the datasets mentioned in the context of their experiments.
+
+The authors establish few-shot splits for three publicly available datasets: ATIS, SNIPS, and TOP. They provide statistics on utterance, intent, slot-label, and slot value counts for each dataset in Table 1. This confirms that these are the datasets used in their research.
+
+Now, I'll gather the metadata for each dataset:
+
+1. **ATIS (Air Travel Information System)**:
+   - Created by Hemphill et al. in 1990.
+   - Description: A dataset for dialog system research, focusing on airline domain conversations.
+   - Themes: Natural Language Processing, Dialog Systems.
+   - Keywords: Intent classification, Slot filling, Dialog systems.
+   - Tasks: Intent classification, Slot filling.
+
+2. **SNIPS**:
+   - Created by Coucke et al. in 2018.
+   - Description: A benchmark dataset for evaluating intent classification and slot filling services across multiple domains like music, media, and weather.
+   - Themes: Natural Language Processing, Intent Classification.
+   - Keywords: Intent classification, Slot filling, Multi-domain.
+   - Tasks: Intent classification, Slot filling.
+
+3. **TOP (Task Oriented Parsing)**:
+   - Created by Gupta et al. in 2018.
+   - Description: A dataset for task-oriented parsing, including navigation and event search, with hierarchical intent labels.
+   - Themes: Natural Language Processing, Task-oriented Dialog.
+   - Keywords: Intent classification, Slot filling, Hierarchical intents.
+   - Tasks: Intent classification, Slot filling.
+
+I'll structure this information into the required JSON format, ensuring each dataset includes the specified metadata fields.
+</think>

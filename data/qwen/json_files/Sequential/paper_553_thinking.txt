@@ -1,0 +1,59 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify the datasets.
+
+First, the paper is titled "Predicting Sentiment of Polish Language Short Texts" by Aleksander Wawer and Julita Sobiczewska. The abstract mentions using several Polish language datasets for sentiment analysis. 
+
+Looking at Section 2, the authors describe the datasets used:
+
+1. **Polish Sentiment Treebank (TW)**: This is mentioned in 2.1. It has versions 1.0 and 2.0. The description includes that it's a dependency treebank with sentiment annotations, containing sentences from Składnica Treebank and product reviews. It's available for download.
+
+2. **Twitter Data**: Mentioned in 2.2. It contains 1000 Polish tweets manually labeled for sentiment. Due to Twitter's policy, it's not publicly downloadable.
+
+3. **Movie Reviews**: Described in 2.3. This dataset has 1000 manually collected movie reviews from ilmweb.pl, scaled into three sentiment categories. The reviews often have spelling mistakes and slang.
+
+Now, I'll extract the metadata for each dataset based on the provided vocabulary.
+
+For **Polish Sentiment Treebank (TW)**:
+- **Creator**: The authors of the paper, Aleksander Wawer and Julita Sobiczewska, are the creators since they developed and expanded the dataset.
+- **Description**: It's a treebank with sentiment annotations, including various parts like Składnica and product reviews.
+- **Title**: "Polish Sentiment Treebank (TW)"
+- **Issued**: The paper was published in 2019, but the dataset's version 2.0 was released in August 2018.
+- **Language**: Polish.
+- **Identifier**: The URL provided is http://zil.ipipan.waw.pl/TreebankWydzwieku.
+- **Theme**: Sentiment Analysis, Natural Language Processing.
+- **Keyword**: Sentiment treebank, Polish language, dependency trees.
+- **Landing Page**: Same as identifier.
+- **Version**: Version 2.0.
+- **Format**: Text.
+- **Task**: Sentiment analysis.
+
+For **Twitter Data**:
+- **Creator**: The authors collected and labeled the tweets.
+- **Description**: 1000 Polish tweets labeled for sentiment, focusing on various topics.
+- **Title**: "Twitter Data"
+- **Issued**: Not explicitly stated, but since the paper is from 2019, it's likely around that time.
+- **Language**: Polish.
+- **Identifier**: Not provided.
+- **Theme**: Sentiment Analysis, Social Media.
+- **Keyword**: Tweets, sentiment labels.
+- **Landing Page**: Not available.
+- **Version**: Not mentioned.
+- **Format**: Text.
+- **Task**: Sentiment analysis.
+
+For **Movie Reviews**:
+- **Creator**: The authors collected and labeled the reviews.
+- **Description**: 1000 movie reviews from ilmweb.pl, scaled into three sentiment categories.
+- **Title**: "Movie Reviews"
+- **Issued**: Around 2019.
+- **Language**: Polish.
+- **Identifier**: URL is http://www.ilmweb.pl.
+- **Theme**: Sentiment Analysis, Movie Reviews.
+- **Keyword**: Movie reviews, sentiment labels.
+- **Landing Page**: http://www.ilmweb.pl.
+- **Version**: Not mentioned.
+- **Format**: Text.
+- **Task**: Sentiment analysis.
+
+I need to ensure that each field is correctly filled based on the paper's information. For example, the creators are the authors since they developed the datasets. The landing pages are URLs provided in the paper. The tasks are all sentiment analysis as per the paper's focus.
+</think>

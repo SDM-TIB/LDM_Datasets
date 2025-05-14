@@ -1,0 +1,17 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the given research paper. The paper is about emotion detection from conversational triplets using hierarchical encoders. It's a submission to SemEval-2019 Task 3. 
+
+First, I'll read through the abstract and introduction to see if any datasets are mentioned. The abstract mentions the EmoContext task, which is part of SemEval-2019. That's a clue that the dataset used is related to this task.
+
+Looking at the introduction, the authors reference the EmoContext task (Chatterjee et al., 2019b). This indicates that the dataset is from this task. The task involves conversational triplets where the goal is to predict the emotion of the last turn. 
+
+In the approach section, the authors mention using Ekphrasis for preprocessing. Ekphrasis is a tool, not a dataset, so I can ignore that. They also talk about using GloVe and ELMo embeddings, which are pre-trained models, not datasets.
+
+In the evaluation section, they discuss their experiments and results on the test set. Since they're participating in SemEval-2019 Task 3, the dataset they used is the one provided by the task organizers. 
+
+I should check the references to find more details about the dataset. The paper cites Chatterjee et al., 2019b, which is the EmoContext task. Looking up that reference would provide details about the dataset, but since I don't have access to external sources, I'll assume it's the standard dataset provided for SemEval-2019 Task 3.
+
+So, the dataset used is the EmoContext dataset from SemEval-2019 Task 3. It's a text dataset in English, focusing on emotion detection in conversational contexts. The task involves predicting emotions from conversational triplets, so the dataset likely includes such triplets with labeled emotions.
+
+I'll structure the JSON with the metadata fields based on this information. The creator would be the authors of the EmoContext task, but since I don't have their names, I'll leave it as an empty list. The description will outline the dataset's purpose and content. The title is the dataset's name. The issued year is 2019. The language is English. The identifier and landing page are empty since I don't have a DOI or URL. The theme is emotion detection, and keywords include emotion, conversation, etc. The format is text, and the task is emotion detection.
+</think>

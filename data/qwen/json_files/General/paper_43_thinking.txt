@@ -1,0 +1,43 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll go through the abstract and introduction to get an overview. The paper focuses on causal sentence detection using transfer learning with models like ELMO and BERT. It mentions several datasets, including SemEval-2010, CausalTB, EventSL, and BioCausal.
+
+Next, I'll look into the "3 Datasets" section for detailed information. Here, the authors describe each dataset:
+
+1. **SemEval-2010 (Task 8)**: Contains 10,674 sentences, with 1,325 causal. It's used for relation extraction, focusing on cause-effect relationships.
+
+2. **CausalTB**: Derived from the TimeBank corpus, it has 2,470 sentences, 244 of which are causal. It uses C-SIGNAL and CLINK tags.
+
+3. **EventSL**: From the EventStoryLine corpus, it has 4,107 sentences, 77 causal. It uses PLOT LINK tags.
+
+4. **BioCausal**: A biomedical dataset with 13,342 sentences, 7,562 causal. A subset of 2,000 sentences is publicly available.
+
+Now, I'll extract metadata for each dataset using the provided vocabulary:
+
+- **dcterms:creator**: Look for authors in the dataset references. For example, SemEval-2010 is cited by Hendrickx et al., 2009.
+
+- **dcterms:description**: Summarize how the dataset is described in the paper.
+
+- **dcterms:title**: The name of the dataset.
+
+- **dcterms:issued**: The year the dataset was published, found in the references.
+
+- **dcterms:language**: English, as all datasets are in English.
+
+- **dcterms:identifier**: URLs or DOIs if available. For BioCausal-Small, the URL is provided.
+
+- **dcat:theme**: Categories like Relation Extraction, Causality Detection.
+
+- **dcat:keyword**: Relevant tags like causal sentences, biomedical.
+
+- **dcat:landingPage**: URLs for accessing the dataset, if available.
+
+- **dcterms:hasVersion**: Specific versions if mentioned. BioCausal has Large and Small versions.
+
+- **dcterms:format**: Text, as all datasets are textual.
+
+- **mls:task**: Tasks like causal sentence detection, relation extraction.
+
+I'll structure each dataset into a JSON object with these fields, ensuring all required information is included accurately.
+</think>

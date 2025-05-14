@@ -1,0 +1,15 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. Let me go through the paper step by step.
+
+First, I'll read the abstract and introduction to get an overview. The paper discusses SKETCHED-SGD, an algorithm for distributed SGD using sketching. It mentions experiments on a transformer model, an LSTM, and a residual network. These models are trained on specific datasets.
+
+Looking at the sections, the empirical results section (Section 5) details the experiments. The transformer model is trained on the WMT 2014 English to German translation task. The LSTM is also trained on the same translation task. The residual network is trained on the CIFAR-10 dataset.
+
+I need to identify the datasets used in these experiments. The WMT 2014 dataset is a standard machine translation corpus. CIFAR-10 is a well-known image classification dataset.
+
+Now, I'll extract metadata for each dataset. For WMT 2014, the creators are the WMT organizers, description is about translation, title is WMT 2014, issued year is 2014, language is English and German, format is text, task is machine translation.
+
+For CIFAR-10, the creators are Krizhevsky and Hinton, description is about image classification, title is CIFAR-10, issued year is 2009, format is image, task is image classification.
+
+I'll structure this information into JSON format as required.
+</think>

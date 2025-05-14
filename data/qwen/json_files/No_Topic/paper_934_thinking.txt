@@ -1,0 +1,66 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract. It mentions using dependency annotations for linguistic description, comparing linear and syntactic n-grams. No specific datasets are named here.
+
+Moving to the introduction, the authors discuss the use of linear n-grams and their limitations, especially in languages like German. They reference related work but don't mention specific datasets.
+
+In section 2, they describe syntactic n-grams and reference Sidorov et al. (2012) and Goldberg and Orwant (2013). These are methodological references, not datasets.
+
+Section 3 discusses related work, citing studies that use syntactic features but again, no specific datasets are mentioned.
+
+Section 4.2 mentions the Universal Dependencies (UD) treebanks. This is a key point. UD treebanks are datasets of annotated sentences for various languages. The authors use these to compare distances between heads and dependents across languages.
+
+In section 5, they describe their study using a corpus of 60 German PhD theses, split between linguistics and literary studies. This is another dataset they created or used for their analysis.
+
+Section 6 discusses the results and methods, including the use of MATE dependency parser trained on the TIGER Corpus. The TIGER Corpus is another dataset used for parsing.
+
+So, the datasets mentioned are:
+1. Universal Dependencies (UD) treebanks
+2. The corpus of 60 German PhD theses
+3. TIGER Corpus
+
+Now, I'll extract metadata for each dataset based on the paper's description.
+
+For UD treebanks:
+- Creator: The authors of UD, but the paper doesn't specify, so it's left as an empty list.
+- Description: Multilingual treebank dataset with dependency annotations.
+- Title: Universal Dependencies
+- Issued: 2017 (from the paper's reference)
+- Language: Multilingual
+- Identifier: Empty
+- Theme: Computational Linguistics, Dependency Parsing
+- Keywords: Dependency parsing, treebank, multilingual
+- Landing Page: Empty
+- Version: 2.0
+- Format: Text
+- Task: Dependency Parsing
+
+For the corpus of 60 German PhD theses:
+- Creator: The authors of the paper, Melanie Andresen and Heike Zinsmeister.
+- Description: Corpus of 60 German PhD theses in linguistics and literary studies.
+- Title: Corpus of German Academic Texts
+- Issued: 2017 (year of the paper)
+- Language: German
+- Identifier: Empty
+- Theme: Corpus Linguistics, Academic Writing
+- Keywords: Academic writing, German, PhD theses
+- Landing Page: Empty
+- Version: Empty
+- Format: Text
+- Task: Stylistic Analysis
+
+For TIGER Corpus:
+- Creator: The authors of TIGER, not specified in the paper.
+- Description: German treebank with syntactic annotations.
+- Title: TIGER Corpus
+- Issued: 2012 (from the paper's reference)
+- Language: German
+- Identifier: Empty
+- Theme: Computational Linguistics, German Syntax
+- Keywords: German, treebank, syntactic parsing
+- Landing Page: Empty
+- Version: Empty
+- Format: Text
+- Task: Dependency Parsing
+</think>

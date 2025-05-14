@@ -1,0 +1,29 @@
+>
+<think>
+To extract datasets from the research paper titled "9102nuJ71]LC.sc[1v52390.6091:viXraEXPLOITING UNSUPERVISED PRE-TRAINING AND AUTOMATEDFEATURE ENGINEERING FOR LOW-RESOURCE HATE SPEECHDETECTION IN POLISH" by Renard Korzeniowski RafaA Rolczy A nskiPrzemysAaw SadownikTomasz Korbak Marcin MoEzejko, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, materials and methods, and results sections** to identify any datasets that are mentioned or referenced. The abstract mentions the PolEval 2019 Task 6: Hate speech and bullying detection, which suggests that datasets are likely involved.
+
+In the **introduction**, the authors describe three parallel approaches that they followed: ine-tuning a pre-trained ULMFiT model to our classiication task, ine-tuning a pre-trained BERT model to our classiication task, and using the TPOT library to ind the optimal pipeline. They mention the use of CountVectorizer and recursive feature elimination guided by an extra-tree classiier with Gini criterion and dual logistic regression with L2 regularization.
+
+Next, I will focus on the **materials and methods section**, particularly the subsections that detail the datasets used for evaluation. Here, the authors mention the use of the following datasets:
+
+1. **PolEval 2019 Task 6 dataset**: This dataset is used for hate speech and bullying detection.
+2. **PolEval 2018 dataset**: This dataset is used for language modeling task.
+3. **PolEval 2018 Workshop dataset**: This dataset is used for language modeling task.
+
+In the **results section**, the authors confirm that these datasets were used for extrinsic evaluation of their models, which reinforces their relevance.
+
+Now, I will check the **references section** to find the full citations for these datasets:
+
+- For **PolEval 2019 Task 6 dataset**, the citation is:
+  > http://poleval.pl/tasks/task6
+
+- For **PolEval 2018 dataset**, the citation is:
+  > Ogrodniczuk M. and Aukasz KobyliA nski, editors (2018). Proceedingsof the PolEval 2018 Workshop, Warsaw, Poland. Institute of Computer Science, Polish Academy of Sciences.
+
+- For **PolEval 2018 Workshop dataset**, the citation is:
+  > Ogrodniczuk M. and Aukasz KobyliA nski, editors (2018). Proceedingsof the PolEval 2018 Workshop, Warsaw, Poland. Institute of Computer Science, Polish Academy of Sciences.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review. This ensures that I have accurately captured the datasets and their citations from the paper.
+</think>

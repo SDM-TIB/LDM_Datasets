@@ -1,0 +1,15 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about propaganda detection using transfer learning. Let me go through it step by step.
+
+First, I'll read the abstract to get an overview. It mentions the NLP4IF 2019 workshop and a shared task on fine-grained propaganda detection. The dataset used is from the organizers, but I don't see a specific name mentioned yet.
+
+Moving to the introduction, it talks about propaganda detection in news articles and mentions the workshop's task. The dataset is described as consisting of news articles in TXT format, split into training, development, and test sets. The training set has 16,965 examples, with a significant imbalance between propaganda and non-propaganda sentences.
+
+In the experimental setup section, the dataset is referred to as the one provided by the organizers of NLP4IF. It's mentioned that the data comes in TXT format, with each article having a title and body, and labels provided separately. The training set has 4,720 propaganda sentences and 12,245 non-propaganda ones. They also applied oversampling to address the imbalance.
+
+Looking through the rest of the paper, there are no other datasets mentioned. The focus is on the models and their performance on this specific dataset.
+
+So, the only dataset mentioned is from the NLP4IF 2019 workshop. It's used for the sentence-level classification task. The creators are the organizers, but the paper doesn't list their names. The description includes the format, the number of examples, and the imbalance. The language is English, and the tasks involve propaganda detection.
+
+I need to structure this into the required JSON format with the specified metadata fields. Since the creators aren't explicitly named, I'll leave that field empty. The title is the dataset's name, and the description includes the key details from the paper. The issued year is 2019, the language is English, and the format is text. The themes are propaganda detection and NLP, with keywords like propaganda, news articles, and transfer learning. The landing page and identifier aren't provided, so those fields are empty. The task is binary classification for propaganda detection.
+</think>

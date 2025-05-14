@@ -1,0 +1,30 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll go through the abstract. It mentions the Microsoft Translator submissions to the WMT19 news translation task for English-German. The focus is on document-level neural machine translation using deep transformer models. They mention using large-scale data created via data filtering and noisy back-translation. So, the datasets involved here are likely the ones used for training and evaluation in machine translation tasks.
+
+Moving on to the introduction, the paper discusses their approach using document-level data. They mention using authentic and synthetic parallel data, which suggests datasets like Europarl, Rapid, News-Commentary, and News Crawl. These are common datasets in machine translation research.
+
+In the section on sentence-level baselines, they talk about data filtering and noisy back-translation. They reference FAIR's submission and their own work from WMT18. This indicates they're using datasets like Paracrawl, which is a large-scale parallel corpus.
+
+Looking at the document-level systems section, they mention using document boundaries from authentic and synthetic parallel data. They also refer to monolingual news crawl data with document boundaries. This points to datasets like News Crawl, which is a large monolingual corpus.
+
+They also mention using back-translated data, which is generated from monolingual data. This back-translated data is another dataset they're using for training their models.
+
+In the experiments section, they talk about multi-task training using BERT-style objectives on monolingual English documents. This suggests they're using monolingual data, likely from News Crawl or similar sources.
+
+They also mention using the BERT model, which is trained on large amounts of monolingual text. While BERT itself isn't a dataset, the data used to train BERT (like books, Wikipedia, etc.) is relevant, but it's not explicitly mentioned in the paper.
+
+In the results section, they reference the WMT19 test sets, which are standard evaluation datasets in machine translation. These include test sets from previous years like test2016, test2017, and test2018, which are used for evaluation.
+
+Putting it all together, the datasets mentioned or used in the paper include:
+
+1. **Europarl**: A parallel corpus of European Parliament proceedings.
+2. **Rapid**: Another parallel corpus, possibly from the European Union.
+3. **News-Commentary**: A parallel corpus of news commentaries.
+4. **News Crawl**: A large monolingual corpus used for back-translation and training.
+5. **Paracrawl**: A large-scale parallel corpus used for training.
+6. **WMT19 test sets**: Including test2016, test2017, and test2018, used for evaluation.
+
+Each of these datasets is used for different purposes, such as training, back-translation, and evaluation in the context of neural machine translation.
+</think>

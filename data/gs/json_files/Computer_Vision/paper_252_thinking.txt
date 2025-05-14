@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Jointly Aligning Millions of Images with Deep Penalised Reconstruction Congealing" by Roberto Annunziata et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract mentions that the authors conducted experiments on digits from multiple versions of MNIST and faces from LFW. This indicates that these datasets are likely to be important for the research.
+
+Next, I will look for specific mentions of datasets in the **introduction**. The authors refer to "digits from multiple versions of MNIST" and "faces from LFW," which suggests that these are the datasets used for their experiments. I will note these names for further verification.
+
+In the **experiments section**, the authors detail their experimental setup and explicitly mention the datasets used. They refer to the following datasets:
+
+1. **MNIST Dataset**: A well-known dataset of handwritten digits, consisting of 60,000 training images and 10,000 testing images. The authors mention using multiple subsets of MNIST for their experiments.
+
+2. **affNIST Dataset**: A variant of the MNIST dataset that includes images subjected to various affine transformations. The authors state they used the first 100,000 samples for each digit from this dataset.
+
+3. **infiMNIST Dataset**: Another variant of MNIST, which consists of 1,000,000 images per digit. The authors describe using this dataset to evaluate their method under non-linear perturbations.
+
+4. **LFW (Labeled Faces in the Wild) Dataset**: A dataset used for studying face recognition in unconstrained environments. The authors mention using subsets of LFW for their experiments.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **MNIST Dataset**, the citation is:
+  > Yann LeCun. The MNIST database of handwritten digits. http://yann.lecun.com/exdb/mnist/, 1998.
+
+- For the **affNIST Dataset**, the citation is:
+  > Tijmen Tieleman. Affnist. https://www.cs.toronto.edu/tijmen/affNIST/.
+
+- For the **infiMNIST Dataset**, the citation is:
+  > Gaëlle Loosli, Stéphane Canu, and Léon Bottou. Training invariant support vector machines using selective sampling. Large scale kernel machines, 2, 2007.
+
+- For the **LFW Dataset**, the citation is:
+  > Gary B Huang, Marwan Mattar, Tamara Berg, and Eric Learned-Miller. Labeled faces in the wild: A database for studying face recognition in unconstrained environments. In Workshop on faces in Real-Life Images: detection, alignment, and recognition, 2008.
+
+With these citations in hand, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper, which is essential for reproducibility and further research.

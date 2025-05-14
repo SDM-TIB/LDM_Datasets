@@ -1,0 +1,33 @@
+<think>
+Alright, I'm trying to extract all the datasets mentioned in the provided research paper. The paper is about a multi-modal approach to train language models using phonetic representations, focusing on Swahili and Kinyarwanda. 
+
+First, I'll go through the paper section by section to identify any datasets mentioned. 
+
+In the introduction, the authors mention the Common Crawl dataset, which is a large collection of web crawl data. They also reference the Pile dataset, which is another massive text corpus used for training large language models. 
+
+Moving to the methodology section, they discuss using the Allosaurus tool for phonetic recognition, which might be based on some datasets, but I don't see specific datasets mentioned here. 
+
+In the experiments section, they mention several datasets:
+1. The "Language Modeling Data for Swahili" dataset, which is hosted on Hugging Face. This dataset is used for pre-training.
+2. The ALFFA speech dataset, which is used for both audio and text data processing.
+3. The Common Voice Kinyarwanda 6.1 subset, which is a large dataset used for pre-training.
+4. The MasakhaNER dataset, which is used for fine-tuning the downstream NER tasks.
+
+Additionally, they reference the HF Swahili dataset, which is another name for the "Language Modeling Data for Swahili" dataset. 
+
+I also notice that they mention the ALFFA dataset, which is used for both audio and text data. 
+
+I should make sure to list each dataset only once, even if it's mentioned multiple times. 
+
+Now, I'll structure each dataset with the required metadata fields. For each dataset, I'll extract the creator, description, title, publication year, language, identifier, theme, keywords, landing page, version, format, and tasks.
+
+For the Common Crawl dataset, the creator is the Common Crawl Foundation, and it's a large text corpus. The Pile dataset is created by Gao et al. and is a collection of diverse text data.
+
+The "Language Modeling Data for Swahili" dataset is created by Shikali and Refuoe, focusing on Swahili text data. ALFFA is created by Gelas et al., containing speech data for Swahili. The Common Voice Kinyarwanda subset is part of the Mozilla Common Voice project, focusing on audio data for Kinyarwanda. MasakhaNER is created by Adelani et al., providing NER data for African languages.
+
+Each dataset's description, themes, keywords, and tasks are based on how they're used in the paper. For example, Common Crawl is used for pre-training, while MasakhaNER is used for fine-tuning NER tasks.
+
+I need to ensure that all fields are filled accurately, especially the creators, which should be the authors of the datasets, not the paper's authors. If a dataset's creator isn't explicitly mentioned, I'll leave that field empty.
+
+Finally, I'll compile all this information into the required JSON format, making sure each dataset is correctly represented with all the necessary metadata.
+</think>

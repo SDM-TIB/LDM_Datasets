@@ -1,0 +1,43 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let's start by carefully reading through the paper to identify any datasets.
+
+First, I'll look through the abstract, introduction, and methodology sections. The abstract mentions two corpora: P ress and Rewievs. These are the primary datasets used in the study.
+
+In the introduction, the authors discuss their evaluation of word embedding models on two corpora. The P ress corpus consists of Polish press news articles, and the Rewievs corpus contains reviews of scientific works. Both are used for clustering tasks.
+
+Looking further into the methodology section, under "4.1 Data Sets," the authors provide more details about these corpora. The P ress corpus has around 6,500 documents and is well-structured with five subject categories. The Rewievs corpus has approximately 10,500 documents across 21 science areas.
+
+I don't find any other datasets mentioned in the paper. The authors reference word embedding models like word2vec, fastText, ELMo, and BERT, but these are tools, not datasets. The datasets used are solely P ress and Rewievs.
+
+Now, I'll structure the metadata for each dataset based on the information provided.
+
+For the P ress corpus:
+- **dcterms:creator**: The authors of the paper, Tomasz Walkowiak and Mateusz Gniewkowski, are the creators since they describe and use the dataset.
+- **dcterms:description**: A corpus of Polish press news articles, well-structured with five subject categories.
+- **dcterms:title**: "P ress Corpus"
+- **dcterms:issued**: The paper was published in 2019, so the dataset's publication year is likely around that time.
+- **dcterms:language**: Polish.
+- **dcterms:identifier**: No specific DOI or URL provided.
+- **dcat:theme**: Natural Language Processing, Text Clustering.
+- **dcat:keyword**: Polish language, News articles, Clustering.
+- **dcat:landingPage**: No URL provided.
+- **dcterms:hasVersion**: No version mentioned.
+- **dcterms:format**: Text.
+- **mls:task**: Document Clustering.
+
+For the Rewievs corpus:
+- **dcterms:creator**: Same as above.
+- **dcterms:description**: A corpus of reviews of scientific works across 21 science areas.
+- **dcterms:title**: "Rewievs Corpus"
+- **dcterms:issued**: Same as above.
+- **dcterms:language**: Polish.
+- **dcterms:identifier**: No specific DOI or URL provided.
+- **dcat:theme**: Natural Language Processing, Text Clustering.
+- **dcat:keyword**: Polish language, Scientific reviews, Clustering.
+- **dcat:landingPage**: No URL provided.
+- **dcterms:hasVersion**: No version mentioned.
+- **dcterms:format**: Text.
+- **mls:task**: Document Clustering.
+
+I'll ensure that each field is filled accurately based on the information available in the paper.
+</think>

@@ -1,0 +1,15 @@
+<think>
+Alright, I'm looking at the provided research paper to identify the datasets mentioned. The paper is about emotion detection using tweets, and it mentions several datasets used for training and evaluation.
+
+First, the paper references the EmoContext task at SemEval-2019. This task provides a dataset of conversations with emotional labels. The training set has 30k records, and the test set has 5509 records. The emotions include Happy, Sad, Angry, and an 'other' category. This is a primary dataset used in the study.
+
+Next, the authors mention using pre-trained word embeddings. They use Google's word2vec embeddings, which are trained on a large corpus from Google News. This dataset is extensive, with 3 million words and phrases.
+
+They also reference GloVe embeddings, which are trained on web crawl data. The GloVe dataset includes 2.2 million words and is case-sensitive.
+
+Additionally, the paper mentions creating their own word embeddings from the Sentiment140 dataset. This dataset consists of tweets labeled as positive or negative, which they used to train word embeddings specific to sentiment analysis.
+
+Lastly, they created another set of embeddings from 1.1 million generic tweets, using a skip-gram model to generate 300-dimensional vectors.
+
+Each of these datasets is used to train and evaluate their emotion detection model, providing different sources of word embeddings and training data.
+</think>

@@ -1,0 +1,47 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper's title is "Long Distance Relationships without Time Travel: Boosting the Performance of a Sparse Predictive Autoencoder in Sequence Modeling." The authors are Jeremy Gordon, David Rawlinson, and Subutai Ahmad. 
+
+Looking through the abstract, they mention using a predictive autoencoder called bRSM and testing it on two tasks: a non-deterministic version of the MNIST sequence task and next word prediction on the Penn Treebank (PTB) dataset.
+
+In the introduction, they reference N-gram models and their performance on the PTB dataset. They also mention Mikolov et al.'s work on language models using the PTB corpus.
+
+In the experiments section, they detail two tasks:
+1. Stochastic Sequential MNIST (ssMNIST): This involves sequences of MNIST digits. They mention a grammar with 8 sub-sequences of 9 digits each.
+2. Language modeling on the Penn Treebank dataset: They use preprocessing as per Mikolov et al. and compare their results with other models.
+
+In the references, they cite Mikolov et al. for the PTB dataset and mention the Penn Treebank in their experiments.
+
+So, the datasets mentioned are:
+1. MNIST (used in the ssMNIST task)
+2. Penn Treebank (PTB) dataset
+
+Now, I'll extract the metadata for each dataset based on the provided vocabulary.
+
+For MNIST:
+- Creator: Yann LeCun, Corinna Cortes, Chris Burges (commonly cited)
+- Description: Handwritten digit dataset used for sequence modeling.
+- Title: MNIST
+- Issued: 1998
+- Language: N/A
+- Identifier: http://yann.lecun.com/exdb/mnist/
+- Theme: Computer Vision, Machine Learning
+- Keywords: Handwritten digits, sequence modeling
+- Landing Page: http://yann.lecun.com/exdb/mnist/
+- Format: Image
+- Task: Classification, Sequence Modeling
+
+For Penn Treebank (PTB):
+- Creator: Lori Levin, et al.
+- Description: Corpus of annotated texts used for language modeling.
+- Title: Penn Treebank
+- Issued: 1993
+- Language: English
+- Identifier: https://catalog.ldc.upenn.edu/LDC99T42
+- Theme: Natural Language Processing
+- Keywords: Language modeling, corpus
+- Landing Page: https://catalog.ldc.upenn.edu/LDC99T42
+- Format: Text
+- Task: Language Modeling, Next Word Prediction
+</think>

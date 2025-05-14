@@ -1,0 +1,29 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about FastFusionNet, which is a variant of FusionNet designed for efficient reading comprehension. The authors mention several datasets in their introduction and references.
+
+First, I'll go through the introduction. They list a bunch of reading comprehension datasets: WikiQA, SQuAD, SQuAD v2, TriviaQA, SearchQA, NarrativeQA, CoQA, QuAC, and Natural Questions. SQuAD is highlighted as one of the most popular, so that's definitely a key dataset here.
+
+Looking at the references, each dataset is cited with a number. For example, SQuAD is cited as [25], WikiQA as [37], etc. I need to extract the creators, descriptions, titles, and other metadata for each of these datasets.
+
+I'll start with SQuAD. The citation is Rajpurkar et al., 2016. The description mentions it's a dataset with 87K training, 10K dev, and 10K test context-question pairs. It's used for machine comprehension. The language is English, and it's in text format. The tasks are reading comprehension and question answering.
+
+Next, WikiQA is cited as [37], by Yang et al., 2015. It's an open-domain QA dataset with 2013-2018 data. The language is English, and it's used for question answering.
+
+TriviaQA is cited as [13], by Joshi et al., 2017. It's a large-scale dataset for reading comprehension, with a distant supervision approach. Language is English, used for QA.
+
+SearchQA is cited as [8], by Dunn et al., 2017. It's augmented with search engine context. English language, QA tasks.
+
+NarrativeQA is cited as [17], by Koeciský et al., 2018. It's a dataset for narrative comprehension, with 317-328 pages. English, narrative understanding tasks.
+
+CoQA is cited as [27], by Reddy et al., 2018. Conversational QA dataset, English, conversational tasks.
+
+QuAC is cited as [4], by Choi et al., 2018. Also conversational QA, with follow-up questions. English, conversational tasks.
+
+Natural Questions is cited as [18], by Kwiatkowski et al., 2019. Large-scale dataset for QA, English, natural language understanding.
+
+I need to structure each of these into the JSON format specified, including creators, descriptions, titles, issued years, languages, identifiers, themes, keywords, landing pages, versions, formats, and tasks.
+
+For each dataset, I'll extract the creators from the references, the description from how the paper uses or describes it, the title as the dataset name, the year from the reference, language as English, identifier as empty (since no DOI or URL is provided in the paper), themes based on the dataset's focus, keywords from the paper's usage, landing page as empty, version as empty, format as text, and tasks as per the paper's application.
+
+I'll make sure each entry is correctly formatted and that all required fields are included, even if some are empty strings or empty lists where no data is available.
+</think>

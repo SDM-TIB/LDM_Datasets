@@ -1,0 +1,25 @@
+>
+<think>
+To extract datasets from the research paper titled "On learning to refer to things based on discriminative properties" by Angeliki Lazaridou, Nghia The Pham, and Marco Baroni, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, materials and methods, and results sections** to identify any datasets that are mentioned or referenced. The abstract mentions the optimization and comparison of representations for the biomedical domain, which suggests that datasets are likely involved.
+
+In the **introduction**, the authors discuss the limitations of word2vec and the importance of character-based representations like fastText. They hint at the evaluation of these models on various datasets, but I need to look for specific names.
+
+Next, I will focus on the **materials and methods section**, particularly the subsections that detail the datasets used for evaluation. Here, the authors mention the following datasets:
+
+1. **Visual Attributes for Concepts Dataset (ViSA)**: This dataset contains per-concept (as opposed to per-image) attributes for 500 concrete concepts (CAT, SOFA, MILK) spanning across different categories (MAMMALS, FURNITURE), annotated with 636 general attributes.
+2. **Discriminative Attribute Dataset**: This dataset is generated from the ViSA dataset, consisting of pairs of (intended) referents and contexts, with respect to which the referents should be identified by their distinctive attributes.
+
+In the **results section**, the authors confirm that these datasets were used for extrinsic evaluation of their models, which reinforces their relevance.
+
+Now, I will check the **references section** to find the full citations for these datasets:
+
+- For **ViSA**, the citation is:
+  > Silberer et al. (2013) Models of semantic representation with visual attributes. In Proceedings of ACL, pages 572a582, Soia, Bulgaria.
+
+- For **Discriminative Attribute Dataset**, the citation is:
+  > Not explicitly mentioned, but it is generated from the ViSA dataset.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review. This ensures that I have accurately captured the datasets and their citations from the paper.
+</think>

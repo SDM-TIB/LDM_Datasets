@@ -1,0 +1,43 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me go through the paper step by step.
+
+First, I'll read through the abstract and introduction to get an overview. The paper introduces ESPnet-TTS, an end-to-end text-to-speech toolkit. It mentions several datasets in the context of experiments and evaluations.
+
+Looking at the sections, the "4. EXPERIMENTAL EVALUATION" section is where datasets are discussed in detail. Specifically, the LJSpeech dataset is mentioned as the one used for subjective evaluation, achieving a MOS of 4.25.
+
+In the "3. FEATURES OF ESPNET-TTS" section, under "3.5. Integration with ASR functions," the LibriSpeech dataset is referenced as part of the ASR model training.
+
+Additionally, in the "7. REFERENCES" section, several datasets are cited, such as Blizzard17, ARCTIC, CSMSC, JNAS, JSUT, JVS, LibriTTS, LJSpeech, M-AILABS, TWEB, and VAIS1000. Each of these is described with details like language, sampling rate, number of speakers, and recipe type.
+
+Now, I'll list each dataset and extract the required metadata:
+
+1. **LJSpeech**: Used for evaluation, described as having 24 hours of English speech from a single speaker. The reference mentions it was introduced in 2017.
+
+2. **LibriSpeech**: Referenced in the context of ASR model training, part of the LibriTTS corpus, introduced in 2015.
+
+3. **Blizzard17**: A speech synthesis corpus from 2017.
+
+4. **ARCTIC**: A corpus for speech synthesis, introduced in 2004.
+
+5. **CSMSC**: A Chinese speech corpus, introduced in 2017.
+
+6. **JNAS**: A Japanese speech corpus from 1999.
+
+7. **JSUT**: A Japanese corpus for end-to-end speech synthesis, introduced in 2017.
+
+8. **JVS**: A multi-speaker Japanese corpus, introduced in 2019.
+
+9. **LibriTTS**: Derived from LibriSpeech, introduced in 2019.
+
+10. **M-AILABS**: A multi-language corpus, introduced in 2019.
+
+11. **TWEB**: A corpus for English speech synthesis, introduced in 2017.
+
+12. **VAIS1000**: A Vietnamese corpus, introduced in 2017.
+
+For each dataset, I'll extract the creator (authors from references), description, title, publication year, language, identifier (DOI or URL if available), theme, keywords, landing page, version, format, and tasks.
+
+Some datasets might not have all fields filled, especially if the information isn't explicitly provided in the paper. For example, URLs or DOIs aren't mentioned for all datasets, so those fields might remain empty.
+
+Finally, I'll structure each dataset into the required JSON format, ensuring all fields are appropriately filled based on the information extracted from the paper.
+</think>

@@ -1,0 +1,15 @@
+<think>
+Alright, I'm trying to extract all the datasets mentioned in the provided research paper. The paper is about self-supervised learning using video sequences to learn motion-informed representations. The authors used two main datasets: Objectron and UCF101. 
+
+First, I'll look for mentions of datasets in the abstract and introduction. The abstract mentions Objectron and UCF101 as the datasets used for evaluation. 
+
+In the introduction, the authors reference ImageNet, but that's more of a general dataset used in many vision tasks, not specific to this paper's experiments. 
+
+Moving to the methodology section, the authors detail their use of Objectron and UCF101. Objectron is described as an object-centric dataset with videos and 3D bounding box annotations. UCF101 is an action recognition dataset with diverse human-centric videos.
+
+I'll need to gather metadata for each dataset. For Objectron, the creators are listed in the references as Adel Ahmadyan, Liangkai Zhang, etc. The description is about object-centric videos with pose annotations. It was published in 2020. The format is video, and the tasks include pose estimation and re-identification.
+
+For UCF101, the creators are Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah, published in 2012. It's a video dataset for action recognition, with a human-centric focus. The format is video, and the tasks include action recognition.
+
+I'll structure this information into JSON format, ensuring each dataset has the required metadata fields.
+</think>

@@ -1,0 +1,73 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll go through the abstract and introduction to get an overview. The paper discusses the Transformer architecture, layer normalization, and experiments on machine translation and unsupervised pre-training tasks. 
+
+In the introduction, they mention the Transformer's success in natural language processing tasks, but I don't see any specific datasets mentioned here. 
+
+Moving on to Section 3, they discuss experiments on machine translation tasks. Specifically, they mention the IWSLT14 German-English (De-En) task and the WMT14 English-German (En-De) task. These are datasets used for machine translation. 
+
+In Section 4, they talk about unsupervised pre-training using BERT, which involves the English Wikipedia corpus and BookCorpus. They mention that BookCorpus is no longer freely distributed, so they collected it themselves. 
+
+Looking at the references, I find citations for these datasets. For example, the IWSLT14 and WMT14 datasets are commonly used in machine translation research. The BERT pre-training uses Wikipedia and BookCorpus, which are large text corpora.
+
+Now, I'll structure each dataset with the required metadata fields:
+
+1. **IWSLT14 German-English (De-En) Task**
+   - **Creator**: The IWSLT (International Workshop on Spoken Language Translation) organizers.
+   - **Description**: A dataset for machine translation from German to English.
+   - **Title**: IWSLT14 German-English Task.
+   - **Issued**: 2014.
+   - **Language**: German and English.
+   - **Identifier**: Not provided.
+   - **Theme**: Machine Translation.
+   - **Keyword**: Machine translation, German-English.
+   - **Landing Page**: Not provided.
+   - **Version**: Not specified.
+   - **Format**: Text.
+   - **Task**: Machine Translation.
+
+2. **WMT14 English-German (En-De) Task**
+   - **Creator**: The WMT (Workshop on Machine Translation) organizers.
+   - **Description**: A dataset for machine translation from English to German.
+   - **Title**: WMT14 English-German Task.
+   - **Issued**: 2014.
+   - **Language**: English and German.
+   - **Identifier**: Not provided.
+   - **Theme**: Machine Translation.
+   - **Keyword**: Machine translation, English-German.
+   - **Landing Page**: Not provided.
+   - **Version**: Not specified.
+   - **Format**: Text.
+   - **Task**: Machine Translation.
+
+3. **English Wikipedia Corpus**
+   - **Creator**: Wikimedia Foundation.
+   - **Description**: A corpus of English Wikipedia articles used for pre-training.
+   - **Title**: English Wikipedia Corpus.
+   - **Issued**: Ongoing, but used in 2018 for BERT.
+   - **Language**: English.
+   - **Identifier**: Not provided.
+   - **Theme**: Natural Language Processing, Pre-training.
+   - **Keyword**: Wikipedia, Pre-training.
+   - **Landing Page**: Not provided.
+   - **Version**: Not specified.
+   - **Format**: Text.
+   - **Task**: Pre-training, Language Modeling.
+
+4. **BookCorpus**
+   - **Creator**: The authors mention collecting it themselves as it's no longer freely available.
+   - **Description**: A corpus of books used for pre-training.
+   - **Title**: BookCorpus.
+   - **Issued**: Collected in 2018.
+   - **Language**: English.
+   - **Identifier**: Not provided.
+   - **Theme**: Natural Language Processing, Pre-training.
+   - **Keyword**: Book Corpus, Pre-training.
+   - **Landing Page**: Not provided.
+   - **Version**: Not specified.
+   - **Format**: Text.
+   - **Task**: Pre-training, Language Modeling.
+
+I need to ensure that each dataset is correctly described based on how it's used in the paper. The creators are identified from the references or context. The descriptions are concise and relevant. The themes and keywords are chosen to reflect the datasets' purposes in the research. Since some details like identifiers and landing pages aren't provided in the paper, they remain empty.
+</think>

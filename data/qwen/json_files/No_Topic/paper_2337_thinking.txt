@@ -1,0 +1,53 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is titled "Building OCR/NER Test Collections" by Dawn Lawrie, James Mayield, and David Etter. It's about creating test collections for Optical Character Recognition (OCR) and Named Entity Recognition (NER) in Chinese text, specifically using the Renmin Ribao newspaper.
+
+First, I'll read through the abstract to get a quick overview. The authors mention that they've created a new collection for Chinese OCR-NER data. So, that's one dataset right there: the Renmin OCR/NER collection.
+
+Moving on to the introduction, they discuss existing collections like those from newspapers in English and other European languages. They point out the drawbacks of these collections, which is that NER annotations were done on OCR output, making it hard to adapt when OCR changes. They then introduce their new collection, which addresses these issues by annotating transcribed text with position information.
+
+In the methodology section, they describe how they built their collection. They used the Renmin Ribao newspaper, which is in Chinese. They mention that their collection includes 72 pages from June 1-4, 2018, with 427,885 tokens. They also split the dataset into training, development, and test sets, with 80%, 10%, and 10% respectively.
+
+Looking at the results section, they provide baseline performance metrics for OCR and NER systems on their collection. They also mention using a synthetic dataset for training and testing, which is generated from existing NER collections. This synthetic dataset is another dataset to note.
+
+In the conclusion, they mention plans to create new collections in other languages like Arabic, English, Korean, and Russian, but those aren't explicitly mentioned as datasets in the current paper.
+
+So, the datasets mentioned are:
+1. Renmin OCR/NER collection
+2. Synthetic training and test sets
+
+Now, I need to extract metadata for each dataset using the specified vocabulary.
+
+For the Renmin OCR/NER collection:
+- Creators: The authors of the paper, Dawn Lawrie, James Mayield, and David Etter.
+- Description: A Chinese OCR-NER dataset created from the Renmin Ribao newspaper, annotated with character locations and reading order.
+- Title: Renmin OCR/NER Collection
+- Issued: 2020 (since the paper was published in 2020)
+- Language: Chinese
+- Identifier: The GitHub URL provided in the paper: https://github.com/hltcoe/cmn-renmin-ocr-ner-dataset
+- Theme: OCR, NER, Chinese text processing
+- Keywords: OCR, NER, Chinese, newspaper, test collection
+- Landing Page: The GitHub URL
+- Version: Not mentioned
+- Format: Text
+- Task: OCR evaluation, NER evaluation
+
+For the Synthetic training and test sets:
+- Creators: The authors of the paper.
+- Description: Synthetic images generated from existing NER collections to simulate document layouts for OCR/NER evaluation.
+- Title: Synthetic OCR/NER Training and Test Sets
+- Issued: 2020
+- Language: Not specified (could be multiple languages)
+- Identifier: Not provided
+- Theme: OCR, NER, synthetic data
+- Keywords: Synthetic data, OCR, NER, document layout
+- Landing Page: Not provided
+- Version: Not mentioned
+- Format: Image
+- Task: OCR training, NER training, synthetic data generation
+
+I need to ensure that the creators are correctly identified. The synthetic dataset is created by the same authors as the paper, so they are the creators. The Renmin collection is also their creation.
+
+I should also check if there are any other datasets mentioned. The paper references existing collections like those from English and European languages, but they aren't datasets created by the authors, so they don't count as datasets mentioned in this paper.
+
+Finally, I'll structure the JSON with the extracted metadata for each dataset.
+</think>

@@ -1,0 +1,45 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Recurrent Positional Embedding for Neural Machine Translation" by Kehai Chen, Rui Wang, Masao Utiyama, and Eiichiro Sumita. It discusses their proposed method for improving neural machine translation using recurrent positional embeddings.
+
+Looking through the abstract, I see they mention experiments on the WMT14 English-to-German and NIST Chinese-to-English translation tasks. These are likely datasets used for evaluation.
+
+In the introduction, they reference the Transformer model and mention the WMT14 English-German and NIST Chinese-English datasets again. They also cite previous works that used these datasets.
+
+In the experiments section (Section 5), they detail their setup using the WMT14 English-German and NIST Chinese-English datasets. The EN-DE training set includes 4.43 million sentence pairs, and the ZH-EN set includes 1.28 million pairs. They mention using BPE and specific vocabulary sizes.
+
+I should check if these datasets are cited in the references. The paper's references include citations for WMT and NIST datasets, confirming their use.
+
+Now, I'll structure the metadata for each dataset based on the information extracted.
+
+For WMT14 English-German:
+- Creators: The dataset is typically maintained by the WMT organization, but since the paper doesn't list individual creators, I'll leave it as an empty list.
+- Description: A dataset for machine translation from English to German.
+- Title: WMT14 English-German
+- Issued: 2014
+- Language: English and German
+- Identifier: Empty
+- Theme: Machine Translation
+- Keywords: WMT, translation, English-German
+- Landing Page: Empty
+- Version: Empty
+- Format: Text
+- Task: Machine Translation
+
+For NIST Chinese-English:
+- Creators: Similarly, the dataset is maintained by NIST, so creators are empty.
+- Description: A dataset for machine translation from Chinese to English.
+- Title: NIST Chinese-English
+- Issued: Year not specified, so empty.
+- Language: Chinese and English
+- Identifier: Empty
+- Theme: Machine Translation
+- Keywords: NIST, translation, Chinese-English
+- Landing Page: Empty
+- Version: Empty
+- Format: Text
+- Task: Machine Translation
+
+I'll ensure each dataset is correctly formatted in JSON as per the metadata vocabulary.
+</think>

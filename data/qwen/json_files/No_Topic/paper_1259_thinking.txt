@@ -1,0 +1,21 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about a book recommendation system that uses authorship identification. Let me go through it step by step.
+
+First, I'll read the abstract to get a quick overview. It mentions using an authorship identification model for book recommendations and evaluating it against other methods. No datasets are mentioned here yet.
+
+Moving on to the introduction, the authors discuss the decline in reading for pleasure and the benefits of reading. They also talk about traditional recommendation systems like collaborative filtering and content-based methods. Still, no datasets are mentioned here.
+
+In the related work section, they reference other studies on book recommendation systems. One of the references is to Vaz et al., 2012c, which is the LitRec dataset. This seems important because the authors later mention using this dataset in their evaluation.
+
+Looking at the methodology section, they describe their authorship identification model and how it's used for recommendations. They don't mention any datasets here, but the evaluation section is where the datasets come into play.
+
+In the evaluation section, the authors explicitly mention using the LitRec dataset. They describe preprocessing steps like removing copyright information and part-of-speech tags. They also mention using the Gutenberg texts, which are part of the LitRec dataset. This tells me that the primary dataset used is LitRec.
+
+I should check if there are any other datasets mentioned. The authors also reference Goodreads, but that's more of a platform than a dataset. They mention Project Gutenberg, but it's used within the LitRec dataset context.
+
+So, the main dataset is LitRec, created by Vaz et al. It contains literary works with user ratings and book texts. The authors used it to evaluate their recommendation system, focusing on user ratings and book content.
+
+I need to structure this information into the required JSON format, including all the metadata fields. The creator is Paula Cristina Vaz, the title is LitRec, and the description includes the details from the paper. The issued year is 2012, and the language is English. The landing page URL is provided, and the keywords include literary works, user ratings, and book recommendations.
+
+I should ensure that all the fields are correctly filled based on the information extracted from the paper. No other datasets are mentioned, so the JSON will only include the LitRec dataset.
+</think>

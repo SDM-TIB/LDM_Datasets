@@ -1,0 +1,46 @@
+name: sakor-leg
+channels:
+  - nvidia/label/cuda-11.8.0
+  - pytorch
+  - conda-forge
+dependencies:
+  - pytorch=2.5.0
+  - torchvision=0.20.0
+  - torchaudio=2.5.0
+  - cuda=11.8.0
+  - pytorch-cuda=11.8
+  - compilers=1.5.2
+  - sysroot_linux-64=2.17
+  - gcc=11.4.0
+  - ninja=1.11.1.1
+  - py-cpuinfo=9.0.0
+  - libaio=0.3.113
+  - ca-certificates=2024.8.30
+  - certifi=2024.8.30
+  - openssl=3.3.2
+  - python=3.10.15
+  - pydantic=2.9.2
+  - transformers=4.45.2
+  - peft=0.13.2
+  - datasets=3.0.1
+  - accelerate=1.0.1
+  - sentencepiece=0.2.0
+  - pip=24.2
+  - pip:
+      - ninja==1.11.1.1
+      - deepspeed==0.15.2
+      - trl==0.11.4
+      - wandb==0.18.4
+      - flash-attn==2.6.3
+      - rouge-score==0.1.2
+      - bert-score==0.3.13
+      - sentence-transformers==3.2.0
+      - tqdm==4.66.5
+      - jsonschema==4.23.0
+      - matplotlib==3.9.2
+      - seaborn==0.13.2
+      - jsonlines==4.0.0
+      - gensim==4.3.3
+      - POT==0.9.4
+      - evaluate==0.4.3
+      - git+https://github.com/google-research/bleurt.git@cebe7e6f996b40910cfaa520a63db47807e3bf5c

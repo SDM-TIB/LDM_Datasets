@@ -1,0 +1,17 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me go through the paper step by step.
+
+First, I'll read through the abstract and introduction to get an overview. The paper discusses self-supervised learning (SSL) applied to few-shot learning (FSL). It mentions datasets used for experiments, which are likely detailed in the later sections.
+
+Looking at the sections, I find that the datasets are mentioned in the "Experiments" part. Specifically, the paper uses two datasets: Omniglot and miniImageNet. 
+
+Omniglot is a dataset of handwritten characters, often used in few-shot learning tasks. The paper describes it as containing 1623 characters from 50 alphabets, with each character having 20 images. They mention resizing and rotating images, which suggests preprocessing steps.
+
+miniImageNet is a subset of the larger ImageNet dataset, tailored for few-shot learning. It consists of 100 classes, each with 600 images. The paper splits it into training, validation, and testing sets, similar to other works.
+
+I need to gather metadata for each dataset. For Omniglot, the creators are mentioned as Lake et al. (2015). The description includes the number of characters, alphabets, and images. The year is 2015, and it's in English. The format is images, and the task is few-shot learning.
+
+For miniImageNet, the creators are Vinyals et al. (2016). It has 100 classes with 600 images each. The year is 2016, language is English, format is images, and the task is few-shot learning.
+
+I'll structure this information into JSON format, ensuring each dataset has all the required fields. If any fields aren't mentioned, I'll leave them empty.
+</think>

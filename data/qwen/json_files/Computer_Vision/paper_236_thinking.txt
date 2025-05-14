@@ -1,0 +1,41 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me go through the paper step by step.
+
+First, I'll read through the paper to identify any datasets mentioned. The paper is about VL-BERT, a pre-trained model for visual-linguistic tasks. It mentions several datasets used for pre-training and evaluation.
+
+1. **Conceptual Captions Dataset**: This is mentioned in the pre-training section. It's a large-scale dataset with images and captions. The authors reference Sharma et al., 2018.
+
+2. **BooksCorpus**: Used alongside Conceptual Captions for pre-training. It's a text corpus from books. The reference is Zhu et al., 2015.
+
+3. **English Wikipedia**: Also used for pre-training, providing text data. No specific reference is given, but it's a well-known dataset.
+
+4. **VCR (Visual Commonsense Reasoning) Dataset**: Used for evaluation. The authors reference Zellers et al., 2019.
+
+5. **VQA (Visual Question Answering) Dataset**: Specifically VQA v2.0, referenced by Goyal et al., 2017.
+
+6. **RefCOCO+ Dataset**: Used for referring expression comprehension. The reference is Kazemzadeh et al., 2014.
+
+7. **COCO (Common Objects in Context) Dataset**: Mentioned in the context of RefCOCO+. The reference is Lin et al., 2014.
+
+8. **Visual Genome Dataset**: Used for object detection. The reference is Krishna et al., 2017.
+
+Now, I'll gather metadata for each dataset:
+
+- **Conceptual Captions**: Creators are Sharma et al., description about images and captions, published in 2018, language English, format image and text, themes computer vision and NLP, keywords include images, captions, etc.
+
+- **BooksCorpus**: Creators Zhu et al., description about books, published in 2015, language English, format text, themes NLP, keywords books, text.
+
+- **English Wikipedia**: Creators are the Wikimedia community, description about encyclopedia, published in 2001, language English, format text, themes NLP, keywords encyclopedia, text.
+
+- **VCR**: Creators Zellers et al., description about visual commonsense, published in 2019, language English, format image and text, themes computer vision, keywords questions, answers.
+
+- **VQA v2.0**: Creators Goyal et al., description about visual questions, published in 2017, language English, format image and text, themes computer vision, keywords questions, answers.
+
+- **RefCOCO+**: Creators Kazemzadeh et al., description about referring expressions, published in 2014, language English, format image and text, themes computer vision, keywords referring expressions.
+
+- **COCO**: Creators Lin et al., description about common objects, published in 2014, language English, format image and text, themes computer vision, keywords objects.
+
+- **Visual Genome**: Creators Krishna et al., description about visual genome, published in 2017, language English, format image and text, themes computer vision, keywords objects, relationships.
+
+I'll structure each dataset into the required JSON format, ensuring all metadata fields are filled appropriately. If any information is missing, I'll leave the field empty as per instructions.
+</think>

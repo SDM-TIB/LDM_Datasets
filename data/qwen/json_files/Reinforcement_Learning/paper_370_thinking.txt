@@ -1,0 +1,13 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is about Episodic Backward Update (EBU) in deep reinforcement learning. I need to identify any datasets mentioned and describe them using the specified metadata vocabulary.
+
+First, I'll read through the paper to spot any datasets. The abstract mentions Atari 2600 games, specifically 49 games. That's a dataset. The introduction also refers to the Arcade Learning Environment (ALE), which is another dataset. The experiments section talks about the MNIST dataset for a maze environment. So, I have three datasets: Atari 2600, ALE, and MNIST.
+
+Now, I need to gather metadata for each. For Atari 2600, the creators are the developers, but the paper doesn't specify, so I'll leave it empty. The description is about the 49 games used for evaluation. The title is "Atari 2600 Dataset." It was introduced in 2013. The language isn't text-based, so it's empty. The identifier is the DOI from the Nature DQN paper. The theme is reinforcement learning. Keywords include Atari, games, and reinforcement learning. The landing page is the DOI URL. No version is mentioned, format is game data, and the task is reinforcement learning.
+
+For ALE, the creators are the developers, but again, not specified. The description is about the environment with various games. The title is "Arcade Learning Environment." Introduced in 2013. Language is empty. Identifier is the DOI from the ALE paper. Theme is reinforcement learning. Keywords are ALE, games, and reinforcement learning. Landing page is the DOI URL. No version, format is game data, task is reinforcement learning.
+
+MNIST is a well-known dataset. Creators are LeCun, Bottou, Bengio, and Haffner. Description is about handwritten digits. Title is "MNIST." Introduced in 1998. Language is English. Identifier is the DOI. Theme is computer vision. Keywords include digits, images, and classification. Landing page is the DOI URL. No version, format is image, task is classification.
+
+I need to make sure each dataset is correctly formatted in JSON with all the required fields. I'll structure each dataset as an object within a list, ensuring all fields are included, even if some are empty strings or empty lists.
+</think>

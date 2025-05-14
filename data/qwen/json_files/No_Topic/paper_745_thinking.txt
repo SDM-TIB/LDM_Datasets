@@ -1,0 +1,17 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about building a parallel corpus from comparable corpora using a hybrid approach. Let me go through the paper step by step.
+
+First, the abstract mentions that the data and problem set are provided as part of the shared task organized by BUCC 2017. So, BUCC 2017 is definitely one of the datasets used here.
+
+Looking into the introduction, the authors talk about using Moses, a statistical machine translation toolkit, and mention that it was trained with parallel corpus from Europarl. So, Europarl is another dataset mentioned.
+
+In the methodology section, the authors describe using the BUCC 2017 data, which includes monolingual corpora in French and English, along with a gold standard list of sentence pairs. They also mention using Europarl for training Moses.
+
+I don't see any other datasets mentioned beyond BUCC 2017 and Europarl. The paper doesn't reference any other corpora or datasets, so I can conclude that these are the only two datasets used.
+
+Now, I need to extract the metadata for each dataset. For BUCC 2017, the creators are the ones organizing the shared task, which is the BUCC workshop. The description is about the monolingual corpora and gold standard pairs. The title is "BUCC 2017", issued in 2017, languages are French and English, the identifier is the URL provided, and the theme is machine translation and corpus alignment. The keywords include comparable corpus, parallel sentences, etc.
+
+For Europarl, the creators are the European Parliament, the description is about the parallel corpus used for training Moses, the title is "Europarl Corpus", issued in 2005, languages are French and English, the identifier is the URL, and the theme is statistical machine translation. The keywords include parallel corpus, Moses toolkit, etc.
+
+I need to make sure all the metadata fields are filled correctly based on the information in the paper. I'll structure each dataset as a JSON object with the required fields.
+</think>

@@ -1,0 +1,21 @@
+<think>
+Alright, I'm trying to extract the datasets mentioned in the provided research paper. Let me go through the paper step by step.
+
+First, I'll read the abstract and introduction to get an overview. The paper discusses domain generalization and proposes a method called Variational Invariant Learning (VIL). It mentions using four widely used cross-domain visual recognition benchmarks for evaluation.
+
+Looking into the methodology section, I don't see any datasets mentioned there. The focus is more on the theoretical framework and the proposed method.
+
+In the experiments section, the datasets are clearly listed. The paper evaluates VIL on four datasets: PACS, Office-Home, Rotated MNIST, and Fashion-MNIST. Each of these datasets is described in terms of their structure and usage in the experiments.
+
+For each dataset, I need to extract the metadata as per the given vocabulary. Let's break them down:
+
+1. **PACS**: Created by Li et al. in 2017. It contains images from four domains (photo, art-painting, cartoon, sketch) with seven classes. The dataset is used for cross-domain visual recognition.
+
+2. **Office-Home**: Introduced by Venkateswara et al. in 2017. It includes four domains (art, clipart, product, real-world) with 65 categories. Used for evaluating domain generalization.
+
+3. **Rotated MNIST**: Part of the MNIST dataset, rotated by various angles to test out-of-distribution performance.
+
+4. **Fashion-MNIST**: Similar to MNIST but with fashion items, also used in rotated versions for domain generalization.
+
+I'll structure each dataset with the required metadata fields, ensuring accuracy based on the paper's descriptions.
+</think>

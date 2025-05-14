@@ -1,0 +1,40 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the given research paper. The paper is about creating a news bias dataset using crowdsourcing. Let me go through it step by step.
+
+First, I'll read the abstract to get an overview. It mentions that the authors propose a novel news bias dataset. So, that's one dataset right there. They mention it consists of 966 sentences from 46 English news articles covering four events. They also note that the labels were obtained via crowdsourcing.
+
+Next, I'll look into the introduction. They discuss the lack of publicly available datasets for news bias, especially on a sentence level. They reference existing datasets but don't mention any specific ones except their own. So, the main dataset here is their proposed one.
+
+In the related work section, they talk about other datasets like the one from Lim et al. (2018), which is a preliminary dataset. They also mention the SemEval 2019 Task 4 dataset for hyperpartisan news detection, the dataset from Horne et al. (2018), and Cremisini et al. (2019). These are all datasets related to news bias or media bias detection.
+
+The authors also reference the Media Bias/Fact Check website, which provides information on the political stance of media sources. This isn't a traditional dataset but serves as a resource for categorizing news sources.
+
+In the dataset section, they describe their own dataset in detail, including how it was constructed and annotated. They mention using Google News for collecting articles and Figure Eight for crowdsourcing. They also reference the nltk library for sentence splitting.
+
+Looking at the references, they cite several papers that used other datasets. For example, they mention the work by Morstatter et al. (2018) on media bias, which likely used their own dataset. They also reference the work by Ferreira and Vlachos (2016) on stance classification, which might have its own dataset.
+
+So, compiling all this, the datasets mentioned in the paper are:
+
+1. The authors' own news bias dataset.
+2. The dataset from Lim et al. (2018).
+3. The SemEval 2019 Task 4 dataset.
+4. The dataset from Horne et al. (2018).
+5. The dataset from Cremisini et al. (2019).
+6. The Media Bias/Fact Check resource.
+
+Each of these needs to be described using the specified metadata vocabulary. I'll need to extract details like creators, descriptions, titles, publication dates, languages, identifiers, themes, keywords, landing pages, versions, formats, and tasks for each dataset.
+
+For the authors' dataset, the creators are Sora Lim, Adam Jatowt, Michael Fäerber, and Masatoshi Yoshikawa. The description is as given. The title is "News Bias Dataset." It was issued in 2020. The language is English. The identifier is the GitHub URL provided. The theme is News Bias Detection. Keywords include News Bias, Crowdsourcing, Sentence Level. The landing page is the GitHub URL. The format is Text. The task is News Bias Detection.
+
+For Lim et al. (2018), the creators are Sora Lim, Adam Jatowt, and Masatoshi Yoshikawa. The description is a preliminary dataset with word-level annotations. The title is "Preliminary News Bias Dataset." Issued in 2018. Language is English. Identifier is the GitHub URL. Theme is News Bias Detection. Keywords include News Bias, Word Level. Landing page is GitHub. Format is Text. Task is News Bias Detection.
+
+SemEval 2019 Task 4 dataset: Creators are Kiesel et al. Description is for hyperpartisan news detection. Title is "SemEval 2019 Hyperpartisan News Dataset." Issued in 2019. Language is English. Identifier is the SemEval URL. Theme is Hyperpartisan News. Keywords include Hyperpartisan, News Detection. Landing page is SemEval URL. Format is Text. Task is Hyperpartisan News Detection.
+
+Horne et al. (2018) dataset: Creators are Horne, Khedr, and Adali. Description is a large dataset of news articles. Title is "Horne News Dataset." Issued in 2018. Language is English. Identifier is the ICWSM URL. Theme is News Analysis. Keywords include News Articles, Media Landscape. Landing page is ICWSM URL. Format is Text. Task is News Analysis.
+
+Cremisini et al. (2019) dataset: Creators are Cremisini, Aguilar, and Finlayson. Description is about the Ukrainian Crisis. Title is "Ukrainian Crisis Dataset." Issued in 2019. Language is English. Identifier is the SBP-BRiMS URL. Theme is Media Bias. Keywords include Media Bias, Ukrainian Crisis. Landing page is SBP-BRiMS URL. Format is Text. Task is Media Bias Detection.
+
+Media Bias/Fact Check: Creators are the website authors. Description is a resource for media bias. Title is "Media Bias/Fact Check." Issued in the year the website was created, which isn't specified. Language is English. Identifier is the website URL. Theme is Media Bias. Keywords include Media Bias, Political Stance. Landing page is the website URL. Format is Text. Task is Media Bias Analysis.
+
+I need to ensure that each dataset is correctly attributed and described based on the information in the paper. Some details might not be explicitly mentioned, so I'll infer where necessary, but I'll avoid making assumptions beyond what's stated.
+</think>

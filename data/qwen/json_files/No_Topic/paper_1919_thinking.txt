@@ -1,0 +1,15 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract and introduction to get an overview. The paper discusses redundancy localization in conversational agents, focusing on a new task and dataset. 
+
+In the introduction, the authors mention using Wikipedia passages for their dataset. They refer to a dataset they created, which involves manual annotations for redundancy localization. This dataset is split into development (DEV) and test (TEST) sets.
+
+Looking further into the paper, under Section 4, they describe the EVAL dataset. This dataset is constructed from Wikipedia passages, segmented into sub-passages and manually annotated for redundancy. They mention that the dataset is publicly available at a GitHub repository: https://github.com/kraseb/redundancy-localization.
+
+Additionally, in Section 5, they discuss using a passage-retrieval system to collect data for training, but this doesn't seem to be a separate dataset but rather a method for data collection.
+
+In Section 6, they describe their model and training process, which uses the EVAL dataset but doesn't mention any other datasets.
+
+So, the main dataset mentioned is the EVAL dataset created by the authors, available on GitHub. There are no other datasets referenced in the paper.
+</think>

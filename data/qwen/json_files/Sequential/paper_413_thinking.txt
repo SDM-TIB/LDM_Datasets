@@ -1,0 +1,32 @@
+<think>
+Alright, I need to extract the datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract and introduction to get an overview. The paper discusses opinion mining using deep contextualized embeddings like BERT and ELMo. It mentions datasets used for experiments.
+
+In the introduction, the authors reference datasets such as MPQA 1.2 and MOAT from NTCIR7. These are likely the main datasets used in their research.
+
+Moving to the related work section, they mention various embeddings and models but don't introduce new datasets. The datasets are primarily discussed in the context of experiments and results.
+
+In the experiments section, the authors detail their use of MPQA 1.2 and MOAT. They describe how these datasets were split into training, development, and test sets. MPQA 1.2 is used for opinion expression detection, while MOAT is another opinion-oriented dataset.
+
+Looking at the references, I find that MPQA 1.2 is cited in the paper, and MOAT is part of the NTCIR7 task. The authors also mention using BERT and ELMo models, but these are not datasets themselves.
+
+I need to ensure that I'm only extracting datasets, not models or other resources. The datasets identified are MPQA 1.2 and MOAT.
+
+For each dataset, I'll extract the required metadata fields:
+
+1. **dcterms:creator**: The authors or creators of the dataset. For MPQA, it's EIrsoy and Cardie. For MOAT, it's Seki et al.
+2. **dcterms:description**: A brief description of the dataset based on the paper's usage.
+3. **dcterms:title**: The name of the dataset.
+4. **dcterms:issued**: The publication year if available.
+5. **dcterms:language**: The language of the dataset, which is English for both.
+6. **dcterms:identifier**: DOI or URL if provided. Not mentioned in the paper.
+7. **dcat:theme**: Thematic categories like opinion mining, sentiment analysis.
+8. **dcat:keyword**: Relevant keywords such as opinion expression, sentiment analysis.
+9. **dcat:landingPage**: URL if available. Not provided.
+10. **dcterms:hasVersion**: Version if specified. MPQA 1.2 is version 1.2.
+11. **dcterms:format**: Format of the dataset, likely text.
+12. **mls:task**: Tasks the dataset is used for, such as opinion mining.
+
+I'll structure this information into JSON format, ensuring each dataset is accurately represented with the extracted metadata.
+</think>

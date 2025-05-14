@@ -1,0 +1,78 @@
+[
+    {
+        "dcterms:creator": [
+            "Raghunathan Ramakrishnan",
+            "Pavlo O Dral",
+            "Matthias Rupp",
+            "O Anatole Von Lilienfeld"
+        ],
+        "dcterms:description": "A dataset containing quantum chemistry structures and properties of approximately 130,000 molecules made up of H, C, N, O, and F atoms along with 13 quantum chemical properties for each molecule.",
+        "dcterms:title": "QM9",
+        "dcterms:issued": "2014",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Quantum Chemistry",
+            "Molecular Properties"
+        ],
+        "dcat:keyword": [
+            "Quantum chemistry",
+            "Molecular dataset",
+            "Chemical properties"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Energy prediction",
+            "Molecular property prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A subset of the QM9 dataset containing molecules with fewer than 14 atoms, used for training and validation in energy prediction tasks.",
+        "dcterms:title": "QM9under14atoms",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Quantum Chemistry",
+            "Molecular Properties"
+        ],
+        "dcat:keyword": [
+            "Subset dataset",
+            "Small molecules",
+            "Energy prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Energy prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A subset of the QM9 dataset containing molecules with more than 15 atoms, used for testing the extrapolation performance of the model.",
+        "dcterms:title": "QM9over15atoms",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Quantum Chemistry",
+            "Molecular Properties"
+        ],
+        "dcat:keyword": [
+            "Subset dataset",
+            "Large molecules",
+            "Extrapolation testing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Energy prediction",
+            "Extrapolation testing"
+        ]
+    }
+]

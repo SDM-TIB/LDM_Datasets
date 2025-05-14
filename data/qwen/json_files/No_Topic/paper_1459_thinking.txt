@@ -1,0 +1,24 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about a linguistically informed Convolutional Neural Network (lingCNN) for sentiment analysis. 
+
+First, I'll read through the abstract and introduction to get a sense of the datasets used. The abstract mentions that the model achieves results comparable to state-of-the-art systems, but doesn't specify the datasets yet. 
+
+Moving to the introduction, I see that the paper uses the SemEval Twitter polarity dataset. That's one dataset. The authors also mention the Sentiment140 corpus, which is another dataset. 
+
+In the experiments section, they detail their evaluation using the SemEval 2015 dataset and the Sentiment140 test set. They also mention preprocessing data from the Twitter Events dataset, which is used for pretraining word embeddings. 
+
+So, the datasets mentioned are:
+1. SemEval 2015 Twitter polarity dataset
+2. Sentiment140 corpus
+3. Twitter Events dataset
+
+Now, I need to extract metadata for each. 
+
+For SemEval 2015, the creators are the SemEval organizers, but the paper doesn't list specific creators. The description is about sentiment analysis on tweets. It was published in 2015, and the language is English. The format is text, and the task is sentiment analysis.
+
+Sentiment140 is created by Go et al., used for sentiment analysis, published in 2009, English text, and the task is sentiment analysis.
+
+Twitter Events dataset is by McMinn et al., used for preprocessing, published in 2013, English text, and the task is word embedding pretraining.
+
+I'll structure each dataset with the required metadata fields.
+</think>

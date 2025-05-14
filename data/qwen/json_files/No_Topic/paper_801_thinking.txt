@@ -1,0 +1,26 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Exploring Lexical and Syntactic Features for Language Variety Identification" by Chris van der Lee and Antal van den Bosch. It discusses the classification of Dutch language varieties, specifically Netherlandic Dutch and Flemish Dutch.
+
+In the methodology section, the authors mention the use of the SUBTIEL corpus. This corpus contains over 500,000 subtitles in Dutch and English. They filtered out English subtitles and those without information on whether they were intended for Dutch or Flemish television, resulting in 110,278 documents.
+
+Looking through the references, I don't find any other datasets mentioned. The SUBTIEL corpus is the primary dataset used for their experiments.
+
+Now, I'll structure the metadata for the SUBTIEL corpus based on the provided vocabulary.
+
+- **dcterms:creator**: The authors of the paper, Chris van der Lee and Antal van den Bosch, are the creators of the dataset in this context.
+- **dcterms:description**: The corpus contains Dutch subtitles used to classify language varieties.
+- **dcterms:title**: SUBTIEL corpus.
+- **dcterms:issued**: The paper was published in 2017, so I'll use that year.
+- **dcterms:language**: Dutch.
+- **dcterms:identifier**: No specific DOI or URL is provided in the paper.
+- **dcat:theme**: Language variety identification, Corpus.
+- **dcat:keyword**: Dutch, Subtitles, Language variety.
+- **dcat:landingPage**: No URL provided.
+- **dcterms:hasVersion**: Not mentioned.
+- **dcterms:format**: Text.
+- **mls:task**: Language variety identification.
+
+I'll compile this into the required JSON format.
+</think>

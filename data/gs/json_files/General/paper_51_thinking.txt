@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Adversarial Learning with Contextual Embeddings for Zero-resource Cross-lingual Classification and NER" by Phillip Keung et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, experiments, and results sections** to identify any datasets mentioned. The abstract indicates that the authors report results on the **MLDoc text classification** and **CoNLL 2002/2003 NER tasks**, suggesting that these datasets are relevant.
+
+Next, I will focus on the **experiments section**. In **section 3.2**, the authors describe their experiments with the **MLDoc corpus**, which is a 4-class classification problem. They mention using the **english.train.1000 dataset** for the classification loss, which contains 1000 labeled documents. This is a clear dataset reference.
+
+In the same section, they also mention using non-English text portions from datasets like **german.train.10000** and **french.train.10000** for language-adversarial training, although these datasets are not labeled. This indicates that they are part of the training process but do not have formal citations.
+
+In **section 3.3**, the authors discuss the **CoNLL 2002/2003 NER corpus**. They state that they finetuned BERT on the English portion of this dataset, which is a well-known dataset for named entity recognition tasks.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+1. For the **MLDoc dataset**, the citation is:
+   > Holger Schwenk and Xian Li. *A corpus for multilingual document classification in eight languages*. In Proceedings of the Language Resources and Evaluation Conference (LREC), 2018.
+
+2. For the **CoNLL 2002/2003 NER corpus**, the citation is:
+   > Erik F. Sang and Fien De Meulder. *Introduction to the CoNLL-2003 shared task: Language-independent named entity recognition*. In Proceedings of the Conference on Computational Natural Language Learning (CoNLL), 2003.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

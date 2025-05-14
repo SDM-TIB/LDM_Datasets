@@ -1,0 +1,31 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract. It mentions relation extraction and uses datasets like Google Distant Supervision (GDS) and Riedel. These are likely the main datasets used in the study.
+
+Moving to the introduction, the authors discuss the use of Knowledge Bases (KBs) and mention RESIDE, which uses side information. However, no new datasets are introduced here.
+
+In the background section, the authors reference several works, including RESIDE, BGWA, and BERT. They also mention the Google relation extraction corpus and the New York Times (NYT) corpus. The Riedel dataset is explicitly mentioned as being built from the NYT corpus using Freebase as a KB.
+
+The experiments section provides more details about the datasets used. The GDS dataset is described as an extension of the Google relation extraction corpus, and the Riedel dataset is noted for having 53 relations. Both datasets are used to evaluate the proposed BERT-Side model against baselines like BGWA and RESIDE.
+
+I should also check the references for any additional datasets. The references include works by Riedel, which is where the Riedel dataset originates, and others related to KBs and relation extraction, but no new datasets beyond GDS and Riedel are mentioned.
+
+Now, I'll structure the metadata for each dataset based on the information extracted:
+
+1. **Google Distant Supervision (GDS)**
+   - Created by Jat et al. (2018)
+   - Description: An extension of the Google relation extraction corpus with additional instances from entity pairs.
+   - Themes: Relation Extraction, Natural Language Processing
+   - Keywords: Distant supervision, Relation extraction, Entity pairs
+   - Tasks: Relation extraction
+
+2. **Riedel Dataset**
+   - Created by Riedel et al. (2010)
+   - Description: Built by aligning Freebase relations with the New York Times corpus, covering 53 relations.
+   - Themes: Relation Extraction, Natural Language Processing
+   - Keywords: Relation extraction, Freebase, NYT corpus
+   - Tasks: Relation extraction
+
+I'll ensure that each dataset's metadata is accurately captured, including creators, descriptions, themes, keywords, and tasks. Since the paper doesn't provide DOIs or URLs for these datasets, those fields will remain empty.
+</think>

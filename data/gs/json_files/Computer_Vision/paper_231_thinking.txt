@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "ST-GAN: Spatial Transformer Generative Adversarial Networks for Image Compositing" by Chen-Hsuan Lin et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the work and may mention datasets used for evaluation. 
+
+In the **introduction**, the authors discuss their approach and its applications, which may lead to mentions of specific datasets. I will pay attention to any references to datasets used for training or evaluation.
+
+Next, I will focus on the **experiments section**, particularly sections 4.1, 4.2, and 4.3, where the authors describe their experimental setup and the datasets used. Here, I will look for detailed descriptions of the datasets, including their characteristics, sizes, and any relevant statistics.
+
+From my reading, I identify the following datasets:
+
+1. **Synthetic Dataset of 3D Cubes**: This dataset consists of a 3D rectangular room and an axis-aligned cube, created to validate the ST-GAN approach. The authors mention that they apply random 3-DoF translations and 6-DoF perturbations to the cube and camera, respectively.
+
+2. **Indoor Object Dataset**: The authors created a synthetic dataset consisting of rendered indoor scenes from the SUNCG dataset, which includes 45,622 indoor scenes with over 5 million 3D object instances. They used 41,499 scene models and 568,749 camera viewpoints for rendering.
+
+3. **CelebA Dataset**: This dataset is used for the glasses compositing experiment. The authors split the dataset into two groups: one with faces wearing glasses and another without. The training set consists of 152,249 images without glasses and 10,521 images with glasses.
+
+Now, I will look up the full citations for these datasets in the **References section** of the paper:
+
+- For the **SUNCG dataset**, the citation is:
+  > Song, S., Yu, F., Zeng, A., Chang, A. X., Savva, M., & Funkhouser, T. (2017). Semantic scene completion from a single depth image. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
+
+- For the **CelebA dataset**, the citation is:
+  > Liu, Z., Luo, P., Wang, X., & Tang, X. (2015). Deep learning face attributes in the wild. In Proceedings of International Conference on Computer Vision (ICCV).
+
+The synthetic dataset of 3D cubes does not have a specific citation as it is created by the authors for the purpose of their experiments.
+
+Finally, I will compile the dataset entries, ensuring that each entry includes the dataset name, description, and full citation, ready for structured output or further processing.

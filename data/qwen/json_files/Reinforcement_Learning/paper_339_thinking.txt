@@ -1,0 +1,34 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me go through the paper step by step.
+
+First, I'll read through the abstract and introduction to get an overview. The paper introduces GVIN, a generalized value iteration network for planning on irregular graphs. It mentions experiments on synthetic 2D mazes, irregular graphs, and real-world maps like Minnesota highways and New York streets.
+
+Looking into the Experimental Results section, the datasets used are:
+
+1. **2D Mazes**: Synthetic 16x16 mazes generated using scripts from the VIN paper. These are used for training and testing GVIN's performance.
+
+2. **Synthesized Irregular Graphs**: These are generated for testing GVIN's ability to handle irregular structures. The paper mentions 100-node graphs for training and testing.
+
+3. **Minnesota Highway Map**: A real-world dataset with 2642 nodes and 6606 edges. It's used to evaluate GVIN's generalization on large-scale graphs.
+
+4. **New York City Street Map**: Another real-world dataset with 5069 nodes and 13368 edges, used similarly to the Minnesota map.
+
+I'll check the references for any additional datasets, but the paper doesn't cite external datasets beyond these. The authors don't mention any other datasets used in their experiments.
+
+Now, I'll structure each dataset according to the metadata fields:
+
+- **Creators**: The authors of the paper are the creators since they generated or used these datasets for their experiments.
+- **Description**: Based on how the datasets are described in the paper.
+- **Title**: The name of each dataset as mentioned.
+- **Issued**: The year the paper was published, 2018.
+- **Language**: Not applicable as these are not text datasets.
+- **Identifier**: No specific DOI or URL provided.
+- **Theme**: Categories like Computer Science, Planning, etc.
+- **Keywords**: Terms related to each dataset's use.
+- **Landing Page**: Not provided.
+- **Version**: Not mentioned.
+- **Format**: Data format, like Graph Data.
+- **Task**: The tasks for which the datasets were used, such as planning.
+
+I'll ensure each dataset is accurately described based on the paper's content.
+</think>

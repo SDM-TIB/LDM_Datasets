@@ -1,0 +1,25 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me go through the paper step by step.
+
+First, I'll read through the abstract and introduction to get an overview. The paper discusses scene classification using RGB-D data, mentioning datasets like SUNRGBD and NYU Depth Dataset V2. These are likely the main datasets used.
+
+Looking into the introduction, the authors reference the Places dataset, which is used for training CNN models. This is another dataset to note.
+
+In the related work section, they mention the Berkeley B3DODataset and SUN3D videos, which are part of the SUNRGBD Dataset. These are additional sources but might be subsets or related to the main datasets already noted.
+
+Moving to the experiments section, the datasets SUNRGBD and NYU Depth Dataset V2 are discussed in detail. The paper provides specifics about the number of images, categories, and splits, which will help in describing these datasets accurately.
+
+I should also check the references for any additional datasets. The references include citations for SUNRGBD, NYU Depth Dataset V2, and others like ImageNet and Places, but the latter are more about datasets used for training rather than the main datasets for evaluation.
+
+Now, I'll structure each dataset with the required metadata fields:
+
+1. **SUNRGBD Dataset**: Created by Song et al., it's a large-scale RGB-D dataset for scene understanding. It includes 10,335 images across 19 categories. The description should mention its use for scene classification and the inclusion of RGB and depth data.
+
+2. **NYU Depth Dataset V2**: Created by Silberman et al., it's used for scene understanding tasks. It has 1,449 images across 10 categories. The description should highlight its use for evaluating scene classification methods.
+
+3. **Places Dataset**: Created by Zhou et al., it's a scene-centric dataset with 2.5 million images. It's used for training CNN models, so the description should reflect its role in model training rather than evaluation.
+
+I need to ensure that each dataset's metadata is accurate, including creators, descriptions, titles, publication years, themes, keywords, and tasks. Since some details might not be explicitly mentioned, I'll infer based on the context provided in the paper.
+
+Finally, I'll compile all this information into the required JSON format, making sure each dataset is correctly represented with all the necessary fields.
+</think>

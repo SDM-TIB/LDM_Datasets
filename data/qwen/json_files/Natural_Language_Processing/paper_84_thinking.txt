@@ -1,0 +1,43 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Learning Local Neighboring Structure for Robust 3D Shape Representation" by Zhongpai Gao and others. It discusses 3D shape representation using graph neural networks and proposes a novel convolutional operation called LSA-Conv.
+
+Looking through the sections, I find that the authors evaluate their method on two datasets:
+
+1. **COMA (Convolutional Mesh Autoencoder)**: This is a human facial dataset used for evaluating 3D shape reconstruction. It consists of 12 classes of extreme expressions from 12 subjects, totaling 20,466 3D meshes registered to a common template with 5023 vertices.
+
+2. **DFAUST (Dynamic FAUST)**: This dataset contains over 40,000 real meshes capturing 129 dynamic performances from 10 subjects. It's used for evaluating human body shape reconstruction.
+
+I need to extract metadata for each dataset. Let's go through each one.
+
+For COMA:
+- **Creators**: The authors of the COMA dataset are not explicitly mentioned in the paper, but it's referenced as (Ranjan et al. 2018). I'll need to check the references for the creators. However, since the paper doesn't provide the creators' names, I'll leave this field empty.
+- **Description**: It's a human facial dataset with 20,466 meshes for 3D shape reconstruction.
+- **Title**: COMA
+- **Issued**: The year is 2018 based on the reference.
+- **Language**: Not applicable as it's a 3D dataset.
+- **Identifier**: No DOI or URL provided.
+- **Theme**: Computer Vision, 3D Shape Reconstruction.
+- **Keywords**: 3D shape, facial dataset, reconstruction.
+- **Landing Page**: Not provided.
+- **Version**: Not mentioned.
+- **Format**: 3D meshes.
+- **Task**: 3D shape reconstruction.
+
+For DFAUST:
+- **Creators**: The authors are Bogo et al. (2017).
+- **Description**: Contains over 40,000 meshes for human body shape reconstruction.
+- **Title**: DFAUST
+- **Issued**: 2017.
+- **Language**: Not applicable.
+- **Identifier**: No DOI or URL provided.
+- **Theme**: Computer Vision, 3D Shape Reconstruction.
+- **Keywords**: 3D shape, body dataset, reconstruction.
+- **Landing Page**: Not provided.
+- **Version**: Not mentioned.
+- **Format**: 3D meshes.
+- **Task**: 3D shape reconstruction.
+
+I'll structure this information into JSON format as required.
+</think>

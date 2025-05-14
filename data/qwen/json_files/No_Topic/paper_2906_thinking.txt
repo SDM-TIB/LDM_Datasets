@@ -1,0 +1,31 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Similarity-Based Non-Scorable Response Detection for Automated Speech Scoring" by Su-Youn Yoon and Shasha Xie. It discusses methods to filter out non-scorable responses in automated speech scoring systems.
+
+In the **Data** section (Section 3), the authors mention two datasets:
+
+1. **ASR set**: Approximately 48,000 responses from 8,000 non-native speakers used for training the automated speech recognizer.
+2. **FM set**: A subset of 11,560 responses from the ASR set, used for training and evaluating the filtering model.
+
+Additionally, the FM set was augmented to include 90,000 responses, with 1,560 NS (non-scorable) responses, to address the skewed distribution.
+
+I need to structure this information into the required JSON format, ensuring each dataset is described with the appropriate metadata fields.
+
+For each dataset, I'll extract the following details:
+
+- **dcterms:creator**: The authors of the paper, as they created the dataset for their study.
+- **dcterms:description**: A brief description of the dataset based on the paper's usage.
+- **dcterms:title**: The name of the dataset.
+- **dcterms:issued**: The year the paper was published, which is 2014.
+- **dcterms:language**: English, as the responses are in English.
+- **dcterms:identifier**: Empty, as no DOI or URL is provided.
+- **dcat:theme**: Categories like "Speech Processing" and "Language Assessment."
+- **dcat:keyword**: Relevant keywords such as "Speech responses," "Non-scorable," etc.
+- **dcat:landingPage**: Empty, as no URL is provided.
+- **dcterms:hasVersion**: Empty, as no version is mentioned.
+- **dcterms:format**: Text, as the dataset consists of transcribed speech responses.
+- **mls:task**: Tasks like "Speech Scoring" and "Response Filtering."
+
+Now, I'll structure this information into the JSON format.
+</think>

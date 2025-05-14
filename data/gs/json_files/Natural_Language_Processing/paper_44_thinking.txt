@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Better Conversations by Modeling, Filtering, and Optimizing for Coherence and Diversity" by Xinnuo Xu et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that experiments were conducted on the **OpenSubtitles corpus**, which suggests that this is a key dataset used in the research.
+
+Next, I will focus on **section 3 (Dataset and Filtering)**, where the authors provide detailed information about the datasets used for training and evaluation. Here, they mention two datasets:
+
+1. **OST (OpenSubtitles)**: This dataset consists of 2 million training instances, along with 4,000 instances each for development and testing. It is selected randomly from the entire OpenSubtitles corpus.
+
+2. **fOST (filtered OpenSubtitles)**: This dataset also contains the same number of instances as OST but is filtered to include only those with a coherence score of C(x, y) ≥ 0.68. This filtering aims to improve the quality of the training data by ensuring that the context-response pairs are coherent.
+
+In the same section, the authors provide coherence and diversity metrics for both datasets, which further confirms their significance in the experiments.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned. The relevant citations are:
+
+- For the **OpenSubtitles corpus**, the citation is:
+  > Pierre Lison and Jörg Tiedemann. *OpenSubtitles2016: Extracting Large Parallel Corpora from Movie and TV Subtitles*. In Proceedings of the 10th International Conference on Language Resources and Evaluation (LREC 2016), Portorož, Slovenia.
+
+- For the filtering method, the authors reference:
+  > Pierre Lison and Raveesh Meena. *Automatic Turn Segmentation for Movie & TV Subtitles*. In 2016 IEEE Workshop on Spoken Language Technology. IEEE conference proceedings.
+
+Having gathered this information, I will now compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research paper.

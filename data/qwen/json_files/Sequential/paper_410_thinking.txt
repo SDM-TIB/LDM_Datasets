@@ -1,0 +1,27 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is titled "Probing Biomedical Embeddings from Language Models" and it's authored by Qiao Jin, Bhuwan Dhingra, William W. Cohen, and Xinghua Lu. 
+
+First, I'll start by reading through the paper to identify any datasets that are mentioned. I'll look for sections like the introduction, methods, experiments, and results where datasets are typically referenced.
+
+In the abstract, the authors mention using pre-trained language models like BERT, ELMo, BioBERT, and BioELMo. They also refer to datasets such as BC2GM and MedNLI. 
+
+Moving to the introduction, they discuss the use of domain-specific datasets in biomedical NLP. They mention MedNLI and BC2GM as examples of biomedical datasets. 
+
+In the methods section, under "Downstream Tasks," they specify the datasets used for NER and NLI tasks. For NER, they use BC2GM and CoNLL 2003. For NLI, they use MedNLI and SNLI. 
+
+Looking at the experiments section, they provide more details about these datasets. BC2GM is the BioCreative II gene mention dataset, and MedNLI is a biomedical NLI dataset. CoNLL 2003 is a general-domain NER dataset, and SNLI is a general-domain NLI dataset.
+
+I also need to check the references for any additional datasets. The references include citations for BC2GM, MedNLI, CoNLL 2003, and SNLI, confirming their use in the paper.
+
+Now, I'll structure each dataset with the required metadata fields. For each dataset, I'll extract the creator, description, title, issued year, language, identifier, theme, keyword, landing page, version, format, and task.
+
+For BC2GM, the creators are the authors of the dataset, which I found in the references. The description is based on how the paper uses it for NER tasks. The title is straightforward, and the issued year is 2008. The language is English, and there's no specific identifier mentioned. The theme is biomedical NLP, and the keyword is gene mention recognition. The landing page is empty, no version is specified, the format is text, and the task is NER.
+
+Similarly, for MedNLI, the creators are Romanov and Shivade. The description is about biomedical NLI, the title is MedNLI, issued in 2018, language is English, theme is biomedical NLP, keyword is NLI, landing page empty, format text, and task NLI.
+
+CoNLL 2003 is a general NER dataset, so the creators are Tjong Kim Sang and De Meulder. The description is about NER in general domains, issued in 2003, language English, theme NLP, keyword NER, landing page empty, format text, task NER.
+
+SNLI is a general NLI dataset by Bowman et al., with similar metadata as MedNLI but for general NLI tasks.
+
+I need to ensure that each dataset's metadata is accurate and based on the information provided in the paper. I'll make sure not to include any datasets that aren't explicitly mentioned or used in the paper.
+</think>

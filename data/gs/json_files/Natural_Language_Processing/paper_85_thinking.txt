@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "Attention is Not Only a Weight: Analyzing Transformers with Vector Norms" by Goro Kobayashi et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the research focus, and the introduction often outlines the context and prior work, which may include references to datasets.
+
+Next, I will pay close attention to the **experiments section**, particularly sections that discuss the data used for analysis. In this paper, the authors mention using data from BERT and a Transformer-based neural machine translation (NMT) system. Specifically, they refer to the **Europarl v7 corpus** for their NMT experiments, which is a well-known dataset for translation tasks.
+
+I will also look for any additional datasets mentioned in the **appendices** or **references** that may not be highlighted in the main sections of the paper. For instance, the authors reference the **gold alignment dataset** provided by Vilar et al. (2006) for evaluating word alignments.
+
+Now, I will compile the datasets identified:
+
+1. **Europarl v7 corpus**: This dataset is used for training the Transformer-based NMT system for German-to-English translation. The citation for this dataset is:
+   > Philipp Koehn. *Europarl: A Parallel Corpus for Statistical Machine Translation*. In Proceedings of the 10th Machine Translation Summit, pages 79–86, 2005. Available at: http://www.statmt.org/europarl/
+
+2. **Gold alignment dataset**: This dataset is used for evaluating the derived alignment in the NMT experiments. The citation is:
+   > David Vilar, Maja Popović, and Hermann Ney. *AER: Do we need to “improve” our alignments?* In International Workshop on Spoken Language Translation (IWSLT) 2006, pages 205–212, 2006. Available at: https://www-i6.informatik.rwth-aachen.de/goldAlignment/
+
+After identifying these datasets and their citations, I will ensure that the information is accurately documented and formatted according to the requirements for downstream processing or review. This structured approach will help in maintaining clarity and completeness in the dataset extraction process.

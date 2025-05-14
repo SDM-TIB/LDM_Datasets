@@ -1,0 +1,17 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract and introduction to see if any datasets are mentioned. The abstract mentions the CASP12 competition, which is a well-known protein structure prediction competition. This suggests that the dataset used is related to CASP12.
+
+Moving on to the introduction, the authors discuss protein structure prediction and mention the CASP12 competition again. They refer to the CASP12 ProteinNet dataset, which is used for training and validation.
+
+In the experiments section (Section 3.1), the authors explicitly state that they evaluate their models using the CASP12 ProteinNet dataset with a thinning of 90%, which consists of around 50,000 structures. They mention that the train and validation sets contain all sequences and structures prior to CASP12, and the test set includes targets from CASP12,分为模板建模（TBM）和自由建模（FM）两部分。
+
+Looking at the references, I find that the CASP12 ProteinNet dataset is cited in the paper. The reference for ProteinNet is provided by AlQuraishi (2019b), which is Mohammed AlQuraishi's work on creating a standardized dataset for machine learning of protein structure.
+
+Now, I need to gather the metadata for the CASP12 ProteinNet dataset. The creators are the authors responsible for the dataset, which in this case is Mohammed AlQuraishi. The description should reflect how the dataset is used in the paper, which is for training and evaluating protein structure prediction models. The title is "CASP12 ProteinNet Dataset." The issued year can be found in the reference, which is 2019. The language is English since it's a scientific dataset. The identifier is the DOI or URL if available, but in this case, it's not provided in the paper. The theme is "Protein Structure Prediction." The keywords include "Protein structures," "Machine learning," and "CASP competition." The landing page is the URL where the dataset can be accessed, which is provided as "https://github.com/mohammedalquraishi/proteinnet." The format is "3D coordinates" as the dataset contains protein structures. The task is "Protein Structure Prediction."
+
+I should ensure that all fields are correctly filled based on the information extracted from the paper. If any information is missing, I'll leave the corresponding field empty. For example, the identifier and landing page are filled based on the reference provided in the paper.
+
+Finally, I'll structure the JSON response with the extracted metadata for the CASP12 ProteinNet dataset.
+</think>

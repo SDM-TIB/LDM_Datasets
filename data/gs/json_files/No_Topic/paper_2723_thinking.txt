@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "Domain adaptation model for retinopathy detection from cross-domain OCT images" by Jing Wang et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors applied their model to OCT images and public digit images, which suggests that there are specific datasets involved.
+
+Next, I will focus on the **experiments section** (section 4) where the authors explicitly describe the datasets used for their experiments. In **section 4.1**, they mention two datasets:
+
+1. **MNIST-USPS Dataset**: This dataset is commonly used for digit recognition tasks. The authors specify that they used the standard training set of 60,000 images for MNIST and 7,291 images for USPS, along with evaluation sets of 10,000 and 2,007 images, respectively.
+
+2. **Custom Retina OCT Images Dataset**: This dataset consists of retinal images captured from two different OCT devices, Cirrus and Spectralis. The authors provide details about the number of images, the labeling process, and the specific characteristics of the images from each device.
+
+In **section 4.1**, they provide detailed information about the custom dataset, including:
+- The Cirrus dataset (source domain) contains 7,096 abnormal and 5,738 normal samples.
+- The Spectralis dataset (target domain) consists of 12,427 images.
+
+Now, I will check the **References section** to find the full citations for these datasets. The MNIST dataset is widely known, but I will confirm its citation. The authors do not provide a specific citation for the USPS dataset, so I will note that it is commonly referenced in the literature.
+
+For the custom retina OCT images dataset, the authors reference a previous work for the Cirrus images:
+- For the Cirrus dataset, the citation is:
+  > Wang, J., Deng, G., Li, W., Chen, Y., Gao, F., Liu, H., He, Y., & Shi, G. (2019). Deep learning for quality assessment of retinal OCT images. *Biomedical Optics Express*, 10(12), 6057-6072.
+
+Now, I will compile the dataset entries with their respective citations:
+
+1. **MNIST Dataset**:
+   > LeCun, Y., Cortes, C., & Burges, C. (1998). MNIST handwritten digit database. *AT&T Labs*.
+
+2. **USPS Dataset**:
+   > Hull, J. J. (1994). A database for handwritten text recognition research. *IEEE Transactions on Pattern Analysis and Machine Intelligence*, 16(5), 550-554.
+
+3. **Custom Retina OCT Images Dataset**:
+   > Wang, J., Deng, G., Li, W., Chen, Y., Gao, F., Liu, H., He, Y., & Shi, G. (2019). Deep learning for quality assessment of retinal OCT images. *Biomedical Optics Express*, 10(12), 6057-6072.
+
+After gathering all this information, I will prepare the dataset entries for structured output, ensuring that each dataset is accurately represented with its citation.

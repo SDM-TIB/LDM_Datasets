@@ -1,0 +1,49 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Empirical Evaluation of Sequence-to-Sequence Models for Word Discovery in Low-resource Settings" by Marcely Zanon Boito, Aline Villavicencio, and Laurent Besacier. The abstract mentions experiments on Mboshi and English languages aligned to French, but doesn't specify datasets yet.
+
+Looking at the introduction, they discuss using attention-based models for word discovery from phoneme sequences. They mention experiments on a low-resource scenario with Mboshi and English, both aligned to French. This suggests they're using specific corpora for these languages.
+
+In the Experimental Settings section, under 2.2, they explicitly mention two parallel speech corpora: English-French (EN-FR) and Mboshi-French (MB-FR). The EN-FR corpus is a 33,192 sentences multilingual extension from LibriSpeech, with English audio books automatically aligned to French translations. The MB-FR corpus is a 5,130 sentences corpus from the language documentation process of Mboshi, an endangered language spoken in Congo-Brazzaville.
+
+They also mention that the EN-FR corpus was down-sampled to 5K utterances to match the size of the MB-FR corpus. This indicates they used both the full and down-sampled versions of the EN-FR corpus.
+
+Additionally, they reference the LibriSpeech corpus, which is a well-known dataset for speech recognition tasks. The EN-FR corpus is an extension of LibriSpeech, so it's relevant here.
+
+Now, I'll check the references section for more details on these datasets. The references include citations for the EN-FR and MB-FR corpora, providing creators, descriptions, and other metadata.
+
+For each dataset, I'll extract the required metadata fields:
+
+1. **EN-FR Corpus (33K)**:
+   - Creators: Aline Villavicencio, Marcely Zanon Boito, Laurent Besacier (as per the paper's authors, since the dataset is their own creation for this study).
+   - Description: A large multilingual corpus with 33,192 sentences, English audio books aligned to French translations.
+   - Title: EN-FR Corpus (33K)
+   - Issued: 2018 (as per the paper's publication year).
+   - Language: English, French.
+   - Identifier: Not provided.
+   - Theme: Speech Processing, Machine Translation.
+   - Keywords: Parallel corpus, English-French, Speech translation.
+   - Landing Page: Not provided.
+   - Version: 33K.
+   - Format: Text, Speech.
+   - Task: Word discovery, Machine translation.
+
+2. **EN-FR Corpus (5K)**:
+   - Similar to the 33K version but down-sampled to 5,000 utterances.
+   - Version: 5K.
+
+3. **MB-FR Corpus**:
+   - Creators: Same as above.
+   - Description: A corpus of 5,130 sentences from Mboshi aligned to French.
+   - Language: Mboshi, French.
+   - Version: 5K.
+
+4. **LibriSpeech**:
+   - Creators: Vassil Panayotov, Guoguo Chen, Daniel Povey, Sanjeev Khudanpur.
+   - Description: A corpus of read English speech, used for training and testing speech recognition systems.
+   - Language: English.
+   - Version: Not specified in the paper.
+
+Now, I'll structure this information into the required JSON format, ensuring each dataset is accurately described with the appropriate metadata.
+</think>

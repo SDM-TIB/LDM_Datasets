@@ -1,0 +1,21 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract. It mentions evaluating word embeddings on intrinsic and extrinsic datasets. The intrinsic datasets include UMNSRS, HDO, and XADO. The extrinsic datasets are BC2GM, JNLPBA, and CHEMDNER.
+
+Moving to the introduction, the authors discuss the limitations of word2vec and the benefits of character-based models like fastText. They mention using these models on biomedical datasets but don't specify the datasets here.
+
+In the materials and methods section, under "Intrinsic Evaluation," they detail the use of UMNSRS, HDO, and XADO. UMNSRS is a manually curated list of disorders, symptoms, and drugs. HDO is based on the Human Disease Ontology, and XADO is based on the Xenopus Anatomy and Development Ontology.
+
+For "Extrinsic Evaluation," they use three named entity recognition corpora: BC2GM for genes, JNLPBA for proteins and other entities, and CHEMDNER for chemicals and drugs.
+
+Looking at the references, I find the citations for these datasets. UMNSRS is cited as Pakhomov et al., 2016. HDO is from Schriml et al., 2012, and XADO from Segerdell et al., 2008. BC2GM is cited as Smith et al., 2008, JNLPBA as Kim et al., 2004, and CHEMDNER as Krallinger et al., 2015.
+
+Now, I'll compile the metadata for each dataset using the specified vocabulary. For each dataset, I'll extract the creator, description, title, publication year, language, identifier, theme, keywords, landing page, version, format, and tasks.
+
+I'll ensure that the creators are correctly identified from the references. For example, UMNSRS's creators are Pakhomov et al., and BC2GM's are Smith et al.
+
+Descriptions will be based on how the authors used or described each dataset in the paper. Themes and keywords will reflect the biomedical and NLP focus of the datasets.
+
+Finally, I'll structure all this information into a JSON format, ensuring each dataset is accurately represented with all the required metadata fields.
+</think>

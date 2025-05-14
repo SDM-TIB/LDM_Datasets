@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Universal Dependencies According to BERT: Both More Specific and More General" by Tomasz Limisiewicz, Rudolf Rosa, and David Mareček, I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** of the paper. The abstract provides a brief overview of the research focus, which includes analyzing syntactic abstractions captured by BERT and mentions the use of Universal Dependencies (UD) annotations. This suggests that datasets related to UD may be involved.
+
+Next, I will examine the **introduction** for any explicit mentions of datasets. The authors discuss their methodology and reference previous works that utilized various datasets, which may provide clues about the datasets they used.
+
+In the **Models and Data section**, the authors explicitly list the datasets they utilized for their analysis. Here are the datasets mentioned:
+
+1. **EuroParl**: This dataset consists of 1000 multi-parallel sentences across five European languages, automatically annotated with UDPipe UD 2.0 models. This dataset is crucial for their analysis of syntactic heads.
+
+2. **Google Universal Dependency Treebanks (GSD)**: This dataset is used for Indonesian, Korean, and Japanese languages. It provides the necessary syntactic annotations for these languages.
+
+3. **UD Turkish Treebank (IMST-UD)**: This dataset is specifically mentioned for Turkish and is used in conjunction with the other datasets for their analysis.
+
+4. **PUD Treebanks**: These are used for evaluating mBERT across multiple languages, as mentioned in the paper.
+
+Now, I will look at the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For **EuroParl**:
+  > Philipp Koehn. *Europarl: A parallel corpus for statistical machine translation*. 2004.
+
+- For **Google Universal Dependency Treebanks (GSD)**:
+  > Ryan McDonald, Joakim Nivre, et al. *Universal dependency annotation for multilingual parsing*. In Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics, pages 92–97, 2013.
+
+- For **UD Turkish Treebank (IMST-UD)**:
+  > Umut Sulubacak, Gülşen Eryiğit, and Tuğba Pamay. *IMST: A revisited Turkish dependency treebank*. In Proceedings of TurCLing 2016, the 1st International Conference on Turkic Computational Linguistics, pages 1–6, 2016.
+
+- For **PUD Treebanks**:
+  > Joakim Nivre, Marie-Catherine De Marneffe, Filip Ginter, et al. *Universal dependencies v1: A multilingual treebank collection*. In Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC’16), pages 1659–1666, 2016.
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations. This will ensure that the datasets are accurately represented and can be referenced appropriately in future work.

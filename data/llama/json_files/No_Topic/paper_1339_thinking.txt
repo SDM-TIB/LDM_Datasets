@@ -1,0 +1,48 @@
+>
+
+<think>
+To extract datasets from the research paper titled "1066ReVal: A Simple and Effective Machine Translation Evaluation MetricBased on Recurrent Neural Networks" by Rohit Gupta, Constantin Orasan, and Josef van Genabith, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, materials and methods, and results sections** to identify any datasets that are mentioned or referenced. The abstract mentions the evaluation of machine translation metrics, which suggests that datasets are likely involved.
+
+In the **introduction**, the authors discuss the limitations of traditional machine translation evaluation metrics and the need for a new approach. They hint at the use of dense vector spaces and recurrent neural networks.
+
+Next, I will focus on the **materials and methods section**, particularly the subsections that detail the datasets used for evaluation. Here, the authors mention the following datasets:
+
+1. **WMT-13 ranks corpus**: This dataset is used to automatically derive training data for the ReVal metric.
+2. **SICK training set**: This dataset is used to evaluate the ReVal metric on semantic similarity tasks.
+3. **SICK development set**: This dataset is used to evaluate the ReVal metric on semantic similarity tasks.
+4. **SICK test set**: This dataset is used to evaluate the ReVal metric on semantic similarity tasks.
+5. **L+Sick(50,150)**: This dataset is used to evaluate the ReVal metric on machine translation tasks.
+6. **L+Sick(100,300)**: This dataset is used to evaluate the ReVal metric on machine translation tasks.
+7. **L+Sick(50,150)**: This dataset is used to evaluate the ReVal metric on machine translation tasks.
+8. **L+Sick(mix)**: This dataset is used to evaluate the ReVal metric on machine translation tasks.
+
+In the **results section**, the authors confirm that these datasets were used for evaluation of the ReVal metric.
+
+Now, I will check the **references section** to find the full citations for these datasets:
+
+- For **WMT-13 ranks corpus**, the citation is:
+  > Not found
+
+- For **SICK training set**, the citation is:
+  > Francisco GuzmA an, Shaiq Joty, LluA As M`arquez, and Preslav Nakov. Pairwise neural machine translation evaluation. In Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pages 805a814, Beijing, China. Association for Computational Linguistics.
+
+- For **SICK development set**, the citation is:
+  > Francisco GuzmA an, Shaiq Joty, LluA As M`arquez, and Preslav Nakov. Pairwise neural machine translation evaluation. In Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pages 805a814, Beijing, China. Association for Computational Linguistics.
+
+- For **SICK test set**, the citation is:
+  > Francisco GuzmA an, Shaiq Joty, LluA As M`arquez, and Preslav Nakov. Pairwise neural machine translation evaluation. In Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pages 805a814, Beijing, China. Association for Computational Linguistics.
+
+- For **L+Sick(50,150)**, the citation is:
+  > Table 3 shows the results obtained using simple LSTM (layer 1, hidden dimension50, memory dimension 150, compositional parameters 203400).
+
+- For **L+Sick(100,300)**, the citation is:
+  > Table 3 shows the results obtained using simple LSTM (layer 1, hidden dimension100, memory dimension 300, compositional parameters 541800).
+
+- For **L+Sick(50,150)**, the citation is:
+  > Table 3 shows the results obtained using simple LSTM (layer 1, hidden dimension50, memory dimension 150, compositional parameters 203400).
+
+- For **L+Sick(mix)**, the citation is:
+  > Table 3 shows the results obtained using simple LSTM (layer 1, hidden dimension50, memory dimension 150, compositional parameters 203400) and combining the two systems: L+Sick(50,150) and L+Sick(100,150).
+</think>

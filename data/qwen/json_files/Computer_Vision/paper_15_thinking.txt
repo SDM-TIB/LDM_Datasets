@@ -1,0 +1,51 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "VAE-PGN based Abstractive Model in Multi-stage Architecture for Text Summarization" by Hyungtak Choi and others. It's about text summarization models, specifically using VAE and PGN techniques.
+
+Looking through the abstract, the authors mention evaluating their model on the "benchmark Reddit corpus" as part of the TL;DR challenge. So, that's one dataset: Reddit corpus.
+
+In the introduction, they reference the TL;DR challenge, which uses the Reddit dataset. They also mention the CNN/Daily Mail corpus in the experiments section. 
+
+In the experiments section (4.1), they explicitly list two datasets:
+1. TL;DR Reddit corpus (Volske et al., 2017)
+2. CNN/Daily Mail corpus (Hermann et al., 2015; Nallapati et al., 2016)
+
+So, the datasets are:
+- Reddit corpus (TL;DR)
+- CNN/Daily Mail corpus
+
+Now, I need to extract metadata for each dataset using the specified vocabulary.
+
+For the Reddit corpus:
+- **dcterms:creator**: The authors are listed as Volske et al., so I'll extract the creators from the reference. The reference is "Volske et al., 2017", so the creators are the authors of that paper.
+- **dcterms:description**: The paper describes it as a corpus with 3 million content-summary pairs from Reddit.
+- **dcterms:title**: "TL;DR Reddit corpus"
+- **dcterms:issued**: 2017
+- **dcterms:language**: English
+- **dcterms:identifier**: DOI or URL if available, but not provided in the paper.
+- **dcat:theme**: Text Summarization, Natural Language Processing
+- **dcat:keyword**: Text summarization, abstractive summarization, Reddit
+- **dcat:landingPage**: URL if available, but not provided.
+- **dcterms:hasVersion**: Not mentioned.
+- **dcterms:format**: Text
+- **mls:task**: Text Summarization
+
+For the CNN/Daily Mail corpus:
+- **dcterms:creator**: Hermann et al., 2015 and Nallapati et al., 2016
+- **dcterms:description**: Contains news articles and their summaries, used for summarization tasks.
+- **dcterms:title**: "CNN/Daily Mail corpus"
+- **dcterms:issued**: 2015
+- **dcterms:language**: English
+- **dcterms:identifier**: DOI or URL if available, but not provided.
+- **dcat:theme**: Text Summarization, Natural Language Processing
+- **dcat:keyword**: Text summarization, news articles, abstractive summarization
+- **dcat:landingPage**: URL if available, but not provided.
+- **dcterms:hasVersion**: Non-anonymized version mentioned.
+- **dcterms:format**: Text
+- **mls:task**: Text Summarization
+
+I need to ensure that the creators are correctly identified from the references. For the Reddit corpus, the creators are the authors of the Volske et al. paper. For CNN/Daily Mail, it's Hermann et al. and Nallapati et al.
+
+Now, I'll structure this information into the required JSON format, ensuring all fields are filled based on the available data.
+</think>

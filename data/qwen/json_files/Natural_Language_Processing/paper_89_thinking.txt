@@ -1,0 +1,20 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me go through the paper step by step.
+
+First, I'll read the abstract and introduction to get an overview. The paper introduces Text2Node, a system for mapping medical phrases to a taxonomy. It mentions using SNOMED CT as the target taxonomy and discusses word embeddings trained on a biomedical corpus.
+
+Looking into the Methods section, under Word Embeddings, the authors constructed a corpus from several sources: PubMed, MIMIC-III Clinical Database, FDA's FAERS, and the 2010 i2b2 Relations Challenge. They also mention using SNOMED CT as their target taxonomy.
+
+In the Evaluation section, they tested their system on ICD-9-CM phrases mapped to SNOMED CT concepts. They reference a dataset from [32], which is the ICD-9-CM to SNOMED CT mapping.
+
+Now, I'll identify each dataset:
+
+1. **PubMed**: A large repository of biomedical articles. The authors used it to train their word embeddings.
+2. **MIMIC-III Clinical Database**: A dataset containing clinical data from patients, used for training word embeddings.
+3. **FDA Adverse Event Reporting System (FAERS)**: A dataset of adverse drug events, used for training.
+4. **2010 i2b2 Relations Challenge**: A dataset used for training word embeddings.
+5. **SNOMED CT**: The target taxonomy used for mapping.
+6. **ICD-9-CM to SNOMED CT Mapping**: A dataset from reference [32], used for evaluation.
+
+For each dataset, I'll extract the required metadata. Some details like creators and identifiers aren't explicitly provided, so I'll leave those fields empty where necessary.
+</think>

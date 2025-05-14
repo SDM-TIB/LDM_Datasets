@@ -1,0 +1,30 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets.
+
+First, I'll look through the abstract and introduction to see if any datasets are mentioned. The abstract mentions the Orchid and UGWC datasets, as well as the IWSLT English dataset. These are likely the main datasets used in the study.
+
+Next, I'll check the sections where datasets are described in detail. In the "Experimental setup" section, under "4.1 Datasets," the paper lists three datasets:
+
+1. **Orchid (Thai)**: A Thai part-of-speech-tagged dataset containing 10,864 sentences. It's used for Thai sentence segmentation.
+2. **UGWC (User-Generated Web Content)**: Another Thai dataset with 48,374 passages, used for Thai sentence segmentation.
+3. **IWSLT (English)**: An English dataset from TED talks, used for punctuation restoration.
+
+I'll also check the references section to find more details about each dataset. For example, the Orchid dataset is cited as [32], which refers to a specific publication. Similarly, UGWC is cited as [21], and IWSLT as [9].
+
+Now, I'll structure each dataset according to the metadata vocabulary:
+
+- **dcterms:creator**: The authors or creators of the dataset. For Orchid, it's Virach Sornlertlamvanich and others. For UGWC, it's Anuruth Lertpiya and others. IWSLT is cited as Marcello Federico and others.
+- **dcterms:description**: A brief description of each dataset based on how it's used in the paper.
+- **dcterms:title**: The name of the dataset.
+- **dcterms:issued**: The year the dataset was published, extracted from the references.
+- **dcterms:language**: The language of the dataset, which is Thai for Orchid and UGWC, and English for IWSLT.
+- **dcterms:identifier**: DOI or URL if available. The paper doesn't provide these, so it's left empty.
+- **dcat:theme**: Thematic categories like Natural Language Processing, Sentence Segmentation, etc.
+- **dcat:keyword**: Keywords related to each dataset.
+- **dcat:landingPage**: URL if available, which isn't provided here.
+- **dcterms:hasVersion**: Specific version if mentioned, which isn't the case here.
+- **dcterms:format**: Format of the dataset, which is text for all.
+- **mls:task**: Tasks for which the dataset is used, like sentence segmentation or punctuation restoration.
+
+I'll ensure each dataset is accurately described based on the information provided in the paper and its references.
+</think>

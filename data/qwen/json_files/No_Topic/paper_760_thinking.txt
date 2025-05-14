@@ -1,0 +1,33 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about sentiment analysis on Twitter using convolutional neural networks. Let me go through it step by step.
+
+First, I'll read through the abstract and introduction to get an overview. The abstract mentions that the approach uses word embeddings created from a corpus of news articles and further experiments with embeddings from tweets and sentiment-specific embeddings. So, I know there are at least a couple of datasets involved here.
+
+Looking at the introduction, the authors reference the SemEval 2015 and 2016 tasks on sentiment analysis. They mention that the top systems used embeddings trained on a corpus of 50 million tweets. That's one dataset: 50 million tweets collected using Twitter API with emoticons for sentiment.
+
+In the approach section, they talk about using word embeddings from a Google News corpus. That's another dataset: Google News articles. They also mention experiments with embeddings from 35 million tweets, which is another dataset.
+
+In the experiments section, they detail using embeddings from a corpus of 35 million tweets and sentiment-specific embeddings created using a corpus of tweets. They also reference the SemEval 2013 and 2016 datasets for training and development.
+
+So, the datasets I can identify are:
+
+1. 50 million tweets (from SemEval 2015)
+2. Google News corpus
+3. 35 million tweets
+4. Sentiment-specific embeddings from tweets
+5. SemEval 2013 and 2016 datasets
+
+Now, I need to extract the metadata for each. For each dataset, I'll look for the creator, description, title, issued year, language, identifier, theme, keywords, landing page, version, format, and task.
+
+For the 50 million tweets, the creator isn't explicitly mentioned, but it's from the Twitter API. The description is that they're tweets collected with emoticons for sentiment. The title could be "Twitter Corpus for Sentiment Analysis." The year isn't specified, but it's from 2015. The language is English. No identifier is given. The theme is sentiment analysis. Keywords include tweets, sentiment, emoticons. No landing page. Format is text. Task is sentiment analysis.
+
+For the Google News corpus, the creator is Google. The description is news articles used for word embeddings. The title is "Google News Corpus." The year isn't specified. Language is English. No identifier. Theme is NLP. Keywords include news, embeddings. No landing page. Format is text. Task is word embeddings.
+
+The 35 million tweets are similar to the 50 million but from a different collection. The creator is the paper's authors. Description is tweets used for embeddings. Title "Twitter Corpus (35M)." Year not specified. Language English. No identifier. Theme sentiment analysis. Keywords tweets, embeddings. No landing page. Format text. Task sentiment analysis.
+
+Sentiment-specific embeddings were created by the authors using a corpus of tweets. Creator is the authors. Description is embeddings with sentiment info. Title "Sentiment-Specific Word Embeddings." Year not specified. Language English. No identifier. Theme sentiment analysis. Keywords embeddings, sentiment. No landing page. Format text. Task sentiment analysis.
+
+SemEval 2013 and 2016 datasets are from the respective SemEval tasks. Creators are the organizers. Description is datasets for sentiment analysis. Titles "SemEval 2013 Task 10" and "SemEval 2016 Task 4." Years 2013 and 2016. Language English. No identifiers. Themes sentiment analysis. Keywords sentiment, tweets. No landing pages. Formats text. Tasks sentiment analysis.
+
+I think that's all the datasets mentioned. Now, I'll structure this into the required JSON format.
+</think>

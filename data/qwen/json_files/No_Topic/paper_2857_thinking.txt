@@ -1,0 +1,15 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. The paper is about APLenty, an annotation tool that uses active and proactive learning for creating high-quality datasets, especially for sequence labeling tasks. 
+
+First, I'll go through the paper to identify any datasets mentioned. The abstract and introduction don't mention specific datasets, but the case study section does. 
+
+In the case study, the authors mention using the English CoNLL-2003 named entity dataset. This dataset is well-known for named entity recognition tasks and is split into training, development, and test sets. 
+
+Looking further, the authors also reference other tools and libraries like JCLAL, Active-Learning-Scala, LibAct, brat, WebAnno, PubAnnotation, DUALIST, and Prodigy. However, these are tools or libraries, not datasets. 
+
+The only dataset explicitly mentioned is the CoNLL-2003 dataset. I'll need to extract its metadata based on the information provided in the paper and any available references. 
+
+The paper doesn't provide detailed metadata for the CoNLL-2003 dataset, so I'll have to infer some details. The dataset is used for named entity recognition, involves newswire articles, and is split into training, test, and unlabelled data. The authors used 1,200 sentences for training, 3,622 for testing, and the rest for unlabelled data. 
+
+I'll structure the JSON response with the extracted metadata for the CoNLL-2003 dataset, including the creator, description, title, issued year, language, identifier, theme, keyword, landing page, version, format, and task.
+</think>

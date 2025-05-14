@@ -1,0 +1,57 @@
+[
+    {
+        "dcterms:creator": [
+            "M. Popović"
+        ],
+        "dcterms:description": "This dataset was created for purposes of MT evaluation. The set consists of English user reviews translated into Croatian and Serbian. For each of the target languages, five different MT systems were used: three online systems (Amazon, Bing, and Google) and two in-house systems based on the Sockeye implementation. The dataset contains outputs of ten different MT systems with errors highlighted based on adequacy and comprehension.",
+        "dcterms:title": "DCU data set",
+        "dcterms:issued": "2020",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://github.com/m-popovic/QRev-annotations",
+        "dcat:theme": [
+            "Machine Translation",
+            "Evaluation"
+        ],
+        "dcat:keyword": [
+            "Machine Translation",
+            "User Reviews",
+            "Error Highlighting",
+            "Adequacy",
+            "Comprehension"
+        ],
+        "dcat:landingPage": "https://github.com/m-popovic/QRev-annotations",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation Evaluation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Kreutzer",
+            "N. Berger",
+            "S. Riezler"
+        ],
+        "dcterms:description": "This dataset was created for improving an NMT system by providing feedback about errors. The set consists of English TED talks translated into German by one MT system, an in-house system based on the Joey NMT implementation. Evaluators were asked to highlight errors without a specific quality criterion, representing a mixture of adequacy and fluency.",
+        "dcterms:title": "HU data set",
+        "dcterms:issued": "2020",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://www.cl.uni-heidelberg.de/statnlpgroup/humanmt/",
+        "dcat:theme": [
+            "Machine Translation",
+            "Error Analysis"
+        ],
+        "dcat:keyword": [
+            "Machine Translation",
+            "TED Talks",
+            "Error Highlighting",
+            "Feedback"
+        ],
+        "dcat:landingPage": "https://www.cl.uni-heidelberg.de/statnlpgroup/humanmt/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation Improvement"
+        ]
+    }
+]

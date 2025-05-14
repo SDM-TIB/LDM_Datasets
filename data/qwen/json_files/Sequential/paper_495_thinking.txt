@@ -1,0 +1,19 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is titled "What Does This Word Mean? Explaining Contextualized Embeddings with Natural Language Definitions" by Ting-Yun Chang and Yun-Nung Chen. 
+
+First, I'll read through the paper to identify any datasets that are mentioned. The abstract talks about contextualized word embeddings and their ability to capture word meanings. It mentions experiments using ELMo and BERT embeddings. 
+
+In the introduction, the authors reference several works, including Schuster et al. (2019), which visualized ELMo embeddings. They also mention using the online Oxford dictionary dataset released by Chang et al. (2018). This seems like a key dataset used in their work.
+
+Looking further into the methodology section, the authors describe their framework for mapping contextualized word embeddings to definition embeddings. They mention leveraging a pretrained sentence encoder (Cer et al., 2018) to project definitions into a consistent embedding space. This indicates that they're using the Oxford dictionary dataset for their experiments.
+
+In the experiments section, they detail their evaluation on two levels: seen and unseen tasks. The seen task uses 151,306 instances with 9,276 target words, while the unseen task uses 15,959 instances with 1,000 randomly selected target words. These instances are likely drawn from the Oxford dictionary dataset.
+
+Additionally, the authors mention using the Word-in-Context (WiC) dataset (Pilehvar and Camacho-Collados, 2018) for further analysis. This dataset is used to evaluate word sense disambiguation by determining if two contexts share the same word sense.
+
+So, the datasets mentioned are:
+1. Oxford dictionary dataset (Chang et al., 2018)
+2. Word-in-Context (WiC) dataset (Pilehvar and Camacho-Collados, 2018)
+
+Now, I'll extract the metadata for each dataset based on the information provided in the paper.
+</think>

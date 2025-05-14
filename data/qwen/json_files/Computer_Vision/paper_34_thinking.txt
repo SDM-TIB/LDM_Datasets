@@ -1,0 +1,49 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper's title is "Long Distance Relationships without Time Travel: Boosting the Performance of a Sparse Predictive Autoencoder in Sequence Modeling." The authors are Jeremy Gordon, David Rawlinson, and Subutai Ahmad. 
+
+Looking through the abstract, they mention using a predictive autoencoder called bRSM and testing it on two tasks: a non-deterministic version of the MNIST sequence task and next word prediction on the Penn Treebank (PTB) dataset.
+
+In the introduction, they reference N-gram models and their performance on the PTB dataset. They also mention Mikolov et al.'s work on language models using the PTB corpus.
+
+In the experiments section, they detail their tasks and datasets. They describe the stochastic sequential MNIST (ssMNIST) task, which involves sequences of MNIST digits. They also discuss their language modeling experiments using the Penn Treebank dataset.
+
+Looking at the references, the Penn Treebank dataset is cited in multiple places, including Mikolov et al.'s work. The MNIST dataset is mentioned in the context of their sequence learning task.
+
+So, the datasets mentioned are:
+1. MNIST (used in the ssMNIST task)
+2. Penn Treebank (PTB) dataset
+
+Now, I'll extract the metadata for each dataset based on the information provided in the paper.
+
+For MNIST:
+- Creator: Yann LeCun, Corinna Cortes, and Christopher J.C. Burges (commonly cited as the creators)
+- Description: Handwritten digit dataset used in a sequence learning task.
+- Title: MNIST
+- Issued: 1998
+- Language: Not applicable (images)
+- Identifier: URL to MNIST database
+- Theme: Computer Vision, Machine Learning
+- Keywords: Handwritten digits, sequence modeling
+- Landing Page: MNIST official website
+- Version: Not mentioned
+- Format: Image
+- Task: Sequence modeling, classification
+
+For Penn Treebank (PTB):
+- Creator: Marcus et al.
+- Description: Corpus of English text used for language modeling.
+- Title: Penn Treebank
+- Issued: 1993
+- Language: English
+- Identifier: URL to PTB corpus
+- Theme: Natural Language Processing
+- Keywords: Language modeling, corpus
+- Landing Page: PTB official website
+- Version: Not mentioned
+- Format: Text
+- Task: Language modeling, next word prediction
+
+I'll structure this information into the required JSON format, ensuring each dataset is accurately described with the appropriate metadata.
+</think>

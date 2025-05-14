@@ -1,0 +1,45 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Long Warm-up and Self-Training: Training Strategies of NICT-2 NMT System at WAT-2019" by Kenji Imamura and Eiichiro Sumita. It describes their neural machine translation system and the strategies they used, such as long warm-up and self-training with back-translations.
+
+Looking through the sections, I find that they participated in three tasks: ASPEC.en-ja, ASPEC.ja-en, and TDDC.ja-en. The datasets used are:
+
+1. **ASPEC Corpus**: This is the Asian Scientific Paper Excerpt Corpus. It's mentioned in the context of the ASPEC tasks, which involve translating scientific papers. The corpus is used for both training and evaluation.
+
+2. **TDDC Corpus**: The Timely Disclosure Documents Corpus is used for the TDDC task. It's divided into items and texts sets, which include titles and body texts respectively.
+
+I need to extract metadata for each dataset. Let's go through each one.
+
+For the ASPEC Corpus:
+- **Creator**: The paper cites Nakazawa et al., 2016, so the creators are Toshiaki Nakazawa and others.
+- **Description**: It's a corpus of scientific papers used for machine translation tasks.
+- **Title**: ASPEC Corpus.
+- **Issued**: 2016.
+- **Language**: English and Japanese.
+- **Identifier**: Not provided in the paper.
+- **Theme**: Machine Translation, Scientific Papers.
+- **Keywords**: ASPEC, scientific papers, NMT.
+- **Landing Page**: Not provided.
+- **Version**: Not mentioned.
+- **Format**: Text.
+- **Task**: Machine Translation.
+
+For the TDDC Corpus:
+- **Creator**: The paper doesn't specify the creators, so it's unknown.
+- **Description**: A corpus of timely disclosure documents used for translation tasks.
+- **Title**: TDDC Corpus.
+- **Issued**: Not provided.
+- **Language**: Japanese and English.
+- **Identifier**: Not provided.
+- **Theme**: Machine Translation, Disclosure Documents.
+- **Keywords**: TDDC, timely disclosure, NMT.
+- **Landing Page**: Not provided.
+- **Version**: Not mentioned.
+- **Format**: Text.
+- **Task**: Machine Translation.
+
+I need to ensure that the creators are correctly identified. For ASPEC, the creators are from the references, while TDDC's creators aren't specified in the paper. I'll leave it as an empty list for TDDC.
+
+Now, I'll structure this information into the required JSON format, ensuring all fields are included even if some are empty.
+</think>

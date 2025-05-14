@@ -1,0 +1,43 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Learning Local Neighboring Structure for Robust 3D Shape Representation" by Zhongpai Gao and others. It discusses 3D shape representation using graph neural networks and introduces a novel convolutional operation called LSA-Conv.
+
+Looking through the sections, I find that the authors evaluate their method on two datasets: COMA and DFAUST.
+
+1. **COMA Dataset**:
+   - Mentioned in the Evaluation section.
+   - It's a human facial dataset with 12 classes of extreme expressions from 12 subjects.
+   - Contains 20,466 3D meshes registered to a common template with 5023 vertices.
+   - Split into training, validation, and test sets with a 9:1 ratio.
+
+2. **DFAUST Dataset**:
+   - Also mentioned in the Evaluation section.
+   - Contains over 40,000 real meshes capturing 129 dynamic performances from 10 subjects.
+   - Registered to a common reference topology with 6890 vertices.
+   - Split similarly into training, validation, and test sets.
+
+I need to extract metadata for each dataset. Let's go through each one.
+
+For COMA:
+- **Creator**: The authors of the dataset are not explicitly mentioned in the paper, but the dataset is referenced as COMA (Ranjan et al. 2018). So, the creators would be the authors of that reference.
+- **Description**: As provided in the paper.
+- **Title**: COMA.
+- **Issued**: The year from the reference, which is 2018.
+- **Theme**: Computer Vision, 3D Shape Analysis.
+- **Keywords**: 3D shape, facial expressions, mesh data.
+- **Task**: 3D shape reconstruction, face recognition.
+
+For DFAUST:
+- **Creator**: The authors are Bogo et al. (2017).
+- **Description**: As described in the paper.
+- **Title**: DFAUST.
+- **Issued**: 2017.
+- **Theme**: Computer Vision, Human Body Modeling.
+- **Keywords**: 3D meshes, human body, dynamic performances.
+- **Task**: 3D shape reconstruction, body modeling.
+
+I need to ensure that the creators are correctly identified from the references. Since the paper cites these datasets, I'll use the authors from those citations as creators.
+
+Now, I'll structure this information into the required JSON format, ensuring all fields are filled appropriately based on the metadata vocabulary provided.
+</think>

@@ -1,0 +1,29 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Bilingual Data Cleaning for SMT using Graph-based Random Walk" and is authored by Lei Cui, Dongdong Zhang, Shujie Liu, Mu Li, and Ming Zhou. The abstract mentions that the quality of bilingual data is crucial for Statistical Machine Translation (SMT). They discuss their method for cleaning bilingual data without relying on labeled examples.
+
+Looking through the introduction, they reference several datasets and previous work. Specifically, they mention Jiang et al., 2009, which is a dataset mined from the web. They also reference the United Nations parallel corpus released by LDC and the parallel corpus released by China Workshop on Machine Translation (CWMT). These datasets contain around 30 million sentence pairs after deduplication.
+
+In the experiments section, they detail their setup, mentioning that the bilingual data was mainly mined from the web (Jiang et al., 2009) and include the United Nations parallel corpus and CWMT. They also mention using in-house datasets 1, 2, and 3 for testing.
+
+Now, I need to extract the metadata for each dataset mentioned:
+
+1. **Jiang et al., 2009**: This dataset is mined from the web, containing bilingual data. The creators are the authors of the paper cited, which is Jiang, Shiquan Yang, Ming Zhou, Xiaohua Liu, and Qingsheng Zhu. The description is that it's a web-mined bilingual dataset. The title is "Jiang et al., 2009 Dataset". The issued year is 2009. The language is Chinese and English. The identifier is empty. The theme is Machine Translation. Keywords include bilingual data, web-mined, SMT. The landing page is empty. The format is Text. The task is Statistical Machine Translation.
+
+2. **United Nations Parallel Corpus**: Released by LDC, this dataset is used for SMT. The creators are the United Nations and LDC. The description is a parallel corpus for translation tasks. The title is "United Nations Parallel Corpus". The issued year is not specified. The language is Chinese and English. The identifier is empty. The theme is Machine Translation. Keywords include parallel corpus, translation. The landing page is empty. The format is Text. The task is Statistical Machine Translation.
+
+3. **China Workshop on Machine Translation (CWMT) Parallel Corpus**: This dataset is released by CWMT. The creators are the authors of the CWMT corpus. The description is a parallel corpus for translation tasks. The title is "CWMT Parallel Corpus". The issued year is not specified. The language is Chinese and English. The identifier is empty. The theme is Machine Translation. Keywords include parallel corpus, translation. The landing page is empty. The format is Text. The task is Statistical Machine Translation.
+
+4. **In-house datasets 1, 2, and 3**: These are used for testing. The creators are the authors of the paper. The description is that they are web data. The titles are "In-house dataset 1", "In-house dataset 2", and "In-house dataset 3". The issued year is not specified. The language is Chinese and English. The identifier is empty. The theme is Machine Translation. Keywords include testing, web data. The landing page is empty. The format is Text. The task is Statistical Machine Translation.
+
+I need to structure each dataset with the specified metadata fields. For each dataset, I'll fill in the creator, description, title, issued year, language, identifier, theme, keyword, landing page, version, format, and task.
+
+For Jiang et al., 2009, the creators are the authors of that dataset. The description is based on how it's used in the paper. The title is the dataset's name. The issued year is 2009. The language is Chinese and English. The identifier is empty. The theme is Machine Translation. Keywords are derived from the paper's usage. The landing page is empty. The format is Text. The task is Statistical Machine Translation.
+
+Similarly, for the United Nations and CWMT datasets, the creators are the organizations, and the rest of the metadata is filled accordingly.
+
+For the in-house datasets, the creators are the authors of the current paper, as they are the ones who created these datasets for their experiments. The description is that they are web data. The titles are as mentioned. The issued year is not specified. The language is Chinese and English. The identifier is empty. The theme is Machine Translation. Keywords include testing and web data. The landing page is empty. The format is Text. The task is Statistical Machine Translation.
+
+I need to ensure that each dataset is correctly represented with all the necessary fields, even if some fields are empty because the information isn't available in the paper.
+</think>

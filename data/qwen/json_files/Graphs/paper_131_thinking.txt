@@ -1,0 +1,31 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Directional Message Passing for Molecular Graphs" by Johannes Gasteiger, Janek Große, and Stephan Günnemann. It's published in ICLR 2020. The abstract mentions the use of MD17 and QM9 datasets. 
+
+Looking into the introduction, the authors discuss the application of graph neural networks (GNNs) in predicting molecular properties. They reference MD17 and QM9 as benchmarks for evaluating their model's performance.
+
+In the experiments section, the authors provide detailed results on both datasets. For QM9, they mention it consists of around 130,000 molecules and is used for predicting various molecular properties. For MD17, they use it to test molecular dynamics simulations, focusing on predicting energies and forces of small organic molecules.
+
+I need to gather metadata for each dataset. Starting with QM9:
+
+- **Creators**: The dataset is created by Ramakrishnan et al. (2014).
+- **Description**: QM9 is a benchmark dataset containing about 130,000 molecules, used for predicting molecular properties like atomization energy, HOMO, LUMO, etc.
+- **Title**: QM9
+- **Issued**: 2014
+- **Theme**: Quantum Chemistry, Molecular Properties
+- **Keywords**: Molecular properties, Quantum mechanics, Machine learning
+- **Task**: Molecular property prediction
+
+Next, MD17:
+
+- **Creators**: Chmiela et al. (2017)
+- **Description**: MD17 is a dataset used for molecular dynamics simulations, containing eight small organic molecules with DFT-computed energies and forces.
+- **Title**: MD17
+- **Issued**: 2017
+- **Theme**: Molecular Dynamics, Quantum Mechanics
+- **Keywords**: Molecular dynamics, Forces, Energies
+- **Task**: Molecular dynamics simulation, Force prediction
+
+I'll structure this information into the required JSON format, ensuring each dataset is accurately described with the appropriate metadata.
+</think>

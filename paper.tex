@@ -1,0 +1,465 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.21 of 2022/01/12
+%
+\documentclass[runningheads]{llncs}
+
+%
+\usepackage[T1]{fontenc}
+% T1 fonts will be used to generate the final print and online PDFs,
+% so please use T1 fonts in your manuscript whenever possible.
+% Other font encondings may result in incorrect characters.
+%
+\usepackage{graphicx}
+\usepackage{booktabs} 
+\usepackage{subcaption}
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable}
+
+
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following two lines
+% to display URLs in blue roman font according to Springer's eBook style:
+%\usepackage{color}
+%\renewcommand\UrlFont{\color{blue}\rmfamily}
+%\urlstyle{rm}
+%
+\begin{document}
+%
+\title{MetaMine: A Neuro-Symbolic Approach for Dataset Extraction from Research Papers using Knowledge Distillation}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+\author{First Author\inst{1}\orcidID{0000-1111-2222-3333} \and
+Second Author\inst{2,3}\orcidID{1111-2222-3333-4444} \and
+Third Author\inst{3}\orcidID{2222--3333-4444-5555}}
+%
+\authorrunning{F. Author et al.}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\author{Anonymous Author(s)}
+\institute{Anonymous Institution}
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+Scientific datasets represent valuable knowledge assets that often remain hidden within research papers, limiting their discovery and reuse. This paper presents \textsc{MetaMine}, a novel neuro-symbolic approach that leverages knowledge distillation to extract structured dataset metadata from scientific literature. \textsc{MetaMine} introduces a multi-stage chain-of-thought prompting strategy that guides large teacher models to perform step-by-step reasoning for accurate dataset identification and metadata extraction. Our approach uniquely preserves this reasoning capability during knowledge distillation to a compact student model, enabling it to generate explicit reasoning steps before producing structured outputs. The distillation process combines human-verified annotations from multiple crowd workers with weakly supervised signals, achieving high-accuracy extraction with significantly reduced computational cost. The extracted metadata is aligned with the DCAT vocabulary and represented in RDF, facilitating interoperability with Knowledge Graphs and Linked Data infrastructures. We evaluate \textsc{MetaMine} against several state-of-the-art large language models on a corpus of 1,000 research papers, demonstrating superior performance across precision, recall, and F-score metrics for various dataset properties. Our specialized input handling preserves reference sections critical for extraction of creator information and other bibliographic metadata. The neuro-symbolic architecture bridges neural learning with semantic representation, extracting both standard metadata and domain-specific properties that enhance dataset discoverability. To foster reproducibility and community adoption, we release both our fine-tuned model and the annotated dataset of 20,000 papers used for fine tuning as public resources. By enabling the scalable extraction of semantically rich dataset metadata from large scientific corpora such as arXiv, \textsc{MetaMine} lays the foundation for constructing research dataset knowledge graphs at Web scale—advancing dataset discoverability, integration, and intelligent reuse across disciplines, and directly contributing to the vision of a machine-readable, interconnected Web of scientific data..
+
+\keywords{knowledge Extraction  \and Knowledge Distillation \and Neuro-Symbolic.}
+\end{abstract}
+%
+%
+%
+\section{Introduction}
+Scientific progress is increasingly driven by the availability and reuse of research data. Datasets generated and utilized in scientific studies hold immense potential for validation, replication, and further exploration. However, these valuable knowledge assets are often described within the unstructured text of research papers, making their discovery and subsequent reuse a significant challenge for researchers across disciplines. As depicted in Figure~\ref{fig:motivation}, a vast semantic gap exists between unstructured scientific literature and the structured dataset descriptions needed for efficient discovery and reuse.
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.6\linewidth]{figures/MotivatingExample.pdf}
+\caption{The knowledge divide in scientific research: Scientific papers contain valuable dataset information buried in unstructured text (left), while researchers need structured, machine-readable dataset descriptions to enable effective discovery and reuse (right). This semantic gap hinders scientific progress by making datasets difficult to find, compare, and integrate across disciplines..}
+\label{fig:motivation}
+\end{figure}
+\noindent
+The scientific community produces over 2 million new papers annually \cite{ware2015stm}, with many introducing or utilizing datasets that could benefit researchers in related fields. Imagine a researcher aiming to identify all datasets used in studies related to a specific disease, or one looking for a dataset with particular characteristics for benchmarking a new algorithm. The current paradigm requires laborious manual reading and information extraction from numerous publications, a process that is both time-consuming and prone to inconsistencies.
+\\
+\noindent
+To address this critical gap, there is a growing need for automated methods that can effectively extract structured metadata about datasets from scientific literature. This metadata should ideally adhere to established standards, such as the Data Catalog Vocabulary (DCAT) \cite{maali2014data}, to ensure interoperability and facilitate the creation of comprehensive Knowledge Graphs of research datasets.
+\\
+\noindent
+Large language models (LLMs) have demonstrated impressive capabilities in extracting structured information from text \cite{wei2022chain}. However, deploying state-of-the-art models like GPT-4 \cite{openai2023gpt4} for processing large scientific corpora presents substantial computational and financial barriers. For instance, processing arXiv's 2.5 million papers with proprietary LLMs would incur prohibitive costs, limiting accessibility and reproducibility. Furthermore, while these models excel at extraction tasks, they typically produce unstructured or semi-structured outputs that lack explicit semantic representation, limiting integration with knowledge graphs and semantic web infrastructures.
+\\
+\noindent
+In this paper, we present \textbf{MetaMine}, a novel neuro-symbolic approach designed for the efficient and accurate extraction of dataset metadata from scientific research papers. Our approach leverages a multi-stage chain-of-thought prompting strategy with \texttt{GPT-o4-mini} (the teacher model) that guides step-by-step reasoning for dataset identification and metadata extraction. Through knowledge distillation, we transfer these extraction capabilities to a compact \texttt{Llama-3.2-3B-Instruct} model (the student model), while uniquely preserving the reasoning process that leads to high-quality extraction results.
+\\
+\noindent
+\textsc{MetaMine} comprises three key components: (1) a knowledge distillation framework that efficiently transfers both extraction capabilities and reasoning processes from teacher to student model using a mix of crowd-verified annotations (1,000 papers validated by multiple Amazon Mechanical Turk workers with majority voting) and weakly-supervised examples (20,000 papers); (2) a structured extraction module that identifies dataset mentions and their properties according to the DCAT vocabulary, with specialized input handling that preserves reference sections critical for extracting bibliographic metadata; and (3) a semantic representation layer that converts extracted information into RDF triples aligned with established ontologies, enabling complex semantic queries and integration with existing knowledge graphs.
+\\
+\noindent
+\textsc{MetaMine}'s neuro-symbolic architecture bridges the gap between neural language understanding and symbolic knowledge representation. The fine-tuned student model generates explicit reasoning steps before producing structured outputs, mimicking the teacher model's chain-of-thought approach. This enables the model to accurately identify and extract not only standard DCAT core fields such as title, creator, and publication date, but also domain-specific properties crucial for understanding and reusing scientific datasets. These include the dataset's description, language, identifier (e.g., DOI or URL), thematic categories, keywords, landing page, version, format (e.g., Text, Image, Audio), and the specific tasks for which the dataset is typically used.
+\\
+\noindent
+Our distilled model achieves an F1 score of 0.74 for dataset identification, outperforming its pre-distillation baseline (0.65 F1) and rivaling much larger models like DeepSeek-R1-Distill-Qwen-32B (0.73 F1) despite being 10× smaller. Moreover, on challenging metadata fields like dataset creator identification, our model achieves an F1 score of 0.59 compared to DeepSeek's 0.39, demonstrating the effectiveness of our reasoning-preserving distillation approach for complex cross-document extraction tasks. The distilled model processes papers in 35 seconds compared to 120 seconds for the 32B model, enabling practical application to large scientific corpora.
+\\
+\noindent
+\paragraph{Contributions.}
+\vspace{-2mm}
+\begin{itemize}
+  \setlength\itemsep{2pt}
+  \item \textbf{Methodology:} We introduce \textsc{MetaMine}, a neuro-symbolic framework that combines multi-stage chain-of-thought prompting and reasoning-preserving knowledge distillation with RDF alignment to extract rich dataset metadata from scholarly PDFs at Web scale.
+  \item \textbf{Resources:} (i) a gold benchmark of 1\,000 crowd-verified annotated papers, (ii) the distillation corpus of 20\,000 weakly labelled papers, (iii) the fine-tuned 3B model checkpoints with preserved reasoning capabilities, and (iv) the resulting DCAT KG via a public SPARQL endpoint\footnote{\url{anonymous submission}}.
+  \item \textbf{Empirical evidence:} Demonstrate state-of-the-art extraction quality while being \(3\times\) faster and \(10\times\) cheaper than larger LLM baselines, with particularly strong performance on challenging fields like dataset creator.
+  \item \textbf{Applications:} A public SPARQL endpoint providing access to structured metadata for datasets extracted from scientific literature, laying the foundation for advanced dataset discovery services.
+\end{itemize}
+\vspace{-2mm}
+\noindent
+The remainder of this paper is structured as follows: Section \ref{sec:related_work} discusses related work in dataset metadata extraction and knowledge distillation. Section \ref{sec:methodology} details the architecture and methodology of \textsc{MetaMine}, including the knowledge distillation process and the neuro-symbolic integration. Section \ref{sec:experimental_setup} describes our experimental setup, including the dataset, evaluation metrics, baseline models, results, and a discussion of our findings. Finally, Section \ref{sec:conclusion} concludes the paper and points out potential future directions.
+
+\section{Related Work}
+\label{sec:related_work}
+The task of extracting structured information from scientific literature has gained significant traction with the rise of large language models (LLMs) and the growing emphasis on open science. Prior work can be categorized into three main areas: dataset metadata extraction, knowledge distillation for model compression, and neuro-symbolic approaches for semantic representation.
+
+\subsection{Dataset Metadata Extraction}
+Several studies have explored the automatic extraction of dataset mentions and metadata from scientific documents. Early rule-based and feature-engineered systems relied on handcrafted patterns and lexical cues to identify datasets, but these approaches suffered from limited generalization across domains. More recent approaches have adopted neural architectures to improve scalability and domain transferability. For instance, the SemEval 2017 ScienceIE shared task~\cite{augenstein2017semeval} focused on extracting keyphrases and relations from scientific publications, laying foundational work for dataset-related entity recognition.
+\\
+\noindent
+Large-scale document-level extraction frameworks such as RAGing~\cite{datta2024raging}, SciIE~\cite{luan2018multi} and S2ORC~\cite{lo2019s2orc} leveraged pretrained language models to capture richer contextual information across full papers. However, most existing methods produce flat or semi-structured outputs that are difficult to align with semantic vocabularies like DCAT, limiting their use for structured dataset discovery.
+\\
+\noindent
+In parallel, community-driven platforms like Papers With Code~\footnote{\url{https://paperswithcode.com/}} have emerged to catalog research papers along with their associated code and datasets. While valuable for community use, these platforms rely primarily on manual curation, which limits their coverage and scalability. Furthermore, the platform focuses only on machine learning papers and the dataset information in Papers With Code lacks standardized metadata conforming to established vocabularies like DCAT, does not include comprehensive bibliographic details such as full list of dataset creators separate from paper authors, and doesn't support semantic queries or knowledge graph integration. Our \textsc{MetaMine} approach complements such platforms by automatically extracting rich, structured metadata at scale while adhering to semantic web standards, enabling more sophisticated discovery and reuse of scientific datasets across disciplines.
+
+\subsection{Knowledge Distillation in NLP}
+Knowledge distillation has been widely used to compress large models into smaller, more efficient ones without significant loss in performance~\cite{hinton2015distilling}. In NLP, techniques such as TinyBERT~\cite{jiao2019tinybert} and DistilBERT~\cite{sanh2019distilbert} have proven effective for various downstream tasks by transferring knowledge from large teacher models to lightweight student models.
+\\
+\noindent
+Recent studies have explored how to transfer not just output labels but also reasoning behaviors. For example, chain-of-thought prompting has been used to guide language models to perform intermediate reasoning steps~\cite{wei2022chain}. Our work draws inspiration from this trend and builds upon the idea that preserving intermediate reasoning in the student model enhances its ability to generalize to complex extraction tasks.
+
+\subsection{Neuro-Symbolic and Semantic Extraction Approaches}
+Neuro-symbolic systems aim to combine the strengths of neural models in language understanding with symbolic knowledge representation. These approaches are particularly useful when structured output and semantic alignment are critical. For example, BertNet~\cite{hao2022bertnet} integrates pre-trained language models with knowledge graphs to produce RDF triples, showcasing the potential for neural models to generate semantically consistent outputs.
+\\
+\noindent
+The use of vocabularies like DCAT~\cite{maali2014data} has been emphasized in semantic web and linked data communities to ensure interoperability. Our approach builds upon these insights by tightly integrating a neural reasoning framework with RDF-compatible output generation, thereby enabling downstream applications such as SPARQL-based dataset discovery and knowledge graph population.
+\section{Approach}
+\label{sec:methodology}
+In this section, we present the methods and architecture of \textsc{MetaMine}, our neuro-symbolic approach for dataset metadata extraction from scientific literature. We first formulate the problem statement, followed by an overview of our approach and a detailed description of each component in our pipeline.
+
+\subsection{Problem Statement}
+Given a scientific paper \(P\) containing textual descriptions of one or more datasets, our goal is to extract a set of dataset entries \(D = \{d_1, d_2, ..., d_n\}\), where each entry \(d_i\) represents structured metadata about a dataset mentioned in \(P\). Each dataset entry is described by a set of metadata fields \(d_i = \{(f_1, v_1), (f_2, v_2), ..., (f_m, v_m)\}\), where each field-value pair \((f_j, v_j)\) corresponds to a property from DCAT.
+\\
+\noindent
+The key challenges in this task include: \textbf{Information sparsity}: Dataset descriptions are often scattered throughout a paper, requiring the model to integrate information from multiple sections. \textbf{Domain specificity}: Scientific papers use specialized terminology that varies across disciplines, complicating extraction. \textbf{Schema alignment}: Extracted information must be mapped to a standardized vocabulary (DCAT) for semantic interoperability. \textbf{Computational efficiency}: Processing large corpora of scientific literature requires models that are both accurate and computationally efficient.
+
+\subsection{MetaMine Architecture}
+\begin{figure}[t!]
+\centering
+\includegraphics[width=\linewidth]{figures/MetaMine_Architecture.pdf}
+\caption{The \textsc{MetaMine} pipeline for dataset metadata extraction from scientific literature, consisting of four main phases: (1) Data Collection and Processing, (2) Data Annotation with Teacher Model, (3) Knowledge Distillation to Student Model, and (4) Knowledge Graph Creation.}
+\label{fig:architecture}
+\end{figure}
+\noindent
+Figure \ref{fig:architecture} illustrates the \textsc{MetaMine} pipeline, which consists of four main phases: (1) Data Collection and Processing, (2) Data Annotation, (3) Knowledge Distillation, and (4) Knowledge Graph Creation. 
+
+\subsection{Data Collection and Processing}
+\subsubsection{Source Selection}
+We collected a diverse corpus of scientific papers from Papers With Code\footnote{\url{https://paperswithcode.com/}}, which includes publications from arXiv and ACL Anthology. This ensures coverage across multiple domains within computer science, particularly focusing on papers that explicitly mention datasets.
+\subsubsection{Text Extraction and Refinement}
+For each PDF document, we applied the following processing steps:
+    \textbf{OCR Processing}: We used OCR (Optical Character Recognition) on all PDF documents to extract textual content, including those with embedded text, ensuring uniform processing across the corpus.
+     \textbf{Text Refinement}: We implemented a cleaning pipeline that removes Unicode control characters, non-standard characters, and formatting artifacts that could introduce noise into the extraction process.
+\noindent
+The processed text maintains the logical structure of the paper while removing elements that could negatively impact extraction accuracy. This preprocessing stage is crucial for providing clean input to the subsequent annotation phase.
+\subsection{Data Annotation}
+\subsubsection{Teacher Model Configuration}
+We employed GPT-o4-mini as our teacher model for generating high-quality dataset metadata annotations. To maximize extraction quality, we implemented a chain-of-thought approach using a sequence of four specialized prompts (shown in Appendix \ref{appendix:prompts}):
+     \textbf{(1) Initial Dataset Identification}: The first prompt instructs the model to identify all datasets mentioned in the paper along with their reference numbers and full citations.
+    \textbf{(2) Reference Verification}: The second prompt asks the model to double-check reference numbers for accuracy, ensuring correct attribution.
+    \textbf{(3) Detailed Metadata Extraction}: The third prompt provides the model with its previous responses and instructs it to extract comprehensive metadata fields aligned with the DCAT vocabulary.
+   \textbf{(4) Reasoning Guidance}: The fourth prompt elicits step-by-step reasoning in a \texttt{<think>} section, encouraging the model to justify its extraction decisions before producing the final structured JSON output.
+\\
+\noindent
+This multi-stage prompting strategy ensures that the model first correctly identifies datasets and their references before proceeding to detailed metadata extraction. We also implemented a strategic truncation approach to ensure the papers' reference sections remained in the input context, as many metadata fields (e.g., creator information and publication dates) are primarily found in the citations.
+\subsubsection{Human Verification}
+To establish a gold standard for evaluation and improve the quality of our training data, we engaged Amazon Mechanical Turk workers to verify the teacher model's annotations for 1,000 papers. This verification process involved:
+     \textbf{(1)} Assigning three independent workers to review each extracted metadata field;
+     \textbf{(2)} Instructing workers to evaluate the accuracy of each field and correct any errors;
+     \textbf{(3)} Resolving conflicts through majority voting when workers disagreed on corrections; and
+     \textbf{(4)} Ensuring alignment with the DCAT vocabulary. %across all verified entries
+\\
+\noindent
+This crowdsourced verification approach enabled us to create a high-quality gold standard while scaling the annotation effort. The human-verified subset was kept separate from the training data to ensure unbiased evaluation of the final model's performance. The verification process revealed that the teacher model achieved approximately 80\% accuracy in extracting dataset metadata, providing confidence in using its outputs for knowledge distillation.
+
+\subsection{Knowledge Distillation}
+\subsubsection{Dataset Preparation}
+We processed a total of 20,000 papers with the teacher model to generate the training data for knowledge distillation. Each training instance consists of:
+    \textbf{Input}: The processed full text of a scientific paper;
+     \textbf{Output}: The structured JSON output from the teacher model, including the reasoning in the \texttt{<think>} section.
+This approach transfers both the extraction capabilities and the reasoning process from the teacher to the student model.
+
+\subsubsection{Student Model Fine-tuning}
+We selected Llama-3.2-3B-Instruct as our student model due to its balance of performance and efficiency. The fine-tuning process utilized QLoRA (Quantized Low-Rank Adaptation) \cite{dettmers2023qlora} to efficiently adapt the model while minimizing memory requirements:
+     \textbf{Quantization}: We applied 4-bit quantization using the NF4 format with double quantization to reduce memory footprint while maintaining performance.
+     \textbf{LoRA Configuration}: We used rank \(r=16\), alpha \(\alpha=32\), and dropout \(p=0.05\), targeting all projection matrices in attention and MLP blocks.
+     \textbf{Training Hyperparameters}: The model was trained for 3 epochs with a batch size of 1, gradient accumulation steps of 32, learning rate of 2e-4 with AdamW optimizer, weight decay of 0.01, and warmup ratio of 0.1.
+     \textbf{Context Length}: We utilized a context window of 30,000 tokens to accommodate lengthy papers and avoid out of memory problems.
+     \textbf{Hardware}: Training was conducted on 4 NVIDIA H100 90GB GPUs, completing in approximately 9 hours.
+\\
+\noindent
+By fine-tuning on the teacher's outputs, the student model learns to emulate both the extraction behavior and reasoning process of the much larger teacher model, but with significantly reduced computational requirements.
+
+\subsubsection{Reasoning Preservation}
+A key aspect in our approach is the preservation of the reasoning process in the student model. Unlike typical knowledge distillation approaches that focus solely on matching output distributions, we explicitly trained our student model to generate the intermediate reasoning steps (via the \texttt{<think>} section) before producing the final structured output. This promotes more robust extraction by encouraging the model to analyze the paper comprehensively before making extraction decisions.
+
+\subsection{Knowledge Graph Creation}
+\subsubsection{JSON to RDF Conversion}
+The structured JSON output from the fine-tuned student model is converted to RDF triples using SDM-RDFizer\cite{iglesias2020sdm}, with the following mapping strategy:
+     Each extracted dataset becomes an instance of \texttt{dcat:Dataset}.
+     Metadata fields are mapped to corresponding DCAT properties.
+     Values are represented as either literals or references to other resources. %based on the property type.
+\subsubsection{Semantic Web Integration}
+The resulting RDF triples form a knowledge graph of scientific datasets that is:
+     \textbf{Interoperable}: Aligned with established semantic web standards;
+     \textbf{Queryable}: Accessible via SPARQL for complex queries; and
+     \textbf{Linkable}: Connected to other knowledge sources through shared vocabularies.
+This neuro-symbolic integration bridges the gap between neural extraction models and symbolic knowledge representation, enabling semantic search and reasoning over the extracted dataset metadata.
+
+\subsection{Efficiency and Performance Considerations}
+A primary focus of \textsc{MetaMine} is achieving a balance between extraction quality and computational efficiency. The distilled student model processes a paper in approximately 35 seconds, compared to 120 seconds for larger models like DeepSeek-R1-Distill-Qwen-32B, while maintaining comparable overall performance. This efficiency is crucial for scaling to Web-scale corpora like arXiv, which contains millions of papers. Additionally, by using an open-source base model and providing our fine-tuned weights, we ensure that the research community can deploy, extend, and improve upon our work without prohibitive computational requirements or licensing restrictions.
+
+\section{Experiments and Evaluation}
+\label{sec:experimental_setup}
+In this section, we present a comprehensive evaluation of \textsc{MetaMine}, examining its performance in extracting dataset metadata from scientific papers. Our evaluation aims to answer the following research questions:
+     \textbf{RQ1:} How does reasoning-preserving knowledge distillation and the explicit reasoning step (\texttt{<think>} tag) impact dataset metadata extraction quality?
+     \textbf{RQ2:} How does our compact fine-tuned model (3B parameters) compare to larger models (32B parameters) specifically for challenging metadata fields like creator identification and domain-specific properties?
+     \textbf{RQ3:} What benefits does our neuro-symbolic approach with DCAT vocabulary integration provide for structured dataset metadata extraction and knowledge graph creation?
+\subsection{Experimental Setup}
+\subsubsection{Dataset and Gold Standard}
+We evaluated all models on a test set of 1,000 scientific papers that were manually verified by human annotators. This test set was completely separate from the 20,000 papers used for fine-tuning to ensure an unbiased evaluation. For the gold standard creation, we employed Amazon Mechanical Turk workers, with three independent annotators reviewing each extracted metadata field. The annotators achieved an 85\% agreement rate, with disagreements resolved through majority voting.
+\subsubsection{Baselines}
+We compared the following models:
+     \textbf{Llama Base}: The original Llama-3.2-3B-Instruct model without fine-tuning, serving as our baseline.
+     \textbf{DeepSeek (QWEN)}: A much larger model, DeepSeek-R1-Distill-Qwen-32B (32 billion parameters), representing a state-of-the-art baseline.
+     \textbf{Llama Tuned}: Our proposed \textsc{MetaMine} model, fine-tuned with reasoning preservation (including the \texttt{<think>} tag).
+     \textbf{Llama Tuned w/o Think}: An ablated version of our model, fine-tuned with the same data and hyperparameters but without the reasoning step preservation, to assess the impact of the thinking process.
+\\
+\noindent
+We excluded the teacher model (GPT-o4-mini) from quantitative evaluation to maintain methodological consistency. While all evaluated models perform extraction in a single pass, the teacher requires four sequential prompts, creating different evaluation conditions that would unfairly conflate architectural differences with methodological variations. Our evaluation thus focuses on comparing models under consistent inference protocols.
+\subsubsection{Evaluation Metrics}
+We evaluated the performance using precision, recall, and F1 score for each metadata field and for coverage extraction. The evaluation methodology varied by field type:
+\\
+\noindent 
+\textbf{i}  For list-based fields like \texttt{dcat:keyword} and \texttt{dcterms:creator}, we calculated matches between predicted and gold standard items.
+\textbf{ii} For title fields, we considered both exact matches and abbreviations as correct.
+\textbf{iii} For identifier fields, we verified the correctness of extracted DOIs and URLs.
+\subsubsection{Implementation Details}
+All inference was conducted on a single NVIDIA H100 90GB GPU for consistent timing comparisons. We used a temperature setting of 0.1 and applied the same prompt structure as used during fine-tuning. %For the fine-tuned models, we used the same QLoRA parameters described in Section \ref{sec:methodology}.
+
+\subsection{Results and Analysis}
+
+\subsubsection{Overall Performance}
+
+\begin{table}[t]
+\centering
+\caption{Dataset Extraction Coverage and Efficiency Comparison}
+\label{tab:overall_performance}
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Model} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} & \textbf{Size} & \textbf{Time (s)} \\
+\midrule
+Llama Base & 0.72 & 0.59 & 0.65 & 3B & 35 \\
+DeepSeek (QWEN) & 0.86 & 0.64 & 0.73 & 32B & 120 \\
+Llama Tuned w/o Think & 0.71 & 0.60 & 0.65 & 3B & 35 \\
+Llama Tuned (\textsc{MetaMine}) & \textbf{0.78} & \textbf{0.70} & \textbf{0.74} & 3B & 35 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\noindent 
+Table~\ref{tab:overall_performance} presents the dataset extraction coverage for all evaluated models. These metrics reflect how effectively each model identifies datasets mentioned in papers compared to the gold standard, not the aggregated quality of all metadata fields. Our \textsc{MetaMine} model (Llama Tuned) achieves the highest F1 score of 0.74, outperforming both the base model (0.65 F1) and the much larger DeepSeek model (0.73 F1). Notably, removing the reasoning step (Llama Tuned w/o Think) results in a significant drop in performance, matching the baseline model's F1 score of 0.65.
+\begin{table}[t]
+\centering
+\caption{F1 Scores for Individual Metadata Fields Across Models}
+\label{tab:field_performance}
+\resizebox{\linewidth}{!}{
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Field} & \textbf{Llama Base} & \textbf{DeepSeek (QWEN)} & \textbf{Llama Tuned w/o Think} & \textbf{Llama Tuned} \\
+\midrule
+dcterms:creator & 0.17 & 0.39 & 0.39 & \textbf{0.59} \\
+dcat:theme & 0.33 & 0.49 & 0.44 & \textbf{0.54} \\
+dcat:keyword & 0.38 & 0.59 & 0.52 & \textbf{0.63} \\
+mls:task & 0.38 & 0.51 & 0.44 & \textbf{0.58} \\
+dcterms:title & 0.58 & \textbf{0.93} & 0.71 & 0.86 \\
+dcterms:issued & 0.67 & 0.74 & 0.76 & \textbf{0.86} \\
+dcterms:language & 0.71 & 0.62 & 0.71 & \textbf{0.78} \\
+dcterms:identifier & 0.80 & 0.77 & 0.82 & \textbf{0.86} \\
+dcat:landingPage & 0.78 & 0.74 & 0.83 & \textbf{0.87} \\
+dcterms:hasVersion & 0.97 & 0.96 & 0.95 & \textbf{0.97} \\
+dcterms:format & 0.50 & 0.69 & 0.65 & \textbf{0.73} \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+\begin{figure}[t]
+\centering
+\begin{subfigure}[b]{0.33\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/radar_f.png}
+  \caption{F1 Score}
+  \label{fig:radar_f1}
+\end{subfigure}%
+\begin{subfigure}[b]{0.33\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/radar_r.png}
+  \caption{Recall}
+  \label{fig:radar_recall}
+\end{subfigure}%
+\begin{subfigure}[b]{0.33\textwidth}
+  \centering
+  \includegraphics[width=\linewidth]{figures/radar_p.png}
+  \caption{Precision}
+  \label{fig:radar_precision}
+\end{subfigure}
+\caption{Performance comparison across metadata fields. \textsc{MetaMine} (Llama Tuned) consistently outperforms other models, particularly on challenging fields like dataset creator identification.}
+\label{fig:radar_charts}
+\end{figure}
+
+\subsubsection{Performance Across Metadata Fields}
+Figure~\ref{fig:radar_charts} visualizes the performance across different metadata fields for F1 score, recall, and precision. Table~\ref{tab:field_performance} provides detailed F1 scores for each field. The results reveal several important patterns:
+\begin{itemize}
+ \item \textbf{Creator Identification}: \textsc{MetaMine} (Llama Tuned) achieves an F1 score of 0.59 for creator identification, significantly outperforming DeepSeek (0.39) and Llama Base (0.17). This is particularly noteworthy as creator identification is one of the most challenging aspects of dataset metadata extraction, requiring the model to correctly link dataset mentions to their corresponding references in the citation section.
+ \item \textbf{Semantic Fields}: \textsc{MetaMine} also excels in extracting semantically rich fields like themes (0.54 F1), keywords (0.63 F1), and tasks (0.58 F1) compared to other models. These fields require deeper understanding of the dataset's purpose and application domain.
+   \item  \textbf{Bibliographic Fields}: While all models perform relatively well on standard bibliographic metadata like title, publication date, and landing page, \textsc{MetaMine} consistently outperforms other models in most of these fields as well.
+\end{itemize}
+
+\subsubsection{Ablation Study: Impact of Reasoning Preservation}
+The ablation study comparing Llama Tuned with Llama Tuned w/o Think provides clear evidence of the importance of preserving the reasoning process during knowledge distillation. The model without thinking capabilities shows a significant drop in overall F1 score from 0.74 to 0.65. This decline is particularly pronounced for complex fields:
+    \textbf{ Creator identification}: F1 drops from 0.59 to 0.39 (-34\%)
+    \textbf{ Thematic categories}: F1 drops from 0.54 to 0.44 (-19\%)
+    \textbf{ Keywords}: F1 drops from 0.63 to 0.52 (-17\%)
+    \textbf{ Task identification}: F1 drops from 0.58 to 0.44 (-24\%).
+These results suggest that the explicit reasoning step helps the model perform more accurate cross-document reasoning, particularly for fields that require integrating information from different parts of the paper (e.g., connecting dataset mentions to their corresponding citations for creator identification). The thinking process guides the model through a step-by-step analysis, similar to how a human expert would approach the task—first identifying potential datasets, then locating their references, and finally extracting specific metadata fields.
+Analysis of error cases reveals that the most challenging aspect of dataset metadata extraction is correctly identifying dataset creators. This requires the model to:
+     (1) Identify dataset mentions in the main text
+     (2) Locate the corresponding reference or citation
+     (3) Extract the correct authors from the reference
+     (4) Distinguish between paper authors and dataset creators
+
+
+The reasoning step significantly improves performance on this task by encouraging the model to explicitly reason about the connections between dataset mentions and their citations (\textbf{Answering RQ1}). In error cases where the model fails to extract creator information correctly, we observed that:
+     (1) The Llama Base model often confuses paper authors with dataset creators (14\% of errors)
+     (2) The DeepSeek model frequently misses the connection between dataset mentions and their citations (32\% of errors)
+     (3) The Llama Tuned w/o Think model struggles with complex citation patterns (27\% of errors)
+     (4) The \textsc{MetaMine} model makes fewer of these errors but still has difficulty with unusual citation formats (9\%)
+
+
+\subsubsection{Efficiency Analysis}
+
+In terms of computational efficiency, both our fine-tuned models process papers in approximately 35 seconds per paper on an H100 GPU, which is 3.4× faster than the DeepSeek model (120 seconds per paper). Given that the DeepSeek model has 10.7× more parameters (32B vs. 3B), our approach offers a significant efficiency advantage while achieving better performance.
+
+This efficiency improvement is particularly important for processing large scientific corpora. For example, processing the entire arXiv corpus (approximately 2.5 million papers) would require:
+    \textbf{ MetaMine}: ~1,010 GPU-hours (42 days on a single GPU)
+    \textbf{ DeepSeek}: ~3,472 GPU-hours (145 days on a single GPU)
+
+
+The faster processing time, combined with better extraction quality, makes \textsc{MetaMine} a more practical solution for large-scale dataset metadata extraction.
+
+\subsection{Discussion}
+
+%\subsubsection{Impact of Reasoning Preservation (Answering RQ1)}
+
+
+
+
+\subsubsection{Compact vs. Larger Models for Complex Metadata Fields}
+
+\textsc{MetaMine} demonstrates that a properly distilled compact model (3B parameters) can outperform much larger models (32B parameters) specifically for challenging metadata extraction tasks. The most striking performance differential is in dataset creator identification, where our 3B parameter model achieves an F1 score of 0.59 compared to 0.39 for the 32B DeepSeek model—a 51\% improvement despite being 10× smaller.
+This advantage extends to other domain-specific metadata fields as well:
+    \textbf{ Thematic categories}: 0.54 F1 vs. 0.49 F1 (10\% improvement)
+    \textbf{ Keywords}: 0.63 F1 vs. 0.59 F1 (7\% improvement)
+    \textbf{ Task identification}: 0.58 F1 vs. 0.51 F1 (14\% improvement)
+
+
+These improvements are particularly notable for fields that require deeper understanding of the dataset's purpose, context, and bibliographic relationships. The specialized fine-tuning with reasoning preservation enables the compact model to develop a focused expertise in these challenging aspects of metadata extraction \textbf{(Answering RQ2)}.
+
+
+
+\subsubsection{Benefits of the Neuro-Symbolic Approach}
+
+Our neuro-symbolic approach combines the strengths of neural language models with the structured representation capabilities of semantic web technologies. The integration of the DCAT vocabulary into our extraction pipeline provides several key benefits:
+
+1. \textbf{Structured Schema Alignment}: By mapping extracted metadata to standardized DCAT properties, we ensure interoperability with existing dataset catalogs and knowledge graphs. This alignment enables seamless integration of extracted metadata into the broader semantic web ecosystem.
+2. \textbf{Semantic Expressivity}: The DCAT vocabulary provides rich semantic expressivity for representing various dataset properties, enabling comprehensive description of datasets beyond what unstructured or ad-hoc extraction approaches would capture.
+3. \textbf{Domain Adaptability}: The combination of neural extraction with semantic representation allows adaptation to different scientific domains while maintaining a consistent representation structure. This facilitates cross-domain dataset discovery and integration.
+4. \textbf{Query Capabilities}: Converting the extracted metadata to RDF enables complex semantic queries that would be impossible with unstructured extraction approaches. For example, researchers can query for datasets created by specific authors, used for particular tasks, or containing data in certain formats.
+
+The neuro-symbolic architecture bridges the gap between flexible natural language understanding (neural component) and rigorous knowledge representation (symbolic component). This enables both accurate extraction from diverse textual contexts and consistent structured representation for downstream applications like KG construction and semantic search engines \textbf{(Answering RQ3)}.
+
+\subsubsection{Limitations}
+
+While \textsc{MetaMine} achieves strong performance, several limitations should be noted:
+     \textbf{Reference Format Variability}: The model still struggles with unusual citation formats, particularly for identifying dataset creators across different reference styles.
+     \textbf{Domain Specificity}: Our training data is primarily from computer science papers, and performance may vary across different scientific domains with distinct dataset description practices.
+     \textbf{Implicit Information}: Some metadata fields (e.g., licensing information) are rarely explicitly mentioned in papers, making them difficult to extract consistently without external knowledge sources.
+     \textbf{Dataset Mention Density}: The model may struggle with papers that mention a large number of datasets briefly without detailed descriptions, as this requires more sophisticated coreference resolution.
+
+
+%Future work should address these limitations by expanding training data across scientific domains, incorporating external knowledge bases for enriching extracted metadata, developing specialized extraction techniques for implicit information, and enhancing entity resolution for knowledge graph integration.
+
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+In this paper, we presented \textsc{MetaMine}, a neuro-symbolic approach for extracting structured dataset metadata from scientific literature. By combining multi-stage chain-of-thought prompting with reasoning-preserving knowledge distillation, we successfully transferred extraction capabilities from a large teacher model to a compact 3B parameter model while maintaining high-quality performance. Our approach bridges neural extraction with semantic representation, aligning the extracted metadata with the DCAT vocabulary and converting it to RDF for knowledge graph integration.
+
+Experimental results demonstrated that \textsc{MetaMine} outperforms its baseline and rivals much larger models while being 3× faster, making it practical for large-scale corpus processing. Particularly notable is its superior performance on challenging metadata fields like dataset creator identification (F1 of 0.59 vs. 0.39 for larger models), highlighting the effectiveness of preserving the reasoning process during knowledge distillation.
+
+To foster reproducibility and community adoption, we have released our fine-tuned model, annotated datasets, and the resulting knowledge graph via a public SPARQL endpoint. These resources enable semantic dataset discovery across scientific disciplines, contributing to more effective knowledge reuse.
+
+Future work includes expanding to additional scientific domains, developing entity resolution techniques to align extracted datasets with existing registries, and building intelligent recommendation systems that can suggest relevant datasets based on researchers' needs. By advancing structured metadata extraction, \textsc{MetaMine} contributes to making scientific data more findable, accessible, interoperable, and reusable across the research ecosystem.
+%\begin{credits}
+%\subsubsection{\ackname} A bold run-in heading in small font size at the end of the paper is
+%5used for general acknowledgments, for example: This study was funded
+%5by X (grant number Y).
+%\end{credits}
+%
+% ---- Bibliography ----
+%
+% BibTeX users should specify bibliography style 'splncs04'.
+% References will then be sorted and formatted in the correct style.
+%
+
+%
+
+\appendix
+\section{Multi-Stage Prompting Strategy}
+\label{appendix:prompts}
+
+We employed a four-stage prompting strategy with our teacher model (GPT-o4-mini) to ensure high-quality dataset extraction. Below we present the condensed versions of these prompts and our student model inference prompt.
+
+\subsection{Teacher Model Prompting Sequence}
+
+\noindent\textbf{Stage 1: Dataset Identification.} Extract all datasets mentioned in the paper. For each dataset, find: 1. The name of the dataset. 2. The reference number and full citation in the references section.
+
+\medskip
+\noindent\textbf{Stage 2: Citation Verification.} Double check the reference numbers, are all of them correct? If not provide the correct ones with the same response style. If all are correct then just repeat them.
+
+\medskip
+\noindent\textbf{Stage 3: Structured Extraction.} Extract metadata fields for each dataset: \texttt{dcterms:creator}, \texttt{dcterms:description}, \texttt{dcterms:title}, \texttt{dcterms:issued}, \texttt{dcterms:language}, \texttt{dcterms:identifier}, \texttt{dcat:theme}, \texttt{dcat:keyword}, \texttt{dcat:landingPage}, \texttt{dcterms:hasVersion}, \texttt{dcterms:format}, \texttt{mls:task}. Return a JSON response with these fields.
+
+\medskip
+\noindent\textbf{Stage 4: Reasoning Elicitation.} Write a thinking process that describes step by step how to extract datasets from a research paper. Start with: \texttt{<think>} I need to extract the datasets mentioned in the paper titled "..." by ... First, I'll read through the abstract, introduction, and methods sections... \texttt{</think>}
+
+\subsection{Student Model Inference Prompt}
+
+Our fine-tuned student model uses a single inference prompt that combines the extraction and reasoning capabilities:
+
+\begin{quote}
+\small
+\textbf{System:} You are an expert research assistant specialized in extracting dataset information from scientific papers. Your task is to identify datasets mentioned in research papers and describe them using a standardized metadata vocabulary.
+
+Follow these steps:
+\begin{enumerate}
+\item Carefully analyze the paper to identify all datasets used or mentioned
+\item For each dataset, extract the required metadata fields
+\item First provide your reasoning process in a <think> section
+\item Then output only the formatted JSON result
+\end{enumerate}
+
+\textbf{User:} Extract all datasets mentioned in the research paper below. Describe each dataset using the following metadata vocabulary and provide the response in JSON format:
+
+[Metadata fields as in Stage 3]
+
+Return ONLY the think tag and the json response without any additional messages or text.
+Return only datasets from the input paper. don't try to extract papers or other things.
+
+Paper text: [Paper content]
+\end{quote}
+
+
+
+\bibliographystyle{splncs04}
+\bibliography{mybibliography}
+
+\end{document}

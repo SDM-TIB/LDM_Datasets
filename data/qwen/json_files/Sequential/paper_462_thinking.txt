@@ -1,0 +1,27 @@
+<think>
+Alright, I'm trying to extract all the datasets mentioned in the provided research paper. The paper is about Word Sense Disambiguation (WSD) using a novel architecture called QBERT. I'll go through the paper section by section to identify any datasets used or referenced.
+
+Starting with the abstract, it mentions that QBERT outperforms the state of the art on all evaluation datasets. This suggests that the paper uses standard WSD datasets for evaluation, but the abstract doesn't name them specifically.
+
+Moving to the introduction, the authors discuss the limitations of current WSD systems and mention that the best systems are supervised, relying on annotated corpora. They reference SemCor and WordNet as resources, but these are more like lexicons rather than datasets. However, SemCor is often used as a training dataset in WSD tasks.
+
+In the Related Work section, the authors discuss previous approaches, including systems like It Makes Sense (IMS) and others that use SemCor. They also mention the use of ELMo and Flair embeddings, which are based on large corpora but aren't datasets per se.
+
+Looking at the Experimental Setup section, the authors detail their training and evaluation. They mention training on the English UMBC corpus, which is a large text corpus. They also evaluate on several WSD datasets, including Senseval-2, Senseval-3, SemEval-07, SemEval-13, SemEval-15, and their concatenation referred to as ALL. Additionally, they mention the Word-in-Context (WiC) task dataset by Pilehvar and Camacho-Collados (2019).
+
+In the Results section, they provide performance metrics on these evaluation datasets, confirming their use.
+
+Finally, in the references, I find the citations for these datasets, which include the SemEval campaigns and the WiC dataset.
+
+So, the datasets mentioned are:
+1. SemCor
+2. WordNet (used as a resource but not a dataset)
+3. Senseval-2
+4. Senseval-3
+5. SemEval-07
+6. SemEval-13
+7. SemEval-15
+8. WiC dataset
+
+I'll now structure each of these into the required JSON format, extracting the necessary metadata from the paper.
+</think>

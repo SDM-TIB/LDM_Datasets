@@ -1,0 +1,26 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll go through the abstract and introduction to get an overview. The paper discusses a system submitted to the BEA 2019 shared task on grammatical error correction (GEC). It mentions using various corpora for training and evaluation.
+
+Looking at the Corpus section, there's a table listing several datasets:
+
+1. **FCE (First Certificate in English)**
+2. **Lang-8**
+3. **NUCLE (National University of Singapore Corpus of Learner English)**
+4. **W&I+LOCNESS (Write & Improve + LOCNESS)**
+
+Each of these is used in the GEC shared task. The paper also references other datasets in the context of related work, such as the HOO corpus, CoNLL shared task datasets, and BooksCorpus and English Wikipedia for BERT pre-training.
+
+Now, I'll extract each dataset and gather the required metadata:
+
+- **FCE**: Created by Yannakoudakis et al., used for GEC, English language, contains learner English sentences.
+- **Lang-8**: Created by Mizumoto et al., learner English corpus, English language.
+- **NUCLE**: Created by Dahlmeier et al., learner English corpus, English language.
+- **W&I+LOCNESS**: Created by Yannakoudakis et al., combines Write & Improve and LOCNESS, English language.
+- **BooksCorpus and English Wikipedia**: Used for BERT pre-training, English language.
+
+For each dataset, I'll fill in the metadata fields based on the information provided in the paper. If a field isn't explicitly mentioned, I'll leave it as an empty string or list.
+
+Finally, I'll structure the JSON response with each dataset's details, ensuring all specified fields are included.
+</think>

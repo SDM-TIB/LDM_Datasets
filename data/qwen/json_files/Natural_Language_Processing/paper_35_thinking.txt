@@ -1,0 +1,43 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Multilingual Culture-Independent Word Analogy Datasets" by Matej Uljcar and others. It discusses the creation of word analogy datasets for nine languages: Croatian, English, Estonian, Finnish, Latvian, Lithuanian, Russian, Slovenian, and Swedish. The datasets are designed to be culturally neutral and include both monolingual and cross-lingual analogies.
+
+Looking through the sections, the datasets are described in detail in Sections 2, 3, and 4. The authors mention that they created datasets for each language and also cross-lingual datasets for all 72 language pairs. The datasets are composed of 15 categories, 5 semantic and 10 syntactic/morphological.
+
+I need to identify the datasets mentioned. The main dataset seems to be the collection of word analogy datasets for the nine languages. There's also a reference to the original dataset by Mikolov et al. (2013a), which is the English word analogy dataset. Additionally, the authors mention using fastText embeddings, but that's a model, not a dataset.
+
+So, the datasets mentioned are:
+1. The multilingual culture-independent word analogy datasets created by the authors for nine languages.
+2. The original English word analogy dataset by Mikolov et al. (2013a).
+
+Now, I'll extract the metadata for each dataset.
+
+For the first dataset:
+- **dcterms:creator**: The authors of the paper: Matej Uljcar, Kristiina Vaik, Jessica Lindström, Milda Dailidienė, Marko Robnik-Šikonja.
+- **dcterms:description**: A collection of word analogy datasets for nine languages, designed to be culturally neutral, including both monolingual and cross-lingual analogies.
+- **dcterms:title**: Multilingual Culture-Independent Word Analogy Datasets.
+- **dcterms:issued**: The paper was published in 2020, so the dataset's publication year is likely 2020.
+- **dcterms:language**: The languages included are Croatian, English, Estonian, Finnish, Latvian, Lithuanian, Russian, Slovenian, and Swedish.
+- **dcterms:identifier**: The paper's DOI is 10.13140/RG.2.2.34683.54285, but the dataset might have its own identifier. Since it's not provided, I'll leave it empty.
+- **dcat:theme**: Word analogy, embeddings evaluation, multilingual datasets.
+- **dcat:keyword**: Word embeddings, analogy task, evaluation, less-resourced languages.
+- **dcat:landingPage**: The dataset is available on the CLARIN repository: http://hdl.handle.net/11356/1261.
+- **dcterms:hasVersion**: Not mentioned.
+- **dcterms:format**: Text.
+- **mls:task**: Evaluation of word embeddings, word analogy tasks.
+
+For the second dataset (Mikolov et al. 2013a):
+- **dcterms:creator**: Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean.
+- **dcterms:description**: The original English word analogy dataset used as a basis for the multilingual datasets.
+- **dcterms:title**: English Word Analogy Dataset.
+- **dcterms:issued**: 2013.
+- **dcterms:language**: English.
+- **dcterms:identifier**: The URL provided in the paper is http://download.tensorflow.org/data/questions-words.txt.
+- **dcat:theme**: Word analogy, embeddings evaluation.
+- **dcat:keyword**: Word embeddings, analogy task, English language.
+- **dcat:landingPage**: http://download.tensorflow.org/data/questions-words.txt.
+- **dcterms:hasVersion**: Not mentioned.
+- **dcterms:format**: Text.
+- **mls:task**: Evaluation of word embeddings, word analogy tasks.
+</think>

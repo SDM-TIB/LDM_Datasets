@@ -1,0 +1,30 @@
+>
+
+<think>
+To extract datasets from the research paper titled "NL-FIIT at SemEval-2019 Task 3: Emotion Detection From Conversational Triplets Using Hierarchical Encoders" by Michal Farkas, Peter Lacko, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, materials and methods, and results sections** to identify any datasets that are mentioned or referenced. The abstract mentions the EmoContext task, which suggests that datasets are likely involved.
+
+In the **introduction**, the authors discuss the EmoContext task and its format, which consists of conversational triplets. They hint at the use of various datasets for training and evaluation.
+
+Next, I will focus on the **materials and methods section**, particularly the subsections that detail the datasets used for training and evaluation. Here, the authors mention the following datasets:
+
+1. **ELMo**: A language model that uses contextualized word embeddings.
+2. **GloVe**: A word embedding model that represents words as vectors in a high-dimensional space.
+3. **ELMo concat**: A concatenated version of the ELMo embeddings.
+4. **GloVe concat**: A concatenated version of the GloVe embeddings.
+
+In the **results section**, the authors confirm that these datasets were used for training and evaluation of their models.
+
+Now, I will check the **references section** to find the full citations for these datasets:
+
+- For **ELMo**, the citation is:
+  > Peters et al. (2018) ELMo: Deep bidirectional transformers for task-oriented text.
+
+- For **GloVe**, the citation is:
+  > Pennington et al. (2014) GloVe: Global Vectors for Word Representation.
+
+- For **ELMo concat** and **GloVe concat**, the authors used pre-trained models from the AllenNLP library.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review. This ensures that I have accurately captured the datasets and their citations from the paper.
+</think>

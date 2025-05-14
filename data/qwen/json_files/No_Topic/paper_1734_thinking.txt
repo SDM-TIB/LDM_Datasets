@@ -1,0 +1,21 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. The paper is about differentiable ranking and sorting using optimal transport. Let me go through the paper step by step to identify any datasets used or mentioned.
+
+First, I'll read the abstract. It talks about sorting in machine learning and proposes a differentiable proxy using optimal transport. No datasets are mentioned here.
+
+Moving on to the introduction, the authors discuss the importance of sorting in machine learning and the challenges with differentiability. They reference previous work but don't mention specific datasets.
+
+In section 2, they delve into the connection between sorting and optimal transport. They mention order statistics and k-nearest neighbors, but again, no specific datasets are cited.
+
+Section 3 introduces the Sinkhorn algorithm and its application to ranking and sorting. They discuss numerical stability and mention using a regular grid on [0,1] but don't reference any datasets.
+
+In section 4, they discuss learning with smoothed ranks and sorts. They mention experiments on CIFAR-10 and CIFAR-100 datasets. These are well-known datasets in machine learning, used for image classification tasks.
+
+They also reference a MNIST experiment setup from another paper, indicating the use of the MNIST dataset for digit recognition tasks.
+
+Additionally, they mention experiments on datasets compiled by [31], which refers to a paper by Romano et al. (2019) on conformalized quantile regression. The datasets used there include biobike, facebook, star, concrete, and community datasets.
+
+So, the datasets mentioned in the paper are CIFAR-10, CIFAR-100, MNIST, and the datasets from Romano et al. (2019): biobike, facebook, star, concrete, and community.
+
+Now, I'll structure each dataset with the required metadata fields based on the information provided in the paper.
+</think>

@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "VISUALBERT: A SIMPLE AND PERFORMANT BASELINE FOR VISION AND LANGUAGE" by Liunian Harold Li et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract mentions that VisualBERT is evaluated on four vision-and-language tasks, which suggests that datasets are involved.
+
+In the **introduction**, the authors discuss various vision-and-language tasks, but I need to look for specific datasets. The first mention of datasets appears in the **experiments section**, where they evaluate VisualBERT on four tasks: VQA, VCR, NLVR2, and Flickr30K. This indicates that these tasks are associated with specific datasets.
+
+Next, I will look for detailed descriptions of these datasets in the **experiments section**:
+
+1. **VQA 2.0**: This dataset consists of over 1 million questions about images from the COCO dataset. The authors mention that they use image features from a ResNeXt-based Faster R-CNN pre-trained on Visual Genome.
+
+2. **VCR**: This dataset contains 290,000 questions derived from 110,000 movie scenes, focusing on visual commonsense reasoning. The authors use image features from a ResNet50 and mention that the dataset provides alignments between words and bounding regions.
+
+3. **NLVR2**: This dataset is designed for joint reasoning about natural language and images, consisting of over 100,000 examples of English sentences paired with web images. The authors use an off-the-shelf detector from Detectron to provide image features.
+
+4. **Flickr30K**: This dataset tests the ability of systems to ground phrases in captions to bounding regions in images. It consists of 30,000 images and nearly 250,000 annotations.
+
+Now, I will check the **References section** to gather full citations for these datasets:
+
+- For **VQA 2.0**, the citation is:
+  > Goyal, Y., Khot, T., Summers-Stay, D., Batra, D., & Parikh, D. (2017). Making the V in VQA matter: Elevating the role of image understanding in Visual Question Answering. In CVPR.
+
+- For **VCR**, the citation is:
+  > Zellers, R., Bisk, Y., Farhadi, A., & Choi, Y. (2019). From recognition to cognition: Visual commonsense reasoning. In CVPR.
+
+- For **NLVR2**, the citation is:
+  > Suhr, A., Zhou, S., Zhang, I., Bai, H., & Artzi, Y. (2019). A corpus for reasoning about natural language grounded in photographs. In ACL.
+
+- For **Flickr30K**, the citation is:
+  > Plummer, B. A., Wang, L., Cervantes, C. M., Caicedo, J. C., Hockenmaier, J., & Lazebnik, S. (2015). Flickr30k entities: Collecting region-to-phrase correspondences for richer image-to-sentence models. In ICCV.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation, ready for structured output or further processing.

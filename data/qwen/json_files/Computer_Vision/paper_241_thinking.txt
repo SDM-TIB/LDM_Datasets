@@ -1,0 +1,15 @@
+<think>
+Alright, I need to extract the datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Enriched Deep Recurrent Visual Attention Model for Multiple Object Recognition" by Artsiom Ablavatski, Shijian Lu, and Jianfei Cai. It discusses their model, EDRAM, and evaluates it on two datasets.
+
+In the abstract, they mention evaluating EDRAM on MNIST Cluttered and SVHN datasets. MNIST Cluttered is a version of the MNIST dataset where each image contains a randomly located handwritten digit surrounded by clutter. SVHN is the Street View House Numbers dataset, which contains real-world images of house numbers.
+
+Looking further into the paper, in section 4, they detail their experiments. They mention the MNIST Cluttered dataset with 60,000 training and 10,000 test images. For SVHN, they use around 250,000 images, with 13,000 for testing.
+
+I need to extract metadata for each dataset. For MNIST Cluttered, the creators are Yan LeCun, Corinna Cortes, and Christopher J.C. Burges. The description is about cluttered digits, and it's used for multiple object recognition. The format is image, and the task is object recognition.
+
+For SVHN, the creators are I.J. Goodfellow, Y. Bulatov, J. Ibarz, S. Arnoud, and V. Shet. The description mentions real-world house numbers, and it's used for multi-digit recognition. The format is image, and the task is object recognition.
+
+I'll structure this information into JSON format, ensuring each dataset has the required metadata fields.
+</think>

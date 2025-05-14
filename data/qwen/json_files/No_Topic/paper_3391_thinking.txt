@@ -1,0 +1,29 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the given research paper. The paper is about complex word identification using character n-grams. The authors mention several datasets used in their experiments, particularly from the CWI shared task in 2018.
+
+First, I'll look through the paper to identify any datasets mentioned. The abstract mentions the Complex Word Identification Shared Task 2018, which suggests that the datasets used are from this shared task. 
+
+In the introduction, the authors reference the first CWI shared task at SemEval 2016, which involved 21 teams and 42 systems. This indicates that the SemEval 2016 dataset was used, but the main focus is on the 2018 shared task.
+
+Looking at the data section, the authors describe the datasets provided by the organizers of the 2018 CWI shared task. These include training and test sets for English, German, Spanish, and French. The English dataset consists of news, WikiNews, and Wikipedia articles, while the other languages use Wikipedia data. Each sentence was annotated by a mix of native and non-native speakers.
+
+The datasets are described as follows:
+- English: News, WikiNews, Wikipedia
+- German: Wikipedia
+- Spanish: Wikipedia
+- French: Test set only for cross-lingual task
+
+Each dataset includes training, development, and test sets. The annotations were done by 20 people for English and 10 for the other languages, focusing on words that might be difficult for non-native speakers or those with language disabilities.
+
+The authors also mention that the datasets were used to train and evaluate their model, which used character n-grams as features. The results are discussed in terms of performance across different languages and tasks.
+
+Now, I need to structure this information into the required JSON format, using the specified metadata fields. Each dataset (English, German, Spanish, French) will be a separate entry with details like creators, description, title, etc.
+
+For the creators, since the datasets were provided by the shared task organizers, I'll look for the authors of the shared task. From the references, the organizers are Seid Muhie Yimam, Sanja EStajner, Martin Riedl, and Chris Biemann.
+
+The description for each dataset will include the language, the domains (like news, Wikipedia), and the annotation details. The title will be the language followed by "CWI Dataset." The issued year is 2018. The landing page and identifier might not be available, so those fields will be empty.
+
+The themes are related to natural language processing and complex word identification. Keywords include complex word identification, character n-grams, and the respective languages. The tasks involve binary classification of words as complex or simple.
+
+Putting it all together, I'll create four JSON entries, one for each language's dataset used in the study.
+</think>

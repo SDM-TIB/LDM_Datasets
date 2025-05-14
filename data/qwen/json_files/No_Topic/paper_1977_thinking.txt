@@ -1,0 +1,35 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets mentioned in the provided research paper. The paper is about topical key concept extraction from folksonomy, specifically using data from Douban.com. 
+
+First, I'll read through the paper to identify any datasets mentioned. The abstract mentions using folksonomy data, and the introduction talks about using Douban.com as a source. In the experiments section, they mention crawling data from Douban.com Movie, which includes 250 movies with 1760 tags. 
+
+So, the main dataset here is from Douban.com Movie. I need to extract the metadata for this dataset. 
+
+Looking at the metadata fields required:
+
+- **dcterms:creator**: The authors of the paper are Han Xue, Bing Qin, Ting Liu, and Chao Xiang. But the dataset's creator would be the entity that created the dataset, which in this case is the users of Douban.com. However, since the paper doesn't specify individual creators, I might leave this as an empty list.
+
+- **dcterms:description**: The dataset consists of movie data crawled from Douban.com, including tags assigned by users. It's used for extracting topical key concepts.
+
+- **dcterms:title**: The dataset is referred to as "Douban.com Movie data" or simply "Douban Movie dataset."
+
+- **dcterms:issued**: The paper was published in 2013, but the dataset's publication date isn't specified. I'll leave this as an empty string.
+
+- **dcterms:language**: The data is in Chinese since Douban.com is a Chinese site.
+
+- **dcterms:identifier**: There's no DOI or specific URL provided for the dataset, so this will be empty.
+
+- **dcat:theme**: The themes are related to folksonomy, social tagging, and movie data.
+
+- **dcat:keyword**: Keywords include folksonomy, social tagging, movie data, and topical key concepts.
+
+- **dcat:landingPage**: The URL for Douban.com Movie is http://movie.douban.com.
+
+- **dcterms:hasVersion**: No specific version is mentioned, so this will be empty.
+
+- **dcterms:format**: The data is in text format, consisting of tags and movie information.
+
+- **mls:task**: The dataset is used for topical key concept extraction and ontology construction.
+
+Putting this all together, I'll structure the JSON response accordingly.
+</think>

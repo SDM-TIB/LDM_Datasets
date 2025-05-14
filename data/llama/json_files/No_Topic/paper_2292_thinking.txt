@@ -1,0 +1,26 @@
+>
+
+<think>
+To extract datasets from the research paper titled "Dependent Dirichlet Process Spike Sorting" by Jan Gasthaus, Frank Wood, Dilan GA or A ur, Yee Whye Teh, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, materials and methods, and results sections** to identify any datasets that are mentioned or referenced. The abstract mentions the use of publicly available neural data recordings for demonstration purposes.
+
+In the **introduction**, the authors discuss the limitations of traditional spike sorting approaches and the need for a new incremental spike sorting model that can handle refractory period violations, action potential waveform drift, and neuron appearance and disappearance.
+
+Next, I will focus on the **materials and methods section**, particularly the subsections that detail the datasets used for evaluation. Here, the authors mention two publicly available neural data recordings:
+
+1. **Data set 1**: This dataset consists of two recordings from different animals (4 minutes each), recorded at 10 kHz. The data was bandpass filtered (300Hz a 3kHz), and spikes on the intracellular channel were detected as the local maxima of the irst derivative of the signal larger than a manually chosen threshold. Spikes on the extracellular channels were determined as the local minima exceeding 4 standard deviations in magnitude.
+2. **Data set 2**: This dataset consists of two recordings from different animals (4 minutes each), recorded at 10 kHz. The data was bandpass filtered (300Hz a 3kHz), and spikes on the intracellular channel were detected as the local maxima of the irst derivative of the signal larger than a manually chosen threshold. Spikes on the extracellular channels were determined as the local minima exceeding 4 standard deviations in magnitude.
+
+In the **results section**, the authors confirm that these datasets were used for evaluation of their model.
+
+Now, I will check the **references section** to find the full citations for these datasets:
+
+- For **Data set 1**, the citation is:
+  > K. D. Harris, D. A. Henze, J. Csicsvari, H. Hirase, and G. BuzsA aki. Accuracy of tetrode spike separation as determined by simultaneous intracellular and extracellular measurements. Journal of Neurophysiology, 81(1):401a414, 2000.
+
+- For **Data set 2**, the citation is:
+  > D. A. Henze, Z. Borhegyi, J. Csicsvari, A. Mamiya, K. D. Harris, and G. BuzsA aki. Intracellular features predicted by extracellular recordings in the hippocampus in vivo. Journal of Neurophysiology, 84(1):390a400, 2000.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review. This ensures that I have accurately captured the datasets and their citations from the paper.
+</think>

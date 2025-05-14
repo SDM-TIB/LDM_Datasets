@@ -1,0 +1,25 @@
+<think>
+Alright, I'm looking at the provided paper to identify all the datasets mentioned. The paper is about the Semantic Textual Similarity task in SemEval 2015, focusing on English and Spanish sub-tasks. 
+
+First, I'll go through the sections to spot any datasets. The introduction mentions previous participation in SemEval 2014, but that's about their work, not a dataset. 
+
+In Section 2, they discuss various similarity measures and features. One of the features is based on the CMU Sphinx-4 alignment function. I recall that CMU Sphinx-4 is a speech recognition system, but here it's used for text alignment. The paper cites Lamere et al., 2003, for this. So, CMU Sphinx-4 is a dataset or tool used for alignment.
+
+Next, they mention the Google Web 1T corpus for calculating idf weights. This is a large corpus of web text, so it's definitely a dataset. The citation is Brants and Franz, 2006.
+
+They also use the British National Corpus (BNC) for IC values, citing Pedersen et al., 2004. The BNC is a well-known corpus of English text.
+
+In the Spanish sub-task, they mention using the Spanish QA@CLEF 2005 corpus, which includes news articles from agencia EFE and El Mundo. This is another dataset.
+
+Additionally, they reference DBPedia abstracts and UkWaC for indexing. DBPedia is a dataset of structured data from Wikipedia, and UkWaC is a web corpus of English text.
+
+So, the datasets identified are:
+1. CMU Sphinx-4
+2. Google Web 1T
+3. British National Corpus
+4. Spanish QA@CLEF 2005
+5. DBPedia
+6. UkWaC
+
+Now, I'll extract the metadata for each dataset based on the information provided in the paper.
+</think>

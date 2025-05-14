@@ -1,0 +1,17 @@
+To extract the datasets from the research paper titled "Train, Sort, Explain: Learning to Diagnose Translation Models" by Robert Schwarzenberg et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and datasets sections** of the paper to identify any datasets mentioned. The abstract provides a brief overview of the research but may not specify datasets. The introduction discusses the need for diagnostic evaluations in translation models, which may hint at the datasets used.
+
+Next, I will focus on **section 4 (Datasets and Experiments)**, as this section is likely to contain detailed information about the datasets used in the experiments. Here, the authors mention that they tested their implementation, DiaMaT, on a corpus translated by a neural machine translation (NMT) Transformer engine, specifically conforming to the **WMT14 data setup**. This indicates that the WMT14 dataset is one of the primary datasets used in their experiments.
+
+The authors also mention that they randomly drew **1 million training samples** from the **WMT18 training data**, which is another dataset relevant to their study. They further specify that the validation set consisted of **100,000 randomly drawn samples** from the same set, and they used another **100,000 samples** for training the explainability method.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+1. For the **WMT14 dataset**, the citation is:
+   > Ondřej Bojar, Christian Buck, Christian Federmann, Barry Haddow, Philipp Koehn, Johannes Leveling, Christof Monz, Pavel Pecina, Matt Post, Hervé Saint-Amand, Radu Soricut, Lucia Specia, and Aleš Tamchyna. *Findings of the 2014 Workshop on Statistical Machine Translation*. In Proceedings of the Ninth Workshop on Statistical Machine Translation, pages 12–58, Baltimore, Maryland, USA. Association for Computational Linguistics, 2014.
+
+2. For the **WMT18 dataset**, the citation is:
+   > Ondřej Bojar, Christian Federmann, Mark Fishel, Yvette Graham, Barry Haddow, Matthias Huck, Philipp Koehn, and Christof Monz. *Findings of the 2018 Conference on Machine Translation (WMT18)*. In Proceedings of the Third Conference on Machine Translation, Volume 2: Shared Task Papers, pages 272–307, Belgium, Brussels. Association for Computational Linguistics, 2018.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all relevant details are accurately captured for further processing or review.

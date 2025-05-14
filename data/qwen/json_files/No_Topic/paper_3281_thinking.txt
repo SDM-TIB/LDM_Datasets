@@ -1,0 +1,43 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is titled "Learning from Group Comparisons: Exploiting Higher Order Interactions" and it's about predicting outcomes of sports and online games by considering higher-order interactions between players. 
+
+First, I'll read through the abstract and introduction to get a sense of what datasets are being used. The abstract mentions that the proposed models are tested on several E-sports datasets, specifically highlighting Heroes of the Storm and Dota 2. 
+
+Looking further into the paper, under the "Experimental Results" section, the authors describe their datasets. They mention three sets of data:
+
+1. **Heroes of the Storm (HotS) Tournament Matches**: They downloaded all matching records from Hotslog for the years 2015 and 2016.
+2. **Heroes of the Storm Public Game Data**: They crawled the matching history of Master players on Hotslog, focusing on the Hero League game mode.
+3. **Dota 2 Public Game Data**: They downloaded recent data from OpenDota, focusing on notable players.
+
+Each of these datasets is used to evaluate the performance of their proposed models. The datasets are split into training and testing sets, with 80% for training and 20% for testing. The authors also mention that they consider two views for each dataset: one where heroes are treated as individuals and another where players are treated as individuals.
+
+Now, I need to structure this information into the required JSON format using the specified metadata vocabulary. 
+
+For each dataset, I'll extract the necessary details:
+
+- **dcterms:creator**: The authors of the paper are the creators of the dataset descriptions, but since the datasets are from external sources, the creators would be the organizations or individuals who provided the data. However, in this case, the datasets are crawled or downloaded from Hotslog and OpenDota, so the creators might not be explicitly mentioned. I'll leave this as an empty list since the paper's authors are not the creators of the datasets themselves.
+
+- **dcterms:description**: A brief description of how the dataset is used in the paper. For example, "Heroes of the Storm tournament matches dataset used for evaluating group comparison models."
+
+- **dcterms:title**: The name of the dataset, such as "Heroes of the Storm Tournament Matches."
+
+- **dcterms:issued**: The year the dataset was published or made available. The paper doesn't specify the exact year, but since the data includes 2015 and 2016 matches, I'll use "2016" as the issued year.
+
+- **dcterms:language**: Since the datasets are about game matches, the language isn't applicable, so this will be an empty string.
+
+- **dcterms:identifier**: The URL or DOI of the dataset. For Hotslog, it's "https://www.hotslogs.com/", and for OpenDota, it's "https://www.opendota.com/".
+
+- **dcat:theme**: The thematic category, such as "E-sports" or "Multiplayer Online Games."
+
+- **dcat:keyword**: Keywords like "E-sports," "Group comparisons," "Heroes of the Storm," "Dota 2," etc.
+
+- **dcat:landingPage**: The URL where the dataset can be accessed, which are the same as the identifiers.
+
+- **dcterms:hasVersion**: Not mentioned in the paper, so this will be an empty string.
+
+- **dcterms:format**: The format of the dataset, which is "Text" since it's game match data.
+
+- **mls:task**: The tasks for which the dataset is used, such as "Outcome prediction" and "Group comparison analysis."
+
+I'll structure each dataset accordingly, ensuring that all fields are filled based on the information provided in the paper.
+</think>

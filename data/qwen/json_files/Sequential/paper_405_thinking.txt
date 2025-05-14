@@ -1,0 +1,15 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about a team's participation in SemEval-2019 Task 3, which focuses on contextual emotion detection in text. The authors describe their system, which uses a combination of ELMo, hand-crafted features, and a hierarchical attention network (HAN) to classify emotions in user utterances within conversations.
+
+First, I'll go through the paper to identify any datasets mentioned. The abstract mentions that the team participated in SemEval-2019 Task 3, so the dataset used is likely the one provided by the task organizers. The paper refers to the training, development, and test sets provided by the organizers. Specifically, the authors mention that they used 30,160 conversations for training, 2,755 for development, and 5,509 for testing. They also mention data cleaning and augmentation, but these are methods applied to the original dataset, not separate datasets.
+
+Looking further, the authors reference Ekphrasis, which is a text processing pipeline for social network texts. Ekphrasis is used for normalizing the utterances, but it's a tool, not a dataset. They also mention using ELMo, which is a pre-trained language model, but again, this is a model, not a dataset.
+
+In the references, the authors cite several works, including those by Peters et al. (2018) for ELMo and others, but these are not datasets. The key dataset here is the one provided by SemEval-2019 Task 3.
+
+So, the main dataset mentioned is the SemEval-2019 Task 3 dataset. It's used for training, development, and testing. The authors don't provide a specific name for this dataset beyond referring to it as the task's dataset. They mention the emotion distribution across the classes (Others, Happy, Sad, Angry) and the process of data cleaning and augmentation.
+
+I need to structure this information into the required JSON format. The creator would be the organizers of SemEval-2019 Task 3. The description should include the purpose of the dataset, the number of conversations, and the emotion classes. The title can be "SemEval-2019 Task 3 Dataset." The issued year is 2019. The language is English since it's about textual conversations. The identifier might be the task's URL or a DOI if available, but it's not provided here. The theme is emotion detection and natural language processing. Keywords include emotion detection, conversation, and contextual analysis. The landing page could be the SemEval-2019 website. The format is text. The task is emotion classification.
+
+I should ensure that all fields are filled appropriately based on the information extracted from the paper.
+</think>

@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Intriguing Properties of Contrastive Losses" by Ting Chen et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reading through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the authors constructed datasets with explicit and controllable competing features, which suggests that there are specific datasets that I need to look for.
+
+Next, I will examine the **methodology** and **experiments** sections, particularly focusing on any subsections that discuss datasets. In the paper, the authors mention constructing three datasets to study the feature suppression effect in contrastive learning. I will look for detailed descriptions of these datasets, including their names, characteristics, and how they were used in the experiments.
+
+The three datasets mentioned in the paper are:
+
+1. **DigitOnImageNet dataset**: This dataset overlays MNIST digits on ImageNet images, creating competing features. The authors describe how they assign unique MNIST digits to ImageNet images and replicate them in fixed locations before applying augmentations.
+
+2. **MultiDigits dataset**: This dataset involves placing multiple MNIST digits on a shared canvas, varying the number of digits and their placement strategies (random vs. in-grid). The authors detail how this dataset is used to evaluate the performance of contrastive learning methods.
+
+3. **RandBit dataset**: This dataset concatenates a real image with additional channels of random integers, creating competing features with the RGB channels. The authors explain how this dataset allows for controlled experiments regarding the impact of easy-to-learn features on representation learning.
+
+After identifying these datasets, I will refer to the **References section** to find the full citations for the original datasets used in the construction of these new datasets. The citations for the original datasets are crucial for proper attribution.
+
+For the **MNIST dataset**, the citation is:
+> Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. *The MNIST Database of Handwritten Digits*. 1998.
+
+For the **ImageNet dataset**, the citation is:
+> Olga Russakovsky, Jia Deng, Hao Sheng, et al. *ImageNet Large Scale Visual Recognition Challenge*. International Journal of Computer Vision, 115(3):211–252, 2015.
+
+Now, I will compile the dataset entries, ensuring that each entry includes the dataset name, description, and full citation. This structured approach will help ensure that I accurately capture all relevant information regarding the datasets used in the research paper.

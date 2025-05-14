@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "E-BERT: Efficient-Yet-Effective Entity Embeddings for BERT" by Nina Poerner et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and results sections** to identify any datasets mentioned. The abstract mentions evaluating E-BERT on various tasks, which suggests that datasets are involved. 
+
+Next, I will focus on **section 4 (Unsupervised QA)**, where the authors discuss their evaluation on the LAMA benchmark. They specifically mention using **LAMA-Google-RE** and **LAMA-T-REx** datasets for their experiments. This is a clear indication that these datasets are crucial for understanding the performance of E-BERT.
+
+In **section 5 (Downstream tasks)**, the authors describe their evaluation on two additional tasks: relation classification and entity linking. They mention using a subset of the **FewRel corpus** for relation classification and the **AIDA dataset** for entity linking. This confirms that these datasets are also part of their evaluation framework.
+
+Now, I will check the **References section** to gather the full citations for each dataset mentioned:
+
+1. **LAMA**:
+   - Citation for LAMA:
+     > Fabio Petroni, Tim Rocktäschel, Patrick Lewis, Anton Bakhtin, Yuxiang Wu, Alexander H Miller, and Sebastian Riedel. *Language models as knowledge bases?* In EMNLP-IJCNLP, Hong Kong, China, 2019.
+
+2. **FewRel**:
+   - Citation for FewRel:
+     > Haitian Sun, Bhuwan Dhingra, Manzil Zaheer, Kathryn Mazaitis, Ruslan Salakhutdinov, and William Cohen. *Open domain question answering using early fusion of knowledge bases and text*. In EMNLP, pages 4231–4242, Brussels, Belgium, 2018.
+
+3. **AIDA**:
+   - Citation for AIDA:
+     > Johannes Hoffart, Mohamed Amir Yosef, Ilaria Bordino, Hagen Fürstenau, Manfred Pinkal, Marc Spaniol, Bilyana Taneva, Stefan Thater, and Gerhard Weikum. *Robust disambiguation of named entities in text*. In EMNLP, pages 782–792, Edinburgh, UK, 2011.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+- **LAMA**: A benchmark for probing factual and commonsense knowledge of pretrained language models, specifically evaluated using LAMA-Google-RE and LAMA-T-REx.
+- **FewRel**: A dataset for relation classification tasks, which includes annotated sentences with entity mentions and their relations.
+- **AIDA**: A dataset for entity linking tasks, containing documents with annotated entity spans that must be predicted.
+
+Finally, I will compile this information into a structured format for further processing or review, ensuring that each dataset is clearly identified along with its full citation.

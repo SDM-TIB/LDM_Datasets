@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Dr.Bokeh: DiffeRentiable Occlusion-aware Bokeh Rendering" by Yichen Sheng et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the research and may mention datasets used for evaluation. In this case, the abstract discusses the creation of a synthetic benchmark for evaluating the proposed method, which indicates that a dataset is involved.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for their evaluations. In this paper, the authors mention a synthetic benchmark created by generating bokeh ground truth using a physically-based ray-tracer. This suggests that there is a dataset associated with this benchmark.
+
+In **section 5 (Implementation and Results)**, the authors provide more details about the dataset used for quantitative evaluations. They mention that the benchmark includes 100 scenes with different blur radii and focal planes, and that the scenes are composed of layered images. They also reference existing datasets used for sampling foreground objects and background scenes.
+
+The paper specifically mentions the following datasets:
+
+1. **Adobe Matting Dataset**: This dataset is used for sampling foreground objects in the synthetic benchmark. It is a well-known dataset for image matting tasks.
+
+2. **AIM-500 Dataset**: This dataset is also used for sampling foreground objects, indicating that it contains a variety of images suitable for the task.
+
+3. **Google Landmarks Dataset**: This dataset is referenced for sampling background scenes in the benchmark, which suggests it contains a diverse set of landmark images.
+
+4. **Light Field Dataset**: This dataset is used for evaluating the differentiability of Dr.Bokeh in real-world scenarios. It consists of images captured with a light field camera.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For the **Adobe Matting Dataset**, the citation is:
+  > Ning Xu, Brian Price, Scott Cohen, and Thomas Huang. *Deep Image Matting*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2970–2979, 2017.
+
+- For the **AIM-500 Dataset**, the citation is:
+  > Andrey Ignatov, Radu Timofte, Ming Qian, Congyu Qiao, Jiamin Lin, Zhenyu Guo, Chenghua Li, Cong Leng, Jian Cheng, Juewen Peng, et al. *AIM 2020 Challenge on Rendering Realistic Bokeh*. In European Conference on Computer Vision, pages 213–228, 2020.
+
+- For the **Google Landmarks Dataset**, the citation is:
+  > T. Weyand, A. Araujo, B. Cao, and J. Sim. *Google Landmarks Dataset v2 - A Large-Scale Benchmark for Instance-Level Recognition and Retrieval*. In Proc. CVPR, 2020.
+
+- For the **Light Field Dataset**, the citation is:
+  > Pratul P Srinivasan, Tongzhou Wang, Ashwin Sreelal, Ravi Ramamoorthi, and Ren Ng. *Learning to Synthesize a 4D RGBD Light Field from a Single Image*. In Proceedings of the IEEE International Conference on Computer Vision, pages 2243–2251, 2017.
+
+After gathering all this information, I will compile the dataset entries with their full citations to ensure that they are accurately represented and ready for further processing or review.

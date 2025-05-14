@@ -1,0 +1,33 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Deep Learning Techniques for Humor Detection in Hindi-English Code-Mixed Tweets" by Sushmitha Reddy Sane and others. The abstract mentions using Twitter data to create bilingual word embeddings and evaluating their models on a benchmark dataset.
+
+Looking into the introduction, the authors discuss the lack of data in code-mixed corpora and mention using Twitter data for their embeddings. They also reference a benchmark dataset from Khandelwal et al. (2018) for evaluation.
+
+In the Corpus creation section (1.1), they mention extracting around 200k tweets using the Twitter API. This dataset is used for training bilingual word embeddings.
+
+In the Results section (2), they mention using a benchmark dataset containing 3543 annotated tweets, which is the same dataset from Khandelwal et al. (2018). This dataset is used to evaluate their models.
+
+I need to check the references to find more details about these datasets. The reference for Khandelwal et al. (2018) is provided, but it's a preprint on arXiv, so I can't extract a DOI or URL from it. The Twitter dataset is mentioned as being created by the authors using the Twitter API, so it's not a publicly available dataset with a specific identifier.
+
+Now, I'll structure the datasets based on the metadata vocabulary:
+
+1. **Twitter Dataset**:
+   - Created by the authors using the Twitter API.
+   - Description: 200k tweets used for training bilingual word embeddings.
+   - Language: Hindi-English code-mixed.
+   - Format: Text.
+   - Theme: Natural Language Processing, Code-Mixed Data.
+   - Keywords: Twitter data, bilingual embeddings, code-mixing.
+
+2. **Khandelwal et al. (2018) Dataset**:
+   - Created by Khandelwal et al.
+   - Description: 3543 annotated tweets for humor detection.
+   - Language: Hindi-English code-mixed.
+   - Format: Text.
+   - Theme: Natural Language Processing, Sentiment Analysis.
+   - Keywords: Humor detection, code-mixed data, benchmark.
+
+I'll format these into JSON as per the required structure.
+</think>

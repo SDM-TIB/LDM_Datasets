@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Enhancing Machine Translation with Dependency-Aware Self-Attention" by Emanuele Bugliarello and Naoaki Okazaki, I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will start by examining the **abstract** and **introduction** sections for any references to datasets. The abstract mentions evaluating the proposed methods on "WMT English↔German and English→Turkish, and WAT English→Japanese translation tasks." This indicates that datasets related to these translation tasks are likely included.
+
+Next, I will look into the **experiments section** (section 3) where the authors describe their experimental setup. Here, they mention using several datasets, specifically:
+
+1. **News Commentary v11 (NC11)**: This dataset is used for English-German (En-De) and German-English (De-En) tasks. The authors state that they use this dataset to simulate low-resource scenarios.
+
+2. **WMT16**: This dataset is used for the English-German translation task, with specific mentions of newstest2015 and newstest2016 as validation and test sets.
+
+3. **WMT17**: This dataset is also used for the English-German translation task, with newstest2016 and newstest2017 as validation and test sets.
+
+4. **WMT18**: This dataset is used for the English-Turkish (En-Tr) translation task.
+
+5. **WAT**: This dataset is used for the English-Japanese (En-Ja) translation task.
+
+In the **data preparation section** (section A), the authors provide additional details about the datasets, including the number of sentences in each dataset, which further confirms their usage.
+
+Now, I will gather the full citations for these datasets from the **References section** of the paper:
+
+- For **News Commentary v11 (NC11)**, the citation is:
+  > Joost Bastings, Ivan Titov, Wilker Aziz, Diego Marcheggiani, and Khalil Simaan. *Graph Convolutional Encoders for Syntax-aware Neural Machine Translation*. In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, pages 1957–1967. Association for Computational Linguistics.
+
+- For **WMT16**, the citation is:
+  > Philipp Koehn, Hieu Hoang, Alexandra Birch, Chris Callison-Burch, Marcello Federico, Nicola Bertoldi, Brooke Cowan, Wade Shen, Christine Moran, Richard Zens, Chris Dyer, Ondˇrej Bojar, Alexandra Constantin, and Evan Herbst. *Moses: Open source toolkit for statistical machine translation*. In Proceedings of the 45th Annual Meeting of the ACL on Interactive Poster and Demonstration Sessions, ACL ’07, pages 177–180, Stroudsburg, PA, USA. Association for Computational Linguistics.
+
+- For **WMT17**, the citation is the same as WMT16 since it is part of the same series of datasets.
+
+- For **WMT18**, the citation is:
+  > Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V. Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Jeff Klingner, Apurva Shah, Melvin Johnson, Xiaobing Liu, Lukasz Kaiser, Stephan Gouws, Yoshikiyo Kato, Taku Kudo, Hideto Kazawa, Keith Stevens, George Kurian, Nishant Patil, Wei Wang, Cliff Young, Jason Smith, Jason Riesa, Alex Rudnick, Oriol Vinyals, Gregory S. Corrado, Macduff Hughes, and Jeffrey Dean. *Google’s neural machine translation system: Bridging the gap between human and machine translation*. CoRR, abs/1609.08144.
+
+- For **WAT**, the citation is:
+  > Taku Kudo, Tatsuya Hayashi, and Masao Utiyama. *The 2018 Workshop on Asian Translation (WAT)*. In Proceedings of the 2018 Workshop on Asian Translation, pages 1–10. Association for Computational Linguistics.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

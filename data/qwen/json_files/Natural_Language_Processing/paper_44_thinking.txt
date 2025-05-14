@@ -1,0 +1,43 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me go through the paper step by step.
+
+First, I'll read the abstract and introduction to get an overview. The paper discusses enhancing encoder-decoder models for open-domain conversational agents by modeling coherence and diversity. They mention using the OpenSubtitles corpus for experiments.
+
+Looking through the sections, I find that the OpenSubtitles corpus is referenced in the abstract and the introduction. It's used for training and evaluating their models. The authors also mention filtering this corpus to create a more coherent dataset called fOST (iltered OpenSubtitles).
+
+I need to check if there are any other datasets mentioned. Scanning through the rest of the paper, I don't find any other datasets referenced. The focus is on the OpenSubtitles corpus and its filtered version.
+
+Now, I'll gather the metadata for each dataset:
+
+1. **OpenSubtitles Corpus**:
+   - **Creator**: The authors of the paper don't mention the creators, but from the reference, it's cited as Lison and Meena (2016).
+   - **Description**: A large corpus of movie and TV subtitles used for training and evaluation.
+   - **Title**: OpenSubtitles
+   - **Issued**: 2016
+   - **Language**: English
+   - **Identifier**: URL from the reference.
+   - **Theme**: Natural Language Processing, Dialogue Systems
+   - **Keywords**: Subtitles, Dialogue, Conversation
+   - **Landing Page**: URL provided.
+   - **Version**: Not mentioned.
+   - **Format**: Text
+   - **Task**: Dialogue Generation, Response Generation
+
+2. **fOST (iltered OpenSubtitles)**:
+   - **Creator**: The authors of the paper (Xinnuo Xu, Ondrej Dusek, Ioannis Konstas, Verena Rieser) created this filtered version.
+   - **Description**: A subset of OpenSubtitles filtered for coherence.
+   - **Title**: fOST
+   - **Issued**: Not specified, but derived from OpenSubtitles 2016.
+   - **Language**: English
+   - **Identifier**: Same as OpenSubtitles.
+   - **Theme**: Natural Language Processing, Dialogue Systems
+   - **Keywords**: Filtered, Coherence, Dialogue
+   - **Landing Page**: Same as OpenSubtitles.
+   - **Version**: Not mentioned.
+   - **Format**: Text
+   - **Task**: Dialogue Generation, Response Generation
+
+I need to ensure that the creators are correctly identified. For OpenSubtitles, the creators are the ones cited in the reference. For fOST, since it's a filtered version by the paper's authors, they are the creators.
+
+I'll structure this information into the required JSON format, making sure each field is accurately filled based on the paper's content.
+</think>

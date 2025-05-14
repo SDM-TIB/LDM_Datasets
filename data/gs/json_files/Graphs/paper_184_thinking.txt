@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "Detecting Anomalies Through Contrast in Heterogeneous Data" by Debanjan Datta et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract and introduction** sections to identify any mentions of datasets. The abstract discusses the challenges of detecting anomalies in illegal timber trade and hints at the use of large-scale trade data. However, it does not specify any datasets at this point.
+
+Next, I will examine the **experiments section (Section 6)**, where the authors detail the datasets used for their experiments. Here, they explicitly mention five datasets:
+
+1. **KDDCup99**: The authors describe this dataset as a benchmark for anomaly detection tasks, specifically using the 'Normal' class as normal data and attack classes as anomalies.
+
+2. **KDDCup99-N**: This dataset is derived from KDDCup99, where instances labeled 'Neptune' are treated as normal data, and 'Normal' instances are considered anomalies.
+
+3. **UNSW-NB15**: The authors state that data labeled as 'Normal' is used as normal data, while rarer attack classes such as Backdoor, Analysis, Shellcode, and Worms are treated as anomalies.
+
+4. **NSL-KDD**: This dataset combines the train and test partitions of the original dataset, with the 'Normal' class chosen as normal data and the rest as anomalies.
+
+5. **GureKDD**: Similar to the previous datasets, the 'Normal' class label is selected as normal data, while the rest are considered anomalies.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For **KDDCup99**:
+  > Dheeru Dua and Casey Graff. 2017. UCI Machine Learning Repository. http://archive.ics.uci.edu/ml
+
+- For **KDDCup99-N**:
+  > Dheeru Dua and Casey Graff. 2017. UCI Machine Learning Repository. http://archive.ics.uci.edu/ml
+
+- For **UNSW-NB15**:
+  > N. Moustafa and J. Slay. 2015. UNSW-NB15: a comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set). In 2015 Military Communications and Information Systems Conference (MilCIS). 1–6.
+
+- For **NSL-KDD**:
+  > Mahbod Tavallaee, Ebrahim Bagheri, Wei Lu, and Ali A Ghorbani. 2009. A detailed analysis of the KDD CUP 99 data set. In 2009 IEEE symposium on computational intelligence for security and defense applications. IEEE, 1–6.
+
+- For **GureKDD**:
+  > Iñigo Perona, Ibai Gurrutxaga, Olatz Arbelaitz, José I. Martín, Javier Muguerza, and Jesús Ma Pérez. 2008. Service-Independent Payload Analysis to Improve Intrusion Detection in Network Traffic. In Proceedings of the 7th Australasian Data Mining Conference. Australian Computer Society, Inc., AUS.
+
+Now that I have gathered the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

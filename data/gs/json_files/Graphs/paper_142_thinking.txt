@@ -1,0 +1,38 @@
+To extract datasets from the research paper titled "Residual Correlation in Graph Neural Network Regression" by Junteng Jia and Austin R. Benson, I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and the experiments sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the research and may mention specific datasets used for evaluation.
+
+Next, I will focus on **section 4 (Numerical Experiments)**, where the authors typically describe the datasets used in their experiments. In this section, I will look for any subsections or paragraphs that detail the datasets, including their characteristics and how they are utilized in the study.
+
+In **section 4.1 (Data)**, the authors list several datasets used for their experiments:
+
+1. **Ising Model**: This dataset is derived from a random model in statistical physics, where vertices represent spins on a grid graph. The authors mention using samples from two settings: Ising(+) and Ising(-), which provide synthetic datasets with clear positive and negative correlations in labels.
+
+2. **U.S. Election Maps**: This dataset consists of county-level demographic and election statistics from the 2012 and 2016 U.S. presidential elections. The authors use these statistics as both features and outcomes for their experiments.
+
+3. **Transportation Networks**: This dataset includes traffic data from cities like Anaheim and Chicago, where each vertex represents a directed lane, and edges connect lanes that meet at intersections. The authors describe using different types of edges based on lane orientations.
+
+4. **Sexual Interactions**: This dataset is derived from an HIV transmission study, detailing sexual interactions among individuals. The authors use race and sexual orientation as vertex features to predict gender.
+
+5. **Twitch Social Network**: This dataset represents online friendships among Twitch streamers in Portugal, with vertex features derived from various statistics related to streaming habits.
+
+After identifying these datasets, I will check the **References section** for full citations. The paper may not provide explicit citations for all datasets, especially if they are well-known datasets in the field. However, I will look for any references that correspond to the datasets mentioned.
+
+For the datasets that do have citations, I will document them as follows:
+
+- For the **Ising Model**, the citation is:
+  > Cipra, B. A. (1987). An Introduction to the Ising Model. *American Mathematical Monthly*, 94(10), 781-792.
+
+- For the **U.S. Election Maps**, the citation is:
+  > Data from the USDA Economic Research Service. (n.d.). County-Level Data Sets. Retrieved from https://www.ers.usda.gov/data-products/county-level-data-sets/.
+
+- For the **Transportation Networks**, the citation is:
+  > Stabler, B. (n.d.). Transportation Networks Data. Retrieved from https://github.com/bstabler/TransportationNetworks.
+
+- For the **Sexual Interactions**, the citation is:
+  > Morris, M., & Rothenberg, R. (2011). HIV Transmission Network Metastudy Project: An Archive of Data From Eight Network Studies, 1988–2001. *Inter-university Consortium for Political and Social Research*.
+
+- For the **Twitch Social Network**, the citation is:
+  > Rozemberczki, B., Allen, C., & Sarkar, R. (2019). Multi-scale Attributed Node Embedding. *arXiv preprint arXiv:1909.13021*.
+
+Finally, I will compile the dataset entries, ensuring that each dataset is clearly described and properly cited, ready for further processing or review.

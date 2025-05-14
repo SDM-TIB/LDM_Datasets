@@ -1,0 +1,33 @@
+<think>
+Alright, I need to extract the datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Domain Adaptation with BERT-based Domain Classification and Data Selection" by Xiaofei Ma, Peng Xu, Zhiguo Wang, Ramesh Nallapati, and Bing Xiang. It discusses domain adaptation techniques using BERT and evaluates them on several datasets.
+
+Looking through the sections, the datasets are mentioned in the "4.1 Datasets" section. The datasets listed are:
+
+1. **SNLI (Stanford Natural Language Inference Corpus)**
+2. **MNLI (Multi-Genre Natural Language Inference Corpus)**
+3. **QNLI (Question-answering Natural Language Inference)**
+4. **Quora Question Pairs (QQP)**
+
+Each of these datasets is described in the paper, and their usage is detailed in the experiments. I'll need to extract metadata for each dataset based on the information provided.
+
+For each dataset, I'll gather the following metadata:
+
+- **dcterms:creator**: The authors or creators of the dataset.
+- **dcterms:description**: A brief description of the dataset as used in the paper.
+- **dcterms:title**: The name of the dataset.
+- **dcterms:issued**: The year the dataset was published.
+- **dcterms:language**: The language of the dataset (English in this case).
+- **dcterms:identifier**: DOI or URL if available.
+- **dcat:theme**: Thematic categories.
+- **dcat:keyword**: Relevant keywords.
+- **dcat:landingPage**: URL or landing page.
+- **dcterms:hasVersion**: Specific version if mentioned.
+- **dcterms:format**: Format of the dataset (Text, etc.).
+- **mls:task**: Tasks for which the dataset is used.
+
+I'll need to refer to the references section of the paper to find the creators and publication years of each dataset. Additionally, I'll look for any URLs or DOIs provided for each dataset.
+
+After gathering all the necessary information, I'll structure each dataset into the specified JSON format.
+</think>

@@ -1,0 +1,11 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets mentioned in the provided research paper. The paper is about ICARUS, a tool for querying dependency treebanks. I need to identify any datasets used or mentioned in this paper and describe them using the specified metadata vocabulary.
+
+First, I'll read through the paper to spot any dataset names or references. The paper mentions several treebanks and tools, such as the Prague Dependency Treebank for Czech, SynTagRus for Russian, and the CoNLL 2008 Shared Task dataset. These are likely the datasets used in the paper.
+
+Next, I'll look for details about each dataset. The Prague Dependency Treebank is mentioned in the context of being used for Czech. SynTagRus is for Russian. The CoNLL 2008 Shared Task dataset is referenced in the example where passive constructions are analyzed.
+
+For each dataset, I'll extract the required metadata fields. The creators are the authors cited in the references. The description is based on how the paper uses or describes the dataset. The title is the dataset's name. The issued year is taken from the reference. Language is specified as Czech, Russian, or English. The identifier is the DOI or URL if available. Themes are categories like linguistics or NLP. Keywords are terms related to the dataset's use. Landing pages are URLs if provided. Version and format are included if mentioned. Tasks are the purposes for which the dataset is used, like dependency parsing.
+
+I'll structure each dataset into a JSON object with the specified fields. If some fields aren't mentioned, I'll leave them empty. I'll ensure that each dataset is accurately represented based on the information in the paper.
+</think>

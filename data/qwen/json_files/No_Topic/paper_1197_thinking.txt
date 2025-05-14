@@ -1,0 +1,15 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is titled "Online List Labeling with Predictions" and it's authored by several researchers. The task is to identify all datasets used or mentioned in this paper and describe them using a standardized metadata vocabulary.
+
+First, I'll start by reading through the paper to locate any mentions of datasets. The paper discusses the use of learned predictions in the online list labeling problem, which involves maintaining a sorted list of elements in an array. The authors mention experiments on real datasets, specifically temporal datasets where predictions are constructed from past elements.
+
+Looking at the "4 Experiments" section, the authors mention using datasets from the SNAP Large Network Dataset Collection. They provide examples like Gowalla, which is a location-based social networking website. The Gowalla dataset uses the latitudes of each user as elements in the input sequence. Another dataset mentioned is the "MOOC" dataset, though details are not provided. They also reference "AskUbuntu" and "email-Eu-core" datasets, but again, specifics are limited.
+
+The authors used these datasets to evaluate their LearnedLLA algorithm, comparing it against baselines like PMA and APMA. The experiments involved temporal data, where predictions were made based on past data points. The datasets were split into training and test sets, with the training data used to generate predictions for the test data.
+
+Since the paper doesn't provide direct links or DOIs for these datasets, I'll have to infer the metadata based on the descriptions. The creators of these datasets are likely the original authors who compiled them for the SNAP collection. The descriptions will focus on their use in the paper, which is for evaluating list labeling algorithms with predictions.
+
+The themes of these datasets are related to social networks and temporal data analysis. The keywords include terms like "temporal data," "list labeling," and "predictions." The format of the data is likely text-based, given the nature of the experiments.
+
+In summary, the datasets mentioned are Gowalla, MOOC, AskUbuntu, and email-Eu-core, all from the SNAP collection. Each is used to evaluate the performance of the LearnedLLA algorithm under different conditions, particularly focusing on how well predictions based on past data improve the algorithm's performance.
+</think>

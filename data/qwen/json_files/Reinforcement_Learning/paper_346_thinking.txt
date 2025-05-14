@@ -1,0 +1,13 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Learning to Search in Long Documents Using Document Structure" by Mor Geva and Jonathan Berant from Tel Aviv University. The abstract mentions that they used the TRIVIAQA dataset and derived a new dataset called TRIVIAQA-NOP.
+
+Looking into the details, TRIVIAQA is a large-scale dataset with complex questions and long documents. The authors mention that they built a tree representation for each document by extracting HTML metadata from Wikipedia pages. They then created TRIVIAQA-NOP by removing the preface section from each document to encourage more navigation.
+
+I need to describe each dataset using the specified metadata vocabulary. For TRIVIAQA, the creators are the authors of the original paper, which I assume are the same as the current paper's authors. The description should reflect how the dataset was used in the paper. The title is straightforward. The issued year isn't explicitly mentioned, so I'll leave it empty. The language is English, and the identifier is the URL provided. The theme is Reading Comprehension, and keywords include Question Answering, Document Structure, etc. The landing page is the GitHub URL. The format is Text, and the task is Reading Comprehension.
+
+For TRIVIAQA-NOP, it's a derived dataset from TRIVIAQA. The creators are the same as TRIVIAQA. The description explains that it's TRIVIAQA without the preface. The rest of the metadata is similar, except the title and landing page.
+
+I'll structure both datasets in JSON format, ensuring all required fields are included. If any information isn't available, I'll leave the field empty.
+</think>

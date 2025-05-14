@@ -1,0 +1,19 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is titled "Self-Interpretable Model with TransformationEquivariant Interpretation" by Yipei Wang and Xiaoqian Wang. 
+
+First, I'll read through the abstract and introduction to get a sense of what datasets they might have used. The abstract mentions that they propose a model called SITE (Self-Interpretable model with Transformation Equivariant Interpretation) and validate it on various datasets. 
+
+Looking at the introduction, they discuss the importance of data augmentation, especially geometric transformations, in training deep learning models. They mention applications in medical image analysis and reinforcement learning, but I don't see any specific datasets mentioned here.
+
+Moving on to the related work section, they talk about different interpretation methods and models, but again, no specific datasets are cited. 
+
+In the experiments section, they mention conducting experiments on the MNIST and CIFAR-10 datasets. MNIST is a well-known dataset of handwritten digits, and CIFAR-10 is a dataset of 10 classes of small images. They also refer to the TorchRay toolkit for implementing post-hoc methods, but that's a tool, not a dataset.
+
+In the results, they provide accuracy comparisons on MNIST and CIFAR-10, which are standard datasets. They don't mention any other datasets, so I can conclude that the datasets used are MNIST and CIFAR-10.
+
+Now, I need to extract the metadata for each dataset. For MNIST, the creators are Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. It's a dataset of handwritten digits, published in 1998. The format is image, and it's used for classification tasks. The landing page is the official MNIST website.
+
+For CIFAR-10, the creator is Alex Krizhevsky. It's a dataset of 10 classes of small images, published in 2009. The format is image, and it's used for classification tasks. The landing page is the official CIFAR website.
+
+I don't find any other datasets mentioned in the paper, so these are the only two datasets to include.
+</think>

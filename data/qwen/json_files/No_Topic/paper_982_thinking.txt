@@ -1,0 +1,43 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is titled "Towards the Extraction of Customer-to-Customer Suggestions from Reviews" by Sapna Negi and Paul Buitelaar. 
+
+First, I'll read through the paper to identify any datasets that are mentioned. The abstract mentions that the authors have prepared a benchmark dataset for their task, which involves detecting customer-to-customer suggestions in reviews. 
+
+Looking into the methodology section, specifically under "4. Data," the authors mention two datasets they used:
+1. **TripAdvisor Hotel Reviews**: This dataset was provided by Wachsmuth et al. (2014). It's a large collection of hotel reviews from TripAdvisor, segmented into statements with sentiment labels.
+2. **Electronic Product Reviews**: This dataset was provided by Hu et al. (2004). It consists of reviews of electronic products, already split into sentences with manually tagged sentiments.
+
+The authors further describe that they performed two phases of annotations on these datasets to create their benchmark dataset for detecting customer-to-customer suggestions. 
+
+I need to extract metadata for each of these datasets. For each dataset, I'll look for the creator, description, title, publication year, language, identifier, theme, keywords, landing page, version, format, and the tasks it's used for.
+
+For the TripAdvisor Hotel Reviews dataset:
+- **Creator**: Wachsmuth et al.
+- **Description**: A large dataset of hotel reviews from TripAdvisor, segmented into statements with sentiment labels.
+- **Title**: TripAdvisor Hotel Reviews
+- **Year**: 2014
+- **Language**: English
+- **Identifier**: Not provided in the paper.
+- **Theme**: Customer reviews, Sentiment analysis
+- **Keywords**: Hotel reviews, Sentiment analysis, Customer feedback
+- **Landing Page**: Not provided.
+- **Version**: Not mentioned.
+- **Format**: Text
+- **Tasks**: Sentiment analysis, Customer feedback analysis
+
+For the Electronic Product Reviews dataset:
+- **Creator**: Hu et al.
+- **Description**: Reviews of electronic products, split into sentences with manually tagged sentiments.
+- **Title**: Electronic Product Reviews
+- **Year**: 2004
+- **Language**: English
+- **Identifier**: Not provided.
+- **Theme**: Product reviews, Sentiment analysis
+- **Keywords**: Product reviews, Sentiment analysis, Customer feedback
+- **Landing Page**: Not provided.
+- **Version**: Not mentioned.
+- **Format**: Text
+- **Tasks**: Sentiment analysis, Product feedback analysis
+
+I'll structure this information into the required JSON format, ensuring each dataset is accurately represented with the extracted metadata.
+</think>

@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Connecting the Dots between Audio and Text without Parallel Data through Visual Knowledge Transfer," I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by reading the **abstract** and **introduction** sections. In the abstract, the authors mention achieving state-of-the-art performance on the **ESC50** and **US8K** audio classification tasks, which indicates that these datasets are likely used in their experiments. The introduction further elaborates on the challenges of audio-text alignment and mentions the datasets used for evaluation.
+
+Next, I will look for a dedicated **datasets section** or any relevant sections that discuss the datasets in detail. In this paper, the authors describe the datasets in the **experiments section**. Here, they provide specific details about the datasets used for their experiments:
+
+1. **ESC50 Dataset**: This dataset contains 2000 audio clips from 50 classes, each with a duration of 5 seconds. It is used for multi-class classification tasks.
+
+2. **US8K Dataset**: This dataset consists of 8732 audio clips from 10 classes, with each clip having a duration of less than 4 seconds. It is also used for multi-class classification.
+
+3. **AudioSet**: This is a benchmark dataset for multi-label classification, containing around 2 million audio clips. The authors mention using both the balanced and unbalanced versions of this dataset.
+
+4. **AudioCaps Dataset**: This dataset builds on AudioSet and provides captions for a subset of audio clips sourced from YouTube.
+
+5. **Clotho Dataset**: This dataset consists of audio clips with a duration of 15-30 seconds, which are used for audio captioning tasks.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The citations I will extract are:
+
+- For **ESC50**:
+  > Karol J. Piczak. *ESC: Dataset for Environmental Sound Classification*. In Proceedings of the 23rd Annual ACM Conference on Multimedia, pages 1015–1018, 2015.
+
+- For **US8K**:
+  > Justin Salamon, Christopher Jacoby, and Juan Pablo Bello. *A dataset and taxonomy for urban sound research*. In Proceedings of the 22nd ACM International Conference on Multimedia, pages 1041–1044, 2014.
+
+- For **AudioSet**:
+  > Jort F. Gemmeke, Daniel P. W. Ellis, Dylan Freedman, Aren Jansen, Wade Lawrence, R. Channing Moore, Manoj Plakal, and Marvin Ritter. *Audio set: An ontology and human-labeled dataset for audio events*. In 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 776–780, 2017.
+
+- For **AudioCaps**:
+  > Chris Dongjoo Kim, Byeongchang Kim, Hyunmin Lee, and Gunhee Kim. *AudioCaps: Generating captions for audios in the wild*. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 119–132, 2019.
+
+- For **Clotho**:
+  > Konstantinos Drossos, Samuel Lipping, and Tuomas Virtanen. *Clotho: an audio captioning dataset*. In 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 736–740, 2020.
+
+Finally, I will compile the dataset information along with their citations into a structured format for easy reference and further processing.

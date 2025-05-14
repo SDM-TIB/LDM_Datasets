@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Optum at MEDIQA 2021: Abstractive Summarization of Radiology Reports using simple BART Finetuning" by Ravi Kondadadi et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors fine-tuned models on a subset of the **MIMIC-CXR** dataset for the task of radiology report summarization. This suggests that the MIMIC-CXR dataset is a key dataset used in their experiments.
+
+Next, I will examine **section 3 (Task Description & Dataset)**, where the authors provide more details about the datasets used. They mention that the training data for the MEDIQA 2021 challenge is extracted from a subset of the **MIMIC-CXR Dataset**, which contains around 91,544 examples of radiology reports and corresponding summaries. Additionally, they mention using another dataset from **Indiana University**, which also contains 2000 examples for validation.
+
+In this section, I will note the specifics of the datasets:
+1. **MIMIC-CXR Dataset**: A large publicly available dataset of chest radiographs in DICOM format with free-text radiology reports. The authors used a subset for their experiments.
+2. **Indiana University Radiology Report Dataset**: This dataset is used for validation and contains 2000 examples.
+
+Now, I will check the **References section** to find the full citations for these datasets. The relevant citations are:
+
+- For the **MIMIC-CXR Dataset**:
+  > Alistair E. W. Johnson, Tom Pollard, Roger Mark, Seth Berkowitz, and Steven Horng. *The MIMIC-CXR Database*. Type: dataset. 2019.
+
+- For the **Indiana University Radiology Report Dataset**, the paper does not provide a specific citation, but it is mentioned as a dataset used for validation. I will note that it is referenced in the context of the MIMIC-CXR dataset.
+
+After gathering all this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a clear and comprehensive overview of the datasets used in the research paper.

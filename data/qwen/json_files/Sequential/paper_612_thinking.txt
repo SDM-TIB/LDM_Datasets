@@ -1,0 +1,32 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "On Sentence Representations for Propaganda Detection: From Handcrafted Features to Word Embeddings" by AndrA e Ferreira Cruz, Gil Rocha, and Henrique Lopes Cardoso. It's about detecting propaganda in sentences using various models, including handcrafted features and word embeddings.
+
+Looking through the abstract, the authors mention participating in the NLP4IF shared task on sentence-level propaganda detection. This suggests that the dataset used is from this shared task.
+
+In the introduction, they reference the NLP4IF shared task, specifically the sentence-level (SLC) track. They mention that the training dataset consists of 350 articles with 16,965 sentences, of which 4,720 are labeled as propaganda and 12,245 as non-propaganda. This indicates that the dataset is from the NLP4IF shared task.
+
+The authors also mention using ELMo word embeddings, which are pre-trained contextualized embeddings, but these are not datasets per se but rather pre-trained models.
+
+In the results section, they discuss their submission to the NLP4IF shared task, achieving a rank of 10 with an F1-score of 59.5. This further confirms that the dataset used is from the NLP4IF shared task.
+
+I don't find any other datasets mentioned in the paper. The only dataset explicitly referenced is the one from the NLP4IF shared task on propaganda detection.
+
+Now, I'll structure the metadata for this dataset based on the information provided:
+
+- **dcterms:creator**: The authors of the paper are the ones who used the dataset, but the creators of the dataset are the organizers of the NLP4IF shared task. Since the paper doesn't provide the creators' names, I'll leave this as an empty list.
+- **dcterms:description**: The dataset consists of 350 articles with 16,965 sentences, 4,720 labeled as propaganda and 12,245 as non-propaganda.
+- **dcterms:title**: "NLP4IF Propaganda Detection Dataset"
+- **dcterms:issued**: The year isn't explicitly mentioned, but the paper was published in 2019, so I'll assume the dataset was released around that time.
+- **dcterms:language**: The dataset contains English text.
+- **dcterms:identifier**: No DOI or URL is provided, so this remains empty.
+- **dcat:theme**: The themes are propaganda detection and natural language processing.
+- **dcat:keyword**: Keywords include propaganda detection, sentence-level classification, and NLP.
+- **dcat:landingPage**: No specific URL is provided, so this remains empty.
+- **dcterms:hasVersion**: No version is mentioned, so this is empty.
+- **dcterms:format**: The dataset is in text format.
+- **mls:task**: The task is sentence-level propaganda detection.
+
+I'll compile this information into the required JSON format.
+</think>

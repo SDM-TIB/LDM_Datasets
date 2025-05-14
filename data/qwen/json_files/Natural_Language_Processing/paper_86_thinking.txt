@@ -1,0 +1,125 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about Neural Machine Translation with Byte-Level Subwords. Let me go through it step by step.
+
+First, I'll read through the abstract and introduction to get a sense of what datasets are being used. The abstract mentions that they're using byte-level subwords and comparing it to BPE. They also talk about experiments on bilingual and multilingual datasets.
+
+Looking at the "Experimental Settings" section, I see they mention several datasets:
+
+1. **English-German (En-De)**: They use WMT 2014 data, specifically newstest13 for validation and newstest14 for testing. The source is Vaswani et al. (2017).
+
+2. **Japanese-English (Ja-En)**: They concatenate KFTT, TED, and JESC datasets. The sources are Michel and Neubig (2018), Neubig (2011), Cettolo et al. (2012), and Pryzant et al. (2017).
+
+3. **Sinhala-English (Si-En)**: They use data from FLoRes (Guzmán et al. 2019).
+
+4. **Many-to-English (X-En)**: They adopt the TED Talks corpus compiled by Ye et al. (2018), which includes 59 languages with English as the target.
+
+I need to extract each of these datasets and provide their metadata as per the specified vocabulary.
+
+For each dataset, I'll look for the creators, description, title, publication year, language, identifier, theme, keywords, landing page, version, format, and tasks.
+
+Starting with En-De:
+
+- **Creators**: The authors of the paper mention using WMT 2014 data, but the creators would be the authors of the original dataset. From the reference, it's Vaswani et al. (2017), but the actual creators are the WMT organizers. However, since the paper doesn't specify, I'll list the authors of the paper as creators, but that might not be accurate. Alternatively, if the dataset is cited as WMT 2014, the creators might be the organizers, but without specific names, I'll leave it as an empty list.
+
+- **Description**: It's a bilingual dataset for English-German translation, using newstest13 for validation and newstest14 for testing.
+
+- **Title**: WMT 2014 English-German
+
+- **Issued**: 2014
+
+- **Language**: English, German
+
+- **Identifier**: URL or DOI if available, but not provided.
+
+- **Theme**: Machine Translation, Bilingual
+
+- **Keywords**: Machine translation, bilingual, English-German
+
+- **Landing Page**: URL if available, but not provided.
+
+- **Version**: Not specified.
+
+- **Format**: Text
+
+- **Task**: Neural Machine Translation
+
+Next, Ja-En:
+
+- **Creators**: The dataset is a concatenation of KFTT, TED, and JESC. The creators would be the authors of these datasets. From the references, KFTT is by Neubig (2011), TED by Cettolo et al. (2012), and JESC by Pryzant et al. (2017).
+
+- **Description**: A bilingual dataset for Japanese-English translation, combining KFTT, TED, and JESC.
+
+- **Title**: Japanese-English (Ja-En)
+
+- **Issued**: The year would be when the concatenated dataset was created, which is not specified, but the individual datasets are from 2011, 2012, and 2017.
+
+- **Language**: Japanese, English
+
+- **Identifier**: URLs or DOIs for each dataset, but not provided.
+
+- **Theme**: Machine Translation, Bilingual
+
+- **Keywords**: Machine translation, bilingual, Japanese-English
+
+- **Landing Page**: URLs for each dataset, but not provided.
+
+- **Version**: Not specified.
+
+- **Format**: Text
+
+- **Task**: Neural Machine Translation
+
+Si-En:
+
+- **Creators**: The dataset is from FLoRes, created by Guzmán et al. (2019).
+
+- **Description**: A bilingual dataset for Sinhala-English translation.
+
+- **Title**: Sinhala-English (Si-En)
+
+- **Issued**: 2019
+
+- **Language**: Sinhala, English
+
+- **Identifier**: URL or DOI for FLoRes, but not provided.
+
+- **Theme**: Machine Translation, Bilingual
+
+- **Keywords**: Machine translation, bilingual, Sinhala-English
+
+- **Landing Page**: URL for FLoRes, but not provided.
+
+- **Version**: Not specified.
+
+- **Format**: Text
+
+- **Task**: Neural Machine Translation
+
+X-En:
+
+- **Creators**: The dataset is from Ye et al. (2018), which is the TED Talks corpus.
+
+- **Description**: A multilingual dataset for many-to-English translation, including 59 languages.
+
+- **Title**: Many-to-English (X-En)
+
+- **Issued**: 2018
+
+- **Language**: Multilingual, English
+
+- **Identifier**: URL or DOI for the TED Talks corpus, but not provided.
+
+- **Theme**: Machine Translation, Multilingual
+
+- **Keywords**: Machine translation, multilingual, many-to-English
+
+- **Landing Page**: URL for the dataset, but not provided.
+
+- **Version**: Not specified.
+
+- **Format**: Text
+
+- **Task**: Neural Machine Translation
+
+I need to ensure that each dataset is correctly identified with the appropriate metadata. Since some information like creators and identifiers isn't explicitly provided in the paper, I'll leave those fields as empty lists or strings where necessary.
+</think>

@@ -1,0 +1,26 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is titled "MoRTy: Unsupervised Learning of Task-specialized Word Embeddings by Autoencoding" by Nils Rethmeier and Barbara Plank. 
+
+First, I'll read through the abstract and introduction to get a sense of what datasets are mentioned. The abstract mentions that they evaluate their method, MORTY, on a broad range of setups, including different word embedding methods, corpus sizes, and end-task semantics. They also reference a benchmark suite developed by Jastrzebski et al. (2017).
+
+Looking into the introduction, they mention using two word embedding methods: Fasttext and GloVe. They train these embeddings on WikiText corpora of different sizes (2M and 103M tokens) and also use off-the-shelf web-scale embeddings (600B and 840B tokens). 
+
+In the experiments section, they detail their evaluation using a benchmark suite with 18 tasks across three categories: word similarity, word analogy, and word/sentence categorization. This benchmark was developed by Jastrzebski et al. (2017), which is a key dataset mentioned.
+
+Additionally, they mention using Fasttext and GloVe embeddings trained on large corpora, specifically the Common Crawl dataset, which is a web-scale corpus. 
+
+So, the datasets involved are:
+1. WikiText (2M and 103M tokens)
+2. Common Crawl (600B and 840B tokens)
+3. The benchmark suite by Jastrzebski et al. (2017) with 18 tasks
+
+I need to extract metadata for each of these datasets. For each, I'll look for creators, descriptions, titles, publication years, languages, identifiers, themes, keywords, landing pages, versions, formats, and tasks.
+
+WikiText is created by Merity et al. (2016), so the creators are the authors. The description is about the corpus size and use for training embeddings. The title is WikiText, and it's in English. The landing page is the project page.
+
+Common Crawl is a large web corpus, created by the Common Crawl Foundation. It's in multiple languages, used for training embeddings, and has a landing page.
+
+The benchmark suite by Jastrzebski et al. is used for evaluating word embeddings across various tasks. It's in English, with a landing page on GitHub.
+
+I'll structure each dataset with the required metadata fields, ensuring accuracy based on the paper's references and descriptions.
+</think>

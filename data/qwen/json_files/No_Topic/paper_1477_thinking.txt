@@ -1,0 +1,35 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper's title is "Debiasing Averaged Stochastic Gradient Descent to handle missing values" by Aude Sportisse and others. The abstract mentions synthetic data and real datasets, including those collected from medical registers. 
+
+Looking into the introduction, the authors discuss the problem of missing values in large-scale data analysis. They mention synthetic data and real datasets, specifically the TraumaBase dataset. 
+
+In the experiments section, they reference two real datasets:
+1. **TraumaBase dataset**: This is a medical dataset used to model platelet levels upon arrival at the hospital. It includes seven quantitative variables with missing values ranging from 0% to 16%.
+2. **Superconductivity dataset**: This dataset contains 81 quantitative features from 21263 superconductors, aiming to predict the critical temperature. The authors introduced 30% of missing values for their experiments.
+
+I also need to check if there are any other datasets mentioned. The paper doesn't reference any synthetic datasets beyond what's mentioned in the abstract, so I'll focus on the two real datasets identified.
+
+Now, I'll structure the metadata for each dataset based on the provided vocabulary.
+
+For the TraumaBase dataset:
+- **Creator**: The authors of the paper, Aude Sportisse, Claire Boyer, Aymeric Dieuleveut, and Julie Josse.
+- **Description**: A medical dataset used to model platelet levels with missing values.
+- **Title**: TraumaBase dataset.
+- **Issued**: The paper was published in 2020, so I'll use that year.
+- **Theme**: Public health, medical data.
+- **Keywords**: Missing values, medical data, platelet levels.
+- **Task**: Linear regression, prediction.
+
+For the Superconductivity dataset:
+- **Creator**: The authors of the paper.
+- **Description**: Contains features of superconductors to predict critical temperature with introduced missing values.
+- **Title**: Superconductivity dataset.
+- **Issued**: 2020.
+- **Theme**: Materials science, superconductivity.
+- **Keywords**: Superconductors, critical temperature, missing data.
+- **Task**: Prediction, regression.
+
+I'll ensure each dataset is correctly formatted with the appropriate metadata fields.
+</think>

@@ -1,0 +1,23 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll go through the abstract and introduction to get an overview. The paper discusses a novel framework for near-lossless image compression, mentioning several traditional codecs like JPEG-LS, CALIC, WebP, and BPG. These are not datasets but rather compression methods. However, the authors also reference datasets used for training and evaluation.
+
+In the "Experimental Setup" section, the paper mentions the DIV2K dataset, which is used for training the model. DIV2K is a well-known dataset in image processing, containing high-resolution images. Additionally, the paper evaluates its codec on four datasets: Kodak, DIV2K validation, CLIC professional (CLIC.p), and CLIC mobile (CLIC.m). These datasets are used for testing the compression performance.
+
+Now, I'll gather information about each dataset:
+
+1. **DIV2K**: Used for training. It's a high-resolution dataset with 800 images, often used in image super-resolution tasks. The citation mentions it's from 2018.
+
+2. **Kodak**: A standard dataset for image compression evaluation, containing 24 images. It's frequently cited in image processing literature.
+
+3. **CLIC.p and CLIC.m**: These are subsets of the CLIC (Compression Learning and Image Coding) dataset, specifically for professional and mobile images, respectively. They are used for evaluation.
+
+I need to extract metadata for each dataset. For DIV2K, the creators are the authors of the DIV2K paper, which I can find from the reference. The description should reflect its use in training. The format is images, and the task is image compression.
+
+For Kodak, the creators are Eastman Kodak, and it's used for evaluation. The format is images, and the task is image compression.
+
+CLIC.p and CLIC.m are subsets of the same dataset, so they share the same creators and description but are used for different image types. Their tasks are also image compression.
+
+I'll structure each dataset with the required metadata fields, ensuring that each field is accurately filled based on the information from the paper.
+</think>

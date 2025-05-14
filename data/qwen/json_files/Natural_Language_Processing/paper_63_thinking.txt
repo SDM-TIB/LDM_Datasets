@@ -1,0 +1,15 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the given research paper. The paper is about the Insertion-Deletion Transformer, which is a novel architecture for sequence generation. The authors mention using synthetic translation tasks to demonstrate the effectiveness of their model. 
+
+First, I'll go through the paper section by section. The abstract mentions synthetic translation tasks but doesn't specify any datasets. Moving on to the introduction, they discuss related work but don't name any datasets. 
+
+In the Method section, they describe their model but again, no datasets are mentioned. The Experiments section is where they talk about their tasks. They mention two synthetic translation tasks: shifted alphabetic sequences and Caesar cipher. 
+
+For the shifted alphabetic sequences task, they generated 1000 examples for training and evaluated on 100 held-out examples. For the Caesar cipher task, they generated 100,000 examples and evaluated on 1000 held-out examples. 
+
+These are synthetic datasets created by the authors for their experiments. They don't reference any external datasets, so the only datasets mentioned are these two synthetic ones. 
+
+I need to describe each dataset using the specified metadata vocabulary. For each, the creator would be the authors of the paper since they created the datasets. The description would be based on how they used or described the datasets. The titles would be the names of the tasks. They don't mention publication dates, so the issued field would be empty. The language is English since the tasks involve alphabetic sequences. There's no unique identifier provided, so that's empty. The themes would be related to machine translation and synthetic data. The keywords would include synthetic translation, sequence generation, etc. The landing page is empty as there's no URL provided. The format is text since it's about sequences. The tasks are machine translation and sequence generation.
+
+So, I'll create two JSON objects for each dataset, filling in the appropriate fields based on the information from the paper.
+</think>

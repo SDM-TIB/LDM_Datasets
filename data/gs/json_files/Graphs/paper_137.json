@@ -1,0 +1,111 @@
+[
+    {
+        "dcterms:creator": [
+            "Lise Gatoor"
+        ],
+        "dcterms:description": "This dataset is a citation network that is used as a standard benchmark dataset. The network has 2708 nodes (scientific publications) which are classified into one of seven classes. The citation network contains 5429 links (undirected edges) between nodes. Each node is described by a 0/1 bag-of-words vector with a dictionary size of 1433.",
+        "dcterms:title": "Cora",
+        "dcterms:issued": "2012",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Neural Networks",
+            "Link Prediction"
+        ],
+        "dcat:keyword": [
+            "Citation network",
+            "Benchmark dataset",
+            "Graph structure"
+        ],
+        "dcat:landingPage": "https://linqs.soe.ucsc.edu/data",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Link Prediction",
+            "Node Classification",
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Lise Gatoor"
+        ],
+        "dcterms:description": "This dataset is another citation network similar to Cora. It contains 3327 nodes (scientific publications), 4732 edges (links), and 6 classes. Each node in this dataset is also described by a 0/1 bag-of-words vector with a dictionary size of 3703.",
+        "dcterms:title": "CiteSeer",
+        "dcterms:issued": "2012",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Neural Networks",
+            "Link Prediction"
+        ],
+        "dcat:keyword": [
+            "Citation network",
+            "Benchmark dataset",
+            "Graph structure"
+        ],
+        "dcat:landingPage": "https://linqs.soe.ucsc.edu/data",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Link Prediction",
+            "Node Classification",
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Lise Gatoor"
+        ],
+        "dcterms:description": "This dataset is a citation network of scientific publications pertaining to diabetes from the Pubmed database. It contains 19717 nodes, 44338 edges, and 3 classes. Each node is described by a TF/IDF weighted word vector with a dictionary size of 500.",
+        "dcterms:title": "PubMed",
+        "dcterms:issued": "2012",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Neural Networks",
+            "Link Prediction"
+        ],
+        "dcat:keyword": [
+            "Citation network",
+            "Benchmark dataset",
+            "Graph structure"
+        ],
+        "dcat:landingPage": "https://linqs.soe.ucsc.edu/data",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Link Prediction",
+            "Node Classification",
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Péter Mernyei",
+            "C˘at˘alina Cangea"
+        ],
+        "dcterms:description": "This dataset is based on Wikipedia article references. It consists of 11701 nodes (Wikipedia articles on Computer Science), 216213 edges (hyperlinks between articles), and 10 classes. Each node is described by a 300-dimensional vector which was obtained as the average of pretrained GloVe embeddings.",
+        "dcterms:title": "WikiCS",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Neural Networks",
+            "Link Prediction"
+        ],
+        "dcat:keyword": [
+            "Wikipedia dataset",
+            "Benchmark dataset",
+            "Graph structure"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/2007.02901",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Link Prediction",
+            "Node Classification",
+            "Graph Classification"
+        ]
+    }
+]

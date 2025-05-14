@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions" by Han-Jia Ye et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the authors validate their method on "both the standard few-shot classification benchmark and four extended few-shot learning settings," which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (section 5), where the authors describe the datasets used for their evaluations. In this section, they explicitly mention the following datasets:
+
+1. **MiniImageNet**: This dataset is described as a subset of ImageNet, containing 100 classes with 600 examples per class. The authors follow a specific setup for training and validation.
+
+2. **TieredImageNet**: Another subset of ImageNet, this dataset includes 351, 97, and 160 categories for training, validation, and evaluation, respectively.
+
+3. **CUB (Caltech-UCSD Birds 200-2011)**: This dataset consists of 11,788 images of birds across 200 species, with a specific sampling strategy for few-shot learning tasks.
+
+4. **OfficeHome**: This dataset is used to validate the generalization ability of the proposed method across domains, containing images from four different domains.
+
+I will also check the **References section** to find the full citations for these datasets:
+
+- For **MiniImageNet**, the citation is:
+  > Vinyals, O., Blundell, C., Lillicrap, T., Kavukcuoglu, K., & Wierstra, D. (2016). Matching networks for one shot learning. In *Advances in Neural Information Processing Systems* (pp. 3630-3638).
+
+- For **TieredImageNet**, the citation is:
+  > Ren, M., Eusebio, J., Ravi, S., Snell, J., Swersky, K., Tenenbaum, J. B., Larochelle, H., & Zemel, R. S. (2018). Meta-learning for semi-supervised few-shot classification. In *International Conference on Learning Representations*.
+
+- For **CUB (Caltech-UCSD Birds 200-2011)**, the citation is:
+  > Wah, C., Branson, S., Welinder, P., Perona, P., & Belongie, S. (2011). The Caltech-UCSD Birds-200-2011 Dataset. Technical Report CNS-TR-2011-001, California Institute of Technology.
+
+- For **OfficeHome**, the citation is:
+  > Venkateswara, H., Eusebio, J., Chakraborty, S., & Panchanathan, S. (2017). Deep hashing network for unsupervised domain adaptation. In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition* (pp. 5385-5394).
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited, ready for structured output or further processing.

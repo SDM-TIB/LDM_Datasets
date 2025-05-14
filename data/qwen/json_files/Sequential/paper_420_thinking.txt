@@ -1,0 +1,23 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. Let me go through the paper step by step.
+
+First, the paper is about hate speech detection in Polish using different machine learning approaches. It mentions several datasets and tools used in their experiments.
+
+Looking at the introduction, they mention PolEval 2019 Task 6. PolEval is a Polish evaluation campaign, so that's one dataset. They also reference the PolEval 2018 dataset for language modeling, which is another dataset.
+
+In the TPOT section, they mention using scikit-learn's CountVectorizer, but that's a tool, not a dataset. They also refer to the competition's training set, which is part of PolEval 2019.
+
+In the ULMFiT section, they use the PolEval 2018 dataset for language modeling and the competition's training set again. So, that's consistent with the earlier mentions.
+
+The BERT section doesn't mention any new datasets; they use the competition's data, which is already covered.
+
+So, the datasets mentioned are:
+1. PolEval 2019 Task 6
+2. PolEval 2018 dataset
+
+I need to extract metadata for each. For PolEval 2019, the creators are the competition organizers, but the paper doesn't list them, so I'll leave creators empty. The description is about hate speech detection in Polish. The title is clear. The year is 2019, language is Polish, and it's used for text classification tasks.
+
+For PolEval 2018, the creators are also not listed, but the description is about language modeling. The year is 2018, language Polish, and the task is language modeling.
+
+I'll structure this into JSON with the required fields.
+</think>

@@ -1,0 +1,33 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets.
+
+The paper is titled "SemEval-2016 Task 7: Determining Sentiment Intensity of English and Arabic Phrases" by Svetlana Kiritchenko, Saif M. Mohammad, and others. It describes a shared task focused on sentiment intensity determination for phrases in English and Arabic.
+
+First, I'll look for any datasets mentioned in the abstract, introduction, and other sections. The paper mentions three datasets:
+
+1. **General English Sentiment Modifiers Set**: This dataset includes English single words and multi-word phrases from the general domain, annotated for sentiment intensity.
+
+2. **English Twitter Mixed Polarity Set**: This dataset focuses on English phrases from Twitter with mixed polarities, also annotated for sentiment intensity.
+
+3. **Arabic Twitter Set**: This dataset includes single words and phrases commonly found in Arabic tweets, annotated for sentiment intensity.
+
+Each of these datasets was manually annotated using the Best-Worst Scaling method. The paper also references other resources like the NRC Emotion Lexicon and the LabMT lexicon, but these are not the primary datasets created for this task.
+
+Now, I'll structure the metadata for each dataset based on the provided vocabulary.
+
+For each dataset:
+- **dcterms:creator**: The authors of the paper, as they created these datasets.
+- **dcterms:description**: A brief description based on the paper's description.
+- **dcterms:title**: The name of the dataset.
+- **dcterms:issued**: The year the paper was published, 2016.
+- **dcterms:language**: English for the first two datasets, Arabic for the third.
+- **dcterms:identifier**: Empty as no specific DOI or URL is provided for these datasets in the paper.
+- **dcat:theme**: Categories like Sentiment Analysis, Lexicons.
+- **dcat:keyword**: Relevant keywords like sentiment intensity, phrases, annotations.
+- **dcat:landingPage**: Empty as no specific URL is provided.
+- **dcterms:hasVersion**: Empty as no version is mentioned.
+- **dcterms:format**: Text, as the datasets consist of words and phrases.
+- **mls:task**: Sentiment Analysis, Lexicon Development.
+
+I'll ensure each dataset is accurately described and formatted into JSON as per the instructions.
+</think>

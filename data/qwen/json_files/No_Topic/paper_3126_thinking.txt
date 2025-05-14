@@ -1,0 +1,29 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. Let me go through the paper step by step.
+
+First, I'll read the abstract to get an overview. It talks about syntax-based rewriting for simultaneous machine translation, focusing on Japanese-English translation. I don't see any datasets mentioned here yet.
+
+Moving on to the introduction, the authors discuss the challenges of simultaneous translation and mention using reference translations. They reference studies by Fujita et al. (2013), Oda et al. (2014), and others, but these are more about methods than datasets.
+
+In Section 2, they talk about translation delay and mention using word alignments. They reference Utiyama and Isahara (2003), which is about a Japanese-English corpus. This seems like a dataset.
+
+Section 3 describes transformation rules, but no datasets are mentioned here.
+
+Section 4 discusses the rewriting process and mentions using the Stanford Parser and the Europarl corpus for a language model. The Europarl corpus is a dataset.
+
+In Section 5, they evaluate their method using the Reuters Japanese-English corpus. This is another dataset.
+
+They also mention the Kyoto corpus (Neubig, 2011) in the context of quotative verbs. That's another dataset.
+
+The Treebank Word Tokenizer from NLTK is used, but that's a tool, not a dataset.
+
+The Moses system and GIZA++ are tools, not datasets.
+
+In the references, they cite several papers, but only a few mention datasets. The key datasets are:
+
+1. Reuters Japanese-English corpus (Utiyama and Isahara, 2003)
+2. Kyoto corpus (Neubig, 2011)
+3. Europarl corpus
+
+I need to extract metadata for each of these datasets based on the paper's description.
+</think>

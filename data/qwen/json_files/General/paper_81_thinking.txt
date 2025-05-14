@@ -1,0 +1,55 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets.
+
+First, I'll look through the abstract and introduction. The abstract mentions the CNN/Dailymail dataset and a version of the New York Times dataset. These are likely the main datasets used in the experiments.
+
+Moving on to the "Experiments" section, under "Datasets," the paper explicitly lists two datasets: the CNN/Dailymail (CNNDM) dataset and the New York Times (NYT50) dataset. The CNNDM dataset is described as containing 287,226 documents with summaries, split into training, validation, and test sets. The NYT50 dataset is created by removing documents with summaries shorter than 50 words from the New York Times dataset, with specific splits for training, validation, and test.
+
+Additionally, the paper mentions the GIGA-CM dataset, which is used for pre-training. This dataset combines the English Gigaword dataset and the training split of CNNDM, totaling 6,626,842 documents.
+
+Now, I'll extract the metadata for each dataset:
+
+1. **CNN/Dailymail (CNNDM) Dataset**
+   - **Creators**: Hermann et al. (2015), See et al. (2017)
+   - **Description**: Contains 287,226 documents with summaries, split into training, validation, and test sets.
+   - **Title**: CNN/Dailymail Dataset
+   - **Year**: 2015
+   - **Language**: English
+   - **Identifier**: https://catalog.ldc.upenn.edu/LDC2012T21
+   - **Theme**: Text Summarization
+   - **Keywords**: Document summarization, Extractive summarization
+   - **Landing Page**: https://github.com/abisee/cnn-dailymail
+   - **Version**: Not specified
+   - **Format**: Text
+   - **Tasks**: Document Summarization
+
+2. **New York Times (NYT50) Dataset**
+   - **Creators**: Durrett et al. (2016), Xu and Durrett (2019)
+   - **Description**: Created by removing documents with summaries shorter than 50 words, split into training, validation, and test sets.
+   - **Title**: New York Times Dataset (NYT50)
+   - **Year**: 2016
+   - **Language**: English
+   - **Identifier**: https://catalog.ldc.upenn.edu/LDC2012T21
+   - **Theme**: Text Summarization
+   - **Keywords**: Document summarization, Extractive summarization
+   - **Landing Page**: https://catalog.ldc.upenn.edu/LDC2012T21
+   - **Version**: Not specified
+   - **Format**: Text
+   - **Tasks**: Document Summarization
+
+3. **GIGA-CM Dataset**
+   - **Creators**: The authors of the paper (Zhang, Wei, Zhou)
+   - **Description**: Comprises 6,626,842 documents from English Gigaword and CNNDM training split.
+   - **Title**: GIGA-CM Dataset
+   - **Year**: Not specified
+   - **Language**: English
+   - **Identifier**: Not specified
+   - **Theme**: Text Summarization
+   - **Keywords**: Pre-training, Document modeling
+   - **Landing Page**: Not specified
+   - **Version**: Not specified
+   - **Format**: Text
+   - **Tasks**: Document Modeling, Pre-training
+
+I'll structure this information into the required JSON format, ensuring each dataset is accurately described with the appropriate metadata.
+</think>

@@ -1,0 +1,31 @@
+<think>
+Alright, I need to extract the datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract and introduction to get an overview. The paper discusses creating labeled resources with minimal human effort, using clustering-based methods. It mentions experiments with several document labeling tasks, so datasets are likely involved.
+
+Moving to the sections, I find that the authors evaluated their system on three text classification tasks: Gender, Spam, and Sentiment. Each task uses a specific dataset.
+
+1. **Gender Classification**: They used a blog dataset introduced by Schler et al. (2006). This dataset contains 19,320 blog articles, from which they randomly selected 5,000 for their experiments.
+
+2. **Spam Classification**: They employed the Enron spam dataset, introduced by Metsis et al. (2006). This dataset combines sections of Spam and Ham emails, with 5,000 emails selected for their study.
+
+3. **Sentiment Classification**: They used Pang et al.'s (2002) movie review dataset, which includes 2,000 reviews labeled as positive or negative.
+
+I'll now structure each dataset according to the specified metadata fields.
+
+For each dataset:
+- **dcterms:creator**: The authors who introduced the dataset.
+- **dcterms:description**: A brief description based on the paper's usage.
+- **dcterms:title**: The name of the dataset.
+- **dcterms:issued**: The year the dataset was published.
+- **dcterms:language**: English, as the datasets are in English.
+- **dcterms:identifier**: Empty, as no DOI or URL is provided.
+- **dcat:theme**: Categories like Text Classification, Sentiment Analysis, etc.
+- **dcat:keyword**: Relevant keywords.
+- **dcat:landingPage**: Empty, as no URL is provided.
+- **dcterms:hasVersion**: Empty, as no version is mentioned.
+- **dcterms:format**: Text, as these are text datasets.
+- **mls:task**: The tasks for which the dataset is used, like Gender Classification, Spam Detection, Sentiment Analysis.
+
+I'll ensure each dataset is accurately represented with the correct metadata.
+</think>

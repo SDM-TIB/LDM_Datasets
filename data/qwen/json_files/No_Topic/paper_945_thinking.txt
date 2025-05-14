@@ -1,0 +1,43 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me go through the paper step by step.
+
+First, I'll read through the abstract and introduction to get an overview. The paper focuses on building Catalan-English MT resources, emphasizing quality over quantity. They mention compiling existing resources and creating a new high-quality corpus. They also provide new evaluation datasets in three domains.
+
+Looking at the sections, Section 3 details the compiled parallel corpora, including datasets like CCAligned, WikiMatrix, Paracrawl, and others. They also introduce GEnCaTa, a new high-quality corpus. Section 4 discusses the human audit of these datasets. Section 5 talks about the filtering process and the use of GEnCaTa for training a classifier. Section 6 mentions evaluation datasets like Flores-101, Catalan United Nations test set, and WMT20 Biomedical Shared Task.
+
+I'll list all the datasets mentioned:
+
+1. CCAligned
+2. WikiMatrix
+3. Paracrawl
+4. OPUS
+5. GEnCaTa
+6. CoVost ca-en
+7. CoVost en-ca
+8. Eubookshop
+9. Europarl
+10. Global Voices
+11. Gnome
+12. JW300
+13. KDE4
+14. Memories Lliures
+15. Open Subtitles
+16. Opus Books
+17. QED
+18. Tatoeba
+19. Tedtalks
+20. Ubuntu
+21. Wikimedia
+22. Flores-101
+23. Catalan United Nations test set
+24. WMT20 Biomedical Shared Task test set
+25. CyberMT
+26. TaCon
+27. WMT13-ca
+
+For each dataset, I'll extract the required metadata fields. I'll check the references for creators, descriptions, titles, publication years, languages, identifiers, themes, keywords, landing pages, versions, formats, and tasks.
+
+Some datasets might not have all the information, so I'll leave those fields empty if not found. For example, many datasets don't have specific versions or landing pages mentioned.
+
+I'll structure each dataset as a JSON object with the specified fields, ensuring consistency and accuracy based on the paper's descriptions.
+</think>

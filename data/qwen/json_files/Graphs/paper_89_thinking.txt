@@ -1,0 +1,21 @@
+<think>
+Alright, I'm looking at the provided research paper titled "Text2Node: a Cross-Domain System for Mapping Arbitrary Phrases to a Taxonomy" by Rohollah Soltani and Alexandre Tomberg. My task is to identify all the datasets mentioned in this paper and describe them using the specified metadata vocabulary.
+
+First, I'll start by reading through the paper to locate any references to datasets. The abstract mentions the use of SNOMED CT and ICD-9-CM, which are taxonomies, but they might not be datasets per se. However, the paper also refers to the MIMIC-III Clinical Database and the FDA Adverse Event Reporting System (FAERS) as part of their corpus.
+
+In the Methods section, under Word Embeddings, the authors describe constructing a corpus from several sources, including PubMed, MIMIC-III, FAERS, and the 2010 i2b2 Relations Challenge. These are all datasets used to train their word embeddings.
+
+Additionally, the paper mentions the use of SNOMED CT as the target taxonomy, which is a large medical taxonomy, but it's more of a reference than a dataset. Similarly, ICD-9-CM is a coding system used for mapping, but again, it's more of a taxonomy than a dataset.
+
+So, the datasets explicitly mentioned are:
+
+1. **MIMIC-III Clinical Database**: A dataset containing clinical data from patients, including free-text notes.
+2. **FDA Adverse Event Reporting System (FAERS)**: A dataset that includes adverse event reports submitted to the FDA.
+3. **2010 i2b2 Relations Challenge**: A dataset used for evaluating relation extraction in clinical texts.
+
+Each of these datasets is used in the construction of the corpus for training word embeddings. I'll need to extract metadata for each of these datasets based on the information provided in the paper.
+
+For each dataset, I'll look for the creators, description, title, publication year, language, identifier, themes, keywords, landing page, version, format, and tasks. However, the paper doesn't provide detailed metadata for each dataset, so some fields might remain empty or inferred based on the context.
+
+Now, I'll structure the JSON response accordingly, ensuring each dataset is described with the available information.
+</think>

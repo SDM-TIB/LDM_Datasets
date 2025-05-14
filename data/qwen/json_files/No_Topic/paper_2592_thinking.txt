@@ -1,0 +1,59 @@
+<think>
+Alright, I'm looking at the provided paper text, which is the proceedings from IWPT 2020. My task is to identify all datasets mentioned in this paper and describe them using the specified metadata vocabulary. 
+
+First, I'll scan through the document to find any mentions of datasets. The paper is about parsing technologies, specifically focusing on the IWPT 2020 Shared Task on Parsing into Enhanced Universal Dependencies (EUD). 
+
+In the Preface, it mentions that the shared task focuses on parsing EUD over 17 languages. This indicates that the datasets used are related to Universal Dependencies (UD) and Enhanced Universal Dependencies (EUD). 
+
+Looking further, the paper references the Penn Korean Universal Dependency Treebank (PKT-UD) in one of the sections. This is a specific dataset used for parsing in Korean. 
+
+Additionally, the paper mentions the use of various treebanks across different languages, but without specific names beyond PKT-UD. The main datasets involved are the UD and EUD treebanks, which are widely used in syntactic parsing tasks.
+
+Now, I'll extract the metadata for each identified dataset:
+
+1. **Penn Korean Universal Dependency Treebank (PKT-UD)**:
+   - **Creator**: The authors of the paper mention that this treebank was used, but the creators are likely the contributors to the UD project, specifically for Korean.
+   - **Description**: A treebank for Korean annotated with Universal Dependencies.
+   - **Title**: PKT-UD
+   - **Issued**: The year isn't specified in the paper, but UD treebanks are typically updated annually, so I'll leave it as an empty string.
+   - **Language**: Korean
+   - **Identifier**: No specific DOI or URL is provided in the paper.
+   - **Theme**: Natural Language Processing, Syntactic Parsing
+   - **Keywords**: Dependency parsing, Treebank, Korean
+   - **Landing Page**: No specific URL provided.
+   - **Version**: Not mentioned.
+   - **Format**: Text (treebank format)
+   - **Task**: Dependency Parsing
+
+2. **Universal Dependencies (UD) Treebanks**:
+   - **Creator**: The UD project contributors.
+   - **Description**: A collection of treebanks for various languages annotated with Universal Dependencies.
+   - **Title**: Universal Dependencies
+   - **Issued**: The UD project started in 2011, but specific versions vary.
+   - **Language**: Multilingual
+   - **Identifier**: No specific DOI or URL is provided in the paper.
+   - **Theme**: Natural Language Processing, Syntactic Parsing
+   - **Keywords**: Dependency parsing, Treebank, Multilingual
+   - **Landing Page**: No specific URL provided.
+   - **Version**: Not explicitly mentioned.
+   - **Format**: Text (treebank format)
+   - **Task**: Dependency Parsing
+
+3. **Enhanced Universal Dependencies (EUD)**:
+   - **Creator**: The UD project contributors extending to EUD.
+   - **Description**: An extension of UD with enhanced syntactic representations.
+   - **Title**: Enhanced Universal Dependencies
+   - **Issued**: The EUD framework was introduced around 2018.
+   - **Language**: Multilingual
+   - **Identifier**: No specific DOI or URL is provided in the paper.
+   - **Theme**: Natural Language Processing, Syntactic Parsing
+   - **Keywords**: Dependency parsing, Treebank, Multilingual, Enhanced
+   - **Landing Page**: No specific URL provided.
+   - **Version**: Not explicitly mentioned.
+   - **Format**: Text (treebank format)
+   - **Task**: Dependency Parsing
+
+I need to ensure that each dataset is accurately described based on the information provided in the paper. Since the paper focuses on the shared task using EUD, the primary dataset is EUD, but PKT-UD is specifically mentioned as well. The UD treebanks are the foundation for EUD, so they are also relevant.
+
+I'll structure the JSON response accordingly, listing each dataset with the extracted metadata.
+</think>

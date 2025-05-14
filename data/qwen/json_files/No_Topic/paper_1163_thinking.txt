@@ -1,0 +1,51 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll go through the abstract and introduction to get an overview. The paper discusses layer rotation as an indicator of generalization in deep networks. It mentions experiments conducted on various datasets, but I need to find the specific names.
+
+Looking at the sections, especially the ones detailing experiments, I find references to datasets in Table 1. The tasks listed include CIFAR-10, CIFAR-100, Tiny ImageNet, and others. Let me list them out:
+
+1. **CIFAR-10**: A dataset of 10 classes with 600 images each, commonly used for image classification.
+2. **CIFAR-100**: Similar to CIFAR-10 but with 100 classes, each containing 600 images.
+3. **Tiny ImageNet**: A subset of ImageNet with 200 classes, each having 500 images for training and 50 for validation.
+
+Next, I'll check the references section to find more details about these datasets. 
+
+- **CIFAR-10** is referenced in [18], which points to Alex Krizhevsky's work.
+- **CIFAR-100** is also cited in [18].
+- **Tiny ImageNet** is referenced in [4], which is from Stanford's CS231N course.
+
+Now, I'll compile the metadata for each dataset based on the information found in the paper and references.
+
+For **CIFAR-10**:
+- Creators: Alex Krizhevsky, Geoffrey Hinton.
+- Description: 600 images per class, 10 classes.
+- Title: CIFAR-10.
+- Issued: 2009.
+- Theme: Computer Vision, Image Classification.
+- Keywords: Image classification, 10 classes.
+- Landing Page: The official CIFAR website.
+- Format: Image.
+
+For **CIFAR-100**:
+- Creators: Same as CIFAR-10.
+- Description: 600 images per class, 100 classes.
+- Title: CIFAR-100.
+- Issued: 2009.
+- Theme: Computer Vision, Image Classification.
+- Keywords: Image classification, 100 classes.
+- Landing Page: The official CIFAR website.
+- Format: Image.
+
+For **Tiny ImageNet**:
+- Creators: Stanford CS231N course team.
+- Description: 200 classes, 500 training images each, 50 validation images.
+- Title: Tiny ImageNet.
+- Issued: 2016.
+- Theme: Computer Vision, Image Classification.
+- Keywords: Image classification, 200 classes.
+- Landing Page: The Tiny ImageNet website.
+- Format: Image.
+
+I'll structure this information into the required JSON format, ensuring each dataset is accurately described with the appropriate metadata fields.
+</think>

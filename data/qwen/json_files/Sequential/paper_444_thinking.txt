@@ -1,0 +1,11 @@
+<think>
+Alright, I'm looking at the provided paper to identify all the datasets mentioned. The paper is about detecting Adverse Drug Reactions (ADR) in tweets using ELMo embeddings. 
+
+First, I'll go through the abstract and introduction. The paper mentions that they used data from the SMM4H 2019 shared task. The datasets provided include 25,672 tweets for task 1, a validation set of approximately 5,000 unlabeled tweets, and a subset of 2,367 tweets for task 2. The evaluation data has 1,000 tweets. 
+
+Next, in the preprocessing section, they mention using the FDA's Approved Drug Products list. This is a dataset of drug names. 
+
+In the methods section, they reference three lexicon sets: Nikfarjam et al., MedDRA, and CHV. These are datasets used for similarity matching to identify ADR mentions.
+
+I'll extract each of these datasets, gather their metadata as per the vocabulary, and structure them into JSON format.
+</think>

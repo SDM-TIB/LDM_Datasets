@@ -1,0 +1,13 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. Let me go through the paper step by step.
+
+First, I'll read the abstract and introduction to get an overview. The paper discusses using binary coding for efficient tweet retrieval, mentioning datasets used for evaluation.
+
+In the introduction, they mention crawling tweets from Twitter, specifically from October 5th 2013 to January 5th 2014. They cleaned the data to include tweets with hashtags appearing at least 100 times and words appearing at least 10 times. This dataset has 1,350,159 tweets, 15 million word tokens, 30,608 unique words, and 3,214 unique hashtags. They used hashtags to create ground truth labels, selecting 18 hashtags manually.
+
+In the experiments section, they mention using a subset of 200,000 tweets for training and 1,800 queries for testing. They also reference other datasets like those from Li et al. (2006) and Agirre et al. (2012) as benchmarks but don't provide details on those.
+
+So, the main dataset mentioned is their own crawled Twitter dataset. They don't reference external datasets beyond mentioning them as benchmarks without details.
+
+Now, I'll structure this into the required JSON format, focusing on the crawled Twitter dataset.
+</think>

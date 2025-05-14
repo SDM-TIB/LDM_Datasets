@@ -1,0 +1,57 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll go through the abstract and introduction to get an overview. The paper discusses data-to-text generation, using RDF triples, and mentions datasets like WebNLG and E2E. These are likely the main datasets used.
+
+Next, I'll look into the sections where datasets are explicitly mentioned. In the introduction, WebNLG and E2E are referenced. WebNLG is described as containing RDF triples from DBPedia with human-written descriptions, while E2E involves restaurant recommendations with attribute-value pairs.
+
+In the experiments section, the authors evaluate their approach on WebNLG and E2E datasets. WebNLG is mentioned as version 1.4, and E2E is the cleaned version. Additionally, the paper introduces the WIKIFLUENT corpus, which is synthetic and built from English Wikipedia.
+
+I'll also check the references for any other datasets, but it seems the main ones are WebNLG, E2E, and WIKIFLUENT.
+
+Now, I'll gather the metadata for each dataset:
+
+1. **WebNLG**:
+   - Creator: Claire Gardent, Anastasia Shimorina, Shashi Narayan, Laura Perez-Beltrachini.
+   - Description: RDF triples from DBPedia with human-written descriptions.
+   - Title: WebNLG.
+   - Issued: 2017.
+   - Language: English.
+   - Identifier: https://github.com/WebNLG/WebNLG.
+   - Theme: Natural Language Generation, Data-to-Text.
+   - Keywords: RDF triples, data-to-text, WebNLG.
+   - Landing Page: https://github.com/WebNLG/WebNLG.
+   - Version: 1.4.
+   - Format: Text.
+   - Task: Data-to-Text Generation.
+
+2. **E2E**:
+   - Creator: Jekaterina Novikova, Ondrej DuAek, Verena Rieser.
+   - Description: Restaurant recommendations with attribute-value pairs.
+   - Title: E2E.
+   - Issued: 2017.
+   - Language: English.
+   - Identifier: https://github.com/ondrej-dusek/e2e-cleaning.
+   - Theme: Natural Language Generation, Data-to-Text.
+   - Keywords: Restaurant recommendations, attribute-value pairs, E2E.
+   - Landing Page: https://github.com/ondrej-dusek/e2e-cleaning.
+   - Version: Cleaned version.
+   - Format: Text.
+   - Task: Data-to-Text Generation.
+
+3. **WIKIFLUENT**:
+   - Creator: The authors of the paper.
+   - Description: Synthetic corpus built from English Wikipedia for training text operations.
+   - Title: WIKIFLUENT.
+   - Issued: 2021.
+   - Language: English.
+   - Identifier: https://anonymous.4open.science/r/zeroshot-d2t-pipeline/.
+   - Theme: Natural Language Processing, Text Generation.
+   - Keywords: Synthetic corpus, Wikipedia, text operations.
+   - Landing Page: https://anonymous.4open.science/r/zeroshot-d2t-pipeline/.
+   - Version: Full and filtered versions.
+   - Format: Text.
+   - Task: Text Generation, Data-to-Text.
+
+I'll structure this information into the required JSON format, ensuring all fields are correctly populated based on the paper's content.
+</think>

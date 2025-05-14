@@ -1,0 +1,107 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A task of balancing a pole on top of the cart. The cart has access to its position and velocity as state, and can only go left or right for each action. The task is over when the pole falls over, the cart goes out of the boundaries, or 200 time steps are reached, with each step returning 1 reward.",
+        "dcterms:title": "CartPole-v0",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Balancing",
+            "Reinforcement Learning",
+            "Control Task"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Balancing",
+            "Control"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A one-dimensional track between two mountains. The goal is to drive up the mountain to the right. The agent receives a -1 reward for every time step it does not reach the top. The episode terminates when it reaches the top and receives 0 reward.",
+        "dcterms:title": "MountainCar-v0",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Momentum",
+            "Sparse Rewards",
+            "Reinforcement Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Driving",
+            "Control"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A two-dimensional environment featuring a landing pad at (x,y)=(0,0). The goal is to move from the top of the screen to the landing pad without crashing. The agent receives 100-140 points for landing. If it moves away from the landing pad, it loses rewards.",
+        "dcterms:title": "LunarLander-v2",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Landing",
+            "Dense Rewards",
+            "Reinforcement Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Landing",
+            "Control"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A two-dimensional environment featuring a frictionless pendulum. The goal is to keep the pendulum standing. The observation consists of cos(θ), sin(θ), and θdt. The action consists of the joint effort, which ranges between -2.0 and 2.0.",
+        "dcterms:title": "Pendulum-v0",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Pendulum",
+            "Continuous Action Space",
+            "Reinforcement Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Balancing",
+            "Control"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A two-dimensional environment where the agent must swing up and balance a pendulum. The goal is to keep the pendulum upright.",
+        "dcterms:title": "Acrobot-v1",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Pendulum",
+            "Balancing",
+            "Reinforcement Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Balancing",
+            "Control"
+        ]
+    }
+]

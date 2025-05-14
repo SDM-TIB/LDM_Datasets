@@ -1,0 +1,35 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, the paper is titled "MULTIQA: An Empirical Investigation of Generalization and Transfer in Reading Comprehension" by Alon Talmor and Jonathan Berant. The abstract mentions that they conducted an investigation using ten RC datasets, but it doesn't list them. I'll need to look into the sections where datasets are described.
+
+Looking at the sections, I find that the paper describes 10 datasets in detail. These include both large and small datasets. The large datasets are SQUAD, NEWSQA, SEARCHQA, TRIVIAQA (with variants TQA-W and TQA-G), and HOTPOTQA. The small datasets are CQ, CWQ, WIKIHOP, COMQA, and DROP.
+
+For each dataset, I need to extract the metadata fields. Let's go through them one by one.
+
+1. **SQUAD**: Created by Rajpurkar et al. in 2016. It's a large dataset with Wikipedia paragraphs and questions. The description mentions that it's used for reading comprehension, focusing on soft matching. The format is text, and the task is reading comprehension.
+
+2. **NEWSQA**: Created by Trischler et al. in 2017. It uses CNN articles and questions. The description is similar to SQUAD but with longer articles. The format is text, and the task is reading comprehension.
+
+3. **SEARCHQA**: Created by Dunn et al. in 2017. It uses trivia questions and web snippets. The format is text, and the task is reading comprehension.
+
+4. **TRIVIAQA**: Created by Joshi et al. in 2017. It has two variants, TQA-W (Wikipedia contexts) and TQA-G (Google web snippets). The description mentions trivia questions and contexts. The format is text, and the task is reading comprehension.
+
+5. **HOTPOTQA**: Created by Yang et al. in 2018. It focuses on multi-hop reasoning with Wikipedia paragraphs. The format is text, and the task is reading comprehension.
+
+6. **CQ**: Created by Bao et al. in 2016. It uses real Google queries with web snippets. The format is text, and the task is reading comprehension.
+
+7. **CWQ**: Created by Talmor and Berant in 2018. It involves rephrasing formal queries into natural language with web snippets. The format is text, and the task is reading comprehension.
+
+8. **WIKIHOP**: Created by Welbl et al. in 2017. It uses Wikipedia paragraphs for multi-hop reasoning. The format is text, and the task is reading comprehension.
+
+9. **COMQA**: Created by Abujabal et al. in 2018. It uses real user questions from WikiAnswers with web snippets. The format is text, and the task is reading comprehension.
+
+10. **DROP**: Created by Dua et al. in 2019. It focuses on quantitative reasoning with Wikipedia paragraphs. The format is text, and the task is reading comprehension.
+
+Now, I'll structure each dataset according to the metadata fields. For each dataset, I'll list the creators, description, title, publication year, language (if specified), identifier (if available), themes, keywords, landing page (if available), version (if mentioned), format, and tasks.
+
+I'll ensure that each field is filled accurately based on the information provided in the paper. If a field isn't mentioned, I'll leave it empty. For example, the landing page and identifier might not be provided for all datasets, so those fields will remain empty.
+
+Finally, I'll compile all the datasets into a JSON array, ensuring proper formatting and structure.
+</think>

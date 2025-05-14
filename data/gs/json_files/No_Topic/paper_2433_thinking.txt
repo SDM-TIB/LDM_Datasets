@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Few-Shot Regression via Learned Basis Functions" by Yi Loo et al., I will follow a systematic approach to ensure I capture all relevant details, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and results sections** to identify any datasets mentioned. The abstract indicates that the authors evaluate their model on various regression tasks, which suggests that specific datasets may be involved.
+
+Next, I will focus on **section 4 (Results and Evaluation)**, where the authors discuss their experiments. They mention three regression tasks:
+
+1. **Sinusoidal Regression Task**: This task is defined by the function \( y(x) = A \sin(\omega x + b) + \epsilon \), where the parameters \( A \), \( b \), and \( \omega \) are sampled from specific ranges. The authors state that this task has been used in many recent few-shot learning papers, indicating it is a well-known dataset.
+
+2. **1D Heat Equation Task**: The authors describe this task in detail, explaining that it models the temperature of a 1-dimensional rod over time after applying a heat source. They reference John Rozier Cannon's work on the heat equation, which provides a theoretical foundation for this dataset.
+
+3. **2D Gaussian Distribution Task**: This task involves predicting the probability distribution function of a two-dimensional Gaussian distribution, with specific ranges for the mean and standard deviation. The authors provide details on how the task is structured, indicating it is a custom dataset created for their experiments.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned:
+
+- For the **Sinusoidal Regression Task**, the authors reference the work of Jaesik Yoon et al. (2018) as a basis for their experimental setup:
+  > Jaesik Yoon, Taesup Kim, Ousmane Dia, Sungwoong Kim, Yoshua Bengio, and Sungjin Ahn. *Bayesian model-agnostic meta-learning*. In Advances in Neural Information Processing Systems, pp. 7343–7353, 2018.
+
+- For the **1D Heat Equation Task**, the citation is:
+  > John Rozier Cannon. *The one-dimensional heat equation*, volume 23. Cambridge University Press, 1984.
+
+- For the **2D Gaussian Distribution Task**, while the authors do not provide a specific citation, they describe the task in the context of Gaussian distributions, which is a standard concept in statistics and machine learning.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This will provide a comprehensive overview of the datasets used in the research paper.

@@ -1,0 +1,35 @@
+<think>
+Alright, I'm trying to extract the datasets mentioned in the provided research paper. The paper is about a deep patent landscaping model using Transformer and Graph Embedding. The authors mention several datasets, so I need to identify each one and extract their metadata.
+
+First, I'll read through the paper to find any datasets. The abstract mentions benchmark datasets for patent landscaping. In the introduction, they talk about the lack of well-defined benchmark datasets. Then, in section 3, they describe the KISTA datasets for patent landscaping. They mention four specific datasets: MPUART, MWDFSTechnology, MRRG, and GOCS.
+
+Each of these datasets is built using Google BigQuery and based on search queries from a Korean patent attorney. The datasets are used to evaluate the proposed model. The authors provide details about the number of patents, valid patents, and URLs for each dataset.
+
+I need to create a JSON entry for each dataset. The metadata includes the creator, description, title, issued date, language, identifier, theme, keywords, landing page, version, format, and tasks.
+
+For the creators, the paper's authors are Seokkyu Choi, Hyeonju Lee, Eunjeong Park, and Sungchul Choi. They are the ones who created the datasets mentioned in the paper.
+
+The description for each dataset should reflect how they were used in the paper, such as the number of patents and valid patents, and their purpose in evaluating the model.
+
+The titles are straightforward: MPUART, MWDFSTechnology, MRRG, and GOCS.
+
+The issued date isn't explicitly mentioned, so I'll leave it as an empty string.
+
+The language isn't specified, so it remains empty.
+
+The identifier and landing page URLs are provided in the paper, so I'll include those.
+
+The themes are related to patent landscaping and technology classification.
+
+Keywords include patent landscaping, patent classification, and the specific technology areas of each dataset.
+
+The landing page URLs are provided, so I'll use those.
+
+There's no specific version mentioned, so that field remains empty.
+
+The format is text since the datasets are based on patent documents.
+
+The tasks involve patent classification and patent landscaping.
+
+Putting it all together, I'll structure each dataset with the appropriate metadata.
+</think>

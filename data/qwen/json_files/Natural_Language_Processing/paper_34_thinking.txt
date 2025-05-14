@@ -1,0 +1,35 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let's start by carefully reading through the paper to identify any datasets.
+
+First, I'll go through the abstract and introduction to get an overview. The paper discusses a predictive autoencoder called bRSM and its performance on two tasks: a stochastic sequential MNIST (ssMNIST) task and next word prediction on the Penn Treebank (PTB) dataset.
+
+Next, I'll look into the methods and experiments sections for more details. In the experiments section, the authors mention two datasets:
+
+1. **Stochastic Sequential MNIST (ssMNIST)**: This is a custom dataset created for the study, involving sequences of MNIST digits. It's used to test the model's ability to handle partially observable sequences.
+
+2. **Penn Treebank (PTB) Dataset**: A well-known corpus used for language modeling tasks. The authors use it to evaluate their model's performance in next word prediction.
+
+I'll check the references to find more details about these datasets. The PTB dataset is cited as Mikolov et al. (2010), and the ssMNIST is described within the paper as a modified version of the standard MNIST dataset.
+
+Now, I'll structure the metadata for each dataset based on the information extracted.
+
+For ssMNIST:
+- **Creator**: The authors of the paper since it's their custom dataset.
+- **Description**: Involves sequences of MNIST digits with partial observability.
+- **Title**: Stochastic Sequential MNIST.
+- **Issued**: The year the paper was published, 2020.
+- **Theme**: Computer Vision, Sequence Modeling.
+- **Keywords**: MNIST, Sequence Learning, Partial Observability.
+- **Format**: Image.
+
+For PTB:
+- **Creator**: Mikolov et al.
+- **Description**: Corpus used for language modeling.
+- **Title**: Penn Treebank.
+- **Issued**: 2010.
+- **Theme**: Natural Language Processing.
+- **Keywords**: Language Modeling, Corpus.
+- **Format**: Text.
+
+I'll ensure each field is filled accurately based on the paper's content.
+</think>

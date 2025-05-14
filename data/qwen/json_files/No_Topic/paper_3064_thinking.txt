@@ -1,0 +1,13 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about offensive language detection in Dravidian code-mixed YouTube comments. Let me go through the paper step by step.
+
+First, I'll look for any mentions of datasets. The abstract mentions that the task is approached as a multiclass classification problem, but it doesn't specify the datasets used. Moving on to the introduction, it talks about the problem of offensive language detection but doesn't name any datasets yet.
+
+In the related work section, the paper references several studies, but these are more about methods rather than datasets. The data section is where I expect to find the datasets. It mentions that the data is from a shared task on offensive language detection in Dravidian code-mixed languages. Specifically, it refers to three datasets: Tamil, Malayalam, and Kannada code-mixed YouTube comments.
+
+Looking further, the paper cites the sources of these datasets. The Tamil dataset is from Chakravarthi et al., 2020b, the Malayalam from Chakravarthi et al., 2020a, and the Kannada from Hande et al., 2020. Each of these datasets has its own training, development, and test sets with specific numbers of instances.
+
+I need to extract metadata for each dataset. The creators are the authors cited in the references. The description should include the language, the type of data (YouTube comments), and the purpose (offensive language detection). The titles are the names of the datasets as mentioned. The issued year is 2020 for all, as that's when the datasets were published. The language is each respective Dravidian language. The format is text since it's comments. The themes are offensive language detection and code-mixing. Keywords include offensive language, code-mixing, and the respective languages. The tasks are offensive language detection and multiclass classification.
+
+I should structure each dataset as a separate JSON object with the required fields. I'll make sure to list all creators, provide accurate descriptions, and include all relevant keywords and themes. Since the landing pages and identifiers aren't provided, those fields will be empty strings.
+</think>

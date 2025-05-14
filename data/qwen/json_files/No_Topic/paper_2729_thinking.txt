@@ -1,0 +1,23 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract. It mentions psycholinguistic tests and datasets used to probe language models' commonsense reasoning. Specifically, it refers to datasets from Singh et al. (2016) and Nieuwland et al. (2010). These are likely the main datasets used.
+
+Moving to the introduction, there's a mention of the ImpPress dataset (Jeretic et al., 2020). This dataset is used for fine-tuning the language models. So, that's another dataset to include.
+
+In the experiments section, the paper details the use of datasets from Singh et al. (2016) for presupposition tasks and Nieuwland et al. (2010) for scalar implicature tasks. Additionally, the ImpPress dataset is used for fine-tuning DistillBERT.
+
+Looking at the references, I find the full details for each dataset:
+
+1. **Singh et al. (2016)**: This dataset involves human behavioral experiments on presuppositions. It's used to test how well language models understand implied meanings.
+
+2. **Nieuwland et al. (2010)**: This dataset focuses on scalar implicatures and includes ERP data from human participants. It's used to evaluate the models' ability to handle implied meanings in sentences.
+
+3. **Jeretic et al. (2020)**: The ImpPress dataset is a large collection of sentence pairs used for training models to understand commonsense pragmatic inferences.
+
+Now, I'll structure each dataset with the required metadata fields. For each, I'll note the creators, description, title, publication year, language, identifier, themes, keywords, landing page, version, format, and tasks.
+
+I need to ensure that the creators are correctly identified from the references, not the paper's authors. The descriptions should reflect how the datasets were used in the paper. Themes and keywords should accurately represent the dataset's content and application.
+
+Finally, I'll compile all this information into a JSON format, making sure each dataset is properly structured and all fields are filled based on the available information.
+</think>

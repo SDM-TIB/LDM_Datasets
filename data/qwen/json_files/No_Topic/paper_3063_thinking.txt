@@ -1,0 +1,31 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Vector-based models of semantic textual similarity" and is authored by Georgiana Dinu and Stefan Thater. It discusses their system for the SemEval 2012 Sentence Textual Similarity task, which uses vector space models for word meaning similarity.
+
+Looking through the paper, I notice several mentions of datasets:
+
+1. **Microsoft Research Video Description dataset**: This is mentioned in the context of evaluating their system. It's used to measure semantic equivalence between sentences, particularly in video descriptions.
+
+2. **Microsoft Research Paraphrase dataset**: Another dataset used for evaluation, focusing on paraphrase detection.
+
+3. **europarl dataset**: This is mentioned as part of the training data, likely referring to the Europarl corpus used for machine translation and other NLP tasks.
+
+4. **SMTeur dataset**: This might be a typo or shorthand, but given the context, it's likely referring to the same Europarl dataset or another similar corpus.
+
+5. **SMRvid and SMRpar**: These are abbreviations for the Microsoft Research Video and Paraphrase datasets, respectively.
+
+I also note that the paper references the GigaWord corpus as the input corpus for their experiments, but it's not explicitly listed as a dataset used for evaluation, so I might exclude it unless specified.
+
+Now, I'll structure each dataset with the required metadata fields:
+
+- **Microsoft Research Video Description dataset**: Used for evaluating sentence similarity in video descriptions.
+- **Microsoft Research Paraphrase dataset**: Used for paraphrase detection tasks.
+- **europarl dataset**: Likely the Europarl corpus used for training.
+- **SMTeur**: Possibly the same as europarl.
+- **SMRvid and SMRpar**: Abbreviations for the video and paraphrase datasets.
+
+I'll ensure each dataset entry includes the creator, description, title, year, language, identifier, theme, keywords, landing page, version, format, and tasks as applicable. If some fields aren't explicitly mentioned, I'll leave them empty or infer based on context.
+
+Finally, I'll compile all this information into the required JSON format, ensuring each dataset is accurately represented.
+</think>

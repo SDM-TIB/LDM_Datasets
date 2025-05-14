@@ -1,0 +1,15 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract and introduction to see if any datasets are mentioned. The abstract talks about optimizing fleet management using multi-agent deep reinforcement learning with graph neural networks. It mentions using a simulator that emulates empirical taxi call data. That's a clue—maybe the dataset is related to taxi call data.
+
+Moving on to the introduction, the authors discuss ride-hailing services and the need for dynamic resource allocation. They mention using a simulator based on empirical data, which again points to a taxi call dataset. However, the name of the dataset isn't explicitly stated here.
+
+In the problem statement section, the authors describe their simulator, which uses aggregated and anonymized data from a simplified Seoul road network provided by Kakao Mobility. This indicates that the dataset is from Kakao Mobility, focusing on taxi call data in Seoul. The dataset includes call data, driver locations, and road speeds.
+
+Looking at the experimental setup, the authors mention using data from Kakao Mobility, which includes call data, driver numbers, and initial idle driver distribution. They also refer to the road network data, which includes speed information from a public website. This suggests that the dataset is comprehensive, covering both call and traffic data.
+
+In the references, I don't see any specific dataset citations, but the simulator's data source is clearly mentioned as Kakao Mobility. Therefore, the dataset used is the taxi call data from Kakao Mobility in Seoul.
+
+Now, I'll structure this information into the required JSON format, ensuring all metadata fields are filled based on the paper's description.
+</think>

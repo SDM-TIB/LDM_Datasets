@@ -1,0 +1,15 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the given research paper. The paper is about UCCA graph parsing and uses several datasets for their experiments. Let me go through the paper step by step.
+
+First, I'll read the abstract and introduction to get an overview. The paper mentions using the UCCA framework and participating in SemEval 2019 Task 1. They talk about using English and German data, and also French for cross-lingual parsing.
+
+Looking at the sections, the "Experiments" section details the datasets used. They mention "English-Wiki", "English-20K", "German-20K", and "French-20K" datasets. These are likely the main datasets used for training and evaluation.
+
+In the references, I see citations for the datasets. For example, Hershcovich et al. (2019) is cited for the SemEval task, which probably includes the datasets mentioned. The datasets are part of the shared task, so they might be available through the task's official resources.
+
+I need to extract metadata for each dataset. The creators would be the authors of the dataset, which in this case are likely the organizers of the SemEval task. The description should reflect how the datasets were used in the paper, such as for parsing tasks. The titles are straightforward from the dataset names. The issued year is 2019, as that's when the task was held. The languages are English, German, and French for each respective dataset. The themes are related to natural language processing and parsing. Keywords include UCCA, parsing, and the specific languages. The landing page would be the official SemEval task page. The format is text, and the tasks are semantic parsing.
+
+I should structure each dataset as a separate JSON object with the required fields. Make sure to list all relevant creators, even if they are the same across datasets. Each dataset's description should be concise but informative based on the paper's usage.
+
+Finally, I'll compile all this information into the JSON format, ensuring that each field is correctly filled according to the metadata vocabulary provided.
+</think>

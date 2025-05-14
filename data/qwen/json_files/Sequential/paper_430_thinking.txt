@@ -1,0 +1,17 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, the abstract mentions ROUGE, which is a metric for summarization evaluation, but it's not a dataset. The introduction discusses various studies and metrics, but again, no datasets are explicitly mentioned yet.
+
+Looking into Section 3, the paper evaluates on DUC2001 and DUC2002 datasets. These are Document Understanding Conferences datasets used for summarization tasks. They include human evaluations of summaries. 
+
+In Section 4, the paper uses the Newsroom 60 dataset, which is a contemporary dataset introduced in Grusky et al. (2018). It includes 7 systems producing summaries for 60 articles, with human evaluations on relevance, informativeness, and other dimensions.
+
+I should check the references for more details on these datasets. The references confirm that DUC2001 and DUC2002 are from the Document Understanding Conferences, and Newsroom is from Grusky et al. (2018).
+
+Now, I'll structure each dataset with the required metadata fields. For DUC2001 and DUC2002, the creators are the Document Understanding Conference authors, descriptions are based on their use in the paper, titles are the dataset names, issued years are 2001 and 2002, languages are English, themes are summarization and NLP, keywords include summarization, human evaluation, etc. Landing pages and identifiers are not provided, so they remain empty.
+
+For Newsroom 60, the creators are Grusky et al., description is based on the paper's use, issued year is 2018, language is English, themes are summarization and NLP, keywords include summarization, human evaluation, etc. Landing page and identifier are empty.
+
+I need to ensure each dataset is correctly formatted in JSON, with all fields included, even if some are empty strings or empty lists.
+</think>

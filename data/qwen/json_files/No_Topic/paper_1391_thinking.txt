@@ -1,0 +1,31 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract and introduction to get an overview. The abstract mentions the application of deep learning in graph mining, specifically link weight prediction. It doesn't mention any datasets yet.
+
+Moving to the introduction, the authors discuss the success of deep learning in various domains but note its early application in graph mining. They mention the Stochastic Block Model (SBM) as a baseline but don't reference any datasets here.
+
+In the problem definition section, they describe the link weight prediction problem but don't mention datasets. The existing approaches section discusses SBM and pWSBM but again no datasets.
+
+The motivation and approach sections introduce Model R and other embedding techniques but still no datasets. The experiments section is where datasets are likely mentioned.
+
+Looking at the experiments section, the authors list several datasets used for evaluation:
+- Airport
+- Authors
+- Collaboration
+- Congress
+- Facebook
+- Forum
+
+Each dataset is described with nodes and edges, and their weights. For example, the Airport dataset has 500 nodes representing airports and 5960 edges weighted by passenger numbers.
+
+I need to extract metadata for each dataset. The creators are the authors cited in the references. For example, the Airport dataset is cited as (Colizza et al., 2007), so the creators are the authors of that reference.
+
+Descriptions are based on how the paper uses or describes each dataset. The titles are straightforward, like "Airport" or "Authors." The issued year is taken from the reference citation.
+
+Languages aren't specified since the datasets are about graphs, not text. Identifiers like DOIs or URLs aren't provided in the paper, so they remain empty. Themes are categories like Social Networks or Transportation. Keywords are based on the dataset's content, such as "weighted graph" or "social network."
+
+Landing pages are empty as no URLs are provided. Versions aren't mentioned, so they're empty. Formats are "Graph" since all datasets are graph-based. Tasks are the link weight prediction tasks each dataset is used for.
+
+I'll structure each dataset into the required JSON format, ensuring all fields are filled based on the information extracted from the paper.
+</think>

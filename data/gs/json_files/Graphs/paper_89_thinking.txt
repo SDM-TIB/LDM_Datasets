@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Text2Node: a Cross-Domain System for Mapping Arbitrary Phrases to a Taxonomy" by Rohollah Soltani and Alexandre Tomberg, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and evaluation sections** of the paper to identify any datasets that are explicitly mentioned or described. The abstract mentions the use of **ICD-9-CM Diagnosis phrases** and **SNOMED CT**, which suggests that these could be datasets relevant to the study.
+
+Next, I will look for specific mentions of datasets in the **methods section**. Here, the authors describe the construction of a large corpus consisting of open access papers from **PubMed**, **MIMIC-III Clinical Database**, and narratives from the **FDA Adverse Event Reporting System (FAERS)**. This indicates that these sources are used to create the dataset for training their model.
+
+In the **evaluation section**, the authors refer to the **ICD-9-CM phrases** mapped to **SNOMED CT** concepts, which confirms that these datasets are utilized for testing the system's performance.
+
+Now, I will check the **References section** to gather full citations for these datasets:
+
+1. **MIMIC-III Clinical Database**:
+   > Alistair E.W. Johnson, Tom J. Pollard, Lu Shen, H. Lehman Li-wei, Mengling Feng, Mohammad Ghassemi, Benjamin Moody, Peter Szolovits, Leo Anthony Celi, and Roger G. Mark. *MIMIC-III, a freely accessible critical care database*. Scientific Data, 3:160035, 2016.
+
+2. **FDA Adverse Event Reporting System (FAERS)**:
+   > U.S. Food and Drug Administration. *FDA Adverse Event Reporting System (FAERS)*. Available at: https://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Surveillance/AdverseDrugEffects/ucm201411.htm.
+
+3. **ICD-9-CM**:
+   > U.S. National Library of Medicine. *ICD-9-CM Diagnostic Codes to SNOMED CT Map*, 2015.
+
+4. **SNOMED CT**:
+   > International Health Terminology Standards Development Organisation. *SNOMED CT*. Available at: https://www.snomed.org/snomed-ct.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

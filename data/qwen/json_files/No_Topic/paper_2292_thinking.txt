@@ -1,0 +1,19 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about spike sorting using a dependent Dirichlet process model. Let me go through the paper step by step.
+
+First, I'll read the abstract. It mentions that the model is demonstrated by showing results from sorting two publicly available neural data recordings. So, there are two datasets used here, but they aren't named yet.
+
+Moving on to the introduction, the authors talk about spike sorting and mention that they evaluated their model on real data for which partial ground truth labeling is known. Again, no specific names are given, but it's clear that two datasets were used.
+
+In the methodology section (section 4.1), the authors provide more details. They mention that experiments were performed on a subset of the publicly available data set described in [12, 13]. These references are likely to the datasets. 
+
+Looking at the references, [12] is "D. A. Henze, Z. Borhegyi, J. Csicsvari, A. Mamiya, K. D. Harris, and G. BuzsA aki. Intracellular features predicted by extracellular recordings in the hippocampus in vivo. Journal of Neurophysiology, 84(1):390a400, 2000." [13] is "K. D. Harris, D. A. Henze, J. Csicsvari, H. Hirase, and G. BuzsA aki. Accuracy of tetrode spike separation as determined by simultaneous intracellular and extracellular measurements. Journal of Neurophysiology, 81(1):401a420, 2000."
+
+So, the datasets are from these two papers. They are neural datasets from hippocampus recordings in rats. The data includes extracellular and intracellular spike recordings.
+
+The authors describe the datasets as consisting of two recordings from different animals, each 4 minutes long, recorded at 10 kHz. They mention that spike waveforms were extracted and aligned, and PCA was applied. The first dataset has 3187 spikes, 831 from the identified neuron, and the second has 3502 spikes, 553 from the identified neuron.
+
+So, the datasets are from these two studies, and they are used for evaluating spike sorting algorithms. They are publicly available, possibly through CRCNS.org as mentioned in the paper.
+
+Now, I'll structure this information into the required JSON format, ensuring each dataset is described with the appropriate metadata fields.
+</think>

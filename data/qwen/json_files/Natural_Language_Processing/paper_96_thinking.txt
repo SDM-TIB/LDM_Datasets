@@ -1,0 +1,28 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me go through the paper step by step.
+
+First, I'll read through the paper to identify any datasets mentioned. The paper is about a neural network model for zero-shot learning using multimodal data, specifically focusing on action verbs and video inputs.
+
+Looking at the sections, the "Experiments" section (Section 4) mentions datasets used. Specifically, it references the Kinetics Human Action Video Dataset and the IAPR TC-12 dataset.
+
+For the Kinetics dataset:
+- It's cited as [8], which refers to a paper by Kay et al. (2017).
+- The dataset consists of 400 human action classes with 10-second videos.
+- The creators are the authors of the cited paper: W. Kay, J. Carreira, K. Simonyan, B. Zhang, C. Hillier, S. Vijayanarasimhan, F. Viola, T. Green, T. Back, P. Natsev, M. Suleyman, and A. Zisserman.
+- The description is that it's a video dataset with 400 action classes.
+- The title is "Kinetics Human Action Video Dataset."
+- The year is 2017.
+- The format is video.
+- The task is action recognition.
+
+For the IAPR TC-12 dataset:
+- It's mentioned in the context of using pre-trained features from a GitHub repository.
+- The creators are not explicitly mentioned in the paper, but the dataset is known to be created by the IAPR (International Association for Pattern Recognition) TC-12工作组.
+- The description is that it's an image dataset with captions.
+- The title is "IAPR TC-12 Dataset."
+- The year is not specified in the paper, but the dataset is from around 2010.
+- The format is image and text.
+- The task is image captioning.
+
+I need to structure this information into JSON format using the specified metadata fields. I'll ensure each dataset is a separate object within the array, including all relevant details.
+</think>

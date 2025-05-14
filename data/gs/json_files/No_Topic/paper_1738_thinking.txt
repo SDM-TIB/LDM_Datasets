@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Variational Invariant Learning for Bayesian Domain Generalization," I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to locate any references to datasets. The abstract mentions that the authors empirically demonstrate their method on "four widely used cross-domain visual recognition benchmarks," indicating that datasets are likely discussed in detail.
+
+Next, I will focus on **section 4.1 (Datasets and Settings)**, where the authors explicitly list the datasets used for their experiments. Here, they mention four datasets:
+
+1. **PACS**: This dataset consists of 9,991 images across seven classes from four domains: photo, art-painting, cartoon, and sketch. The authors follow a "leave-one-out" protocol for training and testing.
+
+2. **Office-Home**: This dataset contains approximately 15,500 images across 65 categories from four domains: art, clipart, product, and real-world.
+
+3. **Rotated MNIST**: This dataset is derived from the MNIST dataset, where a subset of 2,000 images is rotated at various angles to create five source domains, with target domains at 0° and 90°.
+
+4. **Fashion-MNIST**: Similar to Rotated MNIST, this dataset consists of 10,000 images from Fashion-MNIST, also rotated at specified angles to create source and target domains.
+
+In the **experiments section**, the authors confirm that these datasets are indeed used for evaluating their proposed method, which reinforces their relevance.
+
+Now, I will check the **References section** to gather the full citations for each dataset:
+
+- For **PACS**, the citation is:
+  > Da Li, Yongxin Yang, Yi-Zhe Song, and Timothy M. Hospedales. *Deeper, broader and artier domain generalization*. In Proceedings of the IEEE International Conference on Computer Vision, pp. 5542–5550, 2017.
+
+- For **Office-Home**, the citation is:
+  > Vihari Piratla, Praneeth Netrapalli, and Sunita Sarawagi. *Efficient domain generalization via common-specific low-rank decomposition*. arXiv preprint arXiv:2003.12815, 2020.
+
+- For **Rotated MNIST**, the citation is:
+  > Vihari Piratla, Praneeth Netrapalli, and Sunita Sarawagi. *Efficient domain generalization via common-specific low-rank decomposition*. arXiv preprint arXiv:2003.12815, 2020.
+
+- For **Fashion-MNIST**, the citation is:
+  > Han Xiao, Kashif Rasul, and Roland Vollgraf. *Fashion-MNIST: A Novel Image Dataset for Benchmarking Machine Learning Algorithms*. arXiv preprint arXiv:1708.07747, 2017.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation, ready for structured output or further processing.

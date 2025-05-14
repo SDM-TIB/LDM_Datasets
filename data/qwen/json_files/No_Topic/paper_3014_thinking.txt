@@ -1,0 +1,41 @@
+<think>
+Alright, I need to extract the datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract and introduction to get an overview. The abstract mentions experiments on the noisy CIFAR-10, CIFAR-100, and Clothing1M datasets. These are the primary datasets used in the paper.
+
+Next, I'll check the sections where these datasets are described in more detail. The paper mentions that CIFAR-10 and CIFAR-100 are clean datasets except for Clothing1M, which is a real-world dataset with noisy labels. The authors manually corrupt CIFAR-10 and CIFAR-100 using a label transition matrix for symmetric and asymmetric flipping.
+
+For each dataset, I need to extract the required metadata fields. Let's break them down:
+
+1. **CIFAR-10**:
+   - **Creator**: The original authors are Krizhevsky et al., but the paper's authors used it.
+   - **Description**: A clean dataset of 60,000 32x32 color images with 10 classes, manually corrupted for experiments.
+   - **Title**: CIFAR-10
+   - **Issued**: 2010
+   - **Theme**: Computer Vision, Image Classification
+   - **Keywords**: Image classification, noisy labels, benchmark
+   - **Format**: Image
+   - **Task**: Image classification
+
+2. **CIFAR-100**:
+   - **Creator**: Same as CIFAR-10.
+   - **Description**: Similar to CIFAR-10 but with 100 classes, used for experiments with noisy labels.
+   - **Title**: CIFAR-100
+   - **Issued**: 2010
+   - **Theme**: Computer Vision, Image Classification
+   - **Keywords**: Image classification, noisy labels, benchmark
+   - **Format**: Image
+   - **Task**: Image classification
+
+3. **Clothing1M**:
+   - **Creator**: Xiao et al.
+   - **Description**: A large-scale dataset with 1 million clothing images and noisy labels, used for real-world noisy label experiments.
+   - **Title**: Clothing1M
+   - **Issued**: 2015
+   - **Theme**: Computer Vision, Image Classification, Noisy Labels
+   - **Keywords**: Noisy labels, clothing classification, real-world dataset
+   - **Format**: Image
+   - **Task**: Image classification
+
+I'll ensure each dataset is accurately described based on the paper's usage and the provided references. Now, I'll structure this information into the required JSON format.
+</think>

@@ -1,0 +1,17 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is titled "Composite Shape Modeling via Latent Space Factorization" and it's about a novel neural network architecture for 3D shape modeling. 
+
+First, I'll read through the paper to identify any datasets that are mentioned. The abstract mentions using an auto-encoder-based pipeline and producing a factorized latent space. It also refers to extensive ablation studies and comparisons with baseline methods. 
+
+Looking at the introduction, the authors mention the creation of large-scale 3D shape datasets, specifically citing [6]. I need to check the references to see what [6] refers to. 
+
+In the references section, I find that [6] is "Angel X Chang, Thomas Funkhouser, Leonidas Guibas, Pat Hanrahan, Qixing Huang, Zimo Li, Silvio Savarese, Manolis Savva, Shuran Song, Hao Su, et al. Shapenet: An information-rich 3D model repository. arXiv preprint arXiv:1512.03012, 2015." So, the dataset mentioned is ShapeNet.
+
+The authors use ShapeNet for their experiments, specifically mentioning the models with part annotations produced by Yi et al. [47]. I should check if [47] refers to another dataset, but in the references, [47] is "Li Yi, Vladimir G Kim, Duygu Ceylan, I Shen, Mengyan Yan, Hao Su, Cewu Lu, Qixing Huang, Alla Sheffer, Leonidas Guibas, et al. A scalable active framework for region annotation in 3D shape collections. ACM Transactions on Graphics (TOG), 35(6):210, 2016." This seems to be a method for annotating shapes rather than a separate dataset.
+
+So, the main dataset used is ShapeNet. The authors converted the shapes to 32x32x32 occupancy grids using binvox [26], but binvox is a tool, not a dataset. 
+
+In the experiments section, they mention using the official ShapeNet train, validation, and test data splits. They also refer to part annotations by Yi et al., which are part of the ShapeNet dataset.
+
+Therefore, the only dataset explicitly mentioned and used in the paper is ShapeNet. There are no other datasets cited in the references or mentioned in the text.
+</think>

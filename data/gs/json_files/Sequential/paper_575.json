@@ -1,0 +1,484 @@
+[
+    {
+        "dcterms:creator": [
+            "Alex Wang",
+            "Amanpreet Singh",
+            "Julian Michael",
+            "Felix Hill",
+            "Omer Levy",
+            "Samuel R. Bowman"
+        ],
+        "dcterms:description": "A multi-task benchmark and analysis platform for natural language understanding, consisting of nine diverse tasks for evaluating sentence encoders.",
+        "dcterms:title": "GLUE",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.18653/v1/N18-1101",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Benchmarking"
+        ],
+        "dcat:keyword": [
+            "sentence understanding",
+            "multi-task learning",
+            "NLP benchmark"
+        ],
+        "dcat:landingPage": "http://www.aclweb.org/anthology/N18-1101",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Natural Language Understanding"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Alex Warstadt",
+            "Amanpreet Singh",
+            "Samuel Bowman"
+        ],
+        "dcterms:description": "A dataset for assessing the acceptability of sentences, used for training models to predict linguistic acceptability.",
+        "dcterms:title": "CoLA (Corpus of Linguistic Acceptability)",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Linguistics",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "acceptability judgments",
+            "linguistic acceptability"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Acceptability Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Richard Socher",
+            "Alex Perelygin",
+            "Jean Wu",
+            "Jason Chuang",
+            "Christopher D Manning",
+            "Andrew Ng",
+            "Christopher Potts"
+        ],
+        "dcterms:description": "A dataset for sentiment analysis, providing a treebank of sentences annotated with sentiment labels.",
+        "dcterms:title": "SST (Stanford Sentiment Treebank)",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Sentiment Analysis",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "sentiment analysis",
+            "treebank",
+            "sentiment classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Sentiment Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "William B. Dolan",
+            "Chris Brockett"
+        ],
+        "dcterms:description": "A dataset containing pairs of sentences that are paraphrases of each other, used for training models to identify paraphrasing.",
+        "dcterms:title": "MRPC (Microsoft Research Paraphrase Corpus)",
+        "dcterms:issued": "2005",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://www.aclweb.org/anthology/I05-5002",
+        "dcat:theme": [
+            "Paraphrase Identification",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "paraphrase detection",
+            "sentence pairs"
+        ],
+        "dcat:landingPage": "http://www.aclweb.org/anthology/I05-5002",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Paraphrase Identification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset containing pairs of questions from Quora, used for training models to determine if two questions are semantically equivalent.",
+        "dcterms:title": "QQP (Quora Question Pairs)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "data.quora.com/First-Quora-Dataset-Release-Question-Pairs",
+        "dcat:theme": [
+            "Question Similarity",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "question pairs",
+            "semantic similarity"
+        ],
+        "dcat:landingPage": "data.quora.com/First-Quora-Dataset-Release-Question-Pairs",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Question Similarity"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Daniel Cer",
+            "Mona Diab",
+            "Eneko Agirre",
+            "Inigo Lopez-Gazpio",
+            "Lucia Specia"
+        ],
+        "dcterms:description": "A dataset for evaluating semantic textual similarity across multiple languages.",
+        "dcterms:title": "STS (Semantic Textual Similarity)",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.18653/v1/S17-2001",
+        "dcat:theme": [
+            "Semantic Similarity",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "semantic textual similarity",
+            "cross-lingual evaluation"
+        ],
+        "dcat:landingPage": "http://www.aclweb.org/anthology/S17-2001",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Semantic Similarity"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Adina Williams",
+            "Nikita Nangia",
+            "Samuel Bowman"
+        ],
+        "dcterms:description": "A dataset for evaluating natural language inference across multiple genres.",
+        "dcterms:title": "MNLI (Multi-Genre Natural Language Inference)",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://aclweb.org/anthology/N18-1101",
+        "dcat:theme": [
+            "Natural Language Inference",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "natural language inference",
+            "multi-genre"
+        ],
+        "dcat:landingPage": "http://aclweb.org/anthology/N18-1101",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Natural Language Inference"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Ido Dagan",
+            "Oren Glickman",
+            "Bernardo Magnini"
+        ],
+        "dcterms:description": "A dataset for recognizing textual entailment, used for training models to determine if one text entails another.",
+        "dcterms:title": "RTE (Recognizing Textual Entailment)",
+        "dcterms:issued": "2006",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Textual Entailment",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "textual entailment",
+            "entailment recognition"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Textual Entailment"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Pranav Rajpurkar",
+            "Jian Zhang",
+            "Konstantin Lopyrev",
+            "Percy Liang"
+        ],
+        "dcterms:description": "A dataset for machine comprehension of text, containing over 100,000 questions based on a set of Wikipedia articles.",
+        "dcterms:title": "SQuAD (Stanford Question Answering Dataset)",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.18653/v1/D16-1264",
+        "dcat:theme": [
+            "Question Answering",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "machine comprehension",
+            "question answering"
+        ],
+        "dcat:landingPage": "http://www.aclweb.org/anthology/D16-1264",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Question Answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Hector J Levesque",
+            "Ernest Davis",
+            "Leora Morgenstern"
+        ],
+        "dcterms:description": "A challenge dataset for evaluating commonsense reasoning through a series of schema-based questions.",
+        "dcterms:title": "Winograd Schema Challenge (WNLI)",
+        "dcterms:issued": "2011",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Commonsense Reasoning",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "commonsense reasoning",
+            "schema challenge"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Commonsense Reasoning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Stephen Merity",
+            "Caiming Xiong",
+            "James Bradbury",
+            "Richard Socher"
+        ],
+        "dcterms:description": "A dataset for language modeling, consisting of a large corpus of English text.",
+        "dcterms:title": "WikiText-103",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Language Modeling",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "language modeling",
+            "text corpus"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Language Modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Ciprian Chelba",
+            "Tomas Mikolov",
+            "Mike Schuster",
+            "Qi Ge",
+            "Thorsten Brants",
+            "Phillipp Koehn",
+            "Tony Robinson"
+        ],
+        "dcterms:description": "A benchmark dataset for measuring progress in statistical language modeling, consisting of one billion words.",
+        "dcterms:title": "1 Billion Word Language Model Benchmark",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.3115/v1/W14-3302",
+        "dcat:theme": [
+            "Language Modeling",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "language modeling",
+            "benchmark"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Language Modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Ondrej Bojar",
+            "Christian Buck",
+            "Christian Federmann",
+            "Barry Haddow",
+            "Philipp Koehn",
+            "Johannes Leveling",
+            "Christof Monz",
+            "Pavel Pecina",
+            "Matt Post",
+            "Herve Saint-Amand",
+            "Radu Soricut",
+            "Lucia Specia",
+            "Aleˇs Tamchyna"
+        ],
+        "dcterms:description": "A dataset for evaluating statistical machine translation, specifically for English-German translation.",
+        "dcterms:title": "WMT14 English-German",
+        "dcterms:issued": "2014",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.3115/v1/W14-3302",
+        "dcat:theme": [
+            "Machine Translation",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "machine translation",
+            "English-German"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Ondˇrej Bojar",
+            "Christian Buck",
+            "Rajen Chatterjee",
+            "Christian Federmann",
+            "Yvette Graham",
+            "Barry Haddow",
+            "Matthias Huck",
+            "Antonio Jimeno Yepes",
+            "Philipp Koehn",
+            "Julia Kreutzer"
+        ],
+        "dcterms:description": "A dataset for evaluating statistical machine translation, specifically for English-Russian translation.",
+        "dcterms:title": "WMT17 English-Russian",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Translation",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "machine translation",
+            "English-Russian"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Yinfei Yang",
+            "Steve Yuan",
+            "Daniel Cer",
+            "Sheng-yi Kong",
+            "Noah Constant",
+            "Petr Pilar",
+            "Heming Ge",
+            "Yun-Hsuan Sung",
+            "Brian Strope",
+            "Ray Kurzweil"
+        ],
+        "dcterms:description": "A dataset of comment-response pairs from Reddit, used for training models to predict responses to comments.",
+        "dcterms:title": "Reddit Comment-Response Pairs",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Conversational AI",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "comment-response pairs",
+            "conversation modeling"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Response Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Ryan Kiros",
+            "Yukun Zhu",
+            "Ruslan R Salakhutdinov",
+            "Richard Zemel",
+            "Raquel Urtasun",
+            "Antonio Torralba",
+            "Sanja Fidler"
+        ],
+        "dcterms:description": "A dataset for training SkipThought models, which aim to learn sentence representations by predicting surrounding sentences.",
+        "dcterms:title": "SkipThought",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Sentence Representation",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "sentence representation",
+            "SkipThought vectors"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Sentence Representation Learning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Yacine Jernite",
+            "Samuel R Bowman",
+            "David Sontag"
+        ],
+        "dcterms:description": "A dataset for training models to learn sentence representations based on discourse relations.",
+        "dcterms:title": "DisSent",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Discourse Analysis",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "discourse relations",
+            "sentence representation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Discourse Relation Prediction"
+        ]
+    }
+]

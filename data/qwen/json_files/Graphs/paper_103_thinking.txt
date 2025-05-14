@@ -1,0 +1,15 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is titled "Answering Conversational Questions on Structured Data without Logical Forms" by Thomas M. Mueller and others. 
+
+First, I'll read through the abstract and introduction to get a sense of what datasets are mentioned. The abstract mentions the Sequential Question Answering (SQA) task, which is referenced to Iyyer et al., 2017. That's a clue that the SQA dataset is used here.
+
+Looking further into the introduction, the authors discuss their approach and mention the SQA task again. They reference Iyyer et al., 2017, which is where the SQA dataset comes from. 
+
+In the experimental setup section, the authors explicitly state that they evaluate their method on the Sequential QA (SQA) dataset. They provide details about the dataset, such as it containing sequences of questions that can be answered from a given table, with 6,066 answer sequences and 17,553 questions. 
+
+I don't see any other datasets mentioned in the paper. The focus is on the SQA dataset, so that's the only one to extract.
+
+Now, I'll gather the metadata for the SQA dataset. The creators are the authors of the paper where the dataset was introduced, which is Iyyer et al., 2017. The description is based on how the current paper uses it: answering sequential questions about tables. The title is "Sequential Question Answering (SQA) Dataset." The year is 2017. The language is English since it's a text-based dataset. There's no specific identifier or landing page mentioned, so those fields will be empty. The theme is conversational QA and structured data. Keywords include sequential QA, tables, and conversational context. The format is text, and the task is conversational question answering.
+
+Putting it all together, the JSON should reflect these details accurately.
+</think>

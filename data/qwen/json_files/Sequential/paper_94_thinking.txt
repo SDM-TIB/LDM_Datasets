@@ -1,0 +1,31 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the given research paper. The paper is about natural language understanding in a biomedical domain with low resources. The authors mention several datasets and methods they used. 
+
+First, I'll read through the abstract and introduction to get an overview. The abstract mentions that they used paraphrasing and word representations learned on a large EHR corpus with Fasttext and ELMo. So, the EHR corpus is one dataset they used.
+
+In the introduction, they talk about the lack of sharable datasets, especially in languages other than English. They mention that they used a gold standard of 178 questions collected from medical doctors. This seems like another dataset, though it's not named specifically.
+
+Looking at the methods section, they describe generating a training dataset using templates and lab mentions. They mention using 223 core templates, 23 temporal modifiers, and 409 lab mentions. This generated dataset is another one to note.
+
+They also mention using a million clinical notes from their hospital's clinical data warehouse. This is another dataset, though it's not named either.
+
+In the experiments section, they refer to a test set of real-world data, which is the 178 questions collected from physicians. This is the same as the gold standard mentioned earlier.
+
+So, the datasets mentioned are:
+1. EHR corpus used with Fasttext and ELMo.
+2. Generated training dataset with templates and lab mentions.
+3. Clinical notes from the hospital's data warehouse.
+4. Test set of 178 real-world questions.
+
+I need to describe each using the specified metadata fields. For each dataset, I'll extract the creator, description, title, year, language, identifier, theme, keywords, landing page, version, format, and tasks.
+
+For the EHR corpus, the creators are the authors of the paper since they used their own data. The description is about learning word representations. The title could be "EHR Corpus". The year isn't specified, so it's empty. Language is French since the paper is in French. Identifier is empty. Theme is Biomedical NLP. Keywords include EHR, Fasttext, ELMo. Landing page is empty. Version is empty. Format is Text. Task is NLU.
+
+The generated training dataset was created by the authors. Description is about using templates and lab mentions. Title is "Generated Training Dataset". Year is empty. Language is French. Identifier is empty. Theme is Biomedical NLP. Keywords include templates, paraphrasing. Landing page is empty. Version is empty. Format is Text. Task is NLU.
+
+Clinical notes were created by the authors. Description is about a million notes. Title is "Clinical Notes Dataset". Year is empty. Language is French. Identifier is empty. Theme is Biomedical NLP. Keywords include clinical notes, embeddings. Landing page is empty. Version is empty. Format is Text. Task is NLU.
+
+The test set was created by the authors. Description is 178 real-world questions. Title is "Test Set". Year is empty. Language is French. Identifier is empty. Theme is Biomedical NLP. Keywords include evaluation, NLU. Landing page is empty. Version is empty. Format is Text. Task is NLU.
+
+I need to structure all this into JSON format as per the instructions.
+</think>

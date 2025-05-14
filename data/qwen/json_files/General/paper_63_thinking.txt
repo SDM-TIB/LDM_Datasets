@@ -1,0 +1,15 @@
+<think>
+Alright, I'm looking at the provided research paper titled "Insertion-Deletion Transformer." The task is to extract all datasets mentioned in this paper and describe them using the specified metadata vocabulary. 
+
+First, I'll go through the paper to identify any datasets. The paper discusses experiments on synthetic translation tasks, specifically two tasks: shifting alphabetic sequences and Caesar's cipher. These are described in the "Experiments" section.
+
+1. **Shifting Alphabetic Sequences**: This task involves generating sequences where each letter is shifted by a certain number of positions. The paper mentions that 1000 examples were generated for training and evaluation on 100 held-out examples.
+
+2. **Caesar's Cipher**: This task involves shifting each letter in the source sequence by a fixed number of positions. The paper states that 100,000 examples were generated for training and evaluation on 1000 held-out examples.
+
+These are synthetic datasets created for the purpose of evaluating the model. They don't reference external datasets, so there are no external creators or identifiers. The datasets are described in the paper, so I'll use that information to fill in the metadata fields.
+
+For each dataset, I'll note that the creator is the authors of the paper since they generated these synthetic datasets. The description will be based on how the paper describes the tasks. The title will reflect the task name. The issued date isn't provided, so it will be empty. The language is English since the tasks involve alphabetic sequences. There's no identifier or landing page. The theme is machine translation or synthetic data. Keywords include synthetic translation, alphabetic sequences, Caesar's cipher. The format is text. The task is machine translation evaluation.
+
+I'll structure this information into two JSON objects, each representing one of the synthetic datasets mentioned.
+</think>

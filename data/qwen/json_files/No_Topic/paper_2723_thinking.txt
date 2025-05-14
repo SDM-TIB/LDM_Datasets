@@ -1,0 +1,45 @@
+<think>
+Alright, I need to extract the datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract and introduction to get an overview. The paper discusses a domain adaptation model for retinopathy detection using OCT images. It mentions datasets used for evaluation.
+
+In the "4. Experiment" section, the authors describe two datasets they tested their method on:
+
+1. **Digits recognition datasets**: Specifically, the MNIST-USPS pair. MNIST is a dataset of handwritten digits, and USPS is another dataset of handwritten digits. They used MNIST as the source domain and USPS as the target domain.
+
+2. **Retinal OCT images**: This is a custom dataset consisting of images captured from two different OCT devices, Cirrus and Spectralis. The dataset includes both normal and abnormal retinal images.
+
+I'll check if there are any other datasets mentioned. The paper doesn't reference any additional datasets beyond these two.
+
+Now, I'll structure the metadata for each dataset based on the provided vocabulary.
+
+For the MNIST-USPS dataset:
+- **Creator**: The authors of the paper used these datasets, but the creators are the original authors of MNIST and USPS. However, since the paper doesn't provide specific references for these datasets, I'll leave the creator field empty.
+- **Description**: The datasets are used for digit recognition tasks, evaluating the model's ability to adapt between different styles of digits.
+- **Title**: MNIST-USPS
+- **Issued**: The paper was published in 2020, but the datasets were created earlier. Without specific dates, I'll leave this empty.
+- **Language**: Not applicable as the data is images.
+- **Identifier**: No specific DOI or URL provided.
+- **Theme**: Computer Vision, Domain Adaptation.
+- **Keywords**: Digit recognition, Domain adaptation, MNIST, USPS.
+- **Landing Page**: No URL provided.
+- **Version**: Not mentioned.
+- **Format**: Image.
+- **Task**: Digit classification, Domain adaptation.
+
+For the Retinal OCT images dataset:
+- **Creator**: The authors of the paper created this custom dataset.
+- **Description**: A dataset of retinal OCT images from two different devices, used to evaluate the domain adaptation model for retinopathy detection.
+- **Title**: Retinal OCT Images Dataset
+- **Issued**: The paper was published in 2020, so the dataset was likely created around that time.
+- **Language**: Not applicable.
+- **Identifier**: No specific DOI or URL provided.
+- **Theme**: Medical Imaging, Domain Adaptation.
+- **Keywords**: OCT images, Retinopathy detection, Domain adaptation.
+- **Landing Page**: No URL provided.
+- **Version**: Not mentioned.
+- **Format**: Image.
+- **Task**: Retinopathy detection, Domain adaptation.
+
+I'll ensure that each dataset is accurately described based on the paper's usage and description.
+</think>

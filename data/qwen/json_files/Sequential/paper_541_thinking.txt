@@ -1,0 +1,62 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is about a machine comprehension task using commonsense knowledge, specifically SemEval-2018 Task 11. 
+
+First, I'll read through the abstract and introduction to understand the context. The paper mentions using a deep neural network model for machine comprehension, which involves selecting the correct answer from a pair of candidates based on a document and question. They also mention using CoVe as an external knowledge source.
+
+Looking into the introduction, the authors reference several MRC datasets: SQuAD and MS-MARCO. These are well-known datasets in the field of machine reading comprehension. SQuAD is created by Rajpurkar et al., and MS-MARCO by Nguyen et al. 
+
+The paper's main focus is on SemEval-2018 Task 11, which is about machine comprehension using commonsense knowledge. This task is developed by Ostermann et al. The dataset for this task involves documents, questions, and answer pairs, where the correct answer might require external knowledge not present in the document.
+
+In the experiments section, the authors provide statistics about their training, development, and test datasets, but these are part of the SemEval-2018 Task 11 dataset, not separate datasets.
+
+So, the datasets mentioned are:
+1. SQuAD (Stanford Question Answering Dataset)
+2. MS-MARCO (Microsoft Machine Reading Comprehension Dataset)
+3. SemEval-2018 Task 11 dataset
+
+I need to extract metadata for each of these datasets based on the provided vocabulary.
+
+For SQuAD:
+- Creator: Rajpurkar et al.
+- Description: Large-scale dataset for machine comprehension.
+- Title: SQuAD
+- Issued: 2016
+- Language: English
+- Identifier: DOI or URL if available
+- Theme: Natural Language Processing, Question Answering
+- Keywords: Question answering, machine comprehension
+- Landing page: URL to SQuAD
+- Version: Not mentioned
+- Format: Text
+- Task: Machine comprehension
+
+For MS-MARCO:
+- Creator: Nguyen et al.
+- Description: Large-scale dataset for machine reading comprehension.
+- Title: MS-MARCO
+- Issued: 2016
+- Language: English
+- Identifier: DOI or URL
+- Theme: Natural Language Processing, Question Answering
+- Keywords: Question answering, machine reading
+- Landing page: URL to MS-MARCO
+- Version: Not mentioned
+- Format: Text
+- Task: Machine comprehension
+
+For SemEval-2018 Task 11:
+- Creator: Ostermann et al.
+- Description: Dataset for machine comprehension using commonsense knowledge.
+- Title: SemEval-2018 Task 11
+- Issued: 2018
+- Language: English
+- Identifier: DOI or URL
+- Theme: Natural Language Processing, Commonsense Knowledge
+- Keywords: Machine comprehension, commonsense
+- Landing page: URL to SemEval-2018
+- Version: Not mentioned
+- Format: Text
+- Task: Machine comprehension
+
+I'll structure this information into JSON format as per the instructions.
+</think>

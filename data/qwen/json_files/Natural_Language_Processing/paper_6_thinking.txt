@@ -1,0 +1,19 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll go through the abstract and introduction to get an overview. The paper presents UNILM, a unified language model pre-trained for both understanding and generation tasks. It mentions several datasets where UNILM achieved state-of-the-art results. These include CNN/DailyMail, Gigaword, SQuAD, CoQA, and DSTC7.
+
+Next, I'll look into the sections where these datasets are discussed in detail. For each dataset, I need to extract the required metadata fields.
+
+1. **CNN/DailyMail**: This is an abstractive summarization dataset. The paper mentions it in the context of achieving a ROUGE-L score of 40.51. The creators are Xinya Du and Claire Cardie, and it's published in 2017. The landing page is the official website.
+
+2. **Gigaword**: Another abstractive summarization dataset, created by Chin-Yew Lin in 2004. The paper reports a ROUGE-L score of 35.75. The landing page is the official Gigaword website.
+
+3. **SQuAD**: A question answering dataset with two versions. The creators are Pranav Rajpurkar, Robin Jia, and Percy Liang, published in 2016 and 2018. The paper achieved an F1 score of 82.5 on SQuAD 2.0.
+
+4. **CoQA**: A conversational question answering dataset created by Siva Reddy, Danqi Chen, and Christopher D. Manning in 2019. The paper achieved an F1 score of 82.5.
+
+5. **DSTC7**: A dialog response generation dataset from the 7th Dialog State Tracking Challenge, created by Michel Galley, Chris Brockett, Xiang Gao, Jianfeng Gao, and Bill Dolan in 2019. The paper achieved a NIST-4 score of 2.67.
+
+I'll ensure each dataset is described accurately, including creators, description, title, publication year, landing page, and other relevant metadata. I'll structure each dataset as a JSON object within an array, following the specified vocabulary.
+</think>

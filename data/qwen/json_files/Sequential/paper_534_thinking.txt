@@ -1,0 +1,15 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is about unsupervised labeled parsing using deep inside-outside recursive autoencoders. The authors mention several datasets, and I need to identify each one, extract their metadata, and format it into JSON.
+
+First, I'll read through the paper to spot any dataset names. The abstract mentions the Wall Street Journal (WSJ) dataset. In the introduction, they talk about evaluating on two versions of WSJ and comparing with other models. The experiments section also refers to WSJ-10 and the full WSJ test set.
+
+So, the main dataset here is the Wall Street Journal (WSJ) corpus. It's a well-known dataset in NLP, often used for parsing tasks. The authors don't provide specific creators beyond the standard references, so I'll note that the creators are the authors of the WSJ corpus, which is typically associated with the Linguistic Data Consortium (LDC), but since the paper doesn't specify, I'll leave it as the creators are the authors of the WSJ dataset.
+
+The description should reflect how the authors used it: for unsupervised labeled constituency parsing. The title is straightforward, "Wall Street Journal (WSJ) Dataset." The issued year isn't explicitly mentioned in the paper, but the WSJ corpus is from the 90s, so I'll note that as 1990s.
+
+The language is English, and the format is text. The themes are Natural Language Processing and Constituency Parsing. Keywords include WSJ, constituency parsing, unsupervised learning, etc. The landing page is the LDC website, and the task is constituency parsing.
+
+I need to make sure I don't include any other datasets mentioned in the references unless they're used in the paper. Since the paper only uses WSJ, that's the only dataset to include.
+
+Now, I'll structure this into the required JSON format, ensuring all fields are filled appropriately based on the information extracted.
+</think>

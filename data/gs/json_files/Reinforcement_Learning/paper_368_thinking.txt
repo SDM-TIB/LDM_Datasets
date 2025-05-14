@@ -1,0 +1,37 @@
+To extract datasets from the research paper titled "Sigmoid-Weighted Linear Units for Neural Network Function Approximation in Reinforcement Learning" by Stefan Elfwing et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract provides a brief overview of the study's goals and results, which may hint at the datasets used. The introduction often elaborates on the context and significance of the datasets, while the experiments section typically details the datasets employed for validation.
+
+In the **introduction**, the authors discuss their proposed activation functions and mention achieving state-of-the-art results in various games. However, they do not explicitly name any datasets here, so I will need to look further.
+
+Next, I will focus on the **experiments section**. Here, the authors describe their evaluations in different environments, including **stochastic SZ-Tetris**, **10×10 Tetris**, and **Atari 2600 games**. Each of these environments likely corresponds to specific datasets or benchmarks.
+
+1. **Stochastic SZ-Tetris**: The authors reference the work of Szita and Szepesvári (2010) as a benchmark for reinforcement learning. This indicates that the SZ-Tetris environment is a dataset or benchmark used for their experiments.
+
+2. **10×10 Tetris**: The authors mention that they are comparing their results with previous methods applied to Tetris, specifically citing the CBMPI algorithm (Gabillon et al., 2013; Scherrer et al., 2015). This suggests that the 10×10 Tetris environment is also a recognized dataset.
+
+3. **Atari 2600 games**: The authors specify that they used the Arcade Learning Environment (Bellemare et al., 2013) to evaluate their approach across 12 Atari games. This is a well-known dataset in the reinforcement learning community.
+
+Now, I will check the **References section** to gather the full citations for these datasets:
+
+- For **stochastic SZ-Tetris**, the citation is:
+  > Szita, I. and Szepesvári, C. (2010). *SZ-Tetris as a benchmark for studying key problems of reinforcement learning*. In ICML 2010 workshop on machine learning and games.
+
+- For **10×10 Tetris**, the citation is:
+  > Gabillon, V., Ghavamzadeh, M., and Scherrer, B. (2013). *Approximate dynamic programming finally performs well in the game of Tetris*. In Proceedings of Advances in Neural Information Processing Systems (NIPS2013), pages 1754–1762.
+
+- For the **Atari 2600 games**, the citation is:
+  > Bellemare, M. G., Naddaf, Y., Veness, J., and Bowling, M. (2013). *The arcade learning environment: An evaluation platform for general agents*. Journal of Artificial Intelligence Research, 47:253–279.
+
+With these citations in hand, I can now summarize the datasets used in the paper:
+
+1. **Stochastic SZ-Tetris**: A benchmark for reinforcement learning.
+   - Citation: Szita, I. and Szepesvári, C. (2010). *SZ-Tetris as a benchmark for studying key problems of reinforcement learning*. In ICML 2010 workshop on machine learning and games.
+
+2. **10×10 Tetris**: A variant of Tetris used for performance comparison.
+   - Citation: Gabillon, V., Ghavamzadeh, M., and Scherrer, B. (2013). *Approximate dynamic programming finally performs well in the game of Tetris*. In Proceedings of Advances in Neural Information Processing Systems (NIPS2013), pages 1754–1762.
+
+3. **Atari 2600 games**: A collection of games used for evaluating reinforcement learning agents.
+   - Citation: Bellemare, M. G., Naddaf, Y., Veness, J., and Bowling, M. (2013). *The arcade learning environment: An evaluation platform for general agents*. Journal of Artificial Intelligence Research, 47:253–279.
+
+Finally, I will compile these findings into a structured format for further processing or review.

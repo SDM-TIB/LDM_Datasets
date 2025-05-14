@@ -1,0 +1,29 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. The paper is about Baidu's neural machine translation systems for WMT19. Let me go through the paper step by step to identify any datasets.
+
+First, the abstract mentions the WMT19 shared task on Chinese-English news translation. So, WMT19 is a dataset used here. I'll note that down.
+
+In the introduction, they talk about the Transformer model and mention previous translation campaigns, citing Bojar et al., 2018, and Niehues et al., 2018. These likely refer to datasets from those years, possibly WMT18 and others.
+
+Looking at Section 2, they discuss various techniques like back-translation and data augmentation. They mention using monolingual data from News Corpus and Gigaword. So, News Corpus and Gigaword are datasets used here.
+
+They also mention CWMT (Chinese-English Web Corpus) and UN corpus. These are additional datasets.
+
+In Section 2.1, they talk about pre-training on monolingual corpora, including Chinese Gigaword, News Crawl, XMU, and the Chinese part of CWMT and UN corpus. For English, they use Gigaword, News Crawl, and parts of CWMT and UN. So, these are all datasets.
+
+In Section 2.4, they mention using a large-scale monolingual corpus for back-translation, selecting sentences based on language model scores. This likely refers to the same datasets mentioned earlier.
+
+In Section 3, they discuss experiments and results, mentioning the WMT18 dev and test sets, and CWMT, UN, and Wiki Titles corpora. So, WMT18 is another dataset used.
+
+Putting it all together, the datasets mentioned are:
+
+1. WMT19
+2. WMT18
+3. News Corpus
+4. Gigaword (both Chinese and English)
+5. CWMT
+6. UN Corpus
+7. Wiki Titles Corpus
+
+I need to extract metadata for each. However, the paper doesn't provide detailed metadata like creators, descriptions, etc., for these datasets beyond their names and usage. So, I'll structure the JSON with the information available, noting that some fields might be empty due to lack of data in the paper.
+</think>

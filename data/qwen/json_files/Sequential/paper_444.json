@@ -1,0 +1,148 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset containing tweets for detecting Adverse Drug Reaction mentions, including 25,672 tweets (2,374 positive and 23,298 negative) and a validation set of approximately 5,000 unlabeled tweets.",
+        "dcterms:title": "SMM4H 2019 Shared Task Dataset",
+        "dcterms:issued": "2019",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Media Mining",
+            "Health Applications"
+        ],
+        "dcat:keyword": [
+            "Twitter data",
+            "ADR detection",
+            "Pharmacovigilance"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Classification",
+            "Text Mining"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A subset of 2,367 tweets from the main dataset, used for identifying the location of ADR mentions.",
+        "dcterms:title": "SMM4H 2019 Task 2 Dataset",
+        "dcterms:issued": "2019",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Media Mining",
+            "Health Applications"
+        ],
+        "dcat:keyword": [
+            "Twitter data",
+            "ADR extraction",
+            "Text span identification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Information Extraction",
+            "Text Mining"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A list of FDA-approved drug products used for preprocessing tweets by replacing drug names with 'adruga'.",
+        "dcterms:title": "FDA Approved Drug Products List",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+        "dcat:theme": [
+            "Pharmacovigilance",
+            "Drug Data"
+        ],
+        "dcat:keyword": [
+            "Drug names",
+            "ADR detection",
+            "Data preprocessing"
+        ],
+        "dcat:landingPage": "https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "List",
+        "mls:task": [
+            "Data Preprocessing",
+            "Text Mining"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Azadeh Nikfarjam"
+        ],
+        "dcterms:description": "A lexicon set used for similarity matching to identify ADR mentions in tweets.",
+        "dcterms:title": "Nikfarjam Lexicon",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "http://diego.asu.edu/Publications/ADRMine.html",
+        "dcat:theme": [
+            "Lexicon",
+            "ADR Detection"
+        ],
+        "dcat:keyword": [
+            "Lexicon",
+            "ADR mentions",
+            "Text similarity"
+        ],
+        "dcat:landingPage": "http://diego.asu.edu/Publications/ADRMine.html",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Information Extraction",
+            "Text Mining"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A medical dictionary used for similarity matching to identify ADR mentions in tweets.",
+        "dcterms:title": "MedDRA",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://www.meddra.org/how-to-use/support-documentation/english",
+        "dcat:theme": [
+            "Medical Dictionary",
+            "ADR Detection"
+        ],
+        "dcat:keyword": [
+            "Medical terms",
+            "ADR mentions",
+            "Text similarity"
+        ],
+        "dcat:landingPage": "https://www.meddra.org/how-to-use/support-documentation/english",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Information Extraction",
+            "Text Mining"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A consumer health vocabulary used for similarity matching to identify ADR mentions in tweets.",
+        "dcterms:title": "CHV",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/CHV/",
+        "dcat:theme": [
+            "Health Vocabulary",
+            "ADR Detection"
+        ],
+        "dcat:keyword": [
+            "Health terms",
+            "ADR mentions",
+            "Text similarity"
+        ],
+        "dcat:landingPage": "https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/CHV/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Information Extraction",
+            "Text Mining"
+        ]
+    }
+]

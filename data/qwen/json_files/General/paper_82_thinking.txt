@@ -1,0 +1,59 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let's start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll go through the abstract and introduction to get an overview. The paper introduces the DIET architecture and mentions datasets used in their experiments. 
+
+In the "4.1 Datasets" section, the authors list three datasets: NLU-Benchmark, ATIS, and SNIPS. 
+
+1. **NLU-Benchmark**: This dataset is described as the most challenging, with 25,716 utterances covering multiple tasks. It's split into 10 folds, each with its own train and test set. The dataset includes 64 intents and 54 entity types. The authors reference Liu et al., 2019b, and provide a URL for the dataset.
+
+2. **ATIS**: The Air Travel Information Service dataset is well-known for NLU tasks. It includes transcripts of flight reservation requests. The authors mention using the same data split as Chen et al., 2019, and provide a URL.
+
+3. **SNIPS**: This dataset is from the Snips personal voice assistant. It contains 13,784 training and 700 test examples across 7 intents and 39 entities. The authors reference Coucke et al., 2018, and provide a URL.
+
+Now, I'll extract the metadata for each dataset based on the provided vocabulary.
+
+For **NLU-Benchmark**:
+- **Creator**: The authors of the dataset are not explicitly mentioned, but the paper cites Liu et al., 2019b. So, the creator would be the authors of that reference.
+- **Description**: As provided in the paper.
+- **Title**: NLU-Benchmark.
+- **Issued**: The year from the reference, which is 2019.
+- **Language**: English, as it's a general NLU dataset.
+- **Identifier**: The URL provided.
+- **Theme**: Natural Language Understanding, Dialogue Systems.
+- **Keywords**: Intent classification, Entity recognition, Multi-domain.
+- **Landing Page**: The URL.
+- **Version**: Not mentioned.
+- **Format**: Text.
+- **Task**: Intent classification, Entity recognition.
+
+For **ATIS**:
+- **Creator**: Hemphill et al., 1990.
+- **Description**: As described in the paper.
+- **Title**: ATIS.
+- **Issued**: 1990.
+- **Language**: English.
+- **Identifier**: The URL.
+- **Theme**: Natural Language Understanding, Dialogue Systems.
+- **Keywords**: Flight reservations, Intent classification.
+- **Landing Page**: The URL.
+- **Version**: Not mentioned.
+- **Format**: Text.
+- **Task**: Intent classification, Entity recognition.
+
+For **SNIPS**:
+- **Creator**: Coucke et al., 2018.
+- **Description**: As provided.
+- **Title**: SNIPS.
+- **Issued**: 2018.
+- **Language**: English.
+- **Identifier**: The URL.
+- **Theme**: Natural Language Understanding, Voice Assistants.
+- **Keywords**: Voice commands, Intent classification.
+- **Landing Page**: The URL.
+- **Version**: Not mentioned.
+- **Format**: Text.
+- **Task**: Intent classification, Entity recognition.
+
+I need to ensure that each field is correctly filled based on the information available in the paper. If any information is missing, I'll leave that field empty as per the instructions.
+</think>

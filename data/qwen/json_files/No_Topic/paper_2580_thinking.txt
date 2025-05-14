@@ -1,0 +1,94 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets.
+
+First, the paper is titled "MuST-C: a Multilingual Speech Translation Corpus" by Mattia Antonino Di Gangi and others. The abstract mentions the creation of MuST-C, which is a multilingual speech translation corpus. So, MuST-C is definitely one dataset.
+
+Looking further into the introduction, the authors reference several existing SLT (Spoken Language Translation) corpora. Table 1 lists these corpora, including ones like IWSLT18, Augmented LibriSpeech, Fisher, and Callhome. These are all datasets used in previous research.
+
+In the Corpus section, the authors mention the IWSLT18 corpus specifically, noting that their methodology differs from it. They also reference the English-German subset of MuST-C derived from the same TED Talks used for IWSLT18.
+
+In the experiments section, they compare their corpus with IWSLT18 and mention the ModernMT system, which is based on the Transformer architecture. However, ModernMT is a system, not a dataset, so I shouldn't include it.
+
+Additionally, the authors reference the TED Talks dataset, which they used to create MuST-C. This is another dataset they mention.
+
+So, compiling all the datasets mentioned:
+
+1. MuST-C: The main dataset created by the authors.
+2. IWSLT18: Another SLT corpus used for comparison.
+3. Augmented LibriSpeech: Mentioned in Table 1.
+4. Fisher: Another SLT corpus.
+5. Callhome: Another SLT corpus.
+6. TED Talks: The source data used to create MuST-C.
+
+Now, I need to extract metadata for each of these datasets based on the information provided in the paper.
+
+For MuST-C:
+- Creator: The authors of the paper.
+- Description: A multilingual speech translation corpus from English into 8 languages.
+- Title: MuST-C.
+- Issued: The paper was published in 2019, so the dataset was likely released around that time.
+- Language: English and 8 target languages.
+- Identifier: The URL provided in the paper.
+- Theme: Multilingual speech translation.
+- Keywords: Speech translation, corpus, multilingual.
+- Landing page: The URL provided.
+- Format: Audio, text.
+- Task: Speech translation.
+
+For IWSLT18:
+- Creator: Niehues et al.
+- Description: An SLT corpus from English to German.
+- Title: IWSLT18.
+- Issued: 2018.
+- Language: English and German.
+- Theme: Speech translation.
+- Keywords: SLT, corpus.
+- Format: Audio, text.
+- Task: Speech translation.
+
+For Augmented LibriSpeech:
+- Creator: Kocabiyikoglu et al.
+- Description: An augmented version of LibriSpeech for SLT.
+- Title: Augmented LibriSpeech.
+- Issued: 2018.
+- Language: English and French.
+- Theme: Speech translation.
+- Keywords: SLT, corpus.
+- Format: Audio, text.
+- Task: Speech translation.
+
+For Fisher:
+- Creator: Post et al.
+- Description: A corpus for SLT.
+- Title: Fisher.
+- Issued: 2013.
+- Language: English and Spanish.
+- Theme: Speech translation.
+- Keywords: SLT, corpus.
+- Format: Audio, text.
+- Task: Speech translation.
+
+For Callhome:
+- Creator: Post et al.
+- Description: A corpus for SLT.
+- Title: Callhome.
+- Issued: 2013.
+- Language: English and Spanish.
+- Theme: Speech translation.
+- Keywords: SLT, corpus.
+- Format: Audio, text.
+- Task: Speech translation.
+
+For TED Talks:
+- Creator: The authors of the paper.
+- Description: A corpus of English TED Talks with manual transcriptions and translations.
+- Title: TED Talks.
+- Issued: 2018 (as per the dump date mentioned).
+- Language: English and multiple target languages.
+- Theme: Multilingual speech translation.
+- Keywords: Speech, translation, corpus.
+- Format: Audio, text.
+- Task: Speech translation.
+
+Now, I'll structure this information into the required JSON format, ensuring each dataset is accurately described with the appropriate metadata.
+</think>

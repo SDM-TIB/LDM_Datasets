@@ -1,0 +1,53 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll look at the abstract and introduction to get an overview. The paper introduces L2-Net, a deep learning method for local patch descriptors. It mentions datasets used for evaluation, such as Brown, Oxford, and Hpatches.
+
+Next, I'll go through the sections where datasets are discussed in detail. In the introduction, the authors reference the Brown dataset and the newly proposed Hpatches dataset. In the experiments section, they provide more details about these datasets and their usage.
+
+For each dataset, I need to extract the required metadata fields. Let's break it down:
+
+1. **Brown Dataset**:
+   - **Creators**: The authors of the dataset are not explicitly mentioned in the paper, but the reference is [16], which I assume points to the original creators.
+   - **Description**: It's a benchmark dataset for local patch matching, consisting of subsets like Yosemite, Notredame, and Liberty.
+   - **Title**: Brown dataset.
+   - **Issued**: The year is not provided in the paper, so it's empty.
+   - **Language**: Not applicable.
+   - **Identifier**: No DOI or URL provided.
+   - **Theme**: Computer Vision, Local Patch Matching.
+   - **Keywords**: Local descriptors, Image matching.
+   - **Landing Page**: Empty.
+   - **Version**: Not mentioned.
+   - **Format**: Image patches.
+   - **Task**: Local patch matching, Image retrieval.
+
+2. **Oxford Dataset**:
+   - **Creators**: Not explicitly mentioned, but referenced as [18].
+   - **Description**: Contains image sequences with distortions like viewpoint, blur, etc., used for evaluating descriptors.
+   - **Title**: Oxford dataset.
+   - **Issued**: Year not provided.
+   - **Language**: Not applicable.
+   - **Identifier**: No DOI or URL.
+   - **Theme**: Computer Vision, Image Matching.
+   - **Keywords**: Image sequences, Distortions.
+   - **Landing Page**: Empty.
+   - **Version**: Not mentioned.
+   - **Format**: Image sequences.
+   - **Task**: Image matching, Feature extraction.
+
+3. **Hpatches Dataset**:
+   - **Creators**: The authors are mentioned as [11], which I assume refers to the creators.
+   - **Description**: A newly proposed dataset for evaluating local descriptors under various transformations.
+   - **Title**: Hpatches dataset.
+   - **Issued**: Year not provided.
+   - **Language**: Not applicable.
+   - **Identifier**: No DOI or URL.
+   - **Theme**: Computer Vision, Local Descriptors.
+   - **Keywords**: Patch transformations, Descriptor evaluation.
+   - **Landing Page**: Empty.
+   - **Version**: Not mentioned.
+   - **Format**: Image patches.
+   - **Task**: Local descriptor evaluation, Feature matching.
+
+I need to ensure that each dataset is accurately described based on the paper's usage and description. I'll structure each dataset as a JSON object with the specified fields.
+</think>

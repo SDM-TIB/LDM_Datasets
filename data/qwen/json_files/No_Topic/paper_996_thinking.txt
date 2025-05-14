@@ -1,0 +1,48 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about sentiment analysis on Twitter, specifically focusing on the SwatCS system submitted to SemEval-2013 Task 2A. 
+
+First, I'll read through the paper to identify any datasets used or mentioned. The abstract mentions that the system uses a combination of classifiers trained on lexical features. It also refers to the data provided by the task organizers and external data.
+
+Looking at the sections, the Data section (Section 3) is where datasets are likely mentioned. 
+
+In Section 3, the paper describes the training data provided by the task organizers. It's a manually-labeled set of tweets, approximately 15K tweets, with each tweet having at least one labeled phrase. The labels are positive, negative, neutral, or objective. This dataset is crucial for training their classifiers.
+
+Additionally, the paper mentions using external data for the unconstrained submission. This external data is from Go et al. (2009), a dataset of 50K tweets, half positive and half negative, automatically labeled using emoticons.
+
+So, there are two datasets mentioned:
+
+1. The manually-labeled tweets provided by the task organizers for SemEval-2013 Task 2A.
+2. The external dataset from Go et al. (2009) with 50K tweets.
+
+Now, I need to extract the metadata for each dataset using the specified vocabulary.
+
+For the first dataset:
+- **dcterms:creator**: The task organizers, but the paper doesn't specify their names. So, it's an empty list.
+- **dcterms:description**: Manually-labeled tweets for sentiment analysis, with phrases labeled as positive, negative, neutral, or objective.
+- **dcterms:title**: Not explicitly named, but it's the SemEval-2013 Task 2A dataset.
+- **dcterms:issued**: 2013, as the paper was published in 2013.
+- **dcterms:language**: English, as the tweets are in English.
+- **dcterms:identifier**: No DOI or URL provided in the paper.
+- **dcat:theme**: Sentiment analysis, Twitter data.
+- **dcat:keyword**: Sentiment analysis, tweets, labeled data.
+- **dcat:landingPage**: No URL provided.
+- **dcterms:hasVersion**: Not mentioned.
+- **dcterms:format**: Text.
+- **mls:task**: Sentiment analysis, polarity disambiguation.
+
+For the second dataset (Go et al., 2009):
+- **dcterms:creator**: Go, Bhayani, and Huang.
+- **dcterms:description**: Automatically labeled tweets using emoticons for sentiment analysis, containing 50K tweets, 25K positive and 25K negative.
+- **dcterms:title**: Twitter Sentiment Dataset.
+- **dcterms:issued**: 2009.
+- **dcterms:language**: English.
+- **dcterms:identifier**: No DOI or URL provided.
+- **dcat:theme**: Sentiment analysis, Twitter data.
+- **dcat:keyword**: Sentiment analysis, tweets, emoticons.
+- **dcat:landingPage**: No URL provided.
+- **dcterms:hasVersion**: Not mentioned.
+- **dcterms:format**: Text.
+- **mls:task**: Sentiment analysis.
+
+I need to ensure that all fields are filled correctly based on the information available in the paper. If any information isn't present, I'll leave the field empty as per the instructions.
+</think>

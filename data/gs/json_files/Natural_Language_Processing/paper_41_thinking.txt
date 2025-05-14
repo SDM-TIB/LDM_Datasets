@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Transformer-based Automatic Post-Editing Model with Joint Encoder and Multi-source Attention of Decoder" by WonKee Lee et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on the **WMT19 English-German APE dataset** and the **eSCAPE NMT dataset**, which suggests that these are the datasets I need to focus on.
+
+Next, I will look closely at **section 3 (Experiments)**, where the authors provide details about the datasets used. They explicitly mention the **WMT19 official English-German APE dataset** and the **eSCAPE NMT dataset**. The WMT19 dataset is described as consisting of a training and development set, while the eSCAPE NMT dataset is noted for its large number of sentence triplets.
+
+In **Table 1**, the authors provide statistics for the datasets, including the number of sentence triplets and the TER scores for both the official training and development sets, as well as for the eSCAPE-NMT dataset. This information is crucial for understanding the datasets' characteristics.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+1. For the **WMT19 English-German APE dataset**, the citation is:
+   > Rajen Chatterjee, Matteo Negri, Raphael Rubino, and Marco Turchi. *Findings of the WMT 2018 Shared Task on Automatic Post-Editing*. In Proceedings of the Third Conference on Machine Translation: Shared Task Papers, pages 710-725, 2018.
+
+2. For the **eSCAPE NMT dataset**, the citation is:
+   > Matteo Negri, Marco Turchi, Rajen Chatterjee, and Nicola Bertoldi. *ESCAPE: a Large-scale Synthetic Corpus for Automatic Post-Editing*. In International Proceedings of Conference and Evaluation (LREC-2018).
+
+With these citations in hand, I can now summarize the datasets:
+
+- **WMT19 English-German APE dataset**: This dataset consists of a training set with 13,442 sentence triplets and a development set with 1,000 sentence triplets. It is used for evaluating automatic post-editing systems.
+
+- **eSCAPE NMT dataset**: This dataset contains 7,258,533 sentence triplets and is used as additional training data for the automatic post-editing model.
+
+Finally, I will compile the dataset entries into a structured format for further processing, ensuring that each dataset is accurately represented with its full citation.

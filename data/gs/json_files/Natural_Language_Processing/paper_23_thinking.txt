@@ -1,0 +1,38 @@
+To extract the datasets mentioned in the research paper titled "Context is Key: Grammatical Error Detection with Contextual Word Representations" by Samuel Bell et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and data sections** of the paper to identify any datasets that are explicitly mentioned. The abstract discusses the evaluation of their method on a range of public GED datasets, which indicates that there are datasets to be found.
+
+In the **introduction**, the authors reference several previous works that utilized public error-annotated corpora, hinting at the datasets used in their own research. However, I need to find the specific names and details of these datasets.
+
+Next, I will focus on **section 3 (Data)**, where the authors describe the datasets used for training and evaluation. Here, they mention:
+
+1. **First Certificate in English (FCE) dataset**: This dataset consists of essays written by non-native learners of English, annotated with spans of language errors, types of errors, and suggested corrections. 
+
+2. **CoNLL 2014 shared task dataset**: This dataset includes English essays written by advanced undergraduate students, annotated by two experienced annotators with a different error taxonomy.
+
+3. **JFLEG dataset**: The Johns Hopkins University FLuency-Extended GUG Corpus contains essays written by English learners, annotated with fluency and grammar edits by multiple annotators.
+
+4. **Cambridge English Write & Improve (W&I) corpus**: Released as part of the BEA 2019 shared task, this corpus contains texts written by learners of English submitted for assessment.
+
+5. **LOCNESS corpus**: Also part of the BEA 2019 shared task, this corpus comprises essays written by native English students.
+
+In the **experiments section**, the authors confirm that they used the FCE training set for training and evaluated their models on the FCE test set, CoNLL-2014 test set, JFLEG test set, and BEA 2019 shared task datasets. This confirms the datasets they utilized for their experiments.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **FCE dataset**, the citation is:
+  > Helen Yannakoudakis, Øistein E Andersen, Ardeshir Geranpayeh, Ted Briscoe, and Diane Nicholls. *A new dataset and method for automatically grading ESOL texts*. In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies, pages 180–189, 2011.
+
+- For the **CoNLL 2014 shared task dataset**, the citation is:
+  > Hwee Tou Ng, Siew Mei Wu, Ted Briscoe, Christian Hadiwinoto, Raymond Hendy Susanto, and Christopher Bryant. *The CoNLL-2014 shared task on grammatical error correction*. In Proceedings of the Eighteenth Conference on Computational Natural Language Learning: Shared Task, pages 1–14, 2014.
+
+- For the **JFLEG dataset**, the citation is:
+  > Courtney Napoles, Keisuke Sakaguchi, and Joel Tetreault. *JFLEG: A fluency corpus and benchmark for grammatical error correction*. In Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics, pages 229–234, 2017.
+
+- For the **Cambridge English Write & Improve (W&I) corpus**, the citation is:
+  > Helen Yannakoudakis, Mariano Felice, Øistein E Andersen, and Ted Briscoe. *Developing an automated writing placement system for ESL learners*. Applied Measurement in Education, 31(3):251–267, 2018.
+
+- For the **LOCNESS corpus**, the citation is:
+  > Sylviane Granger. *The computer learner corpus: A versatile new source of data for SLA research*. In Learner English on Computer, pages 3–18. Addison Wesley Longman: London & New York, 1998.
+
+With these citations in hand, I will compile the dataset entries into a structured format for further processing.

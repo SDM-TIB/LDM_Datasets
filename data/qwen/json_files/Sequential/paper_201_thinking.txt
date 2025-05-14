@@ -1,0 +1,49 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Language Modeling with Gated Convolutional Networks" by Yann N. Dauphin and others. It discusses their approach to language modeling using gated convolutional networks and compares it with other models.
+
+Looking through the sections, I find that the datasets mentioned are:
+
+1. **Google Billion Words (GBW)**
+   - Description: A large-scale dataset with almost one billion tokens and a vocabulary of over 800K words. Words appearing less than 3 times are replaced with an unknown symbol.
+   - Used for: Language modeling, comparing with LSTM models.
+   - Reference: Chelba et al., 2013.
+
+2. **WikiText-103**
+   - Description: A dataset with over 100M tokens and a vocabulary of about 200K words. It's based on Wikipedia articles, allowing models to condition on entire paragraphs.
+   - Used for: Language modeling, evaluating long-term dependencies.
+   - Reference: Merity et al., 2016.
+
+I need to extract metadata for each dataset using the specified vocabulary.
+
+For Google Billion Words:
+- **dcterms:creator**: Chelba, Ciprian; Mikolov, Tomas; Schuster, Mike; Ge, Qi; Brants, Thorsten; Koehn, Philipp; Robinson, Tony.
+- **dcterms:description**: Large-scale dataset with one billion tokens, vocabulary of 800K words, unknown symbol for rare words.
+- **dcterms:title**: Google Billion Words.
+- **dcterms:issued**: 2013.
+- **dcterms:language**: English.
+- **dcterms:identifier**: arXiv:1312.3005.
+- **dcat:theme**: Language Modeling, Natural Language Processing.
+- **dcat:keyword**: Language modeling, billion words, vocabulary.
+- **dcat:landingPage**: arXiv link.
+- **dcterms:hasVersion**: Not mentioned.
+- **dcterms:format**: Text.
+- **mls:task**: Language modeling.
+
+For WikiText-103:
+- **dcterms:creator**: Merity, Sam; Xiong, Caiming; Bradbury, James; Socher, Richard.
+- **dcterms:description**: Dataset with 100M tokens, 200K vocabulary, based on Wikipedia, used for language modeling with long contexts.
+- **dcterms:title**: WikiText-103.
+- **dcterms:issued**: 2016.
+- **dcterms:language**: English.
+- **dcterms:identifier**: arXiv:1609.03109.
+- **dcat:theme**: Language Modeling, Natural Language Processing.
+- **dcat:keyword**: Language modeling, Wikipedia, long context.
+- **dcat:landingPage**: arXiv link.
+- **dcterms:hasVersion**: Not mentioned.
+- **dcterms:format**: Text.
+- **mls:task**: Language modeling.
+
+I need to ensure all fields are correctly filled based on the paper's description and references.
+</think>

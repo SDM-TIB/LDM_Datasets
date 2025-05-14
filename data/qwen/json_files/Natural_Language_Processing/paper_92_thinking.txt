@@ -1,0 +1,13 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is about improving the performance of online neural transducer models. Let me go through it step by step.
+
+First, I'll read the abstract to get a general idea. It mentions that the experiments are conducted on a 12,500-hour Voice Search task. That sounds like a dataset, but I need to check if it's explicitly mentioned elsewhere.
+
+Looking at the introduction, the authors reference several studies, but I'm not sure if those are datasets or just prior work. The key section for datasets is likely the "Experimental Details" part.
+
+In section 4, the authors describe their experiments. They mention a training set consisting of 15 million English utterances, anonymized and hand-transcribed. This is definitely a dataset. They also mention a test set of 14,800 utterances from Google traffic. So that's another dataset.
+
+I should note the creators as the authors of the paper since they're the ones who created and described these datasets. The description should include the size and purpose of each dataset. The format is audio, and the language is English. The tasks involve speech recognition and neural transducer models.
+
+I need to structure this information into JSON format, making sure to include all the required metadata fields. Each dataset will have its own entry in the JSON array.
+</think>

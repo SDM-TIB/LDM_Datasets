@@ -1,0 +1,56 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. The paper is about a hybrid graph neural network approach for detecting PHP vulnerabilities, titled "DeepTective." The authors are Rishi Rabheru, Hazim Hanif, and Sergio Maffeis from Imperial College London and the University of Malaya.
+
+First, I'll go through the paper to identify any datasets mentioned. The abstract mentions evaluating DeepTective on an established synthetic dataset and a novel real-world dataset collected from GitHub. So, there are at least two datasets: one synthetic and one real-world.
+
+Looking into the paper, the synthetic dataset is referred to as SARD#, which is derived from the Software Assurance Reference Dataset (SARD) project. SARD is a collection of code samples for multiple programming languages, and the PHP subset is used here. The authors mention that SARD samples are simplistic and focused, which helps in training but may not generalize well to real-world code.
+
+The real-world dataset is collected from GitHub. The authors gathered PHP projects, including popular ones like WordPress, Moodle, and others. They extracted function-level and file-level samples, ensuring that the dataset includes both vulnerable and non-vulnerable code snippets. This dataset is referred to as GIT and GITf for file-level and function-level datasets, respectively.
+
+I also need to check if there are any other datasets mentioned. The paper references tools like Pixy, RIPS, and WAP, but these are vulnerability detection tools, not datasets. The authors also mention using the National Vulnerability Database (NVD) to find CVE entries, but NVD itself isn't a dataset used for training or evaluation in this context.
+
+So, the datasets identified are:
+1. SARD# (synthetic)
+2. GIT (real-world file-level)
+3. GITf (real-world function-level)
+
+Now, I'll structure the metadata for each dataset based on the provided vocabulary.
+
+For SARD#:
+- Creator: The authors of SARD are not explicitly mentioned in the paper, but it's a known dataset, so I'll note that it's created by the SARD project team.
+- Description: Synthetic PHP code samples for vulnerability detection.
+- Title: SARD#
+- Issued: The paper doesn't specify the exact year SARD was created, but it's referenced as an established dataset.
+- Language: PHP
+- Identifier: URL to SARD project.
+- Theme: Software Vulnerability, Static Analysis.
+- Keywords: Synthetic dataset, PHP vulnerabilities.
+- Landing Page: SARD project URL.
+- Version: Not mentioned.
+- Format: Source code.
+- Task: Vulnerability detection.
+
+For GIT:
+- Creator: The authors of the paper collected the dataset from GitHub.
+- Description: Real-world PHP code samples from GitHub, including vulnerable and non-vulnerable files.
+- Title: GIT
+- Issued: The paper was published in 2021, so the dataset was likely collected around that time.
+- Language: PHP
+- Identifier: GitHub URL.
+- Theme: Software Vulnerability, Static Analysis.
+- Keywords: Real-world dataset, PHP vulnerabilities.
+- Landing Page: GitHub URL.
+- Version: Not mentioned.
+- Format: Source code.
+- Task: Vulnerability detection.
+
+For GITf:
+- Similar to GIT but at the function level.
+- Description: Function-level samples extracted from the same GitHub projects.
+- Title: GITf
+- Other metadata is the same as GIT.
+
+I need to ensure that the creators are correctly identified. For SARD#, since it's a known dataset, the creators are the maintainers of SARD. For GIT and GITf, the creators are the authors of the paper as they collected the dataset.
+
+I'll structure each dataset with the appropriate metadata fields, ensuring that all required fields are filled based on the information available in the paper.
+</think>

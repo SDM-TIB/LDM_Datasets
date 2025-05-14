@@ -1,0 +1,45 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "On nature and causes of observed MT errors" by Maja Popović. It discusses the analysis of machine translation errors observed by evaluators using different quality criteria. The datasets mentioned are crucial for understanding the scope and methodology of the research.
+
+Looking through the paper, I find references to two datasets:
+
+1. **DCU dataset**: This dataset was created by Dublin City University (DCU) for MT evaluation. It includes English user reviews translated into Croatian and Serbian. The dataset contains outputs from ten different MT systems, evaluated using adequacy and comprehension criteria.
+
+2. **HU dataset**: Provided by Heidelberg University (HU), this dataset consists of English TED talks translated into German by an in-house MT system. Evaluators were asked to highlight errors without a specific quality criterion, focusing on a mixture of adequacy and fluency.
+
+I need to extract metadata for each dataset using the specified vocabulary. Let's break down each dataset:
+
+**DCU Dataset:**
+- **Creator**: The dataset was created by researchers at Dublin City University, specifically Maja Popović and her team.
+- **Description**: It's a dataset of English user reviews translated into Croatian and Serbian, used for evaluating MT systems.
+- **Title**: The dataset is referred to as the DCU dataset.
+- **Issued**: The paper was published in 2021, but the dataset's creation date isn't explicitly mentioned. I'll note it as "2021" for the issued field.
+- **Language**: The languages involved are English, Croatian, and Serbian.
+- **Identifier**: The GitHub repository link provided is https://github.com/m-popovic/QRev-annotations.
+- **Theme**: The themes are Machine Translation, Error Analysis, and Human Evaluation.
+- **Keywords**: MT evaluation, user reviews, translation errors.
+- **Landing Page**: The GitHub link serves as the landing page.
+- **Version**: Not explicitly mentioned, so it's an empty string.
+- **Format**: Text.
+- **Task**: Evaluating MT systems, error analysis.
+
+**HU Dataset:**
+- **Creator**: The dataset was created by researchers at Heidelberg University, including Kreutzer and Riezler.
+- **Description**: It's a dataset of English TED talks translated into German, used for improving MT systems by providing feedback on errors.
+- **Title**: The dataset is referred to as the HU dataset.
+- **Issued**: The paper was published in 2021, but the dataset's creation date isn't explicitly mentioned. I'll note it as "2021" for the issued field.
+- **Language**: The languages involved are English and German.
+- **Identifier**: The GitHub repository link provided is https://github.com/joeynmt/joeynmt.
+- **Theme**: The themes are Machine Translation, Error Analysis, and System Improvement.
+- **Keywords**: MT improvement, TED talks, error feedback.
+- **Landing Page**: The GitHub link serves as the landing page.
+- **Version**: Not explicitly mentioned, so it's an empty string.
+- **Format**: Text.
+- **Task**: Improving MT systems, error analysis.
+
+I need to ensure that each field is accurately filled based on the information provided in the paper. For the creators, I've identified the primary contributors from the dataset references. The descriptions are based on how the datasets were used in the paper. The landing pages are the GitHub repositories provided. The tasks are derived from the purposes for which the datasets were used in the research.
+
+I should also check if there are any other datasets mentioned. Scanning through the paper, I don't find any additional datasets beyond the DCU and HU datasets. Therefore, these are the only two datasets to include in the JSON response.
+</think>

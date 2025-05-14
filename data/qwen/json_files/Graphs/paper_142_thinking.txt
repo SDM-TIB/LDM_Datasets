@@ -1,0 +1,27 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll go through the abstract and introduction to get an overview. The paper discusses graph neural networks (GNNs) and their limitations in capturing residual correlations in regression tasks. It mentions several applications and datasets, such as the U.S. election map, county-level data, and traffic networks.
+
+Next, I'll look into the sections where datasets are explicitly mentioned. In the "NUMERICAL EXPERIMENTS" section, the authors describe several datasets used for their experiments:
+
+1. **Ising model**: This is a synthetic dataset used to simulate spin configurations on a grid graph. It's mentioned in the context of testing the model's ability to handle positive and negative correlations.
+
+2. **U.S. election maps**: The paper uses county-level data from the 2012 and 2016 U.S. presidential elections. This dataset includes demographic features and election outcomes.
+
+3. **Transportation networks**: Specifically, data from Anaheim and Chicago are used, which include traffic flow information on directed lanes.
+
+4. **Sexual interactions network**: This dataset is derived from an HIV transmission study and is used to predict the gender of individuals based on their connections.
+
+5. **Twitch social network**: This dataset represents online friendships among Twitch streamers and is used to predict the number of viewers.
+
+I'll also check the references section to find more details about these datasets. However, the paper doesn't provide DOIs or URLs for these datasets, so I'll note that as empty strings in the metadata.
+
+Now, I'll structure each dataset according to the specified metadata fields. For each dataset, I'll extract the creator (if mentioned), description, title, publication year, language, identifier, theme, keywords, landing page, version, format, and tasks.
+
+For example, the Ising model dataset is synthetic, so the creator might be the authors of the paper. The description would explain it's a grid graph used for testing correlations. The title is straightforward, and since it's synthetic, there's no specific publication year or landing page.
+
+Similarly, the U.S. election maps dataset is described as containing county-level data, so the creator would be the authors, and the description would include the features and outcomes used.
+
+I'll ensure that each dataset is accurately described based on the paper's usage and that all fields are filled appropriately, even if some information isn't explicitly provided.
+</think>

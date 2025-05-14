@@ -1,0 +1,36 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "HCTI at SemEval-2017 Task 1: Use convolutional neural network to evaluate Semantic Textual Similarity" by Yang Shao. It describes a system for the Semantic Textual Similarity (STS) task using a convolutional neural network (CNN).
+
+In the introduction, the author mentions that STS tasks have been held from 2012 to 2017, citing Cer et al., 2017. This suggests that the datasets used are from SemEval years 2012 to 2017.
+
+Looking at the experiments section, the author states that they randomly split all dataset files of SemEval-2012 to 2015 into ten parts. They used 90% of the pairs for training and 10% for validation. They tested their model on the English dataset of SemEval-2016. Additionally, they participated in SemEval-2017 and evaluated their system on the STS benchmark dataset (Cer et al., 2017).
+
+So, the datasets mentioned are:
+1. SemEval-2012
+2. SemEval-2013
+3. SemEval-2014
+4. SemEval-2015
+5. SemEval-2016
+6. SemEval-2017
+7. STS benchmark dataset (Cer et al., 2017)
+
+Now, I need to extract metadata for each dataset. The paper doesn't provide detailed descriptions for each dataset, but I can infer based on their usage in the paper.
+
+For each dataset:
+- **dcterms:creator**: The authors of the SemEval papers. For example, Cer et al. for the STS benchmark.
+- **dcterms:description**: Briefly describe the dataset's purpose, like "Used for evaluating semantic textual similarity."
+- **dcterms:title**: The name of the dataset, e.g., "SemEval-2012."
+- **dcterms:issued**: The year the dataset was published.
+- **dcterms:language**: English, as the paper uses English datasets.
+- **dcterms:identifier**: Empty, as no DOI or URL is provided.
+- **dcat:theme**: Semantic Textual Similarity.
+- **dcat:keyword**: Keywords like "STS," "SemEval," "text similarity."
+- **dcat:landingPage**: Empty, as no URL is provided.
+- **dcterms:hasVersion**: Empty, as no version is mentioned.
+- **dcterms:format**: Text.
+- **mls:task**: Semantic Textual Similarity.
+
+I'll structure each dataset accordingly, ensuring all fields are filled based on the information available.
+</think>

@@ -1,0 +1,39 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll go through the abstract and introduction to get an overview. The paper discusses the QUASE framework, which uses QA data to improve various NLP tasks. It mentions several datasets in the context of experiments and evaluations.
+
+Looking at the sections, I see references to datasets like SQuAD, TriviaQA, NewsQA, QAMR, QA-RE, and others. Each of these datasets is used in different parts of the experiments to evaluate the performance of the QUASE framework.
+
+For each dataset, I need to extract the required metadata fields. Let's go through them one by one.
+
+1. **SQuAD**: This is a well-known dataset for machine reading comprehension. The creators are the authors cited in the reference. The description should reflect its use in the paper. The title is straightforward, and the year is when it was published. The language is English, and it's a text dataset. The tasks it's used for include reading comprehension.
+
+2. **TriviaQA**: Another dataset for QA, focusing on trivia questions. Similar structure as SQuAD but with a different focus. The tasks include QA and reading comprehension.
+
+3. **NewsQA**: This dataset uses news articles for QA tasks. The description should mention its source and use in the paper. Tasks include QA and reading comprehension.
+
+4. **QAMR**: This dataset is used for question-answer driven semantic role labeling. The description should reflect its purpose and use in the paper. Tasks include semantic role labeling and QA.
+
+5. **QA-RE**: This dataset is for relation extraction in QA format. The description should highlight its use in the paper, and the tasks include relation extraction and QA.
+
+6. **Large QA-SRL**: This is a larger version of QA-SRL, used for semantic role labeling. The description should note its size and application. Tasks include semantic role labeling and QA.
+
+7. **PropBank**: A dataset for semantic role labeling. The description should mention its use in the paper, and the tasks include SRL.
+
+8. **SemEval-15**: This dataset is used for semantic dependency parsing. The description should reflect its use in the paper, and the tasks include dependency parsing.
+
+9. **CoNLL-03**: A dataset for named entity recognition. The description should mention its use, and the tasks include NER.
+
+10. **SemEval-10 Task 8**: Used for relation extraction. The description should reflect its use, and the tasks include relation extraction.
+
+11. **CoNLL-12**: A dataset for coreference resolution. The description should mention its use, and the tasks include coreference resolution.
+
+12. **MNLI**: A dataset for textual entailment. The description should reflect its use, and the tasks include textual entailment.
+
+13. **OntoNotes 5.0**: A dataset for various NLP tasks, including SRL and NER. The description should note its use in the paper, and the tasks include SRL and NER.
+
+Now, I'll structure each dataset according to the metadata fields, ensuring all required information is included. If any field isn't specified in the paper, I'll leave it as an empty string or list as appropriate.
+
+Finally, I'll compile all the datasets into a JSON array, making sure each entry is correctly formatted and all fields are accurately filled based on the information extracted from the paper.
+</think>

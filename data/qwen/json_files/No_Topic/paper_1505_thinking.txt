@@ -1,0 +1,13 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is about training MRF-based phrase translation models using gradient ascent. It mentions several datasets, so I need to identify them and describe each using the specified metadata vocabulary.
+
+First, I'll read through the paper to spot any dataset names. The abstract mentions Europarl translation tasks for German-English and French-English. That's a good start. Europarl is a well-known dataset for machine translation.
+
+In the introduction, the authors talk about their experiments on two Europarl tasks. So, I know Europarl is a key dataset here. I should look for more details about these specific language pairs.
+
+Moving to the experiments section, the authors detail their setup using the Europarl corpus. They mention the training sets for German-English and French-English, with specific numbers of sentence pairs. They also reference the NAACL 2006 Workshop on Statistical Machine Translation (WMT06) for their data.
+
+I need to extract the metadata for each dataset. For Europarl, the creators are the European Parliament, but since the paper doesn't specify, I'll leave it as an empty list. The description should include the language pairs and their use in training and evaluation. The title is simply "Europarl". The issued year isn't provided, so it's empty. The language is German, English, and French. The identifier is the NAACL 2006 reference. The theme is machine translation. Keywords include Europarl, translation, and language pairs. The landing page is the NAACL 2006 URL. No version is mentioned, the format is text, and the task is statistical machine translation.
+
+I should structure this information into a JSON format, ensuring each field is correctly filled based on the paper's details. Since only one dataset is mentioned, the JSON will have one entry.
+</think>

@@ -1,0 +1,19 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Cost-Sensitive BERT for Generalisable Sentence Classification with Imbalanced Data" by Harish Tayyar Madabushi, Elena Kochkina, and Michael Castelle. The abstract mentions the Propaganda Techniques Corpus (PTC) and achieving the second highest score on sentence-level propaganda classification.
+
+Looking into the introduction, the authors discuss propaganda detection and mention participating in the Shared Task on Fine-Grained Propaganda Detection for the 2nd Workshop on NLP for Internet Freedom. They achieved the second rank on sentence-level classification.
+
+In the dataset section (Section 3), the authors describe the Propaganda Techniques Corpus (PTC) in detail. It consists of a training set of 350 news articles with 16,965 sentences, a development set of 61 articles with 2,235 sentences, and a test set of 86 articles with 3,526 sentences. The dataset is imbalanced, with 14.28% of sentences labeled as propaganda.
+
+The authors also mention using the Wilcoxon signed-rank test to compare the similarity of different splits of the dataset. They discuss the class imbalance and the need for cost-sensitive learning.
+
+In the methodology section, they describe using BERT for sentence classification and experimenting with different data augmentation techniques. They also mention the fragment-level classification task but focus primarily on the sentence-level task.
+
+The results section shows their performance on the test set, achieving the second rank on the sentence-level task. They also participated in the fragment-level task but did not perform as well.
+
+Throughout the paper, the only dataset explicitly mentioned and used is the Propaganda Techniques Corpus (PTC). There are no references to other datasets or external resources beyond this one.
+
+Now, I'll structure the metadata for the Propaganda Techniques Corpus (PTC) based on the information provided in the paper.
+</think>

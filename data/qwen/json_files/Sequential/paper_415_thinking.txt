@@ -1,0 +1,39 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Code Completion using Neural Attention and Byte Pair Encoding" by Youri Arkesteijny, Nikhil Saldanha, and Bastijn Kostense. It discusses their approach to code completion using Byte Pair Encoding (BPE) and compares it with existing methods.
+
+In the Data Acquisition and Generation section (Section 4), the authors mention using the "SRI labas 150k Python Dataset" as their basis for the prediction task. They also reference the BPE implementation from the "sentencepiece" library by Google.
+
+I'll need to extract metadata for each of these datasets.
+
+First, the SRI labas 150k Python Dataset:
+- **Title**: SRI labas 150k Python Dataset
+- **Creator**: The authors don't specify the creators, so I'll leave this as an empty list.
+- **Description**: A dataset containing 150,000 Python source code files used for code completion tasks.
+- **Issued**: The paper doesn't provide the publication year, so this will be empty.
+- **Language**: The dataset contains Python code, so the language is English.
+- **Identifier**: The URL provided is https://www.sri.inf.ethz.ch/py150.
+- **Theme**: Software Engineering, Code Completion.
+- **Keywords**: Python, Source Code, Code Completion.
+- **Landing Page**: The URL provided.
+- **Version**: Not specified.
+- **Format**: Text.
+- **Task**: Code Completion.
+
+Next, the BPE implementation from Google's sentencepiece:
+- **Title**: Byte Pair Encoding (BPE) implementation by Google
+- **Creator**: Google, but since organizations aren't considered, this will be an empty list.
+- **Description**: A library implementing BPE for subword tokenization.
+- **Issued**: The paper doesn't provide the publication year.
+- **Language**: English.
+- **Identifier**: The URL is https://github.com/google/sentencepiece.
+- **Theme**: Natural Language Processing, Subword Tokenization.
+- **Keywords**: BPE, Subword Tokenization, Byte Pair Encoding.
+- **Landing Page**: The GitHub URL.
+- **Version**: Not specified.
+- **Format**: Software/Library.
+- **Task**: Text Tokenization.
+
+I'll structure this information into the required JSON format, ensuring each dataset is accurately represented with the extracted metadata.
+</think>

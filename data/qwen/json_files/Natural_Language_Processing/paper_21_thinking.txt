@@ -1,0 +1,53 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about a method for conversational machine comprehension using BERT. I need to identify all the datasets used or mentioned in this paper and describe them using the specified metadata vocabulary.
+
+First, I'll read through the paper to spot any dataset names. The abstract mentions QuAC and CoQA as representative CMC datasets. In the introduction, they again refer to QuAC and CoQA, explaining that these datasets were released for answering sequential questions in a dialogue. 
+
+Looking further, in the experiments section, they evaluate their method on QuAC and CoQA. They also mention SQuAD in the context of BERT's performance on single-turn comprehension. So, SQuAD is another dataset mentioned.
+
+Now, I need to gather metadata for each of these datasets. 
+
+Starting with QuAC:
+- **Creators**: The authors are Eunsol Choi, He He, Mohit Iyyer, Mark Yatskar, Wen-tau Yih, Yejin Choi, Percy Liang, and Luke Zettlemoyer.
+- **Description**: It's a dataset for conversational machine comprehension, containing multi-turn dialogues with questions and answers.
+- **Title**: QuAC.
+- **Issued**: 2018.
+- **Language**: English.
+- **Identifier**: The paper cites it as [Choi et al., 2018], but I don't have a DOI or URL here.
+- **Theme**: Natural Language Processing, Question Answering.
+- **Keywords**: Conversational QA, Multi-turn dialogue.
+- **Landing Page**: Not provided in the paper.
+- **Version**: Not mentioned.
+- **Format**: Text.
+- **Task**: Conversational Machine Comprehension.
+
+Next, CoQA:
+- **Creators**: Siva Reddy, Danqi Chen, and Christopher D. Manning.
+- **Description**: A conversational question answering dataset with diverse domains.
+- **Title**: CoQA.
+- **Issued**: 2018.
+- **Language**: English.
+- **Identifier**: Cited as [Reddy et al., 2018].
+- **Theme**: Natural Language Processing, Question Answering.
+- **Keywords**: Conversational QA, Multi-domain.
+- **Landing Page**: Not provided.
+- **Version**: Not mentioned.
+- **Format**: Text.
+- **Task**: Conversational Machine Comprehension.
+
+Lastly, SQuAD:
+- **Creators**: Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang.
+- **Description**: A dataset for single-turn machine comprehension with questions and answers from Wikipedia articles.
+- **Title**: SQuAD.
+- **Issued**: 2016.
+- **Language**: English.
+- **Identifier**: Cited as [Rajpurkar et al., 2016].
+- **Theme**: Natural Language Processing, Question Answering.
+- **Keywords**: Machine Comprehension, Extractive QA.
+- **Landing Page**: Not provided.
+- **Version**: Not mentioned.
+- **Format**: Text.
+- **Task**: Single-turn Machine Comprehension.
+
+I need to ensure that each dataset's metadata is accurately captured based on the paper's references and descriptions. I'll structure each dataset as a JSON object with the specified fields.
+</think>

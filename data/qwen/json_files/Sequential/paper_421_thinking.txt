@@ -1,0 +1,37 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about hyperpartisan news detection using ELMo and CNNs. Let me go through it step by step.
+
+First, I'll read the abstract to get an overview. It mentions SemEval-2019 Task 4, which is about hyperpartisan news detection. The authors used two datasets: by-publisher and by-article. That's a good start.
+
+Looking into the introduction, they elaborate on the datasets. The by-publisher corpus has 750K articles, split into 600K training and 150K validation. The by-article set has 645 manually labeled articles. The evaluation was done on 628 manually labeled articles. So, I have three datasets here: by-publisher, by-article (training), and the test set.
+
+Next, I'll check the references for more details. The by-publisher and by-article datasets are cited in the paper, but I don't see specific DOIs or URLs. The authors mention that the evaluation was on a hidden test set, which wasn't available to participants.
+
+I need to structure each dataset with the required metadata. For each, I'll note the creators, description, title, year, language, identifier, themes, keywords, landing page, version, format, and tasks.
+
+Creators: The paper's authors are not the creators of the datasets. The datasets are from the SemEval task, so the creators would be the organizers, but they aren't specified here. I'll leave creators as empty lists.
+
+Descriptions: I'll base these on how the paper describes each dataset. For example, the by-publisher corpus is automatically classified based on news source bias.
+
+Titles: Straightforward from the paper—by-publisher, by-article, and the test set.
+
+Issued: The paper was published in 2019, but the datasets' publication years aren't specified. I'll leave them as empty strings.
+
+Language: The datasets are in English, as the paper is in English and discusses news articles.
+
+Identifier: No DOIs or URLs are provided, so these will be empty.
+
+Themes: All datasets fall under "News Analysis" and "Text Classification."
+
+Keywords: I'll include terms like "hyperpartisan news," "text classification," and "manual labeling."
+
+Landing Page: No URLs provided, so empty.
+
+Version: Not mentioned, so empty.
+
+Format: All are text datasets.
+
+Tasks: Each dataset is used for hyperpartisan news detection, so that's the task.
+
+Putting it all together, I'll create three JSON entries for each dataset mentioned.
+</think>

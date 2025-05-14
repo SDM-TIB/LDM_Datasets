@@ -1,0 +1,17 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is titled "Analysis of Atomistic Representations Using Weighted Skip-Connections" by Kim A. Nicoli and others. 
+
+First, I'll read through the abstract and introduction to get a sense of what datasets are being used. The abstract mentions the QM9 and MD17 datasets. That's a good start.
+
+Next, I'll look into the methodology section to see how these datasets are used. The paper discusses using sc-SchNet, an extension of the SchNet architecture, for predicting molecular properties. They mention evaluating their model on the QM9 and MD17 datasets.
+
+In the results section, they provide detailed performance metrics for both datasets. QM9 is used for predicting internal energy, while MD17 is used for predicting potential energy surfaces and force fields for molecules like benzene, ethanol, salicylic acid, and aspirin.
+
+Looking at the references, I find that QM9 is cited as reference [32] and MD17 as [6,7,18]. I need to extract the creators, descriptions, titles, and other metadata for each dataset.
+
+For QM9, the creators are Raghunathan Ramakrishnan, Pavlo Dral, Matthias Rupp, and O Anatole von Lilienfeld. It's a dataset of 134,000 organic molecules with various properties. It was published in 2014.
+
+MD17, on the other hand, is created by Stefan Chmiela, Huziel Sauceda, Kristof Schütt, and others. It's focused on molecular dynamics trajectories of specific molecules and was published in 2017.
+
+I'll structure each dataset with the required metadata fields, ensuring that each field is accurately filled based on the information from the paper and its references.
+</think>

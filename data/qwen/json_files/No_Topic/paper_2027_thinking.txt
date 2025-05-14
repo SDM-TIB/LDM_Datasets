@@ -1,0 +1,23 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Joint Recovery of Dense Correspondence and Cosegmentation in Two Images" by Tatsunori Taniai, Sudipta N. Sinha, and Yoichi Sato. It's about a new technique for jointly recovering cosegmentation and dense correspondence in two images.
+
+In the abstract, they mention evaluating their method on a new dataset of 400 image pairs with manually obtained ground truth. So, that's one dataset: their own dataset with 400 image pairs.
+
+Looking further into the introduction, they reference existing datasets. For example, they mention the FG3DCar dataset, which contains images of vehicles. They also reference the JODS dataset, which includes images of airplanes, horses, and cars. Additionally, they use the PASCAL dataset, which includes images of bicycles, motorbikes, buses, cars, and trains.
+
+In the dataset section, they describe their new dataset, which is divided into three groups: FG3DCar, JODS, and PASCAL. They provide details about each group, such as the number of image pairs and the types of objects included.
+
+I should note that FG3DCar, JODS, and PASCAL are existing datasets, while the new dataset created by the authors combines these with additional segmentation masks and iow maps.
+
+Now, I'll structure each dataset with the required metadata fields. For each dataset, I'll include the creator, description, title, issued year, language, identifier, theme, keyword, landing page, version, format, and task.
+
+For the new dataset created by the authors, the creators are Tatsunori Taniai, Sudipta N. Sinha, and Yoichi Sato. The description is that it's a new dataset with 400 image pairs used for evaluating their method. The title is "New Dataset". The issued year isn't provided, so it's empty. Language is empty. Identifier is empty. Theme includes Computer Vision and Image Processing. Keywords are cosegmentation, correspondence, and image pairs. Landing page is empty. Version is empty. Format is Image. Task is cosegmentation and correspondence estimation.
+
+For FG3DCar, the creators are not explicitly mentioned in the paper, so it's an empty list. The description is that it's a dataset of vehicles used for evaluation. The title is "FG3DCar". Issued year is empty. Language is empty. Identifier is empty. Theme is Computer Vision. Keywords are vehicles and image pairs. Landing page is empty. Version is empty. Format is Image. Task is cosegmentation.
+
+Similarly, for JODS and PASCAL, the creators are not mentioned, so they are empty lists. Their descriptions, titles, themes, keywords, and tasks are noted accordingly.
+
+I need to ensure that each dataset is accurately described based on the paper's usage and that the metadata fields are correctly filled. I'll avoid including any information not explicitly mentioned in the paper.
+</think>

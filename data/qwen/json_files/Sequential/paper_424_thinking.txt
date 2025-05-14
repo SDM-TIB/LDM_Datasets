@@ -1,0 +1,28 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about the CLEARumor submission to SemEval-2019 Task 7, which deals with determining the veracity of rumors and the stance of replies. 
+
+First, I'll read through the abstract and introduction to understand the context. The paper mentions that they participated in both subtasks of the RumourEval 2019 competition. Subtask A involves classifying the type of interaction between a rumorous post and its replies, while Subtask B is about predicting the veracity of the rumor.
+
+Looking further into the paper, I see that the dataset used is from RumourEval 2019. The authors provide a summary of the dataset in Table 1, which breaks down the instances into classes, social media platforms (Twitter and Reddit), and splits (training, development, test). 
+
+I need to identify if there are any other datasets mentioned besides RumourEval 2019. Scanning through the sections on preprocessing, ELMo embeddings, system description, evaluation, and references, I don't find any other datasets. The paper primarily uses the RumourEval dataset for both subtasks.
+
+Now, I'll structure the metadata for the RumourEval 2019 dataset based on the provided vocabulary:
+
+- **dcterms:creator**: The authors of the dataset. From the references, the creators are Genevieve Gorrell, Kalina Bontcheva, Leon Derczynski, Elena Kochkina, Maria Liakata, and Arkaitz Zubiaga.
+- **dcterms:description**: The dataset contains labeled threads from Twitter and Reddit, each with a source post mentioning a rumor. It includes interactions classified into support, deny, query, or comment, and the veracity of the rumor.
+- **dcterms:title**: "RumourEval 2019"
+- **dcterms:issued**: The year 2019.
+- **dcterms:language**: English, as the dataset is from Twitter and Reddit, which are primarily in English.
+- **dcterms:identifier**: The URL from the reference is https://www.aclweb.org/anthology/S19-2073.pdf.
+- **dcat:theme**: Themes include Social Media Analysis, Rumor Detection, and Natural Language Processing.
+- **dcat:keyword**: Keywords like Rumor detection, Social media, Interaction classification, Veracity prediction.
+- **dcat:landingPage**: The URL to the dataset's reference.
+- **dcterms:hasVersion**: Not explicitly mentioned, so it's an empty string.
+- **dcterms:format**: Text, as the dataset consists of text posts.
+- **mls:task**: Tasks include Rumor Veracity Classification and Interaction Type Classification.
+
+I need to ensure that all fields are correctly filled based on the information from the paper. The creators are the dataset authors, not the paper's authors. The description is based on how the paper uses the dataset. The landing page is the reference URL provided. The tasks are the subtasks addressed in the paper.
+
+I should avoid including any other datasets not mentioned. Since the paper only refers to RumourEval 2019, that's the only dataset to include.
+</think>

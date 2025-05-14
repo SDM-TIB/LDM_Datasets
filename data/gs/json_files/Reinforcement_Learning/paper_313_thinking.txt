@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "Learning to Search for Fast Maximum Common Subgraph Detection," I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets that are explicitly mentioned. The abstract mentions experiments on "synthetic and real-world large graph pairs," which suggests that there are datasets used for evaluation.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments** section. In this paper, there is a section titled **A DATASET DESCRIPTION** that provides detailed information about the datasets used for evaluation.
+
+In this section, the following datasets are described:
+
+1. **NCI109**: This dataset consists of small-sized chemical compounds, with nodes labeled to indicate atom types. The authors formed 100 graph pairs from this dataset, with an average graph size of 28.73.
+   - Citation: Wale, N., Watson, I. A., & Karypis, G. (2008). Comparison of descriptor spaces for chemical compound retrieval and classification. *Knowledge and Information Systems*, 14(3), 347-375.
+
+2. **ROAD**: This dataset represents a road network of California, where nodes indicate intersections and endpoints, and edges represent the roads connecting them. The authors sampled a connected subgraph of around 0.05% of the total nodes to generate the graph pairs.
+   - Citation: Leskovec, J., Lang, K. J., Dasgupta, A., & Mahoney, M. W. (2009). Community structure in large networks: Natural cluster sizes and the absence of large well-defined clusters. *Internet Mathematics*, 6(1), 29-123.
+
+3. **DBEN, DBZH, and DBPD**: These datasets consist of pairs of DBpedia knowledge graphs in different languages. The authors sampled nodes from these graphs to create the graph pairs used in their experiments.
+   - Citation: Sun, Z., Hu, W., & Li, C. (2017). Cross-lingual entity alignment via joint attribute-preserving embedding. In *International Semantic Web Conference* (pp. 628-644). Springer.
+
+4. **ENRO**: This dataset is an email communication network where nodes represent email addresses and edges represent emails sent between them. The authors sampled around 10% of the nodes to generate the graph pair.
+   - Citation: Klimt, B., & Yang, Y. (2004). Introducing the Enron corpus. In *CEAS*.
+
+5. **COPR**: This dataset represents an Amazon computer product network, where nodes represent goods and edges represent goods frequently purchased together. The authors sampled around 0.5% of the nodes for their experiments.
+   - Citation: Shchur, O., Mumme, M., Bojchevski, A., & Günnemann, S. (2018). Pitfalls of graph neural network evaluation. *Relational Representation Learning Workshop (R2L 2018)*, NeurIPS 2018.
+
+6. **CIRC**: This dataset consists of circuit diagrams where nodes represent devices/wires and edges represent the connections between them. The graphs are known to be isomorphic, and no sampling was performed.
+   - Citation: Not explicitly cited in the paper.
+
+7. **HPPI**: This dataset is a human protein-protein interaction network, where nodes represent proteins and edges represent physical interactions between them. The authors sampled around 10% of the nodes for their experiments.
+   - Citation: Agrawal, M., Zitnik, M., Leskovec, J., et al. (2018). Large-scale analysis of disease pathways in the human interactome. In *PSB* (pp. 111-122). World Scientific.
+
+After identifying these datasets and their descriptions, I will compile the full citations for each dataset as they are crucial for proper referencing in any subsequent analysis or application of the research findings.
+
+Finally, I will ensure that the extracted information is organized and ready for any further processing or documentation needs.

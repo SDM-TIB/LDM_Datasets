@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Empirical Evaluation of Sequence-to-Sequence Models for Word Discovery in Low-resource Settings" by Marcely Zanon Boito et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental settings sections** to identify any datasets mentioned. The abstract indicates that the paper evaluates sequence-to-sequence models for word discovery, which suggests that datasets are likely involved.
+
+In the **introduction**, the authors discuss the task of aligning word sequences with phoneme sequences, hinting at the use of specific datasets for this purpose. I will look for explicit mentions of datasets in this section.
+
+Next, I will focus on **section 2 (Experimental Settings)**, particularly the subsection **2.2 (Parallel Speech Corpora)**, where the authors explicitly mention two datasets:
+
+1. **English-French (EN-FR) Corpus**: This dataset consists of 33,192 sentences and is a multilingual extension from Librispeech, containing English audio books aligned with French translations.
+
+2. **Mboshi-French (MB-FR) Corpus**: This dataset contains 5,130 sentences from the language documentation process of Mboshi, an endangered language spoken in Congo-Brazzaville.
+
+The authors provide a detailed description of both datasets, including their sizes and characteristics, which confirms their relevance for the experiments conducted in the paper.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **English-French (EN-FR) Corpus**, the citation is:
+  > V. Panayotov, G. Chen, D. Povey, and S. Khudanpur. *Librispeech: An ASR corpus based on public domain audio books*. In 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 5206–5210, 2015. Available: https://doi.org/10.1109/ICASSP.2015.7178964
+
+- For the **Mboshi-French (MB-FR) Corpus**, the citation is:
+  > P. Godard, G. Adda, M. Adda-Decker, J. Benjumea, L. Besacier, J. Cooper-Leavitt, G.-N. Kouarata, L. Lamel, H. Maynard, M. Müller et al. *A very low resource language speech corpus for computational language documentation experiments*. arXiv preprint arXiv:1710.03501, 2017.
+
+With these citations in hand, I will now prepare to compile the dataset entries into a structured format for further processing. This ensures that I have accurately captured the datasets used in the research and their corresponding citations.

@@ -1,0 +1,55 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is titled "On learning to refer to things based on discriminative properties" by Angeliki Lazaridou, Nghia The Pham, and Marco Baroni. It's from the 54th Annual Meeting of the Association for Computational Linguistics in 2016.
+
+First, I'll read through the paper to identify any datasets mentioned. The abstract talks about a system that identifies discriminative attributes between objects, using visual representations. In the introduction, they mention the Visual Attributes for Concepts Dataset (ViSA) by Silberer et al. (2013). That's one dataset.
+
+Looking further into the paper, in section 2, they describe their Discriminative Attribute Dataset, which they built using ViSA. They mention that ViSA contains per-concept attributes for 500 concrete concepts, which they reduced to 462 concepts and 573 attributes. They also used ImageNet (Deng et al., 2009) to extract visual representations. So ImageNet is another dataset mentioned.
+
+In section 5, they refer to the ReferIt dataset by Kazemzadeh et al. (2014) for evaluating referential success. That's the third dataset.
+
+Now, I need to extract metadata for each of these datasets using the specified vocabulary.
+
+For ViSA:
+- Creator: Silberer, Ferrari, and Lapata (from the reference).
+- Description: A dataset with per-concept attributes for 500 concepts, reduced to 462 and 573 attributes.
+- Title: Visual Attributes for Concepts Dataset (ViSA).
+- Issued: 2013.
+- Language: Not specified, so empty.
+- Identifier: Not provided, so empty.
+- Theme: Computer Vision, Semantics.
+- Keywords: Visual attributes, concepts, discriminative features.
+- Landing page: Not provided.
+- Version: Not mentioned.
+- Format: Text, attributes.
+- Task: Attribute prediction, discriminative features.
+
+For ImageNet:
+- Creator: Deng, Dong, Socher, Li, and Fei-Fei.
+- Description: Large image database with hierarchical labels.
+- Title: ImageNet.
+- Issued: 2009.
+- Language: Not specified.
+- Identifier: Not provided.
+- Theme: Computer Vision, Image Classification.
+- Keywords: Images, visual representations, CNN features.
+- Landing page: Not provided.
+- Version: Not mentioned.
+- Format: Images.
+- Task: Visual feature extraction.
+
+For ReferIt:
+- Creator: Kazemzadeh, Ordonez, Matten, and Berg.
+- Description: Dataset with referring expressions for objects in natural scenes.
+- Title: ReferIt.
+- Issued: 2014.
+- Language: English.
+- Identifier: Not provided.
+- Theme: Natural Language Processing, Computer Vision.
+- Keywords: Referring expressions, object recognition.
+- Landing page: Not provided.
+- Version: Not mentioned.
+- Format: Text, images.
+- Task: Referring expression generation, object recognition.
+
+I need to make sure each field is correctly filled based on the paper's description and the references provided. I'll structure each dataset as a JSON object with the specified metadata fields.
+</think>

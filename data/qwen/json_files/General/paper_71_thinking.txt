@@ -1,0 +1,27 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is titled "Train, Sort, Explain: Learning to Diagnose Translation Models" and it's authored by several researchers from DFKI and TU Berlin. 
+
+First, I'll read through the abstract to get a general idea. The paper discusses evaluating translation models, comparing automatic methods like BLEU with human evaluations. They propose a method using a neural text classifier to distinguish between human and machine translations, and they've implemented a tool called DiaMaT. 
+
+Looking at the introduction, they mention the need for diagnostic evaluations and reference previous work, including the Transformer model by Vaswani et al. (2017). They also mention the WMT14 data setup and the WMT13 and WMT14 test sets. 
+
+In the datasets and experiments section, they tested DiaMaT on a corpus translated by an NMT Transformer engine, conforming to the WMT14 data setup. They used the WMT18 training data, excluding WMT14, and evaluated on test sets excluding WMT13. 
+
+So, the datasets mentioned are:
+1. WMT14 (WMT14 data setup)
+2. WMT13 (test set)
+3. WMT14 (test set)
+4. WMT18 (training data)
+
+I need to extract metadata for each. 
+
+For WMT14, the creators are the WMT organizers, but the paper doesn't specify individual creators. The description is about the data setup for machine translation. The title is "WMT14 Data Setup". It was issued in 2014. The language is likely multilingual, as it's for translation. The identifier is the reference from Bojar et al., 2014. The theme is machine translation. Keywords include machine translation, corpus, WMT. The landing page is the WMT website. The format is text. The task is machine translation evaluation.
+
+For WMT13, similar details apply but for the test set in 2013.
+
+For WMT14 test set, same as above but for 2014.
+
+For WMT18, it's the training data used in 2018.
+
+I'll structure each dataset with the appropriate metadata fields, noting that some fields might be empty if not specified.
+</think>

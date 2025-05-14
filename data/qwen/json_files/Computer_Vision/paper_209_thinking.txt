@@ -1,0 +1,25 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll look through the abstract and introduction to see if any datasets are referenced. The abstract mentions "360a imagery" and "spherical convolution," but doesn't specify any datasets. The introduction discusses the growing amount of 360a data, but again, no specific datasets are named.
+
+Moving on to the related work section, I see references to methods like SphConv, SphereNet, and others, but these are methods, not datasets. The datasets are likely mentioned in the experiments section.
+
+In the experiments section, the authors mention three datasets: Spherical MNIST, Pano2Vid, and Pascal VOC. Let me break down each of these.
+
+1. **Spherical MNIST**: This dataset is constructed by backprojecting MNIST digits into equirectangular projection. The authors mention it's used for evaluating the accuracy of their method. The description should include how it's created and its resolution.
+
+2. **Pano2Vid**: This is a real-world 360a video dataset containing 86 videos from four categories. The authors sampled frames for training and testing, resizing them to 640x320. It's used to evaluate the RMSE of the convolution outputs.
+
+3. **Pascal VOC**: Specifically, the Pascal VOC 2007 dataset is used. It's a perspective image dataset with object annotations. The authors backproject the object bounding boxes to equirectangular projection for evaluation.
+
+Now, I need to gather metadata for each dataset. For each, I'll look for the creator, description, title, publication year, language, identifier, theme, keywords, landing page, version, format, and tasks.
+
+- **Spherical MNIST**: The creator isn't explicitly mentioned, but it's based on MNIST, which was created by Yann LeCun. The description is as provided. The title is "Spherical MNIST." The year isn't specified, so it's empty. No language is specified. No identifier or landing page is provided. Themes are Computer Vision and Image Processing. Keywords include MNIST, 360 imagery, and equirectangular projection. Format is Image. Task is Image Classification.
+
+- **Pano2Vid**: The creator isn't mentioned, but it's a dataset used in the paper. Description as provided. Title is "Pano2Vid." Year isn't specified. No language, identifier, or landing page. Themes are Computer Vision and Video Processing. Keywords include 360 video, convolution, and feature extraction. Format is Video. Task is Feature Extraction.
+
+- **Pascal VOC 2007**: The creators are the Pascal VOC team. Description as provided. Title is "Pascal VOC 2007." Year is 2007. No language, identifier, or landing page. Themes are Computer Vision and Object Detection. Keywords include object detection, perspective images, and equirectangular projection. Format is Image. Task is Object Detection.
+
+I'll structure each dataset into the required JSON format, ensuring all fields are filled based on the information extracted.
+</think>

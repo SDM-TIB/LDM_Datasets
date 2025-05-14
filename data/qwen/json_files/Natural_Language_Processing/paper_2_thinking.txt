@@ -1,0 +1,19 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the given research paper. The paper is about sarcasm generation using a method called R3: Reverse, Retrieve, and Rank for Sarcasm Generation with Commonsense Knowledge. The authors mention several datasets in their work, so I need to identify each one and extract their metadata.
+
+First, I'll go through the paper section by section. In the introduction, they mention that sarcasm generation is a challenging problem and reference some prior works. They also mention that they use a dataset released by Ghosh et al. (2020) which contains 4,762 pairs of sarcastic messages and interpretations. That's one dataset.
+
+Next, in the Related Work section, they talk about Peled and Reichart (2017) who introduced a dataset of 3,000 sarcastic tweets. This is another dataset. They also mention that they merged this dataset with the one from Ghosh et al. (2020) to create their test set.
+
+Looking further, they mention the Multi-Genre NLI (MNLI) corpus by Williams et al. (2018), which they used for training their contradiction detection model. This is the third dataset.
+
+I need to extract metadata for each of these datasets. For each, I'll look for the creators, description, title, publication year, language, identifier, theme, keywords, landing page, version, format, and tasks.
+
+For Ghosh et al. (2020), the creators are Debanjan Ghosh, Smaranda Muresan, and others. The dataset has 4,762 pairs of sarcastic messages and interpretations. It's in English, used for sarcasm generation and detection, and the landing page is a GitHub repository.
+
+Peled and Reichart's dataset has 3,000 sarcastic tweets, created by Lotem Peled and Roi Reichart. It's also in English, used for sarcasm detection, and the landing page is another GitHub link.
+
+The MNLI corpus by Williams et al. (2018) is a large-scale dataset for NLI tasks, created by Adina Williams, Nikita Nangia, and Samuel Bowman. It's in English, used for training contradiction detection models, and the landing page is the official website.
+
+I need to structure all this information into JSON format, making sure each dataset has all the required fields. If some information isn't available, I'll leave those fields empty.
+</think>

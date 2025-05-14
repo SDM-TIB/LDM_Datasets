@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Superadditivity and Convex Optimization for Globally Optimal Cell Segmentation using Deformable Shape Models" by Leonid Kostrykin and Karl Rohr, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets mentioned. The abstract provides a brief overview of the methods and results, and it may mention specific datasets used for evaluation.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets in detail. In this paper, the authors mention using **six image datasets of five different cell types** for their experiments. I will look for specific names and details about these datasets.
+
+In the **4.2 Datasets section**, the authors provide detailed descriptions of the datasets used:
+
+1. **NIH3T3 dataset**: This dataset consists of 49 Hoechst-stained images with a size of 1344 x 1024 pixels, including 2212 cell nuclei. The dataset is challenging due to strong auto-fluorescence artifacts and closely clustered nuclei.
+   - Citation: Coelho, L., Shariff, A., & Murphy, R. (2009). Nuclear segmentation in microscope cell images: A hand-segmented dataset and comparison of algorithms. In Proc. Int. Symp. Biomed. Imag. (pp. 518–521).
+
+2. **U2OS dataset**: This dataset consists of 48 images of U2OS cells stained with Hoechst 33342, with a size of 1349 x 1030 pixels, including 1836 cell nuclei. The dataset presents challenges due to non-elliptical shapes and clustering.
+   - Citation: Coelho, L., Shariff, A., & Murphy, R. (2009). Nuclear segmentation in microscope cell images: A hand-segmented dataset and comparison of algorithms. In Proc. Int. Symp. Biomed. Imag. (pp. 518–521).
+
+3. **GOWT1 datasets**: Two datasets of GFP-transfected mouse embryonic stem cells from the IEEE ISBI Cell Tracking Challenge training data, consisting of temporal image sequences with sizes of 1024 x 1024 pixels. The first dataset has 31 images with 150 cell nuclei, and the second has 20 images with 128 cell nuclei.
+   - Citation: Maška, M., Ulman, V., Svoboda, D., et al. (2014). A benchmark for comparison of cell tracking algorithms. Bioinformatics, 30(11), 1609-1617.
+
+4. **Fibroblast dataset**: This dataset contains 175 3-D stacks of DAPI-stained images of human Fibroblast cells, with a total of 985 cell nuclei.
+   - Citation: Kalinin, A. A., et al. (2018). 3D cell nuclear morphology: Microscopy imaging dataset and voxel-based morphometry classification results. In Proc. Conf. Comp. Vis. Pattern Recognit. Workshops (pp. 2272–2280).
+
+5. **HeLa dataset**: This dataset includes 25 DAPI-stained HeLa images, containing 282 cell nuclei, with each image sized 1200 x 1620 pixels.
+   - Citation: Coelho, L., Shariff, A., & Murphy, R. (2009). Nuclear segmentation in microscope cell images: A hand-segmented dataset and comparison of algorithms. In Proc. Int. Symp. Biomed. Imag. (pp. 518–521).
+
+After identifying these datasets, I will ensure to retrieve the full citations for each dataset from the **References section** of the paper. This will allow me to compile a comprehensive list of datasets used in the research.
+
+Finally, I will summarize the findings in a structured format, ensuring that each dataset is clearly described along with its citation for future reference.

@@ -1,0 +1,75 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A large dataset containing trip records from New York City taxis, including pickup and drop-off dates/times, locations, and travel distances for each trip. This dataset is used to simulate policy-agnostic responses to dispatch decisions in the MOVI framework.",
+        "dcterms:title": "New York City taxi trip records",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml",
+        "dcat:theme": [
+            "Transportation",
+            "Urban Mobility"
+        ],
+        "dcat:keyword": [
+            "Taxi trip records",
+            "New York City",
+            "Ride-hailing",
+            "Transportation data"
+        ],
+        "dcat:landingPage": "http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Taxi dispatch simulation",
+            "Demand prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset containing road network data from Open Street Map, used to construct a directed graph for modeling the road network in the service area of the MOVI simulator.",
+        "dcterms:title": "Open Street Map road data",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.openstreetmap.org",
+        "dcat:theme": [
+            "Geospatial Data",
+            "Transportation"
+        ],
+        "dcat:keyword": [
+            "Road network",
+            "Geospatial data",
+            "OpenStreetMap"
+        ],
+        "dcat:landingPage": "https://www.openstreetmap.org",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Takuma Oda",
+            "Carlee Joe-Wong"
+        ],
+        "dcterms:description": "A technical report detailing a model-free approach to dynamic fleet management, which includes methodologies and findings relevant to the MOVI framework.",
+        "dcterms:title": "A Model-Free Approach to Dynamic Fleet Management",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.dropbox.com/s/ujqova12lnklgn5/dynamic-fleet-management-TR.pdf?dl=0",
+        "dcat:theme": [
+            "Fleet Management",
+            "Reinforcement Learning"
+        ],
+        "dcat:keyword": [
+            "Dynamic fleet management",
+            "Model-free approach",
+            "Reinforcement learning"
+        ],
+        "dcat:landingPage": "https://www.dropbox.com/s/ujqova12lnklgn5/dynamic-fleet-management-TR.pdf?dl=0",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "PDF",
+        "mls:task": [
+            "Fleet management optimization",
+            "Policy evaluation"
+        ]
+    }
+]

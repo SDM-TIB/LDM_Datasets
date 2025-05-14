@@ -1,0 +1,21 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is titled "Towards Semi-Supervised End-to-End Scene Text Recognition" by Christian Bartz, Haojin Yang, and Christoph Meinel. 
+
+First, I'll read through the paper to identify any datasets that are mentioned. I'll start by looking at the abstract, introduction, related work, proposed system, experiments, and conclusion sections.
+
+In the abstract, the authors mention that they performed experiments on standard benchmark datasets. This suggests that they used well-known datasets in their research. 
+
+Moving to the introduction, they discuss the importance of scene text recognition and mention that their system was tested on standard benchmark datasets. Again, this indicates the use of established datasets.
+
+In the related work section, they reference several studies and mention datasets like SVHN and FSNS. Specifically, they discuss experiments on the SVHN dataset and the French Street Name Signs (FSNS) dataset. 
+
+Looking at the experiments section, they detail their tests on the SVHN dataset, which is the Street View House Numbers dataset, and the FSNS dataset. They also mention generating their own datasets based on SVHN for more complex experiments.
+
+The SVHN dataset is a well-known benchmark for scene text recognition, containing images of house numbers. The FSNS dataset, on the other hand, consists of French street name signs extracted from Google Street View, making it more challenging due to varying text lengths and backgrounds.
+
+I'll need to extract metadata for each of these datasets. For SVHN, the creators are Netzer et al., and it's published in 2011. The description mentions it's used for recognizing house numbers in natural scenes. The language is English, and the format is images. The task is scene text recognition.
+
+For FSNS, the creators are Smith et al., published in 2016. It's used for recognizing street names in French, so the language is French. The format is images, and the task is scene text recognition as well.
+
+I'll structure this information into JSON format, ensuring each dataset has the required metadata fields.
+</think>

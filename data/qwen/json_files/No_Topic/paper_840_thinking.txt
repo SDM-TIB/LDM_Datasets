@@ -1,0 +1,51 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. Let's go through the paper step by step.
+
+First, the paper is titled "Using CollGram to Compare Formulaic Language in Human and Machine Translation" by Yves Bestgen. The abstract mentions comparing formulaic sequences in human and neural machine translations, using CollGram. So, CollGram is a tool, but I need to check if it's a dataset.
+
+Looking at the introduction, CollGram is described as a technique proposed by [4], improved by [13], and automated by [10]. It uses mutual information (MI) and t-score to measure lexical associations. The paper mentions that these indices are calculated on the basis of frequencies in a reference corpus. The reference corpus used is the British National Corpus (BNC2). 
+
+In the Method section, under 2.1, the PLECI corpus is mentioned. It's a sentence-aligned translation corpus of quality newspaper articles in French and English. The texts are from Le Monde diplomatique. The corpus is used to compare human translations with those from NMT systems like DeepL, Google Translate, and Microsoft Translator.
+
+The CollGram tool is used to analyze bigrams in the texts, and the BNC2 is the reference corpus for calculating MI and t-scores. The PLECI corpus is the main dataset used for the study, containing the texts and their translations.
+
+In the references, the BNC2 is cited as the 100 million word British National Corpus. The PLECI corpus is mentioned in the paper as the corpus used for the study, but it's not explicitly cited in the references. However, the paper provides a URL for PLECI: http://uclouvain.be/en/research-institutes/ilc/cecl/pleci.html.
+
+So, the datasets mentioned are:
+1. PLECI corpus
+2. British National Corpus (BNC2)
+
+Now, I'll extract the metadata for each dataset based on the information provided in the paper.
+
+For PLECI:
+- Creator: The paper mentions that the author (Yves Bestgen) would like to thank Sylviane Granger and MaA AtA e Dupont for access to the PLECI corpus. So, the creators are Sylviane Granger and MaA AtA e Dupont.
+- Description: A sentence-aligned translation corpus of quality newspaper articles in French and English.
+- Title: PLECI corpus
+- Issued: The paper doesn't specify the year, but the corpus was used in 2021 for the study.
+- Language: French and English
+- Identifier: The URL provided is http://uclouvain.be/en/research-institutes/ilc/cecl/pleci.html
+- Theme: Translation studies, Corpus linguistics
+- Keywords: Translation corpus, Newspaper articles, Sentence-aligned
+- Landing page: The URL provided
+- Version: Not mentioned
+- Format: Text
+- Task: Translation comparison, Formulaic language analysis
+
+For BNC2:
+- Creator: The British National Corpus is a well-known corpus, but the paper doesn't specify individual creators. It's cited as "www.natcorp.ox.ac.uk" in the paper.
+- Description: A 100 million word reference corpus used for calculating lexical association indices.
+- Title: British National Corpus (BNC2)
+- Issued: The paper doesn't specify the year, but BNC2 is an updated version of BNC, which was first released in the 1990s.
+- Language: English
+- Identifier: www.natcorp.ox.ac.uk
+- Theme: Corpus linguistics, Lexical analysis
+- Keywords: Reference corpus, Lexical association, Mutual information
+- Landing page: www.natcorp.ox.ac.uk
+- Version: BNC2
+- Format: Text
+- Task: Lexical association analysis, Formulaic language detection
+
+I need to ensure that the creators are correctly identified. For PLECI, the creators are Sylviane Granger and MaA AtA e Dupont as mentioned in the paper. For BNC2, since the paper doesn't list individual creators, I'll leave it as an empty list as per the instructions.
+
+Now, I'll structure this information into the required JSON format.
+</think>

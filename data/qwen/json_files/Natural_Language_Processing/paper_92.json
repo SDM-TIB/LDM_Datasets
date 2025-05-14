@@ -1,0 +1,67 @@
+[
+    {
+        "dcterms:creator": [
+            "Tara N. Sainath",
+            "Chung-Cheng Chiu",
+            "Rohit Prabhavalkar",
+            "Anjuli Kannan",
+            "Yonghui Wu",
+            "Patrick Nguyen",
+            "Zhifeng Chen"
+        ],
+        "dcterms:description": "A training dataset consisting of 15 million English utterances, anonymized and hand-transcribed, representative of Google's voice search traffic. The data is artificially corrupted using a room simulator with varying noise and reverberation levels, resulting in an overall SNR between 0 dB and 30 dB, with an average SNR of 12 dB. The noise sources include YouTube and daily life noisy environmental recordings.",
+        "dcterms:title": "Google Voice Search Training Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Speech Recognition",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Speech data",
+            "Anonymized utterances",
+            "Noise corruption",
+            "Reverberation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Speech Recognition",
+            "Neural Transducer Training"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Tara N. Sainath",
+            "Chung-Cheng Chiu",
+            "Rohit Prabhavalkar",
+            "Anjuli Kannan",
+            "Yonghui Wu",
+            "Patrick Nguyen",
+            "Zhifeng Chen"
+        ],
+        "dcterms:description": "A test dataset consisting of 14,800 anonymized, hand-transcribed English utterances extracted from Google's voice search traffic. This dataset is used to evaluate the performance of the improved neural transducer model.",
+        "dcterms:title": "Google Voice Search Test Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Speech Recognition",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Speech data",
+            "Anonymized utterances",
+            "Performance evaluation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Speech Recognition",
+            "Neural Transducer Evaluation"
+        ]
+    }
+]

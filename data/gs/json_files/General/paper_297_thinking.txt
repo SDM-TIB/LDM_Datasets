@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Understanding the Behaviors of BERT in Ranking" by Yifan Qiao et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to locate any references to datasets. The abstract mentions two ranking tasks: **MS MARCO passage reranking** and **TREC Web Track ad hoc document ranking**, indicating that these may be datasets used in the experiments.
+
+Next, I will focus on **section 3 (Experimental Methodologies)**, where the authors explicitly describe the datasets used for their experiments. Here, they detail:
+
+1. **MS MARCO**: This dataset includes question-alike queries sampled from Bing search logs, with a total of 1,010,916 training queries and a million expert-annotated answer passage relevance labels. The authors mention using the official train/develop split and the "Train Triples Small" for fine-tuning BERT.
+
+2. **ClueWeb**: This dataset consists of documents from ClueWeb09-B and queries from the TREC Web Track ad hoc retrieval tasks conducted between 2009 and 2012. It includes 200 queries with relevance judgments provided by TREC. The authors note that they follow prior research setups for data processing and evaluation.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For **MS MARCO**, the citation is:
+  > Nogueira, R., & Cho, K. (2019). Passage Re-ranking with BERT. arXiv preprint arXiv:1901.04085.
+
+- For **ClueWeb**, the citation is:
+  > Dai, Z., Xiong, C., Callan, J., & Liu, Z. (2018). Convolutional Neural Networks for Soft-Matching N-Grams in Ad-hoc Search. In Proceedings of WSDM 2018. ACM, 126–134.
+
+Now that I have gathered the necessary information about the datasets, I will prepare to create structured entries for each dataset, ensuring that I include the full citations as required. This will provide a comprehensive overview of the datasets used in the research paper.

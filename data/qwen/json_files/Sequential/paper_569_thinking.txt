@@ -1,0 +1,15 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. Let me go through the paper step by step.
+
+First, the paper is about the SEx BiST parser, which was developed for the CoNLL 2018 Shared Task. The authors mention several datasets used in their experiments. 
+
+Looking through the paper, I see references to the Universal Dependencies (UD) corpora. Specifically, they mention training and testing on various treebanks. For example, they talk about French-GSD, French-Spoken, English corpora, and others. These are all part of the UD v2.2 dataset.
+
+Additionally, the paper mentions the use of ELMo embeddings, which were pre-trained on resources from the CoNLL shared task. However, ELMo itself isn't a dataset but a model trained on large text corpora.
+
+The authors also reference the Extrinsic Parser Evaluation (EPE) campaign, which involved downstream tasks like event extraction, negation resolution, and opinion analysis. These tasks used parsed versions of UD corpora, but they don't constitute separate datasets beyond the UD framework.
+
+I don't find any other datasets mentioned beyond the UD corpora. The paper doesn't reference specific external datasets like Penn Treebank or others, focusing mainly on the UD resources for training and evaluation.
+
+So, the primary dataset used is the Universal Dependencies v2.2, which includes multiple treebanks across various languages. The authors used these for both training and testing their parser.
+</think>

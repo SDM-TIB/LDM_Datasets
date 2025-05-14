@@ -1,0 +1,109 @@
+[
+    {
+        "dcterms:creator": [
+            "Lise Gattoor"
+        ],
+        "dcterms:description": "A citation network that is used as a standard benchmark dataset. The network has 2708 nodes (scientific publications) which are classified into one of seven classes. The citation network contains 5429 links (undirected edges) between nodes. Each node is described by a 0/1 bag-of-words vector with a dictionary size of 1433.",
+        "dcterms:title": "Cora",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Networks",
+            "Graph Neural Networks"
+        ],
+        "dcat:keyword": [
+            "Citation network",
+            "Graph classification",
+            "Link prediction"
+        ],
+        "dcat:landingPage": "https://linqs.soe.ucsc.edu/data",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Link Prediction",
+            "Node Classification",
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Lise Gattoor"
+        ],
+        "dcterms:description": "Another citation network similar to Cora. It contains 3327 nodes (scientific publications), 4732 edges (links), and 6 classes. Each node in this dataset is also described by a 0/1 bag-of-words vector with a dictionary size of 3703.",
+        "dcterms:title": "CiteSeer",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Networks",
+            "Graph Neural Networks"
+        ],
+        "dcat:keyword": [
+            "Citation network",
+            "Graph classification",
+            "Link prediction"
+        ],
+        "dcat:landingPage": "https://linqs.soe.ucsc.edu/data",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Link Prediction",
+            "Node Classification",
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Lise Gattoor"
+        ],
+        "dcterms:description": "A citation network of scientific publications pertaining to diabetes from the PubMed database. It contains 19717 nodes, 44338 edges, and 3 classes. Each node is described by a TF/IDF weighted word vector with a dictionary size of 500.",
+        "dcterms:title": "PubMed",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Networks",
+            "Graph Neural Networks"
+        ],
+        "dcat:keyword": [
+            "Citation network",
+            "Graph classification",
+            "Link prediction"
+        ],
+        "dcat:landingPage": "https://linqs.soe.ucsc.edu/data",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Link Prediction",
+            "Node Classification",
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "P. Mernyei",
+            "C. Cangea"
+        ],
+        "dcterms:description": "A Wikipedia-based benchmark for graph neural networks. It consists of 11701 nodes (Wikipedia articles on Computer Science), 216213 edges (hyperlinks between articles), and 10 classes. Each node is described by a 300-dimensional vector which was obtained as the average of pretrained GloVe embeddings.",
+        "dcterms:title": "WikiCS",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:2007.02901",
+        "dcat:theme": [
+            "Graph Neural Networks",
+            "Benchmarking"
+        ],
+        "dcat:keyword": [
+            "Wikipedia",
+            "Graph neural networks",
+            "Link prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Link Prediction"
+        ]
+    }
+]

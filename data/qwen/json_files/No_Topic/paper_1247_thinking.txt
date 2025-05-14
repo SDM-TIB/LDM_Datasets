@@ -1,0 +1,20 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll go through the abstract and introduction to get an overview. The paper discusses the Common Text Analysis Platform (CTAP) for Italian, which integrates components for linguistic complexity analysis. It mentions that CTAP was originally developed for English and later extended to German and Italian. 
+
+In the sections detailing the implementation, the authors reference several resources and datasets used in their work. For instance, they mention SUBTLEX-IT and Google Books 2012 as reference corpora for lexical sophistication features. Additionally, they refer to the De Mauro dictionary of basic Italian for lexical features.
+
+Looking further, the paper discusses the use of Tint 0.2, an NLP suite for Italian, which includes tools for tokenization, lemmatization, POS tagging, and syntactic parsing. They also mention the Open NLP POS Maxent tagger and a custom syllable annotator based on Lingua::IT::Hyphenate.
+
+In the comparison section, they reference other tools like READ-IT, Coease, and Tint 2.0, which are used for readability and linguistic complexity analysis. These tools might have their own datasets, but the paper doesn't explicitly mention them as datasets used in their work.
+
+I also note that the authors used unit tests with sample texts to ensure the quality of their code, but these aren't datasets per se.
+
+To summarize, the datasets explicitly mentioned in the paper are:
+1. SUBTLEX-IT
+2. Google Books 2012
+3. De Mauro dictionary of basic Italian
+
+Each of these datasets is used for specific linguistic features in the CTAP tool. I'll now structure this information into the required JSON format, ensuring each dataset is described with the appropriate metadata.
+</think>

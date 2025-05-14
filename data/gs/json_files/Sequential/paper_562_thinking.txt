@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Multilingual Probing of Deep Pre-Trained Contextual Encoders" by Vinit Ravishankar et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors evaluate multilingual variants of existing encoders on probing datasets constructed for six non-English languages, which suggests that datasets are indeed involved.
+
+Next, I will focus on **section 3 (Corpora)**, where the authors describe the datasets used for probing tasks. They mention that their data consists of training, development, and test splits for nine linguistic tasks, which are grouped into surface, syntactic, and semantic tasks. The authors also specify that they built their probing datasets using Wikipedia dumps for various languages, including English, French, German, Spanish, Russian, Turkish, and Finnish.
+
+In this section, I will extract the following datasets:
+
+1. **Probing Datasets for Linguistic Tasks**: The authors created datasets for nine tasks, which include:
+   - Sentence Length (SentLen)
+   - Word Count (WC)
+   - Tree Depth (TreeDepth)
+   - Bigram Shift (BiShift)
+   - Subject Number (SubjNum)
+   - Object Number (ObjNum)
+   - Coordination Inversion (CoordInv)
+   - Odd Man Out (SOMO)
+   - Tense Prediction
+
+2. **Wikipedia Dumps**: The authors used Wikipedia dumps dated 2019-02-01 for multiple languages to extract their datasets.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The paper references several works that are relevant to the datasets:
+
+- For the **Universal Dependencies treebanks** used for dependency parsing, the citation is:
+  > Nivre, J., Agić, Ž., Aranzabe, M. J., et al. (2015). *Universal Dependencies 1.2*. LIN-DAT/CLARIN digital library at the Institute of Formal and Applied Linguistics (UFAL), Faculty of Mathematics and Physics, Charles University.
+
+- For the **XNLI dataset**, which is mentioned in the context of multilingual sentence representations, the citation is:
+  > Conneau, A., Lample, G., Rinott, R., et al. (2018). *XNLI: Evaluating Cross-lingual Sentence Representations*. arXiv:1809.05053.
+
+- For the **Punkt tokenizer** used for sentence segmentation, the citation is:
+  > Kiss, T., & Strunk, J. (2006). *Unsupervised multilingual sentence boundary detection*. Computational Linguistics, 32(4), 485–525.
+
+- For the **UDPipe toolkit** used for dependency parsing, the citation is:
+  > Straka, M., & Strakov´a, J. (2017). *Tokenizing, pos tagging, lemmatizing and parsing ud 2.0 with udpipe*. In Proceedings of the CoNLL 2017 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies, pages 88–99.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is clearly described and accompanied by its full citation. This will provide a comprehensive overview of the datasets used in the research paper.

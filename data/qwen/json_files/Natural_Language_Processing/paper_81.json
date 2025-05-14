@@ -1,0 +1,81 @@
+[
+    {
+        "dcterms:creator": [
+            "Hermann et al.",
+            "See et al."
+        ],
+        "dcterms:description": "A dataset containing news articles and their summaries, used for training, validation, and testing in summarization tasks.",
+        "dcterms:title": "CNN/Dailymail Dataset",
+        "dcterms:issued": "2015",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://catalog.ldc.upenn.edu/LDC2012T21",
+        "dcat:theme": [
+            "Text Summarization",
+            "News"
+        ],
+        "dcat:keyword": [
+            "News articles",
+            "Summaries",
+            "Extractive summarization"
+        ],
+        "dcat:landingPage": "https://github.com/abisee/cnn-dailymail",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Document Summarization"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Durrett et al.",
+            "Xu and Durrett"
+        ],
+        "dcterms:description": "A dataset created by filtering the New York Times dataset to include only documents with summaries longer than 50 words, used for training, validation, and testing in summarization tasks.",
+        "dcterms:title": "New York Times Dataset (NYT50)",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://catalog.ldc.upenn.edu/LDC2012T21",
+        "dcat:theme": [
+            "Text Summarization",
+            "News"
+        ],
+        "dcat:keyword": [
+            "News articles",
+            "Summaries",
+            "Extractive summarization"
+        ],
+        "dcat:landingPage": "https://github.com/abisee/cnn-dailymail",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Document Summarization"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Zhang",
+            "Wei",
+            "Zhou"
+        ],
+        "dcterms:description": "A large dataset created by combining the English Gigaword dataset and the training split of CNNDM, used for unsupervised pre-training of the HIBERT model.",
+        "dcterms:title": "GIGA-CM Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Text Summarization",
+            "News"
+        ],
+        "dcat:keyword": [
+            "Pre-training",
+            "Document modeling",
+            "Hierarchical Transformers"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Document Pre-training"
+        ]
+    }
+]

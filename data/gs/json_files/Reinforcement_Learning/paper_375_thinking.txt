@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Scalable trust-region method for deep reinforcement learning using Kronecker-factored approximation" by Yuhuai Wu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to identify any datasets mentioned. The abstract mentions testing the proposed method on **Atari games** and the **MuJoCo environment**, indicating that these may be datasets or benchmarks used in the experiments.
+
+Next, I will look closely at the **experiments section** (section 5) where the authors describe their evaluation methodology. Here, they explicitly mention using **OpenAI Gym** for discrete control tasks and **MuJoCo** for continuous control tasks. This suggests that both of these platforms serve as datasets for their experiments.
+
+In the **experiments subsection 5.1 (Discrete control)**, the authors detail their evaluation on six standard Atari games, which are part of the **Arcade Learning Environment**. They provide specific results for games like **Beamrider, Breakout, Pong, Q-bert, Seaquest, and Space Invaders**. This indicates that these games are the datasets used for their discrete control experiments.
+
+In the **experiments subsection 5.2 (Continuous control)**, they mention using **MuJoCo** for various continuous control tasks. The specific tasks evaluated include **Ant, HalfCheetah, Hopper, InvertedPendulum, InvertedDoublePendulum, Reacher, Swimmer, and Walker2d**. These tasks represent the datasets for their continuous control experiments.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned:
+
+1. For the **Atari games**, the citation is:
+   > Bellemare, M. G., Naddaf, Y., Veness, J., & Bowling, M. (2013). The arcade learning environment: An evaluation platform for general agents. *Journal of Artificial Intelligence Research*, 47, 253-279.
+
+2. For the **MuJoCo environment**, the citation is:
+   > Todorov, E., Erez, T., & Tassa, Y. (2012). MuJoCo: A physics engine for model-based control. *IEEE/RSJ International Conference on Intelligent Robots and Systems*, 2012.
+
+With these citations in hand, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research paper.

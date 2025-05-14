@@ -1,0 +1,47 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper's title is "Long Distance Relationships without Time Travel: Boosting the Performance of a Sparse Predictive Autoencoder in Sequence Modeling." The authors are Jeremy Gordon, David Rawlinson, and Subutai Ahmad. 
+
+Looking through the abstract, they mention using a predictive autoencoder called bRSM and testing it on two tasks: a non-deterministic version of the MNIST sequence task and next word prediction on the Penn Treebank (PTB) dataset.
+
+In the introduction, they reference N-gram models and their performance on the PTB dataset. They also mention Mikolov et al.'s work on language models using the PTB corpus.
+
+In the experiments section (Section 3), they detail two tasks:
+1. **Stochastic Sequential MNIST (ssMNIST)**: This is a custom task they created, not a standard dataset. It involves sequences of MNIST digits but isn't a dataset per se.
+2. **Penn Treebank (PTB) dataset**: This is a well-known dataset for language modeling tasks.
+
+They also reference other works, but those don't mention additional datasets. The only datasets explicitly mentioned are MNIST and PTB.
+
+Now, I'll structure the metadata for each dataset based on the information provided.
+
+For MNIST:
+- **Creator**: Yann LeCun, Corinna Cortes, and Christopher J.C. Burges.
+- **Description**: Handwritten digit images.
+- **Title**: MNIST.
+- **Issued**: 1998.
+- **Language**: Not applicable.
+- **Identifier**: URL to MNIST.
+- **Theme**: Computer Vision.
+- **Keywords**: Handwritten digits, classification.
+- **Landing Page**: MNIST official site.
+- **Version**: Not mentioned.
+- **Format**: Image.
+- **Task**: Classification.
+
+For PTB:
+- **Creator**: Lori A. Levin, et al.
+- **Description**: Corpus of American English text.
+- **Title**: Penn Treebank.
+- **Issued**: 1993.
+- **Language**: English.
+- **Identifier**: URL to PTB.
+- **Theme**: Natural Language Processing.
+- **Keywords**: Language modeling, corpus.
+- **Landing Page**: PTB official site.
+- **Version**: Not mentioned.
+- **Format**: Text.
+- **Task**: Language modeling.
+
+I'll ensure each dataset is correctly formatted with the required metadata fields.
+</think>

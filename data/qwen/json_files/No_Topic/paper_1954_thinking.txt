@@ -1,0 +1,47 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is titled "Low-Rank Tensors for Verbs in Compositional Distributional Semantics" by Daniel Fried, Tamara Polajnar, and Stephen Clark. It's from the proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Short Papers), pages 731-736, Beijing, China, July 26-31, 2015.
+
+First, I need to understand the structure of the paper. The abstract mentions using tensors for modeling multi-way interactions between vectors, specifically focusing on transitive verbs. The introduction discusses distributional semantic methods and compositional distributional semantics (CDS). It references previous work on tensors and their application in CDS.
+
+Looking through the paper, I notice that the authors mention several datasets used for evaluation. Specifically, they refer to two tasks: verb disambiguation and sentence similarity. The datasets mentioned are:
+
+1. **GS11 (Grefenstette and Sadrzadeh, 2011)**: This dataset is used for verb disambiguation, where each pair of sentences has the same subject and object but different verbs. The dataset consists of 200 sentence pairs with human similarity scores.
+
+2. **KS14 (Kartsaklis and Sadrzadeh, 2014)**: This dataset is for sentence similarity, containing 72 sentences arranged into 108 pairs. Each pair has a similarity score provided by human evaluators.
+
+Additionally, the authors mention using Wikipedia as a corpus for extracting SVO triples, but since Wikipedia isn't a specific dataset but rather a corpus, it might not be considered a dataset in this context.
+
+I need to extract metadata for each of these datasets. Let's break down each dataset:
+
+**GS11 (Verb Disambiguation Dataset):**
+- **Creators**: Grefenstette and Sadrzadeh.
+- **Description**: Contains 200 sentence pairs with human similarity scores for verb disambiguation.
+- **Title**: GS11.
+- **Issued**: 2011.
+- **Language**: English.
+- **Identifier**: Not provided in the paper.
+- **Theme**: Natural Language Processing, Semantics.
+- **Keywords**: Verb disambiguation, semantic similarity, human evaluation.
+- **Landing Page**: Not provided.
+- **Version**: Not mentioned.
+- **Format**: Text.
+- **Task**: Verb disambiguation, semantic similarity.
+
+**KS14 (Sentence Similarity Dataset):**
+- **Creators**: Kartsaklis and Sadrzadeh.
+- **Description**: Contains 72 sentences arranged into 108 pairs with human similarity scores.
+- **Title**: KS14.
+- **Issued**: 2014.
+- **Language**: English.
+- **Identifier**: Not provided.
+- **Theme**: Natural Language Processing, Semantics.
+- **Keywords**: Sentence similarity, semantic similarity, human evaluation.
+- **Landing Page**: Not provided.
+- **Version**: Not mentioned.
+- **Format**: Text.
+- **Task**: Sentence similarity, semantic similarity.
+
+I should ensure that each field is filled accurately based on the information provided in the paper. If any information isn't available, I'll leave that field empty.
+
+Now, I'll structure this information into the required JSON format, making sure to include all the necessary metadata fields for each dataset.
+</think>

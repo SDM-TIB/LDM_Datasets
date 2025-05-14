@@ -1,0 +1,39 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me go through the paper step by step.
+
+First, I'll read through the abstract and introduction to get an overview. The paper introduces DeSTNet, a densely fused spatial transformer network, and mentions experiments on three benchmarks: MNIST, GTSRB, and IDocDB.
+
+Next, I'll look into the methodology and experiments sections for more details on these datasets.
+
+1. **MNIST Dataset**:
+   - Mentioned in the experiments section as a benchmark for image classification.
+   - Description: Handwritten digits dataset with 60,000 training and 10,000 test images.
+   - Used for evaluating the model's performance under perspective transformations.
+
+2. **GTSRB Dataset**:
+   - German Traffic Sign Recognition Benchmark.
+   - Includes 39,209 training and 12,630 test images of 43 traffic signs.
+   - Used to assess the model's ability to handle real-world conditions and transformations.
+
+3. **IDocDB Dataset**:
+   - A non-public dataset of official identity documents.
+   - Contains 1,000 training and 500 test images of UK Driving Licences.
+   - Used for document alignment tasks under challenging conditions like occlusions and varying resolutions.
+
+Now, I'll structure each dataset according to the metadata fields:
+
+- **dcterms:creator**: Look for authors in the dataset's reference. For MNIST, it's Yann LeCun. GTSRB is cited as Stallkamp et al. IDocDB isn't cited, so creators are unknown.
+- **dcterms:description**: Summarize each dataset's purpose and content as described in the paper.
+- **dcterms:title**: Use the dataset's name.
+- **dcterms:issued**: Find the publication year from references. MNIST is 1998, GTSRB 2011, IDocDB not specified.
+- **dcterms:language**: Not applicable for image datasets.
+- **dcterms:identifier**: Look for DOIs or URLs. MNIST has a URL, others don't.
+- **dcat:theme**: Categories like Computer Vision, Document Analysis.
+- **dcat:keyword**: Relevant tags like handwritten digits, traffic signs, document alignment.
+- **dcat:landingPage**: URLs where available.
+- **dcterms:hasVersion**: Not mentioned.
+- **dcterms:format**: Image.
+- **mls:task**: Tasks like classification, alignment.
+
+I'll ensure each dataset is accurately described based on the paper's usage and available references.
+</think>

@@ -1,0 +1,23 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let's start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll look through the abstract and introduction to see if any datasets are referenced. The abstract mentions "Conceptual Caption (CC)", "SBU Captions", and "COCO captions" as datasets used for pretraining. It also mentions "Flickr30K" and "Visual Commonsense Reasoning (VCR)" as downstream tasks. Additionally, the paper refers to a large-scale dataset called "TaoMultimodal" for multi-modal pretraining in Chinese.
+
+Moving on to the sections, the paper details the pretraining datasets: Conceptual Caption (CC), SBU Captions, and COCO captions. These are used for training the InterBERT model. The downstream tasks include Flickr30K for image retrieval and VCR for visual commonsense reasoning. The paper also mentions the deployment of the model using a dataset from mobile Taobao, which is referred to as TaoMultimodal.
+
+Now, I'll extract each dataset and gather the required metadata. For each dataset, I'll look for the creators, description, title, publication year, language, identifier, theme, keywords, landing page, version, format, and tasks.
+
+1. **Conceptual Caption (CC)**: The paper cites this dataset, so I'll look for the creators, which are Piyush Sharma, Nan Ding, Sebastian Goodman, and Radu Soricut. The description is about image alt-text for captioning. The year is 2018, and it's in English. The format is text, and the task is image captioning.
+
+2. **SBU Captions**: Created by Vicente Ordonez, Girish Kulkarni, and Tamara L. Berg. It's a dataset of images with captions, published in 2011. The language is English, format is text, and task is image captioning.
+
+3. **COCO captions**: Created by Tsung-Yi Lin and others. It's a dataset with images and captions, published in 2014. Language is English, format is text, task is image captioning.
+
+4. **Flickr30K**: Created by Peter Young, Alice Lai, Micah Hodosh, and Julia Hockenmaier. It's a dataset for image retrieval, published in 2014. Language is English, format is text, task is image retrieval.
+
+5. **Visual Commonsense Reasoning (VCR)**: Created by Rowan Zellers, Yonatan Bisk, Ali Farhadi, and Yejin Choi. Published in 2019, it's for visual reasoning tasks. Language is English, format is text, task is visual reasoning.
+
+6. **TaoMultimodal**: Created by the authors of the paper, Junyang Lin, An Yang, Yichang Zhang, Jie Liu, Jingren Zhou, and Hongxia Yang. It's a Chinese dataset for multi-modal pretraining, published in 2020. Language is Chinese, format is text and image, task is multi-modal pretraining.
+
+I'll structure each dataset with the required metadata fields, ensuring all information is accurate and based on the paper's content.
+</think>

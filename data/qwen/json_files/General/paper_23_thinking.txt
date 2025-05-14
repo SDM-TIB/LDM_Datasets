@@ -1,0 +1,70 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll look at the abstract and introduction to get an overview. The paper discusses Grammatical Error Detection (GED) using contextual word representations. It mentions several datasets used for evaluation.
+
+In the "Related work" section, I see references to previous work on GED and GEC, but no datasets are explicitly mentioned here. Moving on to the "Data" section, the authors describe the datasets they used:
+
+1. **First Certificate in English (FCE) dataset**: Mentioned as a publicly released set of essays with error annotations.
+2. **CoNLL 2014 shared task on GEC**: Used a dataset of essays with error annotations.
+3. **JFLEG dataset**: Contains essays with corrections by native speakers.
+4. **BEA 2019 shared task datasets**: Includes the Cambridge English Write & Improve (W&I) corpus and the LOCNESS corpus.
+
+Each of these datasets is described in the paper, so I'll need to extract their metadata.
+
+For each dataset, I'll extract the following information:
+
+- **dcterms:creator**: The authors or creators of the dataset.
+- **dcterms:description**: A brief description of the dataset based on the paper's description.
+- **dcterms:title**: The name of the dataset.
+- **dcterms:issued**: The year the dataset was published, if available.
+- **dcterms:language**: The language of the dataset (English in this case).
+- **dcterms:identifier**: DOI or URL if provided.
+- **dcat:theme**: Thematic categories (e.g., Natural Language Processing, Error Detection).
+- **dcat:keyword**: Keywords related to the dataset.
+- **dcat:landingPage**: URL or landing page if available.
+- **dcterms:hasVersion**: Specific version if mentioned.
+- **dcterms:format**: Format of the dataset (Text, etc.).
+- **mls:task**: Tasks for which the dataset can be used (e.g., GED, GEC).
+
+I'll go through each dataset one by one.
+
+1. **FCE dataset**:
+   - Creators: Yannakoudakis et al. (2011).
+   - Description: Essays by non-native learners with error annotations.
+   - Year: 2011.
+   - Language: English.
+   - Theme: Natural Language Processing, Error Detection.
+   - Keywords: Error detection, learner essays.
+   - Format: Text.
+
+2. **CoNLL 2014 dataset**:
+   - Creators: Ng et al. (2014).
+   - Description: Essays by advanced students with error annotations.
+   - Year: 2014.
+   - Language: English.
+   - Theme: Natural Language Processing, Error Correction.
+   - Keywords: Grammatical error correction, learner essays.
+   - Format: Text.
+
+3. **JFLEG dataset**:
+   - Creators: Napoles et al. (2017).
+   - Description: Essays by English learners with corrections.
+   - Year: 2017.
+   - Language: English.
+   - Theme: Natural Language Processing, Error Correction.
+   - Keywords: Error correction, learner essays.
+   - Format: Text.
+
+4. **BEA 2019 datasets**:
+   - Includes W&I corpus and LOCNESS corpus.
+   - Creators: Bryant et al. (2019) for W&I, Granger (1998) for LOCNESS.
+   - Description: W&I contains essays from learners; LOCNESS contains essays by native speakers.
+   - Year: 2019 for W&I, 1998 for LOCNESS.
+   - Language: English.
+   - Theme: Natural Language Processing, Error Detection.
+   - Keywords: Error detection, learner essays, native essays.
+   - Format: Text.
+
+I'll structure each dataset into the required JSON format, ensuring all fields are filled based on the information extracted from the paper.
+</think>

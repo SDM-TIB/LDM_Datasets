@@ -1,0 +1,28 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Incorporating Argument-Level Interactions for Persuasion Comments Evaluation using Co-attention Model" by Lu Ji and others. The abstract mentions that experiments were conducted on a publicly available dataset. 
+
+Looking into the introduction, the authors reference datasets from online forums like ChangeMyView (CMV) on Reddit. Specifically, they mention collecting data from CMV, which is a subreddit where users present their views, and others try to persuade them to change their minds. The dataset includes original posts and replies, some of which are persuasive and others not.
+
+In the experiments section, the authors detail their dataset, which consists of 3,456 training instances and 807 testing instances. Each instance includes an original post with one positive and one negative reply. They mention preprocessing steps like tokenization and stop word removal. The dataset is used for evaluating the persuasiveness of comments.
+
+The references section doesn't list external datasets beyond the CMV subreddit, so the primary dataset is from CMV.
+
+Now, I'll structure the dataset information using the specified metadata vocabulary.
+
+- **dcterms:creator**: The authors of the dataset are not explicitly mentioned, but the dataset is collected from the CMV subreddit, so the creators are the users of Reddit.
+- **dcterms:description**: The dataset includes original posts and replies from CMV, used to evaluate persuasiveness.
+- **dcterms:title**: "ChangeMyView Dataset"
+- **dcterms:issued**: The dataset isn't explicitly dated, but the paper was published in 2018, so I'll note that.
+- **dcterms:language**: English.
+- **dcterms:identifier**: The URL to the subreddit.
+- **dcat:theme**: Argumentation, Persuasion, Natural Language Processing.
+- **dcat:keyword**: Persuasion, Argumentation, Comments, Reddit.
+- **dcat:landingPage**: The subreddit URL.
+- **dcterms:hasVersion**: Not mentioned.
+- **dcterms:format**: Text.
+- **mls:task**: Persuasion evaluation, Argument analysis.
+
+I'll compile this into the required JSON format.
+</think>

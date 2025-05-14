@@ -1,0 +1,251 @@
+[
+    {
+        "dcterms:creator": [
+            "Rajpurkar et al."
+        ],
+        "dcterms:description": "Crowdsourcing workers were shown Wikipedia paragraphs and were asked to author questions about their content. Questions mostly require soft matching of the language in the question to a local context in the text.",
+        "dcterms:title": "SQUAD",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reading Comprehension"
+        ],
+        "dcat:keyword": [
+            "Wikipedia",
+            "Questions",
+            "Context"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Reading Comprehension"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Trischler et al."
+        ],
+        "dcterms:description": "Crowdsourcing workers were shown a CNN article (longer than SQUAD) and were asked to author questions about its content.",
+        "dcterms:title": "NEWSQA",
+        "dcterms:issued": "2017",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reading Comprehension"
+        ],
+        "dcat:keyword": [
+            "CNN Articles",
+            "Questions",
+            "Context"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Reading Comprehension"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Dunn et al."
+        ],
+        "dcterms:description": "Trivia questions were taken from Jeopardy! TV show, and contexts are web snippets retrieved from Google search engine for those questions, with an average of 50 snippets per question.",
+        "dcterms:title": "SEARCHQA",
+        "dcterms:issued": "2017",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reading Comprehension"
+        ],
+        "dcat:keyword": [
+            "Trivia Questions",
+            "Web Snippets",
+            "Context"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Reading Comprehension"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Joshi et al."
+        ],
+        "dcterms:description": "Trivia questions were crawled from the web. In one variant of TRIVIAQA (termed TQA-W), Wikipedia pages related to the questions are provided for each question. In another, web snippets and documents from Bing search engine are given. For the latter variant, we use only the web snippets in this work (and term this TQA-U). In addition, we replace Bing web snippets with Google web snippets (and term this TQA-G).",
+        "dcterms:title": "TRIVIAQA",
+        "dcterms:issued": "2017",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reading Comprehension"
+        ],
+        "dcat:keyword": [
+            "Trivia Questions",
+            "Web Snippets",
+            "Context"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": [
+            "TQA-W",
+            "TQA-U",
+            "TQA-G"
+        ],
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Reading Comprehension"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Yang et al."
+        ],
+        "dcterms:description": "Crowdsourcing workers were shown pairs of related Wikipedia paragraphs and asked to author questions that require multi-hop reasoning over the paragraphs. There are two versions of HOTPOTQA: the first where the context includes the two gold paragraphs and eight distractor paragraphs, and a second, where 10 paragraphs retrieved by an information retrieval (IR) system are given. Here, we use the latter version.",
+        "dcterms:title": "HOTPOTQA",
+        "dcterms:issued": "2018",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reading Comprehension"
+        ],
+        "dcat:keyword": [
+            "Wikipedia",
+            "Multi-hop Reasoning",
+            "Context"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": [
+            "Version 1",
+            "Version 2"
+        ],
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Reading Comprehension"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Bao et al."
+        ],
+        "dcterms:description": "Questions are real Google web queries crawled from Google Suggest, originally constructed for querying the KB Freebase. However, the dataset was also used as a RC task with retrieved web snippets.",
+        "dcterms:title": "CQ",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reading Comprehension"
+        ],
+        "dcat:keyword": [
+            "Google Queries",
+            "Web Snippets",
+            "Context"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Reading Comprehension"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Talmor and Berant"
+        ],
+        "dcterms:description": "Crowdsourcing workers were shown compositional formal queries against Freebase and were asked to re-phrase them in natural language. Thus, questions require multi-hop reasoning. The original work assumed models contain an IR component, but the authors also provided default web snippets, which we use here. The re-partitioned version 1.1 was used.",
+        "dcterms:title": "CWQ",
+        "dcterms:issued": "2018",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reading Comprehension"
+        ],
+        "dcat:keyword": [
+            "Formal Queries",
+            "Natural Language",
+            "Context"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": [
+            "Version 1.1"
+        ],
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Reading Comprehension"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Welbl et al."
+        ],
+        "dcterms:description": "Questions are entity-relation pairs from Freebase, and are phrased in natural language. Multiple Wikipedia paragraphs are given as context, and the dataset was constructed such that multi-hop reasoning is needed for answering the question.",
+        "dcterms:title": "WIKIHOP",
+        "dcterms:issued": "2017",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reading Comprehension"
+        ],
+        "dcat:keyword": [
+            "Entity-relation Pairs",
+            "Wikipedia",
+            "Context"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Reading Comprehension"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Abujabal et al."
+        ],
+        "dcterms:description": "Questions are real user questions from the WikiAnswers community QA platform. No contexts are provided, and thus we augment the questions with web snippets retrieved from Google search engine.",
+        "dcterms:title": "COMQA",
+        "dcterms:issued": "2018",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reading Comprehension"
+        ],
+        "dcat:keyword": [
+            "Community QA",
+            "Web Snippets",
+            "Context"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Reading Comprehension"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Dua et al."
+        ],
+        "dcterms:description": "Contexts are Wikipedia paragraphs and questions are authored by crowdsourcing workers. This dataset focuses on quantitative reasoning. Because most questions are not extractive, we only use the 33,573 extractive examples in the dataset (but evaluate on the entire development set).",
+        "dcterms:title": "DROP",
+        "dcterms:issued": "2019",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reading Comprehension"
+        ],
+        "dcat:keyword": [
+            "Wikipedia",
+            "Quantitative Reasoning",
+            "Context"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Reading Comprehension"
+        ]
+    }
+]

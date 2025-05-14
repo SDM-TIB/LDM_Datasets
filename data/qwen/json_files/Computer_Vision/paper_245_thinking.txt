@@ -1,0 +1,23 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract and introduction sections. The abstract mentions the VLP model being evaluated on three benchmark datasets: COCO Captions, Flickr30k Captions, and VQA 2.0. These are likely the main datasets used in the paper.
+
+Next, I'll check the introduction and related work sections for any additional datasets. The introduction references Conceptual Captions (CC) dataset for pre-training. The related work section mentions other datasets like Visual Genome, but these are used for region proposals and feature extraction, not as datasets for evaluation.
+
+In the experiments section, the datasets used for downstream tasks are explicitly listed: COCO Captions, VQA 2.0, and Flickr30k. The pre-training was done on the Conceptual Captions dataset.
+
+Now, I'll gather the necessary metadata for each dataset:
+
+1. **COCO Captions**: Created by Chen et al. in 2015. It's a dataset for image captioning with images and corresponding captions. The format is images with text captions, and it's used for tasks like image captioning.
+
+2. **Flickr30k Captions**: Created by Young et al. in 2014. It contains 30,000 images with multiple captions each. Used for image captioning tasks.
+
+3. **VQA 2.0**: Created by Goyal et al. in 2017. It's a dataset for visual question answering, containing images and corresponding questions and answers. Used for VQA tasks.
+
+4. **Conceptual Captions**: Created by Sharma et al. in 2018. A large dataset of web images with captions, used for pre-training the VLP model.
+
+I'll structure each dataset with the required metadata fields, ensuring to fill in creators, descriptions, titles, publication years, themes, keywords, and tasks as applicable. For some fields like landing pages or identifiers, if the information isn't available in the paper, I'll leave them empty.
+
+Finally, I'll compile all the datasets into a JSON format, making sure each entry is correctly structured and all necessary fields are included.
+</think>

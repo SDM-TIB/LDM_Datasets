@@ -1,0 +1,67 @@
+To extract datasets from the research paper titled "Looking for ELMo’s Friends: Sentence-Level Pretraining Beyond Language Modeling," I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned. The abstract provides an overview of the study's focus on pretraining tasks, which may hint at the datasets used.
+
+Next, I will examine **section 3 (Pretraining Tasks)**, where the authors describe the various pretraining tasks and their corresponding datasets. This section is likely to contain the most relevant information regarding the datasets used in their experiments.
+
+In this section, I will note the following datasets:
+
+1. **GLUE Benchmark**: The authors mention using nine tasks from the GLUE benchmark, which includes datasets like:
+   - **CoLA (Corpus of Linguistic Acceptability)**: Used for acceptability classification.
+   - **SST (Stanford Sentiment Treebank)**: Used for binary sentiment classification.
+   - **MRPC (Microsoft Research Paraphrase Corpus)**: Used for semantic similarity.
+   - **QQP (Quora Question Pairs)**: Another dataset for semantic similarity.
+   - **MNLI (Multi-Genre Natural Language Inference)**: Used for textual entailment.
+   - **RTE (Recognizing Textual Entailment)**: A series of datasets for entailment tasks.
+   - **QNLI (Question Natural Language Inference)**: Derived from SQuAD for entailment.
+   - **STS-B (Semantic Textual Similarity Benchmark)**: For measuring semantic similarity.
+   - **WNLI (Winograd NLI)**: A dataset for natural language inference.
+
+2. **WikiText-103**: This dataset is used for language modeling tasks and is mentioned in the context of training language models.
+
+3. **1 Billion Word Language Model Benchmark**: Another dataset used for language modeling.
+
+4. **WMT14 English-German and WMT17 English-Russian**: These datasets are used for machine translation tasks.
+
+5. **Reddit Dataset**: The authors mention using a dataset of approximately 18 million comment-response pairs from Reddit for their response prediction task.
+
+After identifying these datasets, I will then refer to the **References section** to find the full citations for each dataset:
+
+- For **CoLA**, the citation is:
+  > Warstadt, P., Singh, A., & Bowman, S. R. (2018). Neural network acceptability judgments. arXiv preprint arXiv:1805.12471.
+
+- For **SST**, the citation is:
+  > Socher, R., Perelygin, A., Wu, J., Chuang, J., Manning, C. D., Ng, A. Y., & Potts, C. (2013). Recursive deep models for semantic compositionality over a sentiment treebank. In Proceedings of the 2013 conference on empirical methods in natural language processing (pp. 1631-1642).
+
+- For **MRPC**, the citation is:
+  > Dolan, W. B., & Brockett, C. (2005). Automatically constructing a corpus of sentential paraphrases. In Proceedings of the Third International Workshop on Paraphrasing (IWP2005).
+
+- For **QQP**, the citation is:
+  > Yang, Y., Yuan, S., Cer, D., Strope, B., & Kurzweil, R. (2018). Learning semantic textual similarity from conversations. arXiv preprint arXiv:1804.07754.
+
+- For **MNLI**, the citation is:
+  > Williams, A., Nangia, N., & Bowman, S. R. (2018). A broad-coverage challenge corpus for sentence understanding through inference. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies.
+
+- For **RTE**, the citation is:
+  > Dagan, I., Glickman, O., & Magnini, D. (2006). The PASCAL recognising textual entailment challenge. In Machine learning challenges (pp. 177-190). Springer.
+
+- For **QNLI**, the citation is:
+  > Rajpurkar, P., Jia, R., & Liang, P. (2018). Know what you don’t know: Unanswerable questions for SQuAD. arXiv preprint arXiv:1806.03822.
+
+- For **STS-B**, the citation is:
+  > Cer, D., Diab, M., Agirre, E., Lopez-Gazpio, I., & Specia, L. (2017). Semeval-2017 task 1: Semantic textual similarity multilingual and crosslingual focused evaluation. In Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-2017).
+
+- For **WNLI**, the citation is:
+  > Levesque, H. J., Davis, E., & Morgenstern, J. (2011). The Winograd schema challenge. In AAAI spring symposium: Logical formalizations of commonsense reasoning.
+
+- For **WikiText-103**, the citation is:
+  > Merity, S., Xiong, C., Bradbury, J., & Socher, R. (2017). Pointer sentinel mixture models. In ICLR.
+
+- For **1 Billion Word Language Model Benchmark**, the citation is:
+  > Chelba, C., Mikolov, T., Schuster, M., Ge, Q., Brants, T., Koehn, P., & Robinson, T. (2013). One billion word benchmark for measuring progress in statistical language modeling. arXiv preprint arXiv:1312.3005.
+
+- For **WMT14 and WMT17**, the citations are:
+  > Bojar, O., Buck, C., Federmann, C., Haddow, B., Koehn, P., Leveling, J., ... & Tamchyna, A. (2014). Findings of the 2014 workshop on statistical machine translation. In Proceedings of the Ninth Workshop on Statistical Machine Translation (pp. 12-58).
+  > Bojar, O., Buck, C., Chatterjee, R., Federmann, C., Graham, Y., Haddow, B., ... & Kreutzer, J. (2017). Proceedings of the second conference on machine translation. In Proceedings of the Second Conference on Machine Translation.
+
+Finally, I will compile the dataset entries with their respective citations into a structured format for further processing.

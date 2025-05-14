@@ -1,0 +1,15 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about question generation from paragraphs using hierarchical models. I need to identify all the datasets used or mentioned in this paper and describe them using the specified metadata vocabulary.
+
+First, I'll read through the paper to find any mentions of datasets. The abstract mentions SQuAD and MSMARCO datasets. In the introduction, they talk about using these datasets for evaluation. The experimental setup section (4.1) provides more details about these datasets.
+
+Looking at SQuAD, it's described as containing Wikipedia articles with questions. MSMARCO is mentioned as containing passages from web documents with questions. Both are used for evaluating the question generation models.
+
+Now, I need to extract the metadata for each dataset. For SQuAD, the creators are the authors listed in the reference, which are Rajpurkar et al. The description is based on how the paper uses it. The title is "SQuAD". The year is 2016. The language is English. The identifier is the DOI. The themes are NLP and Question Generation. Keywords include question generation, reading comprehension, etc. The landing page is the URL. The format is text. The task is question generation.
+
+For MSMARCO, the creators are Nguyen et al. The description is similar, focusing on web passages. The title is "MS MARCO". The year is 2016. Language is English. Identifier is the arXiv URL. Themes are NLP and Question Generation. Keywords are similar to SQuAD. Landing page is the URL. Format is text. Task is question generation.
+
+I need to make sure I'm not including any other datasets mentioned in the references unless they're used in the paper. Since only SQuAD and MSMARCO are used, those are the only ones to include.
+
+Now, I'll structure this information into the required JSON format, ensuring each field is correctly filled based on the metadata vocabulary.
+</think>

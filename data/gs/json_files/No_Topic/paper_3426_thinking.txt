@@ -1,0 +1,81 @@
+To extract datasets from the research paper titled "How far can we get with one GPU in 100 hours? CoAStaL at MultiIndicMT Shared Task" by Rahul Aralikatte et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and data sections** to identify any datasets mentioned. The abstract mentions benchmarking on the **PMI corpus**, which indicates that this is a dataset of interest.
+
+Next, I will focus on the **Data section** (Section 2), where the authors describe the **MultiIndicMT data**. This section provides a detailed overview of the datasets used, including their sources and characteristics. The authors mention that the MultiIndicMT data is a combination of parallel corpora from various sources, specifically for translations from 10 Indic languages to English.
+
+I will list the datasets mentioned in the paper:
+
+1. **PMI corpus**: This is a collection of parallel corpora of languages of India, containing about 11 million translation pairs. The development and test splits contain 1000 and 2390 11-way parallel sentences, respectively.
+
+2. **JW300**: A wide-coverage parallel corpus for low-resource languages, referenced in the paper.
+
+3. **TED**: A dataset used for translations, mentioned in the context of the sources of MultiIndicMT data.
+
+4. **Bible-uedin**: A parallel corpus that includes translations of the Bible in multiple languages.
+
+5. **OpenSubtitles**: A dataset containing subtitles from movies and TV shows, used for translation tasks.
+
+6. **WikiMatrix**: A dataset that consists of parallel sentences mined from Wikipedia.
+
+7. **Wiki Titles**: A dataset that includes titles from Wikipedia articles.
+
+8. **ALT**: A dataset related to Asian languages.
+
+9. **IITB 3.0**: A parallel corpus for English-Hindi translations.
+
+10. **NLPC**: A dataset mentioned in the context of the MultiIndicMT data sources.
+
+11. **UFAL EnTam**: A dataset for English-Tamil translations.
+
+12. **Uka Tarsadia**: Another dataset mentioned in the paper.
+
+13. **MTEnglish2Odia**: A parallel corpus for English-Odia translations.
+
+14. **OdiEnCorp 2.0**: A dataset for Odia-English translations.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- **PMI corpus**: 
+  > Barry Haddow and Faheem Kirefu. *PMIndia - A collection of parallel corpora of languages of India*. CoRR, abs/2001.09907, 2020.
+
+- **JW300**: 
+  > Zeljko Agic and Ivan Vulic. *JW300: A wide-coverage parallel corpus for low-resource languages*. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pages 3204–3210, Florence, Italy. Association for Computational Linguistics, 2019.
+
+- **TED**: 
+  > Chris Christodoulopoulos and Mark Steedman. *The bible in 100 languages*. Language Resources and Evaluation, 49:1–21, 2014.
+
+- **Bible-uedin**: 
+  > Christos Christodoulopoulos and Mark Steedman. *The bible in 100 languages*. Language Resources and Evaluation, 49:1–21, 2014.
+
+- **OpenSubtitles**: 
+  > Holger Schwenk et al. *Wikimatrix: Mining 135m parallel sentences in 1620 language pairs from Wikipedia*. CoRR, abs/1907.05791, 2019.
+
+- **WikiMatrix**: 
+  > Holger Schwenk et al. *Wikimatrix: Mining 135m parallel sentences in 1620 language pairs from Wikipedia*. CoRR, abs/1907.05791, 2019.
+
+- **Wiki Titles**: 
+  > Anoop Kunchukuttan. *The IndicNLP Library*. https://github.com/anoopkunchukuttan/indic_nlp_library/blob/master/docs/indicnlp.pdf, 2020.
+
+- **ALT**: 
+  > Ye Kyaw Thu et al. *Introducing the Asian language treebank (ALT)*. In Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC’16), pages 1574–1578, Portorož, Slovenia. European Language Resources Association (ELRA), 2016.
+
+- **IITB 3.0**: 
+  > Anoop Kunchukuttan, Pratik Mehta, and Pushpak Bhattacharyya. *The IIT Bombay English-Hindi parallel corpus*. In Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018), Miyazaki, Japan. European Language Resources Association (ELRA), 2018.
+
+- **NLPC**: 
+  > Aloka Fernando et al. *Data augmentation and terminology integration for domain-specific Sinhala-English-Tamil statistical machine translation*. CoRR, abs/2011.02821, 2020.
+
+- **UFAL EnTam**: 
+  > Jerin Philip et al. *Revisiting low resource status of Indian languages in machine translation*. CoRR, abs/2008.04860, 2020.
+
+- **Uka Tarsadia**: 
+  > Shantipriya Parida et al. *OdiEnCorp 2.0: Odia-English parallel corpus for machine translation*. In Proceedings of the WILDRE5–5th Workshop on Indian Language Data: Resources and Evaluation, pages 14–19, Marseille, France. European Language Resources Association (ELRA), 2020.
+
+- **MTEnglish2Odia**: 
+  > MTEnglish2Odia. https://odianlp.github.io/, 2018.
+
+- **OdiEnCorp 2.0**: 
+  > Shantipriya Parida et al. *OdiEnCorp 2.0: Odia-English parallel corpus for machine translation*. In Proceedings of the WILDRE5–5th Workshop on Indian Language Data: Resources and Evaluation, pages 14–19, Marseille, France. European Language Resources Association (ELRA), 2020.
+
+Now, I will compile the dataset entries into a structured format for further processing.

@@ -1,0 +1,69 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about SciPar, a collection of parallel corpora from scientific abstracts. The task is to identify all datasets mentioned and describe them using the specified metadata vocabulary.
+
+First, I'll read through the paper to spot any datasets. The paper itself is introducing SciPar, so that's one dataset. I'll need to gather its details.
+
+Looking at the abstract, it mentions SciPar as a new collection of parallel corpora. The introduction explains that SciPar includes 9.17 million segment alignments in 31 language pairs. The methodology section describes how they harvested metadata from 86 repositories to create this corpus.
+
+In the related work section, they reference other datasets like CAPES, SciELO, and ASPEC. These are other parallel corpora used in similar contexts. I need to extract these as separate datasets.
+
+For each dataset, I'll extract the required metadata fields:
+
+1. **SciPar**:
+   - Creator: The authors of the paper.
+   - Description: As described in the paper.
+   - Title: SciPar.
+   - Issued: The year the paper was published, which is 2022.
+   - Language: Multiple languages as per the paper.
+   - Identifier: The URL provided in the paper.
+   - Theme: Parallel Corpora, Scientific Research.
+   - Keywords: Parallel Corpus, Machine Translation, Scientific Research.
+   - Landing Page: The URL from the paper.
+   - Format: Text.
+   - Task: Machine Translation, Cross-lingual Plagiarism Detection.
+
+2. **CAPES**:
+   - Creator: Soares et al.
+   - Description: Extracted from CAPES metadata.
+   - Title: CAPES.
+   - Issued: 2018.
+   - Language: English, Portuguese.
+   - Identifier: The OPUS URL.
+   - Theme: Parallel Corpora, Academic Theses.
+   - Keywords: Parallel Corpus, Academic Theses.
+   - Landing Page: OPUS URL.
+   - Format: Text.
+   - Task: Machine Translation.
+
+3. **SciELO**:
+   - Creator: Neves et al.
+   - Description: Based on SciELO database.
+   - Title: SciELO.
+   - Issued: 2016.
+   - Language: English, Portuguese, Spanish.
+   - Identifier: OPUS URL.
+   - Theme: Parallel Corpora, Scientific Articles.
+   - Keywords: Parallel Corpus, Scientific Articles.
+   - Landing Page: OPUS URL.
+   - Format: Text.
+   - Task: Machine Translation.
+
+4. **ASPEC**:
+   - Creator: Nakazawa.
+   - Description: From paper abstracts.
+   - Title: ASPEC.
+   - Issued: 2016.
+   - Language: English, Japanese, Chinese.
+   - Identifier: OPUS URL.
+   - Theme: Parallel Corpora, Scientific Abstracts.
+   - Keywords: Parallel Corpus, Scientific Abstracts.
+   - Landing Page: OPUS URL.
+   - Format: Text.
+   - Task: Machine Translation.
+
+I need to ensure each dataset's metadata is accurate based on the paper's description. For example, SciPar's landing page is the ELRC-SHARE repository URL provided. Each dataset's creator is the author(s) mentioned in the paper, and the issued year is taken from the references.
+
+I should also note that some datasets might not have all fields filled, especially if the paper doesn't provide specific details like a DOI or exact version. In such cases, those fields remain empty.
+
+Finally, I'll structure all this information into the required JSON format, ensuring each dataset is an object within an array, with all the specified metadata fields included.
+</think>

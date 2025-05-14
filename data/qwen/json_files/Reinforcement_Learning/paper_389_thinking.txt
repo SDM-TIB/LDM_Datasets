@@ -1,0 +1,15 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is titled "Tactics of Adversarial Attack on Deep Reinforcement Learning Agents" and it's authored by several researchers from National Tsing Hua University and NVIDIA. 
+
+First, I'll read through the abstract to get a sense of what the paper is about. It seems to discuss adversarial attacks on deep reinforcement learning (RL) agents, specifically using tactics like strategically-timed and enchanting attacks. They mention applying these tactics to agents trained on five Atari games. 
+
+Okay, so the datasets mentioned here are likely the Atari games used in their experiments. The paper references games like Pong, Ms. Pacman, Seaquest, Qbert, and ChopperCommand. These are part of the Atari 2600 game collection, which is a standard benchmark for testing RL algorithms.
+
+I need to check if the paper provides any specific references or citations for these datasets. Looking through the references, I see citations for OpenAI Gym, which is a platform that includes these Atari games. OpenAI Gym is a library for RL research, and it hosts various environments, including the Atari games.
+
+So, the datasets in question are the Atari 2600 games provided through OpenAI Gym. Each game is a separate environment within the Gym. The paper doesn't list each game as a separate dataset but refers to them collectively as part of their experiments.
+
+Now, I'll structure the metadata for each dataset. Since the games are part of OpenAI Gym, the creator would be the OpenAI team. The description should mention that these are environments used for RL training and evaluation. The title would be each specific game, like "Pong", "Ms. Pacman", etc. The issued year would be when OpenAI Gym was released, which is 2016. The language isn't applicable since these are game environments, not text datasets. The identifier would be the OpenAI Gym URL. The theme is reinforcement learning, and keywords include Atari games, reinforcement learning, and adversarial attacks. The landing page is the OpenAI Gym URL. The format is image-based since the games provide visual observations. The task is reinforcement learning.
+
+I'll create a JSON entry for each game, ensuring that each has the correct title and other relevant metadata. Since the paper mentions five games, I'll list each one separately with their respective details.
+</think>

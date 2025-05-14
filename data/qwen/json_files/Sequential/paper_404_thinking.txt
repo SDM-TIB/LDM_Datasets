@@ -1,0 +1,31 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let's start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll go through the abstract and introduction to get an overview. The paper discusses text embeddings, Bag-of-n-Grams (BonG), and LSTM models. It mentions several datasets in the context of experiments and evaluations.
+
+Looking at the sections, I see references to datasets like SST, IMDB, MR, CR, SUBJ, MPQA, TREC, and SICK. These are standard datasets used in natural language processing tasks such as sentiment analysis, text classification, and paraphrase detection.
+
+For each dataset, I need to extract the required metadata fields. Let's go through them one by one.
+
+1. **SST (Stanford Sentiment Treebank)**: This dataset is used for sentiment analysis. It's mentioned in the context of experiments and evaluations. The creators are the authors of the paper, but since the paper uses it, the creators are likely the original authors of SST. The description is about sentiment analysis, the title is SST, the year is 2013, the language is English, the identifier is the URL, the theme is sentiment analysis, keywords include sentiment and classification, the landing page is the URL, no version is mentioned, the format is text, and the task is sentiment analysis.
+
+2. **IMDB**: This is a large dataset of movie reviews for sentiment analysis. The creators are Maas et al., the description is about sentiment analysis, the title is IMDB, the year is 2011, the language is English, the identifier is the URL, the theme is sentiment analysis, keywords include sentiment and classification, the landing page is the URL, no version is mentioned, the format is text, and the task is sentiment analysis.
+
+3. **MR (Movie Reviews)**: This dataset is used for sentiment analysis. The creators are Pang and Lee, the description is about sentiment analysis, the title is MR, the year is 2005, the language is English, the identifier is the URL, the theme is sentiment analysis, keywords include sentiment and classification, the landing page is the URL, no version is mentioned, the format is text, and the task is sentiment analysis.
+
+4. **CR (Customer Reviews)**: This dataset is used for sentiment analysis. The creators are Hu and Liu, the description is about sentiment analysis, the title is CR, the year is 2004, the language is English, the identifier is the URL, the theme is sentiment analysis, keywords include sentiment and classification, the landing page is the URL, no version is mentioned, the format is text, and the task is sentiment analysis.
+
+5. **SUBJ (Subjectivity Dataset)**: This dataset is used for subjectivity detection. The creators are Pang and Lee, the description is about subjectivity detection, the title is SUBJ, the year is 2004, the language is English, the identifier is the URL, the theme is subjectivity detection, keywords include subjectivity and classification, the landing page is the URL, no version is mentioned, the format is text, and the task is subjectivity detection.
+
+6. **MPQA (Opinion Polarity Dataset)**: This dataset is used for opinion polarity detection. The creators are Wiebe et al., the description is about opinion polarity detection, the title is MPQA, the year is 2005, the language is English, the identifier is the URL, the theme is opinion polarity detection, keywords include opinion and classification, the landing page is the URL, no version is mentioned, the format is text, and the task is opinion polarity detection.
+
+7. **TREC (Text Retrieval Conference)**: This dataset is used for question classification. The creators are Li and Roth, the description is about question classification, the title is TREC, the year is 2002, the language is English, the identifier is the URL, the theme is question classification, keywords include classification and retrieval, the landing page is the URL, no version is mentioned, the format is text, and the task is question classification.
+
+8. **SICK (SemEval 2014 Task 1)**: This dataset is used for semantic relatedness and entailment. The creators are Marelli et al., the description is about semantic relatedness and entailment, the title is SICK, the year is 2014, the language is English, the identifier is the URL, the theme is semantic analysis, keywords include relatedness and entailment, the landing page is the URL, no version is mentioned, the format is text, and the task is semantic analysis.
+
+I need to ensure that each dataset is correctly identified with the appropriate metadata. Some datasets might not have all the fields filled, especially if the information isn't explicitly provided in the paper. For example, the landing page URLs might not be available, so those fields would be left empty.
+
+After identifying all the datasets and their metadata, I'll structure them into the required JSON format, making sure each dataset is an object within an array. Each object will include the specified fields with the extracted information.
+
+Finally, I'll review the JSON to ensure it's correctly formatted and that all datasets are accurately represented based on the information from the paper.
+</think>

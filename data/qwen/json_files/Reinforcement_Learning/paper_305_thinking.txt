@@ -1,0 +1,45 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let's start by carefully reading through the paper to identify any datasets.
+
+First, I'll go through the abstract and introduction. The abstract mentions "Librispeech benchmark" and "internal dataset." The introduction doesn't add any new datasets, so I'll move on.
+
+In the experiments section (Section 4), the paper discusses experiments on the Librispeech corpus and an internal dataset. The Librispeech corpus is cited as reference [32], and the internal dataset is mentioned as "our internal dataset" without a specific citation.
+
+Looking at the references, reference [32] is "V. Panayotov, G. Chen, D. Povey, and S. Khudanpur, 'Librispeech: an ASR corpus based on public domain audio books,' in Proc. ICASSP, 2015, pp. 5206–5210." This provides details about the Librispeech dataset.
+
+The internal dataset is described in the paper as being used for experiments but isn't cited elsewhere. It's a large dataset of English video ASR with 13.7K hours of training data and several test sets.
+
+Now, I'll structure each dataset according to the metadata fields:
+
+1. **Librispeech Dataset**
+   - **Creator**: The authors from reference [32]: V. Panayotov, G. Chen, D. Povey, S. Khudanpur.
+   - **Description**: A corpus of read speech data for training, with development and test sets.
+   - **Title**: Librispeech.
+   - **Issued**: 2015.
+   - **Language**: English.
+   - **Identifier**: Empty as no DOI or URL is provided.
+   - **Theme**: Speech Recognition, Corpus.
+   - **Keyword**: ASR, speech data, public domain.
+   - **Landing Page**: Empty.
+   - **Version**: Empty.
+   - **Format**: Audio.
+   - **Task**: Speech Recognition.
+
+2. **Internal Dataset**
+   - **Creator**: The authors of the paper: Yongqiang Wang, Abdelrahman Mohamed, Duc Le, etc.
+   - **Description**: A large dataset of English video ASR with 13.7K hours of training data and several test sets.
+   - **Title**: Internal English Video ASR Dataset.
+   - **Issued**: Empty as no publication date is given.
+   - **Language**: English.
+   - **Identifier**: Empty.
+   - **Theme**: Speech Recognition, Corpus.
+   - **Keyword**: Video ASR, diverse data.
+   - **Landing Page**: Empty.
+   - **Version**: Empty.
+   - **Format**: Audio.
+   - **Task**: Speech Recognition.
+
+I need to ensure that the creators are correctly identified. For the internal dataset, since it's created by the authors of the paper, I'll list them as creators. For Librispeech, the creators are from the reference.
+
+I'll structure this into JSON format, ensuring each field is correctly filled based on the information extracted.
+</think>

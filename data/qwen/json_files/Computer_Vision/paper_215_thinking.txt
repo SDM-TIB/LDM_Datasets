@@ -1,0 +1,18 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me go through the paper step by step.
+
+First, I'll read through the abstract and introduction to get an overview. The paper discusses spatial transformers for 3D point clouds and mentions several datasets in the experiments section.
+
+Looking at the experiments section, I see references to ModelNet40, ShapeNet, S3DIS, and KITTI. Each of these is a dataset used for different tasks like classification, segmentation, and detection.
+
+For each dataset, I'll extract the necessary metadata:
+
+1. **ModelNet40**: Used for 3D shape classification. The creators are from the authors' references, description, title, year, etc.
+2. **ShapeNet**: Used for part segmentation. Similar extraction process.
+3. **S3DIS**: Used for semantic segmentation. Details include creators, description, etc.
+4. **KITTI**: Used for object detection. Extract creators, description, etc.
+
+I'll ensure each dataset entry includes all the required fields, even if some information isn't explicitly provided in the paper. If a field isn't available, I'll leave it empty.
+
+Finally, I'll compile all the datasets into a JSON array, making sure each entry is correctly formatted according to the metadata vocabulary.
+</think>

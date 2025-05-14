@@ -1,0 +1,17 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is about Gauge Equivariant Mesh CNNs, which are a type of convolutional neural network designed for processing data on meshes, like 3D shapes or surfaces. 
+
+First, I'll read through the paper to identify any datasets mentioned. The paper mentions experiments on two datasets: MNIST and FAUST. 
+
+MNIST is a well-known dataset of handwritten digits, often used for image classification tasks. In this paper, they've embedded MNIST digits onto meshes to test their model's performance. 
+
+The FAUST dataset is used for shape correspondence tasks. It contains meshes of human bodies in various poses, and the goal is to find corresponding points across different meshes. 
+
+I need to extract metadata for each of these datasets. For MNIST, the creators are Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. The description should reflect how it's used in the paper, which is embedded on meshes. The title is "MNIST," it was issued in 1998, it's in English, and the landing page is the official MNIST website. The theme is computer vision, and the keywords include handwritten digits and image classification. The format is image, and the task is classification.
+
+For FAUST, the creators are Bogo et al. The description mentions it's used for shape correspondence on human body meshes. The title is "FAUST," issued in 2014, in English, with a landing page on the project's website. The theme is computer vision and 3D shape analysis. Keywords include shape correspondence and human body meshes. The format is 3D mesh, and the task is shape correspondence.
+
+I need to make sure all the metadata fields are correctly filled based on the information in the paper. If any fields aren't mentioned, I'll leave them empty. Also, I should ensure that the creators are correctly identified from the references, not the authors of the current paper.
+
+Finally, I'll structure the JSON response with the required metadata fields for each dataset, ensuring the format is correct and all necessary information is included.
+</think>

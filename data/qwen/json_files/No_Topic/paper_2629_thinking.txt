@@ -1,0 +1,21 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. Let me go through the paper step by step.
+
+First, I'll read the abstract to get an overview. It talks about reducing infrequent-token perplexity using variational corpora. They mention using Jane Austen's complete works as a corpus. So, that's one dataset: Jane Austen's works.
+
+Next, I'll look through the introduction. They reference the Brown corpus, which is a well-known dataset in linguistics. They also mention the Brown corpus again when discussing hapax legomena. So, Brown corpus is another dataset.
+
+In the methodology section, they talk about using a pre-training corpus W, which is larger than the target corpus X. They mention using Jane Austen's complete works as X and her contemporaries' novels as W. So, the pre-training corpus includes works from Dickens and the Bronte sisters, which are part of the same dataset as Jane Austen's works.
+
+They also mention using WordNet for synonym and hyponym extraction. WordNet is another dataset, but it's more of a lexical resource rather than a corpus. However, since it's mentioned, I should include it.
+
+In the experiments section, they use Pinterest captions, which is another dataset. They applied their model to locate URLs in these captions.
+
+So, the datasets I've identified are:
+1. Jane Austen's complete works
+2. Brown corpus
+3. WordNet
+4. Pinterest captions
+
+Now, I'll extract the metadata for each dataset based on the information provided in the paper.
+</think>

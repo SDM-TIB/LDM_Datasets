@@ -1,0 +1,15 @@
+<think>
+Alright, I'm looking at the provided paper to identify the datasets mentioned. The paper discusses the use of Conditional Random Fields (CRFs) for grapheme-to-phoneme conversion, particularly for proper names. 
+
+First, I notice that the authors mention two main datasets: BDLex and NP-Lor. 
+
+BDLex is described as a lexical database developed at IRIT, containing lexical, phonological, and morphological information. It has around 440,000 inflected forms with attributes like grapheme, pronunciation, and frequency. The authors split this corpus into training, development, and test sets.
+
+Next, the NP-Lor corpus is a collection of 3,500 proper names, each with grapheme, phonetic transcriptions, and origin tags. The authors used a leave-one-out approach for testing.
+
+I need to extract metadata for each dataset. For BDLex, the creators are listed as De Calmes and Perennou from 1998. The description includes its purpose and structure. The language is French, and it's used for phonetic conversion tasks. 
+
+For NP-Lor, the creators aren't explicitly mentioned, so I'll leave that field empty. The description focuses on proper names and their origins. The language is French, and it's used for origin detection and phonetic conversion.
+
+I'll structure this information into JSON format, ensuring each dataset has the required fields filled based on the paper's description.
+</think>

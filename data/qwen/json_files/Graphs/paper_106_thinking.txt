@@ -1,0 +1,45 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract and introduction to see if any datasets are mentioned. The abstract mentions the use of BERT for document encoding in summarization models and introduces the DISCOBERT model. It doesn't mention specific datasets yet.
+
+Moving to the introduction, the authors discuss the challenges in text summarization and mention the use of BERT. They reference previous work but don't specify datasets here.
+
+In the methodology section, the authors describe their approach using discourse units and graphs. They mention using the New York Times (NYT) dataset and the CNN and Daily Mail (CNNDM) dataset. These are two datasets commonly used in text summarization tasks.
+
+Looking further, the authors provide a table with statistics about the datasets, including the number of sentences, EDUs, tokens, and edges in the graphs. This confirms that they used NYT and CNNDM.
+
+I should check if there are any other datasets mentioned. The authors also reference the use of Stanford CoreNLP for parsing, but that's a tool, not a dataset. They mention using a discourse segmenter and parser, but again, these are tools, not datasets.
+
+So, the datasets used are NYT and CNNDM. I'll need to extract metadata for each.
+
+For NYT:
+- Creator: The dataset is created by the Linguistic Data Consortium (LDC), but the paper doesn't list individual creators. Since the metadata vocabulary requires persons, and the paper doesn't specify, I'll leave this as an empty list.
+- Description: The paper uses it for text summarization, focusing on news articles.
+- Title: New York Times (NYT)
+- Issued: The paper doesn't provide the exact year, but NYT is a well-known dataset, so I'll leave the year as empty.
+- Language: English
+- Identifier: No specific DOI or URL provided in the paper.
+- Theme: News, Text Summarization
+- Keywords: News, Summarization, Text
+- Landing Page: Empty
+- Version: Not mentioned
+- Format: Text
+- Task: Text Summarization
+
+For CNNDM:
+- Creator: Hermann et al. (2015), but the paper doesn't list individual creators, so empty list.
+- Description: Used for text summarization, contains news articles and their summaries.
+- Title: CNN and Daily Mail (CNNDM)
+- Issued: 2015
+- Language: English
+- Identifier: Empty
+- Theme: News, Text Summarization
+- Keywords: News, Summarization, Text
+- Landing Page: Empty
+- Version: Empty
+- Format: Text
+- Task: Text Summarization
+
+I'll structure this information into the required JSON format, ensuring each dataset is properly described with the available metadata.
+</think>

@@ -1,0 +1,59 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. Let me go through the paper step by step.
+
+First, the paper's title is "Language Modeling Teaches You More Syntax than Translation Does: Lessons Learned Through Auxiliary Task Analysis." The authors are Kelly W. Zhang and Samuel R. Bowman from New York University.
+
+Looking through the introduction, they mention that they're comparing different pretraining objectives like language modeling, translation, skip-thought, and autoencoding. They're using these tasks to see how they affect the syntactic and part-of-speech information learned by models.
+
+In the methodology section, they mention using datasets from WMT 2016. Specifically, they use the En-De corpus from WMT 2016 for training. They also augment this with a large monolingual corpus from WMT. Additionally, they evaluate their models on the Penn Treebank WSJ corpus for POS tagging and the CCG Bank for supertagging.
+
+So, the datasets mentioned are:
+
+1. WMT 2016 En-De corpus
+2. WMT monolingual corpus
+3. Penn Treebank WSJ
+4. CCG Bank
+
+Now, I need to extract metadata for each of these datasets.
+
+For WMT 2016 En-De corpus:
+- Creator: The authors of WMT 2016, which is a conference, so the creators are the contributors, but since the paper doesn't list specific authors, I'll leave it as an empty list.
+- Description: It's a parallel corpus of English and German sentences used for machine translation.
+- Title: WMT 2016 En-De corpus
+- Issued: 2016
+- Language: English and German
+- Identifier: No specific DOI or URL mentioned in the paper.
+- Theme: Machine Translation, Corpus Linguistics
+- Keywords: Parallel corpus, Machine translation, English-German
+- Landing Page: No URL provided.
+- Version: Not specified.
+- Format: Text
+- Task: Machine Translation, Pretraining
+
+For WMT monolingual corpus:
+- Similar to the above but monolingual. The description would be a large monolingual corpus used for training language models.
+- Language: English
+- Tasks: Language Modeling, Pretraining
+
+Penn Treebank WSJ:
+- Creator: Marcus et al., 1993
+- Description: A corpus of Wall Street Journal texts annotated with POS tags.
+- Title: Penn Treebank WSJ
+- Issued: 1993
+- Language: English
+- Theme: Corpus Linguistics, POS Tagging
+- Keywords: POS tagging, Wall Street Journal
+- Tasks: POS Tagging, Evaluation
+
+CCG Bank:
+- Creator: Hockenmaier and Steedman, 2007
+- Description: A corpus annotated with CCG supertags.
+- Title: CCG Bank
+- Issued: 2007
+- Language: English
+- Theme: Corpus Linguistics, Syntax
+- Keywords: CCG supertagging, Syntax
+- Tasks: Supertagging, Evaluation
+
+I need to structure this information into JSON format as per the metadata vocabulary provided.
+</think>

@@ -1,0 +1,25 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the given research paper. The paper is about a tagging-style reordering model for phrase-based statistical machine translation (SMT). The authors mention several datasets and resources they used in their experiments.
+
+First, I'll go through the paper section by section to identify any datasets. In the abstract, they mention experiments on five Chinese-English NIST tasks trained with BOLT data. So, BOLT data is one dataset. NIST tasks are another set of datasets.
+
+Looking at the introduction, they don't mention any new datasets beyond what's in the abstract. The related work section also doesn't add any new datasets.
+
+In the translation system overview, they mention using a phrase-based SMT system and training data from BOLT. They also mention using a 5-gram language model trained with SRILM. SRILM is a toolkit, not a dataset, so I can ignore that.
+
+The tagging-style reordering model section doesn't mention any datasets. The experiments section is where they detail their setup. They mention using BOLT data for training and NIST02, NIST03, NIST04, NIST05, and NIST08 as test corpora. They also mention using a 5-gram LM trained on 1.125 billion running words.
+
+So, the datasets mentioned are:
+1. BOLT data
+2. NIST02
+3. NIST03
+4. NIST04
+5. NIST05
+6. NIST08
+
+I need to describe each of these datasets using the specified metadata vocabulary. For each dataset, I'll extract the creator, description, title, issued year, language, identifier, theme, keyword, landing page, version, format, and task.
+
+For BOLT data, I know it's a large corpus used for training SMT systems, but I don't have specific details like the creator or publication year from the paper. Similarly, the NIST datasets are standard test sets for machine translation, but the paper doesn't provide detailed metadata.
+
+I'll structure each dataset entry with the information available, leaving fields empty if not specified.
+</think>

@@ -1,0 +1,24 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let's start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll look through the abstract and introduction to see if any datasets are referenced. The abstract mentions experiments with ELMo and BERT, but doesn't specify datasets. The introduction discusses various linguistic tasks and mentions the use of datasets like OntoNotes and Universal Dependencies.
+
+Moving on to the "Experimental Setup" section, I find that the paper uses several datasets for different tasks. Specifically, they mention:
+
+1. **Named Entity Labeling**: Uses the English portion of OntoNotes 5.0.
+2. **Nonterminal Labeling**: Uses the English Web Treebank part of Universal Dependencies 2.2.
+3. **Syntactic Dependency Labeling**: Also uses the English Web Treebank part of Universal Dependencies 2.2.
+4. **Semantic Role Labeling**: Uses the English portion of OntoNotes 5.0.
+
+Additionally, the paper references the following encoders, which are not datasets but are important for context:
+- ELMo (Peters et al., 2018a)
+- BERT (Devlin et al., 2019)
+- BERT-lex (lexical baseline)
+
+Now, I'll look up the references for these datasets to gather more details. 
+
+- **OntoNotes 5.0**: Created by the Linguistic Data Consortium (LDC), it's a large corpus for various NLP tasks, including named entity recognition. The version used is 5.0, released in 2013.
+- **Universal Dependencies 2.2**: A project that provides treebanks for many languages, with version 2.2 released in 2015.
+
+I'll structure each dataset with the required metadata fields, ensuring that creators are individuals, not organizations, and that all other fields are accurately filled based on the paper's description.
+</think>

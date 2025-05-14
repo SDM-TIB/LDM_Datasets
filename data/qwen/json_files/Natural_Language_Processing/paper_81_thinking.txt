@@ -1,0 +1,55 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets.
+
+First, I'll look through the abstract and introduction. The abstract mentions the CNN/Dailymail dataset and a version of the New York Times dataset. These are likely the main datasets used in the experiments.
+
+Moving to the "Experiments" section, under "Datasets," the paper explicitly lists two datasets: the CNN/Dailymail (CNNDM) dataset and the New York Times (NYT50) dataset. The CNNDM dataset is described as containing 287,226 documents, while the NYT50 dataset is created by removing documents with summaries shorter than 50 words from the New York Times dataset. Both datasets are used for training, validation, and testing in the summarization task.
+
+Additionally, the paper mentions the GIGA-CM dataset, which is a combination of the English Gigaword dataset and the training split of CNNDM. This dataset is used for unsupervised pre-training of the HIBERT model.
+
+Now, I'll gather the metadata for each dataset:
+
+1. **CNN/Dailymail (CNNDM) Dataset**
+   - **Creators**: Hermann et al. (2015), See et al. (2017)
+   - **Description**: A dataset containing news articles and their summaries, used for training, validation, and testing in summarization tasks.
+   - **Title**: CNN/Dailymail Dataset
+   - **Issued**: 2015
+   - **Language**: English
+   - **Identifier**: https://catalog.ldc.upenn.edu/LDC2012T21
+   - **Theme**: Text Summarization, News
+   - **Keywords**: News articles, Summaries, Extractive summarization
+   - **Landing Page**: https://github.com/abisee/cnn-dailymail
+   - **Version**: Not specified
+   - **Format**: Text
+   - **Task**: Document Summarization
+
+2. **New York Times (NYT50) Dataset**
+   - **Creators**: Durrett et al. (2016), Xu and Durrett (2019)
+   - **Description**: A dataset created by filtering the New York Times dataset to include only documents with summaries longer than 50 words, used for training, validation, and testing in summarization tasks.
+   - **Title**: New York Times Dataset (NYT50)
+   - **Issued**: 2016
+   - **Language**: English
+   - **Identifier**: https://catalog.ldc.upenn.edu/LDC2012T21
+   - **Theme**: Text Summarization, News
+   - **Keywords**: News articles, Summaries, Extractive summarization
+   - **Landing Page**: https://github.com/abisee/cnn-dailymail
+   - **Version**: Not specified
+   - **Format**: Text
+   - **Task**: Document Summarization
+
+3. **GIGA-CM Dataset**
+   - **Creators**: The authors of the paper (Zhang, Wei, Zhou)
+   - **Description**: A large dataset created by combining the English Gigaword dataset and the training split of CNNDM, used for unsupervised pre-training of the HIBERT model.
+   - **Title**: GIGA-CM Dataset
+   - **Issued**: Not specified
+   - **Language**: English
+   - **Identifier**: Not specified
+   - **Theme**: Text Summarization, News
+   - **Keywords**: Pre-training, Document modeling, Hierarchical Transformers
+   - **Landing Page**: Not specified
+   - **Version**: Not specified
+   - **Format**: Text
+   - **Task**: Document Pre-training
+
+I'll ensure that each dataset's metadata is accurately filled based on the information provided in the paper. If any details are missing, I'll leave those fields empty as per the instructions.
+</think>

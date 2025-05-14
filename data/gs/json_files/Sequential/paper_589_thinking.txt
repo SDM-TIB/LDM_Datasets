@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "The Concordia NLG Surface Realizer at SR’19" by Farhood Farahnak et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and dataset sections** of the paper to identify any datasets mentioned. The abstract provides a brief overview of the model and its purpose, but I need to look for specific datasets used in the experiments.
+
+In the **introduction**, the authors mention the Surface Realization Shared Task 2019 (SR’19) and indicate that it provides common-ground datasets for developing and evaluating NLG systems. This suggests that datasets are involved, but I need to find their specific names and details.
+
+Next, I will focus on **section 3 (Dataset)**, where the authors describe the datasets used for the shallow track. They mention that training and development sets were provided for 11 different languages, taken from the Universal Dependency (UD) datasets. They specifically mention four training datasets that were concatenated into a single training set:
+
+1. **en ewt-ud-train**: This dataset is part of the English Universal Dependencies and contains 19,976 sentences.
+2. **en gum-ud-train**: Another English dataset included in the training set.
+3. **en lines-ud-train**: Also part of the training data.
+4. **en partut-ud-train**: The fourth dataset used for training.
+
+The authors also mention that the development sets provided by the SR’19 organizers are not labeled, and they divided the training data into training and validation sets.
+
+In **section 5 (Experiments and Results)**, the authors provide results for various test datasets, including:
+
+- **en ewt-ud-test**
+- **en gum-ud-test**
+- **en lines-ud-test**
+- **en partut-ud-test**
+- **en pud-ud-test**
+- **en ewt-Pred-HIT-edit**
+- **en pud-Pred-LATTICE**
+
+These datasets are used to evaluate the performance of their model.
+
+Now, I will consult the **References section** to retrieve full citations for the datasets mentioned. The primary source for the Universal Dependency datasets is:
+
+- For the Universal Dependencies, the citation is:
+  > Marie-Catherine de Marneffe, Timothy Dozat, Natalia Silveira, Katri Haverinen, Filip Ginter, Joakim Nivre, and Christopher D. Manning. *Universal Stanford dependencies: A cross-linguistic typology*. In Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC-2014), pages 4585–4592, Reykjavik, Iceland. European Languages Resources Association (ELRA).
+
+This citation applies to all the Universal Dependency datasets mentioned in the paper.
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

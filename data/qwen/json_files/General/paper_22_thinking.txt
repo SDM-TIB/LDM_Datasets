@@ -1,0 +1,25 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. Let me go through the paper step by step.
+
+First, the paper is titled "QE BERT: Bilingual BERT using Multi-task Learning for Neural Quality Estimation" by Hyun Kim and others. It's about using BERT for translation quality estimation.
+
+Looking through the abstract, I don't see any datasets mentioned. The introduction talks about translation quality estimation and mentions the Predictor-Estimator architecture, but no specific datasets yet.
+
+In the methodology section, under "2 QE BERT," they mention using parallel data for pre-training. Specifically, they refer to the ParaCrawl corpus, Common Crawl corpus, News Commentary corpus, Yandex Corpus for English-Russian, and Europarl corpus, ParaCrawl corpus, Common Crawl corpus, News Commentary corpus, and Document-split Rapid corpus for English-German.
+
+The experiments section (3.1) mentions that the evaluation was done on the WMT19 QE Shared Task datasets for English-Russian and English-German. They also used the parallel data from the WMT19 news machine translation task for pre-training.
+
+So, the datasets mentioned are:
+1. ParaCrawl corpus
+2. Common Crawl corpus
+3. News Commentary corpus
+4. Yandex Corpus
+5. Europarl corpus
+6. Document-split Rapid corpus
+7. WMT19 QE Shared Task datasets
+8. WMT19 news machine translation task data
+
+Now, I need to extract metadata for each of these datasets. However, the paper doesn't provide detailed descriptions or URLs for each dataset. For some, like WMT19, URLs are mentioned in the paper, but others are just referred to by name.
+
+I'll structure each dataset with the available information, noting that some fields might be empty because the paper doesn't provide that detail.
+</think>

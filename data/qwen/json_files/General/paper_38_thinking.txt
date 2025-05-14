@@ -1,0 +1,25 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract and introduction to get an overview. The paper discusses ELMo embeddings and evaluates different weighting schemes on various NLP tasks. It mentions several datasets in the context of experiments and evaluations.
+
+In the "Evaluation of Weighting Schemes" section, the authors detail two experiments. The first experiment uses a BiLSTM-CRF architecture with ELMo embeddings as the sole input. The datasets mentioned here include:
+
+1. **ACE Entities and ACE Events**: From the ACE 2005 dataset, which involves entity and event detection.
+2. **POS (Part-of-Speech)**: Using Universal Dependencies v1.3 for English.
+3. **Chunking**: The CoNLL 2000 shared task dataset.
+4. **NER (Named Entity Recognition)**: The CoNLL 2003 shared task.
+5. **GENIA NER**: From the JNLPBA task, focusing on bio-entities.
+6. **WNUT16**: A shared task on NER over Twitter data.
+
+The second experiment uses AllenNLP models with ELMo embeddings combined with other inputs. The datasets here include:
+
+1. **CoNLL 2003 NER**: Again mentioned for NER tasks.
+2. **Stanford Sentiment Treebank (SST-5)**: For sentiment analysis.
+3. **Penn TreeBank**: For constituency parsing.
+4. **SNLI (Stanford Natural Language Inference Corpus)**: For natural language inference.
+
+I'll also check the references section for any additional datasets, but it seems all datasets are already listed in the paper's text.
+
+Now, I'll structure each dataset with the required metadata fields, ensuring accuracy based on the paper's descriptions.
+</think>

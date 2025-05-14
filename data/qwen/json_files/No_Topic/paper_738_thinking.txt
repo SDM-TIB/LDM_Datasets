@@ -1,0 +1,49 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets.
+
+First, I'll look at the abstract. It mentions SIMMC 2.0, which is the primary dataset used in this research. SIMMC stands for Situated Interactive Multi-Modal Conversations. The paper focuses on creating virtual shopping assistants that handle complex multi-modal inputs, such as visual appearances of objects and user utterances. SIMMC 2.0 consists of four subtasks: multi-modal disambiguation, coreference resolution, dialog state tracking, and response retrieval and generation.
+
+Next, I'll check the introduction. It again refers to SIMMC 2.0, emphasizing its role in situated multi-modal contexts within virtual reality stores. The dataset is described as more complex than its predecessor, SIMMC 1.0, with richer visual contexts and more objects on average.
+
+Moving to the related work section, I don't find any additional datasets mentioned beyond SIMMC 2.0. The discussion revolves around task-oriented dialog systems and cross-modal models but doesn't reference other datasets.
+
+In the dataset description section (Section 3.1), the paper provides more details about SIMMC 2.0. It mentions that the dataset is publicly available on GitHub and includes 11,244 dialogs split into training, development, and test sets. Each dialog has multiple turns with grounded multi-modal contexts and scenes. The objects in the dataset belong to fashion and furniture domains, with metadata like brand, size, customer rating, and price provided.
+
+The paper also references SIMMC 1.0, which is the predecessor of SIMMC 2.0. SIMMC 1.0 is mentioned as having simpler scenes with fewer objects, which helps set the context for why SIMMC 2.0 was developed.
+
+I don't find any other datasets mentioned in the rest of the paper. The focus is entirely on SIMMC 2.0 and its subtasks, along with the model's performance on this dataset.
+
+Now, I'll structure the metadata for each dataset identified:
+
+1. **SIMMC 2.0**
+   - **Creators**: The authors of the paper, as they are responsible for creating and describing the dataset.
+   - **Description**: A situated multi-modal conversation dataset for task-oriented dialog systems, including visual and linguistic inputs.
+   - **Title**: SIMMC 2.0
+   - **Issued**: The year the dataset was published, which is 2021 based on the reference.
+   - **Language**: English, as the dialogs are in English.
+   - **Identifier**: The GitHub URL provided in the paper.
+   - **Theme**: Multi-modal dialog systems, situated conversations.
+   - **Keywords**: Multi-modal, dialog, situated, VR, task-oriented.
+   - **Landing Page**: The GitHub repository link.
+   - **Version**: 2.0
+   - **Format**: Text, visual.
+   - **Tasks**: Multi-modal disambiguation, coreference resolution, dialog state tracking, response retrieval.
+
+2. **SIMMC 1.0**
+   - **Creators**: The same as SIMMC 2.0, as it's the predecessor.
+   - **Description**: A simpler version with fewer objects and less complex scenes.
+   - **Title**: SIMMC 1.0
+   - **Issued**: The year before 2021, but since it's not explicitly stated, I'll leave it as 2020 based on the reference.
+   - **Language**: English.
+   - **Identifier**: No specific URL provided, but it's implied to be from the same creators.
+   - **Theme**: Similar to SIMMC 2.0.
+   - **Keywords**: Multi-modal, dialog, situated, VR, task-oriented.
+   - **Landing Page**: Not provided.
+   - **Version**: 1.0
+   - **Format**: Text, visual.
+   - **Tasks**: Similar to SIMMC 2.0 but less complex.
+
+I need to ensure that the creators are correctly identified. Since the paper's authors are the ones describing SIMMC 2.0, they are the creators. SIMMC 1.0 is mentioned as a previous version, so the same creators apply.
+
+I'll structure this information into the required JSON format, ensuring all fields are filled appropriately based on the information extracted from the paper.
+</think>

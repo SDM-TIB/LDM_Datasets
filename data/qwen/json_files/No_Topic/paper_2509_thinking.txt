@@ -1,0 +1,17 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the given research paper. The paper is about a tool called BAD, which helps in creating Basque verses. It mentions several components and references, but I need to identify any datasets used or mentioned.
+
+First, I'll go through the abstract and introduction. The abstract talks about the BAD tool and its features, but doesn't mention any datasets. The introduction explains the background of bertsolaritza and the tool's purpose, still no datasets.
+
+Looking at section 3, which details the BAD tool's features, I see mentions of a database for verse structures, a synonym search using Basque WordNet, and a rhyme search engine. The WordNet is a dataset, so that's one.
+
+In section 3.3, the synonym search uses a modified Basque WordNet. The reference for this is Pociello et al., 2010. So, Basque WordNet is a dataset.
+
+Section 3.4 mentions the rhyme search using foma, which is a tool, not a dataset. Section 3.5 talks about text-to-speech synthesis, which doesn't involve a dataset.
+
+In the discussion (section 5), they mention having a corpus of 3,500 Basque verses. This is another dataset. The corpus is used for future research but is mentioned here.
+
+References include several works, but only Basque WordNet and the 3,500 verse corpus are datasets used in the paper.
+
+So, I've identified two datasets: Basque WordNet and the 3,500 verse corpus. I'll extract their metadata based on the paper's description.
+</think>

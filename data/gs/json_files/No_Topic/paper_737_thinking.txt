@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Meta Learning with Minimax Regularization," I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions conducting extensive experiments on representative meta-learning scenarios, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (Section 5), where the authors describe their experimental setup. In **subsection 5.1 (Few-Shot Classification)**, they explicitly mention two datasets used for evaluation:
+
+1. **Mini-Imagenet**: This dataset is sampled from ImageNet and consists of 600 instances across 100 classes. The authors specify that each image is resized to 84 × 84 pixels and that the dataset is split into 64 classes for training, 12 for validation, and 24 for testing.
+
+2. **Omniglot**: This dataset contains 1623 character classes from different alphabets, with each class having 20 instances. The authors describe how the classes are shuffled and divided into training, validation, and test sets.
+
+In **subsection 5.2 (Few-Shot Regression)**, the authors refer to the **Sinusoids dataset**, which is a synthetic dataset generated for the purpose of their experiments. They describe how the data is created, including the sampling of amplitudes and the generation of sine wave outputs.
+
+In **subsection 5.3 (Robust Reweighting with Meta-Learning)**, the authors mention using the **noisy MNIST dataset**, which consists of images of handwritten digits where 40% of the labels are randomly flipped to create noise.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **Mini-Imagenet**, the citation is:
+  > Ravi, S., & Larochelle, H. (2017). Optimization as a model for few-shot learning. In ICLR.
+
+- For **Omniglot**, the citation is:
+  > Lake, B. M., Salakhutdinov, R., & Tenenbaum, J. B. (2015). Human-level concept learning through probabilistic program induction. Science, 350(6266), 1332-1338.
+
+- For the **Sinusoids dataset**, since it is synthetic and generated for the experiments, it may not have a formal citation, but I will note that it is based on the work of Yin et al. (2019) as referenced in the paper.
+
+- For the **noisy MNIST dataset**, the authors reference the work of Ren et al. (2018) for the Meta-Reweighting algorithm, which is used in their experiments. The citation is:
+  > Ren, M., Zeng, W., Yang, B., & Urtasun, R. (2018). Learning to reweight examples for robust deep learning. In ICML.
+
+After gathering this information, I will compile the dataset entries with their respective citations for further processing.

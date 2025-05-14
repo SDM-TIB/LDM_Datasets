@@ -1,0 +1,30 @@
+>
+
+<think>
+To extract datasets from the research paper titled "Generating Logical Forms from Graph Representations of Text and Entities" by Peter Shaw, Philip Massey, Angelica Chen, Francesco Piccinno, and Yasemin Altun, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, materials and methods, and results sections** to identify any datasets that are mentioned or referenced. The abstract mentions the use of three semantic parsing datasets: GEO, ATIS, and SPIDER.
+
+In the **introduction**, the authors discuss the importance of handling entities in semantic parsing and mention that recent approaches have cast it as a sequence-to-sequence task.
+
+Next, I will focus on the **materials and methods section**, particularly the subsections that detail the datasets used for evaluation. Here, the authors mention three named semantic parsing datasets:
+
+1. **GEO**: The GeoQuery dataset consists of natural language questions about US geography along with corresponding logical forms.
+2. **ATIS**: The Air Travel Information System (ATIS) dataset consists of natural language queries about travel planning.
+3. **SPIDER**: This text-to-SQL large-scale dataset that consists of 10,181 questions and 5,693 unique complex SQL queries across 200 database tables spanning 138 domains.
+
+In the **results section**, the authors confirm that these datasets were used for extrinsic evaluation of their models, which reinforces their relevance.
+
+Now, I will check the **references section** to find the full citations for these datasets:
+
+- For **GEO**, the citation is:
+  > John M. Zelle and Raymond J. Mooney. Learning to parse database queries using inductive logic programming. In Proceedings of the 12th International Conference on Artificial Intelligence, pages 1050–1055, 1994.
+
+- For **ATIS**, the citation is:
+  > Deborah A. Dahl, Madeleine Bates, Michael Brown, William Fisher, Kate Hunicke-Smith, David Pallett, Christine Pao, Alexander Rudnicky, and Elizabeth Shriberg. Expanding the scope of the ATIS task: The ATIS-3 corpus. In Proceedings of the workshop on Human Language Technology, pages 43–48, 1994.
+
+- For **SPIDER**, the citation is:
+  > Tao Yu, Zifan Li, Zilin Zhang, Rui Zhang, and Dragomir Radev. SyntaxSQLnet: Syntax tree networks for complex and cross-domain text-to-SQL task. arXiv preprint arXiv:1810.05237, 2018.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review. This ensures that I have accurately captured the datasets and their citations from the paper.
+</think>

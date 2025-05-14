@@ -1,0 +1,17 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is about TreeQN and ATreeC, which are differentiable tree-structured models for deep reinforcement learning. The authors mention several environments and datasets they used to evaluate their models.
+
+First, I'll go through the paper section by section to identify any datasets. In the introduction, they talk about combining deep model-free reinforcement learning with online planning. They mention using environments where transition models are known a priori, but I don't see any specific datasets mentioned here.
+
+Moving on to the background section, they discuss Markov Decision Processes and deep Q-learning. They reference OpenAI Baselines, which is a library of implementations for various reinforcement learning algorithms. OpenAI Baselines itself isn't a dataset, but it's worth noting as it's a tool used in their experiments.
+
+In the experiments section, they evaluate their models on a box-pushing environment and a suite of Atari games. The box-pushing environment is described as a custom setup, so it's not a standard dataset. However, the Atari games are a well-known benchmark in reinforcement learning. They specifically mention using the subset of nine Atari environments from Oh et al. (2017). 
+
+Looking at the references, Oh et al. (2017) is cited, and their work involves Value Prediction Networks (VPNs) which use Atari games as a benchmark. The Atari dataset is a standard collection of video games used for evaluating reinforcement learning algorithms, so this is a key dataset to note.
+
+Additionally, the authors mention using OpenAI Baselines, which is a library that includes implementations for various RL algorithms, including those used in the Atari benchmark. While OpenAI Baselines isn't a dataset itself, it's a tool that uses datasets like the Atari games.
+
+I don't find any other datasets mentioned in the paper. The box-pushing environment is custom, and the Atari games are the primary datasets used for evaluation. The authors also reference the work of Weber et al. (2017) but that's about a different approach and not a dataset.
+
+So, the main dataset identified is the Atari games dataset, specifically the subset used by Oh et al. (2017). The OpenAI Baselines library is a tool used in their experiments but isn't a dataset.
+</think>

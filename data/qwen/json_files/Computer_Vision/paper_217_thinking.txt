@@ -1,0 +1,19 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Classification based Grasp Detection using Spatial Transformer Network" by Dongwon Park and Se Young Chun. The abstract mentions robotic grasp detection tasks and the use of deep learning methods. It doesn't explicitly name any datasets yet.
+
+Moving to the introduction, the authors discuss various methods for robotic grasp detection, including classificaton-based and regression-based approaches. They reference several works, but I'm looking for dataset names. 
+
+In the Related Work section, under Deep Learning based Robotic Grasp Detection, the authors mention the work of Lenz et al. [9], which uses a dataset for grasp detection. Specifically, they refer to the Cornell grasp detection dataset. 
+
+Looking at the references, [9] is cited as I. Lenz, H. Lee, and A. Saxena, "Deep learning for detecting robotic grasps," The International Journal of Robotics Research, vol. 34, no. 4-5, pp. 705-724, Apr. 2015. This paper likely describes the Cornell dataset.
+
+In the Experimental Results section, the authors state that they trained and tested their method using the Cornell grasp detection dataset. This dataset contains 855 images (RGB and depth) of 240 different objects with ground truth labels for graspable and non-graspable rectangles.
+
+So, the only dataset mentioned in the paper is the Cornell grasp detection dataset. I need to extract its metadata based on the information provided.
+
+The creators of the dataset are I. Lenz, H. Lee, and A. Saxena, as cited in reference [9]. The description is that it contains 855 images with RGB, depth, and ground truth labels for graspable areas. The title is "Cornell Grasp Detection Dataset." The year is 2015, based on the reference. The language isn't specified, so it's empty. There's no DOI or URL provided, so the identifier is empty. The theme is robotics and grasp detection. Keywords include robotic grasp, RGB-D, and object detection. The landing page is empty. The format is image data. The task is grasp detection.
+
+I'll structure this into the required JSON format.
+</think>

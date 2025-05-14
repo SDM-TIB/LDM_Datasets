@@ -1,0 +1,23 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me go through the paper step by step.
+
+First, I'll read through the abstract and introduction to get an overview. The paper discusses unsupervised open domain recognition (UODR) and introduces a method called UODTN. It mentions datasets used for evaluation.
+
+Looking at the sections, I find that the datasets are detailed in Section 4.1. The paper mentions two datasets: I2AwA and I2WebV.
+
+For I2AwA:
+- It's a small-scale dataset.
+- The target domain is AwA2, which has 50 animal classes with 37,322 images.
+- The source domain is collected via Google image search, resulting in 2,970 images.
+- The knowledge database used is WordNet.
+
+For I2WebV:
+- It's a large-scale dataset.
+- The source domain is ILSVRC-2012 with 1,000 classes and 1,279,847 images.
+- The target domain is the validation set of WebVision with 5,000 classes and 294,009 images.
+- The knowledge database used is WordNet.
+
+I'll structure each dataset with the required metadata fields. Since the creators aren't explicitly mentioned, I'll leave the creator field empty. The descriptions are based on how the datasets are used in the paper. The themes are related to computer vision and domain adaptation. The keywords include the dataset names and related tasks. The landing pages are URLs where the datasets can be accessed. The tasks involve domain adaptation and recognition.
+
+Now, I'll format this information into JSON as specified.
+</think>

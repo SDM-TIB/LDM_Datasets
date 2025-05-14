@@ -1,0 +1,43 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Empirical Evaluation of Sequence-to-Sequence Models for Word Discovery in Low-resource Settings" by Marcely Zanon Boito, Aline Villavicencio, and Laurent Besacier. It discusses the use of different sequence-to-sequence models for word discovery from phoneme sequences in low-resource languages.
+
+Looking through the sections, I find that the datasets used are mentioned in the Experimental Settings section, specifically in subsection 2.2: Parallel Speech Corpora.
+
+The paper mentions two main datasets:
+1. **EN-FR (English-French) Corpus**: This is a 33,192 sentences multilingual extension from LibriSpeech, with English audio books automatically aligned to French translations. It's also down-sampled to 5K utterances for comparison.
+2. **MB-FR (Mboshi-French) Corpus**: A 5,130 sentences corpus from the language documentation process of Mboshi, an endangered language spoken in Congo-Brazzaville.
+
+I need to extract metadata for each dataset using the specified vocabulary.
+
+For EN-FR Corpus:
+- **Creator**: The authors of the dataset are not explicitly mentioned in the paper, but it's an extension of LibriSpeech, which is created by V. Panayotov et al. (reference [20] in the paper).
+- **Description**: A multilingual corpus with English and French translations, used for evaluating word discovery models.
+- **Title**: EN-FR Corpus
+- **Issued**: The year is not explicitly mentioned, but LibriSpeech was introduced in 2015.
+- **Language**: English and French
+- **Identifier**: No DOI or URL provided in the paper.
+- **Theme**: Speech Processing, Language Documentation
+- **Keyword**: Parallel corpus, speech translation, low-resource
+- **Landing Page**: Not provided.
+- **Version**: Not mentioned.
+- **Format**: Text, Phoneme sequences
+- **Task**: Word discovery, Speech translation
+
+For MB-FR Corpus:
+- **Creator**: The authors are P. Godard, G. Adda, M. Adda-Decker, J. Benjumea, L. Besacier, J. Cooper-Leavitt, G.-N. Kouarata, L. Lamel, H. Maynard, M. Mueller, and others (reference [19] in the paper).
+- **Description**: A corpus for Mboshi, an endangered language, aligned with French translations, used for evaluating word discovery models.
+- **Title**: MB-FR Corpus
+- **Issued**: The year is 2017, as per the reference.
+- **Language**: Mboshi and French
+- **Identifier**: No DOI or URL provided.
+- **Theme**: Speech Processing, Language Documentation
+- **Keyword**: Endangered language, speech translation, low-resource
+- **Landing Page**: Not provided.
+- **Version**: Not mentioned.
+- **Format**: Text, Phoneme sequences
+- **Task**: Word discovery, Speech translation
+
+I need to structure this information into JSON format, ensuring all fields are correctly filled based on the paper's content.
+</think>

@@ -1,0 +1,60 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let's start by carefully reading through the paper to identify any datasets.
+
+First, the paper's title is "KU ai at MEDIQA 2019: Domain-specific Pre-training and Transfer Learning for Medical NLI." The authors are Cemil Cengiz, Deniz Yuret, and Ulas A. Sert from Koc University. The abstract mentions the MedNLI dataset, which is the main focus. 
+
+Looking into the introduction, the authors discuss NLI tasks and mention datasets like SNLI and MultiNLI as general-domain datasets. These are used for transfer learning. 
+
+In the datasets section (Section 3), the authors explicitly mention three datasets:
+1. MedNLI: The target dataset for the shared task, created from clinical notes with de-identification artifacts.
+2. MultiNLI: A general-domain dataset with various genres.
+3. SNLI: Another general-domain dataset based on image captions.
+
+Each of these datasets is used in different stages of their experiments. MedNLI is the primary dataset, while MultiNLI and SNLI are used for pre-training and transfer learning.
+
+Now, I'll extract the metadata for each dataset based on the provided vocabulary.
+
+For MedNLI:
+- **Creator**: Romanov and Shivade, as cited in the paper.
+- **Description**: Created from clinical notes, includes de-identification artifacts.
+- **Title**: MedNLI
+- **Issued**: 2018, based on the reference.
+- **Language**: English, as it's a medical dataset.
+- **Identifier**: Not provided in the paper.
+- **Theme**: Medical, Natural Language Processing.
+- **Keyword**: Medical NLI, Clinical notes.
+- **Landing Page**: Not provided.
+- **Version**: Not mentioned.
+- **Format**: Text.
+- **Task**: Natural Language Inference.
+
+For MultiNLI:
+- **Creator**: Williams et al., as cited.
+- **Description**: General-domain dataset with multiple genres.
+- **Title**: MultiNLI
+- **Issued**: 2018.
+- **Language**: English.
+- **Identifier**: Not provided.
+- **Theme**: Natural Language Processing.
+- **Keyword**: General-domain NLI, Multi-genre.
+- **Landing Page**: Not provided.
+- **Version**: Not mentioned.
+- **Format**: Text.
+- **Task**: Natural Language Inference.
+
+For SNLI:
+- **Creator**: Bowman et al., as cited.
+- **Description**: Based on image captions.
+- **Title**: SNLI
+- **Issued**: 2015.
+- **Language**: English.
+- **Identifier**: Not provided.
+- **Theme**: Natural Language Processing.
+- **Keyword**: Image captions, NLI.
+- **Landing Page**: Not provided.
+- **Version**: Not mentioned.
+- **Format**: Text.
+- **Task**: Natural Language Inference.
+
+I need to ensure that each field is correctly filled based on the information available in the paper. If any information is missing, it should be left as an empty string or list as per the instructions.
+</think>

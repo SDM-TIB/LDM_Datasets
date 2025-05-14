@@ -1,0 +1,55 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about a fusion model combining contextualized and static word representations for contextual emotion detection, specifically in the EmoContext task at SemEval-2019.
+
+First, I'll read through the paper to identify any datasets mentioned. The abstract mentions the EmoContext task, which is part of SemEval-2019. The introduction elaborates on this task, explaining that it involves classifying textual dialogues into sentiment classes. The datasets used here are provided by the task organizers, so that's one dataset to note: the EmoContext dataset.
+
+Next, the paper discusses the preprocessing steps using the ekphrasis library. It mentions that the static word embeddings are based on Word2Vec trained on Twitter data. The paper references a specific Word2Vec model trained on 550 million Twitter messages. This is another dataset to include: the Twitter corpus used for training Word2Vec.
+
+Additionally, the paper uses ELMo embeddings, which are trained on a large corpus. The ELMo model mentioned is the original pretrained model by AllenNLP, trained on Wikipedia and news crawl data. This is the third dataset: the ELMo training corpus.
+
+I need to extract metadata for each of these datasets. For each, I'll look for the creator, description, title, publication year, language, identifier, theme, keywords, landing page, version, format, and tasks.
+
+1. **EmoContext Dataset**:
+   - Creator: The task organizers, which are the authors of the paper, but since the paper is about the task, the creators are the organizers, but the paper doesn't specify their names. So, I'll leave it as an empty list.
+   - Description: The dataset consists of textual dialogues classified into sentiment classes.
+   - Title: EmoContext Dataset
+   - Issued: 2019 (since it's SemEval-2019)
+   - Language: English
+   - Identifier: The URL from the paper: https://competitions.codalab.org/competitions/19790
+   - Theme: Sentiment Analysis, Textual Emotion Detection
+   - Keywords: Sentiment classification, dialogues, emotion detection
+   - Landing Page: Same as identifier
+   - Version: Not mentioned
+   - Format: Text
+   - Tasks: Sentiment classification, emotion detection
+
+2. **Word2Vec Trained on Twitter Data**:
+   - Creator: The authors of the ekphrasis library, but the paper doesn't specify their names. So, creator is empty.
+   - Description: Word2Vec embeddings trained on 550 million Twitter messages.
+   - Title: Twitter Corpus for Word2Vec
+   - Issued: Not specified in the paper.
+   - Language: English
+   - Identifier: The URL from the paper: https://github.com/cbaziotis/ekphrasis
+   - Theme: Word Embeddings, Social Media Text
+   - Keywords: Word2Vec, Twitter data, embeddings
+   - Landing Page: Same as identifier
+   - Version: Not mentioned
+   - Format: Text
+   - Tasks: Word representation, text embedding
+
+3. **ELMo Training Corpus**:
+   - Creator: The authors of the ELMo model, which is AllenNLP, but the paper doesn't list individual creators, so creator is empty.
+   - Description: Trained on Wikipedia and news crawl data, totaling 5.5 billion tokens.
+   - Title: ELMo Training Corpus
+   - Issued: 2018 (when ELMo was introduced)
+   - Language: English
+   - Identifier: The URL from the paper: https://allennlp.org/elmo
+   - Theme: Contextualized Embeddings, Language Modeling
+   - Keywords: ELMo, contextual embeddings, language model
+   - Landing Page: Same as identifier
+   - Version: Original model
+   - Format: Text
+   - Tasks: Contextualized word embeddings, language modeling
+
+I need to structure each of these into the JSON format specified, ensuring all fields are filled appropriately based on the information extracted from the paper.
+</think>

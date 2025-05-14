@@ -1,0 +1,19 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets.
+
+First, the paper is titled "Harnessing Privileged Information for Hyperbole Detection" and is authored by Rhys Biddle, Maciej Rybiński, Qian Li, and others. The abstract mentions the detection of hyperbole and introduces a model that uses privileged information. It also refers to an existing hyperbole detection dataset, which is likely HYPO.
+
+Looking through the introduction, the authors discuss hyperbole detection and mention the HYPO dataset introduced by Troiano et al. (2018). This dataset is central to their experiments.
+
+In Section 2, the paper provides a detailed description of the HYPO dataset. It consists of 709 hyperbolic utterances, along with two other corpora: Minimal Units Corpus and Paraphrase Corpus, making a total of over 2,100 sentences. The dataset is used for training and testing hyperbole detection models.
+
+Section 3 introduces HyperProbe, a suite of synthetic tests created by the authors to evaluate their model's capabilities. This isn't a dataset per se but a testing framework. However, it's important to note that the authors used their own synthetic data for evaluation.
+
+In the experiments section (Section 5), the authors mention using HYPO for training and testing. They also refer to their synthetic tests from HyperProbe but don't cite any other external datasets.
+
+The references section includes works by Troiano et al. (2018), which is where HYPO is introduced. There's no mention of other datasets used in this paper.
+
+So, the only dataset explicitly mentioned and used in this paper is HYPO. The authors created HyperProbe as a testing suite, but it's not an external dataset. Therefore, the only dataset to extract is HYPO.
+
+Now, I'll structure the metadata for HYPO based on the information provided in the paper.
+</think>

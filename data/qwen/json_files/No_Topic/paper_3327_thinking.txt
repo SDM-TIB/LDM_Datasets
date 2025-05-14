@@ -1,0 +1,34 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract and introduction to get an overview. The paper discusses active learning strategies using typicality for informative sample selection. It mentions experiments on five datasets, but the names aren't provided yet.
+
+Moving to the "Datasets" section, I find the specific datasets used:
+
+1. **MSRC Dataset**: This is used for joint scene-object classification. It's referenced in the paper with details on its usage for evaluating the proposed framework.
+
+2. **MIT-67 Indoor Dataset**: Another dataset for joint scene-object classification, providing 67 scene categories and 50 object categories.
+
+3. **CAD-120 Dataset**: Used for joint activity-object classification, focusing on human activities and associated objects.
+
+4. **Scene-15 Dataset**: A dataset for scene classification tasks, containing 15 scene categories.
+
+5. **VOC2010 Dataset**: Used for object recognition, providing a standard benchmark for evaluating object detection models.
+
+For each dataset, I'll extract the required metadata fields:
+
+- **dcterms:creator**: The authors or creators of each dataset as mentioned in the paper's references.
+- **dcterms:description**: A brief description of the dataset based on how it's used in the paper.
+- **dcterms:title**: The name of the dataset.
+- **dcterms:issued**: The year the dataset was published, if available.
+- **dcterms:language**: Typically empty unless the dataset involves text in a specific language.
+- **dcterms:identifier**: DOI or URL if provided.
+- **dcat:theme**: Thematic categories based on the dataset's content.
+- **dcat:keyword**: Keywords related to the dataset's use.
+- **dcat:landingPage**: URL or landing page if available.
+- **dcterms:hasVersion**: Specific version if mentioned.
+- **dcterms:format**: Format of the dataset (e.g., image, video).
+- **mls:task**: Tasks for which the dataset is used.
+
+I'll ensure each dataset is accurately described based on the paper's usage and any available references.
+</think>

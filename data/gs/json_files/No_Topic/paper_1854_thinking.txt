@@ -1,0 +1,27 @@
+To extract the datasets from the research paper titled "Rakuten’s Participation in WAT 2022: Parallel Dataset Filtering by Leveraging Vocabulary Heterogeneity" by Alberto Poncelas et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and data selection sections** to identify any datasets mentioned. The abstract indicates participation in the WAT 2022 shared translation task, which suggests that datasets are involved, particularly for the Parallel Data Filtering Task.
+
+In the **introduction**, the authors mention the use of a noisy parallel corpus mined from the web, specifically stating that they selected data from **JParaCrawl v3.0**. This is a key dataset that I need to note.
+
+Next, I will look at the **Data Selection section** where the authors detail their approach. They specifically mention extracting sentences from **JParaCrawl** based on the ASPEC train set. This confirms that JParaCrawl is a primary dataset used in their experiments.
+
+The paper also lists several datasets in **Table 1**, which includes:
+
+1. **JParaCrawl**: A large-scale web-based English-Japanese parallel corpus with a size of 25.7 million lines.
+2. **ASPEC Train**: A scientific domain parallel corpus with 3 million lines.
+3. **ASPEC Dev**: A smaller subset of the ASPEC corpus with 1.8K lines.
+4. **ASPEC Devtest**: Another subset of the ASPEC corpus with 1.8K lines.
+5. **ASPEC Test**: The test set of the ASPEC corpus, also with 1.8K lines.
+
+Now, I will check the **References section** to find the full citations for these datasets. The relevant citations are:
+
+- For **JParaCrawl**, the citation is:
+  > Makoto Morishita, Jun Suzuki, and Masaaki Nagata. *JParaCrawl: A large scale web-based English-Japanese parallel corpus*. In Proceedings of The 12th Language Resources and Evaluation Conference, pages 3603–3609, Marseille, France, 2020.
+
+- For **ASPEC**, the citation is:
+  > Toshiaki Nakazawa, Manabu Yaguchi, Kiyotaka Uchimoto, Masao Utiyama, Eiichiro Sumita, Sadao Kurohashi, and Hitoshi Isahara. *ASPEC: Asian scientific paper excerpt corpus*. In Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC 2016), pages 2204–2208, Portorož, Slovenia, 2016.
+
+With these citations, I now have the necessary information to describe each dataset accurately.
+
+Finally, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, sizes, and full citations, ensuring that each dataset is properly documented for future reference.

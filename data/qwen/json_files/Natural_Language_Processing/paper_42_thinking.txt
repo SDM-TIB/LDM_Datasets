@@ -1,0 +1,17 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about the Clued Recurrent Attention Model (CRAM) and its applications in image classification and inpainting tasks. 
+
+First, I'll read through the abstract and introduction to get a sense of what datasets are being used. The abstract mentions that CRAM is evaluated on two tasks: image classification and inpainting. It also mentions that the code is available on GitHub, but that's not a dataset.
+
+Looking into the methodology section, I see that for the image classification task, the authors used a convolutional deconvolutional network (CNN-DecNN) pre-trained on the MSRA10k dataset. MSRA10k is a dataset for saliency detection, containing 10,000 annotated images. 
+
+For the inpainting task, the authors used the Street View House Numbers (SVHN) dataset. SVHN is a dataset of house numbers from Google Street View images, containing 73,257 training digits and 26,032 testing digits, each of size 32x32 in RGB color scale.
+
+I'll check the references section to confirm the details of these datasets. The MSRA10k dataset is cited as [13], and SVHN is cited as [18]. 
+
+Now, I'll structure the metadata for each dataset based on the provided vocabulary. For MSRA10k, the creators are M.-M. Cheng, N. J. Mitra, X. Huang, P. H. Torr, and S.-M. Hu. The description is about saliency detection with 10,000 images. The title is MSRA10k, issued in 2015, with no language specified. The identifier is the DOI from the reference. The theme is Computer Vision, keyword is Saliency Detection, landing page is the DOI URL, format is Image, and the task is Image Segmentation.
+
+For SVHN, the creators are Y. Netzer, T. Wang, A. Coates, A. Bissacco, B. Wu, and A. Y. Ng. The description mentions 73,257 training and 26,032 testing digits of house numbers. The title is SVHN, issued in 2011, with no language. The identifier is the reference number, theme is Computer Vision, keyword is Image Inpainting, landing page is the reference URL, format is Image, and the task is Image Inpainting.
+
+I need to ensure that all fields are correctly filled based on the paper's information. If any details are missing, I'll leave them as empty strings or lists as per the instructions.
+</think>

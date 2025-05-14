@@ -1,0 +1,20 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll look through the abstract and introduction to see if any datasets are referenced. The abstract mentions experiments with ELMo and BERT, but doesn't specify datasets. The introduction discusses various linguistic tasks and mentions several datasets in footnotes and references.
+
+In the "Experimental Setup" section, the authors mention using the English Web Treebank part of Universal Dependencies 2.2 and the English portion of Ontonotes 5.0 for their tasks. These are two datasets. Additionally, they reference BERT and ELMo, which are models but not datasets. However, the datasets used with these models are important.
+
+Looking at the references, I find that the datasets mentioned are:
+
+1. **Universal Dependencies 2.2 (UD 2.2)**: Used for syntactic dependency labeling.
+2. **Ontonotes 5.0**: Used for named entity labeling, nonterminal labeling, and semantic role labeling.
+
+I need to extract metadata for each of these datasets. For each dataset, I'll gather the creator(s), description, title, publication year, language, identifier (DOI or URL), theme, keywords, landing page, version, format, and tasks.
+
+For **Universal Dependencies 2.2**, the creators are the contributors listed in the reference. The description is about syntactic dependencies. The title is "Universal Dependencies 2.2". The year is 2015. The language is English. The identifier is the DOI. The theme is linguistics and syntax. Keywords include syntactic dependencies, treebank, and linguistics. The landing page is the UD website. The format is text. The task is syntactic dependency labeling.
+
+For **Ontonotes 5.0**, the creators are the contributors listed in the reference. The description is about various linguistic tasks. The title is "Ontonotes 5.0". The year is 2013. The language is English. The identifier is the LDC catalog number. The theme is linguistics and NLP. Keywords include named entities, semantic roles, and coreference. The landing page is the LDC website. The format is text. The tasks include named entity recognition, semantic role labeling, and coreference resolution.
+
+I'll structure this information into the required JSON format, ensuring each dataset is accurately described with all relevant metadata.
+</think>

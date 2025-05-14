@@ -1,0 +1,23 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. Let me go through the paper step by step.
+
+First, I'll read the abstract and introduction to get an overview. The paper introduces ESuLMo, a subword-aware language model, and evaluates it on several NLP tasks. It mentions datasets used for evaluation, but I need to identify them specifically.
+
+Looking through the sections, I find that the experiments section (4.1) discusses the language model evaluation on the One Billion Word dataset. This is a well-known dataset for language modeling tasks.
+
+In section 4.2, the paper evaluates ESuLMo on four benchmark NLP tasks. These tasks likely use standard datasets:
+
+1. **Syntactic Dependency Parsing (SDP)**: The paper mentions PTB-SD 3.5.0, which refers to the Penn Treebank dataset version 3.5.0.
+
+2. **Semantic Role Labeling (SRL)**: The dataset used is CoNLL 2009, a standard benchmark for SRL.
+
+3. **Implicit Discourse Relation Recognition (IDRR)**: The dataset mentioned is PDTB 2.0, the Penn Discourse Treebank version 2.0.
+
+4. **Textual Entailment (TE)**: The dataset used is SNLI, the Stanford Natural Language Inference corpus.
+
+Additionally, the paper references WordNet for word sense disambiguation, but WordNet is more of a resource than a dataset. However, it's worth noting.
+
+I'll check the references section to confirm the details of each dataset. The One Billion Word dataset is cited as Chelba et al., 2013. PTB-SD is from Marcus et al., 1993. CoNLL 2009 is cited as Cai et al., 2018. PDTB 2.0 is referenced as Ji and Eisenstein, 2015. SNLI is cited as Bowman et al., 2015.
+
+Now, I'll structure each dataset with the required metadata fields, ensuring accuracy based on the paper's descriptions.
+</think>

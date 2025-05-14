@@ -1,0 +1,58 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is about neural sentence generation from formal semantics. Let me go through it step by step.
+
+First, I'll read the abstract to get an overview. It mentions using a sequence-to-sequence model for generating sentences from logical representations. They use a semantic parsing system called ccg2lambda to obtain data annotated with logical formulas. They also mention using the SNLI corpus for their experiments.
+
+Next, I'll look into the introduction and background sections. They discuss using logical formulas from ccg2lambda and mention the SNLI corpus again. The SNLI corpus is a collection of sentence pairs labeled with entailment relations. They used 50,000 hypothesis sentences from the training portion, split into training, development, and test sets.
+
+In the experiment section, they detail their dataset creation process. They converted sentences from the SNLI corpus into logical formulas using ccg2lambda. They also mention using the C&C parser for tokenization and lemmatization.
+
+I need to identify all datasets mentioned. The main ones are:
+
+1. **SNLI Corpus**: A large dataset of sentence pairs used for training, development, and testing.
+2. **ccg2lambda**: A parsing and inference system that generates logical formulas, which they used to annotate their data.
+3. **C&C Parser**: A tool used for parsing sentences into CCG trees, which is part of their data processing.
+
+Now, I'll extract metadata for each dataset using the specified vocabulary.
+
+For SNLI Corpus:
+- **Creator**: The authors of the SNLI corpus, which are not explicitly mentioned in the paper, so I'll leave it as an empty list.
+- **Description**: A corpus of sentence pairs labeled with entailment relations.
+- **Title**: SNLI Corpus
+- **Issued**: The year the corpus was introduced, which I believe is 2015 based on the reference.
+- **Language**: English
+- **Identifier**: The URL or DOI, which is http://www.nlp.ucla.edu/Research/SNLI/
+- **Theme**: Natural Language Processing, Textual Entailment
+- **Keyword**: Sentence pairs, Entailment, NLP
+- **Landing Page**: http://www.nlp.ucla.edu/Research/SNLI/
+- **Format**: Text
+- **Task**: Textual Entailment, Sentence Generation
+
+For ccg2lambda:
+- **Creator**: The authors of ccg2lambda, which are Pascual Martínez-Gómez, Koji Mineshima, Yusuke Miyao, and Daisuke Bekki.
+- **Description**: A system that parses sentences into logical formulas using CCG.
+- **Title**: ccg2lambda
+- **Issued**: 2016
+- **Language**: English
+- **Identifier**: The GitHub URL https://github.com/mynlp/ccg2lambda
+- **Theme**: Semantic Parsing, Logical Representation
+- **Keyword**: Logical formulas, Parsing, CCG
+- **Landing Page**: https://github.com/mynlp/ccg2lambda
+- **Format**: Logical Formulas
+- **Task**: Semantic Parsing, Logical Inference
+
+For C&C Parser:
+- **Creator**: Stephen Clark and James Curran.
+- **Description**: A parser that converts sentences into CCG trees, used for lemmatization and tokenization.
+- **Title**: C&C Parser
+- **Issued**: 2007
+- **Language**: English
+- **Identifier**: The project page http://candcparser.org/
+- **Theme**: Parsing, Syntax
+- **Keyword**: CCG, Parsing, Syntax
+- **Landing Page**: http://candcparser.org/
+- **Format**: Parsing Trees
+- **Task**: Syntax Parsing, Tokenization
+
+I need to ensure that each dataset is correctly identified and that the metadata fields are accurately filled based on the information provided in the paper. I'll structure each dataset as a JSON object with the specified fields.
+</think>

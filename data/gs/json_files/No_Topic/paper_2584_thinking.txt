@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Leveraging SE(3) Equivariance for Self-Supervised Category-Level Object Pose Estimation" by Xiaolong Li et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors conducted extensive experiments on both complete and partial depth point clouds from the ModelNet40 benchmark and the NOCS-REAL275 dataset. This suggests that these datasets are crucial to their research.
+
+Next, I will focus on the **experiments section** (section 4), where the authors explicitly list the datasets used for evaluation. They mention:
+
+1. **ModelNet40**: This dataset consists of complete shape point clouds and is used for testing their method on five categories: airplane, car, chair, sofa, and bottle. The authors note that they follow the original train/test split from this dataset.
+
+2. **NOCS-REAL275**: This dataset contains real-world depth point clouds and is used for evaluating their algorithm on partial object depth point clouds. The authors describe it as having a synthetic training set with 275K discrete frames generated from 1085 object models, along with a testing set that has 3,200 frames collected from real videos.
+
+I will also check the **References section** to find the full citations for these datasets:
+
+- For **ModelNet40**, the citation is:
+  > Wu, Z., Song, S., Khosla, A., Yu, F., Zhang, L., Tang, X., & Xiao, J. (2015). *3D ShapeNets: A Deep Representation for Volumetric Shapes*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 1912–1920.
+
+- For **NOCS-REAL275**, the citation is:
+  > Wang, H., Sridhar, S., Huang, J., Valentin, J., Song, S., & Guibas, L. J. (2019). *Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 2642–2651.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding citations.

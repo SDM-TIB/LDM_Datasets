@@ -1,0 +1,77 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The DS-I Tobacco signature dataset contains 189 relatively clean and high-quality signatures from 63 authors, with three per author. All the signatures are full signatures, meaning each contains the full name of the author.",
+        "dcterms:title": "DS-I Tobacco signature dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "lamp.cfar.umd.edu",
+        "dcat:theme": [
+            "Signature Matching"
+        ],
+        "dcat:keyword": [
+            "Full signatures",
+            "Clean signatures",
+            "High-quality signatures"
+        ],
+        "dcat:landingPage": "lamp.cfar.umd.edu",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The DS-II UMD signature dataset contains 26661 signatures from 887 authors. It is a more challenging and realistic dataset since the signatures are extracted from the Tobacco litigation corpus, containing memos and letters. It is a mixture of both full signatures and partial signatures as many signatures are partial signatures or initials.",
+        "dcterms:title": "DS-II UMD signature dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "lamp.cfar.umd.edu",
+        "dcat:theme": [
+            "Signature Matching"
+        ],
+        "dcat:keyword": [
+            "Mixed signatures",
+            "Partial signatures",
+            "Degraded signatures"
+        ],
+        "dcat:landingPage": "lamp.cfar.umd.edu",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The DS-I partial dataset is manually selected from the DS-I Tobacco signature dataset by clipping out the first names of all full signatures. Full signatures are used to train and partial signatures are used to test in the experiment.",
+        "dcterms:title": "DS-I partial dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Partial signatures",
+            "Training dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The DS-II partial dataset contains 495 full signatures for training from 495 authors and 1732 signatures that contain both partial and full signatures for testing. It is built using authors in the DS-II UMD dataset with at least one partial signature.",
+        "dcterms:title": "DS-II partial dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Partial signatures",
+            "Training dataset",
+            "Testing dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

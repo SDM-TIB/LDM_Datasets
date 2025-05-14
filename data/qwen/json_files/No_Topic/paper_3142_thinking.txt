@@ -1,0 +1,25 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the given research paper. The paper is about predicting stock market movements using Twitter data. Let me go through it step by step.
+
+First, I'll read the abstract and introduction to get an overview. The abstract mentions that they used Twitter messages to predict stock prices for four tech companies: Apple, Google, Microsoft, and Amazon. They crawled 5,001,460 daily Tweets from April 1 to May 31, 2011. So, the main dataset here is the Twitter data they collected.
+
+Next, I'll look into the methodology section. They mention using the Twitter online streaming API called Firehose to collect the data. They focused on four cities in the US to geographically filter the tweets. They also used Yahoo! Finance data for stock market changes. So, Yahoo! Finance is another dataset they used.
+
+In the preprocessing section, they mention using Google Adwords for keyword expansion. I'm not sure if Google Adwords is a dataset or just a tool they used. It seems more like a tool, so maybe it's not a dataset.
+
+They also mention using the Twitter Sentiment Tool (TST) for sentiment analysis, but that's a tool, not a dataset. They used the CMU POS Tagger for part-of-speech tagging, which is another tool.
+
+In the Named Entity Recognition (NER) section, they built their own NER system using a CRF model. They manually labeled 3665 Tweets, but that's part of their own dataset, not an external one.
+
+They reference other studies, like Bar-Haim et al. (2011) and Bollen et al. (2011b), but those are just references to other research, not datasets they used.
+
+So, the datasets mentioned are:
+1. Twitter data collected via Firehose API from April 1 to May 31, 2011.
+2. Yahoo! Finance data for stock market changes.
+
+I need to describe each dataset using the specified metadata fields. For the Twitter dataset, the creators are the authors of the paper since they collected it. The description is about the tweets collected for the four companies. The title is "Twitter Data for Stock Market Prediction." It was issued in 2011. The language is English. The identifier is the Firehose API URL. The theme is Social Media and Finance. Keywords include Twitter, stock prediction, sentiment analysis. The landing page is the Twitter API URL. The format is text. The task is stock market prediction.
+
+For Yahoo! Finance, the creators are Yahoo. The description is about stock prices. The title is "Yahoo! Finance Stock Data." Issued in 2011. Language is English. Identifier is the Yahoo Finance URL. Theme is Finance. Keywords include stock prices, financial data. Landing page is the Yahoo Finance URL. Format is text. Task is stock market prediction.
+
+I think that's all the datasets mentioned in the paper.
+</think>

@@ -1,0 +1,23 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is about a Multimodal Semantic Transformer Network for the AVSD task. Let me go through it step by step.
+
+First, I'll read the abstract to get an overview. It mentions AVSD, which stands for Audio Visual Scene-aware Dialog. The authors propose a new model and compare it with existing methods. They mention datasets like DSTC7 and DSTC8. So, these are likely the datasets used in their experiments.
+
+Next, I'll look into the introduction. They talk about the AVSD task and reference previous works. The datasets DSTC7 and DSTC8 are mentioned again, so they must be the main datasets used.
+
+Moving on to the related work section, they discuss other models and datasets, but I don't see any new datasets mentioned here. It's mostly about methods, not data.
+
+In the experiments section, the authors provide a table comparing their model's performance on DSTC7 and DSTC8 datasets. They mention both single reference and six references versions for DSTC7. This indicates that these datasets are crucial for their evaluation.
+
+Looking at the references, I find citations for the DSTC7 and DSTC8 datasets. For example, Alamri et al. (2018) and Kim et al. (2019) are cited as the sources of these datasets. This confirms that these are the datasets used in the paper.
+
+I don't see any other datasets mentioned in the paper. The focus is on AVSD, and the experiments are entirely based on DSTC7 and DSTC8. So, these are the only datasets to extract.
+
+Now, I'll structure the metadata for each dataset based on the information found. For each dataset, I'll note the creators, description, title, publication year, and other relevant details as per the metadata vocabulary.
+
+I need to ensure that the creators are correctly identified from the references. For DSTC7, the creators are H. Alamri, V. Cartillier, R. G. Lopes, A. Das, J. Wang, I. Essa, D. Batra, D. Parikh, A. Cherian, T. K. Marks, and others. For DSTC8, the creators are S. Kim, M. Galley, C. Gunasekara, S. Lee, A. Atkinson, B. Peng, H. Schulz, J. Gao, J. Li, M. Adada, and others.
+
+The description for each dataset should reflect how they were used in the paper, which is for the AVSD task. The format is a mix of audio, video, and text data. The tasks involve generating responses based on the given inputs, so the mls:task would be "Multimodal Dialog Response Generation."
+
+I'll make sure to include all the necessary fields and format the JSON correctly without any additional text or explanations.
+</think>

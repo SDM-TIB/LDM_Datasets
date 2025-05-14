@@ -1,0 +1,29 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me go through the paper step by step.
+
+First, I'll read through the abstract and introduction to get an overview. The paper discusses character-based neural machine translation (NMT) using the Transformer architecture, comparing it to BPE models. It mentions experiments on EN-DE language pairs using news (WMT) and TED talks (IWSLT) datasets.
+
+Next, I'll look into the sections where datasets are specifically mentioned. In the "3. Representation units for Transformer" section, the authors detail their experiments using WMT and IWSLT datasets. They mention:
+
+1. **WMT (Wikipedia Machine Translation) dataset**: Used for high-resource settings, including news translation tasks.
+2. **IWSLT (International Workshop on Spoken Language Translation) dataset**: Specifically the 2014 corpus, used for low-resource settings, containing TED Talks transcriptions and translations.
+
+I'll check the references for more details. The WMT dataset is cited as [47] and [48], and IWSLT as [49]. From the references, I gather that WMT is a large-scale dataset for machine translation, while IWSLT focuses on spoken language translation, particularly TED Talks.
+
+Now, I'll structure each dataset according to the metadata fields:
+
+- **dcterms:creator**: For WMT, the creators are the Wikimedia Foundation and the European Parliament. For IWSLT, it's the International Workshop on Spoken Language Translation.
+- **dcterms:description**: WMT is a collection of parallel texts from Wikipedia and Europarl. IWSLT includes TED Talks transcriptions and translations.
+- **dcterms:title**: "WMT" and "IWSLT 2014".
+- **dcterms:issued**: WMT is ongoing, so I'll note it as "Ongoing". IWSLT 2014 was published in 2014.
+- **dcterms:language**: Both datasets involve multiple languages, but the paper focuses on EN-DE.
+- **dcterms:identifier**: URLs for WMT and IWSLT.
+- **dcat:theme**: "Machine Translation" and "Spoken Language Translation".
+- **dcat:keyword**: Relevant terms like "Parallel Corpora", "Translation Data".
+- **dcat:landingPage**: URLs to access the datasets.
+- **dcterms:hasVersion**: Not specified for WMT, but IWSLT has a 2014 version.
+- **dcterms:format**: Text.
+- **mls:task**: "Neural Machine Translation".
+
+I'll ensure each dataset is accurately described based on the paper's usage and the references provided.
+</think>

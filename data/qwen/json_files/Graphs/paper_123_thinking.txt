@@ -1,0 +1,15 @@
+<think>
+Alright, I need to extract the datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract and introduction to get an overview. The abstract mentions self-supervised learning and multi-task learning, but doesn't specify any datasets. The introduction discusses graph-based neural networks and mentions GCNs, but again, no datasets are named here.
+
+Moving on to the related works section, I see references to various methods and studies, but no specific datasets are mentioned. The methods section details the proposed auxiliary tasks but doesn't reference any datasets either.
+
+In the experimental results section, I finally find references to datasets. The paper mentions the standard datasets Citeseer, Cora, and Pubmed. These are citation networks where nodes represent documents and edges represent citations. The features are bag-of-words representations, and each node has a class label.
+
+I'll need to extract metadata for each of these datasets. The creators are the authors who published these datasets. For Citeseer, the creators are Sen et al., 2008. Similarly, Cora and Pubmed are also from Sen et al., 2008.
+
+The description for each dataset should include their structure and usage in the paper. They are used for semi-supervised classification tasks. The issued year is 2008 based on the reference. The language is English since the documents are in English. There's no specific identifier or landing page provided, so those fields will be empty. The theme is related to citation networks and text classification. Keywords include citation networks, text classification, and semi-supervised learning. The format is text, and the task is classification.
+
+I'll structure each dataset as a separate JSON object within an array, ensuring all required fields are included with the appropriate information.
+</think>

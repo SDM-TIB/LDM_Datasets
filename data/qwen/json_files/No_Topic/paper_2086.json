@@ -1,0 +1,367 @@
+[
+    {
+        "dcterms:creator": [
+            "WordNet Team"
+        ],
+        "dcterms:description": "A large lexical database of English, created by Princeton University. It contains synonyms grouped into synsets.",
+        "dcterms:title": "WordNet",
+        "dcterms:issued": "1998",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://wordnet.princeton.edu/",
+        "dcat:theme": [
+            "Lexical Resources",
+            "Semantics"
+        ],
+        "dcat:keyword": [
+            "Synonyms",
+            "Lexical Database"
+        ],
+        "dcat:landingPage": "https://wordnet.princeton.edu/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Semantic Analysis"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Speer, Robert",
+            "Turney, Peter"
+        ],
+        "dcterms:description": "A large, multilingual semantic network built from automatically extracted relations between concepts.",
+        "dcterms:title": "ConceptNet",
+        "dcterms:issued": "2017",
+        "dcterms:language": "Multilingual",
+        "dcterms:identifier": "https://conceptnet.io/",
+        "dcat:theme": [
+            "Knowledge Graphs",
+            "Semantics"
+        ],
+        "dcat:keyword": [
+            "Concepts",
+            "Relations"
+        ],
+        "dcat:landingPage": "https://conceptnet.io/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Semantic Analysis"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Miller, George A.",
+            "Chodorow, Martin",
+            "Landes, Claudia",
+            "Leacock, Chandra",
+            "Thomas, Robert G."
+        ],
+        "dcterms:description": "A semantically annotated corpus of English text, derived from the Brown Corpus, with each word tagged with its correct sense.",
+        "dcterms:title": "SEMCOR",
+        "dcterms:issued": "1994",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://www.cs.cmu.edu/~ramollin/SEMCOR.html",
+        "dcat:theme": [
+            "Corpora",
+            "Semantics"
+        ],
+        "dcat:keyword": [
+            "Semantic Annotation",
+            "Word Senses"
+        ],
+        "dcat:landingPage": "https://www.cs.cmu.edu/~ramollin/SEMCOR.html",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Word Sense Disambiguation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Wikipedia Community"
+        ],
+        "dcterms:description": "A collaborative, multilingual, free encyclopedia. Used here for pre-training language models.",
+        "dcterms:title": "Wikipedia",
+        "dcterms:issued": "2001",
+        "dcterms:language": "Multilingual",
+        "dcterms:identifier": "https://www.wikipedia.org/",
+        "dcat:theme": [
+            "Encyclopedia",
+            "Text Corpora"
+        ],
+        "dcat:keyword": [
+            "Collaborative",
+            "Free Encyclopedia"
+        ],
+        "dcat:landingPage": "https://www.wikipedia.org/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Pre-training"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Warstadt, Alex",
+            "Liu, Peng",
+            "Bowman, Samuel R."
+        ],
+        "dcterms:description": "A corpus of English sentences annotated for grammatical acceptability.",
+        "dcterms:title": "CoLA",
+        "dcterms:issued": "2019",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://github.com/nyu-mll/CoLA",
+        "dcat:theme": [
+            "Corpora",
+            "Linguistics"
+        ],
+        "dcat:keyword": [
+            "Grammaticality",
+            "Acceptability"
+        ],
+        "dcat:landingPage": "https://github.com/nyu-mll/CoLA",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Grammaticality Evaluation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Tjong Kim Sang, I.H.",
+            "De Meulder, F."
+        ],
+        "dcterms:description": "A corpus for named entity recognition in English, containing annotations for person, organization, and location names.",
+        "dcterms:title": "CoNLL 2003",
+        "dcterms:issued": "2003",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://www.clips.uantwerpen.be/conll2003/ner/",
+        "dcat:theme": [
+            "Corpora",
+            "Named Entity Recognition"
+        ],
+        "dcat:keyword": [
+            "NER",
+            "Named Entities"
+        ],
+        "dcat:landingPage": "https://www.clips.uantwerpen.be/conll2003/ner/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Named Entity Recognition"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "William, Adina",
+            "Nangia, Nikita",
+            "Bowman, Samuel R."
+        ],
+        "dcterms:description": "A dataset for natural language inference, containing sentence pairs from various genres.",
+        "dcterms:title": "MNLI",
+        "dcterms:issued": "2018",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://gluebenchmark.com/tasks/mnli",
+        "dcat:theme": [
+            "Corpora",
+            "Natural Language Inference"
+        ],
+        "dcat:keyword": [
+            "NLI",
+            "Entailment"
+        ],
+        "dcat:landingPage": "https://gluebenchmark.com/tasks/mnli",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Natural Language Inference"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Dolan, William B.",
+            "Brockett, Chris"
+        ],
+        "dcterms:description": "A corpus of sentence pairs annotated for paraphrase detection.",
+        "dcterms:title": "MRPC",
+        "dcterms:issued": "2005",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://catalog.ldc.upenn.edu/LDC2005T13",
+        "dcat:theme": [
+            "Corpora",
+            "Paraphrase Detection"
+        ],
+        "dcat:keyword": [
+            "Paraphrase",
+            "Sentence Pairs"
+        ],
+        "dcat:landingPage": "https://catalog.ldc.upenn.edu/LDC2005T13",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Paraphrase Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Rajpurkar, Pranav",
+            "Zhang, Jian",
+            "Lopyrev, Konstantin",
+            "Liang, Percy"
+        ],
+        "dcterms:description": "A dataset for question answering, containing question pairs from various sources.",
+        "dcterms:title": "QNLI",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://gluebenchmark.com/tasks/qnli",
+        "dcat:theme": [
+            "Corpora",
+            "Question Answering"
+        ],
+        "dcat:keyword": [
+            "Question Pairs",
+            "Answer Selection"
+        ],
+        "dcat:landingPage": "https://gluebenchmark.com/tasks/qnli",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Question Answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Iyer, Shankar",
+            "Izar, Tal",
+            "Csernai, Kornél"
+        ],
+        "dcterms:description": "A dataset of question pairs from Quora, annotated for semantic similarity.",
+        "dcterms:title": "QQP",
+        "dcterms:issued": "2017",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://gluebenchmark.com/tasks/qqp",
+        "dcat:theme": [
+            "Corpora",
+            "Semantic Similarity"
+        ],
+        "dcat:keyword": [
+            "Question Pairs",
+            "Similarity"
+        ],
+        "dcat:landingPage": "https://gluebenchmark.com/tasks/qqp",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Semantic Similarity"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Dagan, Ido",
+            "Glickman, Oren",
+            "Magnini, Bernardo"
+        ],
+        "dcterms:description": "A dataset for recognizing textual entailment, containing sentence pairs.",
+        "dcterms:title": "RTE",
+        "dcterms:issued": "2006",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://catalog.ldc.upenn.edu/LDC2006T13",
+        "dcat:theme": [
+            "Corpora",
+            "Textual Entailment"
+        ],
+        "dcat:keyword": [
+            "Entailment",
+            "Sentence Pairs"
+        ],
+        "dcat:landingPage": "https://catalog.ldc.upenn.edu/LDC2006T13",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Textual Entailment"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Socher, Richard",
+            "Pennington, Jacob",
+            "Huang, Eric H.",
+            "Niu, Adam",
+            "Chu, Christopher",
+            "Manning, Christopher D.",
+            "Potts, Christopher"
+        ],
+        "dcterms:description": "A dataset for sentiment analysis, containing movie reviews labeled with sentiment polarity.",
+        "dcterms:title": "SST-2",
+        "dcterms:issued": "2013",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://gluebenchmark.com/tasks/sst2",
+        "dcat:theme": [
+            "Corpora",
+            "Sentiment Analysis"
+        ],
+        "dcat:keyword": [
+            "Sentiment",
+            "Movie Reviews"
+        ],
+        "dcat:landingPage": "https://gluebenchmark.com/tasks/sst2",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Sentiment Analysis"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Cer, Daniel",
+            "Diab, Mona",
+            "Agirre, Eneko",
+            "Gazpio, Iñigo A.",
+            "Specia, Lucia"
+        ],
+        "dcterms:description": "A dataset for semantic textual similarity, containing sentence pairs with similarity scores.",
+        "dcterms:title": "STS-B",
+        "dcterms:issued": "2017",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://gluebenchmark.com/tasks/stsb",
+        "dcat:theme": [
+            "Corpora",
+            "Semantic Similarity"
+        ],
+        "dcat:keyword": [
+            "Similarity",
+            "Sentence Pairs"
+        ],
+        "dcat:landingPage": "https://gluebenchmark.com/tasks/stsb",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Semantic Similarity"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Pilehvar, Mohammad Taher",
+            "Camacho-Collados, Jose"
+        ],
+        "dcterms:description": "A dataset for evaluating context-sensitive word representations, containing word-in-context examples.",
+        "dcterms:title": "WiC",
+        "dcterms:issued": "2019",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://gluebenchmark.com/tasks/wic",
+        "dcat:theme": [
+            "Corpora",
+            "Word Sense Disambiguation"
+        ],
+        "dcat:keyword": [
+            "Word-in-Context",
+            "Semantics"
+        ],
+        "dcat:landingPage": "https://gluebenchmark.com/tasks/wic",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Word Sense Disambiguation"
+        ]
+    }
+]

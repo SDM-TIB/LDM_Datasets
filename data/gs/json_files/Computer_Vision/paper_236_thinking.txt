@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "VL-BERT: Pre-training of Generic Visual-Linguistic Representations" by Weijie Su et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract mentions that VL-BERT is pre-trained on the **Conceptual Captions dataset**, which indicates that this dataset is significant for the research.
+
+Next, I will look for specific sections that detail the datasets used. In **section 3.3 (Pre-training VL-BERT)**, the authors explicitly state that they pre-train VL-BERT on two datasets: 
+
+1. **Conceptual Captions**: This dataset contains around 3.3 million images annotated with captions, harvested from web data and processed through an automatic pipeline. The authors note that this dataset is crucial for aligning visual and linguistic clues.
+
+2. **BooksCorpus and English Wikipedia**: These text-only datasets are used to improve the model's understanding of long and complex sentences. The authors mention that these datasets are also utilized in pre-training BERT.
+
+In the **experiments section**, the authors discuss the downstream tasks and how the pre-trained model performs on various datasets, but they do not introduce new datasets in this section. Instead, they focus on the performance of VL-BERT on existing datasets like VCR, VQA, and RefCOCO+.
+
+Now, I will consult the **References section** to retrieve full citations for the datasets mentioned:
+
+- For **Conceptual Captions**, the citation is:
+  > Piyush Sharma, Nan Ding, Sebastian Goodman, and Radu Soricut. *Conceptual captions: A cleaned, hypernymed, image alt-text dataset for automatic image captioning*. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2556–2565, 2018.
+
+- For **BooksCorpus**, the citation is:
+  > Yukun Zhu, Ryan Kiros, Rich Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler. *Aligning books and movies: Towards story-like visual explanations by watching movies and reading books*. In Proceedings of the IEEE international conference on computer vision, pp. 19–27, 2015.
+
+- For **English Wikipedia**, there is no specific citation provided in the paper, but it is commonly referenced as a dataset used in various NLP tasks.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations. This will ensure that all relevant details are captured for future reference or analysis.

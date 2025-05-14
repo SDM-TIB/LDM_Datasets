@@ -1,0 +1,31 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe them using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll look through the abstract and introduction to get an overview. The paper discusses using BERT for text generation tasks, specifically machine translation and text summarization. It mentions experiments on several datasets.
+
+In the "Experiments" section, the datasets are explicitly listed:
+
+1. **IWSLT14 German-English (De-En)**: This dataset has 160k training samples. It's used for machine translation evaluation.
+2. **IWSLT15 English-Vietnamese (En-Vi)**: With 113k training samples, it's another dataset for machine translation.
+3. **WMT14 English-German (En-De)**: A medium-scale dataset with 4.5M training samples, also for machine translation.
+4. **Gigaword**: Used for abstractive text summarization, with 3.8M training samples.
+
+Next, I'll check the references to find more details about each dataset. However, the paper doesn't provide direct references for these datasets, so I'll rely on the descriptions given in the paper.
+
+For each dataset, I'll extract the required metadata fields:
+
+- **dcterms:creator**: The authors of the paper are not the creators of the datasets. The datasets are standard ones, so I'll leave this as an empty list.
+- **dcterms:description**: Based on how the paper describes the dataset's use.
+- **dcterms:title**: The name of the dataset.
+- **dcterms:issued**: The year the dataset was published, if available. Since the paper doesn't provide this, I'll leave it as an empty string.
+- **dcterms:language**: The languages involved in the dataset.
+- **dcterms:identifier**: No DOI or URL provided, so empty string.
+- **dcat:theme**: Thematic categories based on the dataset's use.
+- **dcat:keyword**: Keywords related to the dataset.
+- **dcat:landingPage**: No URL provided, so empty string.
+- **dcterms:hasVersion**: No version mentioned, so empty string.
+- **dcterms:format**: The format of the dataset, which is text.
+- **mls:task**: The tasks for which the dataset is used.
+
+Now, I'll structure each dataset according to these fields.
+</think>

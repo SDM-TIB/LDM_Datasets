@@ -1,0 +1,47 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract and introduction to get an overview. The paper discusses neural machine translation (NMT) and data selection methods. It mentions using Paracrawl and WMT (Warsaw Machine Translation) datasets. Paracrawl is a large, noisy dataset, while WMT is cleaner. Both are used for training NMT models.
+
+Next, I'll examine the sections where datasets are specifically mentioned. In the experiments section, the authors use Paracrawl (English-French) and WMT14 (English-French) datasets. They also reference IWSLT15 and WMT14 test sets for evaluation. Additionally, they mention using WMT10-11 and WMT12-13 as validation sets.
+
+Now, I'll gather the details for each dataset:
+
+1. **Paracrawl (English-French)**: A large, noisy dataset used for training. It's mentioned in the context of being crawled from the web, containing hundreds of millions of pairs.
+
+2. **WMT14 (English-French)**: A cleaner dataset with 40 million pairs, used for training. It's part of the WMT dataset collection.
+
+3. **IWSLT15 Test Set (English-French)**: Used for testing in the spoken language domain. The authors use the English side of this dataset as an in-domain corpus.
+
+4. **WMT14 Test Set (English-French)**: Used for testing in the news domain. The authors use this for evaluation.
+
+5. **WMT10-11 and WMT12-13**: These are used as validation sets for the news domain.
+
+For each dataset, I'll extract the required metadata fields:
+
+- **dcterms:creator**: The authors of the paper are not the creators of the datasets. Instead, the datasets are created by organizations or projects. However, since the paper doesn't provide specific creators, I'll leave this field empty.
+
+- **dcterms:description**: Based on how the datasets are described and used in the paper.
+
+- **dcterms:title**: The name of the dataset as mentioned in the paper.
+
+- **dcterms:issued**: The year the dataset was published, if available. The paper doesn't specify the publication years, so this field will be empty.
+
+- **dcterms:language**: The languages involved in the dataset.
+
+- **dcterms:identifier**: URLs or DOIs for the datasets. The paper doesn't provide these, so this field will be empty.
+
+- **dcat:theme**: Thematic categories based on the dataset's content.
+
+- **dcat:keyword**: Keywords describing the dataset.
+
+- **dcat:landingPage**: URLs where the dataset can be accessed. The paper doesn't provide these, so this field will be empty.
+
+- **dcterms:hasVersion**: Specific versions of the dataset. The paper doesn't mention versions, so this field will be empty.
+
+- **dcterms:format**: The format of the dataset, such as text or parallel data.
+
+- **mls:task**: The tasks for which the dataset is used, such as training or testing NMT models.
+
+Now, I'll structure each dataset into the JSON format based on the above analysis.
+</think>

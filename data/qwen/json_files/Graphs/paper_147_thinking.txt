@@ -1,0 +1,15 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about Language-mediated, Object-Centric Representation Learning (LORL). I need to identify all the datasets used or mentioned in this paper and describe them using the specified metadata vocabulary.
+
+First, I'll read through the paper to spot any dataset names. The paper mentions two datasets: Shop-VRB and PartNet. 
+
+Shop-VRB is described as a visual reasoning dataset similar to CLEVR but with complex household objects. It's used for evaluating image segmentation and visual reasoning tasks. The authors created a variant called Shop-VRB-Simple by generating 10K images with clean backgrounds and pairing each image with 9 questions, resulting in 90K questions.
+
+PartNet is another dataset mentioned, specifically PartNet-Chairs. It's used for evaluating how well the model can segment different parts of a chair. The authors generated 5K images, each paired with 8 descriptive sentences, resulting in 40K examples. The test split has 960 images.
+
+Now, I need to extract the metadata for each dataset. For Shop-VRB, the creators are Nazarczuk and Mikolajczyk, and it was published in 2020. The description mentions it's a visual reasoning dataset with complex objects and question-answer pairs. The format is images and text, and it's used for tasks like image segmentation and visual reasoning.
+
+For PartNet-Chairs, the creators are Mo et al., published in 2019. It's a dataset of chair parts with different colors and shapes, used for evaluating object segmentation and visual reasoning. The format is images and text.
+
+I'll structure this information into JSON format, ensuring each dataset has all the required metadata fields. I'll make sure to include the creators, description, title, publication year, format, and tasks each dataset is used for. Since the datasets are used for similar tasks, the keywords and themes will reflect that.
+</think>

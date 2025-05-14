@@ -1,0 +1,30 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Hierarchical Context Enhanced Multi-Domain Dialogue System for Multi-domain Task Completion" by Jingyuan Yang and others. It's about a dialogue system for tourist information settings, specifically participating in the DSTC8-track1 challenge.
+
+Looking through the abstract, I see they mention the MultiWOZ dataset. That's a key dataset here. The introduction also refers to MultiWOZ, describing it as a large-scale multi-domain dialogue dataset with seven domains related to traveling.
+
+In the related works section, they reference the DSTC8-track1 challenge and the ConvLab platform, which uses the MultiWOZ dataset. The task description section explicitly states that the task is based on the MultiWOZ dataset, which is a large-scale multi-domain dialogue dataset containing seven domains.
+
+The experiments section also discusses the MultiWOZ dataset, providing statistics like the number of dialogues, turns, tokens, etc. They split the dataset into training, validation, and test sets.
+
+I don't see any other datasets mentioned in the paper. The focus is entirely on MultiWOZ for their experiments and evaluations.
+
+Now, I need to extract the metadata for the MultiWOZ dataset using the specified vocabulary.
+
+- **dcterms:creator**: The authors of the MultiWOZ dataset. From the references, the creators are Budzianowski, Wen, Tseng, Casanueva, Ultes, Ramadan, and Gasic.
+- **dcterms:description**: The paper describes it as a large-scale multi-domain dialogue dataset with seven domains related to traveling.
+- **dcterms:title**: "MultiWOZ"
+- **dcterms:issued**: The year the dataset was published, which is 2018.
+- **dcterms:language**: The dataset is in English.
+- **dcterms:identifier**: The URL from the reference is arXiv:1810.00278.
+- **dcat:theme**: Themes include "Dialogue Systems" and "Multi-domain Conversations."
+- **dcat:keyword**: Keywords like "multi-domain dialogue," "task-oriented dialogue," "tourist information."
+- **dcat:landingPage**: The URL from the reference is arXiv:1810.00278.
+- **dcterms:hasVersion**: Not mentioned in the paper.
+- **dcterms:format**: The dataset is in text format.
+- **mls:task**: Tasks include "Dialogue State Tracking," "Natural Language Understanding," "Natural Language Generation."
+
+I'll structure this information into the required JSON format.
+</think>

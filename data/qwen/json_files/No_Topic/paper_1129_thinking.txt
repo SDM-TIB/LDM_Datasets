@@ -1,0 +1,19 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. Let me go through the paper step by step.
+
+First, I'll read the abstract to get an overview. It mentions AstroNet, which uses an Astrocyte-Neuron model for network structure learning. The experiments are on classification tasks, but no specific datasets are mentioned yet.
+
+Moving to the introduction, the paper discusses neural networks and their success in visual tasks. It mentions deployment issues and the need for efficient models. Still, no datasets are cited here.
+
+In the related work section, the paper talks about Learning Sparse Networks (LSN) and Neural Architecture Search (NAS). It references works by Wen et al. (2016) and others, but these are methods, not datasets.
+
+Looking at the proposed method section, the authors describe their Astrocyte-Neuron model and how it's applied to various backbones like ResNet, DenseNet, and VggNet. They mention experiments on three public datasets but don't name them yet.
+
+In the experiments section, the datasets are finally mentioned: CIFAR10, CIFAR100, and MNIST. The paper also references ImageNet-1k but doesn't list it as a dataset used in their experiments. The authors compare their method with others on these datasets.
+
+Now, I need to extract metadata for each dataset. For CIFAR10 and CIFAR100, the creators are Krizhevsky et al., and they were published in 2009. The description mentions color images of objects. The format is image, and the tasks are classification. The landing page is the official website.
+
+For MNIST, the creators are LeCun et al., published in 1998. It's a dataset of handwritten digits, format is image, tasks are classification, and the landing page is the official site.
+
+I should ensure each dataset is listed with all the required fields, even if some fields are empty. I'll structure each dataset as a JSON object with the specified metadata fields.
+</think>

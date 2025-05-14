@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Long Distance Relationships without Time Travel: Boosting the Performance of a Sparse Predictive Autoencoder in Sequence Modeling" by Jeremy Gordon et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, method, and experiments sections** to identify any datasets mentioned. The abstract mentions the use of a "non-deterministic (stochastic) partially-observable sequence learning task consisting of high-Markov-order sequences of MNIST digits" and also references the **Penn Treebank (PTB) dataset** for a next word prediction task. This indicates that there are at least two datasets involved.
+
+Next, I will focus on the **experiments section** where the authors describe the tasks and datasets used. In **section 3.1 (Tasks & Datasets)**, they explicitly mention:
+
+1. **Stochastic Sequential MNIST (ssMNIST)**: This dataset is generated from a grammar composed of sub-sequences of MNIST digits. The authors describe the generation process and the specific grammar used, which consists of 8 sub-sequences of 9 MNIST digits each.
+
+2. **Penn Treebank (PTB) dataset**: This dataset is used for language modeling, and the authors note that they follow preprocessing as per Mikolov et al. This dataset is well-known in the NLP community for training and evaluating language models.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For the **Penn Treebank (PTB) dataset**, the citation is:
+  > Marcus, M., Kim, G., Marcinkiewicz, M. A., MacIntyre, R., Bies, A., Ferguson, M., Katz, K., and Schasberger, B. *The Penn Treebank: Annotating Predicate Argument Structure*. In Proceedings of the Workshop on Human Language Technology, 1994, Association for Computational Linguistics, pp. 114–119.
+
+- For the **MNIST dataset**, while it may not be explicitly cited in the references, it is a widely recognized dataset in the machine learning community. The original citation is:
+  > LeCun, Y., Cortes, C., and Burges, C. J. C. *The MNIST Database of Handwritten Digits*. 1998.
+
+Since the authors generated a specific version of the MNIST dataset for their experiments, I will note that the details of the grammar and generation process are described in the paper, but the original MNIST dataset citation is still relevant.
+
+After gathering this information, I will compile the dataset entries into a structured format for clarity and future reference.

@@ -1,0 +1,118 @@
+[
+    {
+        "dcterms:creator": [
+            "W. Maddern",
+            "G. Pascoe",
+            "C. Linegar",
+            "P. Newman"
+        ],
+        "dcterms:description": "A public dataset containing images and lidar data collected over one year and 1000 km of driving in Oxford, used for image-based localization and loop closure algorithms.",
+        "dcterms:title": "Oxford Robotcar public dataset",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Robotics",
+            "Computer Vision"
+        ],
+        "dcat:keyword": [
+            "Image-based localization",
+            "Lidar data",
+            "Autonomous driving"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image, Lidar",
+        "mls:task": [
+            "Localization",
+            "Loop closure"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Maddern",
+            "G. Pascoe",
+            "C. Linegar",
+            "P. Newman"
+        ],
+        "dcterms:description": "A lidar point cloud dataset extracted from the Oxford Robotcar dataset, providing depth information for training and testing image localization systems.",
+        "dcterms:title": "Lidar point cloud dataset of Oxford Robotcar",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Robotics",
+            "Computer Vision"
+        ],
+        "dcat:keyword": [
+            "Lidar point cloud",
+            "Depth data",
+            "Autonomous driving"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Point Cloud",
+        "mls:task": [
+            "Depth estimation",
+            "Localization"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Maddern",
+            "G. Pascoe",
+            "C. Linegar",
+            "P. Newman"
+        ],
+        "dcterms:description": "Depth modality extracted from the lidar point cloud dataset, used to enhance image descriptors for localization tasks.",
+        "dcterms:title": "Depth modality extracted from the lidar point cloud dataset",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Robotics",
+            "Computer Vision"
+        ],
+        "dcat:keyword": [
+            "Depth modality",
+            "Lidar data",
+            "Image localization"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Depth Map",
+        "mls:task": [
+            "Depth estimation",
+            "Localization"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Maddern",
+            "G. Pascoe",
+            "C. Linegar",
+            "P. Newman"
+        ],
+        "dcterms:description": "Night images collected from the Oxford Robotcar dataset, used for testing localization performance under varying lighting conditions.",
+        "dcterms:title": "Night images from the Robotcar dataset",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Robotics",
+            "Computer Vision"
+        ],
+        "dcat:keyword": [
+            "Night images",
+            "Image localization",
+            "Visual recognition"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Localization",
+            "Image retrieval"
+        ]
+    }
+]

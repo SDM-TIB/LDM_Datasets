@@ -1,0 +1,23 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. The paper is titled "Contrastive Pre-training with Adversarial Fine-tuning for Zero-shot Expert Linking" by Bo Chen and others. 
+
+First, I'll read through the abstract and introduction to understand the context. The paper discusses expert linking, which involves connecting experts from external sources to those on AMiner. They mention using AMiner as the basis for their work. 
+
+Looking into the datasets section, I see that the authors used three main datasets: AMiner, News, and LinkedIn. 
+
+1. **AMiner**: This is a dataset of academic researchers and their publications. The authors used it for pre-training their model. They mention that AMiner contains over 100 million researcher profiles and 200 million papers from multiple databases. 
+
+2. **News**: The authors collected news articles from Chinese platforms like sciencenet and jiqizhixin. They extracted names from these articles using NER tools and linked them to AMiner experts. 
+
+3. **LinkedIn**: They used a dataset from a previous study (Zhang et al. 2015) to evaluate their model. This dataset likely contains LinkedIn profiles and their corresponding expert information on AMiner. 
+
+I need to structure each dataset with the specified metadata fields. For each dataset, I'll extract the creator, description, title, publication year, language, identifier, theme, keywords, landing page, version, format, and tasks.
+
+For AMiner, the creators are the authors of the paper, but since the dataset is mentioned as a resource, I might need to look for its creators elsewhere. However, the paper doesn't provide specific creators for AMiner, so I'll leave that field empty. The description will focus on how the authors used AMiner for pre-training. The title is "AMiner". The year isn't explicitly mentioned, so I'll leave it empty. The language is English. The landing page is provided as https://www.aminer.cn/. The theme is "Academic Research". Keywords include "Academic profiles", "Research papers", and "Expert linking". The format is text, and the task is "Expert Linking".
+
+For News, the creators are the authors of the paper. The description mentions collecting news articles and extracting names. The title is "News Articles Dataset". The year isn't provided, so it's empty. The language is Chinese. The landing page is empty. The theme is "News Media". Keywords include "News articles", "Named Entity Recognition", and "Expert linking". The format is text, and the task is "Expert Linking".
+
+For LinkedIn, the creators are the authors of the paper. The description refers to the dataset from Zhang et al. 2015. The title is "LinkedIn Dataset". The year is 2015. The language is English. The landing page is empty. The theme is "Social Media". Keywords include "Professional profiles", "Social networks", and "Expert linking". The format is text, and the task is "Expert Linking".
+
+I'll structure each of these datasets into the required JSON format, ensuring all fields are filled appropriately based on the information extracted from the paper.
+</think>

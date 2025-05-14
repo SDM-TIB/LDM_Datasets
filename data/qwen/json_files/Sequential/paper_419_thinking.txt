@@ -1,0 +1,17 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is titled "Training Deeper Neural Machine Translation Models with Transparent Attention" by Ankur Bapna, Mia Xu Chen, Orhan Firat, and Yuan Cao. 
+
+First, I'll read through the paper to identify any datasets that are mentioned. The abstract mentions benchmark tasks, specifically WMTa14 English-German and WMTa15 Czech-English. These are likely the datasets used in the experiments.
+
+Looking into the introduction, the authors discuss the use of neural machine translation models and mention the WMT (Workshop on Machine Translation) datasets as standard benchmarks. This reinforces that WMT datasets are central to their work.
+
+In the section "2.1 Experimental Setup," the authors explicitly state that they train their models on the standard WMTa14 EnaDe dataset. They also mention evaluating on WMTa15 CsaEn. This confirms that these are the datasets used.
+
+I should check if there are any other datasets mentioned. Scanning through the rest of the paper, I don't find any additional datasets beyond WMTa14 and WMTa15. 
+
+Now, I need to extract the metadata for each dataset. For WMTa14 EnaDe, the creators are the organizers of the WMT workshop, but since the paper doesn't provide specific creators, I'll leave that field empty. The description would be that it's a standard benchmark dataset for machine translation. The title is "WMTa14 EnaDe," and it was issued in 2014. The language is English and German. The identifier and landing page aren't provided, so they'll be empty. The theme is machine translation, and the keywords include neural machine translation, benchmark, and translation. The format is text, and the task is machine translation.
+
+Similarly, for WMTa15 CsaEn, the creators are the same as above. The description is a benchmark dataset for machine translation between Czech and English. The title is "WMTa15 CsaEn," issued in 2015. The languages are Czech and English. The rest of the fields follow the same pattern as the previous dataset.
+
+I need to ensure that each dataset is listed separately with all the required fields, even if some fields are empty. The JSON structure should reflect this accurately.
+</think>

@@ -1,0 +1,21 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about adversarial learning with contextual embeddings for zero-resource cross-lingual classification and NER. 
+
+First, I'll read through the abstract and introduction to get a sense of what datasets are being used. The abstract mentions ML-Doc and CoNLL 2002/2003 NER tasks. So, those are two datasets right there.
+
+Looking into the introduction, the authors reference the XNLI dataset as well. That's another dataset. So far, I have three datasets: ML-Doc, CoNLL 2002/2003, and XNLI.
+
+Next, I'll check the sections where experiments are described. In the experiments section, they mention using the MLDoc corpus, which is a multilingual document classification dataset. They also talk about the CoNLL 2002/2003 NER corpus for named entity recognition tasks.
+
+I should also look at the references to see if any other datasets are cited. Scanning through the references, I don't see any additional datasets mentioned beyond the ones already noted.
+
+Now, I need to gather metadata for each dataset. For each one, I'll extract the creator, description, title, publication year, language, identifier, theme, keywords, landing page, version, format, and the tasks they're used for.
+
+For MLDoc, the creators are Schwenk and Li, published in 2018. It's a multilingual document classification dataset with languages like German, Spanish, etc. The format is text, and it's used for classification tasks.
+
+CoNLL 2002/2003 NER is created by Sang and De Meulder, published in 2003. It's used for named entity recognition across multiple languages. The format is text, and the task is NER.
+
+XNLI is created by Conneau et al., published in 2018. It's a cross-lingual sentence representation dataset with 15 languages. The format is text, and the task is sentence classification.
+
+I need to make sure each dataset's metadata is accurate based on the paper's description. I'll structure each dataset as a JSON object with the required fields.
+</think>

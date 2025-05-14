@@ -1,0 +1,19 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the given research paper. The paper is about deep reinforcement learning for multi-domain dialogue systems. Let me go through it step by step.
+
+First, I'll read the abstract to get an overview. It mentions using NDQN (Network of Deep Q-Networks) for multi-domain dialogue systems in restaurants and hotels. No datasets are mentioned here, but it sets the context.
+
+Moving to the introduction, the authors discuss the challenges of multi-domain dialogue systems and mention using raw noisy text as features. They reference previous work but don't list specific datasets.
+
+In the literature review, they cite several studies, including [1], which is "SimpleDS: A simple deep reinforcement learning dialogue system" by H. CuayAhuitl. This might be a dataset, but I need to check the references.
+
+Looking at the references section, I find that [1] is indeed a paper by CuayAhuitl about SimpleDS. The authors of the current paper mention using SimpleDS as part of their framework. So, SimpleDS is a dataset used here.
+
+Another reference is [10], which is ConvnetJS by A. Karpathy. This is a JavaScript library for deep learning, not a dataset, so I can ignore it.
+
+In the methods section, the authors describe their framework, which includes using delexicalised sentences and synonymization. They mention using a vocabulary of unique words, but this doesn't point to a specific dataset.
+
+In the experimental results, they talk about generating 15K dialogues for training and testing. These dialogues are part of their dataset, but they don't name it specifically. However, since they reference SimpleDS in their work, it's likely that their dataset is an extension or modification of SimpleDS.
+
+Putting it all together, the main dataset mentioned is SimpleDS, used for training and testing their multi-domain dialogue system. There's no other dataset explicitly named in the paper.
+</think>

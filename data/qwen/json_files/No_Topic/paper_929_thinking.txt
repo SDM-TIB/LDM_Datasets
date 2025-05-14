@@ -1,0 +1,19 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the given research paper. The paper is about mental health surveillance using social media and digital cohorts. Let me go through it step by step.
+
+First, I'll read the abstract to get an overview. It mentions using Twitter data to measure depression and PTSD prevalence. So, the main dataset here is Twitter user data. But I need to see if they reference any specific datasets.
+
+Looking at the introduction, they talk about previous work using social media data. They mention studies by Coppersmith et al., which used labeled datasets for mental health conditions. Specifically, they reference CLPsych 2015 datasets for depression and PTSD. These datasets were created by Coppersmith et al. and include users who self-reported their conditions.
+
+In the methodology section, they describe building a digital cohort by randomly sampling Twitter users and inferring demographics. They used their own dataset of 5K annotated users for age and race/ethnicity inference. This dataset isn't cited elsewhere, so it's likely their own creation.
+
+They also mention using the CLPsych 2015 datasets for their classifiers. These datasets were created by Coppersmith et al. and include users with depression and PTSD diagnoses, along with controls.
+
+In the results and discussion, they reference NIH statistics but don't mention any additional datasets. The only datasets explicitly mentioned are the CLPsych 2015 datasets and their own 5K annotated dataset.
+
+So, the datasets to extract are:
+1. CLPsych 2015 Depression and PTSD datasets by Coppersmith et al.
+2. Their own 5K annotated dataset for demographic inference.
+
+I'll structure each dataset with the required metadata fields based on the information provided in the paper.
+</think>

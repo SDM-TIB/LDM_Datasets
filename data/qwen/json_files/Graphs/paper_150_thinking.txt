@@ -1,0 +1,24 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the given research paper. The paper is about self-localization from images with small overlap, and it's authored by Kanji Tanaka. 
+
+First, I'll read through the abstract to get a quick overview. It mentions using deep convolutional neural networks (DCNN) features and a bag-of-visual-features (BoVF) model. They collected a dataset of view images with ground truth viewpoints. 
+
+Moving to the introduction, they talk about using a stereo SLAM system with visual odometry to collect images. The dataset is from their university campus, and they mention viewpoint paths. They also refer to experiments with different settings, like small overlap and no overlap.
+
+In the methodology section, they describe their approach using PCA-NBNN, which involves encoding scene parts. They mention using DCNN features from the sixth layer and PCA compression. They also reference previous work, like [1] and [2], which might be related to datasets.
+
+Looking at the experiments section, they discuss three datasets collected from different routes and viewpoints. The environments are around a university campus, and the images are captured using a stereo camera. They mention that the dataset includes images with varying levels of view overlap, evaluated using VFC.
+
+In the references, they cite several papers, but I'm focusing on datasets mentioned in the paper itself. The main dataset they describe is their own collection, which isn't cited elsewhere but is detailed in the paper.
+
+So, the key points are:
+- The dataset was collected using a stereo SLAM system.
+- It includes images from different viewpoints around a university campus.
+- The dataset is used for evaluating self-localization with small overlap.
+- The images are 640x480 pixels from the left eye of a stereo camera.
+- They mention three datasets (dataset #1, #2, #3) collected from different paths.
+
+I need to structure this into the required JSON format, including creators, description, title, etc. Since the dataset isn't cited elsewhere, the creators are the authors of the paper. The description should include how the dataset was collected and its use. The title can be something like "University Campus View Image Dataset." The themes are computer vision and robotics. Keywords include visual localization, stereo images, etc. The format is images, and the task is self-localization.
+
+I should make sure to include all the necessary metadata fields as specified, even if some aren't explicitly mentioned in the paper. For example, the language isn't specified, so it remains empty. The landing page and identifier aren't provided, so they're empty strings.
+</think>

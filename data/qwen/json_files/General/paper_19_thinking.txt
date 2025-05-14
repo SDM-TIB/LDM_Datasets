@@ -1,0 +1,62 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let's start by carefully reading through the paper to identify any datasets.
+
+First, the paper's title is "KU ai at MEDIQA 2019: Domain-specific Pre-training and Transfer Learning for Medical NLI." The authors are Cemil Cengiz, Deniz Yuret, and Ulas A. Sert from Koc University. The paper discusses their participation in the MEDIQA 2019 shared task, focusing on Natural Language Inference (NLI) in the medical domain.
+
+In the abstract, they mention using the MedNLI dataset and investigating pre-training on large NLI datasets like MultiNLI and SNLI. So, MedNLI, MultiNLI, and SNLI are datasets used here.
+
+Looking into the introduction, they elaborate on NLI tasks and mention MedNLI as their target dataset. They also reference MultiNLI and SNLI as general-domain datasets used for transfer learning.
+
+In the datasets section (Section 3), they provide more details:
+- **MedNLI**: Created by Romanov and Shivade (2018), it's based on clinical notes with de-identification artifacts. The paper uses the provided splits without change.
+- **MultiNLI**: A large dataset with diverse genres, used for transfer learning.
+- **SNLI**: Based on image captions, also used for transfer learning.
+
+Each of these datasets is described in terms of their genre, size, and usage in the paper. MedNLI is the target dataset, while MultiNLI and SNLI are used for pre-training and transfer learning.
+
+Now, I'll extract metadata for each dataset:
+
+1. **MedNLI**
+   - **Creator**: Romanov and Shivade (from the reference in the paper).
+   - **Description**: Clinical notes with de-identification artifacts, used for NLI in the medical domain.
+   - **Title**: MedNLI
+   - **Issued**: 2018 (from the reference).
+   - **Language**: English (as it's a medical dataset, likely in English).
+   - **Identifier**: Not provided in the paper.
+   - **Theme**: Medical NLI, Clinical Notes.
+   - **Keyword**: Medical NLI, De-identification, Clinical Inference.
+   - **Landing Page**: Not provided.
+   - **Version**: Not mentioned.
+   - **Format**: Text.
+   - **Task**: Natural Language Inference.
+
+2. **MultiNLI**
+   - **Creator**: Williams et al. (from the reference).
+   - **Description**: Large dataset with diverse genres for NLI.
+   - **Title**: MultiNLI
+   - **Issued**: 2018.
+   - **Language**: English.
+   - **Identifier**: Not provided.
+   - **Theme**: General NLI, Diverse Genres.
+   - **Keyword**: Multi-genre, Transfer Learning.
+   - **Landing Page**: Not provided.
+   - **Version**: Not mentioned.
+   - **Format**: Text.
+   - **Task**: Natural Language Inference.
+
+3. **SNLI**
+   - **Creator**: Bowman et al. (from the reference).
+   - **Description**: Image caption-based dataset for NLI.
+   - **Title**: SNLI
+   - **Issued**: 2015.
+   - **Language**: English.
+   - **Identifier**: Not provided.
+   - **Theme**: Image-based NLI.
+   - **Keyword**: Image captions, NLI.
+   - **Landing Page**: Not provided.
+   - **Version**: Not mentioned.
+   - **Format**: Text.
+   - **Task**: Natural Language Inference.
+
+I need to ensure that each dataset's metadata is accurately filled based on the paper's description and references. If any information isn't available, I'll leave it as an empty string or list as per the instructions.
+</think>

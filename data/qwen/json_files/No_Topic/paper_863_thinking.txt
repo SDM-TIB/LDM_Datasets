@@ -1,0 +1,32 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "An Annotated Social Media Corpus for German" by Eckhard Bick. It discusses the creation of a large bilingual Social Media corpus for Hate Speech research, specifically focusing on the German Twitter section. The corpus is part of the XPEROHS project, which investigates online hate speech targeting immigrant and refugee minorities in Denmark and Germany.
+
+From the introduction, I learn that the corpus is collected from Twitter and Facebook, with a focus on posts containing hate speech. The corpus is described as a monitor corpus, continuously collected from Twitter and Facebook using specific keywords and seed pages.
+
+In the Corpus section, the paper mentions that the corpus contains over 2 billion words, with separate sections for German and Danish data from Twitter and Facebook. It also discusses the preprocessing steps, including pseudonymization and anonymization to comply with data protection regulations.
+
+The paper further details the linguistic annotation process, including part-of-speech tagging, syntactic parsing, and semantic type annotation. It mentions the use of GerGram and DanGram parsers, which are rule-based parsers using Constraint Grammar.
+
+Looking for specific datasets, the primary dataset mentioned is the XPEROHS corpus. It's a large, bilingual corpus focusing on hate speech in social media. The corpus is divided into German and Danish sections from Twitter and Facebook.
+
+I don't find any other datasets mentioned in the paper. The focus is on the creation and annotation of this specific corpus for hate speech research.
+
+Now, I'll structure the metadata for the XPEROHS corpus based on the information provided.
+
+- **dcterms:creator**: The author of the paper is Eckhard Bick, but the dataset is part of the XPEROHS project, which involves multiple contributors. However, the paper doesn't list all contributors, so I'll note the primary author.
+- **dcterms:description**: The corpus is a large, bilingual social media corpus for hate speech research, focusing on German and Danish data from Twitter and Facebook.
+- **dcterms:title**: XPEROHS Corpus
+- **dcterms:issued**: The paper was published in 2020, so I'll use that year.
+- **dcterms:language**: German and Danish
+- **dcterms:identifier**: No specific DOI or URL is provided in the paper.
+- **dcat:theme**: Hate Speech, Social Media, Corpus Linguistics
+- **dcat:keyword**: Social Media Corpus, Hate Speech, German, Danish, Twitter, Facebook
+- **dcat:landingPage**: No specific landing page is mentioned.
+- **dcterms:hasVersion**: The corpus is described as version 1.0 in the paper.
+- **dcterms:format**: Text
+- **mls:task**: Hate Speech Detection, Corpus Annotation, Linguistic Analysis
+
+I'll compile this information into the required JSON format.
+</think>

@@ -1,0 +1,26 @@
+>
+
+<think>
+To extract datasets from the research paper titled "Low-Rank Tensors for Verbs in Compositional Distributional Semantics" by Daniel Fried, Tamara Polajnar, and Stephen Clark, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, materials and methods, and results sections** to identify any datasets that are mentioned or referenced. The abstract mentions the use of Wikipedia corpus and extraction of SVO triples from it, which suggests that datasets are likely involved.
+
+In the **introduction**, the authors discuss the limitations of full tensors in large-scale implementations and the need for low-rank tensor approximations. They hint at the evaluation of these models on various tasks, but I need to look for specific names.
+
+Next, I will focus on the **materials and methods section**, particularly the subsections that detail the datasets used for evaluation. Here, the authors mention the following datasets:
+
+1. **Wikipedia corpus**: This dataset is used for extracting SVO triples and distributional vectors for nouns and SVO triples.
+2. **Wikipedia sentence pairs**: This dataset is used for the verb disambiguation task (GS11) and sentence similarity task (KS14).
+
+In the **results section**, the authors confirm that these datasets were used for extrinsic evaluation of their models, which reinforces their relevance.
+
+Now, I will check the **references section** to find the full citations for these datasets:
+
+- For **Wikipedia corpus**, the citation is:
+  > October 2013 download of Wikipedia, tokenized using Stanford CoreNLP (Manning et al., 2014), lemmatized with the Morpha lemmatizer (Minnen et al., 2001), and parsed using the C&C parser (Curran et al., 2007).
+
+- For **Wikipedia sentence pairs**, the citation is:
+  > Grefenstette and Sadrzadeh (2011); Kartsaklis and Sadrzadeh (2014).
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review. This ensures that I have accurately captured the datasets and their citations from the paper.
+</think>

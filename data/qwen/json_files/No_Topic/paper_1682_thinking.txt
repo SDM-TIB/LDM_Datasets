@@ -1,0 +1,24 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is about GEPSA, a tool for monitoring social challenges in digital press. It mentions several datasets used in their experiments and evaluations.
+
+First, I'll go through the paper section by section. In the introduction, they talk about using NLP techniques on digital press data, but they don't mention specific datasets yet. Moving on to the Features section, they describe the tool's capabilities but again, no datasets are cited here.
+
+In the System Architecture section, they mention crawling news data from various sources. They refer to datasets used for training and evaluation. Specifically, in the NERC module, they mention the EIEC corpus and the CONLL2003 dataset. These are likely the datasets used for named entity recognition.
+
+Looking further, in the Keyword Extraction section, they mention using the Elh-Polar lexicons for Basque and Spanish. These lexicons are datasets used for polarity detection.
+
+In the Thematic Section Classiication, they built datasets for Spanish and Basque news, containing 156K and 300K classiied news respectively. These are internal datasets created for their system.
+
+For the Social Challenge Classiication, they manually annotated datasets for each social challenge, with a minimum of 2,000 documents per language and challenge. These are also internal datasets.
+
+In the User Validation section, they mention a pilot study but don't reference any datasets there.
+
+So, the datasets mentioned are:
+1. EIEC corpus
+2. CONLL2003 dataset
+3. Elh-Polar lexicons
+4. Spanish and Basque news datasets (156K and 300K)
+5. Manually annotated datasets for social challenges
+
+Now, I'll extract the metadata for each dataset as per the given vocabulary.
+</think>

@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Génération des prononciations de noms propres à l'aide des Champs Aléatoires Conditionnels" by Irina Illina, Dominique Fohr, and Denis Jouvet, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract indicates that the proposed system is validated on **two pronunciation dictionaries**, which suggests that datasets are involved.
+
+In the **introduction**, the authors discuss the challenges of phonetic transcription for proper names and mention the need for automatic generation of pronunciation dictionaries. This reinforces the idea that datasets are crucial for their experiments.
+
+Next, I will focus on the **experiments section**, particularly **section 3 (Experiences)**, where the authors describe the corpora used for their experiments:
+
+1. **Corpus BDLex**: This is a lexical database developed at IRIT, containing approximately 440,000 inflected forms with attributes such as spelling, pronunciation, morphosyntactic traits, canonical form, and frequency indicators. The authors mention that this corpus does not contain information about the origin of each word and does not include proper names.
+
+2. **Corpus du LORIA**: This corpus consists of 3,500 proper names (family names) with their spellings, one or more phonetic transcriptions, and origin information (origin tags). The authors note that a single proper name can have multiple tags, indicating its different possible origins.
+
+In the **conclusion**, the authors summarize their findings and the importance of these datasets in improving the phonetic transcription of proper names.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **BDLex**, the citation is:
+  > De Calmes, M., & Perennou, G. (1998). BDLex: a lexicon for spoken and written French. In LREC.
+
+- For **Corpus du LORIA**, while the paper does not provide a specific citation for this corpus, it is referenced in the context of the authors' experiments. Therefore, I will note it as an internal dataset used by the authors without a formal citation.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and citations, ensuring that the full citation for BDLex is included and noting the LORIA corpus as an internal dataset.

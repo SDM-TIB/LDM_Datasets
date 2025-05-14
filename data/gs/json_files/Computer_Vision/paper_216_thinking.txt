@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Probabilistic Spatial Transformer Networks" by Pola Schwöbel et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the authors demonstrate their method on "standard imaging benchmarks" and a "challenging real-world dataset," which indicates that datasets are likely discussed in detail later in the paper.
+
+Next, I will focus on the **experiments section** (Section 5) where the authors describe their experimental setup. In this section, they mention several datasets used for evaluation:
+
+1. **Rotated MNIST**: This dataset is derived from the standard MNIST dataset, where images are rotated, and the authors provide ground-truth transformations for the rotations applied. This dataset is crucial for evaluating the performance of their model in a controlled manner.
+
+2. **FashionMNIST**: The authors mention using the FashionMNIST dataset, which is a dataset of clothing images, for a similar experiment where they apply random transformations to assess the model's performance.
+
+3. **Mapillary Traffic Sign Dataset (MTSD)**: This dataset is used to evaluate the model's ability to detect and classify traffic signs. The authors specify that they selected a subset of images containing only one traffic sign for their experiments.
+
+4. **UCR Time-Series Dataset**: The authors refer to the UCR dataset, which consists of multiple smaller datasets for time-series classification tasks. They mention using specific subsets of this dataset for their experiments.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **MNIST**, the citation is:
+  > Yann LeCun, LD Jackel, Leon Bottou, A Brunot, Corinna Cortes, JS Denker, Harris Drucker, I Guyon, UA Muller, Eduard Sackinger, et al. *Comparison of learning algorithms for handwritten digit recognition*. In International conference on artificial neural networks, volume 60, pages 53–60. Perth, Australia, 1995.
+
+- For **FashionMNIST**, the citation is:
+  > Han Xiao, Kashif Rasul, and Roland Vollgraf. *Fashion-MNIST: A novel image dataset for benchmarking machine learning algorithms*. arXiv preprint arXiv:1708.07747, 2017.
+
+- For **Mapillary Traffic Sign Dataset (MTSD)**, the citation is:
+  > Christian Ertler, Jerneja Mislej, Tobias Ollmann, Lorenzo Porzi, and Yubin Kuang. *Traffic sign detection and classification around the world*. CoRR, abs/1909.04422, 2019. URL http://arxiv.org/abs/1909.04422.
+
+- For **UCR Time-Series Dataset**, the citation is:
+  > Hoang Anh Dau, Eamonn Keogh, Kaveh Kamgar, Chin-Chia Michael Yeh, Yan Zhu, Shaghayegh Gharghabi, Chotirat Ann Ratanamahatana, Yanping, Bing Hu, Nurjahan Begum, Anthony Bagnall, Abdullah Mueen, Gustavo Batista, and Hexagon-ML. *The UCR time series classification archive, October 2018*. https://www.cs.ucr.edu/~eamonn/time_series_data_2018/.
+
+After gathering this information, I will compile the dataset entries with their respective citations into a structured format for further processing or review.

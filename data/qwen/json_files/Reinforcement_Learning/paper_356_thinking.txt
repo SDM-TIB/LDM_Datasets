@@ -1,0 +1,19 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll go through the abstract. It mentions IMPALA being tested on DMLab-30 and Atari-57. So, those are two datasets.
+
+Next, in the introduction, the authors reference DeepMind Lab (DMLab) and the Arcade Learning Environment (ALE), which is the Atari games. So, DMLab-30 and Atari-57 are confirmed again.
+
+Looking at the related work section, they mention A3C and UNREAL, but those are algorithms, not datasets. They also reference DeepMind Lab again, which I've already noted.
+
+In the experiments section, they detail their tests on DMLab-30 and Atari-57. Additionally, they mention the Arcade Learning Environment (ALE) as the source for Atari games. So, ALE is another dataset, but it's the same as Atari-57, just the environment.
+
+I don't see any other datasets mentioned beyond these. So, the datasets are DMLab-30 and Atari-57.
+
+Now, I'll gather the metadata for each dataset. For DMLab-30, the creators are the authors of the DeepMind Lab paper, which includes Beattie et al. The description is a set of 30 tasks in a 3D environment. The title is DMLab-30, published in 2016. The themes are reinforcement learning and cognitive tasks. Keywords include multi-task, 3D environment, etc.
+
+For Atari-57, the creators are Bellemare et al. from the ALE paper. The description is all available Atari games. Published in 2013. Themes are reinforcement learning and game playing. Keywords include Atari, game environment, etc.
+
+I'll structure this information into the required JSON format, ensuring each field is filled appropriately based on the paper's references.
+</think>

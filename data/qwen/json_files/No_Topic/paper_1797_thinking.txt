@@ -1,0 +1,34 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe them using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll go through the abstract and introduction to get an overview. The abstract mentions "Multi30K dataset" and "Multi30K French data." These seem to be key datasets used in the study.
+
+Next, I'll look into the introduction section. It references the Multi30K dataset again, specifically mentioning that it contains English-German-image tuples. The paper also discusses the 2017 Multimodal Translation Shared Task, which likely used the Multi30K dataset.
+
+Moving on to the methodology section, the paper evaluates three systems: decinit, trgmul, and hierattn. These systems were trained on the Multi30K dataset. The evaluation uses the validation data from Multi30K, which is typically used for model selection.
+
+In the results section, the paper refers back to the Multi30K dataset, noting that the French data was created by showing annotators the images, unlike the German data. This indicates that the Multi30K dataset has both English-German and English-French components.
+
+Looking at the references, the paper cites the Multi30K dataset with the following details:
+- Authors: Desmond Elliott, Stella Frank, Khalil Simaaan, and Lucia Specia.
+- Publication year: 2016.
+- Description: Contains 29,000 English-German-image tuples and 1,014 tuples in the validation data.
+
+I don't find any other datasets mentioned in the paper. The focus is entirely on the Multi30K dataset and its subsets for training and evaluation.
+
+Now, I'll structure the metadata for the Multi30K dataset based on the information gathered:
+- **dcterms:creator**: The authors of the dataset are Desmond Elliott, Stella Frank, Khalil Simaaan, and Lucia Specia.
+- **dcterms:description**: The dataset includes English-German-image tuples and is used for multimodal machine translation tasks.
+- **dcterms:title**: "Multi30K dataset."
+- **dcterms:issued**: The dataset was published in 2016.
+- **dcterms:language**: The languages involved are English and German.
+- **dcterms:identifier**: No specific DOI or URL is provided in the paper.
+- **dcat:theme**: The themes are "Multimodal Machine Translation" and "Image Description."
+- **dcat:keyword**: Keywords include "Multimodal translation," "Image data," and "Crosslingual."
+- **dcat:landingPage**: No landing page URL is provided.
+- **dcterms:hasVersion**: The dataset has an English-French version mentioned in the paper.
+- **dcterms:format**: The dataset includes text and images.
+- **mls:task**: The tasks include "Multimodal Machine Translation" and "Image Description."
+
+I'll ensure that all fields are filled accurately based on the information extracted from the paper.
+</think>

@@ -1,0 +1,43 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll go through the abstract and introduction to get an overview. The paper discusses image captioning using a conditional GAN approach, introducing a new semantic score and an Out of Context (OOC) test set. So, the OOC set is one dataset mentioned.
+
+Next, I'll look into the sections where datasets are used for evaluation. The paper mentions the MS-COCO dataset, which is a well-known dataset for image captioning. It's used for training and evaluation.
+
+In the evaluation section, the authors introduce the OOC test set, which they expanded from an existing set. This is another dataset to note.
+
+I'll check the references for any additional datasets, but from the provided text, only COCO and OOC are mentioned.
+
+Now, I'll gather the metadata for each dataset:
+
+1. **MS-COCO (COCO)**
+   - Creator: Microsoft (as per common knowledge, though not explicitly mentioned in the paper)
+   - Description: A dataset with images and captions, used for training and evaluation.
+   - Title: MS-COCO
+   - Issued: 2014 (from common knowledge)
+   - Language: English
+   - Identifier: Not provided in the paper
+   - Theme: Computer Vision, Image Captioning
+   - Keywords: Image captioning, benchmark
+   - Landing Page: Not provided
+   - Version: Not mentioned
+   - Format: Image, Text
+   - Task: Image Captioning
+
+2. **Out of Context (OOC) Test Set**
+   - Creator: The authors of the paper
+   - Description: A dataset with images in unusual contexts, used for evaluating generalization.
+   - Title: Out of Context (OOC) Test Set
+   - Issued: Not specified in the paper
+   - Language: English
+   - Identifier: Not provided
+   - Theme: Computer Vision, Image Captioning
+   - Keywords: Out of context, generalization
+   - Landing Page: Not provided
+   - Version: Not mentioned
+   - Format: Image, Text
+   - Task: Image Captioning, Generalization Evaluation
+
+I'll structure this information into the required JSON format, ensuring all fields are filled appropriately based on the information extracted from the paper.
+</think>

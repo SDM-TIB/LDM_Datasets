@@ -1,0 +1,13 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is about solving NP-hard problems on graphs using an extended AlphaGo Zero approach. It's a bit technical, but I'll go through it step by step.
+
+First, I'll read through the abstract and introduction to get a general idea. The paper mentions using various graph datasets for experiments, including synthetic graphs like Erdős-Rényi (ER) and Barabási-Albert (BA) models, as well as real-world graphs from the Network Repository.
+
+Looking into the experiments section, they tested their method on different types of graphs. For MINIMUMVERTEXCOVER and MAXCUT, they used ER graphs with varying sizes and edge probabilities. Similarly, BA graphs were used with different parameters. They also tested on real-world graphs like citation networks, web graphs, and biological networks.
+
+In the results, they mention specific instances like er100_15, ba100_5, and others. These are likely specific configurations of the ER and BA models. They also reference real-world datasets from the Network Repository, such as coracites, web-edu, and bio-yeast.
+
+I need to identify each dataset mentioned, extract the metadata, and format it into JSON. The datasets include synthetic graphs (ER, BA) and real-world graphs from Network Repository. Each dataset should have details like creators, description, title, year, etc., based on the paper's references.
+
+I'll go through each mentioned dataset, extract the necessary information, and structure them into JSON format as specified.
+</think>

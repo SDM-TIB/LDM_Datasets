@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "In-domain Context-aware Token Embeddings Improve Biomedical Named Entity Recognition" by Golnar Sheikhshab et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and datasets sections** to identify any datasets mentioned. The abstract indicates that the study involves named entity recognition in the biomedical domain, which suggests that datasets are likely to be discussed.
+
+Next, I will focus on **section 4 (Datasets)**, as it is specifically dedicated to describing the datasets used in the study. This section is likely to provide detailed information about the datasets, including their sources, sizes, and purposes.
+
+In **subsection 4.1 (ELMo Training Set)**, the authors describe a dataset collected from PubMed Central (PMC) documents. They mention that they downloaded 3,960 full-text documents related to cancer, which contain about 21 million tokens. This dataset is crucial for training the ELMo embeddings.
+
+In **subsection 4.2 (BC2GM)**, the authors discuss the BC2GM dataset, which is used for the BioCreative II Gene Mention detection shared task. This dataset consists of 15,000 training and 5,000 test sentences from PubMed abstracts, with gold annotations for gene mentions.
+
+In **subsection 4.3 (JNLPBA)**, the authors describe the JNLPBA dataset, which is used for biomedical entity detection. It includes 2,000 GENIA abstracts for training and 404 abstracts for testing, annotated for various entity classes.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+1. For the **PubMed Central (PMC) subset**, there may not be a formal citation since it is a collection of documents from a public database, but I will note the source as:
+   > National Center for Biotechnology Information. PubMed Central. Available at: ftp://ftp.ncbi.nlm.nih.gov/pub/pmc.
+
+2. For the **BC2GM dataset**, the citation is:
+   > Larry Smith, Lorraine K Tanabe, Rie Johnson nee Ando, Cheng-Ju Kuo, I-Fang Chung, Chun-Nan Hsu, Yu-Shi Lin, Roman Klinger, Christoph M Friedrich, Kuzman Ganchev, et al. *Overview of BioCreative II Gene Mention Recognition*. Genome Biology, 9(2):S2, 2008.
+
+3. For the **JNLPBA dataset**, the citation is:
+   > J-D Kim, Tomoko Ohta, Yoshimasa Tsuruoka, Yuka Tateisi, and Nigel Collier. *Introduction to the Bio-Entity Recognition Task at JNLPBA*. In Proceedings of the International Joint Workshop on Natural Language Processing in Biomedicine and its Applications, pages 70–75, 2004.
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

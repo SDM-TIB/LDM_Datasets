@@ -1,0 +1,36 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Applying Unsupervised Learning To Support Vector Space Model Based Speaking Assessment" by Lei Chen from Educational Testing Service. The abstract mentions the use of Vector Space Models (VSM) for language assessment, specifically in the context of non-native English speaking tests.
+
+Looking through the introduction, the author discusses the application of VSM in educational testing, referencing previous work by Attali and Burstein (2004), Higgins et al. (2006), Zechner and Xi (2008), and Xie et al. (2012). These references might point to datasets used in their studies.
+
+In the "Data" section (Section 3), the paper describes the data used in their experiments. It mentions that the data was collected from the speaking section of the Test Of English as a Foreign Language (TOEFL R). Specifically, the data contains speech responses for 24 test items, each scored on a 4-point holistic scale by human raters. The transcriptions were obtained using a non-native ASR system.
+
+The paper also references the ASR system used, which was trained on approximately 800 hours of spoken data and corresponding transcriptions. However, this doesn't seem to be a dataset per se but rather a component of their methodology.
+
+In the "Experiments" section, the author discusses using the data to train Reference Vectors (RVs) for the VSM. They mention using 1,800 responses for training and evaluating the effectiveness of different methods, including unsupervised clustering and machine-predicted scores.
+
+Now, looking at the references, the paper cites several studies that might have used datasets relevant to this work. For example, Zechner and Xi (2008) and Xie et al. (2012) are mentioned in the context of their work on speech assessment. However, the paper itself primarily uses the TOEFL speaking data as its dataset.
+
+I should check if the TOEFL dataset is explicitly cited or if it's just referred to as the data used in their experiments. The paper doesn't provide a specific citation for the TOEFL dataset, but it's clear that the data comes from the TOEFL speaking test administered by Educational Testing Service (ETS).
+
+Given that, the dataset in question is the TOEFL speaking responses used in the experiments. The paper doesn't mention other datasets beyond this, so I'll focus on extracting metadata for the TOEFL speaking dataset.
+
+Now, I'll structure the JSON response based on the metadata fields provided:
+
+- **dcterms:creator**: The creator is Educational Testing Service (ETS), but since the paper's author is Lei Chen, and the dataset is from ETS, I'll list ETS as the creator.
+- **dcterms:description**: The description should include that it's a dataset of non-native English speaking responses from the TOEFL test, scored on a 4-point scale.
+- **dcterms:title**: The title is "TOEFL Speaking Responses Dataset."
+- **dcterms:issued**: The paper was published in 2013, but the TOEFL dataset's publication date isn't specified here, so I'll leave it as an empty string.
+- **dcterms:language**: The language is English.
+- **dcterms:identifier**: No specific DOI or URL is provided, so it's empty.
+- **dcat:theme**: Themes include language assessment, speech recognition, and educational testing.
+- **dcat:keyword**: Keywords are TOEFL, speaking assessment, non-native English, speech responses, VSM.
+- **dcat:landingPage**: No landing page is provided, so it's empty.
+- **dcterms:hasVersion**: No version is mentioned, so it's empty.
+- **dcterms:format**: The format is audio and text transcriptions.
+- **mls:task**: Tasks include speech assessment, automated scoring, and language proficiency evaluation.
+
+I need to ensure that the JSON structure is correct and that all fields are appropriately filled based on the information extracted from the paper.
+</think>

@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Automatic Prediction of Morphosemantic Relations" by Svetla Koeva et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections of the paper. The abstract mentions a core training dataset comprising **6,641 morphosemantically related verb-noun pairs from BulNet**, which indicates that this is a primary dataset used in the research. The introduction further elaborates on the dataset's origin, stating that it is based on the MSR dataset from the Princeton WordNet (PWN) and has been automatically imported into the Bulgarian WordNet.
+
+Next, I will look for specific sections that detail the datasets used, particularly the **core data** and **negative examples dataset** mentioned in section 4.1 and 4.2. In section 4.1, the authors describe the core dataset in detail, confirming that it includes **6,641 literal pairs in 4,016 unique synset pairs**. This dataset was compiled in two stages, with the initial dataset containing **6,220 instances** and an additional **421 instances** added later.
+
+In section 4.2, the authors discuss the **negative examples dataset**, which consists of over **170,000 negative instances** of verb-noun pairs that do not have an MSR. This dataset is crucial for training the classifier to distinguish between true and false MSRs.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The core dataset is derived from the Princeton WordNet, which is cited as follows:
+- **Princeton WordNet (PWN)**: 
+  > Fellbaum, C., Osherson, A., & Clark, P. E. (2009). Putting semantics into WordNet’s “morphosemantic” links. In Proceedings of the Third Language and Technology Conference, Poznan, Poland. [Reprinted in: Responding to Information Society Challenges: New Advances in Human Language Technologies. Springer Lecture Notes in Informatics], volume 5603, pages 350–358.
+
+The authors also reference their own previous works that contributed to the datasets:
+- **Dimitrova et al. (2014)**: 
+  > Dimitrova, T., Tarpomanova, E., & Rizov, B. (2014). Coping with derivation in the Bulgarian WordNet. In Proceedings of the Seventh Global Wordnet Conference (GWC 2014), pages 109–117.
+
+With this information, I will summarize the datasets extracted from the paper:
+
+1. **Core Dataset**: 
+   - Description: A dataset comprising **6,641 morphosemantically related verb-noun pairs** from the Bulgarian WordNet (BulNet).
+   - Citation: Derived from the Princeton WordNet (Fellbaum et al., 2009) and validated by Dimitrova et al. (2014).
+
+2. **Negative Examples Dataset**: 
+   - Description: A dataset containing over **170,000 negative instances** of verb-noun pairs that do not have an MSR.
+   - Citation: Not explicitly cited, but based on the methodology described in the paper.
+
+Finally, I will compile this information into a structured format for further processing, ensuring that each dataset is clearly defined and properly cited.

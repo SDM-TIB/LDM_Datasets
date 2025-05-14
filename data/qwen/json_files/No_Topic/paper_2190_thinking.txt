@@ -1,0 +1,30 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Remote Heart Rate Measurement From Face Videos Under Realistic Situations" by Xiaobai Li, Jie Chen, Guoying Zhao, and Matti Pietikainen. It discusses methods for measuring heart rate from face videos, particularly under challenging conditions like motion and illumination changes.
+
+In the abstract, the authors mention testing their framework on a "large difficult and public database MAHNOB-HCI." So, MAHNOB-HCI is one dataset.
+
+Looking further into the paper, in Section 4.2, they describe the MAHNOB-HCI database in detail. It's a public multi-modal database recorded by Soleymani et al. [17]. The database includes videos from subjects watching movie clips, with ECG signals recorded for ground truth HR.
+
+Additionally, in Section 4.1, they mention a self-collected database called VideoHR. However, since it's self-collected and not publicly available, it's not considered a dataset in the same way as MAHNOB-HCI.
+
+So, the only dataset explicitly mentioned and used in the paper is MAHNOB-HCI.
+
+Now, I'll extract the metadata for MAHNOB-HCI based on the information provided in the paper.
+
+- **dcterms:creator**: The authors of the dataset are mentioned as Soleymani et al. [17]. From the references, the full author list is M. Soleymani, J. Lichtenauer, T. Pun, and M. Pantic.
+- **dcterms:description**: The dataset includes frontal face videos and ECG signals from subjects watching movie clips, used for heart rate measurement under realistic conditions.
+- **dcterms:title**: MAHNOB-HCI
+- **dcterms:issued**: The year is 2012, as per the reference.
+- **dcterms:language**: Not applicable as it's video data.
+- **dcterms:identifier**: The DOI is 10.1109/TSMCB.2011.2171977.
+- **dcat:theme**: Computer Vision, Biomedical Data
+- **dcat:keyword**: Heart rate measurement, Face videos, Multi-modal data, ECG signals
+- **dcat:landingPage**: The DOI link.
+- **dcterms:hasVersion**: Not mentioned.
+- **dcterms:format**: Video, ECG signals
+- **mls:task**: Heart rate measurement, Physiological signal analysis
+
+I'll structure this information into the required JSON format.
+</think>

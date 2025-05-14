@@ -1,0 +1,33 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about source-free domain adaptation for time expression recognition, specifically using methods like Self-Adapter and Selective Classifier Training. 
+
+First, I'll read through the abstract and introduction to get a sense of what datasets are being used. The abstract mentions that the proposed methods are evaluated on data provided by SemEval-2021 Task 10. So, that's one dataset: SemEval-2021 Task 10.
+
+Next, I'll look into the sections where experiments are described. In the "Experiments" section, the authors mention that the development data consists of 1580 sentences from the SemEval-2018 Task 6 data. So, that's another dataset: SemEval-2018 Task 6.
+
+Additionally, the test data is described as a set of annotated documents extracted from food security warning systems. However, this doesn't seem to be a named dataset but rather a specific collection of data used for testing. Therefore, it might not qualify as a separate dataset for this extraction task.
+
+I also need to check if there are any other datasets mentioned. The paper references RoBERTa, which is a pre-trained model, but that's not a dataset. The Mayo Clinic data is mentioned as the source data, but it's not explicitly named as a dataset in the references or citations provided.
+
+So, the two datasets identified are SemEval-2021 Task 10 and SemEval-2018 Task 6. I'll need to extract their metadata based on the information provided in the paper.
+
+For SemEval-2021 Task 10:
+- It's used for evaluating the proposed methods.
+- The description mentions it's related to source-free domain adaptation for semantic processing, specifically time expression recognition.
+- The year is 2021.
+- The language is English, as it's a standard NLP dataset.
+- The format is text.
+- The task is time expression recognition.
+
+For SemEval-2018 Task 6:
+- It's the development data used in the experiments.
+- The description mentions it's the annotated news portion.
+- The year is 2018.
+- The language is English.
+- The format is text.
+- The task is time expression recognition.
+
+I don't have specific URLs or DOIs for these datasets, so those fields will remain empty. The creators are the organizers of SemEval tasks, but since the paper doesn't provide specific authors for these datasets, I'll leave the creator field empty.
+
+Now, I'll structure this information into the required JSON format, ensuring each dataset has the appropriate metadata fields filled out based on the information extracted from the paper.
+</think>

@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "Structure-Augmented Text Representation Learning for Efficient Knowledge Graph Completion" by Bo Wang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the research and may mention datasets used for evaluation. 
+
+Next, I will focus on the **introduction** section, where the authors often discuss the context of their research and may reference specific datasets that are relevant to their work. 
+
+I will then look for a dedicated **datasets section** or any mention of datasets in the **experiments section**. In this paper, the authors mention achieving state-of-the-art performance on three benchmarks and a zero-shot dataset for link prediction. This indicates that there are specific datasets used for evaluation.
+
+Upon reviewing the **experiments section**, I find a table summarizing the statistics of benchmark datasets, which includes:
+
+1. **WN18RR**: A link prediction dataset derived from WordNet, consisting of English phrases and their semantic relations.
+2. **FB15k-237**: A subset of Freebase, consisting of real-world named entities and their relations.
+3. **UMLS**: A small knowledge graph containing medical semantic entities and their relations.
+4. **NELL-One**: A few-shot link prediction dataset derived from NELL, where the relations in the dev/test set never appear in the train set.
+
+Next, I will check the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The full citations for the datasets are as follows:
+
+- **WN18RR**:
+  > Dettmers, T., Minervini, P., Stenetorp, P., & Riedel, S. (2018). Convolutional 2D Knowledge Graph Embeddings. In Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence (AAAI-18), New Orleans, Louisiana, USA, February 2-7, 2018. AAAI Press, 1811–1818. https://doi.org/10.1145/3038912.3052558
+
+- **FB15k-237**:
+  > Toutanova, K., Chen, D., Pantel, P., Poon, H., Choudhury, P., & Gamon, M. (2015). Representing Text for Joint Embedding of Text and Knowledge Bases. In Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP 2015), Lisbon, Portugal, September 17-21, 2015. The Association for Computational Linguistics, 1499–1509. https://doi.org/10.18653/v1/d15-1174
+
+- **UMLS**:
+  > Bodenreider, O. (2004). The Unified Medical Language System (UMLS): Integrating biomedical terminology. In Proceedings of the AMIA Symposium, 2004, 17-21.
+
+- **NELL-One**:
+  > Xiong, W., Yu, M., Chang, S., Guo, X., & Wang, W. Y. (2018). One-Shot Relational Learning for Knowledge Graphs. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018), Brussels, Belgium, October 31 - November 4, 2018. Association for Computational Linguistics, 1980–1990. https://doi.org/10.18653/v1/d18-1223
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

@@ -1,0 +1,51 @@
+To extract datasets from the research paper titled "All-in-One Image-Grounded Conversational Agents" by Da Ju et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract discusses the goal of creating a conversational agent that combines vision and language, which suggests that multiple datasets may be involved.
+
+Next, I will focus on **section 2 (Tasks)**, where the authors detail various language and vision tasks. Here, they mention several datasets used for training and evaluation. I will take note of each dataset mentioned, including any specific details provided about their size or characteristics.
+
+In **subsection 2.1 (Language-based)**, the authors mention two datasets:
+1. **Wikipedia and Toronto Books**: This dataset consists of 150 million (context, response) pairs.
+2. **pushshift.io Reddit**: This dataset contains 174 million (context, response) pairs.
+
+In **subsection 2.2 (Vision-based)**, the authors list several image datasets:
+1. **ImageNet**: Contains 1.28 million images.
+2. **Instagram images**: Comprises 3.5 billion images.
+3. **Visual Genome**: Contains 108,077 images with 2.8 million attributes.
+
+In **subsection 2.3 (Vision + Language)**, the authors describe several combined tasks and their corresponding datasets:
+1. **COCO Captions**: About 83k training images and 414k captions.
+2. **Flickr30k**: Contains 29k training images and 145k captions.
+3. **Personality Captions**: Approximately 187k training images with conversational style labels.
+4. **Image Chat**: An extension of Personality Captions with 356k conversation turns based on the same 187k images.
+5. **Image Chat QA**: Extracts about 20k question-answer pairs from the Image Chat dataset.
+6. **Image-Grounded Conversations (IGC)**: Contains validation and test portions but no training set.
+7. **Visual Question Answering (VQA)**: Contains 83k training images and 444k QA pairs.
+
+After identifying these datasets, I will check the **References section** for full citations. Here are the citations I will extract:
+
+- For **ImageNet**:
+  > Deng, J., Dong, W., Socher, R., Li, J., Li, K., & Fei-Fei, L. (2009). Imagenet: A large-scale hierarchical image database. In 2009 IEEE conference on computer vision and pattern recognition (pp. 248–255). IEEE.
+
+- For **Instagram images**:
+  > Mahajan, D., Girshick, R., Ramanathan, V., He, K., Paluri, M., Li, Y., & van der Maaten, L. (2018). Exploring the limits of weakly supervised pretraining. In Proceedings of the European Conference on Computer Vision (pp. 185–201). Springer.
+
+- For **Visual Genome**:
+  > Krishna, R., Zhu, Y., Groth, O., Kravitz, J., Chen, S., Kalantidis, Y., Li, L.-J., Shamma, D. A., & Bernstein, M. S. (2017). Visual genome: Connecting language and vision using crowdsourced dense image annotations. International Journal of Computer Vision, 123(1), 32–73.
+
+- For **COCO Captions**:
+  > Chen, X., Fang, H., Lin, T.-Y., Vedantam, R., Gupta, S., Dollár, P., & Zitnick, C. L. (2015). Microsoft coco captions: Data collection and evaluation server. arXiv preprint arXiv:1504.00325.
+
+- For **Flickr30k**:
+  > Young, P., Lai, A., Hodosh, M., & Hockenmaier, J. (2014). From image descriptions to visual denotations: New similarity metrics for semantic inference over event descriptions. Transactions of the Association for Computational Linguistics, 2, 67–78.
+
+- For **Personality Captions**:
+  > Shuster, K., Humeau, S., Hu, H., Bordes, A., & Weston, J. (2019). Engaging image captioning via personality. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 12516–12526).
+
+- For **Image Chat**:
+  > Shuster, K., Humeau, S., Bordes, A., & Weston, J. (2018). Engaging image chat: Modeling personality in grounded dialogue. arXiv preprint arXiv:1811.00945.
+
+- For **VQA**:
+  > Goyal, Y., Khot, T., Summers-Stay, D., Batra, D., & Parikh, D. (2017). Making the V in VQA matter: Elevating the role of image understanding in Visual Question Answering. In Conference on Computer Vision and Pattern Recognition (CVPR).
+
+Now, I will compile the dataset entries with their full citations into a structured format for further processing.

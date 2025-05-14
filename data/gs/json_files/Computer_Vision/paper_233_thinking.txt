@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Expressive Graph Informer Networks" by Jaak Simm et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections of the paper. The abstract mentions two prediction tasks: 13C Nuclear Magnetic Resonance (NMR) spectra and predicting drug bioactivity and toxicity. This indicates that datasets related to these tasks may be present.
+
+Next, I will examine the **experiments section** (Section VI) to identify specific datasets used for the evaluations. In this section, the authors describe their experiments in detail, including the datasets they utilized for both tasks.
+
+1. **13C NMR Dataset**: The authors mention that they used 13C NMR spectra from NMRShiftDB, which is a database of NMR spectra. They state that after filtering, they retained 25,645 molecules for their analysis. This dataset is crucial for the NMR prediction task.
+
+2. **ChEMBL Dataset**: The paper discusses the use of the ChEMBL database for drug bioactivity prediction. They extracted IC50 values for human protein targets from ChEMBL version 23, which includes 94 tasks and 87,415 molecules. This dataset is essential for evaluating the drug bioactivity prediction performance.
+
+3. **Tox21 Dataset**: The authors also mention using the Tox21 dataset from MoleculeNet, which consists of 7,831 molecules divided into training, validation, and test sets. This dataset is used for toxicity prediction tasks.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For the **NMRShiftDB**, the citation is:
+  > NMRShiftDB. "NMRShiftDB: A Database for NMR Chemical Shifts." Available at: https://nmrshiftdb.nmr.uni-koeln.de/
+
+- For the **ChEMBL dataset**, the citation is:
+  > Bento, A. P., Gaulton, A., Hersey, A., Bellis, L. J., Chambers, J., Davies, M., Krüger, F. A., Light, Y., Mak, L., McGlinchey, S., et al. (2014). "The ChEMBL bioactivity database: an update." *Nucleic Acids Research*, 42(D1), D1083-D1090.
+
+- For the **Tox21 dataset**, the citation is:
+  > Wu, Z., Ramsundar, B., Feinberg, E. N., Gomes, J., Geniesse, C., Pappu, A. S., Leswing, K., & Pande, V. (2018). "MoleculeNet: A Benchmark for Molecular Machine Learning." *Chemical Science*, 9(2), 513-530.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all relevant details are captured for future reference or processing.

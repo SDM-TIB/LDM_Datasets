@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "HIBERT: Document Level Pre-training of Hierarchical Bidirectional Transformers for Document Summarization" by Xingxing Zhang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors achieved state-of-the-art performance on the **CNN/Dailymail dataset** and a version of the **New York Times dataset**, which suggests that these datasets are crucial for their experiments.
+
+Next, I will focus on **section 4 (Experiments)**, specifically **subsection 4.1 (Datasets)**, where the authors provide detailed information about the datasets used for their summarization experiments. Here, they mention:
+
+1. **CNN/Dailymail Dataset**: This dataset is described as containing 287,226 documents with summaries for training, 13,368 for validation, and 11,490 for testing. The authors reference the preprocessing scripts from See et al. (2017) for this dataset.
+
+2. **New York Times Dataset (NYT50)**: The authors explain that they created the NYT50 dataset by filtering documents from the New York Times dataset to include only those with summaries longer than 50 words. They provide the training, validation, and test splits used in their experiments.
+
+Additionally, they mention the **GIGA-CM dataset**, which consists of 6,626,842 documents and is used for pre-training HIBERT. This dataset includes documents sampled from the English Gigaword dataset and the training split of the CNN/Dailymail dataset.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **CNN/Dailymail dataset**, the citation is:
+  > Karl Moritz Hermann, Tomas Kocisky, Edward Grefenstette, Lasse Espeholt, Will Kay, Mustafa Suleyman, and Phil Blunsom. *Teaching machines to read and comprehend*. In Advances in Neural Information Processing Systems, pages 1693–1701, 2015.
+
+- For the **New York Times dataset**, the citation is:
+  > Greg Durrett, Taylor Berg-Kirkpatrick, and Dan Klein. *Learning-based single-document summarization with compression and anaphoricity constraints*. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 1998–2008, 2016.
+
+- For the **GIGA-CM dataset**, the citation is:
+  > The dataset is derived from the English Gigaword dataset, which can be accessed at the Linguistic Data Consortium (LDC) website: https://catalog.ldc.upenn.edu/LDC2012T21.
+
+With this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research.

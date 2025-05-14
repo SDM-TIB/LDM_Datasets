@@ -1,0 +1,13 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the given research paper. The paper is about natural language understanding in a biomedical domain with low resources. The authors mention several methods like data generation using templates, paraphrasing, and using embeddings from Fasttext and ELMo. 
+
+First, I need to identify any datasets mentioned. The paper talks about collecting 178 questions from medical doctors, which they used as a gold standard. This seems like a dataset. They also mention using a corpus of one million clinical notes from a hospital's data warehouse. That's another dataset. 
+
+Looking for references, I don't see any external datasets cited beyond these two. The authors don't reference external datasets like MUC or TAC KBP, so I won't include those. 
+
+Now, I'll structure each dataset with the required metadata. For the 178 questions, the creators are the authors of the paper since they collected it. The description is about the questions for NLU tasks. The title could be "Medical Queries Dataset." It was created in 2018, in French, and has no identifier. The theme is biomedical NLU, keywords include medical queries and NLU. 
+
+For the clinical notes, the creators are the same authors. The description is about the corpus used for embeddings. The title is "Clinical Notes Corpus." Created in 2018, in French, with no identifier. Themes are clinical text and embeddings, keywords include clinical notes and embeddings.
+
+I won't include any other datasets since they aren't mentioned in the paper. I'll format these into JSON as per the instructions.
+</think>

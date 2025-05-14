@@ -1,0 +1,60 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let's start by carefully reading through the paper to identify any datasets.
+
+First, the paper is titled "Identifying Semantically Duplicate Questions Using DataScience Approach: A Quora Case Study" by Navedanjum Ansari and Rajesh Sharma. The abstract mentions using a dataset from Quora, specifically the "First Quora Dataset release." 
+
+Looking further into the paper, in Section 3 (Dataset), the authors describe their data collection process. They mention that the data is taken from the First Quora Dataset release hosted on Amazon S3. This dataset contains 404,290 question pairs, with each row having an id, qid1, qid2, question1, question2, and is_duplicate as the class label. 
+
+Additionally, the authors reference GloVe pre-trained word vectors for word embeddings. They mention using Google News vectors for word embeddings as well. 
+
+So, the datasets mentioned are:
+1. First Quora Dataset release
+2. GloVe pre-trained word vectors
+3. Google News vectors
+
+Now, I'll extract the metadata for each dataset based on the provided vocabulary.
+
+For the First Quora Dataset:
+- Creator: The authors of the dataset are not explicitly mentioned, but it's released by Quora.
+- Description: Contains question pairs labeled as duplicates or not.
+- Title: First Quora Dataset release
+- Issued: The paper was published in 2019, but the dataset's release date isn't specified.
+- Language: English
+- Identifier: The URL provided is http://qim.fs.quoracdn.net/quora_duplicate_questions.tsv
+- Theme: Natural Language Processing, Question Pairs
+- Keywords: Duplicate questions, Quora, Question pairs
+- Landing Page: The URL provided
+- Version: Not mentioned
+- Format: Text
+- Task: Duplicate question detection
+
+For GloVe:
+- Creator: The authors are Pennington, Socher, and Manning.
+- Description: Pre-trained word vectors for English.
+- Title: GloVe
+- Issued: 2014
+- Language: English
+- Identifier: arXiv:1406.6296
+- Theme: Word Embeddings
+- Keywords: Word vectors, NLP
+- Landing Page: https://nlp.stanford.edu/projects/glove
+- Version: Not mentioned
+- Format: Vector data
+- Task: Word representation
+
+For Google News vectors:
+- Creator: Mikolov, Chen, Corrado, and Dean.
+- Description: Pre-trained word vectors from Google News.
+- Title: Google News word2vec
+- Issued: 2013
+- Language: English
+- Identifier: arXiv:1301.3781
+- Theme: Word Embeddings
+- Keywords: Word vectors, NLP
+- Landing Page: https://code.google.com/archive/p/word2vec/
+- Version: Not mentioned
+- Format: Vector data
+- Task: Word representation
+
+Now, I'll structure this information into the required JSON format.
+</think>

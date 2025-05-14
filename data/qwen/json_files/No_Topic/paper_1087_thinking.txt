@@ -1,0 +1,26 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll look at the abstract and introduction to get an overview. The paper discusses experiments using transfer learning and selective data training for biomedical translation between French and English. They mention using various corpora for training and testing their models.
+
+In the introduction, they reference the Bio-medical shared task of WMT19, which likely involves specific datasets. Moving to the corpus section (Section 3.1), they list several datasets:
+
+1. **News-Commentary**: Used as a general domain corpus.
+2. **Books**: Another general domain corpus.
+3. **Medline abstracts**: An in-domain corpus.
+4. **Scielo corpus**: Also in-domain.
+5. **EMEA corpus**: Another in-domain dataset.
+6. **Medline titles**: Used as a test set.
+7. **UFAL Medical corpus**: In-domain.
+8. **Khresmoi corpus**: In-domain.
+
+Each of these datasets is described in terms of their use (in-domain or out-domain) and their role in the experiments (training, development, or test sets).
+
+I'll need to extract metadata for each dataset. The creators are mentioned in the references, so I'll look up each dataset's citation to find the creators. For example, the News-Commentary corpus is cited as (Tiedemann, 2012), so the creator is Jörg Tiedemann.
+
+Descriptions are based on how the paper uses each dataset. For instance, Medline abstracts are used for training, while Medline titles are the test set.
+
+Languages are specified as English and French since the translation is between these two languages. Themes are mostly related to biomedical or general text. Keywords include terms like "biomedical translation," "parallel corpus," etc.
+
+I'll structure each dataset with the required metadata fields, ensuring that each field is accurately filled based on the information provided in the paper.
+</think>

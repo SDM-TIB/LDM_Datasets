@@ -1,0 +1,15 @@
+<think>
+Alright, I need to extract all the datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll look at the abstract and introduction to see if any datasets are referenced. The abstract mentions "300-W" and "AFLW" datasets. The introduction also refers to these datasets, so I'll note them down.
+
+Next, I'll go through the sections where datasets are likely discussed, such as the experimental setup or results. In the "4. Experiments" section, the paper evaluates its method on the 300-W and AFLW datasets. The 300-W dataset is described as containing 68 landmarks, while AFLW provides 19 landmarks. 
+
+I'll check the references to find more details about these datasets. The 300-W dataset is cited as [22], which refers to a paper by C. Sagonas et al. from 2013. The AFLW dataset is cited as [17], authored by M. Koestinger et al. in 2011.
+
+Now, I'll gather the metadata for each dataset. For 300-W, the creators are C. Sagonas, G. Tzimiropoulos, S. Zafeiriou, and M. Pantic. The description mentions it's a benchmark for facial landmark localization with 68 landmarks. The title is "300-W Face Alignment Benchmark," published in 2013. The format is images with landmarks, and the task is facial landmark detection.
+
+For AFLW, the creators are M. Koestinger, P. Wohlhart, P. M. Roth, and H. Bischof. The dataset is described as containing 24,386 faces with 19 landmarks, used for evaluating face alignment. The title is "AFLW (Annotated Facial Landmarks in the Wild)," published in 2011. The format is images with landmarks, and the task is facial landmark detection.
+
+I'll structure this information into the required JSON format, ensuring each dataset includes all specified metadata fields.
+</think>

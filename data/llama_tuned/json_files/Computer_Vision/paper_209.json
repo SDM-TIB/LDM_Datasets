@@ -1,0 +1,82 @@
+[
+    {
+        "dcterms:creator": [
+            "Yu-Chuan Su",
+            "Dinesh Jayaraman",
+            "Kristen Grauman"
+        ],
+        "dcterms:description": "A dataset constructed from the MNIST dataset by backprojecting the digits into equirectangular projection with a resolution of 16080. The digit labels are used to train the source CNN, but they are not used to train the KTN.",
+        "dcterms:title": "Spherical MNIST",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "360° images",
+            "Equirectangular projection",
+            "Image classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Yu-Chuan Su",
+            "Dinesh Jayaraman",
+            "Kristen Grauman"
+        ],
+        "dcterms:description": "A real-world 360° video dataset containing 86 videos from four categories: Hiking, Parade, Soccer, and Mountain Climbing. Frames are sampled for training and testing, with a resolution of 640320.",
+        "dcterms:title": "Pano2Vid",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Video Analysis"
+        ],
+        "dcat:keyword": [
+            "360° videos",
+            "Video dataset",
+            "Object detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Video",
+        "mls:task": [
+            "Object Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Yu-Chuan Su",
+            "Kristen Grauman"
+        ],
+        "dcterms:description": "A perspective image dataset with object annotations, where object bounding boxes are backprojected to equirectangular projection with a resolution of 640320.",
+        "dcterms:title": "APascal VOC 2007",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Object Detection"
+        ],
+        "dcat:keyword": [
+            "Object detection",
+            "Image dataset",
+            "Equirectangular projection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Object Detection"
+        ]
+    }
+]

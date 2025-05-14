@@ -1,0 +1,56 @@
+To extract datasets from the research paper titled "Quality Diversity for Visual Pre-Training" by Ruchika Chavhan et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to identify any datasets mentioned. The abstract discusses the development of a feature that supports diverse downstream tasks, which may imply the use of various datasets for evaluation.
+
+Next, I will focus on the **introduction** section, where the authors mention the importance of pre-training on large datasets like ImageNet. This suggests that ImageNet is a key dataset used in their work, but I need to confirm if there are additional datasets mentioned.
+
+In the **methodology section**, the authors describe their experiments and the datasets used for pre-training and evaluation. They specifically mention:
+
+1. **ImageNet**: A large-scale dataset commonly used for image classification tasks. The authors indicate that they perform supervised training on ImageNet1K and contrastive training on both ImageNet1K and ImageNet100.
+
+2. **CIFAR10 and CIFAR100**: These datasets are used for classification tasks, and the authors report performance metrics on these benchmarks.
+
+3. **300W**: This dataset is mentioned in the context of facial landmark detection, indicating its use for regression tasks.
+
+4. **CelebA**: Another dataset used for facial attribute detection, which is also part of their regression evaluation.
+
+5. **LSP (Leeds Sports Pose)**: This dataset is referenced for human pose estimation tasks.
+
+6. **MPII**: Mentioned as a dataset for human pose estimation, confirming its relevance in their experiments.
+
+7. **Pascal VOC**: This dataset is used for object detection tasks, indicating its importance in evaluating the proposed methods.
+
+8. **CityScapes and ADE20k**: These datasets are used for semantic segmentation tasks, further demonstrating the diversity of tasks evaluated.
+
+In the **results section**, the authors provide performance metrics across these datasets, confirming their use in the experiments.
+
+Now, I will check the **References section** to gather the full citations for each dataset mentioned:
+
+- **ImageNet**: 
+  > Deng, J., Dong, W., Socher, R., Li, J., Li, K., & Fei-Fei, L. (2009). *ImageNet: A large-scale hierarchical image database*. In CVPR.
+
+- **CIFAR10 and CIFAR100**: 
+  > Krizhevsky, A., & Hinton, G. (2009). *Learning multiple layers of features from tiny images*. Technical report, University of Toronto.
+
+- **300W**: 
+  > 300 faces in-the-wild challenge: database and results. *Image and Vision Computing*, 2016.
+
+- **CelebA**: 
+  > Liu, Z., Luo, P., Wang, X., & Tang, X. (2015). *Deep learning face attributes in the wild*. In ICCV.
+
+- **LSP**: 
+  > Johnson, S., & Everingham, M. (2010). *Clustered pose and nonlinear appearance models for human pose estimation*. In BMVC.
+
+- **MPII**: 
+  > Andriluka, M., Pishchulin, L., Gehler, P., & Schiele, B. (2014). *2D human pose estimation: New benchmark and state of the art analysis*. In CVPR.
+
+- **Pascal VOC**: 
+  > Everingham, M., Van Gool, L., Williams, C. K. I., Winn, J., & Zisserman, A. (2010). *The Pascal Visual Object Classes (VOC) Challenge*. In IJCV.
+
+- **CityScapes**: 
+  > Cordts, M., Omran, M., Ramos, S., Rehfeld, T., Enzweiler, M., Benenson, R., Franke, U., Roth, S., & Schiele, B. (2016). *The cityscapes dataset for semantic urban scene understanding*. In CVPR.
+
+- **ADE20k**: 
+  > Zhou, B., Huang, A., & Schmid, C. (2017). *Semantic understanding of scenes through the ADE20K dataset*. In CVPR.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

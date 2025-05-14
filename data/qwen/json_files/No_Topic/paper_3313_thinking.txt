@@ -1,0 +1,43 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me start by carefully reading through the paper to identify any datasets used or mentioned.
+
+First, I'll look through the abstract and introduction. The abstract mentions "graph isomorphism" and "parser performance," but doesn't reference any specific datasets. The introduction discusses a replication study of Søgaard (2020), which introduced graph isomorphism (DUG) as a means of explaining differences in parser performance across treebanks. This suggests that the Universal Dependencies (UD) treebanks are involved.
+
+Moving on to the Related Work section, it mentions studies on Universal Dependency parsing, which again points to the UD treebanks. The paper also references the CoNLL 2018 shared task, which used UD treebanks. Additionally, the paper uses UDPipe 1.2 and UDPipe 2.0 models, which are based on UD versions 2.4, 2.5, 2.6, and 2.7.
+
+In the Data and parsers section, it explicitly states that the data consists of 33 UD treebanks from the CoNLL 2018 shared task. It also mentions using UDPipe 1.2 and UDPipe 2.0 models with UD versions 2.4, 2.5, 2.6, and 2.7. These are all versions of the Universal Dependencies dataset.
+
+The paper also references the CoNLL 2018 shared task, which is a specific instance where UD treebanks were used. However, the primary datasets mentioned are the UD treebanks and their specific versions.
+
+Now, I'll compile the metadata for each dataset mentioned:
+
+1. **Universal Dependencies (UD) Treebanks**
+   - **Creators**: The UD project involves multiple contributors, but the specific versions mentioned are from Zeman et al. (2018, 2019, 2020).
+   - **Description**: UD treebanks are a collection of treebanks in multiple languages, annotated with universal part-of-speech tags and syntactic dependencies.
+   - **Title**: Universal Dependencies
+   - **Issued**: The versions mentioned are from 2018, 2019, and 2020.
+   - **Language**: Multilingual
+   - **Identifier**: The versions are UD v2.4, v2.5, v2.6, and v2.7.
+   - **Theme**: Natural Language Processing, Syntax, Parsing
+   - **Keywords**: Treebank, Dependency Parsing, Universal Dependencies
+   - **Landing Page**: The official UD website.
+   - **Version**: v2.4, v2.5, v2.6, v2.7
+   - **Format**: Text (treebank format)
+   - **Task**: Dependency Parsing, Parser Evaluation
+
+2. **CoNLL 2018 Shared Task**
+   - **Creators**: Organized by Zeman et al. (2018).
+   - **Description**: A shared task focused on multilingual parsing from raw text to Universal Dependencies.
+   - **Title**: CoNLL 2018 Shared Task
+   - **Issued**: 2018
+   - **Language**: Multilingual
+   - **Identifier**: The task is associated with the UD dataset.
+   - **Theme**: Natural Language Processing, Parsing
+   - **Keywords**: Shared Task, Multilingual Parsing
+   - **Landing Page**: The CoNLL 2018 shared task page.
+   - **Version**: N/A
+   - **Format**: Text (treebank format)
+   - **Task**: Dependency Parsing, Parser Evaluation
+
+I need to ensure that each dataset is described accurately based on the paper's usage and the metadata provided in the references.
+</think>

@@ -1,0 +1,61 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is titled "AllenNLP Interpret: A Framework for Explaining Predictions of NLP Models" by Eric Wallace and others. 
+
+First, I'll read through the abstract and introduction to get a sense of what datasets are being used. The abstract mentions that the toolkit is demonstrated on various models and tasks, including masked language modeling using BERT and reading comprehension using BiDAF. 
+
+Looking into the introduction, the authors discuss the importance of model interpretability and mention tasks like named entity recognition (NER), reading comprehension, and sentiment analysis. They also reference datasets like SQuAD and DROP, which are commonly used in reading comprehension tasks.
+
+In the section "2.4 Currently Available Models," the authors list the tasks and datasets they've implemented interpretations for. These include:
+- Reading Comprehension: SQuAD and DROP datasets.
+- Masked Language Modeling: Using BERT, RoBERTa, etc.
+- Text Classification and Textual Entailment.
+- Named Entity Recognition (NER) and Coreference Resolution.
+
+I need to identify each dataset mentioned and extract the required metadata. Let's go through each one:
+
+1. **SQuAD (Stanford Question Answering Dataset)**: This is a well-known dataset for reading comprehension. The authors mention using it in their toolkit. I'll look for the creators, description, title, publication year, etc.
+
+2. **DROP (Dynamics of Reading Comprehension)**: Another dataset for reading comprehension, created by Dua et al. in 2019.
+
+3. **BERT (Base model)**: While BERT is a model, it's often associated with the masked language modeling task. The dataset used for training BERT is the BookCorpus and English Wikipedia, but the paper doesn't explicitly mention these datasets. So, I might not include BERT as a dataset but rather as a model.
+
+4. **RoBERTa**: Similar to BERT, RoBERTa is another model, so it's not a dataset.
+
+5. **Text Classification and Textual Entailment**: These are tasks, not datasets, so I won't list them as datasets unless specific datasets are mentioned.
+
+6. **Named Entity Recognition (NER)**: This is a task, but the authors don't specify which dataset they used for NER. Without a specific dataset name, I can't include it.
+
+7. **Coreference Resolution**: Again, a task without a specific dataset mentioned.
+
+So, the datasets explicitly mentioned are SQuAD and DROP. I'll need to extract their metadata.
+
+For SQuAD:
+- Creators: Rajpurkar et al. (2016)
+- Description: A dataset for reading comprehension with questions and answers.
+- Title: SQuAD
+- Issued: 2016
+- Language: English
+- Identifier: DOI or URL if available
+- Theme: NLP, Reading Comprehension
+- Keywords: Reading comprehension, QA
+- Landing Page: URL to the dataset
+- Version: Not mentioned
+- Format: Text
+- Task: Reading Comprehension
+
+For DROP:
+- Creators: Dua et al. (2019)
+- Description: A reading comprehension dataset focusing on discrete reasoning.
+- Title: DROP
+- Issued: 2019
+- Language: English
+- Identifier: DOI or URL
+- Theme: NLP, Reading Comprehension
+- Keywords: Reading comprehension, discrete reasoning
+- Landing Page: URL
+- Version: Not mentioned
+- Format: Text
+- Task: Reading Comprehension
+
+I'll structure this information into the required JSON format, ensuring each dataset is properly described with the specified metadata fields.
+</think>

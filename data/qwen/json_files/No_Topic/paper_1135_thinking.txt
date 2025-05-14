@@ -1,0 +1,47 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Google Books N-gram Corpus used as a Grammar Checker" by Rogelio Nazar and Irene Renau. The abstract mentions the use of the Google Books N-gram Corpus for detecting and correcting grammatical errors. 
+
+In the introduction, the authors elaborate on their methodology, stating that they used the Google Books N-gram Corpus, compiled by Michel et al. (2011). This corpus is described as containing n-grams of sequences up to 5 words, recording frequency distributions from 1500 onwards, with a focus on data starting from 1970.
+
+The paper also references other datasets, such as the CEDEL2 corpus, which is a corpus of essays in Spanish written by non-native speakers. This dataset is used for testing the grammar checker's performance on real errors made by learners.
+
+Additionally, the authors mention the use of a Spanish grammar book by MontolA Ao (2000) as a source for exercises, though this is more of a resource than a dataset.
+
+I should structure the datasets as per the metadata vocabulary provided. The main dataset is the Google Books N-gram Corpus, and the secondary one is the CEDEL2 corpus.
+
+For each dataset, I'll extract the required fields:
+
+1. **Google Books N-gram Corpus**:
+   - Creator: Michel et al. (2011)
+   - Description: Large n-gram corpus used for detecting grammatical errors.
+   - Title: Google Books N-gram Corpus
+   - Issued: 2011
+   - Language: Spanish (as per the paper's focus)
+   - Identifier: Not provided in the paper.
+   - Theme: Computational Linguistics, Grammar Checking
+   - Keywords: N-gram, Corpus, Grammar, Spanish
+   - Landing Page: Not provided.
+   - Version: Not mentioned.
+   - Format: Text
+   - Task: Grammar Checking, Error Detection
+
+2. **CEDEL2 Corpus**:
+   - Creator: Lozano (2009)
+   - Description: Corpus of essays by non-native Spanish speakers.
+   - Title: CEDEL2 Corpus
+   - Issued: 2009
+   - Language: Spanish
+   - Identifier: Not provided.
+   - Theme: Language Learning, Error Analysis
+   - Keywords: Non-native, Essays, Spanish
+   - Landing Page: Not provided.
+   - Version: Not mentioned.
+   - Format: Text
+   - Task: Error Detection, Grammar Checking
+
+I need to ensure that the creators are correctly identified as the authors of the datasets, not the paper's authors. The Google Books N-gram Corpus is created by Michel et al., and CEDEL2 by Lozano.
+
+Now, I'll format this information into the required JSON structure.
+</think>

@@ -1,0 +1,17 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is about applying a version of A3C (Asynchronous Advantage Actor-Critic) to the game Rogue, focusing on dungeon exploration. 
+
+First, I'll read through the paper to identify any datasets mentioned. The abstract and introduction talk about using A3C in the context of Rogue, but I don't see any specific datasets cited yet. 
+
+Looking at the references, I see several citations, but most are about reinforcement learning methods, environments, and tools. One reference stands out: the RogueInABox library. The paper mentions that they released a new version of this library, which is used for their experiments. 
+
+The RogueInABox library isn't a traditional dataset but rather a game environment used for training and testing reinforcement learning agents. However, since it's a tool that provides a structured environment with specific states and actions, it can be considered a dataset in the context of machine learning tasks. 
+
+I'll check if there are any other datasets mentioned. The paper discusses using ASCII-based game states, but that's part of the game environment, not a separate dataset. They also mention using a cropped view of the game state, which is part of their state representation, not a dataset. 
+
+So, the main dataset here is the RogueInABox library, which provides the game environment for their experiments. It's used to evaluate the performance of their A3C agents in exploring and navigating the dungeon. 
+
+I'll structure the metadata for this dataset based on the information provided in the paper. The creators are the authors of the paper, the title is "RogueInABox," the description is about the game environment, and the landing page is the GitHub repository provided. 
+
+I don't find any specific version mentioned beyond the new release, so I'll leave the version field empty. The format is text-based since it's an ASCII game. The task is dungeon exploration, which fits the context of their research.
+</think>

@@ -1,0 +1,38 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let's start by carefully reading through the paper to identify any datasets.
+
+First, I'll go through the abstract and introduction to get an overview. The paper discusses adversarial attacks on deep learning models, particularly focusing on feature space perturbations. It mentions experiments on CIFAR-10 and ImageNet datasets.
+
+Looking into the "Experimental Setup" section, the authors detail their use of CIFAR-10 and ImageNet. They mention specific models like ResNet-50, DenseNet-121, and VGG19bn trained on these datasets. Additionally, they reference the SVHN dataset in the Supplemental Materials, though it's not explicitly mentioned in the main text.
+
+Now, I'll extract metadata for each dataset:
+
+1. **CIFAR-10**:
+   - **Creators**: Alex Krizhevsky, Vinod Nair, Geoffrey Hinton.
+   - **Description**: A dataset of 60,000 32x32 color images in 10 classes, used for training and testing image classification models.
+   - **Title**: CIFAR-10.
+   - **Issued**: 2009.
+   - **Theme**: Computer Vision, Image Classification.
+   - **Keywords**: Image classification, 32x32 images, 10 classes.
+   - **Format**: Image.
+
+2. **ImageNet**:
+   - **Creators**: ILSVRC team (Russell C. Brabham, et al.).
+   - **Description**: A large-scale dataset with millions of images across thousands of classes, used for image recognition tasks.
+   - **Title**: ImageNet.
+   - **Issued**: 2009.
+   - **Theme**: Computer Vision, Image Recognition.
+   - **Keywords**: Large-scale images, 1000 classes, ILSVRC.
+   - **Format**: Image.
+
+3. **SVHN**:
+   - **Creators**: Yuval Netzer, Theodore Malisiewicz, Rob Fergus.
+   - **Description**: A dataset of real-world house numbers, containing over 600,000 images, used for digit recognition and object detection.
+   - **Title**: SVHN.
+   - **Issued**: 2011.
+   - **Theme**: Computer Vision, Digit Recognition.
+   - **Keywords**: Street view, house numbers, digit classification.
+   - **Format**: Image.
+
+I'll ensure each dataset is correctly formatted with the required metadata fields, using the information extracted from the paper and their respective references.
+</think>

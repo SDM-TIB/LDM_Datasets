@@ -1,0 +1,56 @@
+<think>
+Alright, I need to extract all datasets mentioned in the provided research paper and describe each using the specified metadata vocabulary. Let me go through the paper step by step.
+
+First, I'll read through the abstract and introduction to get an overview. The paper is about face recovery from portraits, so I'm looking for datasets related to faces, portraits, or style transfer.
+
+In the introduction, the authors mention using the CelebA dataset. CelebA is a well-known dataset of celebrity faces. They used it to generate their training and testing datasets by applying style transfer techniques. So, CelebA is one dataset.
+
+Next, in the section about the synthesized dataset, the authors mention using the CUFSF dataset. CUFSF stands for CU Face Sketches and Faces, which is a dataset containing face sketches and their corresponding photos. They used this for testing their method on hand-drawn sketches.
+
+They also reference the FERET dataset, which is another face dataset, often used for face recognition and sketch-to-face tasks. The authors used FERET's sketches for testing.
+
+Looking through the references, I don't find any other datasets mentioned. The authors didn't reference any other datasets beyond CelebA, CUFSF, and FERET.
+
+Now, I'll structure each dataset according to the metadata fields:
+
+1. **CelebA**:
+   - Creator: The authors of CelebA, which are not explicitly mentioned in the paper, so I'll leave it as an empty list.
+   - Description: A dataset of celebrity faces used for generating training and testing pairs.
+   - Title: CelebA.
+   - Issued: The year CelebA was published, which is 2015.
+   - Language: Not applicable as it's image data.
+   - Identifier: The URL where CelebA can be found.
+   - Theme: Computer Vision, Face Recognition.
+   - Keywords: Face dataset, celebrity faces.
+   - Landing Page: The URL to the CelebA dataset.
+   - Format: Image.
+   - Task: Face recovery, style transfer.
+
+2. **CUFSF**:
+   - Creator: Not mentioned in the paper.
+   - Description: A dataset containing face sketches and photos used for testing.
+   - Title: CUFSF.
+   - Issued: The year CUFSF was published, which is 2009.
+   - Language: Not applicable.
+   - Identifier: The URL to CUFSF.
+   - Theme: Computer Vision, Face Recognition.
+   - Keywords: Face sketches, face photos.
+   - Landing Page: The URL to CUFSF.
+   - Format: Image.
+   - Task: Face recovery, sketch-to-face.
+
+3. **FERET**:
+   - Creator: Not mentioned in the paper.
+   - Description: A dataset used for face recognition and sketch-to-face tasks.
+   - Title: FERET.
+   - Issued: The year FERET was published, which is 1997.
+   - Language: Not applicable.
+   - Identifier: The URL to FERET.
+   - Theme: Computer Vision, Face Recognition.
+   - Keywords: Face dataset, face recognition.
+   - Landing Page: The URL to FERET.
+   - Format: Image.
+   - Task: Face recovery, sketch-to-face.
+
+I need to ensure that each field is correctly filled based on the information available in the paper. If a field isn't mentioned, I'll leave it as an empty string or list as appropriate.
+</think>

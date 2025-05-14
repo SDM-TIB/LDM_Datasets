@@ -1,0 +1,24 @@
+To extract the datasets from the research paper titled "Learning to Classify Intents and Slot Labels Given a Handful of Examples" by Jason Krone et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors establish a few-shot intent classification and slot filling benchmark using three public datasets: **ATIS, SNIPS, and TOP**. This is a clear indication that these datasets are crucial to the research.
+
+Next, I will look for more detailed descriptions of these datasets in the **experiments or datasets section**. In the paper, the authors provide a summary of the datasets in **section 5 (Few-shot IC/SF Benchmark)**. Here, they describe each dataset's purpose and characteristics:
+
+1. **ATIS Dataset**: A well-known dataset for dialog system research, comprising conversations from the airline domain. It includes a total of 5,864 utterances, with 461 intent classes and 116 slot labels.
+
+2. **SNIPS Dataset**: Developed by the Snips corporation, this dataset evaluates the quality of intent classification and slot filling services across multiple domains, including music and weather. It contains 14,484 utterances, with 33 intent classes and 4 slot labels.
+
+3. **TOP Dataset**: This dataset pertains to navigation and event search, with a unique aspect of containing multi-nested intent labels. The authors mention that they only use the non-hierarchical 65% of utterances, totaling 29,104 utterances, with 38 intent classes and 7 slot labels.
+
+After identifying the datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For **ATIS Dataset**:
+  > Hemphill, C. T., Godfrey, J. J., & Doddington, G. R. (1990). *The ATIS spoken language systems pilot corpus*. In Speech and Natural Language: Proceedings of a Workshop Held at Hidden Valley, Pennsylvania, June 24-27, 1990.
+
+- For **SNIPS Dataset**:
+  > Coucke, A., Saade, A., Ball, A., Bluche, T., Caulier, A., Leroy, D., Doumouro, C., Gisselbrecht, T., Caltagirone, F., Lavril, T., Primet, M., & Dureau, J. (2018). *Snips voice platform: an embedded spoken language understanding system for private-by-design voice interfaces*. CoRR, abs/1805.10190.
+
+- For **TOP Dataset**:
+  > Gupta, A., Hewitt, J., & Kirchhoff, K. (2018). *Semantic parsing for task oriented dialog using hierarchical representations*. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 2787–2792, Brussels, Belgium. Association for Computational Linguistics.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing.

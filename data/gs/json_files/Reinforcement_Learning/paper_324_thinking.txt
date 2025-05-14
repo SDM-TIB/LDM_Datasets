@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Leveraging Demonstrations for Deep Reinforcement Learning on Robotics Problems with Sparse Rewards" by Mel Vecerik et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract discusses the use of demonstrations in reinforcement learning, which suggests that there may be datasets related to these demonstrations. The introduction elaborates on the challenges of reinforcement learning in robotics and hints at the use of kinesthetic demonstrations, indicating that there might be specific datasets collected from these demonstrations.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experimental setup** or **results** sections. In this paper, the authors describe their experiments involving four simulated insertion tasks. I will pay close attention to any specific datasets or data collection methods mentioned in these sections.
+
+Upon reviewing the **experimental setup**, I find that the authors collected demonstration data using a Sawyer robotic arm, which was kinesthetically controlled by a human demonstrator. They mention collecting 100 episodes of human demonstrations for each task, which provides a clear indication of the dataset used for training their model.
+
+Now, I will check the **references section** to find full citations for any datasets mentioned. However, in this case, the paper does not reference any external datasets but rather describes the data collection process for their own experiments.
+
+The key datasets identified from the paper are:
+
+1. **Demonstration Data from Simulated Insertion Tasks**: This dataset consists of 100 episodes of human demonstrations collected using a Sawyer robotic arm in a simulated environment. Each episode is approximately 25 steps long.
+
+2. **Demonstration Data from Real Robot Insertion Task**: This dataset is similar to the simulated one but collected from a physical Sawyer robot performing a clip insertion task.
+
+Since there are no formal citations for these datasets in the references, I will document them as follows:
+
+- For the **Demonstration Data from Simulated Insertion Tasks**, I will note:
+  > Vecerik, M., Hester, T., Scholz, J., Wang, F., Pietquin, O., Piot, B., Heess, N., Rothörl, T., Lampe, T., & Riedmiller, M. (2019). Leveraging Demonstrations for Deep Reinforcement Learning on Robotics Problems with Sparse Rewards. *arXiv preprint arXiv:1704.03732*.
+
+- For the **Demonstration Data from Real Robot Insertion Task**, I will use the same citation as above since it is part of the same study.
+
+Finally, I will compile the dataset entries into a structured format that highlights the key aspects of each dataset, ensuring that the full citation is included for reference. This will provide a clear and comprehensive overview of the datasets used in the research.

@@ -1,0 +1,42 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the given research paper. The paper is about constructing a multimodal affective conversational corpus from TV dramas. Let me go through it step by step.
+
+First, I'll read the abstract to get an overview. It mentions the construction of a corpus containing English-French parallel data with lexical, acoustic, and facial features. They also annotated speaker and emotion information. So, the main dataset here is their constructed corpus.
+
+Looking into the introduction, they discuss the limitations of existing technologies and mention the need for a corpus that includes both verbal and non-verbal content. They reference previous works but don't list specific datasets used, except for their own construction.
+
+In the related works section, they mention several existing corpora like the HUMAINE Database, SEMAINE Database, ATR-BTEC, Formosa Speech Database, and Multi30K Database. These are all datasets that were used or referenced in their research.
+
+The corpus construction section details how they built their dataset from TV dramas, including the number of episodes, utterances, and the process of feature extraction. They also mention using tools like openSMILE and openFace, but these are tools, not datasets.
+
+In the emotion annotation part, they reference the circumplex model of affect and the GTrace toolkit, but again, these are methods, not datasets.
+
+The conclusion reiterates their corpus but doesn't mention any other datasets.
+
+So, the datasets mentioned are:
+
+1. Their own constructed corpus.
+2. HUMAINE Database.
+3. SEMAINE Database.
+4. ATR-BTEC.
+5. Formosa Speech Database.
+6. Multi30K Database.
+
+Now, I need to extract metadata for each of these datasets based on the paper's description.
+
+For each dataset, I'll look for the creator, description, title, issued year, language, identifier, theme, keyword, landing page, version, format, and tasks.
+
+Starting with the first dataset, their own corpus. The creators are the authors of the paper. The description is as given. The title is the corpus name. The year is 2023 (assuming the paper is from that year). Language is English and French. Identifier is empty. Themes are corpus construction, multimodal data, affective conversation. Keywords include multimodal, affective, corpus. Landing page is empty. Version is empty. Format is text, audio, video. Tasks include speaker recognition, emotion recognition, etc.
+
+Next, HUMAINE Database. The creators are Douglas-Cowie et al. Description is from the paper. Title is HUMAINE. Year is 2007. Language is not specified. Identifier is empty. Themes are emotion, corpus. Keywords include emotion, corpus. Landing page is empty. Version is empty. Format is text, audio, video. Tasks include emotion recognition.
+
+SEMAINE Database: Creators are McKeown et al. Description from the paper. Title SEMAINE. Year 2012. Language not specified. Identifier empty. Themes emotion, corpus. Keywords emotion, corpus. Landing page empty. Version empty. Format text, audio, video. Tasks emotion recognition.
+
+ATR-BTEC: Creators Kikui et al. Description from the paper. Title ATR-BTEC. Year 2006. Language not specified. Identifier empty. Themes travel, corpus. Keywords travel, corpus. Landing page empty. Version empty. Format text. Tasks speech translation.
+
+Formosa Speech Database: Creators Lyu et al. Description from the paper. Title Formosa. Year 2004. Language Taiwanese, Hakka, Mandarin. Identifier empty. Themes multilingual, corpus. Keywords multilingual, corpus. Landing page empty. Version empty. Format audio, text. Tasks speech translation.
+
+Multi30K Database: Creators Elliott et al. Description from the paper. Title Multi30K. Year 2016. Language English, German, French. Identifier empty. Themes multimodal, corpus. Keywords multimodal, corpus. Landing page empty. Version empty. Format image, text. Tasks machine translation.
+
+I need to make sure each field is correctly filled based on the paper's information. If any details are missing, I'll leave them as empty strings or lists.
+</think>

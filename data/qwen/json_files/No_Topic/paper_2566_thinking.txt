@@ -1,0 +1,59 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by carefully reading through the paper to identify any datasets used or referenced.
+
+First, I'll go through the abstract and introduction to get an overview. The paper presents ICARUS for intonation, a tool for visualizing and searching prosodic annotations. It mentions using the PaIntE model for F0 contour analysis and refers to the DIRNDL corpus.
+
+Looking into the sections, Section 2 discusses the PaIntE model, but it's more about the methodology rather than datasets. Section 3 talks about data representation, mentioning two formats: one from CoNLL shared tasks and another tabular format. The CoNLL shared tasks (2011 and 2012) are datasets, so I should note those.
+
+In Section 5, the paper discusses using the DIRNDL corpus for analysis, specifically looking at adjective-noun sequences and coreference information. The DIRNDL corpus is a dataset used here for studying intonation and syntax.
+
+Additionally, the references section lists several datasets. The DIRNDL corpus is cited in Eckart et al. (2012), and the CoNLL shared tasks are mentioned in Pradhan et al. (2011 and 2012). There's also a mention of the Tones and Break Indices (ToBI) system, which is a dataset for prosodic annotations.
+
+I should also check if any other datasets are mentioned. The paper references the PaIntE model but doesn't list it as a dataset. The main datasets used are DIRNDL, CoNLL 2011 and 2012, and ToBI.
+
+Now, I'll structure each dataset with the required metadata fields. For each dataset, I'll extract the creator, description, title, issued year, language, identifier, theme, keyword, landing page, version, format, and task.
+
+DIRNDL Corpus:
+- Creator: Eckart et al. (2012)
+- Description: A corpus for studying intonation and syntax.
+- Title: DIRNDL Corpus
+- Issued: 2012
+- Language: German
+- Identifier: Not provided
+- Theme: Linguistics, Corpus Linguistics
+- Keyword: Intonation, Syntax, Coreference
+- Landing Page: Not provided
+- Version: Not mentioned
+- Format: Text, Prosodic Annotations
+- Task: Intonation Analysis, Syntax Analysis
+
+CoNLL 2011 and 2012 Shared Tasks:
+- Creator: Pradhan et al.
+- Description: Datasets for coreference resolution.
+- Title: CoNLL Shared Task
+- Issued: 2011, 2012
+- Language: English
+- Identifier: Not provided
+- Theme: Natural Language Processing, Coreference Resolution
+- Keyword: Coreference, Shared Task
+- Landing Page: Not provided
+- Version: 2011, 2012
+- Format: Text, Annotations
+- Task: Coreference Resolution
+
+ToBI System:
+- Creator: Beckman and Hirschberg (1999)
+- Description: Prosodic annotation dataset.
+- Title: ToBI Annotation
+- Issued: 1999
+- Language: English
+- Identifier: Not provided
+- Theme: Linguistics, Prosody
+- Keyword: Prosody, Annotation
+- Landing Page: Not provided
+- Version: Not mentioned
+- Format: Text, Prosodic Annotations
+- Task: Prosodic Analysis
+
+I need to ensure that each dataset is correctly identified and all metadata fields are filled based on the information provided in the paper. If any fields are not mentioned, I'll leave them as empty strings or lists as required.
+</think>

@@ -1,0 +1,17 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is about the CoNLL-SIGMORPHON 2017 Shared Task on Universal Morphological Reinflection. The authors describe their approach, which combines discriminative transduction systems with neural models for iniection generation in low-resource settings.
+
+First, I need to identify all datasets mentioned in the paper. I'll go through each section carefully.
+
+In the introduction, they mention participating in the CoNLL-SIGMORPHON 2017 Shared Task. This task likely provides datasets for the iniection generation task. The languages involved are English, German, Persian, Polish, and Spanish. The training data is limited to 100 labeled examples, with and without monolingual corpora.
+
+In the methods section, they use the Wikipedia dumps from 2017/03/01 provided by the task organizers. These are used for training the RNN models and creating language models. They also mention using the afix-matching baseline provided by the task organizers.
+
+Looking at the references, the paper cites the CoNLL-SIGMORPHON 2017 Shared Task, which is the main dataset used. They also reference other works, but those don't seem to provide additional datasets used in this specific paper.
+
+So, the datasets mentioned are:
+1. CoNLL-SIGMORPHON 2017 Shared Task datasets for English, German, Persian, Polish, and Spanish.
+2. Wikipedia dumps from 2017/03/01 used for training and language models.
+
+I'll structure each dataset with the required metadata fields based on the information provided in the paper.
+</think>

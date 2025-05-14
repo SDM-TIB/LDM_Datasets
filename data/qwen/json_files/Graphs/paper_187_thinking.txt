@@ -1,0 +1,19 @@
+<think>
+Alright, I'm trying to extract the datasets mentioned in the provided research paper. Let me go through the paper step by step.
+
+First, I'll read the abstract and introduction to get an overview. The paper is about a novel approach for multiple time series forecasting using block Hankel tensors and ARIMA. It mentions experiments conducted on three public datasets and two industrial datasets.
+
+Looking into the "Experimental Setup" section, the datasets are listed as:
+
+1. **Trafic**: Collected from California's Department of Transportation, describing road occupancy rates. It's a second-order tensor with 228 sensors and 80 days of data.
+2. **Electricity**: Records hourly electricity consumption of 321 clients, aggregated to daily intervals, resulting in a second-order tensor of size 321x1096.
+3. **Smoke Video**: Captured in Hokkaido, Japan, with images resized and sampled to form a third-order tensor of size 36x64x100.
+4. **PC sales**: Industrial dataset from Huawei, with 9 products and 105 weekly sales records.
+5. **Raw materials**: Another industrial dataset from Huawei, with 2246 material items, each having 24 monthly demand quantities.
+
+I need to extract metadata for each dataset. The creators are the authors of the paper, but since the datasets are mentioned in the paper, I should check if the creators are the same as the paper's authors. However, the datasets are public or industrial, so the creators might be different. But in this case, the datasets are used by the authors, so I'll list the paper's authors as creators.
+
+Descriptions are based on how the paper uses or describes each dataset. Titles are straightforward. Issued dates aren't provided, so they'll be empty. Languages aren't applicable as the datasets are numerical. Identifiers, landing pages, versions, formats, themes, keywords, and tasks are derived from the context in the paper.
+
+Now, I'll structure each dataset into the required JSON format with the specified metadata fields.
+</think>

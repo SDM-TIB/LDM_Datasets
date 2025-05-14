@@ -1,0 +1,67 @@
+<think>
+Alright, I'm trying to figure out how to extract datasets from the provided research paper. The paper is about sentiment analysis for low-resource languages, specifically using Indonesian tweets. 
+
+First, I'll read through the paper to identify any datasets mentioned. The abstract mentions that they used four thousand manually labeled tweets collected in February and March 2016. That's one dataset. 
+
+Looking further into the paper, in the Data Collection section (4.1), they mention collecting 900,000 Indonesian tweets from Twitter Public Streams using a Python script and Tweepy package. This is another dataset. They also downloaded 61,374,640 Indonesian tokens from Wikipedia for building a word2vec model. That's a third dataset. Additionally, they used 1,694 Emoji definitions for normalization. That's a fourth dataset.
+
+Now, I need to extract metadata for each of these datasets. 
+
+1. **4,000 Manually Labeled Tweets**: 
+   - Creator: The authors of the paper, Tuan Anh Le, David Moeljadi, Yasuhide Miura, Tomoko Ohkuma.
+   - Description: 4,000 tweets labeled manually with eight categories.
+   - Title: 4,000 Manually Labeled Tweets.
+   - Issued: 2016.
+   - Language: Indonesian.
+   - Identifier: Not provided.
+   - Theme: Sentiment Analysis, Social Media.
+   - Keywords: Sentiment analysis, Indonesian tweets, manual labeling.
+   - Landing Page: Not provided.
+   - Version: Not mentioned.
+   - Format: Text.
+   - Task: Sentiment Analysis.
+
+2. **900,000 Indonesian Tweets**:
+   - Creator: The authors.
+   - Description: Collected from Twitter Public Streams.
+   - Title: 900,000 Indonesian Tweets.
+   - Issued: 2016.
+   - Language: Indonesian.
+   - Identifier: Not provided.
+   - Theme: Social Media, Data Collection.
+   - Keywords: Twitter data, Indonesian tweets.
+   - Landing Page: Not provided.
+   - Version: Not mentioned.
+   - Format: Text.
+   - Task: Data Collection, Sentiment Analysis.
+
+3. **61,374,640 Indonesian Tokens from Wikipedia**:
+   - Creator: The authors.
+   - Description: Used for building a word2vec model.
+   - Title: Indonesian Wikipedia Tokens.
+   - Issued: 2016.
+   - Language: Indonesian.
+   - Identifier: Not provided.
+   - Theme: Natural Language Processing, Word Embeddings.
+   - Keywords: Wikipedia data, word2vec, Indonesian tokens.
+   - Landing Page: Not provided.
+   - Version: Not mentioned.
+   - Format: Text.
+   - Task: Word Embedding, Sentiment Analysis.
+
+4. **1,694 Emoji Definitions**:
+   - Creator: The authors.
+   - Description: Used for normalization in sentiment analysis.
+   - Title: Emoji Definitions Dataset.
+   - Issued: 2016.
+   - Language: Multilingual (emoji are universal).
+   - Identifier: Not provided.
+   - Theme: Sentiment Analysis, Emoji.
+   - Keywords: Emoji, normalization, sentiment analysis.
+   - Landing Page: Not provided.
+   - Version: Not mentioned.
+   - Format: Text.
+   - Task: Sentiment Analysis, Normalization.
+
+I need to structure each of these into the specified JSON format with the appropriate metadata fields. I'll make sure each dataset is clearly defined with all the necessary details based on the paper's description.
+</think>

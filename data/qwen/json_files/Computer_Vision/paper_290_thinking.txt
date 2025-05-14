@@ -1,0 +1,26 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let me start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "Transformer-Transducer: End-to-End Speech Recognition with Self-Attention" by Ching-Feng Yeh and others from Facebook AI. The abstract mentions experiments conducted on the public LibriSpeech corpus. 
+
+Looking further into the paper, the introduction and methodology sections don't mention any other datasets. The experiments section details the use of LibriSpeech for training and evaluation. 
+
+In the references, LibriSpeech is cited as [24], which points to the paper by Vassil Panayotov et al. from 2015. 
+
+So, the only dataset mentioned is LibriSpeech. I'll gather the metadata for this dataset based on the information provided in the paper and the reference.
+
+- **dcterms:creator**: The authors of the LibriSpeech dataset are Vassil Panayotov, Guoguo Chen, Daniel Povey, and Sanjeev Khudanpur.
+- **dcterms:description**: It's a corpus of read speech data, widely used for ASR tasks, with 960 hours of training data and multiple test sets.
+- **dcterms:title**: LibriSpeech.
+- **dcterms:issued**: 2015, as per the reference.
+- **dcterms:language**: English, as it's based on public-domain audio books.
+- **dcterms:identifier**: The DOI from the reference is 10.1109/ICASSP.2015.7178964.
+- **dcat:theme**: Speech Recognition, Corpus.
+- **dcat:keyword**: Speech, ASR, Corpus, LibriSpeech.
+- **dcat:landingPage**: The URL from the reference is https://www.openslr.org/12.
+- **dcterms:hasVersion**: Not mentioned, so empty string.
+- **dcterms:format**: Audio, Text.
+- **mls:task**: Speech Recognition, ASR.
+
+I'll structure this information into the required JSON format.
+</think>

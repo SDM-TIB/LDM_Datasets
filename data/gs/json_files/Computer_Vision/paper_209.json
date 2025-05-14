@@ -1,0 +1,90 @@
+[
+    {
+        "dcterms:creator": [
+            "Liang-Chieh Chen",
+            "Yukun Zhu",
+            "George Papandreou",
+            "Florian Schroff",
+            "Hartwig Adam"
+        ],
+        "dcterms:description": "Spherical MNIST is constructed from the MNIST dataset by back projecting the digits into equirectangular projection with 160x80 resolution. The digit labels are used to train the source CNN (recognition model), but they are not used to train the KTN. Classification accuracy on the 360◦-ified test set is used as the evaluation metric.",
+        "dcterms:title": "Spherical MNIST",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Image Recognition"
+        ],
+        "dcat:keyword": [
+            "360-degree images",
+            "MNIST",
+            "Image classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Yu-Chuan Su",
+            "Dinesh Jayaraman",
+            "Kristen Grauman"
+        ],
+        "dcterms:description": "Pano2Vid is a real world 360◦ video dataset containing 86 videos from four categories: 'Hiking,' 'Parade,' 'Soccer,' and 'Mountain Climbing.' The models are trained to reproduce the convolution outputs of the source model, so no labels are required for training. The root-mean-square error (RMSE) of the final convolution outputs is used as the evaluation metric.",
+        "dcterms:title": "Pano2Vid",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Video Analysis"
+        ],
+        "dcat:keyword": [
+            "360-degree video",
+            "Video dataset",
+            "Automatic cinematography"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Video",
+        "mls:task": [
+            "Video Analysis"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Tsung-Yi Lin",
+            "Michael Maire",
+            "Serge Belongie",
+            "James Hays",
+            "Pietro Perona",
+            "Deva Ramanan",
+            "Piotr Dollár",
+            "C. Lawrence Zitnick"
+        ],
+        "dcterms:description": "Pascal VOC 2007 is a perspective image dataset with object annotations. The object bounding boxes are backprojected to equirectangular projection with 640x320 resolution. This dataset is used for evaluation only, and the accuracy of the detector network in Faster R-CNN on the validation set is used as the evaluation metric.",
+        "dcterms:title": "Pascal VOC 2007",
+        "dcterms:issued": "2009",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Object Detection"
+        ],
+        "dcat:keyword": [
+            "Object detection",
+            "Image dataset",
+            "Bounding boxes"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Object Detection"
+        ]
+    }
+]

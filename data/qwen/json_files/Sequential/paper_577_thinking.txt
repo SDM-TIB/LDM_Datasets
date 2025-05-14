@@ -1,0 +1,17 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about the NCUEE system's performance in the MEDIQA 2019 challenge, specifically focusing on their use of a BERT-BiLSTM-Attention model for medical text inference. 
+
+First, I'll read through the paper to identify any datasets mentioned. The abstract mentions the MEDIQA challenge, which includes tasks like NLI, RQE, and QA. The introduction talks about the SNLI corpus and the MedNLI dataset. The SNLI corpus is a well-known dataset for NLI tasks, while MedNLI is specifically for the clinical domain. 
+
+Looking further into the paper, the authors mention that the datasets provided by the task organizers were used. They reference the MedNLI dataset again, which was built by Romanov and Shivade. Additionally, they mention using pre-trained word vectors from BERT and BioBERT, but those aren't datasets per se, just models. 
+
+So, the datasets mentioned are:
+1. SNLI corpus
+2. MedNLI dataset
+
+Now, I need to extract the metadata for each. For SNLI, the creators are Bowman et al., the description is about NLI with 10k sentence pairs, published in 2015, in English, and the landing page is the official website. The theme is NLP, keywords include NLI, entailment, etc., and the task is NLI.
+
+For MedNLI, the creators are Romanov and Shivade, it's a clinical NLI dataset with 10k pairs, published in 2018, in English, landing page is the GitHub repo. Themes are NLP and Medicine, keywords include medical NLI, and the task is NLI.
+
+I need to structure this into JSON format, ensuring all fields are filled correctly based on the information extracted from the paper.
+</think>

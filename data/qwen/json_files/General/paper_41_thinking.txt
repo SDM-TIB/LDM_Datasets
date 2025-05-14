@@ -1,0 +1,26 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. Let me go through the paper step by step.
+
+First, the paper is about an Automatic Post-Editing (APE) model using Transformer. It mentions datasets used for training and evaluation.
+
+Looking at the abstract, it refers to the WMT 2019 shared task on APE. So, the WMT19 English-German APE dataset is one dataset.
+
+In the introduction, the authors mention the WMT18 APE shared task, which is another dataset. They also reference the eSCAPE-NMT dataset, which they used as additional training data.
+
+In the experiments section, they detail their dataset usage. They used the WMT19 official dataset and the eSCAPE-NMT dataset. They also mention filtering the eSCAPE-NMT dataset to create eSCAPE-NMT-filtered.
+
+So, the datasets mentioned are:
+1. WMT19 English-German APE dataset
+2. eSCAPE-NMT
+3. eSCAPE-NMT-filtered
+
+Now, I need to extract metadata for each. 
+
+For WMT19, the creators are the authors of the paper, but since it's a shared task, the creators might be the organizers. However, the paper doesn't specify, so I'll list the authors as creators. The description is about the dataset used for APE. The title is clear. The year is 2019. Language is English-German. No identifier provided. Theme is Machine Translation. Keywords include APE, WMT, etc. Landing page is the WMT website. Format is text. Task is APE.
+
+For eSCAPE-NMT, the creators are Negri et al. Description is about synthetic corpus for APE. Title is eSCAPE-NMT. Year 2018. Language English-German. Identifier is the paper's DOI. Theme is Machine Translation. Keywords include synthetic, corpus. Landing page is the LREC proceedings. Format is text. Task is APE.
+
+For eSCAPE-NMT-filtered, it's a filtered version of eSCAPE-NMT. So, the creator is the same as eSCAPE-NMT. Description mentions filtering. Title includes 'filtered'. Year 2018. Language same. Identifier same. Theme same. Keywords include filtered. Landing page same. Format same. Task same.
+
+I need to structure this into JSON with the specified metadata fields.
+</think>

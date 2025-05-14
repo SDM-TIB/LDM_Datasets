@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Probing Biomedical Embeddings from Language Models" by Qiao Jin et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors conducted probing experiments using pre-trained language models, which suggests that specific datasets are likely involved.
+
+In the **introduction**, the authors mention training a domain-specific version of ELMo on 10M PubMed abstracts, referred to as **BioELMo**. They also reference two datasets used for evaluation: **BC2GM** for named entity recognition (NER) and **MedNLI** for natural language inference (NLI). This gives me a clear indication of the datasets I need to focus on.
+
+Next, I will look into the **experiments section** to gather more details about these datasets. In **section 4.1**, the authors explicitly state that they used the **BC2GM dataset**, which is the BioCreative II gene mention dataset, and the **MedNLI dataset**, which is used for NLI tasks. They provide specific details about the number of instances in each dataset, which is crucial for understanding their scope.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+1. For the **BC2GM dataset**, the citation is:
+   > Smith, L., Tanabe, L. K., Johnson, R., Kuo, C.-J., Chung, I.-F., Hsu, C.-N., Lin, Y.-S., Klinger, R., Friedrich, C. M., Ganchev, K., et al. (2008). Overview of BioCreative II gene mention recognition. *Genome Biology*, 9(2), S2.
+
+2. For the **MedNLI dataset**, the citation is:
+   > Romanov, A., & Shivade, C. (2018). Lessons from natural language inference in the clinical domain. *arXiv preprint arXiv:1808.06752*.
+
+With these citations in hand, I can now summarize the datasets:
+
+- **BC2GM**: A dataset for biomedical named entity recognition, containing 15,000 training and 5,000 test sentences.
+- **MedNLI**: A dataset for natural language inference, containing 11,232 training, 1,395 development, and 1,422 test instances.
+
+Finally, I will compile this information into a structured format that clearly presents each dataset along with its citation, ensuring that all details are accurately captured for future reference or analysis.

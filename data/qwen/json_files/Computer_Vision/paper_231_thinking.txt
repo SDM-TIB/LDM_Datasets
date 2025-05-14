@@ -1,0 +1,23 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. The paper is about ST-GAN, which uses spatial transformer networks within a GAN framework for image compositing. 
+
+First, I'll go through the paper to identify any datasets used or mentioned. 
+
+In the introduction, they mention using synthetic datasets for training and evaluation. Specifically, they created a synthetic dataset of indoor scenes and furniture objects. They also used the CelebA dataset for the glasses compositing task.
+
+Looking at the methods section, they describe rendering synthetic indoor scenes using SUNCG and Mitsuba. They also mention using the CelebA dataset for faces without glasses as backgrounds and crafting glasses as foregrounds.
+
+In the experiments section, they detail the synthetic dataset of 3D cubes and indoor objects, as well as the CelebA dataset for glasses. They also mention using real-world images for high-resolution tests but don't specify a dataset name for those.
+
+I need to structure each dataset with the required metadata. For each dataset, I'll extract the creator, description, title, year, language, identifier, theme, keywords, landing page, version, format, and tasks.
+
+For the synthetic indoor dataset, the creators are the authors of the paper. The description includes rendered scenes and furniture. The title is "Synthetic Indoor Scenes Dataset." The year is 2017, as the paper was published then. The format is images, and the tasks include image compositing and geometric correction.
+
+For the 3D cubes dataset, it's a synthetic dataset created by the authors for validation. The title is "Synthetic 3D Cubes Dataset," with similar metadata as the indoor dataset.
+
+CelebA is a well-known dataset, so I'll note the creators as the authors of CelebA, with a description focusing on faces and glasses. The year is 2015, and the tasks include face compositing.
+
+Real-world images are mentioned but not as a named dataset, so I might exclude them unless specified.
+
+I'll structure each of these datasets into the required JSON format, ensuring all fields are filled appropriately based on the information extracted from the paper.
+</think>

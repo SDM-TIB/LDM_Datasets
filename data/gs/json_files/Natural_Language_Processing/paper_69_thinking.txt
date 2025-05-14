@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Learning to Make Generalizable and Diverse Predictions for Retrosynthesis" by Benson Chen et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to locate any references to datasets. The abstract mentions the use of the **USPTO-50k benchmark dataset**, which is a strong indication that this dataset is central to the research.
+
+Next, I will focus on **section 5 (Experimental Setup)**, where the authors provide detailed information about the dataset used for their experiments. Here, they specify that they utilize the **USPTO-50k dataset**, which is a curated subset of the open-source patent database of chemical reactions. The authors also mention that this dataset includes reaction examples labeled with reaction classes, although they do not use this information in their experiments.
+
+To ensure I have the correct citation for the dataset, I will check the **References section** of the paper. The relevant citation for the USPTO-50k dataset is attributed to:
+
+- **USPTO-50k Dataset**: 
+  > Liu, B., Ramsundar, B., Kawthekar, P., Shi, J., Gomes, J., Nguyen, Q. L., Ho, S., Sloane, J., Wender, P., & Pande, V. (2017). Retrosynthetic reaction prediction using neural sequence-to-sequence models. *ACS Central Science*, 3(10), 1103–1113. doi: 10.1021/acscentsci.7b00303.
+
+Additionally, the authors mention that they create a separate split of the USPTO-50k data based on reaction templates, but this is still part of the same dataset.
+
+Now, I will summarize the dataset information:
+
+1. **USPTO-50k Dataset**: This dataset is a curated subset of the open-source patent database of chemical reactions, containing 50,000 reaction examples. Each example is processed to remove reagent molecules and is labeled with one of ten reaction classes, although this classification is not used in the experiments.
+
+Finally, I will compile the dataset entries into a structured format for further processing, ensuring that I include the full citation for the USPTO-50k dataset as it is crucial for proper attribution.

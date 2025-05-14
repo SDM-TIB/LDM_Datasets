@@ -1,0 +1,45 @@
+<think>
+Alright, I need to extract datasets mentioned in the provided research paper. Let's start by reading through the paper to identify any datasets used or referenced.
+
+The paper is titled "POS Tagging For Resource Poor Indian Languages Through Feature Projection" by Pruthwik Mishra, Vandan Mujadia, and Dipti Misra Sharma. It discusses their approach to POS tagging without labeled data, using feature transfer from a resource-rich language (Hindi) to others.
+
+Looking through the sections:
+
+1. **Abstract**: Mentions creating annotated corpora for resource-poor languages but doesn't name specific datasets.
+
+2. **Introduction**: Talks about the need for annotated corpora and mentions the Hindi Treebank as a notable corpus.
+
+3. **Background**: References the IIIT tagset and Universal Tag-set but doesn't name datasets.
+
+4. **Corpus Details**: Clearly mentions two datasets:
+   - ILCI (Indian Languages Corpora Initiative) parallel corpora.
+   - Hindi Treebank.
+
+5. **Algorithm and Experiments**: Uses these datasets but doesn't introduce new ones.
+
+6. **References**: Provides details on the Hindi Treebank and ILCI.
+
+Now, I'll extract metadata for each dataset:
+
+- **Hindi Treebank**:
+  - Creator: Bharati et al. (from references).
+  - Description: A multi-layered corpus with syntactic and semantic annotations.
+  - Title: Hindi Treebank.
+  - Issued: 2006 (from Bharati et al., 2006).
+  - Language: Hindi.
+  - Theme: Natural Language Processing, POS Tagging.
+  - Keywords: POS tagging, syntactic annotation, Hindi.
+  - Format: Text.
+
+- **ILCI Parallel Corpora**:
+  - Creator: Choudhary and Jha (from references).
+  - Description: Multilingual parallel corpora for Indian languages.
+  - Title: ILCI Parallel Corpora.
+  - Issued: 2014.
+  - Language: Multiple Indian languages.
+  - Theme: Natural Language Processing, Multilingual Corpora.
+  - Keywords: Parallel corpora, Indian languages.
+  - Format: Text.
+
+I'll structure this information into the required JSON format, ensuring each dataset is accurately described with the specified metadata fields.
+</think>

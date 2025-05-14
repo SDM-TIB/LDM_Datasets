@@ -1,0 +1,33 @@
+<think>
+Alright, I'm trying to extract datasets mentioned in the provided research paper. The paper is about Supervised Policy Update for Deep Reinforcement Learning. Let me go through the paper step by step.
+
+First, I'll read the abstract and introduction to get an overview. The abstract mentions that the methodology is applied to both discrete and continuous action spaces, and experiments are conducted on Mujoco simulated robotic tasks and Atari video game tasks. So, Mujoco and Atari are likely datasets or environments used.
+
+Looking into the introduction, the authors reference Kakade (2003) and others, but these are more about the methodology rather than datasets. The key part is where they mention their experiments: Mujoco and Atari.
+
+In the Related Work section, they mention other algorithms like TRPO, PPO, etc., but again, these are methods, not datasets.
+
+Moving to the Experimental Results section, they explicitly mention using Mujoco environments and Atari games. Mujoco is a physics engine used for robotics simulations, and Atari refers to a suite of video games. These are standard benchmarks in reinforcement learning.
+
+I'll check the references to see if there are any datasets cited. The references include works by Todorov et al. (2012) on Mujoco and Bellemare et al. (2012) on the Arcade Learning Environment (Atari). So, these are the datasets used.
+
+Now, I'll structure the metadata for each dataset:
+
+1. **Mujoco**:
+   - Created by Todorov, E., Erez, T., & Tassa, Y.
+   - Description: Physics simulation environment for robotics.
+   - Published in 2012.
+   - Theme: Robotics, Simulation.
+   - Keywords: Robotics, Simulation, Reinforcement Learning.
+   - Tasks: Continuous control.
+
+2. **Atari**:
+   - Created by Bellemare, M. G., et al.
+   - Description: Suite of video games for RL benchmarking.
+   - Published in 2012.
+   - Theme: Gaming, Reinforcement Learning.
+   - Keywords: Video games, RL benchmark.
+   - Tasks: Discrete control.
+
+I'll format this into the required JSON structure, ensuring all metadata fields are included as per the vocabulary.
+</think>

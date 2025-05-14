@@ -1,0 +1,19 @@
+<think>
+Alright, I'm trying to figure out how to extract the datasets mentioned in the provided research paper. The paper is about weakly-supervised caricature face parsing using domain adaptation. 
+
+First, I'll read through the abstract and introduction to get a sense of what datasets are being used. The abstract mentions that they use real photos as the source domain and caricatures as the target domain. They also reference the WebCaricature dataset and the HELEN dataset.
+
+Looking into the datasets section, the paper explicitly mentions two datasets: HELEN and WebCaricature. HELEN is used as the source domain, and WebCaricature is the target domain. 
+
+For HELEN, the paper states it's a dataset with 2330 face photos and labeled facial components. It's referenced in the paper, so I'll need to find the creators from the references. The reference for HELEN is [8], which points to Brandon M Smith, Li Zhang, Jonathan Brandt, Zhe Lin, and Jianchao Yang. 
+
+WebCaricature is another dataset mentioned, containing 6042 caricatures collected from the web with 17 landmarks. The reference for this is [1], which is Jing Huo, Wenbin Li, Yinghuan Shi, Yang Gao, and Hu-Jun Yin.
+
+I need to structure each dataset with the required metadata fields. For each dataset, I'll extract the creators, description, title, publication year, and other relevant fields. 
+
+HELEN's creators are from the reference [8], and WebCaricature's from [1]. Both datasets are used for face parsing tasks, so their themes and keywords will reflect that. 
+
+I'll make sure to format each dataset as a JSON object with the specified fields. Since the paper doesn't provide URLs or DOIs for these datasets, those fields will be empty. 
+
+Finally, I'll compile the JSON response with both datasets, ensuring all required fields are included and correctly formatted.
+</think>
