@@ -1,8 +1,10 @@
-# Fine-Tuning Directory
+# 🧠 Fine-Tuning Directory
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 This directory contains scripts and configuration files for fine-tuning the student model (Llama-3.2-3B-Instruct) using knowledge distillation from the teacher model (GPT-o4-mini).
 
-## Files
+## 📋 Files
 
 - **ds_config.json**: DeepSpeed configuration file for distributed training
 - **preprocess.py**: Script to preprocess the data for fine-tuning
@@ -12,7 +14,7 @@ This directory contains scripts and configuration files for fine-tuning the stud
 - **train.py**: Python script for the actual training process
 - **utils.py**: Utility functions for training and evaluation
 
-## Fine-Tuning Process
+## 🔄 Fine-Tuning Process
 
 The fine-tuning process transfers knowledge from the teacher model (GPT-o4-mini) to the student model (Llama-3.2-3B-Instruct) using Parameter-Efficient Fine-Tuning (PEFT) with LoRA. The student model learns to:
 
@@ -20,7 +22,7 @@ The fine-tuning process transfers knowledge from the teacher model (GPT-o4-mini)
 2. Extract structured metadata according to the DCAT vocabulary
 3. Preserve the reasoning process through the use of the `<think>` tag
 
-## Configuration
+## ⚙️ Configuration
 
 The fine-tuning process uses the following hyperparameters:
 
@@ -38,7 +40,7 @@ The fine-tuning process uses the following hyperparameters:
   - Gradient accumulation steps: 32
   - Batch size: 1
 
-## Running Fine-Tuning
+## 🚀 Running Fine-Tuning
 
 To run the fine-tuning process:
 
@@ -53,11 +55,11 @@ This script will:
 4. Run the training with DeepSpeed for distributed training
 5. Save the fine-tuned model and its checkpoints
 
-## Hardware Requirements
+## 💻 Hardware Requirements
 
 The fine-tuning process is designed to run on 4 NVIDIA H100 GPUs. The script is configured to run on a SLURM cluster with specific partition requirements.
 
-## Recovering a Model
+## 🔄 Recovering a Model
 
 If the fine-tuning process is interrupted, you can recover the model from checkpoints:
 

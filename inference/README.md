@@ -1,8 +1,10 @@
-# Inference Directory
+# 🔍 Inference Directory
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 This directory contains scripts for generating dataset metadata from scientific papers using the fine-tuned models.
 
-## Files
+## 📋 Files
 
 - **environment.yaml**: Conda environment specification for inference
 - **inference.sh**: Shell script to run the inference process
@@ -10,7 +12,7 @@ This directory contains scripts for generating dataset metadata from scientific 
 - **process_papers_ds.py**: Script for processing papers with DeepSeek models
 - **process_papers_ft.py**: Script for processing papers with fine-tuned models
 
-## Models
+## 🤖 Models
 
 The inference scripts support multiple models:
 
@@ -18,7 +20,7 @@ The inference scripts support multiple models:
 2. **Llama-3.2-3B-Instruct (tuned)**: The model fine-tuned with knowledge distillation
 3. **DeepSeek-R1-Distill-Qwen-32B**: A larger (32B parameter) model for comparison
 
-## Inference Process
+## 🔄 Inference Process
 
 The inference process follows these steps:
 
@@ -28,7 +30,7 @@ The inference process follows these steps:
 4. Extract structured JSON output and reasoning process
 5. Save the results to output files
 
-## Usage
+## 🚀 Usage
 
 To run inference with a specific model:
 
@@ -41,14 +43,14 @@ Where:
 - `INPUT_DIR`: Directory containing text files of papers to process
 - `OUTPUT_DIR`: Directory to save the output JSON files
 
-## Output Format
+## 📊 Output Format
 
 For each input paper, the inference process generates two files:
 
 1. **paper_X.json**: JSON file containing structured dataset metadata according to the DCAT vocabulary
 2. **paper_X_thinking.txt**: Text file containing the reasoning process that led to the metadata extraction
 
-## Performance Considerations
+## ⚡ Performance Considerations
 
 The scripts are optimized for efficient inference:
 - Models are loaded with 4-bit quantization to reduce memory requirements

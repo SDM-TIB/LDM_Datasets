@@ -4,22 +4,10 @@ This directory contains annotation files from Amazon Mechanical Turk (AMT) worke
 
 ## Files
 
-- **Batch_5281193_batch_results.csv**: Raw annotation results from the first batch of HITs (split into parts for GitHub)
-  - **split/Batch_5281193_batch_results/**: Contains the file split into smaller chunks under 100MB:
-    - **Batch_5281193_batch_results_part1.csv**: First 1021 rows (68.73 MB)
-    - **Batch_5281193_batch_results_part2.csv**: Remaining 1020 rows (60.84 MB)
-- **Batch_5281193_reordered.csv**: Same data as above but with columns reordered for better readability (split into parts for GitHub)
-  - **split/Batch_5281193_reordered/**: Contains the file split into smaller chunks under 100MB:
-    - **Batch_5281193_reordered_part1.csv**: First 1021 rows (68.73 MB)
-    - **Batch_5281193_reordered_part2.csv**: Remaining 1020 rows (60.84 MB)
-- **Batch_5282286_batch_results.csv**: Raw annotation results from the second batch of HITs (split into parts for GitHub)
-  - **split/Batch_5282286_batch_results/**: Contains the file split into smaller chunks under 100MB:
-    - **Batch_5282286_batch_results_part1.csv**: First 1473 rows (81.69 MB)
-    - **Batch_5282286_batch_results_part2.csv**: Remaining 1473 rows (76.22 MB)
-- **Batch_5282286_reordered.csv**: Same data as above but with columns reordered for better readability (split into parts for GitHub)
-  - **split/Batch_5282286_reordered/**: Contains the file split into smaller chunks under 100MB:
-    - **Batch_5282286_reordered_part1.csv**: First 1473 rows (81.69 MB)
-    - **Batch_5282286_reordered_part2.csv**: Remaining 1473 rows (76.22 MB)
+- **Batch_5281193_batch_results.csv**: Raw annotation results from the first batch of HITs
+- **Batch_5281193_reordered.csv**: Same data as above but with columns reordered for better readability
+- **Batch_5282286_batch_results.csv**: Raw annotation results from the second batch of HITs
+- **Batch_5282286_reordered.csv**: Same data as above but with columns reordered for better readability
 
 ## Annotation Process
 

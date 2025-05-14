@@ -1,15 +1,17 @@
-# Results Directory
+# 📊 Results Directory
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 This directory contains the evaluation results for different models tested in the MetaMine project.
 
-## Files
+## 📋 Files
 
 - **DeepSeek(QWEN Distill).json**: Evaluation results for the DeepSeek-R1-Distill-Qwen-32B model
 - **Student(Llama)-base.json**: Evaluation results for the base Llama-3.2-3B-Instruct model without fine-tuning
 - **Student(Llama)-tuned-wo-think.json**: Evaluation results for the Llama-3.2-3B-Instruct model fine-tuned without the reasoning step preservation
 - **Student(Llama)-tuned.json**: Evaluation results for the full MetaMine model (Llama-3.2-3B-Instruct fine-tuned with reasoning preservation)
 
-## Evaluation Metrics
+## 📏 Evaluation Metrics
 
 Each result file contains performance metrics for:
 
@@ -22,7 +24,7 @@ Each result file contains performance metrics for:
 3. **Efficiency Metrics**: How efficiently the model processes papers
    - Processing time per paper
 
-## Key Findings
+## 🔍 Key Findings
 
 The evaluation results demonstrate:
 
