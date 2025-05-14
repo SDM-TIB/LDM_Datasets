@@ -15,7 +15,6 @@ MetaMine is a novel approach for extracting structured dataset metadata from sci
 - [Installation and Dependencies](#-installation-and-dependencies)
 - [Usage](#-usage)
 - [Results](#-results)
-- [Citation](#-citation)
 - [License](#-license)
 
 ## 🔍 Overview
@@ -79,6 +78,7 @@ The project requires the following dependencies:
 
 The MetaMine pipeline consists of the following main scripts:
 
+0. Download papers metadata from Papers With Code repository: https://github.com/paperswithcode/paperswithcode-data
 1. `1_choose_papers_randomly.py`: Selects papers randomly from Papers With Code repository
 2. `2_download_papers.py`: Downloads selected papers in PDF format
 3. `3_pdf2txt.py`: Converts PDF files to text
@@ -113,23 +113,17 @@ The distilled model (Llama-3.2-3B-Instruct) achieves an F1 score of 0.74 for dat
 
 Running the `7_annotation_accuracy.py` script will generate an annotation accuracy figure showing the accuracy for each metadata field. This provides insights into which fields are more challenging for the model to extract correctly.
 
+### Annotation Accuracy
+
+The figure below shows the annotation accuracy for each metadata field extracted from papers. This provides insights into which fields are more challenging for the model to extract correctly.
+
+![Annotation Accuracy](annotation_accuracy.png)
+
 > Note: Generate the annotation accuracy visualization by running:
 > ```python
 > python 7_annotation_accuracy.py
 > ```
 
-## 📝 Citation
-
-If you use MetaMine in your research, please cite:
-
-```
-@inproceedings{metamine2023,
-  title={MetaMine: A Neuro-Symbolic Approach for Dataset Extraction from Research Papers using Knowledge Distillation},
-  author={Anonymous Author(s)},
-  booktitle={Anonymous Conference},
-  year={2023}
-}
-```
 
 ## 📄 License
 
