@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "NAC-TCN: Temporal Convolutional Networks with Causal Dilated Neighborhood Attention for Emotion Understanding" by Alexander Mehta and William Yang, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to identify any datasets mentioned. The abstract mentions that the model achieves state-of-the-art performance on standard emotion recognition datasets, which indicates that datasets are involved.
+
+Next, I will focus on the **introduction** where the authors discuss the importance of emotion recognition and the challenges related to data scarcity. They mention that various emotion recognition techniques have been developed, hinting at the use of specific datasets.
+
+In the **experiments section**, the authors explicitly list the datasets used for evaluation:
+
+1. **AffWild2 Dataset**: This dataset contains over 1,500,000 annotated video frames across 341 videos, focusing on valence and arousal metrics. The authors describe the evaluation metric used (Concordance Correlation Coefficient) and the specifics of the dataset.
+
+2. **EmoReact Dataset**: This dataset includes videos of children annotated for eight different emotions. The authors provide details about the sequence length and the evaluation methodology (Area under the precision-recall curve).
+
+3. **AFEW-VA Dataset**: This dataset provides valence and arousal annotations for popular films, with integer annotations ranging from [-10, 10]. The authors mention the evaluation metric used (accuracy) and the sequence length.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For **AffWild2 Dataset**:
+  > Kollias, D., Zafeiriou, S. "Aff-Wild2: Extending the Aff-Wild Database for Affect Recognition." arXiv preprint arXiv:1910.04855, 2019.
+
+- For **EmoReact Dataset**:
+  > Nojavanasghari, B., Baltrušaitis, T., Hughes, C. E., and Morency, L.-P. "EmoReact: A Multimodal Approach and Dataset for Recognizing Emotional Responses in Children." In Proceedings of the 18th ACM International Conference on Multimodal Interaction, 2016, pp. 137–144.
+
+- For **AFEW-VA Dataset**:
+  > Kossaifi, J., Tzimiropoulos, G., Todorovic, S., and Pantic, M. "AFEW-VA Database for Valence and Arousal Estimation in-the-Wild." Image and Vision Computing, 65, 2017, pp. 34–31.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

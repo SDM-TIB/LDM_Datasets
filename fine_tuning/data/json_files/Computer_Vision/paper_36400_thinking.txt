@@ -1,0 +1,51 @@
+To extract datasets from the research paper titled "Deep Asymmetric Multi-task Feature Learning" by Hae Beom Lee et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions that the authors validate their model on "multiple benchmark datasets for multitask learning and image classification." This indicates that there are datasets used, but I need to find their specific names and details.
+
+Next, I will look into the **experiments section** (section 4) where the authors typically describe the datasets used for validation. In **section 4.1**, the authors explicitly list the datasets they used for their experiments:
+
+1. **AWA-A Dataset**: This dataset is described as a classification dataset consisting of 30,475 images, where the task is to predict 85 binary attributes for each image describing a single animal. The feature dimension is reduced from 4096 to 500 using PCA. The training, validation, and test splits are specified as 1080, 60, and 60 instances, respectively.
+
+2. **MNIST Dataset**: A well-known dataset for classification tasks, consisting of 60,000 training and 10,000 test images of handwritten digits. The authors mention that they reduced the feature dimension to 64 using PCA and used 5 random splits for training, validation, and testing.
+
+3. **School Dataset**: This regression dataset contains exam scores of 15,362 students from 139 schools, with the task being to predict the exam scores for each school. The authors refer to specific splits used from previous work.
+
+4. **Room Dataset**: A subset of the ImageNet dataset, consisting of 14,140 images of 20 different indoor scene classes. The authors mention varying numbers of training and validation instances, with a test set of 20 per class.
+
+In **section 4.2**, the authors validate their model using deep learning frameworks and mention additional datasets:
+
+1. **MNIST-Imbalanced Dataset**: An imbalanced version of the MNIST dataset, where the authors specify the number of samples used for training each class.
+
+2. **CUB-200 Dataset**: This dataset consists of images of 200 bird classes, with specific numbers of training and test images mentioned.
+
+3. **AWA-C Dataset**: Similar to AWA-A, but with class labels for 50 animals instead of binary attributes.
+
+4. **ImageNet-Small Dataset**: A subset of the ImageNet dataset, which is largely imbalanced, with specific details on the number of images per class.
+
+Now, I will check the **References section** to gather the full citations for each dataset mentioned:
+
+- For **AWA-A Dataset**, the citation is:
+  > Lampert, C., Nickisch, H., & Harmeling, S. (2009). Learning to Detect Unseen Object Classes by Between-Class Attribute Transfer. In CVPR.
+
+- For **MNIST Dataset**, the citation is:
+  > LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11), 2278-2324.
+
+- For **School Dataset**, the citation is:
+  > Argyriou, A., Evgeniou, T., & Pontil, M. (2008). Convex Multi-task Feature Learning. Machine Learning, 73(3), 243-272.
+
+- For **Room Dataset**, the citation is:
+  > Deng, J., Dong, W., Socher, R., Li, L.-J., Li, K., & Fei-Fei, L. (2009). Imagenet: A Large-Scale Hierarchical Image Database. In CVPR.
+
+- For **MNIST-Imbalanced Dataset**, the citation is:
+  > (The original MNIST citation can be used as it is derived from the standard MNIST dataset.)
+
+- For **CUB-200 Dataset**, the citation is:
+  > (The citation for the CUB-200 dataset can be derived from the original paper that introduced it.)
+
+- For **AWA-C Dataset**, the citation is:
+  > (Similar to AWA-A, the citation can be derived from the original paper.)
+
+- For **ImageNet-Small Dataset**, the citation is:
+  > (The citation for the ImageNet dataset can be used as it is derived from the standard ImageNet dataset.)
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

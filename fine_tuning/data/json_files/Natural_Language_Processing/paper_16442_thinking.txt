@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "StyleCap: Automatic Speaking-Style Captioning from Speech Based on Speech and Language Self-Supervised Learning Models" by Kazuki Yamauchi et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to identify any datasets mentioned. The abstract mentions that StyleCap is trained with paired data of speech and natural language descriptions, indicating that datasets are involved.
+
+In the **introduction**, the authors discuss the need for a sufficiently large dataset to train their model. They mention combining existing datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 3 (Experiments)**, where the authors explicitly mention the datasets used. They state that they used the **PromptSpeech** dataset, which includes natural language instructions of various speaking styles. The authors describe how they constructed this dataset from the training subset of PromptSpeech real version, which contains 26,588 human-annotated style prompts paired with speech samples from **LibriTTS**.
+
+The details provided in this section confirm that the two datasets of interest are:
+
+1. **PromptSpeech Dataset**: This dataset includes 26,588 human-annotated style prompts from multi-speaker speech samples. The authors divided this dataset into training, development, and test subsets.
+
+2. **LibriTTS Dataset**: This dataset is used to provide the speech samples paired with the style prompts from the PromptSpeech dataset.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **PromptSpeech**, the citation is:
+  > Z. Guo, Y. Leng, Y. Wu, et al., *PromptTTS: Controllable text-to-speech with text descriptions*, in Proc. ICASSP, 2023.
+
+- For **LibriTTS**, the citation is:
+  > H. Zen, V. Dang, R. Clark, et al., *LibriTTS: A corpus derived from LibriSpeech for text-to-speech*, in Proc. INTERSPEECH, 2019, pp. 1526–1530.
+
+Having gathered this information, I will now prepare to create structured entries for each dataset, ensuring that the full citations are included as required. This will facilitate easy reference and validation of the datasets used in the research.

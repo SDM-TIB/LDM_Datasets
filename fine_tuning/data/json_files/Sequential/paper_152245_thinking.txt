@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Meta-Path Guided Embedding for Similarity Search in Large-Scale Heterogeneous Information Networks" by Jingbo Shang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and the introduction often outlines the datasets used for experiments. 
+
+In the **introduction**, the authors discuss the importance of heterogeneous information networks (HINs) and mention that they will evaluate their proposed method on real-world datasets. This indicates that datasets are likely to be detailed later in the paper.
+
+Next, I will focus on the **experiments section**, specifically **section 5 (Experiments)**, where the authors typically describe the datasets used for their evaluations. Here, I find a table (Table 1) that summarizes the statistics of two datasets: **DBLP** and **Yelp**.
+
+1. **DBLP Dataset**: This dataset is a bibliographic network in computer science, which includes various node types such as papers, authors, venues, and terms. The authors mention the following details:
+   - Node Types: paper (P), author (A), term (T), venue (V)
+   - Edge Types: P−A, P−T, P−V
+   - Number of Vertices: 2,762,595
+   - Number of Edges: 103,059,616
+   - Interesting Meta-paths: A−P−A, A−P−V−P−A, A−P−T−P−A
+   - Grouping Labels: Research Area and Research Group
+
+2. **Yelp Dataset**: This dataset is a social media network that includes businesses, reviews, and words associated with them. The authors provide the following details:
+   - Node Types: review (R), name (N), business (B), word (W)
+   - Edge Types: B−N, R−B, R−W
+   - Number of Vertices: 1,616,341
+   - Number of Edges: 76,708,201
+   - Interesting Meta-paths: B−R−W−R−B, B−N−B
+   - Grouping Labels: Business Type and Restaurant Type
+
+After identifying the datasets, I will check the **References section** to find full citations for these datasets. However, the paper does not provide specific citations for the datasets themselves, as they are commonly used datasets in the field.
+
+Now, I will compile the extracted dataset information, ensuring to include the relevant details for each dataset, including their names, types, and statistics, along with any relevant meta-paths or grouping labels mentioned in the paper.
+
+Finally, I will prepare the dataset entries for structured output, ensuring that the full citation for each dataset is included, even if it is not explicitly provided in the paper.

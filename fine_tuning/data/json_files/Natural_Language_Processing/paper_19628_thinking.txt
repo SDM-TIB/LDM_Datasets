@@ -1,0 +1,37 @@
+To extract datasets from the research paper titled "PDETime: Rethinking Long-Term Multivariate Time Series Forecasting from the perspective of partial differential equations" by Shiyi Qi et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract states that the authors conducted extensive experimentation across **seven diverse real-world LMTF datasets**, which indicates that multiple datasets are involved.
+
+Next, I will focus on the **experiments section** (section 4) where the authors explicitly mention the datasets used. In **section 4.1 (Experimental Settings)**, they list the datasets as follows:
+
+1. **ETTh1**: This dataset contains two years of data from electricity transformers in China, sampled at an hourly frequency, with a total of 17,420 data points.
+
+2. **ETTh2**: Similar to ETTh1, this dataset also consists of two years of data from electricity transformers, with the same frequency and number of data points.
+
+3. **ETTm1**: This dataset includes data from electricity transformers, sampled at a 15-minute frequency, totaling 69,680 data points.
+
+4. **ETTm2**: Like ETTm1, this dataset also consists of 69,680 data points collected at a 15-minute frequency.
+
+5. **Electricity**: This dataset describes the hourly electricity consumption of 321 clients from 2012 to 2014, with a total of 26,304 data points.
+
+6. **Traffic**: This dataset contains road occupancy rates from various sensors on San Francisco Bay area freeways, with a total of 52,696 data points.
+
+7. **Weather**: This dataset includes 21 meteorological indicators collected at around 1,600 landmarks in the United States, with a total of 17,544 data points.
+
+Now, I will check the **References section** to find the full citations for these datasets. The paper cites the following references:
+
+- For **ETTh1** and **ETTh2**, the citation is:
+  > Zhou, H., Zhang, S., Peng, J., Zhang, S., Li, J., Xiong, H., & Zhang, W. (2021). Informer: Beyond efficient transformer for long sequence time-series forecasting. In Proceedings of the AAAI Conference on Artificial Intelligence, 35, 11106-11115.
+
+- For **ETTm1** and **ETTm2**, the citation is the same as above.
+
+- For **Electricity**, the citation is:
+  > Angryk, R. A., Martens, P. C., Aydin, B., Kempton, D., Mahajan, S. S., Basodi, S., Ahmadzadeh, A., Cai, X., Filali Boubrahimi, S., Hamdi, S. M., et al. (2020). Multivariate time series dataset for space weather data analytics. Scientific Data, 7(1), 227.
+
+- For **Traffic**, the citation is:
+  > California Department of Transportation. (n.d.). Traffic data from sensors on San Francisco Bay area freeways. Retrieved from http://pems.dot.ca.gov.
+
+- For **Weather**, the citation is:
+  > BGC-Jena. (n.d.). Weather dataset. Retrieved from https://www.bgc-jena.mpg.de/wetter/.
+
+After gathering all this information, I will compile the dataset entries with their full citations into a structured format for further processing or review.

@@ -1,0 +1,92 @@
+[
+    {
+        "dcterms:creator": [
+            "T. Kwiatkowski",
+            "J. Palomaki",
+            "O. Rhinehart",
+            "M. Collins",
+            "A. Parikh",
+            "C. Alberti",
+            "D. Epstein",
+            "I. Polosukhin",
+            "M. Kelcey",
+            "J. Devlin"
+        ],
+        "dcterms:description": "The NaturalQuestions dataset consists of naturally occurring Google queries and their answers. Each answer also comes with an 'answer type': following Lee et al. (2019), we only keep questions that are categorized as 'short answer type' with at most five tokens. The dataset also provides a suggested Wikipedia document to retrieve; like all models we compare against, we do not provide this to our model.",
+        "dcterms:title": "NaturalQuestions-Open",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Question Answering",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Google queries",
+            "short answer",
+            "question answering"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Open-domain Question Answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Berant",
+            "A. Chou",
+            "R. Frostig",
+            "P. Liang"
+        ],
+        "dcterms:description": "The WebQuestions dataset was collected from the Google Suggest API, using one seed question and expanding the set to related questions. We follow the setting defined by Chen et al. (2017).",
+        "dcterms:title": "WebQuestions",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Question Answering",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Google Suggest API",
+            "related questions",
+            "question answering"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Open-domain Question Answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D. Chen",
+            "A. Fisch",
+            "J. Weston",
+            "A. Bordes"
+        ],
+        "dcterms:description": "The CuratedTrec dataset is a collection of question-answer pairs drawn from real user queries issued on sites such as MSNSearch and AskJeeves. To account for multiple correct answers or different spelling variations, the answers in this dataset are defined as regular expressions that match all correct answers.",
+        "dcterms:title": "CuratedTrec",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Question Answering",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "user queries",
+            "question answering",
+            "regular expressions"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Open-domain Question Answering"
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+To extract datasets from the research paper titled "Provably correct sensor-driven path-following for unicycles using monotonic score functions" by Benton Clark et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and while it may not explicitly mention datasets, it sets the context for the experiments that follow.
+
+Next, I will focus on the **experiments section** (Section V), as this is where the authors typically describe the datasets used for their experiments. In this section, the authors mention using a **depth sensor** and a **support vector machine (SVM)** to derive a sensor-based score function (SeBSF). They also refer to the **Habitat-Matterport 3D Dataset (HM3D)**, which is crucial for their simulated experiments.
+
+I will also check the **References section** to find the full citation for the Habitat-Matterport 3D Dataset. The citation is as follows:
+> S. K. Ramakrishnan, A. Gokaslan, E. Wijmans, O. Maksymets, A. Clegg, J. M. Turner, E. Undersander, W. Galuba, A. Westbury, A. X. Chang, M. Savva, Y. Zhao, and D. Batra. *Habitat-matterport 3d dataset (HM3d): 1000 large-scale 3d environments for embodied AI*. In Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2), 2021. [Online]. Available: https://openreview.net/forum?id=-v4OuqNs5P
+
+Additionally, the authors mention using a **real depth sensor (Intel RealSense D435i)** for their physical experiments, but this is not a dataset in itself. Instead, it is a tool used to collect data.
+
+Now, I will summarize the identified dataset:
+
+1. **Habitat-Matterport 3D Dataset (HM3D)**: This dataset consists of 1000 large-scale 3D environments designed for embodied AI research, which was used in the simulated experiments to provide a navigation mesh map.
+
+With this information, I can now compile the dataset entry for the Habitat-Matterport 3D Dataset, ensuring to include the full citation as required. This structured approach ensures that I capture all relevant datasets mentioned in the paper accurately.

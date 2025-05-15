@@ -1,0 +1,41 @@
+To extract the datasets from the research paper titled "From Coupled Oscillators to Graph Neural Networks: Reducing Over-smoothing via a Kuramoto Model-based Approach" by Tuan Nguyen et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and the introduction typically outlines the context and significance of the work, which may include references to datasets.
+
+Next, I will focus on **section 5 (Experimental Results)**, where the authors describe their experiments. This section often contains explicit mentions of the datasets used for evaluation. Here, the authors state that they conducted experiments on several graph node classification datasets, specifically naming:
+
+1. **CORA Dataset**: A citation network dataset consisting of 2,708 publications classified into one of seven classes, with 5,429 links and features represented by a vector of 0/1 values indicating the presence of 1,433 words.
+
+2. **CiteSeer Dataset**: Another citation network consisting of 3,312 publications classified into one of six classes, represented similarly to CORA with a vector of 0/1 values for 3,703 unique words.
+
+3. **PubMed Dataset**: This dataset includes 19,717 scientific publications related to diabetes, classified into three classes, with 44,338 links and features represented by TF/IDF weighted word vectors from a dictionary of 500 unique words.
+
+4. **CoauthorCS Dataset**: A co-authorship graph of authors in computer science, consisting of 18,333 nodes and 163,788 edges, with each node classified into one of 15 classes and represented by a vector of size 6,805 indicating paper keywords.
+
+5. **Computers Dataset**: A segment of the Amazon co-purchase graph with 13,752 products and 491,722 relations, where each product is classified into one of 10 classes and represented by a bag-of-words feature vector of size 767.
+
+6. **Photo Dataset**: Similar to the Computers dataset, this dataset also comes from the Amazon co-purchase graph, consisting of 7,650 nodes and 238,163 edges, with each node classified into one of eight classes and represented by a vector of size 745.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The full citations for the datasets are as follows:
+
+- **CORA Dataset**: 
+  > McCallum, A. K., Nigam, K., Rennie, J., & Seymore, K. (2000). Automating the construction of internet portals with machine learning. *Information Retrieval*, 3(2), 127–163.
+
+- **CiteSeer Dataset**: 
+  > Sen, P., Namata, G., Bilgic, M., Getoor, L., Galligher, B., & Eliassi-Rad, T. (2008). Collective classification in network data. *AI Magazine*, 29(3), 93–93.
+
+- **PubMed Dataset**: 
+  > Namata, G., London, B., Getoor, L., Huang, B., & Edu, U. (2012). Query-driven active surveying for collective classification. In *10th International Workshop on Mining and Learning with Graphs*, volume 8, page 1.
+
+- **CoauthorCS Dataset**: 
+  > Shchur, O., Mumme, M., Bojchevski, A., & Günnemann, S. (2018). Pitfalls of graph neural network evaluation. *arXiv preprint arXiv:1811.05868*.
+
+- **Computers Dataset**: 
+  > McAuley, J., Targett, C., Shi, Q., & Van Den Hengel, A. (2015). Image-based recommendations on styles and substitutes. In *Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval*, pages 43–52.
+
+- **Photo Dataset**: 
+  > McAuley, J., Targett, C., Shi, Q., & Van Den Hengel, A. (2015). Image-based recommendations on styles and substitutes. In *Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval*, pages 43–52.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use.

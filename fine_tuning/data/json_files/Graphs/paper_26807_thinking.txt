@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Devil’s in the Details: Aligning Visual Clues for Conditional Embedding in Person Re-Identification" by Fufu Yu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions that the experiments were conducted on three public datasets, which indicates that datasets are indeed present in the paper. I will look for specific names and details of these datasets.
+
+Next, I will navigate to **section 4.1 (Datasets)**, where the authors typically provide detailed descriptions of the datasets used in their experiments. Here, I will find the following datasets mentioned:
+
+1. **Market-1501 Dataset**: This dataset contains 32,668 person images of 1,501 identities captured by six cameras. The training set consists of 12,936 images of 751 identities, while the testing set includes the remaining images of 750 identities.
+
+2. **MSMT-17 Dataset**: This dataset comprises 124,068 person images of 4,101 identities captured by 15 cameras (12 outdoor and 3 indoor). The training set consists of 30,248 images of 1,041 identities, while the testing set includes images of 3,060 identities.
+
+3. **DukeMTMC-reID Dataset**: This dataset contains 36,411 person images of 1,404 identities captured by eight cameras. The identities are randomly divided, with 702 identities as the training set and the remaining 702 as the testing set. For each ID in each camera, one image is selected for the query set, while the rest are used for the gallery set.
+
+Additionally, the authors mention an **Occluded-DukeMTMC** dataset, which is a re-split of the DukeMTMC-reID dataset to generate a new dataset where all query images and 10% of gallery images are occluded person images.
+
+After identifying the datasets, I will refer to the **References section** to gather the full citations for each dataset:
+
+- For the **Market-1501 Dataset**, the citation is:
+  > Liang Zheng, Liyue Shen, Lu Tian, Shengjin Wang, Jingdong Wang, and Qi Tian. *Scalable person re-identification: A benchmark*. In The IEEE Conference on Computer Vision and Pattern Recognition, 2015.
+
+- For the **MSMT-17 Dataset**, the citation is:
+  > Wei, Longhui, Shiliang Zhang, Wen Gao, and Qi Tian. *Person transfer gan to bridge domain gap for person re-identification*. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 79–88, 2018.
+
+- For the **DukeMTMC-reID Dataset**, the citation is:
+  > Ergys Ristani, Francesco Solera, Roger Zou, Rita Cucchiara, and Carlo Tomasi. *Performance measures and a data set for multi-target, multi-camera tracking*. In European Conference on Computer Vision, pages 17–35. Springer, 2016.
+
+- For the **Occluded-DukeMTMC Dataset**, since it is derived from the DukeMTMC-reID dataset, I will use the same citation as above.
+
+Now, I will compile the dataset entries with their descriptions and citations into a structured format for further processing or review.

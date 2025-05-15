@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "A Perspective on Individualized Treatment Effects Estimation from Time-series Health Data" by Ghadeer O. Ghosheh et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and methods sections** to see if any datasets are explicitly mentioned. The abstract discusses the need for methodologies to study individualized treatment effects (ITE) but does not specify any datasets. The introduction mentions the use of observational Electronic Health Records (EHRs) data but does not provide specific dataset names.
+
+Next, I will focus on the **Datasets and Evaluation section** (Section 3), as this is likely where the authors discuss the datasets used in their research. Here, the authors mention that most studies utilize simulated datasets for evaluating their methods for ITE estimation. They specifically reference:
+
+1. **PK-PD Model Data**: This dataset simulates cancer dynamics and is widely utilized in the literature for evaluation purposes. It is based on a pharmacokinetic-pharmacodynamic model that simulates changes in tumor volume over time under different treatment options.
+
+2. **CVSim Data**: This dataset is derived from a mechanistic model of the human cardiovascular system, allowing for the simulation of trajectories of outcome parameters such as mean arterial pressure (MAP) or central venous pressure (CVP) under various interventions.
+
+3. **MIMIC-III Dataset**: This is a real-world dataset used for evaluating the performance of models on ICU patient trajectories. The authors mention that they use covariates from MIMIC-III and simulate outcomes based on treatments like vasopressors and mechanical ventilation.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For the **PK-PD Model**, the citation is:
+  > Geng, C., Paganetti, H., & Grassberger, C. (2017). Prediction of Treatment Response for Combined Chemo- and Radiation Therapy for Non-Small Cell Lung Cancer Patients Using a Bio-Mathematical Model. *Scientific Reports*, 7(1), 13646. doi:10.1038/s41598-017-13646-z.
+
+- For the **CVSim**, the citation is:
+  > Heldt, T., et al. (2010). CVSim: An open-source cardiovascular simulator for teaching and research. *Open Pacing Electrophysiol. Ther. J.*, 3, 45-54.
+
+- For the **MIMIC-III Dataset**, the citation is:
+  > Johnson, A. E. W., et al. (2016). MIMIC-III, a freely accessible critical care database. *Scientific Data*, 3, 160035. doi:10.1038/sdata.2016.35.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented with its source.

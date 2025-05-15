@@ -1,0 +1,24 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The dataset comprises binary images measuring (32 × 32) pixels, each sample depicting a straight line going through the image center, starting and ending 2 pixels from the image boundary (leading to 59 distinct lines of different angles). The images are generated when required and their set may vary from one epoch to another. During each training cycle, we randomly generate 300 image instances (each line about 5 times). During evaluation, we sample each of the 59 distinct lines exactly once. In contrast to training, the samples used for evaluation comprise local distortions in the form of additive Gaussian noise and missing line segments.",
+        "dcterms:title": "Binary Images of Lines",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Binary images",
+            "Line segments",
+            "Noise robustness",
+            "Image generation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image reconstruction",
+            "Noise filtering"
+        ]
+    }
+]

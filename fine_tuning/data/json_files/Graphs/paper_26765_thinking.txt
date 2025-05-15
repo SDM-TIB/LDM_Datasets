@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Do Syntax Trees Help Pre-trained Transformers Extract Information?" by Devendra Singh Sachan et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors conducted experiments on three information extraction tasks, which suggests that datasets are involved.
+
+Next, I will focus on the **experimental setup section** (Section 3), where the authors describe the tasks and datasets used for their experiments. Here, they mention:
+
+1. **CoNLL-2005 SRL corpus**: This dataset is used for the semantic role labeling (SRL) task. It contains PropBank-style annotations for predicates and their arguments, along with POS tags and constituency parses.
+
+2. **CoNLL-2012 OntoNotes dataset**: This dataset is also used for the SRL task and includes similar annotations as the CoNLL-2005 corpus.
+
+3. **OntoNotes 5.0 dataset**: This dataset is used for the named entity recognition (NER) task and contains 18 named entity types.
+
+4. **TACRED dataset**: Specifically, the authors refer to the label corrected version of this dataset for the relation extraction (RE) task. It contains 41 relation types and a special no_relation class indicating that no relation exists between the two entities.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For the **CoNLL-2005 SRL corpus**, the citation is:
+  > Xavier Carreras and Lluís Màrquez. *Introduction to the CoNLL-2005 shared task: Semantic role labeling*. In Proceedings of the Ninth Conference on Computational Natural Language Learning (CoNLL-2005), 2005.
+
+- For the **CoNLL-2012 OntoNotes dataset**, the citation is:
+  > Sameer Pradhan, Alessandro Moschitti, Nianwen Xue, Olga Uryupina, and Yuchen Zhang. *CoNLL-2012 shared task: Modeling multilingual unrestricted coreference in OntoNotes*. In Joint Conference on EMNLP and CoNLL - Shared Task, 2012.
+
+- For the **OntoNotes 5.0 dataset**, the citation is:
+  > Sameer Pradhan, Wayne Ward, Kadri Hacioglu, James Martin, and Daniel Jurafsky. *Semantic role labeling using different syntactic views*. In Proceedings of the 43rd Annual Meeting of the Association for Computational Linguistics (ACL’05), 2005.
+
+- For the **TACRED dataset**, the citation is:
+  > Christoph Alt, Aleksandra Gabryszak, and Leonhard Hennig. *TACRED revisited: A thorough evaluation of the TACRED relation extraction task*. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, 2020.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or analysis.

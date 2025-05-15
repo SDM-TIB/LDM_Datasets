@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "End-to-end Wind Turbine Wake Modelling with Deep Graph Representation Learning" by Siyi Li, Mingrui Zhang, and Matthew D. Piggott, I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses the development of a surrogate model for wind turbine wake modeling based on graph neural networks, which suggests that there may be datasets related to computational fluid dynamics (CFD) simulations or experimental data.
+
+Next, I will focus on **section 3 (Numerical Model)**, where the authors describe the generalised actuator disk (GAD) model and its validation against experimental data. This section is likely to contain specific datasets used for training and validation.
+
+In **section 4.1 (Data Generation)**, the authors detail how training data was generated based on simulations of the Siemens SWT93-2.3 MW wind turbine. They mention that a total of **7700 simulations** were generated with varying inflow velocities, turbulence intensities, and yaw angles. This indicates that the dataset is derived from CFD simulations, which is crucial for understanding the model's training process.
+
+I will also check the **References section** to find full citations for any datasets mentioned. The authors reference several studies and datasets, particularly those related to the GAD model and the experimental validation against wind tunnel tests at the Norwegian University of Science and Technology (NTNU).
+
+The key datasets I will extract include:
+
+1. **GAD-based CFD Simulation Data**: This dataset consists of 7700 simulations generated for training the model, with specific parameters like inflow velocity and turbulence intensity. However, since this dataset is generated from simulations, it may not have a formal citation like traditional datasets.
+
+2. **NTNU Wind Tunnel Test Data**: This dataset is referenced for validating the GAD model. The authors mention that the GAD model was validated against wind tunnel experiments conducted at NTNU. I will look for the specific citation for these experiments.
+
+3. **Lillgrund Offshore Wind Farm Data**: The paper discusses a case study based on the Lillgrund offshore wind farm, which may include real-world operational data. I will check if the authors provide a citation for this dataset.
+
+After identifying these datasets, I will compile their full citations:
+
+- For the **GAD model** and its validation, I will cite the original paper that describes the GAD method:
+  > Matt Edmunds, Alison J. Williams, Ian Masters, Arindam Banerjee, and James H. VanZwieten. *A spatially nonlinear generalised actuator disk model for the simulation of horizontal axis wind and tidal turbines*. Energy, 194:116803, 2020.
+
+- For the **NTNU wind tunnel tests**, I will cite the relevant papers:
+  > Per Åge Krogstad and Pål Egil Eriksen. *“Blind test” calculations of the performance and wake development for a model wind turbine*. Renewable Energy, 50:325–333, 2013.
+  > Fabio Pierella, Per Åge Krogstad, and Lars Sætran. *Blind test 2 calculations for two in-line model wind turbines where the downstream turbine operates at various rotational speeds*. Renewable Energy, 70:62–77, 2014.
+
+- For the **Lillgrund offshore wind farm data**, I will cite:
+  > J.-Å Dahlberg. *Assessment of the Lillgrund wind farm: power performance, wake effects*. Tech. rep., LG Pilot Rep., Vattenfall Vindkraft AB, 2009.
+
+Finally, I will summarize the datasets and their citations in a structured format for easy reference. This will ensure that I have accurately captured all relevant information regarding the datasets used in the research paper.

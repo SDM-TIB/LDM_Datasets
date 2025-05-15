@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Learning Canonical Embeddings for Unsupervised Shape Correspondence with Locally Linear Transformations" by Pan He et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions "comprehensive experiments show that the new method makes noticeable improvements over state-of-the-art approaches on standard shape correspondence benchmark datasets covering both human and nonhuman shapes." This indicates that datasets are indeed used, but I need to find their specific names.
+
+Next, I will focus on the **experiments section** (Section 5) where the authors describe their experimental setup. Here, they explicitly mention the datasets used for evaluation:
+
+1. **SURREAL Dataset**: This dataset is prepared by 3D-CODED and leverages the SMPL model to generate a total of 230,000 samples for training. It is used for training pairs in the experiments.
+
+2. **SHREC-19 Dataset**: This dataset contains 430 non-rigid shape pairs generated from 44 real human scans and is used for evaluation.
+
+3. **SMAL Dataset**: This dataset provides a 3D articulated parametric model for animals and is used for training.
+
+4. **TOSCA Dataset**: This dataset is used for evaluation and contains 41 animal figures out of a total of 80 objects.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **SURREAL Dataset**, the citation is:
+  > Groueix, T., Fisher, M., Kim, V. G., Russell, B. C., & Aubry, M. (2018). *3D-CODED: 3D correspondences by deep deformation*. In Proceedings of the European Conference on Computer Vision (ECCV), 230-246.
+
+- For the **SHREC-19 Dataset**, the citation is:
+  > Melzi, S., Marin, R., Rodola, E., Castellani, U., Ren, J., Poulenard, A., & Wonka, P. (2019). *SHREC 2019: Matching humans with different connectivity*. In Eurographics Workshop on 3D Object Retrieval.
+
+- For the **SMAL Dataset**, the citation is:
+  > Zuffi, S., Kanazawa, A., Jacobs, D. W., & Black, M. J. (2017). *3D Menagerie: Modeling the 3D shape and pose of animals*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 6365-6373.
+
+- For the **TOSCA Dataset**, the citation is:
+  > Bronstein, M. M., Bronstein, A. M., & Kimmel, R. (2008). *Numerical geometry of non-rigid shapes*. Springer Science & Business Media.
+
+After gathering this information, I will compile the dataset entries into a structured format for clarity and future reference. This will ensure that each dataset is properly documented with its full citation, which is crucial for academic integrity and reproducibility.

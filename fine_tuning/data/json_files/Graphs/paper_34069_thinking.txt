@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Towards Channel-Resilient CSI-Based RF Fingerprinting using Deep Learning" by Ruiqi Kong and He (Henry) Chen, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and evaluation sections** to identify any datasets mentioned. The abstract discusses the introduction of DeepCRF and its evaluation on a synthetic dataset, which indicates that datasets are involved.
+
+Next, I will focus on the **evaluation section (Section IV)**, where the authors describe their data collection and augmentation process. They mention that they collected real-world CSI measurements from 19 WiFi network interface cards (NICs) and augmented these measurements to create a synthetic dataset. This section is crucial as it provides specific details about the datasets used.
+
+In **Section IV.A (Data Collection and Augmentation)**, the authors specify the following datasets:
+
+1. **Real-World CSI Measurements**: This dataset consists of 80,833 CSI measurements collected from 19 different WiFi NICs in line-of-sight (LoS) configurations. The measurements were captured using a software-defined radio setup.
+
+2. **Synthetic CSI Dataset**: This dataset was created by augmenting the real-world CSI measurements with simulated multipath effects and noise across various indoor channel conditions. The synthetic dataset contains 912,000 CSI samples, representing different realizations of six specified channel types.
+
+Now, I will check the **References section** for full citations related to the datasets. However, the paper primarily discusses the datasets it created and does not provide external citations for them. Therefore, I will note that the datasets are original to this study.
+
+Finally, I will summarize the datasets extracted:
+
+- **Real-World CSI Measurements**: 80,833 CSI measurements from 19 WiFi NICs.
+- **Synthetic CSI Dataset**: 912,000 augmented CSI samples created from the real-world measurements.
+
+I will ensure to include the full citation for the paper itself, as it is essential for referencing the datasets:
+
+Kong, R., & Chen, H. (2023). Towards Channel-Resilient CSI-Based RF Fingerprinting using Deep Learning. *IEEE SPAWC International Workshop on Signal Processing Advances in Wireless Communications*. Retrieved from http://arxiv.org/abs/2308.00373
+
+With this information, I will prepare to compile the dataset entries for further processing.

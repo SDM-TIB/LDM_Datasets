@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "WATERMARKING GRAPH NEURAL NETWORKS BY RANDOM GRAPHS" by Xiangyu Zhao, Hanzhou Wu, and Xinpeng Zhang, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets mentioned. The abstract discusses watermarking GNN models and mentions the use of an Erdos-Renyi (ER) random graph, but it does not specify datasets at this point.
+
+Next, I will focus on the **experimental results section** (Section 4), where the authors describe their experiments. They mention using two datasets: **Cora** and **PubMed**. I will extract the relevant details about these datasets from the text.
+
+In the **experimental setup** subsection (4.1), the authors provide specific information about each dataset:
+
+1. **Cora Dataset**: This dataset consists of 2,708 publications classified into one of seven classes. The citation network has 5,429 links, and each publication is described by a binary-valued word vector indicating the presence or absence of words from a dictionary of 1,433 unique words.
+
+2. **PubMed Dataset**: This dataset consists of 19,717 publications classified into one of three classes. The citation network has 44,338 links, and each publication is described by a TF/IDF weighted word vector from a dictionary of 500 unique words.
+
+Next, I will check the **References section** to find full citations for these datasets. The citations are as follows:
+
+- For the **Cora Dataset**, the citation is:
+  > Sen, P., Namata, G., Bilgic, M., Getoor, L., Gallagher, B., & Eliassi-Rad, T. (2008). *Collective classification in network data*. Journal of Machine Learning Research, 29(3), 93-106.
+
+- For the **PubMed Dataset**, the citation is:
+  > Namata, G., London, B., Getoor, L., & Huang, B. (2012). *Query-driven active surveying for collective classification*. In Proceedings of the International Workshop on Mining and Learning with Graphs.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing. This includes ensuring that each dataset is clearly described with its citation, which is crucial for proper attribution in any subsequent use of this information.

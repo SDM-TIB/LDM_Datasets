@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Using Sequence-to-Sequence Learning for Repairing CVulnerabilities" by Zimin Chen et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to locate any references to datasets. The abstract mentions a "big dataset of code changes" and "real-world vulnerabilities from the CVE database," indicating that datasets are indeed present.
+
+Next, I will focus on the **methodology section**, particularly the **Data Collection and Filtering** subsection. Here, the authors describe the process of collecting a dataset consisting of **21 million bug fix commits on GitHub from 2017 and 2018**. This dataset is crucial for training their sequence-to-sequence model.
+
+Additionally, I will look for the **testing dataset** mentioned in the paper. The authors state that they collected real-world CVE vulnerabilities from four well-known open-source projects: **Linux kernel, OpenSSL, systemd, and Wireshark**. This indicates that the testing dataset is derived from these projects and is used to evaluate the effectiveness of their model.
+
+Now, I will gather the full citations for the datasets mentioned:
+
+1. **GitHub Bug Fix Commits Dataset**: The dataset consists of 21 million bug fix commits mined from GitHub. The authors do not provide a formal citation for this dataset, but I will note it as:
+   > Chen, Z., Kommrusch, S., & Monperrus, M. (2019). Using sequence-to-sequence learning for repairing CVulnerabilities. *Proceedings of the IEEE International Conference on Software Engineering (ICSE)*.
+
+2. **CVE Vulnerabilities Dataset**: The authors mention that they collected known vulnerabilities with CVE identifiers from the following projects:
+   - **Linux kernel**
+   - **OpenSSL**
+   - **systemd**
+   - **Wireshark**
+   
+   The citation for the CVE database is:
+   > National Vulnerability Database (NVD). Common Vulnerabilities and Exposures (CVE). Available at: https://cve.mitre.org/.
+
+After identifying the datasets and their citations, I will summarize the findings in a structured manner, ensuring that each dataset is clearly described along with its citation for future reference or processing.

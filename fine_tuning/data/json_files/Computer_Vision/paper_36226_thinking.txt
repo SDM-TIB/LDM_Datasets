@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Beyond Sparsity: Tree Regularization of Deep Models for Interpretability" by Mike Wu et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract mentions using "intuitive toy examples as well as medical tasks for treating sepsis and HIV," which indicates that there are datasets related to these tasks.
+
+Next, I will focus on the **experiments section**, particularly section 5, where the authors describe their experiments in detail. Here, they explicitly mention several datasets used for their evaluations:
+
+1. **Signal-and-noise HMM Dataset**: This dataset consists of 100 sequences, each with 50 timesteps, where each timestep has 14 binary features and a single binary output label. The dataset is generated from two separate HMM processes.
+
+2. **Sepsis Dataset**: The authors utilize data from the public MIMIC III dataset, which includes 11,786 patients. Each patient has a data vector of 35 vital signs and lab results, with labels indicating various outcomes. The average sequence length is 15 hours.
+
+3. **HIV Dataset**: The authors use the EuResist Integrated Database, which contains data for 53,236 patients diagnosed with HIV. Each data vector has 40 features, and the output vector has 15 binary labels. The average sequence length is 14 steps.
+
+4. **TIMIT Dataset**: This dataset includes recordings of 630 speakers reading phonetically rich sentences, with time-aligned transcriptions of 60 phonemes. Each input has 26 continuous features, and there are 6,303 sequences.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For the **MIMIC III dataset**:
+  > Johnson, A. E. W., Pollard, T. J., Shen, L., Lehman, L. H., Feng, M., Ghassemi, M., Moody, B., Szolovits, P., Celi, L. A., & Mark, R. G. (2016). MIMIC-III, a freely accessible critical care database. *Scientific Data*, 3, 160035.
+
+- For the **EuResist Integrated Database**:
+  > Zazzi, M., Incardona, F., Rosen-Zvi, M., Prosperi, M., Lengauer, T., Altmann, A., Sonnerborg, A., Lavee, T., Schlüter, E., & Kaiser, R. (2012). Predicting response to antiretroviral treatment by machine learning: the EuResist project. *Intervirology*, 55(2), 123-127.
+
+- For the **TIMIT dataset**:
+  > Garofolo, J. S., Lamel, L. F., Fisher, W. M., Fiscus, J. G., Pallett, D. S., Dahlgren, N. L., & Zue, V. (1993). TIMIT acoustic-phonetic continuous speech corpus. *Linguistic Data Consortium*.
+
+Now, I will compile the dataset entries, ensuring that each dataset is described clearly and that the full citations are included. This will provide a comprehensive overview of the datasets used in the research paper.

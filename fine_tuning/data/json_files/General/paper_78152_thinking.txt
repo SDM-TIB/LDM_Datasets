@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "PQk-means: Billion-scale Clustering for Product-quantized Codes" by Yusuke Matsui et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract discusses the efficiency of the proposed PQk-means method and mentions clustering on large-scale datasets, which suggests that specific datasets will be referenced later in the paper.
+
+Next, I will focus on the **experiments section** (Section 5), where the authors typically describe the datasets used for their evaluations. In this section, I will look for any tables or figures that summarize dataset statistics, as these often provide concise information about the datasets, including their names, dimensions, and the number of samples.
+
+Upon reviewing **Table 2**, I find the following datasets mentioned:
+
+1. **ILSVRC 100C**: This dataset consists of 100 object categories, each containing around 1000 images, with a total of 129,395 test images. The features extracted are 4096D AlexNet features.
+
+2. **ILSVRC 1000C**: A larger subset of the ImageNet dataset, containing 1,281,167 images, also with 4096D AlexNet features.
+
+3. **SIFT1M**: This dataset contains 1 million SIFT features, each represented in 128 dimensions.
+
+4. **SIFT1B**: A larger dataset containing 1 billion SIFT features, also represented in 128 dimensions.
+
+5. **YFCC100M**: This dataset contains around 100 million images, with features extracted using AlexNet, resulting in 4096D feature vectors.
+
+6. **Deep1B**: This dataset consists of 1 billion features extracted from images using GoogLeNet, with features compressed to 96 dimensions.
+
+Next, I will check the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets. 
+
+For the **ILSVRC datasets**, the citation is:
+> Olga Russakovsky et al. *ImageNet Large Scale Visual Recognition Challenge*. IJCV, 2015.
+
+For the **YFCC100M dataset**, the citation is:
+> Bart Thomee et al. *YFCC100M: The New Data in Multimedia Research*. Commun. ACM, 2016.
+
+For the **SIFT1M and SIFT1B datasets**, the citation is:
+> Marius Muja and David G. Lowe. *Scalable Nearest Neighbour Algorithms for High Dimensional Data*. IEEE TPAMI, 2014.
+
+For the **Deep1B dataset**, the citation is:
+> Artem Babenko and Victor Lempitsky. *Efficient Indexing of Billion-Scale Datasets of Deep Descriptors*. In Proc. IEEE CVPR, 2016.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format that highlights each dataset's name, description, and full citation. This will ensure that the extraction is thorough and ready for any further processing or review.

@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Skim then Focus: Integrating Contextual and Fine-grained Views for Repetitive Action Counting" by Zhengqi Zhao et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are mentioned or described. The abstract indicates the introduction of a new dataset called **Multi-RepCount**, which is a strong signal that there are datasets to extract.
+
+Next, I will focus on the **introduction section**, where the authors mention evaluating their method on three datasets: **RepCount**, **UCFRep**, and the proposed **Multi-RepCount**. This confirms that these datasets are relevant for the experiments conducted in the paper.
+
+In the **experiments section**, specifically section 5.2, the authors provide detailed descriptions of the datasets used:
+
+1. **RepCount Part-A**: This dataset contains 1,041 videos with fine-grained annotations and significant variation in length. It is collected from YouTube and is noted for its challenging characteristics.
+
+2. **UCFRep**: This dataset consists of 526 videos across 23 categories, derived from the UCF101 action recognition dataset. It includes annotated repetition videos.
+
+3. **Multi-RepCount**: This is a synthetic dataset created by the authors, consisting of 984 videos across 8 repetitive action classes. Each video contains multiple types of repetitive actions and an exemplary video for reference.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **RepCount**, the citation is:
+  > Huazhang Hu, Sixun Dong, Yiqun Zhao, Dongze Lian, Zhengxin Li, and Shenghua Gao. *TransRAC: Encoding Multi-Scale Temporal Correlation with Transformers for Repetitive Action Counting*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 19013–19022, 2022.
+
+- For **UCFRep**, the citation is:
+  > Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. *UCF101: A Dataset of 101 Human Actions Classes from Videos in the Wild*. arXiv preprint arXiv:1212.0402, 2012.
+
+- For **Multi-RepCount**, since it is a dataset proposed by the authors, I will cite it as follows:
+  > Zhengqi Zhao, Xiaohu Huang, Hao Zhou, Kun Yao, Errui Ding, Jingdong Wang, Xinggang Wang, Wenyu Liu, and Bin Feng. *Multi-RepCount: A Dataset for Specified Action Counting*. (Dataset description provided in the paper).
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

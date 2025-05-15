@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "DECIPHERING THE DEFINITION OF ADVERSARIAL ROBUSTNESS FOR POST-HOC OOD DETECTORS" by Peter Lorenz et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the evaluation of post-hoc detectors on various evasion attacks, which suggests that datasets are involved.
+
+Next, I will focus on the **introduction** where the authors mention standardized benchmarks such as **OpenOOD** and **RoboDepth**. This indicates that these benchmarks may involve specific datasets, so I will look for their details.
+
+In the **experiments section**, particularly **section 4.1**, the authors describe their experimental setup and mention the datasets used for evaluation. They specifically list:
+
+1. **CIFAR-10**: A well-known dataset containing 60,000 32x32 color images in 10 classes, with 6,000 images per class.
+2. **CIFAR-100**: Similar to CIFAR-10 but with 100 classes containing 600 images each.
+3. **ImageNet-1K**: A large-scale dataset with over 1 million images across 1,000 classes, widely used for image classification tasks.
+4. **ImageNet-200**: A variant of ImageNet with just 200 classes.
+
+The authors also mention that they conducted experiments on these datasets using various attack methods, confirming their relevance.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **CIFAR-10** and **CIFAR-100**, the citation is:
+  > Alex Krizhevsky, Vinod Nair, and Geoffrey Hinton. *Cifar-10 and cifar-100 datasets*. URl: https://www.cs.toronto.edu/kriz/cifar.html, 2009.
+
+- For **ImageNet-1K**, the citation is:
+  > Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. *Imagenet: A large-scale hierarchical image database*. In 2009 IEEE conference on computer vision and pattern recognition, pages 248–255. IEEE, 2009.
+
+- For **ImageNet-200**, there is no specific citation provided in the references, but it is generally understood to be a subset of the ImageNet dataset.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all details are accurately represented for future reference or processing.

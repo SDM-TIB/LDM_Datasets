@@ -1,0 +1,27 @@
+To extract the datasets mentioned in the research paper titled "Lung-CADex: Fully automatic Zero-Shot Detection and Classification of Lung Nodules in Thoracic CT Images" by Furqan Shaukat et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experimental results sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors used a dataset called **LIDC** for training and validation, and also evaluated their method on a dataset named **LUNGx**. This gives me a clear starting point.
+
+Next, I will look into the **methodology section**, specifically **section 2.1 (Dataset Curation and Pre-Processing)**, where the authors provide detailed information about the datasets used. They mention:
+
+1. **Lung Image Database Consortium (LIDC)**: This dataset contains 1018 scans with nodule annotations by four expert radiologists. They also refer to a subset of this dataset called **LUNA**, which consists of 888 scans and has specific nodule inclusion criteria.
+
+2. **LUNGx**: This dataset is mentioned as a challenging dataset used for evaluation, containing 73 pathology-proven nodules.
+
+In the **experimental results section**, the authors confirm that they evaluated their methods on both the **LIDC** dataset and the **LUNGx** dataset, which reinforces their importance in the study.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **LIDC dataset**, the citation is:
+  > Armato III, S.G., McLennan, G., Bidaut, L., McNitt-Gray, M.F., Meyer, C.R., Reeves, A.P., Zhao, B., Aberle, D.R., Henschke, C.I., Hoffman, E.A., et al. "The lung image database consortium (lidc) and image database resource initiative (idri): a completed reference database of lung nodules on ct scans." *Medical Physics* 38(2), 915–931 (2011).
+
+- For the **LUNGx dataset**, the citation is:
+  > Armato III, S.G., Drukker, K., Li, F., Hadjiiski, L., Tourassi, G.D., Engelmann, R.M., Giger, M.L., Redmond, G., Farahani, K., Kirby, J.S., et al. "Lungx challenge for computerized lung nodule classification." *Journal of Medical Imaging* 3(4), 044506–044506 (2016).
+
+With these citations in hand, I will summarize the datasets as follows:
+
+1. **LIDC Dataset**: A comprehensive dataset containing 1018 CT scans with annotations for lung nodules by expert radiologists, used for training and validation.
+
+2. **LUNGx Dataset**: A dataset containing 73 pathology-proven nodules, used for evaluating the generalization ability of the proposed methods.
+
+Finally, I will compile the dataset entries into a structured format for further processing or review.

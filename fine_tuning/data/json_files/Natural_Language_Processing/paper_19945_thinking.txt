@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Quantity Matters: Towards Assessing and Mitigating Number Hallucination in Large Vision-Language Models" by Huixuan Zhang et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors present a dataset with 20k pieces of data related to number hallucination, which suggests that a specific dataset is central to their research.
+
+Next, I will examine **section 3 (Evaluating Number Hallucination in LVLMs)**, where the authors describe the dataset used for their evaluations. They mention constructing a counting VQA dataset based on the **MSCOCO** dataset, specifically using the **MSCOCO2014 validation set**. This is a crucial dataset for their experiments.
+
+In **section 3.2 (Dataset and Evaluation Metrics)**, the authors provide details on how they constructed their dataset from MSCOCO, including the method of counting objects and the challenges they faced with data distribution. They also mention that they created a dataset with 20,200 pieces of data after applying their sampling methods.
+
+Now, I will look for the **References section** to find the full citation for the MSCOCO dataset. The citation for the MSCOCO dataset is as follows:
+> Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. *Microsoft COCO: Common Objects in Context*. In Computer Vision–ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13. Springer, 740–755.
+
+Additionally, the authors mention that their own dataset, which they constructed for evaluating number hallucination, contains 20k pieces of data. However, they do not provide a separate citation for this dataset since it is derived from their own work.
+
+To summarize, the datasets extracted from the paper are:
+
+1. **MSCOCO Dataset**: Used as the foundational dataset for constructing the counting VQA dataset.
+   - Citation: Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. *Microsoft COCO: Common Objects in Context*. In Computer Vision–ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13. Springer, 740–755.
+
+2. **Counting VQA Dataset**: A dataset constructed by the authors containing 20,200 pieces of data specifically for evaluating number hallucination in LVLMs. (No formal citation as it is part of their research output).
+
+Now, I will compile this information into a structured format for further processing or review.

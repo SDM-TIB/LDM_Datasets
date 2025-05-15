@@ -1,0 +1,38 @@
+To extract datasets from the research paper titled "Drop-DTW: Aligning Common Signal Between Sequences While Dropping Outliers" by Nikita Dvornik et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** to identify any datasets mentioned. The abstract discusses the application of the Drop-DTW algorithm in various contexts, which may hint at specific datasets used for evaluation.
+
+Next, I will examine the **introduction** section. Here, the authors mention the use of Drop-DTW in different applications, including multi-step localization and representation learning. I will look for any explicit mentions of datasets in this context.
+
+Moving on to the **experiments section**, particularly **section 4**, I will focus on subsections that detail the datasets used for the experiments. In **section 4.1**, the authors describe a synthetic dataset generated from the MNIST dataset for controlled experiments. They also mention using the **Penn Action dataset** for representation learning and the **CrossTask**, **COIN**, and **YouCook2** datasets for multi-step localization.
+
+I will summarize the datasets identified:
+
+1. **TMNIST Dataset**: A synthetic dataset created from the MNIST dataset, consisting of videos of moving digits. This dataset is used for controlled experiments in sequence retrieval and localization.
+
+2. **Penn Action Dataset**: A dataset used for video action recognition, which the authors modified to include outliers for their experiments.
+
+3. **CrossTask Dataset**: A large-scale dataset for instructional videos, used for evaluating multi-step localization.
+
+4. **COIN Dataset**: Another instructional video dataset, larger than CrossTask, also used for multi-step localization.
+
+5. **YouCook2 Dataset**: A smaller dataset focused on cooking tasks, used for the same purpose as the previous two datasets.
+
+Next, I will refer to the **References section** to find the full citations for each dataset:
+
+- For the **Penn Action Dataset**, the citation is:
+  > W. Zhang, M. Zhu, and K. G. Derpanis. *From Actemes to Action: A Strongly-Supervised Representation for Detailed Action Understanding*. In Proceedings of the International Conference on Computer Vision (ICCV), 2013.
+
+- For the **CrossTask Dataset**, the citation is:
+  > D. Zhukov, J.-B. Alayrac, R. G. Cinbis, D. Fouhey, I. Laptev, and J. Sivic. *Cross-task weakly supervised learning from instructional videos*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
+
+- For the **COIN Dataset**, the citation is:
+  > Y. Tang, D. Ding, Y. Rao, Y. Zheng, D. Zhang, L. Zhao, J. Lu, and J. Zhou. *COIN: A large-scale dataset for comprehensive instructional video analysis*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
+
+- For the **YouCook2 Dataset**, the citation is:
+  > L. Zhou, C. Xu, and J. J. Corso. *Towards automatic learning of procedures from web instructional videos*. In AAAI Conference on Artificial Intelligence, 2018.
+
+- For the **TMNIST Dataset**, since it is a synthetic dataset derived from the MNIST dataset, I will cite the original MNIST paper:
+  > Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. *Gradient-based learning applied to document recognition*. Proceedings of the IEEE, 1998.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

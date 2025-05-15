@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "How do different tokenizers perform on downstream tasks in scriptio continua languages?: A case study in Japanese" by Takuro Fujii et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and results sections** to identify any datasets mentioned. The abstract provides a brief overview of the study's focus on tokenizers and their impact on performance, but I need to look for specific datasets used in the experiments.
+
+Next, I will examine **section 3 (Experimental Setup)**, where the authors describe the tokenizers and the datasets used for evaluation. Here, I will look for any explicit mentions of datasets, their purposes, and any relevant statistics.
+
+In **section 4 (Results and Analysis)**, the authors discuss the performance of different tokenizers on various tasks, which may include references to the datasets used for those tasks. This section may provide insights into how the datasets were utilized in the experiments.
+
+I will also check the **appendices**, particularly Appendix A and Appendix B, where the authors provide detailed descriptions of the datasets and tasks. This is crucial for understanding the context and specifics of each dataset.
+
+From my reading, I identify the following datasets:
+
+1. **MARC-ja**: A binary classification task based on the Japanese part of the Multilingual Amazon Reviews Corpus. The citation for this dataset is:
+   > Keung, P., Lu, Y., Szarvas, G., & Smith, N. A. (2020). *The multilingual Amazon reviews corpus*. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 4563–4568, Online. Association for Computational Linguistics.
+
+2. **JSTS**: A regression task sourced from the Japanese version of the MS COCO Caption Dataset. The citation for this dataset is:
+   > Chen, X., Fang, H., Lin, T.-Y., Vedantam, R., Gupta, S., Dollar, P., & Zitnick, C. L. (2015). *Microsoft COCO captions: Data collection and evaluation server*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2400–2408, 2015.
+
+3. **JNLI**: A three-way classification task based on the SNLI dataset. The citation for this dataset is:
+   > Bowman, S. R., Angeli, G., Potts, C., & Manning, C. D. (2015). *A large annotated corpus for learning natural language inference*. In Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing, pages 632–642, Lisbon, Portugal. Association for Computational Linguistics.
+
+4. **JSQuAD**: A question answering task based on SQuAD v1.1. The citation for this dataset is:
+   > Rajpurkar, P., Zhang, J., Lopyrev, K., & Liang, P. (2016). *SQuAD: 100,000+ questions for machine comprehension of text*. In Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, pages 2383–2392, Austin, Texas. Association for Computational Linguistics.
+
+5. **JCommonsenseQA**: A multiple-choice question answering task based on CommonsenseQA. The citation for this dataset is:
+   > Talmor, A., Herzig, J., Lourie, N., & Berant, J. (2019). *CommonsenseQA: A question answering challenge targeting commonsense knowledge*. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 4149–4158, Minneapolis, Minnesota. Association for Computational Linguistics.
+
+6. **NER**: A named entity recognition task sourced from Japanese Wikipedia. The citation for this dataset is:
+   > Asahara, M., Kanayama, H., Tanaka, T., Miyao, Y., Uematsu, S., Mori, S., Matsumoto, Y., & Murawaki, Y. (2018). *Universal Dependencies version 2 for Japanese*. In Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018), Miyazaki, Japan. European Language Resources Association (ELRA).
+
+7. **UD**: A dependency parsing task based on Universal Dependencies. The citation for this dataset is:
+   > Zeman, D., Hajič, J., Popel, M., Potthast, M., Straka, M., Ginter, F., Nivre, J., & Petrov, S. (2018). *CoNLL 2018 shared task: Multilingual parsing from raw text to Universal Dependencies*. In Proceedings of the CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies, pages 1–21, Brussels, Belgium. Association for Computational Linguistics.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

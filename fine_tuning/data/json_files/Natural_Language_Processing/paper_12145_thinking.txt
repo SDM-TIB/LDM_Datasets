@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Improving 2D Human Pose Estimation in Rare Camera Views with Synthetic Data" by Miroslav Purkrabek and Jiri Matas, I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors introduce a new dataset called **RePoGen** and mention a manually annotated dataset of real images, which suggests that there are multiple datasets to extract.
+
+Next, I will examine the **experiments section** (specifically section 4.2) where the authors provide a detailed description of the datasets used in their experiments. Here, they mention several datasets:
+
+1. **COCO**: A widely used dataset for human pose estimation containing approximately 250,000 annotated poses from various everyday activities. The authors note that it includes very few images captured from extreme views.
+
+2. **WEPDTOF-Pose**: This dataset contains manual pose annotations for selected individuals and is noted as the largest dataset for top-view pose estimation, although it predominantly contains orbital view images due to fisheye lens distortion.
+
+3. **PoseFES**: A manually annotated dataset captured by a ceiling-mounted fisheye camera, focusing on top-view human pose estimation. It consists of two sequences, one with well-separated individuals and another with multiple people, primarily used for testing.
+
+4. **RePo Bottom**: A new dataset created by the authors, consisting of images extracted from various sports videos obtained from YouTube, focusing on bottom-view poses.
+
+5. **RePo Top**: Similar to the RePo Bottom dataset, this dataset is collected from sports videos but focuses on the top-view perspective.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset mentioned. The citations are crucial for proper attribution and further research.
+
+- For **COCO**, the citation is:
+  > Tsung-Yi Lin, Michael Maire, Serge J. Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C. Lawrence Zitnick. *Microsoft COCO: Common Objects in Context*. In European Conference on Computer Vision, 2014.
+
+- For **WEPDTOF-Pose**, the citation is:
+  > M. Ozan Tezcan, Zhihao Duan, Mertcan Cokbas, Prakash Ishwar, and Janusz Konrad. *WEPDTOF: A Dataset and Benchmark Algorithms for In-the-Wild People Detection and Tracking from Overhead Fisheye Cameras*. In 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), pages 1381–1390, 2022.
+
+- For **PoseFES**, the citation is:
+  > Jingrui Yu, Tobias Scheck, Roman Seidel, Yukti Adya, Dipankar Nandi, and Gangolf Hirtz. *Human Pose Estimation in Monocular Omnidirectional Top-View Images*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, pages 6410–6419, 2023.
+
+- For **RePo Bottom** and **RePo Top**, since these are newly introduced datasets by the authors, I will cite them as follows:
+  > Miroslav Purkrabek and Jiri Matas. *RePo Dataset: A New Dataset for Evaluating Pose Estimation in Rare Camera Views*. Available at: https://mirapurkrabek.github.io/RePoGen-paper/.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format for further use or processing.

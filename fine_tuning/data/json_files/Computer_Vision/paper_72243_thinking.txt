@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Distributional Principal Autoencoders" by Xinwei Shen and Nicolai Meinshausen, I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and empirical results sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors conducted numerical experiments on **climate data, single-cell data, and image benchmarks**, which suggests that specific datasets are involved.
+
+Next, I will examine **section 3 (Empirical Results)**, where the authors describe their experiments in detail. They mention several datasets:
+
+1. **MNIST Dataset**: This dataset consists of 6,000 training samples of 28 × 28 images of handwritten digits (from 0 to 9).
+   
+2. **Disk Dataset**: This dataset includes 10,000 training samples of 32 × 32 images, each containing two disks with pixel values in {0, 1}. The intrinsic dimension is noted to be 6.
+
+3. **Regional Temperature Data (r-temp)**: This dataset is derived from CORDEX models and contains 167,645 samples of temperature data in Kelvin.
+
+4. **Regional Precipitation Data (r-precip)**: Similar to the temperature data, this dataset also has 167,645 samples, with the unit of raw precipitation data being kg · m−2s−1.
+
+5. **Global Precipitation Data (g-precip)**: This dataset comes from CMIP6 models and has a spatial dimension of 360 × 180, with the same unit of raw data as the regional precipitation data.
+
+6. **Single-cell RNA Sequencing Data (sc1 to sc8)**: The authors mention eight publicly available single-cell datasets with dimensions ranging from 1,000 to 6,810 and varying sample sizes.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For the **MNIST Dataset**, the citation is:
+  > LeCun, Y., & Cortes, C. (1998). The MNIST database of handwritten digits. Retrieved from http://yann.lecun.com/exdb/mnist/.
+
+- For the **Disk Dataset**, there is no specific citation provided in the paper, but it is described as a synthetic dataset generated for the experiments.
+
+- For the **Regional Temperature Data (r-temp)** and **Regional Precipitation Data (r-precip)**, the citation is:
+  > Copernicus Climate Change Service. (2019). CORDEX regional climate model data on single levels. Copernicus Climate Change Service (C3S) Climate Data Store (CDS).
+
+- For the **Global Precipitation Data (g-precip)**, the citation is:
+  > Eyring, V., Bony, S., Meehl, G. A., Senior, C. A., Stevens, B., Stouffer, R. J., & Taylor, K. E. (2016). Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization. Geoscientific Model Development, 9(5), 1937–1958.
+
+- For the **Single-cell RNA Sequencing Data**, the citation is:
+  > Hao, Y., Stuart, T., Kowalski, M. H., Choudhary, S., Hoffman, P., Hartman, A., Srivastava, A., Molla, G., Madad, S., Fernandez-Granda, C., & Satija, R. (2023). Dictionary learning for integrative, multimodal and scalable single-cell analysis. Nature Biotechnology.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This structured approach will help ensure that all relevant datasets are accurately documented for future reference or analysis.

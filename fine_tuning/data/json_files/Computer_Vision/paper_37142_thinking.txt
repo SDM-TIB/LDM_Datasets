@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Conﬁdence-Weighted Local Expression Predictions for Occlusion Handling in Expression Recognition and Action Unit detection" by Arnaud Dapogny et al., I will follow a systematic approach to ensure I capture all relevant datasets along with their full citations.
+
+First, I will start by examining the **abstract** and **introduction** sections of the paper. The abstract mentions the development of a method for facial expression recognition (FER) and hints at the use of various datasets for training and evaluation. This suggests that datasets will be discussed in detail later in the paper.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **methodology** or **experiments** sections. In this paper, the datasets are likely to be detailed in **Section 5 (Experiments)**, where the authors describe the datasets used for testing their methods.
+
+Upon reviewing **Section 5.1 (Datasets)**, I find the following datasets mentioned:
+
+1. **CK+ (Extended Cohn-Kanade) Database**: This dataset contains 123 subjects displaying various facial expressions, including the six universal expressions and contempt. The authors specify that they use the first (neutral) and three apex frames for each of the 327 sequences for 8-class categorical FER.
+
+2. **BU-4D (BU-4DFE) Database**: This dataset includes 101 subjects, each displaying six acted categorical facial expressions with moderate head pose variations. The authors mention that they manually select neutral and apex frames for each sequence.
+
+3. **SFEW (Static Facial Expression in the Wild) Database**: This dataset consists of 700 images from 95 subjects displaying seven facial expressions in real-world conditions. The authors note that the evaluation is strictly person-independent.
+
+4. **BP4D Database**: This dataset contains 41 subjects performing tasks that elicit spontaneous expressions. The authors report results for 12 AUs based on this dataset.
+
+5. **DISFA (Denver Intensity of Spontaneous Facial Actions) Database**: This dataset includes videos of 27 subjects recorded while watching emotive stimuli, with manual labeling for 12 AUs.
+
+Now, I will gather the full citations for each dataset from the **References section** of the paper:
+
+- For **CK+ Database**:
+  > Patrick Lucey, Jeffrey F Cohn, Takeo Kanade, Jason Saragih, Zara Ambadar, and Iain Matthews. *The extended cohn-kanade dataset (CK+): A complete dataset for action unit and emotion-specified expression*. In CVPR Workshops, pages 94–101, 2010.
+
+- For **BU-4D Database**:
+  > Lijun Yin, Xiaochen Chen, Yi Sun, Tony Worm, and Michael Reale. *A high-resolution 3D dynamic facial expression database*. In FG, pages 1–6, 2008.
+
+- For **SFEW Database**:
+  > Abhinav Dhall, Roland Goecke, Simon Lucey, and Tom Gedeon. *Static facial expression analysis in tough conditions: Data, evaluation protocol and benchmark*. In ICCV Workshops, pages 2106–2112, 2011.
+
+- For **BP4D Database**:
+  > Xing Zhang, Lijun Yin, Jeffrey F Cohn, Shaun Canavan, Michael Reale, Andy Horowitz, Peng Liu, and Jeffrey M. Girard. *BP4D-spontaneous: a high-resolution spontaneous 3D dynamic facial expression database*. IVC, 32(10):692–706, 2014.
+
+- For **DISFA Database**:
+  > S Mohammad Mavadati, Mohammad H Mahoor, Kevin Bartlett, Philip Trinh, and Jeffrey F Cohn. *DISFA: A spontaneous facial action intensity database*. IEEE Transactions on Affective Computing, 4(2):151–160, 2013.
+
+After compiling this information, I will ensure that each dataset is clearly documented with its citation, ready for further processing or review.

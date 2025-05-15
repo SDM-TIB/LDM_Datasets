@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Shape-driven deep neural networks for fast acquisition of aortic 3D pressure and velocity flow fields" by Endrit Pajaziti et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract** to see if any datasets are mentioned. The abstract indicates that the study involves **3,000 CFD simulations performed on synthetically generated 3D aortic shapes**, which suggests that there is a dataset related to these simulations.
+
+Next, I will examine the **introduction** and **materials & methods** sections for more detailed descriptions of the datasets. In the introduction, the authors mention using a statistical shape model (SSM) built on **real patient-specific aortas (N=67)**, which indicates that there is a dataset of real patient aortas used to generate synthetic shapes.
+
+In the **materials & methods** section, specifically in **section 2.1 (Statistical Shape Modelling)**, the authors describe the dataset used for developing the SSM, which consists of **67 CMR images from patients diagnosed with coarctation of the aorta**. This dataset is crucial for understanding the shape modeling process.
+
+Additionally, in **section 2.3.1 (Data Interpolation and Principal Component Analysis)**, the authors mention that they generated **3,000 synthetic subjects** based on the SSM, which further confirms the existence of a synthetic dataset derived from the original patient data.
+
+Now, I will look at the **references section** to find full citations for the datasets mentioned:
+
+1. For the **real patient-specific aortas dataset**, the citation is:
+   > Bruse JL, McLeod K, Biglino G, Ntsinjana HN, Capelli C, Hsia TY, et al. *A statistical shape modelling framework to extract 3D shape biomarkers from medical imaging data: assessing arch morphology of repaired coarctation of the aorta*. BMC medical imaging. 2016;16(1):1-19.
+
+2. For the **synthetic dataset of 3,000 aortic shapes**, while it is derived from the SSM, it does not have a separate citation since it is generated from the original patient data. However, the methodology for generating synthetic data is discussed in the paper itself.
+
+After gathering this information, I will summarize the datasets as follows:
+
+- **Real Patient-Specific Aortas Dataset**: Contains CMR images from 67 patients diagnosed with coarctation of the aorta, used to build the statistical shape model.
+- **Synthetic Aortic Shapes Dataset**: Comprises 3,000 synthetic aortic shapes generated from the statistical shape model based on the real patient data.
+
+Finally, I will compile the dataset entries into a structured format for further processing or review.

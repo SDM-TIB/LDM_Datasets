@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Q-Learning to navigate turbulence without a map" by Marco Rando et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methods, and results sections** of the paper. The abstract provides a brief overview of the study and may mention specific datasets used for training or evaluation. The introduction often discusses the context and significance of the research, which may include references to datasets.
+
+Next, I will focus on the **Materials and Methods section**, as this is where the authors typically describe the datasets in detail. In this section, I will look for any explicit mentions of datasets, including their names, characteristics, and how they were used in the experiments. 
+
+In the provided text, I notice a section titled **Data description**, which outlines the datasets used for training the agents. The authors mention a set of 2598 matrices, each representing odor intensity at various positions over time. This is a clear indication of a dataset that I need to document.
+
+The specific details provided in the text include:
+- The shape of the matrices: 1225 x 280
+- The number of time slices: 2598
+- The noise level threshold: 3 x 10^-6
+- The source location: (20, 142)
+
+Now, I will check the **References section** to find the full citations for any datasets mentioned. However, in this case, the dataset appears to be derived from simulations rather than a previously published dataset, so I will note that the data is generated from direct numerical simulations of the Navier-Stokes equations.
+
+Based on this information, I will compile the dataset entry as follows:
+
+1. **Dataset Name**: Odor intensity dataset from numerical simulations
+   - **Description**: A set of 2598 matrices representing odor intensity at various positions over time, derived from direct numerical simulations of turbulence.
+   - **Shape**: 1225 x 280
+   - **Number of time slices**: 2598
+   - **Noise level threshold**: 3 x 10^-6
+   - **Source location**: (20, 142)
+
+Since this dataset is generated from simulations and does not have a traditional citation, I will note that it is based on the authors' own simulations as described in the paper.
+
+Finally, I will ensure that all extracted information is organized and ready for any required output format, while maintaining the integrity of the dataset descriptions and citations.

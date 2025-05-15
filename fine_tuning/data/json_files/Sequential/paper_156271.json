@@ -1,0 +1,78 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Electricity demand data collected in the UK region, used for forecasting tasks.",
+        "dcterms:title": "UK National Electricity Demand",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://transparency.entsoe.eu",
+        "dcat:theme": ["Electricity Demand", "Forecasting"],
+        "dcat:keyword": ["Electricity demand", "UK", "Forecasting"],
+        "dcat:landingPage": "https://transparency.entsoe.eu",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": ["Electricity Demand Forecasting"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Observations of temperature used to model relationships between weather and electricity demand.",
+        "dcterms:title": "Temperature Observations",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": ["Weather Data", "Electricity Demand"],
+        "dcat:keyword": ["Temperature", "Weather", "Electricity demand"],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": ["Electricity Demand Forecasting"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Historical bank holidays data used as dummy variables to model human activity impacts on electricity demand.",
+        "dcterms:title": "Historical Bank Holidays",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": ["Calendar Data", "Electricity Demand"],
+        "dcat:keyword": ["Bank holidays", "Human activity", "Electricity demand"],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": ["Electricity Demand Forecasting"]
+    },
+    {
+        "dcterms:creator": [
+            "S. Matthew"
+        ],
+        "dcterms:description": "Textual data from BBC used as a corpus for extracting features related to electricity demand forecasting.",
+        "dcterms:title": "Textual Data from BBC",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://dracos.co.uk/made/bbc-news-archive/archive.php",
+        "dcat:theme": ["Text Data", "Electricity Demand"],
+        "dcat:keyword": ["Textual data", "BBC", "News", "Electricity demand"],
+        "dcat:landingPage": "https://dracos.co.uk/made/bbc-news-archive/archive.php",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": ["Electricity Demand Forecasting"]
+    },
+    {
+        "dcterms:creator": [
+            "Y. Bai",
+            "S. Camal",
+            "A. Michiorri"
+        ],
+        "dcterms:description": "Text features derived from previous work, including various textual features that influence electricity demand forecasting.",
+        "dcterms:title": "Text Features from Previous Work",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:2301.07535",
+        "dcat:theme": ["Text Data", "Electricity Demand"],
+        "dcat:keyword": ["Text features", "Electricity demand", "Forecasting"],
+        "dcat:landingPage": "https://arxiv.org/abs/2301.07535",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": ["Electricity Demand Forecasting"]
+    }
+]

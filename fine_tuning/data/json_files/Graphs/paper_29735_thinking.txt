@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "MACE: Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields" by Ilyes Batatia et al., I will follow a systematic approach.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract states that the authors demonstrate the effectiveness of their model on benchmark tasks, which suggests that datasets are involved.
+
+Next, I will look for specific mentions of datasets in the **results** and **experiments** sections. In the results section, the authors discuss their performance on the **rMD17**, **3BPA**, and **AcAc** benchmark tasks. This indicates that these are the datasets used for evaluation.
+
+I will then check the **appendix** for detailed descriptions of these datasets. The appendix provides the following information:
+
+1. **rMD17 Dataset**: This dataset contains five train-test splits of ten different small organic molecules, with each split consisting of 1000 configurations sampled from a long molecular dynamics simulation at 500 K computed with DFT.
+
+2. **3BPA Dataset**: This dataset includes DFT train-test splits of a flexible drug-like organic molecule sampled from different temperature molecular dynamics trajectories. The training set consists of 500 snapshots sampled at 300 K, with tests conducted at 300 K, 600 K, and 1200 K.
+
+3. **AcAc Dataset**: This dataset contains trajectories of a small reactive molecule sampled at different temperatures. The training is done on snapshots at 300 K, and testing is performed on independent sets sampled at 300 K and 600 K.
+
+Next, I will locate the **References section** to find full citations for these datasets. The citations are as follows:
+
+- For the **rMD17 Dataset**, the citation is:
+  > Anders S. Christensen and O. Anatole von Lilienfeld. *On the role of gradients for machine learning of molecular energies and forces*. Machine Learning: Science and Technology, 1, 2020. doi: 10.1088/2632-2153/abba6f.
+
+- For the **3BPA Dataset**, the citation is:
+  > Dávid Péter Kovács et al. *Linear atomic cluster expansion force fields for organic molecules: Beyond RMSE*. Journal of Chemical Theory and Computation, 17(12):7696–7711, 2021. doi: 10.1021/acs.jctc.1c00647.
+
+- For the **AcAc Dataset**, the citation is:
+  > Ilyes Batatia et al. *The design space of E(3)-equivariant atom-centered interatomic potentials*. arXiv preprint arXiv:2205.06643, 2022.
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented with its corresponding citation.

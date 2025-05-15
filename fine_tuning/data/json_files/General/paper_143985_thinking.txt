@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Exploiting the Layered Intrinsic Dimensionality of Deep Models for Practical Adversarial Training" by Enes Altinisik et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the research and may mention specific datasets used for evaluation.
+
+Next, I will focus on the **experiments section**, as this is where the authors typically describe the datasets used for their experiments. I will look for any tables or figures that summarize the datasets, as well as any text that describes their characteristics.
+
+In the **experiments section**, I find that the authors mention three datasets used for robustifying sentiment classifiers: 
+
+1. **AG-News Corpus (AGNEWS)**: This dataset contains over 120,000 samples categorized into four classes: World, Sports, Business, and Sci/Tech.
+2. **Internet Movie Database (IMDB)**: This dataset consists of 50,000 movie reviews labeled with binary sentiments (positive or negative).
+3. **Yelp Review Polarity (YELP)**: This dataset contains nearly 600,000 samples of Yelp reviews with binary labels, although only a subset of 63,000 samples was used in the experiments.
+
+Additionally, the authors mention two datasets used for evaluating safety filters: 
+
+1. **AdvBench**: A dataset designed for evaluating the robustness of safety filters against adversarial attacks.
+2. **Helpfulness-Harmfulness Human Preference dataset (HH-RLHF)**: This dataset includes prompts classified as harmful or helpful.
+
+I will now check the **References section** to find the full citations for these datasets. 
+
+- For **AGNEWS**, the citation is:
+  > Zhang, Xiang, Junbo Zhao, and Yann LeCun. "Character-level convolutional networks for text classification." In NeurIPS, 2015.
+
+- For **IMDB**, the citation is:
+  > Maas, Andrew L., Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. "Learning word vectors for sentiment analysis." In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies, pages 142–150, 2011.
+
+- For **Yelp**, the citation is:
+  > Zhang, Xiang, Junbo Zhao, and Yann LeCun. "Character-level convolutional networks for text classification." In NeurIPS, 2015.
+
+- For **AdvBench**, the citation is:
+  > Zou, Andy, Zifan Wang, J Zico Kolter, and Matt Fredrikson. "Universal and transferable adversarial attacks on aligned language models." arXiv preprint arXiv:2307.15043, 2023.
+
+- For **HH-RLHF**, the citation is:
+  > Bai, Yuntao, et al. "Training a helpful and harmless assistant with reinforcement learning from human feedback." arXiv preprint arXiv:2204.05862, 2022.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

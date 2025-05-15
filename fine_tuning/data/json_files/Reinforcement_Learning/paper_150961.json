@@ -1,0 +1,278 @@
+[
+    {
+        "dcterms:creator": [
+            "Volodymyr Mnih",
+            "Koray Kavukcuoglu",
+            "David Silver",
+            "Andrei A. Rusu",
+            "Joel Veness",
+            "Matteo Hessel",
+            "Greg Wayne",
+            "M. G. Bellemare",
+            "Yoshua Bengio",
+            "Demis Hassabis"
+        ],
+        "dcterms:description": "The Atari 2600 environment is a popular test platform for reinforcement learning, which includes various games such as Breakout, MsPacman, and Space Invaders. It has become a standard environment for testing new reinforcement learning algorithms.",
+        "dcterms:title": "Atari 2600",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "arxiv:1312.5602",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Gaming"
+        ],
+        "dcat:keyword": [
+            "Atari games",
+            "Reinforcement learning",
+            "Deep Q-Networks"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Volodymyr Mnih",
+            "Koray Kavukcuoglu",
+            "David Silver",
+            "Andrei A. Rusu",
+            "Joel Veness",
+            "Matteo Hessel",
+            "Greg Wayne",
+            "M. G. Bellemare",
+            "Yoshua Bengio",
+            "Demis Hassabis"
+        ],
+        "dcterms:description": "DQN is a reinforcement learning algorithm that approximates the action value function using a deep neural network and updates the network through the Bellman equation using historical data.",
+        "dcterms:title": "DQN (Deep Q-Networks)",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "arxiv:1312.5602",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Deep Learning"
+        ],
+        "dcat:keyword": [
+            "Deep Q-Network",
+            "Reinforcement learning",
+            "Neural networks"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "John Schulman",
+            "Filip Wolski",
+            "Prafulla Dhariwal",
+            "Alec Radford",
+            "Oleg Klimov"
+        ],
+        "dcterms:description": "GAE is a technique that reduces the bias of the policy gradient estimate by using an exponentially weighted estimate similar to the advantage function.",
+        "dcterms:title": "GAE (Generalized Advantage Estimation)",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "arxiv:1506.02438",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Policy Optimization"
+        ],
+        "dcat:keyword": [
+            "Advantage estimation",
+            "Policy gradient",
+            "Variance reduction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "John Schulman",
+            "Filip Wolski",
+            "Prafulla Dhariwal",
+            "Alec Radford",
+            "Oleg Klimov"
+        ],
+        "dcterms:description": "TRPO is a policy optimization algorithm that introduces the trust region approach in optimization theory to policy optimization, representing the policy update process as a constrained optimization problem.",
+        "dcterms:title": "TRPO (Trust Region Policy Optimization)",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Policy Optimization"
+        ],
+        "dcat:keyword": [
+            "Trust region",
+            "Policy optimization",
+            "Constrained optimization"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "John Schulman",
+            "Filip Wolski",
+            "Prafulla Dhariwal",
+            "Alec Radford",
+            "Oleg Klimov"
+        ],
+        "dcterms:description": "PPO is a policy optimization algorithm that has two main variants, PPO-CLIP and PPO-PENALTY, which use different methods to ensure constraint satisfaction during policy updates.",
+        "dcterms:title": "PPO (Proximal Policy Optimization)",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "arxiv:1707.06347",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Policy Optimization"
+        ],
+        "dcat:keyword": [
+            "Proximal policy optimization",
+            "Policy gradient",
+            "Variance reduction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Matteo Hessel",
+            "Vitchyr Pong",
+            "John Schulman",
+            "Hado van Hasselt",
+            "Geoffrey Hinton"
+        ],
+        "dcterms:description": "Rainbow DQN integrates several improvements in deep reinforcement learning and uses a multi-step learning approach to calculate the error.",
+        "dcterms:title": "Rainbow DQN",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Deep Learning"
+        ],
+        "dcat:keyword": [
+            "Deep Q-Network",
+            "Reinforcement learning",
+            "Multi-step learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Meire Fortunato",
+            "A. A. Rusu",
+            "M. G. Bellemare",
+            "Yoshua Bengio",
+            "Demis Hassabis"
+        ],
+        "dcterms:description": "NoisyNet enhances exploration in reinforcement learning by adding random noise to the fully connected layers of the network.",
+        "dcterms:title": "NoisyNet",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "arxiv:1706.10295",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Exploration"
+        ],
+        "dcat:keyword": [
+            "Exploration",
+            "Noisy networks",
+            "Deep learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Hado van Hasselt",
+            "Arthur Guez",
+            "David Silver"
+        ],
+        "dcterms:description": "Double Q-learning mitigates the problem of overestimating the action value function in DQN by introducing a target network in the update process.",
+        "dcterms:title": "Double Q-learning",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Value-based Learning"
+        ],
+        "dcat:keyword": [
+            "Double Q-learning",
+            "Reinforcement learning",
+            "Value function"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Ziyu Wang",
+            "N. M. Marwah",
+            "M. G. Bellemare",
+            "Yoshua Bengio"
+        ],
+        "dcterms:description": "Dueling Network architecture decomposes the action value function into a state value function and an advantage function, improving the learning efficiency of DQN.",
+        "dcterms:title": "Dueling Network",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Deep Learning"
+        ],
+        "dcat:keyword": [
+            "Dueling network",
+            "Reinforcement learning",
+            "Value function"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Tom Schaul",
+            "John Schulman",
+            "Dan Horgan",
+            "Geoffrey Hinton"
+        ],
+        "dcterms:description": "Prioritized Experience Replay prioritizes the use of data with larger TD errors for network updates, improving learning efficiency.",
+        "dcterms:title": "Prioritized Experience Replay",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "arxiv:1511.05952",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Experience Replay"
+        ],
+        "dcat:keyword": [
+            "Experience replay",
+            "Reinforcement learning",
+            "Prioritization"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "MiVOLO: Multi-input Transformer for Age and Gender Estimation" by Maksim Kuprashevich and Irina Tolstykh, I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and datasets sections** of the paper. The abstract mentions that the authors evaluate their model on five popular benchmarks, which indicates that multiple datasets are involved.
+
+Next, I will focus on **section 3 (Datasets)**, where the authors provide detailed descriptions of the datasets used in their experiments. This section is crucial as it explicitly lists the datasets and their characteristics.
+
+The datasets mentioned in the paper are:
+
+1. **IMDB-Clean**: This dataset consists of 183,886 training images, 45,971 validation images, and 56,086 test images. It is noted for its bias towards celebrity images, which may affect generalization in real-world applications.
+
+2. **UTKFace**: This dataset includes cropped face images with annotations for age and gender. The authors mention that they performed backward matching to the original full-sized images and used a specific split for training and validation.
+
+3. **FairFace**: This dataset contains 86,744 training images and 10,954 validation images, with attributes covering race, gender, and age categorized into nine classes. It is highlighted for its balanced representation across races.
+
+4. **Adience**: The Adience dataset consists of 26,580 facial images depicting 2,284 subjects across eight age group classes. It includes labels for binary gender classification.
+
+5. **AgeDB**: This dataset includes 16,488 facial images with annotations for gender and age. The authors mention that the images are face crops.
+
+6. **Layer Age Gender Dataset (LAGENDA)**: This is a new benchmark introduced by the authors, comprising 67,159 images with 84,192 persons, annotated for age and gender. The dataset was created from images sampled from the Open Images Dataset and annotated through a crowd-sourcing platform.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- **IMDB-Clean**: 
+  > Yiming Lin, Jie Shen, Yujiang Wang, and Maja Pantic. *FP-Age: Leveraging Face Parsing Attention for Facial Age Estimation in the Wild*. arXiv, 2021.
+
+- **UTKFace**: 
+  > Zhifei Zhang, Yang Song, and Hairong Qi. *Age Progression/Regression by Conditional Adversarial Autoencoder*. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, 2017.
+
+- **FairFace**: 
+  > Kimmo Karkkainen and Jungseock Joo. *FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age for Bias Measurement and Mitigation*. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, pages 1548–1558, 2021.
+
+- **Adience**: 
+  > Eran Eidinger, Roee Enbar, and Tal Hassner. *Age and Gender Estimation of Unfiltered Faces*. IEEE Transactions on Information Forensics and Security, 9(12):2170–2179, 2014.
+
+- **AgeDB**: 
+  > Stylianos Moschoglou, Athanasios Papaioannou, Christos Sagonas, Jiankang Deng, Irene Kotsia, and Stefanos Zafeiriou. *AgeDB: The First Manually Collected, In-the-Wild Age Database*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshop, volume 2, page 5, 2017.
+
+- **Layer Age Gender Dataset (LAGENDA)**: 
+  > This dataset is introduced in the paper itself, so it does not have a separate citation but can be referenced as: Maksim Kuprashevich and Irina Tolstykh. *MiVOLO: Multi-input Transformer for Age and Gender Estimation*. 2023.
+
+Now that I have gathered all the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing or review.

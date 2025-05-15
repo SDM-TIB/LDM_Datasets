@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Monocular Semantic Occupancy Grid Mapping with Convolutional Variational Encoder-Decoder Networks" by Chenyang Lu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions evaluations on the **Cityscapes** and **KITTI** datasets, indicating that these are the primary datasets used in the research. This is a good starting point for identifying the datasets.
+
+Next, I will look into **section IV (Experiments)**, where the authors provide detailed information about the datasets used. Here, they explicitly state that they use the **Cityscapes dataset** for ground truth generation and experiments, and the **KITTI dataset** to verify the generalizability of their approach. This confirms that both datasets are indeed utilized in their experiments.
+
+In section IV.A, the authors describe the **Cityscapes dataset** as providing stereo images with disparity and fine semantic annotations for each pixel. They mention using 2975 images from the training set and 500 images from the validation set. This section provides a clear description of how the dataset is used in their work.
+
+For the **KITTI dataset**, the authors mention that it contains 200 images with publicly available semantic annotations, depth maps, and camera parameters. They also describe how they generate weak ground truth for training using this dataset.
+
+Now, I will refer to the **References section** to gather the full citations for both datasets:
+
+1. For the **Cityscapes dataset**, the citation is:
+   > Cordts, M., Omran, M., Ramos, S., Rehfeld, T., Enzweiler, M., Benenson, R., Franke, U., Roth, S., & Schiele, B. (2016). The Cityscapes Dataset for Semantic Urban Scene Understanding. In *CVPR*, 3213–3223.
+
+2. For the **KITTI dataset**, the citation is:
+   > Geiger, A., Lenz, P., Stiller, C., & Urtasun, R. (2013). Vision meets robotics: The KITTI dataset. *IJRR*, 32(11), 1231–1237.
+
+Having gathered this information, I will summarize the datasets as follows:
+
+- **Cityscapes Dataset**: Used for ground truth generation and experiments, providing stereo images with disparity and fine semantic annotations.
+- **KITTI Dataset**: Used to verify the generalizability of the proposed approach, containing images with semantic annotations, depth maps, and camera parameters.
+
+Finally, I will compile the dataset entries into a structured format for further processing or review.

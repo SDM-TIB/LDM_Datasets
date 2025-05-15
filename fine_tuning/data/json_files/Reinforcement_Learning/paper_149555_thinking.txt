@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Predicting Defects in Laser Powder Bed Fusion using in-situ Thermal Imaging" by Sina Malakpour Estalaki et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the study's objectives and methods, which may hint at the datasets used.
+
+Next, I will focus on the **Data and Models section**, as it is likely to contain detailed information about the datasets utilized in the study. Here, the authors describe the experimental setup, including the type of material used (304L stainless steel) and the process of data collection through in-situ thermographic imaging. They mention that the binary labels for the voxels are obtained by registering the thermal feature voxel reconstruction with post-processed μ-CT data.
+
+In this section, I will look for specific mentions of datasets, including any references to external datasets or data collection methods. The authors indicate that they used ex-situ μ-CT data to characterize the microporosity of the material, which suggests that this data is crucial for their analysis.
+
+I will also check the **Acknowledgements and References sections** to find any citations related to the datasets. The authors acknowledge the data provided by Honeywell Federal Manufacturing and Technologies, which may imply that this data is part of their dataset.
+
+Now, I will compile the information I have gathered:
+
+1. **Thermal Imaging Data**: This dataset consists of thermal features extracted from the in-situ short-wave infrared (SWIR) imaging of the LPBF process. The authors do not provide a formal citation for this dataset, but it is crucial for their machine learning models.
+
+2. **μ-CT Data**: The authors mention that the binary voxel labels are derived from μ-CT data, which is used to characterize the porosity of the material. The μ-CT data is referenced in the context of previous studies, but the authors do not provide a specific citation for the dataset they used.
+
+3. **Honeywell Data**: The authors acknowledge the data provided by Honeywell Federal Manufacturing and Technologies, which is likely a proprietary dataset used in their experiments. However, no specific citation is provided.
+
+Next, I will look for full citations for any datasets mentioned in the references. The μ-CT data is often referenced in the literature, so I will check the references for relevant citations.
+
+After reviewing the references, I find the following relevant citations:
+
+- For μ-CT data, a commonly cited source is:
+  > H. Paulson, B. Gould, S.J. Wolff, M. Stan, A.C. Greco, "Correlations between thermal history and keyhole porosity in laser powder bed fusion," *Additive Manufacturing*, 34 (2020), pp. 1-10. https://doi.org/10.1016/j.addma.2020.101213.
+
+- The acknowledgment of data from Honeywell does not have a formal citation, but it is important to note that this data is proprietary.
+
+Now, I will summarize the datasets identified in the paper, ensuring to include full citations where applicable. 
+
+In conclusion, I will compile the dataset entries into a structured format for further processing or review.

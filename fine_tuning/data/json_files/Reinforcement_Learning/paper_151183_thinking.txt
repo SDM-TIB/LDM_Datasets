@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Explaining Text Classifiers with Counterfactual Representations" by Pirmin Lemberger and Antoine Saillenfest, I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract and introduction** sections to identify any datasets mentioned. The abstract indicates that experiments were conducted on both a synthetic dataset and a realistic dataset, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4 (Datasets and training details)**, as this section is likely to contain explicit mentions of the datasets used in the experiments. Here, the authors introduce three datasets:
+
+1. **EEEC+**: This is a synthetic dataset designed to evaluate the impact of protected attributes on mood state classification. The authors mention that it consists of 40,000 observations, with specific distributions for gender, race, and mood states. 
+
+2. **CEBaB**: This dataset is described as a realistic benchmark for assessing causal effects on sentiment classification tasks. It includes 2,299 original restaurant reviews and human-edited counterfactual reviews, totaling 5,117 observations.
+
+3. **BiasInBios**: This real-world dataset is used to study gender biases in biography classification tasks. It contains 399,423 biographies and is noted for its significant gender bias.
+
+After identifying these datasets, I will look into the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For **EEEC+**, the citation is:
+  > Amir Feder, Yair Gat, Christopher Potts, Roi Reichart, and Zhengxuan Wu. *Causal Model Explanation through Counterfactual Language Models*. In Advances in Neural Information Processing Systems, 35:17582–17596, 2022.
+
+- For **CEBaB**, the citation is:
+  > Eldar D Abraham, Karel D’Oosterlinck, Amir Feder, Yair Gat, Atticus Geiger, Christopher Potts, Roi Reichart, and Zhengxuan Wu. *CEBaB: Estimating the causal effects of real-world concepts on NLP model behavior*. In Advances in Neural Information Processing Systems, 35:17582–17596, 2022.
+
+- For **BiasInBios**, the citation is:
+  > Maria De-Arteaga, Alexey Romanov, Hanna Wallach, Jennifer Chayes, Christian Borgs, Alexandra Chouldechova, Sahin Geyik, Krishnaram Kenthapadi, and Adam Tauman Kalai. *Bias in bios: A case study of semantic representation bias in a high-stakes setting*. In Proceedings of the Conference on Fairness, Accountability, and Transparency, pages 120–128, 2019.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or analysis.

@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Mask is All You Need: Rethinking Mask R-CNN for Dense and Arbitrary-Shaped Scene Text Detection" by Xugong Qin et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the proposed method achieves state-of-the-art performance on five benchmarks, suggesting that datasets are involved.
+
+Next, I will focus on **section 4 (Experiments)**, specifically **subsection 4.1 (Datasets)**, where the authors explicitly list the datasets used for their experiments. Here, I will find the following datasets:
+
+1. **DAST1500**: This dataset is described as a dense and arbitrary-shaped text detection dataset, containing 1,038 training images and 500 testing images, with polygon annotations provided at the text line level.
+
+2. **RotDAST**: This dataset is generated from DAST1500 by rotating the images and annotations in the test set at specific angles (0°, 15°, 30°, 45°, 60°, 75°, and 90°) to test rotation robustness.
+
+3. **MSRA-TD500**: A multilingual dataset focusing on oriented text lines, consisting of 300 training images and 200 testing images. The authors mention augmenting the training set with additional images from HUST-TR400.
+
+4. **ICDAR2015**: This dataset includes 1,000 training images and 500 testing images, with text regions annotated using quadrilaterals.
+
+5. **CTW1500**: This dataset contains 1,000 training images and 500 testing images, with a total of 10,751 text instances, including curved texts, annotated with 14-point polygons.
+
+6. **Total-Text**: This dataset has 1,255 training images and 300 testing images, containing curved texts as well as horizontal and multi-oriented texts, with each text labeled as a polygon at the word level.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For **DAST1500**:
+  > Jun Tang, Zhibo Yang, Yongpan Wang, Qi Zheng, Yongchao Xu, and Xiang Bai. *SegLink++: Detecting dense and arbitrary-shaped scene text by instance-aware component grouping*. PR, 2019.
+
+- For **MSRA-TD500**:
+  > Cong Yao, Xiang Bai, Wenyu Liu, Yi Ma, and Zhuowen Tu. *Detecting texts of arbitrary orientations in natural images*. In CVPR, 2012.
+
+- For **ICDAR2015**:
+  > Dimosthenis Karatzas, Lluis Gomez-Bigorda, Anguelos Nicolaou, Suman Ghosh, Andrew Bagdanov, Masakazu Iwamura, Jiri Matas, Lukas Neumann, Vijay Ramaseshan Chandrasekhar, Shijian Lu, et al. *ICDAR 2015 competition on robust reading*. In ICDAR, 2015.
+
+- For **CTW1500**:
+  > Yuliang Liu, Lianwen Jin, Shuaitao Zhang, Canjie Luo, and Sheng Zhang. *Curved scene text detection via transverse and longitudinal sequence connection*. PR, 2019.
+
+- For **Total-Text**:
+  > Chee Kheng Ch’ng and Chee Seng Chan. *Total-text: A comprehensive dataset for scene text detection and recognition*. In ICDAR, 2017.
+
+Now that I have gathered all the necessary information about the datasets and their citations, I will compile this into a structured format for further processing or review.

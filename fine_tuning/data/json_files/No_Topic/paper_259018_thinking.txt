@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Applying Graph-based Deep Learning To Realistic Network Scenarios" by Miquel Ferriol-Galmés et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and evaluation sections** to locate any references to datasets. The abstract provides a brief overview of the research, and while it may not explicitly mention datasets, it sets the context for the work. The introduction often discusses the background and may reference existing datasets used in related work.
+
+Next, I will focus on the **methodology section**, particularly the **Simulation Setup** subsection, where the authors describe how they built their ground truth using a packet-level network simulator (OMNeT++). Here, they mention generating input traffic matrices, which indicates the use of synthetic datasets rather than publicly available datasets. I will note this as a dataset but will also look for any specific datasets mentioned.
+
+In the **Evaluation section**, the authors discuss the topologies used for training and evaluation. They mention three different real-world topologies: NSF network topology, GEANT topology, and German Backbone Network (GBN). I will extract these as datasets since they are used for training and evaluating the model.
+
+Now, I will consult the **References section** to find full citations for the datasets mentioned. The topologies are often referenced in the literature, so I will look for their original sources:
+
+1. **NSF Network Topology**: The citation is:
+   > Xiaojun Hei and Jun Zhang. *Wavelength converter placement in least-load-routing-based optical networks using genetic algorithms*. Journal of Optical Networking, 3(5):363–378, 2004.
+
+2. **GEANT Topology**: The citation is:
+   > Fernando Barreto, Emílio CG Wille, and Luiz Nacamura Jr. *Fast emergency paths schema to overcome transient link failures in OSPF routing*. arXiv preprint arXiv:1204.2465, 2012.
+
+3. **German Backbone Network (GBN)**: The citation is:
+   > João Pedro, João Santos, and João Pires. *Performance evaluation of integrated OTN/DWDM networks with single-stage multiplexing of optical channel data units*. In 2011 13th International Conference on Transparent Optical Networks, pages 1–4. IEEE, 2011.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and includes the full citation. This will provide a comprehensive overview of the datasets utilized in the research paper, ready for further processing or review.

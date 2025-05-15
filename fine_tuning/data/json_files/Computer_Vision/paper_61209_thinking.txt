@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Mitigating Data Imbalance and Representation Degeneration in Multilingual Machine Translation" by Wen Lai et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses challenges in multilingual neural machine translation (MNMT) and hints at the use of bilingual dictionaries and monolingual data, which suggests that datasets may be involved.
+
+Next, I will focus on the **experiments section** where the authors describe their methodology and the datasets used. In this section, they mention conducting experiments in three settings: bilingual, multilingual, and high-resource. They specifically state that they selected language pairs with low BLEU scores from the m2m_100 model and used monolingual data from news-crawl and CCAligned.
+
+I will look for specific dataset names and details. The authors mention using monolingual data from **news-crawl** and **CCAligned** for their experiments. They also refer to bilingual dictionaries extracted using the **wiktextextract** tool, which is crucial for their methodology.
+
+Now, I will check the **References section** to find full citations for these datasets:
+
+1. For **news-crawl**, the citation is:
+   > "News Crawl Dataset." Available at: https://data.statmt.org/news-crawl.
+
+2. For **CCAligned**, the citation is:
+   > El-Kishky, A., Chaudhary, V., Guzmán, F., & Koehn, P. (2020). CCAligned: A massive collection of cross-lingual web-document pairs. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 5960–5969, Online. Association for Computational Linguistics.
+
+3. For the **wiktextextract** tool, the citation is:
+   > "wiktextextract." Available at: https://github.com/tatuylonen/wiktextract.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research paper.

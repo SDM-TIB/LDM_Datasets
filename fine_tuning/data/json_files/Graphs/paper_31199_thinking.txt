@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "EspalomaCharge: Machine learning-enabled ultra-fast partial charge assignment" by Yuanqing Wang et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract highlights the use of a hybrid approach for charge assignment and mentions the **SPICE dataset** as a key component for training the model. This indicates that there are datasets relevant to the research.
+
+Next, I will focus on the **experiments section**, where the authors describe the datasets used for training and testing their model. In this section, they explicitly mention several datasets:
+
+1. **SPICE Dataset**: This dataset is used for training the model and consists of drug-like small molecules and peptides. It is curated to cover a wide chemical space relevant to biomolecular simulations.
+
+2. **FDA Approved Dataset**: This dataset includes FDA-approved small molecules filtered by size and element composition, which is used to test the generalizability of the model.
+
+3. **ZINC250K Dataset**: A popular dataset for machine learning, which is a random subsample of the original ZINC dataset, used for evaluating the model's performance.
+
+4. **FreeSolv Dataset**: This dataset contains small molecules with experimentally measured hydration free energies, used to assess the impact of charge models on hydration free energy predictions.
+
+Now, I will check the **references section** to find the full citations for each dataset mentioned:
+
+- For the **SPICE dataset**, the citation is:
+  > Eastman, P., Behara, P. K., Dotson, D. L., Galvelis, R., Herr, J. E., Horton, J. T., Mao, Y., Chodera, J. D., Pritchard, B. P., Wang, Y., De Fabritiis, G., and Markland, T. E. (2022). *SPICE, a dataset of drug-like molecules and peptides for training machine learning potentials*. 
+
+- For the **FDA Approved Dataset**, the citation is:
+  > Source: https://github.com/openforcefield/qca-dataset-submission/tree/master/submissions/2019-09-08-fda-optimization-dataset-1
+
+- For the **ZINC250K Dataset**, the citation is:
+  > Gómez-Bombarelli, R., Wei, J. N., Duvenaud, D., Hernández-Lobato, J. M., Sánchez-Lengeling, B., Sheberla, D., Aguilera-Iparraguirre, J., Hirzel, T. D., Adams, R. P., and Aspuru-Guzik, A. (2018). *Automatic chemical design using a data-driven continuous representation of molecules*. ACS Central Science, 4(2):268–276.
+
+- For the **FreeSolv Dataset**, the citation is:
+  > Mobley, D. L., Bannan, C. C., Rizzi, A., Bayly, C. I., Chodera, J. D., Lim, V. T., Lim, N. M., Beauchamp, K. A., Shirts, M. R., Gilson, M. K., et al. (2018). *Open force field consortium: Escaping atom types using direct chemical perception with smirnoff v0. 1*. BioRxiv, page 286542.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets utilized in the research paper, ready for further processing or review.

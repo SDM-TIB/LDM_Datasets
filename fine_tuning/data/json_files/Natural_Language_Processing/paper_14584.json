@@ -1,0 +1,499 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A new benchmark for image deraining consisting of 5,000 paired high-resolution synthetic images with higher harmony and realism.",
+        "dcterms:title": "HQ-RAIN",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Benchmark Dataset"
+        ],
+        "dcat:keyword": [
+            "Image deraining",
+            "Synthetic images",
+            "Benchmark"
+        ],
+        "dcat:landingPage": "http://www.deraining.tech/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Yang",
+            "R. T. Tan",
+            "J. Feng",
+            "Z. Guo",
+            "S. Yan",
+            "J. Liu"
+        ],
+        "dcterms:description": "Contains 1,800 synthetic image pairs for training and 100 for testing, where clear images are selected from the BSD dataset. Rain streaks are created using simulated line streaks or photorealistic rendering techniques.",
+        "dcterms:title": "Rain100L",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Synthetic Dataset"
+        ],
+        "dcat:keyword": [
+            "Synthetic images",
+            "Rain streaks",
+            "Image deraining"
+        ],
+        "dcat:landingPage": "https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Yang",
+            "R. T. Tan",
+            "J. Feng",
+            "Z. Guo",
+            "S. Yan",
+            "J. Liu"
+        ],
+        "dcterms:description": "Contains 1,800 synthetic image pairs for training and 200 for testing, created based on the original Rain100L dataset by filtering out duplicate background images.",
+        "dcterms:title": "Rain200L",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Synthetic Dataset"
+        ],
+        "dcat:keyword": [
+            "Synthetic images",
+            "Rain streaks",
+            "Image deraining"
+        ],
+        "dcat:landingPage": "https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Yang",
+            "R. T. Tan",
+            "J. Feng",
+            "Z. Guo",
+            "S. Yan",
+            "J. Liu"
+        ],
+        "dcterms:description": "Contains 1,800 synthetic image pairs for training and 200 for testing, created based on the original Rain100H dataset by filtering out duplicate background images.",
+        "dcterms:title": "Rain200H",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Synthetic Dataset"
+        ],
+        "dcat:keyword": [
+            "Synthetic images",
+            "Rain streaks",
+            "Image deraining"
+        ],
+        "dcat:landingPage": "https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "X. Fu",
+            "J. Huang",
+ "D. Zeng",
+ "Y. Huang",
+ "X. Ding",
+ "J. Paisley"
+        ],
+        "dcterms:description": "Contains 12,600 image pairs for training and 1,400 for testing, where clear images are selected from the BSD dataset, UCID dataset, and Google image search. Each clear image is used to generate 14 synthetic images with different rain directions and density levels.",
+        "dcterms:title": "DDN-Data (Rain1400)",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Synthetic Dataset"
+        ],
+        "dcat:keyword": [
+            "Synthetic images",
+            "Rain streaks",
+            "Image deraining"
+        ],
+        "dcat:landingPage": "https://xueyangfu.github.io/projects/cvpr2017.html",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Zhang",
+            "V. M. Patel"
+        ],
+        "dcterms:description": "Consists of 12,000 synthetic training pairs and 1,200 test pairs with three rain density levels (i.e., light, medium, and heavy).",
+        "dcterms:title": "DID-Data (Rain1200)",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Synthetic Dataset"
+        ],
+        "dcat:keyword": [
+            "Synthetic images",
+            "Rain streaks",
+            "Image deraining"
+        ],
+        "dcat:landingPage": "https://github.com/hezhangsprinter/DID-MDN",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. Qian",
+            "R. T. Tan",
+            "W. Yang",
+            "J. Su",
+            "J. Liu"
+        ],
+        "dcterms:description": "The first raindrop removal dataset, containing 1,119 pairs of raindrop images with varied backgrounds using a camera with two aligned pieces of glass (one sprayed with water, and the other is left clean).",
+        "dcterms:title": "RainDrop",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Synthetic Dataset"
+        ],
+        "dcat:keyword": [
+            "Raindrop removal",
+            "Synthetic images",
+            "Image deraining"
+        ],
+        "dcat:landingPage": "https://github.com/rui1996/DeRaindrop",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Zhang",
+            "W. Luo",
+            "W. Ren",
+            "J. Wang",
+            "F. Zhao",
+            "L. Ma",
+            "H. Li"
+        ],
+        "dcterms:description": "Includes 700 image pairs for training and 100 for testing, where the clear images are randomly chosen from the BSD dataset and UCID dataset.",
+        "dcterms:title": "Rain800",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Synthetic Dataset"
+        ],
+        "dcat:keyword": [
+            "Synthetic images",
+            "Rain streaks",
+            "Image deraining"
+        ],
+        "dcat:landingPage": "https://github.com/hezhangsprinter/ID-CGAN",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Yang",
+            "S. Wang",
+            "D. Xu",
+            "X. Wang",
+            "J. Liu"
+        ],
+        "dcterms:description": "The first paired real-world dataset which utilizes human-supervised percentile video filtering to obtain the ground truths. It contains 638,492 rainy/clear image patches for training and 1,000 testing ones.",
+        "dcterms:title": "SPA-Data",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Real Dataset"
+        ],
+        "dcat:keyword": [
+            "Real images",
+            "Image deraining",
+            "Ground truth"
+        ],
+        "dcat:landingPage": "https://github.com/stevewongv/SPANet",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "X. Hu",
+            "C.-W. Fu",
+            "L. Zhu",
+            "P.-A. Heng"
+        ],
+        "dcterms:description": "Made up of 262 training images and 33 test images from Cityscape’s training and validation sets, which are chosen as clear background images. The authors simulate rain and fog on the photographs using the camera settings and scene depth information.",
+        "dcterms:title": "RainCityscapes",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Synthetic Dataset"
+        ],
+        "dcat:keyword": [
+            "Synthetic images",
+            "Rain streaks",
+            "Image deraining"
+        ],
+        "dcat:landingPage": "https://github.com/xw-hu/DAF-Net",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. Li",
+            "L.-F. Cheong",
+            "R. T. Tan"
+        ],
+        "dcterms:description": "Contains 9,000 training samples and 1,500 test samples, where the clear backgrounds are obtained from previous datasets. It also considers depth information to synthesize rain accumulation.",
+        "dcterms:title": "Outdoor-Rain",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Real Dataset"
+        ],
+        "dcat:keyword": [
+            "Real images",
+            "Image deraining",
+            "Depth information"
+        ],
+        "dcat:landingPage": "https://github.com/liruoteng/HeavyRainRemoval",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Jiang",
+            "Z. Wang",
+            "P. Yi",
+            "C. Chen",
+            "B. Huang",
+            "Y. Luo",
+            "J. Ma",
+            "J. Jiang"
+        ],
+        "dcterms:description": "A mixed dataset collected from multiple previous datasets, consisting of 13,712 image pairs for training and 4,298 test images.",
+        "dcterms:title": "Rain13K",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Mixed Dataset"
+        ],
+        "dcat:keyword": [
+            "Mixed images",
+            "Image deraining",
+            "Synthetic images"
+        ],
+        "dcat:landingPage": "https://github.com/kuijiang94/MSPFN",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Zhang",
+            "W. Luo",
+            "W. Ren",
+            "J. Wang",
+            "F. Zhao",
+            "L. Ma",
+            "H. Li"
+        ],
+        "dcterms:description": "Two stereo image deraining datasets synthesized based on the KITTI stereo 2012 dataset and KITTI stereo 2015 dataset, containing 4,062 and 4,200 training pairs with various scenarios.",
+        "dcterms:title": "RainKITTI2012",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Stereo Dataset"
+        ],
+        "dcat:keyword": [
+            "Stereo images",
+            "Image deraining",
+            "Synthetic images"
+        ],
+        "dcat:landingPage": "https://github.com/HDCVLab/Stereo-Image-Deraining",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Zhang",
+            "W. Luo",
+            "W. Ren",
+            "J. Wang",
+            "F. Zhao",
+            "L. Ma",
+            "H. Li"
+        ],
+        "dcterms:description": "Two stereo image deraining datasets synthesized based on the KITTI stereo 2012 dataset and KITTI stereo 2015 dataset, containing 4,062 and 4,200 training pairs with various scenarios.",
+        "dcterms:title": "RainKITTI2015",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Stereo Dataset"
+        ],
+        "dcat:keyword": [
+            "Stereo images",
+            "Image deraining",
+            "Synthetic images"
+        ],
+        "dcat:landingPage": "https://github.com/HDCVLab/Stereo-Image-Deraining",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. Quan",
+            "X. Yu",
+            "Y. Liang",
+            "Y. Yang"
+        ],
+        "dcterms:description": "A dataset that focuses on removing raindrops and rain streaks in one go.",
+        "dcterms:title": "RainDS",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Mixed Dataset"
+        ],
+        "dcat:keyword": [
+            "Raindrop removal",
+            "Rain streaks",
+            "Image deraining"
+        ],
+        "dcat:landingPage": "https://github.com/Songforrr/RainDS_CC",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Y. Liu",
+            "Z. Yue",
+            "J. Pan",
+            "Z. Su"
+        ],
+        "dcterms:description": "Contains 2,920 high-resolution synthetic images for training and 430 for testing, where each rainy image is assigned with a direction label.",
+        "dcterms:title": "RainDirection",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Synthetic Dataset"
+        ],
+        "dcat:keyword": [
+            "Synthetic images",
+            "Rain direction",
+            "Image deraining"
+        ],
+        "dcat:landingPage": "https://github.com/Yueziyu/RainDirection-and-Real3000-Dataset",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Y. Ba",
+            "H. Zhang",
+            "E. Yang",
+            "A. Suzuki",
+            "A. Pfahnl",
+            "C. C. Chandrappa",
+            "C. M. de Melo",
+            "S. You",
+            "S. Soatto",
+            "A. Wong"
+        ],
+        "dcterms:description": "A large-scale dataset with real paired data capturing diverse rain effects, containing 31,524 rainy and clear frame pairings.",
+        "dcterms:title": "GT-RAIN",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Deraining",
+            "Real Dataset"
+        ],
+        "dcat:keyword": [
+            "Real images",
+            "Image deraining",
+            "Ground truth"
+        ],
+        "dcat:landingPage": "https://github.com/UCLA-VMG/GT-RAIN",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Restoration"
+        ]
+    }
+]

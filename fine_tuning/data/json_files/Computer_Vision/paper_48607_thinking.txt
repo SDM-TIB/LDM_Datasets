@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "BIGDML: Towards Exact Machine Learning Force Fields for Materials" by Huziel E. Sauceda et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** and **introduction** sections to get an overview of the datasets that might be referenced. In the abstract, the authors mention the use of a training set with "just 10-200 geometries for materials including pristine and defect-containing 2D and 3D semiconductors and metals." This indicates that there are datasets related to various materials.
+
+Next, I will look for specific mentions of datasets in the **results** and **methods** sections, as these sections often provide detailed descriptions of the datasets used for experiments. In the results section, the authors discuss various materials such as **graphene**, **Pd1/MgO**, and **benzene/graphene**, which suggests that datasets related to these materials are likely included.
+
+In the **methods** section, the authors provide details on how the datasets were generated. They mention using **ab initio molecular dynamics (AIMD)** simulations for generating databases for different materials, including:
+
+1. **Graphene**: The authors used a 5×5 supercell at the DFT level of theory with the PBE functional, running simulations at 500 K for 10,000 time steps.
+2. **Pd1/MgO**: A 2×2 supercell with 3 atomic layers was used, and AIMD simulations were performed at 500 K for 10,000 steps.
+3. **Benzene/Graphene**: The same graphene supercell was used with a benzene molecule placed on top, and AIMD simulations were conducted at 500 K for 15,000 steps.
+4. **Bulk Metals**: The authors mention using Pd[FCC] and Na[BCC] with AIMD simulations at various temperatures.
+
+Now, I will compile the full citations for these datasets based on the information provided in the paper:
+
+1. **Graphene Dataset**:
+   > Giannozzi, P., Baroni, S., Bonini, N., Calandra, M., Car, R., Cavazzoni, C., Ceresoli, D., Chiarotti, G. L., Cococcioni, M., Dabo, I., Corso, A. D., de Gironcoli, S., Fabris, S., Fratesi, G., Gebauer, R., Gerstmann, U., Gougoussis, C., Kokalj, A., Lazzeri, M., Martin-Samos, L., Marzari, N., Mauri, F., Mazzarello, R., Paolini, S., Pasquarello, A., Paulatto, L., Sbraccia, C., Scandolo, G., Sclauzero, A. P., Seitsonen, A. P., Smogunov, P., Umari, P., & Wentzcovitch, R. M. (2009). *J. Phys.: Condens. Matter*, 21, 395502.
+
+2. **Pd1/MgO Dataset**:
+   > Giannozzi, P., Andreussi, O., Brumme, T., Bunau, O., B. Nardelli, M., Calandra, M., Car, R., Cavazzoni, C., Dabo, I., Corso, A. D., de Gironcoli, S., Delugas, P., DiStasio, R. A., Ferretti, A., Floris, A., Fratesi, G., Gebauer, R., Gerstmann, U., Giustino, F., Gorni, T., Jia, J., Kawamura, M., Ko, H.-Y., Kokalj, A., Kucukbenli, E., Lazzeri, M., Marsili, M., Marzari, N., Nguyen, N. L., Nguyen, H.-V., O. de-la Roza, A., Paulatto, L., Ponce, S., Rocca, D., Sabatini, R., Santra, B., Schlipf, M., Seitsonen, A. P., Smogunov, A., Timrov, I., Umari, P., Vast, N., Wu, X., & Baroni, S. (2017). *J. Phys.: Condens. Matter*, 29, 465901.
+
+3. **Benzene/Graphene Dataset**:
+   > Blum, V., Gehrke, R., Hanke, F., Havu, V., Havu, V., Ren, X., Reuter, K., & Scheffler, M. (2009). *Comput. Phys. Commun.*, 180, 2175.
+
+4. **Bulk Metals Dataset**:
+   > Perdew, J. P., Burke, K., & Ernzerhof, M. (1996). *Phys. Rev. Lett.*, 77, 3865.
+
+5. **Hydrogen in Palladium Dataset**:
+   > Kimizuka, H., Ogata, S., & Shiga, M. (2018). *Phys. Rev. B*, 97, 014102.
+
+After gathering this information, I will summarize the datasets in a structured format for further processing or review. This systematic approach ensures that I capture all relevant datasets and their citations accurately.

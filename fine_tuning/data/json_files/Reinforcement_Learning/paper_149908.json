@@ -1,0 +1,113 @@
+[
+    {
+        "dcterms:creator": [
+            "Daniel Borkan",
+            "Lucas Dixon",
+            "Jeffrey Sorensen",
+            "Nithum Thain",
+            "Lucy Vasserman"
+        ],
+        "dcterms:description": "A dataset containing approximately 2 million English-language internet comments from 2015-2017, annotated for toxicity.",
+        "dcterms:title": "Civil Comments Dataset",
+        "dcterms:issued": "2019",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Text Classification",
+            "Toxicity Detection"
+        ],
+        "dcat:keyword": [
+            "Internet comments",
+            "Toxicity annotations",
+            "Text dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Toxicity Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Daniel Borkan",
+            "Lucas Dixon",
+            "Jeffrey Sorensen",
+            "Nithum Thain",
+            "Lucy Vasserman"
+        ],
+        "dcterms:description": "A subset of the Civil Comments dataset containing 450k comments with additional crowdsourced labels for references to various identities.",
+        "dcterms:title": "CivilComments-Identities (CC-I)",
+        "dcterms:issued": "2019",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Text Classification",
+            "Toxicity Detection",
+            "Identity Reference"
+        ],
+        "dcat:keyword": [
+            "Identity labels",
+            "Toxicity annotations",
+            "Text dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Toxicity Detection",
+            "Identity Reference Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset consisting of templates for generating sentences that reference various identities, used for testing bias in machine learning models.",
+        "dcterms:title": "Jigsaw Sentence Templates Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://github.com/conversationai/unintended-ml-bias-analysis",
+        "dcat:theme": [
+            "Text Generation",
+            "Bias Testing"
+        ],
+        "dcat:keyword": [
+            "Sentence templates",
+            "Bias testing",
+            "Text dataset"
+        ],
+        "dcat:landingPage": "https://github.com/conversationai/unintended-ml-bias-analysis",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Bias Testing"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Tongshuang Wu",
+            "Marco Tulio Ribeiro",
+            "Jeffrey Heer",
+            "Daniel S Weld"
+        ],
+        "dcterms:description": "A counterfactual generator that creates diverse and natural perturbations of text for evaluating and improving models.",
+        "dcterms:title": "Polyjuice Counterfactual Generator",
+        "dcterms:issued": "2021",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Text Generation",
+            "Counterfactual Analysis"
+        ],
+        "dcat:keyword": [
+            "Counterfactual generation",
+            "Text perturbation",
+            "Model evaluation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Counterfactual Generation"
+        ]
+    }
+]

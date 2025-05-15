@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Detecting Out-of-distribution Objects Using Neuron Activation Patterns" by Bartłomiej Olber et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors created "the largest open-source benchmark for OOD object detection," which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** where the authors describe their evaluation scenarios. They mention conducting experiments in two domain shift scenarios:
+
+1. **PASCAL VOC Dataset**: The authors state that they trained their detector on the train split of the PASCAL VOC dataset, which consists of 20 classes. This dataset is commonly used for object detection tasks.
+
+2. **COCO Dataset**: The evaluation protocol for known and unknown objects was performed on the validation split of the COCO dataset, which includes 80 classes, including the 20 known ones from PASCAL VOC. The authors provide specific numbers for known and unknown objects in this dataset.
+
+3. **BDD100k Dataset**: In the second scenario, the detector was trained on the BDD100k dataset, which consists of only 4 known classes ("pedestrian," "bicycle," "car," and "traffic sign"). The evaluation was performed on the full validation split of the BDD100k dataset, which includes all 10 classes.
+
+Now, I will look into the **References section** to find the full citations for these datasets:
+
+- For the **PASCAL VOC Dataset**, the citation is:
+  > M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman. *The PASCAL Visual Object Classes (VOC) Challenge*. International Journal of Computer Vision, 88(2), 303–338, June 2010.
+
+- For the **COCO Dataset**, the citation is:
+  > Tsung-Yi Lin, Michael Maire, Serge J. Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C. Lawrence Zitnick. *Microsoft COCO: Common Objects in Context*. In European Conference on Computer Vision, 2014.
+
+- For the **BDD100k Dataset**, the citation is:
+  > Fisher Yu, Haofeng Chen, Xin Wang, Wenqi Xian, Yingying Chen, Fangchen Liu, Vashisht Madhavan, and Trevor Darrell. *BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2020.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper, ready for further processing or review.

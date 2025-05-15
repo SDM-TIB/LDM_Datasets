@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Direct Load Control of Thermostatically Controlled Loads Based on Sparse Observations Using Deep Reinforcement Learning" by Frederik Ruelens et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses the use of deep learning techniques for demand response applications, which suggests that datasets related to energy consumption or temperature might be involved.
+
+Next, I will focus on the **experiments section** where the authors describe their simulation experiments. In this section, they mention two specific experiments: one involving a **heat pump** and the other involving an **electric water heater**. I will look for any datasets or data sources referenced in these experiments.
+
+In the **heat pump experiment**, the authors refer to using a model that simulates temperature dynamics based on outside temperatures sourced from a specific dataset. They mention that the outside temperatures were obtained from the KMI Royal Meteorological Institute of Belgium, which is a key dataset for this experiment.
+
+In the **electric water heater experiment**, the authors describe the use of a non-linear stratified model to simulate temperature gradients and tap water profiles. They reference a previous paper that used temperature sensors, but for this experiment, they assume no sensors are available. However, they do not specify a new dataset for this experiment, which indicates that they might be using simulated data based on the model described.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned:
+
+1. For the **KMI Royal Meteorological Institute dataset**, the citation is:
+   > KMI - Royal Meteorological Institute of Belgium. "Ambient Temperatures." [Online]. Available: https://github.com/open-ideas/IDEAS/blob/master/IDEAS/Inputs/Uccle.TMY. Accessed: January 21, 2017.
+
+Since the paper does not provide a specific dataset citation for the electric water heater experiment, I will note that it relies on simulated data rather than a publicly available dataset.
+
+Finally, I will compile the dataset entries, ensuring to include the full citation for the KMI dataset, and prepare them for structured output.

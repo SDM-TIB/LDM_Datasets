@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "A Monolingual Approach to Contextualized Word Embeddings for Mid-Resource Languages" by Pedro Javier Ortiz Suárez et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors use the **OSCAR corpus**, which is derived from Common Crawl, to train contextualized word embeddings for five mid-resource languages. This suggests that OSCAR is a primary dataset of interest.
+
+Next, I will examine **section 3 (Corpora)**, where the authors describe the datasets used for training their models. Here, they explicitly mention two datasets:
+
+1. **Wikipedia**: The authors detail that they used Wikipedia data to train one set of embeddings for the five languages. They provide information about the size of the Wikipedia corpora for each language, which is crucial for understanding the dataset's scope.
+
+2. **OSCAR**: The authors describe OSCAR as a multilingual dataset obtained from Common Crawl, emphasizing its size and the filtering process it underwent. They also provide quantitative information about the OSCAR subcorpora for the five languages, which is essential for understanding its characteristics.
+
+In **section 4 (Experimental Setting)**, the authors discuss how they trained ELMo contextualized word embeddings using both the OSCAR and Wikipedia datasets, confirming their use in the experiments.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For the **OSCAR corpus**, the citation is:
+  > Pedro Javier Ortiz Suárez, Benoît Sagot, and Laurent Romary. *Asynchronous pipeline for processing huge corpora on medium to low resource infrastructures*. In Proceedings of the CoNLL 2017 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies, pages 88–99, Vancouver, Canada, 2017.
+
+- For **Wikipedia**, while the authors do not provide a specific citation for the Wikipedia dataset in the references, it is generally acknowledged as a widely used resource in NLP. However, I will note that the authors extracted the data from the XML Wikipedia dumps using a specific script.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research paper.

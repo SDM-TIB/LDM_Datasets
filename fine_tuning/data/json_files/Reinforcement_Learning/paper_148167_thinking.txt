@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Task-Oriented Language Grounding for Language Input with Multiple Sub-Goals of Non-Linear Order" by Vladislav Kurenkov et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned or described. The abstract provides a brief overview of the research focus, which may hint at the datasets used, particularly in the context of the GridWorld environment.
+
+Next, I will examine **section 2 (Problem Formulation)**, specifically the subsections that describe the environment and language. Here, the authors discuss the modified GridWorld environment and the generated instructional language, which is crucial for understanding the datasets involved. I will look for any explicit mention of datasets or instructions that could be considered datasets.
+
+In **section 2.2 (Language)**, the authors describe the generated language for the GridWorld environment, which includes various subsets of instructions based on order connectors. They mention three subsets: Comma, Comma-ButFirst, and Comma-ButBefore. I will note these subsets as they represent the datasets used for training and testing the models.
+
+I will also check **section 4 (Results and Discussion)**, where the authors discuss the performance of their models on the different language subsets. This section may provide additional context on how the datasets were utilized in the experiments.
+
+Now, I will compile the information regarding the datasets. The key datasets identified are:
+
+1. **Comma Subset**: This dataset includes instructions with linear order connectors only.
+2. **Comma-ButFirst Subset**: This dataset includes instructions with non-linear order connectors that change the execution order.
+3. **Comma-ButBefore Subset**: This dataset includes instructions with non-linear order connectors that also change the execution order.
+
+Next, I will refer to the **References section** to find full citations for any foundational datasets or related works that may have contributed to the datasets used in this study. However, the paper primarily focuses on the generated language and does not cite external datasets explicitly.
+
+The citations for the foundational works mentioned in the paper that relate to the datasets are:
+
+- For the foundational work on the GridWorld environment:
+  > Devendra Singh Chaplot, Kanthashree Mysore Sathyendra, Rama Kumar Pasumarthi, Dheeraj Rajagopal, and Ruslan R. Salakhutdinov. *Gated-attention task-oriented architectures for language grounding*. In AAAI, 2018.
+
+- For the reinforcement learning methods referenced:
+  > Ziyu Wang, Nando de Freitas, and Marc Lanctot. *Dueling network architectures for deep reinforcement learning*. In ICML, 2016.
+
+Now, I will summarize the datasets and their citations clearly, ensuring that I provide a comprehensive overview of the datasets used in the research paper.

@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "User-defined Event Sampling and Uncertainty Quantification in Diffusion Models for Physical Dynamical Systems" by Marc Finzi et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the research, and the introduction often outlines the context and significance of the datasets used.
+
+Next, I will focus on the **Results and Experiments sections** where the authors typically discuss the datasets used for training and evaluation. In this paper, the authors mention three classical dynamical systems for which they generate datasets: the **Lorenz attractor**, the **FitzHugh-Nagumo model**, and the **double pendulum**. I will look for specific details about how these datasets were constructed, including the number of trajectories, time steps, and any preprocessing steps mentioned.
+
+In the **Dataset Construction section**, the authors provide detailed information about how they generated the datasets:
+
+1. **Lorenz Attractor**: The authors describe generating trajectories from the Lorenz dynamics, specifying the equations used and the rescaling of the dynamics for stability. They mention generating 4000 trajectories discretized to 60 timesteps.
+
+2. **FitzHugh-Nagumo Model**: The authors follow a specific parameter choice to produce rare events, generating initial conditions and integrating for a specified time. They also mention the number of trajectories generated.
+
+3. **Double Pendulum**: The authors describe using Hamiltonian dynamics to generate trajectories, specifying the integration time and the sampling of initial conditions.
+
+After identifying these datasets, I will consult the **References section** to find full citations for the original works related to these models, if applicable. This is crucial for proper attribution and to provide context for the datasets.
+
+The citations for the datasets are as follows:
+
+- For the **Lorenz Attractor**, the original work is:
+  > Lorenz, E. N. (1963). Deterministic nonperiodic flow. *Journal of Atmospheric Sciences*, 20(2), 130-141.
+
+- For the **FitzHugh-Nagumo Model**, the citation is:
+  > FitzHugh, R. (1961). Impulses and physiological states in theoretical models of nerve membrane. *Biophysical Journal*, 1(6), 445-466.
+
+- For the **Double Pendulum**, the reference is:
+  > Finzi, M., Wang, K. A., & Wilson, A. G. (2020). Simplifying Hamiltonian and Lagrangian neural networks via explicit constraints. *Advances in Neural Information Processing Systems*, 33, 13880-13889.
+
+Now, I will compile the information about each dataset, including their descriptions and full citations, into a structured format for further processing or review.

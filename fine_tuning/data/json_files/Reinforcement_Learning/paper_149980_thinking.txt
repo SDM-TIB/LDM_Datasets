@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Gradient-based Uncertainty for Monocular Depth Estimation" by Julia Hornauer and Vasileios Belagiannis, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets mentioned. The abstract indicates that the authors achieved state-of-the-art results on the **KITTI** and **NYU Depth V2** benchmarks, suggesting that these datasets are crucial for their experiments.
+
+Next, I will focus on the **experimental setup section** (section 4.1) where the authors explicitly describe the datasets used for evaluation. Here, they mention:
+
+1. **KITTI Dataset**: This dataset is used for autonomous driving and consists of 61 scenes with an average image resolution of 375 × 1242. The authors specify that they used the Eigen split with a maximum depth set to 80 meters and the improved ground truth depth provided in another reference.
+
+2. **NYU Depth V2 Dataset**: This dataset is used for indoor depth estimation and contains 494 scenes with an original image resolution of 480 × 640. The authors adapted the evaluation protocol for this dataset, setting the maximum depth to 10 meters.
+
+To ensure I have the correct citations for these datasets, I will check the **References section** of the paper. The citations for the datasets are as follows:
+
+- For the **KITTI Dataset**, the citation is:
+  > Andreas Geiger, Philip Lenz, Christoph Stiller, and Raquel Urtasun. *Vision meets robotics: The KITTI dataset*. International Journal of Robotics Research (IJRR), 32(11):1231-1237, 2013.
+
+- For the **NYU Depth V2 Dataset**, the citation is:
+  > Nathan Silberman, Derek Hoiem, Pushmeet Kohli, and Rob Fergus. *Indoor segmentation and support inference from RGBD images*. In Proceedings of the European Conference on Computer Vision (ECCV), 2012.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use. This includes ensuring that each dataset is clearly described with its full citation, which is critical for proper attribution in any subsequent analysis or application.

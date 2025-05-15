@@ -1,0 +1,85 @@
+[
+    {
+        "dcterms:creator": [
+            "B.S. Veeling",
+            "J. Linmans",
+            "J. Winkens",
+            "T. Cohen",
+            "M. Welling"
+        ],
+        "dcterms:description": "The PCam dataset contains 327,680 lymph node histopathology images of size 96 × 96 with binary class labels indicating the presence of cancer metastasis, split into 75% for training, 12.5% for validation, and 12.5% for testing as originally proposed.",
+        "dcterms:title": "PCam",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Pathology"
+        ],
+        "dcat:keyword": [
+            "Histopathology",
+            "Cancer detection",
+            "Image classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Cancer detection",
+            "Image classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Y. Liu",
+            "K. Gadepalli",
+            "M. Norouzi",
+            "E. G."
+        ],
+        "dcterms:description": "The Camelyon16 dataset includes 270 H&E stained WSIs (160 normal and 110 cancerous cases) for training and 129 WSIs held out for testing (80 normal and 49 cancerous cases) with average image size about 65000×45000, where regions with cancer metastasis are delineated in cancerous slides.",
+        "dcterms:title": "Camelyon16",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://camelyon16.grand-challenge.org",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Pathology"
+        ],
+        "dcat:keyword": [
+            "Whole slide images",
+            "Cancer metastasis",
+            "Histopathology"
+        ],
+        "dcat:landingPage": "https://camelyon16.grand-challenge.org",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Cancer detection",
+            "Slide classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The HPLOC dataset contains 20,000 images of size 96 × 96 with segmentation masks for cancerous region, sampled from the test set of Camelyon16.",
+        "dcterms:title": "HPLOC",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Pathology"
+        ],
+        "dcat:keyword": [
+            "Segmentation",
+            "Cancer localization",
+            "Histopathology"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Cancer localization",
+            "Image segmentation"
+        ]
+    }
+]

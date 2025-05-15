@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Vorbes, ti Românes, te?" A Recipe to Train Powerful Romanian LLMs with English Instructions by Mihai Masala et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and data sections** of the paper. The abstract mentions that the authors collected and translated a large collection of texts, instructions, and benchmarks, which indicates that there are datasets involved.
+
+Next, I will focus on the **Data section** (Section 3) where the authors describe the datasets used for training and evaluation. Here, they mention two main sources:
+
+1. **CulturaX**: This dataset is a collection of documents in 167 languages, built on top of mC4 and OSCAR, with around 40 million documents in Romanian, amounting to 40 billion tokens. The citation for this dataset is:
+   > Nguyen, T., et al. (2023). *CulturaX: A cleaned, enormous, and multilingual dataset for large language models in 167 languages*. arXiv preprint arXiv:2309.09400.
+
+2. **Translated Datasets**: The authors also mention that they collected and translated datasets such as Alpaca, Dolly, NoRobots, GPT-Instruct, Orca, and Camel, leading to a total of around 650,000 translated instructions. Each of these datasets has its own citation:
+   - **Alpaca**: 
+     > Taori, R., et al. (2023). *Stanford Alpaca: An instruction-following Llama model*. https://github.com/tatsu-lab/stanford_alpaca.
+   - **Dolly**: 
+     > Conover, M., et al. (2023). *Free Dolly: Introducing the world’s first truly open instruction-tuned LLM*. 
+   - **NoRobots**: 
+     > Rajani, N., et al. (2023). *No robots*. https://huggingface.co/datasets/HuggingFaceH4/no_robots.
+   - **GPT-Instruct**: 
+     > Li, H., et al. (2023). *Camel: Communicative agents for "mind" exploration of large scale language model society*. Preprint, arXiv:2303.17760.
+   - **Orca**: 
+     > Mukherjee, S., et al. (2023). *Orca: Progressive learning from complex explanation traces of GPT-4*. Preprint, arXiv:2306.02707.
+   - **Camel**: 
+     > Li, H., et al. (2023). *Camel: Communicative agents for "mind" exploration of large scale language model society*. Preprint, arXiv:2303.17760.
+
+After identifying these datasets, I will ensure to check the **References section** for any additional details or citations that may be relevant for the datasets mentioned.
+
+Finally, I will compile the dataset entries, ensuring that each dataset is accurately described and that full citations are included for each one. This will provide a comprehensive overview of the datasets used in the research, which is essential for reproducibility and further research in the field.

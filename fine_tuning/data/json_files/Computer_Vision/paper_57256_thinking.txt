@@ -1,0 +1,40 @@
+To extract datasets from the research paper titled "Corn Yield Prediction based on Remotely Sensed Variables Using Variational Autoencoder and Multiple Instance Regression" by Zeyu Cao et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experimental setup sections** to identify any datasets mentioned. The abstract discusses the use of remote sensing technology and machine learning for corn yield prediction, which suggests that datasets related to these topics may be present.
+
+In the **introduction**, the authors highlight the importance of accurate corn yield prediction and mention various methods and challenges in the field. However, I need to look for specific datasets.
+
+Next, I will focus on the **methodology section**, particularly the **data acquisition subsection**. Here, the authors describe the study area and the data sources used for their corn yield prediction model. They mention using remote sensing imagery, weather observations, and soil properties, which indicates multiple datasets are involved.
+
+The paper specifies the following datasets:
+
+1. **MODIS MCD43A4 product**: This dataset provides remote sensing variables, specifically vegetation indices (VIs) with a spatial resolution of 500m. It is crucial for monitoring crop growth conditions.
+
+2. **PRISM dataset**: This dataset includes daily mean air temperature and total precipitation with a spatial resolution of 4km. It is used for weather observations.
+
+3. **MODIS MYD11A2 product**: This dataset provides daytime and nighttime land surface temperature with a spatial resolution of 1km.
+
+4. **Soil Survey Geographic database (SSURGO)**: This dataset includes soil properties such as Available Water Holding Capacity (AWC), Soil Organic Matter (SOM), and Cation Exchange Capacity (CEC) with a spatial resolution of 30m.
+
+5. **USDA National Agricultural Statistics Service (NASS) Cropland Data Layer (CDL)**: This dataset is used as a crop mask to filter out non-corn lands, with a spatial resolution of 30m.
+
+The authors also mention that they collected county-level historical yield records from the USDA NASS for model development and evaluation.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **MODIS MCD43A4 product**, the citation is:
+  > Schaaf, C., & Wang, Z. (2015). *MCD43A4 MODIS/Terra+ Aqua BRDF/Albedo Nadir BRDF Adjusted RefDaily L3 Global-500m V006*. NASA EOSDIS L. Process. DAAC.
+
+- For the **PRISM dataset**, the citation is:
+  > Parameter elevation Regressions on Independent Slopes Model (PRISM). (2020). *Available: https://prism.oregonstate.edu/*.
+
+- For the **MODIS MYD11A2 product**, the citation is:
+  > Park, S., Feddema, J. J., & Egbert, S. L. (2005). *MODIS land surface temperature composite data and their relationships with climatic water budget factors in the central Great Plains*. International Journal of Remote Sensing, 26(6), 1127-1144.
+
+- For the **SSURGO dataset**, the citation is:
+  > Soil Survey Staff, Natural Resources Conservation Service, USDA. (2020). *Web Soil Survey*. Available: https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm.
+
+- For the **USDA NASS CDL**, the citation is:
+  > USDA. (2020). *United States Department of Agriculture National Agricultural Statistics Service*. Available: https://quickstats.nass.usda.gov/.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

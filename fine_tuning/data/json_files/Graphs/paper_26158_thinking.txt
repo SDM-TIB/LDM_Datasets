@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Learning Blended, Precise Semantic Program Embeddings" by Ke Wang and Zhendong Su, I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors evaluated their method on **COSET**, a benchmark suite for evaluating neural program embeddings. This suggests that COSET is a dataset of interest.
+
+Next, I will look for specific mentions of datasets in the **introduction**. The authors discuss the challenges of learning program embeddings and mention COSET as a benchmark suite. This reinforces the idea that COSET is a key dataset used in their evaluation.
+
+In the **evaluation section**, the authors provide a detailed description of COSET. They mention that COSET contains a dataset consisting of close to **85,000 programs** developed by programmers while solving ten coding problems. The dataset was manually analyzed and labeled, ensuring sufficient variations in coding style and algorithmic choices. They also specify that the dataset was split into training, validation, and testing sets, which is crucial information for understanding its structure.
+
+The authors also mention a second dataset related to method name prediction, which contains **174,922 functions** extracted from logs of coding interviews. This dataset is significant for evaluating the performance of their model in predicting method names.
+
+Now, I will gather the full citations for these datasets from the **References section** of the paper:
+
+1. **COSET Dataset**: The citation for COSET is:
+   > Ke Wang and Mihai Christodorescu. *COSET: A Benchmark for Evaluating Neural Program Embeddings*. arXiv preprint arXiv:1905.11445 (2019).
+
+2. **Method Name Prediction Dataset**: The dataset used for method name prediction is not explicitly cited in the references, but it is described as being derived from coding interviews conducted by an IT company. Since it does not have a formal citation, I will note it as an internal dataset used by the authors.
+
+After identifying these datasets, I will summarize the key details for each:
+
+- **COSET**: A benchmark suite containing approximately 85,000 programs, manually labeled for semantic classification tasks.
+- **Method Name Prediction Dataset**: Contains 174,922 functions extracted from coding interview logs, used for evaluating method name prediction.
+
+Finally, I will compile this information into a structured format for further processing or review.

@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "MuFuRU: The Multi-Function Recurrent Unit" by Dirk Weissenborn and Tim Rocktäschel, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the evaluation of the proposed MuFuRU on various sequence modeling tasks, which suggests that datasets are involved.
+
+In the **introduction**, the authors mention several tasks where RNNs have been applied, but I need to look for specific datasets used in their experiments.
+
+Next, I will focus on the **experiments section** (Section 4), where the authors detail their evaluations. Here, they mention three specific tasks: propositional logic, language modeling, and sentiment analysis. I will look for the datasets associated with each of these tasks.
+
+1. **Propositional Logic**: The authors mention that they trained the models on sequences of Boolean binary gates, but they do not specify a dataset name. This indicates that the data might be generated rather than sourced from a pre-existing dataset.
+
+2. **Language Modeling**: The authors state that they used the **PTB dataset** (Penn Tree Bank) for this task. This is a well-known dataset in the NLP community.
+
+3. **Sentiment Analysis**: The authors mention using the **Sentiment Treebank**, which contains 215,154 annotated phrases collected from 11,855 sentences. This dataset is also widely recognized in sentiment analysis research.
+
+Now, I will consult the **References section** to find the full citations for the datasets mentioned:
+
+- For the **PTB dataset**, the citation is:
+  > T. Mikolov, M. Karafiát, L. Burget, J. Cernocký, and S. Khudanpur. *Recurrent neural network based language model*. In INTERSPEECH, volume 2, page 3, 2010.
+
+- For the **Sentiment Treebank**, the citation is:
+  > R. Socher, A. Perelygin, J. Y. Wu, J. Chuang, C. D. Manning, A. Y. Ng, and C. Potts. *Recursive deep models for semantic compositionality over a sentiment treebank*. In EMNLP, volume 1631, page 1642. Citeseer, 2013.
+
+Since the propositional logic task does not reference a specific dataset, I will note that it involved generated sequences rather than a traditional dataset.
+
+Finally, I will compile the dataset entries, ensuring that I include the full citations for the PTB and Sentiment Treebank datasets, while also noting the generated nature of the propositional logic data.

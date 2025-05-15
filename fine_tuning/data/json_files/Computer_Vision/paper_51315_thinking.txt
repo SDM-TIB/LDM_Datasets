@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "MAGMA – Multimodal Augmentation of Generative Models through Adapter-based Finetuning" by Constantin Eichenberg et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and method sections** to gather initial insights about the datasets used in the research. The abstract mentions that the authors trained their models on a large-scale dataset, which indicates that there are datasets involved.
+
+Next, I will focus on **section 3 (Method)**, specifically **subsection 3.3 (Dataset)**, where the authors provide detailed information about the datasets used for pretraining. Here, they mention two datasets:
+
+1. **CC12M**: This dataset is referenced as being used for ablations, containing around 3 million samples. The authors note that it has issues with hypernyming, which affects the model's performance.
+
+2. **A curated dataset**: This dataset is constructed from various publicly available image-text datasets, including LAION, Wikipedia Image-Text, CC3M, Visual Genome, and Localized Narratives. It consists of approximately 25 million image-text pairs and is used for training the final model.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset mentioned:
+
+- For **CC12M**, the citation is:
+  > Soravit Changpinyo, Piyush Sharma, Nan Ding, and Radu Soricut. *Conceptual 12m: Pushing web-scale image-text pre-training to recognize long-tail visual concepts*. CoRR, abs/2102.08981, 2021.
+
+- For the **LAION dataset**, the citation is:
+  > Christoph Schuhmann, Richard Vencu, Romain Beaumont, Robert Kaczmarczyk, Clayton Mullis, Aarush Katta, Theo Coombes, Jenia Jitsev, and Aran Komatsuzaki. *Laion-400m: Open dataset of clip-filtered 400 million image-text pairs*. 2021.
+
+- For **Wikipedia Image-Text**, the citation is:
+  > Krishna Srinivasan, Karthik Raman, Jiecao Chen, Michael Bendersky, and Marc Najork. *WIT: Wikipedia-based image text dataset for multi-modal multilingual machine learning*. CoRR, abs/2103.01913, 2021.
+
+- For **CC3M**, the citation is:
+  > Soravit Changpinyo, Piyush Sharma, Nan Ding, and Radu Soricut. *Conceptual 12m: Pushing web-scale image-text pre-training to recognize long-tail visual concepts*. CoRR, abs/2102.08981, 2021.
+
+- For **Visual Genome**, the citation is:
+  > Ranjay Krishna, Yuke Zhu, Oliver Groth, Justin Johnson, Kenji Hata, Joshua Kravitz, Stephanie Chen, Yannis Kalantidis, Li-Jia Li, David A Shamma, Michael Bernstein, and Li Fei-Fei. *Visual genome: Connecting language and vision using crowdsourced dense image annotations*. 2016.
+
+- For **Localized Narratives**, the citation is:
+  > Jordi Pont-Tuset, Jasper Uijlings, Soravit Changpinyo, Radu Soricut, and Vittorio Ferrari. *Connecting vision and language with localized narratives*. In ECCV, 2020.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their respective citations.

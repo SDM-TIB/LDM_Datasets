@@ -1,0 +1,281 @@
+[
+    {
+        "dcterms:creator": [
+            "J. J. Pfeiffer III",
+            "J. Neville",
+            "P. N. Bennett"
+        ],
+        "dcterms:description": "In the Facebook dataset, the nodes are Facebook users and the task is to predict the political views of a user given the gender and religious view of the user as features.",
+        "dcterms:title": "Facebook (FB)",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Networks"
+        ],
+        "dcat:keyword": [
+            "Facebook users",
+            "Political views",
+            "Social network analysis"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Collective Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "X. Wang",
+            "L. Tang",
+            "H. Gao",
+            "H. Liu"
+        ],
+        "dcterms:description": "In the BlogCatalog dataset, the nodes are users of a social blog directory, the user’s blog tags are treated as node features and edges correspond to friendship or fan following. The task here is to predict the interests of users.",
+        "dcterms:title": "BlogCatalog (BLOG)",
+        "dcterms:issued": "2010",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Networks"
+        ],
+        "dcat:keyword": [
+            "Blog users",
+            "User interests",
+            "Social media analysis"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Collective Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. L. Hamilton",
+            "Z. Ying",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "In Reddit, the nodes are the Reddit posts, the features are the averaged glove embeddings of text content in the post and edges are created between posts if the same users comment on both. The task here is to predict the sub-Reddit community to which the post belongs.",
+        "dcterms:title": "Reddit",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Networks"
+        ],
+        "dcat:keyword": [
+            "Reddit posts",
+            "Community detection",
+            "Text embeddings"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Collective Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Q. Lu",
+            "L. Getoor"
+        ],
+        "dcterms:description": "Cora dataset consists of articles as nodes and edges denote citations. The bag-of-word representation of the article is used as node attributes. The task is to predict the research area of the article.",
+        "dcterms:title": "Cora",
+        "dcterms:issued": "2003",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Networks"
+        ],
+        "dcat:keyword": [
+            "Research articles",
+            "Citation analysis",
+            "Topic prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Collective Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "I. Bhattacharya",
+            "L. Getoor"
+        ],
+        "dcterms:description": "Citeseer dataset consists of articles as nodes and edges denote citations. The bag-of-word representation of the article is used as node attributes. The task is to predict the research area of the article.",
+        "dcterms:title": "Citeseer",
+        "dcterms:issued": "2007",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Networks"
+        ],
+        "dcat:keyword": [
+            "Research articles",
+            "Citation analysis",
+            "Topic prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Collective Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Mccallum"
+        ],
+        "dcterms:description": "Cora2 is a multi-label classification dataset consisting of research papers. The task is to predict multiple research areas for each paper.",
+        "dcterms:title": "Cora2",
+        "dcterms:issued": "2001",
+        "dcterms:language": "",
+        "dcterms:identifier": "people.cs.umass.edu/mccallum/data.html",
+        "dcat:theme": [
+            "Citation Networks"
+        ],
+        "dcat:keyword": [
+            "Research articles",
+            "Multi-label classification",
+            "Topic prediction"
+        ],
+        "dcat:landingPage": "people.cs.umass.edu/mccallum/data.html",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Collective Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "G. Namata",
+            "B. London",
+            "L. Getoor",
+            "B. Huang",
+            "U. EDU"
+        ],
+        "dcterms:description": "Pubmed dataset consists of articles as nodes and edges denote citations. The bag-of-word representation of the article is used as node attributes. The task is to predict the research area of the article.",
+        "dcterms:title": "Pubmed",
+        "dcterms:issued": "2012",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Networks"
+        ],
+        "dcat:keyword": [
+            "Research articles",
+            "Citation analysis",
+            "Topic prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Collective Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Hatzis",
+            "D. Page"
+        ],
+        "dcterms:description": "Yeast dataset is part of the KDD cup 2001 challenge which contains interactions between proteins. The task is to predict the function of these genes.",
+        "dcterms:title": "Yeast",
+        "dcterms:issued": "2001",
+        "dcterms:language": "",
+        "dcterms:identifier": "pages.cs.wisc.edu/dpage/kddcup2001",
+        "dcat:theme": [
+            "Biological Networks"
+        ],
+        "dcat:keyword": [
+            "Protein interactions",
+            "Gene function prediction"
+        ],
+        "dcat:landingPage": "pages.cs.wisc.edu/dpage/kddcup2001",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Collective Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. L. Hamilton",
+            "Z. Ying",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "Human dataset is a protein-protein interaction (PPI) network from Human Tissues. The dataset contains PPI from 24 human tissues and the task is to predict the gene’s functional ontology.",
+        "dcterms:title": "Human",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Biological Networks"
+        ],
+        "dcat:keyword": [
+            "Protein interactions",
+            "Gene function prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Collective Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Leskovec",
+            "R. Sosiˇc"
+        ],
+        "dcterms:description": "Amazon dataset is a co-purchase network where nodes correspond to DVDs and edges are constructed if two DVDs are co-purchased. The DVD genres are treated as DVD features.",
+        "dcterms:title": "Amazon",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Product Networks"
+        ],
+        "dcat:keyword": [
+            "DVD co-purchase",
+            "Sales prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Collective Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "I. Cantador",
+            "P. Brusilovsky",
+            "T. Kuﬂik"
+        ],
+        "dcterms:description": "Movie dataset is constructed from Movielens-2k dataset. The nodes are the movies and edges are created between movies if they share a common actor or director. The task here is to predict all possible genres of the movies.",
+        "dcterms:title": "Movie",
+        "dcterms:issued": "2011",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Movie Networks"
+        ],
+        "dcat:keyword": [
+            "Movies",
+            "Genre prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Collective Classification"
+        ]
+    }
+]

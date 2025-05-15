@@ -1,0 +1,26 @@
+To extract the datasets mentioned in the research paper titled "CELNet: Evidence Localization for Pathology Images using Weakly Supervised Learning" by Yongxiang Huang and Albert C. S. Chung, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the study, and I will look for any references to datasets used for evaluation.
+
+In the **introduction**, the authors discuss the challenges in pathology image analysis and the need for effective localization methods. While this section may not directly mention datasets, it sets the context for the experiments.
+
+Next, I will focus on the **experiments section**, specifically **section 3.1 (Datasets and Experimental Setup)**, where the authors detail the datasets used for their experiments. Here, they mention two datasets:
+
+1. **PCam**: This dataset contains 327,680 lymph node histopathology images of size 96 × 96 with binary class labels indicating the presence of cancer metastasis. The dataset is split into training, validation, and testing sets, with a balanced class distribution.
+
+2. **Camelyon16**: This dataset includes 270 H&E stained whole slide images (WSIs) for training and 129 WSIs for testing, with delineated regions of cancer metastasis in the cancerous slides. The average image size is approximately 65000 × 45000 pixels.
+
+Additionally, the authors mention a newly constructed dataset called **HPLOC** for evaluating evidence localization performance. This dataset contains 20,000 images of size 96 × 96 with segmentation masks for cancerous regions.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **PCam**, the citation is:
+  > Veeling, B.S., Linmans, J., Winkens, J., Cohen, T., Welling, M. *Rotation equivariant CNNs for digital pathology*. In Proceedings of the International Conference on Medical Image Computing and Computer-Assisted Intervention, pages 210–218, 2018.
+
+- For **Camelyon16**, the citation is:
+  > Liu, Y., Gadepalli, K., Norouzi, M., E., G., et al. *Detecting cancer metastases on gigapixel pathology images*. CoRR abs/1703.02442, 2017.
+
+- For **HPLOC**, since it is a new dataset constructed by the authors, I will use the paper itself as the citation:
+  > Huang, Y., Chung, A.C.S. *CELNet: Evidence Localization for Pathology Images using Weakly Supervised Learning*. In Proceedings of the International Conference on Medical Image Computing and Computer-Assisted Intervention, 2023.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

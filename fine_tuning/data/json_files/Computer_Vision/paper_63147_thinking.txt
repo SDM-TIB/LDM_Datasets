@@ -1,0 +1,31 @@
+To extract the datasets mentioned in the research paper titled "Efficient Deep Acoustic Echo Suppression with Condition-Aware Training" by Ernst Seidel et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental evaluation sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a general overview, but the introduction and experimental sections are likely to contain specific details about the datasets used.
+
+In the **introduction**, the authors discuss the importance of training data for acoustic echo control, mentioning that many models are trained on data from the Microsoft AEC Challenge or datasets of varying conditions. However, I need to find the exact datasets they used.
+
+Next, I will focus on **section 3 (Experimental Evaluation)**, where the authors detail the datasets used for training and evaluation. Here, they describe three datasets:
+
+1. **CSTR-VCTK Corpus**: This dataset is used to generate near-end (NE) and far-end (FE) utterances. It consists of recordings from multiple speakers, which helps in training the model to avoid overfitting to specific speakers.
+
+2. **DEMAND Database**: This database is utilized for background noise, providing random cuts at various signal-to-noise ratios (SNR). It is crucial for simulating realistic conditions during training.
+
+3. **QUT-NOISE Database**: Similar to the DEMAND database, this is also used for background noise, contributing to the diversity of noise conditions in the training data.
+
+Additionally, the authors mention the **TIMIT Speech Corpus** in the context of creating the test dataset, which is used to evaluate the model's performance under different conditions.
+
+Now, I will check the **References section** to gather the full citations for each dataset mentioned:
+
+- For the **CSTR-VCTK Corpus**, the citation is:
+  > J. Yamagishi, C. Veaux, and K. MacDonald. *CSTR VCTK Corpus: English Multi-speaker Corpus for CSTR Voice Cloning Toolkit*. University of Edinburgh. The Centre for Speech Technology Research, 2017.
+
+- For the **DEMAND Database**, the citation is:
+  > J. Thiemann, N. Ito, and E. Vincent. *The Diverse Environments Multi-Channel Acoustic Noise Database: A Database of Multichannel Environmental Noise Recordings*. J. Acoust. Soc. Am., vol. 133, no. 5, pp. 3591–3591, 2013.
+
+- For the **QUT-NOISE Database**, the citation is:
+  > D. B. Dean, S. Sridharan, R. J. Vogt, and M. W. Mason. *The QUT-NOISE-TIMIT Corpus for the Evaluation of Voice Activity Detection Algorithms*. Makuhari, Japan, Sept. 2010, p. 3110–3113.
+
+- For the **TIMIT Speech Corpus**, the citation is:
+  > J. S. Garofolo, L. F. Lamel, W. M. Fisher, J. G. Fiscus, and D. S. Pallett. *TIMIT Acoustic-Phonetic Continuous Speech Corpus*. Linguistic Data Consortium, Philadelphia, PA, USA, 1993.
+
+With these citations in hand, I will compile the dataset entries into a structured format for further processing. This ensures that I have accurately captured the datasets used in the research and their corresponding citations.

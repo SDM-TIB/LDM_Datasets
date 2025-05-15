@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "MCRPL: A Pretrain, Prompt & Fine-tune Paradigm for Non-overlapping Many-to-one Cross-domain Recommendation" by Hao Liu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experimental setup sections** to identify any datasets mentioned. The abstract mentions conducting experiments on two real-world datasets, which indicates that datasets are present.
+
+Next, I will focus on the **experimental setup section** (section 4), where the authors explicitly describe the datasets used for their experiments. Here, they mention two datasets:
+
+1. **MIXED Dataset**: This dataset includes three domains: VIDEO, MOVIELENS, and WIKIPEDIA. The authors describe VIDEO as the target domain, which is part of the AMAZON dataset, and it contains user ID, item ID, timestamp, rating, item description, and item image. MOVIELENS is a widely used movie rating dataset with 1 million rating records for 6040 movies. WIKIPEDIA is based on user browsing behavior and contains a large amount of user data.
+
+2. **HVIDEO Dataset**: This dataset records users' TV watching histories and includes two domains: E (educational videos) and V (video content). The authors mention that they shuffle the data to ensure non-overlapping users between the two domains.
+
+Now, I will look for the **full citations** for these datasets in the references section. The citations are as follows:
+
+- For the **MIXED Dataset**, the citation is:
+  > J. McAuley and J. Leskovec. *From Amateurs to Connoisseurs: Modeling the Evolution of User Expertise through Online Reviews*. In Proceedings of the 22nd International Conference on World Wide Web (WWW), pages 897–908, 2013.
+
+- For the **HVIDEO Dataset**, the citation is:
+  > Muyang Ma, Pengjie Ren, Yujie Lin, Zhumin Chen, Jun Ma, and Maarten de Rijke. *𝜋-Net: A Parallel Information-sharing Network for Shared-account Cross-domain Sequential Recommendations*. In Proceedings of the International ACM SIGIR Conference on Research and Development in Information Retrieval, pages 685–694, 2019.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

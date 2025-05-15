@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "PLM-Net: Perception Latency Mitigation Network for Vision-Based Lateral Control of Autonomous Vehicles" by Aws Khalil and Jaerock Kwon, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experimental setup sections** to identify any datasets that are mentioned or referenced. The abstract provides a brief overview of the study, and I will look for any explicit mentions of datasets used for training or evaluation.
+
+Next, I will focus on the **experimental setup section**, which typically contains detailed information about the datasets used in the experiments. In this section, the authors describe the training dataset collected by a human driver navigating a track using the OSCAR simulator. They mention that the dataset includes visual observations and critical control values, which indicates that this dataset is essential for their experiments.
+
+I will also check the **results and discussion sections** to see if the authors refer to any additional datasets or provide further context about the datasets used. This may include any modifications made to the datasets or any specific characteristics that are relevant to the study.
+
+In the **references section**, I will look for full citations of any datasets mentioned in the paper. The authors may reference other works that describe the datasets they used, which is crucial for providing proper attribution.
+
+From my reading, I identify the following datasets:
+
+1. **Training Dataset (D)**: This dataset was collected by a human driver using the OSCAR simulator, which includes visual observations and control values. The authors state that approximately 115,000 clean training samples were collected.
+
+2. **Timed Action Prediction Model Dataset (DTAPM)**: This dataset is generated from the original dataset (D) to train the TAPM policy, mapping inputs to distinct future actions corresponding to different latency values.
+
+Now, I will compile the full citations for these datasets:
+
+- For the **OSCAR simulator**, the citation is:
+  > J. Kwon, “OSCAR (Open-Source robotic Car Architecture for Research and education),” Feb. 2021, original-date: 2020-11-29T19:48:57Z. Available: https://github.com/jrkwon/oscar
+
+- The original dataset (D) does not have a specific citation since it is collected by the authors, but it is important to note that it is based on the OSCAR simulator.
+
+After gathering this information, I will summarize the datasets and their citations in a structured format for clarity and future reference.

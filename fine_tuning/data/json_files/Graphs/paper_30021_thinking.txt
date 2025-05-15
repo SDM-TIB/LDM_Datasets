@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Scrutinizing Shipment Records To Thwart Illegal Timber Trade" by Debanjan Datta et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reading the **abstract** and **introduction** sections to get an overview of the research focus and any datasets that might be referenced. The abstract mentions the use of **Bill of Lading trade record data** from 2015 to 2017, which indicates that this is a primary dataset used in the study.
+
+Next, I will look into **section 3 (Data and Motivation)**, where the authors describe the specific trade data they utilized. They mention that they used **US import Bill of Lading records** obtained from **Panjiva**. This section provides details about the attributes selected from the dataset, such as VolumeTEU, Quantity, WeightKg, etc. This confirms that the dataset is indeed relevant to their research.
+
+In **section 6 (Model Evaluation)**, the authors discuss their experimental evaluation using various datasets. They mention six trade datasets used for evaluation, which are summarized in **Table 2**. I will extract the names and details of these datasets, including their total cardinality, numeric features, training size, and test size.
+
+Now, I will compile the full citations for the datasets mentioned in the paper. The primary dataset is the **US import Bill of Lading records** from Panjiva, which I will cite as follows:
+- Panjiva. 2019. *Panjiva Trade Data*. https://panjiva.com.
+
+For the other datasets mentioned in the evaluation (Dataset-1 to Dataset-6), I will note that they are derived from the **KDDCup99**, **UNSW-NB15**, and **NSL-KDD** datasets, which are well-known datasets in the anomaly detection domain. Their citations are as follows:
+- KDDCup99: 
+  > Mahbod Tavallaee, Ebrahim Bagheri, Wei Lu, and Ali A Ghorbani. 2009. *A detailed analysis of the KDD CUP 99 data set*. In 2009 IEEE symposium on computational intelligence for security and defense applications. IEEE, 1–6.
+  
+- UNSW-NB15: 
+  > N. Moustafa and J. Slay. 2015. *UNSW-NB15: a comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set)*. In 2015 Military Communications and Information Systems Conference (MilCIS). 1–6.
+
+- NSL-KDD: 
+  > Dheeru Dua and Casey Graff. 2017. *UCI Machine Learning Repository*. http://archive.ics.uci.edu/ml.
+
+After gathering all this information, I will summarize the datasets in a structured format, ensuring that each dataset is clearly identified with its full citation for proper attribution. This will provide a comprehensive overview of the datasets utilized in the research paper.

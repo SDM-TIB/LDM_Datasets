@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "Towards a Digital Twin Framework in Additive Manufacturing: Machine Learning and Bayesian Optimization for Time Series Process Optimization" by Vispi Karkaria et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned or implied. The abstract discusses the development of a surrogate model and a Bayesian Optimization method, which suggests that data is likely involved in the experiments.
+
+Next, I will focus on the **methodology section**, particularly the parts that describe the training of the Bayesian LSTM model. Here, the authors mention using **Finite Element Method (FEM) simulations** to generate a bank of simulated full-field temperature data. This indicates that the dataset is derived from simulations rather than real-world measurements.
+
+In the **results section**, I will look for any specific datasets that were used for validation or testing the models. The authors mention using a set of 20 distinct laser power profiles for validation purposes. This is a clear indication of a dataset that is critical for the evaluation of their model.
+
+Now, I will check the **references section** to find full citations for the datasets mentioned. The paper references several works that may provide context or data sources, but I need to ensure that I capture the relevant citations for the datasets used in their experiments.
+
+1. **FEM Simulations Dataset**: The dataset used for training the Bayesian LSTM model is based on simulations. While the paper does not provide a specific citation for this dataset, it references the methodology used to generate it, which is based on the work of Liao et al. (2022). Therefore, I will cite:
+   > Liao, S., Webster, S., Huang, D., Council, R., Ehmann, K., and Cao, J. (2022). "Simulation-Guided Variable Laser Power Design for Melt Pool Depth Control in Directed Energy Deposition." *Additive Manufacturing*, 56, p. 102912.
+
+2. **Laser Power Profiles Dataset**: The authors mention using 50 laser power profiles for the Gaussian Process model in the BOTSPO method. This dataset is also derived from their own simulations, but it is important to note that it is based on the principles discussed in the literature. The relevant citation for this methodology is:
+   > Mozaffar, M., Liao, S., Jeong, J., Xue, T., and Cao, J. (2023). "Differentiable Simulation for Material Thermal Response Design in Additive Manufacturing Processes." *Additive Manufacturing*, 61, p. 103337.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described and that full citations are included for reference. This will provide a comprehensive overview of the datasets utilized in the research paper.

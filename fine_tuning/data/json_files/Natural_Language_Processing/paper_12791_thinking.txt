@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Weighted Multi-Level Feature Factorization for App ads CTR and installation prediction" by Juan Manuel Rodriguez and Antonela Tommasel, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the competition and the model used, but I need to look deeper for specific dataset names.
+
+Next, I will focus on the **data collection section**. Here, the authors describe the data collection process, which includes information for approximately 10 million users who interacted with the ShareChat and Moj apps. They mention that each user has 10 ad impressions available, and they detail the types of features collected, such as user demographics and ad features. However, I need to confirm if this data is publicly available or if it is specific to the competition.
+
+In **section 6 (Experimental Evaluation)**, the authors mention two datasets used for evaluation:
+
+1. **Criteo_x1 Dataset**: This dataset is used for predicting the probability of a user clicking on an ad. It consists of 33,003,326 training instances, 8,250,124 validation instances, and 4,587,167 test instances, with a mix of categorical and continuous features.
+
+2. **MovieLens 100k Dataset**: This dataset contains 100,000 ratings given by 943 users on 1,682 movies. The authors describe modifications made to the model for this dataset, indicating its relevance to their experiments.
+
+Now, I will check the **References section** to find full citations for these datasets:
+
+- For the **Criteo_x1 Dataset**, the citation is:
+  > Criteo. *Criteo Display Advertising Challenge*. Retrieved from https://github.com/openbenchmark/BARS/tree/main/datasets/Criteo#criteo_x1.
+
+- For the **MovieLens 100k Dataset**, the citation is:
+  > F. Maxwell Harper and Joseph A. Konstan. *The MovieLens Datasets: History and Context*. ACM Trans. Interact. Intell. Syst. 5, 4, Article 19 (Dec 2015), 19 pages. https://doi.org/10.1145/2827872.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review. This ensures that I have accurately captured the datasets and their citations as required.

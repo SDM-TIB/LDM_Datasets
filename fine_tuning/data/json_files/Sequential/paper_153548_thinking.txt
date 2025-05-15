@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "A Methodology for Prediction of Visual Inference Performance on IoT Devices" by Delia Velasco-Montero et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the study, and while it may not explicitly mention datasets, it can give clues about the types of data used.
+
+Next, I will focus on the **experiments section** (Section 6) where the authors describe the performance evaluation of their methodology. This section is likely to contain specific references to datasets used for training or testing the models.
+
+In Section 6.1, the authors mention that they evaluated their methodology on **seven popular CNNs**, including AlexNet, All-CNN-C, MobileNet, ResNet-18, SimpleNet, SqueezeNet, and Tiny YOLO. They also state that these networks were trained on the **ImageNet dataset** for classification tasks, and All-CNN-C and SimpleNet were trained on **CIFAR-10** and **CIFAR-100** datasets, respectively. Additionally, Tiny YOLO was trained on the **COCO dataset** for object detection.
+
+Now, I will compile the datasets identified:
+
+1. **ImageNet Dataset**: This dataset is widely used for image classification tasks and is referenced in the context of training several CNN models.
+   - Citation: 
+     > O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. Bernstein, A. C. Berg, and L. Fei-Fei. "ImageNet Large Scale Visual Recognition Challenge." *International Journal of Computer Vision (IJCV)*, vol. 115, no. 3, pp. 211–252, 2015.
+
+2. **CIFAR-10 Dataset**: This dataset is used for training the All-CNN-C model.
+   - Citation:
+     > A. Krizhevsky, V. Nair, and G. Hinton. "The CIFAR Dataset." [Online]. Available: https://www.cs.toronto.edu/~kriz/cifar.html
+
+3. **CIFAR-100 Dataset**: This dataset is used for training the SimpleNet model.
+   - Citation:
+     > A. Krizhevsky, V. Nair, and G. Hinton. "The CIFAR Dataset." [Online]. Available: https://www.cs.toronto.edu/~kriz/cifar.html
+
+4. **COCO Dataset**: This dataset is used for training the Tiny YOLO model for object detection.
+   - Citation:
+     > T. Lin, M. Maire, S. J. Belongie, L. D. Bourdev, R. B. Girshick, J. Hays, P. Perona, D. Ramanan, P. Dollár, and C. L. Zitnick. "Microsoft COCO: Common Objects in Context." In *European Conference on Computer Vision*, C. Springer, Ed., 2014, pp. 740–755.
+
+After gathering this information, I will ensure that I have accurately captured the datasets and their citations. This will allow me to create a structured output that can be used for further analysis or integration into a larger dataset repository.

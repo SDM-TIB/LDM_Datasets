@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Large Language Models Understand Layout" by Weiming Lia et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors conducted experiments on various layout-sensitive datasets, which suggests that there are specific datasets to look for.
+
+Next, I will focus on **section 4.1 (Datasets)**, where the authors provide a detailed description of the datasets used in their experiments. Here, I will find the following datasets:
+
+1. **XfundQA**: A form QA dataset generated from the XFUND dataset, which is a multilingual form understanding benchmark covering seven languages. The authors describe the modifications made to the dataset for their specific QA tasks.
+
+2. **FetaQA**: A table QA dataset that consists of free-form table questions requiring deep reasoning and understanding. The authors mention the number of samples in the test set and the evaluation metrics used.
+
+3. **DocVQA**: A document QA dataset that includes printed and typed text as well as scanned documents with various layouts. The authors specify the number of samples in the test set and the evaluation metric.
+
+4. **TextLayoutQA**: A layout QA dataset proposed by the authors to test the layout understanding capability of LLMs. They describe the structure of the dataset and the evaluation process.
+
+In addition to these datasets, the authors also mention several instruction-tuning datasets, including instruction-basic, instruction-code, instruction-table, instruction-generated, and instruction-test. However, I will focus on the primary datasets used for evaluation.
+
+Next, I will check the **References section** to find the full citations for the datasets mentioned:
+
+- For **XfundQA**, the citation is:
+  > Xu, Y., Lv, T., Cui, G., Wang, Y., Lu, Y., Florencio, D., Zhang, C., & Wei, F. (2021). *LayoutXLM: Multimodal pre-training for multilingual visually-rich document understanding*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 2248-2255.
+
+- For **FetaQA**, the citation is:
+  > Nan, L., Hsieh, C., Mao, Z., Lin, X. V., Verma, N., Zhang, R., Kryściński, W., Schoelkopf, H., Kong, R., Tang, X., et al. (2022). *FetaQA: Free-form table question answering*. Transactions of the Association for Computational Linguistics, 10:35-49.
+
+- For **DocVQA**, the citation is:
+  > Mathew, M., Karatzas, D., & Jawahar, C. V. (2021). *DocVQA: A dataset for VQA on document images*. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), pages 2200-2209.
+
+- For **TextLayoutQA**, since it is a dataset proposed by the authors themselves, the citation would be:
+  > Lia, W., Duan, M., An, D., & Shao, Y. (2023). *Large language models understand layout*. In Proceedings of the [Conference Name], [pages], [year].
+
+Now, I will compile the dataset entries, ensuring that each entry includes the dataset name, description, and full citation. This structured approach will help in accurately documenting the datasets used in the research paper.

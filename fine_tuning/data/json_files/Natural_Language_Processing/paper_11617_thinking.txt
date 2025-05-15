@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Exploring New Frontiers in Agricultural NLP: Investigating the Potential of Large Language Models for Food Applications" by Saed Rezayi et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors utilize a large-scale corpus of agricultural literature and mention the USDA Food and Nutrient Database for Dietary Studies (FNDDS) as a key resource.
+
+Next, I will focus on **section 1 (Introduction)**, where the authors discuss the integration of various databases, including the USDA FNDDS and Nielsen data. This section provides context for the datasets used in their experiments.
+
+In **section 5.1 (Datasets)**, the authors explicitly describe the datasets they employed:
+
+1. **Agricultural Literature Corpus**: This dataset consists of 46,446 food- and agricultural-related journal papers, totaling over 300 million tokens. It was used to train the AgriBERT model from scratch.
+
+2. **Nielsen Homescan Data**: This dataset provides detailed information on food purchases at the product barcode level, which is linked with the USDA Food Acquisition and Purchase Survey (FoodAPS) to supplement nutritional information.
+
+3. **USDA Food and Nutrient Database for Dietary Studies (FNDDS)**: This database contains nutrient values for foods and beverages consumed in the United States and is used to evaluate the nutritional quality of food purchases.
+
+4. **FoodOn Knowledge Graph**: This external knowledge source is utilized for augmenting the dataset for the answer selection component, providing structured food-related information.
+
+Now, I will check the **References section** to gather full citations for these datasets:
+
+- For the **Agricultural Literature Corpus**, the citation is:
+  > Saed Rezayi, Zhengliang Liu, Zihao Wu, Chandra Dhakal, Bao Ge, Haixing Dai, Gengchen Mai, Ninghao Liu, Chen Zhen, Tianming Liu, Sheng Li. *Agribert: Knowledge-infused agricultural language models for matching food and nutrition*. In IJCAI, 2022.
+
+- For the **USDA Food and Nutrient Database for Dietary Studies (FNDDS)**, the citation is:
+  > United States Department of Agriculture. *Food and Nutrient Database for Dietary Studies*. [Online]. Available: https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/food-surveys-research-group/docs/fndds/
+
+- For the **Nielsen Homescan Data**, the citation is:
+  > Nielsen Consumer LLC. *Nielsen Homescan Data*. [Online]. Available: https://www.nielsen.com/us/en/
+
+- For the **FoodOn Knowledge Graph**, the citation is:
+  > Griffiths, D. M., & Dooley, D. M. *FoodOn: A harmonized food ontology to increase global food traceability, quality control and data integration*. Science of Food, vol. 2, no. 1, 2018.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

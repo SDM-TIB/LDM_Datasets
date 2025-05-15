@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "USD: Unsupervised Soft Contrastive Learning for Fault Detection in Multivariate Time Series" by Hong Liu et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to locate any references to datasets. The abstract mentions that the proposed method achieves improvements across multiple datasets, indicating that datasets are indeed used.
+
+Next, I will focus on the **experiments section**, specifically **section V (Experiments)**, where the authors provide detailed information about the datasets used for evaluation. Here, they explicitly list five datasets:
+
+1. **SWaT (Secure Water Treatment)**: This dataset originates from a scaled-down version of an industrial water treatment plant and includes 51 sensor data points collected at a frequency of one second. It provides ground truths for 41 attacks over a period of 4 days.
+
+2. **WADI (Water Distribution)**: Collected from a water distribution testbed, this dataset consists of 121 sensor and actuator data points, also collected at a frequency of one second, with ground truths for 15 attacks over 2 days.
+
+3. **PSM (Pooled Server Metrics)**: This dataset aggregates performance metrics from multiple server nodes managed by eBay, used to identify outliers indicating potential issues in server performance or security breaches.
+
+4. **MSL (Mars Science Laboratory)**: Originating from the Curiosity rover, this dataset includes telemetry data used to detect anomalies in the rover’s operational parameters during its mission on Mars.
+
+5. **SMD (Server Machine Dataset)**: Collected from a large internet company’s server farms, this dataset comprises metrics from different server machines, providing a basis for detecting unusual behaviors in server operations.
+
+In the **References section**, I will look for full citations for these datasets. The citations are as follows:
+
+- For **SWaT**:
+  > Jonathan Goh, Sridhar Adepu, Khurum Nazir Junejo, and Aditya Mathur. *A dataset to support research in the design of secure water treatment systems*. In International conference on critical information infrastructures security, pages 88–99. Springer, 2016.
+
+- For **WADI**:
+  > Chuadhry Mujeeb Ahmed, Venkata Reddy Palleti, and Aditya P Mathur. *Wadi: a water distribution testbed for research in the design of secure cyber physical systems*. In Proceedings of the 3rd international workshop on cyber-physical systems for smart water networks, pages 25–28, 2017.
+
+- For **PSM**:
+  > Ahmed Abdulaal, Zhuanghua Liu, and Tomer Lancewicki. *Practical approach to asynchronous multivariate time series anomaly detection and localization*. In Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining, pages 2485–2494, 2021.
+
+- For **MSL**:
+  > Kyle Hundman, Valentino Constantinou, Christopher Laporte, Ian Colwell, and Tom Soderstrom. *Detecting spacecraft anomalies using lstms and nonparametric dynamic thresholding*. In Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery & data mining, pages 387–395, 2018.
+
+- For **SMD**:
+  > Ya Su, Youjian Zhao, Chenhao Niu, Rong Liu, Wei Sun, and Dan Pei. *Robust anomaly detection for multivariate time series through stochastic recurrent neural network*. In Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining, pages 2828–2837, 2019.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or analysis.

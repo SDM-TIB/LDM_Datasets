@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Accelerating Recurrent Neural Networks for Gravitational Wave Experiments" by Zhiqiang Que et al., I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reading through the **abstract and introduction** sections. The abstract mentions the development of a new architecture for accelerating RNN inference for analyzing time-series data from LIGO detectors, which suggests that there may be datasets related to gravitational wave detection.
+
+Next, I will look for specific mentions of datasets in the **methodology and experiments sections**. In the introduction, the authors discuss the use of time-series data from LIGO detectors, which indicates that there is likely a dataset associated with this data source. I will also check if they provide any details about the dataset, such as its size, structure, or how it was collected.
+
+In **section III (Design and Optimization Methodology)**, the authors describe an LSTM-based autoencoder for gravitational wave detection and mention that the models and the dataset are available on GitHub. This is a crucial point, as it indicates that there is a publicly accessible dataset that I need to note.
+
+I will then look for any specific references to datasets in the **evaluation and analysis section**. The authors mention that simulated gravitational waves are generated using the GGWD library and that noise is generated using PyCBC. This suggests that there are datasets related to gravitational wave events and normal detector background conditions.
+
+Now, I will compile the information I have gathered about the datasets:
+
+1. **Gravitational Wave Events Dataset**: This dataset consists of simulated gravitational wave events generated using the GGWD library. The training set has 240,000 gravitational wave events, while the validation and test sets contain 60,000 and 50,000 events, respectively.
+
+2. **Noise Dataset**: This dataset is generated to mimic normal detector background conditions using the PyCBC library. It is used in conjunction with the gravitational wave events dataset to evaluate the performance of the proposed models.
+
+Next, I will consult the **References section** to find the full citations for the datasets mentioned. The citations for the libraries used to generate the datasets are as follows:
+
+- For the **GGWD library**:
+  > Gebhard, T. "Generate Gravitational-Wave Data (GGWD)." GitHub repository, 2019. Available: https://github.com/timothygebhard/ggwd.
+
+- For the **PyCBC library**:
+  > Nitz, A. et al. "gwastro/pycbc: Pycbc release v1.16.9." Zenodo, 2020. Available: https://doi.org/10.5281/zenodo.3993665.
+
+Finally, I will summarize the datasets and their citations in a structured format, ensuring that I include all necessary details for each dataset. This will allow for easy reference and further analysis in future work.

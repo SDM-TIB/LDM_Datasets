@@ -1,0 +1,138 @@
+[
+    {
+        "dcterms:creator": [
+            "Anthony J Bagnall",
+            "Jason Lines",
+            "Aaron Bostrom",
+            "James Large",
+            "Eamonn J Keogh"
+        ],
+        "dcterms:description": "This dataset contains around 15K daily readings, each of which records four observations on a trading day: three kinds of trade price and a trade number. The task is to predict abnormal price volatility (variance greater than 1.0) in the next week (five trading days) based on the most recent records from the past year (50 weeks).",
+        "dcterms:title": "DJIA 30 Stock Time Series (DJIA30)",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Finance",
+            "Time Series Analysis"
+        ],
+        "dcat:keyword": [
+            "Stock market",
+            "Time series",
+            "Volatility prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Time Series",
+        "mls:task": [
+            "Event Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Anthony J Bagnall",
+            "Jason Lines",
+            "Aaron Bostrom",
+            "James Large",
+            "Eamonn J Keogh"
+        ],
+        "dcterms:description": "This dataset contains around 3M daily readings, each of which records the number of views for a specific Wikipedia article. The task is to predict whether there will be a rapid growth (curve slope greater than 1.0) in the next month (30 days) based on the most recent records from the past 12 months.",
+        "dcterms:title": "Web Traffic Time Series Forecasting (WebTraffic)",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Web Analytics",
+            "Time Series Analysis"
+        ],
+        "dcat:keyword": [
+            "Web traffic",
+            "Time series",
+            "Growth prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Time Series",
+        "mls:task": [
+            "Event Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Pierre Ailliot",
+            "Valerie Monbet"
+        ],
+        "dcterms:description": "This dataset consists of around 238K hourly readings, each of which records the hourly in- and out-flow of network devices. The goal is to predict future anomalies (next day) based on records from the past 15 days.",
+        "dcterms:title": "Information Networks Supervision (NetFlow)",
+        "dcterms:issued": "2012",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Network Monitoring",
+            "Anomaly Detection"
+        ],
+        "dcat:keyword": [
+            "Network flow",
+            "Anomaly prediction",
+            "Time series"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Time Series",
+        "mls:task": [
+            "Event Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Pierre Ailliot",
+            "Valerie Monbet"
+        ],
+        "dcterms:description": "This dataset consists of around 6M weekly readings, each of which records the deviation time and delay of watt-hour meters. The goal is to predict anomalies in the next month based on records from the past 12 months.",
+        "dcterms:title": "Watt-hour Meter Clock Error (ClockErr)",
+        "dcterms:issued": "2012",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Energy Monitoring",
+            "Anomaly Detection"
+        ],
+        "dcat:keyword": [
+            "Watt-hour meter",
+            "Clock error",
+            "Anomaly prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Time Series",
+        "mls:task": [
+            "Event Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Pierre Ailliot",
+            "Valerie Monbet"
+        ],
+        "dcterms:description": "This dataset consists of around 12K server monitoring series, each of which records the minutely readings of different metrics (e.g., CPU, disk, memory, etc.). The goal is to predict anomalies in the next 5 minutes based on records from the previous one hour.",
+        "dcterms:title": "Abnormal Server Response (AbServe)",
+        "dcterms:issued": "2012",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Server Monitoring",
+            "Anomaly Detection"
+        ],
+        "dcat:keyword": [
+            "Server response",
+            "Anomaly prediction",
+            "Time series"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Time Series",
+        "mls:task": [
+            "Event Prediction"
+        ]
+    }
+]

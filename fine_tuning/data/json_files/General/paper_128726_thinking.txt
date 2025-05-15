@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Building a Corpus for Biomedical Relation Extraction of Species Mentions" by Oumaima El Khettari et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned. The abstract indicates the creation of a manually annotated corpus called **Species-Species Interaction (SSI)**, which is a strong indication that this is a primary dataset of interest.
+
+Next, I will look closely at the **introduction** where the authors discuss the challenges in the field of biomedical relation extraction and mention the lack of annotated datasets for species interactions. They introduce the **Species-Species Interaction (SSI)** corpus, which is manually annotated for binary relations between species in biomedical texts. This section confirms the existence of the SSI dataset.
+
+In the **methodology section**, specifically in **section 3 (Relation Extraction Corpus for Species)**, the authors detail how they constructed the SSI corpus from full-text scientific articles. They mention collecting sentences from existing corpora, specifically **LINNAEUS** and **S800**, to enhance their dataset. This indicates that both LINNAEUS and S800 are relevant datasets that contribute to the SSI corpus.
+
+I will then check the **References section** to find the full citations for each dataset mentioned:
+
+1. **Species-Species Interaction (SSI)**: The authors state that this corpus is publicly available on HuggingFace, but I need to ensure I have the correct citation for it. Since it is a new corpus introduced in this paper, I will cite it as:
+   > Oumaima El Khettari, Solen Quiniou, Samuel Chaffron. *Building a Corpus for Biomedical Relation Extraction of Species Mentions*. Nantes Université, École Centrale Nantes, CNRS, LS2N, UMR 6004, F-44000. Available at: https://huggingface.co/datasets/taln-ls2n/SSI.
+
+2. **LINNAEUS**: The citation for this dataset is:
+   > Martin Gerner, Goran Nenadic, and Casey M Bergman. *LINNAEUS: a Species Name Identification System for Biomedical Literature*. BMC Bioinformatics, 11(1):1–17, 2010.
+
+3. **S800**: The citation for this dataset is:
+   > Evangelos Pafilis, Sune P Frankild, Lucia Fanini, Sarah Faulwetter, Christina Pavloudi, Aikaterini Vasileiadou, Christos Arvanitidis, and Lars Juhl Jensen. *The SPECIES and ORGANISMS Resources for Fast and Accurate Identification of Taxonomic Names in Text*. PloS one, 8(6):e65390, 2013.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This will ensure that I have accurately captured the datasets and their respective citations from the research paper.

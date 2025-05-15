@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "ART: Automatic Red-teaming for Text-to-Image Models to Protect Benign Users" by Guanlin Li et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to gather initial insights about the datasets. The abstract mentions that the authors introduce **three large-scale red-teaming datasets** for studying safety risks in text-to-image models, which indicates that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 3 (Auto Red-teaming under Safe Prompts)**, where the authors describe the datasets in detail. Here, they mention three datasets:
+
+1. **Meta Dataset (MD)**: This dataset contains pairs of safe prompts and their corresponding unsafe images. The authors explain that they collected data pairs by filtering prompts and images based on toxicity and safety detectors. They also provide a breakdown of the number of prompts in various harmful categories.
+
+2. **VLM Dataset (VD)**: This dataset is specifically designed for fine-tuning Vision Language Models (VLMs). It is constructed from the meta dataset and includes instructions for modifying prompts to generate images that align with specific harmful categories.
+
+3. **LLM Dataset (LD)**: This dataset is created for fine-tuning Large Language Models (LLMs). It utilizes the VLM dataset to generate instructions for modifying prompts based on the guidance provided by the VLM.
+
+In the **experiments section**, the authors confirm that these datasets were used to evaluate their proposed method, ART, and provide insights into their effectiveness.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The paper does not provide specific citations for the datasets themselves, as they are newly created datasets. However, they reference existing works and methodologies that informed their dataset construction.
+
+To summarize the datasets extracted from the paper:
+
+1. **Meta Dataset (MD)**: Contains safe prompts and unsafe images, collected using various toxicity detectors.
+   - Citation: Not applicable (new dataset).
+
+2. **VLM Dataset (VD)**: Designed for fine-tuning VLMs, based on the meta dataset.
+   - Citation: Not applicable (new dataset).
+
+3. **LLM Dataset (LD)**: Created for fine-tuning LLMs, utilizing the VLM dataset.
+   - Citation: Not applicable (new dataset).
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

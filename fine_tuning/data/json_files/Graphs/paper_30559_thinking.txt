@@ -1,0 +1,37 @@
+To extract datasets from the research paper titled "Point-Syn2Real: Semi-Supervised Synthetic-to-Real Cross-Domain Learning for Object Classification in 3D Point Clouds" by Ziwei Wang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors introduce a new benchmark dataset called **Point-Syn2Real**, which is a strong signal that I should look for more details about it.
+
+Next, I will focus on **section 4 (Point-Syn2Real Dataset)**, where the authors provide a comprehensive overview of the datasets they compiled. They mention that the Point-Syn2Real dataset includes both synthetic and real-world data for evaluating cross-domain learning methods. 
+
+In this section, the authors describe the datasets used:
+
+1. **ModelNet**: A dataset containing 3D CAD models used as the synthetic source domain for indoor object classification. The authors extracted ten overlapping categories from this dataset.
+   
+2. **ShapeNet**: Another dataset of 3D models that serves as a synthetic source domain alongside ModelNet for indoor settings.
+
+3. **ScanNet**: A dataset of richly annotated 3D reconstructions of indoor scenes, which serves as the real-world target domain for indoor object classification.
+
+4. **3D City**: A synthetic dataset created from CAD models for outdoor settings, which serves as the synthetic source domain for outdoor object classification.
+
+5. **SemanticKITTI**: A dataset containing real-world LiDAR scans used as the target domain for outdoor object classification.
+
+The authors also provide a summary table (Table 1) that outlines the number of simulated scans and original models for each dataset, which further confirms the datasets' details.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **ModelNet**, the citation is:
+  > Zhirong Wu, Shuran Song, Aditya Khosla, Fisher Yu, Linguang Zhang, Xiaoou Tang, and Jianxiong Xiao. *3D ShapeNets: A Deep Representation for Volumetric Shapes*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 1912–1920, 2015.
+
+- For **ShapeNet**, the citation is:
+  > Angel X. Chang, Thomas A. Funkhouser, Leonidas J. Guibas, Pat Hanrahan, Qi-Xing Huang, Zimo Li, Silvio Savarese, Manolis Savva, Shuran Song, Hao Su, Jianxiong Xiao, Li Yi, and Fisher Yu. *ShapeNet: An Information-Rich 3D Model Repository*. CoRR, abs/1512.03012, 2015.
+
+- For **ScanNet**, the citation is:
+  > Angela Dai, Angel X. Chang, Manolis Savva, Maciej Halber, Thomas A. Funkhouser, and Matthias Nießner. *ScanNet: Richly-Annotated 3D Reconstructions of Indoor Scenes*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2432–2443, 2017.
+
+- For **SemanticKITTI**, the citation is:
+  > Jens Behley, Martin Garbade, Andres Milioto, Jan Quenzel, Sven Behnke, Cyrill Stachniss, and Jürgen Gall. *SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences*. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pages 9296–9306, 2019.
+
+- For **3D City**, the authors mention it as a subset created from CAD models, but do not provide a specific citation in the references.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

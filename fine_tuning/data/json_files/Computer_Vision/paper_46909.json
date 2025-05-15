@@ -1,0 +1,59 @@
+[
+    {
+        "dcterms:creator": [
+            "A. S. Ross",
+            "M. C. Hughes",
+            "F. Doshi-Velez"
+        ],
+        "dcterms:description": "The Colors dataset consists of 5x5 images labeled as positive or negative according to one of two possible rules: rule 1 holds if the four corner pixels have the same color, while rule 2 holds if the three top-middle pixels have different colors. All images satisfy both rules or neither of them, making it impossible to disambiguate between the two rules based on labels alone. Both feature relevance and feature importance ground-truth explanations were generated.",
+        "dcterms:title": "Colors",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Explainable AI"
+        ],
+        "dcat:keyword": [
+            "Image dataset",
+            "Feature relevance",
+            "Feature importance",
+            "Ground-truth explanations"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Classification",
+            "Explanation Generation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D. Dua",
+            "C. Graff"
+        ],
+        "dcterms:description": "The Banknote dataset consists of 4-dimensional instances extracted from images of counterfeit and genuine banknotes. The dataset includes 1372 instances, 610 counterfeit and 762 genuine. The ground-truth explanation for each instance is the path of a decision tree with depth between 5 and 10.",
+        "dcterms:title": "Banknote",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://archive.ics.uci.edu/ml",
+        "dcat:theme": [
+            "Binary Classification",
+            "Explainable AI"
+        ],
+        "dcat:keyword": [
+            "Banknote dataset",
+            "Counterfeit detection",
+            "Decision tree explanations",
+            "Ground-truth explanations"
+        ],
+        "dcat:landingPage": "http://archive.ics.uci.edu/ml",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": [
+            "Classification",
+            "Explanation Generation"
+        ]
+    }
+]

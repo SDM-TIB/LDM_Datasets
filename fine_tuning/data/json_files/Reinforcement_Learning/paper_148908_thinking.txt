@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Combining Events and Frames using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction" by Daniel Gehrig et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors released a new dataset called **EventScape**, which is a strong indication that there are datasets to extract.
+
+Next, I will focus on the **Introduction** section, where the authors discuss the challenges of combining data from event cameras and standard cameras. They mention the lack of high-quality datasets for learning depth, which leads to the introduction of **EventScape**.
+
+In the **A. Datasets** section, the authors provide detailed descriptions of the datasets used in their work:
+
+1. **EventScape**: This is a synthetic dataset recorded in the CARLA simulator. It contains 743 sequences of driving data with a total of 171,000 labels, including events, intensity frames, semantic labels, depth maps, and vehicle navigation parameters. The dataset is designed to enable further research on multimodal learning using events.
+
+2. **MVSEC (Multi-Vehicle Stereo Event Camera Dataset)**: This dataset consists of data recorded using two DAVIS event cameras, along with measurements from a LiDAR for ground truth depth. It features various driving sequences and is used to benchmark the proposed method against state-of-the-art techniques.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **EventScape**, since it is a new dataset introduced in this paper, I will cite it as follows:
+  > Gehrig, D., Ruegg, M., Gehrig, M., Hidalgo-Carrión, J., & Scaramuzza, D. (2021). Combining Events and Frames using Recurrent Asynchronous Multimodal Networks for Monocular Depth Prediction. IEEE Robotics and Automation Letters, accepted.
+
+- For **MVSEC**, the citation is:
+  > Zhu, A. Z., Thakur, D., Ozaslan, T., Pfrommer, B., Kumar, V., & Daniilidis, K. (2018). The multivehicle stereo event camera dataset: An event camera dataset for 3D perception. IEEE Robotics and Automation Letters, 3(3), 2032-2039.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all details are accurately represented for future reference or processing.

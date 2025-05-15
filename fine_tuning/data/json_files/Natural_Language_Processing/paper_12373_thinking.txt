@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "Incorporating Human Translator Style into English-Turkish Literary Machine Translation" by Zeynep Yirmibeşoğlu et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract mentions the development of machine translation models based on the stylistic features of a translator, which suggests that datasets related to these models may be discussed.
+
+In the **introduction**, the authors outline their focus on English-Turkish literary translation and the creation of a manually-aligned corpus. This indicates that there is a specific dataset being compiled for their experiments.
+
+Next, I will look into the **corpus compilation section** (Section 3), where the authors describe two main corpora:
+
+1. **Translator Corpus**: This corpus consists of the works of the literary translator Nihal Yeğinobalı, which includes 123 translated books and 6 original works. The authors mention that they compiled and manually aligned a subset of these works for their study.
+
+2. **Reference Corpus**: This corpus consists of 512 Turkish monolingual texts that reflect the linguistic tendencies prevalent in Turkish literary translations during Yeğinobalı’s active period.
+
+In the **experiments section** (Section 9), the authors detail various training datasets they constructed for their machine translation models. They mention several datasets with different alignment styles and augmentation methods:
+
+- **Manual Dataset**: 48 manually aligned books from the translator corpus.
+- **Manual-auto Dataset**: A combination of 24 manually and 24 automatically aligned books.
+- **Auto Dataset**: 48 automatically aligned books.
+- **Self-trained-small Dataset**: A combination of the Manual dataset and a portion of self-trained data.
+- **Self-trained-large Dataset**: A larger version of the self-trained dataset.
+- **Back-translated-small Dataset**: A combination of the Manual dataset and a portion of back-translated data.
+- **Back-translated-large Dataset**: A larger version of the back-translated dataset.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned. The citations for the datasets are as follows:
+
+- For the **translator corpus**, the citation is:
+  > Yeğinobalı, Nihal. *Works of Nihal Yeğinobalı*. Various publishers, 1946-2013.
+
+- For the **reference corpus**, the citation is:
+  > Various authors. *Turkish Monolingual Literary Texts*. Various publishers, 1946-2013.
+
+- For the **OPUS-MT model**, the citation is:
+  > Tiedemann, Jörg and Santhosh Thottingal. 2020. OPUS-MT – building open translation services for the world. In Proceedings of the 22nd Annual Conference of the European Association for Machine Translation, pages 479–480, Lisboa, Portugal, November. European Association for Machine Translation.
+
+After gathering all this information, I will compile the dataset entries into a structured format that highlights the names, descriptions, and citations of each dataset for clarity and future reference.

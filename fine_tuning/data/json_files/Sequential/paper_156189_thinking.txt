@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Learning minimal representations of stochastic processes with variational autoencoders" by Gabriel Fernández-Fernández et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to gather initial insights about the datasets. The abstract mentions that the authors showcase their method using **simulated datasets corresponding to paradigmatic diffusion models**. This indicates that there are specific datasets used for their experiments.
+
+Next, I will focus on the **section titled "Datasets"** where the authors provide detailed descriptions of the datasets they generated. In this section, they mention three types of datasets:
+
+1. **Brownian Motion (BM)**: The authors describe how they generated a dataset of trajectories with a diffusion coefficient \( D \) ranging from \( 10^{-5} \) to \( 10^{-2} \). They specify that the dataset consists of approximately 100,000 trajectories, each with a total time length of \( T = 400 \).
+
+2. **Fractional Brownian Motion (FBM)**: This dataset is generated with anomalous exponents \( \alpha \) ranging from \( 0.2 \) to \( 1.8 \) and diffusion coefficients \( D \) in the same range as BM. The authors note that they also generated around 100,000 trajectories for this dataset.
+
+3. **Scaled Brownian Motion (SBM)**: Similar to FBM, this dataset also consists of trajectories characterized by two parameters: the diffusion coefficient \( D_0 \) and the anomalous diffusion exponent \( \alpha \). The authors mention that they generated trajectories for various combinations of these parameters.
+
+After identifying the datasets, I will check the **References section** to find the full citations for the datasets mentioned. The authors reference the **andi datasets package** for generating the datasets, which is crucial for proper citation.
+
+The citation for the dataset package is:
+> G. Muñoz-Gil, B. Requena, G. Volpe, M. A. Garcia-March, and C. Manzo. *AnDiChallenge/ANDI datasets: Challenge 2020 release*. Zenodo, 2021.
+
+Now, I will compile the information into a structured format, ensuring that each dataset is clearly described along with its citation. This will include the type of dataset, its characteristics, and the full citation for the dataset package used to generate it.
+
+By following these steps, I will ensure that I accurately extract and document the datasets from the research paper, providing clear and complete citations for each.

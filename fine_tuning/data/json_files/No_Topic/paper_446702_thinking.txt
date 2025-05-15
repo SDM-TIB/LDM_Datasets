@@ -1,0 +1,38 @@
+To extract datasets from the research paper titled "Lynx: An Open Source Hallucination Evaluation Model" by Selvan Sunitha Ravi et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** of the paper. The abstract mentions the introduction of **HaluBench**, a hallucination evaluation benchmark consisting of 15k samples, which indicates that this is a dataset I need to extract.
+
+Next, I will look for specific mentions of datasets in the **introduction**. The authors reference several existing Question Answer (QA) datasets used to train their model, including **CovidQA, PubmedQA, DROP, and FinanceBench**. This suggests that these datasets are crucial for understanding the context of their research.
+
+In the **methodology section**, the authors provide detailed descriptions of how they constructed **HaluBench** and the datasets they sourced examples from. They mention:
+
+1. **FinanceBench**: A dataset with 10k questions, contexts, and answers over financial documents.
+2. **DROP**: An English reading comprehension benchmark assessing reasoning ability over paragraphs.
+3. **CovidQA**: A dataset consisting of question-answer pairs related to COVID-19.
+4. **PubMedQA**: A biomedical QA dataset collected from PubMed abstracts.
+5. **HaluEval**: A dataset consisting of general user queries with ChatGPT responses.
+6. **RAGTruth**: A corpus containing word-level hallucination annotations on LLM-generated text.
+
+I will also check the **results section** to confirm that these datasets were indeed used in the experiments and to gather any additional context about their application.
+
+Now, I will consult the **References section** to find the full citations for each dataset mentioned:
+
+- **FinanceBench**:
+  > Pranab Islam, Anand Kannappan, Douwe Kiela, Rebecca Qian, Nino Scherrer, and Bertie Vidgen. *Financebench: A new benchmark for financial question answering*. arXiv preprint arXiv:2311.11944, 2023.
+
+- **DROP**:
+  > Dheeru Dua, Yizhong Wang, Pradeep Dasigi, Gabriel Stanovsky, Sameer Singh, and Matt Gardner. *Drop: A reading comprehension benchmark requiring discrete reasoning over paragraphs*. arXiv preprint arXiv:1903.00161, 2019.
+
+- **CovidQA**:
+  > Timo Möller, Anthony Reina, Raghavan Jayakumar, and Malte Pietsch. *Covid-qa: A question answering dataset for covid-19*. In Proceedings of the 1st Workshop on NLP for COVID-19 at ACL 2020.
+
+- **PubMedQA**:
+  > Qian Jin, Bhuwan Dhingra, Zhengping Liu, William W. Cohen, and Xinghua Lu. *Pubmedqa: A dataset for biomedical research question answering*. arXiv preprint arXiv:1909.06146, 2019.
+
+- **HaluEval**:
+  > Junyi Li, Xiaoxue Cheng, Wayne Xin Zhao, Jian-Yun Nie, and Ji-Rong Wen. *Halueval: A large-scale hallucination evaluation benchmark for large language models*. arXiv preprint arXiv:2305.11747, 2023.
+
+- **RAGTruth**:
+  > Yuanhao Wu, Juno Zhu, Siliang Xu, Kashun Shum, Cheng Niu, Randy Zhong, Juntong Song, and Tong Zhang. *Ragtruth: A hallucination corpus for developing trustworthy retrieval-augmented language models*. arXiv preprint arXiv:2401.00396, 2023.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described along with its full citation. This will provide a comprehensive overview of the datasets utilized in the research paper.

@@ -1,0 +1,109 @@
+[
+    {
+        "dcterms:creator": [
+            "A. Gaulton",
+            "M. Papadatos",
+            "J. Arús-Pous",
+            "S. D. Pickett"
+        ],
+        "dcterms:description": "A dataset containing drug-like molecules used to train generative models for drug discovery, filtered to include only molecules with specific properties.",
+        "dcterms:title": "ChEMBL Dataset",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://github.com/MarcusOlivecrona/REINVENT/blob/master/data/ChEMBL_filtered",
+        "dcat:theme": [
+            "Chemoinformatics",
+            "Drug Discovery"
+        ],
+        "dcat:keyword": [
+            "Drug-like molecules",
+            "Generative models",
+            "SMILES"
+        ],
+        "dcat:landingPage": "https://github.com/maxime-langevin/scaffold-constrained-generation/data/ChEMBL_without_sureChEMBL.smi",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Molecular generation",
+            "Drug design"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "G. Papadatos"
+        ],
+        "dcterms:description": "A database of patented compounds used for validation in scaffold-constrained molecular generation tasks.",
+        "dcterms:title": "SureChEMBL Dataset",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://chembl.gitbook.io/chembl-interface-documentation/downloads",
+        "dcat:theme": [
+            "Chemoinformatics",
+            "Patent Data"
+        ],
+        "dcat:keyword": [
+            "Patented compounds",
+            "Chemical series",
+            "Scaffold validation"
+        ],
+        "dcat:landingPage": "https://github.com/maxime-langevin/scaffold-constrained-generation/data/SureChEMBL/200323_SureChemBL_dataset_636.sdf",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "SDF",
+        "mls:task": [
+            "Molecular generation",
+            "Validation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Arús-Pous"
+        ],
+        "dcterms:description": "A dataset used for generating predicted active molecules targeting the DRD2 receptor.",
+        "dcterms:title": "DRD2 Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://github.com/undeadpixel/reinvent-scaffold-decorator/blob/master/training_sets/drd2.excapedb.smi.gz",
+        "dcat:theme": [
+            "Biological Target",
+            "Drug Discovery"
+        ],
+        "dcat:keyword": [
+            "DRD2",
+            "Active molecules",
+            "Targeted drug design"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "SMILES",
+        "mls:task": [
+            "Molecular generation",
+            "Activity prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. D. Pickett"
+        ],
+        "dcterms:description": "An industrial lead-optimization dataset used for benchmarking scaffold-constrained generation methods.",
+        "dcterms:title": "MMP-12 Dataset",
+        "dcterms:issued": "2010",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://github.com/maxime-langevin/scaffold-constrained-generation/data/MMP12/mmp12.csv",
+        "dcat:theme": [
+            "Lead Optimization",
+            "Drug Discovery"
+        ],
+        "dcat:keyword": [
+            "MMP-12",
+            "Lead optimization",
+            "Benchmarking"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "CSV",
+        "mls:task": [
+            "Molecular generation",
+            "Lead optimization"
+        ]
+    }
+]

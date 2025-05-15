@@ -1,0 +1,38 @@
+To extract datasets from the research paper titled "Cluster-based Sampling in Hindsight Experience Replay for Robot Control" by Taeyoung Kim and Dongsoo Har, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the validation of the proposed method through experiments with three robotic control tasks in the OpenAI Gym, which suggests that datasets related to these tasks may be present.
+
+Next, I will look closely at the **experiments section** where the authors describe the tasks used for validation. In this section, they mention three specific tasks: 
+
+1. **Push task (FetchPush-v1)**: This task involves pushing an object to a randomly chosen goal location on a table.
+2. **Pick and Place task (FetchPickAndPlace-v1)**: In this task, the robot arm grasps an object and lifts it to a goal location in 3D space.
+3. **Slide task (FetchSlide-v1)**: This task requires the robot to slide an object to a goal location that is out of reach.
+
+These tasks are part of the **Fetch environment** developed by OpenAI Gym, which indicates that the datasets used for these tasks are likely derived from this environment.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned. The relevant references for the datasets are:
+
+- For the **OpenAI Gym**, the citation is:
+  > Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., & Zaremba, W. (2016). OpenAI Gym. arXiv preprint arXiv:1606.01540.
+
+- For the **MuJoCo physics engine**, which is also referenced in the experiments, the citation is:
+  > Todorov, E., Erez, T., & Tassa, Y. (2012). MuJoCo: A physics engine for model-based control. In 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (pp. 5026-5033). IEEE.
+
+Next, I will compile the dataset entries, ensuring to include the full citations for each dataset as required.
+
+1. **Dataset Name**: FetchPush-v1
+   - **Description**: A task where a robot arm pushes an object to a randomly chosen goal location on a table.
+   - **Citation**: Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., & Zaremba, W. (2016). OpenAI Gym. arXiv preprint arXiv:1606.01540.
+
+2. **Dataset Name**: FetchPickAndPlace-v1
+   - **Description**: A task where a robot arm grasps an object and lifts it to a goal location in 3D space.
+   - **Citation**: Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., & Zaremba, W. (2016). OpenAI Gym. arXiv preprint arXiv:1606.01540.
+
+3. **Dataset Name**: FetchSlide-v1
+   - **Description**: A task where a robot slides an object to a goal location that is out of reach.
+   - **Citation**: Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., & Zaremba, W. (2016). OpenAI Gym. arXiv preprint arXiv:1606.01540.
+
+4. **Additional Reference**: MuJoCo
+   - **Citation**: Todorov, E., Erez, T., & Tassa, Y. (2012). MuJoCo: A physics engine for model-based control. In 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (pp. 5026-5033). IEEE.
+
+After gathering all this information, I will prepare the dataset entries for further processing or review.

@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Sample Factory: Egocentric 3D Control from Pixels at 100000 FPS with Asynchronous Reinforcement Learning" by Aleksei Petrenko et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the work, and while it may not detail specific datasets, it sets the context for the experiments.
+
+Next, I will focus on the **experiments section** (section 4), as this is where the authors typically describe the datasets used for their evaluations. In this paper, the authors mention using environments from **Atari, VizDoom, and DeepMind Lab** for benchmarking their method. I will look for specific details about these environments, including any unique datasets or configurations they may have created or utilized.
+
+In section 4.2, the authors specifically mention the **DMLab-30** benchmark, which consists of a set of diverse pixel-based environments. They also state that they release a dataset of pre-generated environment layouts for DMLab-30, which is crucial for their experiments. This indicates that there is a specific dataset associated with this benchmark.
+
+I will also check the **References section** to find full citations for the datasets mentioned. For instance, the authors reference the original papers for the environments they used, such as:
+
+- For **Atari**, the citation is:
+  > Bellemare, M. G., Naddaf, Y., Veness, J., and Bowling, M. "The arcade learning environment: An evaluation platform for general agents." In IJCAI, 2013.
+
+- For **VizDoom**, the citation is:
+  > Kempka, M., Wydmuch, M., Runc, G., Toczek, J., and Jaskowski, W. "Vizdoom: A Doom-based AI research platform for visual reinforcement learning." In IEEE Conference on Computational Intelligence and Games, 2016.
+
+- For **DMLab**, the citation is:
+  > Beattie, C., Leibo, J. Z., Teplyashin, D., et al. "DeepMind Lab." CoRR, abs/1612.03801, 2016.
+
+Additionally, I will note that the authors mention the release of a dataset for DMLab-30, which is significant for their research. The dataset is intended to facilitate training without the need for dynamic generation during training, thus improving throughput.
+
+After gathering all this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research paper, ready for further processing or review.

@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Learning Contextualized Document Representations for Healthcare Answer Retrieval" by Sebastian Arnold et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets mentioned. The abstract indicates that the authors applied their model to **nine English public health resources**, which suggests that datasets are involved, but I need to find specific names.
+
+Next, I will focus on **section 5 (Experimental Results)**, where the authors describe the datasets used for evaluation. They mention three specific datasets:
+
+1. **WikiSectionQA**: This dataset is a large subset of full-text Wikipedia articles about diseases, labeled with entity identifiers, section headlines, and 27 normalized aspect classes. The authors constructed query tuples from every section containing the given entity ID and normalized aspect label.
+
+2. **MedQuAD**: This dataset consists of medical question-answer pairs from multiple trusted sources of the National Institutes of Health (NIH). The authors filtered out documents with only one passage and separated a random 25% test split from the remaining documents.
+
+3. **HealthQA**: This dataset is a collection of consumer health question-answer pairs crawled from the website Patient. The answer passages were generated from sections in the documents and annotated by human labelers with natural language questions.
+
+In the **evaluation setup**, the authors provide statistics about these datasets, including the number of documents, passages, entities, aspects, and queries, which further confirms their relevance.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **WikiSectionQA**, the citation is:
+  > Arnold, S., Schneider, R., Cudré-Mauroux, P., Gers, F. A., & Löser, A. (2019). SECTOR: A Neural Model for Coherent Topic Segmentation and Classification. *Transactions of the Association for Computational Linguistics*, 7, 169–184.
+
+- For **MedQuAD**, the citation is:
+  > Ben Abacha, A., & Demner-Fushman, D. (2019). A Question-Entailment Approach to Question Answering. *BMC Bioinformatics*, 20(1), 511.
+
+- For **HealthQA**, the citation is:
+  > Zhu, M., Ahuja, A., Wei, W., & Reddy, C. K. (2019). A Hierarchical Attention Retrieval Model for Healthcare Question Answering. In *The World Wide Web Conference* (WWW '19), 2472–2482.
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

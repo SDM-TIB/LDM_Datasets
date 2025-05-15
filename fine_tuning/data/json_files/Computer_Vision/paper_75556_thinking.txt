@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "MATE: Meet At The Embedding - Connecting Images with Long Texts" by Young Kyun Jang et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors propose two new cross-modal retrieval benchmarks, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** where the authors describe the datasets used for training and evaluation. In this section, they mention several datasets:
+
+1. **BLIP Dataset**: This dataset consists of a standard subset of image-caption pairs used for pre-training. The authors specify that they utilized 16 million out of a total of 115 million captions.
+
+2. **MSMARCO Dataset**: This dataset is used for fine-tuning and consists of 532,000 query-document pairs, which is crucial for the text-to-LLM alignment stage.
+
+3. **LLaVA-alignment Dataset**: This dataset contains 585,000 image-caption pairs collected from the CC3M dataset, used in the image-to-LLM alignment stage.
+
+4. **DOCCI Dataset**: This dataset contains about 1,500 high-resolution images with human-annotated detailed captions, divided into a training set of 9,600 pairs and a test set of 5,100 pairs.
+
+5. **CC3M-long Dataset**: This dataset features images paired with model-generated lengthy captions from various large multi-modal models, specifically using 5,000 pairs for evaluation.
+
+6. **Infoseek Dataset**: This dataset includes triplets of images, query text, and document passages, comprising 1,800 documents with 9,600 related images.
+
+7. **Oven Dataset**: Similar to Infoseek, this dataset includes 3,500 documents with 37,600 related images.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset mentioned:
+
+- For **MSMARCO**, the citation is:
+  > Tri Nguyen, Mir Rosenberg, Xia Song, Jianfeng Gao, Saurabh Tiwary, Rangan Majumder, and Li Deng. *MS MARCO: A Human-Generated Machine Reading Comprehension Dataset*. In Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2016.
+
+- For **DOCCI**, the citation is:
+  > Yasumasa Onoe, Sunayana Rane, Zachary Berger, Yonatan Bitton, Jaemin Cho, Roopal Garg, Alexander Ku, Zarana Parekh, Jordi Pont-Tuset, Garrett Tanzer, et al. *DOCCI: Descriptions of Connected and Contrasting Images*. arXiv preprint arXiv:2404.19753, 2024.
+
+- For **CC3M**, the citation is:
+  > Christoph Schuhmann, Romain Beaumont, Richard Vencu, Cade Gordon, Ross Wightman, Mehdi Cherti, Theo Coombes, Aarush Katta, Clayton Mullis, Mitchell Wortsman, et al. *LAION-5B: An Open Large-Scale Dataset for Training Next Generation Image-Text Models*. In NeurIPS, 2022.
+
+- For **Infoseek**, the citation is:
+  > Hexiang Hu, Yi Luan, Yang Chen, Urvashi Khandelwal, Mandar Joshi, Kenton Lee, Kristina Toutanova, and Ming-Wei Chang. *Open-Domain Visual Entity Recognition: Towards Recognizing Millions of Wikipedia Entities*. In ICCV, 2023.
+
+- For **Oven**, the citation is:
+  > Aaron van den Oord, Yazhe Li, and Oriol Vinyals. *Representation Learning with Contrastive Predictive Coding*. arXiv preprint arXiv:1807.03748, 2018.
+
+- For **LLaVA-alignment**, the citation is:
+  > Haotian Liu, Chunyuan Li, Qingyang Wu, and Yong Jae Lee. *Visual Instruction Tuning*. NeurIPS, 2024.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

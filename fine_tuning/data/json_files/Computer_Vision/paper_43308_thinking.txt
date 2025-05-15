@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "An Auto-Encoder Strategy for Adaptive Image Segmentation" by Evan M. Yu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the application of the proposed method to brain MRI scans, which suggests that there may be specific datasets referenced later in the paper.
+
+Next, I will focus on **section 3 (Experiments)**, where the authors describe the datasets used for evaluation. Here, they mention that they evaluated their method on **T1-weighted 3D brain MRI scans**. They specify that the total number of subjects was 38, with 30 used for training and 8 for testing. This indicates that the dataset is comprised of MRI scans, but I need to find the exact source or citation for this dataset.
+
+In the same section, the authors refer to two atlases used in their experiments:
+
+1. **Atlas1**: This atlas is based on a single unpaired segmentation image obtained from the Open Access Series of Imaging Studies (OASIS), which was automatically segmented using FreeSurfer. This indicates that the dataset is derived from OASIS.
+
+2. **Atlas2**: This atlas is a publicly available probabilistic atlas computed based on 20 manually labeled subjects, specifically cited as coming from Puonti et al. (2016).
+
+Now, I will consult the **References section** to retrieve the full citations for these datasets:
+
+- For the **Open Access Series of Imaging Studies (OASIS)**, the citation is:
+  > Marcus et al. *Open access series of imaging studies (OASIS): cross-sectional MRI data in young, middle aged, nondemented, and demented older adults*. Journal of Cognitive Neuroscience, 2007.
+
+- For the **probabilistic atlas** used in Atlas2, the citation is:
+  > Oula Puonti, Juan Eugenio Iglesias, and Koen Van Leemput. *Fast and sequence-adaptive whole-brain segmentation using parametric bayesian modeling*. NeuroImage, 143:235–249, 2016.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+1. **Dataset Name**: OASIS
+   - **Description**: A dataset of cross-sectional MRI data in young, middle-aged, nondemented, and demented older adults.
+   - **Citation**: Marcus et al. (2007).
+
+2. **Dataset Name**: Probabilistic Atlas
+   - **Description**: A probabilistic atlas computed based on 20 manually labeled subjects for brain segmentation.
+   - **Citation**: Puonti et al. (2016).
+
+Finally, I will compile this information into a structured format for further processing or review, ensuring that each dataset is clearly identified with its corresponding citation.

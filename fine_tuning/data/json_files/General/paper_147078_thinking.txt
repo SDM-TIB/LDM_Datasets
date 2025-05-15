@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Long Context Granite Code Models" by Matt Stallone et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** and **introduction** sections to get an overview of the datasets discussed. The abstract mentions the release of instruction-tuned models and the evaluation of long-context models on various benchmarks, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (Section 3) where the authors detail their evaluation methods. Here, they mention several benchmarks that likely correspond to datasets used for testing the models. Specifically, I will look for any explicit mentions of datasets or benchmarks in the subsections, such as **Long Code Completion**, **RepoBench-P**, **RepoQA**, **Key Retrieval**, and **HumanEvalPack**.
+
+In the **Long Code Completion** subsection, the authors refer to a dataset that tests the model's ability to predict the next line of code from long repository-based context. They mention that the benchmark spans various context lengths, which indicates that this is a structured dataset.
+
+In the **RepoQA** subsection, the authors describe a dataset that focuses on testing long-context code understanding and retrieval, specifically mentioning the retrieval of functions from a set of repositories. This indicates another dataset that is crucial for their experiments.
+
+The **HumanEvalPack** subsection also references a dataset that extends Python problems to additional programming languages, which is important for evaluating the model's performance.
+
+Now, I will check the **References section** to find full citations for these datasets. The references may include original papers or sources that describe the datasets in detail. 
+
+1. For **Long Code Completion**, the relevant citation is:
+   > Guo, D., Xu, C., Duan, N., Yin, J., & McAuley, J. (2023). Longcoder: A long-range pre-trained language model for code completion. URL: https://arxiv.org/abs/2306.14893.
+
+2. For **RepoQA**, the citation is:
+   > Liu, J., Tian, J. L., Daita, V., Wei, Y., Ding, Y., Wang, Y. K., Yang, J., & Zhang, L. (2024). RepoQA: Evaluating long context code understanding. arXiv preprint arXiv:2406.06025.
+
+3. For **HumanEvalPack**, the citation is:
+   > Muennighoff, N., Liu, Q., Zebaze, A., Zheng, Q., Hui, B., Zhuo, T. Y., Singh, S., Tang, X., von Werra, L., & Longpre, S. (2023). Octopack: Instruction tuning code large language models. URL: https://arxiv.org/abs/2405.04324.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and that the full citations are included for reference. This will provide a comprehensive overview of the datasets used in the research paper.

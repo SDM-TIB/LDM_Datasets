@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Robust Autonomous Vehicle Pursuit without Expert Steering Labels" by Jiaxin Pan et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the work and may hint at the datasets used, particularly in the context of the CARLA simulator, which is mentioned as a platform for validation.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for training and evaluation. In this paper, the authors mention that they collected data from **9 trajectories across Towns 03 and 04** in the CARLA simulator. This indicates that the CARLA simulator dataset is a primary source of data for their experiments.
+
+I will also look for any specific details about the data collection process, such as the types of sensors used (LiDAR and RGB cameras) and the characteristics of the data (e.g., image sizes, number of samples). The paper states that they collected around **210k images**, with **180k allocated for training** and **30k for validation**. This information is crucial for understanding the dataset's scale and structure.
+
+Now, I will check the **references section** to find full citations for the datasets mentioned. The CARLA simulator is a well-known resource, and I will ensure to provide its citation accurately. The relevant citation for the CARLA simulator is:
+
+- **CARLA Simulator**:
+  > Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2017). *CARLA: An open urban driving simulator*. In Conference on Robot Learning (pp. 1-16). PMLR.
+
+Additionally, I will note that the paper mentions using a **3D object detector** for localizing the target vehicle, which may imply the use of datasets related to 3D object detection, but the specific datasets for this purpose are not detailed in the paper. Therefore, I will focus on the CARLA dataset as the primary dataset used for their experiments.
+
+Finally, I will compile the dataset entries, ensuring that I include the full citations for the datasets identified, particularly emphasizing the CARLA simulator as the main dataset utilized in the research.
+
+After gathering all this information, I will prepare the dataset entries for structured output, ensuring clarity and completeness for future reference or processing.

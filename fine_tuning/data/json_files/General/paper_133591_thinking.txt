@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Runner re-identification from single-view running video in the open-world setting" by Tomohiro Suzuki et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors evaluated their system on a running practice video dataset, which suggests that there are specific datasets used in their experiments.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors describe their datasets in detail. Here, they mention that they prepared three datasets for their experiments:
+
+1. **Fine-tuning Dataset**: This dataset is used for fine-tuning the pre-processing models, including the runner classifier and shoe detector. It consists of two videos of 10 minutes each, resulting in 5,000 images of runners and 12,500 images of non-runners, with 600 images annotated with shoe bounding boxes.
+
+2. **Running Scene Image Dataset**: This dataset is used to train the Gated Recurrent Unit AutoEncoder (GRU AE) for unsupervised feature extraction. It includes running sequence images extracted from six videos (three daytime and three nighttime), resulting in 1,182 sets of running sequence images for daytime and 1,114 for nighttime.
+
+3. **Evaluation Dataset**: This dataset is generated from 20 minutes of video for both daytime and nighttime, used to evaluate the performance of the proposed runner re-identification system. It includes annotated unique runner IDs for each running scene.
+
+In section 4.1, the authors provide a detailed description of each dataset, including the number of images and the purpose of each dataset. This is crucial for understanding how they were utilized in the study.
+
+Now, I will check the **References section** to find full citations for any datasets mentioned. The authors reference existing datasets and methods, but they also describe their own datasets in detail, which may not have formal citations since they are original contributions.
+
+For the datasets mentioned in the paper, I will compile the following citations based on the information provided:
+
+- For the **fine-tuning dataset**, since it is original and created by the authors, I will note it as:
+  > Suzuki, T., Tsutsui, K., Takeda, K., & Fujii, K. (2023). *Fine-tuning dataset for runner re-identification*. Unpublished dataset.
+
+- For the **running scene image dataset**, similarly, I will note:
+  > Suzuki, T., Tsutsui, K., Takeda, K., & Fujii, K. (2023). *Running scene image dataset for unsupervised feature extraction*. Unpublished dataset.
+
+- For the **evaluation dataset**, I will also note:
+  > Suzuki, T., Tsutsui, K., Takeda, K., & Fujii, K. (2023). *Evaluation dataset for runner re-identification performance evaluation*. Unpublished dataset.
+
+After gathering all this information, I will summarize the datasets and their citations in a structured format, ensuring that each dataset is clearly identified and attributed to the authors of the paper. This will provide a comprehensive overview of the datasets used in the research.

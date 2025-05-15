@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Enabling Dark Energy Science with Deep Generative Models of Galaxy Images" by Siamak Ravanbakhsh et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to gather initial insights about the datasets. The abstract mentions the need for large sets of high-quality galaxy images for calibration purposes, which suggests that datasets are involved.
+
+Next, I will focus on **Section I (Weak Gravitational Lensing)** and **Section II (Conditional Variational Autoencoder)**, where the authors discuss the importance of galaxy images and the methods used to generate them. I will look for specific mentions of datasets used for training and validation.
+
+In **Section A (Data set)**, the authors explicitly mention two datasets:
+
+1. **COSMOS Survey**: This dataset is used as the main training and validation set of galaxy images. The authors describe how they extracted a condition vector from the corresponding catalog, which includes features like half-light radius, magnitude, and redshift. They also mention producing 85,000 instances of 64x64 image stamps using the GalSim package.
+
+2. **GALAXY-ZOO Dataset**: This dataset is used to demonstrate the capabilities of their generative model. It contains 61,000 galaxy images, each accompanied by features derived from a crowd-sourced decision tree. The authors describe how they processed these images for their experiments.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For the **COSMOS Survey**, the citation is:
+  > Scoville, N., Aussel, H., Brusa, M., Capak, P., Carollo, C. M., Elvis, M., Giavalisco, M., Guzzo, L., et al. (2007). The Cosmic Evolution Survey (COSMOS): Overview. *The Astrophysical Journal Supplement Series*, 172, 1-8. doi:10.1086/516585.
+
+- For the **GALAXY-ZOO Dataset**, the citation is:
+  > Willett, K. W., Lintott, C. J., Bamford, S. P., Masters, K. L., Simmons, B. D., Casteels, K. R. V., Edmondson, E. M., Fortson, L. F., et al. (2013). Galaxy Zoo 2: Detailed Morphological Classifications for 304,122 Galaxies from the Sloan Digital Sky Survey. *Monthly Notices of the Royal Astronomical Society*, stt1458.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their respective references.

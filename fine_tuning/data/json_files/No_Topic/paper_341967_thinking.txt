@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Bootstrapping Text Anonymization Models with Distant Supervision" by Anthi Papadopoulou et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors illustrate their approach using a knowledge graph from Wikidata and biographical texts from Wikipedia, which suggests that these could be datasets of interest.
+
+Next, I will focus on the **introduction** where the authors discuss the lack of labeled corpora for text anonymization tasks. They mention a new dataset of 553 Wikipedia summaries that were manually annotated for sensitive information. This is a clear indication of a dataset that I need to document.
+
+In the **evaluation section**, the authors describe the dataset of short biographical texts extracted from Wikipedia, which consists of 502,678 distinct biographies. This dataset is crucial for understanding the context of their experiments.
+
+I will also check the **appendix** and **references section** for any additional datasets or citations that may not have been explicitly mentioned in the main text. The references may provide full citations for the datasets used, especially for the Wikipedia summaries and the knowledge graph derived from Wikidata.
+
+Now, I will compile the information I have gathered:
+
+1. **Wikipedia Biographies Dataset**: This dataset consists of 502,678 distinct biographies filtered to include only humans present in the knowledge graph. It is used to evaluate the proposed method.
+
+2. **Annotated Summaries Dataset**: A new dataset of 553 Wikipedia summaries that were manually annotated for sensitive information, used to evaluate the performance of the proposed approach.
+
+3. **Wikidata Knowledge Graph**: The authors utilized a knowledge graph extracted from Wikidata to automatically annotate text documents. While this is not a dataset in the traditional sense, it is essential for the methodology described in the paper.
+
+Next, I will look for full citations for these datasets:
+
+- For the **Wikipedia Biographies Dataset**, the citation is:
+  > Lebret, R., Grangier, D., and Auli, M. (2016). Neural text generation from structured data with application to the biography domain.
+
+- For the **Annotated Summaries Dataset**, the authors do not provide a specific citation, but it is part of their own work and can be referenced as:
+  > Papadopoulou, A., Lison, P., Øvrelid, L., and Pilan, I. (2023). Bootstrapping Text Anonymization Models with Distant Supervision. [Dataset available at: https://github.com/anthipapa/textanonymization]
+
+- For the **Wikidata Knowledge Graph**, the citation is:
+  > Wikidata contributors. (n.d.). Wikidata: A free and open knowledge base. Retrieved from https://www.wikidata.org/
+
+Finally, I will ensure that I have accurately documented each dataset and its citation, ready for further processing or review.

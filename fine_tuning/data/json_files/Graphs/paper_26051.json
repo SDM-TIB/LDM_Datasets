@@ -1,0 +1,85 @@
+[
+    {
+        "dcterms:creator": [
+            "P. Sen",
+            "G. Namata",
+            "M. Bilgic",
+            "L. Getoor",
+            "B. Galligher",
+            "T. Eliassi-Rad"
+        ],
+        "dcterms:description": "A citation dataset where nodes represent academic papers within the Pubmed database and links are citations between papers. Node features are sparse bag-of-words representations of papers, and labels are the categories of these papers.",
+        "dcterms:title": "Pubmed",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Analysis",
+            "Academic Research"
+        ],
+        "dcat:keyword": [
+            "Citation dataset",
+            "Academic papers",
+            "Node classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Hamilton",
+            "Z. Ying",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "A social network dataset containing 232K Reddit posts as nodes, where links exist if the same user comments on two posts. Node features are generated from Glove word embeddings, and node labels correspond to the subreddit a post belongs to.",
+        "dcterms:title": "Reddit",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Network Analysis",
+            "Community Detection"
+        ],
+        "dcat:keyword": [
+            "Social network dataset",
+            "Reddit posts",
+            "Node classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "M. Zitnik",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "Contains 24 protein-protein interaction graphs, with each graph corresponding to a different human tissue. Node features include positional gene sets, motif gene sets, and immunological signatures, with node labels indicating protein roles in terms of their cellular functions.",
+        "dcterms:title": "PPI",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Biological Networks",
+            "Protein Interaction"
+        ],
+        "dcat:keyword": [
+            "Protein-protein interactions",
+            "Biological dataset",
+            "Node classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Node Classification"
+        ]
+    }
+]

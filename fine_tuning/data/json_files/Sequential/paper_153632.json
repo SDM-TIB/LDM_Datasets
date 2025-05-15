@@ -1,0 +1,93 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset containing news articles collected from Google News, used to analyze sentiment related to Bitcoin price movements.",
+        "dcterms:title": "Google News Data",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://www.google.com/search?q=bitcoin+cryptocurrency&hl=en&gl=us&as_drrb=b&tbas=0&tbs=cdr:1,cd_min:min_date,cd_max:max_date",
+        "dcat:theme": ["News", "Sentiment Analysis"],
+        "dcat:keyword": ["Bitcoin", "News articles", "Sentiment analysis"],
+        "dcat:landingPage": "https://www.google.com/search?q=bitcoin+cryptocurrency&hl=en&gl=us&as_drrb=b&tbas=0&tbs=cdr:1,cd_min:min_date,cd_max:max_date",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": ["Sentiment Analysis", "Price Prediction"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset containing messages from Reddit, specifically from the rBitcoin subreddit, used to analyze sentiment related to Bitcoin price movements.",
+        "dcterms:title": "Reddit Messages Data",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": ["Social Media", "Sentiment Analysis"],
+        "dcat:keyword": ["Bitcoin", "Reddit posts", "Sentiment analysis"],
+        "dcat:landingPage": "https://pushshift.io",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": ["Sentiment Analysis", "Price Prediction"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset containing historical price and volume data for Bitcoin, Litecoin, and Ethereum, used to analyze and predict cryptocurrency prices.",
+        "dcterms:title": "Cryptocurrency Data (Bitcoin, Litecoin, Ethereum)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://www.cryptodatadownload.com",
+        "dcat:theme": ["Cryptocurrency", "Financial Data"],
+        "dcat:keyword": ["Bitcoin", "Litecoin", "Ethereum", "Price data"],
+        "dcat:landingPage": "http://www.cryptodatadownload.com",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "CSV",
+        "mls:task": ["Price Prediction"]
+    },
+    {
+        "dcterms:creator": [
+            "Alan Akbik",
+            "Duncan Blythe",
+            "Roland Vollgraf"
+        ],
+        "dcterms:description": "Sentiment analysis model used for analyzing the sentiment of text data.",
+        "dcterms:title": "Flair Sentiment Analysis Model",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": ["Natural Language Processing", "Sentiment Analysis"],
+        "dcat:keyword": ["Sentiment analysis", "NLP", "Flair"],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Model",
+        "mls:task": ["Sentiment Analysis"]
+    },
+    {
+        "dcterms:creator": [
+            "Clayton J. Hutto",
+            "Eric Gilbert"
+        ],
+        "dcterms:description": "A parsimonious rule-based model for sentiment analysis of social media text.",
+        "dcterms:title": "VADER Sentiment Analysis Model",
+        "dcterms:issued": "2014",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": ["Natural Language Processing", "Sentiment Analysis"],
+        "dcat:keyword": ["Sentiment analysis", "NLP", "VADER"],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Model",
+        "mls:task": ["Sentiment Analysis"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A simple library for processing textual data, including sentiment analysis.",
+        "dcterms:title": "TextBlob Sentiment Analysis Model",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://textblob.readthedocs.io",
+        "dcat:theme": ["Natural Language Processing", "Sentiment Analysis"],
+        "dcat:keyword": ["Sentiment analysis", "NLP", "TextBlob"],
+        "dcat:landingPage": "https://textblob.readthedocs.io",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Model",
+        "mls:task": ["Sentiment Analysis"]
+    }
+]

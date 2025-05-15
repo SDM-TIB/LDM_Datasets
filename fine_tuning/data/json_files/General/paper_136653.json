@@ -1,0 +1,156 @@
+[
+    {
+        "dcterms:creator": [
+            "R. M. Lang",
+            "L. P. Badano",
+            "V. Mor-Avi",
+            "J. Afilalo",
+            "A. Armstrong",
+            "L. Ernande",
+            "F. A. Flachskampf",
+            "E. Foster",
+            "S. A. Goldstein",
+            "T. Kuznetsova"
+        ],
+        "dcterms:description": "A dataset containing echocardiogram videos acquired by Transthoracic echocardiography (TTE) using standard techniques of 2D echocardiography, following the guidelines of the American Society of Echocardiography. The dataset includes 300 echocardiograms, with 140 from TTS patients and 160 from STEMI patients, each having between 18 to 112 frames per video.",
+        "dcterms:title": "Echocardiogram Video Dataset",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Cardiology"
+        ],
+        "dcat:keyword": [
+            "Echocardiogram",
+            "Video dataset",
+            "Cardiac disease",
+            "TTS",
+            "STEMI"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Video",
+        "mls:task": [
+            "Disease Diagnosis",
+            "Segmentation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "O. Ronneberger",
+            "P. Fischer",
+            "T. Brox"
+        ],
+        "dcterms:description": "A U-net shaped architecture used for LV segmentation from echocardiogram videos, which helps in extracting relevant features for disease diagnosis.",
+        "dcterms:title": "LV Segmentation Model",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Deep Learning"
+        ],
+        "dcat:keyword": [
+            "Segmentation",
+            "U-net",
+            "Deep Learning",
+            "Cardiac Imaging"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Model",
+        "mls:task": [
+            "Image Segmentation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. R. Selvaraju",
+            "M. Cogswell",
+            "A. Das",
+            "R. Vedantam",
+            "D. Parikh",
+            "D. Batra"
+        ],
+        "dcterms:description": "A feature selection technique based on GradCAM, which provides visual explanations from deep networks via gradient-based localization, used to identify significant features in the segmentation task.",
+        "dcterms:title": "Feature Selection using GradCAM",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Deep Learning"
+        ],
+        "dcat:keyword": [
+            "Feature Selection",
+            "GradCAM",
+            "Deep Learning",
+            "Visualization"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Technique",
+        "mls:task": [
+            "Feature Selection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. H. Friedman",
+            "T. Hastie",
+            "R. Tibshirani"
+        ],
+        "dcterms:description": "A feature selection technique using the LASSO algorithm, which is useful for reducing redundant features and improving model performance in disease prediction.",
+        "dcterms:title": "Feature Selection using LASSO",
+        "dcterms:issued": "2010",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.jstatsoft.org/index.php/jss/article/view/v033i01",
+        "dcat:theme": [
+            "Statistics",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Feature Selection",
+            "LASSO",
+            "Regularization",
+            "Statistical Learning"
+        ],
+        "dcat:landingPage": "https://www.jstatsoft.org/index.php/jss/article/view/v033i01",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Technique",
+        "mls:task": [
+            "Feature Selection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S.-J. Kim",
+            "K. Koh",
+            "M. Lustig",
+            "S. Boyd",
+            "D. Gorinevsky"
+        ],
+        "dcterms:description": "An additional reference for feature selection using the LASSO algorithm, providing an interior-point method for large-scale ℓ1-regularized least squares.",
+        "dcterms:title": "Feature Selection using LASSO (additional reference)",
+        "dcterms:issued": "2007",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Statistics",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Feature Selection",
+            "LASSO",
+            "Regularization",
+            "Statistical Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Technique",
+        "mls:task": [
+            "Feature Selection"
+        ]
+    }
+]

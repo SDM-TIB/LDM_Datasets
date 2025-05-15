@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "SNE-RoadSeg+: Rethinking Depth-Normal Translation and Deep Supervision for Freespace Detection" by Hengli Wang et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract highlights the performance of SNE-RoadSeg+ on the KITTI road benchmark, which suggests that datasets are involved in the evaluation of their method.
+
+Next, I will focus on the **experimental results and discussion section** (Section V), where the authors typically describe the datasets used for their experiments. In this section, they explicitly mention two datasets for evaluating the performance of their SNE+ for surface normal estimation:
+
+1. **DIODE Dataset**: The authors describe it as providing approximately 25K depth images with corresponding surface normal ground truth in real-world indoor and outdoor scenarios.
+
+2. **ScanNet Dataset**: This dataset contains about 2.5M depth images with corresponding surface normal ground truth in 1513 real-world indoor scenarios.
+
+Additionally, they mention two datasets used for evaluating the performance of SNE-RoadSeg+ for freespace detection:
+
+3. **KITTI Road Dataset**: This dataset provides RGB-D data in real-world driving scenarios, containing 289 pairs of training data with ground truth for freespace detection and 290 pairs of testing data without ground truth.
+
+4. **Ready-to-Drive (R2D) Road Dataset**: A synthetic dataset collected under various illumination and weather conditions, containing 11,430 pairs of RGB-D images with corresponding ground truth for freespace detection.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset mentioned:
+
+- For the **DIODE Dataset**, the citation is:
+  > I. Vasiljevic et al., “DIODE: A Dense Indoor and Outdoor DEpth Dataset,” CoRR, vol. abs/1908.00463, 2019. Available: http://arxiv.org/abs/1908.00463
+
+- For the **ScanNet Dataset**, the citation is:
+  > A. Dai et al., “ScanNet: Richly-annotated 3D reconstructions of indoor scenes,” in Proc. IEEE Conf. Comput. Vision Pattern Recognit., 2017.
+
+- For the **KITTI Road Dataset**, the citation is:
+  > J. Fritsch, T. Kuehnl, and A. Geiger, “A new performance measure and evaluation benchmark for road detection algorithms,” in Inter. Conf. Intell. Transp. Syst., 2013.
+
+- For the **R2D Road Dataset**, the citation is:
+  > R. Fan et al., “SNE-RoadSeg: Incorporating surface normal information into semantic segmentation for accurate freespace detection,” in Eur. Conf. Comput Vis. (ECCV). Springer, 2020, pp. 340–356.
+
+Now that I have gathered all the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

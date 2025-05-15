@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "MULTI-TEMPORAL LIP-AUDIO MEMORY FOR VISUAL SPEECH RECOGNITION" by Jeong Hun Yeo et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets mentioned. The abstract indicates that the authors validate their method on two public VSR datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 3 (Experimental Results)**, where the authors explicitly mention the datasets used for their experiments. They refer to two datasets: **LRW** and **LRW-1000**. I will extract the relevant details about these datasets from this section.
+
+1. **LRW (Lip Reading in the Wild)**: This dataset is described as an English word-level VSR dataset containing 500 words, with 800 to 1,000 video clips per class. Each video clip has 29 frames and a duration of approximately 1.16 seconds. The authors also mention preprocessing steps, such as cropping the video to focus on lip movement.
+
+2. **LRW-1000**: This dataset is a Mandarin word-level VSR dataset containing 1,000 words and a total of 718,808 video clips. The video clips are already cropped, and the authors resize them to 96×96 pixels. They also adjust the duration of the video clips to ensure time alignment with the audio.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **LRW**, the citation is:
+  > Joon Son Chung and Andrew Zisserman. *Lip reading in the wild*. In Asian conference on computer vision. Springer, 2016, pp. 87–103.
+
+- For **LRW-1000**, the citation is:
+  > Shuang Yang, Yuanhang Zhang, Dalu Feng, Mingmin Yang, Chenhao Wang, Jingyun Xiao, Keyu Long, Shiguang Shan, and Xilin Chen. *Lrw-1000: A naturally-distributed large-scale benchmark for lip reading in the wild*. In 2019 14th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2019). IEEE, 2019, pp. 1–8.
+
+With this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research.

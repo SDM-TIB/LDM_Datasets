@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Identifying Exoplanets with Deep Learning. V. Improved Light Curve Classification for TESS Full Frame Image Observations" by Evan Tey et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the paper presents a high-quality dataset containing light curves from TESS, which suggests that there is a dataset to extract.
+
+Next, I will focus on the **data section** (Section 2) where the authors describe the datasets used for training and testing their model. In this section, they mention using approximately **25,000 human-vetted transit signals** detected by the Quick-Look Pipeline (QLP) across various TESS sectors. This is a significant dataset that I need to document.
+
+Within Section 2, the authors detail the **TCEs from TESS FFIs** and describe how the data was collected during the TESS Prime Mission and the 1st Extended Mission. They explain the process of filtering and labeling the transit signals, which is crucial for understanding the dataset's characteristics.
+
+I will also look for any specific datasets mentioned, such as the **TESS Object of Interest (TOI) Catalog**, which is referenced in the results section. The authors state that they evaluated their model on this catalog, which contains planetary candidates detected by TESS.
+
+Next, I will check the **references section** to find the full citations for the datasets mentioned. The authors reference their own dataset in Tey et al. (2022), which is crucial for proper citation. The citation for this dataset is:
+> Tey, E., Moldovan, D., Kunimoto, M., et al. (2022). Astronet-Triage-v2 dataset. doi:10.5281/zenodo.7411579.
+
+Additionally, the TOI catalog is referenced, and I will need to find its citation as well. The citation for the TOI catalog is:
+> Guerrero, N. M., Seager, S., Huang, C. X., et al. (2021). TESS Objects of Interest (TOI) Catalog. ApJS, 254, 39.
+
+Now that I have identified the datasets and their citations, I will summarize them as follows:
+
+1. **Astronet-Triage-v2 Dataset**: This dataset contains approximately 25,000 human-vetted transit signals detected by the Quick-Look Pipeline from TESS observations.
+   - Citation: Tey, E., Moldovan, D., Kunimoto, M., et al. (2022). Astronet-Triage-v2 dataset. doi:10.5281/zenodo.7411579.
+
+2. **TESS Object of Interest (TOI) Catalog**: This catalog includes planetary candidates detected by TESS, which were evaluated using the Astronet-Triage-v2 model.
+   - Citation: Guerrero, N. M., Seager, S., Huang, C. X., et al. (2021). TESS Objects of Interest (TOI) Catalog. ApJS, 254, 39.
+
+Finally, I will compile this information into a structured format for further processing or review, ensuring that the citations are complete and accurately reflect the datasets discussed in the paper.

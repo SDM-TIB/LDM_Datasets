@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Photon-counting CT using a Conditional Diffusion Model for Super-resolution and Texture-preservation" by Christopher Wiedeman et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract discusses the use of simulated data for training, which suggests that there may be specific datasets referenced later in the paper.
+
+In the **introduction**, the authors mention the challenges of sourcing paired training data for super-resolution tasks, indicating that they likely used specific datasets for their experiments. 
+
+Next, I will focus on the **methods section**, particularly the subsection titled **Data and Simulation**. Here, the authors state that they obtained "Twenty chest and seven head PCCT scans from GE HealthCare’s Deep Silicon prototype PCCT scanner." This indicates that the authors used real PCCT scans as part of their dataset.
+
+Additionally, they mention using **CatSim** to generate realistic low-resolution counterparts to real PCCT images. This suggests that CatSim is a significant component of their dataset generation process.
+
+Now, I will look for the **References section** to find full citations for the datasets mentioned:
+
+1. For the **CatSim** simulation environment, the citation is:
+   > B. D. Man, S. Basu, N. Chandra, B. Dunham, P. Edic, M. Iatrou, S. McOlash, P. Sainath, C. Shaughnessy, B. Tower, and E. Williams. *CatSim: a new computer assisted tomography simulation environment*. In Medical Imaging 2007: Physics of Medical Imaging, vol. 6510, 2007, p. 65102G.
+
+2. The **PCCT scans** from GE HealthCare do not have a specific citation in the references, as they are proprietary data. However, I will note that they are sourced from GE HealthCare’s Deep Silicon prototype PCCT scanner.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for the datasets identified. This will provide a clear and structured overview of the datasets used in the research.

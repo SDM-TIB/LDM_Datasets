@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Low Bit-Rate Speech Coding with VQ-VAE and a WaveNet Decoder" by Cristina Gârbea et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** to identify any mention of datasets. The abstract indicates that the authors demonstrate their method using the **LibriSpeech corpus**, which suggests that this dataset is significant for their experiments.
+
+Next, I will examine the **introduction** section for additional context about the datasets. Here, the authors discuss the advancements in speech coding and mention the use of learned models, but I need to look for specific dataset names.
+
+I will then focus on the **experiments section** where the authors explicitly mention the datasets used. In this section, they state that they conducted experiments on two different datasets:
+
+1. **LibriSpeech Corpus**: This dataset contains around 1,000 hours of read English speech from 2,302 speakers at a sample rate of 16 kHz. The authors specify that they used the train-clean-100, train-clean-360, and train-other-500 subsets for training, and the test-clean set for evaluation.
+
+2. **Augmented LibriSpeech (LSplus)**: This dataset is derived from the LibriSpeech corpus, where the authors held out 1/100 of the test-clean dataset for evaluation and added the remaining data to the training set, totaling approximately 5 hours of extra audio.
+
+Additionally, they mention a **Studio corpus**, which consists of 10 American English speakers totaling about 300 hours of speech, primarily recorded in studio conditions. This dataset is used to investigate performance under ideal training conditions.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **LibriSpeech corpus**, the citation is:
+  > Vassil Panayotov, Guoguo Chen, Daniel Povey, and Sanjeev Khudanpur. "LibriSpeech: An ASR Corpus Based on Public Domain Audio Books." In Acoustics, Speech and Signal Processing (ICASSP), 2015 IEEE International Conference on. IEEE, 2015, pp. 5206–5210.
+
+- The **Studio corpus** does not have a specific citation provided in the paper, as it is described as a proprietary dataset.
+
+After gathering all this information, I will compile the dataset entries, ensuring that I include the full citations for the datasets mentioned in the paper. This will provide a comprehensive overview of the datasets used in the research.

@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Intelligent Go-Explore: Standing on the Shoulders of Giant Foundation Models" by Cong Lu et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reviewing the **abstract and introduction** sections. The abstract provides a brief overview of the research and may mention specific datasets used for evaluation. In this case, the authors discuss evaluating their algorithm on a diverse range of language-based tasks, which suggests that datasets are involved.
+
+Next, I will examine the **experiments section** (Section 4) where the authors typically describe the datasets used for their evaluations. I will look for any explicit mentions of datasets, including their names and descriptions. 
+
+In **Section 4.1**, the authors mention three specific environments used for evaluation:
+
+1. **Game of 24**: This is a mathematical reasoning task where the goal is to perform arithmetic operations to reach the number 24 from four given numbers. The dataset for this task is derived from the environment available at a specific GitHub repository.
+
+2. **BabyAI-Text**: This environment is a procedurally-generated partially observable gridworld where an agent must follow language instructions. The authors reference the original work by Carta et al. (2023) for this dataset.
+
+3. **TextWorld**: This is a classic text-based agent benchmark that includes multiple games. The authors mention using the TextWorld environment, which is also available on GitHub.
+
+Now, I will gather the full citations for each dataset from the **References section** of the paper:
+
+- For **Game of 24**, the citation is:
+  > Yao, S., Yu, D., Zhao, J., Shafran, I., Griffiths, T. L., Cao, Y., & Narasimhan, K. R. (2023). *Tree of Thoughts: Deliberate problem solving with large language models*. In Proceedings of the Eleventh International Conference on Learning Representations.
+
+- For **BabyAI-Text**, the citation is:
+  > Carta, T., Romac, C., Wolf, T., Lamprier, S., Sigaud, O., & Oudeyer, P.-Y. (2023). *Grounding large language models in interactive environments with online reinforcement learning*. In Proceedings of the 40th International Conference on Machine Learning.
+
+- For **TextWorld**, the citation is:
+  > Côté, M.-A., Kádár, Á., Yuan, X., Kybartas, B., Barnes, T., Fine, E., Moore, J., Tao, R. Y., Hausknecht, M., El Asri, L., Adada, M., Tay, W., & Trischler, A. (2018). *Textworld: A learning environment for text-based games*. CoRR, abs/1806.11532.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited according to the required format. This will ensure that the datasets are clearly documented for future reference or analysis.

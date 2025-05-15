@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Recurrent Residual Convolutional Neural Network based on U-Net (R2U-Net) for Medical Image Segmentation" by Md Zahangir Alom et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets mentioned. The abstract indicates that the proposed models were tested on three benchmark datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section IV (Experimental Setup and Results)**, where the authors discuss the datasets used for their experiments. Here, they explicitly mention three datasets:
+
+1. **DRIVE Dataset**: This dataset consists of 40 color retinal images, with 20 used for training and 20 for testing. The original image size is 565×584 pixels, but they crop the images to 565×565 pixels for their experiments.
+
+2. **STARE Dataset**: This dataset contains 20 color images, each sized 700×605 pixels. The authors mention that they use a combination of randomly selected samples for training and testing due to the smaller number of samples.
+
+3. **CHASE_DB1 Dataset**: This dataset includes 28 color retinal images, with each image sized 999×960 pixels. The authors describe how they divide the dataset into training and testing sets.
+
+Additionally, they mention two other datasets for skin cancer and lung segmentation:
+
+4. **Skin Cancer Dataset**: This dataset is from a Kaggle competition and contains 2000 samples, with a breakdown of training, validation, and testing samples.
+
+5. **LUNA Dataset**: This dataset is used for lung segmentation and consists of 534 2D samples with respective label images.
+
+Now, I will check the **References section** to find the full citations for each dataset:
+
+- For the **DRIVE Dataset**, the citation is:
+  > Staal, Joes, et al. "Ridge-based vessel segmentation in color images of the retina." IEEE Transactions on Medical Imaging 23.4 (2004): 501-509.
+
+- For the **STARE Dataset**, the citation is:
+  > Hoover, A. D., Valentina Kouznetsova, and Michael Goldbaum. "Locating blood vessels in retinal images by piecewise threshold probing of a matched filter response." IEEE Transactions on Medical Imaging 19.3 (2000): 203-210.
+
+- For the **CHASE_DB1 Dataset**, the citation is:
+  > Fraz, Muhammad Moazam, et al. "Blood vessel segmentation methodologies in retinal images–a survey." Computer Methods and Programs in Biomedicine 108.1 (2012): 407-433.
+
+- For the **Skin Cancer Dataset**, the citation is:
+  > Codella, Noel CF, et al. "Skin lesion analysis toward melanoma detection: A challenge at the 2017 international symposium on biomedical imaging (ISBI), hosted by the international skin imaging collaboration (ISIC)." arXiv preprint arXiv:1710.05006 (2017).
+
+- For the **LUNA Dataset**, the citation is:
+  > https://www.kaggle.com/kmader/finding-lungs-in-ct-data/data.
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented with its corresponding citation.

@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "EGFI: Drug-Drug Interaction Extraction and Generation with Fusion of Enriched Entity and Sentence Information" by Lei Huang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and dataset sections** to identify any datasets mentioned. The abstract indicates that the authors evaluated their method on the **DDIs 2013 dataset** and the **DTIs dataset**, which suggests that these datasets are crucial to their research.
+
+Next, I will focus on **section 2 (Dataset)**, where the authors provide detailed descriptions of the datasets used:
+
+1. **DDIs 2013 Dataset**: This dataset consists of 792 manually annotated sentences from DrugBank and Medline abstracts, with annotations for 18,502 pharmacological substances and 5,028 drug-drug interactions (DDIs). The sentences are categorized into four relation types: mechanism, effect, advise, and int, along with a fake type "negative" for neutral sentences.
+
+2. **DTIs Dataset**: Constructed by Hong et al. (2020), this dataset contains over 480,000 sentences from nearly 20 million PubMed abstracts. The sentences are labeled based on drug-target interactions, with six types of labels including substrate, inhibitor, agonist/antagonist, unknown, other, and a fake type "NA".
+
+After identifying these datasets, I will check the **References section** for full citations to ensure proper attribution:
+
+- For the **DDIs 2013 dataset**, the citation is:
+  > Herrero-Zazo, M., et al. (2013). The DDI corpus: a collection of drug-drug interaction annotations. *Journal of Biomedical Informatics*, 46(5), 914-920.
+
+- For the **DTIs dataset**, the citation is:
+  > Hong, L., et al. (2020). A novel machine learning framework for automated biomedical relation extraction from large-scale literature repositories. *Nature Machine Intelligence*, 1-9.
+
+Now, I will compile the dataset entries, ensuring that each entry includes the dataset name, description, and full citation. This structured approach will help in accurately documenting the datasets used in the research paper.

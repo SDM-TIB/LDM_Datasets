@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Cloud-Edge Training Architecture for Sim-to-Real Deep Reinforcement Learning" by Hongpeng Cao et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and experimental setup sections** to look for any references to datasets. The abstract provides a high-level overview, but I need to dig deeper into the methodology and experimental setup for specific dataset details.
+
+In the **introduction**, the authors discuss the challenges of training deep reinforcement learning (DRL) agents and mention the use of simulations and real-world data. However, they do not specify any datasets at this point.
+
+Next, I will focus on the **methodology section**, particularly the parts that describe the experimental setup. Here, the authors mention evaluating their approach on a **physical inverted-pendulum control system**. This indicates that they likely used a specific dataset or simulation environment for training and testing.
+
+In the **experimental setup**, they refer to the **OpenAI-Gym cart-pole environment** as the simulation environment adapted for pretraining. This is a well-known dataset in the reinforcement learning community, and I need to ensure I capture its full citation.
+
+Now, I will check the **references section** to find the full citation for the OpenAI-Gym environment. The relevant citation is:
+
+- **OpenAI Gym**: 
+  > Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., & Zaremba, W. (2016). *OpenAI Gym*. 
+
+Additionally, the authors mention using a **physical inverted pendulum built by Quanser**. I will also look for the citation for this system in the references.
+
+The citation for the Quanser inverted pendulum is:
+- **Quanser Inverted Pendulum**: 
+  > Quanser. (n.d.). *Quanser courseware and resources*. Retrieved from https://www.quanser.com/solution/control-systems/.
+
+After gathering this information, I will compile the dataset entries, ensuring that I include the full citations for each dataset as required.
+
+In summary, the datasets extracted from the paper are:
+1. **OpenAI Gym cart-pole environment** - a simulation environment used for pretraining.
+2. **Quanser inverted pendulum** - the physical system used for real-world experiments.
+
+Now, I will prepare the dataset entries for further processing.

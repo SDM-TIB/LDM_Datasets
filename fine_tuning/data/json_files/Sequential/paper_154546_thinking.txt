@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Machine Learning Methods for the Design and Operation of Liquid Rocket Engines – Research Activities at the DLR Institute of Space Propulsion" by Günther Waxenegger-Wilﬁng et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and sections detailing the methodologies and experiments** to identify any datasets mentioned. The abstract provides a general overview of the applications of machine learning in liquid rocket engines, but I need to look for specific datasets in the body of the paper.
+
+Next, I will focus on the **Modeling and Control sections** (specifically sections 3.1 and 3.2) where the authors discuss various machine learning applications. In section 3.1.1, they mention a **NN-based Surrogate Model for the Maximum Wall Temperature**, which utilizes a training dataset derived from approximately 20,000 CFD simulations. This indicates a dataset is involved, but I need to confirm its details.
+
+In section 3.1.2, the authors describe a **NN-based Surrogate Model for the Fatigue Life Estimation**, which is trained using approximately 120,000 data points generated from FEM calculations. This is another dataset that I need to document.
+
+In section 3.2.1, the authors discuss the **Early Detection of Thermoacoustic Instabilities with Support Vector Machines**, which uses experimental data from a LOX/H2 research thrust chamber. This section suggests that there is a dataset related to combustion noise features.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned:
+
+1. For the **CFD simulations dataset** used in the NN-based surrogate model for maximum wall temperature, the citation is:
+   > G. Waxenegger-Wilﬁng, K. Dresia, J. C. Deeken, and M. Oschwald. "Heat Transfer Prediction for Methane in Regenerative Cooling Channels with Neural Networks." *Journal of Thermophysics and Heat Transfer*, vol. 34, no. 2, pp. 347–357, 2020.
+
+2. For the **FEM calculations dataset** used for fatigue life estimation, the citation is:
+   > K. Dresia, G. Waxenegger-Wilﬁng, J. Riccius, J. Deeken, and M. Oschwald. "Numerically Efficient Fatigue Life Prediction of Rocket Combustion Chambers using Artificial Neural Networks." In *8th European Conference for Aeronautics and Space Sciences 2019 (EUCASS)*, Madrid, Spain, 2019.
+
+3. For the **experimental data** used in the early detection of thermoacoustic instabilities, the citation is:
+   > G. Waxenegger-Wilﬁng, U. Sengupta, J. Martin, W. Armbruster, J. Hardi, M. Juniper, and M. Oschwald. "Early Detection of Thermoacoustic Instabilities in a Cryogenic Rocket Thrust Chamber using Combustion Noise Features and Machine Learning." arXiv:2011.14985 [eess], Nov. 2020.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

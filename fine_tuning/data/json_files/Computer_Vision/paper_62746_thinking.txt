@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "NIFTY: Neural Object Interaction Fields for Guided Human Motion Synthesis" by Nilesh Kulkarni et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. In the abstract, the authors mention using an "automated synthetic data pipeline" and refer to "limited motion capture data." This suggests that there may be specific datasets used for training or evaluation, which I need to identify.
+
+Next, I will look closely at **section 3 (Method)**, particularly **subsection 3.3 (Automatic Synthetic Data Generation)**, where the authors describe their data generation process. Here, they mention using a small dataset called **BEHAVE** to select anchor poses for generating synthetic motion data. This indicates that BEHAVE is a key dataset in their work.
+
+In **section 4 (Experiments)**, the authors evaluate their method on datasets for sitting and lifting interactions. They specify that they generated a dataset of 200K motion sequences for sitting and 110K for lifting, based on the anchor poses selected from the BEHAVE dataset. This confirms the importance of the BEHAVE dataset in their experiments.
+
+Now, I will check the **References section** to find the full citation for the BEHAVE dataset. The relevant citation is:
+> Bharat Lal Bhatnagar, Xianghui Xie, Ilya Petrov, Cristian Sminchisescu, Christian Theobalt, and Gerard Pons-Moll. *Behave: Dataset and method for tracking human object interactions*. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, June 2022.
+
+Additionally, I will note that the authors mention using a pre-trained motion model called **HuMoR**, which is based on the **AMASS** dataset. I will also look for the citation for AMASS in the references. The citation is:
+> Naureen Mahmood, Nima Ghorbani, Nikolaus F Troje, Gerard Pons-Moll, and Michael J Black. *Amass: Archive of motion capture as surface shapes*. In Proceedings of the IEEE/CVF international conference on computer vision, pages 5442–5451, 2019.
+
+With these citations in hand, I will summarize the datasets extracted from the paper:
+
+1. **BEHAVE Dataset**: Used for selecting anchor poses for generating synthetic motion data.
+   - Citation: Bharat Lal Bhatnagar, Xianghui Xie, Ilya Petrov, Cristian Sminchisescu, Christian Theobalt, and Gerard Pons-Moll. *Behave: Dataset and method for tracking human object interactions*. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, June 2022.
+
+2. **AMASS Dataset**: A foundational dataset for training the HuMoR motion model.
+   - Citation: Naureen Mahmood, Nima Ghorbani, Nikolaus F Troje, Gerard Pons-Moll, and Michael J Black. *Amass: Archive of motion capture as surface shapes*. In Proceedings of the IEEE/CVF international conference on computer vision, pages 5442–5451, 2019.
+
+Finally, I will compile these findings into a structured format for further processing or review.

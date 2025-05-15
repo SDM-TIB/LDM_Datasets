@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Moûsai: Text-to-Music Generation with Long-Context Latent Diffusion" by Flavio Schneider et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to gather initial insights about any datasets referenced. The abstract mentions that the authors provide a collection of open-source libraries and music samples, which suggests that there may be datasets involved.
+
+Next, I will focus on **section 5 (Experimental Setup)**, where the authors describe their dataset and training setup in detail. Here, they mention that they compiled a collection consisting of **2,500 hours of stereo music sampled at 48kHz**, which spans multiple genres, artists, instruments, and provenience. This indicates that this collection is a significant dataset used for training their models.
+
+In this section, they also specify that the autoencoder is trained on random crops of length 218 (approximately 5.5 seconds at 48kHz) and the text-conditional diffusion generation model is trained on fixed crops of length 221 (approximately 44 seconds at 48kHz). This information is crucial for understanding the dataset's structure and usage.
+
+Additionally, the authors provide examples of text prompts used in their dataset in **Table 2** and **Table 3**, which further illustrates the diversity of the dataset. However, these tables do not represent separate datasets but rather examples of the metadata associated with the music samples.
+
+Now, I will check the **References section** to find any citations related to the dataset. However, since the dataset is a compilation created by the authors themselves, it may not have a formal citation like other datasets. Instead, I will note that the dataset is described as a collection of music samples and metadata.
+
+The relevant dataset information I will compile is as follows:
+
+1. **Dataset Name**: Moûsai Music Dataset
+   - **Description**: A collection of 2,500 hours of stereo music sampled at 48kHz, spanning multiple genres, artists, instruments, and provenience. The dataset includes metadata such as title, author, album, genre, and year of release.
+   - **Usage**: Used for training the diffusion autoencoder and text-conditional generation model.
+
+Since there is no formal citation for this dataset, I will note that it is part of the authors' contributions and is available as open-source.
+
+Finally, I will summarize the dataset information clearly, ensuring that it is ready for any structured output or documentation needed for further processing or review.

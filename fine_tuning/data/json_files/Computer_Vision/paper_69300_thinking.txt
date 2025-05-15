@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Projected Generative Diffusion Models for Constraint Satisfaction" by Jacob K Christopher et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** and **introduction** sections to see if any datasets are mentioned or referenced. The abstract discusses the application of the proposed method in various domains, which may hint at specific datasets used for experiments.
+
+Next, I will focus on the **experiments section** (Section 5) where the authors typically describe the datasets used for their evaluations. I will look for any explicit mentions of datasets, including their names, descriptions, and any relevant details about their structure or content.
+
+In Section 5.1 (Physics-informed Motion), the authors describe generating a dataset based on the motion of an object under gravity. They mention that the dataset is generated with object starting points sampled uniformly and includes six frames per data point. However, they do not provide a formal citation for this dataset, as it appears to be generated for the purpose of the study.
+
+In Section 5.3 (Constrained Materials), the authors refer to a dataset obtained from the authors of a previous study on synthetic microstructure generation. They mention that the dataset consists of a single 3,000 × 3,000 pixel microscopic image that is subsampled into 64 × 64 image patches. The original source of this dataset is crucial for proper citation.
+
+Now, I will consult the **References section** to find full citations for any datasets that are referenced. In this case, the authors refer to a previous work by Chun et al. (2020) for the dataset used in the constrained materials experiment. The citation for this dataset is:
+
+- For the dataset used in the constrained materials experiment:
+  > Sehyun Chun, Sidhartha Roy, Yen Thi Nguyen, Joseph B Choi, HS Udaykumar, and Stephen S Baek. *Deep learning for synthetic microstructure generation in a materials-by-design framework for heterogeneous energetic materials*. Scientific reports, 10(1):13307, 2020.
+
+Since the physics-informed motion dataset is generated specifically for this study and does not have a formal citation, I will note that it is a custom dataset created by the authors.
+
+Finally, I will compile the information about the datasets into a structured format, ensuring that I include the full citations for any referenced datasets while clearly indicating the nature of the custom dataset.
+
+In summary, I will document the following datasets:
+1. **Physics-informed Motion Dataset**: Custom dataset generated for the study, no formal citation.
+2. **Synthetic Microstructure Dataset**: Cited from Chun et al. (2020).
+
+This structured approach ensures that I capture all relevant details and citations for the datasets mentioned in the paper.

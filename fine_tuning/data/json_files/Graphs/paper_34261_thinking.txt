@@ -1,0 +1,44 @@
+To extract datasets from the research paper titled "When LLMs are Unfit Use FastFit: Fast and Effective Text Classification with Many Classes" by Asaf Yehudai and Elron Bandel, I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned. The abstract indicates that FastFit was evaluated on a newly curated benchmark called **FewMany**, which suggests that this benchmark may contain multiple datasets.
+
+Next, I will look for specific mentions of datasets in the **FewMany benchmark section (Section 4)**. Here, the authors describe the benchmark as a collection of eight diverse classification datasets, each featuring at least 50 classes. The datasets mentioned include:
+
+1. **Clinc150**: A dataset for intent detection with 15,000 training examples and 150 classes.
+2. **Banking77**: Another intent detection dataset with 8,622 training examples and 77 classes.
+3. **Hwu64**: A dataset for intent detection with 8,954 training examples and 64 classes.
+4. **Argument Topic**: A dataset focusing on topic classification with 71 classes.
+5. **Claim Stance**: A dataset with 55 classes related to claims in debates.
+6. **DBpedia**: A dataset with 240,942 training examples and 70 classes, derived from Wikipedia.
+7. **Amazon Products**: A dataset containing product descriptions with 106 classes.
+8. **Trec**: A question classification dataset with 50 classes.
+
+In the **experiments section**, the authors confirm that they conducted experiments on these datasets under 5-shot and 10-shot scenarios, which further validates their use in the study.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations for the datasets are as follows:
+
+- **Clinc150**: 
+  > Larson, J., Mahendran, A., Peper, J. J., Clarke, C., Lee, A., & Kummerfeld, J. K. (2019). *An evaluation dataset for intent classification and out-of-scope prediction*. arXiv preprint arXiv:1909.02027.
+
+- **Banking77**: 
+  > Casanueva, I., Temˇcinas, T., Gerz, D., Henderson, M., & Vuli´c, I. (2020). *Efficient intent detection with dual sentence encoders*. arXiv preprint arXiv:2003.04807.
+
+- **Hwu64**: 
+  > Liu, N. F., Lin, K., Hewitt, J., Paranjape, A., Bevilacqua, M., Petroni, F., & Liang, P. (2019). *Benchmarking natural language understanding services for building conversational agents*. arXiv preprint arXiv:1903.05566.
+
+- **Argument Topic**: 
+  > Gretz, S., Friedman, R., Cohen-Karlik, E., Toledo, O., & Slonim, N. (2019). *A large-scale dataset for argument quality ranking: Construction and analysis*.
+
+- **Claim Stance**: 
+  > Bar-Haim, R., Bhattacharya, I., Dinuzzo, F., Saha, A., & Slonim, N. (2017). *Stance classification of context-dependent claims*. In Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 1, Long Papers, pages 251–261, Valencia, Spain.
+
+- **DBpedia**: 
+  > Auer, S., Bizer, C., Kobilarov, G., Lehmann, J., & Ives, Z. (2007). *DBpedia: A nucleus for a web of open data*. In Proceedings of the 6th International Semantic Web Conference (ISWC 2007).
+
+- **Amazon Products**: 
+  > McAuley, J., & Leskovec, J. (2013). *From amateurs to connoisseurs: Modeling the evolution of user expertise through online reviews*. In Proceedings of the 22nd International Conference on World Wide Web (WWW 2013).
+
+- **Trec**: 
+  > Li, X., & Roth, D. (2002). *Learning question classifiers*. In COLING 2002: The 19th International Conference on Computational Linguistics.
+
+With this information, I can now compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This structured approach will help ensure that all relevant datasets are captured and documented correctly for further analysis or use.

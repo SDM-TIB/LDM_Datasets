@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "All Information is Necessary: Integrating Speech Positive and Negative Information by Contrastive Learning for Speech Enhancement" by Xinmeng Xu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the study but does not explicitly mention datasets. Therefore, I will focus on the **introduction** and **experiments** sections for more detailed information.
+
+In the **introduction**, the authors discuss the challenges of monaural speech enhancement and the importance of utilizing both positive and negative information. However, they do not specify any datasets here.
+
+Next, I will examine **section 4 (Experiments)**, where the authors explicitly mention the datasets used for their experiments. They describe two datasets:
+
+1. **VoiceBank + DEMAND**: This dataset is created by mixing clean speech from the Voice Bank with noise from the DEMAND dataset at various signal-to-noise ratio (SNR) levels. The authors provide details about the composition of the dataset, including the number of speakers and utterances.
+
+2. **AVSpeech + AudioSet**: This dataset consists of clean speech segments collected from YouTube (AVSpeech) mixed with noise from the AudioSet dataset. The authors mention the number of segments used for training and validation.
+
+Now, I will refer to the **References section** to find the full citations for these datasets:
+
+- For **VoiceBank**, the citation is:
+  > Valentini-Botinhao, C., Wang, X., Takaki, S., & Yamagishi, J. (2016). Investigating RNN-based speech enhancement methods for noise-robust text-to-speech. In SSW, pages 146–152.
+
+- For **DEMAND**, the citation is:
+  > Thiemann, J., Ito, N., & Vincent, E. (2013). The diverse environments multi-channel acoustic noise database (DEMAND): A database of multichannel environmental noise recordings. In Proceedings of Meetings on Acoustics ICA2013, volume 19, page 035081.
+
+- For **AVSpeech**, the citation is:
+  > Gemmeke, J. F., Ellis, D. P. W., Freedman, D., Jansen, A., Lawrence, W., Moore, R. C., Plakal, M., & Ritter, M. (2017). AudioSet: An ontology and human-labeled dataset for audio events. In 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 776–780.
+
+- For **AudioSet**, the citation is the same as above since it is part of the AVSpeech dataset description.
+
+After gathering this information, I will compile the dataset entries with their full citations to ensure that all necessary details are included for future reference or processing.

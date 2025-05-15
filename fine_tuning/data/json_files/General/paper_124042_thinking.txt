@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "PINNSim: A Simulator for Power System Dynamics based on Physics-Informed Neural Networks" by Jochen Stiasny, Spyros Chatzivasileiadis, and Baosen Zhang, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to identify any datasets mentioned or referenced. The abstract provides a brief overview of the simulator and its application, but I need to look for specific datasets used in the experiments.
+
+Next, I will check the **methodology section** for any explicit mention of datasets. In this section, the authors describe the implementation of PINNSim and the case study involving the IEEE 9-bus system. They mention using simulated data points for training the Physics-Informed Neural Networks (PINNs), but I need to find out if these data points are part of a publicly available dataset or if they are generated specifically for this study.
+
+In the **case study section**, the authors refer to the IEEE 9-bus system and provide parameters for the generators, but they do not explicitly mention a dataset name. However, they do reference a previous work for the model details, which may lead to a dataset citation.
+
+I will also look at the **references section** to find any citations related to datasets. The authors reference several works, including one that discusses the IEEE 9-bus system. The relevant citation for the IEEE 9-bus system is:
+
+- For the IEEE 9-bus system, the citation is:
+  > P. W. Sauer and M. A. Pai, *Power system dynamics and stability*. Upper Saddle River, N.J: Prentice Hall, 1998.
+
+Additionally, the authors mention using a numerical simulation of the system of differential-algebraic equations (DAEs) as ground truth, which is implemented using Assimulo. The reference for Assimulo is:
+
+- For Assimulo, the citation is:
+  > C. Andersson, C. Führer, and J. Åkesson, “Assimulo: A unified framework for ODE solvers,” Mathematics and Computers in Simulation, vol. 116, pp. 26–43, Oct. 2015.
+
+Now that I have identified the relevant datasets and their citations, I will compile this information into a structured format for further processing. The datasets extracted from the paper are:
+
+1. **IEEE 9-bus system**: Used as a case study for demonstrating the capabilities of PINNSim.
+   - Citation: P. W. Sauer and M. A. Pai, *Power system dynamics and stability*. Upper Saddle River, N.J: Prentice Hall, 1998.
+
+2. **Assimulo**: Used for numerical simulations of the system of DAEs.
+   - Citation: C. Andersson, C. Führer, and J. Åkesson, “Assimulo: A unified framework for ODE solvers,” Mathematics and Computers in Simulation, vol. 116, pp. 26–43, Oct. 2015.
+
+After gathering all this information, I will ensure that the dataset entries are clear and include the full citations as required.

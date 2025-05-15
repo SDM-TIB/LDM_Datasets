@@ -1,0 +1,142 @@
+[
+    {
+        "dcterms:creator": [
+            "B. Yu",
+            "D. Gray",
+            "J. Pan",
+            "M. De Cock",
+            "A. Nascimento"
+        ],
+        "dcterms:description": "The top 1 million unique domain names from Alexa, ranked based on their popularity in terms of the number of page views and unique visitors.",
+        "dcterms:title": "Alexa",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.alexa.com/topsites",
+        "dcat:theme": [
+            "Domain Names",
+            "Web Traffic"
+        ],
+        "dcat:keyword": [
+            "Benign Domains",
+            "Domain Popularity",
+            "Websites"
+        ],
+        "dcat:landingPage": "https://www.alexa.com/topsites",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Domain Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "1 million unique DGA domain names from the Bambenek Consulting feeds for 3 different days, containing DGA domain names from specific malware families observed in real traffic.",
+        "dcterms:title": "Bambenek",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://osint.bambenekconsulting.com/feeds/",
+        "dcat:theme": [
+            "Malicious Domains",
+            "Cybersecurity"
+        ],
+        "dcat:keyword": [
+            "DGA",
+            "Malware",
+            "Domain Names"
+        ],
+        "dcat:landingPage": "http://osint.bambenekconsulting.com/feeds/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Malware Detection",
+            "Domain Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "B. Yu",
+            "D. Gray",
+            "J. Pan",
+            "M. De Cock",
+            "A. Nascimento"
+        ],
+        "dcterms:description": "1 million unique domain names originating from a real-time stream of passive DNS data, annotated based on heuristic filtering rules.",
+        "dcterms:title": "Qname",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "DNS Data",
+            "Domain Names"
+        ],
+        "dcat:keyword": [
+            "Passive DNS",
+            "Domain Classification",
+            "Heuristic Filtering"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Domain Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Schuppen",
+            "D. Teubert",
+            "P. Herrmann",
+            "U. Meyer"
+        ],
+        "dcterms:description": "A dataset combining benign domain names from Alexa and malicious domain names from Bambenek, used for training DGA classifiers.",
+        "dcterms:title": "AlexaBamb",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Domain Classification",
+            "Cybersecurity"
+        ],
+        "dcat:keyword": [
+            "Benign Domains",
+            "Malicious Domains",
+            "DGA Classifiers"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Domain Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. Sivaguru",
+            "C. Choudhary",
+            "B. Yu",
+            "V. Tymchenko",
+            "A. Nascimento",
+            "M. De Cock"
+        ],
+        "dcterms:description": "A dataset combining benign domain names from Qname and malicious domain names from Bambenek, used for training DGA classifiers.",
+        "dcterms:title": "QnameBamb",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Domain Classification",
+            "Cybersecurity"
+        ],
+        "dcat:keyword": [
+            "Benign Domains",
+            "Malicious Domains",
+            "DGA Classifiers"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Domain Classification"
+        ]
+    }
+]

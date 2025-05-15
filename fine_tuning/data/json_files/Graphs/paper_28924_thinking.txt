@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Learning Representations of Entities and Relations" by Ivana Balažević, I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions the development of knowledge graph representation methods and their application to link prediction tasks, which suggests that datasets may be involved. I will look for any specific datasets mentioned in these sections.
+
+Next, I will examine the **experiments** section, as this is typically where authors describe the datasets used for their experiments. In this paper, the experiments are detailed in Chapter 5, where the authors evaluate their model on standard link prediction datasets. I will look for any explicit mentions of datasets, including their names and characteristics.
+
+Upon reviewing Chapter 5, I find the following datasets mentioned:
+
+1. **FB15k**: A subset of Freebase, which is a large database of real-world facts. It contains 14,951 entities and 1,345 relations.
+   - Citation: Bordes, A., Usunier, N., Garcia-Duran, A., Weston, J., & Yakhnenko, O. (2013). Translating Embeddings for Modeling Multi-relational Data. In Advances in Neural Information Processing Systems.
+
+2. **FB15k-237**: Created from FB15k by removing inverse relations from the validation and test sets, making it more challenging. It contains 14,541 entities and 237 relations.
+   - Citation: Toutanova, K., Chen, D., Pantel, P., Poon, H., Choudhury, P., & Gamon, M. (2015). Representing Text for Joint Embedding of Text and Knowledge Bases. In Empirical Methods in Natural Language Processing.
+
+3. **WN18**: A subset of WordNet, containing lexical relations between words. It has 40,943 entities and 18 relations.
+   - Citation: Bordes, A., Usunier, N., Garcia-Duran, A., Weston, J., & Yakhnenko, O. (2013). Translating Embeddings for Modeling Multi-relational Data. In Advances in Neural Information Processing Systems.
+
+4. **WN18RR**: A subset of WN18, created by removing inverse relations from the validation and test sets. It contains 40,943 entities and 11 relations.
+   - Citation: Dettmers, T., Minervini, P., Stenetorp, P., & Riedel, S. (2018). Convolutional 2D Knowledge Graph Embeddings. In Association for the Advancement of Artificial Intelligence.
+
+5. **YAGO3-10**: A subset of the YAGO knowledge graph, which contains entities with a minimum of 10 relations each. It has 123,182 entities and 375 relations.
+   - Citation: Mahdisoltani, F., Biega, J., & Suchanek, F. M. (2013). YAGO3: A Knowledge Base from Multilingual Wikipedias. In Conference on Innovative Data Systems Research.
+
+After identifying these datasets, I will ensure to document their full citations accurately as they are crucial for proper referencing.
+
+Finally, I will compile the extracted datasets along with their citations into a structured format for easy access and review.

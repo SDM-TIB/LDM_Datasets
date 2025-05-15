@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "DAWN: Dual Augmented Memory Network for Unsupervised Video Object Tracking" by Zhenmei Shi et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions that the authors present a method for unsupervised tracking and compare it with state-of-the-art methods, which suggests that datasets may be involved in their evaluation.
+
+Next, I will focus on the **experiments section** (section 4). Here, the authors discuss their experimental setup and the datasets used for evaluation. I will look for any explicit mentions of datasets, particularly in **subsection 4.2 (VOT2016 and VOT2017 Results)**, where they compare their method against other trackers. The authors refer to the VOT challenges, which indicates that they are using datasets from these competitions.
+
+In the **implementation details** (subsection 4.1), the authors mention that their model is pre-trained on the **ImageNet Large Scale Visual Recognition Challenge (ILSVRC15)** dataset. This is a significant dataset in the field of computer vision.
+
+Now, I will compile the datasets identified:
+
+1. **VOT2016 Dataset**: This dataset is used for evaluating the performance of the DAWN model in the VOT2016 challenge. The authors mention that their method was ranked third among fast trackers in this competition.
+   - Citation: 
+     > M. Kristan, A. Leonardis, J. Matas, M. Felsberg, R. Pflugfelder, L. C. Zajc, T. Vojir, G. Hager, A. Lukezič, G. Fernández, et al. *The visual object tracking vot2016 challenge results*. In ECCV, 2016.
+
+2. **VOT2017 Dataset**: Similar to VOT2016, this dataset is used for the VOT2017 challenge, and the authors again report their ranking and performance.
+   - Citation: 
+     > M. Kristan, A. Leonardis, J. Matas, M. Felsberg, R. Pflugfelder, L. C. Zajc, T. Vojir, G. Hager, A. Lukezič, A. Eldesokey, et al. *The visual object tracking vot2017 challenge results*. In ICCVW, 2017.
+
+3. **ILSVRC15 Dataset**: This dataset is used for pre-training the DAWN model, which is crucial for its performance in unsupervised tracking.
+   - Citation: 
+     > O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. Bernstein, A. C. Berg, and L. Fei-Fei. *Imagenet large scale visual recognition challenge*. IJCV, 2015.
+
+After identifying these datasets and their citations, I will ensure that I format the information clearly and accurately for any further processing or documentation needs. This structured approach will help maintain clarity and ensure that all relevant datasets are captured effectively.

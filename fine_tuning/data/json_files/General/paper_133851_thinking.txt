@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Gradual Domain Adaptation: Theory and Algorithms" by Yifei He et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the research, and the introduction typically outlines the context and significance of the work, which may include references to datasets.
+
+In the **introduction**, the authors discuss the challenges of unsupervised domain adaptation (UDA) and mention the use of various datasets for empirical validation. I will look for specific names of datasets in this section.
+
+Next, I will focus on the **experiments section**, where the authors usually describe the datasets used for their experiments in detail. This section often includes information about the number of samples, the nature of the data, and how the datasets are split into source and target domains.
+
+Upon reviewing the paper, I find the following datasets mentioned:
+
+1. **Rotated MNIST**: A semi-synthetic dataset built on the MNIST dataset, consisting of 50,000 images as the source domain and the same images rotated by 45 degrees as the target domain.
+
+2. **Color-Shift MNIST**: This dataset uses the MNIST images with pixel values normalized to [0, 1] as the source domain and the same images with pixel values shifted by 1 as the target domain, also consisting of 50,000 images.
+
+3. **Portraits Dataset**: A real-world gender classification dataset consisting of portraits of high school seniors from 1905 to 2013. The dataset is split into a source domain (first 2,000 images), 7 intermediate domains (next 14,000 images), and a target domain (last 2,000 images).
+
+4. **Cover Type Dataset**: A tabular dataset used for predicting forest cover types based on 54 features. The dataset is sorted by distance to a water body, with the first 50,000 samples as the source domain, 10 intermediate domains each containing 40,000 samples, and the final 50,000 samples as the target domain.
+
+Now, I will look up the full citations for these datasets in the **References section** of the paper:
+
+- For **MNIST**:
+  > Yann LeCun and Corinna Cortes. *MNIST handwritten digit database*. 1998. URL: http://yann.lecun.com/exdb/mnist/.
+
+- For **Ginosar et al. (2015)** (Portraits dataset):
+  > Ginosar, S., Rakelly, K., Sachs, S., Yin, B., Lee, C., Krahenbuhl, P., and Efros, A. A. *A century of portraits: A visual historical record of American high school yearbooks*. 2015. URL: https://arxiv.org/abs/1511.02575.
+
+- For **Blackard and Dean (1999)** (Cover Type dataset):
+  > Blackard, J. A., and Dean, D. J. *Comparative accuracies of artificial neural networks and discriminant analysis in predicting forest cover types from cartographic variables*. Computers and Electronics in Agriculture, 24(3):131–151, 1999.
+
+After gathering this information, I will compile the dataset entries, ensuring that each entry includes the dataset name, description, and full citation, ready for structured output or further processing.

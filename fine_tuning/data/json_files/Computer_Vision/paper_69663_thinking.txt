@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Re-Dock: Towards Flexible and Realistic Molecular Docking with Diffusion Bridge" by Yufei Huang et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors conducted experiments on "designed benchmark datasets including apo-dock and cross-dock," which suggests that these datasets are significant to the research.
+
+Next, I will examine **section 5 (Experiments)**, where the authors describe their experimental setup. They mention using the **PDBBind v2020 dataset** for training and evaluation, which is a crucial dataset for their experiments. They also refer to curated apo crystal structures and cross-dock datasets, indicating that these are additional datasets relevant to their work.
+
+In the **data curation section**, the authors provide details on how they obtained the apo structures from the Protein Data Bank (PDB) and the criteria for selecting these structures. This section confirms the importance of the PDBBind dataset and the curated apo structures for their experiments.
+
+Now, I will look into the **References section** to find full citations for the datasets mentioned:
+
+1. **PDBBind v2020 dataset**:
+   > Liu, Z., Su, M., Han, L., Liu, J., Yang, Q., Li, Y., and Wang, R. *Forging the basis for developing protein–ligand interaction scoring functions*. Accounts of chemical research, 50(2):302–309, 2017.
+
+2. **ApoBind dataset**:
+   > Aggarwal, R., Gupta, A., and Priyakumar, U. *Apobind: a dataset of ligand unbound protein conformations for machine learning applications in de novo drug design*. arXiv preprint arXiv:2108.09926, 2021.
+
+3. **CrossDock dataset**: The authors do not provide a specific citation for the cross-dock dataset, but they mention that it is constructed from various protein-ligand structures retrieved from the PDB, specifically targeting important drug targets.
+
+After gathering this information, I will summarize the datasets as follows:
+
+- **PDBBind v2020 dataset**: A dataset used for training and evaluation in the context of protein-ligand interactions.
+- **ApoBind dataset**: A dataset of ligand unbound protein conformations, useful for machine learning applications in drug design.
+- **CrossDock dataset**: A collection of protein-ligand structures bound with different ligands, used for evaluating docking methods.
+
+Finally, I will compile the dataset entries into a structured format that includes the dataset names and their full citations, ensuring that all relevant information is accurately captured for future reference or analysis.

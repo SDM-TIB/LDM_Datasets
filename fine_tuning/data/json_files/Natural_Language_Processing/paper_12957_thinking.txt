@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Dual Meta-Learning with Longitudinally Generalized Regularization for One-Shot Brain Tissue Segmentation Across the Human Lifespan" by Yongheng Sun et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract states that the authors conducted experiments on the **iSeg2019** and **ADNI** datasets, which indicates that these datasets are crucial for their research.
+
+Next, I will look into **section 4.1 (Datasets)**, where the authors provide detailed descriptions of the datasets used in their experiments. Here, they mention:
+
+1. **OASIS3**: This dataset consists of 1,639 T1-weighted MRIs from 992 longitudinally scanned participants, including Alzheimer’s disease patients and healthy controls, with ages ranging from 42 to 95.
+
+2. **ADNI**: A multisite dataset containing 2,389 longitudinal T1-weighted MRIs, including participants with Alzheimer’s disease, those at risk, and healthy controls, with ages ranging from 20 to 90.
+
+3. **IBIS**: This dataset includes 1,272 structural T1w/T2w MRIs from 552 infants aged 3 to 36 months, with groups categorized by age (e.g., IBIS12M for 12-month-olds and IBIS24M for 24-month-olds).
+
+4. **iSeg-2019**: This dataset is part of the MICCAI 2019 grand challenge, focusing on 6-month-old infant brain MRI segmentation, consisting of T1w and T2w MRIs from multiple sites.
+
+In the **experiments section**, the authors confirm that they used the **OASIS3**, **ADNI**, **IBIS12M**, and **IBIS24M** datasets for meta-training and the **iSeg-2019** and **ADNI** datasets for meta-testing.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **OASIS3**, the citation is:
+  > LaMontagne, P. J., Benzinger, T. L. S., Morris, J. C., et al. (2019). OASIS-3: Longitudinal neuroimaging, clinical, and cognitive dataset for normal aging and Alzheimer disease. *MedRxiv*.
+
+- For **ADNI**, the citation is:
+  > Mueller, S. G., Weiner, M. W., Thal, L. J., et al. (2005). The Alzheimer’s Disease Neuroimaging Initiative. *Neuroimaging Clinics*, 15(4), 869–877.
+
+- For **IBIS**, the citation is:
+  > IBIS Network. (n.d.). Infant Brain Imaging Study (IBIS). Retrieved from [IBIS website].
+
+- For **iSeg-2019**, the citation is:
+  > Sun, Y., Gao, K., Wu, Z., et al. (2021). Multi-site infant brain segmentation algorithms: The iSeg-2019 challenge. *IEEE Transactions on Medical Imaging*, 40(5), 1363–1376.
+
+With these citations, I can now compile the dataset entries into a structured format for further processing. This systematic approach ensures that I have accurately identified and cited all relevant datasets from the paper.

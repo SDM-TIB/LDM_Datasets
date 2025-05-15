@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Spatio-temporal DeepKriging for Interpolation and Probabilistic Forecasting" by Pratik Nag et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will start by reading through the **abstract and introduction** sections to get an overview of the research context and any datasets that may be mentioned. The abstract indicates that the authors applied their method to **monthly PM2.5 data at more than 200,000 space-time locations from January 1999 to December 2022**. This suggests that a significant dataset is being utilized.
+
+Next, I will examine the **methodology section**, particularly the parts discussing the application of their model to the PM2.5 data. The authors mention that they analyze **monthly data from 1999 to 2022**, which contains a total of **286 months** of data with approximately **1,900 spatial observations per month**. This provides a clear indication of the dataset's structure and its temporal and spatial dimensions.
+
+In the **simulation studies section**, the authors describe two separate simulation studies. The first involves **18 datasets generated using ExaGeoStat**, with different parameter settings. They specify that nine datasets are of size **90K** and the rest are of size **1M**. This indicates that multiple datasets were created for testing their model.
+
+I will also check the **results section** to confirm the datasets used for evaluation and any comparisons made with other methods. The authors mention that they compare their results with **GpGp** and provide mean square prediction errors (MSPE) for their method and the competing methods, which further validates the datasets used.
+
+Now, I will compile the full citations for the datasets mentioned:
+
+1. **PM2.5 Dataset**: The citation for the PM2.5 data is:
+   > U.S. Environmental Protection Agency (EPA). *Air Quality System (AQS) Data*. Available at: https://www.epa.gov/aqs
+
+2. **KAUST Competition Data**: The citation for the competition data is:
+   > Abdulah, S., Alamri, F., Nag, P., Sun, Y., Ltaief, H., Keyes, D., & Genton, M. G. (2022). The second competition on spatial statistics for large datasets. *Journal of Data Science*, 20(4), 439–460.
+
+3. **ExaGeoStat Simulation Data**: The citation for the simulation data is:
+   > Salvaña, M. L. O., Abdulah, S., Huang, H., Ltaief, H., Sun, Y., Genton, M. G., & Keyes, D. E. (2021). High performance multivariate geospatial statistics on manycore systems. *IEEE Transactions on Parallel and Distributed Systems*, 32(11), 2719–2733.
+
+After gathering this information, I will ensure that each dataset is clearly documented with its respective citation, ready for further processing or review. This structured approach will help in accurately extracting and presenting the datasets from the research paper.

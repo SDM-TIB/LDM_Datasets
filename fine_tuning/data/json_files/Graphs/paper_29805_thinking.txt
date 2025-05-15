@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "MGNet: Monocular Geometric Scene Understanding for Autonomous Driving" by Markus Schön, Michael Buchholz, and Klaus Dietmayer, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets mentioned. The abstract indicates that the authors evaluate their model on two popular autonomous driving benchmarks, which suggests that datasets are involved.
+
+Next, I will focus on **section 4 (Experimental Results)**, specifically **subsection 4.1 (Datasets)**, where the authors explicitly mention the datasets used for their experiments:
+
+1. **Cityscapes**: This dataset is described as providing video sequences recorded in 50 different cities in Germany, containing 5,000 images annotated with fine-grained panoptic labels for 30 classes. The dataset is split into 2,975 images for training, 500 for validation, and 1,525 for testing. Depth annotations are provided as pre-computed disparity maps for evaluation.
+
+2. **KITTI Eigen split**: The authors use the KITTI Eigen split, which includes 39,810 images for training and 4,424 for validation. The depth maps used for testing are generated from lidar points and stereo information.
+
+After identifying the datasets, I will check the **References section** to find the full citations for these datasets:
+
+- For **Cityscapes**, the citation is:
+  > Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele. *The Cityscapes Dataset for Semantic Urban Scene Understanding*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016.
+
+- For **KITTI**, the citation is:
+  > Andreas Geiger, Philip Lenz, Christoph Stiller, and Raquel Urtasun. *Vision Meets Robotics: The KITTI Dataset*. International Journal of Robotics Research (IJRR), 2013.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

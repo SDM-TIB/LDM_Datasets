@@ -1,0 +1,77 @@
+To extract datasets from the research paper titled "Cross-Modal Concept Learning and Inference for Vision-Language Models" by Yi Zhang et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets mentioned. The abstract provides a brief overview of the research and may mention datasets used for evaluation. The introduction often elaborates on the context and significance of the datasets.
+
+Next, I will focus on **section 4 (Experimental Results)**, which is likely to contain detailed information about the datasets used in the experiments. In this section, the authors mention that they adopt the few-shot evaluation protocol on **11 widely-used image classification datasets** and provide a table summarizing the statistics of these datasets.
+
+I will carefully examine **Table 1**, which lists the datasets along with their classes, training sizes, testing sizes, and tasks. The datasets mentioned are:
+
+1. **Caltech101**: 100 classes, 4,128 training images, 2,465 testing images, used for object recognition.
+2. **DTD (Describable Textures Dataset)**: 47 classes, 2,820 training images, 1,692 testing images, used for texture recognition.
+3. **EuroSAT**: 10 classes, 13,500 training images, 8,100 testing images, used for satellite image recognition.
+4. **FGVCAircraft**: 100 classes, 3,334 training images, 3,333 testing images, used for fine-grained aircraft recognition.
+5. **Flowers102**: 102 classes, 4,093 training images, 2,463 testing images, used for fine-grained flowers recognition.
+6. **Food101**: 101 classes, 50,500 training images, 30,300 testing images, used for fine-grained food recognition.
+7. **ImageNet**: 1,000 classes, 1.28M training images, 50,000 testing images, used for object recognition.
+8. **OxfordPets**: 37 classes, 2,944 training images, 3,669 testing images, used for fine-grained pets recognition.
+9. **StanfordCars**: 196 classes, 6,509 training images, 8,041 testing images, used for fine-grained car recognition.
+10. **SUN397**: 397 classes, 15,880 training images, 19,850 testing images, used for scene recognition.
+11. **UCF101**: 101 classes, 7,639 training images, 3,783 testing images, used for action recognition.
+
+Additionally, the authors mention four datasets used for domain generalization:
+
+1. **ImageNet-V2**: 10,000 testing images.
+2. **ImageNet-Sketch**: 50,000 testing images.
+3. **ImageNet-A**: 7,500 testing images.
+4. **ImageNet-R**: 30,000 testing images.
+
+Next, I will refer to the **References section** to find the full citations for each dataset. The citations for the datasets mentioned in the paper are as follows:
+
+- **Caltech101**: 
+  > Fei-Fei, L., Fergus, R., & Perona, P. (2004). Learning generative visual models from few training examples: An incremental bayesian approach tested on 101 object categories. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (pp. 178–178).
+
+- **DTD**: 
+  > Cimpoi, M., Maji, S., Kokkinos, I., Mohamed, S., & Vedaldi, A. (2014). Describing textures in the wild. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 3606–3613).
+
+- **EuroSAT**: 
+  > Helber, P., Bischke, B., Dengel, A., & Borth, D. (2019). Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 12, 2217–2226.
+
+- **FGVCAircraft**: 
+  > Maji, S., Rahtu, E., Kannala, J., Blaschko, M., & Vedaldi, A. (2013). Fine-grained visual classification of aircraft. arXiv preprint arXiv:1306.5151.
+
+- **Flowers102**: 
+  > Nilsback, M.E., & Zisserman, A. (2008). Automated flower classification over a large number of classes. In Indian Conference on Computer Vision, Graphics & Image Processing.
+
+- **Food101**: 
+  > Bossard, L., Guillaumin, M., & Van Gool, L. (2014). Food-101–mining discriminative components with random forests. In European Conference on Computer Vision (pp. 446–461).
+
+- **ImageNet**: 
+  > Deng, J., Dong, W., Socher, R., Li, L.J., Li, K., & Fei-Fei, L. (2009). Imagenet: A large-scale hierarchical image database. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 248–255).
+
+- **OxfordPets**: 
+  > Parkhi, O.M., Vedaldi, A., & Zisserman, A. (2012). Cats and dogs. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 3498–3505).
+
+- **StanfordCars**: 
+  > Krause, J., Stark, M., Deng, J., & Fei-Fei, L. (2013). 3D object representations for fine-grained categorization. In Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops (pp. 554–561).
+
+- **SUN397**: 
+  > Xiao, J., Hays, J., Ehinger, K.A., Oliva, A., & Torralba, A. (2010). Sun database: Large-scale scene recognition from abbey to zoo. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 3485–3492).
+
+- **UCF101**: 
+  > Soomro, K., Zamir, A.R., & Shah, M. (2012). UCF101: A dataset of 101 human actions classes from videos in the wild. arXiv preprint arXiv:1212.0402.
+
+For the domain generalization datasets, the citations are:
+
+- **ImageNet-V2**: 
+  > Recht, B., Roelofs, R., Schmidt, L., & Shankar, V. (2019). Do imagenet classifiers generalize to imagenet? In Proceedings of the International Conference on Machine Learning.
+
+- **ImageNet-Sketch**: 
+  > Hendrycks, D., Zhao, K., Basart, S., Steinhardt, J., & Song, D. (2021). Natural adversarial examples. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 15262–15271).
+
+- **ImageNet-A**: 
+  > Hendrycks, D., Basart, S., Mu, N., Kadavath, S., Wang, F., & Dorundo, E. (2021). The many faces of robustness: A critical analysis of out-of-distribution generalization. In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 8340–8349).
+
+- **ImageNet-R**: 
+  > Hendrycks, D., Zhao, K., Basart, S., Steinhardt, J., & Song, D. (2021). Natural adversarial examples. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 15262–15271).
+
+Now that I have gathered all the necessary information, I can compile the dataset entries with their full citations for further processing.

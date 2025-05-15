@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "A CLIP-Hitchhiker’s Guide to Long Video Retrieval" by Max Bain et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the authors evaluate their method on a suite of long video retrieval benchmarks, which suggests that datasets are involved.
+
+Next, I will focus on **section 4.1 (Downstream Datasets)**, where the authors explicitly list the datasets used for evaluation. Here, I will carefully note the names and descriptions of each dataset mentioned:
+
+1. **MSR-VTT**: This dataset contains 10,000 videos from YouTube, each with 5 captions. The authors trained on 9,000 videos and reported results on the 1,000-A test set, which consists of the shortest videos averaging 15 seconds.
+
+2. **Condensed Movies Dataset (CMD)**: This dataset consists of 34,000 videos of movie scenes with an average duration of 132 seconds and corresponding high-level semantic textual descriptions. The authors trained, validated, and tested on a recent challenge split of 32,000, 2,000, and 1,000 videos, respectively.
+
+3. **ActivityNet Captions**: This dataset includes 20,000 videos from YouTube, annotated with 100,000 sentences. The training set consists of 10,000 videos, and the authors used the val1 set for reporting results. The average video duration is 180 seconds.
+
+4. **Charades**: This dataset is for video classification and consists of daily activities with an average duration of 30 seconds. It features multilabel and multiclass classification, where a video can contain multiple different actions at different times.
+
+After identifying the datasets, I will refer to the **References section** to find the full citations for each dataset:
+
+- For **MSR-VTT**, the citation is:
+  > Xu, J., Mei, T., Yao, T., & Rui, Y. (2016). *MSR-VTT: A large video description dataset for bridging video and language*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
+
+- For **Condensed Movies Dataset**, the citation is:
+  > Bain, M., Nagrani, A., & Zisserman, A. (2020). *Condensed movies: Story based retrieval with contextual embeddings*. In Proceedings of the Asian Conference on Computer Vision (ACCV).
+
+- For **ActivityNet Captions**, the citation is:
+  > Krishna, R., Hata, K., Ren, F., Fei-Fei, L., & Carlos Niebles, J. (2017). *Dense-captioning events in videos*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV).
+
+- For **Charades**, the citation is:
+  > Sigurdsson, G.A., Varol, G., Wang, X., Farhadi, A., Laptev, I., & Gupta, A. (2016). *Hollywood in homes: Crowdsourcing data collection for activity understanding*. In Proceedings of the European Conference on Computer Vision (ECCV).
+
+With this information gathered, I will compile the dataset entries, ensuring that each entry includes the dataset name, description, and full citation, ready for structured output or further processing.

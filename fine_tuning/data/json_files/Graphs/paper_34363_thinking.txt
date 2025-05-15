@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "SYNFLOWNET: TOWARDS MOLECULE DESIGN WITH GUARANTEED SYNTHESIS PATHWAYS" by Miruna Cretu et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to locate any references to datasets. The abstract mentions evaluating the approach using **synthetic accessibility scores and an independent retrosynthesis tool**, which suggests that there are datasets involved in these evaluations.
+
+Next, I will focus on the **introduction** to see if the authors mention any specific datasets or sources of data. They discuss the challenges of molecular design and refer to various works, but I need to look for explicit dataset names.
+
+In the **methods section**, the authors describe using **reaction templates from two publicly available template libraries**. I will note these libraries as potential datasets. They mention:
+1. **Button et al. (2019)** for reaction templates.
+2. **Hartenfeller et al. (2012)** for additional reaction templates.
+
+In the **experiments section**, the authors compare their generated molecules against **ZINC250k** and a curated set of compounds from **ChEMBL**. This is crucial as these are specific datasets used for evaluation.
+
+Now, I will gather the full citations for these datasets from the **references section**:
+
+1. For the **ZINC250k** dataset, the citation is:
+   > Rafael Gómez-Bombarelli, David Duvenaud, José Miguel Hernández-Lobato, Jorge Aguilera-Iparraguirre, Timothy D. Hirzel, Ryan P. Adams, and Alán Aspuru-Guzik. *Automatic chemical design using a data-driven continuous representation of molecules*. CoRR, abs/1610.02415, 2016.
+
+2. For the **ChEMBL** dataset, the citation is:
+   > Barbara Zdrazil, Eloy Felix, Fiona Hunter, Emma J Manners, James Blackshaw, Sybilla Corbett, Marleen de Veij, Harris Ioannidis, David Mendez Lopez, Juan F Mosquera, Maria Paula Magarinos, Nicolas Bosc, Ricardo Arcila, Tevfik Kizilören, Anna Gaulton, A Patrícia Bento, Melissa F Adasme, Peter Monecke, Gregory A Landrum, and Andrew R Leach. *The ChEMBL Database in 2023: a drug discovery platform spanning multiple bioactivity data types and time periods*. Nucleic Acids Research, 52(D1):D1180–D1192, 2023. doi: 10.1093/nar/gkad1004.
+
+3. For the **reaction templates** from the libraries, I will include:
+   - **Button et al. (2019)** citation:
+     > Alexander Button, Daniel Merk, Jan A Hiss, and Schneider Gisbert. *Automated de novo molecular design by hybrid machine intelligence and rule-driven chemical synthesis*. Nature Machine Intelligence, 1(7):307–315, 2019.
+   - **Hartenfeller et al. (2012)** citation:
+     > M Hartenfeller, H Zettl, M Walter, M Rupp, F Reisen, E Proschak, S Weggen, H Stark, and G. Schneider. *DOGS: reaction-driven de novo design of bioactive*. PLOS Computational Biology, 8(2), 2012. doi: 10.1371/journal.pcbi.1002380.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation for proper attribution. This structured approach will help ensure that all relevant datasets are accurately extracted and documented.

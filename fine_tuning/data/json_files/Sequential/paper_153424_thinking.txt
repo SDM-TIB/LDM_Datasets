@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Label-Efficient Audio Classification Through Multitask Learning and Self-Supervision" by Tyler Lee et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, experimental setup, and results sections** of the paper. The abstract mentions the use of various datasets for audio classification tasks, which indicates that there are specific datasets I need to identify.
+
+In the **introduction**, the authors discuss the challenges of training deep neural networks with limited labeled data and the potential of using self-supervised tasks. This section may provide context for the datasets used but may not name them directly.
+
+Next, I will focus on the **experimental setup section** where the authors describe the supervised tasks. Here, they mention three distinct supervised tasks: audio tagging, speaker identification, and speech command recognition. Each task is likely associated with a specific dataset.
+
+1. **FSDKaggle2018 Dataset**: This dataset is used for the audio tagging task. The authors describe it as containing 11,073 audio files, which are uncompressed PCM 16 bit, 44.1 kHz, monaural audio. 
+
+2. **VoxCeleb-1 Dataset**: This dataset is utilized for the speaker identification task. It consists of 336 hours of data from 1,251 speakers, sourced from interviews with celebrities.
+
+3. **Speech Commands Dataset**: This dataset is used for the speech command recognition task. It contains 65,000 utterances of 30 short words, formatted in one-second WAVE files.
+
+Additionally, the authors mention that the self-supervised tasks were trained on the **Librispeech Dataset**, which is used for auxiliary tasks and is not a primary dataset for the supervised tasks.
+
+Now, I will check the **References section** to find the full citations for each dataset mentioned:
+
+- For the **FSDKaggle2018 Dataset**, the citation is:
+  > Jort F. Gemmeke, Daniel P. W. Ellis, Dylan Freedman, Aren Jansen, Wade Lawrence, R. Channing Moore, Manoj Plakal, and Marvin Ritter. *Audio set: An ontology and human-labeled dataset for audio events*. 2017 IEEE ICASSP, Mar 2017. doi: 10.1109/icassp.2017.7952261. URL http://dx.doi.org/10.1109/ICASSP.2017.7952261.
+
+- For the **VoxCeleb-1 Dataset**, the citation is:
+  > A. Nagrani, J. S. Chung, and A. Zisserman. *Voxceleb: a large-scale speaker identification dataset*. In INTERSPEECH, 2017.
+
+- For the **Speech Commands Dataset**, the citation is:
+  > Pete Warden. *Speech commands: A dataset for limited-vocabulary speech recognition*. CoRR, abs/1804.03209, 2018. URL http://arxiv.org/abs/1804.03209.
+
+- For the **Librispeech Dataset**, the citation is:
+  > Vassil Panayotov, Guoguo Chen, Daniel Povey, and Sanjeev Khudanpur. *Librispeech: An ASR corpus based on public domain audio books*. In ICASSP, pp. 5206–5210, August 2015. doi: 10.1109/ICASSP.2015.7178964.
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

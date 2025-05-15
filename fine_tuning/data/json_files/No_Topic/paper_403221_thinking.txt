@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "DeepLSH: Deep Locality-Sensitive Hash Learning for Fast and Efficient Near-Duplicate Crash Report Detection" by Youcef Remil et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reading through the **abstract, introduction, and methodology sections** to see if any datasets are mentioned. The abstract discusses the introduction of a new method (DeepLSH) and mentions that the authors support their claims with experiments on an original dataset, which indicates that a dataset is indeed involved.
+
+Next, I will look for specific mentions of datasets in the **experiments section**. Here, the authors describe their experimental setup and mention that they conducted experiments on a real-world dataset comprising stack traces automatically reported by their ERP software. They also mention that they created distinct pairs of stack traces from their historical incident database for training their model.
+
+In the **background section**, the authors define the stack-trace dataset as a set of N stack traces, denoted as D = {s1, s2, ..., sN}. This reinforces the idea that they are working with a specific dataset of stack traces.
+
+Now, I will check the **references section** to find any citations related to the datasets used. However, since the dataset mentioned is original and created by the authors, it may not have a formal citation like other datasets. Instead, I will note that the dataset is derived from their own ERP software's crash reports.
+
+The dataset can be summarized as follows:
+
+1. **Stack Trace Dataset**: This dataset consists of stack traces automatically reported by the authors' ERP software. It includes a variety of stack traces that represent different crash reports, and the authors have created pairs of these stack traces for training their model.
+
+Since this dataset is original and does not have a formal citation, I will document it as follows:
+
+- **Dataset Name**: Stack Trace Dataset
+- **Description**: A dataset comprising stack traces automatically reported by the authors' ERP software, used for training and evaluating the DeepLSH model.
+
+Finally, I will compile this information into a structured format that clearly presents the dataset details, ensuring that I include the full citation for the paper itself:
+
+- **Citation for the Paper**:
+  > Youcef Remil, Anes Bendimerad, Romain Mathonat, Chedy Raissi, and Mehdi Kaytoue. *DeepLSH: Deep Locality-Sensitive Hash Learning for Fast and Efficient Near-Duplicate Crash Report Detection*. In Proceedings of the ACM Conference on Software Engineering, 2023.
+
+With this approach, I have successfully extracted the relevant dataset information from the paper while ensuring that I have the necessary citations for both the dataset and the paper itself.

@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Real-Time Target Sound Extraction" by Bandhav Veluri et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions the development of a neural network model for target sound extraction, but it does not specify any datasets. The introduction discusses the problem of target sound extraction and references previous works, but again, no datasets are explicitly mentioned.
+
+Next, I will focus on the **experiments and results section**. Here, the authors state that they use a synthetic sound mixture dataset created from the **FSD Kaggle 2018 dataset**. This is a crucial piece of information, as it indicates that a specific dataset is being utilized for their experiments.
+
+In the **experiments section**, the authors provide details about the dataset: it consists of 50k training samples, 5k validation samples, and 10k test samples, created using the Scaper toolkit with FSD Kaggle 2018 and TAU Urban Acoustic Scenes 2019 as sources. This gives me a clear understanding of the dataset's structure and purpose.
+
+I will also look for any additional datasets mentioned in the paper. The authors reference the **TAU Urban Acoustic Scenes 2019** dataset as a background source for creating their synthetic dataset. This is another important dataset to include.
+
+Now, I will check the **references section** to find the full citations for the datasets mentioned:
+
+1. For the **FSD Kaggle 2018 dataset**, the citation is:
+   > Gemmeke, J. F., Ellis, D. P., Freedman, A., Jansen, A., Lawrence, W., Moore, R. C., Plakal, M., & Ritter, M. (2017). Audio set: An ontology and human-labeled dataset for audio events. In ICASSP. IEEE.
+
+2. For the **TAU Urban Acoustic Scenes 2019 dataset**, the citation is:
+   > Mesaros, A., Heittola, T., & Virtanen, T. (2018). A multi-device dataset for urban acoustic scene classification. In DCASE2018, November 2018.
+
+With these citations in hand, I will summarize the datasets extracted from the paper:
+
+- **FSD Kaggle 2018 dataset**: A set of sound event and class label pairs, with 41 different sound classes, used as a foreground source for creating synthetic sound mixtures.
+- **TAU Urban Acoustic Scenes 2019 dataset**: Used as a background source for the synthetic dataset.
+
+Finally, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all information is accurately represented for future reference or processing.

@@ -1,0 +1,42 @@
+To extract datasets from the research paper titled "COMPASS: LARGE MULTILINGUAL LANGUAGE MODEL FOR SOUTH-EAST ASIA" by Sophia Maria, I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to locate any references to datasets. The abstract mentions that the authors conducted extensive data mining and purification efforts for low-resource languages, which suggests that datasets are involved.
+
+Next, I will focus on the **data section (2.1)**, where the authors describe their multilingual pre-training dataset. They mention that they curated a dataset comprising **1.7 trillion tokens** from various sources, including CommonCrawl, C4, Wikipedia, WebText, Academic, Books, and Code. This indicates that multiple datasets were utilized in the training process.
+
+In **section 2.1.1 (Tokenization)**, the authors discuss the tokenization process and the vocabulary construction, but they do not introduce new datasets here. I will continue to check the **experiments section (2.4)**, where they evaluate their model against various benchmarks.
+
+In **section 2.4.1 (Experiment Method)**, the authors mention several benchmark datasets used for evaluation, including:
+
+1. **MMLU**: A benchmark for measuring massive multitask language understanding.
+2. **IndoMMLU**: A benchmark specifically for Indonesian language understanding.
+3. **XCOPA**: A multilingual dataset for causal commonsense reasoning.
+4. **GSM8K**: A dataset of diverse grade school math word problems.
+5. **HellaSwag**: A dataset for commonsense inference questions.
+6. **OpenBookQA**: A dataset for question answering that requires understanding of core science facts.
+7. **TruthfulQA**: A benchmark to measure the truthfulness of model responses.
+
+I will now gather the full citations for these datasets from the **References section** of the paper. 
+
+- For **MMLU**, the citation is:
+  > Gao, L., Tow, J., Abbasi, B., et al. (2021). *A framework for few-shot language model evaluation*. URL: https://doi.org/10.5281/zenodo.5371628.
+
+- For **IndoMMLU**, the citation is:
+  > Koto, F., Aisyah, N., Li, H., & Baldwin, T. (2023). *Large language models only pass primary school exams in Indonesia: A comprehensive test on IndoMMLU*. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP), Singapore.
+
+- For **XCOPA**, the citation is:
+  > Ponti, E. M., Glavaš, G., Majewska, O., Liu, Q., Vulić, I., & Korhonen, A. (2020). *XCOPA: A multilingual dataset for causal commonsense reasoning*. arXiv preprint arXiv:2005.00333.
+
+- For **GSM8K**, the citation is:
+  > Cobbe, K., Kosaraju, V., Bavarian, M., et al. (2021). *Training verifiers to solve math word problems*. arXiv preprint arXiv:2110.14168.
+
+- For **HellaSwag**, the citation is:
+  > Zellers, R., Holtzman, A., Bisk, Y., Farhadi, A., & Choi, Y. (2019). *HellaSwag: Can a machine really finish your sentence?* In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics.
+
+- For **OpenBookQA**, the citation is:
+  > Mihaylov, T., Clark, P., Khot, T., & Sabharwal, A. (2018). *Can a suit of armor conduct electricity? A new dataset for open book question answering*. In EMNLP.
+
+- For **TruthfulQA**, the citation is:
+  > Lin, T., Beltagy, I., & Bowman, S. R. (2021). *TruthfulQA: Measuring how models mimic human falsehoods*. arXiv preprint arXiv:2109.07958.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

@@ -1,0 +1,105 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A pivotal surveillance system that broadcasts the aircraft’s position, velocity, and other information to the ground station and surrounding aircraft. The data recorded from ADS-B systems are susceptible to various irregularities due to multiple reasons, including antennas’ blind zones, signal jamming, and multipath interference.",
+        "dcterms:title": "ADS-B Data",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.faa.gov/nextgen/programs/adsb/faq/",
+        "dcat:theme": [
+            "Aviation",
+            "Surveillance Data"
+        ],
+        "dcat:keyword": [
+            "Flight data",
+            "Surveillance",
+            "Positioning",
+            "Velocity"
+        ],
+        "dcat:landingPage": "https://www.faa.gov/nextgen/programs/adsb/faq/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Flight trajectory reconstruction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. M. Hoekstra",
+            "J. Ellerbroek"
+        ],
+        "dcterms:description": "A synthetic flight dataset generated using BlueSky, designed to mirror the statistical characteristics of ideal, integrity-rich ground truthing flight data, facilitating both training and evaluation of the proposed model.",
+        "dcterms:title": "Synthetic Flight Dataset (generated using BlueSky)",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Simulation",
+            "Flight Data"
+        ],
+        "dcat:keyword": [
+            "Synthetic data",
+            "Flight simulation",
+            "Aircraft operations"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Flight trajectory reconstruction",
+            "Model training"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Touvron",
+            "T. Lavril",
+            "G. Izacard",
+            "X. Martinet",
+            "M.-A. Lachaux",
+            "T. Lacroix",
+            "B. Rozière",
+            "N. Goyal",
+            "E. Hambro",
+            "F. Azhar"
+        ],
+        "dcterms:description": "A pre-trained open-source large language model that has demonstrated promising results in time-series forecasting.",
+        "dcterms:title": "LLaMA 2 Model Data",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:2302.13971",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Language model",
+            "Time-series forecasting",
+            "Large language models"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Flight trajectory reconstruction",
+            "Time-series analysis"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Training, validation, and testing datasets derived from the study's own generated data, consisting of flight trajectories spanning a duration of 60 seconds.",
+        "dcterms:title": "Training, Validation, and Testing Datasets (specific to the study)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Model training",
+            "Model evaluation"
+        ]
+    }
+]

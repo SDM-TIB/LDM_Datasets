@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Pioneer Networks: Progressively Growing Generative Autoencoder" by Ari Heljakka et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract mentions that the model is trained using the **CelebA** and **CelebA-HQ** datasets, which indicates that these are key datasets for the research.
+
+Next, I will look closely at **section 4 (Experiments)**, where the authors provide detailed descriptions of the datasets used. Here, they specifically mention:
+
+1. **CelebA Dataset**: This dataset contains over 200,000 images with various attributes, and the authors note that it can be square-cropped to 128×128 resolution. This dataset is crucial for their experiments on image reconstruction and generation.
+
+2. **CelebA-HQ Dataset**: This is a high-quality subset of CelebA, consisting of 30,000 images that have been improved and upscaled to 1024×1024 resolution. The authors use this dataset for training at higher resolutions (up to 256×256).
+
+Additionally, the authors mention the **LSUN Bedrooms** dataset, which contains images of various categories at 256×256 resolution or higher. They use this dataset to test the generative capabilities of their model.
+
+Lastly, they reference the **Cifar-10** dataset, which contains 60,000 labeled images at 32×32 resolution, although they do not utilize the label information for their experiments.
+
+Now, I will check the **References section** to gather the full citations for each dataset:
+
+- For **CelebA**, the citation is:
+  > Liu, Z., Luo, P., Wang, X., & Tang, X. (2015). Deep learning face attributes in the wild. In Proceedings of the IEEE International Conference on Computer Vision (ICCV).
+
+- For **CelebA-HQ**, the citation is:
+  > Karras, T., Aila, T., Laine, S., & Lehtinen, J. (2018). Progressive growing of GANs for improved quality, stability, and variation. In International Conference on Learning Representations (ICLR).
+
+- For **LSUN**, the citation is:
+  > Yu, F., Seff, A., Zhang, Y., Song, S., Funkhouser, T., & Xiao, J. (2015). LSUN: Construction of a large-scale image dataset using deep learning with humans in the loop. arXiv preprint arXiv:1506.03365.
+
+- For **Cifar-10**, the citation is:
+  > Krizhevsky, A., & Hinton, G. (2009). Learning multiple layers of features from tiny images. Technical Report, University of Toronto.
+
+With this information, I can now compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research.

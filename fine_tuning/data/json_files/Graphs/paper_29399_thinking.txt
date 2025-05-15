@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Simulate Time-integrated Coarse-grained Molecular Dynamics with Multi-scale Graph Networks" by Xiang Fu et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the research and may mention key datasets used for evaluation.
+
+Next, I will focus on the **experiments section**, particularly **section 4**, where the authors typically describe the datasets used for their experiments. In this section, I will look for any tables or figures that summarize the datasets, as they often provide concise information about the datasets' characteristics.
+
+Upon reviewing the paper, I find that there are two main datasets discussed:
+
+1. **Single-chain Coarse-grained Polymers**: This dataset consists of 100 short molecular dynamics (MD) trajectories of class-I polymers, each 50,000 time units long, used for training. The testing set includes 40 class-II polymers with trajectories of 5 million time units. The average number of atoms per polymer is 890, and the dataset is used to evaluate the squared radius of gyration (R²g) as a key observable.
+
+2. **Multi-component Li-ion Polymer Electrolytes (SPEs)**: This dataset includes 530 short MD trajectories of 5 ns for training and 50 testing trajectories of 50 ns, with each system containing an average of 6025 atoms. The dataset is used to predict ion transport properties, specifically the diffusivity of Li-ions and TFSI-ions.
+
+Next, I will check the **References section** to find the full citations for the datasets mentioned. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+For the **Single-chain Coarse-grained Polymers**, the relevant citation is:
+- Webb, M. A., et al. (2020). *Systematic computational and experimental investigation of lithium-ion transport mechanisms in polyester-based polymer electrolytes*. ACS Central Science, 1(4), 198-205.
+
+For the **Multi-component Li-ion Polymer Electrolytes**, the citation is:
+- Xie, T., et al. (2022). *Accelerating amorphous polymer electrolyte screening by learning to reduce errors in molecular dynamics simulated properties*. Nature Communications, 13(1), 1-10.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for easy reference and further processing.

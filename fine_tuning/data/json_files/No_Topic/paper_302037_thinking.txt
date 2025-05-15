@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "TempoRL: Learning When to Act" by André Biedenkapp et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to see if any datasets are explicitly mentioned. The abstract discusses the effectiveness of the proposed method on various environments, which suggests that datasets may be involved.
+
+Next, I will focus on the **experiments section** (section 4) where the authors describe their evaluations. In this section, they mention using specific environments for testing their method. I will look for any named datasets or environments that could be considered datasets.
+
+Upon reviewing section 4.1, the authors describe their experiments on **grid-world environments** such as the **Cliff**, **Bridge**, and **ZigZag** environments. These are not traditional datasets but rather simulation environments used for reinforcement learning experiments. However, they provide valuable data for evaluating the proposed method.
+
+In section 4.2, the authors mention using **OpenAI Gym environments** like **Pendulum-v0**, **MountainCar-v0**, and **LunarLander-v2**. These environments are also not datasets in the conventional sense but are widely recognized benchmarks in reinforcement learning research.
+
+I will now check the **References section** to find any formal citations related to these environments. However, since these environments are part of the OpenAI Gym library, they may not have individual citations. Instead, I will cite the OpenAI Gym paper:
+
+- For OpenAI Gym, the citation is:
+  > Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., and Zaremba, W. *OpenAI Gym*. arXiv:1606.01540 [cs.LG], 2016.
+
+Next, I will summarize the identified environments as datasets:
+
+1. **Cliff Environment**: A grid-world environment where agents must navigate to reach a goal while avoiding falling off a cliff.
+2. **Bridge Environment**: Similar to the Cliff environment but with a smaller cliff area.
+3. **ZigZag Environment**: A more complex grid-world requiring multiple direction changes to reach the goal.
+4. **Pendulum-v0**: An OpenAI Gym environment where the agent must balance a pendulum.
+5. **MountainCar-v0**: An OpenAI Gym environment where the agent must build momentum to reach the top of a hill.
+6. **LunarLander-v2**: An OpenAI Gym environment where the agent must land a spacecraft on the lunar surface.
+
+Now, I will compile the dataset entries with their respective citations into a structured format for further processing.

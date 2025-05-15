@@ -1,0 +1,75 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Synthetic dataset consists in predicting sudden changes (step functions) based on an input signal composed of two peaks. This controlled setup was designed to measure precisely the shape and time errors of predictions. We generate 500 times series for train, 500 for validation and 500 for test, with 40 time steps: the first 20 are the inputs, the last 20 are the targets to forecast.",
+        "dcterms:title": "Synthetic",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Synthetic data",
+            "Time series forecasting",
+            "Step functions"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Time series forecasting"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Yanping Chen",
+            "Eamonn Keogh",
+            "Bing Hu",
+            "Nurjahan Begum",
+            "Anthony Bagnall",
+            "Abdullah Mueen",
+            "Gustavo Batista"
+        ],
+        "dcterms:description": "ECG5000 dataset comes from the UCR Time Series Classification Archive and is composed of 5000 electrocardiograms (ECG) (500 for training, 4500 for testing) of length 140. We take the first 84 time steps (60 %) as input and predict the last 56 steps (40 %) of each time series.",
+        "dcterms:title": "ECG5000",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "ECG",
+            "Time series classification",
+            "Medical data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Time series forecasting"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Guokun Lai",
+            "Wei-Cheng Chang",
+            "Yiming Yang",
+            "Hanxiao Liu"
+        ],
+        "dcterms:description": "Traffic dataset corresponds to road occupancy rates (between 0 and 1) from the California Department of Transportation (48 months from 2015-2016) measured every 1h. We work on the first univariate series of length 17544 and train models to predict the 24 future points given the past 168 points.",
+        "dcterms:title": "Traffic",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic data",
+            "Time series forecasting",
+            "Road occupancy"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Time series forecasting"
+        ]
+    }
+]

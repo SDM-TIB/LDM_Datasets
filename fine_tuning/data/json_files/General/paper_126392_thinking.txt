@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Multi-Task End-to-End Training Improves Conversational Recommendation" by Naveen Ram et al., I will follow a systematic approach to identify and document each dataset mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to locate any references to datasets. The abstract mentions that the authors fine-tune their model on the **ReDIAL conversational movie recommendation dataset** and create additional training tasks derived from **MovieLens**. This indicates that at least two datasets are involved.
+
+Next, I will focus on **section 2 (Our Approach)**, where the authors describe their methodology in detail. Here, they explicitly mention the datasets used for training:
+
+1. **ReDIAL Dataset**: This dataset consists of 11,248 dialogues collected through Amazon Mechanical Turk, where each dialogue involves interactions between a recommender and a recommendation seeker. This dataset is crucial for training the conversational recommendation model.
+
+2. **MovieLens 25m Dataset**: This dataset contains 25 million ratings and one million tag associations, which are used to quantify movie relationships and attributes. The authors utilize this dataset for multiple auxiliary tasks, including recommending movies based on sequences of related movies, movie tags, and reviews.
+
+In the **experiments section**, the authors confirm that they used both the **ReDIAL** and **MovieLens 25m** datasets for their training and evaluation, reinforcing their importance in the study.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **ReDIAL Dataset**, the citation is:
+  > Li, R., Kahou, S., Schulz, H., Michalski, V., Charlin, L., & Pal, C. (2018). Towards deep conversational recommendations. arXiv preprint arXiv:1812.07617.
+
+- For the **MovieLens 25m Dataset**, the citation is:
+  > Harper, F. M., & Konstan, J. A. (2015). The MovieLens Datasets: History and Context. ACM Transactions on Interactive Intelligent Systems, 5(4).
+
+With these citations in hand, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets utilized in the research paper, ready for further processing or review.

@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Component Selection for Craft Assembly Tasks" by Vitor Hideyo Isume et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and evaluation sections** of the paper. The abstract provides a brief overview of the Craft Assembly Task, but it does not explicitly mention any datasets. Therefore, I will need to look deeper into the introduction and methodology sections for any references to datasets.
+
+In the **introduction**, the authors discuss the challenges of automating DIY tasks and the need for datasets that include part-segmented 3D models. They mention the lack of databases with ground truth correspondences between real-world RGB images and part-segmented 3D models, which indicates that they may have created or utilized specific datasets for their experiments.
+
+Next, I will examine the **methodology section**, particularly the parts where they describe the template mesh database. The authors state that they collected three meshes per object class from freely available models at SketchFab. This suggests that the dataset used for their experiments includes these template meshes.
+
+I will also look for any specific datasets mentioned in the **evaluation section**. The authors refer to the images collected from ImageNet for fine-tuning their model, which indicates that this dataset is also relevant to their work.
+
+Now, I will compile the datasets identified:
+
+1. **Template Mesh Database**: The authors created a database of template meshes collected from SketchFab. This dataset is crucial for their methodology as it provides the 3D models used for the Craft Assembly Task.
+
+   Citation:
+   > Sketchfab. [Online]. Available: https://sketchfab.com/
+
+2. **ImageNet Dataset**: The authors used images from ImageNet to fine-tune their model for part segmentation. This dataset is significant as it provides the training data necessary for their approach.
+
+   Citation:
+   > J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei, “ImageNet: A large-scale hierarchical image database,” in Proc. IEEE/CVF Comput. Vis. Patt. Recognit. (CVPR), 2009, pp. 248–255.
+
+3. **COCO Dataset**: The authors mention using pre-trained weights from the COCO dataset for object detection, which is relevant for their part segmentation task.
+
+   Citation:
+   > T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollár, and C. L. Zitnick, “Microsoft COCO: Common objects in context,” in Proc. Euro. Conf. Comput. Vis. (ECCV), 2014, pp. 740–755.
+
+4. **PartNet Dataset**: The authors refer to the PartNet dataset in the context of part-segmented 3D models, which is relevant for their work on the Craft Assembly Task.
+
+   Citation:
+   > K. Mo, S. Zhu, A. X. Chang, L. Yi, S. Tripathi, L. J. Guibas, and H. Su, “PartNet: A large-scale benchmark for fine-grained and hierarchical part-level 3D object understanding,” in Proc. IEEE/CVF Conf. Vis. Patt. Recognit. (CVPR), 2019, pp. 909–918.
+
+After identifying these datasets and their citations, I will ensure that I present them clearly and accurately, as the full citations are crucial for proper referencing in any subsequent work or analysis.

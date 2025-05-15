@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "TempCLR: Reconstructing Hands via Time-Coherent Contrastive Learning" by Andrea Ziani et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract mentions that the authors improve performance on the **HO-3D** and **FreiHAND** datasets, indicating that these are key datasets used in their research.
+
+Next, I will focus on the **experiments section** (specifically section 4) where the authors provide detailed information about the datasets used. In **section 4.1**, they explicitly list the datasets:
+
+1. **HO-3D**: This dataset provides 3D hand-object annotations during interaction for markerless RGB images. The authors mention that the ground-truth annotations are obtained by fitting a hand model to multi-view RGB-D evidence.
+
+2. **FreiHAND**: This dataset consists of 130k training and 4k evaluation samples captured with a green screen background in the training set, as well as real backgrounds in the test set. Both 3D and 2D annotations are provided.
+
+3. **HanCo**: This dataset contains short video clips recorded with a calibrated and time-synchronized multi-view camera capture setup. It does not contain 3D annotations but includes a significant number of time-steps recorded by multiple cameras.
+
+4. **100 Days Of Hands**: This is a large-scale dataset of hand-object interaction footage, which does not provide any hand annotations besides bounding boxes of the hands in the scene. The authors mention using a subset of this dataset for additional unlabelled frames.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **HO-3D**, the citation is:
+  > Shreyas Hampali, Mahdi Rad, Markus Oberweger, and Vincent Lepetit. *HOnnotate: A method for 3D annotation of hand and object poses*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 3193–3203, 2020.
+
+- For **FreiHAND**, the citation is:
+  > Christian Zimmermann, Duygu Ceylan, Jimei Yang, Bryan C. Russell, Max J. Argus, and Thomas Brox. *FreiHAND: A dataset for markerless capture of hand pose and shape from single RGB images*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 813–822, 2019.
+
+- For **HanCo**, the citation is:
+  > Yana Hasson, Bugra Tekin, Federica Bogo, Ivan Laptev, Marc Pollefeys, and Cordelia Schmid. *Leveraging photometric consistency over time for sparsely supervised hand-object reconstruction*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 568–577, 2020.
+
+- For **100 Days Of Hands**, the citation is:
+  > Dandan Shan, Jiaqi Geng, Michelle Shu, and David F. Fouhey. *Understanding human hands in contact at internet scale*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 9866–9875, 2020.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This systematic approach ensures that I capture all relevant datasets and their citations accurately.

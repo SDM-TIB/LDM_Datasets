@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Machine Learning for Stochastic Parametrisation" by Hannah M. Christensen et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and sections that discuss methodologies and experiments** to locate any references to datasets. The abstract mentions the potential of machine learning to improve numerical models, which suggests that datasets may be involved, especially in the context of training and validation.
+
+Next, I will focus on the **introduction** where the authors discuss biases in weather and climate models and the role of machine learning. They reference high-fidelity datasets used for training ML models, which indicates that specific datasets might be mentioned later in the paper.
+
+I will then examine **section 3 (Machine Learning for Stochastic Parametrisation)**, where the authors discuss various approaches and cite studies that likely involve datasets. For instance, they mention using high-resolution datasets for training ML models, which could lead to specific dataset names.
+
+In **section 4 (Conclusions)**, the authors refer to a new multi-model training dataset being developed as part of the Model Uncertainty Model Intercomparison Project (MUMIP). This is a significant clue that a specific dataset is being referenced.
+
+Now, I will check the **Data Availability Statement** and **References section** to find full citations for the datasets mentioned. The paper indicates that coarse-grained data used in Figure 1 is archived at the Centre for Environmental Data Analysis, and the ARM variational analysis dataset used for Figure 2 can be downloaded from the ARM website. 
+
+I will compile the following datasets based on the information gathered:
+
+1. **Coarse-grained data**: 
+   - Citation: "Christensen, H. M. (2020). Constraining stochastic parametrisation schemes using high-resolution simulations. *Quarterly Journal of the Royal Meteorological Society*, 146(727), 938–962. doi:10.1002/qj.3740."
+   - Description: This dataset is archived at the Centre for Environmental Data Analysis and is used for training ML models in stochastic parametrisation.
+
+2. **ARM variational analysis dataset**:
+   - Citation: "ARM Climate Research Facility. (n.d.). ARM Variational Analysis Dataset. Retrieved from https://www.arm.gov/capabilities/science-data-products/vaps/varanal."
+   - Description: This dataset is used to produce Figure 2 in the paper and is essential for understanding the variability in atmospheric conditions.
+
+3. **MUMIP dataset**:
+   - Citation: "Model Uncertainty Model Intercomparison Project (MUMIP). (n.d.). Retrieved from https://mumip.web.ox.ac.uk."
+   - Description: This new multi-model training dataset is in production and will be ideal for ML stochastic parametrisations.
+
+After gathering this information, I will ensure that each dataset is clearly documented with its citation and description, ready for further processing or review.

@@ -1,0 +1,19 @@
+To extract the datasets mentioned in the research paper titled "MIXUP REGULARIZED ADVERSARIAL NETWORKS FOR MULTI-DOMAIN TEXT CLASSIFICATION" by Yuan Wu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. In the abstract, the authors state that they conducted experiments on **two benchmarks: The Amazon review dataset and the FDU-MTL dataset**. This indicates that these datasets are crucial to the research.
+
+Next, I will look closely at **section 3 (Experiments)**, where the authors provide detailed descriptions of the datasets used. They mention:
+
+1. **Amazon Review Dataset**: This dataset consists of reviews from four domains: books, DVDs, electronics, and kitchen, with each domain containing 2,000 samples (1,000 positive and 1,000 negative). The dataset was pre-processed into a bag of features, losing all word order information, and represented as a 5,000-dimensional vector.
+
+2. **FDU-MTL Dataset**: This dataset includes 16 domains, comprising 14 Amazon review domains and two movie review domains (IMDB and MR). The reviews are raw text data tokenized by the Stanford tokenizer, and the dataset has a development set of 200 samples and a test set of 400 samples for each domain.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Amazon Review Dataset**, the citation is:
+  > J. Blitzer, M. Dredze, and F. Pereira. *Biographies, bollywood, boom-boxes and blenders: Domain adaptation for sentiment classification*. In Proc. of the annual meeting of the association of computational linguistics, 2007.
+
+- For the **FDU-MTL Dataset**, the citation is:
+  > P. Liu, X. Qiu, and X. Huang. *Adversarial multi-task learning for text classification*. In Proc. of the Annual Meeting of the Association for Computational Linguistics, 2017.
+
+Having gathered the necessary information, I will now compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a clear and structured overview of the datasets used in the research.

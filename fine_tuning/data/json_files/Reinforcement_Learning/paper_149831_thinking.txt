@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving" by Kashyap Chitta et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors validate their method on a "challenging new benchmark" and the "official leaderboard of the CARLA urban driving simulator," which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section**, particularly **section 4.2 (Training Dataset)**, where the authors describe the dataset used for training. They mention that they collected data using the CARLA simulator, specifically CARLA version 0.9.10, which consists of 8 publicly available towns. They detail the number of routes and frames collected, which is crucial for understanding the dataset's scope.
+
+The authors state that their training dataset contains **228,000 frames** collected along approximately **2500 routes** through junctions and **1000 routes** along highways. This information is essential for describing the dataset.
+
+I will also check the **references section** for any additional datasets mentioned. The authors reference the CARLA simulator, which is a significant dataset in itself. The citation for the CARLA simulator is:
+
+- **CARLA Simulator**: 
+  > Dosovitskiy, A., Lenz, P., & Urtasun, R. (2017). *CARLA: An open urban driving simulator*. In Proceedings of the Conference on Robot Learning (CoRL).
+
+Additionally, I will note that the authors mention using the **Longest6 benchmark**, which is a new evaluation setting they propose. However, since it is derived from the CARLA simulator, I will treat it as part of the CARLA dataset.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for each dataset as follows:
+
+1. **CARLA Training Dataset**: 
+   - Description: A dataset collected using the CARLA simulator, consisting of 228,000 frames from 2500 routes through junctions and 1000 routes along highways.
+   - Citation: 
+     > Dosovitskiy, A., Lenz, P., & Urtasun, R. (2017). *CARLA: An open urban driving simulator*. In Proceedings of the Conference on Robot Learning (CoRL).
+
+2. **Longest6 Benchmark**: 
+   - Description: A benchmark created from the CARLA simulator, consisting of 36 routes with an average length of 1.5 km, designed for evaluating driving performance in dense traffic scenarios.
+   - Citation: 
+     > Chitta, K., Prakash, A., & Geiger, A. (2021). *TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV).
+
+After gathering all this information, I will prepare the dataset entries for structured output, ensuring that each dataset is accurately described and properly cited.

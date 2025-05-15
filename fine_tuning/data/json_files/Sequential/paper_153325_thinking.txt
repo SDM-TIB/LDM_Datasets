@@ -1,0 +1,19 @@
+To extract the datasets from the research paper titled "Two Birds, One Stone: A Simple, Unified Model for Text Generation from Structured and Unstructured Data" by Hamidreza Shahidi et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets mentioned. The abstract mentions two tasks: neural table-to-text generation and neural question generation (NQG), which suggests that datasets related to these tasks will be discussed.
+
+Next, I will focus on **section 4 (Experimental Setup)**, specifically **subsection 4.1 (Datasets)**, where the authors explicitly mention the datasets used for their experiments. Here, they describe:
+
+1. **WIKIBIO Dataset**: This dataset is used for the neural table-to-text generation task. It consists of 728,321 articles from English Wikipedia, with the first sentence of each article serving as the ground-truth description for the corresponding infobox. The dataset is divided into training (80%), validation (10%), and test (10%) sets.
+
+2. **SQuAD Dataset v1.1**: This dataset is utilized for the NQG task and contains 536 Wikipedia articles with over 100,000 question-answer pairs. The authors note that the test set of the original dataset is not publicly available, and they refer to two different splits of the dataset for their experiments.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For the **WIKIBIO Dataset**, the citation is:
+  > Rémi Lebret, David Grangier, and Michael Auli. *Neural text generation from structured data with application to the biography domain*. In Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, pages 1203–1213, 2016.
+
+- For the **SQuAD Dataset**, the citation is:
+  > Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang. *SQuAD: 100,000+ questions for machine comprehension of text*. In Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, pages 2383–2392, 2016.
+
+Now that I have the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Contrastive Learning and Self-Training for Unsupervised Domain Adaptation in Semantic Segmentation" by Robert A. Marsden et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors validate their approach on two domain adaptation benchmarks, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (section 4) where the authors typically describe the datasets used for their experiments. In **section 4.1 (Experimental Settings)**, they mention two specific datasets:
+
+1. **Cityscapes Dataset**: This dataset is used as the real-world target domain and contains 2975 training and 500 validation images with a resolution of 1024 × 2048.
+
+2. **GTA5 Dataset**: This synthetic dataset contains 24,966 synthesized frames from the Grand Theft Auto V video game, with images sized 1052 × 1914.
+
+Additionally, they mention a third dataset:
+
+3. **SYNTHIA Dataset**: This dataset has 9,400 images in total and shares 16 classes with the Cityscapes dataset.
+
+In the **experiments section**, the authors also provide details about the evaluation metrics used, specifically the mean intersection-over-union (mIoU), which is relevant for understanding the context in which these datasets are used.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Cityscapes Dataset**, the citation is:
+  > Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele. *The cityscapes dataset for semantic urban scene understanding*. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3213–3223, 2016.
+
+- For the **GTA5 Dataset**, the citation is:
+  > Stephan R Richter, Vibhav Vineet, Stefan Roth, and Vladlen Koltun. *Playing for data: Ground truth from computer games*. In European conference on computer vision, pages 102–118. Springer, 2016.
+
+- For the **SYNTHIA Dataset**, the citation is:
+  > German Ros, Laura Sellart, Joanna Materzynska, David Vazquez, and Antonio M Lopez. *The synthia dataset: A large collection of synthetic images for semantic segmentation of urban scenes*. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3234–3243, 2016.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

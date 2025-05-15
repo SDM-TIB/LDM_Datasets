@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "RealTCD: Temporal Causal Discovery from Interventional Data with Large Language Model" by Peiwen Li et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on both **simulation datasets and real-world application scenarios**, which suggests that there are specific datasets used in their research.
+
+Next, I will focus on the **experiments section (Section 4)**, where the authors typically describe the datasets in detail. In **Section 4.1.1**, they mention generating **synthetic datasets** and provide a description of how these datasets are created, including the sampling methods and parameters used. They specify that two synthetic datasets were generated, one with 5 nodes and another with 10 nodes, each containing interventional targets.
+
+Then, I will look for the **real-world dataset** mentioned in **Section 4.1.3**. The authors describe a dataset sourced from a data center at Alibaba, which includes monitoring data from a cooling system. They provide details about the variables included in this dataset, the time frame of data collection, and the method used for anomaly detection.
+
+Now, I will compile the information about each dataset:
+
+1. **Synthetic Datasets**:
+   - **Dataset 1**: Contains 5 nodes, their 1 time-lagged variables, and 5 different interventional targets.
+   - **Dataset 2**: Contains 10 nodes, their 1 time-lagged variables, and 10 different interventional targets.
+   - The authors do not provide specific citations for these synthetic datasets since they are generated for the purpose of the study.
+
+2. **Real-world Data Center Dataset**:
+   - This dataset includes 38 variables, consisting of 18 cold aisle temperatures from sensors and 20 air conditioning supply temperatures from CRACs. The data was collected from January 1st, 2023, to May 1st, 2023.
+   - The citation for this dataset is not explicitly provided in the paper, but it is derived from the authors' own data collection efforts at Alibaba.
+
+Next, I will check the **References section** for any citations related to the datasets. The synthetic datasets do not have external citations, but I will note the authors' own work for the real-world dataset.
+
+Finally, I will summarize the datasets with their descriptions and citations:
+
+- **Synthetic Dataset 1**: Generated for the study, containing 5 nodes and interventional targets.
+- **Synthetic Dataset 2**: Generated for the study, containing 10 nodes and interventional targets.
+- **Real-world Data Center Dataset**: 
+  > Peiwen Li, Xin Wang, Zeyang Zhang, Yuan Meng, Fang Shen, Yue Li, Jialong Wang, Yang Li, and Wenwu Zhu. 2024. RealTCD: Temporal Causal Discovery from Interventional Data with Large Language Model. In Proceedings of the ACM Conference. ACM, New York, NY, USA.
+
+After gathering all this information, I will prepare the dataset entries for further processing or review.

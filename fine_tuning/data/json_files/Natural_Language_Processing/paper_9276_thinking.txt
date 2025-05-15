@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Towards Agile Text Classifiers for Everyone" by Max Mozes et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the authors experimented with **7 datasets from three safety-related domains**, which suggests that multiple datasets are involved.
+
+Next, I will focus on the **Datasets section (Section 3)**, where the authors provide detailed descriptions of the datasets used in their experiments. This section is crucial as it outlines the specific datasets and their characteristics.
+
+In **Section 3.1 (Dialogue Safety)**, the authors mention five datasets based on the ParlAI and Bot Adversarial Dialogue (BAD) data collection efforts. The datasets are:
+
+1. **ParlAI Single Standard**: Contains 24,000 training examples, with a predefined split for validation and testing.
+2. **ParlAI Single Adversarial**: Similar to the Single Standard but focuses on offensive content.
+3. **ParlAI Multi**: A multi-turn conversational dataset with offensive utterances.
+4. **BAD-2**: A truncated version of the BAD dataset with the last two utterances of conversations.
+5. **BAD-4**: A truncated version of the BAD dataset with the last four utterances of conversations.
+
+In **Section 3.2 (Unhealthy Comment Corpus)**, the authors describe the **Unhealthy Comment Corpus (UCC)**, which consists of 44,355 comments labeled for various unhealthy attributes. This dataset is significant for understanding toxicity in online comments.
+
+In **Section 3.3 (Neutral Responses)**, the authors introduce a new dataset they created, called the **Neutral Responses dataset**, which contains 150 examples annotated for multiple perspectives, neutrality, and explanation quality.
+
+Now, I will look at the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For the **ParlAI datasets**:
+  > Emily Dinan, Samuel Humeau, Bharath Chintagunta, and Jason Weston. *Build it break it fix it for dialogue safety: Robustness from adversarial human attack*. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 4537–4546, Hong Kong, China. Association for Computational Linguistics.
+
+- For the **Bot Adversarial Dialogue (BAD) dataset**:
+  > Jing Xu, Da Ju, Margaret Li, Y-Lan Boureau, Jason Weston, and Emily Dinan. *Bot-adversarial dialogue for safe conversational agents*. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 2950–2968.
+
+- For the **Unhealthy Comment Corpus (UCC)**:
+  > Ilan Price, Jordan Gifford-Moore, Jory Flemming, Saul Musker, Maayan Roichman, Guillaume Sylvain, Nithum Thain, Lucas Dixon, and Jeffrey Sorensen. *Six attributes of unhealthy conversations*. In Proceedings of the Fourth Workshop on Online Abuse and Harms, pages 114–124, Online. Association for Computational Linguistics.
+
+- For the **Neutral Responses dataset**:
+  The authors did not provide a specific citation for this dataset since it is newly created, but I will note that it is described in detail within the paper.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research.

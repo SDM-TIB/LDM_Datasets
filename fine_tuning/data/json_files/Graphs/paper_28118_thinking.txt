@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Recurrent Graph Neural Networks for Rumor Detection in Online Forums" by Jacob Bartel et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions the use of a "publicly-available Reddit corpus" for training the model, which indicates that there is a dataset related to Reddit posts. The introduction further elaborates on the classification tasks and hints at the use of external datasets for evaluation.
+
+Next, I will look into **section 4 (Experiments)**, where the authors describe their evaluation methods. Here, they mention two specific tasks: link categorization and rumor detection. In this section, I will focus on identifying the datasets used for these tasks.
+
+1. **UCI News Aggregator Dataset**: The authors state that they matched links from the UCI News Aggregator Dataset to Reddit posts. This dataset is explicitly mentioned as containing 8,220 URLs categorized into four news categories: business, science/technology, entertainment, and health.
+
+2. **Rumor Detection Dataset**: The authors describe their rumor detection task, indicating that they regard all news links appearing on fact-checking websites like Snopes, Politifact, and Emergent as rumor news. They mention that the complete dataset of links is maintained at Kaggle, and they constructed a dataset of 7,352 news links, with an equal number of positive (rumor) and negative examples.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **UCI News Aggregator Dataset**, the citation is:
+  > Dheeru Dua and Casey Graff. 2017. UCI Machine Learning Repository. http://archive.ics.uci.edu/ml
+
+- For the **Kaggle dataset** related to rumor detection, the citation is:
+  > Kaggle. 2021. Rumor Citation Dataset. https://www.kaggle.com/arminehn/rumor-citation
+
+After gathering this information, I will summarize the datasets, ensuring to include their full citations as required. This will provide a clear and comprehensive overview of the datasets utilized in the research paper, ready for further processing or review.

@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Towards Self-Interpretable Graph-Level Anomaly Detection" by Yixin Liu et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that "extensive experiments on 16 datasets demonstrate the anomaly detection capability and self-interpretability of SIGNET." This indicates that multiple datasets are involved, prompting me to look for specific names and details.
+
+Next, I will focus on **section 4.1 (Experimental Setup)**, where the authors provide a list of datasets used for the explainable GLAD task. They mention six datasets with ground-truth explanations, including three synthetic datasets and three real-world datasets. The datasets are:
+
+1. **BM-MT**: A synthetic dataset where each normal graph has a house motif, and each anomaly has a 5-cycle motif.
+2. **BM-MN**: A synthetic dataset where each normal graph has 1 or 2 house motifs, and each anomaly has 3 or 4 house motifs.
+3. **BM-MS**: A synthetic dataset where each normal graph has a cycle motif with 3-5 nodes, and each anomaly has a cycle motif with 6-9 nodes.
+4. **MNIST-0**: A dataset derived from the MNIST-75sp superpixel dataset, where digit 0 is considered normal, and other digits are anomalies.
+5. **MNIST-1**: Similar to MNIST-0, but digit 1 is the normal class.
+6. **MUTAG**: A molecular property prediction dataset where nonmutagenic molecules are normal samples, and mutagenic molecules are anomalies.
+
+In addition, the authors mention that they verify the anomaly detection performance of SIGNET on 10 TU datasets, which are referenced in the paper.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. However, the paper does not provide specific citations for the synthetic datasets (BM-MT, BM-MN, BM-MS) as they are created by the authors. For the real-world datasets, I will look for the original sources:
+
+- For **MNIST-0** and **MNIST-1**, the citation is:
+  > Lukas Ruff, Robert Vandermeulen, Nico Goernitz, Lucas Deecke, Shoaib Ahmed Siddiqui, Alexander Binder, Emmanuel Müller, and Marius Kloft. *Deep One-Class Classification*. In International Conference on Machine Learning, pages 4393–4402, 2018.
+
+- For **MUTAG**, the citation is:
+  > Asim Kumar Debnath, Rosa L Lopez de Compadre, Gargi Debnath, Alan J Shusterman, and Corwin Hansch. *Structure-Activity Relationship of Mutagenic Aromatic and Heteroaromatic Nitro Compounds*. Journal of Medicinal Chemistry, 34(2):786–797, 1991.
+
+Since the synthetic datasets do not have formal citations, I will note that they were created following specific methodologies referenced in the paper.
+
+Finally, I will compile the dataset entries, ensuring to include the necessary details and citations for each dataset, ready for structured output.

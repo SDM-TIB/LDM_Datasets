@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Leveraging unsupervised and weakly-supervised data to improve direct speech-to-speech translation" by Ye Jia et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract** and **introduction** sections to get an overview of the datasets referenced. The abstract mentions improvements on the **CVSS-C corpus**, which indicates that this is a key dataset used in the research.
+
+Next, I will look for specific sections that detail the datasets used, particularly focusing on **section 4 (Experiments)**, as this is where datasets are typically discussed in relation to the experiments conducted. In this section, the authors describe the **CVSS-C corpus** in detail, stating that it contains sentence-level paired S2ST data in 21 language pairs, with specifics about the source and target speech.
+
+I will also check the **Methods** section, particularly the subsections discussing pre-training and data augmentation, as they may reference additional datasets used for training the models. The authors mention using data from **VoxPopuli**, **Common Voice**, **MLS**, and **Babel** for unsupervised speech data, and **mC4** for unsupervised text data.
+
+Now, I will compile the information about each dataset, ensuring to include full citations for each one as found in the **References section** of the paper.
+
+1. **CVSS-C corpus**: This dataset is derived from the CoVoST 2 and Common Voice corpora, containing 1,153 hours of human read speech and 719 hours of high-quality TTS synthetic speech.
+   - Citation: 
+     > Ye Jia, M. T. Ramanovich et al. "CVSS corpus and massively multilingual speech-to-speech translation." In Proceedings of the LREC, 2022.
+
+2. **VoxPopuli**: A large-scale multilingual speech corpus used for representation learning and semi-supervised learning.
+   - Citation: 
+     > C. Wang, M. Rivière, A. Lee, A. Wu et al. "VoxPopuli: A large-scale multilingual speech corpus for representation learning, semi-supervised learning and interpretation." In Proceedings of the ACL, 2021.
+
+3. **Common Voice**: A massively multilingual speech corpus.
+   - Citation: 
+     > R. Ardila, M. Branson, K. Davis et al. "Common Voice: A massively-multilingual speech corpus." In Proceedings of the LREC, 2020.
+
+4. **MLS**: A large-scale multilingual dataset for speech research.
+   - Citation: 
+     > V. Pratap, Q. Xu, A. Sriram et al. "MLS: A large-scale multilingual dataset for speech research." In Proceedings of Interspeech, 2020.
+
+5. **Babel**: A project focused on speech recognition and keyword spotting for low-resource languages.
+   - Citation: 
+     > M. J. Gales, K. M. Knill, A. Ragni, and S. P. Rath. "Speech recognition and keyword spotting for low-resource languages: Babel project research at cued." In Proceedings of SLTU, 2014.
+
+6. **mC4**: An unlabeled text corpus containing 6T tokens in 101 languages.
+   - Citation: 
+     > L. Xue, N. Constant, A. Roberts, M. Kale, R. Al-Rfou, A. Siddhant, A. Barua, and C. Raffel. "mT5: A massively multilingual pre-trained text-to-text transformer." In Proceedings of NAACL, 2021.
+
+After gathering all this information, I will ensure that each dataset is clearly documented with its respective citation, ready for further processing or review.

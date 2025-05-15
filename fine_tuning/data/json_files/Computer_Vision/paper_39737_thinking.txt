@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "GAPNet: Graph Attention based Point Neural Network for Exploiting Local Feature of Point Cloud" by Can Chen et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the proposed GAPNet architecture is tested on the **ModelNet40** and **ShapeNet part datasets**, which suggests that these datasets are crucial for the experiments.
+
+Next, I will look for specific details about these datasets in the **experiments section**. In **section 4.1 (Classification)**, the authors describe the **ModelNet40 dataset** as containing 12,311 meshed CAD models classified into 40 categories, with a training/test split of 9,843 models for training and 2,468 for testing. This section also mentions the data augmentation techniques used, such as random rotations and Gaussian noise.
+
+In **section 4.2 (Semantic part segmentation)**, the authors discuss the **ShapeNet part dataset**, which consists of 16,881 CAD shapes across 16 categories, with each point annotated with a class of 50 part classes. The dataset is split similarly for training and testing.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **ModelNet40 dataset**, the citation is:
+  > Zhirong Wu, Shuran Song, Aditya Khosla, Fisher Yu, Linguang Zhang, Xiaoou Tang, and Jianxiong Xiao. *3D Shapenets: A Deep Representation for Volumetric Shapes*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 1912–1920, 2015.
+
+- For the **ShapeNet part dataset**, the citation is:
+  > Li Yi, Vladimir G Kim, Duygu Ceylan, I Shen, Mengyan Yan, Hao Su, Cewu Lu, Qixing Huang, Alla Sheffer, Leonidas Guibas, et al. *A Scalable Active Framework for Region Annotation in 3D Shape Collections*. ACM Transactions on Graphics (TOG), 35(6):210, 2016.
+
+With this information, I can now summarize the datasets extracted from the paper, ensuring to include the full citations for each dataset as required. This will provide a clear and comprehensive overview of the datasets used in the research.

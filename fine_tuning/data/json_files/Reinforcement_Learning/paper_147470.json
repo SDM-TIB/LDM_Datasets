@@ -1,0 +1,82 @@
+[
+    {
+        "dcterms:creator": [
+            "R. S. Sutton",
+            "A. G. Barto"
+        ],
+        "dcterms:description": "A 1-dimensional environment where an agent randomly transitions to one of two neighboring states, with terminal states at each end providing rewards of -1 and 1 respectively. The task is to estimate the value of each state under an equiprobable random behavior policy.",
+        "dcterms:title": "19-State Random Walk",
+        "dcterms:issued": "1998",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Markov Decision Processes"
+        ],
+        "dcat:keyword": [
+            "Random Walk",
+            "Value Function Estimation",
+            "On-Policy Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Value Function Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. S. Sutton",
+            "A. G. Barto"
+        ],
+        "dcterms:description": "A tabular navigation task in a gridworld where an agent is affected by upward wind in certain columns, making the next state determined by a stochastic process. The agent receives a constant reward of -1 until reaching the goal.",
+        "dcterms:title": "Stochastic Windy Gridworld",
+        "dcterms:issued": "1998",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Markov Decision Processes"
+        ],
+        "dcat:keyword": [
+            "Gridworld",
+            "Stochastic Navigation",
+            "Reward Structure"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Navigation",
+            "Policy Evaluation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. S. Sutton",
+            "A. G. Barto"
+        ],
+        "dcterms:description": "A variant of the mountain car problem where the agent can fall off a cliff if it ventures past the top of the leftmost mountain, receiving a significant penalty. The task involves navigating the car to reach the goal while avoiding the cliff.",
+        "dcterms:title": "Mountain Cliff",
+        "dcterms:issued": "1998",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Markov Decision Processes"
+        ],
+        "dcat:keyword": [
+            "Mountain Car",
+            "Cliff Penalty",
+            "Continuous State Space"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Control",
+            "Policy Optimization"
+        ]
+    }
+]

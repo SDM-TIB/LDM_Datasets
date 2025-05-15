@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Cognitive TransFuser: Semantics-guided Transformer-based Sensor Fusion for Improved Waypoint Prediction" by Hwan-Soo Choi et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the authors validate their network on the **CARLA simulator**, which suggests that the dataset used for training and evaluation may be related to this simulator.
+
+Next, I will focus on **section 4.1 (Dataset and Evaluation Metric)**, where the authors explicitly describe the dataset used for their experiments. Here, they mention that they regenerated their dataset following the standard protocol of **CARLA 0.9.10** and collected data from **8 CARLA towns**, excluding Town05, which is used for testing. They specify the data modalities collected, including RGB camera images, LiDAR point clouds, and annotations for ground truth waypoint positions, semantic segmentation maps, and binary traffic light signs.
+
+The authors also reference the **LISA Traffic Light dataset** used for training their traffic light detection model. This dataset contains 43,000 frames with 113,000 traffic light annotations, which is crucial for their auxiliary task.
+
+Now, I will gather the full citations for these datasets from the **References section** of the paper:
+
+1. **CARLA Simulator**:
+   > Alexey Dosovitskiy, German Ros, Felipe Codevilla, Antonio Lopez, and Vladlen Koltun. *CARLA: An open urban driving simulator*. In Conference on Robot Learning, pages 1–16, PMLR, 2017.
+
+2. **LISA Traffic Light Dataset**:
+   > Morten Bornø Jensen, Mark Philip Philipsen, Andreas Møgelmose, Thomas Baltzer Moeslund, and Mohan Manubhai Trivedi. *Traffic light detection: A learning algorithm and evaluations on challenging dataset*. In Intelligent Transportation Systems (ITSC), 2015 IEEE 18th International Conference on, pages 2341–2345, IEEE, 2015.
+
+After identifying the datasets and their citations, I will summarize the key details for each dataset, including their purpose and the context in which they were used in the experiments.
+
+Finally, I will compile this information into a structured format that clearly presents each dataset along with its citation, ensuring that all relevant details are included for future reference or analysis.

@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Traveling Waves Encode the Recent Past and Enhance Sequence Learning" by T. Anderson Keller et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the authors demonstrate their model's performance on a suite of synthetic memory tasks and standard sequence modeling benchmarks, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** where the authors describe their methodology and the specific tasks they conducted. In this section, they detail various tasks such as the **Copy Task**, **Adding Task**, and **Sequential Image Classification**. Each of these tasks likely utilizes specific datasets.
+
+1. **Copy Task**: The authors describe the construction of the input sequences for this task, but they do not mention a specific dataset. Instead, they generate synthetic data for the task.
+
+2. **Adding Task**: Similar to the Copy Task, the authors create synthetic sequences for this task, indicating that no external dataset is used.
+
+3. **Sequential Image Classification**: The authors mention three specific datasets used for this task:
+   - **Sequential MNIST (sMNIST)**: This dataset consists of the MNIST digits presented sequentially, where each pixel is fed to the model one at a time.
+   - **Permuted Sequential MNIST (psMNIST)**: This is a variant of the MNIST dataset where the order of the pixels is permuted, increasing the difficulty of the task.
+   - **Noisy Sequential CIFAR10 (nsCIFAR10)**: This dataset is derived from the CIFAR10 dataset, where each row of the image is fed sequentially, and additional noise is added to the input.
+
+Next, I will check the **References section** to find full citations for the datasets mentioned. Since the authors created synthetic datasets for the Copy and Adding tasks, I will focus on the citations for the datasets used in the Sequential Image Classification tasks:
+
+- For **MNIST**, the citation is:
+  > Yann LeCun, Corinna Cortes, and Chris Burges. *The MNIST Database of Handwritten Digits*. 1998. URL: http://yann.lecun.com/exdb/mnist/.
+
+- For **CIFAR10**, the citation is:
+  > Alex Krizhevsky. *Learning Multiple Layers of Features from Tiny Images*. 2009. URL: https://www.cs.toronto.edu/~kriz/cifar.html.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for each dataset used in the experiments. This will provide a comprehensive overview of the datasets referenced in the paper.

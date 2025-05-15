@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Large-Scale YouTube-8M Video Understanding with Deep Neural Networks" by Manuk Akopyan and Eshsou Khashba, I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reading the **abstract** and **introduction** sections to get an overview of the datasets discussed. The abstract mentions the use of the **YouTube-8M large-scale dataset**, which indicates that this is a primary dataset of interest.
+
+Next, I will look into **section 3 (Input Data)**, where the authors provide a detailed description of the YouTube-8M dataset. They mention that it contains 4716 classes and more than 8 million videos, split into training, validation, and test subsets. This section will provide essential details about the dataset's structure and characteristics.
+
+In this section, the authors describe two types of datasets available within YouTube-8M:
+1. **Frame-level features dataset**: This dataset contains preprocessed video data where each video is decoded at 1 frame per second for up to 360 seconds, and features are extracted using the Inception-v3 network.
+2. **Video-level features dataset**: This dataset aggregates features from the frame-level dataset.
+
+Since the authors specify that they will use the frame-level dataset for their models, I will focus on this dataset for extraction.
+
+Now, I will check the **References section** to find the full citation for the YouTube-8M dataset. The citation provided in the references is:
+> Sami Abu-El-Haija, Nisarg Kothari, Joonseok Lee, Paul Natsev, George Toderici, Balakrishnan Varadarajan, Sudheendra Vijayanarasimhan. *YouTube-8M: A Large-Scale Video Classification Benchmark*. arXiv:1609.08675 (2016).
+
+With this information, I can now summarize the dataset extraction:
+
+1. **YouTube-8M Dataset**: A large-scale dataset containing over 8 million videos, categorized into 4716 classes, with frame-level and video-level features available.
+
+Finally, I will compile the dataset information, including the full citation, into a structured format for further use or processing.

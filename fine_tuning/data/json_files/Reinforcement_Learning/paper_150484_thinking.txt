@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "RELS-DQN: A Robust and Efficient Local Search Framework for Combinatorial Optimization" by Yuanhang Shao et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a general overview, but the introduction and experiments sections are likely to contain specific references to datasets used in the study.
+
+In the **introduction**, the authors discuss various combinatorial optimization problems and mention the use of deep Q-learning models. However, they do not explicitly name any datasets here.
+
+Next, I will look at the **experiments section** where the authors describe their empirical evaluations. They mention four diverse combinatorial optimization problems: Maximum Cut (MaxCut), Directed Vertex Cover with Costs (MaxCov), Movie Recommendation (MovRec), and Influence-and-Exploit Marketing (InfExp). Each of these problems is associated with specific datasets.
+
+In **Table II**, the authors provide a summary of the datasets used for each application, which includes:
+
+1. **MaxCut**: ego-Facebook (fb4k) with 4039 nodes and 88234 edges.
+2. **MaxCov**: musae-FB (fb22k) with 22470 nodes and 171002 edges.
+3. **MovRec**: MovieLens (mov1.7k) with 1682 nodes and 983206 edges.
+4. **InfExp**: Barabási-Albert (ba300) with 300 nodes and 1184 edges.
+
+Now, I will check the **References section** to find full citations for these datasets. The paper does not provide explicit citations for the datasets, but I can infer the following based on common knowledge:
+
+- For **ego-Facebook** dataset:
+  > Leskovec, J., & Krevl, A. (2014). *Snap: A general-purpose network analysis and visualization software*. Retrieved from http://snap.stanford.edu/data/ego-Facebook.html
+
+- For **musae-FB** dataset:
+  > Hamilton, W. L., Ying, Z., & Leskovec, J. (2017). *Inductive representation learning on large graphs*. In Proceedings of the 31st International Conference on Neural Information Processing Systems (NeurIPS), 2017.
+
+- For **MovieLens** dataset:
+  > Harper, F. M., & Konstan, J. A. (2015). *The MovieLens Datasets: History and Context*. ACM Transactions on Interactive Intelligent Systems, 5(4), 1-19.
+
+- For **Barabási-Albert** dataset:
+  > Barabási, A.-L., & Albert, R. (1999). *Emergence of scaling in random networks*. Science, 286(5439), 509-512.
+
+After gathering this information, I will compile the dataset entries with their respective citations, ensuring that each dataset is clearly described and properly referenced. This will provide a comprehensive overview of the datasets used in the study.

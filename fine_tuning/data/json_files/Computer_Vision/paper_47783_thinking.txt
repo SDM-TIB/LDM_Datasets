@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "3D Shape Generation and Completion through Point-Voxel Diffusion" by Linqi Zhou et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the proposed method is evaluated on various datasets, which indicates that datasets are indeed present.
+
+Next, I will focus on the **experiments section** (Section 4) where the authors typically describe the datasets used for their evaluations. In **Section 4.1 (Shape Generation)**, the authors specifically mention using the **ShapeNet** dataset for generating 3D shapes. They state that they choose specific categories (Airplane, Chair, and Car) from ShapeNet, which provides a clear indication of the dataset's relevance.
+
+In **Section 4.2 (Shape Completion)**, the authors mention using the **GenRe** benchmark, which contains renderings of shapes from ShapeNet. This section confirms that GenRe is another dataset utilized in their experiments.
+
+Additionally, in **Section 4.3 (Multi-Modal Completion)**, the authors refer to the **PartNet** dataset, which is used for evaluating multi-modal shape completion. This section provides further confirmation of the datasets involved in their research.
+
+Now, I will consult the **References section** to gather the full citations for each dataset mentioned:
+
+1. **ShapeNet**:
+   > Angel X. Chang, Thomas Funkhouser, Leonidas Guibas, Pat Hanrahan, Qixing Huang, Zimo Li, Silvio Savarese, Manolis Savva, Shuran Song, Hao Su, et al. *ShapeNet: An information-rich 3D model repository*. arXiv:1512.03012, 2015.
+
+2. **GenRe**:
+   > Xiuming Zhang, Zhoutong Zhang, Chengkai Zhang, Joshua B. Tenenbaum, William T. Freeman, and Jiajun Wu. *Learning to reconstruct shapes from unseen classes*. In NeurIPS, 2018.
+
+3. **PartNet**:
+   > Kaichun Mo, Shilin Zhu, Angel X. Chang, Li Yi, Subarna Tripathi, Leonidas J. Guibas, and Hao Su. *PartNet: A large-scale benchmark for fine-grained and hierarchical part-level 3D object understanding*. In CVPR, 2019.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+- **ShapeNet**: A comprehensive dataset for 3D shape modeling, used for generating various categories of 3D shapes.
+- **GenRe**: A benchmark dataset that provides renderings of shapes from multiple views, utilized for shape completion tasks.
+- **PartNet**: A dataset designed for fine-grained and hierarchical understanding of 3D objects, used for evaluating multi-modal shape completion.
+
+Finally, I will compile this information into a structured format for further processing or review.

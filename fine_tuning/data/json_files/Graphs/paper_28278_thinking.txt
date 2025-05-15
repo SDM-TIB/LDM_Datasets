@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Contrastive Learning for Context-aware Neural Machine Translation Using Coreference Information" by Yongkeun Hwang et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to gather initial insights about the datasets used. The abstract mentions that the authors experimented with their method on "two document-level translation tasks," indicating that datasets are involved.
+
+Next, I will focus on **section 5 (Experiments)**, where the authors provide detailed information about the datasets used in their experiments. They mention four specific datasets:
+
+1. **WMT Document-Level News Translation**: This dataset is part of the WMT’19 news translation task and includes parallel corpora annotated with document boundaries. The authors specify that they combined several sources to create a training set containing 3.7 million examples.
+
+2. **IWSLT TED Talk**: This dataset consists of transcriptions of TED talks in various languages. The authors used the 2017 version of the training set, which includes 232,000 examples, with a subset containing cross-sentential coreferences.
+
+3. **OpenSubtitles 2018**: This dataset contains parallel sentences from movie subtitles. The authors filtered the raw corpus to create a training set of 3.9 million examples, with a portion containing cross-sentential coreferences.
+
+4. **Web-Crawled English-Korean Subtitles**: This dataset was created by crawling bilingual subtitle files from various websites. The final dataset contains 1.6 million examples for training, along with validation and test sets.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For **WMT Document-Level News Translation**:
+  > Loïc Barrault, Ondřej Bojar, Marta R. Costa-jussà, Christian Federmann, Mark Fishel, Yvette Graham, Barry Haddow, Matthias Huck, Philipp Koehn, Shervin Malmasi, Christof Monz, Mathias Müller, Santanu Pal, Matt Post, and Marcos Zampieri. *Findings of the 2019 conference on machine translation (WMT19)*. In Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1), pages 1–61, Florence, Italy, 2019.
+
+- For **IWSLT TED Talk**:
+  > Mauro Cettolo, Marcello Federico, Luisa Bentivogli, Jan Niehues, Sebastian Stüker, Katsuhito Sudoh, Koichiro Yoshino, and Christian Federmann. *Overview of the IWSLT 2017 Evaluation Campaign*. In Proceedings of the 14th International Workshop on Spoken Language Translation (IWSLT), pages 1–14, 2017.
+
+- For **OpenSubtitles 2018**:
+  > Pierre Lison, Jörg Tiedemann, and Milen Kouylekov. *OpenSubtitles2018: Statistical rescoring of sentence alignments in large, noisy parallel corpora*. In Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018), Miyazaki, Japan, 2018.
+
+- For **Web-Crawled English-Korean Subtitles**: Since this dataset is created by the authors and does not have a formal citation, I will note it as an internal dataset without a specific reference.
+
+Now, I will compile the dataset entries with their respective citations, ensuring that each dataset is clearly documented for future reference or processing.

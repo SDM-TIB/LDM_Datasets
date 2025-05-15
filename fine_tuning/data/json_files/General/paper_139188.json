@@ -1,0 +1,187 @@
+[
+    {
+        "dcterms:creator": [
+            "S. E. Z. Soudjani",
+            "R. Majumdar",
+            "T. Nagapetyan"
+        ],
+        "dcterms:description": "The temperature dataset models a controller keeping the temperature of a room within set bounds. The discontinuity arises from the discrete state of the controller, being either on or off. The model has a 41-dimensional latent variable and 80 if-statements.",
+        "dcterms:title": "temperature",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Control Systems",
+            "Statistical Modeling"
+        ],
+        "dcat:keyword": [
+            "Temperature control",
+            "Hybrid systems",
+            "Statistical model checking"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Statistical model checking"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "C. Mak",
+            "C. L. Ong",
+            "H. Paquet",
+            "D. Wagner"
+        ],
+        "dcterms:description": "The random-walk dataset models a random walk of bounded length. The goal is to infer the starting position based on the distance walked. The walk stops as soon as the destination is reached, which is checked using if-statements. The model has a 16-dimensional latent variable and 31 if-statements.",
+        "dcterms:title": "random-walk",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Stochastic Processes",
+            "Statistical Inference"
+        ],
+        "dcat:keyword": [
+            "Random walk",
+            "Inference",
+            "Probabilistic programming"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Statistical inference"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Lee",
+            "H. Yu",
+            "H. Yang"
+        ],
+        "dcterms:description": "The xornet dataset is a multi-layer neural network trained to compute the XOR function with all activation functions being the Heaviside step function. The model has a 25-dimensional latent space and 28 if-statements.",
+        "dcterms:title": "xornet",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Neural Networks",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "XOR function",
+            "Neural network",
+            "Heaviside step function"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Function approximation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "B. Khajwal",
+            "C. L. Ong",
+            "D. Wagner"
+        ],
+        "dcterms:description": "The F2 dataset can be viewed as a simplification of xornet. It is the only model in which the guards of if-statements contain variables which depend on branching. The model corresponds to a term in Expr3.",
+        "dcterms:title": "F2",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Probabilistic Programming"
+        ],
+        "dcat:keyword": [
+            "Simplified model",
+            "Branching",
+            "Probabilistic programming"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Probabilistic programming"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "C. Davidson-Pilon"
+        ],
+        "dcterms:description": "The cheating dataset simulates a differential privacy setting where students taking an exam are surveyed to determine the prevalence of cheating without exposing the details for any individual. The model has 300 if-statements and a 301-dimensional latent space.",
+        "dcterms:title": "cheating",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Differential Privacy",
+            "Statistical Modeling"
+        ],
+        "dcat:keyword": [
+            "Cheating prevalence",
+            "Differential privacy",
+            "Survey data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Statistical inference"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "C. Davidson-Pilon"
+        ],
+        "dcterms:description": "The textmsg dataset models daily text message rates, aiming to discover a change in the rate over a 74-day period. The model has a 3-dimensional latent variable and 37 if-statements.",
+        "dcterms:title": "textmsg",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Time Series Analysis",
+            "Statistical Modeling"
+        ],
+        "dcat:keyword": [
+            "Text message rates",
+            "Time series",
+            "Statistical inference"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Time series analysis"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. H. Shumway",
+            "D. S. Stoffer"
+        ],
+        "dcterms:description": "The influenza dataset models the US influenza mortality for 1969, where the mortality rate depends on the dominant virus strain. The model has a 37-dimensional latent variable and 24 if-statements.",
+        "dcterms:title": "influenza",
+        "dcterms:issued": "2005",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Epidemiology",
+            "Statistical Modeling"
+        ],
+        "dcat:keyword": [
+            "Influenza mortality",
+            "Epidemiological modeling",
+            "Statistical inference"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Epidemiological modeling"
+        ]
+    }
+]

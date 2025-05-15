@@ -1,0 +1,112 @@
+[
+    {
+        "dcterms:creator": [
+            "Potsawee Manakul",
+            "Adian Liusie",
+            "Mark Gales"
+        ],
+        "dcterms:description": "WikiBio GPT-3 dataset is constructed to evaluate the hallucination of LLMs. Researchers randomly select 238 biographical articles from WikiBio dataset and utilize the text-davinci-003 to generate new passages, which are then manually annotated into categories of Major Inaccurate, Minor Inaccurate, and Accurate.",
+        "dcterms:title": "WikiBio GPT-3",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Hallucination Detection",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "LLM evaluation",
+            "biographical articles",
+            "hallucination detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Hallucination Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Shiqi Chen",
+            "Yiran Zhao",
+            "Jinghan Zhang",
+            "I Chern",
+            "Siyang Gao",
+            "Pengfei Liu",
+            "Junxian He"
+        ],
+        "dcterms:description": "FELM dataset is designed to evaluate hallucination detection ability. Researchers assemble prompts from diverse scenarios and use them to instruct GPT-3.5-Turbo-0301 to generate responses, which are manually annotated as nonfactual and factual.",
+        "dcterms:title": "FELM",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:2310.00741",
+        "dcat:theme": [
+            "Hallucination Detection",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "factuality evaluation",
+            "prompt generation",
+            "annotation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Hallucination Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Junyi Li",
+            "Xiaoxue Cheng",
+            "Xin Zhao",
+            "Jian-Yun Nie",
+            "Ji-Rong Wen"
+        ],
+        "dcterms:description": "HaluEval dataset is a benchmark for assessing the ability of LLMs to discern hallucinations. Each instance comprises a question, a correct answer, and a hallucinated answer, constructed from Wikipedia corpus.",
+        "dcterms:title": "HaluEval",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Hallucination Generation",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "hallucination evaluation",
+            "question answering",
+            "benchmark"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Hallucination Generation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "WikiRetr dataset is created to evaluate the retrieval and citation annotation performance. It consists of rewritten claims based on original passages from a snapshot of Wikipedia.",
+        "dcterms:title": "WikiRetr",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Retrieval Evaluation",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "retrieval performance",
+            "citation annotation",
+            "Wikipedia"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Retrieval Evaluation"
+        ]
+    }
+]

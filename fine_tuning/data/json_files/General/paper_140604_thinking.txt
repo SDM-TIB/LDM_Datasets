@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "HVDistill: Transferring Knowledge from Images to Point Clouds via Unsupervised Hybrid-View Distillation" by Sha Zhang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors pre-trained their model on the **nuScenes dataset** and evaluated it on several downstream tasks, which suggests that this dataset is significant.
+
+Next, I will examine the **experiments section** (specifically section 4.1) where the authors provide detailed information about the datasets used. Here, they mention:
+
+1. **nuScenes**: This dataset is described as containing 1000 scenes with 1.4 million camera images and 390,000 LIDAR sweeps. It is used for pre-training the model.
+
+2. **nuScenes-lidarseg**: An extension of the nuScenes dataset, it includes semantic labels for 32 categories and annotates each point from keyframes in nuScenes. The authors use this dataset for fine-tuning the semantic segmentation task.
+
+3. **SemanticKITTI**: This dataset contains 28 semantic classes, with 19 calculated for evaluation. It is used for evaluating the quality of the semantic segmentation task.
+
+4. **KITTI**: A classical dataset for 3D object detection, containing 7481 training point clouds and 7518 test point clouds. It is used for object detection experiments.
+
+After identifying these datasets, I will check the **References section** to gather the full citations for each dataset:
+
+- For **nuScenes**, the citation is:
+  > Caesar, H., Bankiti, V., Lang, A. H., Vora, S., Liong, V. E., Xu, Q., Krishnan, A., Pan, Y., Baldan, G., & Beijbom, O. (2020). *nuScenes: A multimodal dataset for autonomous driving*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 11621–11631.
+
+- For **nuScenes-lidarseg**, the citation is:
+  > Behley, J., Garbade, M., Milioto, A., Quenzel, J., Behnke, S., Stachniss, C., & Gall, J. (2019). *SemanticKITTI: A dataset for semantic scene understanding of lidar sequences*. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pp. 9297–9307.
+
+- For **SemanticKITTI**, the citation is:
+  > Behley, J., Garbade, M., Milioto, A., Quenzel, J., Behnke, S., Stachniss, C., & Gall, J. (2019). *SemanticKITTI: A dataset for semantic scene understanding of lidar sequences*. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pp. 9297–9307.
+
+- For **KITTI**, the citation is:
+  > Geiger, A., Lenz, P., & Urtasun, R. (2012). *Are we ready for autonomous driving? The KITTI vision benchmark suite*. In 2012 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 3354–3361.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

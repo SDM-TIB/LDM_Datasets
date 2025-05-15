@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Robust MAML: Prioritization Task Buffer with Adaptive Learning Process for Model-Agnostic Meta-Learning" by Thanh Nguyen et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, experiments, and conclusion sections** to identify any datasets mentioned. The abstract provides a brief overview of the research but may not specify datasets. The introduction may mention datasets used for evaluation or experiments, so I will pay close attention to that section.
+
+Next, I will focus on the **experiments section** (section 5), as this is where the authors typically describe the datasets used for their experiments. In this section, the authors mention a specific environment called **2D REACHING**, which consists of 300 tasks drawn from a mixture of three independent normal distributions. This indicates that there is a dataset related to this environment.
+
+Additionally, the authors mention that they evaluated RMAML on high-dimensional locomotion tasks simulated in **MuJoCo**. This suggests that the MuJoCo environment is another dataset used for their experiments.
+
+Now, I will look for the **References section** to find full citations for these datasets. The references may provide the necessary details for the datasets mentioned in the experiments.
+
+1. For the **2D REACHING** environment, since it is a custom environment created by the authors, I will note that it does not have a formal citation but is described in the paper itself.
+
+2. For the **MuJoCo** environment, I will find the citation in the references:
+   > Emanuel Todorov, Tom Erez, and Yuval Tassa. *MuJoCo: A physics engine for model-based control*. In 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems, pages 5026–5033, 2012.
+
+After gathering this information, I will summarize the datasets as follows:
+
+- **2D REACHING**: A custom environment consisting of 300 tasks drawn from a mixture of three independent normal distributions, described in the paper.
+- **MuJoCo**: A physics engine used for simulating high-dimensional locomotion tasks.
+
+Finally, I will compile the dataset entries into a structured format for further processing, ensuring that I include the full citations for the datasets where applicable.

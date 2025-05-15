@@ -1,0 +1,219 @@
+[
+    {
+        "dcterms:creator": [
+            "Y. LeCun",
+            "L. Bottou",
+            "Y. Bengio",
+            "P. Haffner"
+        ],
+        "dcterms:description": "A variant of the MNIST dataset where the dataset is split into 5 tasks, each containing two classes.",
+        "dcterms:title": "5-Split MNIST",
+        "dcterms:issued": "1998",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "MNIST",
+            "Digit Recognition",
+            "Continual Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Shin",
+            "J.K. Lee",
+            "J. Kim",
+            "J. Kim"
+        ],
+        "dcterms:description": "A variant of the MNIST dataset where the pixels are permuted for each task, creating a new task for each permutation.",
+        "dcterms:title": "Permuted MNIST",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "MNIST",
+            "Permuted Data",
+            "Continual Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Krizhevsky",
+            "G. Hinton"
+        ],
+        "dcterms:description": "A dataset consisting of 100 classes of images, split into 20 tasks for incremental learning.",
+        "dcterms:title": "20-Split CIFAR100",
+        "dcterms:issued": "2009",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "CIFAR100",
+            "Image Classification",
+            "Continual Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Deng",
+            "W. Dong",
+            "R. Socher",
+            "L.J. Li",
+            "K. Li",
+            "L. Fei-Fei"
+        ],
+        "dcterms:description": "A dataset derived from ImageNet, split into 20 tasks for incremental learning, each containing 5 classes.",
+        "dcterms:title": "20-Split miniImageNet",
+        "dcterms:issued": "2009",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "miniImageNet",
+            "Image Classification",
+            "Continual Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A combination of multiple datasets including MNIST, not-MNIST, Fashion-MNIST, CIFAR10, and SVHN for continual learning.",
+        "dcterms:title": "5-Datasets",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "Multi-Dataset",
+            "Continual Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset of street view house numbers, commonly used for digit recognition tasks.",
+        "dcterms:title": "SVHN",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "Street View",
+            "Digit Recognition",
+            "Continual Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset of 10 classes of fashion items, used for image classification tasks.",
+        "dcterms:title": "CIFAR10",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "Fashion",
+            "Image Classification",
+            "Continual Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset of handwritten digits, used for image classification tasks.",
+        "dcterms:title": "Fashion-MNIST",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "Fashion",
+            "Image Classification",
+            "Continual Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset of handwritten digits that are not part of the MNIST dataset, used for image classification tasks.",
+        "dcterms:title": "not-MNIST",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "Handwritten Digits",
+            "Image Classification",
+            "Continual Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "ePointDA: An End-to-End Simulation-to-Real Domain Adaptation Framework for LiDAR Point Cloud Segmentation" by Sicheng Zhao et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors conducted extensive experiments adapting from synthetic GTA-LiDAR to real KITTI and SemanticKITTI datasets, which suggests that these datasets are crucial to the research.
+
+Next, I will look specifically in the **experiments section** where the authors detail their experimental setup. Here, they explicitly mention the datasets used:
+
+1. **GTA-LiDAR**: This dataset contains 100,000 LiDAR point clouds synthesized in the Grand Theft Auto V (GTA-V) environment. The depth segmentation map is generated using a specific method, and it includes coordinates for each point without dropout noise.
+
+2. **KITTI**: This dataset consists of 10,848 samples with point-wise labels obtained from original 3D bounding boxes. The authors mention that they split this dataset into a training set with 8,057 samples and a test set with 2,791 samples.
+
+3. **SemanticKITTI**: This is a large-scale dataset for LiDAR point-cloud segmentation with 43,442 densely annotated scans. The authors specify the sequences used for training, validation, and testing.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **GTA-LiDAR**, the citation is:
+  > Wu, B., Wan, A., Yue, X., & Keutzer, K. (2019). SqueezeSegV2: Improved model structure and unsupervised domain adaptation for road-object segmentation from a lidar point cloud. In *ICRA*, 4376–4382.
+
+- For **KITTI**, the citation is:
+  > Geiger, A., Lenz, P., & Urtasun, R. (2012). Are we ready for autonomous driving? The KITTI vision benchmark suite. In *CVPR*, 3354–3361.
+
+- For **SemanticKITTI**, the citation is:
+  > Behley, J., Garbade, M., Milioto, A., Quenzel, J., Behnke, S., Stachniss, C., & Gall, J. (2019). SemanticKITTI: A dataset for semantic scene understanding of lidar sequences. In *ICCV*, 9297–9307.
+
+Now that I have gathered the dataset names and their corresponding citations, I will compile this information into a structured format for further use or processing.

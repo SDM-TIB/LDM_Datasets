@@ -1,0 +1,21 @@
+To extract the datasets from the research paper titled "Software Vulnerability Detection via Deep Learning over Disaggregated Code Graph Representation" by Yufan Zhuang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and datasets sections** of the paper to identify any datasets mentioned. The abstract indicates that the authors evaluate their model on two publicly available C/C++ datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4.1 (Datasets)**, where the authors provide a summary of the datasets used for their experiments. Here, they mention:
+
+1. **Draper Dataset**: This dataset is described as a large and highly imbalanced collection of over a million C/C++ functions sourced from open-source repositories on GitHub and the Debian Linux distribution. Each function was labeled by security experts after being checked by three static analyzers.
+
+2. **QEMU+FFmpeg Dataset**: This dataset is smaller but balanced, collected from GitHub repositories, with labels based on commit messages and domain experts.
+
+The paper also includes a table summarizing the datasets, which provides additional details such as the total number of samples, vulnerabilities, non-vulnerabilities, and average/max number of nodes for each dataset.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For the **Draper Dataset**, the citation is:
+  > Louis Kim, Rebecca Russell. Draper VDISC Dataset - Vulnerability Detection in Source Code. https://osf.io/d45bw/.
+
+- For the **QEMU+FFmpeg Dataset**, the citation is:
+  > Yaqin Zhou, Shangqing Liu, Jingkai Siow, Xiaoning Du, and Yang Liu. Devign: Effective vulnerability identification by learning comprehensive program semantics via graph neural networks. In Advances in Neural Information Processing Systems, pages 10197–10207, 2019.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will be crucial for maintaining the integrity and reproducibility of the research findings.

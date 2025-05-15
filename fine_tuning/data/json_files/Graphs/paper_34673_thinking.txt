@@ -1,0 +1,48 @@
+To extract datasets from the research paper titled "SPIN: An Open Simulator of Realistic Spacecraft Navigation Imagery" by Javier Montalvo et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions the SPIN tool and its purpose, but it also indicates that the authors compare their results against existing datasets. This suggests that there are specific datasets that need to be identified.
+
+Next, I will look closely at **Section II (Related Work)** and **Section III (SPIN: SPacecraft Imagery for Navigation)**, as these sections are likely to contain detailed descriptions of the datasets used in the experiments. In Section II, the authors reference several datasets, including SPEED+ and SHIRT, which are crucial for their comparisons.
+
+In **Section II.A (Datasets)**, the authors provide detailed descriptions of multiple datasets:
+
+1. **SPARK Dataset**: This dataset includes over 150,000 synthetic RGB images, along with corresponding depth and segmentation masks. It features 10 different spacecraft models obtained from NASA’s 3D resources and 5 distinct debris objects. The images are rendered with the Unity framework.
+
+2. **SwissCube Dataset**: This dataset consists of 50,000 images of a 1U CubeSat model based on the SwissCube satellite, organized into 500 trajectories, each comprising 100 frames. The images are generated using the Mitsuba Renderer 2 framework.
+
+3. **CubeSat Cross-Domain Trajectory (CDT) Dataset**: This dataset includes RGB images captured across multiple trajectories of a 1U CubeSat within three distinct domains, including synthetic and testbed domains.
+
+4. **Unreal Rendered Spacecraft On-Orbit (URSO) Dataset**: This dataset features 15,000 synthetic RGB images generated using Unreal Engine 4, divided into subsets focusing on different spacecraft.
+
+5. **Spacecraft Pose Estimation Dataset (SPEED)**: This dataset contains 15,000 synthetic grayscale images, along with 305 images captured under testbed conditions, focusing on the Tango spacecraft.
+
+6. **Next Generation Spacecraft Pose Estimation Dataset (SPEED+)**: This dataset consists of 60,000 synthetic images featuring the Tango spacecraft, accompanied by pose annotations and additional testbed images.
+
+7. **Satellite Hardware-In-the-loop Rendezvous Trajectories Dataset (SHIRT)**: This dataset features two distinct trajectories capturing the poses of a Tango satellite from the perspective of a service spacecraft, including both synthetic and testbed images.
+
+After identifying these datasets, I will refer to the **References section** to obtain the full citations for each dataset mentioned. This is crucial for proper attribution and to provide readers with the necessary information to locate the datasets.
+
+The full citations I will extract are:
+
+- **SPARK Dataset**: 
+  > Musallam, M. A., Gaudilliere, V., Ghorbel, E., Al Ismaeil, K., Perez, M. D., Poucet, M., & Aouada, D. (2021). Spacecraft recognition leveraging knowledge of space environment: simulator, dataset, competition design and analysis. In 2021 IEEE International Conference on Image Processing Challenges (ICIPC) (pp. 11-15). IEEE.
+
+- **SwissCube Dataset**: 
+  > Hu, Y., Speierer, S., Jakob, W., Fua, P., & Salzmann, M. (2021). Wide-depth-range 6d object pose estimation in space. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 15 870–15 879).
+
+- **CubeSat CDT Dataset**: 
+  > Musallam, M. A., Rathinam, A., Gaudilliere, V., Castillo, M. O. d., & Aouada, D. (2022). Cubesat-cdt: A cross-domain dataset for 6-dof trajectory estimation of a symmetric spacecraft. In European Conference on Computer Vision (pp. 112–126). Springer.
+
+- **URSO Dataset**: 
+  > Proenc¸a, P. F., & Gao, Y. (2020). Deep learning for spacecraft pose estimation from photorealistic rendering. In 2020 IEEE International Conference on Robotics and Automation (ICRA) (pp. 6007–6013). IEEE.
+
+- **SPEED Dataset**: 
+  > Sharma, S., Park, T., & D’Amico, S. (2019). Spacecraft pose estimation dataset (speed). Stanford Digital Repository.
+
+- **SPEED+ Dataset**: 
+  > Park, T. H., M¨artens, M., Lecuyer, G., Izzo, D., & D’Amico, S. (2022). Speed+: Next-generation dataset for spacecraft pose estimation across domain gap. In 2022 IEEE Aerospace Conference (AERO) (pp. 1–15). IEEE.
+
+- **SHIRT Dataset**: 
+  > Park, T. H., & D’Amico, S. (2023). Adaptive neural-network-based unscented kalman filter for robust pose tracking of noncooperative spacecraft. Journal of Guidance, Control, and Dynamics, 46(9), 1671–1688.
+
+Finally, I will compile this information into a structured format that clearly outlines each dataset and its citation, ensuring that all relevant details are included for future reference.

@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Multi-objective Pointer Network for Combinatorial Optimization" by Le-yang Gao et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to look for any references to datasets. The abstract mentions that the proposed model is evaluated on "three multi-objective traveling salesman problems," which indicates that datasets are likely involved.
+
+Next, I will focus on the **experiments section** (Section III) where the authors describe the testing problems. Here, they provide specific codes for the testing problems, such as T1O2, T2O2, and T2O3, along with their respective objectives. This section is crucial as it likely contains detailed descriptions of the datasets used for evaluation.
+
+In **Table I**, the authors outline the testing problems and their objectives, which gives insight into the datasets used. They also mention that the training dataset for each level contains 500,000 leaf instances (LIns) generated according to a uniform distribution within [0,1]. This indicates that the datasets are synthetically generated for the experiments.
+
+Furthermore, the authors refer to widely used root instances (RIns) from TSPLIB, specifically kroAB100, kroAB150, and kroAB200, which are standard datasets for the traveling salesman problem. These references are critical as they provide authoritative citations for the datasets.
+
+Now, I will compile the full citations for the datasets mentioned:
+
+1. **Synthetic Datasets**: The datasets for the multi-objective traveling salesman problems (MOTSP) are generated as follows:
+   - Each dataset contains 500,000 leaf instances generated uniformly within the range [0, 1]. However, since these are synthetic datasets, they do not have a formal citation.
+
+2. **TSPLIB Datasets**:
+   - For **kroAB100**, the citation is:
+     > Reinelt, G. "TSPLIB—a traveling salesman problem library." ORSA Journal on Computing, vol. 3, no. 4, pp. 376–384, 1991.
+   - For **kroAB150**, the citation is the same as above.
+   - For **kroAB200**, the citation is also the same as above.
+
+After gathering this information, I will ensure that each dataset is clearly documented with its respective citation, ready for further processing or review.

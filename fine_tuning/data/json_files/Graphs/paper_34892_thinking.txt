@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "TRACE: TRansformer-based Attribution using Contrastive Embeddings in LLMs" by Cheng Wang et al., I will follow a systematic approach to ensure I capture all relevant details, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research but does not specify datasets. The introduction discusses the need for source attribution in LLMs but does not mention specific datasets either.
+
+Next, I will focus on **section 4 (Experiments)**, which is likely to contain detailed information about the datasets used in the empirical evaluation. In **subsection 4.1 (Experimental Setup)**, the authors explicitly mention three datasets used for evaluation: 
+
+1. **booksum**: This dataset is described as containing different books treated as distinct data providers. The authors vary the number of data providers from 10 to 100 to demonstrate the scalability of their TRACE framework.
+
+2. **dbpedia_14**: This dataset consists of various classes, with each class considered a separate data provider. It is used to evaluate the performance of TRACE in a multi-class setting.
+
+3. **cc_news**: This dataset includes multiple domains, with each domain treated as a separate data provider. It is also used to assess the TRACE framework's performance.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **booksum**, the citation is:
+  > Wojciech Kryściński, Nazneen Rajani, Divyansh Agarwal, Caiming Xiong, and Dragomir Radev. *BookSum: A collection of datasets for long-form narrative summarization*. In Proceedings of the EMNLP Findings, pages 6536–6558, 2022.
+
+- For **dbpedia_14**, the citation is:
+  > Xiang Zhang, Junbo Zhao, and Yann LeCun. *Character-level convolutional networks for text classification*. In Proceedings of the NeurIPS, 2015.
+
+- For **cc_news**, the citation is:
+  > Felix Hamborg, Norman Meuschke, Corinna Breitinger, and Bela Gipp. *news-please: A generic news crawler and extractor*. In Proceedings of the ISI, pages 218–223, 2017.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and includes its full citation. This will provide a comprehensive overview of the datasets utilized in the TRACE framework evaluation.

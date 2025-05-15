@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Multi-label Guided Soft Contrastive Learning for Efficient Earth Observation Pretraining" by Yi Wang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to locate any references to datasets. The abstract mentions the use of "large-scale satellite data" and "land-cover-land-use products," indicating that datasets are likely discussed.
+
+Next, I will focus on the **introduction** section, where the authors mention specific datasets such as **ESA WorldCover** and **Google Dynamic World**. These are key datasets that provide land cover information, which is crucial for the study.
+
+In the **methodology section**, the authors describe how they built a new dataset called **SSL4EO-S12-ML** by matching images from the **SSL4EO-S12** dataset with land cover maps from **Dynamic World**. This section provides detailed information about the dataset's composition, including the number of images and the classes represented.
+
+I will also check the **experiments and results sections** to see if any additional datasets are mentioned or used for evaluation. The authors reference several downstream tasks and datasets, including **BigEarthNet**, **EuroSAT**, and **DFC2020**, which are used to validate their model's performance.
+
+Now, I will compile the full citations for each dataset mentioned in the paper. Here are the datasets I have identified:
+
+1. **SSL4EO-S12-ML**: This is a new dataset created by the authors. The citation is:
+   > Yi Wang, C. M. Albrecht, N. A. A. Braham, L. Mou, and X. X. Zhu. *SSL4EO-S12: A large-scale multimodal, multitemporal dataset for self-supervised learning in earth observation*. IEEE Geoscience and Remote Sensing Magazine, vol. 11, no. 3, pp. 98–106, 2023.
+
+2. **Dynamic World**: This dataset provides continuous land cover mapping. The citation is:
+   > C. F. Brown, S. P. Brumby, B. Guzder-Williams, T. Birch, S. B. Hyde, J. Mazzariello, W. Czerwinski, V. J. Pasquarella, R. Haertel, S. Ilyushchenko et al. *Dynamic world, near real-time global 10 m land use land cover mapping*. Scientific Data, vol. 9, no. 1, p. 251, 2022.
+
+3. **ESA WorldCover**: This dataset provides global land cover maps. The citation is:
+   > D. Zanaga, R. Van De Kerchove, W. De Keersmaecker, N. Souverijns, C. Brockmann, R. Quast, J. Wevers, A. Grosu, A. Paccini, S. Vergnaud, O. Cartus, M. Santoro, S. Fritz, I. Georgieva, M. Lesiv, S. Carter, M. Herold, L. Li, N.-E. Tsendbazar, F. Ramoino, and O. Arino. *Esa worldcover 10 m 2020 v100*. Zenodo, 2021. [Online]. Available: https://doi.org/10.5281/zenodo.5571936
+
+4. **BigEarthNet**: A large-scale dataset for land cover classification. The citation is:
+   > G. Sumbul, M. Charfuelan, B. Demir, and V. Markl. *Bigearthnet: A large-scale benchmark archive for remote sensing image understanding*. In IGARSS 2019-2019 IEEE International Geoscience and Remote Sensing Symposium, pp. 5901–5904, 2019.
+
+5. **EuroSAT**: A dataset for land use and land cover classification. The citation is:
+   > P. Helber, B. Bischke, A. Dengel, and D. Borth. *Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification*. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 12, no. 7, pp. 2217–2226, 2019.
+
+6. **DFC2020**: A dataset for land cover semantic segmentation. The citation is:
+   > M. Schmitt, L. Hughes, P. Ghamisi, N. Yokoya, and R. Hänsch. *IEEE grss data fusion contest*. 2020.
+
+After gathering all this information, I will ensure that I have accurately documented each dataset's details and citations for further processing or review.

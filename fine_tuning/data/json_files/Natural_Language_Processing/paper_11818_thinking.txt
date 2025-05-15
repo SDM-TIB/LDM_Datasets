@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "KITE: Keypoint-Conditioned Policies for Semantic Manipulation" by Priya Sundaresan et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections of the paper. The abstract mentions that KITE is evaluated in three real-world environments, which suggests that datasets related to these environments may be discussed later in the paper.
+
+Next, I will look into **section 3 (KITE: Keypoints + Instructions To Execution)**, particularly **subsection 3.2 (Demonstration Collection)**, where the authors describe how they collected a dataset consisting of expert demonstrations for training the grounding and acting modules. Here, they mention that the dataset \( D_{\pi} \) consists of paired images, keypoint annotations, and language instructions. This indicates that the dataset is crucial for the KITE framework.
+
+In this subsection, the authors explain that for each skill, they collected demonstrations that include an initial observation, a list of waypoints, and a language instruction. This suggests that the dataset is not only about images but also includes specific instructions and keypoint annotations, which are essential for understanding the context of the data.
+
+Next, I will check the **experiments section (Section 4)**, where the authors evaluate KITE across three environments: long-horizon 6-DoF tabletop manipulation, semantic grasping, and a high-precision coffee-making task. I will look for any specific datasets mentioned in relation to these tasks.
+
+In the **experiments section**, the authors refer to the datasets used for training and evaluation, but they do not provide specific names for external datasets. Instead, they describe the data collection process and the types of data included in their own dataset. Therefore, I will focus on the dataset \( D_{\pi} \) they created, as it is central to their experiments.
+
+Now, I will compile the information about the dataset:
+
+1. **Dataset Name**: KITE Dataset
+   - **Description**: A dataset consisting of expert demonstrations for training the grounding and acting modules of the KITE framework. It includes paired images, keypoint annotations, and language instructions for various manipulation tasks.
+   - **Citation**: Since the dataset is created by the authors of the paper, I will cite the paper itself:
+     > Priya Sundaresan, Suneel Belkhale, Dorsa Sadigh, Jeannette Bohg. *KITE: Keypoint-Conditioned Policies for Semantic Manipulation*. In Proceedings of the IEEE International Conference on Robotics and Automation (ICRA), 2023.
+
+After gathering this information, I will ensure that I have accurately documented the dataset and its citation, as this is crucial for proper attribution and further research.
+
+Finally, I will prepare the dataset entry for downstream processing, ensuring that it is structured according to the required format, ready for review or further analysis.

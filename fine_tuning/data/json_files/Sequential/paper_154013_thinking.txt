@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Object Files and Schemata: Factorizing Declarative and Procedural Knowledge in Dynamical Systems" by Anirudh Goyal et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract provides a high-level overview, and the introduction often mentions the datasets used for experiments. The methodology and experiments sections typically contain detailed descriptions of the datasets.
+
+In the **abstract**, the authors discuss their architecture and its application to video games, which suggests that datasets related to video games or simulations may be involved. However, I need to look for specific dataset names.
+
+Next, I will focus on the **introduction**. Here, the authors mention the need for modeling structured environments, which may imply the use of datasets that contain such structured data. I will look for any explicit mentions of datasets.
+
+Moving on to the **experiments section**, I will look for any datasets that are explicitly named. For instance, the authors describe experiments involving a "bouncing-balls environment" and "GotoObjMaze environment." I will note these down as potential datasets.
+
+In the **methodology section**, the authors describe the datasets used for their experiments in detail. They mention:
+
+1. **Bouncing Balls Dataset**: This dataset consists of 50,000 training examples and 10,000 test examples showing approximately 50 frames of either 4 solid same-color balls bouncing in a confined square geometry (4Balls), or 6-8 same-color balls bouncing in a confined geometry (678Balls), among others.
+
+2. **GotoObjMaze Dataset**: This dataset is used in a reinforcement learning context, where an agent navigates a maze to locate distinct objects. The authors reference the BabyAI environment for this dataset.
+
+3. **Intuitive Physics Benchmark**: The authors also mention using the Intuitive Physics Benchmark for evaluating their model's performance on tasks involving unrealistic physical phenomena.
+
+Now, I will check the **References section** to gather full citations for these datasets. The citations are crucial for proper attribution:
+
+- For the **Bouncing Balls Dataset**, the citation is:
+  > Sjoerd Van Steenkiste, Michael Chang, Klaus Greff, and Jürgen Schmidhuber. *Relational Neural Expectation Maximization: Unsupervised Discovery of Objects and Their Interactions*. arXiv preprint arXiv:1802.10353, 2018.
+
+- For the **GotoObjMaze Dataset**, the citation is:
+  > Maxime Chevalier-Boisvert, Dzmitry Bahdanau, Salem Lahlou, Lucas Willems, Chitwan Saharia, Thien Huu Nguyen, and Yoshua Bengio. *BabyAI: First Steps Towards Grounded Language Learning with a Human in the Loop*. arXiv preprint arXiv:1810.08272, 2018.
+
+- For the **Intuitive Physics Benchmark**, the citation is:
+  > Ronan Riochet, Mario Ynocente Castro, Mathieu Bernard, Adam Lerer, Rob Fergus, Véronique Izard, and Emmanuel Dupoux. *Intphys: A Benchmark for Visual Intuitive Physics Reasoning*. 2019.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review. This ensures that I have accurately captured the datasets and their citations from the paper.

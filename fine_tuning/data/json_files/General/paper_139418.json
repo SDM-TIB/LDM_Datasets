@@ -1,0 +1,174 @@
+[
+    {
+        "dcterms:creator": [
+            "Berkay Berabi",
+            "Jingxuan He",
+            "Veselin Raychev",
+            "Martin T. Vechev"
+        ],
+        "dcterms:description": "A dataset containing original code files scraped from GitHub, used for training and evaluation of code fixing models.",
+        "dcterms:title": "FullOriginal",
+        "dcterms:issued": "2021",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Code Analysis",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Code fixing",
+            "Dataset",
+            "JavaScript",
+            "Open-source"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Code Repair",
+            "Bug Fixing"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Berkay Berabi",
+            "Jingxuan He",
+            "Veselin Raychev",
+            "Martin T. Vechev"
+        ],
+        "dcterms:description": "A dataset containing reduced code snippets that focus on specific issues and their corresponding fixes, generated through a code reduction technique.",
+        "dcterms:title": "CodeReduced",
+        "dcterms:issued": "2021",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Code Analysis",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Code reduction",
+            "Dataset",
+            "JavaScript",
+            "Bug fixing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Code Repair",
+            "Bug Fixing"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Berkay Berabi",
+            "Jingxuan He",
+            "Veselin Raychev",
+            "Martin T. Vechev"
+        ],
+        "dcterms:description": "A dataset containing code snippets with a long context around the detected issues and their corresponding fixes.",
+        "dcterms:title": "LongContext",
+        "dcterms:issued": "2021",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Code Analysis",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Long context",
+            "Dataset",
+            "JavaScript",
+            "Bug fixing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Code Repair",
+            "Bug Fixing"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Berkay Berabi",
+            "Jingxuan He",
+            "Veselin Raychev",
+            "Martin T. Vechev"
+        ],
+        "dcterms:description": "A dataset containing code snippets with a limited context (±3 lines) around the detected issues and their corresponding fixes.",
+        "dcterms:title": "Window@3",
+        "dcterms:issued": "2021",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Code Analysis",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Window context",
+            "Dataset",
+            "JavaScript",
+            "Bug fixing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Code Repair",
+            "Bug Fixing"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Snyk"
+        ],
+        "dcterms:description": "Results from the Snyk Code SAST engine, which analyzes source code for security vulnerabilities.",
+        "dcterms:title": "Snyk Code SAST Engine Results",
+        "dcterms:issued": "2023",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://snyk.io/product/snyk-code/",
+        "dcat:theme": [
+            "Security Analysis",
+            "Static Analysis"
+        ],
+        "dcat:keyword": [
+            "SAST",
+            "Security vulnerabilities",
+            "Code analysis"
+        ],
+        "dcat:landingPage": "https://snyk.io/product/snyk-code/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Security Analysis"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Snyk"
+        ],
+        "dcterms:description": "A dataset created for training and evaluating models to fix coding errors, extensively labeled with various bug patterns.",
+        "dcterms:title": "Code Fixing Dataset",
+        "dcterms:issued": "2023",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://snyk.io/product/snyk-code/",
+        "dcat:theme": [
+            "Code Repair",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Code fixing",
+            "Dataset",
+            "JavaScript",
+            "Bug patterns"
+        ],
+        "dcat:landingPage": "https://snyk.io/product/snyk-code/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Code Repair",
+            "Bug Fixing"
+        ]
+    }
+]

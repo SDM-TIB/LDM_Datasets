@@ -1,0 +1,206 @@
+[
+    {
+        "dcterms:creator": [
+            "Y. LeCun",
+            "C. Cortes",
+            "C. J. Burges"
+        ],
+        "dcterms:description": "A classical one-class classification benchmark dataset derived from the MNIST dataset, where each task consists of recognizing one digit as normal and the others as anomalous.",
+        "dcterms:title": "Multi-task MNIST (MT-MNIST)",
+        "dcterms:issued": "2010",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://yann.lecun.com/exdb/mnist/",
+        "dcat:theme": [
+            "Image Classification",
+            "One-Class Classification"
+        ],
+        "dcat:keyword": [
+            "Handwritten digits",
+            "Classification",
+            "Anomaly detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "One-Class Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "B. M. Lake",
+            "R. Salakhutdinov",
+            "J. B. Tenenbaum"
+        ],
+        "dcterms:description": "A dataset containing 20 instances of 1623 hand-written characters from 50 different alphabets, used for few-shot learning tasks.",
+        "dcterms:title": "Omniglot",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://science.sciencemag.org/content/350/6266/1332",
+        "dcat:theme": [
+            "Image Classification",
+            "Few-Shot Learning"
+        ],
+        "dcat:keyword": [
+            "Handwritten characters",
+            "Few-shot learning",
+            "Anomaly detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Few-Shot Learning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Ravi",
+            "H. Larochelle"
+        ],
+        "dcterms:description": "A benchmark dataset for few-shot learning, derived from CIFAR-100, containing 64 classes for training, 16 for validation, and 20 for testing.",
+        "dcterms:title": "MiniImageNet",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Few-Shot Learning"
+        ],
+        "dcat:keyword": [
+            "Image dataset",
+            "Few-shot learning",
+            "Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Few-Shot Learning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "L. Bertinetto",
+            "J. F. Henriques",
+            "P. H. Torr",
+            "A. Vedaldi"
+        ],
+        "dcterms:description": "A dataset for few-shot learning derived from CIFAR-100, containing 64 classes for training, 16 for validation, and 20 for testing.",
+        "dcterms:title": "CIFAR-FS",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Few-Shot Learning"
+        ],
+        "dcat:keyword": [
+            "Image dataset",
+            "Few-shot learning",
+            "Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Few-Shot Learning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "B. Oreshkin",
+            "P. R. López",
+            "A. Lacoste"
+        ],
+        "dcterms:description": "A dataset for few-shot learning derived from CIFAR-100, designed to minimize semantic overlap between training, validation, and testing classes.",
+        "dcterms:title": "FC100",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Few-Shot Learning"
+        ],
+        "dcat:keyword": [
+            "Image dataset",
+            "Few-shot learning",
+            "Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Few-Shot Learning"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Synthetic time-series dataset consisting of sawtooth waveforms, used for few-shot one-class classification tasks.",
+        "dcterms:title": "Synthetic time-series (STS-Sawtooth)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Time-Series Analysis",
+            "Anomaly Detection"
+        ],
+        "dcat:keyword": [
+            "Synthetic data",
+            "Time-series",
+            "Anomaly detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Time-Series",
+        "mls:task": [
+            "Anomaly Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Synthetic time-series dataset consisting of sine functions, used for few-shot one-class classification tasks.",
+        "dcterms:title": "Synthetic time-series (STS-Sine)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Time-Series Analysis",
+            "Anomaly Detection"
+        ],
+        "dcat:keyword": [
+            "Synthetic data",
+            "Time-series",
+            "Anomaly detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Time-Series",
+        "mls:task": [
+            "Anomaly Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Real-world dataset of sensor readings recorded during industrial manufacturing of workpieces with a CNC milling machine, used for anomaly detection tasks.",
+        "dcterms:title": "CNC Milling Machine Data (CNC-MMD)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Industrial Data",
+            "Anomaly Detection"
+        ],
+        "dcat:keyword": [
+            "Sensor data",
+            "Manufacturing",
+            "Anomaly detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Time-Series",
+        "mls:task": [
+            "Anomaly Detection"
+        ]
+    }
+]

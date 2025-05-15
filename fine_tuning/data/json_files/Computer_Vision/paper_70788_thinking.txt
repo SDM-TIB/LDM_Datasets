@@ -1,0 +1,37 @@
+To extract datasets from the research paper titled "ContourDiff: Unpaired Image Translation with Contour-Guided Diffusion Models" by Yuwen Chen et al., I will follow a systematic approach to ensure I capture all relevant details, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors evaluate their method on CT to MRI translation, which suggests that datasets related to these modalities are likely discussed.
+
+Next, I will focus on the **experiments section** (section 3), where the authors describe their dataset collection process. Here, they mention two specific datasets:
+
+1. **Lumbar MRI Dataset**: The authors collected 40 sagittal lumbar MRI volumes, which consist of 670 2D slices. This dataset is used for training their model.
+
+2. **Hip & Thigh MRI Dataset**: This dataset includes 10 axial MRI volumes, comprising 404 2D slices. It is also utilized in their experiments.
+
+Additionally, they mention obtaining CT volumes from the **TotalSegmentator project**, which includes 54 sagittal CT volumes (2,333 2D slices) for lumbar images and 29 axial CT volumes (4,937 2D slices) for hip and thigh images. 
+
+In the **evaluation metrics** section, the authors refer to the **SPIDER lumbar spine (L-SPIDER) public dataset**, which they use to test the generalization ability of their method. This dataset consists of 40 volumes (731 2D slices).
+
+Now, I will check the **References section** to find the full citations for each dataset mentioned:
+
+- For the **TotalSegmentator project**, the citation is:
+  > Wasserthal, J., Breit, H.C., Meyer, M.T., Pradella, M., Hinck, D., Sauter, A.W., Heye, T., Boll, D.T., Cyriac, J., Yang, S., Bach, M., Segeroth, M. (2023). *TotalSegmentator: Robust segmentation of 104 anatomic structures in CT images*. Radiology: Artificial Intelligence, 5(5). https://doi.org/10.1148/ryai.230024.
+
+- For the **L-SPIDER dataset**, the citation is:
+  > van der Graaf, J.W., van Hooff, M.L., Buckens, C.F.M., Rutten, M., van Susante, J.L.C., Kroeze, R.J., de Kleuver, M., van Ginneken, B., Lessmann, N. (2023). *Lumbar spine segmentation in MR images: a dataset and a public benchmark*. 
+
+With these details in hand, I will summarize the datasets as follows:
+
+1. **Lumbar MRI Dataset**: 40 sagittal MRI volumes (670 2D slices).
+   - Citation: Not explicitly provided in the references, as it is a private dataset.
+
+2. **Hip & Thigh MRI Dataset**: 10 axial MRI volumes (404 2D slices).
+   - Citation: Not explicitly provided in the references, as it is a private dataset.
+
+3. **TotalSegmentator CT Dataset**: 54 sagittal CT volumes (2,333 2D slices) and 29 axial CT volumes (4,937 2D slices).
+   - Citation: Wasserthal et al. (2023).
+
+4. **L-SPIDER Dataset**: 40 volumes (731 2D slices).
+   - Citation: van der Graaf et al. (2023).
+
+Finally, I will compile these dataset entries into a structured format for further processing or review.

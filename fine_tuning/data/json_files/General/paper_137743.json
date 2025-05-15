@@ -1,0 +1,197 @@
+[
+    {
+        "dcterms:creator": [
+            "R. Wang",
+            "X. Fang",
+            "Y. Lu",
+            "S. Wang"
+        ],
+        "dcterms:description": "The PDBbind database collects a wealth of protein–ligand complex structures and related experimental binding affinity data, making it the most widely used dataset for structure-based protein–ligand binding affinity prediction studies.",
+        "dcterms:title": "PDBbind-v2020",
+        "dcterms:issued": "2004",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Bioinformatics",
+            "Chemoinformatics"
+        ],
+        "dcat:keyword": [
+            "Protein-ligand complexes",
+            "Binding affinities",
+            "Structural data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "v2020",
+        "dcterms:format": "",
+        "mls:task": [
+            "Binding affinity prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A curated dataset derived from PDBbind, retaining only crystal structure data with exact Kd values.",
+        "dcterms:title": "PDBbindGS_HiQ",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Curated dataset",
+            "Crystal structures",
+            "Binding affinities"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The dataset is generated through re-docking of structures from the PDBbind refined set using AutoDock Vina.",
+        "dcterms:title": "PDBbindRS_RD",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Re-docking",
+            "Binding conformations"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The dataset is created through a cross-docking protocol involving structures from the PDBbind refined set.",
+        "dcterms:title": "PDBbindRS_CD",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Cross-docking",
+            "Binding conformations"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "M. Su",
+            "Q. Yang",
+            "Y. Du",
+            "G. Feng",
+            "Z. Liu",
+            "Y. Li",
+            "R. Wang"
+        ],
+        "dcterms:description": "The CASF-2016 benchmark consists of different protein–ligand complexes with high-resolution crystal structures and reliable binding constants, obtained through systematically non-redundant sampling from the PDBbind database.",
+        "dcterms:title": "CASF-2016 benchmark",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Benchmarking",
+            "Scoring functions"
+        ],
+        "dcat:keyword": [
+            "Protein-ligand complexes",
+            "Binding constants",
+            "Benchmark dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Scoring function evaluation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. B. J. Dunbar",
+            "R. D. Smith",
+            "C.-Y. Yang",
+            "P. M.-U. Ung",
+            "K. W. Lexa",
+            "N. A. Khazanov",
+            "J. A. Stuckey",
+            "S. Wang",
+            "H. A. Carlson"
+        ],
+        "dcterms:description": "The CSAR-NRC HiQ benchmark primarily serves to evaluate the efficacy of various scoring algorithms, encompassing a collection of protein–ligand complexes.",
+        "dcterms:title": "CSAR-NRC HiQ benchmark",
+        "dcterms:issued": "2011",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Benchmarking",
+            "Scoring functions"
+        ],
+        "dcat:keyword": [
+            "Protein-ligand complexes",
+            "Scoring algorithms",
+            "Benchmark dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Scoring function evaluation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "C. E. M. Schindler"
+        ],
+        "dcterms:description": "The Merck FEP benchmark is designed to assess the precision of various computational approaches in determining relative binding free energies based on fundamental physical principles.",
+        "dcterms:title": "Merck FEP benchmark",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Benchmarking",
+            "Binding free energy calculations"
+        ],
+        "dcat:keyword": [
+            "Relative binding free energies",
+            "Benchmark dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Ranking evaluation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "V.-K. Tran-Nguyen",
+            "C. Jacquemard",
+            "D. Rognan"
+        ],
+        "dcterms:description": "LIT-PCBA is a benchmark specifically designed for the comparative evaluation of virtual screening, relying on experimental biological activity data from the PubChem BioAssay database.",
+        "dcterms:title": "LIT-PCBA benchmark",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Benchmarking",
+            "Virtual screening"
+        ],
+        "dcat:keyword": [
+            "Biological activity data",
+            "Virtual screening",
+            "Benchmark dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Screening evaluation"
+        ]
+    }
+]

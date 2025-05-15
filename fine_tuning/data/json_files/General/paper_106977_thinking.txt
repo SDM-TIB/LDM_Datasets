@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Knowledge Graph Embedding in E-commerce Applications: Attentive Reasoning, Explanations, and Transferable Rules" by Wen Zhang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the paper's focus on knowledge graphs and their applications in e-commerce, but it does not explicitly mention datasets.
+
+Next, I will examine the **introduction** section more closely. Here, the authors discuss their e-commerce knowledge graph, which contains over 70 billion triples and 3 million rules. This indicates that the authors are working with a substantial dataset, but I need to find specific datasets used in their experiments.
+
+In the **experiments section**, particularly **section 4.1 (Dataset and Implementation Details)**, the authors provide detailed statistics about the datasets used for their experiments. They mention a subset of the e-commerce knowledge graph that contains 789 relations and 72,849 entities. They also describe different settings for partial link prediction tasks, such as PLP[all], PLP[part.], PLP[life.], and PLP[cate.], along with the number of training and testing triples for each setting.
+
+The specific datasets mentioned are:
+1. **PLP[all]**: Contains all triples for training, with 1,789,717 training triples and 45,520 testing triples.
+2. **PLP[part.]**: Contains only triples with target relations for training, with 183,914 training triples and 45,520 testing triples.
+3. **PLP[life.]**: A subset for the lifestyle recommendation task, with 40,049 training triples and 9,951 testing triples.
+4. **PLP[cate.]**: A subset for automatic categorization, with 4,550 training triples and 1,163 testing triples.
+
+Now, I will check the **References section** to find full citations for any datasets or related works mentioned. However, since these datasets are derived from the authors' own e-commerce knowledge graph, they may not have separate citations. Instead, I will note the relevant details provided in the paper.
+
+The citation for the paper itself is:
+> Wen Zhang, Shumin Deng, Mingyang Chen, Liang Wang, Qiang Chen, Feiyu Xiong, Xiangwen Liu, and Huajun Chen. 2021. Knowledge Graph Embedding in E-commerce Applications: Attentive Reasoning, Explanations, and Transferable Rules. In The 10th International Joint Conference on Knowledge Graphs (IJCKG’21), December 6–8, 2021, Virtual Event, Thailand. ACM, New York, NY, USA, 9 pages. https://doi.org/10.1145/nnnnnnn.nnnnnnn
+
+In summary, I will compile the dataset entries with the relevant details and the citation for the paper, ensuring that I accurately represent the datasets used in the research.

@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "MinMaxMin Q-learning" by Nitsan Soffair and Shie Mannor, I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** and **introduction** sections to see if any datasets are mentioned. The abstract discusses the implementation of MinMaxMin on top of TD3 and TD7 and mentions rigorous testing against state-of-the-art algorithms across popular MuJoCo and Bullet environments. This suggests that datasets related to these environments may be used.
+
+Next, I will examine the **experiments section** (Section 4) in detail, as it typically contains information about the datasets used for evaluation. In this section, the authors describe the environments where the MinMaxMin algorithm was tested, specifically mentioning:
+
+1. **MuJoCo**: A physics engine for model-based control, which is referenced multiple times throughout the paper. The authors indicate that they conducted experiments on various tasks within this environment.
+2. **Bullet**: Another physics simulation environment mentioned in the context of testing the algorithm.
+
+I will also look for any specific tasks or scenarios within these environments that might be treated as datasets. The paper lists several tasks, including:
+- Humanoid
+- Walker2d
+- Ant
+- Swimmer
+
+These tasks represent specific environments or scenarios where the MinMaxMin algorithm was evaluated.
+
+Now, I will check the **References section** to find full citations for the datasets or environments mentioned. The relevant citations for the environments are:
+
+- For **MuJoCo**:
+  > Todorov, E., Erez, T., & Tassa, Y. (2012). *Mujoco: A physics engine for model-based control*. In 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems (pp. 5026–5033). IEEE.
+
+- For **Bullet**:
+  > Coumans, E., & Bai, Y. (2016–2021). *Pybullet, a python module for physics simulation for games, robotics and machine learning*. Retrieved from http://pybullet.org
+
+With this information, I can now compile the dataset entries, ensuring to include the full citations for each dataset as required.
+
+In summary, I will document the following datasets:
+1. **MuJoCo environments** (Humanoid, Walker2d, Ant, Swimmer) with the citation for MuJoCo.
+2. **Bullet environments** with the citation for Bullet.
+
+Finally, I will prepare the dataset entries for structured output, ensuring that all necessary details and citations are included for each dataset.

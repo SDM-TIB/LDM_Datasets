@@ -1,0 +1,16 @@
+To extract datasets from the research paper titled "Safe Reinforcement Learning with Probabilistic Control Barrier Functions for Ramp Merging" by Soumith Udatha et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the algorithm is implemented in the **CARLA Simulator** and on a dataset extracted from the **NGSIM Database**, indicating that these are key datasets to focus on.
+
+Next, I will examine **section 4.2 (Experiments)**, specifically the subsections **4.2.1 (Data Extraction)** and **4.2.2 (Implementing Offline SAPO-RM)**. In these sections, the authors provide details about the dataset extracted from the NGSIM Database, which is specifically for US I-80 highway ramp merging. They describe how the dataset was simplified into a one-on-one merging scenario and the criteria used for data extraction.
+
+The relevant dataset details are as follows:
+
+1. **NGSIM Dataset**: The authors extracted a dataset for ramp merging from the NGSIM Database, focusing on merging vehicles transitioning from an on-ramp to an auxiliary ramp. They filtered the data to include only those instances where the distance between the host and ego vehicle was less than 12 meters, resulting in a dataset of approximately 100,000 data points for one-on-one merging scenarios.
+
+Now, I will look into the **References section** to find the full citation for the NGSIM dataset. The NGSIM dataset is referenced in the paper, but the authors do not provide a specific citation for it. However, I can refer to the original source of the NGSIM dataset:
+
+- For the **NGSIM Dataset**, the citation is:
+  > NGSIM. *Next Generation Simulation (NGSIM) Vehicle Trajectory Data*. U.S. Department of Transportation, Federal Highway Administration, 2005. Available at: https://ngsim.fhwa.dot.gov/
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described and that the full citations are included for proper attribution. This will ensure that the datasets are accurately represented and can be referenced in future work.

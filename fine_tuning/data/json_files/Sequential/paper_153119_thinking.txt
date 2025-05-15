@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "DeepAcid: Classification of macromolecule type based on sequences of amino acids" by Sarwar Khan, I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract discusses the use of deep learning for macromolecule classification based on amino acid sequences, but it does not specify any datasets at this point.
+
+Next, I will examine the **Materials and Methods** section, particularly the **Dataset** subsection, as this is where the authors typically describe the datasets used in their research. In this section, the authors mention that the dataset contains two files with a total of 467,304 entries and describes the types of macromolecules included (Protein, DNA, RNA, and Protein/DNA/RNA Hybrid). They also mention a second file containing protein metadata.
+
+The authors provide a detailed description of the dataset, including the number of entries and columns, and they explain the preprocessing steps taken. However, they do not provide specific names or citations for the datasets used.
+
+To find the full citations for the datasets, I will need to look at the **References section** of the paper. The authors reference the Protein Data Bank (PDB) as a source for their data. Therefore, I will extract the citation for the PDB from the references.
+
+The citation for the Protein Data Bank is:
+> Berman, H. M., Westbrook, J., Feng, Z., Gilliland, G., Bhat, T. N., Weissig, H., & Shindyalov, I. N. (2000). The Protein Data Bank. *Nucleic Acids Research*, 28(1), 235-242.
+
+Additionally, the authors mention that they created a mini dataset to balance and normalize the classes, but they do not provide a specific citation for this mini dataset since it appears to be derived from the original dataset.
+
+Now, I will summarize the datasets identified:
+
+1. **Main Dataset**: Contains 467,304 entries with macromolecule types (Protein, DNA, RNA, Hybrid).
+   - Citation: Protein Data Bank (PDB) - Berman et al. (2000).
+
+2. **Mini Dataset**: A balanced subset created from the main dataset, containing 424 sequences of each class.
+   - No specific citation provided, as it is derived from the main dataset.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

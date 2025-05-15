@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "CoCoNets: Continuous Contrastive 3D Scene Representations" by Shamit Lal et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions that the model is evaluated on various downstream tasks, which suggests that datasets are involved. I will look for any specific dataset names or references in these sections.
+
+Next, I will examine the **experiments section** (Section 4) closely, as this is typically where authors describe the datasets used for their evaluations. In this case, the authors mention using the **CARLA**, **ShapeNet**, and **KITTI** datasets for their experiments. I will note down the details provided for each dataset.
+
+1. **CARLA Dataset**: The paper states that CARLA is an open-source simulator for urban driving scenes, which allows for the generation of multi-view data for training and tracking data for testing. The authors specify that they use Towns 0-3 for training and Towns 4-5 for testing, with a total of 388 scenes for training and 188 for testing.
+
+2. **ShapeNet Dataset**: The authors mention using meshes from ShapeNet-Core, which is a large-scale 3D object repository. They describe how they render RGB-D data from these meshes using Blender, with specific camera placements and configurations.
+
+3. **KITTI Dataset**: The paper indicates that the KITTI dataset is used for evaluating the model on the tracking task. The authors refer to the "tracking" subset of KITTI, which contains 8008 frames across twenty labeled sequences.
+
+After identifying the datasets, I will proceed to the **References section** to find the full citations for each dataset mentioned:
+
+- For the **CARLA dataset**, the citation is:
+  > Alexey Dosovitskiy, German Ros, Felipe Codevilla, Antonio Lopez, and Vladlen Koltun. *CARLA: An open urban driving simulator*. In CORL, pages 1–16, 2017.
+
+- For the **ShapeNet dataset**, the citation is:
+  > Angel X. Chang, Thomas Funkhouser, Leonidas Guibas, Pat Hanrahan, Qixing Huang, Zimo Li, Silvio Savarese, Manolis Savva, Shuran Song, Hao Su, Jianxiong Xiao, Li Yi, and Fisher Yu. *ShapeNet: An Information-Rich 3D Model Repository*. arXiv:1512.03012, 2015.
+
+- For the **KITTI dataset**, the citation is:
+  > Andreas Geiger, Philip Lenz, and Raquel Urtasun. *Are we ready for autonomous driving? The KITTI vision benchmark suite*. In CVPR, 2012.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing or review. This will ensure that I have accurately captured the datasets used in the research and their corresponding citations.

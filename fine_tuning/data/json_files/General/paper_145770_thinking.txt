@@ -1,0 +1,38 @@
+To extract datasets from the research paper titled "RankAdaptor: Hierarchical Dynamic Low-Rank Adaptation for Structural Pruned LLMs" by Changhai Zhou et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned or referenced. The abstract provides a brief overview of the research, and I will look for any mention of datasets used for experiments or evaluations.
+
+Next, I will focus on the **experiments section** (Section 4) where the authors typically describe the datasets used for their evaluations. I will look for any specific datasets mentioned, including their names, characteristics, and any relevant details about how they were utilized in the experiments.
+
+In this paper, the authors mention testing their method on several benchmarks, specifically in **Section 4.1 (Experimental Setup)**. They refer to three open-source large language models (LLaMA-7B, LLaMA-13B, and Vicuna-7B) and evaluate them on various commonsense reasoning datasets. I will note down the specific datasets mentioned:
+
+1. **BoolQ**: A dataset for yes/no questions.
+2. **PIQA**: A dataset for physical commonsense reasoning.
+3. **HellaSwag**: A dataset for commonsense reasoning.
+4. **WinoGrande**: An adversarial Winograd schema challenge dataset.
+5. **ARC-easy** and **ARC-challenge**: Datasets for the AI2 Reasoning Challenge.
+6. **OpenbookQA**: A dataset for open book question answering.
+
+Next, I will check the **References section** to find the full citations for these datasets. This is crucial for proper attribution and to allow others to locate the datasets easily.
+
+The citations for the datasets are as follows:
+
+- **BoolQ**:
+  > Christopher Clark, Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael Collins, and Kristina Toutanova. *BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions*. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 2924–2936, 2019.
+
+- **PIQA**:
+  > Yonatan Bisk, Rowan Zellers, Jianfeng Gao, Yejin Choi, et al. *PIQA: Reasoning About Physical Commonsense in Natural Language*. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 34, pages 7432–7439, 2020.
+
+- **HellaSwag**:
+  > Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. *HellaSwag: Can a Machine Really Finish Your Sentence?* In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pages 4791–4800, 2019.
+
+- **WinoGrande**:
+  > Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi. *Winogrande: An Adversarial Winograd Schema Challenge at Scale*. Communications of the ACM, 64(9):99–106, 2021.
+
+- **ARC (AI2 Reasoning Challenge)**:
+  > Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and Oyvind Tafjord. *Think You Have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge*. arXiv preprint arXiv:1803.05457, 2018.
+
+- **OpenbookQA**:
+  > Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. *Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering*. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 2381–2391, 2018.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will facilitate further research and provide clear references for anyone interested in the datasets used in this study.

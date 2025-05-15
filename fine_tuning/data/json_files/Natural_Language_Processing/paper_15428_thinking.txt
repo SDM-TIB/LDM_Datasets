@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Unlocking the Potential of Prompt-Tuning in Bridging Generalized and Personalized Federated Learning" by Wenlong Deng et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the authors conducted experiments on various datasets, which indicates that datasets are indeed involved.
+
+Next, I will focus on the **experiments section** (Section 5) where the authors explicitly describe the datasets used for their experiments. Here, they mention two types of heterogeneity: label heterogeneity and feature heterogeneity, and they list the datasets used for each type.
+
+1. **CIFAR-100 Dataset**: This dataset consists of 50,000 training images and 10,000 testing images distributed across 100 classes. It is a well-known benchmark in the field of machine learning.
+
+2. **Five-Dataset**: This dataset is a sequence of five datasets, which includes SVHN, CIFAR-10, not-MNIST, Fashion-MNIST, and MNIST. The authors refer to this dataset collectively, indicating its use in their experiments.
+
+3. **Office-Caltech10 Dataset**: This dataset comprises four data domains: Amazon, DSLR, Webcam, and Caltech, with a total of 2,533 images across ten classes. It is used to demonstrate feature heterogeneity.
+
+4. **DomainNet Dataset**: This dataset consists of 0.6 million images of 345 classes distributed across six domains: clipart, infograph, painting, quickdraw, real, and sketch. The authors mention using a sub-dataset formed from the top ten most frequent classes for their experiments.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **CIFAR-100**, the citation is:
+  > Alex Krizhevsky, Geoffrey Hinton, et al. *Learning multiple layers of features from tiny images*. 2009.
+
+- For **Five-Dataset**, the citation is:
+  > Sayna Ebrahimi, Franziska Meier, Roberto Calandra, Trevor Darrell, and Marcus Rohrbach. *Adversarial continual learning*. In Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part XI 16, pages 386–402. Springer, 2020.
+
+- For **Office-Caltech10**, the citation is:
+  > Kate Saenko, Brian Kulis, Mario Fritz, and Trevor Darrell. *Adapting visual category models to new domains*. In Computer Vision–ECCV 2010: 11th European Conference on Computer Vision, Heraklion, Crete, Greece, September 5-11, 2010, Proceedings, Part IV 11, pages 213–226. Springer, 2010.
+
+- For **DomainNet**, the citation is:
+  > Xingchao Peng, Qinxun Bai, Xide Xia, Zijun Huang, Kate Saenko, and Bo Wang. *Moment matching for multi-source domain adaptation*. In Proceedings of the IEEE/CVF international conference on computer vision, pages 1406–1415, 2019.
+
+Now that I have gathered the datasets and their citations, I will compile this information into a structured format for further use or analysis.

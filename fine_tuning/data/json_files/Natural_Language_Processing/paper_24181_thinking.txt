@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "PREPAIR: Pointwise Reasoning Enhance Pairwise Evaluating for Robust Instruction-Following Assessments" by Hawon Jeong et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract discusses the evaluation of LLMs using pairwise comparisons, which suggests that datasets may be involved, but I need to find specific names.
+
+Next, I will focus on **section 3 (Analyzing LLM Evaluators on Adversarial Evaluation Samples)**, where the authors mention two specific datasets used for their experiments: **MT-Bench** and **LLMBar**. I will extract details about these datasets, including their purpose and characteristics.
+
+1. **MT-Bench**: This dataset is used to assess evaluation metrics and contains 80 instructions and paired generations from six generative models. The authors note that it includes 1131 human judgments regarding which generation is better or if there is a tie.
+
+2. **LLMBar**: This dataset is designed to evaluate the discerning ability of LLM evaluators in instruction-following tasks. It consists of 419 pairwise evaluation samples, with a focus on both natural and adversarial examples. The authors specifically mention using the **LLMBar-Adversarial set**, which contains adversarial model outputs that superficially appear favorable but deviate from the original instruction.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **MT-Bench**, the citation is:
+  > Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric Xing, et al. 2024. Judging llm-as-a-judge with mt-bench and chatbot arena. Advances in Neural Information Processing Systems, 36.
+
+- For **LLMBar**, the citation is:
+  > Zhiyuan Zeng, Jiatong Yu, Tianyu Gao, Yu Meng, Tanya Goyal, and Danqi Chen. 2024. Evaluating large language models at evaluating instruction following. In International Conference on Learning Representations (ICLR).
+
+Now that I have gathered the necessary information about the datasets, I will compile the dataset entries into a structured format that includes their names, descriptions, and full citations, ensuring that all relevant details are accurately captured for future reference or processing.

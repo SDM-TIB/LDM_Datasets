@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "Offline Q-Learning on Diverse Multi-Task Data Both Scales and Generalizes" by Aviral Kumar et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reading the **abstract** and **introduction** sections. The abstract mentions the use of "multi-task Atari" as a test-bed for their experiments, indicating that there are datasets related to Atari games involved. This prompts me to look for specific dataset names.
+
+Next, I will examine the **methodology** and **experiments** sections, particularly focusing on any sections that explicitly mention datasets. In the introduction, the authors refer to "40 games" and "DQN-Replay dataset," which suggests that these are key datasets used in their experiments.
+
+In the **problem setup** section, the authors provide detailed descriptions of the datasets used:
+1. **DQN-Replay Dataset**: This dataset consists of experiences collected during the training of a DQN agent, containing a total of 400 million transitions. It is used for both sub-optimal and near-optimal training scenarios.
+2. **Sub-optimal Dataset**: This is derived from the DQN-Replay dataset, specifically the initial 20% of trajectories, which contains 10 million transitions.
+3. **Near-optimal Dataset**: This dataset includes all experiences encountered during the training of a DQN agent, totaling 2 billion transitions.
+
+To ensure I have the correct citations for these datasets, I will check the **references section** of the paper. The DQN-Replay dataset is referenced in the context of prior work by Agarwal et al. (2020), which provides the necessary citation.
+
+The full citation for the DQN-Replay dataset is:
+> Rishabh Agarwal, Dale Schuurmans, and Mohammad Norouzi. *D4RL: Datasets for Deep Data-Driven Reinforcement Learning*. arXiv preprint arXiv:2004.07219, 2020.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for clarity and future reference. Each dataset will be described with its name, a brief description, and the full citation.

@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Data-driven and machine-learning based prediction of wave propagation behavior in dam-break flood" by Changli Li et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** to identify any mention of datasets. The abstract indicates that the authors use a machine learning model trained on simulation results consisting of time-sequence flow depths, suggesting that there is a dataset involved.
+
+Next, I will examine the **introduction** section for any additional context about the datasets. The introduction discusses the computational prediction of wave propagation in dam-break floods and mentions the use of numerical solutions, which implies that the data used for training the model may be derived from simulations.
+
+In the **Materials and Methods** section, particularly in subsection 2.1, the authors describe how they generated the training and test datasets from numerical solutions of the Saint-Venant equations. They mention that they constructed a training set consisting of sequence samples and a test set comprising the next 500 sequence samples. They also state that they randomly selected 28 sets of training/test data, each with a length of 2000 time steps. This is crucial information for identifying the datasets.
+
+The authors refer to these datasets as **TP1, TP2, ..., TP28**, indicating that they are testing different time periods for training the machine learning model. I will note that these datasets are derived from the simulation results and are not publicly available as standalone datasets but are instead part of the simulation data uploaded to a GitHub repository.
+
+Now, I will check the **Data Availability** section to find the specific reference to the dataset. The authors mention that the simulation results have been uploaded to a GitHub repository, which is crucial for citation purposes. The repository is titled "lcl1527/dam-break-ESN-LSTM" and can be accessed at the provided URL.
+
+Next, I will compile the full citations for the datasets mentioned:
+
+1. **Training and Test Datasets (TP1 to TP28)**: These datasets are derived from the numerical simulation of a one-dimensional dam-break flood scenario using the Saint-Venant equations. The specific details of each dataset (TP1, TP2, ..., TP28) are not individually cited, but they are part of the overall simulation data available in the GitHub repository.
+   - Citation: Li, C., Han, Z., Li, Y., Li, M., & Wang, W. (2023). Data-driven and machine-learning based prediction of wave propagation behavior in dam-break flood. *GitHub Repository*: lcl1527/dam-break-ESN-LSTM. Available at: https://github.com/lcl1527/dam-break-ESN-LSTM
+
+After gathering all this information, I will summarize the datasets in a structured format, ensuring that the citations are complete and accurate for each dataset derived from the research paper.

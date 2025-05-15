@@ -1,0 +1,166 @@
+[
+    {
+        "dcterms:creator": [
+            "K. Riesen",
+            "H. Bunke"
+        ],
+        "dcterms:description": "COIL-DEL dataset is constructed by applying Harris corner detection and Delaunay Triangulation on images. The result of triangulation is converted to a graph, where nodes and edges represent ending points and lines.",
+        "dcterms:title": "COIL-DEL",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Classification",
+            "Image Processing"
+        ],
+        "dcat:keyword": [
+            "Graph dataset",
+            "Image triangulation",
+            "Corner detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Riesen",
+            "H. Bunke"
+        ],
+        "dcterms:description": "Letter-high dataset involves graph representations of 15 capital letters (i.e. A, E, F, H, I, K, L, M, N, T, V, W, X, Y, Z). In the graph, nodes represent the endpoints of the drawing and (undirected) edges correspond to lines. The letters are highly distorted, which makes the task challenging.",
+        "dcterms:title": "Letter-high",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Classification",
+            "Character Recognition"
+        ],
+        "dcat:keyword": [
+            "Graph dataset",
+            "Character representation",
+            "Distorted letters"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "V. P. Dwivedi",
+            "C. K. Joshi",
+            "T. Laurent",
+            "Y. Bengio",
+            "X. Bresson"
+        ],
+        "dcterms:description": "MNIST dataset is constructed by extracting super-pixels (i.e., small regions of homogeneous intensity in every image). After the super-pixel extraction, a k-nearest-neighbor graph is then constructed to represent the image.",
+        "dcterms:title": "MNIST",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Classification",
+            "Image Recognition"
+        ],
+        "dcat:keyword": [
+            "Graph dataset",
+            "Super-pixels",
+            "Digit recognition"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "V. P. Dwivedi",
+            "C. K. Joshi",
+            "T. Laurent",
+            "Y. Bengio",
+            "X. Bresson"
+        ],
+        "dcterms:description": "CIFAR10 dataset is constructed in the same way as MNIST. The difference between the two datasets is that CIFAR10 contains larger graphs with richer semantic meanings, which makes the classification task more challenging.",
+        "dcterms:title": "CIFAR10",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Classification",
+            "Image Recognition"
+        ],
+        "dcat:keyword": [
+            "Graph dataset",
+            "Image classification",
+            "Rich semantics"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "M. Henaff",
+            "J. Bruna",
+            "Y. LeCun"
+        ],
+        "dcterms:description": "REDDIT-MULTI-12K dataset contains graphs where nodes denote users and edges denote comments. The aim is to classify graphs into different communities.",
+        "dcterms:title": "REDDIT-MULTI-12K",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Classification",
+            "Social Network Analysis"
+        ],
+        "dcat:keyword": [
+            "Graph dataset",
+            "Community detection",
+            "Social media"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "B. Knyazev",
+            "G. W. Taylor",
+            "M. Amer"
+        ],
+        "dcterms:description": "COLORS-3 dataset contains random graphs where each node shows one color from red, green and blue and we aim to capture the number of green nodes in each graph.",
+        "dcterms:title": "COLORS-3",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Classification",
+            "Color Detection"
+        ],
+        "dcat:keyword": [
+            "Graph dataset",
+            "Color classification",
+            "Random graphs"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph Classification"
+        ]
+    }
+]

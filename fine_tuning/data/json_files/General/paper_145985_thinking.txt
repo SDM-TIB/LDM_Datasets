@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "STEP-DPO: STEP-WISE PREFERENCE OPTIMIZATION FOR LONG-CHAIN REASONING OF LLMS" by Xin Lai et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors developed a dataset containing **10K step-wise preference pairs**, which suggests that there is a specific dataset created for their experiments.
+
+Next, I will look for details in **section 4 (Experiments)**, where the authors discuss the datasets used for training and evaluation. They mention using augmented mathematical problems from **Meta-Math** and **MMIQC** for supervised fine-tuning (SFT), which indicates that these datasets are part of their methodology.
+
+In the same section, they also refer to the **MATH** and **GSM8K** datasets for evaluation purposes. The MATH dataset is noted for containing 5000 mathematical problems, while GSM8K includes 1319 problems with step-by-step solutions. This confirms that both datasets are integral to their evaluation metrics.
+
+Now, I will check the **References section** to find the full citations for each dataset mentioned:
+
+1. **Meta-Math**: The citation is:
+   > Yu, L., et al. *Meta-Math: A Dataset for Mathematical Problem Solving*. arXiv:2309.12284, 2023.
+
+2. **MMIQC**: The citation is:
+   > Liu, H., & Yao, A. *MMIQC: A Dataset for Multi-Modal Inference in Quantitative Contexts*. arXiv:2401.09003, 2024.
+
+3. **MATH**: The citation is:
+   > Hendrycks, D., et al. *Measuring Mathematical Problem Solving with the MATH Dataset*. arXiv:2103.03874, 2021.
+
+4. **GSM8K**: The citation is:
+   > Cobbe, K., et al. *Training Verifiers to Solve Math Word Problems*. arXiv:2110.14168, 2021.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations. This will ensure that all relevant details are captured for further analysis or processing.

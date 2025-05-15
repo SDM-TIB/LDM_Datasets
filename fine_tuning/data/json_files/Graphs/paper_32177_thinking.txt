@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "TACO: Temporal Latent Action-Driven Contrastive Loss for Visual Reinforcement Learning" by Ruijie Zheng et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract mentions that TACO achieves significant performance improvements across various tasks, which suggests that datasets are involved.
+
+Next, I will focus on **section 4 (Experiments and Results)**, where the authors describe their empirical evaluations. Here, they mention using the **DeepMind Control Suite (DMC)** for online reinforcement learning experiments. This indicates that the DMC is a dataset used in their experiments.
+
+In **section 4.1**, the authors specify that they evaluate TACO on **nine challenging visual continuous control tasks from the DeepMind Control Suite**. They list the tasks as follows:
+- Quadruped Run
+- Quadruped Walk
+- Hopper Hop
+- Reacher Hard
+- Walker Run
+- Acrobot Swingup
+- Cheetah Run
+- Finger Turn Hard
+- Reach Duplo
+
+In addition to the DMC tasks, the authors also mention using datasets for offline reinforcement learning in **section 4.2**. They describe three types of datasets generated for evaluation:
+1. **Medium dataset**: Trajectories collected by a single policy of medium performance.
+2. **Medium-replay dataset**: Trajectories randomly sampled from the online learning agent’s replay buffer before it reaches medium performance.
+3. **Full-replay dataset**: Trajectories randomly sampled throughout the online learning phase.
+
+The authors specify that the dataset sizes for most tasks are 100K, while the Quadruped Run task has a larger dataset size of 500K.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The DeepMind Control Suite is referenced as follows:
+- **DeepMind Control Suite**: 
+  > Yuval Tassa, Yotam Doron, Alistair Muldal, Tom Erez, Yazhe Li, Diego de Las Casas, David Budden, Abbas Abdolmaleki, Josh Merel, Andrew Lefrancq, Timothy Lillicrap, and Martin Riedmiller. *DeepMind Control Suite*. 2018.
+
+For the datasets used in offline reinforcement learning, the authors do not provide specific citations for the medium, medium-replay, and full-replay datasets, as these are likely generated from their own experiments.
+
+Finally, I will compile the dataset entries, ensuring to include the full citations for the DeepMind Control Suite and clearly describe the other datasets based on the information extracted from the paper. This will ensure that I have a comprehensive overview of the datasets utilized in the research.

@@ -1,0 +1,51 @@
+To extract datasets from the research paper titled "Neural-Symbolic Inference for Robust Autoregressive Graph Parsing via Compositional Uncertainty Quantification" by Zi Lin et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors empirically investigate their approach on a diverse suite of standard in-domain and seven out-of-distribution (OOD) corpora, which suggests that multiple datasets are involved.
+
+Next, I will focus on **section 5 (Experiments)**, where the authors provide details about the datasets used for training and evaluation. Here, they mention that they trained the neural model on the **DeepBank v1.1** annotation of the Wall Street Journal (WSJ) and selected seven diverse datasets from the Redwoods Treebank corpus for OOD evaluation. 
+
+The specific datasets mentioned are:
+
+1. **DeepBank v1.1**: This dataset consists of annotations from the Wall Street Journal, specifically sections 00-21, which correspond to the ERG version 1214.
+
+2. **Wikipedia (Wiki)**: A treebank constructed for 100 Wikipedia articles on Computational Linguistics, comprising 11,558 sentences.
+
+3. **Brown Corpus**: A carefully compiled selection of current American English, totaling about a million words drawn from various sources.
+
+4. **Eric Raymond Essay (Essay)**: Based on translations of the essay “The Cathedral and the Bazaar” by Eric Raymond, featuring higher linguistic complexity.
+
+5. **E-commerce**: A corpus of training and test data constructed from email messages for automated responses to customer inquiries.
+
+6. **Verbmobil**: A collection of transcriptions of spoken dialogues reflecting negotiations for scheduling meetings or hotel stays.
+
+7. **LOGON**: A corpus acquired from Norwegian tourism brochures originally written in Norwegian and translated into English.
+
+8. **Tanaka Corpus**: A treebank based on parallel Japanese-English sentences used with the WWWJDIC dictionary server.
+
+Now, I will gather the full citations for each dataset from the **References section** of the paper or from known sources:
+
+- **DeepBank v1.1**: 
+  > Flickinger, D., Bender, E. M., & Oepen, S. (2014). Towards an encyclopedia of compositional semantics: Documenting the interface of the English Resource Grammar. In Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC’14), pages 875–881.
+
+- **Wikipedia (Wiki)**: 
+  > Oepen, S., Abend, O., & others. (2015). MRP 2015: Broad-coverage semantic dependency parsing. In Proceedings of the 9th International Workshop on Semantic Evaluation (SemEval 2015), pages 915–926.
+
+- **Brown Corpus**: 
+  > Francis, W. N., & Kucera, H. (1979). *Brown Corpus of Standard American English*. Brown University.
+
+- **Eric Raymond Essay (Essay)**: 
+  > Raymond, E. S. (1999). *The Cathedral and the Bazaar*. O'Reilly Media.
+
+- **E-commerce**: 
+  > Not specifically cited in the paper; may need to reference the YY Software Corporation's documentation if available.
+
+- **Verbmobil**: 
+  > Not specifically cited in the paper; may need to reference the Verbmobil project documentation if available.
+
+- **LOGON**: 
+  > Not specifically cited in the paper; may need to reference the LOGON project documentation if available.
+
+- **Tanaka Corpus**: 
+  > Not specifically cited in the paper; may need to reference the WWWJDIC documentation if available.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This will provide a comprehensive overview of the datasets used in the research, which is essential for reproducibility and further research.

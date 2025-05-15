@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Barriers for the performance of graph neural networks (GNN) in discrete random structures" by David Gamarnik, I will follow a systematic approach.
+
+First, I will read through the **abstract and introduction** to identify any datasets that are mentioned or implied. The abstract discusses GNN algorithms and their application to combinatorial optimization problems, but it does not explicitly mention any datasets. However, it references previous works ([SBK22], [SNL+22]) that may have used specific datasets.
+
+Next, I will examine the **main body of the paper**, particularly sections that discuss the problems being addressed, such as the Independent Set problem and the Maximum Cut problem. I will look for any specific datasets or instances that the authors might have used for their experiments or theoretical analysis.
+
+In the **discussion of the Independent Set problem**, the paper mentions that the underlying graph is generated according to a specified probability distribution, specifically referring to random d-regular graphs denoted as Gd(n). This indicates that the authors are using a specific type of graph as a dataset, but I need to confirm if there are any formal datasets cited.
+
+I will also check the **references section** for any papers that might have introduced datasets relevant to the problems discussed. The references include several papers that could potentially describe datasets used in the context of GNNs and combinatorial optimization.
+
+After reviewing the references, I find that the following papers are relevant:
+
+1. **Random d-regular graphs**: The paper cites [JLR11] for background on random graphs, which may provide insights into the datasets used for generating random d-regular graphs.
+   - Citation: Svante Janson, Tomasz Luczak, and Andrzej Rucinski. *Random graphs*, volume 45. John Wiley & Sons, 2011.
+
+2. **Independent Set problem**: The paper references [BGT13] and [F L92], which discuss properties of random regular graphs and their independent sets.
+   - Citation for [BGT13]: M. Bayati, D. Gamarnik, and P. Tetali. *Combinatorial approach to the interpolation method and scaling limits in sparse random graphs*. Annals of Probability. (Conference version in Proc. 42nd Ann. Symposium on the Theory of Computing (STOC) 2010), 41:4080–4115, 2013.
+   - Citation for [F L92]: A.M. Frieze and T. Luczak. *On the independence and chromatic numbers of random regular graphs*. Journal of Combinatorial Theory, Series B, 54(1):123–132, 1992.
+
+3. **Spin Glass models**: The paper references [SNL+22], which discusses finding spin glass ground states through deep reinforcement learning, potentially indicating a dataset related to spin glass models.
+   - Citation: Mutian Shen, Zohar Nussinov, Yang-Yu Liu, Changjun Fan, Yizhou Sun, and Zhong Liu. *Finding spin glass ground states through deep reinforcement learning*. In APS March Meeting Abstracts, volume 2022, pages K09–001, 2022.
+
+After gathering this information, I will compile the datasets and their citations into a structured format for further processing. It appears that while the paper does not explicitly list datasets, it references several foundational works that describe the types of graphs and models used in the context of GNNs and combinatorial optimization problems.

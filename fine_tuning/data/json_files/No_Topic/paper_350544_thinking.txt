@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Multiscale Neural Operator: Learning Fast and Grid-independent PDE Solvers" by Björn Lütjens et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to see if any datasets are mentioned. The abstract discusses the development of a surrogate model for simulating large-scale dynamics, which may imply the use of datasets for training or validation.
+
+Next, I will focus on the **experiments section** where datasets are typically detailed. In this paper, the authors mention using a dataset generated from the **multiscale Lorenz96 equation** for training their model. This is a key dataset that I need to document.
+
+In the **appendix**, the authors provide additional details about the dataset used for the multiscale Lorenz96 simulations. They describe how the dataset was generated, including the initial conditions and the parameters used in the simulations. This information is crucial for understanding the dataset's context and usage.
+
+Now, I will compile the necessary details about the dataset:
+
+1. **Multiscale Lorenz96 Dataset**: This dataset is derived from the multiscale Lorenz96 equations, which model chaotic atmospheric dynamics. The authors generated ground-truth data by integrating the coupled large- and small-scale dynamics using a fourth-order Runge-Kutta solver. The dataset consists of 4,000 training samples and 1,000 test samples, each representing a time series of 200 time-steps.
+
+Next, I will look at the **References section** to find the full citation for the original work related to the multiscale Lorenz96 equation. The relevant citation is:
+
+- For the multiscale Lorenz96 equation, the citation is:
+  > Edward N. Lorenz. *Predictability - a problem partly solved*. In Tim Palmer and Renate Hagedorn, editors, Predictability of Weather and Climate. Cambridge University Press, Cambridge, 2006.
+
+Finally, I will ensure that I have all the necessary details and citations documented clearly for the dataset extracted from the paper. This will include the dataset name, description, and full citation, ready for further processing or review.

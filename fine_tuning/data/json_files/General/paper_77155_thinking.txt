@@ -1,0 +1,59 @@
+To extract datasets from the research paper titled "Stochastic Gradient Descent on Highly-Parallel Architectures" by Yujing Ma et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract and introduction** to see if any datasets are mentioned. The abstract discusses experiments conducted on "five real datasets," which indicates that datasets are indeed present.
+
+Next, I will look for a dedicated **section on datasets** or any mention of datasets in the **experiments section**. In the **experimental evaluation section (Section 6)**, the authors provide a table (Table 3) that lists the datasets used in their experiments. This table includes the following datasets:
+
+1. **Covtype**: 
+   - Number of examples: 581,012
+   - Number of features: 54
+   - Average non-zero entries per example: 54
+   - Sparse size: 485 MB
+   - Dense size: 485 MB
+
+2. **W8a**: 
+   - Number of examples: 64,700
+   - Number of features: 300
+   - Average non-zero entries per example: 11.65
+   - Sparse size: 4.4 MB
+   - Dense size: 155 MB
+
+3. **Real-sim**: 
+   - Number of examples: 72,309
+   - Number of features: 20,958
+   - Average non-zero entries per example: 51.30
+   - Sparse size: 87 MB
+   - Dense size: 12.1 GB
+
+4. **Rcv1**: 
+   - Number of examples: 677,399
+   - Number of features: 47,236
+   - Average non-zero entries per example: 73.16
+   - Sparse size: 1.2 GB
+   - Dense size: 256 GB
+
+5. **News**: 
+   - Number of examples: 19,996
+   - Number of features: 1,355,191
+   - Average non-zero entries per example: 454.99
+   - Sparse size: 134 MB
+   - Dense size: 217 GB
+
+After identifying these datasets, I will check the **References section** to find full citations for each dataset. However, it appears that the datasets are not original datasets created by the authors but rather publicly available datasets commonly used in machine learning research. Therefore, I will provide citations for the datasets based on their common references in the literature:
+
+- **Covtype**: 
+  > Blackard, J. A., & Dean, D. J. (1999). "Comparing Neural Networks to Regression Models for Predicting Forest Cover Types." *Proceedings of the 1999 IEEE International Joint Conference on Neural Networks*.
+
+- **W8a**: 
+  > This dataset is often referenced in the context of the LIBSVM library and is available from the UCI Machine Learning Repository.
+
+- **Real-sim**: 
+  > This dataset is also available from the UCI Machine Learning Repository and is commonly used in text classification tasks.
+
+- **Rcv1**: 
+  > Lewis, D. D., Yang, Y., Rose, T. G., & Li, F. (2004). "RCV1: A New Benchmark Collection for Text Categorization Research." *Journal of Machine Learning Research*, 5, 361-397.
+
+- **News**: 
+  > This dataset is often referenced in the context of text classification and is available from various sources, including the UCI Machine Learning Repository.
+
+Now, I will compile the dataset entries with their respective citations into a structured format for further processing.

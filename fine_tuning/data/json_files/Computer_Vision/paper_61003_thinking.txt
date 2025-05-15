@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Unlearnable Examples Give a False Sense of Security: Piercing through Unexploitable Data with Learnable Examples" by Wan Jiang et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract discusses the concept of unlearnable examples (UEs) and learnable examples (LEs), but I need to look for specific datasets used in the experiments.
+
+In the **introduction**, the authors reference the importance of datasets like ImageNet and MS-Celeb-1M, but I need to find datasets that were specifically used in their experiments.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors detail their evaluation. They mention using three widely adopted benchmark datasets for LE evaluation:
+
+1. **CIFAR-10**: This dataset consists of 50,000 images in the training set and 10,000 images in the test set. It is a well-known dataset for image classification tasks.
+
+2. **CIFAR-100**: Similar to CIFAR-10, this dataset contains 50,000 training images and 10,000 test images, but it has 100 classes instead of 10.
+
+3. **SVHN (Street View House Numbers)**: This dataset contains 73,257 digit images for training and 26,032 digit images for testing, commonly used for digit recognition tasks.
+
+4. **Pets**: This dataset consists of 3,680 pet images for training and 3,669 pet images for testing, used for classification of different pet breeds.
+
+In the **experiments section**, the authors also compare their method against various countermeasures using these datasets, confirming their use in the evaluation process.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **CIFAR-10** and **CIFAR-100**, the citation is:
+  > Alex Krizhevsky, Geoffrey Hinton, et al. 2009. Learning multiple layers of features from tiny images. (2009).
+
+- For **SVHN**, the citation is:
+  > Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo Wu, and Andrew Y Ng. 2011. Reading digits in natural images with unsupervised feature learning. (2011).
+
+- For **Pets**, the citation is:
+  > Omkar M Parkhi, Andrea Vedaldi, Andrew Zisserman, and CV Jawahar. 2012. Cats and dogs. In 2012 IEEE conference on computer vision and pattern recognition. IEEE, 3498–3505.
+
+Having gathered the necessary information, I will now compile the dataset entries with their respective citations into a structured format for further processing.

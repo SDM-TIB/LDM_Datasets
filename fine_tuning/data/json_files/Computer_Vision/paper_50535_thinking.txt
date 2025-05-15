@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Reachability Embeddings: Scalable Self-Supervised Representation Learning from Mobility Trajectories for Multimodal Geospatial Computer Vision" by Swetava Ganguli et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors utilize **probe data** for their experiments, which suggests that this dataset is crucial for their research.
+
+Next, in the **introduction**, the authors discuss the limitations of existing GPS trajectory datasets and mention the use of **probe data** as a solution. This indicates that the probe data is a significant dataset used in their work.
+
+In the **dataset description section (Section IV)**, the authors elaborate on the characteristics of the datasets they are using. They specifically mention that they are using **probe data**, which is a proprietary dataset collected across various geographic regions. This dataset is essential for training supervised semantic segmentation models for the downstream tasks discussed later in the paper.
+
+The authors also mention that they are using **T-Drive dataset** for scalability tests in Section III-D. This dataset is publicly available and contains location coordinates and timestamps for taxi trajectories in Beijing.
+
+Now, I will look for the full citations for these datasets in the **References section** of the paper:
+
+1. **Probe Data**: The authors refer to this dataset as a privacy-preserving, structured, sequential dataset but do not provide a specific citation. However, they mention that it is used for training supervised models across various geographic regions.
+
+2. **T-Drive Dataset**: The citation for this dataset is:
+   > J. Yuan et al., “T-Drive: Driving directions based on taxi trajectories,” in ACM SIGSPATIAL, 2010.
+
+After gathering this information, I will summarize the datasets as follows:
+
+- **Probe Data**: A proprietary dataset used for training supervised models across various geographic regions. Specific citation details are not provided in the paper.
+  
+- **T-Drive Dataset**: A publicly available dataset containing location coordinates and timestamps for taxi trajectories in Beijing. The citation is:
+   > J. Yuan et al., “T-Drive: Driving directions based on taxi trajectories,” in ACM SIGSPATIAL, 2010.
+
+Finally, I will compile this information into a structured format for further processing or review.

@@ -1,0 +1,92 @@
+[
+    {
+        "dcterms:creator": [
+            "Y. LeCun",
+            "C. Cortes",
+            "C. J. Burges"
+        ],
+        "dcterms:description": "The permuted MNIST dataset is constructed by applying random permutations to the original MNIST dataset, creating multiple tasks where each task consists of the same images but with different label mappings.",
+        "dcterms:title": "Permuted MNIST",
+        "dcterms:issued": "1998",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://yann.lecun.com/exdb/mnist",
+        "dcat:theme": [
+            "Image Classification",
+            "Handwritten Digit Recognition"
+        ],
+        "dcat:keyword": [
+            "MNIST",
+            "Handwritten digits",
+            "Image dataset",
+            "Permuted tasks"
+        ],
+        "dcat:landingPage": "http://yann.lecun.com/exdb/mnist",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Krizhevsky",
+            "G. Hinton"
+        ],
+        "dcterms:description": "Split CIFAR-10/100 consists of the CIFAR-10 dataset for the first task and subsequent tasks created from the CIFAR-100 dataset, where each task contains a subset of classes.",
+        "dcterms:title": "Split CIFAR-10/100",
+        "dcterms:issued": "2009",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Object Recognition"
+        ],
+        "dcat:keyword": [
+            "CIFAR-10",
+            "CIFAR-100",
+            "Image dataset",
+            "Color images"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "T. Jian",
+            "B. C. Rendon",
+            "E. Ojuba",
+            "N. Soltani",
+            "Z. Wang",
+            "K. Sankhe",
+            "A. Gritsenko",
+            "J. Dy",
+            "K. Chowdhury",
+            "S. Ioannidis"
+        ],
+        "dcterms:description": "The Split RF dataset contains radio frequency signals from multiple WiFi devices, partitioned into tasks for classification.",
+        "dcterms:title": "Split RF (Radio Frequency Fingerprinting)",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Signal Processing",
+            "Wireless Communication"
+        ],
+        "dcat:keyword": [
+            "Radio Frequency",
+            "Fingerprinting",
+            "Wireless signals",
+            "Classification dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Signal",
+        "mls:task": [
+            "Classification"
+        ]
+    }
+]

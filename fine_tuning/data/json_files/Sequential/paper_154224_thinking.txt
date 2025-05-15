@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "A machine learning framework for LES closure terms" by Marius Kurz and Andrea D. Beck, I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** and **introduction** sections to see if any datasets are mentioned. The abstract discusses the use of artificial neural networks (ANN) to predict closure terms for large eddy simulations (LES) based on coarse-scale data, but it does not specify any datasets at this point.
+
+Next, I will examine **section 2 (Turbulence modelling)**, particularly **subsection 2.3 (Homogeneous isotropic turbulence)**, where the authors describe the decaying homogeneous isotropic turbulence (DHIT) as a test case for their study. They mention that they generated training data from direct numerical simulation (DNS) results of DHIT, which indicates that this is a dataset of interest.
+
+In **section 4 (Training the networks)**, the authors detail how they obtained training data from 10 DNS runs of the DHIT test case, with 9 runs used for training and validation, and 1 run kept as a test set. They specify that the training data was sampled between specific time intervals, which provides additional context about the dataset.
+
+Now, I will look for the full citations of the datasets mentioned. The authors refer to the DNS data used for the DHIT test case, but they do not provide a formal citation for this dataset in the references. However, they do reference the procedure for generating the initial conditions for the DHIT simulations, which is based on the work of Chasnov and Rogallo.
+
+To summarize the datasets extracted from the paper:
+
+1. **Decaying Homogeneous Isotropic Turbulence (DHIT) Dataset**: This dataset is derived from direct numerical simulations (DNS) of decaying homogeneous isotropic turbulence, which serves as the basis for training the ANN models. The authors mention that they used a specific procedure for generating the initial conditions for the DHIT simulations.
+
+The citation for the DHIT dataset can be referenced as follows:
+- Chasnov, J. R. (1995). The decay of axisymmetric homogeneous turbulence. *Physics of Fluids*, 7, 600-605.
+- Rogallo, R. S. (1981). Numerical experiments in homogeneous turbulence. Tech. Report NASA-TM-81315, NASA Ames Research Center.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

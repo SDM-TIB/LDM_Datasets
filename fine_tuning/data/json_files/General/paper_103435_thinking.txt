@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "CIM: Class-Irrelevant Mapping for Few-Shot Classification" by Shuai Shao et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract provides a general overview, but I need to look for specific mentions of datasets in the context of experiments or evaluations.
+
+In the **introduction**, the authors discuss the challenges of Few-Shot Classification (FSC) and the importance of datasets for training and evaluation. However, they do not mention specific datasets here.
+
+Next, I will focus on the **experiments section**, particularly **section IV (Experiments)**, where the authors explicitly mention the datasets used for evaluation. They state that they evaluate their method on two benchmark datasets:
+
+1. **mini-ImageNet**: This dataset is described as a subset of the ImageNet dataset, containing 100 classes, with 64 classes for training, 16 for validation, and 20 for testing. Each class includes 600 images sized 84 × 84.
+
+2. **tiered-ImageNet**: This dataset is also a subset of ImageNet, consisting of 608 classes, with 351 classes for training, 97 for validation, and 160 for testing. Each class contains 600 images, all sized 84 × 84.
+
+The authors also mention that they collected bounding boxes from another source, which is referenced as [30], but this does not constitute a dataset in itself.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned:
+
+- For **mini-ImageNet**, the citation is:
+  > O. Vinyals, C. Blundell, T. Lillicrap, D. Wierstra et al., “Matching networks for one shot learning,” in NeurIPS, vol. 29, 2016, pp. 3630–3638.
+
+- For **tiered-ImageNet**, the citation is:
+  > M. Ren, E. Triantafillou, S. Ravi, J. Snell, K. Swersky, J. B. Tenenbaum, H. Larochelle, and R. S. Zemel, “Meta-learning for semi-supervised few-shot classification,” in ICLR, 2018.
+
+With this information, I have successfully identified and cited the datasets used in the paper. I will now compile the dataset entries into a structured format for further processing.

@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "LORA FINE-TUNING EFFICIENTLY UNDOES SAFETY TRAINING IN LLAMA 2-CHAT 70B" by Simon Lermen et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract and introduction** to see if any datasets are mentioned. The abstract discusses the evaluation of the fine-tuning method on "two refusal benchmarks," which suggests that datasets are involved, but I need to find their specific names.
+
+Next, I will examine the **methodology section** to identify any datasets used for training or evaluation. In this case, the authors mention using a "synthetic dataset of harmful instructions and responses" for fine-tuning. However, they do not provide a specific name for this dataset, which may indicate that it is not publicly available or is a custom dataset created for the study.
+
+Then, I will look into the **results section** where the authors discuss the benchmarks used for evaluation. They mention two refusal benchmarks: **AdvBench** and **RefusalBench**. I will need to gather more details about these benchmarks to understand their composition and purpose.
+
+In the **appendix**, the authors provide a detailed description of **AdvBench**, which consists of 520 harmful instructions, and **RefusalBench**, which contains 783 questions across various categories. This information is crucial for documenting the datasets.
+
+Now, I will compile the full citations for the datasets mentioned:
+
+1. **AdvBench**: The authors reference this benchmark as introduced by Zou et al. (2023b). The full citation is:
+   > Zou, A., Wang, Z., Kolter, J. Z., and Fredrikson, M. (2023b). Universal and transferable adversarial attacks on aligned language models.
+
+2. **RefusalBench**: The authors created this benchmark themselves, so there is no external citation. However, I will note that it is a custom dataset designed for their study.
+
+Since the synthetic dataset used for fine-tuning is not named or cited, I will not include it in the final dataset documentation.
+
+Finally, I will summarize the findings and prepare to format them according to the required structure, ensuring that the full citations are included for each dataset identified.

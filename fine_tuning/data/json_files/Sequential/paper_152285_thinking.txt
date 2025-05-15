@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Robust Named Entity Recognition in Idiosyncratic Domains" by Sebastian Arnold et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and evaluation sections** of the paper. The abstract mentions that the authors report F1 scores on standard datasets, which indicates that there are specific datasets used for evaluation.
+
+Next, I will focus on the **introduction** where the authors discuss the challenges of named entity recognition (NER) in specialized domains. They mention the need for robust datasets but do not specify names yet. 
+
+Moving on to **section 4 (Evaluation)**, I will look for any explicit mentions of datasets used in their experiments. The authors provide a table (Table 1) that lists the datasets used for training and evaluation. Here, I find:
+
+1. **GENIA Corpus**: This dataset is described as containing biomedical abstracts from the PubMed database, specifically focusing on technical term annotations related to molecular biology.
+
+2. **CoNLL2003**: This is identified as a standard NER dataset based on the Reuters RCV-1 news corpus, covering named entities of types such as person, location, organization, and miscellaneous.
+
+Additionally, the authors mention testing on other datasets like **KORE50**, **ACE2004**, and **MSNBC**, which are also relevant for their evaluation.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **GENIA Corpus**, the citation is:
+  > Ohta, T., Tateisi, Y., & Kim, J. (2002). The GENIA Corpus: An Annotated Research Abstract Corpus in Molecular Biology Domain. In *International Conference on Human Language Technology Research 2002*, pages 82–86. Morgan Kaufmann Publishers Inc.
+
+- For the **CoNLL2003 dataset**, the citation is:
+  > Kim, J.-D., Ohta, T., Tsuruoka, Y., Tateisi, Y., & Collier, N. (2004). Introduction to the Bio-Entity Recognition Task at JNLPBA. In *JNLPBA’04*, pages 70–75. ACL.
+
+- For the **KORE50 dataset**, the citation is:
+  > Hoffart, J., Seufert, S., Nguyen, D. B., Theobald, M., & Weikum, G. (2012). KORE: Keyphrase Overlap Relatedness for Entity Disambiguation. In *CIKM’12*, pages 545–554. ACM.
+
+- For the **ACE2004 dataset**, the citation is:
+  > Mitchell, A., Strassel, S., Huang, S., & Zakhary, R. (2005). ACE 2004 Multilingual Training Corpus. LDC, Philadelphia, 1:1–1.
+
+- For the **MSNBC dataset**, the citation is not explicitly provided in the paper, but it is generally known to be part of the ACE evaluation datasets.
+
+After gathering all this information, I will compile the dataset entries with their full citations, ensuring that each dataset is accurately represented and attributed to its source. This will provide a comprehensive overview of the datasets used in the research.

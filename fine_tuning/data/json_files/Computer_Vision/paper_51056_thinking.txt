@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "ClimART: A Benchmark Dataset for Emulating Atmospheric Radiative Transfer in Weather and Climate Models" by Salva Rühling Cachay et al., I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract states that the authors built a large dataset called **ClimART** with over 10 million samples, which indicates that this is a primary dataset of interest.
+
+Next, I will focus on **section 4 (ClimART Dataset)**, which is likely to contain detailed information about the dataset. In this section, the authors describe the dataset's collection process, structure, and intended use. They mention that ClimART includes data from present, pre-industrial, and future climate conditions, which suggests that there are multiple subsets within this dataset.
+
+Within **section 4.1 (Dataset collection)**, the authors explain how they collected global snapshots from the Canadian Earth System Model (CanESM5) simulations, detailing the time frame (1979-2014) and the total size of the dataset (1.5TB). This section confirms that ClimART is the main dataset being discussed.
+
+In **section 4.3 (Dataset split)**, the authors outline how they recommend splitting the dataset into training, validation, and test sets. They specify that the training data comes from 1979 to 2006, while the test set spans 2007 to 2014. This information is crucial for understanding how the dataset can be utilized in experiments.
+
+The authors also mention **out-of-distribution (OOD) test sets** in section 4.3.1, which include data from the Mount Pinatubo eruption (1991) and historical data from 1850-1852, as well as future data from 2097-2099. These subsets are important for evaluating the generalization capabilities of machine learning models.
+
+Now, I will check the **References section** for full citations related to the ClimART dataset and the Canadian Earth System Model (CanESM5). The relevant citations are:
+
+- For **ClimART**:
+  > Rühling Cachay, S., Ramesh, V., Cole, J. N. S., Barker, H., & Rolnick, D. (2021). ClimART: A Benchmark Dataset for Emulating Atmospheric Radiative Transfer in Weather and Climate Models. In Proceedings of the 35th Conference on Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks.
+
+- For **CanESM5**:
+  > Swart, N. C., Cole, J. N. S., Kharin, V. V., Lazare, M., Scinocca, J. F., Gillett, N. P., Anstey, J., Arora, V., Christian, J. R., Hanna, S., Jiao, Y., Lee, W. G., Majaess, F., Saenko, O. A., Seiler, C., Seinen, C., Shao, A., Sigmond, M., Solheim, L., von Salzen, K., Yang, D., & Winter, B. (2019). The Canadian Earth System Model version 5 (CanESM5.0.3). Geoscientific Model Development, 12(11), 4823–4873.
+
+After gathering all this information, I will summarize the datasets extracted from the paper, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets discussed in the research paper.

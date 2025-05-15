@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Scalable Optimal Transport in High Dimensions for Graph Distances, Embedding Alignment, and More" by Johannes Gasteiger et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions the use of approximations for optimal transport and references various applications, which may imply the presence of datasets. The introduction will provide context and possibly name specific datasets used in the experiments.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments section**. In this paper, the authors describe their experimental setup and results, which typically includes the datasets used for evaluation. I will pay close attention to any tables or figures that summarize dataset characteristics or results.
+
+Upon reviewing the paper, I find the following datasets mentioned:
+
+1. **AIDS Dataset**: This dataset is used to compute the exact graph edit distance (GED) for small graphs (≤ 30 nodes). The paper states that it is sourced from Riesen & Bunke (2008).
+
+2. **Linux Dataset**: This dataset is utilized for graph distance regression and is mentioned in the context of comparing the proposed model against state-of-the-art baselines.
+
+3. **Preferential Attachment Graphs**: The authors generated two new datasets by computing the GED on graphs created using the preferential attachment model. The paper describes the generation process in detail.
+
+Now, I will gather the full citations for these datasets from the **References section** of the paper:
+
+- For the **AIDS Dataset**, the citation is:
+  > Riesen, K., & Bunke, H. (2008). IAM Graph Database Repository for Graph Based Pattern Recognition and Machine Learning. In Structural, Syntactic, and Statistical Pattern Recognition.
+
+- For the **Linux Dataset**, the citation is:
+  > Bai, Y., Ding, H., Sun, Y., & Wang, W. (2019). SimGNN: A Neural Network Approach to Fast Graph Similarity Computation. In WSDM.
+
+- For the **Preferential Attachment Graphs**, the citation is:
+  > The dataset generation process is based on the initial attractiveness model, as described in the paper, but does not have a specific citation since it is a generated dataset.
+
+After compiling this information, I will ensure that each dataset is clearly documented with its name, description, and full citation. This will provide a comprehensive overview of the datasets used in the research paper, facilitating further analysis or replication of the study.

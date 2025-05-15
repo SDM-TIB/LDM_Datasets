@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Stolen Subwords: Importance of Vocabularies for Machine Translation Model Stealing" by Vilém Zouhar, I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to locate any references to datasets. The abstract mentions the exploration of a monolingual dataset (DL1) and the creation of a synthetic dataset in L2, which indicates that datasets are involved.
+
+Next, I will focus on the **Model Stealing section (Section 3)**, where the author discusses the datasets used for training the student model. Here, the paper specifies that they used **10M parallel sentences from three datasets**: ParaCrawl, EuroPat, and CommonCrawlAligned. This is a clear indication of the datasets being utilized.
+
+In the **Data subsection**, the author provides specific details about each dataset:
+1. **ParaCrawl (PCrawl)**: Contains 9.8M sentences for training, 100k for development, and 100k for testing.
+2. **EuroPat**: Also has 9.8M sentences for training, 100k for development, and 100k for testing.
+3. **CommonCrawlAligned (CCrawl)**: Follows the same split as the other datasets.
+
+I will also check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **ParaCrawl**, the citation is:
+  > Marta Bañón, Pinzhen Chen, Barry Haddow, Kenneth Heafield, Hieu Hoang, Miquel Esplà-Gomis, Mikel L Forcada, Amir Kamran, Faheem Kirefu, Philipp Koehn, et al. *ParaCrawl: Web-scale acquisition of parallel corpora*. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 4555–4567, 2020.
+
+- For **EuroPat**, the citation is:
+  > Kenneth Heafield, Elaine Farrow, Jelmer Van Der Linde, Gema Ramírez-Sánchez, and Dion Wiggins. *The EuroPat corpus: A parallel corpus of european patent data*. In Proceedings of the Thirteenth Language Resources and Evaluation Conference, pages 732–740, 2022.
+
+- For **CommonCrawlAligned**, the citation is:
+  > Ahmed El-Kishky, Vishrav Chaudhary, Francisco Guzmán, and Philipp Koehn. *CCAligned: A massive collection of cross-lingual web-document pairs*. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020), pages 5960–5969, 2020.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

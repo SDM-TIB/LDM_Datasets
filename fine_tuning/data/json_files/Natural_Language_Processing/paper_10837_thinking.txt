@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "ChatGPT-powered Conversational Drug Editing" by Shengchao Liu et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to locate any references to datasets. The abstract mentions that the authors empirically demonstrate their framework on various drug editing tasks, which suggests that datasets are involved.
+
+Next, I will focus on the **methodology section**, particularly the parts that describe the experiments and the data used. Here, the authors specify that they conducted experiments on three types of drugs: small molecules, peptides, and proteins. They mention using specific datasets for these tasks.
+
+1. **Small Molecules**: The authors state that they sampled input molecules and a retrieval database from **ZINC**. They specify that they sampled 200 molecules as input and 10,000 molecules for the retrieval database. This indicates that ZINC is a key dataset used in their experiments.
+
+2. **Peptide-MHC Binding Dataset**: The authors refer to an experimental dataset of peptide-MHC binding affinities, which contains 149 human MHC Class I proteins and 309,000 peptides. They mention using 30 common MHC proteins and sampling 500 peptides from the source allele types for their experiments.
+
+3. **Protein Dataset**: For protein editing tasks, the authors utilize the **TAPE** benchmark, which includes datasets for protein sequence property prediction, specifically focusing on secondary structure prediction.
+
+Now, I will gather the full citations for these datasets from the **References section** of the paper:
+
+- For the **ZINC dataset**, the citation is:
+  > Irwin, J. J., Sterling, T., Mysinger, M. M., Bolstad, E. S., & Coleman, R. G. (2012). *ZINC: a free tool to discover chemistry for biology*. Journal of Chemical Information and Modeling, 52(7), 1757-1768. DOI: 10.1021/ci3001277.
+
+- For the **Peptide-MHC Binding Dataset**, the citation is:
+  > O’Donnell, T. J., Rubinsteyn, A., & Laserson, U. (2020). *MHCflurry 2.0: improved pan-allele prediction of MHC class I-presented peptides by incorporating antigen processing*. Cell Systems, 11(1), 42-48. DOI: 10.1016/j.cels.2020.06.005.
+
+- For the **TAPE dataset**, the citation is:
+  > Rao, R., et al. (2019). *Evaluating protein transfer learning with TAPE*. Advances in Neural Information Processing Systems, 32.
+
+After identifying the datasets and their citations, I will compile this information into a structured format for further use or analysis. This systematic approach ensures that I capture all relevant datasets and their citations accurately.

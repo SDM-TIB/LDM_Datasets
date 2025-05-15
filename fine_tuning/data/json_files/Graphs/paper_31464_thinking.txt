@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Preventing Dimensional Collapse of Incomplete Multi-View Clustering via Direct Contrastive Learning" by Kaiwu Zhang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract states that the method was evaluated on **5 public datasets**, which indicates that there are specific datasets to look for.
+
+Next, I will focus on the **experiments section**, particularly the part where the authors describe their experimental setup. In this section, they mention the datasets used for testing and provide details about each one. I will look for a subsection titled **"1) Datasets Descriptions"** where they list the datasets.
+
+The paper describes the following datasets:
+
+1. **BDGP Dataset**: This dataset consists of images of drosophila embryos, containing 2,500 samples across 5 classes, with each sample having two views of 1750-dimensional visual features and 79-dimensional textual features.
+
+2. **MNIST-USPS Dataset**: This dataset contains 5,000 samples across 10 categories, with two views derived from the MNIST and USPS datasets.
+
+3. **Caltech Dataset**: An image dataset constructed into a dual-view dataset for evaluation.
+
+4. **Fashion Dataset**: A dataset with 10,000 samples of products, where two different styles are treated as two views.
+
+5. **Noisy MNIST Dataset**: This dataset is a variant of the MNIST dataset, containing 20,000 samples with Gaussian noise added to the images.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets mentioned in the paper are as follows:
+
+- For **BDGP Dataset**:
+  > X. Cai, H. Wang, H. Huang, and C. Ding. "Joint stage recognition and anatomical annotation of drosophila gene expression patterns." *Bioinformatics*, vol. 28, no. 19, pp. i16–i24, 2012.
+
+- For **MNIST-USPS Dataset**:
+  > X. Peng, Z. Huang, J. Lv, H. Zhu, and J. T. Zhou. "Comic: Multi-view clustering without parameter selection." In *ICML*, 2019, pp. 5092–5101.
+
+- For **Caltech Dataset**:
+  > L. Fei-Fei, R. Fergus, and P. Perona. "Learning generative visual models from few training examples: An incremental bayesian approach tested on 101 object categories." In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*, 2004, pp. 178–178.
+
+- For **Fashion Dataset**:
+  > H. Xiao, K. Rasul, and R. V. ollgraf. "Fashion-MNIST: A novel image dataset for benchmarking machine learning algorithms." *arXiv preprint arXiv:1708.07747*, 2017.
+
+- For **Noisy MNIST Dataset**:
+  > W. Wang, R. Arora, K. Livescu, and J. Bilmes. "On deep multi-view representation learning." In *ICML*, 2015, pp. 1083–1092.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use.

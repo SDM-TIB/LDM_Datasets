@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Self-Damaging Contrastive Learning" by Ziyu Jiang et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract discusses experiments across multiple datasets, which suggests that there are specific datasets used in their research.
+
+Next, I will focus on **section 4.1 (Datasets and Training Settings)**, where the authors explicitly list the datasets they used for their experiments. Here, they mention several datasets:
+
+1. **Long-tail CIFAR-10**: This dataset is derived from the original CIFAR-10 dataset, which consists of 60,000 32x32 images across 10 classes. The long-tail version was introduced in a previous work by Cui et al. (2019) and has an imbalance factor of 100.
+
+2. **Long-tail CIFAR-100**: Similar to CIFAR-10, this dataset is based on the original CIFAR-100 dataset, which contains 60,000 images across 100 classes. The long-tail version also follows the same methodology as CIFAR-10-LT.
+
+3. **ImageNet-LT**: This dataset is a widely used benchmark for long-tail recognition, introduced by Liu et al. (2019). It contains 115.8K images, with class samples determined by a Pareto distribution.
+
+4. **ImageNet-LT-exp**: Another long-tail version of ImageNet, created using an exponential sampling rule, also introduced by Cui et al. (2019). This dataset contains 229.7K images.
+
+5. **Long-tail ImageNet-100**: A smaller dataset sampled from ImageNet-100, containing 12.21K images, with class samples determined by a down-sampled Pareto distribution.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **CIFAR-10** and **CIFAR-100**, the citation is:
+  > Alex Krizhevsky and Geoffrey Hinton. *Learning Multiple Layers of Features from Tiny Images*. Technical Report, 2009.
+
+- For **ImageNet-LT**, the citation is:
+  > Liu, Z., Miao, Z., Zhan, X., Wang, J., Gong, B., and Yu, S. X. *Large-scale long-tailed recognition in an open world*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 2537–2546, 2019.
+
+- For **ImageNet-LT-exp**, the citation is:
+  > Cui, Y., Jia, M., Lin, T.-Y., Song, Y., and Belongie, S. *Class-balanced loss based on effective number of samples*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 9268–9277, 2019.
+
+- For **Long-tail ImageNet-100**, the citation is:
+  > Tian, Y., Krishnan, D., and Isola, P. *Contrastive multiview coding*. arXiv preprint arXiv:1906.05849, 2019.
+
+Now that I have gathered the datasets and their citations, I will compile this information into a structured format for further use or analysis.

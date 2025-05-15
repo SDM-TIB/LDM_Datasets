@@ -1,0 +1,260 @@
+[
+    {
+        "dcterms:creator": [
+            "Joe Cavanagh",
+            "Andrew Gritsevskiy",
+            "Derik Kauffman"
+        ],
+        "dcterms:description": "This task tests the ability of LMs to repeat text without modifying it. Each prompt starts with an instruction to repeat the input, followed by examples of an input sentence and the same sentence repeated as output. The prompt ends with an atypical input sentence.",
+        "dcterms:title": "Resisting Correction",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Language Processing",
+            "Text Generation"
+        ],
+        "dcat:keyword": [
+            "Text repetition",
+            "Language models",
+            "Instruction following"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Text Generation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Alisa Liu",
+            "Jiacheng Liu"
+        ],
+        "dcterms:description": "This task tests whether larger LMs are more susceptible to memorization traps, where reciting memorized text causes worse task performance. It requires LMs to produce a variation on a common phrase rather than just outputting the common phrase.",
+        "dcterms:title": "Memo Trap",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Language Processing",
+            "Text Generation"
+        ],
+        "dcat:keyword": [
+            "Memorization",
+            "Language models",
+            "Phrase generation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Text Generation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Xudong Shen"
+        ],
+        "dcterms:description": "This task tests whether LMs can reason with redefinitions of symbols and words that contradict their conventional meanings. The LM is prompted to redefine a common symbol or word and then perform a simple task using the redefinition.",
+        "dcterms:title": "Redefine",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Language Processing",
+            "Symbolic Reasoning"
+        ],
+        "dcat:keyword": [
+            "Redefinition",
+            "Language models",
+            "Symbol reasoning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Symbolic Reasoning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Derik Kauffman",
+            "Aaron Kirtland",
+            "Andrew Gritsevskiy",
+            "Joe Cavanagh"
+        ],
+        "dcterms:description": "This task tests the ability of LMs to follow simple commands to repeat or capitalize sentences without executing instructions contained within the sentences. It involves giving instructions to repeat or capitalize the input sentence, followed by examples.",
+        "dcterms:title": "Prompt Injection",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Language Processing",
+            "Security"
+        ],
+        "dcat:keyword": [
+            "Prompt injection",
+            "Instruction following",
+            "Language models"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Text Generation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Sicong Huang",
+            "Daniel Wurgaft"
+        ],
+        "dcterms:description": "This task tests the ability of LMs to apply logical and deductive reasoning to infer whether a given conclusion follows from simple statements, specifically testing a form of deductive argument called modus tollens.",
+        "dcterms:title": "Modus Tollens",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Logic",
+            "Language Processing"
+        ],
+        "dcat:keyword": [
+            "Logical reasoning",
+            "Deductive reasoning",
+            "Language models"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Logical Reasoning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Tomasz Korbak"
+        ],
+        "dcterms:description": "This task tests whether language models are able to violate a repetitive pattern when instructed to do so, examining the ability to suppress pattern-matching behavior.",
+        "dcterms:title": "Pattern Match Suppression",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Language Processing",
+            "Pattern Recognition"
+        ],
+        "dcat:keyword": [
+            "Pattern matching",
+            "Language models",
+            "Instruction following"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Pattern Recognition"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Zhengping Zhou",
+            "Yuhui Zhang"
+        ],
+        "dcterms:description": "This task tests whether LMs are able to handle questions containing negation, specifically by programmatically negating questions from an existing multiple-choice dataset.",
+        "dcterms:title": "NeQA",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Language Processing",
+            "Negation Handling"
+        ],
+        "dcat:keyword": [
+            "Negation",
+            "Multiple choice",
+            "Language models"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Question Answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Gabriel Recchia"
+        ],
+        "dcterms:description": "This task asks LMs to round numbers to the correct number of significant figures, testing their ability to follow instructions accurately.",
+        "dcterms:title": "Sig Figs",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Mathematics",
+            "Language Processing"
+        ],
+        "dcat:keyword": [
+            "Significant figures",
+            "Rounding",
+            "Language models"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Mathematical Reasoning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "The Floating Droid"
+        ],
+        "dcterms:description": "This task tests whether LMs can assess whether a bet was worth taking based on its expected value, using few-shot examples that match the expected value.",
+        "dcterms:title": "Hindsight Neglect",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Decision Making",
+            "Language Processing"
+        ],
+        "dcat:keyword": [
+            "Expected value",
+            "Decision making",
+            "Language models"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Decision Making"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Tom Tseng"
+        ],
+        "dcterms:description": "This task tests to what extent and in what way LMs fixate on repetitive examples in the preceding context, specifically in simple algebra questions.",
+        "dcterms:title": "Repetitive Algebra",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Mathematics",
+            "Language Processing"
+        ],
+        "dcat:keyword": [
+            "Algebra",
+            "Repetition",
+            "Language models"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Mathematical Reasoning"
+        ]
+    }
+]

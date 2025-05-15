@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Exploring the Use of Large Language Models for Reference-Free Text Quality Evaluation: An Empirical Study" by Yi Chen et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methods, and experimental setup sections** to find any references to datasets. The abstract mentions that the authors conducted experiments and released the used data, which indicates that datasets are involved.
+
+Next, I will focus on the **Methods section**, specifically **section 2 (Method)**, where the authors describe their experimental setup. They mention four distinct natural language generation tasks: Text Summarization, Dialogue Response Generation, Story Generation, and Paraphrase Generation. Each task is likely associated with specific datasets.
+
+In **section 3.1 (Tasks and Datasets)**, the authors explicitly list the datasets used for each task:
+
+1. **SummEval**: This dataset is used for Text Summarization and is described as a collection of human annotations for 16 model-generated summaries on 100 CNN/DailyMail news articles, evaluated over four dimensions: coherence, fluency, consistency, and relevance.
+
+2. **FED Dataset**: This dataset is used for Dialogue Response Generation and contains fine-grained human judgments for 124 conversations, evaluating aspects such as coherence, error recovery, consistency, diversity, and overall performance.
+
+3. **OpenMEVA-ROC**: This dataset is utilized for Story Generation and consists of 200 story beginnings with five corresponding machine-generated storylines for each beginning, manually annotated for overall quality.
+
+4. **Twitter-Para**: This dataset is used for Paraphrase Generation and contains 761 input sentences, each with an average of 9.41 paraphrase candidates. The authors also mention an extended test set derived from Twitter-Para.
+
+Now, I will check the **References section** to find full citations for these datasets:
+
+- For **SummEval**, the citation is:
+  > Alexander R. Fabbri, Wojciech Kryściński, Bryan McCann, Caiming Xiong, Richard Socher, and Dragomir Radev. *SummEval: Re-evaluating summarization evaluation*. Transactions of the Association for Computational Linguistics, 9:391–409, 2021.
+
+- For **FED Dataset**, the citation is:
+  > Shikib Mehri and Maxine Eskenazi. *USR: An unsupervised and reference free evaluation metric for dialog generation*. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 681–707, 2020.
+
+- For **OpenMEVA-ROC**, the citation is:
+  > Jian Guan, Zhexin Zhang, Zhuoer Feng, Zitao Liu, Wenbiao Ding, Xiaoxi Mao, Changjie Fan, and Minlie Huang. *OpenMEVA: A benchmark for evaluating open-ended story generation metrics*. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics, pages 6394–6407, 2021.
+
+- For **Twitter-Para**, the citation is:
+  > Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, and Yangfeng Ji. *Extracting lexically divergent paraphrases from Twitter*. Transactions of the Association for Computational Linguistics, 2:435–448, 2014.
+
+After gathering this information, I will compile the dataset entries with their respective citations into a structured format for further processing or review.

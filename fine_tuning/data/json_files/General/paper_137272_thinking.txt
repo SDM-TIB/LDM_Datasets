@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "TWINBOOSTER: Synergising Large Language Models with Barlow Twins and Gradient Boosting for Enhanced Molecular Property Prediction" by Maximilian G. Schuh et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, materials and methods, and results sections** to identify any datasets mentioned. The abstract mentions the FS-Mol benchmark, which indicates that a dataset is involved.
+
+Next, I will focus on **section 2 (Materials and Methods)**, specifically **subsection 2.1 (Dataset)**, where the authors describe the FS-Mol dataset in detail. They explain that the FS-Mol dataset is designed for few-shot learning in drug discovery, simulating the challenges of machine learning with small datasets. It contains training, validation, and testing data sourced from ChEMBL, which is crucial for understanding its context and application.
+
+The authors provide specific details about the FS-Mol dataset, including:
+- It evaluates single-task, multi-task, and meta-learning approaches.
+- It includes a set of support molecules ranging from 16 to 256, along with binary activity labels.
+
+In addition, I will look for any references to other datasets or data sources in the paper. The authors mention using PubChem for bioassay information, which is also relevant.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned:
+- For the **FS-Mol dataset**, the citation is:
+  > Megan Stanley, John F. Bronskill, Krzysztof Maziarz, Hubert Misztela, Jessica Lanini, Marwin Segler, Nadine Schneider, and Marc Brockschmidt. *FS-Mol: A Few-Shot Learning Dataset of Molecules*. In Thirty-Fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2), August 2021.
+
+- For **ChEMBL**, the citation is:
+  > Anna Gaulton, Louisa J. Bellis, A. Patricia Bento, Jon Chambers, Mark Davies, Anne Hersey, Yvonne Light, Shaun McGlinchey, David Michalovich, Bissan Al-Lazikani, and John P. Overington. *ChEMBL: A large-scale bioactivity database for drug discovery*. Nucleic Acids Research, 40(Database issue):D1100–1107, January 2012.
+
+- For **PubChem**, the citation is:
+  > Sunghwan Kim, Jie Chen, Tiejun Cheng, Asta Gindulyte, Jia He, Siqian He, Qingliang Li, Benjamin A. Shoemaker, Paul A. Thiessen, Bo Yu, Leonid Zaslavsky, Jian Zhang, and Evan E. Bolton. *PubChem 2023 update*. Nucleic Acids Research, 51(D1):D1373–D1380, January 2023.
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Towards a Generic Representation of Combinatorial Problems for Learning-Based Approaches" by Léo Boisvert et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract provides a brief overview of the paper's contributions, and the introduction often outlines the context and significance of the research, which may include references to datasets used for experiments.
+
+Next, I will look for a dedicated **section on experiments** or **datasets**. In this paper, the authors describe their experimental setup in **section 4 (Experiments)**, where they evaluate their approach on four combinatorial problems. This section is likely to contain specific details about the datasets used.
+
+In **section 4**, the authors mention the following datasets:
+
+1. **Boolean Satisfiability (SAT)**: The instances are generated using the random generator of Selsam et al. (2018). The dataset contains millions of instances with 10 to 40 literals, with a training set of size 3,980,000 and a validation set of size 20,000.
+
+2. **Traveling Salesperson Problem (TSP)**: Instances are generated with the random generator of Prates et al. (2018). The dataset includes a training set of size 850,000 and a validation set of size 50,000, with cities sampled uniformly from 20 to 40.
+
+3. **Graph Coloring (COL)**: Instances are generated following Lemos et al. (2019). The dataset consists of a training set of size 140,000 and a validation set of size 10,000.
+
+4. **Knapsack (KNAP)**: Instances are created with 20 to 40 items, resulting in a training set of size 950,000 and a validation set of size 50,000.
+
+Now, I will refer to the **References section** to find the full citations for the datasets mentioned:
+
+- For the **SAT dataset**, the citation is:
+  > Selsam, D., Lamm, M., Bünz, B., Liang, P., de Moura, L., & Dill, D.L. (2019). *Learning a SAT solver from single-bit supervision*. In International Conference on Learning Representations.
+
+- For the **TSP dataset**, the citation is:
+  > Prates, M., Avelar, P.H., Lemos, H., Lamb, L.C., & Vardi, M.Y. (2019). *Learning to solve NP-complete problems: A graph neural network for decision TSP*. In Proceedings of the AAAI Conference on Artificial Intelligence.
+
+- For the **Graph Coloring dataset**, the citation is:
+  > Lemos, H., Prates, M., Avelar, P., & Lamb, L. (2019). *Graph colouring meets deep learning: Effective graph neural network models for combinatorial problems*. In 2019 IEEE 31st International Conference on Tools with Artificial Intelligence (ICTAI).
+
+- For the **Knapsack dataset**, the citation is:
+  > Liu, M., Zhang, F., Huang, P., Niu, S., Ma, F., & Zhang, J. (2020). *Learning the satisfiability of pseudo-Boolean problem with graph neural networks*. In Principles and Practice of Constraint Programming: 26th International Conference, CP 2020.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited, ready for structured output or further processing.

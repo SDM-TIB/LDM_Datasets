@@ -1,0 +1,46 @@
+To extract datasets from the research paper titled "Not All Contexts Are Equal: Teaching LLMs Credibility-aware Generation" by Ruotong Pan et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will start by reading through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract mentions the construction of a comprehensive benchmark covering three critical real-world scenarios, which suggests that datasets are involved.
+
+Next, I will focus on **section 4 (Credibility-aware Generation Benchmark)**, where the authors detail the datasets used for their experiments. They mention several datasets across different scenarios:
+
+1. **HotpotQA**: A dataset for multi-hop question answering that requires reasoning across multiple documents. The authors note that it has a high proportion of distracting documents.
+
+2. **2WikiMHQA**: Another multi-hop question answering dataset that also features a significant amount of noise.
+
+3. **MuSiQue**: A dataset that presents questions of higher complexity, with a high noise ratio.
+
+4. **ASQA**: A long-format QA dataset focused on ambiguous questions.
+
+5. **RGB**: A specialized benchmark for evaluating models in the RAG scenario.
+
+6. **EvolvingTempQA**: A dataset constructed for time-sensitive question answering, annotated with credibility information.
+
+7. **NewsPollutedQA**: A dataset designed to tackle misinformation in question answering, containing both real and fake news.
+
+In the **experiments section**, the authors confirm that they utilized these datasets to evaluate their proposed model, which reinforces their relevance.
+
+Now, I will check the **References section** to gather full citations for each dataset:
+
+- For **HotpotQA**, the citation is:
+  > Zhilin Yang, Peng Qi, Saizheng Zhang, Yoshua Bengio, William Cohen, Ruslan Salakhutdinov, and Christopher D. Manning. *HotpotQA: A dataset for diverse, explainable multi-hop question answering*. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 2369–2380, Brussels, Belgium, 2018.
+
+- For **2WikiMHQA**, the citation is:
+  > Xanh Ho, Anh-Khoa Duong Nguyen, Saku Sugawara, and Akiko Aizawa. *Constructing a multi-hop QA dataset for comprehensive evaluation of reasoning steps*. arXiv preprint arXiv:2011.01060, 2020.
+
+- For **MuSiQue**, the citation is:
+  > H. Trivedi, Niranjan Balasubramanian, Tushar Khot, and Ashish Sabharwal. *Musique: Multi-hop questions via single-hop question composition*. Transactions of the Association for Computational Linguistics, 10:539–554, 2021.
+
+- For **ASQA**, the citation is:
+  > Ivan Stelmakh, Yi Luan, Bhuwan Dhingra, and Ming-Wei Chang. *ASQA: Factoid questions meet long-form answers*. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, pages 8273–8288, Abu Dhabi, United Arab Emirates, 2022.
+
+- For **RGB**, the citation is:
+  > J. Chen, H. Lin, X. Han, and L. Sun. *Benchmarking large language models in retrieval-augmented generation*. arXiv:2309.01431, 2023.
+
+- For **EvolvingTempQA**, the citation is:
+  > Jungo Kasai, Keisuke Sakaguchi, Yoichi Takahashi, Ronan Le Bras, Akari Asai, Xinyan Yu, Dragomir Radev, Noah A Smith, Yejin Choi, and Kentaro Inui. *Realtime QA: What’s the answer right now?* arXiv preprint arXiv:2207.13332, 2022.
+
+- For **NewsPollutedQA**, the citation is:
+  > Yikang Pan, Liangming Pan, Wenhu Chen, Preslav Nakov, Min-Yen Kan, and William Yang Wang. *On the risk of misinformation pollution with large language models*. arXiv preprint arXiv:2305.13661, 2023.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This structured approach will ensure that I capture all relevant datasets and their citations from the paper effectively.

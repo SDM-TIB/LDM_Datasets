@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "Human Guided Ground-truth Generation for Realistic Image Super-resolution" by Du Chen et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that a human-guided ground-truth image dataset is constructed, which suggests that there is a specific dataset involved.
+
+Next, I will focus on **section 3 (Human Guided Ground-truth Generation)**, where the authors describe the process of creating their dataset. They mention that they trained multiple image enhancement models and involved human subjects to annotate the quality of enhanced patches. This section is crucial as it provides details about the dataset's construction.
+
+In **subsection 3.2 (Design of the Enhancement Models)**, the authors refer to the **DF2K-OST dataset** as a source for training their enhancement models. This dataset includes images from **DIV2K**, **Flickr2K**, and **OST**. I will note this dataset as it is essential for understanding the context of their work.
+
+In **subsection 3.3 (Patch Selection and Annotation)**, the authors mention that they collected 1,600 HR images from three sources:
+1. **DIV2K dataset** - 800 images.
+2. Free images from the Internet (e.g., Pixabay and Unsplash) - 400 images.
+3. Images shot by the authors using mobile phones - 400 images.
+
+This indicates that the **DIV2K dataset** is a significant part of their dataset creation process.
+
+In **section 5 (Experimental Results)**, the authors compare their proposed dataset (HGGT) with the **DF2K-OST dataset**. They highlight the advantages of their dataset in training Real-ISR models, which further emphasizes the importance of the datasets mentioned.
+
+Now, I will compile the full citations for the datasets referenced in the paper:
+
+1. **DF2K-OST dataset**:
+   > Agustsson, E., & Timofte, R. (2017). NTIRE 2017 challenge on single image super-resolution: Dataset and study. In *CVPRW* (pp. 126–135).
+
+2. **DIV2K dataset**:
+   > Agustsson, E., & Timofte, R. (2017). NTIRE 2017 challenge on single image super-resolution: Dataset and study. In *CVPRW* (pp. 126–135).
+
+3. **Flickr2K dataset**:
+   > Bell-Kligler, S., Shocher, A., & Irani, M. (2019). Blind super-resolution kernel estimation using an internal-GAN. *NeurIPS*, 32.
+
+4. **OST dataset**:
+   > Zhang, K., Zuo, W., & Zhang, L. (2018). Learning a single convolutional super-resolution network for multiple degradations. In *CVPR* (pp. 3262–3271).
+
+After gathering this information, I will summarize the datasets and their citations in a structured manner, ensuring that each dataset is clearly identified along with its full citation for future reference. This will provide a comprehensive overview of the datasets used in the research paper.

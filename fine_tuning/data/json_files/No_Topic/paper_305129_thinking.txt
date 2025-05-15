@@ -1,0 +1,38 @@
+To extract datasets from the research paper titled "XLM-E: Cross-lingual Language Model Pre-training via ELECTRA" by Zewen Chi et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to identify any datasets mentioned. The abstract mentions that the model is pretrained on both multilingual and parallel corpora, which suggests that datasets are involved.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors describe the datasets used for their experiments. In **section 4.1 (Setup)**, they mention using the **CC-100 dataset** for the replaced token detection task and several parallel corpora for the translation replaced token detection task. This is a clear indication of the datasets being utilized.
+
+I will then look for specific details about these datasets:
+
+1. **CC-100 Dataset**: The authors describe it as containing texts in 100 languages collected from the CommonCrawl dump. This dataset is crucial for their multilingual replaced token detection task.
+
+2. **Parallel Corpora**: The authors list several sources for the parallel corpora used in the translation replaced token detection task, including:
+   - **MultiUN**: A dataset containing translation pairs in multiple languages.
+   - **IIT Bombay**: A parallel corpus for English-Hindi translations.
+   - **OPUS**: A collection of parallel data from various sources.
+   - **WikiMatrix**: A dataset mined from Wikipedia containing parallel sentences in many languages.
+   - **CCAligned**: A dataset of aligned web documents across languages.
+
+Next, I will consult the **References section** to retrieve full citations for these datasets:
+
+- For the **CC-100 dataset**, the citation is:
+  > Alexis Conneau et al. 2020. Unsupervised cross-lingual representation learning at scale. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 8440–8451, Online. Association for Computational Linguistics.
+
+- For the **MultiUN dataset**, the citation is:
+  > Michał Ziemski, Marcin Junczys-Dowmunt, and Bruno Pouliquen. 2016. The united nations parallel corpus v1.0. In LREC, pages 3530–3534.
+
+- For the **IIT Bombay dataset**, the citation is:
+  > Anoop Kunchukuttan, Pratik Mehta, and Pushpak Bhattacharyya. 2018. The IIT Bombay English-Hindi parallel corpus. In Proceedings of the Eleventh International Conference on Language Resources and Evaluation, Miyazaki, Japan. European Language Resources Association.
+
+- For the **OPUS dataset**, the citation is:
+  > Jörg Tiedemann. 2012. Parallel data, tools and interfaces in OPUS. In Proceedings of the Eighth International Conference on Language Resources and Evaluation, pages 2214–2218, Istanbul, Turkey. European Language Resources Association.
+
+- For the **WikiMatrix dataset**, the citation is:
+  > Holger Schwenk, Vishrav Chaudhary, Shuo Sun, Hongyu Gong, and Francisco Guzmán. 2019. WikiMatrix: Mining 135M parallel sentences in 1620 language pairs from Wikipedia. arXiv preprint arXiv:1907.05791.
+
+- For the **CCAligned dataset**, the citation is:
+  > Ahmed El-Kishky, Vishrav Chaudhary, Francisco Guzmán, and Philipp Koehn. 2020. CCAligned: A massive collection of cross-lingual web-document pairs. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing, pages 5960–5969, Online. Association for Computational Linguistics.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that all relevant datasets are documented with their proper citations, which is essential for academic integrity and reproducibility.

@@ -1,0 +1,266 @@
+[
+    {
+        "dcterms:creator": [
+            "Common Crawl"
+        ],
+        "dcterms:description": "A massive non-curated dataset of webpages in many languages, mixed together in temporal snapshots of the web, used for extracting high-quality monolingual datasets.",
+        "dcterms:title": "Common Crawl",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://commoncrawl.org/about/",
+        "dcat:theme": [
+            "Web Data",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Web crawl",
+            "Monolingual datasets",
+            "Language identification"
+        ],
+        "dcat:landingPage": "https://commoncrawl.org/about/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Data extraction",
+            "Language modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "T. Mikolov",
+            "E. Grave",
+            "P. Bojanowski",
+            "C. Puhrsch",
+            "A. Joulin"
+        ],
+        "dcterms:description": "A dataset used for language identification, which is part of the pipeline for processing Common Crawl data.",
+        "dcterms:title": "fastText",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://arxiv.org/abs/1712.09405",
+        "dcat:theme": [
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Language identification",
+            "Word embeddings"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/1712.09405",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Language identification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "E. Grave",
+            "P. Bojanowski",
+            "G. Gupta",
+            "A. Joulin",
+            "T. Mikolov"
+        ],
+        "dcterms:description": "A dataset used for training language models, which is referenced in the context of filtering documents from Common Crawl.",
+        "dcterms:title": "Wikipedia",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://arxiv.org/abs/1802.06893",
+        "dcat:theme": [
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Language modeling",
+            "Text corpus"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/1802.06893",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Language modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Conneau",
+            "R. Rinott",
+            "G. Lample",
+            "A. Williams",
+            "S. R. Bowman",
+            "H. Schwenk",
+            "V. Stoyanov"
+        ],
+        "dcterms:description": "A dataset used for evaluating cross-lingual sentence representations, mentioned in the context of tasks performed with the Common Crawl data.",
+        "dcterms:title": "XNLI",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Cross-lingual",
+            "Sentence representation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Cross-lingual evaluation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Devlin",
+            "M.-W. Chang",
+            "K. Lee",
+            "K. Toutanova"
+        ],
+        "dcterms:description": "A dataset used for pre-training deep bidirectional transformers for language understanding, referenced in the context of the Common Crawl data.",
+        "dcterms:title": "BERT",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://arxiv.org/abs/1810.04805",
+        "dcat:theme": [
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Transformers",
+            "Language understanding"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/1810.04805",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Language understanding"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Heaﬁeld"
+        ],
+        "dcterms:description": "A language model used for processing large quantities of data, referenced in the context of filtering documents from Common Crawl.",
+        "dcterms:title": "KenLM",
+        "dcterms:issued": "2011",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Language modeling"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Language modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Pennington",
+            "R. Socher",
+            "C. Manning"
+        ],
+        "dcterms:description": "A dataset used for generating global vectors for word representation, referenced in the context of the Common Crawl data.",
+        "dcterms:title": "GloVe",
+        "dcterms:issued": "2014",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://arxiv.org/abs/1406.2283",
+        "dcat:theme": [
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Word representation"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/1406.2283",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Word representation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Y. Liu",
+            "M. Ott",
+            "N. Goyal",
+            "J. Du",
+            "M. Joshi",
+            "D. Chen",
+            "O. Levy",
+            "M. Lewis",
+            "L. Zettlemoyer",
+            "V. Stoyanov"
+        ],
+        "dcterms:description": "A robustly optimized BERT pretraining approach, referenced in the context of the Common Crawl data.",
+        "dcterms:title": "Roberta",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://arxiv.org/abs/1907.11692",
+        "dcat:theme": [
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "BERT",
+            "Pretraining"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/1907.11692",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Language understanding"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Z. Lan",
+            "M. Chen",
+            "S. Goodman",
+            "K. Gimpel",
+            "P. Sharma",
+            "R. Soricut"
+        ],
+        "dcterms:description": "A lite BERT for self-supervised learning of language representations, referenced in the context of the Common Crawl data.",
+        "dcterms:title": "ALBERT",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://arxiv.org/abs/1909.11942",
+        "dcat:theme": [
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Self-supervised learning",
+            "Language representations"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/1909.11942",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Language representation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "T. Kudo"
+        ],
+        "dcterms:description": "A subword regularization technique used to improve neural network translation models, referenced in the context of the Common Crawl data.",
+        "dcterms:title": "SentencePiece",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://arxiv.org/abs/1804.10959",
+        "dcat:theme": [
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Subword regularization",
+            "Translation models"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/1804.10959",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Translation"
+        ]
+    }
+]

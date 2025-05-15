@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "RoboArm-NMP: a Learning Environment for Neural Motion Planning" by Tom Jurgenson et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract provides a brief overview of the RoboArm-NMP environment and mentions that it includes "data of solved instances using a classical motion planning solver" and "10K trajectory demonstrations collected using classical motion planners." This indicates that there are datasets involved, but I need to find specific names and details.
+
+Next, I will focus on **section 4 (Environment description)**, where the authors describe the components of RoboArm-NMP. Here, they mention that the environment includes "a data set of 10k demonstrations (from a SBMP) per-task." This suggests that there are multiple datasets associated with different tasks, and I need to clarify what these tasks are.
+
+In **section 4.1 (Tasks)**, the authors outline various tasks designed for the RoboArm-NMP environment, including:
+- **Goal-generalization tasks**: These tasks test the robot's ability to reach goals in the presence of fixed obstacles.
+- **Obstacle-generalization tasks**: These tasks involve varying obstacle configurations and test the robot's ability to generalize to unseen obstacles.
+- **OOD (out-of-distribution) tasks**: These are specific scenarios that differ from the training tasks, designed to evaluate generalization capabilities.
+
+The authors specify that they collected **10K demonstrations** for each task, which indicates that there are multiple datasets corresponding to each task type.
+
+Now, I will look for the **References section** to find full citations for the datasets mentioned. The paper does not provide specific dataset names like "Penn Action Dataset" or "sub-JHMDB Dataset," but it does refer to the following works that are relevant to the datasets used in RoboArm-NMP:
+
+1. **Chamzas et al. (2021)**: This paper is referenced multiple times and is crucial for understanding the datasets used in the OOD tasks. The citation is:
+   > Constantinos Chamzas, Carlos Quintero-Pena, Zachary Kingston, Andreas Orthey, Daniel Rakita, Michael Gleicher, Marc Toussaint, and Lydia E Kavraki. *Motionbenchmaker: A tool to generate and benchmark motion planning datasets*. IEEE Robotics and Automation Letters, 7(2):882–889, 2021.
+
+2. **Kavraki et al. (1994)**: This foundational work on motion planning is also referenced and may provide context for the datasets used in classical motion planning. The citation is:
+   > Lydia E. Kavraki, Petr Svestka, and Mark H. Overmars. *Probabilistic roadmaps for path planning in high-dimensional configuration spaces*. In Proceedings of the IEEE International Conference on Robotics and Automation, 1994.
+
+3. **Diankov (2010)**: This work discusses automated construction of robotic manipulation programs and may relate to the datasets used in RoboArm-NMP. The citation is:
+   > Rosen Diankov. *Automated Construction of Robotic Manipulation Programs*. PhD thesis, Carnegie Mellon University, Robotics Institute, August 2010.
+
+After gathering this information, I will summarize the datasets extracted from the paper, ensuring to include the full citations for each relevant dataset. This will provide a comprehensive overview of the datasets used in the RoboArm-NMP environment.

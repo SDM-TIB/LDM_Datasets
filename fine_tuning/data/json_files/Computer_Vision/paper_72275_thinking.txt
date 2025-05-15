@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "From Parts to Whole: A Unified Reference Framework for Controllable Human Image Generation" by Zehuan Huang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methods sections** to gather initial insights about the datasets used. The abstract mentions the construction of a multi-modal dataset comprising about 41,500 reference-target pairs, which indicates that a significant dataset is involved.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors provide detailed information about the dataset. Here, they specify that the dataset is derived from the **DeepFashion-MultiModal dataset**. They describe the process of cleansing the dataset to ensure that images tagged with the same ID actually depict the same individual, which is crucial for the integrity of the dataset.
+
+In the **dataset description**, the authors explain that they constructed a dataset with approximately 41,500 reference-target pairs. Each pair includes multiple reference images (e.g., human pose images, various aspects of human appearance) and a target image featuring the same individual in a different pose. They also mention the use of human parsing labels to crop images into specific parts (e.g., hair, face, clothes).
+
+Now, I will look at the **References section** to find the full citation for the DeepFashion-MultiModal dataset. The relevant citation is:
+
+- For **DeepFashion-MultiModal dataset**:
+  > Ziwei Liu, Ping Luo, Shi Qiu, Xiaogang Wang, and Xiaoou Tang. *DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations*. In Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016.
+
+Additionally, the authors reference other tools and datasets used in their methodology, such as **InsightFace** and **DWPose**, which are important for the dataset preparation but are not datasets themselves.
+
+After gathering all this information, I will summarize the datasets and their citations clearly, ensuring that each dataset is properly documented with its full citation for future reference.
+
+Finally, I will compile the dataset entries into a structured format that can be easily reviewed or processed further.

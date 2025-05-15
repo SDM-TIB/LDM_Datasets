@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Image Restoration from Patch-based Compressed Sensing Measurement" by Guangtao Nie et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the methods and results, which may include references to datasets used for evaluation.
+
+Next, I will focus on **section 4 (Experimental Results)**, particularly **subsections 4.1.1 (Dataset for Patch Reconstruction)** and **4.1.2 (Dataset for Blocky Artifact Removal)**. In these subsections, the authors detail how they generated their training datasets for both patch reconstruction and blocky artifact removal.
+
+1. **Dataset for Patch Reconstruction**: The authors mention that they used a set of 91 images to generate their training dataset. They uniformly extracted patches of size 32 × 32 from these images, resulting in 22,144 patches for training and 1,112 patches for validation. The measurement rates (MRs) used were 0.25, 0.10, 0.04, and 0.01, with the measurement matrix generated from a random Gaussian matrix.
+
+2. **Dataset for Blocky Artifact Removal**: The authors describe how they generated a dataset for blocky artifact removal by extracting non-overlapping patches of size 32 × 32 from the original images, compressing each patch with CS measurement, and reconstructing them. This process resulted in 91 blocky images, which were used to train the de-block network.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. However, the paper does not provide specific citations for the datasets themselves, as they are derived from the authors' own image sets and methods.
+
+Based on the information extracted, I will summarize the datasets as follows:
+
+- **Dataset for Patch Reconstruction**: 
+  - Description: A training dataset generated from 91 images, with 22,144 patches of size 32 × 32 extracted for training and 1,112 for validation. Measurement rates of 0.25, 0.10, 0.04, and 0.01 were used.
+  
+- **Dataset for Blocky Artifact Removal**: 
+  - Description: A dataset created by extracting non-overlapping patches of size 32 × 32 from the original images, resulting in 91 blocky images used for training the de-block network.
+
+Since the datasets are based on the authors' own image sets and methods, I will note that there are no formal citations for these datasets in the traditional sense, as they are not publicly available datasets but rather generated from the authors' own data.
+
+Finally, I will compile the dataset entries into a structured format for clarity and future reference.

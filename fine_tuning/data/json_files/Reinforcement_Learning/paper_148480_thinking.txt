@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Learning Navigation Costs from Demonstration with Semantic Observations" by Tianyu Wang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to see if any datasets are mentioned. The abstract discusses the use of the CARLA simulator for autonomous navigation, which suggests that there may be datasets related to this simulator.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments** section. In the paper, the authors mention collecting demonstration data from various maps in the CARLA simulator. Specifically, they refer to maps such as **Town01, Town02, Town03, Town04** for training and **Town05** for testing. This indicates that these maps are part of the datasets used in their experiments.
+
+I will then check the **experiments section** for more details about these datasets. The authors state that they collected 100 expert trajectories from the CARLA simulator for each of the training maps, which provides further context about the nature of the data.
+
+Now, I will compile the full citations for the datasets mentioned. The CARLA simulator is referenced in the paper, and I will extract the citation from the **References section**:
+
+- For the **CARLA simulator**, the citation is:
+  > Alexey Dosovitskiy, German Ros, Felipe Codevilla, Antonio Lopez, and Vladlen Koltun. *CARLA: An open urban driving simulator*. In Proceedings of the 1st Annual Conference on Robot Learning, pages 1–16, 2017.
+
+Next, I will summarize the datasets identified:
+
+1. **Training Datasets**: 
+   - Maps: Town01, Town02, Town03, Town04
+   - Description: Each map is used to collect 100 expert trajectories for training the cost function representation.
+
+2. **Testing Dataset**:
+   - Map: Town05
+   - Description: This map is used for testing and is noted to be the largest, containing various street layouts and junctions.
+
+Finally, I will ensure that I have accurately documented the datasets and their citations, preparing to format them according to the required structure for further processing.

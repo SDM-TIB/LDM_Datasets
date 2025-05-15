@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "General Point Model Pretraining with Autoencoding and Autoregressive" by Zhe Li et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reviewing the **abstract and introduction** sections. The abstract provides a brief overview of the study, and the introduction often outlines the context and significance of the research, which may include references to datasets used for training or evaluation.
+
+Next, I will look for specific sections that typically contain dataset information, such as **section 4 (Experiments)**, where the authors usually describe their experimental setup, including the datasets utilized. In this paper, I will focus on **subsection 4.1 (Pre-training Data)**, where the authors mention using **ShapeNet** as their pre-training dataset, which consists of over 50,000 unique 3D models across 55 categories. This is a significant dataset for point cloud tasks.
+
+Additionally, I will check **subsection 4.2 (Downstream Tasks)**, where the authors evaluate their model on various datasets. Here, they mention using **ModelNet40** for object classification, which contains 12,311 clean 3D CAD models across 40 categories. They also refer to **ScanObjectNN**, which includes approximately 15,000 objects extracted from real indoor scans, and **ShapeNetPart** for part segmentation tasks.
+
+Now, I will gather the full citations for each dataset mentioned in the paper from the **References section**:
+
+1. **ShapeNet**:
+   > Angel X Chang, Thomas Funkhouser, Leonidas Guibas, Pat Hanrahan, Qixing Huang, Zimo Li, Silvio Savarese, Manolis Savva, Shuran Song, Hao Su, et al. *ShapeNet: An information-rich 3D model repository*. arXiv preprint arXiv:1512.03012, 2015.
+
+2. **ModelNet40**:
+   > Zhirong Wu, Shuran Song, Aditya Khosla, Fisher Yu, Linguang Zhang, Xiaoou Tang, and Jianxiong Xiao. *3D ShapeNets: A deep representation for volumetric shapes*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 1912–1920, 2015.
+
+3. **ScanObjectNN**:
+   > Mikaela Angelina Uy, Quang-Hieu Pham, Binh-Son Hua, Thanh Nguyen, and Sai-Kit Yeung. *Revisiting point cloud classification: A new benchmark dataset and classification model on real-world data*. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 1588–1597, 2019.
+
+4. **ShapeNetPart**:
+   > Li Yi, Vladimir G Kim, Duygu Ceylan, I-Chao Shen, Mengyan Yan, Hao Su, Cewu Lu, Qixing Huang, Alla Sheffer, and Leonidas Guibas. *A scalable active framework for region annotation in 3D shape collections*. ACM Transactions on Graphics (ToG), 35(6):1–12, 2016.
+
+After collecting this information, I will summarize the datasets and their citations in a structured format, ensuring that each dataset is clearly identified along with its full citation for proper attribution. This will provide a comprehensive overview of the datasets used in the research paper.

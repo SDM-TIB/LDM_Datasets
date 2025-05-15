@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Self-Supervised Contrastive Learning for Robust Audio – Sheet Music Retrieval Systems" by Luís Carvalho et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract discusses the use of self-supervised contrastive learning and mentions the need for annotated data, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (Section 5) where the authors describe the datasets used for their experiments. In this section, they mention several datasets:
+
+1. **International Music Score Library Project (IMSLP)**: The authors collected 3,485 scanned piano scores relating to 842 music pieces, which amounts to approximately 7,000 pages of sheet music. They extracted over 700,000 snippets for training and validation. 
+
+2. **MAESTRO Dataset**: This dataset consists of 1,276 piano recordings comprising around 200 hours of piano music. The authors mention that they generated around 840,000 audio snippets from this dataset for training and validation.
+
+3. **Multi-Modal Sheet Music Dataset (MSMD)**: This dataset is used for training the final audio–sheet music network and contains over 400 pieces covering more than 15 hours of audio. The authors note that this dataset has fine-grained cross-modal alignments between audio note onsets and sheet music note-head coordinates.
+
+4. **RealScores_Synth**: This is a partially real dataset that includes scanned (real) scores of around 300 pieces aligned to notes of synthesized MIDI recordings.
+
+5. **RealScores_Rec**: This dataset consists of scanned (real) scores of around 200 pieces with fine-grained alignments to real audio recordings.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **IMSLP**, the citation is:
+  > International Music Score Library Project (IMSLP). *IMSLP: Petrucci Music Library*. Retrieved from https://imslp.org/wiki/Main_Page.
+
+- For **MAESTRO**, the citation is:
+  > Curtis Hawthorne, Andriy Stasyuk, Adam Roberts, Ian Simon, Cheng-Zhi Anna Huang, Sander Dieleman, Erich Elsen, Jesse Engel, and Douglas Eck. *Enabling Factorized Piano Music Modeling and Generation with the MAESTRO Dataset*. In International Conference on Learning Representations, 2019.
+
+- For **MSMD**, the citation is:
+  > Matthias Dorfer, Jan Hajič Jr., Andreas Arzt, Harald Frostel, and Gerhard Widmer. *Learning Audio–Sheet Music Correspondences for Cross-Modal Retrieval and Piece Identification*. Transactions of the International Society for Music Information Retrieval, 2018.
+
+- For **RealScores_Synth** and **RealScores_Rec**, the citation is:
+  > Carlos Eduardo Cancino-Chacón, Thassilo Gadermaier, Gerhard Widmer, and Maarten Grachten. *An evaluation of linear and non-linear models of expressive dynamics in classical piano and symphonic music*. Machine Learning, 2017.
+
+After gathering all this information, I will compile the dataset entries with their full citations to ensure that they are ready for any further processing or review.

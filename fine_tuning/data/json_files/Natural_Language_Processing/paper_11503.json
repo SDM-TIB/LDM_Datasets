@@ -1,0 +1,73 @@
+[
+    {
+        "dcterms:creator": [
+            "Holger Caesar",
+            "Varun Bankiti",
+            "Alex H Lang",
+            "Sourabh Vora",
+            "Venice Erin Liong",
+            "Qiang Xu",
+            "Anush Krishnan",
+            "Yu Pan",
+            "Giancarlo Baldan",
+            "Oscar Beijbom"
+        ],
+        "dcterms:description": "The nuScenes dataset contains 1000 scenes in total, split into 700 in the training set, 150 in the validation set, and 150 in the test set. Each sequence is captured at 20Hz frequency with 20 seconds duration. Each sample contains RGB images from 6 cameras with 360° horizontal FOV and point cloud data from a 32 beam LiDAR sensor. For the task of object detection, the key samples are annotated at 2Hz with ground truth labels for 10 foreground object classes (thing). For the task of semantic segmentation and panoptic segmentation, every point in the key samples is annotated using 6 more background classes (stuff) in addition to the 10 foreground classes (thing).",
+        "dcterms:title": "nuScenes dataset",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Autonomous Driving",
+            "3D Scene Understanding"
+        ],
+        "dcat:keyword": [
+            "Autonomous driving",
+            "3D scene understanding",
+            "LiDAR",
+            "Camera",
+            "Semantic segmentation",
+            "Panoptic segmentation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image and Point Cloud",
+        "mls:task": [
+            "Object Detection",
+            "Semantic Segmentation",
+            "Panoptic Segmentation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Xiaoyu Tian",
+            "Tao Jiang",
+            "Longfei Yun",
+            "Yue Wang",
+            "Yilun Wang",
+            "Hang Zhao"
+        ],
+        "dcterms:description": "The Occ3D-nuScenes dataset contains 700 training scenes and 150 validation scenes. The occupancy scope is defined as -40m to 40m for X and Y-axis, and -1m to 5.4m for the Z-axis in the ego coordinate. The voxel size is 0.4m × 0.4m × 0.4m for the occupancy label. The semantic labels contain 17 categories (including ‘others’). Besides, it also provides visibility masks for LiDAR and camera modality.",
+        "dcterms:title": "Occ3D-nuScenes",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "3D Occupancy Prediction",
+            "Autonomous Driving"
+        ],
+        "dcat:keyword": [
+            "3D occupancy prediction",
+            "Semantic labels",
+            "Visibility masks",
+            "LiDAR",
+            "Camera"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "3D Voxel",
+        "mls:task": [
+            "3D Occupancy Prediction"
+        ]
+    }
+]

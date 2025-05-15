@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Exploring Masked Autoencoders for Sensor-Agnostic Image Retrieval in Remote Sensing" by Jakob Hackstein et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and the dataset description section** to identify any datasets mentioned. The abstract provides a general overview, but the dataset details are likely to be found in the **Data Set Description** section, which is explicitly stated in the paper.
+
+In the **Data Set Description section (IV)**, the authors mention conducting experiments on the **BigEarthNet benchmark archive**. This is a significant dataset, and I will note its details. The paper states that the BigEarthNet archive includes **590,326 multi-modal image pairs**, specifically one Sentinel-1 (S1) SAR image and one Sentinel-2 (S2) multispectral image acquired on the same geographical area. Each pair is associated with one or more class labels based on a 19-class nomenclature.
+
+Next, the authors describe two specific subsets of the BigEarthNet dataset used for their experiments:
+
+1. **BEN-270K**: This subset consists of **270,470 image pairs** acquired over 10 European countries during summer and autumn.
+2. **BEN-14K**: This subset contains **14,832 image pairs** acquired over Serbia during summer.
+
+Both subsets are divided into training, validation, and test sets, which is crucial information for understanding how the datasets were utilized in the experiments.
+
+Now, I will look at the **References section** to find the full citation for the BigEarthNet dataset. The relevant citation is:
+
+> G. Sumbul, A. d. Wall, T. Kreuziger, F. Marcelino, H. Costa, P. Benevides, M. Caetano, B. Demir, and V. Markl. *BigEarthNet-MM: A Large-Scale, Multimodal, Multilabel Benchmark Archive for Remote Sensing Image Classification and Retrieval*. IEEE Geoscience and Remote Sensing Magazine, vol. 9, no. 3, pp. 174–180, 2021.
+
+With this information, I can now summarize the datasets extracted from the paper:
+
+1. **BigEarthNet benchmark archive**: Contains 590,326 multi-modal image pairs (S1 and S2).
+   - Citation: G. Sumbul, A. d. Wall, T. Kreuziger, F. Marcelino, H. Costa, P. Benevides, M. Caetano, B. Demir, and V. Markl. *BigEarthNet-MM: A Large-Scale, Multimodal, Multilabel Benchmark Archive for Remote Sensing Image Classification and Retrieval*. IEEE Geoscience and Remote Sensing Magazine, vol. 9, no. 3, pp. 174–180, 2021.
+
+2. **BEN-270K**: A subset of BigEarthNet with 270,470 image pairs acquired over 10 European countries.
+   - Citation: G. Sumbul, A. d. Wall, T. Kreuziger, F. Marcelino, H. Costa, P. Benevides, M. Caetano, B. Demir, and V. Markl. *BigEarthNet-MM: A Large-Scale, Multimodal, Multilabel Benchmark Archive for Remote Sensing Image Classification and Retrieval*. IEEE Geoscience and Remote Sensing Magazine, vol. 9, no. 3, pp. 174–180, 2021.
+
+3. **BEN-14K**: A subset of BigEarthNet with 14,832 image pairs acquired over Serbia.
+   - Citation: G. Sumbul, A. d. Wall, T. Kreuziger, F. Marcelino, H. Costa, P. Benevides, M. Caetano, B. Demir, and V. Markl. *BigEarthNet-MM: A Large-Scale, Multimodal, Multilabel Benchmark Archive for Remote Sensing Image Classification and Retrieval*. IEEE Geoscience and Remote Sensing Magazine, vol. 9, no. 3, pp. 174–180, 2021.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

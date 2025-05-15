@@ -1,0 +1,16 @@
+To extract datasets from the research paper titled "LIDAR and Position-Aided mmWave Beam Selection with Non-local CNNs and Curriculum Training" by Matteo Zecchin et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract mentions "simulation results on benchmark datasets," which indicates that datasets are likely discussed in detail later in the paper.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for their evaluations. In this paper, the authors specifically mention the **Raymobtime dataset** in the experiments section. I will look for a detailed description of this dataset, including its purpose, structure, and any relevant statistics.
+
+Upon reviewing the relevant sections, I find that the **Raymobtime dataset** is described as containing synthetic data for LIDAR and position-aided mmWave beam selection in a V2I communication scenario. The dataset is generated using various simulators and includes average received powers calculated for each transmitter/receiver beam pair, along with simultaneous 3D point cloud data collected by the LIDAR sensor. The authors utilize subsets s008 and s009 for training and testing, respectively.
+
+Now, I will check the **References section** to find the full citation for the Raymobtime dataset. The citation provided in the paper is:
+> Klautau, A., Batista, P., Gonz´alez-Prelcic, N., Wang, Y., & Heath, R. W. (2018). *5G MIMO data for machine learning: application to beam-selection using deep learning*. In 2018 Information Theory and Applications Workshop (ITA), pp. 1–9.
+
+With this information, I can summarize the dataset as follows:
+
+1. **Raymobtime Dataset**: This dataset contains synthetic data for LIDAR and position-aided mmWave beam selection in a V2I communication scenario. It includes average received powers for each beam pair and 3D point cloud data from LIDAR sensors. The specific subsets used are s008 for training and s009 for testing.
+
+Finally, I will compile the dataset entry with the full citation into a structured format for further processing or review.

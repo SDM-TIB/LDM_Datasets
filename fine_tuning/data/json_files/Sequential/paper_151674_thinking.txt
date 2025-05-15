@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Investigating Generative Adversarial Networks based Speech Dereverberation for Robust Speech Recognition" by Ke Wang et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any mentions of datasets. The abstract provides a general overview of the research but may not specify datasets. The introduction may provide context about the datasets used, especially if they are critical to the research.
+
+Next, I will focus on **section 4 (Experiments and results)**, particularly **subsection 4.1 (Datasets)**, where the authors explicitly describe the datasets used in their experiments. Here, the authors mention a **Mandarin corpus** as the source of clean speech data, which consists of 103,000 utterances (about 100 hours). They also describe how they generated reverberant speech using room impulse responses (RIRs) from a referenced source.
+
+The authors detail the dataset division:
+- **Training set**: 97,000 utterances for network training.
+- **Validation set**: 3,000 utterances for validation.
+- **Testing sets**: 
+  - **Real**: 3,000 reverberant speech utterances convolved with real RIRs.
+  - **Simu**: 9,000 reverberant speech utterances convolved with simulated RIRs (3,000 for small, medium, and large rooms).
+
+Next, I will check the **References section** to find the full citation for the source of the RIRs mentioned in the dataset description. The authors refer to a source labeled as [27], which I will locate in the references to ensure I have the complete citation.
+
+The citation for the RIRs is:
+> T. Ko, V. Peddinti, D. Povey, M. Seltzer, and S. Khudanpur. "A study on data augmentation of reverberant speech for robust speech recognition." In ICASSP, 2017.
+
+Now, I will compile the information about the datasets into a structured format, ensuring that I include the full citations for each dataset as required.
+
+In summary, I will extract the following datasets:
+1. **Mandarin Corpus**: 103,000 utterances (100 hours) used for clean speech data.
+2. **Real Testing Set**: 3,000 utterances convolved with real RIRs.
+3. **Simu Testing Set**: 9,000 utterances convolved with simulated RIRs.
+
+Finally, I will ensure that each dataset entry includes the full citation for the RIR source, as it is crucial for proper attribution and reference in any subsequent analysis or application of the datasets.

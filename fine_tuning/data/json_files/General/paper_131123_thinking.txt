@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Audio-Visual Class-Incremental Learning" by Weiguo Pian et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to locate any references to datasets. In the abstract, the authors mention creating three audio-visual class-incremental datasets: **AVE-Class-Incremental (AVE-CI)**, **Kinetics-Sounds-Class-Incremental (K-S-CI)**, and **VGGSound100-Class-Incremental (VS100-CI)**. This indicates that these datasets are central to their research.
+
+Next, I will look for detailed descriptions of these datasets in the **experiments section**. Here, the authors provide specific information about each dataset:
+
+1. **AVE-Class-Incremental (AVE-CI)**: This dataset is derived from the AVE dataset, which consists of 4,000 10-second videos from 28 audio-visual event classes. The authors mention that they randomly split these classes into 4 incremental tasks, each containing 7 classes.
+
+2. **Kinetics-Sounds-Class-Incremental (K-S-CI)**: This dataset is based on the Kinetics-Sounds dataset, which includes around 24,000 10-second videos from 31 human action classes. The authors state that they randomly selected 30 classes and divided them into 5 incremental steps, each containing 6 classes.
+
+3. **VGGSound100-Class-Incremental (VS100-CI)**: This dataset is constructed from the VGGSound dataset, which contains approximately 200,000 10-second videos from 309 classes. The authors selected 100 classes to create a subset named VGGSound100, which includes 60,000 samples. They then divided these classes into 10 incremental steps, each containing 10 classes.
+
+After gathering this information, I will check the **References section** to find the full citations for the original datasets used to create the incremental datasets. The citations are as follows:
+
+- For the **AVE dataset**:
+  > Yapeng Tian, Jing Shi, Bochen Li, Zhiyao Duan, and Chenliang Xu. *Audio-visual event localization in unconstrained videos*. In Proceedings of the European Conference on Computer Vision (ECCV), pages 247–263, 2018.
+
+- For the **Kinetics-Sounds dataset**:
+  > Will Kay, Joao Carreira, Karen Simonyan, Brian Zhang, Chloe Hillier, Sudheendra Vijayanarasimhan, Fabio Viola, Tim Green, Trevor Back, Paul Natsev, et al. *The kinetics human action video dataset*. arXiv preprint arXiv:1705.06950, 2017.
+
+- For the **VGGSound dataset**:
+  > Honglie Chen, Weidi Xie, Andrea Vedaldi, and Andrew Zisserman. *Vggsound: A large-scale audio-visual dataset*. In ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 721–725. IEEE, 2020.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or processing. This includes ensuring that each dataset is clearly described along with its full citation to maintain proper attribution.

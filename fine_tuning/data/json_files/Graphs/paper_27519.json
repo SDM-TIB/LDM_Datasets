@@ -1,0 +1,188 @@
+[
+    {
+        "dcterms:creator": [
+            "Karsten M. Borgwardt",
+            "Cheng Soon Ong",
+            "Stefan Schönauer",
+            "S. V. N. Vishwanathan",
+            "Alex J. Smola",
+            "Hans-Peter Kriegel"
+        ],
+        "dcterms:description": "A dataset whose samples are graphs representing proteins. In each graph, the nodes represent the secondary structure elements and have labels of helix, sheet, or turn. If two nodes are neighbors along the amino acid sequence or in 3D space, there is an undirected edge connecting them.",
+        "dcterms:title": "PROTEINS",
+        "dcterms:issued": "2005",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Bioinformatics",
+            "Graph Representation"
+        ],
+        "dcat:keyword": [
+            "Protein structure",
+            "Graph dataset",
+            "Biological networks"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "N. Wale",
+            "G. Karypis"
+        ],
+        "dcterms:description": "A balanced dataset of chemical compounds screened for activity against non-small cell lung cancer. Each graph in NCI1 represents a chemical compound, where the nodes, node labels, edges are related to the atoms, atom types, and chemical bonds, respectively.",
+        "dcterms:title": "NCI1",
+        "dcterms:issued": "2006",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Chemoinformatics",
+            "Graph Representation"
+        ],
+        "dcat:keyword": [
+            "Chemical compounds",
+            "Graph dataset",
+            "Cancer research"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Pinar Yanardag",
+            "S.V.N. Vishwanathan"
+        ],
+        "dcterms:description": "A scientific collaboration dataset derived from three scientific collaboration datasets, namely, High Energy Physics, Condensed Matter Physics, and Astro Physics. The graphs are the ego-networks of different researchers from each field.",
+        "dcterms:title": "COLLAB",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Networks",
+            "Graph Representation"
+        ],
+        "dcat:keyword": [
+            "Collaboration networks",
+            "Graph dataset",
+            "Scientific research"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Pinar Yanardag",
+            "S.V.N. Vishwanathan"
+        ],
+        "dcterms:description": "Datasets of movie collaborations containing ego-networks derived from each actor/actress by the collaboration relations. The labels of the graphs in IMDB-BINARY are genres of Action and Romance.",
+        "dcterms:title": "IMDB-BINARY",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Networks",
+            "Graph Representation"
+        ],
+        "dcat:keyword": [
+            "Movie collaborations",
+            "Graph dataset",
+            "Film genres"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Pinar Yanardag",
+            "S.V.N. Vishwanathan"
+        ],
+        "dcterms:description": "Datasets of movie collaborations containing ego-networks derived from each actor/actress by the collaboration relations. The IMDB-MULTI dataset has graph labels according to genres of Comedy, Romance, and Sci-Fi.",
+        "dcterms:title": "IMDB-MULTI",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Networks",
+            "Graph Representation"
+        ],
+        "dcat:keyword": [
+            "Movie collaborations",
+            "Graph dataset",
+            "Film genres"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Pinar Yanardag",
+            "S.V.N. Vishwanathan"
+        ],
+        "dcterms:description": "Balanced datasets similar to the IMDB-BINARY dataset. Each graph in REDDIT datasets represents an online discussion thread by representing the users as nodes in the graph.",
+        "dcterms:title": "REDDIT-BINARY",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Networks",
+            "Graph Representation"
+        ],
+        "dcat:keyword": [
+            "Online discussions",
+            "Graph dataset",
+            "Social media"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Pinar Yanardag",
+            "S.V.N. Vishwanathan"
+        ],
+        "dcterms:description": "Balanced datasets similar to the IMDB-MULTI dataset. Each graph in REDDIT-MULTI-5K has labels according to their subreddits.",
+        "dcterms:title": "REDDIT-MULTI-5K",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Networks",
+            "Graph Representation"
+        ],
+        "dcat:keyword": [
+            "Online discussions",
+            "Graph dataset",
+            "Social media"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph classification"
+        ]
+    }
+]

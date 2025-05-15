@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Nanopore Base Calling on the Edge" by Peter Perešini et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract and introduction** sections. The abstract mentions the development of a new base caller, DeepNano-coral, but does not specify any datasets. However, the introduction discusses the context of nanopore sequencing and hints at the use of specific datasets for training and testing.
+
+Next, I will look for a dedicated **section on datasets** or any mention of datasets in the **methods or results sections**. In the supplementary material, specifically in **S2 Training and Testing Sets**, the authors provide detailed information about the datasets used for training and testing their models. 
+
+The datasets mentioned are:
+
+1. **Taiyaki set**: This dataset consists of 50,000 downsampled R9.4.1 reads from PCR amplified DNA of E. coli, H. sapiens, and S. cerevisiae. The citation for this dataset is:
+   > Oxford Nanopore Technologies. *Taiyaki: A neural network basecaller for nanopore sequencing*. Available at: https://github.com/nanoporetech/taiyaki/.
+
+2. **E. coli training set**: This dataset includes 2,804 ultra-long native R9.4.1 reads of E. coli (MG1655) from Loman Lab. The citation is:
+   > Loman, N.J. *Ultra-long native R9.4.1 reads of E. coli*. Available at: https://lab.loman.net/2017/03/09/ultrareads-for-nanopore/.
+
+3. **Human training set**: This dataset consists of reads from chromosomes 1 and 2 of native R9.4.1 reads from the human reference standard CEPH1463. The citation is:
+   > Jain, M., et al. *Nanopore sequencing and assembly of a human genome with ultra-long reads*. Nature Biotechnology, 36(4), 338–345, 2018.
+
+4. **Klebsiella testing set**: This benchmark set includes native R9.4 reads of Klebsiella pneumoniae. The citation is:
+   > Wick, R.R., et al. *Performance of neural network basecalling tools for oxford nanopore sequencing*. Genome Biology, 20(1), 129, 2019.
+
+5. **Human testing set**: This dataset includes native R9.4.1 reads from chromosomes 14, 15, and 16 from the human reference standard CEPH1463. The citation is the same as for the human training set:
+   > Jain, M., et al. *Nanopore sequencing and assembly of a human genome with ultra-long reads*. Nature Biotechnology, 36(4), 338–345, 2018.
+
+After identifying these datasets and their citations, I will ensure that I format the information clearly and accurately for any downstream processing or review.
+
+Finally, I will compile the dataset entries, ensuring that each dataset is described with its respective citation, ready for further use or analysis.

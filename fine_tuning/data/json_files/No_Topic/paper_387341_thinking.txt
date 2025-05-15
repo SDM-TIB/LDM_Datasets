@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Color-aware Deep Temporal Backdrop Duplex Matting System" by Hendrik Hachmann and Bodo Rosenhahn, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and method sections** to identify any datasets mentioned. The abstract mentions that the authors compare their method to state-of-the-art algorithms using benchmark datasets, which suggests that there are specific datasets involved.
+
+Next, I will focus on the **method section**, particularly the subsection titled **Multiple backdrop matting**. Here, the authors explicitly state that they use the **Adobe dataset** for training their neural network, which consists of 432 foreground images with corresponding ground truth alpha mattes. This is a clear dataset that I need to document.
+
+Additionally, the authors describe the creation of their own background dataset, which includes pure green and purple backgrounds, as well as two consecutive frames taken from a 5000-frame video captured with their demonstrator setup. This indicates that they have generated a custom dataset for their experiments.
+
+In the **results section**, the authors mention evaluating their method on three sequences from Erofeev et al.'s benchmark, specifically the **Dmitriy**, **Alex**, and **Castle** sequences. These sequences are used for quantitative evaluation and are essential datasets for their experiments.
+
+Now, I will gather the full citations for each dataset mentioned in the paper:
+
+1. **Adobe Dataset**:
+   > Ning Xu, Brian Price, Scott Cohen, and Thomas Huang. *Deep Image Matting*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017. [Link](http://arxiv.org/abs/1703.03872)
+
+2. **Dmitriy Sequence**:
+   > Mikhail Erofeev, Yury Gitman, Dmitriy Vatolin, Alexey Fedorov, and Jue Wang. *Perceptually Motivated Benchmark for Video Matting*. In Proceedings of the British Machine Vision Conference (BMVC), 2015. [Link](https://doi.org/10.5244/C.29.99)
+
+3. **Alex Sequence**:
+   > Mikhail Erofeev, Yury Gitman, Dmitriy Vatolin, Alexey Fedorov, and Jue Wang. *Perceptually Motivated Benchmark for Video Matting*. In Proceedings of the British Machine Vision Conference (BMVC), 2015. [Link](https://doi.org/10.5244/C.29.99)
+
+4. **Castle Sequence**:
+   > Mikhail Erofeev, Yury Gitman, Dmitriy Vatolin, Alexey Fedorov, and Jue Wang. *Perceptually Motivated Benchmark for Video Matting*. In Proceedings of the British Machine Vision Conference (BMVC), 2015. [Link](https://doi.org/10.5244/C.29.99)
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding citations.

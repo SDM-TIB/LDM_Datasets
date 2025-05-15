@@ -1,0 +1,20 @@
+To extract the datasets from the research paper titled "Anomaly Detection in Cloud Components" by Mohammad Saiful Islam and Andriy Miranskyy, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to identify any datasets mentioned. The abstract mentions the use of a Gated-Recurrent-Unit-based autoencoder for anomaly detection, which suggests that datasets are involved in the experiments.
+
+Next, I will focus on **section 3.3 (Dataset)**, where the authors explicitly describe the datasets used in their research:
+
+1. **NAB Dataset**: This is a well-known dataset for anomaly detection, consisting of 58 labeled real-world and artificial one-dimensional time-series data files. The data is structured with two columns: timestamp and value, captured at 5-minute intervals.
+
+2. **Private Cloud Dataset**: This dataset was collected from components of a private Cloud over one month. It includes metrics such as CPU utilization, memory consumption, and response time of the SaaS application, aggregated in 5-minute intervals.
+
+In the **results section**, the authors discuss the performance of their model on these datasets, confirming their relevance to the experiments conducted.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **NAB Dataset**, the citation is:
+  > Numenta. *The Numenta Anomaly Benchmark (NAB)*. Available: https://github.com/numenta/NAB, 2017.
+
+- The **Private Cloud Dataset** does not have a specific citation since it is original data collected by the authors, but I will note that it is based on their own observations and metrics from a private Cloud environment.
+
+After gathering this information, I will compile the dataset entries into a structured format that highlights the key details and citations for each dataset. This will ensure that the datasets are properly documented and can be referenced in future work.

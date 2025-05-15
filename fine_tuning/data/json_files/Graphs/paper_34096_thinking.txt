@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "FLUXGAT: Integrating Flux Sampling with Graph Neural Networks for Unbiased Gene Essentiality Classification" by Kieren Sharma et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract provides a brief overview of the study and mentions the use of flux sampling data derived from a genome-scale metabolic model (GSMM) of Chinese hamster ovary (CHO) cells. This indicates that there is a dataset related to CHO cells that is crucial for the research.
+
+Next, I will look into **section 4.1 (Dataset)**, where the authors provide detailed information about the datasets used in their experiments. Here, they describe the application of the artificial centring hit-and-run (ACHR) algorithm to the wild-type iCHO2291 GSMM of CHO cells. They mention that this model contains 3,972 metabolites and 6,236 reactions, and that sampling was performed for 50,000 iterations, resulting in a single flux vector with 5,316 non-zero reaction fluxes.
+
+Additionally, the authors state that they generated binary essentiality labels for nodes in the mass flow graph (MFG) using experimental gene essentiality values from a genome-wide CRISPR knockout screen of CHO cells. This study identified 1,980 essential genes out of 15,028 targeted genes, which is another dataset of interest.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned:
+
+1. **iCHO2291 GSMM**: The citation for the iCHO2291 model is:
+   > Hock Chuan Yeo, Jongkwang Hong, Meiyappan Lakshmanan, and Dong-Yup Lee. *Enzyme capacity-based genome scale modelling of CHO cells*. Metabolic Engineering, 60:138–147, 2020.
+
+2. **CRISPR knockout screen**: The citation for the CRISPR screen is:
+   > Kai Xiong, Karen Julie la Cour Karottki, Hooman Hefzi, Songyuan Li, Lise Marie Grav, Shangzhong Li, Philipp Spahn, Jae Seong Lee, Ildze Ventina, Gyun Min Lee, et al. *An optimized genome-wide, virus-free CRISPR screen for mammalian cells*. Cell Reports Methods, 1(4), 2021.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described and includes its full citation. This structured approach will help ensure that all relevant datasets are accurately documented for further analysis or reference.

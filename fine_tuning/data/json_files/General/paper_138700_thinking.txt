@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Comprehensive Assessment of Jailbreak Attacks Against LLMs" by Junjie Chu et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to locate any references to datasets. The abstract mentions a "forbidden question dataset" and "jailbreak prompt datasets," which indicates that datasets are indeed present.
+
+Next, I will focus on **section 4 (Forbidden Question Dataset)**, where the authors describe the construction of the forbidden question dataset. They mention that this dataset consists of 160 forbidden questions categorized into 16 violation categories. This section provides crucial details about the dataset's purpose and structure.
+
+In **section 5.2 (Datasets)**, the authors list two specific datasets used to build the forbidden question dataset:
+
+1. **AdvBench**: This dataset includes harmful strings and harmful behaviors, generated through 5-shot demonstrations from a selection of harmful strings and behaviors. The authors do not provide a full citation in the text, so I will need to look for the original source in the references.
+
+2. **Forbidden_Question_Set**: This dataset is based on OpenAI's usage policy and contains hundreds of samples across various violation scenarios. Again, I will need to find the original source citation in the references.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **AdvBench**, the citation is:
+  > Xinyue Shen, Zeyuan Chen, Michael Backes, and Yang Zhang. *Do Anything Now: Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models*. CoRR abs/2308.03825, 2023.
+
+- For **Forbidden_Question_Set**, the citation is:
+  > Patrick Chao, Alexander Robey, Edgar Dobriban, Hamed Hassani, George J. Pappas, and Eric Wong. *Black Box Large Language Models in Twenty Queries*. CoRR abs/2310.08419, 2023.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations. This will ensure that the datasets are accurately represented and properly cited for future reference.

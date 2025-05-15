@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Learning Value Functions from Undirected State-Only Experience" by Matthew Chang et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will start by reading through the **abstract and introduction** sections. The abstract mentions that the paper tackles learning value functions from undirected state-only experience, which suggests that there may be datasets used for experiments. I will look for any specific mentions of datasets in these sections.
+
+Next, I will examine the **experiments section** (Section 5) in detail. This section typically contains information about the datasets used for evaluation. The authors mention conducting experiments in five environments: **2D Grid World, Freeway (Atari), 3D Visual Navigation, Maze2D (2D Continuous Control), and Kitchen Manipulation**. I will note down these environments as they likely correspond to specific datasets.
+
+I will then look for any **dataset descriptions** within the text. For example, the paper may provide details about how the datasets were collected or any specific characteristics of the datasets used in each environment. 
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset mentioned. This is crucial for proper attribution and to provide readers with the necessary information to locate the datasets.
+
+1. **2D Grid World**: The dataset is generated from a fixed, sub-optimal policy in a 6x6 grid environment. The authors do not provide a specific citation for this dataset, as it is likely a synthetic dataset created for the purpose of the study.
+
+2. **Freeway (Atari)**: The authors mention that they generated their own data using a protocol described in Agarwal et al. (2020). The citation for this dataset is:
+   > Rishabh Agarwal, Dale Schuurmans, and Mohammad Norouzi. "An optimistic perspective on offline reinforcement learning." In International Conference on Machine Learning, pp. 104–114. PMLR, 2020.
+
+3. **3D Visual Navigation**: The dataset is based on the branching environment from Chang et al. (2020). The citation for this dataset is:
+   > Matthew Chang, Arjun Gupta, and Saurabh Gupta. "Semantic visual navigation by watching YouTube videos." In NeurIPS, 2020.
+
+4. **Maze2D (2D Continuous Control)**: The authors use the Maze2D dataset from D4RL. The citation for this dataset is:
+   > Justin Fu, Aviral Kumar, Oﬁr Nachum, George Tucker, and Sergey Levine. "D4RL: Datasets for deep data-driven reinforcement learning." arXiv preprint arXiv:2004.07219, 2020.
+
+5. **Kitchen Manipulation**: The dataset comes from the partial version of the D4RL FrankaKitchen dataset. The citation is the same as for the Maze2D dataset:
+   > Justin Fu, Aviral Kumar, Oﬁr Nachum, George Tucker, and Sergey Levine. "D4RL: Datasets for deep data-driven reinforcement learning." arXiv preprint arXiv:2004.07219, 2020.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for clarity and ease of use. This will ensure that I have accurately captured all necessary details for each dataset used in the research paper.

@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Can Spoofing Countermeasure and Speaker Verification Systems Be Jointly Optimised?" by Wanying Ge et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets mentioned. The abstract discusses the use of spoofing countermeasures (CM) and automatic speaker verification (ASV) systems, hinting at the presence of datasets used for training and evaluation.
+
+Next, I will focus on **section 3 (Experimental Setup)**, which explicitly mentions the databases used in the experiments. Here, the authors describe three databases:
+
+1. **ASVspoof 2019 Logical Access (LA) Database**: This dataset is used for training the CM sub-system. It contains data from 20 speakers, with a total of 2,580 bona fide and 22,800 spoofed utterances. The authors refer to this dataset as ASVspoof throughout the paper.
+
+2. **Fake Audio Detection (FAD) Database**: This database contains bona fide and spoofed Mandarin-language utterances generated using TTS algorithms. It is used optionally for training the backend classifier and has data from 40 speakers, with 3,200 bona fide and 25,600 spoofed utterances.
+
+3. **VoxCeleb2 Database**: This dataset is used for ASV pre-training. The authors do not provide specific details about the number of speakers or utterances in this section, but it is mentioned as a significant resource for ASV research.
+
+In the **results section**, the authors discuss the performance metrics associated with these datasets, confirming their use in the experiments.
+
+Now, I will check the **References section** to gather full citations for each dataset:
+
+- For the **ASVspoof 2019 Database**, the citation is:
+  > X. Wang, J. Yamagishi, M. Todisco, H. Delgado, A. Nautsch, N. Evans, et al. "ASVspoof 2019: A large-scale public database of synthetized, converted and replayed speech." *Computer Speech & Language*, vol. 64, 2020, 101114.
+
+- For the **VoxCeleb2 Database**, the citation is:
+  > J. S. Chung, A. Nagrani, and A. Zisserman. "VoxCeleb2: Deep speaker recognition." In *Proc. Interspeech*, 2018, pp. 1086–1090.
+
+- For the **Fake Audio Detection (FAD) Database**, the citation is:
+  > H. Ma, J. Yi, C. Wang, X. Yan, J. Tao, T. Wang, S. Wang, L. Xu, and R. Fu. "FAD: A Chinese dataset for fake audio detection." *arXiv preprint:2207.12308*, 2022.
+
+After gathering all the necessary information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

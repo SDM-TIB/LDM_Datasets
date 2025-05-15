@@ -1,0 +1,116 @@
+[
+    {
+        "dcterms:creator": [
+            "V. Okun",
+            "A. Delaitre",
+            "P. E. Black"
+        ],
+        "dcterms:description": "A dataset containing C/C++ synthetic code examples (functions) with vulnerabilities from 116 different Common Weakness Enumeration (CWE) classes, originally designed to explore the performance of static and dynamic analyzers.",
+        "dcterms:title": "SATE IV",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Software Security",
+            "Static Analysis"
+        ],
+        "dcat:keyword": [
+            "C/C++ code",
+            "vulnerabilities",
+            "synthetic code examples"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Vulnerability Repair",
+            "Static Analysis"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Rajeswar",
+            "S. Subramanian",
+            "F. Dutil",
+            "C. Pal",
+            "A. Courville"
+        ],
+        "dcterms:description": "A dataset generated from a simple Context Free Grammar, where good data is selected randomly from sequences that satisfy the grammar, and errors are injected into each sequence.",
+        "dcterms:title": "Context Free Grammar (CFG)",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Grammar Correction"
+        ],
+        "dcat:keyword": [
+            "Grammar",
+            "Error Injection",
+            "Sequence Generation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Grammar Correction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset generated for the task of sorting sequences of integers, where sequences are created by injecting errors into originally sorted sequences.",
+        "dcterms:title": "Sorting Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Sorting",
+            "Sequence Correction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Sorting"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A paired dataset created from SATE IV, allowing for comparison of performance between GAN and seq2seq approaches.",
+        "dcterms:title": "Sate4-P (paired dataset)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Paired Dataset",
+            "Vulnerability Repair"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Vulnerability Repair"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "An unpaired dataset created from SATE IV, ensuring that a given source sequence does not have a corresponding target sequence in the training data.",
+        "dcterms:title": "Sate4-U (unpaired dataset)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Unpaired Dataset",
+            "Vulnerability Repair"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Vulnerability Repair"
+        ]
+    }
+]

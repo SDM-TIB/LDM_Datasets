@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Harnessing Mixed Offline Reinforcement Learning Datasets via Trajectory Weighting" by Zhang-Wei Hong et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to locate any references to datasets. The abstract mentions evaluating methods on **D4RL benchmarks**, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (Section 5) where the authors describe their experimental setup. They mention evaluating their methods on **62 datasets in D4RL benchmarks**. This indicates a significant number of datasets, and I will need to identify them specifically.
+
+In the **experiments setup**, the authors detail the environments used for evaluation, specifically mentioning **MuJoCo locomotion environments** and **stochastic classic control benchmarks**. They also refer to datasets created by mixing expert and random datasets, which implies that there are specific datasets used for these experiments.
+
+I will then look for a **table or list** that summarizes the datasets used in the experiments. The paper includes several references to datasets like **HalfCheetah, Ant, Hopper, and Walker2d**, along with their variations (e.g., expert, medium, random). I will compile these names and their descriptions.
+
+After identifying the datasets, I will check the **References section** for full citations. The authors reference the D4RL benchmark paper, which provides the necessary citations for the datasets used. The citation for the D4RL benchmark is:
+> Justin Fu, Aviral Kumar, Ofir Nachum, George Tucker, and Sergey Levine. *D4RL: Datasets for Deep Data-Driven Reinforcement Learning*. arXiv preprint arXiv:2004.07219, 2020.
+
+Now, I will summarize the datasets extracted from the paper:
+
+1. **D4RL Benchmark Datasets**: This includes various environments such as:
+   - **HalfCheetah**: Expert, Medium, Random
+   - **Ant**: Expert, Medium, Random
+   - **Hopper**: Expert, Medium, Random
+   - **Walker2d**: Expert, Medium, Random
+   - **Antmaze**: Various configurations
+
+Each of these datasets is crucial for evaluating the proposed methods in the paper.
+
+Finally, I will compile the dataset entries into a structured format, ensuring that each dataset is accompanied by its full citation for proper attribution. This will ensure that the datasets are clearly documented and can be referenced in future work.

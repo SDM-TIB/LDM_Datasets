@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Distributed Scheduling Using Graph Neural Networks" by Zhongyuan Zhao et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to see if any datasets are explicitly mentioned. The abstract discusses a distributed MWIS solver based on graph convolutional networks but does not mention specific datasets. I will need to look deeper into the paper.
+
+Next, I will examine **section 4 (Numerical Experiments)**, where the authors describe their experimental setup. Here, they mention that they generated synthetic graphs for training and testing from the Erdős–Rényi (ER) and Barabási–Albert (BA) models. This indicates that these graph models serve as datasets for their experiments.
+
+1. **Erdős–Rényi (ER) Graphs**: The authors state that the ER model is determined by two parameters: the number of nodes \(N\) and the probability of edge appearance \(p\). They used a dataset of 5800 random graphs, including 5000 graphs of sizes \(N \in \{100, 150, 200, 250, 300\}\) and expected average degree \(Np \in \{2, 5, 7.5, 10, 12.5\}\).
+
+2. **Barabási–Albert (BA) Graphs**: The authors also mention using 800 graphs of sizes \(N \in \{30, 100\}\) with edge probability \(p \in \{0.1, 0.2, \ldots, 0.9\}\). This dataset is used to evaluate the generalization of their GCN-based distributed MWIS solver.
+
+In the **References section**, I will look for any citations related to these datasets. However, since the ER and BA models are well-known graph models, they may not have specific citations in the references. Instead, I will note that these models are commonly referenced in the literature.
+
+Now, I will compile the information into a structured format, ensuring that I include the full citation for the datasets as needed. The citations for the graph models are as follows:
+
+- For **Erdős–Rényi Graphs**:
+  > Erdős, P., & Rényi, A. (1959). On random graphs I. *Publ. Math. Debrecen*, 6, 290-297.
+
+- For **Barabási–Albert Graphs**:
+  > Albert, R., & Barabási, A.-L. (2002). Statistical mechanics of complex networks. *Rev. Mod. Phys.*, 74, 47-97.
+
+After gathering all this information, I will prepare the dataset entries for review or further processing.

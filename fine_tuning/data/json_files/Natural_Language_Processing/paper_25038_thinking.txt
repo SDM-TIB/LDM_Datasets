@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Preference-Guided Reinforcement Learning for Efficient Exploration" by Guojian Wang et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper. The abstract mentions the introduction of LOPE, a preference-guided reinforcement learning framework, but does not specify any datasets. Therefore, I will need to look deeper into the body of the paper.
+
+Next, I will focus on **Section VI (Experimental Setups)**, where the authors describe the environments used for evaluation. Here, they mention several specific environments that serve as datasets for their experiments:
+
+1. **Key-Door-Treasure Domain**: A grid-world environment where the agent must pick up a key, open a door, and collect a treasure. This environment is designed to test exploration strategies in sparse reward settings.
+
+2. **SparseHalfCheetah**: A modified version of the HalfCheetah task from the MuJoCo physics engine, where the agent receives sparse rewards based on its movement.
+
+3. **SparseHopper**: Similar to SparseHalfCheetah, this is a modified Hopper task from MuJoCo, also designed to test the agent's ability to learn from sparse rewards.
+
+4. **Ant Maze**: A challenging maze environment where the agent must learn to navigate and reach a target point, testing its exploration capabilities.
+
+After identifying these datasets, I will check the **References section** for full citations related to these environments. The paper references the original sources for the environments used:
+
+- For the **MuJoCo environments** (SparseHalfCheetah and SparseHopper), the citation is:
+  > Duan, Y., Chen, X., Houthooft, R., Schulman, J., & Abbeel, P. (2016). Benchmarking deep reinforcement learning for continuous control. In Proceedings of the International Conference on Machine Learning (ICML), PMLR, 1329-1338.
+
+- The **Key-Door-Treasure domain** and **Ant Maze** are described as custom environments, so they may not have formal citations but should be noted as such.
+
+Now, I will compile the dataset entries with their respective citations into a structured format for clarity and future reference. This will ensure that I have accurately captured the datasets and their sources as required.

@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Self-Supervised Learning of Gait-Based Biomarkers" by R. James Cotton et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract discusses the application of self-supervised learning (SSL) to gait analysis, hinting at the use of specific datasets for training and evaluation.
+
+Next, I will focus on the **methods section**, particularly **section 2.1 (Data collection)**, where the authors describe the participants and the data collection process. They mention that gait analysis was performed on **75 individuals**, including controls and those with various conditions, resulting in **712 walking trials**. This indicates that the dataset is derived from these trials.
+
+In the same section, the authors detail the types of data collected, including **sagittal plane joint angles** and **3D marker locations**, which are crucial for understanding the dataset's structure and content.
+
+I will also check the **appendix** for any additional details about the dataset, as it often contains supplementary information that can clarify the dataset's characteristics.
+
+Now, I will look for any references to other datasets used for pretraining or comparison. In **section 2.3.1 (Diagnosis classification)**, the authors mention pretraining on a **gait laboratory dataset** that includes **3541 trials from 496 participants**. This is another dataset that needs to be documented.
+
+Next, I will consult the **References section** to find full citations for both datasets mentioned:
+
+1. **Markerless Motion Capture Dataset**: This dataset is derived from the authors' own collection of gait data from 75 individuals, but since it is not attributed to a specific external source, I will note it as an internal dataset without a formal citation.
+
+2. **Gait Laboratory Dataset**: The citation for this dataset is:
+   > R. James Cotton, Emoonah McClerklin, Anthony Cimorelli, Ankit Patel, and Tasos Karakostas. *Transforming Gait: Video-Based Spatiotemporal Gait Analysis*. In 2022 44th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC), pages 115–120, July 2022. doi: 10.1109/EMBC48229.2022.9871036.
+
+After gathering all this information, I will summarize the datasets as follows:
+
+1. **Markerless Motion Capture Dataset**: A dataset consisting of gait analysis data from 75 individuals, including controls and patients with various conditions, resulting in 712 walking trials.
+
+2. **Gait Laboratory Dataset**: A dataset containing 3541 trials from 496 participants, used for pretraining the model.
+
+Finally, I will compile this information into a structured format for further processing or review.

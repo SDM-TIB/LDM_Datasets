@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "ARCHER: Aggressive Rewards to Counter bias in Hindsight Experience Replay" by Sameera Lanka and Tianfu Wu, I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to see if any datasets are explicitly mentioned. The abstract discusses the validation of the proposed method on two continuous control environments from the DeepMind Control Suite, which suggests that these environments may be the datasets of interest.
+
+Next, I will focus on **section 4.1 (Simulation Environments)**, where the authors describe the two environments used for their experiments:
+
+1. **Reacher**: This environment involves a 2-DoF planar robot arm that must place its end effector at a randomized target. The state input and action specifications are provided, indicating that this is a well-defined simulation environment.
+
+2. **Finger**: This environment features a multi-body arrangement where a planar 2-DoF robot arm has to flick a spinner to place it on a target. Similar to Reacher, the state and action details are outlined, confirming its role as a dataset for the experiments.
+
+In the **experiments section**, the authors validate their method using these two environments, reinforcing that they are indeed the datasets utilized in their research.
+
+Now, I will check the **References section** to find full citations for the datasets. However, since these environments are part of the DeepMind Control Suite, I will look for the citation related to this suite:
+
+- For the **DeepMind Control Suite**, the citation is:
+  > Tassa, Y.; Doron, Y.; Muldal, A.; Erez, T.; Li, Y.; Casas, D. d. L.; Budden, D.; Abdolmaleki, A.; Merel, J.; Lefrancq, A.; et al. 2018. *DeepMind control suite*. arXiv preprint arXiv:1801.00690.
+
+With this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required.
+
+In summary, the datasets extracted from the paper are:
+1. **Reacher** - part of the DeepMind Control Suite.
+2. **Finger** - also part of the DeepMind Control Suite.
+
+I will now prepare the structured output for these datasets, ensuring that the citations are accurately included.

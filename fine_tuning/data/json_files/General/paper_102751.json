@@ -1,0 +1,62 @@
+[
+    {
+        "dcterms:creator": [
+            "Han Zhu",
+            "Daqing Chang",
+            "Ziru Xu",
+            "Pengye Zhang",
+            "Xiang Li",
+            "Jie He",
+            "Han Li",
+            "Jian Xu",
+            "Kun Gai"
+        ],
+        "dcterms:description": "This dataset is first released by Han Zhu et al. and is widely used as the public benchmark for CTR prediction task and sequential recommendation task. It is made up of users’ behavior logs from Taobao Mobile App. The user behaviors include click, favorite, add to cart and buy. This dataset contains 100 million instances. In average, each user has about 101 interactions and each item receives over 24 interactions. The recent 16 behaviors are selected as short-term user behavior sequence and the recent 256 behaviors are selected as long-term user behavior sequence.",
+        "dcterms:title": "Taobao Dataset",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://tianchi.aliyun.com/dataset/dataDetail?dataId=649&userId=1",
+        "dcat:theme": [
+            "Recommender Systems",
+            "Click-Through Rate Prediction"
+        ],
+        "dcat:keyword": [
+            "User behavior logs",
+            "E-commerce",
+            "Recommendation",
+            "CTR prediction"
+        ],
+        "dcat:landingPage": "https://tianchi.aliyun.com/dataset/dataDetail?dataId=649&userId=1",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Click-Through Rate Prediction",
+            "Sequential Recommendation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "This dataset is collected from our own online RS, which is one of the top-tier mobile Apps in our country. It contains impression interaction, which indicates an item is displayed to a user but not clicked by the user. The user behavior sequence is much longer in our industrial dataset, with over 142 billion instances and an average length of 938, which is 9 times longer than the public Taobao dataset.",
+        "dcterms:title": "Industrial Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Recommender Systems",
+            "Click-Through Rate Prediction"
+        ],
+        "dcat:keyword": [
+            "User behavior sequence",
+            "Impression interaction",
+            "E-commerce",
+            "CTR prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Click-Through Rate Prediction",
+            "Long-term User Interest Modeling"
+        ]
+    }
+]

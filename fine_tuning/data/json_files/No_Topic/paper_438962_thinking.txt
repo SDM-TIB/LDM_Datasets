@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "From Zero to Hero: Cold-Start Anomaly Detection" by Tal Reiss et al., I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reading through the **abstract, introduction, and experiments sections** of the paper. The abstract provides a brief overview of the study, and the introduction often outlines the context and significance of the research, which may include mentions of datasets.
+
+In the **introduction**, the authors discuss the challenges of deploying anomaly detection systems and mention the need for datasets that can help evaluate their proposed method, ColdFusion. This indicates that datasets are likely to be detailed in the experiments section.
+
+Next, I will focus on the **experiments section**, specifically looking for any subsections that explicitly mention datasets. In this paper, the authors describe three evaluation datasets used for their experiments:
+
+1. **Banking77-OOS**: This dataset consists of 13,083 customer service queries categorized into 77 fine-grained intents within the online banking domain. It includes 50 in-scope intents and 27 out-of-scope queries. The training set has 5,095 in-scope queries, while the test set contains 3,080 queries, including 1,080 out-of-scope instances.
+
+2. **CLINC-OOS**: Derived from the broader CLINC dataset, this dataset focuses on two domains: "Banking" and "Credit cards." Each domain features 10 in-scope and 5 out-of-scope intents, with training sets of 500 in-scope queries and test sets of 850 queries, including 350 designated as out-of-scope instances.
+
+3. **CLINC-Banking** and **CLINC-Credit_Cards**: These are subsets of the CLINC-OOS dataset, specifically segmented for evaluation purposes.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset mentioned. The citations are crucial for proper attribution and to guide readers to the original sources.
+
+The citations I will extract are:
+
+- For **Banking77-OOS**:
+  > Iñigo Casanueva, Tadas Temˇcinas, Daniela Gerz, Matthew Henderson, and Ivan Vuli´c. 2020. Efficient intent detection with dual sentence encoders. *arXiv preprint arXiv:2003.04807*.
+
+- For **CLINC-OOS**:
+  > Stefan Larson, Anish Mahendran, Joseph J Peper, Christopher Clarke, Andrew Lee, Parker Hill, Jonathan K Kummerfeld, Kevin Leach, Michael A Laurenzano, Lingjia Tang, et al. 2019. An evaluation dataset for intent classification and out-of-scope prediction. *arXiv preprint arXiv:1909.02027*.
+
+Now, I will compile the dataset entries, ensuring that each entry includes the dataset name, description, and full citation. This structured approach will help in accurately documenting the datasets used in the research paper.

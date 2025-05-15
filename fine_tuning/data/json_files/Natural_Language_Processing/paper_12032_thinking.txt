@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Towards Deep Network Steganography: From Networks to Networks" by Sheng Li et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the research, but it may not contain detailed information about datasets. Therefore, I will pay close attention to the **introduction** and **experiments** sections, as these are likely to contain references to specific datasets used in the research.
+
+In the **introduction**, the authors discuss the application of deep learning techniques and mention the need for covert communication of DNN models. However, they do not specify any datasets at this point. I will continue to the **experiments section** where the authors describe their experimental setup.
+
+In **section 5 (Experiments)**, the authors mention two types of experiments: intra-task and inter-task steganography. They specify the datasets used for each type of experiment:
+
+1. **Fashion-MNIST Dataset**: This dataset is used for training the secret DNN model in the intra-task steganography scenario. It consists of 60,000 training images and 10,000 test images of clothing items.
+
+2. **CIFAR10 Dataset**: This dataset is used for training the stego DNN model in the intra-task steganography scenario. It contains 60,000 32x32 color images in 10 classes, with 6,000 images per class.
+
+3. **Oxford-Pet Dataset**: This dataset is used for the inter-task steganography scenario. It consists of 7,349 images of cats and dogs, which are used for image segmentation tasks.
+
+Next, I will check the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For the **Fashion-MNIST Dataset**, the citation is:
+  > Han Xiao, Kashif Rasul, and Roland Vollgraf. *Fashion-MNIST: A Novel Image Dataset for Benchmarking Machine Learning Algorithms*. arXiv preprint arXiv:1708.07747, 2017.
+
+- For the **CIFAR10 Dataset**, the citation is:
+  > Alex Krizhevsky, Geoffrey Hinton, et al. *Learning Multiple Layers of Features from Tiny Images*. Advances in Neural Information Processing Systems, 2009.
+
+- For the **Oxford-Pet Dataset**, the citation is:
+  > Omkar M. Parkhi, Andrea Vedaldi, Andrew Zisserman, and C. V. Jawahar. *Cats and Dogs*. In 2012 IEEE Conference on Computer Vision and Pattern Recognition, 2012.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for easy reference. Each dataset will be documented with its name, description, and full citation to ensure proper attribution and facilitate further research.

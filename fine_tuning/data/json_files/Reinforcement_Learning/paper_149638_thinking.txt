@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "A-Eye: Driving with the Eyes of AI for Corner Case Generation" by Kamil Kowol, Stefan Bracke, and Hanno Gottschalk, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets mentioned. The abstract indicates that the paper discusses generating synthetic corner cases for automated driving, which suggests that datasets related to these corner cases may be present.
+
+Next, I will examine **section 3 (Experimental Setup)**, where the authors describe the driving simulator and the datasets used for training and testing. Here, they mention that a custom dataset was generated using the CARLA simulator, consisting of 85 scenes with 60 frames each, along with a validation dataset of 20 scenes. This is a clear indication of a dataset being utilized.
+
+In **section 3.3**, the authors provide more details about the dataset for initial training and testing, specifying that it includes various parameters and scenes generated in the CARLA environment. They also mention the use of 21 corner case scenes as test data, each containing 30 frames, and another test dataset with 21 standard scenes without corner cases.
+
+I will also check the **results section** to see if any additional datasets are referenced or if there are any comparisons made that might indicate the use of other datasets.
+
+Now, I will look at the **References section** to find full citations for the datasets mentioned. The CARLA simulator is referenced, and I will ensure to include its citation as it is crucial for understanding the dataset's origin.
+
+The citations I will need to include are:
+
+1. For the CARLA simulator:
+   > Dosovitskiy, A., et al. (2017). CARLA: an open urban driving simulator. In 1st Annual Conference on Robot Learning, CoRL 2017, Mountain View, California, USA, November 13-15, 2017, Proceedings, volume 78 of Proceedings of Machine Learning Research, pages 1–16. PMLR.
+
+2. For the Cityscapes dataset (mentioned in the context of the Fast-SCNN model):
+   > Cordts, M., et al. (2016). The cityscapes dataset for semantic urban scene understanding. In Proc. of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research paper.

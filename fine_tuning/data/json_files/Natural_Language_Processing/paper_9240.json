@@ -1,0 +1,83 @@
+[
+    {
+        "dcterms:creator": [
+            "Dragomir R. Radev",
+            "Pradeep Muthukrishnan",
+            "Vahed Qazvinian",
+            "Amjad Abu-Jbara"
+        ],
+        "dcterms:description": "The AAN corpus consists of 23,766 papers written by 18,862 authors in 373 venues related to NLP and forms a citation network. Each paper is represented by a node with directed edges connecting a paper to all its cited papers. Papers that have been cited by the parent paper are treated as similar samples.",
+        "dcterms:title": "ACL Anthology Network Corpus (AAN)",
+        "dcterms:issued": "2013",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://aan.how/download/#aanNetworkCorpus",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Citation Analysis"
+        ],
+        "dcat:keyword": [
+            "Research papers",
+            "Citation network",
+            "NLP"
+        ],
+        "dcat:landingPage": "https://aan.how/download/#aanNetworkCorpus",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Document Matching"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Jyun-Yu Jiang",
+            "Mingyang Zhang",
+            "Cheng Li",
+            "Michael Bendersky",
+            "Nadav Golbandi",
+            "Marc Najork"
+        ],
+        "dcterms:description": "The WIKI dataset consists of Wikipedia articles processed to create a dataset of similar articles based on outgoing links. Articles with a Jaccard similarity greater than 0.5 are considered similar.",
+        "dcterms:title": "Wikipedia Articles (WIKI)",
+        "dcterms:issued": "2019",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Information Retrieval"
+        ],
+        "dcat:keyword": [
+            "Wikipedia",
+            "Article similarity",
+            "Link analysis"
+        ],
+        "dcat:landingPage": "https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Document Matching"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The PAT dataset consists of patents sampled from the publicly available USPTO patents belonging to various categories. It is an industry gold standard dataset used for document matching tasks.",
+        "dcterms:title": "USPTO Patents (PAT)",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://github.com/google/patents-public-data",
+        "dcat:theme": [
+            "Patent Analysis",
+            "Document Similarity"
+        ],
+        "dcat:keyword": [
+            "Patents",
+            "USPTO",
+            "Document matching"
+        ],
+        "dcat:landingPage": "https://github.com/google/patents-public-data",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Document Matching"
+        ]
+    }
+]

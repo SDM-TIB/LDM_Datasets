@@ -1,0 +1,64 @@
+[
+    {
+        "dcterms:creator": [
+            "K. Meng",
+            "D. Bau",
+            "A. Andonian",
+            "Y. Belinkov"
+        ],
+        "dcterms:description": "COUNTERFACT dataset contains 21,919 requests {s, r, o, o∗, π∗} where o is the correct answer to the prompt x = (s, r), o∗ is the counterfactual edit request, and π∗ ∼ P (s, r) is a paraphrase of the prompt x = (s, r) to test for generalizability. Each record also contains neighborhood prompts to test for specificity and generation prompts to test if LM generation post-edit is fluent and consistent with the edit.",
+        "dcterms:title": "COUNTERFACT",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Counterfactual Reasoning",
+            "Language Modeling"
+        ],
+        "dcat:keyword": [
+            "Counterfactual edits",
+            "Language models",
+            "Evaluation dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Fact Editing",
+            "Counterfactual Reasoning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "E. Hernandez",
+            "A. Sen Sharma",
+            "T. Haklay",
+            "K. Meng",
+            "M. Wattenberg",
+            "J. Andreas",
+            "Y. Belinkov",
+            "D. Bau"
+        ],
+        "dcterms:description": "The RELATIONS dataset consists of 47 relations of 4 types; factual, linguistic, bias, and commonsense. It contains a set of (s, o) for each relation r, focusing on factual relations for the purpose of evaluating linearity in relation decoding.",
+        "dcterms:title": "RELATIONS",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Relation Extraction",
+            "Language Understanding"
+        ],
+        "dcat:keyword": [
+            "Factual relations",
+            "Language models",
+            "Relation decoding"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Relation Extraction",
+            "Factual Recall"
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Grounding Language Plans in Demonstrations through Counterfactual Perturbations" by Yanwei Wang et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets that are explicitly mentioned. The abstract discusses the grounding of common-sense reasoning in physical domains and mentions the use of demonstrations, which suggests that there may be datasets related to these demonstrations.
+
+Next, I will examine the **methodology section** (specifically section 2) to look for any detailed descriptions of datasets used for training or evaluation. In this section, the authors describe their approach to augmenting demonstration data with counterfactual perturbations, which implies that they have a dataset of demonstrations that they manipulate to create new data points.
+
+I will also check the **experiments section** (section 3) to see if the authors provide specific names or details about the datasets used in their experiments. They mention testing their method on various tasks, including 2D navigation and robot manipulation tasks, which may correspond to specific datasets.
+
+After identifying potential datasets, I will look for the **references section** to find full citations for each dataset mentioned. This is crucial for proper attribution and to provide readers with the necessary information to access the datasets.
+
+From my reading, I will summarize the datasets as follows:
+
+1. **Demonstration Dataset**: This dataset consists of human demonstrations used to train the grounding classifier. The authors mention collecting demonstrations for tasks such as 2D navigation and robot manipulation, but they do not provide a specific name for this dataset.
+
+2. **Robosuite Dataset**: The paper references the Robosuite framework for simulating robot manipulation tasks. The specific tasks mentioned include placing a can in a bin, lifting a block, and inserting a square nut into a peg. The citation for the Robosuite framework is:
+   > Zhu, Y., Wong, J., Mandlekar, A., Martín-Martín, R., Joshi, A., Nasiriany, S., & Zhu, Y. (2020). *Robosuite: A modular simulation framework and benchmark for robot learning*. arXiv preprint arXiv:2009.12293.
+
+3. **2D Navigation Dataset**: The authors describe a 2D navigation environment consisting of connected polygons, but they do not provide a specific name for this dataset. It is implied that this dataset is generated through the simulation environment they created.
+
+4. **Counterfactual Perturbation Dataset**: This dataset is generated from the original demonstration dataset by applying synthetic perturbations to create both successful and failing trajectories. The authors do not provide a specific name for this dataset.
+
+After gathering this information, I will compile the dataset entries, ensuring that I include full citations for any datasets that have been formally published or referenced in the paper. This will provide a comprehensive overview of the datasets used in the research.

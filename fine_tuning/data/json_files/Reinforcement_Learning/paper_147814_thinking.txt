@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Learning to Learn Without Forgetting by Maximizing Transfer and Minimizing Interference" by Matthew Riemer et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to see if any datasets are explicitly mentioned. The abstract discusses experiments across continual lifelong supervised learning benchmarks and non-stationary reinforcement learning environments, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (section 4) where the authors typically describe the datasets used for evaluation. In this section, they mention two specific continual learning benchmarks:
+
+1. **MNIST Permutations**: This dataset is a variant of the MNIST dataset where each task is transformed by a fixed permutation of the MNIST pixels. The authors state that this dataset is used to evaluate their method.
+
+2. **MNIST Rotations**: Another variant of the MNIST dataset where each task contains digits rotated by a fixed angle between 0 and 180 degrees. This dataset is also used for evaluation.
+
+In addition to these, the authors mention a new benchmark called **Many Permutations**, which is a variant of MNIST Permutations with more tasks and fewer training examples per task.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **MNIST**, the citation is:
+  > Yann LeCun, Corinna Cortes, and Chris Burges. *The MNIST Database of Handwritten Digits*. 1998. [http://yann.lecun.com/exdb/mnist/](http://yann.lecun.com/exdb/mnist/)
+
+- For **Many Permutations**, since it is a variant of MNIST, I will cite the original MNIST dataset as the authoritative source.
+
+Next, I will compile the dataset entries, ensuring to include the full citations for each dataset as required.
+
+Finally, I will prepare the dataset entries for structured output, ensuring that each dataset is clearly documented with its name, description, and citation.

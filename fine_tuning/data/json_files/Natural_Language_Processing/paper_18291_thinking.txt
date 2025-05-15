@@ -1,0 +1,70 @@
+To extract datasets from the research paper titled "TURNA: A Turkish Encoder-Decoder Language Model for Enhanced Understanding and Generation" by Gökçe Uludoğan et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that TURNA is evaluated on various tasks, which suggests that datasets are involved. The introduction discusses the need for large-scale pretrained models for Turkish, hinting at the use of multiple datasets for evaluation.
+
+Next, I will focus on the **Data section** (section 3), which is likely to contain detailed descriptions of the datasets used for pretraining and evaluation. Here, the authors mention compiling a diverse Turkish monolingual dataset and provide a summary table (Table 1) that lists various datasets along with their types and statistics.
+
+In section 3.1, the authors describe the **Web Corpora**, which includes data from OSCAR and mC4. In section 3.2, they detail the **Dergipark** scientific corpus, and in section 3.3, they discuss the **Book Corpus**. Section 3.4 introduces the **Bilkent Creative Writings corpus**, and section 3.5 describes the **ParlaMintTR corpus**. Each of these sections provides specific details about the datasets, including the number of documents and tokens.
+
+I will also check the **Fine-tuning Datasets section** (A.2) for additional datasets used in downstream tasks. Here, the authors provide a list of datasets for various tasks, including paraphrasing, summarization, named entity recognition, and text classification.
+
+Now, I will compile the datasets identified in the paper along with their full citations from the **References section**. The datasets I will extract include:
+
+1. **OSCAR & mC4**: A large multilingual web corpus.
+   - Citation: Abadji, J., Ortiz Suarez, P., Romary, L., & Sagot, B. (2022). Towards a Cleaner Document-Oriented Multilingual Crawled Corpus. arXiv:2201.06642.
+
+2. **Dergipark**: A scientific corpus from Turkish academic journals.
+   - Citation: Not explicitly cited in the references, but the source is mentioned as DergiPark (dergipark.org.tr).
+
+3. **YökTez**: A scientific corpus of Turkish theses.
+   - Citation: Not explicitly cited in the references, but the source is mentioned as Turkey’s National Thesis Center (tez.yok.gov.tr).
+
+4. **Book Corpus**: A compilation of Turkish fiction and non-fiction books.
+   - Citation: Not explicitly cited in the references.
+
+5. **Bilkent Creative Writings**: A corpus of creative writings from Bilkent University students.
+   - Citation: Not explicitly cited in the references.
+
+6. **ParlaMintTR**: A corpus of Turkish parliamentary debates.
+   - Citation: Not explicitly cited in the references, but the source is mentioned as part of the CLARIN Flagship project (clarin.eu/parlamint).
+
+7. **OST**: A paraphrasing dataset from OpenSubtitles2018.
+   - Citation: Alkurdi, B., Sarioglu, H. Y., & Amasyali, M. F. (2022). Semantic similarity based filtering for Turkish paraphrase creation. In Proceedings of the 5th International Conference on Natural Language and Speech Processing (ICNLSP 2022), pages 119–127.
+
+8. **TAT**: A paraphrasing dataset from Tatoeba.
+   - Citation: Alkurdi, B., Sarioglu, H. Y., & Amasyali, M. F. (2022). Semantic similarity based filtering for Turkish paraphrase creation. In Proceedings of the 5th International Conference on Natural Language and Speech Processing (ICNLSP 2022), pages 119–127.
+
+9. **TRNews**: A dataset for summarization and title generation.
+   - Citation: Baykara, B., & Güngör, T. (2022). Abstractive text summarization and new large-scale datasets for agglutinative languages Turkish and Hungarian. Language Resources and Evaluation, 56(3), 973–1007.
+
+10. **MLSUM**: A multilingual summarization dataset.
+    - Citation: Scialom, T., Dray, P.-A., Lamprier, S., Piwowarski, B., & Staiano, J. (2020). MLSUM: The multilingual summarization corpus. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 8051–8067.
+
+11. **WikiANN**: A multilingual named entity recognition dataset.
+    - Citation: Rahimi, A., Li, Y., & Cohn, T. (2019). Massively multilingual transfer for NER. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pages 151–164.
+
+12. **MilliyetNER**: A named entity recognition dataset from Turkish news articles.
+    - Citation: Tür, G., Hakkani-Tür, D., & Oflazer, K. (2003). A statistical information extraction system for Turkish. Natural Language Engineering, 9(2), 181–210.
+
+13. **UD Turkish IMST**: A Turkish dependency treebank.
+    - Citation: Türk, U., Özateş, Ş. B., Marşan, B., Akkurt, S. F., Atmaca, F., Eryiğit, G. C., & Tyers, F. (2023). UD Turkish IMST. Universal Dependencies. Accessed: 2023-11-14.
+
+14. **UD Turkish BOUN**: Another Turkish dependency treebank.
+    - Citation: Marşan, B., Akkurt, S. F., Türk, U., & Eryiğit, G. C. (2023). UD Turkish BOUN. Universal Dependencies. Accessed: 2023-11-14.
+
+15. **STSb-TR**: A semantic textual similarity dataset.
+    - Citation: Beken Fikri, F., Oflazer, K., & Yanikoglu, B. (2021). Semantic similarity based evaluation for abstractive news summarization. In Proceedings of the 1st Workshop on Natural Language Generation, Evaluation, and Metrics (GEM 2021), pages 24–33.
+
+16. **NLI-TR**: A natural language inference dataset in Turkish.
+    - Citation: Budur, E., Özçelik, R., Güngör, T., & Potts, C. (2020). Data and Representation for Turkish Natural Language Inference. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 8253–8267.
+
+17. **Product Reviews**: A sentiment classification dataset.
+    - Citation: Not explicitly cited in the references, but available on Hugging Face.
+
+18. **TTC4900**: A text classification dataset.
+    - Citation: Yıldırım, S., & Yıldız, T. (2018). A comparative analysis of text classification for Turkish language. Pamukkale Univ Muh Bilim Derg, 24(5), 879–886.
+
+19. **Tweet Sentiments**: A sentiment classification dataset from tweets.
+    - Citation: Amasyali, M. F., Tasköprü, H., & Çaliskan, K. (2018). Words, meanings, characters in sentiment analysis. In 2018 Innovations in Intelligent Systems and Applications Conference (ASYU), pages 1–6. IEEE.
+
+After gathering all this information, I will ensure that each dataset is accurately represented with its citation for future reference or processing.

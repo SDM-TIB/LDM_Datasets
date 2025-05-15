@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Robust Model-Based Optimization for Challenging Fitness Landscapes" by Saba Ghaffari et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract highlights that the authors benchmark their method on "real and semi-synthetic protein datasets," which indicates that there are specific datasets used in their experiments.
+
+Next, I will examine **section 4 (Experiments)**, as this section typically contains detailed information about the datasets used. In this section, the authors mention several datasets:
+
+1. **AAV Dataset**: This dataset consists of variants of the protein located in the capsid of the AAV virus along with their viability measurements. It includes roughly 284K variants with single to 28-site mutations. The property values were normalized to a range of [0, 1]. The dataset was obtained from:
+   > Dallago, C., Mou, J., Johnston, K. E., Wittmann, B. J., Bhattacharya, N., Goldman, S., Madani, A., & Yang, K. K. (2021). *Deep diversification of an AAV capsid protein by machine learning*. Nature Biotechnology, 39(6), 691–696.
+
+2. **GB1 Dataset**: This dataset contains the empirical fitness landscape for the binding of protein G domain B1 to an antibody, with fitness measured for 149,361 sequences for variants of amino acids at four sites. The dataset is overpopulated with low or zero-fitness sequences. The sequences and their properties were obtained from:
+   > Qiu, Y., & Wei, G.-W. (2022). *Clade 2.0: Evolution-driven cluster learning-assisted directed evolution*. Journal of Chemical Information and Modeling, 62(19), 4629–4641.
+
+3. **PhoQ Dataset**: This dataset is a combinatorial library of four amino acid sites located at the interface between PhoQ kinase and sensor domains, with fitness measured by yellow fluorescent protein (YFP) levels. The dataset contains 140,517 measured sequences. The sequences and their properties were also obtained from:
+   > Qiu, Y., & Wei, G.-W. (2022). *Clade 2.0: Evolution-driven cluster learning-assisted directed evolution*. Journal of Chemical Information and Modeling, 62(19), 4629–4641.
+
+4. **GMM (Gaussian Mixture Model)**: This dataset is a synthetic dataset used as a property oracle, defined by a bimodal Gaussian function. The details of this dataset are more methodological than citation-based, so it does not require a citation.
+
+5. **PINN Dataset**: This dataset consists of solutions derived from physics-informed neural networks (PINNs) for the Poisson equation. The dataset is based on the work by Saleh et al. (2023), which is referenced in the paper. The citation is:
+   > Saleh, E., Ghaffari, S., Bretl, T., Olson, L., & West, M. (2023). *Learning from integral losses in physics-informed neural networks*. arXiv preprint arXiv:2305.17387.
+
+After identifying these datasets, I will ensure to compile the full citations for each dataset as they are crucial for proper referencing.
+
+Now, I will summarize the datasets and their citations in a structured manner, ready for further processing or review.

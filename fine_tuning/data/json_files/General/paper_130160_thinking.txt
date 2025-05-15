@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "MCPA: Multi-scale Cross Perceptron Attention Network for 2D Medical Image Segmentation" by Liang Xu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors evaluate their model on several publicly available medical image datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on the **introduction** to see if the authors provide any context or mention specific datasets. The introduction discusses the importance of medical imaging and segmentation but does not specify datasets.
+
+Moving on to the **methods section**, I will look for a dedicated subsection that discusses datasets. In this paper, the authors mention the datasets used for evaluation, specifically in the **experiments section**. They list the following datasets:
+
+1. **Synapse Dataset**: This dataset consists of 30 cases with a total of 3,779 axial abdominal clinical CT images, annotated for 8 organs. The dataset is divided into a training set of 18 samples and a test set of 12 samples.
+
+2. **ACDC Dataset**: The Automated Cardiac Diagnosis Challenge dataset consists of 100 samples obtained from different patients using an MRI scanner, with segmentation annotations for the left ventricle (LV), right ventricle (RV), and myocardium (MYO). It is divided into 70 training samples, 10 validation samples, and 20 test samples.
+
+3. **DRIVE Dataset**: This dataset includes 40 RGB retinal images, with a resolution of 565x584 pixels. It is split into 20 training images and 20 test images.
+
+4. **CHASE_DB1 Dataset**: This dataset consists of 28 retinal images of left and right eyes, collected from 14 school children, divided into 20 training images and 8 test images.
+
+5. **HRF Dataset**: The HRF dataset contains retinal images from 15 healthy subjects, 15 subjects with diabetic retinopathy, and 15 subjects with glaucoma, with 36 images used for training and 9 for testing.
+
+6. **ROSE Dataset**: The Retinal OCT-Angiography vessel Segmentation dataset consists of 30 OCTA images, with 22 images used for training and 8 for testing.
+
+Now, I will check the **references section** to find the full citations for these datasets. The citations are as follows:
+
+- **Synapse Dataset**: 
+  > F. Shamshad, et al., “Transformers in medical imaging: A survey,” *Medical Image Analysis*, pp. 102802, 2023.
+
+- **ACDC Dataset**: 
+  > E. Gibson, et al., “Automatic multi-organ segmentation on abdominal CT with dense V-networks,” *IEEE Transactions on Medical Imaging*, vol. 37, no. 8, pp. 1822-1834, 2018.
+
+- **DRIVE Dataset**: 
+  > J. Staal, et al., “Ridge-based vessel segmentation in color images of the retina,” *IEEE Transactions on Medical Imaging*, vol. 23, no. 4, pp. 501-509, 2004.
+
+- **CHASE_DB1 Dataset**: 
+  > C. G. Owen, et al., “Measuring retinal vessel tortuosity in 10-year-old children: validation of the computer-assisted image analysis of the retina (CAIAR) program,” *Investigative Ophthalmology & Visual Science*, vol. 50, no. 5, pp. 2004-2010, 2009.
+
+- **HRF Dataset**: 
+  > A. Budai, et al., “Robust Vessel Segmentation in Fundus Images,” *International Journal of Biomedical Imaging*, vol. 2013, pp. 154860, 2013.
+
+- **ROSE Dataset**: 
+  > Y. Ma, et al., “ROSE: a retinal OCT-angiography vessel segmentation dataset and new model,” *IEEE Transactions on Medical Imaging*, vol. 40, no. 3, pp. 928-939, 2020.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

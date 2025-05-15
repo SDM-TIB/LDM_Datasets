@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Privacy-Aware Document Visual Question Answering" by Rubén Tito et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors propose a large-scale DocVQA dataset focused on invoice documents, which suggests that a dataset is indeed present.
+
+Next, I will focus on **section 3 (PFL-DocVQA Dataset)**, where the authors provide detailed information about the dataset they created. Here, they describe the dataset's structure, including the number of documents, pages, and question-answer pairs. They mention that the dataset is divided into two parts: the **BLUE dataset** and the **RED dataset**.
+
+1. **PFL-DocVQA Dataset**: This dataset is designed for privacy-aware document visual question answering. It consists of invoice document images, OCR transcriptions, and associated question-answer pairs. The dataset contains a total of 336,842 question-answer pairs framed on 117,661 pages of 37,669 documents from 6,574 different invoice providers.
+
+2. **BLUE Dataset**: This is the base dataset used for training and evaluating models. It is divided into training, validation, and test sets, with documents sourced from various providers.
+
+3. **RED Dataset**: This dataset is used for membership inference attacks and is split into positive and negative subsets based on whether the providers were seen during training.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned. The authors reference the **DocILE dataset**, which is used to source the document images for the PFL-DocVQA dataset.
+
+- For **PFL-DocVQA Dataset**, the citation is:
+  > Rubén Tito, Mohamed Ali Souibgui, Khanh Nguyen, Kangsoo Jung, Mario Fritz, Marlon Tobaben, Lei Kang, Dimosthenis Karatzas, Raouf Kerkouche, Ernest Valveny, Antti Honkela. *Privacy-Aware Document Visual Question Answering*. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages XXX-XXX, 2023.
+
+- For **DocILE Dataset**, the citation is:
+  > Stepan Simsa, Milan Sulc, Michal Uricar, Yash Patel, Ahmed Hamdi, Matej Kocian, Matyas Skalicky, Jiri Matas, Antoine Doucet, Mickael Coustaty, et al. *DocILE Benchmark for Document Information Localization and Extraction*. arXiv preprint arXiv:2302.05658, 2023.
+
+After gathering this information, I will compile the dataset entries into a structured format for clarity and future reference. This ensures that I have accurately captured the datasets and their citations from the paper.

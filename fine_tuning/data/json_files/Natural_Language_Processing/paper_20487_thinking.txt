@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Semantic Layering in Room Segmentation via LLMs" by Taehyeon Kim and Byung-Cheol Min, I will follow a systematic approach to identify and document any datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to locate any references to datasets. The abstract mentions that the effectiveness of the proposed method, SeLRoS, is verified through its application across **30 different 3D environments**. This indicates that there is a dataset involved, but I need to find more specific details.
+
+Next, I will examine the **experiments section** where the authors describe their experimental setup. They state that experiments were conducted using **30 diverse 3D models generated through ProcTHOR within the AI2-THOR framework**. This suggests that the dataset consists of these 3D models, but I need to confirm if there are any specific names or citations associated with these datasets.
+
+In the **methodology section**, the authors describe the process of generating a segmentation map from a 2D map derived from the original environment. They mention using the **Voronoi Random Field (VRF) algorithm** for room segmentation, but this does not refer to a dataset. However, the mention of **ProcTHOR** and **AI2-THOR** indicates that these are the sources of the datasets used in their experiments.
+
+Now, I will look at the **references section** to find full citations for the datasets mentioned. The authors reference:
+
+- **ProcTHOR**: 
+  > M. Deitke, E. VanderBilt, A. Herrasti, L. Weihs, J. Salvador, K. Ehsani, W. Han, E. Kolve, A. Farhadi, A. Kembhavi, and R. Mottaghi. *ProcTHOR: Large-Scale Embodied AI Using Procedural Generation*. In NeurIPS, 2022, outstanding Paper Award.
+
+- **AI2-THOR**: 
+  > E. Kolve, R. Mottaghi, W. Han, E. VanderBilt, L. Weihs, A. Herrasti, D. Gordon, Y. Zhu, A. Gupta, and A. Farhadi. *AI2-THOR: An Interactive 3D Environment for Visual AI*. arXiv, 2017.
+
+With these citations, I can now summarize the datasets extracted from the paper:
+
+1. **30 Diverse 3D Models**: Generated through ProcTHOR within the AI2-THOR framework, used for validating the SeLRoS method.
+
+Now, I will compile the dataset entries into a structured format for further processing or review. This includes ensuring that each dataset is properly cited with its full reference.

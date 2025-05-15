@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Enhanced Visual Instruction Tuning with Synthesized Image-Dialogue Data" by Yanda Li et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to locate any datasets that are explicitly referenced or described. The abstract mentions a novel data collection methodology that synthesizes images and dialogues for visual instruction tuning, indicating that datasets are involved.
+
+In the **introduction**, the authors discuss the limitations of existing datasets and the need for paired vision-text data, which suggests that they may have created or utilized specific datasets for their experiments.
+
+Next, I will focus on the **methods section**, particularly where they describe their data generation pipeline. Here, they mention generating a dataset with approximately **126K image-dialogue pairs** and an additional dataset of **3K multi-image instances**. This indicates that they synthesized their own datasets rather than relying solely on existing ones.
+
+In the **experiments section**, the authors detail the training datasets used, confirming that they generated a diverse dataset covering various single-image abilities and multi-image instances. They also mention the use of the **LLaVA dataset** as a foundational dataset, which is crucial for understanding the context of their experiments.
+
+Now, I will check the **references section** to find full citations for any datasets mentioned. The paper references the **LLaVA model** and other datasets like **COCO**, **VisWiz**, **MM-Vet**, **GQA**, and **MMBench**. I will extract the relevant citations for these datasets:
+
+1. **LLaVA Dataset**:
+   > Haotian Liu, Chunyuan Li, Qingyang Wu, and Yong Jae Lee. *Visual instruction tuning*. arXiv preprint arXiv:2304.08485, 2023.
+
+2. **COCO Dataset**:
+   > Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. *Microsoft COCO: Common objects in context*. In Computer Vision–ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13, pages 740–755. Springer, 2014.
+
+3. **VisWiz Dataset**:
+   > Danna Gurari, Qing Li, Abigale J Stangl, Anhong Guo, Chi Lin, Kristen Grauman, Jiebo Luo, and Jeffrey P Bigham. *VizWiz grand challenge: Answering visual questions from blind people*. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 3608–3617, 2018.
+
+4. **GQA Dataset**:
+   > Drew A Hudson and Christopher D Manning. *GQA: A new dataset for real-world visual reasoning and compositional question answering*. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 6700–6709, 2019.
+
+5. **MMBench Dataset**:
+   > Yuan Liu, Haodong Duan, Yuanhan Zhang, Bo Li, Songyang Zhang, Wangbo Zhao, Yike Yuan, Jiaqi Wang, Conghui He, Ziwei Liu, et al. *MMBench: Is your multi-modal model an all-around player?* arXiv preprint arXiv:2307.06281, 2023.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This will provide a comprehensive overview of the datasets utilized and synthesized in the research paper.

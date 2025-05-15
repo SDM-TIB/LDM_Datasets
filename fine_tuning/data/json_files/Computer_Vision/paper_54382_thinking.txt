@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "RegMixup: Mixup as a Regularizer Can Surprisingly Improve Accuracy & Out-of-Distribution Robustness" by Francesco Pinto et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** and **introduction** sections to see if any datasets are mentioned. The abstract discusses experiments on vision datasets, specifically mentioning **ImageNet** and **CIFAR-10/100**. This indicates that these datasets are likely used in the experiments.
+
+Next, I will check the **experiments section** (section 4) for a detailed description of the datasets used. In this section, the authors explicitly mention the datasets employed for their experiments:
+
+1. **CIFAR-10**: A widely used dataset for image classification containing 60,000 32x32 color images in 10 classes, with 6,000 images per class.
+2. **CIFAR-100**: Similar to CIFAR-10 but with 100 classes containing 600 images each.
+3. **ImageNet-1K**: A large-scale dataset for image classification containing over 1 million images across 1,000 classes.
+4. **CIFAR-10-C**: A corrupted version of CIFAR-10, designed to test model robustness against common corruptions.
+5. **CIFAR-100-C**: A corrupted version of CIFAR-100, similar in purpose to CIFAR-10-C.
+6. **SVHN**: The Street View House Numbers dataset, used for digit recognition.
+7. **Tiny-ImageNet**: A smaller version of ImageNet, containing 200 classes with 500 images per class.
+
+After identifying these datasets, I will look at the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For **CIFAR-10** and **CIFAR-100**:
+  > Alex Krizhevsky, Vinod Nair, and Geoffrey Hinton. *CIFAR-10 and CIFAR-100 datasets*. 2010. [Online]. Available: https://www.cs.toronto.edu/~kriz/cifar.html
+
+- For **ImageNet**:
+  > Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. *ImageNet: A large-scale hierarchical image database*. In 2009 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 248–255, 2009.
+
+- For **SVHN**:
+  > Yuval Netzer, T. Wang, A. Coates, A. Bissacco, B. Wu, and A. Ng. *Reading digits in natural images with unsupervised feature learning*. 2011. [Online]. Available: http://ufldl.stanford.edu/housenumbers/
+
+- For **Tiny-ImageNet**:
+  > Ya Le and Xuan S. Yang. *Tiny ImageNet Visual Recognition Challenge*. 2015. [Online]. Available: https://tiny-imagenet.herokuapp.com/
+
+Now that I have gathered the datasets and their citations, I will compile this information into a structured format for further use or analysis.

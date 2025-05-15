@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Deep Reinforcement Learning for Modelling Protein Complexes" by Ziqi Gao et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned. The abstract mentions a dataset containing non-redundant complexes, which indicates that there is at least one dataset relevant to the study.
+
+Next, I will focus on the **experimental setup section** where the authors describe their dataset in detail. In this section, they mention that they downloaded all available complexes from the PDB database and processed them to obtain a specific dataset for their experiments. They provide a detailed description of the filtering and processing steps, which is crucial for understanding the dataset's characteristics.
+
+The authors state that they obtained **7,063 PDBs for the training set and validation set, and 180 for the test set**. This gives me the specific numbers and context for the dataset used in their experiments.
+
+Now, I will look for the **full citation** of the dataset mentioned. The authors refer to the PDB database, which is a well-known resource for protein structures. The citation for the PDB database is:
+
+- **Protein Data Bank (PDB)**: 
+  > Berman, H. M., Westbrook, J., Feng, Z., Gilliland, G., Bhat, T. N., Weissig, H., Shindyalov, I. N., & Bourne, P. E. (2000). The Protein Data Bank. *Nucleic Acids Research*, 28(1), 235–242.
+
+Additionally, the authors mention using two types of dimer structures: ground-truth dimers and dimers predicted by AlphaFold-Multimer. While they do not provide a separate citation for the ground-truth dimers, they do reference AlphaFold-Multimer, which is another dataset or method they utilized. The citation for AlphaFold-Multimer is:
+
+- **AlphaFold-Multimer**:
+  > Evans, R., O’Neill, M., Pritzel, A., Antropova, N., Senior, A., Green, T., Zídek, A., Bates, R., Blackwell, S., Yim, J., et al. (2021). Protein complex prediction with AlphaFold-Multimer. *BioRxiv*.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for clarity.
+
+1. **Dataset Name**: Protein Data Bank (PDB)
+   - **Description**: A comprehensive database of 3D structural data of biological macromolecules, including proteins and nucleic acids.
+   - **Citation**: Berman, H. M., Westbrook, J., Feng, Z., Gilliland, G., Bhat, T. N., Weissig, H., Shindyalov, I. N., & Bourne, P. E. (2000). The Protein Data Bank. *Nucleic Acids Research*, 28(1), 235–242.
+
+2. **Dataset Name**: AlphaFold-Multimer
+   - **Description**: A deep learning model for predicting protein structures, particularly useful for modeling protein complexes.
+   - **Citation**: Evans, R., O’Neill, M., Pritzel, A., Antropova, N., Senior, A., Green, T., Zídek, A., Bates, R., Blackwell, S., Yim, J., et al. (2021). Protein complex prediction with AlphaFold-Multimer. *BioRxiv*.
+
+After gathering all this information, I will ensure that it is presented clearly and accurately for any further processing or review.

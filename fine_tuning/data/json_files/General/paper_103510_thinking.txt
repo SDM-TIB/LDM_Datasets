@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Investigating Numeracy Learning Ability of a Text-to-Text Transfer Model" by Kuntal Kumar Pal and Chitta Baral, I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract** and **introduction** sections to get an overview of the research focus and any datasets that may be referenced. The abstract mentions that the authors investigate the ability of the T5 model on four numeracy tasks, which suggests that datasets are likely involved in these tasks.
+
+Next, I will examine the **section 2 (Numeracy Tests)**, where the authors describe the four numeracy tasks: numeration, magnitude order prediction, list-min-max, and sorting. I will look for any specific datasets mentioned in relation to these tasks. 
+
+In **subsection 2.1 (Numeration)**, the authors indicate that they created a dataset for this task, ensuring that examples of all unique words needed to represent each number are present in the training data. However, they do not provide a formal citation for this dataset, so I will note that it is synthetically generated.
+
+In **subsection 2.2 (Magnitude Order Prediction)**, the authors explicitly mention using the **Numeracy600K** dataset for this task. I will need to find the full citation for this dataset in the references section.
+
+In **subsection 2.3 (List-MinMax)**, the authors mention that this task is based on templates generated from existing datasets like SQuAD, DROP, and NUMBERGAME. I will note these datasets but focus on the primary dataset used for the experiments.
+
+In **subsection 2.4 (Sorting)**, the authors state that they use the same data as for the List-MinMax task, which means I will not need to extract a new dataset here.
+
+Now, I will check the **References section** to find the full citation for the **Numeracy600K** dataset. The citation is as follows:
+> Chung-Chi Chen, Hen-Hsen Huang, Hiroya Takamura, and Hsin-Hsi Chen. *Numeracy-600k: learning numeracy for detecting exaggerated information in market comments*. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pages 6307–6313, 2019.
+
+I will compile the information I have gathered into a structured format, ensuring that I include the full citations for each dataset mentioned in the paper.
+
+1. **Numeration Dataset**: Synthetically generated dataset for numeration tasks (no formal citation).
+2. **Numeracy600K Dataset**: 
+   > Chung-Chi Chen, Hen-Hsen Huang, Hiroya Takamura, and Hsin-Hsi Chen. *Numeracy-600k: learning numeracy for detecting exaggerated information in market comments*. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pages 6307–6313, 2019.
+
+After this, I will prepare the dataset entries for any further processing or review.

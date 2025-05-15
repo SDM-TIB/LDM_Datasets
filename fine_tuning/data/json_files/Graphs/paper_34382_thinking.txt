@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "A Generalization Theory of Cross-Modality Distillation with Contrastive Learning" by Hangyu Lin et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract** and **introduction** sections to get an overview of the datasets used in the research. The abstract mentions that the authors conducted experiments across various modalities, which suggests that multiple datasets may be involved.
+
+Next, I will focus on the **experiments section** (section 4) where the authors typically describe the datasets used for their experiments. In this section, they mention three specific tasks: image-sketch, video-audio, and image-depth map. Each task is likely to have associated datasets.
+
+1. **Image-Sketch Task**: The authors state that they used the **ImageNet** dataset for contrastive learning and the **Sketchy** dataset for paired data. The downstream recognition tasks were performed on both the **Sketchy** and **TUBerlin** datasets.
+
+2. **Video-Audio Task**: For this task, the authors used **ImageNet** again for contrastive learning on video frames and a subset of **VGGSound** for the audio modality.
+
+3. **Image-Depth Map Task**: The authors utilized **ImageNet** for contrastive learning and the **NYU-Depth V2** dataset for the depth map.
+
+Now, I will check the **References section** to find the full citations for each dataset mentioned:
+
+- For **ImageNet**, the citation is:
+  > Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. *Imagenet: A large-scale hierarchical image database*. In 2009 IEEE conference on computer vision and pattern recognition, pp. 248–255, 2009.
+
+- For **Sketchy**, the citation is:
+  > Patsorn Sangkloy, Nathan Burnell, Cusuh Ham, and James Hays. *The sketchy database: learning to retrieve badly drawn bunnies*. ACM Transactions on Graphics (TOG), 35(4):1–12, 2016.
+
+- For **TUBerlin**, the citation is:
+  > Qian Yu, Yongxin Yang, Feng Liu, Yi-Zhe Song, Tao Xiang, and Timothy M Hospedales. *Sketch-a-net: A deep neural network that beats humans*. International journal of computer vision, 122:411–425, 2017.
+
+- For **VGGSound**, the citation is:
+  > Honglie Chen, Weidi Xie, Andrea Vedaldi, and Andrew Zisserman. *Vggsound: A large-scale audio-visual dataset*. In ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 721–725, 2020.
+
+- For **NYU-Depth V2**, the citation is:
+  > Nathan Silberman, Derek Hoiem, Pushmeet Kohli, and Rob Fergus. *Indoor segmentation and support inference from rgbd images*. In ECCV 2012: 12th European Conference on Computer Vision, Florence, Italy, October 7-13, 2012, Proceedings, Part V 12, pp. 746–760, 2012.
+
+After gathering all this information, I will compile the dataset entries with their respective citations into a structured format for further processing or review.

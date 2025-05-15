@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "3DGSR: Implicit Surface Reconstruction with 3D Gaussian Splatting" by Xiaoyang Lyu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract provides a brief overview of the research and may mention datasets used for evaluation. The introduction often elaborates on the context and significance of the datasets in relation to the research.
+
+In the **experiments section**, I will look for a subsection specifically dedicated to datasets. This is typically where authors describe the datasets they used for training and testing their models. In this paper, the authors mention three datasets: the **NeRF synthetic dataset**, the **DTU real-captured dataset**, and the **Tanks&Temples (TNT) dataset**.
+
+Next, I will extract details about each dataset:
+
+1. **NeRF synthetic dataset**: The authors describe it as consisting of eight objects, each rendered via path tracing to generate 100 views. They specify that for testing, one-eighth of these images are selected, while the rest are used for training.
+
+2. **DTU real-captured dataset**: This dataset is processed for camera poses as per a referenced work, and the authors mention the image and mask processing methodology.
+
+3. **Tanks&Temples (TNT) dataset**: Similar to the DTU dataset, this dataset is also processed for camera poses and follows a specific methodology for image and mask processing.
+
+Now, I will check the **References section** of the paper to find the full citations for each dataset. The citations are crucial for proper attribution and further exploration of the datasets.
+
+- For the **NeRF synthetic dataset**, the citation is:
+  > Ben Mildenhall, Pratul P Srinivasan, Matthew Tancik, Jonathan T Barron, Ravi Ramamoorthi, and Ren Ng. *Nerf: Representing scenes as neural radiance fields for view synthesis*. Commun. ACM 65, 1 (2021), 99–106.
+
+- For the **DTU real-captured dataset**, the citation is:
+  > Rasmus Jensen, Anders Dahl, George Vogiatzis, Engin Tola, and Henrik Aanæs. *Large scale multi-view stereopsis evaluation*. In Proceedings of the IEEE conference on computer vision and pattern recognition. 406–413, 2014.
+
+- For the **Tanks&Temples (TNT) dataset**, the citation is:
+  > Arno Knapitsch, Jaesik Park, Qian-Yi Zhou, and Vladlen Koltun. *Tanks and temples: Benchmarking large-scale scene reconstruction*. ACM Transactions on Graphics (ToG) 36, 4 (2017), 1–13.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This structured approach will help in accurately documenting the datasets used in the research.

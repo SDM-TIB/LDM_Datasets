@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Accelerated Sparse Kernel Spectral Clustering for Large Scale Data Clustering Problems" by Mihaly Novak et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and results sections** to identify any datasets mentioned. The abstract discusses computational experiments on synthetic data and real-life problems, which suggests that datasets are involved.
+
+Next, I will look for specific mentions of datasets in the **experiments section**. The authors mention using "carefully selected synthetic data" and "real life problems such as image segmentation." This indicates that there are at least two types of datasets: synthetic data and a dataset for image segmentation.
+
+In the **experiments section**, I will find details about the datasets used. The authors describe the synthetic dataset as containing "N = 10^5, d = 2 dimensional data points, sampled from two intertwined spirals." This gives me the first dataset:
+
+1. **Synthetic Spiral Dataset**: A dataset containing 100,000 two-dimensional data points sampled from two intertwined spirals.
+
+For the image segmentation task, the authors mention using "ten color images selected from the Berkeley image data set." I will look for more details about this dataset in the text. The paper references the Berkeley image dataset and provides specific details about the images used, including their dimensions and the method of feature extraction (local color histograms).
+
+2. **Berkeley Image Dataset**: This dataset consists of ten color images, each with dimensions of 321 × 481 pixels. The authors compute local color histograms at each pixel using a 5 × 5 window, resulting in a dataset of 154,401 color histograms.
+
+Now, I will check the **References section** for full citations of these datasets. The Berkeley image dataset is cited as follows:
+
+- For the **Berkeley Image Dataset**:
+  > Martin, D., Fowlkes, C., Tal, D., & Malik, J. (2001). A database of human segmented natural images and its application to evaluating segmentation algorithms and measuring ecological statistics. In Proceedings of the 8th International Conference on Computer Vision (ICCV), volume 2, pages 416–423.
+
+The synthetic dataset does not have a formal citation since it is a generated dataset for the purpose of the experiments.
+
+Finally, I will compile the dataset entries with their descriptions and citations into a structured format for further processing.

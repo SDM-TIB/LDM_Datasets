@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "CodeBERT: A Pre-Trained Model for Programming and Natural Languages" by Zhangyin Feng et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract mentions that CodeBERT is trained on bimodal data from GitHub repositories, which suggests that there are datasets involved.
+
+Next, I will focus on **section 3.3 (Pre-Training Data)**, where the authors provide detailed information about the datasets used for training CodeBERT. They mention that the training data consists of both bimodal and unimodal datasets sourced from GitHub repositories. Specifically, they state that they used a dataset provided by Husain et al. (2019), which includes a significant number of bimodal and unimodal data points across six programming languages.
+
+The paper provides a table (Table 1) that summarizes the statistics of the dataset used for training CodeBERT. This includes the number of bimodal data points and unimodal codes for each programming language. The authors also mention that the data was filtered based on specific criteria to ensure quality.
+
+In addition, I will look for any references to datasets used in experiments, particularly in **section 4 (Experiments)**. The authors mention evaluating CodeBERT on the **CodeSearchNet corpus**, which is another dataset relevant to their experiments.
+
+Now, I will compile the full citations for each dataset mentioned in the paper:
+
+1. **CodeSearchNet Dataset**: This dataset is referenced multiple times throughout the paper, particularly in the context of evaluating CodeBERT's performance on natural language code search tasks. The citation for this dataset is:
+   > Husain, H., Wu, H.-H., Gazit, T., Allamanis, M., & Brockschmidt, M. (2019). CodeSearchNet challenge: Evaluating the state of semantic code search. *arXiv preprint arXiv:1909.09436*.
+
+2. **Husain et al. (2019) Dataset**: This dataset is used for training CodeBERT and includes bimodal and unimodal data points. The citation is the same as above since it refers to the same work:
+   > Husain, H., Wu, H.-H., Gazit, T., Allamanis, M., & Brockschmidt, M. (2019). CodeSearchNet challenge: Evaluating the state of semantic code search. *arXiv preprint arXiv:1909.09436*.
+
+After gathering this information, I will ensure that I accurately document the datasets in the required format, including their descriptions and citations, ready for further processing or review.

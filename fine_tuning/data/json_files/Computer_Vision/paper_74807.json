@@ -1,0 +1,291 @@
+[
+    {
+        "dcterms:creator": [
+            "Chih-Hsuan Yang",
+            "Ben Feuer",
+            "Zaki Jubery",
+            "Zi K. Deng",
+            "Andre Nakkab",
+            "Md Zahid Hasan",
+            "Shivani Chiranjeevi",
+            "Kelly Marshall",
+            "Nirmal Baishnab",
+            "Asheesh K Singh",
+            "Arti Singh",
+            "Soumik Sarkar",
+            "Nirav Merchant",
+            "Chinmay Hegde",
+            "Baskar Ganapathysubramanian"
+        ],
+        "dcterms:description": "ARBORETUM is the largest publicly accessible dataset designed to advance AI for biodiversity applications, comprising over 134.6 million images across seven taxonomic classes, including Aves, Arachnida, Insecta, Plantae, Fungi, Mollusca, and Reptilia. Each image is annotated with scientific names, taxonomic details, and common names, making it a valuable resource for multimodal vision-language AI models.",
+        "dcterms:title": "ARBORETUM",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Biodiversity",
+            "Ecology",
+            "Agriculture"
+        ],
+        "dcat:keyword": [
+            "Biodiversity dataset",
+            "Image-language paired data",
+            "AI for biodiversity",
+            "Taxonomic classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Species identification",
+            "Biodiversity assessment",
+            "Ecological monitoring"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "ARBORETUM-40M is a subset of the ARBORETUM dataset, comprising approximately 40 million samples and 33K species, constructed to reduce skewness in species counts and facilitate balanced training.",
+        "dcterms:title": "ARBORETUM-40M",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Subset dataset",
+            "Species balance",
+            "Training dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Training AI models",
+            "Species classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "ARBORETUM-BALANCED is a curated dataset designed to enforce a balanced species distribution across the seven categories, with each category including up to 500 species and 50 images per species.",
+        "dcterms:title": "ARBORETUM-BALANCED",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Balanced dataset",
+            "Species distribution",
+            "Image classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Fine-grained image classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "ARBORETUM-UNSEEN is a test dataset constructed to evaluate the generalization capability of models on unseen species, containing species with fewer than 30 instances in ARBORETUM.",
+        "dcterms:title": "ARBORETUM-UNSEEN",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Unseen species",
+            "Generalization testing",
+            "Benchmark dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Model evaluation",
+            "Generalization assessment"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "ARBORETUM-LIFESTAGES is a dataset focusing on recognizing species across various developmental stages, specifically for insects, containing images filtered by life stages such as egg, larva, pupa, or adult.",
+        "dcterms:title": "ARBORETUM-LIFESTAGES",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Life stages",
+            "Insect species",
+            "Developmental stages"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Life stage recognition",
+            "Species identification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Zahra Gharaee",
+            "ZeMing Gong",
+            "Nicholas Pellegrino",
+            "Iuliia Zarubiieva",
+            "Joakim Bruslund Haurum",
+            "Scott Lowe",
+            "Jaclyn McKeown",
+            "Chris Ho",
+            "Joschka McLeod",
+            "Yi-Yun Wei"
+        ],
+        "dcterms:description": "BIOSCAN-1M is a dataset focusing on insect species, providing scientific names, taxonomic ranks, and DNA barcodes, aimed at biodiversity assessment.",
+        "dcterms:title": "BIOSCAN-1M",
+        "dcterms:issued": "2024",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Biodiversity",
+            "Insect classification"
+        ],
+        "dcat:keyword": [
+            "Insect dataset",
+            "DNA barcodes",
+            "Taxonomic ranks"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Insect identification",
+            "Biodiversity assessment"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Samuel Stevens",
+            "Jiaman Wu",
+            "Matthew J Thompson",
+            "Elizabeth G Campolongo",
+            "Chan Hee Song",
+            "David Edward Carlyn",
+            "Li Dong",
+            "Wasila M Dahdul",
+            "Charles Stewart",
+            "Tanya Berger-Wolf"
+        ],
+        "dcterms:description": "TREEOFLIFE-10M is a large-scale dataset of text-annotated biological images, comprising 10 million images with approximately 450K unique taxonomic classes.",
+        "dcterms:title": "TREEOFLIFE-10M",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:2311.18803",
+        "dcat:theme": [
+            "Biodiversity",
+            "Taxonomic classification"
+        ],
+        "dcat:keyword": [
+            "Biological images",
+            "Taxonomic classes",
+            "Text annotations"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Taxonomic classification",
+            "Biodiversity research"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Shem Unger",
+            "Mark Rollins",
+            "Allison Tietz",
+            "Hailey Dumais"
+        ],
+        "dcterms:description": "iNat2021 is a dataset comprising 2.7 million images of over 10,000 species of plants, animals, and fungi, aimed at engaging users in identifying organisms.",
+        "dcterms:title": "iNat2021",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Biodiversity",
+            "Species identification"
+        ],
+        "dcat:keyword": [
+            "Community science",
+            "Organism identification",
+            "Biodiversity education"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Organism identification",
+            "Biodiversity education"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Grant Van Horn",
+            "Oisin Mac Aodha",
+            "Yang Song",
+            "Yin Cui",
+            "Chen Sun",
+            "Alex Shepard",
+            "Hartwig Adam",
+            "Pietro Perona",
+            "Serge Belongie"
+        ],
+        "dcterms:description": "iNaturalist is a community science platform that provides a large pool of biodiversity images, serving as a source for various curated datasets.",
+        "dcterms:title": "iNaturalist",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Biodiversity",
+            "Community science"
+        ],
+        "dcat:keyword": [
+            "Biodiversity images",
+            "Community contributions",
+            "Species identification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Species identification",
+            "Biodiversity research"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Xiaoping Wu",
+            "Chi Zhan",
+            "Yukun Lai",
+            "Ming-Ming Cheng",
+            "Jufeng Yang"
+        ],
+        "dcterms:description": "IP102 is a large-scale benchmark dataset for insect pest recognition, providing a comprehensive resource for training and evaluating models in this domain.",
+        "dcterms:title": "IP102",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Insect classification",
+            "Pest recognition"
+        ],
+        "dcat:keyword": [
+            "Insect pests",
+            "Benchmark dataset",
+            "Model training"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Insect pest recognition",
+            "Model evaluation"
+        ]
+    }
+]

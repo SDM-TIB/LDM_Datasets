@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Multi-Target Landmark Detection with Incomplete Images via Reinforcement Learning and Shape Prior Embedding" by Kaiwen Wan et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors validated their method on various datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors typically describe the datasets used for validation. In this section, they mention using four datasets for their experiments:
+
+1. **Whole-body Dual Energy X-ray Absorptiometry (DXA) Dataset**: This dataset consists of 99 original DXA samples provided by Zhongshan Hospital affiliated with Fudan University. Each sample is labeled with 40 contour keypoints by experts.
+
+2. **Cardiac MRI Dataset**: This dataset includes 45 LGE CMR sequences collected from Shanghai Renji Hospital. Each sequence contains 10 to 18 slices, and the segmentation ground truth for the left ventricle, right ventricle, and myocardium was provided by experts.
+
+3. **Whole-head CT Dataset**: This dataset comprises 54 whole-head CT images from different participants, provided by Huashan Hospital affiliated with Fudan University. Each volume was manually labeled with 25 anatomical skull landmarks.
+
+4. **Half-head CT Dataset**: This dataset consists of 41 upper-half head CT volumes from the Northern Han Chinese cohort, provided by the Shanghai Institute of Nutrition and Health. The number of landmarks in these volumes varies from 14 to 19.
+
+Now, I will look into the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+For the **Whole-body DXA Dataset**, the citation is:
+> Gao, X., Hofman, A., Hu, Y., Lin, H.-D., Zhu, C., Jeekel, J., Jin, X. J., Wang, J. Y., Gao, J., Yin, Y., & Zhao, N. (2010). The Shanghai Changfeng Study: a community-based prospective cohort study of chronic diseases among middle-aged and elderly: objectives and design. *European Journal of Epidemiology*, 25, 885–893.
+
+For the **Cardiac MRI Dataset**, the citation is:
+> Zhang, M., Xu, J., Abaci Turk, E., Grant, P. E., Golland, P., & Adalsteinsson, E. (2022). Cardiac segmentation on late gadolinium enhancement MRI: a benchmark study from multi-sequence cardiac MR segmentation challenge. *Medical Image Analysis*, 81, 102528.
+
+For the **Whole-head CT Dataset**, the citation is:
+> Qian, W., Zhang, M., Wan, K., Xie, Y., Du, S., Li, J., Mu, X., Qiu, J., Xue, X., Zhuang, X., Wu, Y., Liu, F., & Wang, S. (2022). Genetic evidence for facial variation being a composite phenotype of cranial variation and facial soft tissue thickness. *Journal of Genetics and Genomics*, 49(10), 934–942.
+
+For the **Half-head CT Dataset**, the citation is:
+> Zhuang, X. (2016). Multivariate mixture model for cardiac segmentation from multi-sequence MRI. In *Medical Image Computing and Computer-Assisted Intervention – MICCAI 2016* (pp. 581–588). Springer International Publishing.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

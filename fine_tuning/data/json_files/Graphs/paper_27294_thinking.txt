@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "A Heuristic for Dynamic Output Predictive Control Design for Uncertain Nonlinear Systems" by Mazen Alamir, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned or implied. The abstract discusses a heuristic for designing predictive controllers and mentions the construction of a learning dataset from off-line solutions. This suggests that there may be specific datasets used for training or validation.
+
+Next, I will look for explicit mentions of datasets in the **methodology section**. The paper describes a process for generating learning data, particularly in the section discussing the construction of the learning data. Here, the author outlines how samples are generated from deterministic optimal control problems, which indicates that there is a dataset created from these samples.
+
+In the **numerical investigation section**, the author describes the generation of learning and validation data. The initial states \(x_0\) are sampled uniformly from a specified set, and the parameters \(w\) are drawn from a normal distribution around a nominal value. This indicates that the paper uses a specific dataset for the experiments, which is crucial for understanding the results.
+
+I will also check the **references section** to find any citations related to the datasets mentioned. The paper references various works, but I need to ensure that I capture the full citations for any datasets that are explicitly mentioned or used in the experiments.
+
+Based on the information gathered, I will compile the datasets as follows:
+
+1. **Learning Data Set**: This dataset is constructed from the deterministic optimal control problems solved during the experiments. It includes pairs of sampled initial states and parameters, which are crucial for training the machine learning model.
+
+2. **Validation Data Set**: This dataset is generated using new pairs of initial states and parameters to evaluate the performance of the identified feedback law.
+
+Now, I will retrieve the full citations for any datasets referenced in the paper. If the datasets are derived from existing works, I will ensure to cite those original sources accurately.
+
+Finally, I will summarize the findings and prepare the dataset entries for further processing, ensuring that each dataset is clearly defined and properly cited.

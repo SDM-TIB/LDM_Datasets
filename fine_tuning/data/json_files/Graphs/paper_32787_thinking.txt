@@ -1,0 +1,37 @@
+To extract datasets from the research paper titled "Physics-Informed Graph Neural Network for Dynamic Reconfiguration of Power Systems" by Jules Authier et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, but the experimental results section is likely to contain detailed information about the datasets used.
+
+In the **introduction**, the authors discuss the challenges of dynamic reconfiguration in power systems and mention the need for effective algorithms, but they do not specify any datasets here.
+
+Next, I will focus on the **experimental results section**. Here, the authors describe their evaluation of the GraPhyR framework on specific distribution grids. They mention using the **BW-33 grid** and a variant called **G1**, as well as a real distribution grid model known as **TPC-94**. 
+
+The paper states that the BW-33 grid consists of 33 nodes, 29 lines, and 8 switches, while G1 has the same number of nodes but different lines and switches. The TPC-94 grid has 94 nodes and 14 switches. The authors also mention that they use datasets from a previous work (reference [3]) that introduces distributed solar generation in the grid.
+
+Now, I will look at the **References section** to find the full citations for the datasets mentioned:
+
+1. **BW-33 Grid**: The citation for the original work describing this grid is:
+   > M. Baran and F. Wu, “Network reconfiguration in distribution systems for loss reduction and load balancing,” IEEE Transactions on Power Delivery, vol. 4, no. 2, pp. 1401–1407, 1989.
+
+2. **G1 Grid**: Since G1 is a variant of BW-33, it does not have a separate citation. It is derived from the BW-33 grid.
+
+3. **TPC-94 Grid**: The citation for the TPC-94 grid is:
+   > C.-T. Su, C.-F. Chang, and J.-P. Chiou, “Distribution network reconfiguration for loss reduction by ant colony search algorithm,” Electric Power Systems Research, vol. 75, no. 2, pp. 190–199, 2005.
+
+Additionally, the authors reference the dataset from the work by Haider and Annaswamy (reference [3]), which is crucial for understanding the context of the datasets used. The citation for this work is:
+   > R. Haider and A. M. Annaswamy, “Grid-siphyr: An end-to-end learning to optimize framework for combinatorial problems in power systems,” 2023, arXiv:2206.06789v3 [eess.SY].
+
+Now that I have identified the datasets and their citations, I will summarize the findings:
+
+1. **BW-33 Grid**: A canonical distribution grid with 33 nodes, 29 lines, and 8 switches.
+   - Citation: M. Baran and F. Wu, “Network reconfiguration in distribution systems for loss reduction and load balancing,” IEEE Transactions on Power Delivery, vol. 4, no. 2, pp. 1401–1407, 1989.
+
+2. **G1 Grid**: A variant of the BW-33 grid with the same number of nodes but different lines and switches. No separate citation.
+
+3. **TPC-94 Grid**: A model of a real distribution grid with 94 nodes and 14 switches.
+   - Citation: C.-T. Su, C.-F. Chang, and J.-P. Chiou, “Distribution network reconfiguration for loss reduction by ant colony search algorithm,” Electric Power Systems Research, vol. 75, no. 2, pp. 190–199, 2005.
+
+4. **Dataset from Haider and Annaswamy**: Used for introducing distributed solar generation in the grid.
+   - Citation: R. Haider and A. M. Annaswamy, “Grid-siphyr: An end-to-end learning to optimize framework for combinatorial problems in power systems,” 2023, arXiv:2206.06789v3 [eess.SY].
+
+With this information, I can now compile the dataset entries into a structured format for further processing or review.

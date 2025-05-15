@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "GaussReg: Fast 3D Registration with Gaussian Splatting" by Jiahao Chang et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors constructed a dataset called **ScanNet-GSReg** and collected another dataset named **GSReg**. This is a strong indication that these datasets are central to the research.
+
+Next, I will delve into **section 4 (Experiment)**, where the authors provide detailed descriptions of the datasets used. Here, they mention:
+
+1. **ScanNet-GSReg Dataset**: This dataset is constructed from the ScanNet dataset, comprising 1379 scenes. The authors explain that they sampled two continuous image sequences from each scene, resulting in a total of 1297 training samples and 82 test samples.
+
+2. **GSReg Dataset**: This dataset includes 10 real-world scenes (6 indoor and 4 outdoor) collected to assess the generalization capability of their method. The authors describe the process of obtaining camera poses for these scenes.
+
+In the **References section**, I will look for full citations for the original datasets mentioned. The authors reference the **ScanNet dataset** and the **Objaverse dataset** in their work. The citations for these datasets are:
+
+- For **ScanNet**:
+  > Dai, A., Nießner, M., Zollöfer, M., Izadi, S., & Theobalt, C. (2017). *BundleFusion: Real-time globally consistent 3D reconstruction using on-the-fly surface re-integration*. ACM Transactions on Graphics (TOG), 36(4), 1-12.
+
+- For **Objaverse**:
+  > Deitke, M., Liu, R., Wallingford, M., Ngo, H., Michel, O., Kusupati, A., et al. (2023). *Objaverse-XL: A universe of 10M+ 3D objects*. arXiv preprint arXiv:2307.05663.
+
+Now that I have identified the datasets and their citations, I will summarize the findings:
+
+1. **ScanNet-GSReg Dataset**: A dataset constructed from the ScanNet dataset, containing 1379 scenes, with 1297 training samples and 82 test samples.
+   - Citation: Dai, A., Nießner, M., Zollöfer, M., Izadi, S., & Theobalt, C. (2017). *BundleFusion: Real-time globally consistent 3D reconstruction using on-the-fly surface re-integration*. ACM Transactions on Graphics (TOG), 36(4), 1-12.
+
+2. **GSReg Dataset**: A dataset comprising 10 real-world scenes (6 indoor and 4 outdoor) for assessing generalization.
+   - Citation: Deitke, M., Liu, R., Wallingford, M., Ngo, H., Michel, O., Kusupati, A., et al. (2023). *Objaverse-XL: A universe of 10M+ 3D objects*. arXiv preprint arXiv:2307.05663.
+
+With this information, I will compile the dataset entries into a structured format for further processing.

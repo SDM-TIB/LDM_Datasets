@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "ViA: View-invariant Skeleton Action Representation Learning via Motion Retargeting" by Di Yang et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions that the authors conducted a study focusing on transfer-learning for skeleton-based action recognition with self-supervised pre-training on real-world data, specifically mentioning the **Posetics** dataset. This indicates that there are datasets used in their experiments.
+
+Next, I will examine the **Datasets and Evaluation Protocols section** to identify all datasets explicitly mentioned. Here, the authors provide detailed descriptions of the datasets used in their experiments:
+
+1. **Posetics**: This dataset is created on top of Kinetics-400 and contains 142,000 real-world video clips of 320 action classes with corresponding 2D and 3D skeletons. The citation for this dataset is:
+   > Yang, D., Wang, Y., Dantcheva, A., Garattoni, L., Francesca, G., & Bremond, F. (2021). Self-Supervised Video Pose Representation Learning for Occlusion-Robust Action Recognition. In FG.
+
+2. **Toyota Smarthome**: This dataset contains 16,115 videos of daily living action classification across 31 action classes, providing RGB videos, 2D, and 3D skeleton data. The citation is:
+   > Das, S., Dai, R., Koperski, M., Minciullo, L., Garattoni, L., Bremond, F., & Francesca, G. (2019). Toyota Smarthome: Real-World Activities of Daily Living. In ICCV.
+
+3. **UAV-Human**: This dataset includes 22,476 video sequences collected by a UAV, with 2D skeleton data estimated. The citation is:
+   > Li, T., Liu, J., Zhang, W., Ni, Y., Wang, W., & Li, Z. (2021). UAV-Human: A Large Benchmark for Human Behavior Understanding With Unmanned Aerial Vehicles. In CVPR.
+
+4. **Penn Action**: This dataset consists of 2,326 video sequences of 15 different actions, with 2D skeletons obtained for experiments. The citation is:
+   > Zhang, W., Zhu, M., & Derpanis, K. G. (2013). From Actemes to Action: A Strongly-Supervised Representation for Detailed Action Understanding. In ICCV.
+
+5. **NTU-RGB+D 60**: This dataset contains 56,880 sequences of high-quality 3D skeletons captured by the Microsoft Kinect v2 sensor. The citation is:
+   > Shahroudy, A., Liu, J., Ng, T.-T., & Wang, G. (2016). NTU RGB+D: A Large Scale Dataset for 3D Human Activity Analysis. In CVPR.
+
+6. **NTU-RGB+D 120**: This dataset extends the NTU-RGB+D 60 dataset to 120 classes and 114,480 videos. The citation is:
+   > Liu, J., Shahroudy, A., Perez, M., Wang, G., Duan, L. Y., & Kot, A. C. (2020). NTU RGB+D 120: A Large-Scale Benchmark for 3D Human Activity Understanding. In TPAMI.
+
+7. **Mixamo**: This is a 3D animation collection containing approximately 2,400 unique motion sequences. The citation is:
+   > Inc., A. S. (2018). Mixamo. https://www.mixamo.com. Accessed: 2018-12-27.
+
+After identifying these datasets, I will ensure to compile their names and citations accurately for further processing. This structured approach will help in maintaining clarity and ensuring that all relevant datasets are captured with their proper citations.

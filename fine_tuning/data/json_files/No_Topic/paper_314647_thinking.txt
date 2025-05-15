@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Text-based Person Search in Full Images via Semantic-Driven Proposal Generation" by Shizhou Zhang et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to locate any references to datasets. The abstract mentions that the authors collected and annotated two large-scale benchmark datasets based on existing datasets, which indicates that datasets are indeed present.
+
+Next, I will focus on **section III (Benchmarks for Text-Based Person Search)**, where the authors explicitly describe the datasets they created. They mention two datasets:
+
+1. **CUHK-SYSU-TBPS**: This dataset is based on the CUHK-SYSU dataset and includes 11,206 scene images and 15,080 person boxes with 5,532 different IDs in the training set, along with 2,900 person boxes in the query set. The authors collected corresponding text descriptions from the CUHK-PEDES dataset.
+
+2. **PRW-TBPS**: This dataset is based on the PRW dataset and contains 5,704 images and 14,897 boxes, with 483 different IDs in the training set and 2,056 boxes in the query set. Text descriptions for all person boxes were annotated, with the training boxes labeled with one sentence and the query boxes labeled twice independently.
+
+In the **experiments section**, the authors confirm that they conducted extensive experiments on both datasets, further validating their significance.
+
+Now, I will check the **References section** to find the full citations for the original datasets upon which the new datasets are based:
+
+- For **CUHK-SYSU**, the citation is:
+  > X. Wu, Y. Zheng, and Y. Yang. *Person Search in a Scene by Jointly Modeling People Commonness and Person Uniqueness*. In Proceedings of the 22nd ACM International Conference on Multimedia, 2014.
+
+- For **PRW**, the citation is:
+  > Y. Zhang, L. Zheng, and Q. Tian. *Person Re-identification in the Wild*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2017.
+
+Since the new datasets (CUHK-SYSU-TBPS and PRW-TBPS) are derived from these original datasets, I will reference the original datasets in my documentation.
+
+Finally, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research paper.

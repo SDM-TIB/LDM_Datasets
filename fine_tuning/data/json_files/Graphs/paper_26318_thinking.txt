@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Prediction of Missing Semantic Relations in Lexical-Semantic Network using Random Forest Classifier" by Kevin Cousot et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the study focuses on predicting semantic relations using a dataset derived from RezoJDM, a French lexical-semantic network. This suggests that there is a dataset involved, but I need to gather more details.
+
+Next, I will examine **section 2 (RezoJDM)**, where the authors describe the RezoJDM network in detail. They mention that it is a large graph-based network containing over 310,000 terms and 6.5 million relations, which serves as the foundation for their training/test datasets. This section confirms that RezoJDM is the primary dataset used in their research.
+
+In **section 3 (Building Training/Test Datasets from RezoJDM Graph)**, the authors outline their methodology for creating the training/test datasets. They specify that they selected subgraphs from RezoJDM, focusing on specific node types and edge types to build their dataset. They also mention that they ended up with around 37,000 rows of data, which is crucial information for describing the dataset.
+
+The authors provide a link to the cleaned dataset in the paper, which is an important detail for citation purposes. The link is: 
+> https://github.com/mehdi-mirzapour/JDM_Graph_Embedding/blob/master/cleaned_JDM_dataset.xlsx
+
+Now, I will consult the **References section** to find the full citation for RezoJDM. The relevant citation is:
+> Lafourcade, M. (2007). Making people play for Lexical Acquisition with the JeuxDeMots prototype. In: SNLP’07: 7th International Symposium on Natural Language Processing. Pattaya, Chonburi, Thailand, p. 7. URL: https://hal-lirmm.ccsd.cnrs.fr/lirmm-00200883.
+
+With this information, I can summarize the dataset as follows:
+
+1. **RezoJDM Dataset**: A French lexical-semantic network containing over 310,000 terms and 6.5 million relations, used to predict missing semantic relations. The dataset was constructed by selecting specific subgraphs and resulted in approximately 37,000 rows of data. The cleaned dataset is accessible at the provided GitHub link.
+
+Now, I will compile the dataset entry with the full citation into a structured format for further processing.

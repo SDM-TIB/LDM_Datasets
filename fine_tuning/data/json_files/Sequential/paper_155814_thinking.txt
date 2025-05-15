@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "A Deep Learning Approach to Community Question Answering" by Lucas Valentin Garcia, I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned. The abstract states that a large dataset of questions and answers from Stack Overflow was created, which indicates that this is a primary dataset of interest.
+
+Next, I will examine **section 3 (Evaluation Framework)**, particularly **subsection 3.2 (Data)**, where the author describes the Stack Overflow data in detail. The paper mentions that the data is accessible through Google BigQuery and provides a comprehensive overview of the tables available, including:
+
+1. **Posts Answers**: This table contains the answers posted to questions, which is crucial for the answer ranking task.
+2. **Posts Questions**: This table holds the questions posted by users, which is also essential for the analysis.
+3. **Users**: This table includes data on users who posted questions and answers, which may provide additional features for the model.
+
+In this section, the author also describes the specific columns of interest within these tables, such as the body of the answers, the score of the answers, and metadata about the users.
+
+I will then check the **References section** to find full citations for the datasets mentioned. The primary dataset referenced is the Stack Overflow dataset, which is accessed via Google BigQuery. The citation for this dataset is:
+
+- **Stack Overflow Dataset**: 
+  > Stack Overflow - Where Developers Learn, Share, & Build Careers. Stack Overflow. [Online]. Available: https://stackoverflow.com/. [Accessed: 05-Jun-2022].
+
+Additionally, the paper references other datasets used in the context of community question answering, such as the Yahoo! Answers dataset and datasets from SemEval competitions. I will ensure to include these citations as well:
+
+- **Yahoo! Answers Dataset**:
+  > Quora — quora.com. [Online]. Available: https://www.quora.com/. [Accessed: 05-Jun-2022].
+
+- **SemEval Datasets**:
+  > Preslav Nakov et al. “SemEval-2015 Task 3: Answer Selection in Community Question Answering”. In: (2019). doi: 10.48550/ARXIV.1911.11403. [Online]. Available: https://arxiv.org/abs/1911.11403.
+
+After gathering this information, I will compile the dataset entries into a structured format, ensuring that each dataset is clearly described and properly cited. This will provide a comprehensive overview of the datasets utilized in the research paper.

@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "On Permutation-Invariant Neural Networks" by Masanari Kimura et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and sections that discuss datasets**. The abstract provides a high-level overview, but the details about specific datasets are likely found in the **Datasets section (Section 6)**, which is explicitly mentioned in the text.
+
+In the **introduction**, the authors discuss the importance of evaluating models on various datasets, which indicates that datasets will be mentioned later. I will pay close attention to any references to datasets in this section.
+
+Next, I will focus on **Section 6 (Datasets)**, where the authors list several datasets used for evaluating the performance of neural networks that approximate set functions. Here are the datasets mentioned:
+
+1. **Flow-RBC**: This dataset comprises 98,240 training examples and 23,104 test examples, representing the distribution of 1,000 red blood cells (RBCs) characterized by volume and hemoglobin content measurements. The task involves predicting the hematocrit level. The citation for this dataset is:
+   > Zhang, Y., Guo, Z., Zhang, W., Li, K., Miao, X., Cui, B., Qiao, Y., Gao, P., & Li, H. (2022). Flow-RBC: A dataset for predicting hematocrit levels from red blood cell measurements. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 8552–8562.
+
+2. **Celebrity Together**: This dataset consists of images depicting multiple celebrities together, suitable for evaluating set retrieval methods. It contains a total of 194k images and 546k faces. The citation is:
+   > Zhong, Y., Arandjelovic, R., & Zisserman, A. (2018). Compact deep aggregation for set retrieval. In Proceedings of the European Conference on Computer Vision (ECCV) Workshops, pp. 0–0.
+
+3. **SHIFT15M**: This dataset is designed for assessing models in set-to-set matching scenarios, containing a total of 2.5 million sets and 15 million fashion items. The citation is:
+   > Kimura, M., Nakamura, T., & Saito, Y. (2023). SHIFT15M: Fashion-specific dataset for set-to-set matching with several distribution shifts. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 3507–3512.
+
+4. **CLEVR**: A synthetic Visual Question Answering dataset containing images of 3D-rendered objects, with a training set of 70k images and 700k questions. The citation is:
+   > Johnson, J., Hariharan, B., Van Der Maaten, L., Fei-Fei, L., Zitnick, C. L., & Girshick, R. (2017). CLEVR: A diagnostic dataset for compositional language and elementary visual reasoning. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 2901–2910.
+
+5. **ShapeNet**: A large-scale repository for 3D CAD models, containing over 300 million models. The citation is:
+   > Chang, A. X., Funkhouser, T., Guibas, L., Hanrahan, P., Huang, Q., Li, Z., Savarese, S., Savva, M., Song, S., & Su, H. (2015). ShapeNet: An information-rich 3D model repository. arXiv preprint arXiv:1512.03012.
+
+6. **ModelNet40**: This dataset contains 12,311 pre-aligned shapes from 40 categories. The citation is:
+   > Wu, Z., Su, H., Qi, Y., Yi, L., & Guibas, L. (2015). ModelNet: 3D shape recognition and classification. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 1912–1920.
+
+7. **3D MNIST**: A 3D version of the MNIST database of handwritten digits, containing 6,000 instances. The citation is:
+   > Xu, X., Dehghani, A., Corrigan, D., Caulfield, S., & Moloney, D. (2016). Convolutional neural network for 3D object recognition using volumetric representation. In 2016 First International Workshop on Sensing, Processing and Learning for Intelligent Machines (SPLINE), pp. 1–5.
+
+After gathering this information, I will ensure that I format the dataset entries correctly and include all necessary citations for downstream processing or review. This structured approach will help maintain clarity and accuracy in the dataset extraction process.

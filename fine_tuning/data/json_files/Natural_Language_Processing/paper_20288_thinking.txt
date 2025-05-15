@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Improving Real-Time Omnidirectional 3D Multi-Person Human Pose Estimation with People Matching and Unsupervised 2D-3D Lifting" by Pawel Knap et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to identify any datasets mentioned or referenced. The abstract provides a brief overview of the paper's contributions, but I need to look for specific datasets.
+
+In the **introduction**, the authors discuss the challenges of 3D human pose estimation and mention the use of mmWave radars and omnidirectional cameras. However, they do not explicitly name any datasets here.
+
+Next, I will examine the **methodology section**, particularly the parts where they describe the data fetching and 2D keypoint localization. They mention using **OpenPose** for 2D keypoint detection, which is a tool rather than a dataset. However, they also refer to **Human3.6M** as the dataset used for training their 2D-3D lifting network (LInKs). This is a significant dataset in the field of human pose estimation.
+
+In the **results section**, the authors present quantitative results related to their experiments but do not introduce any new datasets. They primarily focus on the performance of their methods using the datasets mentioned earlier.
+
+Now, I will consult the **references section** to find the full citation for the dataset mentioned:
+
+1. **Human3.6M Dataset**: The citation is:
+   > C. Ionescu, D. Papava, V. Olaru, and C. Sminchisescu. *Human3.6m: Large scale datasets and predictive methods for 3d human sensing in natural environments*. IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 36, pp. 1325–1339, Jul 2014.
+
+Since the paper does not mention any other datasets explicitly, I will summarize the findings:
+
+- The only dataset identified is **Human3.6M**, which is used for training the LInKs model for 2D-3D lifting.
+
+Finally, I will prepare the dataset entry for **Human3.6M** using the required format, ensuring that the citation is included for proper referencing.

@@ -1,0 +1,214 @@
+[
+    {
+        "dcterms:creator": [
+            "P. Bell",
+            "M. Gales",
+            "T. Hain",
+            "J. Kilgour",
+            "P. Lanchantin",
+            "X. Liu",
+            "A. McParland",
+            "S. Renals",
+            "O. Saz-Torralba",
+            "M. Wester",
+            "P. Woodland"
+        ],
+        "dcterms:description": "MGB is a broadcast dataset to train acoustic and language models. The training set is accompanied by lightly supervised transcripts based on the original BBC subtitles, while the STT evaluation set is provided along with manually annotated transcripts. It includes a collection of whole TV shows drawn from diverse genres, with a variety of recording conditions and qualities.",
+        "dcterms:title": "Multi-Genre Broadcast (MGB)",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Speech Recognition",
+            "Broadcast Media"
+        ],
+        "dcat:keyword": [
+            "Speech data",
+            "TV shows",
+            "Acoustic models",
+            "Language models"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Speech-to-Text",
+            "Voice Activity Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Gemmeke",
+            "D. Ellis",
+            "D. Freedman",
+            "A. Jansen",
+            "W. Lawrence",
+            "R. C. Moore",
+            "M. Plakal",
+            "M. Ritter"
+        ],
+        "dcterms:description": "Audio Set is a large-scale dataset consisting of over 2 million manually annotated 10 second segments from YouTube clips, labelled with one or more audio events structured into an ontology of 632 classes. It provides comprehensive coverage of real-world sounds from all domains.",
+        "dcterms:title": "Audio Set",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Audio Events",
+            "Sound Classification"
+        ],
+        "dcat:keyword": [
+            "Annotated segments",
+            "YouTube clips",
+            "Audio events",
+            "Noise dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Audio Classification",
+            "Noise Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "BBC-VAD is a newly curated dataset combining x-vector embeddings extracted from Audio Set Noise and speech segments from MGB realigned.train.full. It consists of 13,464 labelled noise segments and 16,464 labelled speech segments, making it a highly diverse dataset with everyday noise and broadcast speech.",
+        "dcterms:title": "BBC-VAD",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Voice Activity Detection",
+            "Speech Recognition"
+        ],
+        "dcat:keyword": [
+            "Labelled segments",
+            "Noise",
+            "Speech",
+            "Broadcast"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Voice Activity Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Chaudhuri",
+            "J. Roth",
+            "D. Ellis",
+            "A. C. Gallagher",
+            "L. Kaver",
+            "R. Marvin",
+            "C. Pantofaru",
+            "N. Reale",
+            "L. G. Reid",
+            "K. Wilson",
+            "Z. Xi"
+        ],
+        "dcterms:description": "AVA-Speech is a speech activity dataset consisting of audio segments taken from minutes 15-30 from 160 YouTube clips. It contains a diverse set of speakers engaging in natural conversation and various acoustic conditions, with roughly equal amounts of speech and noise data.",
+        "dcterms:title": "AVA-Speech",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Speech Activity Detection",
+            "Audio Analysis"
+        ],
+        "dcat:keyword": [
+            "Speech segments",
+            "YouTube clips",
+            "Natural conversation",
+            "Acoustic conditions"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Speech Activity Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Nagrani",
+            "J. S. Chung",
+            "A. Zisserman"
+        ],
+        "dcterms:description": "VoxCeleb is a large-scale speaker identification dataset that includes a diverse set of speakers and is used for training and evaluating speaker recognition systems.",
+        "dcterms:title": "VoxCeleb",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Speaker Recognition",
+            "Audio Analysis"
+        ],
+        "dcat:keyword": [
+            "Speaker identification",
+            "Large-scale dataset",
+            "Diverse speakers"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Speaker Recognition"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. S. Chung",
+            "A. Nagrani",
+            "A. Zisserman"
+        ],
+        "dcterms:description": "VoxCeleb2 is an extension of VoxCeleb, providing a larger dataset for deep speaker recognition tasks.",
+        "dcterms:title": "VoxCeleb2",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Speaker Recognition",
+            "Audio Analysis"
+        ],
+        "dcat:keyword": [
+            "Deep learning",
+            "Speaker recognition",
+            "Large-scale dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Speaker Recognition"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D. Snyder",
+            "G. Chen",
+            "D. Povey"
+        ],
+        "dcterms:description": "MUSAN is a corpus that includes music, speech, and noise, designed for training and evaluating various audio processing systems.",
+        "dcterms:title": "MUSAN",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "abs/1510.08484",
+        "dcat:theme": [
+            "Audio Processing",
+            "Sound Classification"
+        ],
+        "dcat:keyword": [
+            "Music corpus",
+            "Speech corpus",
+            "Noise corpus"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Audio Classification"
+        ]
+    }
+]

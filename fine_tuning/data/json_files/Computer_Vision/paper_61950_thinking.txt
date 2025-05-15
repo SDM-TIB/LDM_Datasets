@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Augmenting Zero-Shot Detection Training with Image Labels" by Katharina Kornmeier et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract highlights the use of the **COCO dataset** and **ImageNet1000** for zero-shot detection tasks, indicating that these are key datasets for the research.
+
+Next, I will examine the **experiments section** (section 4) where the authors discuss their methodology and the datasets used. In section 4.1, they explicitly mention using the **65/15 COCO split** for their experiments, which is crucial for understanding the dataset's application in their study. They also mention filtering the **ImageNet1000** dataset to exclude classes that overlap with unseen COCO classes, which is important for the integrity of their zero-shot detection approach.
+
+I will also look for any additional details about the datasets in the **methodology** section (section 3), where they describe how they align their model to the CLIP embedding space using these datasets. This section may provide further insights into how the datasets are utilized in their experiments.
+
+After identifying the datasets, I will check the **references section** to find the full citations for each dataset mentioned. The citations are critical for proper attribution and to allow others to access the datasets.
+
+The relevant datasets I will extract are:
+
+1. **COCO Dataset**: The authors refer to the COCO dataset multiple times, specifically mentioning the 65/15 split for their zero-shot detection experiments. The citation for the COCO dataset is:
+   > Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. *Microsoft COCO: Common Objects in Context*. In European Conference on Computer Vision, pages 740–755, Springer, 2014.
+
+2. **ImageNet1000**: This dataset is used for augmenting the training with image classification data. The citation for ImageNet is:
+   > Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, Alexander C. Berg, and Li Fei-Fei. *ImageNet Large Scale Visual Recognition Challenge*. International Journal of Computer Vision, 115(3):211–252, 2015.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their proper citations.

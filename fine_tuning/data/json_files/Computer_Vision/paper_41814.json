@@ -1,0 +1,64 @@
+[
+    {
+        "dcterms:creator": [
+            "H. Joo",
+            "T. Simon",
+            "X. Li",
+            "H. Liu",
+            "L. Tan",
+            "L. Gui",
+            "S. Banerjee",
+            "T. S. Godisart",
+            "B. Nabbe",
+            "I. Matthews",
+            "T. Kanade",
+            "S. Nobuhara",
+            "Y. Sheikh"
+        ],
+        "dcterms:description": "The Head-Mounted Display (HMD) dataset has images captured from cameras mounted on a head-mounted display (HMD). There are 123 different identities in total. For each identity, a diverse set of expressions and sentences are recorded in frames and are labeled as 'neutral face', 'smile', 'frown', 'raise cheeks' and others. For each frame, we capture different views such as the mouth, left eyes, and right eyes. During preprocessing, we sample the images near the peak frame of each expression, resulting in around 1,500 images for each identity. The images are gray-scale and are normalized and resized to 256x256 before given to the network as input. We also train a keypoint detector to extract the keypoints near the mouth, nose and the eyes.",
+        "dcterms:title": "Head-Mounted Display (HMD) Dataset",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Human Pose Estimation"
+        ],
+        "dcat:keyword": [
+            "Head-mounted display",
+            "Facial expressions",
+            "Keypoints",
+            "Video dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Human Retargeting",
+            "Facial Expression Recognition"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The CMU Panoptic dataset consists of 32 identities, where each identity makes different poses under multiple VGA and HD cameras from different viewpoints. We use the images captured with the front-view HD camera, and each identity has around 7,000 images. The dataset also provides the 3D pose for each frame, which we transform and project to 2D to align with the images and use it as input.",
+        "dcterms:title": "CMU Panoptic Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://domedb.perception.cs.cmu.edu/range_of_motion.html",
+        "dcat:theme": [
+            "Computer Vision",
+            "Human Pose Estimation"
+        ],
+        "dcat:keyword": [
+            "Body poses",
+            "3D pose",
+            "Video dataset"
+        ],
+        "dcat:landingPage": "http://domedb.perception.cs.cmu.edu/range_of_motion.html",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Human Pose Estimation"
+        ]
+    }
+]

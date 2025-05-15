@@ -1,0 +1,139 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Defog acceleration data are collected in Parkinson’s Disease patients’ home as they perform a FOG-provoking test protocols. There are 91 Defog files with an average of 148634 timeframes per file. Each data file consists of vertical acceleration (AccV), mediolateral acceleration (AccML), and anteroposterior acceleration (AccAP) values in units of 9.81 m/s² collected at 124 Hz. Each trial is also recorded on camera; medical experts review each video tape and annotate time steps where the patient experiences start hesitation, turn, or walking FOG onset.",
+        "dcterms:title": "Defog Dataset",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Parkinson's Disease",
+            "Freezing of Gait",
+            "Time-Series Data"
+        ],
+        "dcat:keyword": [
+            "Acceleration data",
+            "FOG events",
+            "Wearable sensors"
+        ],
+        "dcat:landingPage": "https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Time-Series Data",
+        "mls:task": [
+            "FOG Event Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Tdcsfog acceleration data are collected in a medical lab as patients perform FOG-provoking test protocols. There are 833 Tdcsfog files with an average of 8479 timeframes per file. Each data file consists of AccV, AccML, and AccAP values in units of m/s² collected at 100 Hz. Each trial is also recorded on camera; medical experts review each video tape and annotate time steps where the patient experiences start hesitation, turn, or walking FOG occurrence.",
+        "dcterms:title": "Tdcsfog Dataset",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Parkinson's Disease",
+            "Freezing of Gait",
+            "Time-Series Data"
+        ],
+        "dcat:keyword": [
+            "Acceleration data",
+            "FOG events",
+            "Medical lab data"
+        ],
+        "dcat:landingPage": "https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Time-Series Data",
+        "mls:task": [
+            "FOG Event Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Notype acceleration data come from the Defog dataset. There are 46 Notype files with an average of 222850 timeframes per file. However, FOG occurrence annotation lacks type specification.",
+        "dcterms:title": "Notype Dataset",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Parkinson's Disease",
+            "Freezing of Gait",
+            "Time-Series Data"
+        ],
+        "dcat:keyword": [
+            "Acceleration data",
+            "FOG events",
+            "Lack of annotation"
+        ],
+        "dcat:landingPage": "https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Time-Series Data",
+        "mls:task": [
+            "FOG Event Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Defog Metadata files consist of time trial IDs, corresponding subject IDs, and the medication status of the patient ('on' or 'off') at the time of walking.",
+        "dcterms:title": "Defog Metadata",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Parkinson's Disease",
+            "Freezing of Gait",
+            "Metadata"
+        ],
+        "dcat:keyword": [
+            "Metadata",
+            "Patient information",
+            "Medication status"
+        ],
+        "dcat:landingPage": "https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Metadata",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Tdcsfog Metadata files consist of time trial IDs, corresponding subject IDs, and the medication status of the patient ('on' or 'off') at the time of walking.",
+        "dcterms:title": "Tdcsfog Metadata",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Parkinson's Disease",
+            "Freezing of Gait",
+            "Metadata"
+        ],
+        "dcat:keyword": [
+            "Metadata",
+            "Patient information",
+            "Medication status"
+        ],
+        "dcat:landingPage": "https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Metadata",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Subject data file consists of each patient’s age, years since Parkinson’s Disease diagnosis, UPDRS score during medication 'on' state, UPDRS score during medication 'off' state, and NFOGQ score.",
+        "dcterms:title": "Subject Data File",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Parkinson's Disease",
+            "Patient Information"
+        ],
+        "dcat:keyword": [
+            "Patient demographics",
+            "UPDRS score",
+            "NFOGQ score"
+        ],
+        "dcat:landingPage": "https://www.kaggle.com/competitions/tlvmc-parkinsons-freezing-gait-prediction",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Data File",
+        "mls:task": []
+    }
+]

@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Assessing sources of uncertainty in length-based estimates of body growth in populations of fishes and macroinvertebrates with bootstrapped ELEFAN" by R. Schwamborn et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, materials and methods, and results sections** to identify any datasets mentioned. The abstract indicates that the study uses both synthetic and real datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 2 (Materials and Methods)**, where the authors explicitly mention the datasets used for their analyses. Here, they describe two datasets:
+
+1. **Abra alba dataset**: This dataset consists of shell lengths of 675 individuals of the white clam *A. alba*, collected over seven sampling months and binned into 14 length classes. This dataset is used to test the reproducibility and precision of length-based methods.
+
+2. **Synthetic LFD dataset (synlfq5b)**: This dataset is a synthetic length-frequency distribution created for testing the accuracy and reproducibility of ELEFAN-based fit methods. It includes 36,711 individuals over 12 months, with known parameters (K = 0.5, L∞ = 80).
+
+In the **results section**, the authors discuss the outcomes of their analyses using these datasets, confirming their relevance and application in the study.
+
+Now, I will check the **References section** to find the full citations for these datasets. The authors reference the original paper for the *Abra alba* dataset:
+
+- For the **Abra alba dataset**, the citation is:
+  > Brey, T., Soriano, M., and Pauly, D. (1988). *Electronic length frequency analysis: a revised and expanded user's guide to ELEFAN 0, 1 and 2*. ICLARM Contrib. 261.
+
+The synthetic dataset (synlfq5b) is derived from the TropFishR package, which is also referenced in the paper:
+
+- For the **TropFishR package**, the citation is:
+  > Mildenberger, T.K., Taylor, M.H., and Wolff, M. (2017). *TropFishR: an R package for fisheries analysis with length-frequency data*. Methods in Ecology and Evolution, doi: 10.1111/2041-210X.12791.
+
+With this information, I can now compile the dataset entries, ensuring to include the full citations for each dataset as required. This structured approach ensures that I accurately capture the necessary details for each dataset mentioned in the paper.

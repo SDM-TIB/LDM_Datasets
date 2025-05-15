@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Learning a Generator Model from Terminal Bus Data" by Nikolay Stulov et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the study's goals and methods, which may hint at the types of data used.
+
+Next, I will focus on **Section II (Technical Introduction)** and **Section IV (Experiments and Results)**, as these sections typically contain detailed descriptions of the datasets used for training and testing the models. I will look for any specific mentions of datasets, including their sources, characteristics, and how they were generated or utilized in the experiments.
+
+In the paper, the authors mention that they used **synthetic data generated for a typical power generator with OpenModelica**. This indicates that the dataset is not a standard benchmark dataset but rather a custom dataset created for the purpose of this research. I will note the details of this synthetic dataset, including how it was generated and any relevant parameters.
+
+I will also check the **References section** to see if there are any citations related to the data generation process or any tools used, such as OpenIPSL, which is mentioned in the context of generating the synthetic data. 
+
+The relevant citations I will extract include:
+
+1. **OpenIPSL**: 
+   > L. Vanfretti, T. Rabuzin, M. Baudette, and M. Murad. *itesla power systems library (iPSL): A modelica library for phasor time-domain simulations*. SoftwareX, vol. 5, pp. 84 – 88, 2016.
+
+2. **Power System Stability Reference** (for context on the generator model):
+   > P. Kundur, N. Balu, and M. Lauby. *Power system stability and control*, ser. EPRI power system engineering series. McGraw-Hill, 1994.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This will provide a comprehensive overview of the datasets used in the research, which is crucial for reproducibility and further research.
+
+Finally, I will prepare the dataset entries in a structured format for easy reference and potential downstream processing.

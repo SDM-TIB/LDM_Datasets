@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Multi-Graph Convolutional Network for Relationship-Driven Stock Movement Prediction" by Jiexia Ye et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract states that the authors conducted experiments on two stock indexes in the Chinese market, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** where the authors describe the datasets used. In this section, they mention that they collected datasets from a public API (https://tushare.pro/) and specifically refer to two stock indexes: **CSI 300** and **CSI 500**. 
+
+I will extract the relevant details about these datasets:
+
+1. **CSI 300**: This dataset consists of three hundred large-cap listed corporations with good liquidity. The authors mention that the dataset is defined every half a year and that they fixed it on January 2015.
+
+2. **CSI 500**: This dataset includes constituent stocks chosen from the top 500 mid-cap and small-cap listed companies, also defined every half a year and fixed on January 2015.
+
+In the **datasets section**, the authors provide additional details about the attributes of each stock in the datasets, including input features (opening price, high price, low price, trading amount), relationship features (shareholder and shareholding ratio, industry category, registered capital, topicality), and label features (closing price).
+
+Now, I will look into the **References section** to find full citations for the datasets. However, since the datasets are derived from a public API and do not have formal citations like traditional datasets, I will note that the datasets are from the Tushare API.
+
+The citations for the datasets will be as follows:
+
+- For **CSI 300**:
+  > Tushare. *CSI 300 Index Data*. Available at: https://tushare.pro/
+
+- For **CSI 500**:
+  > Tushare. *CSI 500 Index Data*. Available at: https://tushare.pro/
+
+After gathering this information, I will compile the dataset entries into a structured format that is ready for review or downstream processing. This will ensure that I have accurately captured the datasets and their sources as required.

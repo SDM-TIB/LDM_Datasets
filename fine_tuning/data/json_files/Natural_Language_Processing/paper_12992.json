@@ -1,0 +1,77 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A graph constructed based on spellings of common English language words, where nodes correspond to letters and edge weights represent the frequency of adjacency between letters in words.",
+        "dcterms:title": "Orthographic Adjacency",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://books.google.com/ngrams",
+        "dcat:theme": [
+            "Linguistics",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Orthographic data",
+            "Letter adjacency",
+            "Clustering",
+            "Bipartite clustering"
+        ],
+        "dcat:landingPage": "https://books.google.com/ngrams",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node clustering",
+            "Graph simplification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "C. D. Manning",
+            "M. Surdeanu",
+            "J. Bauer",
+            "J. Finkel",
+            "S. Bethard",
+            "D. McClosky"
+        ],
+        "dcterms:description": "A graph constructed based on pronunciations of English language words, where nodes correspond to phonemes and edge weights represent the frequency of adjacency between phonemes in words.",
+        "dcterms:title": "Phonological Adjacency",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "http://speech.cs.cmu.edu/cgi-bin/cmudict",
+        "dcat:theme": [
+            "Linguistics",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Phonological data",
+            "Phoneme adjacency",
+            "Clustering",
+            "Tripartite clustering"
+        ],
+        "dcat:landingPage": "http://speech.cs.cmu.edu/cgi-bin/cmudict",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node clustering",
+            "Graph simplification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A list of the 20,000 most frequently-used English words, used to construct the orthographic and phonological graphs.",
+        "dcterms:title": "20K most frequently-used English words",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://books.google.com/ngrams",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Word frequency",
+            "English language",
+            "Corpus"
+        ],
+        "dcat:landingPage": "https://books.google.com/ngrams",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": []
+    }
+]

@@ -1,0 +1,282 @@
+[
+    {
+        "dcterms:creator": [
+            "D. Luo",
+            "W. Cheng",
+            "D. Xu",
+            "W. Yu",
+            "B. Zong",
+            "H. Chen",
+            "X. Zhang"
+        ],
+        "dcterms:description": "A binary classification dataset where each graph incorporates a Barabasi-Albert base structure linked with either a house or five-cycle motif. The label and ground-truth explanation of a graph is determined by the motif the graph contains.",
+        "dcterms:title": "BA-2Motifs",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Data",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Barabasi-Albert",
+            "Graph Motifs",
+            "Binary Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Amara",
+            "M. El-Assady",
+            "R. Ying"
+        ],
+        "dcterms:description": "A dataset similar to BA-2Motifs but with two distinct motifs, house and 3 × 3 grid. The house and grid motifs are chosen because they do not have overlapping structures.",
+        "dcterms:title": "BA-HouseGrid",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Data",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Graph Motifs",
+            "Binary Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Y.-X. Wu",
+            "X. Wang",
+            "A. Zhang",
+            "X. He",
+            "T.-S. Chua"
+        ],
+        "dcterms:description": "The dataset contains graphs combining a base structure (Tree, Ladder, or Wheel) and a motif (Cycle, House, Crane). A spurious correlation between the base and the motif is manually injected into each graph.",
+        "dcterms:title": "SPMotif",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Data",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Graph Motifs",
+            "Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Amara",
+            "M. El-Assady",
+            "R. Ying"
+        ],
+        "dcterms:description": "Each graph is a Barabási structure that may be linked with either house or grid motifs. Graphs containing both motif types are labeled as 1, otherwise 0.",
+        "dcterms:title": "BA-HouseAndGrid",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Data",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Graph Motifs",
+            "Binary Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Amara",
+            "M. El-Assady",
+            "R. Ying"
+        ],
+        "dcterms:description": "Similar to BA-HouseAndGrid, however, graphs with either house or grid motifs are labeled as 1, otherwise 0.",
+        "dcterms:title": "BA-HouseOrGrid",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Data",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Graph Motifs",
+            "Binary Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Kazius",
+            "R. McGuire",
+            "R. Bursi"
+        ],
+        "dcterms:description": "The dataset is a molecular property prediction task, which is to identify if a molecule is mutagenic or not. The functional groups -NO2 and -NH2 are considered as ground-truth explanations that lead to mutagenicity.",
+        "dcterms:title": "Mutagenic",
+        "dcterms:issued": "2005",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Molecular Data",
+            "Property Prediction"
+        ],
+        "dcat:keyword": [
+            "Molecular Graphs",
+            "Mutagenicity"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Molecular Property Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "B. Sanchez-Lengeling",
+            "J. Wei",
+            "B. Lee",
+            "E. Reif",
+            "P. Wang",
+            "W. Qian",
+            "K. McCloskey",
+            "L. Colwell",
+            "A. Wiltschko"
+        ],
+        "dcterms:description": "The dataset contains 12000 molecular graphs extracted from ZINC15. The task is to determine the presence of benzene rings in a molecule. Ground-truth explanations are the carbon atoms in the benzene rings.",
+        "dcterms:title": "Benzene",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Molecular Data",
+            "Property Prediction"
+        ],
+        "dcat:keyword": [
+            "Molecular Graphs",
+            "Benzene Rings"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Molecular Property Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "F. Monti",
+            "D. Boscaini",
+            "J. Masci",
+            "E. Rodola",
+            "J. Svoboda",
+            "M. M. Bronstein"
+        ],
+        "dcterms:description": "An image classification dataset where each image in MNIST is converted to a superpixel graph. Each node represents a superpixel where node features are the superpixel’s central coordinate and brightness intensity.",
+        "dcterms:title": "MNIST75SP",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Data",
+            "Classification"
+        ],
+        "dcat:keyword": [
+            "Superpixel Graphs",
+            "Image Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Yuan",
+            "H. Yu",
+            "J. Wang",
+            "K. Li",
+            "S. Ji"
+        ],
+        "dcterms:description": "The datasets are sentiment classification tasks. Each node corresponds to one word in the text, edges are constructed by the Biaffine parser.",
+        "dcterms:title": "GraphSST2",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Text Data",
+            "Sentiment Analysis"
+        ],
+        "dcat:keyword": [
+            "Sentiment Classification",
+            "Graph Representation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Sentiment Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Yuan",
+            "H. Yu",
+            "J. Wang",
+            "K. Li",
+            "S. Ji"
+        ],
+        "dcterms:description": "The datasets are sentiment classification tasks. Each node corresponds to one word in the text, edges are constructed by the Biaffine parser.",
+        "dcterms:title": "Twitter",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Text Data",
+            "Sentiment Analysis"
+        ],
+        "dcat:keyword": [
+            "Sentiment Classification",
+            "Graph Representation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Sentiment Classification"
+        ]
+    }
+]

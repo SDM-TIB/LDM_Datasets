@@ -1,0 +1,15 @@
+To extract datasets from the research paper titled "No Data Augmentation? Alternative Regularizations for Effective Training on Small Datasets" by Lorenzo Brigato and Stavroula Mougiakakou, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors trained on a small subset of the CIFAR-10 dataset and tested on ciFAIR-10, which suggests that these are the datasets of interest.
+
+Next, I will look for explicit mentions of the datasets in the **experiments section**. In section 4, the authors describe their experimental setup and mention that they trained on **1% of the original CIFAR-10 training set**, which consists of 50 images per class, and tested on **ciFAIR-10**, a variant of CIFAR-10 without duplicated images. This confirms that both CIFAR-10 and ciFAIR-10 are the datasets used in their experiments.
+
+Now, I will check the **References section** to find the full citations for these datasets. The relevant citations are:
+
+- For **CIFAR-10**, the citation is:
+  > Alex Krizhevsky and Geoffrey Hinton. *Learning Multiple Layers of Features from Tiny Images*. Technical Report, 2009.
+
+- For **ciFAIR-10**, the citation is:
+  > Lorenzo Brigato, Björn Barz, Luca Iocchi, and Joachim Denzler. *Tune it or don’t use it: Benchmarking data-efficient image classification*. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 1071–1080, 2021.
+
+Having identified the datasets and their citations, I will compile the information into a structured format for further processing. This includes noting the dataset names, their descriptions, and the full citations to ensure proper attribution.

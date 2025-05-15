@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Physics-Constrained Learning for PDE Systems with Uncertainty Quantified Port-Hamiltonian Models" by Kaiyuan Tan, Peilun Li, and Thomas Beckers, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses a physics-constrained learning method that utilizes data collected from observations, which suggests that there may be datasets involved.
+
+Next, I will focus on the **methodology section**, particularly the **data generation subsection** (3.1), where the authors describe how they create datasets for their experiments. They mention a dataset \( D \) that consists of state observations and control inputs, which is crucial for understanding the data they used.
+
+In this subsection, the authors specify that the dataset \( D \) is constructed from observations of the system at various time steps and spatial points. They also mention generating a new dataset \( E \) that contains both the states and their derivatives, which is essential for training their Gaussian Process model.
+
+Now, I will look for any references to specific datasets or sources of data in the **experiments section** (4) to confirm the datasets used in their evaluations. However, it appears that the authors primarily focus on the datasets they generated rather than referencing external datasets.
+
+Next, I will check the **References section** to see if any datasets are cited that could be relevant to their work. The references include various papers that discuss methodologies related to PDEs and machine learning, but they do not explicitly mention datasets.
+
+Since the authors created their datasets based on observations from their experiments, I will summarize the datasets as follows:
+
+1. **Dataset D**: This dataset consists of observations of the state of the PDE system at various time steps and spatial points, denoted as \( D = \{(t_i, z_j, x(t_i, z_j), u(t_i))\}_{i=1}^{N_t},_{j=1}^{N_z} \).
+
+2. **Dataset E**: This dataset includes the states and their derivatives, constructed from the observations in dataset \( D \). It is represented as \( E = \{(t_i, z_j, \dot{x}(t_i, z_j))\}_{i=1}^{N_t},_{j=1}^{N_e} \).
+
+Now, I will compile the full citations for any relevant references that discuss the methodologies or concepts related to the datasets, even if they do not provide external datasets directly.
+
+- For the foundational concepts of Port-Hamiltonian systems, I will cite:
+  > A. Macchelli, A. J. Van Der Schaft, and C. Melchiorri. *Port Hamiltonian formulation of infinite dimensional systems i. modeling*. In 2004 43rd IEEE Conference on Decision and Control (CDC), vol. 4, pp. 3762–3767, IEEE, 2004.
+
+- For Gaussian Processes, I will cite:
+  > C. Williams and C. Rasmussen. *Gaussian processes for regression*. Advances in neural information processing systems, vol. 8, 1995.
+
+After gathering this information, I will prepare the dataset entries and citations for further processing or review.

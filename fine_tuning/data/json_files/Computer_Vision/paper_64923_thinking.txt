@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Controlling Vision-Language Models for Multi-Task Image Restoration" by Ziwei Luo et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reading the **abstract** and **introduction** sections to get an overview of the research focus and any datasets that may be mentioned. The abstract indicates that the authors constructed a mixed degradation dataset for training their model, which suggests that there is a specific dataset of interest.
+
+Next, I will look into **section 4 (Dataset Construction)**, as this section is likely to provide detailed information about the datasets used in the study. Here, the authors describe a mixed degradation dataset that includes ten different image degradation types: blurry, hazy, JPEG-compression, low-light, noisy, raindrop, rainy, shadowed, snowy, and inpainting. They also mention the number of training and testing images for each degradation type.
+
+The paper provides specific sources for each degradation type, which I will need to document:
+
+1. **Blurry**: Collected from the GoPro dataset (Nah et al., 2017) with 2,103 training images and 1,111 testing images.
+2. **Hazy**: Collected from the RESIDE-6k dataset (Qin et al., 2020) with 6,000 training images and 1,000 testing images.
+3. **JPEG-compression**: Training dataset from DIV2K (Agustsson & Timofte, 2017) and Flickr2K (Timofte et al., 2017) with 3,440 images; testing dataset from LIVE1 (Sheikh, 2005) with 29 images.
+4. **Low-light**: Collected from the LOL dataset (Wei et al., 2018) with 485 training images and 15 testing images.
+5. **Noisy**: Same as JPEG-compression but with added Gaussian noise; testing images from CBSD68 (Martin et al., 2001).
+6. **Raindrop**: Collected from the RainDrop dataset (Qian et al., 2018) with 861 training images and 58 testing images.
+7. **Rainy**: Collected from the Rain100H dataset (Yang et al., 2017) with 1,800 training images and 100 testing images.
+8. **Shadowed**: Collected from the SRD dataset (Qu et al., 2017) with 2,680 training images and 408 testing images.
+9. **Snowy**: Collected from the Snow100K-L dataset (Liu et al., 2018) with 1,872 training images and 601 testing images.
+10. **Inpainting**: Training dataset from CelebaHQ and testing images with masks from RePaint (Lugmayr et al., 2022).
+
+After identifying these datasets, I will ensure to retrieve the full citations for each dataset from the **References section** of the paper. This is crucial for proper attribution and to provide readers with the necessary information to access the datasets.
+
+Now, I will compile the dataset entries, including their descriptions and citations, into a structured format that can be used for further processing or review.

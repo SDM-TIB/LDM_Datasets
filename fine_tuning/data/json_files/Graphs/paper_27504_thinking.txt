@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Unsupervised Sound Localization via Iterative Contrastive Learning" by Yan-Bo Lin et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors evaluate their method on two datasets: **Flickr-Sound** and **MUSIC-Synthetic**. This is a good starting point for my extraction.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **methodology** or **experiments** sections. In the **experiments section**, the authors provide details about the datasets used:
+
+1. **SoundNet-Flickr Dataset**: This dataset consists of more than two million video sequences. The authors mention that they use a 5-second audio clip and the central frame of the corresponding video clip to form input pairs. They also note that they do not rely on any annotations for model training. The subsets of this dataset used in their experiments contain 10k and 20k audio-visual pairs.
+
+2. **MUSIC-Synthetic Dataset**: This dataset consists of synthetic audio-visual pairs, where each pair is constructed by concatenating frames of music instruments and selecting corresponding audio clips. The authors follow a specific protocol for training and evaluation, using 25k audio-visual pairs in the training set and evaluating on a testing set of 455 pairs with bounding box annotations.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For the **SoundNet-Flickr Dataset**, the citation is:
+  > Yusuf Aytar, Carl Vondrick, and Antonio Torralba. *SoundNet: Learning sound representations from unlabeled video*. In NeurIPS, 2016.
+
+- For the **MUSIC-Synthetic Dataset**, the citation is:
+  > Di Hu, Rui Qian, Minyue Jiang, Xiao Tan, Shilei Wen, Errui Ding, Weiyao Lin, and Dejing Dou. *Discriminative sounding objects localization via self-supervised audiovisual matching*. In NeurIPS, 2020.
+
+With this information, I will compile the dataset entries, ensuring to include the full citations as required. This structured approach allows me to accurately extract and document the datasets used in the research paper.

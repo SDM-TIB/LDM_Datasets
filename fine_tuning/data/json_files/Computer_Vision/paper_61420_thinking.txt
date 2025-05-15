@@ -1,0 +1,40 @@
+To extract datasets from the research paper titled "Hybrid Energy Based Model in the Feature Space for Out-of-Distribution Detection" by Marc Lafon et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract states that the HEAT model sets new state-of-the-art results on the **CIFAR-10 / CIFAR-100 benchmark** and the **large-scale Imagenet benchmark**, indicating that these datasets are likely used in the experiments.
+
+Next, I will look into **section 4 (Experiments)**, where the authors discuss the datasets used for validation. They mention using **CIFAR-10** and **CIFAR-100** as in-distribution datasets. Additionally, they refer to several out-of-distribution datasets, categorized into near-OOD, mid-OOD, and far-OOD datasets. The specific datasets mentioned include:
+
+1. **TinyImagenet**: Used as a near-OOD dataset for CIFAR-10.
+2. **LSUN**: Used as a mid-OOD dataset for both CIFAR-10 and CIFAR-100.
+3. **Places**: Another mid-OOD dataset for both CIFAR-10 and CIFAR-100.
+4. **Textures**: Used as a far-OOD dataset for both CIFAR-10 and CIFAR-100.
+5. **SVHN**: Also a far-OOD dataset for both CIFAR-10 and CIFAR-100.
+6. **Imagenet**: Mentioned as a benchmark for OOD detection.
+
+In the **References section**, I will find the full citations for these datasets. The citations for the datasets are as follows:
+
+- **CIFAR-10**: 
+  > Alex Krizhevsky. *Learning Multiple Layers of Features from Tiny Images*. Master's thesis, Department of Computer Science, University of Toronto, 2009. URL: https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf.
+
+- **CIFAR-100**: 
+  > Alex Krizhevsky. *Learning Multiple Layers of Features from Tiny Images*. Master's thesis, Department of Computer Science, University of Toronto, 2009. URL: https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf.
+
+- **TinyImagenet**: 
+  > The dataset can be found at: https://www.kaggle.com/c/tiny-imagenet.
+
+- **LSUN**: 
+  > Y. Yu, T. Zhang, A. Khosla, A. Torralba, and A. Oliva. *LSUN: Construction of a Large-Scale Image Dataset Using Deep Learning with Humans in the Loop*. arXiv preprint arXiv:1506.03365, 2015. URL: https://arxiv.org/abs/1506.03365.
+
+- **Places**: 
+  > B. Zhou, A. Lapedriza, A. Khosla, A. Oliva, and A. Torralba. *Places: A 10 Million Image Database for Scene Recognition*. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2017. URL: https://places.csail.mit.edu/.
+
+- **Textures**: 
+  > M. Cimpoi, S. Maji, I. Kokkinos, S. Mohamed, and A. Vedaldi. *Describing Textures in the Wild*. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2014. URL: https://www.robots.ox.ac.uk/~vgg/data/textures/.
+
+- **SVHN**: 
+  > Y. Netzer, T. Wang, A. Coates, A. Bissacco, B. Wu, and A. Y. Ng. *Reading Digits in Natural Images with Unsupervised Feature Learning*. In NIPS Workshop on Deep Learning and Unsupervised Feature Learning, 2011. URL: https://cs.stanford.edu/people/aleksey/svhn/.
+
+- **Imagenet**: 
+  > J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei. *Imagenet: A Large-Scale Hierarchical Image Database*. In 2009 IEEE Conference on Computer Vision and Pattern Recognition, pp. 248–255. IEEE, 2009. URL: http://www.image-net.org/.
+
+Now, I will compile the dataset entries with their full citations into a structured format for further processing.

@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Multi-level Interaction Modeling for Protein Mutational Effect Prediction" by Yuanle Mo et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned. The abstract highlights the use of a self-supervised framework for predicting mutational effects, which suggests that datasets are involved in the training and evaluation of the proposed method.
+
+Next, I will focus on the **experiments section** (Section 4) where the authors typically describe the datasets used for their experiments. In **Section 4.1**, the authors mention the **SKEMPI2 dataset** as a benchmark for evaluating their method. They provide details about the dataset's relevance to mutational effect prediction.
+
+In **Appendix A**, the authors provide additional information about the datasets used for pre-training. They mention two datasets:
+
+1. **PPIRef50K**: This dataset is described as a non-redundant collection of structurally distinct 3D protein-protein interfaces, comprising 45,553 interactions.
+
+2. **PDB-REDO**: This dataset contains over 130,000 refined X-ray structures from the Protein Data Bank, clustered based on sequence identity.
+
+Now, I will consult the **References section** to retrieve full citations for these datasets:
+
+- For **SKEMPI2**, the citation is:
+  > Justina Jankauskaitė, Brian Jiménez-García, Justas Dapkūnas, Juan Fernández-Recio, and Iain H Moal. *SKEMPI 2.0: an updated benchmark of changes in protein–protein binding energy, kinetics and thermodynamics upon mutation*. Bioinformatics, 35(3):462–469, 2019.
+
+- For **PPIRef50K**, the citation is:
+  > Anton Bushuiev, Roman Bushuiev, Anatolii Filkin, Petr Kouba, Marketa Gabrielova, Michal Gabriel, Jiri Sedlar, Tomas Pluskal, Jiri Damborsky, Stanislav Mazurenko, et al. *Learning to design protein-protein interactions with enhanced generalization*. arXiv preprint arXiv:2310.18515, 2023.
+
+- For **PDB-REDO**, the citation is:
+  > Robbie P Joosten, Fei Long, Garib N Murshudov, and Anastassis Perrakis. *The pdb_redo server for macromolecular structure model optimization*. IUCrJ, 1(4):213–220, 2014.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations. This will ensure that all relevant details are captured for further analysis or processing.

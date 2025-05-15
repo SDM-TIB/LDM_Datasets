@@ -1,0 +1,101 @@
+[
+    {
+        "dcterms:creator": [
+            "Jakob Geyer",
+            "Yohannes Kassahun",
+            "Mentar Mahmudi",
+            "Xavier Ricou",
+            "Rupesh Durgesh",
+            "Andrew S Chung",
+            "Lorenz Hauswald",
+            "Viet Hoang Pham",
+            "Maximilian Mühlegg",
+            "Sebastian Dorn"
+        ],
+        "dcterms:description": "The point clouds are acquired by a Velodyne 16-beam LiDAR. The LiDAR frames are labeled point by point. The data is divided into ∼28K training frames and ∼2K validation frames.",
+        "dcterms:title": "A2D2",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Autonomous Driving",
+            "3D Semantic Segmentation"
+        ],
+        "dcat:keyword": [
+            "LiDAR",
+            "Point Cloud",
+            "Semantic Segmentation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Point Cloud",
+        "mls:task": [
+            "3D Semantic Segmentation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Holger Caesar",
+            "Varun Bankiti",
+            "Alex H Lang",
+            "Sourabh Vora",
+            "Venice Erin Liong",
+            "Qiang Xu",
+            "Anush Krishnan",
+            "Yu Pan",
+            "Giancarlo Baldan",
+            "Oscar Beijbom"
+        ],
+        "dcterms:description": "It contains ∼40K LiDAR frames annotated with 3D bounding boxes. Following previous methods, we assign point-wise labels based on the 3D bounding box where points are located.",
+        "dcterms:title": "nuScenes",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Autonomous Driving",
+            "3D Object Detection"
+        ],
+        "dcat:keyword": [
+            "LiDAR",
+            "3D Bounding Boxes",
+            "Semantic Segmentation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Point Cloud",
+        "mls:task": [
+            "3D Object Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Jens Behley",
+            "Martin Garbade",
+            "Andres Milioto",
+            "Jan Quenzel",
+            "Sven Behnke",
+            "Cyrill Stachniss",
+            "Jurgen Gall"
+        ],
+        "dcterms:description": "Different from A2D2 and nuScenes, it uses a Velodyne 64-beam LiDAR. We use sequences 00-07 and 09-10 for training and evaluate on sequence 08, resulting in ∼19K training frames and ∼4K frames for evaluation.",
+        "dcterms:title": "SemanticKITTI",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Autonomous Driving",
+            "Semantic Scene Understanding"
+        ],
+        "dcat:keyword": [
+            "LiDAR",
+            "Semantic Segmentation",
+            "Point Cloud"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Point Cloud",
+        "mls:task": [
+            "Semantic Scene Understanding"
+        ]
+    }
+]

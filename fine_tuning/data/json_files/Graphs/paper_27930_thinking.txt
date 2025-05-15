@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Geometric learning of the conformational dynamics of molecules using dynamic graph neural networks" by Michael Hunter Ashby and Jenna A. Bilbrey, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract indicates that the authors apply a model to predict time-dependent changes in molecular structure, which suggests that datasets related to molecular graphs may be involved.
+
+In the **introduction**, the authors discuss the importance of modeling molecular dynamics and mention the use of deep learning techniques. However, I need to look for specific datasets mentioned in the methods section.
+
+Next, I will focus on **section 2 (Methods)**, particularly subsection 2.1, where the authors describe the molecular graph representation and mention that their dynamic GNNs were trained on a subset of the **ISO17 dataset**. They specify that this dataset consists of 129 constitutional isomers of C7O2H10, and they trained on a subset of 26 isomers. This is a clear identification of a dataset.
+
+I will also note that the authors provide details about the simulation parameters, such as the trajectory simulation for 5 ps with a resolution of 1 fs, which adds context to the dataset's characteristics.
+
+In the **results section**, the authors discuss their experiments using the ISO17 dataset, confirming its relevance to their findings. They provide metrics related to the performance of their model on this dataset, which further emphasizes its importance.
+
+Now, I will check the **References section** to find the full citation for the ISO17 dataset. The authors reference the dataset in connection with a paper by Ramakrishnan et al. (2014), which is likely where the dataset is originally described.
+
+The citation for the ISO17 dataset is:
+> Ramakrishnan, R., Dral, P.O., Rupp, M., & Von Lilienfeld, O.A. (2014). Quantum chemistry structures and properties of 134 kilo molecules. *Scientific Data*, 1(1), 1-7.
+
+With this information, I can now summarize the dataset details:
+
+1. **ISO17 Dataset**: A dataset consisting of 129 constitutional isomers of C7O2H10, with molecular dynamics simulations providing data for 5,000 conformational geometries, energies, and forces for each isomer.
+
+Finally, I will compile the dataset entry with the full citation into a structured format for further processing.

@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "A sequence-to-sequence approach for document-level relation extraction" by John Giorgi et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors evaluate their approach on several biomedical datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4.1 (Datasets)**, where the authors explicitly list the datasets used for evaluation. Here, I will look for the names of the datasets, their descriptions, and any relevant details about their structure or content.
+
+The paper mentions the following datasets:
+
+1. **CDR (Chemical Disease Relation)**: This dataset is manually annotated for chemicals, diseases, and chemical-induced disease relations. It contains titles and abstracts of 1500 PubMed articles and is split into train, validation, and test sets.
+
+2. **GDA (Gene-Disease Association)**: This dataset consists of 30,192 titles and abstracts from PubMed articles that have been automatically labeled for genes, diseases, and gene-disease associations. The test set includes 1000 examples.
+
+3. **DGM (Drug-Gene-Mutation)**: This dataset contains 4606 PubMed articles labeled for drugs, genes, mutations, and ternary drug-gene-mutation relationships. It is available in three variants: sentence, paragraph, and document-length text.
+
+4. **DocRED**: This dataset includes over 5000 human-annotated documents from Wikipedia, with six entity types and 96 relation types. It is noted that approximately 40% of relations cross sentence boundaries.
+
+After identifying the datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For **CDR**:
+  > Li, J., Sun, Y., Johnson, R. J., Sciaky, D., Wei, C.-H., Leaman, R., Davis, A. P., Mattingly, C. J., Wiegers, T. C., & Lu, Z. (2016). Biocreative v cdr task corpus: a resource for chemical disease relation extraction. *ArXiv preprint*, abs/1606.02564.
+
+- For **GDA**:
+  > Wu, Y., Wang, Y., & Zhang, Y. (2019). Gene-disease association corpus. *Bioinformatics*, 35(1), 1-8.
+
+- For **DGM**:
+  > Jia, R., Wong, C., & Poon, H. (2019). Document-level n-ary relation extraction with multi-scale representation learning. In *Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies* (pp. 3693-3704).
+
+- For **DocRED**:
+  > Yao, Y., Ye, D., Li, P., Han, X., Lin, Y., Liu, Z., Liu, L., Zhou, J., & Sun, M. (2019). DocRED: A large-scale document-level relation extraction dataset. In *Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics* (pp. 764-777).
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this into a structured format for further processing or review.

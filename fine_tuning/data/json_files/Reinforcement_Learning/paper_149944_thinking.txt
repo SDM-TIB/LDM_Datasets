@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "Boolean Decision Rules for Reinforcement Learning Policy Summarisation" by James McCarthy et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, methodology, results, and discussion sections** to locate any references to datasets. The abstract mentions evaluating a DQN agent trained on a "lava gridworld," which suggests that there is a dataset involved in this evaluation.
+
+Next, I will focus on the **introduction** to see if the authors provide more context about the dataset. They discuss the challenges of interpretability in reinforcement learning and mention the use of a hand-crafted dataset created by evaluating the agent in unseen environments. This indicates that the dataset is derived from the agent's interactions with the gridworld.
+
+In the **methodology section**, the authors describe how they gather sample trajectories of the agent's interactions with the environment and record state-action pairs. They mention creating a dataset of these features by evaluating the policy on a test set of 500 environments, which confirms the existence of a specific dataset used for their experiments.
+
+The **results section** provides further details about the dataset, stating that the BDR model was trained on a dataset of state-action pairs created across 1500 evaluation episodes, with 500 episodes from each of the 3 seeds. This reinforces the idea that the dataset is crucial for their analysis.
+
+Now, I will check the **references section** to find any citations related to the datasets mentioned. However, the paper does not provide a formal dataset citation since it appears to be a custom dataset created by the authors for their specific experiments. Therefore, I will document it as follows:
+
+1. **Lava Gridworld Dataset**: This dataset consists of state-action pairs collected from a DQN agent trained in a 5x5 gridworld environment, specifically designed to evaluate the agent's performance in avoiding lava blocks while reaching a goal. The dataset was created by evaluating the agent across 1500 episodes, with 500 episodes from each of three different seeds.
+
+Since there are no external datasets cited in the references, I will note that the Lava Gridworld dataset is a custom dataset created for the purposes of this research.
+
+Finally, I will compile the dataset entry into a structured format that captures the essential details, including the dataset name, description, and the context in which it was used in the research. This will ensure that the information is clear and accessible for future reference or analysis.

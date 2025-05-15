@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Data-Driven Predictive Modeling of Neuronal Dynamics Using Long Short-Term Memory" by Benjamin Plaster and Gautam Kumar, I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the research, and I will look for any references to datasets used for training or validation.
+
+Next, I will focus on the **methodology section**, particularly **Section 2.3 (Synthetic Data)**, where the authors describe the synthetic data generated for training their LSTM networks. They mention using a 9-dimensional Hodgkin-Huxley model of CA1 pyramidal neurons to generate this synthetic data. This indicates that the dataset is based on simulations rather than real-world data.
+
+In this section, the authors detail how they simulated the Hodgkin-Huxley model for 1000 ms duration across 2000 constant stimulating currents, sampled uniformly between 0.0 nA and 3.0 nA. They also specify that they randomly drew 50 samples for training and validation, which gives insight into the dataset's structure.
+
+I will also check the **references section** to find any citations related to the Hodgkin-Huxley model, as this model is foundational to the synthetic dataset used in the study. The relevant citation for the Hodgkin-Huxley model is:
+
+- For the Hodgkin-Huxley model:
+  > David Golomb, Cuiyong Yue, and Yoel Yaari. *Contribution of persistent Na+ current and m-type K+ current to somatic bursting in CA1 pyramidal cells: combined experimental and modeling study*. Journal of Neurophysiology, 96(4):1912–1926, 2006.
+
+Now, I will compile the dataset entries based on the information gathered:
+
+1. **Synthetic Dataset**: This dataset is generated from the Hodgkin-Huxley model and includes various spiking patterns of CA1 pyramidal neurons based on simulated data.
+
+2. **Hodgkin-Huxley Model Citation**: The citation for the model used to generate the synthetic data is crucial for proper attribution.
+
+After gathering all this information, I will ensure that each dataset is clearly described and that the full citations are included for reference. This will provide a comprehensive overview of the datasets utilized in the research paper.

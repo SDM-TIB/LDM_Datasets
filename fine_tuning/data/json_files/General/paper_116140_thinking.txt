@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Reconstructing Robot Operations via Radio-Frequency Side-Channel" by Ryan Shah et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to locate any references to datasets. The abstract provides a brief overview of the study's focus on fingerprinting robot movements and operational workflows, which suggests that datasets are likely involved.
+
+Next, I will examine **section 3 (Attack Methodology)**, where the authors describe their experimental setup. Here, they mention the creation of a **movement dataset** that is split into two subsets:
+
+1. The first subset contains samples of robot movements along the X, Y, and Z axes with varying speeds and distances. This subset is crucial for understanding how individual movements are captured and classified.
+
+2. The second subset includes samples of manufacturing workflows, such as pick-and-place and push/pull operations, which are replicated from existing industrial robot datasets. The authors specifically reference the **Forward Dynamics Dataset Using KUKA LWR and Baxter** and the **Inverse Dynamics Dataset Using KUKA** as sources for these workflows.
+
+In **section 3.1.2 (Movement Dataset)**, the authors provide details about the dataset, including the number of samples and the types of movements captured. They mention approximately **7.8K samples for individual movements** and **~400 samples for warehousing workflows**.
+
+Now, I will look at the **References section** to find full citations for the datasets mentioned. The relevant citations are:
+
+- For the **Forward Dynamics Dataset Using KUKA LWR and Baxter**, the citation is:
+  > Athanasios S Polydoros and Lazaros Nalpantidis. *A reservoir computing approach for learning forward dynamics of industrial manipulators*. In 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 612–618, 2016.
+
+- For the **Inverse Dynamics Dataset Using KUKA**, the citation is:
+  > Elmar Rueckert, Moritz Nakatenus, Samuele Tosatto, and Jan Peters. *Learning inverse dynamics models in O(n) time with LSTM networks*. In 2017 IEEE-RAS 17th International Conference on Humanoid Robotics (Humanoids). IEEE, 811–816, 2017.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets utilized in the research paper, ready for further processing or review.

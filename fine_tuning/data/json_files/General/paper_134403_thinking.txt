@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "In Defense of Softmax Parametrization for Calibrated and Consistent Learning to Defer" by Yuzhou Cao et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to find any references to datasets. The abstract mentions that the authors empirically validate their method on benchmark datasets, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for evaluation. In this section, I will look for specific names of datasets, their characteristics, and any relevant details about how they were used in the experiments.
+
+Upon reviewing the paper, I find that the authors mention several datasets:
+
+1. **CIFAR100**: This dataset is used for experiments with synthetic experts. It consists of 100 classes and is commonly used for image classification tasks.
+
+2. **CIFAR10H**: This dataset is a variant of CIFAR-10, designed for evaluating models with human expert predictions. It includes human-annotated labels for the CIFAR-10 dataset.
+
+3. **HateSpeech**: This dataset is used for evaluating the model's performance in detecting hate speech. It contains labeled instances of hate speech and non-hate speech.
+
+4. **ImageNet-16H**: This dataset is a subset of the ImageNet dataset, used for evaluating the model's performance in a more challenging classification task.
+
+5. **NIH Chest X-ray**: This dataset is used for medical image classification tasks, specifically for detecting various thoracic diseases from chest X-ray images.
+
+Next, I will check the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For **CIFAR100**, the citation is:
+  > Alex Krizhevsky, Geoffrey Hinton, et al. *Learning multiple layers of features from tiny images*. 2009.
+
+- For **CIFAR10H**, the citation is:
+  > Joshua C. Peterson, Ruairidh M. Battleday, Thomas L. Griffiths, and Olga Russakovsky. *Human uncertainty makes classification more robust*. In ICCV, pages 9616–9625, 2019.
+
+- For **HateSpeech**, the citation is:
+  > Thomas Davidson, Dana Warmsley, Michael W. Macy, and Ingmar Weber. *Automated hate speech detection and the problem of offensive language*. In ICWSM, 2017.
+
+- For **ImageNet-16H**, the citation is:
+  > Gavin Kerrigan, Padhraic Smyth, and Mark Steyvers. *Combining human predictions with model probabilities via confusion matrices and calibration*. In NeurIPS, 2021.
+
+- For **NIH Chest X-ray**, the citation is:
+  > Xiaosong Wang, Yifan Peng, Le Lu, Zhiyong Lu, Mohammadhadi Bagheri, and R Summers. *Hospital-scale chest x-ray database and benchmarks on weakly-supervised classification and localization of common thorax diseases*. In CVPR, 2017.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is described with its name, a brief description, and the full citation. This structured approach will ensure that I accurately capture the datasets used in the research paper and provide proper references for each.

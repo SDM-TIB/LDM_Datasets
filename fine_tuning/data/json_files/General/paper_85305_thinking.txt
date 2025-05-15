@@ -1,0 +1,37 @@
+To extract datasets from the research paper titled "RoBERTa: A Robustly Optimized BERT Pretraining Approach" by Yinhan Liu et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets that are explicitly mentioned. In the abstract, the authors mention that they collected a large new dataset called **CC-NEWS** to control for training set size effects. This indicates that there is at least one dataset to extract.
+
+Next, I will examine the **data section** (Section 3.2) where the authors describe the datasets used for pretraining. They mention several datasets:
+
+1. **BOOKCORPUS**: This dataset is used in the original BERT training and consists of 16GB of uncompressed text.
+2. **CC-NEWS**: A dataset collected from the English portion of the CommonCrawl News dataset, containing 76GB of English news articles.
+3. **OPENWEBTEXT**: An open-source recreation of the WebText corpus, which is 38GB in size.
+4. **STORIES**: A dataset containing a subset of CommonCrawl data, filtered to match a story-like style, totaling 31GB.
+
+In addition to these datasets, the authors also mention that they used **GLUE**, **SQuAD**, and **RACE** for evaluation purposes. These are benchmarks rather than datasets used for training, but they are important to note for completeness.
+
+Now, I will look at the **References section** to find the full citations for each dataset:
+
+- For **BOOKCORPUS**, the citation is:
+  > Zhu, Y., Kiros, R., Zemel, R., Salakhutdinov, R., Urtasun, R., Torralba, A., & Fidler, S. (2015). Aligning books and movies: Towards story-like visual explanations by watching movies and reading books. *arXiv preprint arXiv:1506.06724*.
+
+- For **CC-NEWS**, the citation is:
+  > Nagel, S. (2016). CC-NEWS. Retrieved from http://web.archive.org/save/http://commoncrawl.org/2016/10/news-dataset-available.
+
+- For **OPENWEBTEXT**, the citation is:
+  > Gokaslan, A., & Cohen, V. (2019). OpenWebText Corpus. Retrieved from http://web.archive.org/save/http://Skylion007.github.io/OpenWebTextCorpus.
+
+- For **STORIES**, the citation is:
+  > Trinh, T. H., & Le, Q. V. (2018). A simple method for commonsense reasoning. *arXiv preprint arXiv:1806.02847*.
+
+- For **GLUE**, the citation is:
+  > Wang, A., Pruksachatkun, Y., Nangia, N., Singh, A., Michael, J., Hill, F., Levy, O., & Bowman, S. R. (2019). GLUE: A multi-task benchmark and analysis platform for natural language understanding. In *International Conference on Learning Representations (ICLR)*.
+
+- For **SQuAD**, the citation is:
+  > Rajpurkar, P., Zhang, J., Lopyrev, K., & Liang, P. (2016). SQuAD: 100,000+ questions for machine comprehension of text. In *Empirical Methods in Natural Language Processing (EMNLP)*.
+
+- For **RACE**, the citation is:
+  > Lai, G., Xie, Q., Liu, H., Yang, Y., & Hovy, E. (2017). RACE: Large-scale reading comprehension dataset from examinations. *arXiv preprint arXiv:1704.04683*.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

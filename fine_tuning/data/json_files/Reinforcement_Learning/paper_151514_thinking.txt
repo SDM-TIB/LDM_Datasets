@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Pedestrian intention prediction in Adverse Weather Conditions with Spiking Neural Networks and Dynamic Vision Sensors" by Mustafa Sakhai et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors used a **custom dataset from the CARLA simulator**, which suggests that this dataset is significant for their experiments.
+
+Next, I will look for specific details about the dataset in the **dataset generation section (IV)**. Here, the authors describe their custom dataset, which was generated using the CARLA simulator. They mention that the dataset includes two subsets: the "Default" subset and the "Weather" subset. 
+
+1. **Default Subset**: This subset consists of 117 videos captured under sunny weather conditions, featuring pedestrians crossing roadways. Each video contains 900 frames, with RGB images at a resolution of 1600x600.
+
+2. **Weather Subset**: This subset includes 81 videos that introduce various weather effects such as rain, storm, and fog. Similar to the Default subset, each video also contains 900 frames, with RGB images at the same resolution.
+
+The authors also mention that they recorded both RGB and DVS data during the simulation, which is crucial for understanding the dataset's structure.
+
+Additionally, they reference the **JAAD dataset** for comparative experiments, which is another dataset of interest. The JAAD dataset is used to evaluate pedestrian crossing behavior under different conditions.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned:
+
+- For the **CARLA simulator**, while the paper does not provide a specific citation for the dataset generated from it, the CARLA simulator itself is cited as:
+  > Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2019). CARLA: An open urban driving simulator. In Proceedings of the 1st Annual Conference on Robot Learning (CoRL).
+
+- For the **JAAD dataset**, the citation is:
+  > Rasouli, A., Kotseruba, I., & Tsotsos, J. K. (2017). Are they going to cross? A benchmark dataset and baseline for pedestrian crosswalk behavior. In Proceedings of the IEEE International Conference on Computer Vision Workshops (ICCVW), 206–213.
+
+With these details in hand, I will summarize the datasets as follows:
+
+1. **Custom Dataset from CARLA Simulator**:
+   - Description: A dataset generated using the CARLA simulator, consisting of two subsets: Default (117 videos in sunny conditions) and Weather (81 videos in adverse weather).
+   - Citation: Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2019). CARLA: An open urban driving simulator. In Proceedings of the 1st Annual Conference on Robot Learning (CoRL).
+
+2. **JAAD Dataset**:
+   - Description: A dataset for pedestrian crossing behavior analysis, used for comparative experiments in the paper.
+   - Citation: Rasouli, A., Kotseruba, I., & Tsotsos, J. K. (2017). Are they going to cross? A benchmark dataset and baseline for pedestrian crosswalk behavior. In Proceedings of the IEEE International Conference on Computer Vision Workshops (ICCVW), 206–213.
+
+Finally, I will compile this information into a structured format for further processing or review.

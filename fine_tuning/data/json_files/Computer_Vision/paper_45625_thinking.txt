@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Event-VPR: End-to-End Weakly Supervised Network Architecture for Event-based Visual Place Recognition" by Delei Kong et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors compare their method against event-based driving datasets (MVSEC, DDD17) and a synthetic dataset (Oxford RobotCar). This suggests that these datasets are crucial for the experiments.
+
+Next, I will examine the **experiments section** (Section IV) where the authors discuss their methodology and results. Here, they explicitly mention using the following datasets:
+
+1. **MVSEC Dataset**: This dataset is described as an event-based driving dataset recorded in real environments, which includes various outdoor driving sequences with dramatic illumination changes.
+
+2. **DDD17 Dataset**: Similar to MVSEC, this dataset is also an event-based driving dataset that includes urban and freeway scenes, recorded using a real DAVIS camera.
+
+3. **Oxford RobotCar Dataset**: This is a standard dataset used in visual place recognition, which the authors converted into event streams using a synthesizer (V2E).
+
+In the **appendix**, the authors provide additional details about the datasets, including the specific sequences used for training and testing, which further confirms their relevance.
+
+Now, I will look at the **References section** to find the full citations for each dataset mentioned:
+
+- For the **MVSEC Dataset**, the citation is:
+  > Zhu, A. Z., Thakur, D., Özaslan, T., Pfrommer, B., Kumar, V., & Daniilidis, K. (2018). The Multivehicle Stereo Event Camera Dataset: An Event Camera Dataset for 3D Perception. *IEEE Robotics and Automation Letters*, 3(3), 2032-2039.
+
+- For the **DDD17 Dataset**, the citation is:
+  > Binas, J., Neil, D., Liu, S.-C., & Delbruck, T. (2017). DDD17: End-To-End DAVIS Driving Dataset. *arXiv preprint arXiv:1711.01458*. Available at: http://arxiv.org/abs/1711.01458
+
+- For the **Oxford RobotCar Dataset**, the citation is:
+  > Maddern, W., Pascoe, G., Linegar, C., & Newman, P. (2017). 1 year, 1000 km: The Oxford RobotCar dataset. *International Journal of Robotics Research*, 36(1), 3-15.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper, which is essential for any further analysis or replication of the study.

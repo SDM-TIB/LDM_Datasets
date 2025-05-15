@@ -1,0 +1,16 @@
+To extract datasets from the research paper titled "RIR-SF: Room Impulse Response Based Spatial Feature for Target Speech Recognition in Multi-Channel Multi-Speaker Scenarios" by Yiwen Shao et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the introduction of RIR-SF and its performance, but does not specify datasets. The introduction provides context about the challenges in automatic speech recognition (ASR) but does not mention datasets either.
+
+Next, I will focus on **section 5 (Experiments)**, where the authors describe their experimental setup. Here, they mention that they simulated a multi-channel reverberant dataset based on **AISHELL-1** for their experiments. This is a clear indication of a dataset being used.
+
+In this section, they provide details about how the dataset was generated, including the use of **Pyroomacoustics** for room impulse response (RIR) generation and estimation. They specify the parameters used for simulation, such as room size and reverberation time (RT60), but they do not provide a separate dataset name beyond referencing AISHELL-1.
+
+Now, I will look into the **References section** to find the full citation for the AISHELL-1 dataset. The citation is as follows:
+> H. Bu, J. Du, X. Na, B. Wu, and H. Zheng. "AISHELL-1: An open-source Mandarin speech corpus and a speech recognition baseline." In 2017 20th Conference of the Oriental Chapter of the International Coordinating Committee on Speech Databases and Speech I/O Systems and Assessment (O-COCOSDA), IEEE, 2017, pp. 1–5.
+
+Additionally, I will note that the authors used **Pyroomacoustics** as a toolkit for RIR generation, but this is a software tool rather than a dataset. Therefore, I will not include it in the dataset extraction.
+
+Finally, I will compile the dataset entry for AISHELL-1, ensuring to include the full citation as required.
+
+After completing these steps, I will have a clear and concise dataset entry ready for further processing or review.

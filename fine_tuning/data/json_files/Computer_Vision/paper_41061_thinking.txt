@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Symbiotic Graph Neural Networks for 3D Skeleton-based Human Action Recognition and Motion Prediction" by Maosen Li et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract** and **introduction** sections to get an overview of the datasets used in the research. The abstract mentions that the authors conducted experiments on **four datasets**: NTU-RGB+D, Kinetics, Human3.6M, and CMU Mocap. This indicates that these datasets are crucial for the study.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments** section. In this paper, the authors provide details about the datasets in **section 6.1 (Datasets and Model Setting)**. Here, they describe each dataset in detail:
+
+1. **NTU-RGB+D**: This dataset contains 56,880 skeleton action sequences performed by one or two performers and categorized into 60 classes. It provides 3D spatial coordinates of 25 joints for each subject in an action.
+
+2. **Kinetics**: A large dataset containing over 240,000 video clips across 400 action classes. The authors mention that they obtained skeleton data by estimating joint locations using the OpenPose toolbox.
+
+3. **Human3.6M**: A motion capture dataset with seven subjects performing 15 classes of actions, providing joint locations in angle space.
+
+4. **CMU Mocap**: This dataset includes five major action categories, with each subject having 38 joints represented by angle positions. The authors selected eight actions for their experiments.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- **NTU-RGB+D**: 
+  > A. Shahroudy, J. Liu, T.-T. Ng, and G. Wang. *NTU RGB+D: A large scale dataset for 3D human activity analysis*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 1010–1019, 2016.
+
+- **Kinetics**: 
+  > Z. Cao, T. Simon, S. Wei, and Y. Sheikh. *Realtime multi-person 2D pose estimation using part affinity fields*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 7291–7299, 2017.
+
+- **Human3.6M**: 
+  > C. Ionescu, P. Papava, V. Olaru, and C. Sminchisescu. *Human3.6M: Large scale datasets and predictive methods for 3D human sensing in natural environments*. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 36(7):1325–1339, 2014.
+
+- **CMU Mocap**: 
+  > CMU Motion Capture Database. Available: http://mocap.cs.cmu.edu/.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this into a structured format for further use or processing.

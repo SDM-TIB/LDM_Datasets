@@ -1,0 +1,89 @@
+[
+    {
+        "dcterms:creator": [
+            "S. Landsmeer",
+            "E. Hendriks",
+            "L. de Weger",
+            "J. Reiber",
+            "B. Stoel"
+        ],
+        "dcterms:description": "A database containing images of pollen grains captured using multifocal optical microscopy, used for detecting pollen grains in air samples.",
+        "dcterms:title": "Pollen Image Database",
+        "dcterms:issued": "2009",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Microscopy",
+            "Pollen Detection"
+        ],
+        "dcat:keyword": [
+            "Pollen grains",
+            "Microscopy images",
+            "Optical microscopy",
+            "Image detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Pollen detection",
+            "Image classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset used for training the classification framework, containing various pollen types.",
+        "dcterms:title": "Training Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset containing pollen images that are known to belong to the training dataset, used for testing authentication.",
+        "dcterms:title": "Inlier Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset containing pollen images that do not belong to the training dataset, used for testing authentication.",
+        "dcterms:title": "Outlier Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Sub-datasets created from the training dataset, used for testing the robustness of the classification framework.",
+        "dcterms:title": "Sub-datasets S’p",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

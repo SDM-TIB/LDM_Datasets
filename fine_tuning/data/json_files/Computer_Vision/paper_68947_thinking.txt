@@ -1,0 +1,22 @@
+To extract the datasets mentioned in the research paper titled "On generalisability of segment anything model for nuclear instance segmentation in histology images" by Kesi Xu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, method, and experiment sections** to identify any datasets that are explicitly mentioned or described. The abstract mentions the evaluation of the Segment Anything Model (SAM) on nuclear instance segmentation, which suggests that datasets are involved.
+
+In the **introduction**, the authors discuss the importance of nuclear segmentation in computational pathology and mention that SAM is trained on the **SA-1B dataset**. This indicates that SA-1B is a dataset of interest, but I need to confirm its details later.
+
+Moving to the **method section**, I will look for any additional datasets that may be used in conjunction with SAM. The authors mention using a nuclei detection model and refer to the **Lizard dataset** for evaluating nuclear segmentation performance. This dataset is described as the largest publicly available colon tissue nuclei dataset, which is crucial for my extraction.
+
+In the **experiment section**, the authors specify that they used the Lizard dataset for training and the TCGA dataset as unseen test data. This confirms that both the Lizard dataset and TCGA dataset are relevant for the experiments conducted in this study.
+
+Next, I will check the **references section** to gather full citations for each dataset mentioned:
+
+1. For the **SA-1B dataset**, the citation is:
+   > Kirillov, A., Mintun, E., Ravi, N., Mao, H., Rolland, C., Gustafson, L., Xiao, T., Whitehead, S., Berg, A.C., Lo, W.-Y., Dollár, P., Girshick, R. *Segment Anything*, http://arxiv.org/abs/2304.02643, (2023).
+
+2. For the **Lizard dataset**, the citation is:
+   > Graham, S., Jahanifar, M., Azam, A., Nimir, M., Tsang, Y.-W., Dodd, K., Hero, E., Sahota, H., Tank, A., Benes, K., Wahab, N., Minhas, F., Raza, S.E.A., El Daly, H., Gopalakrishnan, K., Snead, D., Rajpoot, N. *Lizard: A Large-Scale Dataset for Colonic Nuclear Instance Segmentation and Classification*. In: 2021 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW). pp. 684–693. IEEE, Montreal, BC, Canada (2021). https://doi.org/10.1109/ICCVW54120.2021.00082.
+
+3. For the **TCGA dataset**, the citation is:
+   > Grossman, R.L., Heath, A.P., Ferretti, V., Varmus, H.E., Lowy, D.R., Kibbe, W.A., Staudt, L.M. *Toward a Shared Vision for Cancer Genomic Data*. N. Engl. J. Med. 375, 1109–1112 (2016). https://doi.org/10.1056/NEJMp1607591.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. Each dataset will be described with its relevant details and full citation to ensure proper attribution.

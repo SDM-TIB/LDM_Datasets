@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Distributed computing for physics-based data-driven reduced modeling at scale: Application to a rotating detonation rocket engine" by Ionut-Gabriel Farcas et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and results sections** to identify any datasets mentioned. The abstract indicates that the paper discusses a distributed algorithm for constructing predictive physics-based reduced-order models (ROMs) trained from sparse datasets. This suggests that datasets are involved, but I need to find specific names and details.
+
+Next, I will focus on **section 4.2 (Acquiring the large-scale training dataset)**, where the authors describe the dataset used for training their model. They mention that the training dataset consists of **3, 805 downsampled snapshots** from high-fidelity simulations over a specific time horizon, which is crucial information.
+
+The authors provide details about the dataset, including:
+- The total size of the dataset: **1.4 TB** in double precision.
+- The number of snapshots used for training: **2, 536 snapshots**.
+- The state dimension of the snapshots: **75, 675, 600**.
+
+In addition, they describe the governing equations and the state variables involved, which gives context to the dataset but does not constitute a separate dataset itself.
+
+Now, I will check the **References section** to find the full citation for the high-fidelity simulation dataset. The authors reference the **AHFM (ALREST High-Fidelity Modeling)** large-scale simulation code from the Air Force Research Laboratory (AFRL) as the source of their high-fidelity data. However, they do not provide a specific citation for the dataset itself, as it is derived from their own simulations.
+
+Since the dataset is based on their own simulations, I will summarize the dataset as follows:
+
+1. **Training Dataset for RDRE**: This dataset consists of 3, 805 downsampled snapshots from high-fidelity simulations of a rotating detonation rocket engine, with a total size of 1.4 TB and a state dimension of 75, 675, 600. The first 2, 536 snapshots are used for training the reduced-order models.
+
+Now, I will compile the dataset entry with the relevant details, ensuring to include the context and any necessary citations. Since the dataset is derived from their own work, I will note that the authors are the source of the dataset.
+
+Finally, I will prepare the dataset entry for review or downstream processing, ensuring that all relevant information is included and clearly presented.

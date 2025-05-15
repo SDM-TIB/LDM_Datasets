@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "PointDreamer: Zero-shot 3D Textured Mesh Reconstruction from Colored Point Cloud by 2D Inpainting" by Qiao Yu et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions "extensive qualitative and quantitative experiments on various synthetic and real-scanned datasets," which indicates that datasets are indeed used.
+
+Next, I will focus on **section 4.1 (Experimental Settings)**, where the authors explicitly list the datasets used for evaluation. Here, they mention three datasets:
+
+1. **ShapeNetCoreV2**: A large-scale synthetic 3D object dataset. The authors specify that they use the official test splits for the chair, car, and motorbike categories, which contain approximately 1300, 690, and 70 samples, respectively.
+
+2. **Google Scanned Objects (GSO)**: A real-scanned 3D object dataset. The authors state that they use all 1030 samples for evaluation, contrasting with previous works that only utilized a subset.
+
+3. **OmniObject3D**: Another real-scanned 3D object dataset containing 6000 samples. The authors mention that they randomly select 100 objects for evaluation.
+
+To ensure accuracy, I will check the **References section** for full citations of these datasets:
+
+- For **ShapeNetCoreV2**, the citation is:
+  > Angel X Chang, Thomas Funkhouser, Leonidas Guibas, Pat Hanrahan, Qixing Huang, Zimo Li, Silvio Savarese, Manolis Savva, Shuran Song, Hao Su, et al. *Shapenet: An information-rich 3d model repository*. arXiv preprint arXiv:1512.03012, 2015.
+
+- For **Google Scanned Objects (GSO)**, the citation is:
+  > Laura Downs, Anthony Francis, Nate Koenig, Brandon Kinman, Ryan Hickman, Krista Reymann, Thomas B McHugh, and Vincent Vanhoucke. *Google scanned objects: A high-quality dataset of 3d scanned household items*. In International Conference on Robotics and Automation (ICRA), IEEE, 2553–2560, 2022.
+
+- For **OmniObject3D**, the citation is:
+  > Tong Wu, Jiarui Zhang, Xiao Fu, Yuxin Wang, Jiawei Ren, Liang Pan, Wayne Wu, Lei Yang, Jiaqi Wang, Chen Qian, Dahua Lin, and Ziwei Liu. *OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation*. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or processing.

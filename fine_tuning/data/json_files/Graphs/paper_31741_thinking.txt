@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "MAPConNet: Self-supervised 3D Pose Transfer with Mesh and Point Contrastive Learning" by Jiaze Sun et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the research and may mention datasets used for evaluation. The introduction typically discusses the context and significance of the research, which may include references to specific datasets.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors usually describe the datasets used in their experiments. This section often contains detailed descriptions of the datasets, including their characteristics, sizes, and any relevant information about how they were used in the study.
+
+In this paper, the authors mention several datasets:
+
+1. **SMPL Dataset**: This is a synthetic dataset consisting of 24,000 human meshes generated from 30 identities and 800 poses. Each mesh has 6,890 vertices. The authors specify that ground truths are available for evaluation and supervised learning.
+
+2. **SMAL Dataset**: This dataset contains 24,600 animal meshes generated from 41 identities and 600 poses, with each mesh having 3,889 vertices. The authors note that this dataset is more challenging due to the variety of shapes and sizes of animals.
+
+3. **DFAUST Dataset**: Unlike the previous datasets, DFAUST is a collection of registered human meshes obtained from real 3D scans, consisting of 10 subjects performing multiple motion sequences. The authors mention that there are no direct ground truths available, and they use the SMPL+H model to generate pseudo ground truths for evaluation.
+
+4. **Multi-Garment (MG) Dataset**: This dataset includes registered meshes of humans in clothing from real 3D scans, with each mesh having 27,554 vertices. The authors use this dataset to qualitatively validate their method's ability to handle complex unseen topologies.
+
+After identifying these datasets, I will refer to the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The citations for the datasets are as follows:
+
+- **SMPL Dataset**:
+  > Matthew Loper, Naureen Mahmood, Javier Romero, Gerard Pons-Moll, and Michael J. Black. *SMPL: A skinned multi-person linear model*. ACM Transactions on Graphics, 34(6):248:1–248:16, Oct. 2015.
+
+- **SMAL Dataset**:
+  > Silvia Zuffi, Angjoo Kanazawa, David W. Jacobs, and Michael J. Black. *3D Menagerie: Modeling the 3D shape and pose of animals*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), July 2017.
+
+- **DFAUST Dataset**:
+  > Federica Bogo, Javier Romero, Gerard Pons-Moll, and Michael J. Black. *Dynamic FAUST: Registering human bodies in motion*. In 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 5573–5582, 2017.
+
+- **Multi-Garment (MG) Dataset**:
+  > Bharat Lal Bhatnagar, Garvita Tiwari, Christian Theobalt, and Gerard Pons-Moll. *Multi-Garment Net: Learning to dress 3D people from images*. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), October 2019.
+
+Finally, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation, ready for structured output or further processing.

@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Learning GAN-based Foveated Reconstruction to Recover Perceptually Important Image Features" by Luca Surace et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to locate any references to datasets. The abstract mentions the use of a "new dataset" for training GAN-based foveated reconstruction, which indicates that there is at least one dataset to extract.
+
+Next, I will focus on **section 4 (Method)**, where the authors describe their approach in detail. In this section, they mention two distinct datasets used for training the GAN:
+
+1. **ImageNet Dataset**: The authors state that they used patches from natural images, specifically mentioning that they randomly selected 50 images from each of the 1000 classes in the ImageNet dataset, resulting in a total of 50,000 patches. This dataset is crucial for the generator's training.
+
+2. **Synthesized Dataset**: The paper describes a new dataset created using a texture synthesis method based on psychophysical experiments. This dataset consists of 50,000 synthesized patches that incorporate perceptually important distortions, which are essential for training the discriminator in the GAN.
+
+After identifying these datasets, I will check the **References section** to find the full citations for the datasets mentioned. The citation for the ImageNet dataset is:
+
+- For **ImageNet Dataset**:
+  > Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. *ImageNet: A large-scale hierarchical image database*. In IEEE conference on computer vision and pattern recognition, pages 248–255, 2009.
+
+The synthesized dataset does not have a specific citation since it is a new dataset created by the authors, but I will note its description as it is based on their own psychophysical experiments.
+
+Now, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and citations. This will ensure that all relevant information is captured accurately for future reference or processing.

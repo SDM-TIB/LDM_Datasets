@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Sub-8-Bit Quantization for On-Device Speech Recognition: A Regularization-Free Approach" by Kai Zhen et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors applied their method to **LibriSpeech** and **de-identified far-field datasets** for automatic speech recognition tasks. This suggests that these datasets are crucial for the experiments.
+
+Next, I will look into **section 4 (Experiments)**, where the authors provide detailed information about the datasets used. In **section 4.2 (Data)**, they specify:
+
+1. **LibriSpeech Dataset**: This dataset consists of 960 hours of training data, with specific subsets for validation and testing (5.4 hours for dev-clean and 5.1 hours for test-other). This dataset is widely used in the speech recognition community.
+
+2. **De-identified Far-Field Dataset**: This dataset comprises 100k hours of human transcribed data, used for training the Bifocal RNN-T model. The authors mention that they validate the training via 50k utterances and evaluate the model with 50k test utterances.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **LibriSpeech Dataset**, the citation is:
+  > Panayotov, V., Chen, G., Povey, D., & Khudanpur, S. (2015). *Librispeech: An ASR corpus based on public domain audio books*. In Proceedings of the 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 5206-5210.
+
+- The **De-identified Far-Field Dataset** does not have a specific citation provided in the references, as it appears to be an in-house dataset used by the authors. Therefore, I will note it as such.
+
+After gathering this information, I will summarize the datasets in a structured format, ensuring to include the full citations for the datasets that have them. This will allow for clear documentation of the datasets used in the research.
+
+Finally, I will compile the dataset entries into a structured output that is ready for review or further processing.

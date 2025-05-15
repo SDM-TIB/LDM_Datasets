@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "On the Power of Graph Neural Networks and Feature Augmentation Strategies to Classify Social Networks" by Walid Guettala and László Gulyás, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract indicates that the paper studies a synthetic dataset created using generative models of Network Science, which suggests that there is a dataset involved.
+
+Next, I will focus on **section 3.4 (Synthetic Network Datasets)**, where the authors describe the datasets in detail. They mention the creation of two datasets:
+
+1. **Small-Sized Graphs Dataset**: This dataset contains 250 samples from each of 8 network types, totaling 2000 synthetic networks. The networks' sizes are randomly selected from the interval [250, 1024].
+
+2. **Medium-Sized Graphs Dataset**: Similar to the Small Dataset, this one also contains 250 samples from each of the 8 network types, totaling 2000 synthetic networks, but the sizes are randomly selected from the interval [1024, 2048].
+
+The paper specifies that these datasets were generated using classic generative models, including Erdős-Rényi (ER), Watts-Strogatz (WS), and Barabási-Albert (BA) models, with carefully chosen parameters to emphasize characteristic features of each network family.
+
+Now, I will check the **References section** to find full citations for the generative models used to create the datasets:
+
+- For the **Erdős-Rényi model**, the citation is:
+  > Pál Erdős and Alfréd Rényi. “On random graphs I”. In: Publ. math. debrecen 6.290-297 (1959), p. 18.
+
+- For the **Watts-Strogatz model**, the citation is:
+  > Mark EJ Newman and Duncan J Watts. “Scaling and percolation in the small-world network model”. In: Physical review E 60.6 (1999), p. 7332.
+
+- For the **Barabási-Albert model**, the citation is:
+  > Réká Albert and Albert-László Barabási. “Statistical mechanics of complex networks”. In: Reviews of modern physics 74.1 (2002), p. 47.
+
+With these citations, I can now compile the dataset entries. Each dataset will include its name, description, and the relevant citations for the generative models used to create them.
+
+Finally, I will ensure that the dataset entries are structured clearly and accurately, ready for any further processing or review.

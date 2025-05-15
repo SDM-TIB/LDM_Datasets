@@ -1,0 +1,196 @@
+[
+    {
+        "dcterms:creator": [
+            "H. Jhuang",
+            "J. Gall",
+            "S. Zufﬁ",
+            "C. Schmid",
+            "M. J. Black"
+        ],
+        "dcterms:description": "Space-weather HMI Active Region Patches (SHARP) parameters calculated from data in proximity to the magnetic polarity inversion line where the flares originate.",
+        "dcterms:title": "Space-weather HMI Active Region Patches (SHARP) parameters",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Solar Physics",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "SHARP parameters",
+            "Solar flares",
+            "Magnetic fields"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Flare prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Jhuang",
+            "J. Gall",
+            "S. Zufﬁ",
+            "C. Schmid",
+            "M. J. Black"
+        ],
+        "dcterms:description": "HMI Active Region Patches (HARPs) are subsets of data spatially restricted to the near proximity of active regions.",
+        "dcterms:title": "HMI Active Region Patches (HARPs)",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Solar Physics",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "HARPs",
+            "Active regions",
+            "Solar flares"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Flare prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A list of flares recorded by the NOAA Geostationary Operational Environmental Satellites (GOES).",
+        "dcterms:title": "NOAA Geostationary Operational Environmental Satellites (GOES) flare list",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "NOAA",
+            "GOES",
+            "Flare list"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "H. Jhuang",
+            "J. Gall",
+            "S. Zufﬁ",
+            "C. Schmid",
+            "M. J. Black"
+        ],
+        "dcterms:description": "SHARP parameters calculated along the polarity inversion line (PIL) which are more localized to the source of the flare.",
+        "dcterms:title": "SHARP parameters calculated along the polarity inversion line (PIL)",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Solar Physics",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "PIL",
+            "SHARP parameters",
+            "Solar flares"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Flare prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "PIL-based SHARP parameters that are derived from the SHARP parameters calculated along the polarity inversion line.",
+        "dcterms:title": "PIL-based SHARP parameters",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "PIL",
+            "SHARP parameters"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Dataset D consists of 402 samples used for training and testing the LSTM model.",
+        "dcterms:title": "Dataset D (402 samples)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "LSTM",
+            "Training dataset",
+            "Flare prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Dataset S consists of 35 samples showing a sudden transition of LSTM scores before their first M/X flares.",
+        "dcterms:title": "Dataset S (35 samples)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "LSTM",
+            "Transition dataset",
+            "Flare prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Dataset W consists of 360 samples selected from Dataset D for LSTM interpretation.",
+        "dcterms:title": "Dataset W (360 samples)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "LSTM",
+            "Interpretation dataset",
+            "Flare prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "36 DTW distance features derived from the SHARP parameters for analysis.",
+        "dcterms:title": "36 DTW distance features",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "DTW",
+            "Distance features",
+            "Flare prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

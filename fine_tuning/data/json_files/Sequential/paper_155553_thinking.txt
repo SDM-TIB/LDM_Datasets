@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Neural Language Models are not Born Equal to Fit Brain Data, but Training Helps" by Alexandre Pasquiou et al., I will follow a systematic approach to ensure I capture all relevant datasets along with their full citations.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract provides a brief overview of the study's focus on neural language models and their ability to capture brain activity, which suggests that datasets related to brain imaging and language processing are likely involved.
+
+Next, I will focus on **section 3 (Analysis Setting: Fitting Brain Data with Modern NLP Models)**, where the authors explicitly mention the datasets used in their experiments. In this section, they describe the brain-imaging data and the text corpora used for training the models.
+
+1. **Brain-imaging data**: The authors state that the brain data consists of functional Magnetic Resonance Imaging (fMRI) scans from 51 participants who listened to the audiobook of "The Little Prince." This dataset is crucial for understanding the relationship between neural language models and brain activity.
+
+2. **Text Corpora**: The authors created several datasets for training their models, including:
+   - A dataset from Wikipedia (425M words).
+   - Multiple datasets derived from Project Gutenberg, which are nested in size: small (240M), medium (737M), large (2.2G), xlarge (4.4G), and full (4.8G, which combines the xlarge version with Wikipedia).
+
+Now, I will look into the **References section** to find the full citations for these datasets:
+
+- For the **brain-imaging dataset**, the citation is:
+  > Available from OpenNeuro: https://openneuro.org/datasets/ds003643/versions/1.0.2
+
+- For the **Project Gutenberg dataset**, the citation is:
+  > Project Gutenberg. (n.d.). Retrieved February 21, 2016, from www.gutenberg.org.
+
+- For the **GloVe dataset**, the citation is:
+  > Pennington, J., Socher, R., & Manning, C. (2014). GloVe: Global Vectors for Word Representation. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 1532–1543, Doha, Qatar. doi: 10.3115/v1/D14-1162. URL: http://aclweb.org/anthology/D14-1162.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the study, which is essential for reproducibility and further research.

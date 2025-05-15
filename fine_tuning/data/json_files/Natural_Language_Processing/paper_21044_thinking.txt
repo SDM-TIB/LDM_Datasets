@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "BEM: Balanced and Entropy-based Mix for Long-Tailed Semi-Supervised Learning" by Hongwei Zheng et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the research and may mention key datasets used for evaluation. 
+
+Next, I will focus on the **experiments section**, particularly the subsection titled **"Datasets"**. This section typically contains detailed descriptions of the datasets used in the study. I will look for specific names, characteristics, and any relevant statistics about the datasets.
+
+In this paper, the authors mention the following datasets:
+
+1. **CIFAR10-LT**: This is a long-tailed version of the CIFAR-10 dataset, which originally contains 60,000 32x32 color images in 10 classes. The authors created an imbalanced version by randomly discarding training samples to maintain a predefined imbalance ratio.
+
+2. **CIFAR100-LT**: Similar to CIFAR10-LT, this is a long-tailed version of the CIFAR-100 dataset, which contains 60,000 images across 100 classes. The authors also created an imbalanced version of this dataset.
+
+3. **STL10-LT**: This dataset consists of 5,000 labeled images and 100,000 unlabeled images, with an imbalanced distribution. The authors sampled the labeled data to create an imbalanced version while the unlabeled data naturally differs in distribution.
+
+4. **ImageNet-127**: This dataset is a naturally imbalanced version of ImageNet, grouping 1,000 classes into 127 classes based on the WordNet hierarchy. The authors used this dataset to validate their method on a long-tailed test set.
+
+After identifying these datasets, I will refer to the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The full citations for the datasets are as follows:
+
+- **CIFAR10-LT**:
+  > Alex Krizhevsky, Geoffrey Hinton, et al. *Learning multiple layers of features from tiny images*. 2009.
+
+- **CIFAR100-LT**:
+  > Alex Krizhevsky, Geoffrey Hinton, et al. *Learning multiple layers of features from tiny images*. 2009.
+
+- **STL10-LT**:
+  > Adam Coates, Andrew Ng, and Honglak Lee. *An analysis of single-layer networks in unsupervised feature learning*. In Proceedings of the fourteenth international conference on artificial intelligence and statistics, pages 215–223. JMLR Workshop and Conference Proceedings, 2011.
+
+- **ImageNet-127**:
+  > Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. *Imagenet: A large-scale hierarchical image database*. In 2009 IEEE conference on computer vision and pattern recognition, pages 248–255. IEEE, 2009.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format for further use or analysis.

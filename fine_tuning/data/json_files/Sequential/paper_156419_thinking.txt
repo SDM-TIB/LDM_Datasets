@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Untargeted Code Authorship Evasion with Seq2Seq Transformation" by Soohyeon Choi et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to see if any datasets are explicitly mentioned. The abstract provides a brief overview of the study, and the introduction often outlines the context and significance of the datasets used.
+
+In the **introduction**, the authors discuss the challenges of code authorship attribution and mention the use of a source-target pair dataset for training their Seq2Seq model. However, they do not provide specific names or details about the datasets at this point.
+
+Next, I will focus on the **methodology section**, particularly the part where they describe how they constructed their source-target pairs. The authors state that they used outputs from a previous method (MAA) to generate their dataset. They mention that the dataset consists of C++ files from the **2017 Google Code Jam (GCJ)** programming competition, which is a crucial detail.
+
+In the **evaluation section**, they confirm that they used the same dataset from Quiring et al. [21], which consisted of C++ files from the GCJ competition. This reinforces the identification of the dataset.
+
+Now, I will check the **References section** to find the full citation for the datasets mentioned. The relevant citation for the Google Code Jam dataset is:
+
+- For the **Google Code Jam** dataset, the citation is:
+  > Google Code Jam. Online (2023).
+
+Additionally, I will also note the reference to the MAA method, which is cited as:
+  > Quiring, E., Maier, A., Rieck, K. *Misleading authorship attribution of source code using adversarial learning*. In: 28th USENIX Security Symposium (USENIX Security 19). pp. 479–496 (2019).
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing. Each dataset will be clearly documented with its citation to ensure proper attribution.

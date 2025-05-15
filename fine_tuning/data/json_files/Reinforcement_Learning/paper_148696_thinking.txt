@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "How Does Weight Sharing Help in Neural Architecture Search?" by Yuge Zhang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the research, and the introduction often outlines the context and significance of the datasets used.
+
+In the **introduction**, the authors mention conducting a comprehensive analysis on five search spaces, which suggests that datasets are involved. I will look for specific names of datasets or references to them in this section.
+
+Next, I will focus on the **methodology section**, particularly the part that discusses the search spaces. The authors describe five specific search spaces used in their experiments:
+
+1. **NAS-Bench-101**: This dataset is referenced as a sub-search space designed for reproducible neural architecture search. The authors mention that it includes 95,985 different cells, which indicates the scale of the dataset.
+
+2. **NAS-Bench-201**: This dataset is described as having 15,625 architectures, with a specific focus on the architecture's performance across three datasets, although they only use CIFAR-100 for their experiments.
+
+3. **DARTS-CIFAR10**: This dataset is used in the context of differentiable architecture search and is based on the CIFAR-10 dataset.
+
+4. **ProxylessNAS**: This dataset is mentioned in relation to mobile settings and is filtered based on FLOPs, indicating a specific focus on efficiency in architecture search.
+
+5. **DARTS-PTB**: This dataset is used for language modeling and is based on the Penn Treebank dataset.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For **NAS-Bench-101**, the citation is:
+  > Ying, C., Klein, A., Christiansen, E., Real, E., Murphy, K., & Hutter, F. (2019). *NAS-Bench-101: Towards reproducible neural architecture search*. In Proceedings of the 36th International Conference on Machine Learning (ICML), 97, 7105-7114.
+
+- For **NAS-Bench-201**, the citation is:
+  > Dong, X., & Yang, Y. (2020). *NAS-Bench-201: Extending the scope of reproducible neural architecture search*. In Proceedings of the 37th International Conference on Machine Learning (ICML).
+
+- For **DARTS-CIFAR10**, the citation is:
+  > Liu, H., Simonyan, K., & Yang, Y. (2019). *DARTS: Differentiable architecture search*. In International Conference on Learning Representations (ICLR).
+
+- For **ProxylessNAS**, the citation is:
+  > Cai, H., Zhu, L., & Han, S. (2019). *ProxylessNAS: Direct neural architecture search on target task and hardware*. In International Conference on Learning Representations (ICLR).
+
+- For **DARTS-PTB**, the citation is:
+  > Liu, H., Simonyan, K., & Yang, Y. (2019). *DARTS: Differentiable architecture search*. In International Conference on Learning Representations (ICLR).
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or processing. This ensures that I have accurately captured the datasets and their relevant citations from the paper.

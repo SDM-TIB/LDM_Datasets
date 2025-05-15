@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Accurate real time localization tracking in a clinical environment using Bluetooth Low Energy and deep learning" by Zohaib Iqbal et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, materials and methods, and results sections** to find any references to datasets. The abstract mentions the use of deep learning methods for tracking patients and clinical staff using Bluetooth Low Energy (BLE) tags, which suggests that there may be a dataset involved.
+
+Next, I will focus on the **materials and methods section**, where the authors describe the data collection process. They mention that a total of ten BLE tags were used to gather data from twenty-one zones of interest, and that the data collected included RSSI values at each node. This indicates that there is a dataset related to the positional data of BLE tags.
+
+In the **data collection subsection**, the authors provide details about how the data was gathered, including the number of zones, the method of data collection, and the nature of the data (RSSI values). They also mention that the data was recorded at a rate of 10Hz for four minutes in each zone, which gives a clear understanding of the dataset's structure.
+
+The **data processing section** describes how the collected data was transformed into a format suitable for analysis, specifically mentioning the creation of grayscale images from the RSSI data. This indicates that the dataset not only consists of raw RSSI values but also processed images that were used for training the neural networks.
+
+The authors also provide a **Data Availability Statement**, which states that all images used for the research are uploaded to a GitHub repository. This is crucial as it provides a direct link to the dataset, allowing for easy access and verification.
+
+Now, I will compile the information to create a comprehensive list of datasets along with their full citations:
+
+1. **BLE Tracking Dataset**: This dataset includes the RSSI values collected from BLE tags in various zones of a radiation oncology clinic. The data is available in a GitHub repository.
+   - Citation: Iqbal Z, Luo D, Henry P, Kazemifar S, Rozario T, Yan Y, et al. (2018) Accurate real time localization tracking in a clinical environment using Bluetooth Low Energy and deep learning. PLoS ONE 13(10): e0205392. https://doi.org/10.1371/journal.pone.0205392
+
+With this information, I will ensure that the dataset entries are accurately documented and ready for any further processing or review.

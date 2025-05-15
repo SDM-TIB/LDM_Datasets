@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "BlackMamba: Mixture of Experts for State-Space Models" by Quentin Anthony et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any references to datasets. The abstract mentions that the authors trained their models on "300B tokens of a custom dataset," which indicates that datasets are involved, but I need to find specific names and details.
+
+Next, I will focus on **section V (Design)**, where the authors describe the dataset used for training BlackMamba. Here, they mention that they constructed a custom dataset comprised of a mixture of existing open-source datasets. The specific datasets listed are:
+
+1. **The Pile**: This dataset contains 800GB of diverse text for language modeling.
+2. **SlimPajama**: A cleaned and deduplicated version of RedPajama, containing 627 billion tokens.
+3. **Starcoder**: A dataset aimed at code generation, containing a significant amount of programming-related text.
+4. **PeS2o**: A dataset for pretraining efficiently on S2ORC, which is a large-scale dataset for scientific papers.
+5. **ProofPile**: A dataset focused on mathematical proofs and reasoning.
+6. **PG19**: A dataset containing a variety of text sources.
+
+The authors provide a table (Table I) that details the weights assigned to each dataset in the training mixture, which confirms their usage in the training process.
+
+Now, I will check the **References section** to gather full citations for each of these datasets:
+
+- For **The Pile**, the citation is:
+  > Gao, L., Biderman, S., Black, S., Golding, L., Hoppe, T., Foster, C., Phang, J., He, H., Thite, A., Nabeshima, N., et al. (2020). *The pile: An 800GB dataset of diverse text for language modeling*. arXiv preprint arXiv:2101.00027.
+
+- For **SlimPajama**, the citation is:
+  > Soboleva, D., Al-Khateeb, F., Myers, R., Steeves, J., Hestness, J., & Dey, N. (2023). *SlimPajama: A 627B token cleaned and deduplicated version of RedPajama*. Available: https://www.cerebras.net/blog/slimpajama-a-627b-token-cleaned-and-deduplicated-version-of-redpajama.
+
+- For **Starcoder**, the citation is:
+  > Li, R., Allal, L. B., Zi, Y., Muennighoff, N., Kocetkov, D., Mou, C., Marone, M., Akiki, C., Li, J., Chim, J., et al. (2023). *Starcoder: May the source be with you!*. arXiv preprint arXiv:2305.06161.
+
+- For **PeS2o**, the citation is:
+  > Soldaini, L., & Lo, K. (2023). *PeS2o (Pretraining Efficiently on S2ORC) Dataset*. Allen Institute for AI, Tech. Rep. Available: https://github.com/allenai/pes2o.
+
+- For **ProofPile**, the citation is:
+  > Azerbayev, Z., Schoelkopf, H., Paster, K., Santos, M. D., McAleer, S., Anthony, Q., Deng, J., Biderman, S., & Welleck, S. (2023). *Llemma: An open language model for mathematics*. arXiv preprint arXiv:2310.10631.
+
+- For **PG19**, the citation is:
+  > Rae, J. W., Potapenko, A., Jayakumar, S. M., & Lillicrap, T. P. (2019). *Compressive transformers for long-range sequence modelling*. Available: https://arxiv.org/abs/1910.10683.
+
+After gathering all the necessary information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

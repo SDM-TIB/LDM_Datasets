@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Scaling Autoregressive Models for Content-Rich Text-to-Image Generation" by Jiahui Yu et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will start by reviewing the **abstract and introduction** sections. The abstract mentions that the authors evaluate their model on the **MS-COCO** dataset and introduces the **Localized Narratives** dataset, which indicates that these datasets are significant for their research.
+
+Next, I will look into the **training and evaluation datasets** section (Section 4). Here, the authors explicitly list the datasets used for training and evaluation. They mention:
+
+1. **MS-COCO (2014)**: This dataset is described as a standard benchmark for measuring text-to-image generation performance, containing 82,000 training images and 40,000 validation images. The average caption length is noted as 10.5 words.
+
+2. **Localized Narratives**: This dataset is a subset of MS-COCO, containing longer and more detailed descriptions of images. It includes 134,000 training images and 8,000 validation images, with an average caption length of 42.1 words.
+
+In the **training datasets** section, the authors also mention several other datasets used for training the model, including:
+
+- **LAION-400M**: A large dataset of image-text pairs.
+- **FIT400M**: A filtered subset of the ALIGN model's training data.
+- **JFT-4B**: A dataset with images and text annotation labels.
+
+Next, I will check the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and further exploration of the datasets.
+
+The citations I will extract include:
+
+- For **MS-COCO**:
+  > Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. *Microsoft COCO: Common Objects in Context*. In European Conference on Computer Vision, pages 740–755, 2014.
+
+- For **Localized Narratives**:
+  > Jordi Pont-Tuset, Jasper Uijlings, Soravit Changpinyo, Radu Soricut, and Vittorio Ferrari. *Connecting Vision and Language with Localized Narratives*. In ECCV, 2020.
+
+- For **LAION-400M**:
+  > Christoph Schuhmann, Richard Vencu, Romain Beaumont, Robert Kaczmarczyk, Clayton Mullis, Aarush Katta, Theo Coombes, Jenia Jitsev, and Aran Komatsuzaki. *LAION-400M: Open Dataset of CLIP-Filtered 400 Million Image-Text Pairs*. arXiv preprint arXiv:2111.02114, 2021.
+
+- For **JFT-4B**:
+  > Xiaohua Zhai, Alexander Kolesnikov, Neil Houlsby, and Lucas Beyer. *Scaling Vision Transformers*. 2021.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the dataset names, descriptions, and full citations for each dataset mentioned in the paper. This structured approach will ensure that I capture all relevant datasets accurately and comprehensively.

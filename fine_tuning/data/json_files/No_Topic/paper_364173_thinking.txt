@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Tensor4D: Efficient Neural 4D Decomposition for High-fidelity Dynamic Reconstruction and Rendering" by Ruizhi Shao et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors validate their method on both synthetic and real-world scenes, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** where the authors describe their evaluation setup. They mention building a sparse-view capture system with 6 forward-facing RGB cameras and capturing multiple sequences of various human motions. This indicates that they have created a dataset for their experiments.
+
+In the **experiments section**, they specify that they use four sequences for reconstruction and rendering, while two are reserved for quantitative evaluation. They also mention using three 360° multiview full body sequences captured with 12 evenly spaced cameras for qualitative evaluation. This gives me a clear indication of the datasets they utilized.
+
+Additionally, they refer to a synthetic dataset provided by D-NeRF, from which they select three scenes ("lego", "standup", and "jumpingjacks") for monocular evaluation. This is another dataset that needs to be documented.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned:
+
+1. For the **D-NeRF synthetic dataset**, the citation is:
+   > Albert Pumarola, Enric Corona, and Francesc Moreno-Noguer Gerard Pons-Moll. *D-nerf: Neural radiance fields for dynamic scenes*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 10318–10327, 2021.
+
+2. For the **Looking Glass 3D holographic display**, which is used in their capture system, the citation is:
+   > The Looking Glass Holographic Display. Available at: https://lookingglassfactory.com/.
+
+3. The specific sequences captured for their experiments are not individually cited in the references, but they are part of the dataset created by the authors.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research.

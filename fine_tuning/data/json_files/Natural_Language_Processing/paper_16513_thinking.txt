@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Unveiling the Implicit Toxicity in Large Language Models" by Jiaxin Wen et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract mentions experiments on five widely-adopted toxicity classifiers, which suggests that there may be datasets involved.
+
+Next, I will focus on the **introduction** section, where the authors discuss the challenges of detecting implicit toxicity in LLMs. They reference previous works and datasets, which may provide clues about the datasets used in their research.
+
+In the **methodology section**, I will look for any specific datasets that were used for training or evaluation. The authors mention using the **BAD dataset**, which is a crowdsourced dataset targeting toxic responses from chatbots. This is a key dataset that I need to document.
+
+Additionally, in the **experiments section**, the authors compare their results against several benchmark datasets. They mention:
+
+1. **Offensive Twitter**: An explicit toxic dataset collected from Twitter by matching overtly offensive keywords.
+2. **Latent Hatred**: A crowdsourced implicit toxic dataset collected from hate groups on Twitter.
+3. **TOXIGEN**: A machine-generated implicit toxic dataset collected through few-shot prompting on GPT-3.
+4. **BAD**: A crowdsourced conversation dataset targeting eliciting toxic responses from chatbots.
+
+Now, I will consult the **References section** to retrieve full citations for these datasets:
+
+- For **BAD dataset**, the citation is:
+  > Xu, K., et al. (2020). *BAD: A crowdsourcing conversation dataset targeting at eliciting toxic responses from chatbots*. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 4536–4545.
+
+- For **Offensive Twitter**, the citation is:
+  > Davidson, T., Warmsley, D., Macy, M. W., & Weber, I. (2017). *Automated hate speech detection and the problem of offensive language*. In Proceedings of the Eleventh International Conference on Web and Social Media, pages 512–515.
+
+- For **Latent Hatred**, the citation is:
+  > ElSherief, M., et al. (2021). *Latent hatred: A benchmark for understanding implicit hate speech*. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, pages 345–363.
+
+- For **TOXIGEN**, the citation is:
+  > Hartvigsen, G., et al. (2022). *Toxigen: A large-scale machine-generated dataset for adversarial and implicit hate speech detection*. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL), pages 3309–3326.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This structured approach will help ensure that all relevant datasets are accurately documented for future reference or analysis.

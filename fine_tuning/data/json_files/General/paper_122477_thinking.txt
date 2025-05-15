@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Tree-Based Representation and Generation of Natural and Mathematical Language" by Alexander Scarlatos and Andrew Lan, I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by examining the **abstract and introduction** sections. The abstract provides a brief overview of the research focus, and the introduction often outlines the context and significance of the work. In this case, the authors mention the use of datasets for training and evaluating their model, which indicates that datasets are likely discussed in detail later in the paper.
+
+Next, I will look for a dedicated **section on datasets** or **experimental setup**. In this paper, the authors describe their experimental setup in section 3, which includes details about the datasets used for training and evaluation. I will carefully read through this section to identify any datasets explicitly mentioned.
+
+Upon reviewing section 3, I find the following datasets:
+
+1. **EXEQ-300k Dataset**: This dataset is used for the task of math headline generation and contains pairs of user-authored questions and headlines from Mathematics Stack Exchange. The authors mention that it consists of 261,341 training samples, 14,564 validation samples, and 14,574 test samples.
+
+2. **OFEQ-10k Dataset**: This dataset is also used for math headline generation and consists of 10,301 training samples, 1,124 validation samples, and 1,123 test samples.
+
+3. **Math23K Dataset**: This dataset contains 23,162 math word problems originally in Chinese, which were translated to English for use in the research. It is used for the equation extraction task.
+
+4. **Cognitive Tutor Dataset**: This dataset is used for predicting student actions based on feedback while solving math problems. It consists of 8,298 unique problems and responses from 95 students.
+
+5. **Student Answer Scoring Dataset**: This dataset consists of 1,333 unique problems and 130,940 responses, each assigned a score from 1 to 5. It is used to evaluate the model's ability to score student solutions to open-ended math problems.
+
+Next, I will check the **References section** to find full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For the **EXEQ-300k Dataset**, the citation is:
+  > Yuan, K., He, D., Jiang, Z., Gao, L., Tang, Z., & Giles, C. L. (2020). Automatic generation of headlines for online math questions. In Proceedings of the AAAI Conference on Artificial Intelligence, 34, 9490-9497.
+
+- For the **OFEQ-10k Dataset**, the citation is:
+  > Yuan, K., He, D., Jiang, Z., Gao, L., Tang, Z., & Giles, C. L. (2020). Automatic generation of headlines for online math questions. In Proceedings of the AAAI Conference on Artificial Intelligence, 34, 9490-9497.
+
+- For the **Math23K Dataset**, the citation is:
+  > Wang, Y., Liu, X., & Shi, S. (2017). Deep neural solver for math word problems. In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, 845-854.
+
+- For the **Cognitive Tutor Dataset**, the citation is:
+  > Erickson, J. D., Botelho, A. F., McAteer, S., Varatharaj, A., & Heffernan, N. T. (2020). The automated grading of student open responses in mathematics. In Proceedings of the Tenth International Conference on Learning Analytics & Knowledge, 615-624.
+
+- For the **Student Answer Scoring Dataset**, the citation is:
+  > Zhang, M., Baral, S., Heffernan, N., & Lan, A. (2022). Automatic short math answer grading via in-context meta-learning. arXiv preprint arXiv:2205.15219.
+
+Finally, I will compile the dataset entries with their respective citations into a structured format for further processing or review.

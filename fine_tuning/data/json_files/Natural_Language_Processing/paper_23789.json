@@ -1,0 +1,95 @@
+[
+    {
+        "dcterms:creator": [
+            "H.-K. Shin",
+            "H. Han",
+            "D. Kim",
+            "S.-W. Chung",
+            "H.-G. Kang"
+        ],
+        "dcterms:description": "LibriPhrase is constructed from the LibriSpeech dataset, specifically using train-clean-100/360 for training and train-others-500 for testing. The test dataset is divided into LibriPhrase Easy (LE) and LibriPhrase Hard (LH) subsets, with evaluation metrics including Equal Error Rate (EER) and Area Under the ROC Curve (AUC).",
+        "dcterms:title": "LibriPhrase",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Speech Recognition",
+            "Keyword Spotting"
+        ],
+        "dcat:keyword": [
+            "LibriSpeech",
+            "keyword spotting",
+            "speech recognition",
+            "EER",
+            "AUC"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Keyword Spotting"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "B. Zhang",
+            "H. Lv",
+            "P. Guo",
+            "Q. Shao",
+            "C. Yang",
+            "L. Xie",
+            "X. Xu",
+            "H. Bu",
+            "X. Chen",
+            "C. Zeng"
+        ],
+        "dcterms:description": "WenetPhrase is introduced to evaluate MM-KWS for Mandarin, constructed from approximately 1000 hours of Wenet-Speech M/S data. It includes speech segments with durations ranging from 0.5 to 2 seconds and containing between 2 and 6 words, yielding approximately 122 K training classes and 54 K test classes, with evaluation metrics including EER and AUC.",
+        "dcterms:title": "WenetPhrase",
+        "dcterms:issued": "2022",
+        "dcterms:language": "Mandarin",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Speech Recognition",
+            "Keyword Spotting"
+        ],
+        "dcat:keyword": [
+            "Mandarin",
+            "keyword spotting",
+            "speech recognition",
+            "EER",
+            "AUC"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Keyword Spotting"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "P. Warden"
+        ],
+        "dcterms:description": "The Speech Commands dataset (SPC) is utilized to assess the zero-shot performance of MM-KWS in multi-classification tasks, focusing on limited-vocabulary speech recognition.",
+        "dcterms:title": "Speech Commands dataset (SPC)",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1804.03209",
+        "dcat:theme": [
+            "Speech Recognition",
+            "Keyword Spotting"
+        ],
+        "dcat:keyword": [
+            "limited vocabulary",
+            "speech recognition",
+            "multi-classification",
+            "zero-shot learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Keyword Spotting"
+        ]
+    }
+]

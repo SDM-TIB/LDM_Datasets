@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "DIFFUSIONSAT: A GENERATIVE FOUNDATION MODEL FOR SATELLITE IMAGERY" by Samar Khanna et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and method sections** to identify any datasets mentioned. The abstract indicates that the authors present a generative model trained on publicly available satellite imagery datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 3 (Method)**, particularly **subsection 3.1 (Single Image Generation)**, where the authors discuss the datasets used for training their model. Here, they mention three datasets explicitly:
+
+1. **fMoW (Function Map of the World)**: This dataset consists of global, high-resolution MAXAR satellite images categorized into 62 classes. The authors note that they crop each image to 512x512 pixels and include metadata such as longitude, latitude, ground sampling distance (GSD), cloud cover, year, month, and day.
+
+2. **Satlas**: This dataset is described as a large-scale, multi-task dataset of NAIP and Sentinel-2 satellite images. The authors specify that they use the NAIP imagery in the Satlas-small subset, which is roughly the same size as fMoW, and they utilize the same metadata as in fMoW.
+
+3. **SpaceNet**: The authors refer to a collection of satellite image datasets for various tasks, including object detection and semantic segmentation. They specifically mention using subsets of SpaceNet datasets, namely SpaceNet v1, v2, and v5, with the same metadata as the previous datasets.
+
+In **section 4 (Experiments)**, the authors provide further context on how these datasets are used in their experiments, confirming their relevance and application in the study.
+
+Now, I will check the **References section** to find the full citations for each dataset:
+
+- For **fMoW**, the citation is:
+  > Gordon Christie, Neil Fendley, James Wilson, and Ryan Mukherjee. *Functional Map of the World*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018.
+
+- For **Satlas**, the citation is:
+  > Favyen Bastani, Piper Wolters, Ritwik Gupta, Joe Ferdinando, and Aniruddha Kembhavi. *Satlas: A Large-Scale, Multi-Task Dataset for Remote Sensing Image Understanding*. arXiv preprint arXiv:2211.15660, 2022.
+
+- For **SpaceNet**, the citation is:
+  > Adam Van Etten, Dave Lindenbaum, and Todd M Bacastow. *SpaceNet: A Remote Sensing Dataset and Challenge Series*. arXiv preprint arXiv:1807.01232, 2018.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each entry includes the dataset name, description, and full citation, ready for structured output or further processing.

@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "MaxUp: A Simple Way to Improve Generalization of Neural Network Training" by Chengyue Gong et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to see if any datasets are explicitly mentioned. The abstract discusses testing MaxUp on various tasks, including image classification and language modeling, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (Section 4), where the authors typically provide details about the datasets used for their evaluations. In this section, they mention testing MaxUp on three challenging tasks: image classification, language modeling, and adversarial certification. 
+
+1. **ImageNet Dataset**: The authors state that they evaluate MaxUp on the ILSVRC2012 subset of the ImageNet dataset, which contains around 1.3 million training images and 50,000 validation images. This is a well-known dataset in the field of computer vision.
+
+2. **CIFAR-10 and CIFAR-100 Datasets**: The authors also mention testing MaxUp on CIFAR-10 and CIFAR-100, which are standard datasets for image classification tasks. CIFAR-10 consists of 60,000 32x32 color images in 10 classes, while CIFAR-100 has the same number of images but divided into 100 classes.
+
+3. **Penn Treebank (PTB) Dataset**: For language modeling, the authors use the Penn Treebank dataset, which consists of 923k training, 73k validation, and 82k test words. This dataset is commonly used for benchmarking language models.
+
+4. **Wikitext-2 (WT2) Dataset**: The authors also mention using the Wikitext-2 dataset, which contains pre-processed Wikipedia articles and has a training set of 2 million words.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For **ImageNet**, the citation is:
+  > Deng, J., Dong, W., Socher, R., Li, L.-J., Li, K., and Fei-Fei, L. *ImageNet: A large-scale hierarchical image database*. In CVPR, pp. 248–255. IEEE, 2009.
+
+- For **CIFAR-10 and CIFAR-100**, the citation is:
+  > Krizhevsky, A. *Learning Multiple Layers of Features from Tiny Images*. Technical Report, 2009.
+
+- For **Penn Treebank**, the citation is:
+  > Marcus, M., Santorini, B., and Marcinkiewicz, M. A. *Building a large annotated corpus of English: The Penn Treebank*. 1993.
+
+- For **Wikitext-2**, the citation is:
+  > Merity, S., Keskar, N. S., and Socher, R. *Regularizing and Optimizing LSTM Language Models*. ICLR, 2018.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

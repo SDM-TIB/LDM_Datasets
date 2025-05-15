@@ -1,0 +1,58 @@
+To extract datasets from the research paper titled "Semi-Supervised Contrastive Learning of Musical Representations" by Julien Guinot et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** of the paper. The abstract mentions the introduction of a method for leveraging labeled data in contrastive learning, which suggests that datasets are likely involved.
+
+Next, I will focus on **section 4.1 (Datasets)**, where the authors explicitly list the datasets used in their experiments. This section is crucial as it provides detailed information about each dataset, including their purpose and characteristics.
+
+The datasets mentioned in this section are:
+
+1. **Free Music Archive (FMA)**: Used as a self-supervised dataset, specifically the medium subset containing 25,000 clips of 30 seconds of audio.
+   
+2. **MagnaTagATune (MTAT)**: A labeled dataset used for automatic tagging, with a canonical 12:3:1 train-test-validation split.
+
+3. **MTG-Jamendo**: Another tagging dataset that includes various subsets based on genre, mood/theme, and instrument.
+
+4. **NSynth**: A dataset used for pitch and instrument classification of short audio snippets.
+
+5. **MedleyDB**: Utilized for instrument classification with longer audio clips.
+
+6. **Giantsteps**: A dataset for key classification, where the original dataset is used for training and the MTG-Giantsteps dataset for testing.
+
+7. **GTZAN**: A fault-filtered dataset used for genre classification.
+
+8. **VocalSet**: A dataset used for singer identification and technique classification.
+
+9. **EmoMusic**: Used for regressing Arousal (A) and Valence (V) as a downstream evaluation task.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. This is essential for proper attribution and to provide readers with the necessary information to locate the datasets.
+
+The full citations for the datasets are as follows:
+
+- **Free Music Archive (FMA)**:
+  > Defferrard, M., Benzi, K., Vandergheynst, P., & Bresson, X. (2017). *FMA: A dataset for music analysis*. In Proceedings of the International Society for Music Information Retrieval (ISMIR), pp. 316–323.
+
+- **MagnaTagATune (MTAT)**:
+  > Law, E., West, K., Mandel, M. I., Bay, M., & Downie, J. S. (2009). *Evaluation of algorithms using games: The case of music tagging*. In Proceedings of the International Society for Music Information Retrieval (ISMIR), pp. 387–392.
+
+- **MTG-Jamendo**:
+  > Bogdanov, D., Won, M., Tovstogan, P., et al. (2019). *The MTG-Jamendo dataset for automatic music tagging*. In Machine Learning for Music Discovery Workshop, International Conference on Machine Learning (ICML).
+
+- **NSynth**:
+  > Engel, J., Resnick, C., Roberts, A., Dieleman, S., Norouzi, M., Eck, D., & Simonyan, K. (2017). *Neural audio synthesis of musical notes with Wavenet autoencoders*. In International Conference on Machine Learning. PMLR, pp. 1068–1077.
+
+- **MedleyDB**:
+  > Bittner, R. M., Salamon, J., Tierney, M., Mauch, M., Cannam, C., & Bello, J. P. (2014). *MedleyDB: A multi-track dataset for annotation-intensive MIR research*. In Proceedings of the International Society for Music Information Retrieval (ISMIR), pp. 155–160.
+
+- **Giantsteps**:
+  > Knees, P., Faraldo Pérez, Á., Boyer, H., Vogl, R., Böck, S., Hörschläger, F., Le Goff, M., et al. (2015). *Two data sets for tempo estimation and key detection in electronic dance music annotated from user corrections*. In Proceedings of the International Society for Music Information Retrieval (ISMIR), pp. 364–370.
+
+- **GTZAN**:
+  > Tzanetakis, G., & Cook, P. (2002). *Musical genre classification of audio signals*. IEEE Transactions on Speech and Audio Processing, 10(5), 293–302.
+
+- **VocalSet**:
+  > Wilkins, J., Seetharaman, P., Wahl, A., & Pardo, B. (2018). *VocalSet: A singing voice dataset*. In Proceedings of the International Society for Music Information Retrieval (ISMIR), pp. 468–474.
+
+- **EmoMusic**:
+  > Soleymani, M., Caro, M. N., Schmidt, E. M., Sha, C.-Y., & Yang, Y.-H. (2013). *1000 songs for emotional analysis of music*. In Proceedings of the 2nd ACM International Workshop on Crowdsourcing for Multimedia, pp. 1–6.
+
+Now that I have gathered all the necessary information about the datasets and their citations, I will compile this into a structured format for further processing or review.

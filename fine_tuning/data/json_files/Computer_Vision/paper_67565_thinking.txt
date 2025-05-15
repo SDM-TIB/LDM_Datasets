@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Uncertainty-aware Surrogate Models for Airfoil Flow Simulations with Denoising Diffusion Probabilistic Models" by Qiang Liu and Nils Thuerey, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the study involves simulations of flows around airfoils, which suggests that there may be datasets related to these simulations.
+
+Next, I will focus on the **data generation and preprocessing section** (Section II), where the authors describe the dataset used for their experiments. Here, they mention that they generated 5000 two-dimensional simulation cases using 1417 different airfoils from the UIUC database. This is a clear indication of a dataset.
+
+The authors specify that the training dataset includes various Reynolds numbers (Re) and angles of attack (α), and they also mention a test dataset generated from 30 airfoils not used in training. This section provides crucial details about the datasets, including their size and the parameters involved.
+
+Now, I will look for the **References section** to find full citations for the datasets mentioned. The paper references the UIUC Airfoil Coordinates Database, which is essential for understanding the source of the airfoil data used in the simulations.
+
+The citation for the UIUC Airfoil Coordinates Database is:
+> Group, U. A. A. "UIUC Airfoil Coordinates Database." Available at: https://m-selig.ae.illinois.edu/ads/coord_database.html, 2023.
+
+Additionally, the paper mentions that the simulations were performed using the open-source code OpenFOAM, which is relevant for understanding the computational framework used for the dataset generation.
+
+After gathering all this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. The datasets identified are:
+
+1. **Training Dataset**: 5000 two-dimensional simulation cases generated from 1417 different airfoils.
+2. **Test Dataset**: 130 simulation cases generated from 30 airfoils not used in the training dataset.
+
+Finally, I will prepare the dataset entries for structured output, ensuring that each entry includes the necessary details and citations.

@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Coursera Corpus Mining and Multistage Fine-Tuning for Improving Lectures Translation" by Haiyue Song et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors created a parallel corpus of approximately 40,000 lines for Japanese-English lectures translation, which suggests that a dataset is involved.
+
+Next, I will focus on the **introduction** where the authors discuss the challenges of translating lectures and the need for high-quality machine translation systems. They mention the extraction of parallel data from Coursera lectures, which is a strong indication of a dataset being utilized.
+
+In the **methodology section**, particularly in **section 4 (Creating Japanese–English Dataset)**, the authors detail the process of extracting parallel sentences and mention the creation of training, development, and test sets. They specify that they created:
+
+1. **Training Set**: Approximately 40,000 lines of parallel sentences extracted from Coursera.
+2. **Development Set**: 500 sentences created through manual filtering.
+3. **Test Set**: 2,000 sentences also created through manual filtering.
+
+The authors also mention that the data is publicly available for benchmarking translation performance, which is crucial for reproducibility.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The paper refers to the following datasets:
+
+- **ASPEC Dataset**: 
+  > Nakazawa, T., Yaguchi, M., Uchimoto, K., Utiyama, M., Sumita, E., Kurohashi, S., and Isahara, H. (2016). ASPEC: Asian Scientific Paper Excerpt Corpus. In Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC), pages 2204–2208, Portorož, Slovenia, May. European Language Resources Association.
+
+- **TED Dataset**: 
+  > Cettolo, M., Girardi, C., and Federico, M. (2012). Wit3: Web Inventory of Transcribed and Translated Talks. In Proceedings of the 16th Conference of European Association for Machine Translation, pages 261–268, Trento, Italy, May. European Association for Machine Translation.
+
+- **Coursera Dataset**: The authors mention that they compiled a dataset from Coursera lectures, but they do not provide a formal citation for it. However, they indicate that the data will be made publicly available.
+
+After gathering this information, I will summarize the datasets in a structured format, ensuring that each dataset is clearly identified with its full citation for proper attribution. This will include the training, development, and test sets derived from the Coursera lectures, along with the ASPEC and TED datasets used in their experiments.

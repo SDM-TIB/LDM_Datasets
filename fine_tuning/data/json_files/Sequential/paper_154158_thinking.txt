@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Span-based Semantic Parsing for Compositional Generalization" by Jonathan Herzig and Jonathan Berant, I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions evaluating the proposed model on three datasets, which indicates that datasets are indeed present.
+
+Next, I will focus on the **experiments section**, specifically **section 4.1 (Datasets)**, where the authors explicitly list the datasets used for evaluation. Here, I will find the following datasets:
+
+1. **SCAN-SP**: This dataset is derived from the SCAN dataset, which contains natural language navigation commands mapped to action sequences. The authors mention that SCAN lacks programs, and they automatically translate the input to programs to create the semantic parsing version, SCAN-SP.
+
+2. **CLEVR**: This dataset contains synthetic questions created using 80 templates over synthetic images with multiple objects of different shapes, colors, materials, and sizes. The authors specify that they use the semantic parsing version of this dataset.
+
+3. **GEOQUERY**: This dataset contains 880 questions about US geography, using the FunQL formalism. The authors describe different splits for this dataset, including IID, TEMPLATE, and LENGTH.
+
+In the **experiments section**, the authors provide additional details about the splits and the number of examples for each dataset, which is crucial for understanding the context in which these datasets are used.
+
+Now, I will consult the **References section** to retrieve full citations for each dataset:
+
+- For **SCAN**, the citation is:
+  > Lake, B. M., & Baroni, M. (2018). SCAN: Compositional generalization through meta-sequence-to-sequence learning. In Advances in Neural Information Processing Systems (NeurIPS).
+
+- For **CLEVR**, the citation is:
+  > Johnson, J., Hariharan, B., van der Maaten, L., Fei-Fei, L., Zitnick, C. L., & Girshick, R. (2017). CLEVR: A diagnostic dataset for compositional language and elementary visual reasoning. In CVPR.
+
+- For **GEOQUERY**, the citation is:
+  > Zelle, J., & Mooney, R. J. (1996). Learning to parse database queries using inductive logic programming. In Proceedings of the National Conference on Artificial Intelligence (AAAI).
+
+After gathering this information, I will compile the dataset entries, ensuring that each entry includes the dataset name, a brief description, and the full citation. This structured approach will ensure that I accurately capture all relevant datasets and their citations from the paper.

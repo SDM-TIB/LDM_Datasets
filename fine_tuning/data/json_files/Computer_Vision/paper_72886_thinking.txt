@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Direct Learning of Mesh and Appearance via 3D Gaussian Splatting" by Ancheng Lin and Jun Li, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the study, and the introduction typically outlines the context and significance of the research, which may include references to datasets.
+
+In the **introduction**, the authors discuss the challenges of geometry reconstruction and mention the use of 3D Gaussian Splatting (3DGS) but do not explicitly name any datasets. Therefore, I will proceed to the **experiments section** where datasets are usually detailed.
+
+In **section 5 (Experiments)**, the authors mention two datasets used for evaluation:
+
+1. **NeRF-Synthetic Dataset**: This dataset includes 8 scenes with 360° viewpoint settings of images. It is used for testing novel view synthesis and quantitative evaluations of reconstructed surfaces.
+
+2. **Mip-NeRF360 Dataset**: This dataset consists of 9 real-world scenes, but the authors exclude two scenes due to licensing restrictions. It is used for evaluating the adaptability of the method to scene updates.
+
+Next, I will check the **References section** to find the full citations for these datasets:
+
+- For the **NeRF-Synthetic Dataset**, the citation is:
+  > Mildenhall, B., Srinivasan, P.P., Tancik, M., Barron, J.T., Ramamoorthi, R., Ng, R. *NeRF: Representing scenes as neural radiance fields for view synthesis*. In: Computer Vision - ECCV 2020 - 16th European Conference, Glasgow, UK, August 23-28, 2020, Proceedings, Part I. Lecture Notes in Computer Science, vol. 12346, pp. 405–421. Springer (2020).
+
+- For the **Mip-NeRF360 Dataset**, the citation is:
+  > Barron, J.T., Mildenhall, B., Verbin, D., Srinivasan, P.P., Hedman, P. *Mip-nerf 360: Unbounded anti-aliased neural radiance fields*. In: IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2022, New Orleans, LA, USA, June 18-24, 2022. pp. 5460–5469. IEEE (2022).
+
+Now that I have identified the datasets and their citations, I will summarize the findings:
+
+1. **NeRF-Synthetic Dataset**: Used for novel view synthesis and surface reconstruction evaluations.
+   - Citation: Mildenhall, B., Srinivasan, P.P., Tancik, M., Barron, J.T., Ramamoorthi, R., Ng, R. *NeRF: Representing scenes as neural radiance fields for view synthesis*. In: Computer Vision - ECCV 2020 - 16th European Conference, Glasgow, UK, August 23-28, 2020, Proceedings, Part I. Lecture Notes in Computer Science, vol. 12346, pp. 405–421. Springer (2020).
+
+2. **Mip-NeRF360 Dataset**: Used for evaluating the adaptability of the method to scene updates.
+   - Citation: Barron, J.T., Mildenhall, B., Verbin, D., Srinivasan, P.P., Hedman, P. *Mip-nerf 360: Unbounded anti-aliased neural radiance fields*. In: IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2022, New Orleans, LA, USA, June 18-24, 2022. pp. 5460–5469. IEEE (2022).
+
+Finally, I will compile the dataset entries into a structured format for further processing.

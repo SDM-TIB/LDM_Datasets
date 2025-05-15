@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Solving the Tree Containment Problem Using Graph Neural Networks" by Arkadiy Dushatskiy et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reading through the **abstract** and **introduction** sections. The abstract provides a brief overview of the problem being addressed and mentions the use of datasets for training and testing their proposed method. The introduction will likely elaborate on the context and significance of the datasets used.
+
+Next, I will focus on the **experiments section**, specifically **section 5 (Experiments)**, where the authors describe the datasets in detail. Here, they mention two types of datasets: **synthetic data** and **real-world data**. 
+
+1. **Synthetic Data**: The authors explain that this data is generated using a Lateral Gene Transfer (LGT) generator and includes network-tree pairs with labels indicating tree containment. They specify the number of training samples, validation samples, and test samples, which are 10,000, 1,000, and 1,000, respectively. This dataset is crucial for evaluating their model's performance.
+
+2. **Real-World Data**: The authors refer to a dataset of gene trees from bacterial and archaeal genomes, proposed in Beiko (2011) and binarized in van Iersel et al. (2022). They explain how they construct networks from these trees and perform tail moves to create negative examples. The real-world dataset is limited to instances with a maximum of 50 leaves and 5 input trees.
+
+After identifying the datasets, I will check the **References section** for full citations. The citations I need to extract are:
+
+- For the synthetic data generation method, the relevant citation is:
+  > Joan Carles Pons, Celine Scornavacca, and Gabriel Cardona. *Generation of level-k LGT networks*. IEEE/ACM Transactions on Computational Biology and Bioinformatics, 17(1):158–164, 2019.
+
+- For the real-world dataset, the citation is:
+  > Robert G Beiko. *Telling the whole story in a 10,000-genome world*. Biology Direct, 6:1–36, 2011.
+  > Leo van Iersel, Remie Janssen, Mark Jones, Yukihiro Murakami, and Norbert Zeh. *A practical fixed-parameter algorithm for constructing tree-child networks from multiple binary trees*. Algorithmica, 84(4):917–960, 2022.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or analysis. This process ensures that I have accurately captured the datasets and their sources as presented in the research paper.

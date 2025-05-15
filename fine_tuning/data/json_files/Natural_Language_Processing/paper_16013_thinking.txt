@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "MAP’s not dead yet: Uncovering true language model modes by conditioning away degeneracy" by Davis Yoshida et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract discusses empirical verification of MAP decoding and mentions "exact modal sequences from these models," which suggests that datasets may be involved in the experiments.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for their evaluations. In this paper, the authors mention using various models and datasets, including:
+
+1. **WMT’17 Zh-En newsdev dataset**: This dataset is used for machine translation experiments. The authors state that they used source sentences from this dataset as inputs for their models.
+
+2. **databricks-dolly-15k dataset**: This dataset is mentioned in the context of instruction-following experiments with the LLaMA model. The authors filtered this dataset to include instructions that are less than 256 tokens long.
+
+3. **ROC Stories dataset**: This dataset is used for finetuning the GPT-2 model, which is mentioned in the context of story completion experiments.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **WMT’17 Zh-En newsdev dataset**, the citation is:
+  > Ondřej Bojar, Yvette Graham, and Amir Kamran. *Results of the WMT17 metrics shared task*. In Proceedings of the Second Conference on Machine Translation, pages 489–513, Copenhagen, Denmark, 2017.
+
+- For the **databricks-dolly-15k dataset**, the citation is:
+  > Mike Conover, Matt Hayes, Ankit Mathur, Jianwei Xie, Jun Wan, Sam Shah, Ali Ghodsi, Patrick Wendell, Matei Zaharia, and Reynold Xin. *Free dolly: Introducing the world’s first truly open instruction-tuned llm*. 2023.
+
+- For the **ROC Stories dataset**, the citation is:
+  > Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, and James Allen. *A corpus and cloze evaluation for deeper understanding of commonsense stories*. In Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 839–849, 2016.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This will provide a comprehensive overview of the datasets used in the research paper.

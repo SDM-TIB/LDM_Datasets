@@ -1,0 +1,205 @@
+[
+    {
+        "dcterms:creator": [
+            "A. K. McCallum",
+            "K. Nigam",
+            "J. Rennie",
+            "K. Seymore"
+        ],
+        "dcterms:description": "A scientific paper citation network dataset consisting of 2708 publications classified into one of seven classes. The citation network consists of 5429 links; each publication is represented by a vector of 0/1-valued indicating the absence/presence of the 1433 words in a corpus.",
+        "dcterms:title": "Cora",
+        "dcterms:issued": "2000",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Networks",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Scientific publications",
+            "Citation network",
+            "Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "P. Sen",
+            "G. Namata",
+            "M. Bilgic",
+            "L. Getoor",
+            "B. Galligher",
+            "T. Eliassi-Rad"
+        ],
+        "dcterms:description": "A scientific publications network consisting of 3312 publications, each classified into one of 6 classes. Each publication is represented by a vector of 0/1 values indicating the absence or presence of the corresponding word from a dictionary of 3703 unique words.",
+        "dcterms:title": "CiteSeer",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Networks",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Scientific publications",
+            "Citation network",
+            "Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "G. Namata",
+            "B. London",
+            "L. Getoor",
+            "B. Huang",
+            "U. Edu"
+        ],
+        "dcterms:description": "The PubMed dataset consists of 19717 scientific publications related to diabetes, classified into one of 3 classes. The network has 44338 links, and each publication is represented by a TF/IDF weighted word vector from a dictionary consisting of 500 unique words.",
+        "dcterms:title": "PubMed",
+        "dcterms:issued": "2012",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical Publications",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Scientific publications",
+            "Diabetes",
+            "Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "O. Shchur",
+            "M. Mumme",
+            "A. Bojchevski",
+            "S. Günnemann"
+        ],
+        "dcterms:description": "The CoauthorCS dataset is a co-authorship graph of authors with publications related to the field of computer science. The dataset consists of 18333 nodes and 163788 edges, with each node classified into one of 15 classes and represented by a vector of size 6805 indicating the paper keywords for each author's papers.",
+        "dcterms:title": "CoauthorCS",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Co-authorship Networks",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Co-authorship",
+            "Computer Science",
+            "Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. McAuley",
+            "C. Targett",
+            "Q. Shi",
+            "A. Van Den Hengel"
+        ],
+        "dcterms:description": "The Computers dataset is a segment of the Amazon co-purchase graph. Each node is classified into one of 10 classes and represented as a product. If two products are often bought together, an edge will be established. The dataset consists of a total of 13752 products and 491722 relations between two products.",
+        "dcterms:title": "Computers",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "E-commerce",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Products",
+            "Co-purchase",
+            "Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. McAuley",
+            "C. Targett",
+            "Q. Shi",
+            "A. Van Den Hengel"
+        ],
+        "dcterms:description": "The Photo dataset is another segment of the Amazon co-purchase graph, with properties of nodes and edges exactly the same as Computers. The dataset consists of 7650 nodes and 238163 edges, with each node classified into one of eight classes.",
+        "dcterms:title": "Photo",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "E-commerce",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Products",
+            "Co-purchase",
+            "Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Hu",
+            "M. Fey",
+            "M. Zitnik",
+            "Y. Dong",
+            "H. Ren",
+            "B. Liu",
+            "M. Catasta",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "The OGBN-arxiv dataset consists of 169,343 nodes and 1,166,243 directed edges. Each node is an arXiv paper represented by a 128-dimensional feature vector, and each directed edge indicates the citation direction. This dataset is used for node property prediction and has been a popular benchmark to test the advantage of deep graph neural networks over shallow graph neural networks.",
+        "dcterms:title": "OGBN-arxiv",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Networks",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Scientific publications",
+            "Citation direction",
+            "Node property prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    }
+]

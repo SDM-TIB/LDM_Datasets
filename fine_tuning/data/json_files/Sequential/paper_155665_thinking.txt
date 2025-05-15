@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Removal of Ocular Artifacts in EEG Using Deep Learning" by Mehmet Akif Ozdemir et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the authors created a benchmarking dataset by combining existing datasets, which suggests that there are specific datasets to look for.
+
+Next, I will focus on the **Materials and Methods** section, particularly the **Dataset** subsection, where the authors explicitly describe the datasets used in their study. Here, they mention two datasets:
+
+1. **EEGdenoiseNet**: This dataset consists of 4,514 clean EEG segments, 3,400 ocular artifact segments, and 5,598 muscle artifact segments. It is derived from publicly available data sources for use in deep learning models.
+
+2. **DEAP**: This dataset includes EEG recordings from 32 subjects while they watched 40 music videos. It contains 1,650 clean EEG segments and 1,600 EOG segments, which were used to augment the EEGdenoiseNet dataset.
+
+The authors also mention that they generated semi-synthetic EEG segments at various SNR levels, but this does not constitute a separate dataset; rather, it is a method of data augmentation.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **EEGdenoiseNet**, the citation is:
+  > H. Zhang, M. Zhao, C. Wei, D. Mantini, Z. Li, and Q. Liu. "EEGdenoiseNet: A benchmark dataset for deep learning solutions of EEG denoising." *Journal of Neural Engineering*, vol. 18, no. 5, p. 056057, 2021.
+
+- For **DEAP**, the citation is:
+  > S. Koelstra, C. Muhl, M. Soleymani, J.-S. Lee, A. Yazdani, T. Ebrahimi, T. Pun, A. Nijholt, and I. Patras. "DEAP: A database for emotion analysis using physiological signals." *IEEE Transactions on Affective Computing*, vol. 3, no. 1, pp. 18–31, 2011.
+
+Having gathered all the necessary information, I will now prepare to compile the dataset entries, ensuring that each dataset is accurately described and properly cited in the final output.

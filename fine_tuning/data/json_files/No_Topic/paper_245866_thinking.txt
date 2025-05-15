@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "A Multi-modal Neural Embeddings Approach for Detecting Mobile Counterfeit Apps: A Case Study on Google Play Store" by Naveen Karunanayake et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to identify any datasets mentioned. The abstract indicates that the authors evaluated their method on two well-known datasets for image similarity methods, which suggests that specific datasets are involved.
+
+Next, I will focus on the **methodology section**, particularly the part where the authors describe their dataset collection process. They mention that they crawled the Google Play Store and collected data from over 1.2 million apps, which is a significant dataset. I will note the details about this dataset, including the number of apps and the types of data collected (metadata, app icons, APK files).
+
+In the **results section**, the authors discuss their findings related to the top-10,000 popular apps and the potential counterfeits identified. This section may also provide insights into the datasets used for evaluation.
+
+Now, I will look for specific datasets mentioned in the paper:
+
+1. **Google Play Store Dataset**: This dataset consists of over 1.2 million apps collected through a web crawler, including metadata, app icons, and APK files. The authors detail the collection process and the types of data gathered.
+
+2. **Labelled Set**: The authors created a labelled set of 3,539 apps from 806 groups, which were manually inspected for visual similarity. This dataset is crucial for evaluating the performance of their image similarity metrics.
+
+3. **Top-10,000 Popular Apps**: This dataset was established by sorting apps based on downloads, reviews, and ratings. It is used to investigate potential counterfeits.
+
+4. **UKBench Dataset**: This is a well-known dataset for benchmarking visual image retrieval tasks, containing 10,200 images from 2,550 groups.
+
+5. **Holidays Dataset**: Another standard dataset used for benchmarking visual image retrieval, containing 1,491 images from 500 groups.
+
+Next, I will gather the full citations for these datasets from the references section of the paper:
+
+- For the **Google Play Store Dataset**, since it is a collection made by the authors, I will note it as:
+  > Karunanayake, N., Rajasegaran, J., Gunathillake, A., Seneviratne, S., & Jourjon, G. (2020). A Multi-modal Neural Embeddings Approach for Detecting Mobile Counterfeit Apps: A Case Study on Google Play Store. *Transactions on Mobile Computing*.
+
+- For the **UKBench Dataset**, the citation is:
+  > Nister, D., & Stewenius, H. (2006). Scalable recognition with a vocabulary tree. In *IEEE Computer Society Conference on Computer Vision and Pattern Recognition* (pp. 1-8).
+
+- For the **Holidays Dataset**, the citation is:
+  > Jegou, H., Douze, M., & Schmid, C. (2008). Hamming embedding and weak geometric consistency for large scale image search. In *European Conference on Computer Vision* (pp. 304-317).
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

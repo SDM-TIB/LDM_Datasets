@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Unsupervised Dense Information Retrieval with Contrastive Learning" by Gautier Izacard et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the authors evaluate their unsupervised model on the **BEIR benchmark**, which suggests that multiple datasets are involved.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors explicitly discuss the datasets used for evaluation. In this section, they mention:
+
+1. **NaturalQuestions**: This dataset is used for open-domain question answering and is derived from the English Wikipedia dump. The authors specify that they use the open domain version introduced by Lee et al. (2019).
+
+2. **TriviaQA**: Another dataset for question answering, also using the open domain version as introduced by Lee et al. (2019).
+
+3. **BEIR benchmark**: This benchmark includes 18 retrieval datasets corresponding to various tasks, such as fact-checking and citation prediction. The authors note that most datasets in BEIR do not contain a training set, emphasizing the zero-shot retrieval focus.
+
+In addition, I will check the **References section** to find the full citations for these datasets:
+
+- For **NaturalQuestions**, the citation is:
+  > Kwiatkowski, T., Palomaki, J., Redfield, O., Collins, M., Parikh, A., Alberti, C., Epstein, D., Polosukhin, I., Lee, K., et al. (2019). *Natural Questions: A Benchmark for Question Answering Research*. Transactions of the Association for Computational Linguistics, 7, 453-466.
+
+- For **TriviaQA**, the citation is:
+  > Joshi, M., Choi, E., Weld, D. S., & Zettlemoyer, L. (2017). *TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension*. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (ACL), 2017.
+
+- For the **BEIR benchmark**, the citation is:
+  > Thakur, N., Reimers, N., Rücklé, A., Srivastava, A., & Gurevych, I. (2021). *BEIR: A Heterogeneous Benchmark for Zero-Shot Evaluation of Information Retrieval Models*. arXiv preprint arXiv:2104.08663.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

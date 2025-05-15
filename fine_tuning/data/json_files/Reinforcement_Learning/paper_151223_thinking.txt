@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "SMX: Sequential Monte Carlo Planning for Expert Iteration" by Matthew V. Macfarlane et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to look for any references to datasets. The abstract mentions the use of environments like Boxoban and Rubik's Cube, which suggests that datasets related to these environments may be included.
+
+Next, I will focus on **section A (Environments)**, where the authors provide detailed descriptions of the datasets used in their experiments. Here, I will find specific datasets mentioned, such as:
+
+1. **Boxoban Dataset**: The paper describes the dataset in Table 1, which includes various levels of difficulty and sizes for training, validation, and testing. The dataset sizes are:
+   - Unfiltered-Train: 900k
+   - Unfiltered-Validation: 100k
+   - Unfiltered-Test: 1k
+   - Medium: 450k
+   - Hard: 50k
+
+2. **Rubik’s Cube Dataset**: The authors mention that they utilize the implementation in Bonnet et al. (2023) and describe how the dataset is generated based on the number of random actions performed in a solution state.
+
+3. **Brax Dataset**: The paper refers to the Brax library for continuous control experiments, which is a differentiable physics engine for large-scale rigid body simulation.
+
+After identifying these datasets, I will check the **References section** for full citations related to the datasets. The citations for the datasets are as follows:
+
+- For the **Boxoban dataset**, the citation is:
+  > Guez, A., Mirza, M., Gregor, K., Kabra, R., Racaniere, S., Weber, T., Raposo, D., Santoro, A., Orseau, L., Eccles, T., Wayne, G., Silver, D., Lillicrap, T., and Valdes, V. *An investigation of model-free planning: boxoban levels*. https://github.com/deepmind/boxoban-levels/, 2018.
+
+- For the **Rubik’s Cube dataset**, the citation is:
+  > Bonnet, C., Luo, D., Byrne, D., Surana, S., Coyette, V., Duckworth, P., Midgley, L. I., Kalloniatis, T., Abramowitz, S., Waters, C. N., Smit, A. P., Grinsztajn, N., Sob, U. A. M., Mahjoub, O., Tegegn, E., Mimouni, M. A., Boige, R., de Kock, R., Furelos-Blanco, D., Le, V., Pretorius, A., and Laterre, A. *Jumanji: a diverse suite of scalable reinforcement learning environments in jax*. 2023. URL https://arxiv.org/abs/2306.09884.
+
+- For the **Brax library**, the citation is:
+  > Freeman, C. D., Frey, E., Raichuk, A., Girgin, S., Mordatch, I., and Bachem, O. *Brax - a differentiable physics engine for large scale rigid body simulation*. 2021. URL http://github.com/google/brax.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or analysis.

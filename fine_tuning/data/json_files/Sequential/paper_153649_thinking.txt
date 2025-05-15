@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Syntactically Look-Ahead Attention Network for Sentence Compression" by Hidetaka Kamigaito and Manabu Okumura, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract states that the authors evaluated their method on the **Google sentence compression dataset**, which is a clear indication that a dataset is involved.
+
+Next, I will look for specific details about the datasets in the **experiments section**. Here, the authors mention using the **Google sentence compression dataset** and the **Broadcast News Compression Corpus (BNC Corpus)**. I will note down the descriptions provided for each dataset.
+
+In the experiments section, the authors provide details about the **Google sentence compression dataset**, indicating that they used the first 1,000 sentences of `comp-data.eval.json` as the test set and the last 1,000 sentences as the development set. They also mention using all 200,000 sentences in `sent-comp.train*.json` for training.
+
+For the **BNC Corpus**, the authors describe it as containing spoken sentences and their summaries created by three annotators. They specify that they treated sentences longer than the average length as the test set.
+
+Now, I will consult the **References section** to find the full citations for these datasets:
+
+1. For the **Google sentence compression dataset**, the citation is:
+   > Filippova, K., and Altun, Y. (2013). Overcoming the lack of parallel data in sentence compression. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, 1481–1491.
+
+2. For the **BNC Corpus**, the citation is:
+   > Clarke, J., and Lapata, M. (2007). Modelling compression with discourse constraints. In Proceedings of the 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL), 1–11.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+- **Google sentence compression dataset**: A dataset used for evaluating sentence compression models, consisting of 200,000 training sentences, 1,000 development sentences, and 1,000 test sentences.
+- **BNC Corpus**: A dataset containing spoken sentences and their summaries, used for evaluating compression performance on long sentences.
+
+Finally, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all necessary information is accurately captured for future reference or processing.

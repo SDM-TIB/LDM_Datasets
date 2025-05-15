@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Improving Video Generation for Multi-functional Applications" by Bernhard Kratzwald et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the authors' model outperforms state-of-the-art video generative models on multiple challenging datasets, which indicates that datasets are indeed used.
+
+Next, I will focus on **section 5 (Experiments)**, where the authors explicitly discuss the datasets they utilized. In this section, they mention two datasets:
+
+1. **Stabilized Videos**: This dataset is composed of video clips filtered from the Yahoo Flickr Creative Commons Dataset, specifically focusing on scenes categorized as golf courses. The authors note that the videos were pre-processed to ensure a static background, which involved estimating homography between frames to minimize background motion.
+
+2. **Airplanes Dataset**: This dataset consists of unlabeled video clips collected from the YouTube-BoundingBoxes dataset, specifically filtered by the scene category of airplanes. The authors clarify that no pre-processing was applied to this dataset, allowing for a mix of static scenes and scenes with moving backgrounds or cameras.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Stabilized Videos**, the authors reference the original work by Vondrick et al. (2016):
+  > Vondrick, C., Pirsiavash, H., Torralba, A. *Generating videos with scene dynamics*. In: Advances In Neural Information Processing Systems. (2016) 613–621.
+
+- For the **YouTube-BoundingBoxes dataset**, the citation is:
+  > Real, E., Shlens, J., Mazzocchi, S., Pan, X., Vanhoucke, V. *Youtube-boundingboxes: A large high-precision human-annotated data set for object detection in video*. arXiv preprint arXiv:1702.00824 (2017).
+
+With these citations, I can now summarize the datasets:
+
+1. **Stabilized Videos**: A dataset composed of video clips filtered from the Yahoo Flickr Creative Commons Dataset, focusing on golf course scenes, with pre-processing to ensure static backgrounds.
+   - Citation: Vondrick, C., Pirsiavash, H., Torralba, A. *Generating videos with scene dynamics*. In: Advances In Neural Information Processing Systems. (2016) 613–621.
+
+2. **Airplanes Dataset**: A dataset of unlabeled video clips from the YouTube-BoundingBoxes dataset, filtered for airplane scenes without pre-processing.
+   - Citation: Real, E., Shlens, J., Mazzocchi, S., Pan, X., Vanhoucke, V. *Youtube-boundingboxes: A large high-precision human-annotated data set for object detection in video*. arXiv preprint arXiv:1702.00824 (2017).
+
+Finally, I will compile this information into a structured format for further use or analysis.

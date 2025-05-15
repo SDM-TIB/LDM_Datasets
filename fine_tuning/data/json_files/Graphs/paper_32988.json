@@ -1,0 +1,67 @@
+[
+    {
+        "dcterms:creator": [
+            "Kai Wang",
+            "Zhene Zou",
+            "Minghao Zhao",
+            "Qilin Deng",
+            "Yue Shang",
+            "Yile Liang",
+            "Runze Wu",
+            "Xudong Shen",
+            "Tangjie Lyu",
+            "Changjie Fan"
+        ],
+        "dcterms:description": "RetailRocket dataset is collected from a real-world e-commerce website, where sequential data of user’s behaviour of viewing and adding items to a shopping cart is recorded. For simplicity, views and adding to a cart are regarded as clicks and purchases. We remove the items which are interacted by the user less than 3 times. Sequences whose length is shorter than 3 are also removed. There are 1,176,680 clicks and 57,269 purchases over 70,852 items in the processed dataset.",
+        "dcterms:title": "RetailRocket",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset",
+        "dcat:theme": [
+            "E-commerce",
+            "Recommendation Systems"
+        ],
+        "dcat:keyword": [
+            "User behavior",
+            "Sequential data",
+            "Clicks",
+            "Purchases"
+        ],
+        "dcat:landingPage": "https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Sequential Recommendation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Minmin Chen",
+            "Alex Beutel",
+            "Paul Covington",
+            "Sagar Jain",
+            "Francois Belletti",
+            "Ed H. Chi"
+        ],
+        "dcterms:description": "Yoochoose dataset is from RecSys Challenge 2015. Each user-item interaction session consists of a sequence of user clicks or purchases. We remove sessions that are shorter than 3 items. We randomly sample from the 200k sessions to obtain a dataset containing 1,110,965 clicks and 43,946 purchases upon 26,702 items.",
+        "dcterms:title": "Yoochoose",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://recsys.acm.org/recsys15/challenge/",
+        "dcat:theme": [
+            "Recommendation Systems",
+            "User Interaction"
+        ],
+        "dcat:keyword": [
+            "User sessions",
+            "Clicks",
+            "Purchases"
+        ],
+        "dcat:landingPage": "https://recsys.acm.org/recsys15/challenge/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Sequential Recommendation"
+        ]
+    }
+]

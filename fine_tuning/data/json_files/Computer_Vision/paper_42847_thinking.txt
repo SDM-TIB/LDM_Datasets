@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Deep Grouping Model for Unified Perceptual Parsing" by Zhiheng Li et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections. In the abstract, the authors mention evaluating their model on the **Broden+ dataset**, which indicates that this dataset is significant for their research. This prompts me to look for more details about this dataset in the subsequent sections.
+
+Next, I will check the **experiments section** (section 5) where the authors discuss the datasets used for training and evaluation. Here, they explicitly state that the **Broden+ dataset** is a large-scale dataset that combines five different datasets designed for the unified perceptual parsing task. This is crucial information, as it confirms the dataset's relevance and application.
+
+In section 5.1, the authors provide a breakdown of the **Broden+ dataset**, indicating that it is comprised of the following five datasets:
+1. **ADE20k**: A dataset for semantic segmentation.
+2. **PASCAL Context**: A dataset that provides context information for object detection and segmentation.
+3. **PASCAL-Part**: A dataset focused on part segmentation.
+4. **OpenSurfaces**: A dataset that includes surface appearance annotations.
+5. **DTD (Describable Textures Dataset)**: A dataset for texture recognition.
+
+The authors clarify that for each subtask in the unified perceptual parsing task, the data source comes from the union of these datasets that contain the respective subtask labels. This information is essential for understanding the composition of the Broden+ dataset.
+
+Now, I will look at the **References section** to gather full citations for each of the datasets mentioned. The citations are as follows:
+
+- **Broden+ dataset**:
+  > David Bau, Bolei Zhou, Aditya Khosla, Aude Oliva, and Antonio Torralba. *Network dissection: Quantifying interpretability of deep visual representations*. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), July 2017.
+
+- **ADE20k**:
+  > Bolei Zhou, Hang Zhao, Xavier Puig, Tete Xiao, Sanja Fidler, Adela Barriuso, and Antonio Torralba. *Semantic understanding of scenes through the ADE20k dataset*. International Journal of Computer Vision, 127(3):302–321, Mar 2019.
+
+- **PASCAL Context**:
+  > Mottaghi, Roozbeh, et al. *The role of context for object detection and semantic segmentation in the wild*. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2014.
+
+- **PASCAL-Part**:
+  > Chen, Xianjie, et al. *Detect what you can: Detecting and representing objects using holistic models and body parts*. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2014.
+
+- **OpenSurfaces**:
+  > Bell, Sean, et al. *Opensurfaces: A richly annotated catalog of surface appearance*. ACM Trans. Graph., 32(4):111:1–111:17, July 2013.
+
+- **DTD**:
+  > Cimpoi, Mircea, et al. *Describing textures in the wild*. In The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2014.
+
+With this information, I can now compile the dataset entries, ensuring that each dataset is accurately represented with its full citation. This structured approach will help in organizing the datasets effectively for further analysis or processing.

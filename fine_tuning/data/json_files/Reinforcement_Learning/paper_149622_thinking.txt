@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "CADRE: A Cascade Deep Reinforcement Learning Framework for Vision-based Autonomous Urban Driving" by Yinuo Zhao et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract mentions the use of a "pre-collected driving dataset," which indicates that there is a dataset involved. I will look for specific details about this dataset in the subsequent sections.
+
+In the **introduction**, the authors discuss the challenges of autonomous driving and mention the use of datasets for training. However, I need to find the exact names and descriptions of the datasets.
+
+Next, I will focus on the **methodology section**, particularly where the authors describe the Co-attention Perception Module (CoPM) and its training. Here, they mention that they collected a dataset in the CARLA simulator, specifically for training the CoPM. The dataset is described as having **315,545 samples**, each containing a **256 × 144 monocular RGB image**, a waypoint sequence, vehicle measurements, and ground truths for visual and behavior cloning tasks. This is a significant dataset that I need to document.
+
+In the **experiments section**, the authors refer to the **NoCrash benchmark**, which is used to evaluate the autonomous driving policy under various urban conditions. They describe this benchmark in detail, indicating that it includes three different traffic conditions and various routes. However, they do not provide a specific dataset citation for the NoCrash benchmark itself, so I will need to look for its original source in the references.
+
+Now, I will consult the **References section** to find full citations for the datasets mentioned:
+
+1. For the **CARLA simulator dataset**, the citation is:
+   > Dosovitskiy, A., Ros, G., Codevilla, F., López, A. M., & Koltun, V. (2017). CARLA: An Open Urban Driving Simulator. In 1st Annual Conference on Robot Learning, CoRL 2017, Mountain View, California, USA, November 13-15, 2017, Proceedings, volume 78 of Proceedings of Machine Learning Research, 1–16. PMLR.
+
+2. For the **NoCrash benchmark**, the citation is:
+   > Codevilla, F., Miuller, M., López, A., Koltun, V., & Dosovitskiy, A. (2019). Exploring the limitations of behavior cloning for autonomous driving. In Proceedings of the IEEE/CVF International Conference on Computer Vision, 9329–9338.
+
+With these citations in hand, I will summarize the datasets extracted from the paper:
+
+- **Dataset 1**: CARLA Driving Dataset
+  - Description: A large and diverse dataset collected in the CARLA simulator, containing 315,545 samples, each with a 256 × 144 monocular RGB image, waypoint sequence, vehicle measurements, and ground truths for visual and behavior cloning tasks.
+  - Citation: Dosovitskiy, A., Ros, G., Codevilla, F., López, A. M., & Koltun, V. (2017). CARLA: An Open Urban Driving Simulator. In 1st Annual Conference on Robot Learning, CoRL 2017, Mountain View, California, USA, November 13-15, 2017, Proceedings, volume 78 of Proceedings of Machine Learning Research, 1–16. PMLR.
+
+- **Dataset 2**: NoCrash Benchmark
+  - Description: A benchmark for evaluating autonomous driving policies under various urban conditions, including three traffic conditions and multiple routes.
+  - Citation: Codevilla, F., Miuller, M., López, A., Koltun, V., & Dosovitskiy, A. (2019). Exploring the limitations of behavior cloning for autonomous driving. In Proceedings of the IEEE/CVF International Conference on Computer Vision, 9329–9338.
+
+Finally, I will compile these dataset entries into a structured format for further processing or review.

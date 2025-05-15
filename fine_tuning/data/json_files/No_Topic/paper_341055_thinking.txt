@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Combining Humor and Sarcasm for Improving Political Parody Detection" by Xiao Ao, Danae Sánchez Villegas, Daniel Preotiuc-Pietro, and Nikolaos Aletras, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on a publicly available dataset of political parody tweets, which suggests that there is a dataset to extract.
+
+Next, I will focus on the **experimental setup section (Section 3)**, where the authors describe the datasets used for their experiments. Here, they mention using the dataset introduced by Maronikolakis et al. (2020), which contains 131,666 tweets, including 65,956 from political parody accounts and 65,710 from real politician accounts. This is a significant dataset for my extraction.
+
+I will also look for any additional datasets mentioned in the paper. In the **text encoders section (Section 2.1)**, the authors refer to datasets used for training their humor and sarcasm encoders. Specifically, they mention:
+
+1. **Humor Dataset**: This dataset was introduced by Annamoradnejad and Zoghi (2020) and contains humorous and non-humorous short texts collected from Reddit and the Huffington Post. The authors used 10,000 humor-only texts for domain-adaptive pre-training and 40,000 texts for humor classification.
+
+2. **Sarcasm Datasets**: The authors refer to two sarcasm datasets:
+   - The first dataset consists of 777 sarcasm and 3,707 non-sarcasm posts from Twitter, as described by Oprea and Magdy (2020).
+   - The second dataset contains 9,104 sarcasm posts and over 90,000 non-sarcasm posts from Twitter, as referenced by Rajadesingan et al. (2015).
+
+Now, I will gather the full citations for each dataset from the **References section** of the paper:
+
+- For the **political parody dataset** (Maronikolakis et al.):
+  > Antonis Maronikolakis, Danae Sánchez Villegas, Daniel Preotiuc-Pietro, and Nikolaos Aletras. *Analyzing political parody in social media*. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 4373–4384, Online, 2020.
+
+- For the **humor dataset** (Annamoradnejad and Zoghi):
+  > Issa Annamoradnejad and Gohar Zoghi. *Colbert: Using bert sentence embedding for humor detection*. arXiv preprint arXiv:2004.12765, 2020.
+
+- For the **first sarcasm dataset** (Oprea and Magdy):
+  > Silviu Oprea and Walid Magdy. *iSarcasm: A dataset of intended sarcasm*. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 1279–1289, Online, 2020.
+
+- For the **second sarcasm dataset** (Rajadesingan et al.):
+  > Ashwin Rajadesingan, Reza Zafarani, and Huan Liu. *Sarcasm detection on twitter: A behavioral modeling approach*. Proceedings of the Eighth ACM International Conference on Web Search and Data Mining, 2015.
+
+With this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Manual-Label Free 3D Detection via An Open-Source Simulator" by Zhen Yang et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors leverage the **CARLA simulator** to generate self-labeled training samples, which suggests that the CARLA simulator itself is a source of data.
+
+Next, I will focus on the **experiments section** where the authors explicitly mention datasets used for evaluation. In the **A. Datasets** subsection, they describe two types of datasets:
+
+1. **KITTI Dataset**: This dataset is a well-known benchmark for various tasks, including 3D object detection. The authors mention that it contains 7581 samples and over 200k annotations for 3D object detection. They also specify how they split the dataset into training and validation sets.
+
+2. **nuScenes Dataset**: This dataset is described as a novel benchmark for 3D object detection, comprising 1000 scenes with fully annotated 3D bounding boxes for 23 classes. The authors focus on the detection of cars for their experiments.
+
+Additionally, the authors mention generating virtual datasets using the **CARLA simulator**, specifically referring to the **LIDAR dataset**, **CARLA dataset**, and **DEPTH dataset**. These datasets are generated using different methods within the CARLA simulator.
+
+Now, I will look into the **References section** to find the full citations for the datasets mentioned:
+
+- For the **KITTI Dataset**, the citation is:
+  > Andreas Geiger, Philip Lenz, and Raquel Urtasun. *Are we ready for autonomous driving? The KITTI vision benchmark suite*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 3354–3361, 2012.
+
+- For the **nuScenes Dataset**, the citation is:
+  > Holger Caesar, Varun Bankiti, Alexander H. Lang, et al. *nuScenes: A multimodal dataset for autonomous driving*. arXiv preprint arXiv:1903.11027, 2019.
+
+- For the **CARLA simulator**, the citation is:
+  > Alexey Dosovitskiy, German Ros, Filipe Codevilla, et al. *CARLA: An open urban driving simulator*. arXiv preprint arXiv:1711.03938, 2017.
+
+With these citations in hand, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets utilized in the research paper.

@@ -1,0 +1,124 @@
+[
+    {
+        "dcterms:creator": [
+            "A. Politis",
+            "K. Shimada",
+            "P. Sudarsanam",
+            "S. Adavanne",
+            "D. Krause",
+            "Y. Koyama",
+            "N. Takahashi",
+            "S. Takahashi",
+            "Y. Mitsufuji",
+            "T. Virtanen"
+        ],
+        "dcterms:description": "This dataset is collected in two different countries, in Tampere, Finland by the Audio Research Group of Tampere University (TAU), and in Tokyo, Japan by SONY. 13 target classes are identified in the recordings and strongly annotated by humans. Spatial annotations for those active events are captured by an optical tracking system. This dataset contains multichannel recordings of sound scenes in various rooms and environments, totaling 5h in the development set and 2h in the blind test set.",
+        "dcterms:title": "Sony-TAu Realistic Spatial Soundscapes 2022 dataset (STARSS22)",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Sound Event Localization",
+            "Sound Detection"
+        ],
+        "dcat:keyword": [
+            "Spatial Soundscapes",
+            "Sound Events",
+            "Multichannel Recordings"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Sound Event Localization",
+            "Sound Event Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "E. Fonseca",
+            "X. Favory",
+            "J. Pons",
+            "F. Font",
+            "X. Serra"
+        ],
+        "dcterms:description": "This dataset is an open dataset of human-labeled sound events, which contains over 51k audio clips totaling over 100h of audio manually labeled using 200 classes drawn from the AudioSet Ontology. The audio clips are gathered from Freesound and are licensed under Creative Commons licenses, which allow easy sharing and reuse.",
+        "dcterms:title": "FSD50K",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Sound Event Detection"
+        ],
+        "dcat:keyword": [
+            "Human-labeled",
+            "Sound Events",
+            "Audio Clips"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Sound Event Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Politis",
+            "S. Adavanne",
+            "T. Virtanen"
+        ],
+        "dcterms:description": "This dataset contains spatial room impulse responses (SRIRs) captured in various spaces of TAU, Finland, for a fixed receiver position and multiple source positions per room, along with separate recordings of spatial ambient noise captured at the same recording point. The dataset can be used to generate multichannel mixtures for localization, multichannel speech enhancement, and acoustic scene analysis.",
+        "dcterms:title": "TAU-SRIR DB",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Acoustic Scene Analysis",
+            "Sound Event Localization"
+        ],
+        "dcat:keyword": [
+            "Spatial Room Impulse Responses",
+            "Localization",
+            "Multichannel Mixtures"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Sound Event Localization",
+            "Acoustic Scene Analysis"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Politis",
+            "S. Adavanne",
+            "D. Krause",
+            "A. Deleforge",
+            "P. Srivastava",
+            "T. Virtanen"
+        ],
+        "dcterms:description": "This dataset consists of synthetic spatial audio mixtures of sound events spatialized for two different spatial formats using real measured room impulse responses measured in various spaces of Tampere University (TAU). It contains 20h synthetic data including 13 target sound classes and their presence is similar to targets in real recordings.",
+        "dcterms:title": "2022 DCASE SELD task released SELD synthesis",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://dcase.community/workshop2021/proceedings",
+        "dcat:theme": [
+            "Sound Event Localization",
+            "Sound Event Detection"
+        ],
+        "dcat:keyword": [
+            "Synthetic Data",
+            "Spatial Audio",
+            "Sound Events"
+        ],
+        "dcat:landingPage": "https://dcase.community/workshop2021/proceedings",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Sound Event Localization",
+            "Sound Event Detection"
+        ]
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "dcterms:creator": [
+            "Ujjwal Baid",
+            "Satyam Ghodasara",
+            "Suyash Mohan",
+            "Michel Bilello",
+            "Evan Calabrese",
+            "Errol Colak",
+            "Keyvan Farahani",
+            "Jayashree Kalpathy-Cramer",
+            "Felipe C Kitamura",
+            "Sarthak Pati"
+        ],
+        "dcterms:description": "The BRATS2021 dataset contains 1258 subjects comprising high-grade glioma (HGG) and low-grade glioma (LGG) cases, each consisting of four MRI modalities: T1, T1c, T2, and FLAIR. The images are provided in the NIfTI format, with a volume shape of 240×240×155 and a voxel resolution of 1×1×1 mm3. The images are skull-stripped and co-registered to the same anatomical template. The ground truth segmentation masks are provided for the tumor core (TC), enhancing tumor (ET), and whole tumor (WT) regions forming three tumor labels.",
+        "dcterms:title": "BRATS (BRAin Tumor Segmentation)",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Tumor Segmentation"
+        ],
+        "dcat:keyword": [
+            "MRI",
+            "Brain Tumor",
+            "Segmentation",
+            "Medical Dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Tumor Segmentation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Vincent Andrearczyk",
+            "Valentin Oreiller",
+            "Sarah Boughdad",
+            "Catherine Cheze Le Rest",
+            "Hesham Elhalawani",
+            "Mario Jreige",
+            "John O Prior",
+            "Martin Vallières",
+            "Dimitris Visvikis",
+            "Mathieu Hatt"
+        ],
+        "dcterms:description": "The HECKTOR2022 dataset is focused on the segmentation of head and neck tumors. It consists of a diverse set of 882 subjects, where each subject’s data includes PET and CT images. The PET images provide functional information, while the CT images offer anatomical details, each with a volume shape of 256×256×256 and a voxel resolution of 1×1×1 mm3. The ground truth annotations are provided for the primary Gross Tumor Volume (GTVp) and nodal Gross Tumor Volume (GTVn).",
+        "dcterms:title": "HECKTOR (HEad and neCK TumOR segmentation)",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Tumor Segmentation"
+        ],
+        "dcat:keyword": [
+            "PET",
+            "CT",
+            "Head and Neck Tumor",
+            "Segmentation",
+            "Medical Dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Tumor Segmentation"
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Faster Uncertainty Quantification for Inverse Problems with Conditional Normalizing Flows" by Ali Siahkoohi et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and method sections** to see if any datasets are mentioned or described. The abstract discusses the use of paired samples (x, y) for training, which suggests that there may be datasets involved, but I need to find specific names.
+
+Next, I will focus on **section 4 (Numerical experiments)**, as this section typically contains detailed information about the datasets used in experiments. Here, the authors mention two specific datasets:
+
+1. **Seismic Images Dataset**: This dataset is derived from a processed 3D seismic survey reported in Veritas and WesternGeco. The authors state that 2D patches were selected from the original 3D volume, resulting in 64 × 64 pixel images. This dataset is normalized and used for the supervised training phase.
+
+2. **Synthetic Data for Gaussian Likelihood**: The authors describe a synthetic dataset generated for testing their method, which includes observations y generated from a known prior distribution. While this dataset is synthetic, it is important to note its significance in the context of their experiments.
+
+After identifying these datasets, I will check the **References section** to find full citations for the datasets mentioned. The seismic dataset is referenced in the context of two technical reports:
+
+- For the **Seismic Images Dataset**, the citations are:
+  > Veritas. *Parihaka 3D Marine Seismic Survey - Acquisition and Processing Report*. Technical Report New Zealand Petroleum Report 3460, New Zealand Petroleum & Minerals, Wellington, 2005.
+  
+  > WesternGeco. *Parihaka 3D PSTM Final Processing Report*. Technical Report New Zealand Petroleum Report 4582, New Zealand Petroleum & Minerals, Wellington, 2012.
+
+The synthetic dataset does not have a specific citation as it is generated for the purpose of the study, but I will note that it is based on a Gaussian likelihood model.
+
+Now, I will compile the dataset entries, ensuring that I include the full citations for the seismic dataset while noting the synthetic dataset's context.
+
+Finally, I will prepare the dataset entries for structured output, ready for further processing or review.

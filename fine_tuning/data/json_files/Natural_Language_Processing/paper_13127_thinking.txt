@@ -1,0 +1,72 @@
+To extract datasets from the research paper titled "An Empirical Study of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning" by Yun Luo et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses the evaluation of catastrophic forgetting in large language models (LLMs) during continual instruction tuning, which suggests that specific datasets may be used for this evaluation.
+
+Next, I will focus on the **methodology section**, particularly the subsections that detail the continual tasks and evaluation tasks. In this section, the authors describe the specific tasks and datasets used to evaluate the models. 
+
+1. **Instruction Tasks**: The paper lists five instruction tasks, each associated with specific datasets:
+   - **Text Simplification**: The dataset used is from Jiang et al. (2020) and Alva-Manchego et al. (2020).
+   - **Empathetic Dialogue Generation**: The dataset is from Rashkin et al. (2019).
+   - **Inquisitive Question Generation**: The dataset is from Fan et al. (2019).
+   - **Explanation Generation**: The dataset is from Camburu et al. (2018).
+   - **Headline Generation**: The dataset is from Scialom et al. (2022).
+
+2. **Evaluation Tasks**: The paper also mentions several evaluation datasets:
+   - **Domain Knowledge**: The Massive Multitask Language Understanding benchmark (MMLU) is referenced, which is detailed in Hendrycks et al. (2020).
+   - **Reasoning**: Several datasets are used, including:
+     - **Hellaswag**: Zellers et al. (2019)
+     - **BoolQ**: Clark et al. (2019)
+     - **Winogrande**: Sakaguchi et al. (2021)
+     - **PIQA**: Bisk et al. (2020)
+     - **MathQA**: Amini et al. (2019)
+     - **Mutual**: Cui et al. (2020)
+   - **Reading Comprehension**: The RACE dataset is used, as described by Lai et al. (2017).
+   - **Bias**: The CrowS-Pairs dataset is referenced, which is detailed in Nangia et al. (2020).
+
+After identifying these datasets, I will check the **References section** to ensure I have the full citations for each dataset mentioned. 
+
+Here are the full citations for the datasets:
+
+- **Text Simplification**:
+  > Fernando Alva-Manchego, Louis Martin, Antoine Bordes, Carolina Scarton, Benoît Sagot, and Lucia Specia. *Asset: A dataset for tuning and evaluation of sentence simplification models with multiple rewriting transformations*. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pp. 4668–4679, 2020.
+
+- **Empathetic Dialogue Generation**:
+  > Hannah Rashkin, Eric Michael Smith, Margaret Li, and Y-Lan Boureau. *Towards empathetic open-domain conversation models: A new benchmark and dataset*. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, 2019.
+
+- **Inquisitive Question Generation**:
+  > Angela Fan, Yacine Jernite, Ethan Perez, David Grangier, Jason Weston, and Michael Auli. *Eli5: Long form question answering*. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pp. 3558–3567, 2019.
+
+- **Explanation Generation**:
+  > Oana-Maria Camburu, Tim Rockt¨aschel, Thomas Lukasiewicz, and Phil Blunsom. *e-snli: Natural language inference with natural language explanations*. Advances in Neural Information Processing Systems, 31, 2018.
+
+- **Headline Generation**:
+  > Thomas Scialom, Tuhin Chakrabarty, and Smaranda Muresan. *Fine-tuned language models are continual learners*. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, pp. 6107–6122, 2022.
+
+- **Massive Multitask Language Understanding benchmark (MMLU)**:
+  > Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt. *Measuring massive multitask language understanding*. arXiv preprint arXiv:2009.03300, 2020.
+
+- **Hellaswag**:
+  > Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. *Hellaswag: Can a machine really finish your sentence?* arXiv preprint arXiv:1905.07830, 2019.
+
+- **BoolQ**:
+  > Christopher Clark, Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael Collins, and Kristina Toutanova. *Boolq: Exploring the surprising difficulty of natural yes/no questions*. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pp. 2924–2936, 2019.
+
+- **Winogrande**:
+  > Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi. *Winogrande: An adversarial winograd schema challenge at scale*. Communications of the ACM, 64(9):99–106, 2021.
+
+- **PIQA**:
+  > Yonatan Bisk, Rowan Zellers, Jianfeng Gao, Yejin Choi, et al. *Piqa: Reasoning about physical commonsense in natural language*. In Proceedings of the AAAI conference on artificial intelligence, volume 34, pp. 7432–7439, 2020.
+
+- **MathQA**:
+  > Aida Amini, Saadia Gabriel, Shanchuan Lin, Rik Koncel-Kedziorski, Yejin Choi, and Hannaneh Hajishirzi. *Mathqa: Towards interpretable math word problem solving with operation-based formalisms*. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pp. 2357–2367, 2019.
+
+- **Mutual**:
+  > Leyang Cui, Yu Wu, Shujie Liu, Yue Zhang, and Ming Zhou. *Mutual: A dataset for multi-turn dialogue reasoning*. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pp. 1406–1416, 2020.
+
+- **RACE**:
+  > Guokun Lai, Qizhe Xie, Hanxiao Liu, Yiming Yang, and Eduard Hovy. *Race: Large-scale reading comprehension dataset from examinations*. In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, pp. 785–794, 2017.
+
+- **CrowS-Pairs**:
+  > Nikita Nangia, Clara Vania, Rasika Bhalerao, and Samuel Bowman. *Crows-pairs: A challenge dataset for measuring social biases in masked language models*. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pp. 1953–1967, 2020.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use.

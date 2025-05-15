@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Learning Longer-term Dependencies via Grouped Distributor Unit" by Wei Luo and Feng Yu, I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions that the proposed model is evaluated on both synthetic problems and natural datasets, which indicates that there are datasets involved.
+
+Next, I will focus on the **experiments section** (section 4), where the authors typically describe the datasets used for evaluation. In this section, I will look for any explicit mentions of datasets, including their names, descriptions, and any relevant details about their structure or content.
+
+Upon reviewing section 4, I find that the authors conducted experiments on several tasks, including:
+
+1. **The Adding Problem**: This is a sequence regression problem where two sequences are used as input, and the goal is to add specific entries from the first sequence based on indicators from the second sequence. The authors mention that they generated 500 sequences for testing, with varying lengths.
+
+2. **The 3-bit Temporal Order Problem**: This is a sequence classification problem where the input consists of symbols, and the model must classify the order of specific symbols. The authors generated 500 testing sequences for this task as well.
+
+3. **Multi-embedded Reber Grammar (mERG)**: This task involves reading strings and predicting the next symbol, requiring the model to remember symbols from earlier in the sequence. The authors generated 1000 sequences for training and 256 for testing.
+
+4. **Sequential pMNIST Classification**: This task involves reading permuted MNIST images pixel by pixel. The authors trained models with different hidden states and reported their performance.
+
+Now, I will check the **References section** to find full citations for any datasets mentioned. However, since the datasets in this paper are primarily synthetic or derived from existing tasks (like MNIST), I will note that the authors do not provide formal citations for these datasets. Instead, I will summarize the datasets based on the descriptions provided in the experiments section.
+
+Here’s how I will summarize the datasets:
+
+1. **Adding Problem Dataset**: A synthetic dataset generated for the adding problem, consisting of sequences of real numbers and indicators. No formal citation is provided as it is a custom dataset created for the study.
+
+2. **3-bit Temporal Order Problem Dataset**: A synthetic dataset generated for the temporal order classification task, consisting of sequences with specific symbols. Again, no formal citation is provided.
+
+3. **Multi-embedded Reber Grammar Dataset**: A modified version of the Reber grammar, generating sequences with embedded structures. No formal citation is provided.
+
+4. **Sequential pMNIST Dataset**: Based on the MNIST dataset, which is widely known and used in machine learning. The original citation for the MNIST dataset is:
+   > Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick Haffner. *Gradient-Based Learning Applied to Document Recognition*. In Proceedings of the IEEE, pages 2278–2324, 1998.
+
+After gathering all this information, I will compile the dataset entries into a structured format for clarity and future reference. This will ensure that I have captured all relevant datasets and their descriptions accurately.

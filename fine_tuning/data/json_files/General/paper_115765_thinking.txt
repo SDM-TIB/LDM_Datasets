@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Normalizing Flows for Interventional Density Estimation" by Valentyn Melnychuk et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will start by reviewing the **abstract and introduction** sections. The abstract mentions that the authors demonstrate their method across various experiments, which suggests that datasets are involved. I will look for specific names or descriptions of datasets in these sections.
+
+Next, I will examine the **experiments section** (Section 6) closely, as this is where datasets are typically detailed. The authors mention using established (semi-)synthetic datasets for treatment effect estimation. They specifically reference the following datasets:
+
+1. **IHDP Dataset**: This dataset is described as a semi-synthetic dataset with 25 covariates and one binary treatment, capturing aspects related to children and their mothers. The authors used the setting "B" from Hill (2011) for their experiments.
+
+2. **ACIC 2016 & 2018 Datasets**: These datasets consist of multiple semi-synthetic datasets with various data-generating mechanisms. The authors mention that ACIC 2016 has 77 datasets and ACIC 2018 has 24 datasets, each with different characteristics.
+
+3. **HC-MNIST Dataset**: This dataset is a semi-synthetic dataset constructed on top of the MNIST dataset, which includes a hidden confounder affecting the outcomes.
+
+4. **Synthetic Noisy Moons Dataset**: This is a standard two-dimensional toy dataset used for benchmarking their method.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **IHDP Dataset**, the citation is:
+  > Hill, J. L. (2011). Bayesian nonparametric modeling for causal inference. *Journal of Computational and Graphical Statistics*, 20(1), 217-240.
+
+- For the **ACIC 2016 & 2018 Datasets**, the citation is:
+  > Dorie, V., Hill, J., Shalit, U., Scott, M., & Cervone, D. (2019). Automated versus do-it-yourself methods for causal inference: Lessons learned from a data analysis competition. *Statistical Science*, 34(1), 43-68.
+
+- For the **HC-MNIST Dataset**, the citation is:
+  > Jesson, A., Mindermann, S., Shalit, U., & Gal, Y. (2021). Identifying causal-effect inference failure with uncertainty-aware models. In *Advances in Neural Information Processing Systems*.
+
+- For the **Synthetic Noisy Moons Dataset**, there is no specific citation as it is a standard dataset from the scikit-learn library:
+  > Scikit-learn developers. (n.d.). *Make Moons*. Retrieved from https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_moons.html
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This will provide a comprehensive overview of the datasets used in the research paper.

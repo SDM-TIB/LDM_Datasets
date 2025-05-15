@@ -1,0 +1,88 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A continuous dataset of chest radiographs processed by a deep-learning algorithm to identify normal chest x-rays in active clinical pathways.",
+        "dcterms:title": "Continuous CXR Dataset from Somerset NHS Foundation Trust (SFT) and Calderdale & Huddersfield NHS Foundation Trust (CHFT)",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/09/Provisional-Monthly-Diagnostic-Imaging-Dataset-Statistics-2020-09-24.pdf",
+        "dcat:theme": ["Medical Imaging", "Radiology"],
+        "dcat:keyword": ["Chest X-ray", "Deep Learning", "Diagnostic Imaging"],
+        "dcat:landingPage": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2020/09/Provisional-Monthly-Diagnostic-Imaging-Dataset-Statistics-2020-09-24.pdf",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": ["Image Classification", "Diagnostic Decision Support"]
+    },
+    {
+        "dcterms:creator": [
+            "Tom Dyer",
+            "W. Zhang",
+            "K. G. Derpanis"
+        ],
+        "dcterms:description": "A calibration dataset containing chest radiographs used to determine site-specific thresholds for classifying normal chest x-rays.",
+        "dcterms:title": "Calibration Dataset from Somerset NHS Foundation Trust (SFT)",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://doi.org/10.1016/j.crad.2021.01.015",
+        "dcat:theme": ["Medical Imaging", "Radiology"],
+        "dcat:keyword": ["Calibration Dataset", "Chest X-ray", "Deep Learning"],
+        "dcat:landingPage": "https://doi.org/10.1016/j.crad.2021.01.015",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": ["Threshold Calibration", "Diagnostic Decision Support"]
+    },
+    {
+        "dcterms:creator": [
+            "Tom Dyer",
+            "W. Zhang",
+            "K. G. Derpanis"
+        ],
+        "dcterms:description": "A calibration dataset containing chest radiographs used to determine site-specific thresholds for classifying normal chest x-rays.",
+        "dcterms:title": "Calibration Dataset from Calderdale & Huddersfield NHS Trust (CHFT)",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://doi.org/10.1016/j.crad.2021.01.015",
+        "dcat:theme": ["Medical Imaging", "Radiology"],
+        "dcat:keyword": ["Calibration Dataset", "Chest X-ray", "Deep Learning"],
+        "dcat:landingPage": "https://doi.org/10.1016/j.crad.2021.01.015",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": ["Threshold Calibration", "Diagnostic Decision Support"]
+    },
+    {
+        "dcterms:creator": [
+            "Gao Huang",
+            "Z. Liu",
+            "K. Q. Weinberger",
+            "L. van der Maaten"
+        ],
+        "dcterms:description": "A training dataset consisting of approximately 150,000 chest radiographs used to train deep learning models for image classification.",
+        "dcterms:title": "Training Dataset from National Institutes of Health (NIH) and NHS",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": ["Medical Imaging", "Deep Learning"],
+        "dcat:keyword": ["Training Dataset", "Chest X-ray", "Deep Learning"],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": ["Image Classification", "Model Training"]
+    },
+    {
+        "dcterms:creator": [
+            "Mingxing Tan",
+            "Quoc Le"
+        ],
+        "dcterms:description": "A training dataset used for developing the EfficientNet model, consisting of approximately 150,000 chest radiographs.",
+        "dcterms:title": "Training Dataset for the DL algorithm (approximately 150,000 chest radiographs)",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": ["Medical Imaging", "Deep Learning"],
+        "dcat:keyword": ["Training Dataset", "Chest X-ray", "EfficientNet"],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": ["Image Classification", "Model Training"]
+    }
+]

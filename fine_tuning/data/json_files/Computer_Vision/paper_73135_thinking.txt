@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Cascaded Multi-path Shortcut Diffusion Model for Medical Image Translation" by Yinchi Zhou et al., I will follow a systematic approach to ensure I capture all relevant details, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methods, and dataset preparation sections** of the paper. The abstract mentions that the authors collected three different medical image datasets for testing their approach, which indicates that there are datasets to extract.
+
+Next, I will focus on the **dataset preparation section** where the authors describe the datasets in detail. Here, they mention three specific applications, each associated with a dataset:
+
+1. **DE X-ray Dataset**: This dataset consists of 210 posterior-anterior dual-energy chest radiographs collected using a two-shot DE digital radiography system. The authors specify that the images are sized at 1024 × 1024 pixels. They also mention two sub-tasks: translating standard chest radiography into soft-tissue images and translating it into bone images.
+
+2. **MRI Dataset**: The authors describe an in-house MRI dataset collected from 20 patients, where each patient was scanned using three protocols (T1, T2, and FLAIR). This resulted in three 3D volumes of size 320 × 230 × 18 for each patient, resized to 256 × 256 × 18. The dataset allows for two translation tasks: T1 to T2 and T1 to FLAIR.
+
+3. **Sparse-view CT Dataset**: This dataset includes 10 whole-body CT scans obtained from the AAPM Low-Dose CT Grand Challenge. Each scan contains between 318 to 856 axial slices, resulting in a total of 3397 axial 2D images. The authors detail how they generated paired full-view and sparse-view CT images using a CT projection simulator.
+
+After identifying these datasets, I will check the **References section** for full citations related to each dataset. The citations may not be explicitly stated for the datasets themselves, but I can infer them from the context provided in the dataset descriptions.
+
+The citations for the datasets are as follows:
+
+- For the **DE X-ray Dataset**, the citation is:
+  > Zhou, B., Lin, X., Eck, B., Hou, J., Wilson, D. (2019). Generation of virtual dual energy images from standard single-shot radiographs using multi-scale and conditional adversarial network. In Computer Vision–ACCV 2018: 14th Asian Conference on Computer Vision, Perth, Australia, December 2–6, 2018, Revised Selected Papers, Part I, Springer, pp. 298–313.
+
+- For the **MRI Dataset**, the citation is:
+  > Zhou, B., Zhou, S.K. (2020). Dudornet: learning a dual-domain recurrent network for fast MRI reconstruction with deep T1 prior. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 4273–4282.
+
+- For the **Sparse-view CT Dataset**, the citation is:
+  > McCollough, C. (2016). Overview of the low dose CT grand challenge. Medical Physics, 43, 3759–3760.
+
+Now that I have gathered all the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing or review.

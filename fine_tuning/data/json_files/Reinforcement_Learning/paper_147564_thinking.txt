@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Prioritized Sweeping Neural DynaQ with Multiple Predecessors, and Hippocampal Replays" by Lise Aubin, Mehdi Khamassi, and Benoît Girard, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets that are mentioned or referenced. The abstract provides a brief overview of the study but may not contain specific dataset names. Therefore, I will pay close attention to the introduction and methods sections, as they often detail the experimental setup and any datasets used.
+
+In the **introduction**, the authors discuss the hippocampus and its role in memory consolidation and reinforcement learning, but they do not explicitly mention any datasets. I will then move to the **methods section**, where the authors describe the experimental task and simulation setup. Here, they mention a dataset \( S \) that compiles all transitions, represented as quadruplets of (φt, φt−1, a, r). This indicates that they have created a dataset for their simulations, but I need to find out if they reference any publicly available datasets.
+
+Next, I will check the **references section** to see if any datasets are cited. The authors reference a previous study ([6]) that describes the original experimental setup they are modeling. This study is crucial as it may provide a dataset that the authors used or adapted for their own experiments.
+
+Upon reviewing the references, I find the following relevant citations:
+
+1. For the original experiment referenced in the paper, the citation is:
+   > Gupta, A.S., van der Meer, M.A.A., Touretzky, D.S., Redish, A.D. *Hippocampal Replay Is Not a Simple Function of Experience*. Neuron 65(5) (2010) 695–705.
+
+2. The authors also mention the Dyna-Q algorithm, which is foundational to their work. The citation for this is:
+   > Sutton, R.S. *Integrated architectures for learning, planning, and reacting based on approximating dynamic programming*. In Proceedings of the seventh international conference on machine learning. (1990) 216–224.
+
+3. Additionally, they reference the GALMO algorithm, which is a novel contribution of their work but does not correspond to an external dataset.
+
+After identifying these references, I will compile the dataset information, ensuring to include the full citations for each dataset mentioned or utilized in the research. 
+
+Now, I will summarize the findings:
+
+- **Dataset \( S \)**: A dataset created by the authors for their simulations, consisting of (φt, φt−1, a, r) quadruplets.
+- **Hippocampal Replay Dataset**: Referenced from Gupta et al. (2010).
+- **Dyna-Q Algorithm**: Referenced from Sutton (1990).
+
+Finally, I will prepare the dataset entries for output, ensuring that each entry includes the full citation as required.

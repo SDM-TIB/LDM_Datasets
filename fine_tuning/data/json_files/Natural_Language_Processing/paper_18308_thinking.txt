@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Uncertainty-Guided Alignment for Unsupervised Domain Adaptation in Regression" by Ismail Nejjar et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the paper's focus on unsupervised domain adaptation for regression, but I need to look for specific datasets used in the experiments.
+
+Next, I will examine **section 5 (Experiments)**, where the authors typically describe the datasets used for evaluation. In this section, they mention four benchmarks for unsupervised domain adaptation regression:
+
+1. **dSprites**: A synthetic 2D image dataset with five independent latent factors, treated as three separate domains: Color (C), Scream (S), and Noise (N). Each domain consists of 737,280 images.
+
+2. **MPI3D**: Contains 1,036,800 examples of 3D objects from three domains: Toy (T), Realistic (RC), and Real (RL). This dataset is used to study domain gaps between real and simulated data in a robotics context.
+
+3. **Biwi Kinect**: A dataset consisting of over 15,000 real-world images of 20 individuals, capturing head rotations with variations in yaw, pitch, and roll angles.
+
+4. **SmallNORB**: A dataset comprising images depicting 50 toys, captured under varying lighting conditions, with the objective of predicting the rotation of objects.
+
+After identifying these datasets, I will check the **References section** to find full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+For the datasets mentioned, I will compile the following citations:
+
+- **dSprites**: 
+  > Loic Matthey, Irina Higgins, Demis Hassabis, and Alexander Lerchner. *dsprites: Disentanglement testing sprites dataset*. https://github.com/deepmind/dsprites-dataset/, 2017.
+
+- **MPI3D**: 
+  > Muhammad Waleed Gondal, Manuel Wuthrich, Djordje Miladinovic, Francesco Locatello, Martin Breidt, Valentin Volchkov, Joel Akpo, Olivier Bachem, Bernhard Schölkopf, and Stefan Bauer. *On the transfer of inductive bias from simulation to the real world: a new disentanglement dataset*. In Advances in Neural Information Processing Systems. Curran Associates, Inc., 2019.
+
+- **Biwi Kinect**: 
+  > Gabriele Fanelli, Matthias Dantone, Juergen Gall, Andrea Fossati, and Luc Van Gool. *Random forests for real time 3D face analysis*. Int. J. Comput. Vision, 101(3):437–458, 2013.
+
+- **SmallNORB**: 
+  > SmallNORB dataset. *SmallNORB: A dataset for 3D object recognition*. http://www.cs.cmu.edu/~breuel/smallnorb/.
+
+Now that I have identified the datasets and their citations, I will prepare to format this information according to the required structure for downstream processing or review.

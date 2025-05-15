@@ -1,0 +1,200 @@
+[
+    {
+        "dcterms:creator": [
+            "A. K. McCallum",
+            "K. Nigam",
+            "J. Rennie",
+            "K. Seymore"
+        ],
+        "dcterms:description": "Cora is a paper citation network. Each node is a paper. There are 2708 papers and 5429 citation links in total. Each paper is associated with one of 7 classes.",
+        "dcterms:title": "Cora",
+        "dcterms:issued": "2000",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Networks",
+            "Graph Representation Learning"
+        ],
+        "dcat:keyword": [
+            "Citation network",
+            "Paper classification",
+            "Graph data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "C. L. Giles",
+            "K. D. Bollacker",
+            "S. Lawrence"
+        ],
+        "dcterms:description": "CiteSeer is another paper citation network. CiteSeer contains 3,312 papers and 4,732 citations in total. All these papers have been classified into 6 classes.",
+        "dcterms:title": "CiteSeer",
+        "dcterms:issued": "1998",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Networks",
+            "Graph Representation Learning"
+        ],
+        "dcat:keyword": [
+            "Citation network",
+            "Paper classification",
+            "Graph data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "P. Sen",
+            "G. Namata",
+            "M. Bilgic",
+            "L. Getoor",
+            "B. Galligher",
+            "T. Eliassi-Rad"
+        ],
+        "dcterms:description": "Pubmed is a larger and more complex citation network compared to previous two datasets. There are 19,717 vertices and 88,651 citation links. Papers are classified into 3 classes.",
+        "dcterms:title": "Pubmed",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Networks",
+            "Graph Representation Learning"
+        ],
+        "dcat:keyword": [
+            "Citation network",
+            "Paper classification",
+            "Graph data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "P. Sen",
+            "G. Namata",
+            "M. Bilgic",
+            "L. Getoor",
+            "B. Galligher",
+            "T. Eliassi-Rad"
+        ],
+        "dcterms:description": "Wikipedia contains 2,405 online webpages. The 17,981 links are undirected between pairs of them. All these pages are from 17 categories.",
+        "dcterms:title": "Wikipedia",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Web Data",
+            "Graph Representation Learning"
+        ],
+        "dcat:keyword": [
+            "Webpages",
+            "Link structure",
+            "Graph data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Leskovec",
+            "J. Kleinberg",
+            "C. Faloutsos"
+        ],
+        "dcterms:description": "Email-eu is an Email communication network which illustrates the email communication relationships between researchers in a large European research institution. There are 1,005 researchers and 25,571 links between them. Department affiliations (42 in total) of the researchers are considered as labels to predict.",
+        "dcterms:title": "Email-eu",
+        "dcterms:issued": "2007",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Networks",
+            "Graph Representation Learning"
+        ],
+        "dcat:keyword": [
+            "Email communication",
+            "Research collaboration",
+            "Graph data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Link prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "M. Ji",
+            "Y. Sun",
+            "M. Danilevsky",
+            "J. Han",
+            "J. Gao"
+        ],
+        "dcterms:description": "DBLP is an academic community network. Here we obtain a subset of the large network with two types of nodes, authors and keywords from authors’ publications. The generated subgraph includes 27K (authors) + 3.7K (keywords) vertices. The link between a pair of authors indicates the coauthor relationships, and the link between an author and a word means the word belongs to at least one publication of this author.",
+        "dcterms:title": "DBLP",
+        "dcterms:issued": "2010",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Academic Networks",
+            "Graph Representation Learning"
+        ],
+        "dcat:keyword": [
+            "Co-authorship",
+            "Keywords",
+            "Graph data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Multi-label classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Wang",
+            "Y. Wang",
+            "J. Zhang"
+        ],
+        "dcterms:description": "BlogCatalog is a social media network with 55,814 users and according to the interests of users, they are classified into multiple overlapped groups. We take the five largest groups to evaluate the performance of methods.",
+        "dcterms:title": "BlogCatalog",
+        "dcterms:issued": "2010",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Networks",
+            "Graph Representation Learning"
+        ],
+        "dcat:keyword": [
+            "Social media",
+            "User interests",
+            "Graph data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Multi-label classification"
+        ]
+    }
+]

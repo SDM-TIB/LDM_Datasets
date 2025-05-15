@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "STOPNet: Multiview-based 6-DoF Suction Detection for Transparent Objects on Production Lines" by Yuxuan Kuang et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and method sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors trained their model on a "large-scale synthetic dataset," which suggests that there is a dataset of interest.
+
+Next, I will focus on the **method section**, particularly the part where the authors discuss their data generation pipeline. They mention creating a "large-scale production line suction dataset" that contains over 300K images and 40M suction poses. This is a significant dataset that I need to document.
+
+In the **experiments section**, the authors refer to the use of "160 hand-scale objects" from a specific dataset, which they augment with transparent textures. They also mention using "80 package objects" from another dataset. I will need to identify these datasets and their citations.
+
+Now, I will check the **references section** to find full citations for the datasets mentioned. The paper references several works that may contain the datasets used:
+
+1. The "MIX 6" dataset is mentioned in the context of pretraining a model. The citation is:
+   > Ranftl, R., Bochkovskiy, A., & Koltun, V. (2021). Vision transformers for dense prediction. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pp. 12179–12188.
+
+2. The authors also refer to a dataset of "160 hand-scale objects" and "80 package objects," which may be from the following citation:
+   > Jiang, Z., Zhu, Y., Svetlik, M., Fang, K., & Zhu, Y. (2021). Synergies between affordance and geometry: 6-dof grasp detection via implicit representations. In Robotics: Science and Systems XVII, Virtual Event, July 12-16, 2021.
+
+3. The "SuctionNet-1Billion" dataset is also referenced, which is relevant for suction grasping tasks:
+   > Cao, H., Fang, H.-S., Liu, W., & Lu, C. (2021). Suctionnet-1billion: A large-scale benchmark for suction grasping. IEEE Robotics and Automation Letters, 6(4), 8718–8725.
+
+After gathering this information, I will compile the dataset entries, ensuring that I include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research, which is crucial for reproducibility and further research in the field.

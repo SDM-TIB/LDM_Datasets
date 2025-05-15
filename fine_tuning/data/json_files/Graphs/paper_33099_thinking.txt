@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Three-Dimensional Granular Flow Simulation Using Graph Neural Network-Based Learned Simulator" by Yongjin Choi and Krishna Kumar, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and evaluation sections** of the paper to identify any datasets mentioned. The abstract discusses the development of a GNN-based simulator for granular flows, but it does not explicitly mention datasets. Therefore, I will need to look deeper into the subsequent sections.
+
+In the **introduction**, the authors mention the use of surrogate models and the challenges of traditional numerical methods, but again, no specific datasets are named. I will continue to the **methods section** where they describe the training process for the GNN-based simulator.
+
+In the **methods section**, the authors state that they trained the GNN-based simulator (GNS) on a limited number of granular flow trajectories generated from the **Material Point Method (MPM)**. They mention that the training examples are sampled from **106 granular flow simulations**. This indicates that the dataset consists of trajectories from these simulations, but I need to find more details about the dataset itself.
+
+Next, I will look for any specific references to datasets in the **evaluation section**. Here, the authors describe the performance of GNS using the granular column collapse experiment, but they do not provide additional datasets. However, they do mention that the GNS was trained on data generated from the MPM code, which is crucial information.
+
+Now, I will check the **references section** to find full citations for the datasets or methods mentioned. The authors reference the **Material Point Method (MPM)**, which is critical for understanding the dataset used for training the GNS. The relevant citation for MPM is:
+
+- Kumar, K., Salmond, J., Kularathna, S., Wilkes, C., Tjung, E., Biscontin, G., and Soga, K. (2019). "Scalable and Modular Material Point Method for Large-Scale Simulations." arXiv preprint arXiv:1909.13380.
+
+Additionally, the authors reference their own work on the GNN-based simulator:
+
+- Choi, Y., and Kumar, K. (2023). "Graph Neural Network-Based Surrogate Model for Granular Flows." arXiv preprint arXiv:2305.05218.
+
+Based on this analysis, I will summarize the dataset information as follows:
+
+1. **Granular Flow Trajectories Dataset**: This dataset consists of 106 granular flow simulations generated using the Material Point Method (MPM). The simulations involve a cube-shaped mass with varying sizes and initial velocities, dropped under gravity in a defined domain.
+
+Now, I will compile the dataset entries into a structured format for further processing. Each dataset will include its name, description, and full citation.

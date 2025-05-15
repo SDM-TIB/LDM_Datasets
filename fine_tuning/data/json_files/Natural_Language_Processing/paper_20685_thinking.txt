@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "COVERUP: Coverage-Guided LLM-Based Test Generation" by Juan Altmayer Pizzorno and Emery D. Berger, I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and evaluation sections** to identify any datasets that are explicitly mentioned or referenced. The abstract provides a brief overview of the COVERUP system and its performance, but it does not mention specific datasets. Therefore, I will need to look deeper into the paper.
+
+Next, I will examine the **related work section** to see if any datasets are referenced in the context of previous studies or methodologies. This section discusses various automated test generation methods and mentions CODAMOSA, which is a baseline for comparison. However, it does not specify any datasets.
+
+Moving on to the **experimental setup section**, I will look for any mention of datasets used for evaluation. Here, the authors state that they utilize a benchmark suite collated by the authors of CODAMOSA, referred to as suite CM. This suite is derived from 35 projects and is specifically designed to focus on cases where Pynguin has difficulty achieving full coverage. This indicates that the dataset is a collection of modules from various projects.
+
+The authors also mention another suite, named PY, which is created from modules where Pynguin achieved full coverage. This indicates that both CM and PY are datasets used in their evaluation.
+
+Now, I will check the **references section** to find full citations for the datasets mentioned. The paper references the following:
+
+1. For the **CM suite**, the citation is:
+   > C. Lemieux, J. P. Inala, S. K. Lahiri, and S. Sen. "Codamosa: Escaping coverage plateaus in test generation with pre-trained large language models," in 2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE), 2023, pp. 919–931.
+
+2. For the **PY suite**, the citation is derived from the same source as the CM suite, as it is a subset of the modules used in the evaluation of BugsInPy and Pynguin. Therefore, it can be cited as:
+   > R. Widyasari, S. Q. Sim, C. Lok, H. Qi, J. Phan, Q. Tay, C. Tan, F. Wee, J. E. Tan, Y. Yieh, B. Goh, F. Thung, H. J. Kang, T. Hoang, D. Lo, and E. L. Ouh. "BugsInPy: a database of existing bugs in Python programs to enable controlled testing and debugging studies," in Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering, ser. ESEC/FSE ’20. ACM, Nov. 2020.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described and includes the full citation as required. This will provide a comprehensive overview of the datasets utilized in the research.

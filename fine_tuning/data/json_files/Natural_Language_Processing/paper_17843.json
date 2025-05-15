@@ -1,0 +1,134 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A classification framework aimed at identifying correlations between job ad requirements and transversal skill sets, using a deep learning model to predict necessary skills for individual job descriptions.",
+        "dcterms:title": "ESCO (European Skills, Competences, and Occupations)",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://esco.ec.europa.eu/en/classification/skill_main",
+        "dcat:theme": [
+            "Skills Classification",
+            "Job Market Analysis"
+        ],
+        "dcat:keyword": [
+            "skills",
+            "competences",
+            "job ads",
+            "classification"
+        ],
+        "dcat:landingPage": "https://esco.ec.europa.eu/en/classification/skill_main",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Skill Identification",
+            "Job Ad Analysis"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset comprising job ads downloaded from the EURES online platform, used for training and testing models for skill identification.",
+        "dcterms:title": "Job Ads from EURES",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://eures.ec.europa.eu/index_en",
+        "dcat:theme": [
+            "Job Market Analysis",
+            "Data Collection"
+        ],
+        "dcat:keyword": [
+            "job ads",
+            "EURES",
+            "data collection"
+        ],
+        "dcat:landingPage": "https://eures.ec.europa.eu/index_en",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Data Collection",
+            "Skill Identification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "N. Reimers",
+            "I. Gurevych"
+        ],
+        "dcterms:description": "A software library for generating sentence embeddings using a BERT-based architecture, utilized for transforming sentences into vector representations for classification tasks.",
+        "dcterms:title": "Sentence Embeddings Model (Sentence-BERT)",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.sbert.net",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "sentence embeddings",
+            "BERT",
+            "deep learning"
+        ],
+        "dcat:landingPage": "https://www.sbert.net",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Text Classification",
+            "Skill Identification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Zhang",
+            "Y. Zhao",
+            "M. Saleh",
+            "P. J. Liu"
+        ],
+        "dcterms:description": "A model for paraphrasing sentences, used to augment the dataset by generating variations of sentences while preserving their meanings.",
+        "dcterms:title": "Pegasus (for paraphrasing)",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://arxiv.org/abs/1912.08777v3",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Data Augmentation"
+        ],
+        "dcat:keyword": [
+            "paraphrasing",
+            "data augmentation",
+            "text generation"
+        ],
+        "dcat:landingPage": "https://github.com/google-research/pegasus",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Data Augmentation",
+            "Text Generation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "N. Reimers",
+            "I. Gurevych"
+        ],
+        "dcterms:description": "A model that extends monolingual sentence embeddings to multilingual contexts using knowledge distillation, facilitating the processing of job ads in various languages.",
+        "dcterms:title": "Multi-language Sentence Embeddings Model",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Multilingual Processing"
+        ],
+        "dcat:keyword": [
+            "multilingual embeddings",
+            "knowledge distillation",
+            "sentence embeddings"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Text Classification",
+            "Skill Identification"
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Proximal Curriculum with Task Correlations for Deep Reinforcement Learning" by Georgios Tzannetos et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental evaluation sections** to see if any datasets are explicitly mentioned. The abstract provides a brief overview of the research focus, while the introduction often discusses related work and may reference datasets used in prior studies.
+
+Next, I will focus on the **experimental evaluation section** (Section 4), as this is where the authors typically describe the environments or datasets used for their experiments. In this section, the authors mention four distinct environments: **Point Mass Sparse (PM-S)**, **Sparse Goal Reaching (SGR)**, **MiniGrid (MINIG)**, and **Bipedal Walker Stump Tracks (BW)**. Each environment is described in detail, including its context, state, action space, and the specific characteristics that make it suitable for the experiments.
+
+For each environment, I will extract the relevant details:
+
+1. **Point Mass Sparse (PM-S)**: This environment is based on the work of Klink et al. (2020) and involves navigating a point mass through a gate in a two-dimensional space. The target distribution is a bimodal Gaussian distribution.
+
+2. **Sparse Goal Reaching (SGR)**: This environment is based on Klink et al. (2022) and requires the agent to reach a desired position with high precision. The target distribution is uniform but restricted to a specific 2D region.
+
+3. **MiniGrid (MINIG)**: This environment is constructed from various Minigrid environments and requires the agent to perform tasks such as navigation and object manipulation. The target environment is Blocked Unlock Pickup.
+
+4. **Bipedal Walker Stump Tracks (BW)**: This environment is based on the TeachMyAgent benchmark and involves a bipedal agent learning to walk in a challenging terrain.
+
+After identifying these environments, I will check the **References section** to find the full citations for the original works that describe these environments. This is crucial for providing proper attribution.
+
+The citations I will extract are:
+
+- For **Point Mass Sparse (PM-S)**:
+  > Klink, P., D’Eramo, C., Peters, J. R., & Pajarinen, J. (2020). Self-Paced Deep Reinforcement Learning. In NeurIPS.
+
+- For **Sparse Goal Reaching (SGR)**:
+  > Klink, P., Yang, H., D’Eramo, C., Peters, J., & Pajarinen, J. (2022). Curriculum Reinforcement Learning via Constrained Optimal Transport. In ICML.
+
+- For **MiniGrid (MINIG)**:
+  > Chevalier-Boisvert, M., Willems, L., & Ritchie, J. (2023). Minigrid & miniworld: Modular & customizable reinforcement learning environments for goal-oriented tasks. CoRR, abs/2306.13831.
+
+- For **Bipedal Walker Stump Tracks (BW)**:
+  > Romac, C., Portelas, R., Hofmann, K., & Oudeyer, P.-Y. (2021). Teachmyagent: a Benchmark for Automatic Curriculum Learning in Deep RL. In ICML.
+
+Now, I will compile the dataset entries, ensuring that each dataset is clearly described and properly cited, ready for structured output.

@@ -1,0 +1,134 @@
+[
+    {
+        "dcterms:creator": [
+            "Yevgen Chebotar",
+            "Ankur Handa",
+            "Viktor Makoviychuk",
+            "Miles Macklin",
+            "Jan Issac",
+            "Nathan Ratliff",
+            "Dieter Fox"
+        ],
+        "dcterms:description": "The agent tries to swing up and stabilize a pendulum by applying torque on the hinge given a biased distribution over mass and length. Initial state is randomized after every 10s episode.",
+        "dcterms:title": "PENDULUMSWINGUP",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Robotics",
+            "Control Systems"
+        ],
+        "dcat:keyword": [
+            "Pendulum",
+            "Swing-up",
+            "Torque",
+            "Robotic Control"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Stabilization",
+            "Control"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Xue Bin Peng",
+            "Marcin Andrychowicz",
+            "Wojciech Zaremba",
+            "Pieter Abbeel"
+        ],
+        "dcterms:description": "A sparse version of the task from the Deepmind Control Suite where the goal is to swing and catch a ball in a cup. The agent is provided with a biased distribution over the ball’s mass, moment of inertia, and tendon stiffness.",
+        "dcterms:title": "BALLINCUPSPARSE",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Robotics",
+            "Control Systems"
+        ],
+        "dcat:keyword": [
+            "Ball",
+            "Cup",
+            "Sparse Rewards",
+            "Robotic Control"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Catching",
+            "Control"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Matthias Plappert",
+            "Marcin Andrychowicz",
+            "Alex Ray",
+            "Bob McGrew",
+            "Bowen Baker",
+            "Glenn Powell",
+            "Jonas Schneider",
+            "Josh Tobin",
+            "Maciek Chociej",
+            "Peter Welinder",
+            "Vikash Kumar",
+            "Wojciech Zaremba"
+        ],
+        "dcterms:description": "The agent controls the cartesian position and opening of a Fetch robot gripper to push a block to a goal location. A biased distribution over the mass, moment of inertia, friction coefficients, and size of the object is provided.",
+        "dcterms:title": "FETCHPUSHBLOCK",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Robotics",
+            "Control Systems"
+        ],
+        "dcat:keyword": [
+            "Fetch Robot",
+            "Block Pushing",
+            "Robotic Control"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Pushing",
+            "Manipulation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Yevgen Chebotar",
+            "Ankur Handa",
+            "Viktor Makoviychuk",
+            "Miles Macklin",
+            "Jan Issac",
+            "Nathan Ratliff",
+            "Dieter Fox"
+        ],
+        "dcterms:description": "Based on a real-world manipulation problem where the agent controls a 7DOF Franka Panda arm to open a cabinet drawer. A biased distribution over damping and friction loss of robot and drawer joints is provided.",
+        "dcterms:title": "FRANKADRAWEROPEN",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Robotics",
+            "Control Systems"
+        ],
+        "dcat:keyword": [
+            "Franka Panda",
+            "Drawer Opening",
+            "Robotic Control"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Manipulation",
+            "Opening"
+        ]
+    }
+]

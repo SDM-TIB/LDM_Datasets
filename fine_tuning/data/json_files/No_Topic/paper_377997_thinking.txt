@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Heat flux for semi-local machine-learning potentials" by Marcel F. Langer et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract provides a brief overview of the study, and I will look for any explicit mentions of datasets or data sources.
+
+Next, I will focus on the **methods section**, particularly where the authors describe the training and validation data. In this section, they mention that the training and validation data were generated using ab initio molecular dynamics in the NpT ensemble, heating a tetragonal 96-atom supercell from 0K to a grid of target temperatures up to 3000K. This indicates that there is a dataset related to these simulations.
+
+I will also check the **data and code availability section** to find any references to where the datasets can be accessed. The authors mention that the data required to reproduce all figures can be found at a specific DOI, which is crucial for citation purposes.
+
+In the **results section**, I will look for any additional datasets that may have been used for validation or comparison, such as those obtained from the NOMAD repository. The authors reference a dataset from Carbogno et al. that consists of three trajectories of about 15,000 steps per temperature, which is another dataset to note.
+
+Now, I will compile the information I have gathered about the datasets, ensuring to include full citations for each dataset mentioned in the paper:
+
+1. **Training and Validation Data**: Generated using ab initio molecular dynamics in the NpT ensemble, heating a tetragonal 96-atom supercell from 0K to 3000K. The specific details of this dataset may not have a formal citation but can be referenced as:
+   > Langer, M. F., Knoop, F., Carbogno, C., Scheffler, M., & Rupp, M. (2023). Heat flux for semi-local machine-learning potentials. *Physical Review Letters*, 126(14), 014101. doi:10.1103/PhysRevLett.126.014101.
+
+2. **NOMAD Repository Data**: The dataset from Carbogno et al. can be cited as:
+   > Carbogno, C., Ramprasad, R., & Scheffler, M. (2017). Dataset PRL_2017_aiGK on the NOMAD repository. doi:10.17172/NOMAD/2023.03.24-2.
+
+3. **Data for Training the SchNet MPNN**: The authors mention using 10,000 single-point calculations performed using FHI-aims, which can be referenced as:
+   > Blum, V., Gehrke, R., Hanke, F., Havu, V., Ren, X., Reuter, K., & Scheffler, M. (2009). FHI-aims: A comprehensive interface for ab initio calculations. *Computational Physics Communications*, 180(3), 2175-2196. doi:10.1016/j.cpc.2009.01.019.
+
+After gathering all this information, I will ensure that I have accurately captured the datasets and their citations for further processing or review.

@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "On the Effect of Dropping Layers of Pre-trained Transformer Models" by Hassan Sajjad et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experimental setup sections** to identify any datasets mentioned. The abstract discusses evaluating the effects of pruning on downstream GLUE tasks, which suggests that datasets related to these tasks are likely included.
+
+Next, I will focus on **section 4 (Experimental Setup)**, where the authors explicitly mention the datasets used for evaluation. They refer to the **General Language Understanding Evaluation (GLUE)** benchmark, which is a collection of various NLP tasks. The paper provides a table (Table 1) that lists the specific tasks and their corresponding datasets, including:
+
+1. **SST-2**: Sentiment analysis dataset with 67,349 training instances.
+2. **MRPC**: Microsoft Research Paraphrase Corpus with 3,668 training instances.
+3. **MNLI**: Multi-Genre Natural Language Inference dataset with 392,702 training instances.
+4. **QNLI**: Question Natural Language Inference dataset with 104,743 training instances.
+5. **QQP**: Quora Question Pairs dataset.
+6. **RTE**: Recognizing Textual Entailment dataset.
+7. **STS-B**: Semantic Textual Similarity Benchmark with 36,384 training instances.
+
+I will also note the specific statistics provided for each dataset, as they are important for understanding the context of the experiments.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset. The citations for the datasets mentioned in the GLUE benchmark are as follows:
+
+- **SST-2**: 
+  > Socher, R., Perelygin, A., Wu, J., Chuang, J., Manning, C.D., Ng, A., Potts, C. (2013). *Recursive deep models for semantic compositionality over a sentiment treebank*. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, pp. 1631–1642.
+
+- **MRPC**: 
+  > Dolan, W.B., Brockett, C. (2005). *Automatically constructing a corpus of sentential paraphrases*. In Proceedings of the Third International Workshop on Paraphrasing (IWP2005).
+
+- **MNLI**: 
+  > Williams, A., Nangia, N., Bowman, S. (2018). *A broad-coverage challenge corpus for sentence understanding through inference*. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1, pp. 1112–1122.
+
+- **QNLI**: 
+  > Rajpurkar, P., Zhang, J., Lopyrev, K., Liang, P. (2016). *SQuAD: 100,000+ questions for machine comprehension of text*. In Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, pp. 2383–2392.
+
+- **QQP**: 
+  > I will refer to the original Quora dataset release for the citation:
+  > Quora. (2017). *First Quora Dataset Release: Question Pairs*. Retrieved from http://data.quora.com/First-Quora-Dataset-Release-Question-Pairs.
+
+- **RTE**: 
+  > Bentivogli, L., Dagan, I., Dang, H.T., Giampiccolo, D., Magnini, B. (2009). *The fifth pascal recognizing textual entailment challenge*. In Proc Text Analysis Conference (TAC’09).
+
+- **STS-B**: 
+  > Cer, D., Diab, M., Agirre, E., Lopez-Gazpio, I., Specia, L. (2017). *SemEval-2017 task 1: Semantic textual similarity multilingual and crosslingual focused evaluation*. In Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-2017), pp. 1–14.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

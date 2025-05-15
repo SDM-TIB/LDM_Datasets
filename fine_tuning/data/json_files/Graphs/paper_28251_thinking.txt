@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Preservational Learning Improves Self-supervised Medical Image Models by Reconstructing Diverse Contexts" by Hong-Yu Zhou et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the use of self-supervised learning in medical image analysis, which suggests that datasets are likely involved.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors typically describe the datasets used for their experiments. In this section, they mention two types of tasks: 2D and 3D tasks, and they specify the datasets used for each.
+
+For the **2D tasks**, the authors mention:
+1. **Chest14 Dataset**: This dataset consists of 112,120 X-ray images with 14 diseases from 30,805 unique patients. It is used for both pretraining and finetuning.
+2. **CheXpert Dataset**: A large public dataset containing 224,316 chest radiographs of 65,240 patients, primarily used for pretraining.
+
+For the **3D tasks**, the authors mention:
+1. **LUNA Dataset**: This dataset contains 888 CT scans with lung nodule annotations, used for both pretraining and finetuning.
+2. **BraTS Dataset**: This dataset includes 351 MRI scans of brain tumors, used for finetuning.
+3. **LiTS Dataset**: This dataset contains 131 CT scans with annotations for liver and tumor segmentation, primarily used for finetuning.
+
+Now, I will check the **References section** to find the full citations for each dataset mentioned:
+
+- For **Chest14**, the citation is:
+  > Wang, X., et al. (2017). ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-supervised Classification and Localization of Common Thorax Diseases. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 2097–2106.
+
+- For **CheXpert**, the citation is:
+  > Irvin, J., et al. (2019). CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 33, pages 590–597.
+
+- For **LUNA**, the citation is:
+  > Setio, A. A. A., et al. (2017). Validation, Comparison, and Combination of Algorithms for Automatic Detection of Pulmonary Nodules in Computed Tomography Images: the LUNA16 Challenge. Medical Image Analysis, 42:1–13.
+
+- For **BraTS**, the citation is:
+  > Bakas, S., et al. (2018). Identifying the Best Machine Learning Algorithms for Brain Tumor Segmentation, Progression Assessment, and Overall Survival Prediction in the BRATS Challenge. arXiv preprint arXiv:1811.02629.
+
+- For **LiTS**, the citation is:
+  > Bilic, P., et al. (2019). The Liver Tumor Segmentation Benchmark (LiTS). arXiv preprint arXiv:1901.04056.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Free the Plural: Unrestricted Split-Antecedent Anaphora Resolution" by Juntao Yu et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the research and may mention key datasets used for evaluation or training.
+
+Next, I will focus on the **introduction section**, where the authors discuss previous work and the datasets used in those studies. They mention that prior research has created new datasets for split antecedent anaphora, which indicates that there may be specific datasets relevant to this study.
+
+In the **methods section**, particularly in the subsections detailing the auxiliary corpora, the authors describe four auxiliary datasets used to improve their model's performance. These datasets are:
+
+1. **ARRAU Corpus**: This is the main dataset used for evaluation, which includes hand-annotated split-antecedent anaphors. The authors mention that it covers various genres, including news and dialogue.
+
+2. **Phrase Detectives Corpus (PD)**: This corpus is created through a crowdsourcing game and includes annotations for split-antecedent anaphors. The authors detail two versions of this dataset: one with silver labels (PD-SILVER) and another with raw crowd annotations (PD-CROWD).
+
+3. **ELEMENT-OF Corpus**: This dataset consists of bridging references extracted from the ARRAU corpus, which are relevant to the task of resolving split-antecedent anaphors.
+
+4. **SINGLE-COREF Corpus**: This dataset includes single-antecedent anaphors from the ARRAU corpus, which are used as auxiliary data to enhance the model's performance.
+
+After identifying these datasets, I will check the **references section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The citations I will extract are:
+
+- For the **ARRAU Corpus**:
+  > Poesio, M., & Artstein, R. (2008). Anaphoric annotation in the ARRAU corpus. In Proceedings of the Sixth International Conference on Language Resources and Evaluation (LREC’08), Marrakech, Morocco, May. European Language Resources Association (ELRA).
+
+- For the **Phrase Detectives Corpus**:
+  > Poesio, M., Chamberlain, J., Paun, S., Yu, J., & Kruschwitz, U. (2019). A crowdsourced corpus of multiple judgments and disagreement on anaphoric interpretation. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 1778–1789, Minneapolis, Minnesota, June. Association for Computational Linguistics.
+
+- For the **ELEMENT-OF Corpus**, since it is derived from the ARRAU corpus, I will reference the same citation as for the ARRAU corpus.
+
+- For the **SINGLE-COREF Corpus**, it is also derived from the ARRAU corpus, so I will use the same citation as well.
+
+Now, I will compile the dataset entries with their respective citations into a structured format for further processing.

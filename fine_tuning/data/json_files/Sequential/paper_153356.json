@@ -1,0 +1,86 @@
+[
+    {
+        "dcterms:creator": [
+            "U. Alon",
+            "M. Zilberstein",
+            "O. Levy",
+            "E. Yahav"
+        ],
+        "dcterms:description": "A re-split dataset of 11 GitHub projects, containing single methods per example, used for any-code completion tasks. The dataset was filtered to reduce code duplication and contains 1.3M training examples, 10k validation examples, and 20k test examples.",
+        "dcterms:title": "Java-small dataset",
+        "dcterms:issued": "2019",
+        "dcterms:language": "Java",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Code Completion",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Java",
+            "Code Completion",
+            "GitHub Projects",
+            "Abstract Syntax Tree"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Any-Code Completion"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "M. Brockschmidt",
+            "M. Allamanis",
+            "A. L. Gaunt",
+            "O. Polozov"
+        ],
+        "dcterms:description": "A dataset used for restricted code completion tasks, filtering out examples where the targets contain non-primitive types or user-defined functions. It contains 16k training examples, 8k validation examples, and 3k test examples.",
+        "dcterms:title": "C# dataset (from Brockschmidt et al. (2019))",
+        "dcterms:issued": "2019",
+        "dcterms:language": "C#",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Code Completion",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "C#",
+            "Restricted Completion",
+            "Code Modeling"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Restricted Completion"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "M. Allamanis",
+            "M. Brockschmidt",
+            "M. Khademi"
+        ],
+        "dcterms:description": "An unseen projects test set used for evaluating code representation learning. It contains 30 GitHub projects, broken down into one method per example.",
+        "dcterms:title": "Allamanis et al. (2018) 'unseen projects test' set",
+        "dcterms:issued": "2018",
+        "dcterms:language": "C#",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Code Representation",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "C#",
+            "Code Representation",
+            "GitHub Projects"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Code Representation Learning"
+        ]
+    }
+]

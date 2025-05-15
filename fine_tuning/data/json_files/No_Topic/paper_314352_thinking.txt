@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Application of Video-to-Video Translation Networks to Computational Fluid Dynamics" by Hiromitsu Kigure, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, results, and conclusion sections** to identify any datasets mentioned. The abstract provides a brief overview of the research but does not specify datasets. Therefore, I will focus on the **introduction** and **methods** sections for more detailed information.
+
+In the **introduction**, the author discusses the application of GANs to CFD simulations but does not mention specific datasets. I will then proceed to the **methods section**, particularly the subsection titled **Numerical Simulations**. Here, the author describes the ideal magnetohydrodynamic (MHD) equations solved numerically and mentions the use of simulations to generate input images for GANs.
+
+Next, I will look for any tables or figures that summarize the datasets used. In the **results section**, I find **Table 2**, which outlines the details of the training and testing datasets. This table indicates:
+
+- **Training Datasets**: 
+  - Number of cases: 16
+  - Total number of images: 320
+  - Pixel size of images: 256 × 256
+  - Range of B0 values: 0.1 – 1.5 with an interval of 0.1, and 2.0
+
+- **Testing Datasets**:
+  - Number of cases: 19
+  - Total number of images: 380
+  - Pixel size of images: 256 × 256
+  - Range of B0 values: 0.15 – 1.55 and 1.6 – 1.9 with an interval of 0.1
+
+This information confirms the existence of two datasets: one for training and one for testing.
+
+Now, I will check the **references section** to find any citations related to the datasets. However, the paper does not provide specific citations for the datasets used, as they are based on numerical simulations rather than publicly available datasets.
+
+Since the datasets are derived from the author's own simulations, I will summarize the datasets as follows:
+
+1. **Training Dataset**: 
+   - Description: A dataset consisting of 320 images generated from 16 cases of low-resolution and high-resolution grid simulations of ideal MHD equations.
+   - Citation: Not applicable (derived from author's simulations).
+
+2. **Testing Dataset**: 
+   - Description: A dataset consisting of 380 images generated from 19 cases of low-resolution and high-resolution grid simulations of ideal MHD equations.
+   - Citation: Not applicable (derived from author's simulations).
+
+Finally, I will compile the dataset entries into a structured format for clarity and future reference. This process ensures that I have accurately captured the datasets mentioned in the paper, even if they do not have formal citations.

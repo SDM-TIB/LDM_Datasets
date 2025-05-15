@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "RE-MOVE: An Adaptive Policy Design for Robotic Navigation Tasks in Dynamic Environments via Language-Based Feedback" by Souradip Chakraborty et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the evaluation of the proposed RE-MOVE approach in various test-time dynamic navigation scenarios, which suggests that datasets may be involved.
+
+Next, I will focus on the **experiments section** (Section V) where the authors describe the environments used for testing. They mention conducting experiments in both synthetic and real-world environments, specifically:
+
+1. **Discrete Grid World**: This is a 2D maze-like environment where the agent navigates from a start to a goal position. The authors refer to using expert demonstrations collected in this environment.
+
+2. **Visual Grid World**: This environment replaces tabular states with image-based inputs, adding complexity to the navigation task.
+
+3. **Simulated Outdoor Environment**: This includes various types of obstacles and is designed to closely replicate real-world navigation scenarios.
+
+4. **Real-World Indoor Navigation**: The authors deploy their algorithm on a real robot in indoor environments to evaluate performance.
+
+In the **appendices**, the authors provide additional details about the datasets used for training and testing. For instance, they mention generating expert demonstration data for the discrete grid world and the simulated outdoor environment.
+
+Now, I will check the **References section** to find full citations for any datasets or related works mentioned. The paper cites various works that may provide context or datasets relevant to their experiments. 
+
+For example, they refer to the following works that may be relevant for dataset citations:
+
+- The original work on the **Dynamic Window Approach (DWA)**, which is used as a baseline for comparison.
+- The **Gmapping** ROS package for generating occupancy grid maps from LiDAR data.
+
+I will compile the dataset information as follows:
+
+1. **Discrete Grid World Dataset**: This dataset is generated using expert demonstrations for the navigation task. The specific citation for the methodology used to create this dataset may not be explicitly stated, but it is based on Dijkstra’s algorithm for pathfinding.
+
+2. **Visual Grid World Dataset**: Similar to the discrete grid world, this dataset is derived from the same navigation tasks but with image-based inputs.
+
+3. **Simulated Outdoor Environment Dataset**: This dataset is created using a high-fidelity outdoor simulator, but specific citations for the simulator or the dataset may not be provided.
+
+4. **Real-World Indoor Navigation Dataset**: The authors do not provide a specific dataset citation for the real-world experiments, but they mention using a Clearpath Husky robot equipped with LiDAR for navigation.
+
+After gathering this information, I will ensure to format the dataset citations correctly and include them in the final output.
+
+In summary, I will extract the datasets mentioned in the paper, identify their descriptions, and retrieve full citations where applicable, ensuring that I maintain clarity and accuracy in the dataset entries.

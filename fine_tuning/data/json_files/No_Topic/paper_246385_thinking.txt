@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Transient Non-Stationarity and Generalisation in Deep Reinforcement Learning" by Maximilian Igl et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to find any references to datasets. The abstract mentions that the authors evaluate their method on the **ProcGen** and **Multiroom** benchmarks, indicating that these are likely datasets used in their experiments.
+
+Next, I will focus on the **experiments section** (section 5), where the authors describe their evaluations. They specifically mention using the **Multiroom environment** and several environments from the **ProcGen benchmark**. I will look for detailed descriptions of these datasets, including their characteristics and any relevant statistics.
+
+In section 5.1, the authors describe the **Multiroom environment** as a grid-based task where an agent must navigate through rooms to reach a goal. They mention that the environment generates new layouts for each episode, which emphasizes the need for generalization. However, they do not provide a formal citation for this environment, as it is likely a well-known benchmark.
+
+In section 5.3, the authors discuss the **ProcGen benchmark**, which is designed to measure generalization in reinforcement learning. They mention training on 500 randomly generated level layouts and testing on previously unseen levels. Again, while they provide a description, they do not include a formal citation for this benchmark.
+
+To ensure I have the correct citations, I will check the **References section** of the paper for any relevant citations related to the datasets. The references for the environments are as follows:
+
+- For the **Multiroom environment**, the citation is:
+  > Maxime Chevalier-Boisvert and Lucas Willems. *Minimalistic gridworld environment for openai gym*. https://github.com/maximecb/gym-minigrid, 2018.
+
+- For the **ProcGen benchmark**, the citation is:
+  > Karl Cobbe, Christopher Hesse, Jacob Hilton, and John Schulman. *Leveraging procedural generation to benchmark reinforcement learning*. arXiv preprint arXiv:1912.01588, 2019a.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use.
+
+In summary, the datasets extracted from the paper are:
+1. **Multiroom Environment**: A grid-based environment for reinforcement learning.
+   - Citation: Maxime Chevalier-Boisvert and Lucas Willems. *Minimalistic gridworld environment for openai gym*. https://github.com/maximecb/gym-minigrid, 2018.
+
+2. **ProcGen Benchmark**: A set of procedurally generated environments for evaluating generalization in reinforcement learning.
+   - Citation: Karl Cobbe, Christopher Hesse, Jacob Hilton, and John Schulman. *Leveraging procedural generation to benchmark reinforcement learning*. arXiv preprint arXiv:1912.01588, 2019a.
+
+With this information, I am ready to create structured entries for each dataset as needed.

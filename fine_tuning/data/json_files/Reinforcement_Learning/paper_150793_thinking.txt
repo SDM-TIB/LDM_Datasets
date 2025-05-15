@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Efficient RLHF: Reducing the Memory Usage of PPO" by Michael Santacroce et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the authors conducted experiments across four public benchmarks, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (section 4), where the authors typically describe the datasets used for their evaluations. In this section, they mention evaluating their methods on four datasets:
+
+1. **GPT-4-LLM**: This dataset consists of instruction-following prompts with responses sampled from multiple foundation models, including GPT-4, GPT-3.5, and OPT-IML. The responses are ranked by GPT-4.
+
+2. **Open-Source Assistant Datasets**: This dataset includes various open-source ChatBot or Assistant style datasets, specifically mentioning "Dahoas/rm-static", "Dahoas/full-hh-rlhf", "Dahoas/synthetic-instruct-gptj-pairwise", and "yitingxie/rlhf-reward-datasets", all hosted on HuggingFace.
+
+3. **Learning to Summarize**: This dataset is based on the Reddit TL;DR dataset, which has been modified for use in multiple RLHF works.
+
+4. **StackExchange**: This dataset consists of questions with multiple completions ranked by user votes, specifically using 150k samples from StackExchange.
+
+After identifying these datasets, I will check the **References section** for full citations. However, the datasets mentioned are either original datasets or modified versions of existing datasets, so I will provide citations for the original datasets where applicable:
+
+- For **Reddit TL;DR dataset**, the citation is:
+  > Michael V"olske, Martin Potthast, Shahbaz Syed, and Benno Stein. *TL;DR: Mining Reddit to learn automatic summarization*. In Proceedings of the Workshop on New Frontiers in Summarization, pages 59–63, Copenhagen, Denmark, September 2017. Association for Computational Linguistics.
+
+- For **StackExchange dataset**, the citation is:
+  > Nathan Lambert, Lewis Tunstall, Nazneen Rajani, and Tristan Thrush. *Huggingface h4 stack exchange preference dataset*, 2023.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research paper.

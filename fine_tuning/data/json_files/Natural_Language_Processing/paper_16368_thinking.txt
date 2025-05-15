@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "A Safety Evaluation Benchmark for Vision LLMs" by Haoqin Tu et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their full citations.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors present two novel VQA datasets designed for out-of-distribution (OOD) evaluation, which suggests that datasets are indeed included.
+
+Next, I will focus on **section 2 (The Safety Evaluation Benchmark)**, where the authors describe the two parts of their evaluation: OOD scenarios and redteaming attacks. In **subsection 2.1 (Out-of-Distribution Scenarios)**, they introduce two datasets:
+
+1. **OODCV-VQA**: This dataset is designed to evaluate VLLMs under challenging conditions with questions that can be answered with yes/no responses or digits. The authors mention that it is based on images from the OODCV dataset.
+
+2. **Sketchy-VQA**: This dataset focuses on visual question answering with sketchy images, which can be challenging for both humans and models. The authors describe how they constructed this dataset from existing sketch images.
+
+In **subsection 2.1.1**, they also mention a counterfactual variant of the OODCV-VQA dataset, which adds complexity to the evaluation.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **OODCV**, the citation is:
+  > Bingchen Zhao, Shaozuo Yu, Wufei Ma, Mingxin Yu, Shenxiao Mei, Angtian Wang, Ju He, Alan Yuille, and Adam Korytlewski. *OOD-CV: A Benchmark for Robustness to Out-of-Distribution Shifts of Individual Nuisances in Natural Images*. In European Conference on Computer Vision, pages 163–180. Springer, 2022.
+
+- For **Sketchy Dataset**, the citation is:
+  > Mathias Eitz, James Hays, and Marc Alexa. *How Do Humans Sketch Objects?* In SIGGRAPH, 2012.
+
+Now that I have identified the datasets and their citations, I will compile the dataset entries into a structured format for further processing. This will ensure that I have accurately captured the necessary information for each dataset mentioned in the paper.

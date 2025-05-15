@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "Template-free Articulated Neural Point Clouds for Reposable View Synthesis" by Lukas Uzolas, Elmar Eisemann, and Petr Kellnhofer, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and the introduction often outlines the datasets used for evaluation.
+
+In the **introduction**, the authors mention that they demonstrate their method on a variety of articulated objects from common datasets. This indicates that specific datasets will be discussed later in the paper.
+
+Next, I will focus on the **experiments section**, specifically looking for a subsection that discusses datasets. In this paper, the authors explicitly mention three datasets used for evaluation:
+
+1. **Robots Dataset**: This dataset features multi-view synthetic videos of 8 topologically varied robots, making it suitable for testing pose articulation. The authors specify that they use 18 views for training and 2 for evaluation.
+
+2. **Blender Dataset**: This is a sparse multi-view synthetic dataset that includes 5 humanoid and 2 other articulated objects. The authors note that its visual quality benchmarks are used to test the fidelity of image detail reconstruction.
+
+3. **ZJU-MoCap Dataset**: This dataset is a common test suite for dynamic human reconstruction, and the authors evaluate 5 of its multi-view sequences with the same 6 training views as used in the Watch-It-Move method.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Robots Dataset**, the citation is:
+  > Atsuhiro Noguchi, Umar Iqbal, Jonathan Tremblay, Tatsuya Harada, and Orazio Gallo. *Watch it move: Unsupervised discovery of 3D joints for re-posing of articulated objects*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 3677–3687, 2022.
+
+- For the **Blender Dataset**, the citation is:
+  > Albert Pumarola, Enric Corona, Gerard Pons-Moll, and Francesc Moreno-Noguer. *D-NeRF: Neural radiance fields for dynamic scenes*. arXiv preprint arXiv:2011.13961, 2020.
+
+- For the **ZJU-MoCap Dataset**, the citation is:
+  > Sida Peng, Yuanqing Zhang, Yinghao Xu, Qianqian Wang, Qing Shuai, Hujun Bao, and Xiaowei Zhou. *Neural body: Implicit neural representations with structured latent codes for novel view synthesis of dynamic humans*. In CVPR, 2021.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+1. **Robots Dataset**: A dataset featuring multi-view synthetic videos of 8 varied robots, used for testing pose articulation.
+2. **Blender Dataset**: A sparse multi-view synthetic dataset with humanoid and other articulated objects, used for evaluating image detail reconstruction.
+3. **ZJU-MoCap Dataset**: A test suite for dynamic human reconstruction, evaluated with multi-view sequences.
+
+Finally, I will compile the dataset entries into a structured format for further processing or review.

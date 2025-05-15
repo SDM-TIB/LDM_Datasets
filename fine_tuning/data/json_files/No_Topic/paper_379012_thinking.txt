@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "ERM++: An Improved Baseline for Domain Generalization" by Piotr Teterwak et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned. The abstract states that the authors evaluate their method on a standard benchmark of **5 datasets**, which indicates that there are multiple datasets to look for.
+
+Next, I will focus on **section 4 (DomainBed Experiments)**, where the authors describe the datasets used for evaluation. Here, they list the following datasets:
+
+1. **OfficeHome**: A dataset for 65-way classification with 15,588 samples across 4 domains: art, clipart, product, and real.
+2. **DomainNet**: A larger dataset with 345 classes and 586,575 samples across 6 domains: clipart, infograph, painting, quickdraw, real, and sketch.
+3. **PACS**: A smaller dataset with 7 classes and 9,991 samples across 4 domains: art, cartoon, photo, and sketch.
+4. **VLCS**: A dataset for 5-way classification with 10,729 samples from 4 domains: Caltech101, LabelMe, SUN09, and VOC2007.
+5. **TerraIncognita**: A dataset with 10 classes and 24,788 samples, focusing on animals captured in wildlife cameras across different locations.
+
+In addition, the authors mention two out-of-domain datasets in **section 5**:
+
+6. **WILDS-FMoW**: A land-use classification problem with 141,696 samples from 5 regions.
+7. **WILDS-PCAM**: A binary classification problem with 455,954 samples from different hospitals.
+
+Now, I will check the **References section** to find the full citations for each dataset:
+
+- For **OfficeHome**, the citation is:
+  > Venkateswara, H., Eusebio, J., Chakraborty, S., & Panchanathan, S. (2017). *Deep hashing network for unsupervised domain adaptation*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
+
+- For **DomainNet**, the citation is:
+  > Peng, X., Bai, Q., Xia, X., Huang, Z., Saenko, K., & Wang, B. (2019). *Moment matching for multi-source domain adaptation*. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV).
+
+- For **PACS**, the citation is:
+  > Li, D., Yang, Y., Song, Y.Z., & Hospedales, T. (2017). *Deeper, broader and artier domain generalization*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV).
+
+- For **VLCS**, the citation is:
+  > Fang, C., Xu, Y., & Rockmore, D.N. (2013). *Unbiased metric learning: On the utilization of multiple datasets and web images for softening bias*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV).
+
+- For **TerraIncognita**, the citation is:
+  > Beery, S., Van Horn, G., & Perona, P. (2018). *Recognition in terra incognita*. In Proceedings of the European Conference on Computer Vision (ECCV).
+
+- For **WILDS-FMoW**, the citation is:
+  > Koh, P.W., Sagawa, S., Marklund, H., et al. (2021). *WILDS: A benchmark of in-the-wild distribution shifts*. In International Conference on Machine Learning (ICML).
+
+- For **WILDS-PCAM**, the citation is:
+  > Bandi, P., et al. (2018). *From detection of individual metastases to classification of lymph node status at the patient level: the camelyon17 challenge*. IEEE Transactions on Medical Imaging.
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset name, description, and full citation for each dataset. This will ensure that the extraction is thorough and accurate, providing a clear reference for each dataset used in the research.

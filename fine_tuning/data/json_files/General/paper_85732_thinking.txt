@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Measuring Patent Claim Generation by Span Relevancy" by Jieh-Sheng Lee and Jieh Hsiang, I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will start by examining the **abstract** and **introduction** sections of the paper. The abstract mentions the use of a span-based approach to measure patent claim generation, which suggests that datasets related to patent claims may be involved. The introduction further elaborates on the goal of the research, hinting at the use of specific datasets for training and evaluation.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **methodology** or **experimental setup** sections. In this paper, the authors describe their data pipeline and mention the use of datasets for training their models. Specifically, they refer to datasets derived from the Google Patents Public Datasets on BigQuery, which is crucial for understanding the data they used.
+
+In **section 3 (Build a Span-pair Classifier based on BERT)**, the authors provide detailed information about the datasets they constructed. They mention the following datasets:
+
+1. **Patent Claim Datasets for 2013-2016**: The authors created datasets containing relevant and irrelevant span pairs from patent claims. They specify the number of records for each year:
+   - 2013: 3,826,027 pairs
+   - 2014: 3,257,617 pairs
+   - 2015: 3,316,532 pairs
+   - 2016: 3,728,207 pairs
+
+2. **Fine-tuning Dataset for GPT-2**: This dataset consists of 18,000 patent claims, divided into three smaller datasets based on CPC classes:
+   - CPC Class A (Human Necessities): Data from 2011 to 2014
+   - CPC Class G (Physics): Data from 2011 to 2014
+   - Combined CPC Class A and G: Data from 2000 to 2016
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned. The paper references the Google Patents Public Datasets, which can be cited as follows:
+- Google Patents Public Datasets. Available at: https://console.cloud.google.com/bigquery?p=patents-public-data
+
+For the datasets created by the authors, since they are original datasets derived from their research, I will note them as follows:
+- Lee, J.-S., Hsiang, J. (2019). *Measuring Patent Claim Generation by Span Relevancy*. In Proceedings of the Thirteenth International Workshop on Juris-informatics (JURISIN 2019), Kanagawa, Japan, November 11-12, 2019.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is clearly described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper, ready for further processing or review.

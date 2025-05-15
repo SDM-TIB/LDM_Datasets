@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "Understanding Practical Membership Privacy of Deep Learning" by Marlon Tobaben et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to locate any references to datasets. The abstract mentions applying a membership inference attack (MIA) to evaluate privacy vulnerabilities in image classification models, which suggests that datasets are involved.
+
+Next, I will focus on the **Methods section**, particularly the **B.3 Datasets** subsection, where the authors provide a table listing the datasets used in their experiments. This section is likely to contain detailed information about each dataset, including their names, properties, and any relevant metrics.
+
+In the **B.3 Datasets** subsection, I find the following datasets listed:
+
+1. **Patch Camelyon**: This dataset is used for binary classification (C=2) and has a maximum of 256 shots per class. The test accuracy ranges from 82.8% to 85.6%.
+
+2. **CIFAR10**: A well-known dataset for image classification with 10 classes (C=10). The maximum number of shots is 2048, and the test accuracy ranges from 92.7% to 97.7%.
+
+3. **EuroSAT**: This dataset is used for land cover classification with 10 classes (C=10). The maximum number of shots is 512, with test accuracy ranging from 80.2% to 96.7%.
+
+4. **Pets**: This dataset consists of images of various pets, with 37 classes (C=37) and a maximum of 32 shots per class. The test accuracy ranges from 82.3% to 90.7%.
+
+5. **Resics45**: A dataset with 45 classes (C=45) and a maximum of 256 shots per class. The test accuracy ranges from 83.5% to 91.6%.
+
+6. **CIFAR100**: Similar to CIFAR10 but with 100 classes (C=100). The maximum number of shots is 128, and the test accuracy ranges from 82.2% to 87.6%.
+
+Now, I will look into the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- **Patch Camelyon**: 
+  > Veeling, B. S., Linmans, J., Winkens, J., Cohen, T., & Welling, M. (2018). Rotation equivariant CNNs for digital pathology. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 210–218). Springer.
+
+- **CIFAR10**: 
+  > Krizhevsky, A. (2009). Learning multiple layers of features from tiny images. Master's thesis, University of Toronto.
+
+- **EuroSAT**: 
+  > Helber, P., Bischke, B., Dengel, A., & Borth, D. (2019). Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 12(7), 2217–2226.
+
+- **Pets**: 
+  > Parkhi, P. M., Vedaldi, A., Zisserman, A., & Jawahar, C. V. (2012). Cats and dogs. In 2012 IEEE Conference on Computer Vision and Pattern Recognition (pp. 3498–3505). IEEE Computer Society.
+
+- **Resics45**: 
+  > Cheng, G., Han, J., & Lu, X. (2017). Remote sensing image scene classification: Benchmark and state of the art. Proceedings of the IEEE, 105(10), 1865–1883.
+
+- **CIFAR100**: 
+  > Krizhevsky, A. (2009). Learning multiple layers of features from tiny images. Master's thesis, University of Toronto.
+
+With this information, I can now compile the dataset entries for further processing or review. Each dataset will be documented with its name, properties, and full citation to ensure proper attribution.

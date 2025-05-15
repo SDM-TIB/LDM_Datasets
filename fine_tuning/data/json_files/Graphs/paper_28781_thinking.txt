@@ -1,0 +1,73 @@
+To extract datasets from the research paper titled "GCoD: Graph Convolutional Network Acceleration via Dedicated Algorithm and Accelerator Co-Design" by Haoran You et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reviewing the **abstract and introduction** sections. The abstract mentions that the authors conducted extensive experiments on "five GCN models and six graph datasets," which indicates that datasets are indeed present in the paper. I will look for specific names of these datasets.
+
+Next, I will examine the **experiments section** (Section VI) where the authors typically describe the datasets used for evaluation. In this section, they mention six graph datasets: **Cora, CiteSeer, Pubmed, NELL, Ogbn-ArXiv, and Reddit**. I will note down these names as they are crucial for the dataset extraction.
+
+Then, I will look for the **dataset specifications** within the same section or any other relevant sections. The authors provide a summary table (Table III) that includes the following details for each dataset:
+
+1. **Cora**: 
+   - Nodes: 2,708
+   - Edges: 5,429
+   - Features: 1,433
+   - Classes: 7
+   - Storage: 15 MB
+
+2. **CiteSeer**: 
+   - Nodes: 3,312
+   - Edges: 4,372
+   - Features: 3,703
+   - Classes: 6
+   - Storage: 47 MB
+
+3. **Pubmed**: 
+   - Nodes: 19,717
+   - Edges: 44,338
+   - Features: 500
+   - Classes: 3
+   - Storage: 38 MB
+
+4. **NELL**: 
+   - Nodes: 65,755
+   - Edges: 266,144
+   - Features: 5,414
+   - Classes: 210
+   - Storage: 1.3 GB
+
+5. **Ogbn-ArXiv**: 
+   - Nodes: 169,343
+   - Edges: 1,166,243
+   - Features: 128
+   - Classes: 40
+   - Storage: 103 MB
+
+6. **Reddit**: 
+   - Nodes: 232,965
+   - Edges: 114,615,892
+   - Features: 602
+   - Classes: 41
+   - Storage: 1.8 GB
+
+Next, I will check the **References section** to find full citations for these datasets. The datasets Cora, CiteSeer, and Pubmed are commonly used citation networks, and their citations can be found in the literature. The NELL dataset is associated with the paper by Carlson et al. (2010), and the Ogbn-ArXiv dataset is from the Open Graph Benchmark. The Reddit dataset is often referenced in the context of social network analysis.
+
+Here are the citations I will compile for each dataset:
+
+- **Cora Dataset**: 
+  > Sen, P., Namata, G., Bilgic, M., Getoor, L., Galligher, B., & Eliassi-Rad, T. (2008). Collective classification in network data. *AI Magazine*, 29(3), 93-93.
+
+- **CiteSeer Dataset**: 
+  > Sen, P., Namata, G., Bilgic, M., Getoor, L., Galligher, B., & Eliassi-Rad, T. (2008). Collective classification in network data. *AI Magazine*, 29(3), 93-93.
+
+- **Pubmed Dataset**: 
+  > Sen, P., Namata, G., Bilgic, M., Getoor, L., Galligher, B., & Eliassi-Rad, T. (2008). Collective classification in network data. *AI Magazine*, 29(3), 93-93.
+
+- **NELL Dataset**: 
+  > Carlson, A., Betteridge, J., Kisiel, B., Settles, B., Hruschka, E., & Mitchell, T. (2010). Toward an architecture for never-ending language learning. In *Proceedings of the AAAI Conference on Artificial Intelligence* (Vol. 24, No. 1).
+
+- **Ogbn-ArXiv Dataset**: 
+  > Hu, W., Fey, M., Zitnik, M., Dong, Y., Ren, H., Liu, B., Catasta, M., & Leskovec, J. (2020). Open graph benchmark: Datasets for machine learning on graphs. *arXiv preprint arXiv:2005.00687*.
+
+- **Reddit Dataset**: 
+  > Hamilton, W., Ying, Z., & Leskovec, J. (2017). Inductive representation learning on large graphs. In *Advances in neural information processing systems* (pp. 1024-1034).
+
+Finally, I will compile the dataset entries with their respective citations into a structured format for further processing or review.

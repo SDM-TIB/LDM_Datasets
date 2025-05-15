@@ -1,0 +1,43 @@
+To extract datasets from the research paper titled "MuLTI: Efficient Video-and-Language Understanding with Text-Guided MultiWay-Sampler and Multiple Choice Modeling" by Jiaqi Xu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper to identify any datasets mentioned. The abstract mentions that MuLTI achieves state-of-the-art performance on multiple datasets, which indicates that datasets are likely discussed in detail later in the paper.
+
+Next, I will look for specific sections that typically contain dataset information, such as **"Pretraining Datasets"** and **"Downstream Tasks and Datasets."** In the **"Pretraining Datasets"** section, the authors mention two datasets used for pretraining:
+
+1. **WebVid-2M**: This dataset contains 2.5 million video-text pairs.
+2. **CC-3M**: This dataset contains 3 million image-text pairs.
+
+I will also check the **"Downstream Tasks and Datasets"** section, where the authors evaluate their model on various tasks. They mention several datasets used for video question answering and text-video retrieval:
+
+1. **MSRQ (MSRVTT-QA)**: An open-ended video QA task that includes 10,000 videos and 243,000 question-answer pairs.
+2. **MSVQ (MSVD-QA)**: Another open-ended video QA task that includes 1,970 videos and 50,000 question-answer pairs.
+3. **TGIF-QA**: This dataset contains multiple-choice video QA tasks and is divided into three datasets: TGIF-Action, TGIF-Transition, and TGIF-Frame.
+4. **MSRR (MSRVTT-Ret)**: This dataset contains 10,000 videos with 200,000 annotations.
+5. **DiDeMo (DiDeMo-Ret)**: This dataset consists of 10,000 videos with 40,000 annotations.
+
+After identifying these datasets, I will refer to the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The citations I will extract are:
+
+- For **WebVid-2M**:
+  > Bain, M.; Nagrani, A.; Varol, G.; and Zisserman, A. 2021. *Frozen in Time: A Joint Video and Image Encoder for End-to-End Retrieval*. 2021 IEEE/CVF International Conference on Computer Vision (ICCV), 1708–1718.
+
+- For **CC-3M**:
+  > Sharma, P.; Ding, N.; Goodman, S.; and Soricut, R. 2018. *Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning*. In ACL.
+
+- For **MSRQ (MSRVTT-QA)**:
+  > Xu, D.; Zhao, Z.; Xiao, J.; Wu, F.; Zhang, H.; He, X.; and Zhuang, Y. 2017. *Video question answering via gradually refined attention over appearance and motion*. In Proceedings of the ACM international conference on Multimedia, 1645–1653.
+
+- For **MSVQ (MSVD-QA)**:
+  > Chen, D.; and Dolan, W. B. 2011. *Collecting highly parallel data for paraphrase evaluation*. In Proceedings of the 49th annual meeting of the association for computational linguistics: human language technologies, 190–200.
+
+- For **TGIF-QA**:
+  > Jang, Y.; Song, Y.; Yu, Y.; Kim, Y.; and Kim, G. 2017. *TGIF-QA: Toward Spatio-Temporal Reasoning in Visual Question Answering*. 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 1359–1367.
+
+- For **MSRR (MSRVTT-Ret)**:
+  > Xu, J.; Mei, T.; Yao, T.; and Rui, Y. 2016. *MSR-VTT: A Large Video Description Dataset for Bridging Video and Language*. In Proceedings of the IEEE conference on computer vision and pattern recognition, 5288–5296.
+
+- For **DiDeMo (DiDeMo-Ret)**:
+  > Miech, A.; Alayrac, J.-B.; Smaira, L.; Laptev, I.; Sivic, J.; and Zisserman, A. 2020. *End-to-End Learning of Visual Representations From Uncurated Instructional Videos*. 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 9876–9886.
+
+Now, I will compile the dataset entries with their respective citations into a structured format for further processing.

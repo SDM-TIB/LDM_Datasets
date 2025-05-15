@@ -1,0 +1,16 @@
+To extract datasets from the research paper titled "PRIBOOT: A New Data-Driven Expert for Improved Driving Simulations" by Daniel Coelho et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and method sections** to look for any references to datasets. The abstract mentions that PRIBOOT can generate extensive datasets, which indicates that datasets are a key component of the research.
+
+Next, I will focus on the **experiments section**, specifically looking for any explicit mentions of datasets used for training or evaluation. The authors describe using human driving logs provided by CARLA, which are crucial for training PRIBOOT. They mention that these logs correspond to 10 routes in Town12 and 10 routes in Town13, amounting to approximately 700,000 samples collected at a frequency of 20Hz. This information is essential for understanding the dataset's structure and purpose.
+
+I will also check the **related work section** to see if any other datasets are referenced that might have been used in conjunction with PRIBOOT or in previous studies. However, the primary dataset appears to be the human driving logs from CARLA.
+
+Now, I will consult the **references section** to find full citations for the datasets mentioned. The CARLA simulator is referenced multiple times, and I will ensure to include its citation as it is the source of the driving logs.
+
+The full citation for the CARLA simulator is:
+> Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2017). *CARLA: An open urban driving simulator*. In Conference on Robot Learning (Vol. 78, pp. 1-16). PMLR.
+
+Additionally, I will note that the human driving logs are derived from the CARLA simulator, so I will document this relationship in the dataset description.
+
+Finally, I will compile the dataset entries, ensuring that each entry includes the dataset name, a brief description, and the full citation. This structured approach will help ensure that all relevant information is captured accurately and comprehensively.

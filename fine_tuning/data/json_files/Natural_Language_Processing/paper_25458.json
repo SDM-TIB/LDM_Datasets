@@ -1,0 +1,88 @@
+[
+    {
+        "dcterms:creator": [
+            "O. Mees",
+            "L. Hermann",
+            "E. Rosete-Beas",
+            "W. Burgard"
+        ],
+        "dcterms:description": "A benchmark for language-conditioned policy learning for long-horizon robot manipulation tasks, providing various tasks and corresponding language instructions.",
+        "dcterms:title": "CALVIN dataset",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.1109/LRA.2022.3180108",
+        "dcat:theme": [
+            "Robotics",
+            "Reinforcement Learning"
+        ],
+        "dcat:keyword": [
+            "Robot manipulation",
+            "Language conditioning",
+            "Benchmark dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Multi-task learning",
+            "Policy learning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "E. Aljalbout",
+            "F. Frank",
+            "M. Karl",
+            "P. van der Smagt"
+        ],
+        "dcterms:description": "A dataset containing offline episodes for robot manipulation tasks, used to train models in a multi-task setting.",
+        "dcterms:title": "Doffline",
+        "dcterms:issued": "2024",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Robotics",
+            "Reinforcement Learning"
+        ],
+        "dcat:keyword": [
+            "Offline dataset",
+            "Robot manipulation",
+            "Sim-to-real transfer"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Multi-task learning",
+            "Policy learning"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A filtered dataset used in the later stages of training, containing episodes from specific tasks.",
+        "dcterms:title": "Dfiltered",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "An online dataset used for training the agent during the online phase, containing episodes collected during policy rollouts.",
+        "dcterms:title": "Donline",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "A Survey on Data Selection for LLM Instruction Tuning" by Jiahao Wang et al., I will follow a systematic approach to ensure I capture all relevant datasets along with their full citations.
+
+First, I will start by reading through the **abstract** and **introduction** sections. In the abstract, the authors mention that they will introduce widely used instruction datasets, which indicates that there are specific datasets to look for. The introduction further elaborates on the importance of dataset quality in instruction tuning, hinting at various datasets that may be discussed later in the paper.
+
+Next, I will focus on **section 2 (Instruction Sets)**, where the authors explicitly list several instruction tuning datasets. Here, I will identify each dataset mentioned, along with any relevant details provided about their construction or characteristics.
+
+The datasets mentioned in this section include:
+
+1. **Self-Instruct**: Created by Wang et al. (2023), consisting of 52,000 training and 252 testing instructions. The dataset is generated using InstructGPT to diversify initial instructions.
+
+2. **Alpaca**: Created by Taori et al. (2023), which contains 52,002 samples used for fine-tuning LLaMA. The samples are generated using text-davinci-003.
+
+3. **WizardLM**: Created by Xu et al. (2023a), consisting of 250,000 samples generated through evolutionary algorithms to enhance instruction complexity and diversity.
+
+4. **LIMA**: Created by Zhou et al. (2023a), which includes 1,000 training samples, 300 test samples, and 50 development samples, with a focus on high-quality manual selection.
+
+5. **Dolly-v2**: Created by Conover et al. (2023), containing 15,000 instructions across various tasks, authored manually by employees.
+
+6. **P3**: Created by Sanh et al. (2022), integrating 170 NLP datasets with 2,052 prompts to convert traditional NLP tasks into natural language input-output pairs.
+
+After identifying these datasets, I will then refer to the **References section** to gather the full citations for each dataset:
+
+- For **Self-Instruct**:
+  > Wang, Y., Kordi, Y., Mishra, S., Liu, A., Smith, N. A., Khashabi, D., & Hajishirzi, H. (2023). Self-instruct: Aligning language models with self-generated instructions. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), ACL 2023, Toronto, Canada, July 9-14, 2023, pages 13484–13508.
+
+- For **Alpaca**:
+  > Taori, R., Gulrajani, I., Zhang, T., Dubois, Y., Li, X., Guestrin, C., Liang, P., & Hashimoto, T. B. (2023). Stanford alpaca: An instruction-following LLM model. https://github.com/tatsu-lab/stanford_alpaca.
+
+- For **WizardLM**:
+  > Xu, C., Sun, Q., Zheng, K., Geng, X., Zhao, P., Feng, J., Tao, C., & Jiang, D. (2023a). WizardLM: Empowering large language models to follow complex instructions. CoRR, abs/2304.12244.
+
+- For **LIMA**:
+  > Zhou, C., Liu, P., Xu, P., Iyer, S., Sun, J., Mao, Y., Ma, X., Efrat, A., Yu, L., Zhang, S., Ghosh, G., Lewis, M., Zettlemoyer, L., & Levy, O. (2023a). LIMA: Less is more for alignment. In Thirty-seventh Conference on Neural Information Processing Systems, 2023.
+
+- For **Dolly-v2**:
+  > Conover, M., Hayes, M., Mathur, A., Xie, J., Wan, J., Shah, S., Ghodsi, A., Wendell, P., Zaharia, M., & Xin, R. (2023). Free dolly: Introducing the world’s first truly open instruction-tuned LLM.
+
+- For **P3**:
+  > Sanh, V., Webson, A., Raffel, C., Bach, S. H., Sutawika, L., Alyafeai, Z., Chaffin, A., Stiegler, A., Raja, A., Dey, M., Bari, M. S., Xu, C., Thakker, U., Sharma, S., Szczechla, E., Kim, T., Chhablani, G., Nayak, N. V., Datta, D., Chang, J., Jiang, M. T., Wang, H., Manica, M., Shen, S., Yong, Z. X., Pandey, H., Bawden, R., Wang, T., Neeraj, T., Rozen, J., Sharma, A., Santilli, A., Févry, T., Fries, J. A., Teehan, R., Scao, T. L., & Wolf, T. (2022). Multitask prompted training enables zero-shot task generalization. In The Tenth International Conference on Learning Representations, ICLR 2022, Virtual Event, April 25-29, 2022.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

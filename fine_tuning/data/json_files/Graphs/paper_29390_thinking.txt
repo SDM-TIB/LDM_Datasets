@@ -1,0 +1,59 @@
+To extract datasets from the research paper titled "DiffCSE: Difference-based Contrastive Learning for Sentence Embeddings" by Yung-Sung Chuang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the proposed method and its evaluation, which may include references to datasets.
+
+Next, I will focus on the **experiments section** (specifically section 4) where the authors typically describe the datasets used for their experiments. In this section, I will look for any specific names of datasets, their characteristics, and how they were utilized in the experiments.
+
+In the **4.2 Data section**, the authors mention using **106 randomly sampled sentences from English Wikipedia** for unsupervised pretraining. This indicates that the dataset is derived from Wikipedia, which is a well-known resource for various NLP tasks.
+
+Additionally, the authors evaluate their model on **7 semantic textual similarity tasks (STS)** and **7 transfer tasks from SentEval**. I will need to identify the specific datasets used for these tasks, which are likely detailed in the references or within the context of the experiments.
+
+For the **STS tasks**, the paper lists:
+- **STS 2012–2016** (Agirre et al., 2016)
+- **STS Benchmark** (Cer et al., 2017)
+- **SICK-Relatedness** (Marelli et al., 2014)
+
+For the **transfer tasks**, the paper mentions:
+- **MR** (Pang and Lee, 2005)
+- **CR** (Hu and Liu, 2004)
+- **SUBJ** (Pang and Lee, 2004)
+- **MPQA** (Wiebe et al., 2005)
+- **SST-2** (Socher et al., 2013)
+- **TREC** (Voorhees and Tice, 2000)
+- **MRPC** (Dolan and Brockett, 2005)
+
+Next, I will consult the **References section** to retrieve the full citations for these datasets. This is crucial for proper attribution and to provide readers with the necessary information to access the datasets.
+
+The citations I will extract are as follows:
+
+1. For **STS 2012–2016**:
+   > Eneko Agirre, Carmen Banea, Daniel Cer, Mona Diab, Aitor Gonzalez-Agirre, Rada Mihalcea, German Rigau, and Janyce Wiebe. *SemEval-2016 task 1: Semantic textual similarity, monolingual and cross-lingual evaluation*. In Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval-2016), pages 497–511, San Diego, California, 2016.
+
+2. For **STS Benchmark**:
+   > Daniel Cer, Mona Diab, Eneko Agirre, Iñigo Lopez-Gazpio, and Lucia Specia. *SemEval-2017 task 1: Semantic textual similarity multilingual and crosslingual focused evaluation*. In Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-2017), pages 1–14, Vancouver, Canada, 2017.
+
+3. For **SICK-Relatedness**:
+   > Marco Marelli, Stefano Menini, Marco Baroni, Luisa Bentivogli, Raffaella Bernardi, Roberto Zamparelli, et al. *A sick cure for the evaluation of compositional distributional semantic models*. In Lrec, pages 216–223, Reykjavik, 2014.
+
+4. For **MR**:
+   > Bo Pang and Lillian Lee. *Seeing stars: Exploiting class relationships for sentiment categorization with respect to rating scales*. In Proceedings of the 43rd Annual Meeting of the Association for Computational Linguistics (ACL’05), pages 115–124, 2005.
+
+5. For **CR**:
+   > Minqing Hu and Bing Liu. *Mining and summarizing customer reviews*. In Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining, pages 168–177, 2004.
+
+6. For **SUBJ**:
+   > Bo Pang and Lillian Lee. *A sentimental education: Sentiment analysis using subjectivity summarization based on minimum cuts*. arXiv preprint cs/0409058, 2004.
+
+7. For **MPQA**:
+   > Janyce Wiebe, Theresa Wilson, and Claire Cardie. *Annotating expressions of opinions and emotions in language*. Language resources and evaluation, 39(2):165–210, 2005.
+
+8. For **SST-2**:
+   > Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D Manning, Andrew Y Ng, and Christopher Potts. *Recursive deep models for semantic compositionality over a sentiment treebank*. In Proceedings of the 2013 conference on empirical methods in natural language processing, pages 1631–1642, 2013.
+
+9. For **TREC**:
+   > Ellen M Voorhees and Dawn M Tice. *Building a question answering test collection*. In Proceedings of the 23rd annual international ACM SIGIR conference on Research and development in information retrieval, pages 200–207, 2000.
+
+10. For **MRPC**:
+    > William B Dolan and Chris Brockett. *Automatically constructing a corpus of sentential paraphrases*. In Proceedings of the Third International Workshop on Paraphrasing (IWP2005), 2005.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

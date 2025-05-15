@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "NoxTrader: LSTM-Based Stock Return Momentum Prediction for Quantitative Trading" by Wei-Ning Chiu et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to locate any references to datasets. The abstract mentions that the system utilizes historical trading data, specifically focusing on time-series analysis, which suggests that there is a dataset involved.
+
+In the **introduction**, the authors discuss the integration of artificial intelligence models with financial market data, but they do not explicitly name any datasets. I will need to look further into the methods section for more specific information.
+
+In **section II (Methods)**, particularly in **subsection A (Feature Generation)**, the authors describe the historical data sourced from the yfinance platform, which includes fundamental metrics such as opening, closing, highest, and lowest values of stocks. This indicates that the dataset is derived from the US stock market, but I need to confirm its specifics.
+
+In **subsection B (Prediction Method)**, the authors mention that the dataset comprises individual data instances with features and labels derived from the stock market over the past 10 days. They specify that a training set of 240 instances is constructed using historical data from the past year. This gives me a clearer understanding of the dataset's structure and purpose.
+
+Next, I will check the **References section** to find full citations for any datasets or related works mentioned. The authors reference several papers that provide foundational knowledge, but they do not cite a specific dataset directly. However, they do mention using data from the yfinance platform, which is a well-known source for historical stock market data.
+
+The relevant citation for the yfinance platform is not provided in the paper, but I can note that it is a widely used library for accessing financial data in Python.
+
+Now, I will summarize the findings regarding the dataset:
+
+1. **Dataset from yfinance**: This dataset includes historical stock market data for US companies, specifically focusing on features like opening, closing, highest, and lowest prices, as well as trading volume. The dataset is used to generate features for the LSTM model.
+
+Since the paper does not provide a formal citation for the yfinance dataset, I will note that it is a commonly used resource in financial analysis.
+
+In conclusion, I will compile the information about the dataset into a structured format, ensuring to highlight the source and its relevance to the research conducted in the paper.

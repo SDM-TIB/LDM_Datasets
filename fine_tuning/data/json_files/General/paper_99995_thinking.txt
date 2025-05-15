@@ -1,0 +1,66 @@
+To extract datasets from the research paper titled "Entailment as Few-Shot Learner" by Sinong Wang et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will start by examining the **abstract** and **introduction** sections of the paper. The abstract mentions a systematic evaluation on **18 standard NLP tasks**, which suggests that multiple datasets are involved. I will look for specific names of datasets in these sections.
+
+Next, I will focus on the **experiments section**, particularly **section 4 (Experiment)**, where the authors provide a comprehensive overview of the datasets used. In **section 4.1 (Data Statistics)**, the authors list various datasets along with their characteristics, such as the number of training and testing samples, types, and labels. This section is crucial for identifying the datasets utilized in their experiments.
+
+The datasets mentioned in the paper include:
+
+1. **SST-2**: A sentiment classification dataset with 67,349 training samples and 872 testing samples, classified into positive and negative sentiments.
+2. **MR**: A sentiment analysis dataset with 8,662 training samples and 2,000 testing samples, also classified into positive and negative sentiments.
+3. **CR**: A dataset for opinion polarity with 1,775 training samples and 2,000 testing samples, classified as positive or negative.
+4. **MPQA**: A dataset for opinion analysis with 8,606 training samples and 2,000 testing samples, classified into positive and negative opinions.
+5. **Subj**: A subjectivity classification dataset with 8,000 training samples and 2,000 testing samples, classified into subjective and objective.
+6. **OS**: A dataset for hate speech classification with 3,000 training samples and 2,000 testing samples, classified into hate speech and benign.
+7. **IMDB**: A sentiment analysis dataset with 25,000 training samples and 25,000 testing samples, classified into positive and negative sentiments.
+8. **CoLA**: A dataset for grammatical acceptability with 8,551 training samples and 1,042 testing samples, classified into grammatical and ungrammatical.
+9. **Yelp**: A dataset for sentiment analysis with 600k training samples and 4,000 testing samples, classified into five-scale user sentiments.
+10. **AG News**: A topic classification dataset with 120,000 training samples and 7,600 testing samples, classified into world, sports, business, and science news.
+11. **TREC**: A question classification dataset with 5,452 training samples and 500 testing samples, classified into various question types.
+12. **QQP**: A paraphrase identification dataset with 363,846 training samples and 40,431 testing samples, classified into equivalent and not equivalent.
+13. **MRPC**: A paraphrase identification dataset with 3,668 training samples and 408 testing samples, classified into equivalent and not equivalent.
+14. **QNLI**: A natural language inference dataset with 104,743 training samples and 5,463 testing samples, classified into entailment, neutral, and contradiction.
+15. **SNLI**: A natural language inference dataset with 549,367 training samples and 9,842 testing samples, classified into entailment, neutral, and contradiction.
+16. **RTE**: A natural language inference dataset with 2,490 training samples and 277 testing samples, classified into entailment and not entailment.
+17. **STS-B**: A sentence similarity dataset with 5,749 training samples and 3,270 testing samples, providing a continuous score.
+18. **BoolQ**: A question answering dataset with 2,000 training samples and 1,000 testing samples, classified into yes or no.
+
+After identifying these datasets, I will refer to the **References section** to find the full citations for each dataset. The citations for the datasets are as follows:
+
+- **SST-2**: Socher, J., Perelygin, A., Wu, J., Chuang, J., Manning, C. D., Ng, A. Y., & Potts, C. (2013). Recursive deep models for semantic compositionality over a sentiment treebank. In Proceedings of the 2013 conference on empirical methods in natural language processing (pp. 1631-1642).
+  
+- **MR**: Dolan, W. B., & Brockett, C. (2005). Automatically constructing a corpus of sentential paraphrases. In Proceedings of the Third International Workshop on Paraphrasing (IWP2005).
+
+- **CR**: Hu, M., & Liu, B. (2004). Mining and summarizing customer reviews. In Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 168-177).
+
+- **MPQA**: Wiebe, J., Wilson, T., & Cardie, C. (2004). Annotating expressions of opinions and emotions in language resources and evaluation.
+
+- **Subj**: Pang, B., & Lee, L. (2004). A sentimental education: Sentiment analysis using subjectivity summarization based on minimum cuts. In Proceedings of the 49th annual meeting of the association for computational linguistics: Human language technologies (pp. 142-150).
+
+- **OS**: Davidson, T., Warmsley, D., Macy, M., & Weber, I. (2017). Automated hate speech detection and the problem of offensive language. In Proceedings of the International AAAI Conference on Web and Social Media, volume 11.
+
+- **IMDB**: Maas, A. L., Daly, R. E., Pham, P. T., Huang, A., Ng, A. Y., & Potts, C. (2011). Learning word vectors for sentiment analysis. In Proceedings of the 49th annual meeting of the association for computational linguistics: Human language technologies (pp. 142-150).
+
+- **CoLA**: Warstadt, A., Singh, A., & Bowman, S. R. (2019). Neural network acceptability judgments. Transactions of the Association for Computational Linguistics, 7, 625-641.
+
+- **Yelp**: Zhang, Y., Zhao, J., & LeCun, Y. (2015). Character-level convolutional networks for text classification. arXiv preprint arXiv:1509.01626.
+
+- **AG News**: Zhang, Y., Zhao, J., & LeCun, Y. (2015). Character-level convolutional networks for text classification. arXiv preprint arXiv:1509.01626.
+
+- **TREC**: Voorhees, E. M. (2003). The TREC Question Answering Track. In Proceedings of the 12th Text Retrieval Conference (TREC 2003).
+
+- **QQP**: Iyer, S., Manjunatha, V., & Kalyan, S. (2017). First Quora Dataset Release: Question Pairs.
+
+- **MRPC**: Dolan, W. B., & Brockett, C. (2005). Automatically constructing a corpus of sentential paraphrases. In Proceedings of the Third International Workshop on Paraphrasing (IWP2005).
+
+- **QNLI**: Rajpurkar, P., Zhang, J., Lopyrev, K., & Liang, P. (2016). SQuAD: 100,000+ questions for machine comprehension of text. arXiv preprint arXiv:1606.05250.
+
+- **SNLI**: Bowman, S. R., Angeli, S., Potts, C., & Manning, C. D. (2015). A large annotated corpus for learning natural language inference. arXiv preprint arXiv:1508.05326.
+
+- **RTE**: Dagan, I., Glickman, O., & Magnini, B. (2005). The pascal recognising textual entailment challenge. In Machine Learning Challenges Workshop (pp. 177-190). Springer.
+
+- **STS-B**: Cer, D., Diab, M., Agirre, E., Lopez-Gazpio, I., & Specia, L. (2017). Semeval-2017 task 1: Semantic textual similarity-multilingual and cross-lingual focused evaluation. arXiv preprint arXiv:1708.00055.
+
+- **BoolQ**: Clark, C., Lee, K., Chang, M.-W., Kwiatkowski, T., Collins, M., & Toutanova, K. (2019). BoolQ: Exploring the surprising difficulty of natural yes/no questions. arXiv preprint arXiv:1905.10044.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

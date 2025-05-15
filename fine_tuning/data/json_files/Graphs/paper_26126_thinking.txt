@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "An Efficient Graph Convolutional Network Technique for the Travelling Salesman Problem" by Chaitanya K. Joshi et al., I will follow a systematic approach to ensure I capture all relevant details, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and dataset sections** of the paper. The abstract mentions a new approach for solving the Travelling Salesman Problem (TSP) using graph convolutional networks, which suggests that datasets related to TSP are likely discussed.
+
+Next, I will focus on **section 3 (Dataset)**, where the authors explicitly describe the datasets they created for their experiments. Here, they mention that they focus on the 2D Euclidean TSP and create separate training, validation, and test datasets for graphs of sizes 20, 50, and 100 nodes. The details provided include:
+
+1. **Training Set**: Consists of one million pairs of problem instances and solutions for each graph size.
+2. **Validation Set**: Contains 10,000 pairs for each graph size.
+3. **Test Set**: Also consists of 10,000 pairs for each graph size.
+
+The authors specify that for each TSP instance, the node locations are sampled uniformly at random in the unit square, and the optimal tour is found using the Concorde TSP solver.
+
+In the **Appendix A**, the authors provide summary statistics for various TSP datasets, including TSP10, TSP20, TSP30, TSP50, and TSP100. This section includes average tour lengths and solver timings, which are crucial for understanding the datasets' characteristics.
+
+Now, I will gather the full citations for the datasets mentioned:
+
+- For the **Concorde TSP solver**, the citation is:
+  > David L Applegate, Robert E Bixby, Vasek Chvatal, and William J Cook. *The traveling salesman problem: a computational study*. Princeton University Press, 2006.
+
+- The datasets themselves (TSP20, TSP50, TSP100) are not attributed to a specific paper but are derived from the methodology described in the paper. Therefore, I will note that they are based on the authors' own dataset generation process.
+
+Finally, I will compile the dataset entries, ensuring to include the full citations and relevant details in a structured format for clarity and completeness. This will allow for easy reference and validation of the datasets used in the research.

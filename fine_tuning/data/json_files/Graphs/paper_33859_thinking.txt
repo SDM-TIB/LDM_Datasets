@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "Cause and Effect: Can Large Language Models Truly Understand Causality?" by Swagata Ashwani et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will start by reading through the **abstract** and **introduction** sections of the paper. The abstract mentions the introduction of a new dataset called **CausalNet**, which is a strong indicator that there are datasets to extract. The introduction further emphasizes the importance of evaluating the proposed framework on benchmark datasets, which suggests that multiple datasets may be referenced.
+
+Next, I will focus on the **experiments section**, particularly **section 4 (Experiments)**, where the authors describe the datasets used for training and evaluation. Here, the authors explicitly list six distinct datasets, detailing their composition and purpose:
+
+1. **CLadder**: This dataset is derived from narrative texts and is used to identify explicit causal links within narratives. It serves as foundational training for the model's explicit causal reasoning abilities.
+
+2. **Com2Sense**: Similar to CLadder, this dataset focuses on narrative structures and explicit causal statements, aiding in the model's understanding of causal relationships.
+
+3. **TimeTravel**: This dataset presents hypothetical scenarios for counterfactual reasoning, enhancing the model's ability to contemplate different possibilities.
+
+4. **COPA**: This dataset focuses on scenarios requiring an understanding of potential outcomes and alternate realities, contributing to causal discovery.
+
+5. **e-care**: This dataset contains medical narratives that add domain-specific intricacies for causal discovery tasks.
+
+6. **CausalNet**: A new dataset introduced by the authors, comprising 1000 curated scenarios designed for causal reasoning and counterfactual analysis.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to guide future researchers to the original sources.
+
+The citations I will extract are as follows:
+
+- **CLadder**: 
+  > Jin, Z., Chen, Y., Leeb, F., Gresele, L., Kamal, O., Lyu, Z., Blin, K., Adauto, F. G., Kleiman-Weiner, M., Sachan, M., & Schölkopf, B. (2023). Cladder: Assessing causal reasoning in language models. NeurIPS 2023; updated with CLadder dataset v1.5.
+
+- **Com2Sense**: 
+  > Singh, S., Wen, N., Hou, Y., Alipoor-molabashi, P., Wu, T.-L., Ma, X., & Peng, N. (2021). Com2sense: A commonsense reasoning benchmark with complementary sentences. In Proceedings of Findings of the Association for Computational Linguistics: ACL 2021.
+
+- **TimeTravel**: 
+  > Qin, L., Bosselut, A., Holtzman, A., Bhagavatula, C., Clark, E., & Choi, Y. (2019). Counterfactual story reasoning and generation. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP).
+
+- **COPA**: 
+  > Roemmele, M., Bejan, C., & Gweon, H. (2011). Choice of plausible alternatives: The COPA dataset. In Proceedings of the 5th International Conference on Knowledge Capture (K-CAP 2011).
+
+- **e-care**: 
+  > Du, L., Ding, X., Xiong, K., Liu, T., & Qin, B. (2022). e-care: A new dataset for exploring explainable causal reasoning. Submitted on 12 May 2022.
+
+- **CausalNet**: 
+  > Ashwani, S., Mannuru, N. R., Hegde, K., Sengar, D. S., Jindal, M., Rao Kathala, K. C., Banga, D., Jain, V., & Chadha, A. (2023). CausalNet: A dataset for causal reasoning and counterfactual analysis. Available at: https://anonymous.4open.science/r/causal-reasoning-0B6E/
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for easy reference and further analysis. This systematic approach ensures that I have accurately captured all relevant datasets and their citations from the paper.

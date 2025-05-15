@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Point-M2AE: Multi-scale Masked Autoencoders for Hierarchical Point Cloud Pre-training" by Renrui Zhang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are mentioned. The abstract mentions that the authors achieved state-of-the-art performance on various tasks, which suggests that they likely used specific datasets for evaluation.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for training and evaluation. In this paper, the authors mention several datasets:
+
+1. **ShapeNet**: This dataset is referenced as containing 57,448 synthetic 3D shapes across 55 categories, which is used for self-supervised pre-training.
+
+2. **ModelNet40**: This dataset is mentioned for linear evaluation, consisting of 9,843 training samples and 2,468 validation samples of synthetic 3D shapes across 40 categories.
+
+3. **ScanObjectNN**: This dataset is used for fine-tuning and contains 11,416 training and 2,882 validation point clouds from real-world scenes.
+
+4. **ShapeNetPart**: This dataset is referenced for part segmentation tasks, containing 16,881 synthetic 3D shapes across 16 object categories.
+
+In the **references section**, I will look for full citations for these datasets. The citations I find are:
+
+- For **ShapeNet**:
+  > Angel X Chang, Thomas Funkhouser, Leonidas Guibas, Pat Hanrahan, Qixing Huang, Zimo Li, Silvio Savarese, Manolis Savva, Shuran Song, Hao Su, et al. *ShapeNet: An information-rich 3D model repository*. arXiv preprint arXiv:1512.03012, 2015.
+
+- For **ModelNet40**:
+  > Zhirong Wu, Shuran Song, Aditya Khosla, Fisher Yu, Linguang Zhang, Xiaoou Tang, and Jianxiong Xiao. *3D ShapeNets: A deep representation for volumetric shapes*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 1912–1920, 2015.
+
+- For **ScanObjectNN**:
+  > Mikaela Angelina Uy, Quang-Hieu Pham, Binh-Son Hua, Thanh Nguyen, and Sai-Kit Yeung. *Revisiting point cloud classification: A new benchmark dataset and classification model on real-world data*. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 1588–1597, 2019.
+
+- For **ShapeNetPart**:
+  > Li Yi, Vladimir G Kim, Duygu Ceylan, I-Chao Shen, Mengyan Yan, Hao Su, Cewu Lu, Qixing Huang, Alla Sheffer, and Leonidas Guibas. *A scalable active framework for region annotation in 3D shape collections*. ACM Transactions on Graphics (ToG), 35(6):1–12, 2016.
+
+Now that I have identified the datasets and their full citations, I will compile this information into a structured format for further use or analysis. This systematic approach ensures that I capture all relevant datasets and their citations accurately.

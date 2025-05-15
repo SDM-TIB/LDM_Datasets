@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Synchronous Bidirectional Inference for Neural Sequence Generation" by Jiajun Zhang et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets mentioned. The abstract discusses the application of the proposed model to machine translation and summarization, which suggests that datasets related to these tasks may be present.
+
+Next, I will focus on the **experimental setup section** (section 6), where the authors typically describe the datasets used for their experiments. In this section, they mention two specific tasks: machine translation and abstractive summarization. 
+
+For the **machine translation task**, they specify the following datasets:
+1. **Chinese-to-English Translation Dataset**: The training data consists of approximately 2.1 million sentence pairs extracted from LDC corpora, with specific datasets mentioned for validation and testing:
+   - **NIST 2002 (MT02)** for validation.
+   - **NIST 2003-2006 (MT03-06)** for testing.
+
+2. **English-to-German Translation Dataset**: The training data consists of 4.5 million sentence pairs from the WMT 2014 training corpus, with the following datasets mentioned:
+   - **news-test 2012 and news-test 2013** for validation.
+   - **news-test 2014** for testing.
+
+For the **abstractive summarization task**, the authors mention:
+1. **Annotated English Gigaword Dataset**: This dataset contains about 3.8 million text-summary pairs for training and 189,000 pairs for validation.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For the **Chinese-to-English Translation Dataset**, the citation for the LDC corpora is not explicitly provided in the text, but it typically refers to:
+  > LDC2000T50, LDC2002L27, LDC2002T01, LDC2002E18, LDC2003E07, LDC2003E14, LDC2003T17, LDC2004T07.
+
+- For the **WMT 2014 Dataset**, the citation is generally attributed to:
+  > Bojar, O., et al. (2014). *Findings of the 2014 Workshop on Statistical Machine Translation*. In Proceedings of the Ninth Workshop on Statistical Machine Translation.
+
+- For the **Annotated English Gigaword Dataset**, the citation is:
+  > Napoles, C., Gormley, M., & Van Durme, B. (2012). *Annotated Gigaword*. In Proceedings of the Joint Workshop on Automatic Knowledge Base Construction and Web-scale Knowledge Extraction.
+
+After gathering all this information, I will compile the dataset entries with their respective citations to ensure that they are ready for review or further processing. This structured approach will help maintain clarity and accuracy in the extraction process.

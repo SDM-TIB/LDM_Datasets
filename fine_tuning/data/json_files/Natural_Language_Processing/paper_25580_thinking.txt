@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "FuncEvalGMN: Evaluating Functional Correctness of SQL via Graph Matching Network" by Yi Zhan et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions the contribution of a dataset called **Spider-Pair**, which is crucial for evaluating SQL code generation. This indicates that there is at least one dataset to extract.
+
+Next, I will look into the **experiments section** (specifically section 5) where the authors describe the **Spider-Pair dataset** in detail. They mention that this dataset consists of a training set and two testing sets, each containing pairs of SQL queries to simulate various SQL code evaluation scenarios. This section provides essential details about the dataset's structure and purpose.
+
+In the **dataset description**, the authors clarify that the Spider-Pair dataset is based on the **Spider dataset** (Yu et al., 2018), which is a well-known benchmark for text-to-SQL tasks. They explain that the Spider-Pair dataset includes pairs of SQL queries (reference and generated SQL) along with a ground truth label indicating the correctness of the generated SQL.
+
+Now, I will gather the full citations for both datasets mentioned:
+
+1. **Spider-Pair Dataset**: The citation is not explicitly provided in the references, but since it is derived from the Spider dataset, I will cite it as follows:
+   > Zhan, Y., Huang, D., Weng, H., Wang, G., Xie, J., Tian, Y., Liu, B., & Sun, Y. (2023). FuncEvalGMN: Evaluating Functional Correctness of SQL via Graph Matching Network. *arXiv preprint arXiv:2301.XXXX*.
+
+2. **Spider Dataset**: The citation for the original Spider dataset is:
+   > Yu, T., Zhang, R., Yang, K., Yasunaga, M., Wang, D., Li, Z., Ma, J., Li, I., & Roman, S. (2018). Spider: A large-scale human-labeled dataset for complex and cross-domain semantic parsing and text-to-SQL task. *arXiv preprint arXiv:1809.08887*.
+
+After collecting this information, I will summarize the datasets in a structured format, ensuring that I include the full citations for each dataset as required. This will provide a clear and comprehensive overview of the datasets utilized in the research paper.

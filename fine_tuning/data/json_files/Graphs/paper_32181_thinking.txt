@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "A REFERENCE-LESS QUALITY METRIC FOR AUTOMATIC SPEECH RECOGNITION VIA CONTRASTIVE-LEARNING OF A MULTI-LANGUAGE MODEL WITH SELF-SUPERVISION" by Kamer Ali Yuksel et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract indicates that the proposed metric was tested on "several unseen test datasets consisting of outputs from top commercial ASR engines in various languages." This suggests that there are datasets involved, but I need to find their specific names.
+
+In the **introduction**, the authors discuss the limitations of traditional reference-based metrics and mention the need for referenceless evaluation metrics. However, they do not specify any datasets here.
+
+Next, I will examine the **methodology section**, where the authors describe how they generated a training dataset of ASR hypothesis pairs. They mention using outputs from OpenAI’s Whisper ASR model across six compression levels. This indicates that the dataset is derived from the Whisper model, but I need to find out if there are specific datasets referenced.
+
+In the **experiments section**, the authors mention testing their metric on multiple speech datasets: **Common Voice** and **Libri-Speech**. They provide details about the languages included in these datasets, which confirms their relevance to the experiments.
+
+Now, I will look at the **references section** to gather full citations for the datasets mentioned:
+
+1. **Common Voice**: The citation is:
+   > Rosana Ardila, Megan Branson, Kelly Davis, Michael Henretty, Michael Kohler, Josh Meyer, Reuben Morais, Lindsay Saunders, Francis M Tyers, and Gregor Weber. *Common voice: A massively-multilingual speech corpus*. arXiv preprint arXiv:1912.06670, 2019.
+
+2. **Libri-Speech**: The citation is:
+   > Vassil Panayotov, Guoguo Chen, Daniel Povey, and Sanjeev Khudanpur. *Librispeech: an asr corpus based on public domain audio books*. In 2015 IEEE international conference on acoustics, speech and signal processing (ICASSP). IEEE, 2015, pp. 5206–5210.
+
+Additionally, the authors mention using outputs from OpenAI’s Whisper ASR model, which is not a dataset per se but is relevant to the methodology.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a clear and structured overview of the datasets utilized in the research.

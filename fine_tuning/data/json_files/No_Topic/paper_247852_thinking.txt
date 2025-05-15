@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Hierarchical Inter-Message Passing for Learning on Molecular Graphs" by Matthias Fey, Jan-Gin Yuen, and Frank Weichert, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract mentions validating the performance on the **ZINC dataset** and datasets from the **MOLECULENET benchmark collection**, which indicates that these datasets are relevant.
+
+Next, I will look into **section 5 (Experiments)**, where the authors provide details about the datasets used for evaluation. They specifically mention:
+
+1. **ZINC dataset**: This dataset contains about 250,000 molecular graphs and is used as a benchmark for evaluating GNN performances. The task involves regressing the constrained solubility of a molecule.
+
+2. **MOLECULENET benchmark collection**: The authors evaluate their model on specific datasets from this collection, including **HIV**, **MUV**, and **TOX21**. These datasets are used to predict molecular properties as binary labels.
+
+In the same section, they provide additional context about the **ogbg-molhiv** and **ogbg-molpcba** datasets, which are also derived from the MOLECULENET collection and enhanced by a standardized scaffold splitting procedure.
+
+Now, I will consult the **References section** to find the full citations for each dataset:
+
+- For the **ZINC dataset**, the citation is:
+  > Kusner, M. J., Paige, B., & Hernández-Lobato, J. M. (2017). Grammar variational autoencoder. In *ICML*.
+
+- For the **MOLECULENET benchmark collection**, the citation is:
+  > Wu, Z., Ramsundar, B., Feinberg, E. N., Gomes, J., Geniesse, C., Pappu, A. S., Leswing, K., & Pande, V. (2018). MoleculeNet: A benchmark for molecular machine learning. *Chemical Science*, 9(2), 513–530.
+
+- For the **HIV dataset**, the citation is part of the MOLECULENET collection, so it will reference the same source:
+  > Wu, Z., Ramsundar, B., Feinberg, E. N., Gomes, J., Geniesse, C., Pappu, A. S., Leswing, K., & Pande, V. (2018). MoleculeNet: A benchmark for molecular machine learning. *Chemical Science*, 9(2), 513–530.
+
+- For the **MUV dataset**, the citation is also part of the MOLECULENET collection:
+  > Wu, Z., Ramsundar, B., Feinberg, E. N., Gomes, J., Geniesse, C., Pappu, A. S., Leswing, K., & Pande, V. (2018). MoleculeNet: A benchmark for molecular machine learning. *Chemical Science*, 9(2), 513–530.
+
+- For the **TOX21 dataset**, the citation is similarly part of the MOLECULENET collection:
+  > Wu, Z., Ramsundar, B., Feinberg, E. N., Gomes, J., Geniesse, C., Pappu, A. S., Leswing, K., & Pande, V. (2018). MoleculeNet: A benchmark for molecular machine learning. *Chemical Science*, 9(2), 513–530.
+
+- For the **ogbg-molhiv** and **ogbg-molpcba datasets**, the citation is:
+  > Hu, W., Fey, M., Zitnik, M., Dong, Y., Ren, H., Liu, B., Catasta, M., & Leskovec, J. (2020). Open Graph Benchmark: Datasets for machine learning on graphs. CoRR, abs/2005.00687.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

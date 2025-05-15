@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Localized Region Contrast for Enhancing Self-Supervised Learning in Medical Image Segmentation" by Xiangyi Yan et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methodology, and experimental results sections** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on three multi-organ segmentation datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 3 (Experimental Results)**, where the authors describe the datasets used for both pre-training and fine-tuning. Here, they mention:
+
+1. **Abdomen-1K Dataset**: This dataset contains over 1,000 CT images, equating to roughly 240,000 2D slices, curated from 12 medical centers. The authors note that segmentation masks for various organs are provided, but they ignore these labels during pre-training.
+
+2. **ABD-110 Dataset**: This dataset consists of 110 CT images from patients with various abdominal tumors, specifically taken during the treatment planning stage. The authors report the average Dice score on 11 abdominal organs.
+
+3. **Thorax-85 Dataset**: This dataset includes 85 thoracic CT images, and the authors report the average Dice score on 6 thoracic organs.
+
+4. **HaN Dataset**: This dataset contains 120 CT images covering the head and neck region, with the authors reporting the average Dice score on 9 organs.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For **Abdomen-1K Dataset**:
+  > Ma, J., Zhang, Y., Gu, S., Zhu, C., Ge, C., Zhang, Y., An, X., Wang, C., Wang, Q., Liu, X., Cao, S., Zhang, Q., Liu, S., Wang, Y., Li, Y., He, J., Yang, X. (2021). *Abdomenct-1k: Is abdominal organ segmentation a solved problem?* IEEE Transactions on Pattern Analysis and Machine Intelligence.
+
+- For **ABD-110 Dataset**:
+  > Tang, H., Liu, X., Sun, S., Yan, X., Xie, X. (2021). *Recurrent mask refinement for few-shot medical image segmentation*. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV).
+
+- For **Thorax-85 Dataset**:
+  > Chen, X., Sun, S., Bai, N., Han, K., Liu, Q., Yao, S., Tang, H., Zhang, C., Lu, Z., Huang, Q., Zhao, G., Xu, Y., Chen, T., Xie, X., Liu, Y. (2021). *A deep learning-based auto-segmentation system for organs-at-risk on whole-body computed tomography images for radiation therapy*. Radiotherapy and Oncology.
+
+- For **HaN Dataset**:
+  > Tang, H., Chen, X., Liu, Y., Lu, Z., You, J., Yang, M., Yao, S., Zhao, G., Xu, Y., Chen, T., et al. (2019). *Clinically applicable deep learning framework for organs at risk delineation in CT images*. Nature Machine Intelligence.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

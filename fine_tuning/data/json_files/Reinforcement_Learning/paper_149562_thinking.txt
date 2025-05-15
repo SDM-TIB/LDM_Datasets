@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "A Study on Mitigating Hard Boundaries of Decision-Tree-based Uncertainty Estimates for AI Models" by Pascal Gerber et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to gather initial insights about the datasets used. The abstract mentions that datasets for a pedestrian detection use case were generated using the CARLA simulator and YOLOv3, indicating that these are key datasets.
+
+Next, I will examine **section 4 (Study Planning and Execution)**, where the authors describe the datasets in detail. They mention three datasets:
+
+1. **Training Dataset**: This dataset consists of 1,204,119 data points generated to create quality impact models based on various softening approaches.
+2. **Calibration Dataset**: This dataset contains 402,040 data points and is used to calibrate the uncertainty estimates of the quality impact models.
+3. **Evaluation Dataset**: This dataset includes 400,884 data points and is representative of the target application scope for evaluating the uncertainty estimates.
+
+The paper also states that these datasets were generated using the CARLA simulator, which is crucial for understanding the context of the data.
+
+Now, I will look into the **References section** to find the full citations for the datasets and any relevant tools mentioned. The CARLA simulator is cited as follows:
+
+- For **CARLA Simulator**:
+  > Codevilla, F., Dosovitskiy, A., Koltun, V., Lopez, A., & Ros, G. (2017). CARLA: An Open Urban Driving Simulator. arXiv:1711.03938.
+
+Additionally, the YOLOv3 implementation is referenced:
+- For **YOLOv3**:
+  > YOLO. (2020). PyTorch-YOLOv3. Retrieved from https://github.com/eriklindernoren/PyTorch-YOLOv3.
+
+With this information, I will compile the dataset entries, ensuring to include the full citations for each dataset and tool used in the study.
+
+Finally, I will prepare the dataset entries in a structured format for further processing or review.

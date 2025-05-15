@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Toward Controlled Generation of Text" by Zhiting Hu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract provides a brief overview of the paper's objectives and may mention datasets used for experiments. The introduction often elaborates on the context and significance of the datasets.
+
+Next, I will focus on the **experiments section**, specifically looking for any subsections that detail the datasets used. In this paper, the authors mention a "Sentence corpus" and datasets related to sentiment and tense attributes. I will extract the names and descriptions of these datasets.
+
+In the **experiments section**, the authors describe the following datasets:
+
+1. **IMDB Text Corpus**: A large collection of 350K movie reviews, filtered to contain sentences of at most 15 words, resulting in approximately 1.4M sentences with a vocabulary size of 16K.
+
+2. **Stanford Sentiment Treebank-2 (SST-full)**: This dataset consists of 6920/872/1821 movie review sentences with binary sentiment annotations in the train/dev/test sets. The authors specifically use 2837 training examples with sentence length ≤ 15.
+
+3. **SST-small**: A smaller subset of SST-full, containing only 250 labeled sentences for training.
+
+4. **Lexicon**: A sentiment lexicon from Wilson et al. (2005) containing 2700 words with sentiment labels, used for training by treating words as sentences.
+
+5. **IMDB Dataset**: A dataset collected from the IMDB corpus, consisting of 5K/1K/10K sentences in train/dev/test splits.
+
+6. **TimeBank**: A dataset used to compile a lexicon of 5250 words and phrases labeled with tenses (past, present, future).
+
+After identifying these datasets, I will refer to the **References section** to find the full citations for each dataset mentioned. Here are the citations I will include:
+
+- For the **IMDB Text Corpus**:
+  > Diao, Qiming, Qiu, Minghui, Wu, Chao-Yuan, Smola, Alexander J, Jiang, Jing, and Wang, Chong. *Jointly modeling aspects, ratings and sentiments for movie recommendation (JMARS)*. In Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining, pp. 193–202. ACM, 2014.
+
+- For the **Stanford Sentiment Treebank-2**:
+  > Socher, Richard, Perelygin, Alex, Wu, Jean Y, Chuang, Jason, Manning, Christopher D, Ng, Andrew Y, Potts, Christopher, et al. *Recursive deep models for semantic compositionality over a sentiment treebank*. In Proceedings of the conference on empirical methods in natural language processing (EMNLP), volume 1631, pp. 1642. Citeseer, 2013.
+
+- For the **Lexicon**:
+  > Wilson, Theresa, Wiebe, Janyce, and Hoffmann, Paul. *Recognizing contextual polarity in phrase-level sentiment analysis*. In Proceedings of the conference on human language technology and empirical methods in natural language processing, pp. 347–354. Association for Computational Linguistics, 2005.
+
+- For the **TimeBank**:
+  > Pustejovsky, James, Moschovakis, Y. *TimeML: A temporal annotation standard*. In Proceedings of the 5th International Conference on Language Resources and Evaluation (LREC), 2006.
+
+Now that I have gathered all the necessary information about the datasets and their citations, I will compile this into a structured format for further processing or review.

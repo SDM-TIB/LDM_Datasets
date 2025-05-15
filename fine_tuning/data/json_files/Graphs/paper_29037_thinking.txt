@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "Fairness-aware Naive Bayes Classifier for Data with Multiple Sensitive Features" by Stelios Boulitsakis-Logothetis, I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to locate any references to datasets. The abstract mentions that the N-naive-Bayes algorithm is empirically demonstrated on **US Census datasets**, which indicates that datasets are indeed involved.
+
+Next, I will focus on the **experimental results section** where the author describes the setup for the experiments. The paper specifies two classification tasks using data from the **US Census Bureau**:
+
+1. **Income Task**: This task aims to predict whether an individual's income is above $50,000. The paper notes that this dataset is filtered to serve as a comparable replacement to the well-known **UCI Adult dataset**.
+
+2. **Employment Task**: This task predicts whether an individual is employed, also utilizing data from the **US Census Bureau**.
+
+In the **setup section**, the author explicitly states that the experiments use real-world data from the US Census Bureau, which is a critical detail for identifying the datasets.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned. The paper cites the following:
+
+- For the **US Census datasets**, the citation is:
+  > Ding, F.; Hardt, M.; Miller, J.; and Schmidt, L. (2021). *Retiring Adult: New Datasets for Fair Machine Learning*. CoRR, abs/2108.04884.
+
+- The **UCI Adult dataset** is a well-known dataset, and its citation is:
+  > Dheeru, D.; and Karra Taniskidou, E. (2017). *UCI Machine Learning Repository: Adult Dataset*. Available at: https://archive.ics.uci.edu/ml/datasets/adult.
+
+With these citations, I can now summarize the datasets extracted from the paper:
+
+1. **US Census Dataset for Income Task**: A dataset filtered to predict whether an individual's income exceeds $50,000, serving as a comparable replacement to the UCI Adult dataset.
+   - Citation: Ding, F.; Hardt, M.; Miller, J.; and Schmidt, L. (2021). *Retiring Adult: New Datasets for Fair Machine Learning*. CoRR, abs/2108.04884.
+
+2. **US Census Dataset for Employment Task**: A dataset used to predict whether an individual is employed.
+   - Citation: Ding, F.; Hardt, M.; Miller, J.; and Schmidt, L. (2021). *Retiring Adult: New Datasets for Fair Machine Learning*. CoRR, abs/2108.04884.
+
+3. **UCI Adult Dataset**: A well-known dataset used for various classification tasks, including income prediction.
+   - Citation: Dheeru, D.; and Karra Taniskidou, E. (2017). *UCI Machine Learning Repository: Adult Dataset*. Available at: https://archive.ics.uci.edu/ml/datasets/adult.
+
+Finally, I will compile these dataset entries into a structured format for further processing or review.

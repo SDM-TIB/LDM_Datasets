@@ -1,0 +1,107 @@
+[
+    {
+        "dcterms:creator": [
+            "V. Mazzilli",
+            "D. Ivone",
+            "S. De Pinto",
+            "L. Pascali",
+            "M. Contrino",
+            "G. Tarquinio",
+            "P. Gruber",
+            "A. Sorniotti"
+        ],
+        "dcterms:description": "An experimental dataset for vehicle sideslip angle estimation, used to tune the process noise parameters of an Unscented Kalman Filter (UKF).",
+        "dcterms:title": "Experimental dataset for vehicle sideslip angle estimation",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Vehicle Dynamics",
+            "State Estimation"
+        ],
+        "dcat:keyword": [
+            "Vehicle sideslip angle",
+            "Kalman Filter",
+            "Noise parameters tuning",
+            "Experimental dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "State Estimation",
+            "Parameter Tuning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Heidfeld",
+            "M. Schünemann",
+            "R. Kasper"
+        ],
+        "dcterms:description": "A real-world experimental dataset composed of 216 manoeuvres recorded at the Automotive Testing Papenburg GmbH, covering a wide range of vehicle behaviours.",
+        "dcterms:title": "Real-world experimental dataset composed of 216 manoeuvres",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Vehicle Dynamics",
+            "State Estimation"
+        ],
+        "dcat:keyword": [
+            "Vehicle manoeuvres",
+            "Experimental dataset",
+            "State estimation",
+            "UKF"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "State Estimation",
+            "Parameter Tuning"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A training set composed of 8 manoeuvres selected from the real-world experimental dataset for tuning the UKF.",
+        "dcterms:title": "Training set composed of 8 manoeuvres",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Training set",
+            "Vehicle manoeuvres",
+            "UKF tuning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "State Estimation",
+            "Parameter Tuning"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A test set composed of 23 manoeuvres selected from the real-world experimental dataset to evaluate the generalization capability of the approach.",
+        "dcterms:title": "Test set composed of 23 manoeuvres",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Test set",
+            "Vehicle manoeuvres",
+            "UKF evaluation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "State Estimation",
+            "Parameter Tuning"
+        ]
+    }
+]

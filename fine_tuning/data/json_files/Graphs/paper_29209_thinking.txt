@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Entailment Relation Aware Paraphrase Generation" by Abhilasha Sancheti et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract introduces the task of entailment relation aware paraphrase generation and mentions the use of existing paraphrase and natural language inference (NLI) corpora, which suggests that datasets are involved.
+
+Next, I will focus on **section 3 (Collecting Labeled Paraphrase Data)**, where the authors discuss the need for paraphrase pairs annotated with entailment relations. They mention using the **SICK dataset** (Semantic Textual Similarity) for this purpose. The SICK dataset is crucial for their experiments, as it provides the necessary annotations for entailment relations.
+
+In this section, the authors also describe how they recast the SICK dataset to create a small supervised dataset for their task. This indicates that the SICK dataset is not only mentioned but is also a key component of their methodology.
+
+Now, I will check the **References section** to find the full citation for the SICK dataset. The citation for the SICK dataset is as follows:
+- Marelli, M., Menini, S., Baroni, M., Bentivogli, L., Bernardi, R., Zamparelli, R., et al. (2014). *A SICK cure for the evaluation of compositional distributional semantic models*. In LREC, 216–223.
+
+Additionally, the authors mention using existing paraphrase corpora such as **ParaBank** and **ParaNMT**. I will also look for their citations in the References section.
+
+The citations for these datasets are:
+- Hu, J. E., Rudinger, R., Post, M., & Van Durme, B. (2019). *ParaBank: Monolingual bitext generation and sentential paraphrasing via lexically-constrained neural machine translation*. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 33, 6521–6528.
+- Wieting, J., & Gimpel, K. (2018). *ParaNMT-50M: Pushing the Limits of Paraphrastic Sentence Embeddings with Millions of Machine Translations*. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 451–462.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is described with its full citation, ready for downstream processing or review.

@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "DAVOS: Semi-Supervised Video Object Segmentation via Adversarial Domain Adaptation" by Jinshuo Zhang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract** and **introduction** sections to get an overview of the datasets used in the study. The abstract mentions that the authors achieve state-of-the-art performance on **DAVIS2016**, **FBMS59**, and **Youtube-Object** datasets, indicating that these are the primary datasets of interest.
+
+Next, I will look into **section 4.1 (Dataset)**, where the authors provide detailed descriptions of the datasets used in their experiments. Here, I will find specific information about each dataset, including the number of sequences, annotations, and any relevant characteristics.
+
+The datasets mentioned in the paper are:
+
+1. **DAVIS2016**: This dataset contains 50 video sequences with fine-grained object mask annotations for each frame, totaling 3,455 frames (2,079 for training and 1,376 for testing). The authors specify that they used the 480p version for their experiments.
+
+2. **FBMS59**: This dataset consists of 59 video sequences, with 30 sequences designated for testing. The authors note that only a small subset of frames in each sequence is annotated, and they conducted unsupervised domain adaptation (UDA) on its training split.
+
+3. **Youtube-Object**: This dataset includes videos across 10 object categories, totaling 126 sequences, but it is not fully annotated. The evaluation is performed based on the ground truth provided by another source.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For **DAVIS2016**, the citation is:
+  > Federico Perazzi, Jordi Pont-Tuset, Brian McWilliams, Luc Van Gool, Markus Gross, and Alexander Sorkine-Hornung. *A benchmark dataset and evaluation methodology for video object segmentation*. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 724–732, 2016.
+
+- For **FBMS59**, the citation is:
+  > Peter Ochs, Jitendra Malik, and Thomas Brox. *Segmentation of moving objects by long term video analysis*. IEEE transactions on pattern analysis and machine intelligence, 36(6):1187–1200, 2013.
+
+- For **Youtube-Object**, the citation is:
+  > Alessandro Prest, Christian Leistner, Javier Civera, Cordelia Schmid, and Vittorio Ferrari. *Learning object class detectors from weakly annotated video*. In 2012 IEEE Conference on Computer Vision and Pattern Recognition, pages 3282–3289. IEEE, 2012.
+
+Now that I have gathered all the necessary information about the datasets, I will compile this into a structured format for further processing or review.

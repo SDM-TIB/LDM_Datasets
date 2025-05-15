@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "LEVER: Learning to Verify Language-to-Code Generation with Execution" by Ansong Ni et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to locate any references to datasets. The abstract mentions that the authors conducted experiments on "four datasets across the domains of table QA, math QA, and basic Python programming," indicating that multiple datasets are involved.
+
+Next, I will focus on **section 3 (Experimental Setup)**, where the authors provide a detailed description of the datasets used in their experiments. Here, I will find the following datasets explicitly mentioned:
+
+1. **Spider**: A semantic parsing dataset for generating SQL queries from natural language questions. It contains 7,000 training examples and is ideal for fine-tuning generators.
+
+2. **WikiTableQuestions (WikiTQ)**: A table question answering dataset that attempts to solve problems by generating and executing SQL queries over source tables. It has 11,321 training examples.
+
+3. **GSM8k**: A benchmark for solving grade-school level math word problems. This dataset is weakly-supervised for language-to-code tasks and contains 5,968 training examples.
+
+4. **MBPP**: A dataset containing basic Python programming tasks stated in natural language, equipped with test cases to check the correctness of the generated programs. It has 378 training examples.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For **Spider**, the citation is:
+  > Yu, T., Zhang, R., Yang, K., Yasunaga, M., Wang, D., Li, Z., Ma, J., Li, I., Yao, Q., Roman, S., Zhang, Z., and Radev, D. *Spider: A large-scale human-labeled dataset for complex and cross-domain semantic parsing and text-to-SQL task*. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pp. 3911–3921, Brussels, Belgium, October-November 2018.
+
+- For **WikiTableQuestions (WikiTQ)**, the citation is:
+  > Pasupat, P. and Liang, P. *Compositional semantic parsing on semi-structured tables*. In Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics, pp. 1470–1480, Beijing, China, July 2015.
+
+- For **GSM8k**, the citation is:
+  > Cobbe, K., Kosaraju, V., Bavarian, M., Hilton, J., Nakano, R., Hesse, C., and Schulman, J. *Training verifiers to solve math word problems*. arXiv preprint arXiv:2110.14168, 2021.
+
+- For **MBPP**, the citation is:
+  > Austin, J., Odena, A., Nye, M., Bosma, M., Michalewski, H., Dohan, D., Jiang, E., Cai, C., Terry, M., Le, Q., et al. *Program synthesis with large language models*. arXiv preprint arXiv:2108.07732, 2021.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

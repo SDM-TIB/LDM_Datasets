@@ -1,0 +1,26 @@
+To extract the datasets mentioned in the research paper titled "Surgical Aggregation: A Federated Learning Framework for Harmonizing Distributed Datasets with Diverse Tasks" by Pranav Kulkarni et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors utilized the **NIH Chest X-Ray 14** and **CheXpert** datasets, which suggests that these datasets are central to their research.
+
+Next, I will focus on the **Methods section**, specifically **section 3.2 (Datasets)**, where the authors provide detailed descriptions of the datasets used:
+
+1. **NIH Chest X-Ray 14**: This dataset consists of 112,120 frontal-view chest X-rays from 30,805 patients, with 14 disease labels. The authors mention how they divided the dataset into training, validation, and testing splits.
+
+2. **CheXpert**: This dataset contains 224,316 chest X-rays from 65,240 patients, with 13 disease labels plus an additional label for 'normal'. The authors also describe how they handled uncertain labels and the division of the dataset into training, validation, and testing splits.
+
+3. **MIMIC-CXR-JPG**: This dataset is used as an external test set and consists of 377,110 chest X-rays from 65,379 patients, with 13 disease labels and an additional label for 'normal'.
+
+In the **Results section**, the authors confirm that they evaluated their methods using these datasets, which reinforces their importance in the study.
+
+Now, I will check the **References section** to find the full citations for each dataset:
+
+- For the **NIH Chest X-Ray 14 dataset**, the citation is:
+  > Wang, X., Y. Peng, L. Lu, Z. Lu, M. Bagheri, and R. M. Summers. *ChestX-ray8: Hospital-scale chest x-ray database and benchmarks on weakly-supervised classification and localization of common thorax diseases*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2097–2106, 2017.
+
+- For the **CheXpert dataset**, the citation is:
+  > Irvin, J., P. Rajpurkar, M. Ko, Y. Yu, S. Ciurea-Ilcus, C. Chute, H. Marklund, B. Haghgoo, R. Ball, K. Shpanskaya, et al. *CheXpert: A large chest radiograph dataset with uncertainty labels and expert comparison*. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 33, pages 590–597, 2019.
+
+- For the **MIMIC-CXR-JPG dataset**, the citation is:
+  > Johnson, A. E. W., T. J. Pollard, N. R. Greenbaum, M. P. Lungren, C. Y. Deng, Y. Peng, Z. Lu, R. G. Mark, S. J. Berkowitz, and S. Horng. *MIMIC-CXR-JPG, a large publicly available database of labeled chest radiographs*. arXiv preprint arXiv:1901.07042, 2019.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all details are accurately represented for future reference or processing.

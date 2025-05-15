@@ -1,0 +1,76 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Historical traffic speed data covering major US highways in Pittsburgh metropolitan, focusing on morning traffic congestion.",
+        "dcterms:title": "INRIX speed dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://inrix.com/products/ai-traffic/",
+        "dcat:theme": ["Traffic Data", "Transportation"],
+        "dcat:keyword": ["Traffic speed", "Congestion", "Pittsburgh"],
+        "dcat:landingPage": "https://inrix.com/products/ai-traffic/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Data",
+        "mls:task": ["Traffic prediction"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Real-time information for traffic incidents, roadwork, winter road conditions, and other events covering all state-owned roads.",
+        "dcterms:title": "PennDOT RCRS incident dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.penndot.gov/Doing-Business/OnlineServices/Pages/Developer-Resources.aspx",
+        "dcat:theme": ["Traffic Incident Data", "Transportation"],
+        "dcat:keyword": ["Traffic incidents", "Roadwork", "Pennsylvania"],
+        "dcat:landingPage": "https://www.penndot.gov/Doing-Business/OnlineServices/Pages/Developer-Resources.aspx",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Data",
+        "mls:task": ["Traffic prediction"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Hourly weather measurements including temperature, pressure, humidity, wind speed, and precipitation collected in Pittsburgh.",
+        "dcterms:title": "Weather underground dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.wunderground.com/",
+        "dcat:theme": ["Weather Data", "Transportation"],
+        "dcat:keyword": ["Weather measurements", "Pittsburgh", "Temperature", "Humidity"],
+        "dcat:landingPage": "https://www.wunderground.com/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Data",
+        "mls:task": ["Traffic prediction"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset constructed from geocoded and non-geocoded tweets posted within a specific bounding box in Pittsburgh.",
+        "dcterms:title": "Twitter dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://developer.twitter.com/en/docs",
+        "dcat:theme": ["Social Media Data", "Transportation"],
+        "dcat:keyword": ["Tweets", "Social media", "Traffic prediction", "Pittsburgh"],
+        "dcat:landingPage": "https://developer.twitter.com/en/docs",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Data",
+        "mls:task": ["Traffic prediction"]
+    },
+    {
+        "dcterms:creator": [
+            "A. Go",
+            "R. Bhayani",
+            "L. Huang"
+        ],
+        "dcterms:description": "A dataset containing 1,600,000 tweets annotated with sentiment polarity, used for sentiment analysis.",
+        "dcterms:title": "Sentiment140 dataset",
+        "dcterms:issued": "2009",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": ["Sentiment Analysis", "Social Media"],
+        "dcat:keyword": ["Sentiment analysis", "Twitter", "Natural language processing"],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": ["Sentiment analysis"]
+    }
+]

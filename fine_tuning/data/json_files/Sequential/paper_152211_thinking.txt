@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Pointer Networks" by Oriol Vinyals et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the paper's contributions, and the introduction typically outlines the context and significance of the research, which may include references to datasets.
+
+Next, I will focus on **section 3 (Motivation and Datasets Structure)**, where the authors discuss the datasets used for training their models. This section is likely to contain detailed descriptions of the datasets, including how they were generated and their specific characteristics.
+
+In **subsection 3.1 (Convex Hull)**, the authors describe the dataset used for the convex hull problem, which consists of planar point sets sampled uniformly from a specific range. They mention that the outputs are sequences representing the convex hull of these points.
+
+In **subsection 3.2 (Delaunay Triangulation)**, the authors explain the dataset for the Delaunay triangulation problem, which also consists of planar point sets, with outputs being sequences representing the triangulation.
+
+In **subsection 3.3 (Travelling Salesman Problem)**, the authors detail the dataset for the TSP, which includes cartesian coordinates of cities sampled from a uniform distribution, with outputs being permutations representing the optimal tour.
+
+After identifying the datasets, I will check the **References section** to find full citations for any datasets or algorithms mentioned. The paper references several foundational works and algorithms that may be relevant for the datasets.
+
+The citations I will need to include are:
+
+1. For the **Convex Hull** dataset:
+   - The authors do not provide a specific citation for the dataset itself, as it is generated based on a uniform distribution. However, I can reference the foundational algorithms for convex hulls:
+     > Jarvis, R. A. (1973). On the identification of the convex hull of a finite set of points in the plane. *Information Processing Letters*, 2(1), 18-21.
+
+2. For the **Delaunay Triangulation** dataset:
+   - Similar to the convex hull, the dataset is generated based on the properties of Delaunay triangulation. A relevant citation for the algorithm is:
+     > Rebay, S. (1993). Efficient unstructured mesh generation by means of Delaunay triangulation and Bowyer-Watson algorithm. *Journal of Computational Physics*, 106(1), 125-138.
+
+3. For the **Travelling Salesman Problem (TSP)** dataset:
+   - The authors mention using the Held-Karp algorithm for generating optimal solutions. The citation for this algorithm is:
+     > Bellman, R. (1962). Dynamic programming treatment of the travelling salesman problem. *Journal of the ACM (JACM)*, 9(1), 61-63.
+
+Now, I will compile the dataset entries with their descriptions and citations into a structured format for further processing.

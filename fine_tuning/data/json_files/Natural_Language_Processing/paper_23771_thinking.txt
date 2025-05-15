@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Sparse Bayesian Networks: Efficient Uncertainty Quantification in Medical Image Analysis" by Zeinab Abboud et al., I will follow a systematic approach to ensure I capture all relevant datasets along with their full citations.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors demonstrate their method on **multi-label ChestMNIST for classification** and **ISIC, LIDC-IDRI for segmentation**. This suggests that these datasets are crucial to their experiments.
+
+Next, I will examine the **methodology** and **experimental results** sections, particularly focusing on the parts where the authors describe their experimental setup and the datasets used. In the **Experimental Results** section, the authors explicitly mention the datasets:
+
+1. **ChestMNIST Dataset**: This dataset consists of 112,120 X-Ray images from 30,805 patients, with a specified train/validation/test split of 78,468/11,219/22,433. The input size for the images is 224 × 224.
+
+2. **LIDC-IDRI Dataset**: This dataset contains 1018 clinical thoracic CT scans, which have been cropped into 15,096 patches of size 128 × 128. Each patch has 4 manual segmentation masks, and the data is divided into 4 bags for 4-fold train/test splits (0.75/0.25).
+
+3. **ISIC Dataset**: This dataset includes images of skin lesions, with a distribution of 2,594 training images, 100 validation images, and 1,000 test images, all resized to 224 × 224 × 3.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **ChestMNIST**, the citation is:
+  > Yang, J., Shi, R., Wei, D., Liu, Z., Zhao, L., Ke, B., Pfister, H., Ni, B. *Medmnist v2 - a large-scale lightweight benchmark for 2D and 3D biomedical image classification*. Scientific Data 10(1) (2023).
+
+- For **LIDC-IDRI**, the citation is:
+  > Armato III, S.G., McLennan, G., Bidaut, N., et al. *Data From LIDC-IDRI*. The Cancer Imaging Archive (2015), Data set.
+
+- For **ISIC**, the citation is:
+  > Codella, N., Rotemberg, V., Tschandl, P., et al. *Skin lesion analysis toward melanoma detection 2018: A challenge hosted by the international skin imaging collaboration*. arXiv preprint arXiv:1902.03368 (2019).
+
+Having gathered all the necessary information, I will now compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will facilitate further processing or review of the datasets used in this research.

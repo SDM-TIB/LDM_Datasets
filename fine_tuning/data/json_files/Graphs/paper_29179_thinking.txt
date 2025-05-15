@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "Type-Driven Multi-Turn Corrections for Grammatical Error Correction" by Shaopeng Lai et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the research focus, and the introduction often highlights the datasets used for experiments.
+
+Next, I will specifically look for a **dedicated section on datasets**. In this paper, it appears that the datasets are discussed in **section 4 (Effect of the Interdependence between Different Types of Corrections)**. Here, the authors list several datasets used for training and evaluation, along with their instance counts and stages of use.
+
+The datasets mentioned in the paper are:
+
+1. **PIE-synthetic**: This dataset is used for pre-training the GECToR model at Stage I, containing 9,000,000 instances.
+2. **Lang-8**: This dataset is used for fine-tuning at Stage II, containing 947,344 instances.
+3. **NUCLE**: Another dataset used for fine-tuning at Stage II, containing 56,958 instances.
+4. **FCE**: This dataset is also used for fine-tuning at Stage II, containing 34,490 instances.
+5. **W&I+LOCNESS**: This dataset is used for fine-tuning at Stage II and Stage III, containing 34,304 instances.
+
+Now, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The full citations for the datasets are:
+
+- **PIE-synthetic**:
+  > Awasthi, A., Sarawagi, S., Goyal, R., Ghosh, S., & Piratla, V. (2019). Parallel iterative edit models for local sequence transduction. In EMNLP-IJCNLP, pages 4260–4270.
+
+- **Lang-8**:
+  > Tajiri, T., Komachi, M., & Matsumoto, Y. (2012). Tense and aspect error correction for ESL learners using global context. In ACL, pages 198–202.
+
+- **NUCLE**:
+  > Dahlmeier, D., & Ng, H. T. (2013). Building a large annotated corpus of learner English: The NUS corpus of learner English. In BEA@NAACL-HLT, pages 22–31.
+
+- **FCE**:
+  > Yannakoudakis, H., Briscoe, T., & Medlock, B. (2011). A new dataset and method for automatically grading ESOL texts. In ACL, pages 180–189.
+
+- **W&I+LOCNESS**:
+  > Bryant, C., Felice, C., & Briscoe, T. (2019). The BEA-2019 shared task on grammatical error correction. In BEA@ACL, pages 52–75.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is described with its name, instance count, and full citation. This structured approach will help maintain clarity and ensure that all relevant details are captured accurately for future reference or processing.

@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "funcGNN: A Graph Neural Network Approach to Program Similarity" by Aravind Nair et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental design sections** to gather initial insights about any datasets used. The abstract mentions the introduction of funcGNN and its application to program similarity, but it does not specify datasets. The introduction discusses the importance of program similarity in software engineering but does not provide dataset details either.
+
+Next, I will focus on **section 4 (Experimental Design and Results)**, as this section is likely to contain detailed information about the datasets used for training and evaluation. In **section 4.1 (The CFG Dataset)**, the authors describe the dataset they collected, which consists of 45 open-source Java functions. They mention that these functions were rich in mathematical operations and that they generated mutants of these programs to create a dataset with both high and low graph edit distance (GED) values. This section provides crucial information about the dataset composition.
+
+The authors state that they constructed a graph pair dataset of 50,625 program pairs in JSON format, which includes node labels, node attributes, edge lists, and their approximate edit distances. This indicates that the dataset is comprehensive and specifically tailored for their experiments.
+
+Now, I will look for the **full citation of the dataset**. The authors mention using the Soot framework to generate control flow graphs (CFGs) for Java programs, which is an important detail. However, they do not provide a formal citation for the dataset itself in the references section. Since the dataset is derived from open-source Java functions, I will note that the dataset is based on publicly available Java code, but I will also acknowledge that a specific citation for the dataset is not provided in the paper.
+
+In summary, I will document the following dataset information:
+
+1. **CFG Dataset**: A dataset consisting of 45 open-source Java functions, augmented with mutants to create a total of 50,625 program pairs. The dataset includes node labels, node attributes, edge lists, and approximate graph edit distances.
+
+Since there is no formal citation provided for the dataset, I will note that the dataset is based on open-source Java functions and generated using the Soot framework, but I will indicate that a specific citation is not available.
+
+Finally, I will compile this information into a structured format for clarity and future reference.

@@ -1,0 +1,115 @@
+[
+    {
+        "dcterms:creator": [
+            "C. J. Keller",
+            "C. J. Honey",
+            "P. Mégevand",
+            "L. Entz",
+            "I. Ulbert",
+            "A. D. Mehta"
+        ],
+        "dcterms:description": "The CCEP dataset consists of cortico-cortical evoked potentials recorded from patients with epilepsy to aid in localizing the seizure onset zone. It includes time series data and metadata features such as anatomical location and tissue type.",
+        "dcterms:title": "CCEP Dataset",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://doi.org/10.1098/rstb.2013.0528",
+        "dcat:theme": [
+            "Neuroscience",
+            "Epilepsy Research"
+        ],
+        "dcat:keyword": [
+            "Cortico-cortical evoked potentials",
+            "Seizure onset zone",
+            "Epilepsy",
+            "Time series data"
+        ],
+        "dcat:landingPage": "https://doi.org/10.1098/rstb.2013.0528",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Time Series",
+        "mls:task": [
+            "Seizure Localization"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "L. Fan",
+            "H. Li",
+            "J. Zhuo",
+            "Y. Zhang",
+            "J. Wang",
+            "L. Chen",
+            "Z. Yang",
+            "C. Chu",
+            "S. Xie",
+            "A. R. Laird",
+            "P. T. Fox",
+            "S. B. Eickhoff",
+            "C. Yu",
+            "T. Jiang"
+        ],
+        "dcterms:description": "The Brainnetome Atlas is a new brain atlas based on the connectional architecture of the human brain, providing anatomical and functional information.",
+        "dcterms:title": "Brainnetome Atlas",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://doi.org/10.1093/cercor/bhw157",
+        "dcat:theme": [
+            "Neuroscience",
+            "Brain Mapping"
+        ],
+        "dcat:keyword": [
+            "Brain atlas",
+            "Connectional architecture",
+            "Neuroimaging"
+        ],
+        "dcat:landingPage": "https://doi.org/10.1093/cercor/bhw157",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "T. S. Davis",
+            "J. D. Rolston",
+            "R. J. Bollo",
+            "P. A. House"
+        ],
+        "dcterms:description": "SOZ Labels are used to identify the seizure onset zone in patients with refractory epilepsy based on delayed high-frequency suppression after electrical stimulation.",
+        "dcterms:title": "SOZ Labels",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://doi.org/10.1016/j.clinph.2018.06.021",
+        "dcat:theme": [
+            "Clinical Neuroscience",
+            "Epilepsy Research"
+        ],
+        "dcat:keyword": [
+            "Seizure onset zone",
+            "Electrical stimulation",
+            "High-frequency suppression"
+        ],
+        "dcat:landingPage": "https://doi.org/10.1016/j.clinph.2018.06.021",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Seven distinct train-test datasets derived from the CCEP dataset, created to prevent data leakage and assess model performance in localizing the seizure onset zone.",
+        "dcterms:title": "Seven Distinct Train-Test Datasets",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Train-test splits",
+            "Machine learning",
+            "Data balancing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Model Evaluation"
+        ]
+    }
+]

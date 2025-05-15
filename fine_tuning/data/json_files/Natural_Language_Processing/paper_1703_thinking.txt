@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Which bills are lobbied? Predicting and interpreting lobbying activity in the US" by Ivan Slobozhan, Peter Ormosi, and Rajesh Sharma, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and dataset sections** of the paper to identify any datasets mentioned. The abstract mentions using lobbying data from OpenSecrets.org, which indicates that there is a dataset involved.
+
+Next, I will focus on **section 3 (Dataset)**, where the authors provide detailed information about the dataset they used. They describe the dataset as containing information on lobbying activities related to **54,713 US bills**. They also mention that they downloaded all bills available in text format from the US Congress’ website, which is crucial for understanding the dataset's origin.
+
+In this section, the authors detail how they categorized the bills into lobbied and non-lobbied, resulting in a total sample of **103,243 labeled bills** (54,377 lobbied and 48,530 non-lobbied). They also explain the challenges they faced regarding the size of the bills and how they handled bills longer than 150,000 words.
+
+The authors created three different datasets based on lobbying intensity, which are labeled as D1, D2, and D3. The sizes of these datasets are as follows:
+- **D1**: 103,243 bills (lobbied: 54,377; non-lobbied: 48,530)
+- **D2**: 59,834 bills (lobbied: 13,217; non-lobbied: 46,617)
+- **D3**: 28,132 bills (lobbied: 13,217; non-lobbied: 14,915)
+
+Now, I will check the **References section** to find the full citation for the dataset. The authors mention that the data was downloaded from the Center for Responsive Politics (OpenSecrets.org), which is the primary source for the lobbying data.
+
+The citation for the dataset is:
+> Center for Responsive Politics. *OpenSecrets.org*. [https://www.opensecrets.org](https://www.opensecrets.org).
+
+With this information, I can summarize the datasets extracted from the paper:
+
+1. **Dataset from OpenSecrets.org**: Contains detailed information on lobbying activities related to 54,713 US bills, resulting in a total sample of 103,243 labeled bills.
+   - Citation: Center for Responsive Politics. *OpenSecrets.org*. [https://www.opensecrets.org](https://www.opensecrets.org).
+
+2. **D1 Dataset**: 103,243 bills (54,377 lobbied, 48,530 non-lobbied).
+   - Citation: Derived from the OpenSecrets.org dataset.
+
+3. **D2 Dataset**: 59,834 bills (13,217 lobbied, 46,617 non-lobbied).
+   - Citation: Derived from the OpenSecrets.org dataset.
+
+4. **D3 Dataset**: 28,132 bills (13,217 lobbied, 14,915 non-lobbied).
+   - Citation: Derived from the OpenSecrets.org dataset.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

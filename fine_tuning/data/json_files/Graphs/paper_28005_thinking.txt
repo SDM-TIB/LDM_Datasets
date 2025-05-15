@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Scalable Surface Reconstruction with Delaunay-Graph Neural Networks" by R. Sulzer et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions that the method outperforms state-of-the-art algorithms on two publicly available reconstruction benchmarks, which indicates that datasets are involved. I will look for specific names of these datasets.
+
+Next, I will check the **experiments section** (section 4) where the authors typically describe the datasets used for training and evaluation. In section 4.1, the authors mention training their network on a small subset of 10 shapes from the **ShapeNet** dataset. This is a significant dataset for 3D shape recognition and reconstruction tasks.
+
+In addition, the authors refer to the **ETH3D benchmark** in section 4.3, which is another dataset used for evaluating their method on large-scale scenes. This benchmark is specifically designed for multi-view stereo algorithms and includes various indoor and outdoor scenes.
+
+Now, I will gather the full citations for these datasets from the **References section** of the paper:
+
+1. **ShapeNet**:
+   > Chang, A. X., Funkhouser, T., Guibas, L., Hanrahan, P., Huang, Q., Li, Z., Savarese, S., Savva, M., Song, S., Su, H., Xiao, J., Yi, L., Yu, F. (2015). *ShapeNet: An Information-Rich 3D Model Repository*. Tech. rep., Stanford University, Princeton University, Toyota Technological Institute at Chicago.
+
+2. **ETH3D Benchmark**:
+   > Schöps, T., Schönberger, J. L., Galliani, S., Sattler, T., Schindler, K., Pollefeys, M., Geiger, A. (2017). *A multi-view stereo benchmark with high-resolution images and multi-camera videos*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
+
+With these citations in hand, I will summarize the datasets as follows:
+
+- **ShapeNet**: A large-scale dataset containing a diverse collection of 3D shapes used for training the model.
+- **ETH3D Benchmark**: A dataset designed for evaluating multi-view stereo algorithms, consisting of high-resolution images and ground truth LiDAR scans.
+
+Finally, I will compile this information into a structured format that clearly presents each dataset along with its full citation, ensuring that all relevant details are included for future reference or analysis.

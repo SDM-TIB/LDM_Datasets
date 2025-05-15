@@ -1,0 +1,45 @@
+To extract datasets from the research paper titled "LongT5: Efficient Text-To-Text Transformer for Long Sequences" by Mandy Guo et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors achieved state-of-the-art results on several summarization and question answering tasks, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section**, specifically **section 4.2 (Evaluation on Summarization Tasks)** and **section 4.3 (Evaluation on QA Tasks)**, where the authors explicitly list the datasets used for evaluation. In section 4.2.1, the authors mention six datasets for summarization tasks:
+
+1. **CNN / Daily Mail**: This dataset consists of news articles from CNN and Daily Mail, with the article's summary bullets as the target summary.
+2. **PubMed**: This dataset includes scientific documents collected from PubMed, where the document's content is used as input and its corresponding abstract as the target summary.
+3. **arXiv**: Similar to PubMed, this dataset consists of documents taken from arXiv, with the document's content as input and the abstract as the target summary.
+4. **BigPatent**: This dataset contains U.S. patent documents, using the patent's details as input and the patent's abstract as the target summary.
+5. **MediaSum**: This dataset includes interview transcripts from CNN and NPR, with the corresponding topic and overviews as the target summary.
+6. **Multi-News**: This dataset involves summarizing multiple news documents about a topic into a human-written summary.
+
+In section 4.3.1, the authors discuss two datasets for question answering tasks:
+
+1. **Natural Questions (NQ)**: This dataset consists of real queries issued by users to Google search, with answer text drawn from the search results.
+2. **TriviaQA**: This dataset contains trivia question-answer pairs authored by trivia enthusiasts, with answers drawn from Wikipedia and Bing web search results.
+
+Now, I will look at the **References section** to find the full citations for each dataset mentioned:
+
+- For **CNN / Daily Mail**, the citation is:
+  > Ramesh Nallapati, Bowen Zhou, Cicero dos Santos, Ça˘glar G˙ulçehre, and Bing Xiang. *Abstractive text summarization using sequence-to-sequence RNNs and beyond*. In Proceedings of The 20th SIGNLL Conference on Computational Natural Language Learning, pages 280–290, Berlin, Germany, 2016.
+
+- For **PubMed**, the citation is:
+  > Arman Cohan, Franck Dernoncourt, Doo Soon Kim, Trung Bui, Seokhwan Kim, Walter Chang, and Nazli Goharian. *A discourse-aware attention model for abstractive summarization of long documents*. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers), pages 615–621, New Orleans, Louisiana, 2018.
+
+- For **arXiv**, the citation is:
+  > Arman Cohan, Franck Dernoncourt, Doo Soon Kim, Trung Bui, Seokhwan Kim, Walter Chang, and Nazli Goharian. *A discourse-aware attention model for abstractive summarization of long documents*. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers), pages 615–621, New Orleans, Louisiana, 2018.
+
+- For **BigPatent**, the citation is:
+  > Eva Sharma, Chen Li, and Lu Wang. *BIGPATENT: A large-scale dataset for abstractive and coherent summarization*. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pages 2204–2213, Florence, Italy, 2019.
+
+- For **MediaSum**, the citation is:
+  > Chenguang Zhu, Yang Liu, Jie Mei, and Michael Zeng. *MediaSum: A large-scale media interview dataset for dialogue summarization*. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 5927–5934, Online, 2021.
+
+- For **Multi-News**, the citation is:
+  > Alexander Fabbri, Irene Li, Tianwei She, Suyi Li, and Dragomir Radev. *Multi-News: A large-scale multi-document summarization dataset and abstractive hierarchical model*. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pages 1074–1084, Florence, Italy, 2019.
+
+- For **Natural Questions**, the citation is:
+  > Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur Parikh, Chris Alberti, Danielle Epstein, Illia Polosukhin, Matthew Kelcey, Jacob Devlin, Kenton Lee, Kristina N. Toutanova, Llion Jones, Ming-Wei Chang, Andrew Dai, Jakob Uszkoreit, Quoc Le, and Slav Petrov. *Natural questions: a benchmark for question answering research*. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics, Vancouver, Canada, 2017.
+
+- For **TriviaQA**, the citation is:
+  > Mandar Joshi, Eunsol Choi, Daniel S. Weld, and Luke Zettlemoyer. *Triviaqa: A large scale distantly supervised challenge dataset for reading comprehension*. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics, Vancouver, Canada, 2017.
+
+With all this information gathered, I will now compile the dataset entries with their full citations for further processing.

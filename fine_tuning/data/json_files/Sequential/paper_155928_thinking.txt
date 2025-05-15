@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Learning a model is paramount for sample efficiency in reinforcement learning control of PDEs" by Stefan Werner and Sebastian Peitz, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses the use of a data-driven surrogate model and mentions the chaotic Kuramoto-Sivashinsky equation, which suggests that there may be datasets related to this equation.
+
+Next, I will focus on **section III (Learning Surrogate Models of Forced PDEs)**, where the authors describe their experiments. Here, they mention collecting a dataset of **100 simulation episodes** with **40,000 snapshots**. This dataset is crucial for evaluating their surrogate model's performance.
+
+In **section IV (Learning to Control PDEs Sample Efficiently)**, the authors discuss the impact of their approach on data consumption and mention that they systematically decrease the amount of data available during cross-validation. This indicates that they are working with a specific dataset related to the Kuramoto-Sivashinsky equation.
+
+Now, I will look for the **References section** to find full citations for the datasets mentioned. The paper does not provide a specific citation for the dataset they created, but they reference other works that may have used similar datasets or methodologies.
+
+1. **Kuramoto-Sivashinsky Equation Dataset**: The authors created a dataset consisting of 100 simulation episodes with 40,000 snapshots, specifically for the Kuramoto-Sivashinsky equation. However, there is no formal citation provided for this dataset in the paper.
+
+2. **Related Work**: The authors reference previous studies that may have used similar datasets, such as:
+   - K. Zeng and M. D. Graham. "Data-driven control of spatiotemporal chaos with reduced-order neural ode-based models and reinforcement learning." *arXiv:2205.00579*, 2022.
+   - S. Peitz and S. Klus. "Koopman operator-based model reduction for switched-system control of PDEs." *Automatica*, vol. 106, pp. 184–191, 2019.
+
+Since the paper does not provide a formal citation for the dataset they created, I will note that it is an original dataset developed for their experiments.
+
+Finally, I will summarize the datasets extracted from the paper:
+
+- **Kuramoto-Sivashinsky Equation Dataset**: 100 simulation episodes, 40,000 snapshots. No formal citation provided.
+
+Now, I will compile this information into a structured format for further processing or review.

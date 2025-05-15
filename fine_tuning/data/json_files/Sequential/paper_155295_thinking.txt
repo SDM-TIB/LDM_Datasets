@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Clustering Enabled Few-Shot Load Forecasting" by Qiyuan Wang et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors conducted extensive case studies on two real-world datasets and one synthetic dataset, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **Section IV (Setup for Case Study)**, where the authors provide an overview of the datasets used for their experiments. Here, they mention two real-world datasets: the **UMass Smart Dataset** and the **Pecan Street Texas Dataset**, along with a synthetic dataset.
+
+1. **UMass Smart Dataset**: The paper describes this dataset as containing minute-level electricity usage data from over 400 homes, specifically from January 1, 2016, to March 10, 2016. The authors mention that the dataset is sliced to have different granularities (20 minutes, 1 hour, 2 hours) and that they trained their model using various shot sizes (12, 24, 48, 96, 192 shots).
+
+2. **Pecan Street Texas Dataset**: This dataset includes minute-level electricity usage data from 310 units in Texas, also covering the same time period as the UMass dataset. Similar to the UMass dataset, it is sliced into different granularities and used for training with various shot sizes.
+
+The paper also mentions a **synthetic dataset** created by the authors, which consists of sinusoidal waves with Gaussian noise. However, since this dataset is synthetic and not sourced from external data, it may not require a formal citation.
+
+Now, I will check the **References section** to find the full citations for the UMass Smart Dataset and the Pecan Street Texas Dataset:
+
+- For the **UMass Smart Dataset**, the citation is:
+  > S. Barker, A. Mishra, D. Irwin, E. Cecchet, P. Shenoy, J. Albrecht et al. "Smart*: An open data set and tools for enabling research in sustainable homes." SustKDD, August, vol. 111, no. 112, p. 108, 2012.
+
+- For the **Pecan Street Texas Dataset**, the citation is:
+  > P. Street. "Pecan Street Dataport." Website, 2016, https://dataport.pecanstreet.org.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+1. **UMass Smart Dataset**: Contains minute-level electricity usage data from over 400 homes, sliced from January 1, 2016, to March 10, 2016. The dataset is used for training with various shot sizes.
+   - Citation: S. Barker et al. (2012).
+
+2. **Pecan Street Texas Dataset**: Includes minute-level electricity usage data from 310 units in Texas, covering the same time period as the UMass dataset. It is also used for training with various shot sizes.
+   - Citation: P. Street (2016).
+
+Finally, I will compile these dataset entries into a structured format for further processing or review.

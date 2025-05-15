@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "AlignDiff: Aligning Diverse Human Preferences via Behavior-Customisable Diffusion Model" by Zibin Dong et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will start by reading through the **abstract** and **introduction** sections. The abstract mentions the creation of **multi-perspective human feedback datasets** for training an attribute strength model. This indicates that there are datasets involved, but I need to find more specific details.
+
+Next, I will look into **section 4.1 (Multi-Perspective Human Feedback Collection)**, where the authors describe how they collected feedback from human annotators. They mention that they created a feedback dataset \( D_p \) consisting of pairs of trajectories with human judgments on various attributes. This section provides insight into the nature of the datasets but does not provide full citations yet.
+
+I will also check **section A (Tasks and Datasets)**, which details the specific locomotion tasks used for experiments. The authors describe three datasets corresponding to different environments:
+
+1. **Hopper Dataset**: Collected from a single-legged robot using pre-trained PPO agents, totaling 5 million time steps.
+2. **Walker Dataset**: A bipedal robot dataset with 3.2 million time steps, collected by modifying the reward function and training multiple policies.
+3. **Humanoid Dataset**: A dataset for a 3D bipedal robot, also modified for training, with 4 million time steps.
+
+In this section, I will also look for any references to the original sources or papers from which these datasets were derived or any relevant citations.
+
+After identifying the datasets, I will refer to the **References section** to find the full citations for each dataset mentioned. This is crucial for proper attribution and to ensure that the datasets can be accessed or referenced correctly in future work.
+
+For the **Hopper Dataset**, the citation is:
+> Zhu, Y., et al. *PEDA: A Benchmark for Policy Evaluation in Deep Reinforcement Learning*. In Proceedings of the International Conference on Learning Representations (ICLR), 2023.
+
+For the **Walker Dataset**, the citation is:
+> Tunyasuvunakool, S., et al. *DM Control: Software and Tasks for Continuous Control*. Software Impacts, 2020.
+
+For the **Humanoid Dataset**, the citation is also:
+> Tunyasuvunakool, S., et al. *DM Control: Software and Tasks for Continuous Control*. Software Impacts, 2020.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format that clearly outlines each dataset along with its full citation. This will ensure that the datasets are accurately represented and can be easily referenced in future research.

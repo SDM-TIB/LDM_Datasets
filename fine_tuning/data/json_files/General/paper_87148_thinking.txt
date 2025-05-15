@@ -1,0 +1,42 @@
+To extract datasets from the research paper titled "Extreme Classification in Log Memory using Count-Min Sketch: A Case Study of Amazon Search with 50M Products" by Tharun Medini et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to find any references to datasets. The abstract mentions that the authors experimented with **6 datasets**, which indicates that there are multiple datasets to extract.
+
+Next, I will focus on the **experiments section** where the authors provide details about the datasets used. In this section, they explicitly list the datasets and provide some statistics about each one. I will look for specific names, descriptions, and any relevant statistics such as the number of classes, training samples, and features.
+
+From the text, I identify the following datasets:
+
+1. **ODP**: A multiclass dataset extracted from the Open Directory Project. It has 1,084,404 training samples, 493,014 testing samples, 105,033 classes, and 422,713 features.
+
+2. **Fine-Grained ImageNet**: This dataset consists of features extracted from a convolutional neural network trained on the ILVSRC2012 challenge dataset. It has 12,777,062 training samples, 1,419,674 testing samples, 21,841 classes, and 6,144 features.
+
+3. **Wiki10-31K**: A multilabel dataset with 14,146 training samples, 6,616 testing samples, 30,938 classes, and 101,938 features.
+
+4. **Delicious-200K**: Another multilabel dataset with 196,606 training samples, 100,095 testing samples, 205,443 classes, and 782,585 features.
+
+5. **Amazon-670K**: A product recommendation dataset with 490,449 training samples, 153,025 testing samples, 670,091 classes, and 135,909 features.
+
+6. **Amazon Search Dataset**: This dataset is derived from Amazon's search engine, containing 70.3 million unique queries and 49.46 million products, used for evaluating the performance of the proposed method.
+
+Now, I will check the **References section** to find the full citations for each dataset. The citations may not always be explicitly listed for datasets, especially if they are proprietary or internal datasets. However, for publicly available datasets, I will look for the original papers or sources cited.
+
+For the datasets mentioned, I will provide the following citations:
+
+- **ODP**: 
+  > Choromanska, A. E., & Langford, J. (2015). Logarithmic time online multiclass prediction. In Advances in Neural Information Processing Systems (pp. 55-63).
+
+- **Fine-Grained ImageNet**: 
+  > Choromanska, A. E., & Langford, J. (2015). Logarithmic time online multiclass prediction. In Advances in Neural Information Processing Systems (pp. 55-63).
+
+- **Wiki10-31K**: 
+  > Varma, M. (2014). Extreme Classification Repository. http://manikvarma.org/downloads/XC/XMLRepository.html.
+
+- **Delicious-200K**: 
+  > Varma, M. (2014). Extreme Classification Repository. http://manikvarma.org/downloads/XC/XMLRepository.html.
+
+- **Amazon-670K**: 
+  > Varma, M. (2014). Extreme Classification Repository. http://manikvarma.org/downloads/XC/XMLRepository.html.
+
+- **Amazon Search Dataset**: This dataset is proprietary and may not have a formal citation, but it is referenced in the context of Amazon's internal data.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review. Each dataset will be described with its name, type, size, and a full citation where applicable.

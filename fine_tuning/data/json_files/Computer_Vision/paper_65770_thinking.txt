@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "LP-OVOD: Open-Vocabulary Object Detection by Linear Probing" by Chau Pham, Truong Vu, and Khoi Nguyen, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets mentioned. In the abstract, the authors mention that their method achieves superior performance on COCO, which suggests that COCO is one of the datasets used.
+
+Next, I will look for specific mentions of datasets in the **introduction**. The authors discuss the challenges of open-vocabulary object detection and reference the use of a pretrained model, but I need to confirm the datasets used for evaluation.
+
+In the **experimental results section**, the authors explicitly state that they conducted experiments using two standard OVOD datasets: **OV-COCO** and **OV-LVIS**. They describe OV-COCO as comprising 118,000 images with 48 base categories and 17 novel categories, and OV-LVIS as sharing the image set with OV-COCO, with categories divided into frequent, common, and rare groups.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+1. For **COCO**, the citation is:
+   > Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. *Microsoft COCO: Common Objects in Context*. In European Conference on Computer Vision, pages 740–755, 2014.
+
+2. For **LVIS**, the citation is:
+   > Agrim Gupta, Piotr Dollar, and Ross Girshick. *LVIS: A Dataset for Large Vocabulary Instance Segmentation*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 5356–5364, 2019.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+- **OV-COCO**: A dataset with 118,000 images, containing 48 base categories and 17 novel categories.
+- **OV-LVIS**: A dataset that shares the image set with OV-COCO, divided into frequent, common, and rare categories.
+
+Finally, I will compile the dataset entries into a structured format for further processing, ensuring that each dataset is accurately represented with its full citation.

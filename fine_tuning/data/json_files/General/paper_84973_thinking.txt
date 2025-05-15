@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Predicting Retrosynthetic Reaction using Self-Corrected Transformer" by Shuangjia Zheng et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reading through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors achieved an accuracy of 59.0% on a "standard benchmark dataset," which suggests that a specific dataset is being referenced.
+
+Next, I will focus on the **Overview section**, where the authors explicitly mention the dataset used for their experiments. They state that they utilized the same reaction data as first parsed by Lowe, derived from USPTO granted patents, which includes 50,000 reactions classified into 10 reaction classes. This dataset is referred to as **USPTO-50K**.
+
+In the **Experiments and Results section**, the authors confirm that they evaluated their model on the USPTO-50K dataset, providing further validation of its use in their experiments.
+
+Now, I will check the **References section** to find the full citation for the USPTO-50K dataset. The relevant citation is:
+
+- For **USPTO-50K**, the citation is:
+  > Lowe, D. M. *Extraction of chemical structures and reactions from the literature*. University of Cambridge, 2012.
+
+Additionally, the authors mention that they reconstructed a more challenging dataset using a cluster split strategy, referred to as **USPTO-50K-cluster**. I will also ensure to include this dataset in my extraction.
+
+The citation for the original dataset used for clustering is not explicitly provided in the text, but it is derived from the same source as USPTO-50K. Therefore, I will reference it similarly.
+
+Now, I will summarize the datasets identified:
+
+1. **USPTO-50K**: A dataset derived from USPTO granted patents, containing 50,000 reactions classified into 10 reaction classes.
+   - Citation: Lowe, D. M. *Extraction of chemical structures and reactions from the literature*. University of Cambridge, 2012.
+
+2. **USPTO-50K-cluster**: A reconstructed dataset using a cluster split strategy based on the USPTO-50K dataset.
+   - Citation: Lowe, D. M. *Extraction of chemical structures and reactions from the literature*. University of Cambridge, 2012.
+
+With this information, I will prepare the dataset entries for further processing, ensuring that I have accurately captured the necessary details and citations.

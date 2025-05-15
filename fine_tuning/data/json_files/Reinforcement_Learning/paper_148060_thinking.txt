@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Improved Reinforcement Learning through Imitation Learning Pretraining Towards Image-based Autonomous Driving" by Tianqi Wang and Dong Eui Chang, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract mentions using the simulator Airsim, which suggests that the data might be generated from this environment. However, I need to confirm if any specific datasets are referenced.
+
+Next, I will focus on **section 3 (Proposed Method)**, where the authors describe their approach to data collection. They mention using an Xbox game controller to control the car and record data using Airsim’s API. This indicates that the dataset is likely generated from simulations rather than a pre-existing dataset.
+
+In **section 4 (Experiments)**, the authors discuss the training and testing phases, but they do not explicitly mention any named datasets. Instead, they refer to the data collected during the imitation learning phase and the reinforcement learning phase, which are derived from the Airsim simulator. This suggests that the dataset is not a traditional dataset with a formal citation but rather a custom dataset created for the study.
+
+Since there are no specific datasets with formal citations provided in the paper, I will note that the data used for training and testing is generated from the Airsim simulator. I will also include the reference for Airsim to acknowledge the source of the simulation environment.
+
+Now, I will compile the findings:
+
+1. **Dataset**: Data collected from Airsim simulator
+   - Description: The dataset consists of driving data recorded while controlling a car in various weather and lighting conditions using an Xbox game controller. The data includes images and corresponding vehicle control outputs (throttle, brake, steering).
+   - Citation: 
+     > Shah, S., Dey, D., Lovett, C., & Kapoor, A. (2017). *AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles*. Field and Service Robotics conference 2017 (FSR 2017).
+
+Since the paper does not reference any other datasets, I will conclude my extraction process here. The key takeaway is that the dataset is generated from the Airsim environment, and I have provided the necessary citation for it.

@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "On the Informativeness of Supervision Signals" by Ilia Sucholutsky et al., I will follow a systematic approach to identify and document each dataset mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the study's focus on supervision signals, but I need to look for specific datasets used in the experiments.
+
+In the **introduction**, the authors discuss the importance of human annotations and mention various types of supervision signals, but they do not specify any datasets yet. I will continue to the **experiments section** where datasets are likely to be detailed.
+
+In **section 7 (Experiments)**, the authors describe several datasets used for their experiments with soft labels. They mention:
+
+1. **CIFAR-10H**: This dataset consists of labels derived from averaging over 500,000 crowdsourced hard labels. The citation for this dataset is:
+   > Peterson, J. C., Battleday, R. M., & Griffiths, T. L. (2019). Evaluating (and improving) the correspondence between deep neural networks and human representations. *Cognitive Science*, 42(8), 2648-2669.
+
+2. **CIFAR-10DS**: This dataset is made up of over 500,000 judgments crowdsourced for the study, providing dense soft labels. The citation is:
+   > Collins, K. M., Bhatt, U., & Weller, A. (2022). Eliciting and learning with soft labels from every annotator. In *Proceedings of the AAAI Conference on Human Computation and Crowdsourcing*, 10, 40-52.
+
+3. **CIFAR-10S**: This dataset consists of sparse soft labels collected from around 20,000 judgments about the likelihood of the top two categories for each image. The citation is:
+   > Collins, K. M., Bhatt, U., & Weller, A. (2022). Eliciting and learning with soft labels from every annotator. In *Proceedings of the AAAI Conference on Human Computation and Crowdsourcing*, 10, 40-52.
+
+4. **CIFAR-10T**: This dataset comprises over 350,000 typicality ratings for each image under the ground truth category. The citation is:
+   > Peterson, J. C., Battleday, R. M., & Griffiths, T. L. (2019). Evaluating (and improving) the correspondence between deep neural networks and human representations. *Cognitive Science*, 42(8), 2648-2669.
+
+5. **CIFAR-10LS**: This dataset is derived by applying label smoothing to the CIFAR-10 hard labels. The citation is:
+   > Müller, R., Kornblith, S., & Hinton, G. E. (2019). When does label smoothing help? *Advances in Neural Information Processing Systems*, 32.
+
+Next, I will check the **References section** to ensure I have the correct citations for each dataset. The citations I found in the text match those in the references, confirming their accuracy.
+
+Now, I will compile the dataset entries, ensuring that each dataset is clearly described and includes its full citation. This will provide a comprehensive overview of the datasets used in the research paper.

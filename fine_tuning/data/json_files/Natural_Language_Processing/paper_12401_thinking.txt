@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "HybridAugment++: Unified Frequency Spectra Perturbations for Model Robustness" by Mehmet Kerim Yucel et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets mentioned. The abstract indicates that the authors evaluate their methods on several benchmark datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4.1 (Experimental Setup)**, where the authors explicitly list the datasets used for training and evaluation. Here, they mention:
+
+1. **CIFAR-10**: A dataset consisting of 50,000 training images across 10 classes, with each image sized at 32x32 pixels.
+2. **CIFAR-100**: Similar to CIFAR-10 but with 100 classes, also containing 50,000 training images of the same size.
+3. **ImageNet**: A larger dataset containing approximately 1.2 million images across 1,000 different classes.
+
+In this section, the authors also mention using corrupted versions of these datasets for evaluating corruption robustness, specifically **CIFAR-10-C**, **CIFAR-100-C**, and **ImageNet-C**. These datasets are designed to simulate various corruption types and are crucial for assessing the robustness of the proposed methods.
+
+Next, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **CIFAR-10** and **CIFAR-100**, the citation is:
+  > Alex Krizhevsky, Geoffrey Hinton, et al. *Learning Multiple Layers of Features from Tiny Images*. 2009.
+
+- For **ImageNet**, the citation is:
+  > Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. *ImageNet: A Large-Scale Hierarchical Image Database*. In 2009 IEEE Conference on Computer Vision and Pattern Recognition, pages 248–255. IEEE, 2009.
+
+- For **CIFAR-10-C** and **CIFAR-100-C**, the citation is:
+  > Dan Hendrycks and Thomas Dietterich. *Benchmarking Neural Network Robustness to Common Corruptions and Perturbations*. arXiv preprint arXiv:1903.12261, 2019.
+
+- For **ImageNet-C**, the citation is:
+  > Dan Hendrycks, Norman Mu, Ekin D Cubuk, Barret Zoph, Justin Gilmer, and Balaji Lakshminarayanan. *Augmix: A Simple Data Processing Method to Improve Robustness and Uncertainty*. arXiv preprint arXiv:1912.02781, 2019.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

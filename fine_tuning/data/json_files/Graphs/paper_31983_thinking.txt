@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Contrastive Learning of Sentence Embeddings from Scratch" by Junlei Zhang et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will start by examining the **abstract** and **introduction** sections for any references to datasets. The abstract mentions the introduction of a framework called SynCSE, which synthesizes data for contrastive learning. This suggests that there may be datasets involved, particularly those related to the experiments conducted.
+
+Next, I will look into the **methodology** section, specifically the parts discussing SynCSE-partial and SynCSE-scratch. Here, the authors describe how they synthesize positive and hard negative examples, indicating that they are generating datasets rather than using pre-existing ones. I will note any specific datasets or benchmarks they reference.
+
+In the **experiments** section, the authors detail their evaluation on various tasks, including the Semantic Textual Similarity (STS) benchmark and reranking tasks. I will identify any datasets used for these evaluations. For instance, they mention using the STS benchmark, which is a well-known dataset for evaluating semantic textual similarity.
+
+I will also check the **references section** for any citations related to datasets mentioned in the paper. This is crucial for providing full citations for each dataset.
+
+From my reading, I can identify the following datasets:
+
+1. **Semantic Textual Similarity (STS) Benchmark**: This dataset is used for evaluating the performance of the proposed methods on semantic similarity tasks. The citation for the STS benchmark is:
+   > Daniel Cer, Mona Diab, Eneko Agirre, Iñigo Lopez-Gazpio, and Lucia Specia. *SemEval-2017 task 1: Semantic textual similarity multilingual and crosslingual focused evaluation*. In Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-2017), pages 1–14, Vancouver, Canada. Association for Computational Linguistics.
+
+2. **MNLI+SNLI Dataset**: This dataset is referenced as part of the training for the SynCSE-partial method. The citation for this dataset is:
+   > William Y. Wang, Amanpreet Singh, Julian Michael, et al. *GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding*. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP-IJCNLP), pages 3911–3921, Hong Kong, China. Association for Computational Linguistics.
+
+3. **BIOSSES Dataset**: This dataset is used for evaluating the model in the biomedical domain. The citation is:
+   > Gizem So˘gancıo˘glu, Hakime Öztürk, and Arzucan Özgür. *Biosses: a semantic sentence similarity estimation system for the biomedical domain*. Bioinformatics, 33(14):i49–i58, 2017.
+
+4. **StackOverflowDupQuestions Dataset**: This dataset is used for reranking tasks. The citation is:
+   > Jiduan Liu, Jiahao Liu, Qifan Wang, Jingang Wang, Wei Wu, Dongyan Zhao, and Rui Yan. *RankCSE: Unsupervised sentence representations learning via learning to rank*. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, pages 8150–8161, Abu Dhabi, United Arab Emirates. Association for Computational Linguistics.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accompanied by its full citation for clarity and proper attribution. This structured approach will help ensure that I capture all relevant datasets mentioned in the paper accurately.

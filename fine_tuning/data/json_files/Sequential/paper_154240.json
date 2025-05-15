@@ -1,0 +1,69 @@
+[
+    {
+        "dcterms:creator": [
+            "C. Lopes",
+            "S. Bajracharya",
+            "J. Ossher",
+            "P. Baldi"
+        ],
+        "dcterms:description": "A dataset containing source code from various projects, used for evaluating comment generation methods.",
+        "dcterms:title": "Sourcerer repository",
+        "dcterms:issued": "2010",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.ics.uci.edu/~lopes/datasets/",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Source code",
+            "Software engineering",
+            "Comment generation"
+        ],
+        "dcat:landingPage": "https://www.ics.uci.edu/~lopes/datasets/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Alexander LeClair",
+            "Siyuan Jiang",
+            "Collin McMillan"
+        ],
+        "dcterms:description": "A dataset derived from the Sourcerer repository, containing Java methods and their corresponding comments, used for training and evaluating neural models for comment generation.",
+        "dcterms:title": "Standard dataset (derived from Sourcerer repository)",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://doi.org/10.1109/ICSE.2019.00087",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Java methods",
+            "Comment generation",
+            "Neural models"
+        ],
+        "dcat:landingPage": "https://doi.org/10.1109/ICSE.2019.00087",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Alexander LeClair",
+            "Siyuan Jiang",
+            "Collin McMillan"
+        ],
+        "dcterms:description": "A challenge dataset derived from the Sourcerer repository, designed to evaluate the performance of neural models when only the AST structure is available.",
+        "dcterms:title": "Challenge dataset (derived from Sourcerer repository)",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://doi.org/10.1109/ICSE.2019.00087",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "AST structure",
+            "Comment generation",
+            "Neural models"
+        ],
+        "dcat:landingPage": "https://doi.org/10.1109/ICSE.2019.00087",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

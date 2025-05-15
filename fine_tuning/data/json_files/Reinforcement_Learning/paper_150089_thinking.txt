@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Real-Time Reinforcement Learning for Vision-Based Robotics" by Yan Wang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions that the performance of the proposed system is evaluated on two vision-based control tasks developed using a robotic arm and a mobile robot. This indicates that there are datasets related to these tasks, but I need to find their specific names and details.
+
+Next, I will look into the **Tasks section (IV)**, where the authors describe two specific tasks: **UR5-VisualReacher** and **Create-Reacher**. The descriptions of these tasks suggest that they involve datasets of images and actions related to the robotic control tasks. 
+
+1. **UR5-VisualReacher**: This task involves moving a UR5 arm’s fingertip to a target designated by a red blob on a monitor. The task requires tens of thousands of images to learn good state representations and control policies. The environment runs on a Lenovo Ideapad Y700 laptop.
+
+2. **Create-Reacher**: This task aims to move the Create2 robot to a target designated by a green piece of paper. The task also involves image data and requires the robot to navigate based on visual input. The environment runs on a Jetson Nano computer.
+
+Now, I will check the **References section** to find full citations for any datasets or related works that may have been referenced. The authors mention prior works and systems that may have used similar datasets, but they do not provide explicit citations for the datasets themselves.
+
+Since the datasets are derived from the tasks described in the paper, I will create citations based on the tasks and the environments used. However, since these tasks are likely not standalone datasets with formal citations, I will note them as part of the experimental setup in the paper.
+
+The citations for the tasks will be as follows:
+
+- For **UR5-VisualReacher**, the citation is:
+  > Yuan, Y., & Mahmood, A. R. (2022). Asynchronous relearning for real-time control of physical robots. In 2022 IEEE International Conference on Robotics and Automation (ICRA).
+
+- For **Create-Reacher**, the citation is also:
+  > Yuan, Y., & Mahmood, A. R. (2022). Asynchronous relearning for real-time control of physical robots. In 2022 IEEE International Conference on Robotics and Automation (ICRA).
+
+Now, I will compile the dataset entries, ensuring to include the task descriptions and their respective citations. This will provide a comprehensive overview of the datasets used in the experiments of the paper.

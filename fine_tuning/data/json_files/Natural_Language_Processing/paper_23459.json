@@ -1,0 +1,121 @@
+[
+    {
+        "dcterms:creator": [
+            "Wenjing Meng",
+            "Deqing Yang",
+            "Yanghua Xiao"
+        ],
+        "dcterms:description": "This dataset contains user session data extracted from an e-commerce search engine logs that can be used to build session-based recommender systems. The dataset is preprocessed to filter out items that appear less than 5 times and incorporates side information like the category of the product to improve performance.",
+        "dcterms:title": "Diginetica",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.1145/3397271.3401098",
+        "dcat:theme": [
+            "E-commerce",
+            "Session-based Recommendation"
+        ],
+        "dcat:keyword": [
+            "User sessions",
+            "E-commerce",
+            "Session-based recommendation",
+            "Side information"
+        ],
+        "dcat:landingPage": "http://dx.doi.org/10.1145/3397271.3401098",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Session-based Recommendation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Priyanka Gupta",
+            "Diksha Garg",
+            "Pankaj Malhotra",
+            "Lovekesh Vig",
+            "Gautam Shroff"
+        ],
+        "dcterms:description": "This dataset contains <user, timestamp, artist, song> tuples collected from Last.FM API, representing the listening habits of nearly 1,000 users. It is primarily used for baseline evaluations as it does not contain sufficient side information.",
+        "dcterms:title": "Last.FM",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Music Recommendation",
+            "User Behavior Analysis"
+        ],
+        "dcat:keyword": [
+            "Music history",
+            "User sessions",
+            "Listening habits"
+        ],
+        "dcat:landingPage": "http://ocelma.net/MusicRecommendationDataset/lastfm-360K.html",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Session-based Recommendation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Pengjie Ren",
+            "Zhumin Chen",
+            "Jing Li",
+            "Zhaochun Ren",
+            "Jun Ma",
+            "Maarten Rijke"
+        ],
+        "dcterms:description": "This dataset is a popular movie rating dataset that includes user ID, item ID, timestamp, and rating. It also contains features like genres of movies, which can be used to train embeddings for movies.",
+        "dcterms:title": "MovieLens",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.1609/aaai.v33i01.33014806",
+        "dcat:theme": [
+            "Movie Recommendation",
+            "User Rating Analysis"
+        ],
+        "dcat:keyword": [
+            "Movie ratings",
+            "User sessions",
+            "Genres",
+            "Recommendation"
+        ],
+        "dcat:landingPage": "https://grouplens.org/datasets/movielens/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Session-based Recommendation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Shu Wu",
+            "Yuyuan Tang",
+            "Yanqiao Zhu",
+            "Liang Wang",
+            "Xing Xie",
+            "Tieniu Tan"
+        ],
+        "dcterms:description": "This dataset contains transaction data from a Chinese grocery store, including features such as transaction_date, customer_id, product_id, and product_subclass. It is used to improve performance in session-based recommendations by utilizing product subclass as side information.",
+        "dcterms:title": "Ta Feng",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.1609/aaai.v33i01.3301346",
+        "dcat:theme": [
+            "Retail",
+            "Transaction Analysis"
+        ],
+        "dcat:keyword": [
+            "Grocery transactions",
+            "User sessions",
+            "Product subclass",
+            "Recommendation"
+        ],
+        "dcat:landingPage": "https://www.kaggle.com/chiranjivdas09/ta-feng-grocery-dataset",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Session-based Recommendation"
+        ]
+    }
+]

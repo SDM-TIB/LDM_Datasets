@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "The Impact of Negative Sampling on Contrastive Structured World Models" by Ondrej Biza et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the authors collected a "full version of the datasets to study contrastive learning under a more diverse set of experiences," which indicates that datasets are indeed involved.
+
+Next, I will focus on the **experiments section** (Section 4), where the authors describe their experimental setups. In Section 4.2, they mention evaluating their method on **Atari datasets**, specifically referencing **Pong** and **Space Invaders**. This suggests that these two datasets are critical to their research.
+
+In Section 4.3, the authors discuss their approach to training on **diverse Atari datasets**. They explain that they collected a new dataset by rolling out a trained A3C agent to gather transitions associated with random actions, which indicates that they have created a dataset that is distinct from the original Atari datasets.
+
+Now, I will look for the **References section** to find the full citations for the datasets mentioned:
+
+1. **Atari Datasets**: The original Atari datasets used in the experiments are typically referenced in the literature, but the authors do not provide a specific citation in this paper. However, the standard citation for the Atari Learning Environment is:
+   > Bellemare, M. G., Naddaf, Y., Veness, J., & Munos, R. (2013). The Arcade Learning Environment: An Evaluation Platform for General Agents. *Journal of Artificial Intelligence Research*, 47, 253-279.
+
+2. **Diverse Atari Datasets**: The authors mention that they collected a new dataset based on the Atari games, but they do not provide a specific citation for this new dataset since it is part of their own work. Therefore, I will note it as:
+   > Biza, O., van der Pol, E., & Kipf, T. (2021). The Impact of Negative Sampling on Contrastive Structured World Models. *ICML 2021 Workshop: Self-Supervised Learning for Reasoning and Perception*.
+
+Now, I will compile the dataset entries, ensuring that I include the full citations for each dataset as required. This will provide a clear and structured overview of the datasets referenced in the paper.

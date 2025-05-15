@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Context-Sensitive Generation Network for Handling Unknown Slot Values in Dialogue State Tracking" by Puhai Yang, Heyan Huang, and Xian-Ling Mao, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract highlights the importance of dialogue state tracking and mentions experiments conducted on specific benchmarks, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (section 4), where the authors explicitly mention the datasets used for their experiments. They state that their experiments are conducted on **DSTC2** and **MultiWOZ 2.1** datasets. I will look for detailed descriptions of these datasets in this section.
+
+In section 4.1, the authors provide specific details about the datasets:
+
+1. **DSTC2**: This dataset is described as a traditional standard dialogue state tracking benchmark focused on a single restaurant domain. It contains 1,612 training dialogues, 506 development dialogues, and 1,117 test dialogues.
+
+2. **MultiWOZ 2.1**: This dataset is noted as a corrected version of the MultiWOZ dataset, containing around 10,000 dialogues with an average of 6.85 turns per dialogue. It includes over 30 slots and 988 possible slot values.
+
+Additionally, the authors mention a **modified MultiWOZ 2.1** dataset created for their experiments, which eliminates certain slots to focus on the extraction of unknown slot values.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **DSTC2**, the citation is:
+  > M. Henderson, B. Thomson, and J. D. Williams. *The second dialog state tracking challenge*. In Proceedings of the 15th annual meeting of the special interest group on discourse and dialogue (SIGDIAL), 2014, pp. 263–272.
+
+- For **MultiWOZ 2.1**, the citation is:
+  > M. Eric, R. Goel, S. Paul, A. Sethi, S. Agarwal, S. Gao, and D. Hakkani-Tur. *MultiWOZ 2.1: Multi-domain dialogue state corrections and state tracking baselines*. arXiv preprint arXiv:1907.01669, 2019.
+
+- For the **modified MultiWOZ 2.1**, since it is a variant of the original MultiWOZ dataset, I will reference the same citation as MultiWOZ 2.1.
+
+After gathering all this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This structured approach will ensure that I accurately capture all relevant datasets from the paper.

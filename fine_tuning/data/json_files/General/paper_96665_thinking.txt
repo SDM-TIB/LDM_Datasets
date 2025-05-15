@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Learn-Prune-Share for Lifelong Learning" by Zifeng Wang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. In the abstract, the authors refer to "two lifelong learning benchmark datasets" and "a challenging real-world radio frequency fingerprinting dataset." This indicates that there are at least three datasets to look for.
+
+Next, I will focus on the **experiments section** (Section V), where the authors provide details about the datasets used for their experiments. They specifically mention:
+
+1. **Permuted MNIST**: This dataset is derived from the original MNIST dataset, which consists of 28x28 images of handwritten digits. The authors state that they create 10 tasks by applying random permutations to the MNIST images.
+
+2. **Split CIFAR-10/100**: The CIFAR-10 dataset contains 10 classes of 32x32 color images, while CIFAR-100 has 100 classes. The authors explain that they set the first task as the entire CIFAR-10 dataset and create additional tasks from the CIFAR-100 dataset.
+
+3. **Split RF Dataset**: This dataset consists of radio transmissions from 50 WiFi devices recorded in real-world conditions. The authors mention that they randomly partition these 50 classes into 5 tasks.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **Permuted MNIST**, the original MNIST dataset citation is:
+  > Yann LeCun, Corinna Cortes, and Christopher J. Burges. *The MNIST Database of Handwritten Digits*. 1998. URL: http://yann.lecun.com/exdb/mnist.
+
+- For **CIFAR-10 and CIFAR-100**, the citation is:
+  > Alex Krizhevsky and Geoffrey Hinton. *Learning Multiple Layers of Features from Tiny Images*. 2009.
+
+- For **Split RF Dataset**, the citation is:
+  > T. Jian, B. C. Rendon, E. Ojuba, N. Soltani, Z. Wang, K. Sankhe, A. Gritsenko, J. Dy, K. Chowdhury, and S. Ioannidis. *Deep Learning for RF Fingerprinting: A Massive Experimental Study*. In IEEE Internet of Things Magazine, 2020.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and that the full citations are included for reference. This structured approach will help ensure that I capture all relevant details about the datasets used in the research paper.

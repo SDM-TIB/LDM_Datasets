@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "DIFF-SV: A Unified Hierarchical Framework for Noise-Robust Speaker Verification Using Score-Based Diffusion Probabilistic Models" by Ju-ho Kim et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract mentions the evaluation of the proposed model using the **VoxCeleb1 test set** and the **VOiCES corpus**, indicating that these are datasets used in the research.
+
+Next, I will focus on **section 4.1 (Datasets)**, where the authors provide detailed information about the datasets used for training and evaluation. Here, they specifically mention:
+
+1. **VoxCeleb1**: This dataset is used for model training and consists of 1,211 speakers. It is a well-known dataset in the speaker verification community.
+
+2. **MUSAN**: This dataset is used to generate noise data for training. It includes music, speech, and noise samples, which are crucial for simulating various noisy environments.
+
+3. **Nonspeech100**: This dataset serves as an out-of-domain noise source for evaluation, providing additional robustness testing for the model.
+
+4. **VOiCES corpus**: This dataset is utilized to evaluate the generalizability of the model under different acoustic conditions.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **VoxCeleb1**, the citation is:
+  > Arsha Nagrani, Joon Son Chung, and Andrew Zisserman. *Voxceleb: A large-scale speaker identification dataset*. In INTERSPEECH, 2017, pp. 2616–2620, ISCA.
+
+- For **MUSAN**, the citation is:
+  > David Snyder, Guoguo Chen, and Daniel Povey. *Musan: A music, speech, and noise corpus*. In arXiv preprint arXiv:1510.08484, 2015.
+
+- For **Nonspeech100**, the citation is:
+  > Guoning Hu and DeLiang Wang. *A tandem algorithm for pitch estimation and voiced speech segregation*. In IEEE Transactions on Audio, Speech, and Language Processing, 2010, vol. 18, pp. 2067–2079, IEEE.
+
+- For **VOiCES corpus**, the citation is:
+  > Colleen Richey, Maria A. Barrios, Zeb Armstrong, Chris Bartels, Horacio Franco, Martin Graciarena, Aaron Lawson, Mahesh Kumar Nandwana, Allen Stauffer, Julien van Hout, Paul Gamble, Jeffrey Hetherly, Cory Stephenson, and Karl Ni. *Voices Obscured in Complex Environmental Settings (VOiCES) Corpus*. In INTERSPEECH, 2018, pp. 1566–1570.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing or review.

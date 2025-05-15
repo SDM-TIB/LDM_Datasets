@@ -1,0 +1,47 @@
+To extract datasets from the research paper titled "Improving Expressivity of GNNs with Subgraph-specific Factor Embedded Normalization" by Kaixuan Chen et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that experimental results are provided on "eight popular datasets," which indicates that multiple datasets are used.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors detail the datasets used for their experiments. Here, they explicitly list the datasets categorized by the type of tasks they are used for:
+
+1. **Graph Predictions**:
+   - **IMDB-BINARY**: A dataset for binary classification tasks consisting of 1,000 graphs.
+   - **ogbg-moltoxcast**: A molecular dataset for multi-task learning with 8,576 graphs.
+   - **ogbg-molhiv**: A molecular dataset used for binary classification with 41,127 graphs.
+   - **ZINC**: A real-world molecular dataset for graph regression with 10,000 graphs.
+
+2. **Node Predictions**:
+   - **Cora**: A social network dataset for node classification with 2,708 nodes.
+   - **Pubmed**: Another social network dataset for node classification with 19,717 nodes.
+   - **ogbn-proteins**: A protein-protein association network dataset for node classification with 132,534 nodes.
+
+3. **Link Predictions**:
+   - **ogbl-collab**: A collaboration network dataset for link classification with 235,868 nodes.
+
+After identifying the datasets, I will check the **References section** for full citations. The paper does not provide explicit citations for the datasets within the text, but I can infer the following based on common knowledge and existing literature:
+
+- **IMDB-BINARY**: 
+  > John J. Irwin, Teague Sterling, Michael M. Mysinger, Erin S. Bolstad, and Ryan G. Coleman. *ZINC: A Free Tool to Discover Chemistry for Biology*. Journal of Chemical Information and Modeling, 52(7):1757-1766, 2012.
+
+- **ogbg-moltoxcast**: 
+  > Weihua Hu, Matthias Fey, Marinka Zitnik, Yuxiao Dong, Hongyu Ren, Bowen Liu, Michele Catasta, and Jure Leskovec. *Open Graph Benchmark: Datasets for Machine Learning on Graphs*. Advances in Neural Information Processing Systems, 33:22118-22133, 2020.
+
+- **ogbg-molhiv**: 
+  > Weihua Hu et al. *Open Graph Benchmark: Datasets for Machine Learning on Graphs*. Advances in Neural Information Processing Systems, 33:22118-22133, 2020.
+
+- **ZINC**: 
+  > John J. Irwin et al. *ZINC: A Free Tool to Discover Chemistry for Biology*. Journal of Chemical Information and Modeling, 52(7):1757-1766, 2012.
+
+- **Cora**: 
+  > Thomas N. Kipf and Max Welling. *Semi-Supervised Classification with Graph Convolutional Networks*. International Conference on Learning Representations, 2017.
+
+- **Pubmed**: 
+  > Thomas N. Kipf and Max Welling. *Semi-Supervised Classification with Graph Convolutional Networks*. International Conference on Learning Representations, 2017.
+
+- **ogbn-proteins**: 
+  > Weihua Hu et al. *Open Graph Benchmark: Datasets for Machine Learning on Graphs*. Advances in Neural Information Processing Systems, 33:22118-22133, 2020.
+
+- **ogbl-collab**: 
+  > Weihua Hu et al. *Open Graph Benchmark: Datasets for Machine Learning on Graphs*. Advances in Neural Information Processing Systems, 33:22118-22133, 2020.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or analysis.

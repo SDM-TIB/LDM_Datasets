@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Scalable Label-efficient Footpath Network Generation Using Remote Sensing Data and Self-supervised Learning" by Xinye Wanyana et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and datasets sections** to locate any references to datasets. The abstract mentions the development of a pipeline for generating footpath networks based on remote sensing images, which suggests that datasets are involved.
+
+Next, I will focus on **section III (Methodology)**, particularly the subsection labeled **A. Datasets**. Here, the authors explicitly describe the datasets they created for their research:
+
+1. **Self-supervised Training Set**: This dataset consists of 100,000 unlabeled remote sensing images of Sydney, Australia, which were used for pre-training the model.
+
+2. **Footpath Segmentation Set**: This dataset includes approximately 10 million remote sensing images of Melbourne collected in 2020. The authors mention that they generated footpath segmentation masks from this dataset, which were then used for the downstream task of sidewalk segmentation.
+
+In addition, the authors specify that the images are collected from **MetroMap**, a provider of high-resolution aerial imagery, and that the images are based on XYZ Tiles with a resolution of 256 × 256 pixels.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. However, since the datasets are original contributions from the authors and sourced from MetroMap, I will note that the citation for the datasets will reflect this source.
+
+The citations for the datasets will be as follows:
+
+- For the **Self-supervised Training Set**:
+  > Wanyana, X., Seneviratne, S., Nice, K., Thompson, J., White, M., Langenheim, N., & Stevenson, M. (2023). *Scalable Label-efficient Footpath Network Generation Using Remote Sensing Data and Self-supervised Learning*. [Dataset of 100,000 unlabeled remote sensing images of Sydney, Australia]. Available from MetroMap.
+
+- For the **Footpath Segmentation Set**:
+  > Wanyana, X., Seneviratne, S., Nice, K., Thompson, J., White, M., Langenheim, N., & Stevenson, M. (2023). *Scalable Label-efficient Footpath Network Generation Using Remote Sensing Data and Self-supervised Learning*. [Dataset of approximately 10 million remote sensing images of Melbourne, 2020]. Available from MetroMap.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

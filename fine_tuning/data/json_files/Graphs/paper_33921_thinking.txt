@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Unsupervised Contrastive Learning for Robust RF Device Fingerprinting Under Time-Domain Shift" by Jun Chen et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract** to see if any datasets are mentioned. The abstract discusses the use of RF device fingerprinting and mentions experiments conducted on wireless and wired RF datasets, indicating that datasets are involved.
+
+Next, I will examine the **introduction** section for any specific dataset names or descriptions. The introduction discusses the challenges of domain shift in RF fingerprinting but does not provide specific dataset names.
+
+I will then focus on the **Methodology** section, particularly the **Dataset Construction** subsection. Here, the authors describe the dataset collection process in detail. They mention using real RF datasets collected from an experimental testbed with 15+ PyCom/IoT transmitting devices. They also describe the data collection scenarios (Wireless-WiFi and Wired-WiFi) and how the datasets are structured into Capture Sets.
+
+In this section, I will note the following datasets:
+
+1. **Wireless-WiFi Dataset**: This dataset consists of RF signals captured wirelessly from devices located 1 meter away from the receiver. It includes multiple Capture Sets created from the transmissions of the devices.
+
+2. **Wired-WiFi Dataset**: This dataset consists of RF signals captured from devices connected directly to the receiver via an SMA cable, allowing for a controlled environment to mask the impact of the wireless channel. Similar to the Wireless-WiFi dataset, it includes multiple Capture Sets.
+
+The authors also mention that they created S datasets (Capture Sets) from the transmissions of the devices, which consist of portions of the tested devices’ transmissions captured at the same offset in time.
+
+Next, I will check the **References section** to find full citations for any datasets or related works mentioned. However, the datasets themselves (Wireless-WiFi and Wired-WiFi) do not have specific citations as they are original datasets created by the authors.
+
+Now, I will compile the information into a structured format, ensuring to include the dataset names and descriptions, along with any relevant citations for the methodologies or related works that support the dataset creation.
+
+Finally, I will prepare the dataset entries for review, ensuring that I have accurately captured the details and citations as required.

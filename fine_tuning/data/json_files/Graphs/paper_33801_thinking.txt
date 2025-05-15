@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "A Microstructure-based Graph Neural Network for Accelerating Multiscale Simulations" by J. Storm, I. B. C. M. Rocha, and F. P. van der Meer, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and results sections** to identify any datasets mentioned. The abstract discusses the development of a surrogate model for multiscale simulations, which suggests that datasets are likely involved in the training and validation of this model.
+
+Next, I will look for specific mentions of datasets in the **methodology and results sections**. In the results section, the authors describe the generation of training data, which includes various periodic microstructures and their corresponding stress-strain paths. This indicates that there are datasets created for the experiments.
+
+In **section 4.1 (Data generation)**, the authors detail how they generated a different periodic microstructure for each sample, with a random distribution of voids and a fixed volume fraction. They mention generating 4000 samples for training, 2000 for validation, and additional test sets, which confirms the existence of datasets.
+
+I will also check the **References section** to find any citations related to the datasets used. The authors mention using an in-house Finite Element software for data generation, which may not have a formal citation but is important to note.
+
+The key datasets identified are:
+
+1. **Monotonic Loading Dataset**: This dataset consists of 4000 samples generated with periodic microstructures, each subjected to monotonically increasing strains. The dataset includes macroscopic and microscopic quantities for each converged time step.
+
+2. **Non-Monotonic Loading Dataset**: This dataset is generated using Gaussian Processes to create arbitrary load paths, allowing the model to learn from more complex loading scenarios. It consists of 2000 samples.
+
+3. **Test Datasets**: Additional test datasets are mentioned, which also consist of 2000 samples, used to evaluate the model's performance on unseen data.
+
+Now, I will compile the full citations for the datasets:
+
+- For the **Monotonic Loading Dataset**, the citation is:
+  > Storm, J., Rocha, I. B. C. M., & van der Meer, F. P. (2024). A Microstructure-based Graph Neural Network for Accelerating Multiscale Simulations. *Delft University of Technology*. [Dataset available at: https://github.com/JoepStorm/Microscale-GNN-Surrogate]
+
+- For the **Non-Monotonic Loading Dataset**, the citation is:
+  > Storm, J., Rocha, I. B. C. M., & van der Meer, F. P. (2024). A Microstructure-based Graph Neural Network for Accelerating Multiscale Simulations. *Delft University of Technology*. [Dataset available at: https://github.com/JoepStorm/Microscale-GNN-Surrogate]
+
+- For the **Test Datasets**, the citation is:
+  > Storm, J., Rocha, I. B. C. M., & van der Meer, F. P. (2024). A Microstructure-based Graph Neural Network for Accelerating Multiscale Simulations. *Delft University of Technology*. [Dataset available at: https://github.com/JoepStorm/Microscale-GNN-Surrogate]
+
+After gathering this information, I will prepare the dataset entries in the required format for further processing.

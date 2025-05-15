@@ -1,0 +1,37 @@
+To extract datasets from the research paper titled "Self-Supervised High Dynamic Range Imaging with Multi-Exposure Images in Dynamic Scenes" by Zhilu Zhang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the proposed method, SelfHDR, is evaluated on multiple datasets, which indicates that datasets are indeed involved.
+
+Next, I will focus on the **introduction** section, where the authors discuss the challenges of HDR imaging and the need for labeled data. They reference previous works that utilized specific datasets, which may provide clues about the datasets used in their own experiments.
+
+In the **experiments section**, particularly in **section 4.1 (Datasets)**, the authors explicitly mention the datasets used for their experiments. They state that their method was primarily evaluated on the **Kalantari et al. dataset**, which consists of 74 samples for training and 15 for testing, along with other datasets for qualitative comparisons.
+
+I will now gather the details for the datasets mentioned:
+
+1. **Kalantari et al. dataset**: This dataset is crucial for the experiments and is described as containing 74 samples for training and 15 for testing, with each sample comprising three LDR images captured at different exposure values and a corresponding HDR ground-truth image.
+
+Next, I will check the **References section** to find the full citation for the Kalantari et al. dataset. The citation is:
+
+- For **Kalantari et al. dataset**:
+  > Nima Khademi Kalantari, Ravi Ramamoorthi, et al. *Deep high dynamic range imaging of dynamic scenes*. ACM Transactions on Graphics (TOG), 2017.
+
+Additionally, the authors mention using the **Sen et al. dataset** and the **Tursun et al. dataset** for qualitative comparisons, but they do not provide specific details about these datasets in the experiments section. I will also look for their citations in the references.
+
+- For **Sen et al. dataset**:
+  > Pradeep Sen, Nima Khademi Kalantari, Maziar Yaesoubi, Soheil Darabi, Dan B Goldman, and Eli Shechtman. *Robust patch-based HDR reconstruction of dynamic scenes*. ACM Transactions on Graphics (TOG), 2012.
+
+- For **Tursun et al. dataset**:
+  > Okan Tarhan Tursun, Ahmet O˘guz Akyüz, Aykut Erdem, and Erkut Erdem. *An objective deghosting quality metric for HDR images*. In Computer Graphics Forum. Wiley Online Library, 2016.
+
+Now that I have identified the datasets and their citations, I will summarize the findings:
+
+1. **Kalantari et al. dataset**: Used for training and testing.
+   - Citation: Nima Khademi Kalantari, Ravi Ramamoorthi, et al. *Deep high dynamic range imaging of dynamic scenes*. ACM Transactions on Graphics (TOG), 2017.
+
+2. **Sen et al. dataset**: Used for qualitative comparisons.
+   - Citation: Pradeep Sen, Nima Khademi Kalantari, Maziar Yaesoubi, Soheil Darabi, Dan B Goldman, and Eli Shechtman. *Robust patch-based HDR reconstruction of dynamic scenes*. ACM Transactions on Graphics (TOG), 2012.
+
+3. **Tursun et al. dataset**: Used for qualitative comparisons.
+   - Citation: Okan Tarhan Tursun, Ahmet O˘guz Akyüz, Aykut Erdem, and Erkut Erdem. *An objective deghosting quality metric for HDR images*. In Computer Graphics Forum. Wiley Online Library, 2016.
+
+With this information, I can now compile the dataset entries for further processing or review.

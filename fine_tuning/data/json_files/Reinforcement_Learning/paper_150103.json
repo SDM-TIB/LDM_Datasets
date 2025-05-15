@@ -1,0 +1,171 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "An environment where the learner must retrieve objects that are positioned across an 8x8 grid world. The learner, its teammates, and all objects are each assigned a number as their respective level. Objects are retrieved if the levels of neighboring agents choosing the retrieve action sum to at least the object's level.",
+        "dcterms:title": "Level-Based Foraging (LBF)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Grid world",
+            "Foraging",
+            "Multi-agent collaboration"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Object retrieval",
+            "Collaborative foraging"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "In Wolfpack, a learner must collaborate with its teammates to hunt a moving prey inside a 10x10 grid world. A prey is captured if at least two hunters position themselves adjacent to the prey's current position on the grid.",
+        "dcterms:title": "Wolfpack",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Hunting",
+            "Multi-agent collaboration",
+            "Grid world"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Hunting",
+            "Team coordination"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "An environment where the learner is part of a defending team that must defend a fort from advancing attackers. The state space is continuous, and agents can move and shoot opposing team members.",
+        "dcterms:title": "FortAttack",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Defense",
+            "Multi-agent collaboration",
+            "Shooting"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Defense",
+            "Team coordination"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Gu et al."
+        ],
+        "dcterms:description": "ODITS is a reinforcement learning-based approach that utilizes an information-based regularizer to estimate proxy representations based solely on the learner’s observations.",
+        "dcterms:title": "ODITS",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Reinforcement learning",
+            "Proxy representation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Representation learning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Igl et al."
+        ],
+        "dcterms:description": "DVRL is a method for deep variational reinforcement learning for partially observable Markov decision processes (POMDPs).",
+        "dcterms:title": "DVRL",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Variational inference",
+            "Reinforcement learning",
+            "POMDP"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Partially observable decision making"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Schulman et al."
+        ],
+        "dcterms:description": "PPO is a reinforcement learning algorithm that optimizes policies using a clipped objective function.",
+        "dcterms:title": "PPO",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Policy optimization",
+            "Reinforcement learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Policy optimization"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Lowe et al."
+        ],
+        "dcterms:description": "MADDPG is a multi-agent reinforcement learning algorithm designed for mixed cooperative-competitive environments.",
+        "dcterms:title": "MADDPG",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Multi-agent learning",
+            "Cooperative learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Multi-agent coordination"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Jiang et al."
+        ],
+        "dcterms:description": "DGN is a method that applies graph convolutional networks to reinforcement learning problems.",
+        "dcterms:title": "DGN",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Graph neural networks",
+            "Reinforcement learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Graph-based learning"
+        ]
+    }
+]

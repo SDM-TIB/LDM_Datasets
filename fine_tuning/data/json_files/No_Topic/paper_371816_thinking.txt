@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Achieving Robust Generalization for Wireless Channel Estimation Neural Networks by Designed Training Data" by Dianxin Luan and John Thompson, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned or described. The abstract discusses the design of training data for neural networks, but it does not explicitly mention any datasets. I will need to look deeper into the paper.
+
+Next, I will examine **section IV (Designing the Training Data for Robust Generalization)**, where the authors discuss the training data generation process. They mention a designed channel modeled by Rayleigh fading with specific power delay profiles (PDPs) and path gains. However, they do not refer to a specific dataset by name.
+
+I will also check **section V (Simulation Results)**, where the authors describe the simulation parameters and the channels used for testing. They mention various channels such as the **EPA, EVA, ETU, and customized channels**, but again, these are not datasets in the traditional sense.
+
+In the **References section**, I will look for any citations that might refer to datasets or channel models used in the simulations. The references include various papers that discuss channel estimation and neural networks, but they do not provide specific datasets.
+
+After reviewing the entire paper, it appears that the authors did not use publicly available datasets but instead created their own simulated datasets based on channel models. Therefore, I will summarize the key points regarding the training data and channel models used:
+
+1. **Designed Channel (hD)**: A Rayleigh fading channel with a fixed power delay profile (PDP) that starts from 0 dB at delay 0 ns and decays as the delay increases. This channel is used to generate the training samples.
+
+2. **Applicable Channel (hA)**: The channel for which the neural networks are trained to generalize. The authors mention that the neural networks trained on the designed channel can generalize to various realistic channels.
+
+3. **Simulation Channels**: The paper mentions several channels used for simulation, including:
+   - **EPA (Extended Pedestrian A)**
+   - **EVA (Extended Vehicular A)**
+   - **ETU (Extended Typical Urban)**
+   - **Customized Channels**: These channels are defined with specific path delays and average path gains.
+
+Since the paper does not provide formal citations for datasets, I will note that the authors created their own datasets based on channel models rather than using established datasets. 
+
+In conclusion, I will compile the information regarding the designed channel and the simulation channels into a structured format for clarity, but I will not be able to provide formal citations as there are no publicly available datasets referenced in the paper.

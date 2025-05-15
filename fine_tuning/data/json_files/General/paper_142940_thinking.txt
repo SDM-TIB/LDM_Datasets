@@ -1,0 +1,43 @@
+To extract datasets from the research paper titled "GREEN: Generative Radiology Report Evaluation and Error Notation" by Sophie Ostmeier et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract highlights the introduction of the GREEN metric and mentions validation against various datasets, which suggests that datasets are present.
+
+Next, I will focus on the **datasets section** (which is likely to be in the methods or results sections). Here, the authors explicitly mention the datasets used for developing their models. They state that they compiled a dataset encompassing **100,000 annotations from GPT-4 related to chest X-rays** and **50,000 annotations across diverse imaging modalities**. This indicates that there are at least two datasets to extract.
+
+I will then look for specific details about these datasets, including their sources and any relevant characteristics. The paper mentions that the training dataset was created from six publicly available de-identified chest X-ray datasets, which are:
+
+1. **MIMIC-CXR**: Johnson et al., 2019.
+2. **MIMIC-PRO**: Ramesh et al., 2022.
+3. **CandidPTX**: Feng et al., 2021.
+4. **PadChest**: Bustos et al., 2020.
+5. **BIMCV-covid19**: Vayá et al., 2020.
+6. **OpenI**: Demner-Fushman et al., 2012.
+
+In addition to these, the authors mention using **MIMIC-IV Radiology Reports** (Johnson et al., 2023) and other specialized datasets for training their models.
+
+Next, I will consult the **References section** to gather the full citations for each dataset mentioned. This is crucial for proper attribution and to provide a comprehensive overview of the datasets used in the research.
+
+The full citations I will extract are:
+
+- **MIMIC-CXR**: 
+  > Johnson, A. E. W., Pollard, T. J., Berkowitz, S. J., Greenbaum, N. R., Lungren, M. P., Deng, C., Mark, R. G. (2019). *MIMIC-CXR, a de-identified publicly available database of chest radiographs with free-text reports*. Scientific Data, 6(1), 317.
+
+- **MIMIC-PRO**: 
+  > Ramesh, V., Chi, N. A., & Rajpurkar, P. (2022). *Improving radiology report generation systems by removing hallucinated references to non-existent priors*. In Machine Learning for Health, 456-473.
+
+- **CandidPTX**: 
+  > Feng, S., Azzollini, D., Kim, J. S., Jin, C. K., Gordon, S. P., Yeoh, J., & Kim, E. (2021). *Curation of the candid-ptx dataset with free-text reports*. Radiology: Artificial Intelligence, 3(6), e210136.
+
+- **PadChest**: 
+  > Bustos, A., Pertusa, A., Salinas, J.-M., & De La Iglesia-Vayá, M. (2020). *PadChest: A large chest x-ray image dataset with multi-label annotated reports*. Medical Image Analysis, 66, 101797.
+
+- **BIMCV-covid19**: 
+  > Vayá, M. D. L. I., Saborit, J. M., Montell, J. A., Pertusa, A., Bustos, A., Cazorla, M., & García-García, F. (2020). *BIMCV COVID-19+: A large annotated dataset of RX and CT images from COVID-19 patients*. arXiv preprint arXiv:2006.01174.
+
+- **OpenI**: 
+  > Demner-Fushman, D., Antani, S., Simpson, M., & Thoma, G. R. (2012). *Design and development of a multimodal biomedical information retrieval system*. Journal of Computing Science and Engineering, 6(2), 168-177.
+
+- **MIMIC-IV Radiology Reports**: 
+  > Johnson, A. E. W., Pollard, T. J., Horng, S., Celi, L. A., & Mark, R. (2023). *MIMIC-IV Note: Deidentified free-text clinical notes (version 2.2)*. PhysioNet.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a clear and comprehensive overview of the datasets used in the research paper.

@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Exploring Scalability of Self-Training for Open-Vocabulary Temporal Action Localization" by Jeongseok Hyun et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the limitations of existing annotated datasets for temporal action localization (TAL) and hints at the use of large-scale unlabeled YouTube videos for self-training, which suggests that datasets are involved.
+
+Next, I will focus on **section 4.1 (Datasets)**, where the authors explicitly list the datasets used in their experiments. Here, they mention three datasets:
+
+1. **ActivityNet v1.3**: This dataset consists of 20,000 videos covering 200 action categories. It is primarily focused on activities or events, with 1-2 long action instances per video.
+
+2. **THUMOS14**: This dataset contains 413 videos with 20 sports-related action categories, averaging about 15 action instances per video.
+
+3. **FineAction**: This dataset includes 16,732 videos encompassing 106 different action classes, with an average of 6 action instances per video. It covers a variety of domains, including sports, household activities, and personal care.
+
+In the same section, the authors also mention that they used video IDs from the **Kinetics-600** dataset to scrape unlabeled videos from YouTube for self-training, resulting in approximately 332,000 videos.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **ActivityNet v1.3**, the citation is:
+  > Fabian Caba Heilbron, Victor Escorcia, Bernard Ghanem, and Juan Carlos Niebles. *ActivityNet: A large-scale video benchmark for human activity understanding*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 961–970, 2015.
+
+- For **THUMOS14**, the citation is:
+  > Haroon Idrees, Amir R Zamir, Yu-Gang Jiang, Alex Gorban, Ivan Laptev, Rahul Sukthankar, and Mubarak Shah. *The THUMOS challenge on action recognition for videos “in the wild”*. Computer Vision and Image Understanding (CVIU), 155:1–23, 2017.
+
+- For **FineAction**, the citation is:
+  > Yi Liu, Limin Wang, Yali Wang, Xiao Ma, and Yu Qiao. *FineAction: A fine-grained video dataset for temporal action localization*. IEEE Transactions on Image Processing (TIP), 31:6937–6950, 2022.
+
+- For **Kinetics-600**, the citation is:
+  > Joao Carreira and Andrew Zisserman. *Quo vadis, action recognition? A new model and the Kinetics dataset*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 6299–6308, 2017.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

@@ -1,0 +1,37 @@
+To extract datasets from the research paper titled "EVA-CLIP-18B: Scaling CLIP to 18 Billion Parameters" by Quan Sun et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors trained their model on a dataset of 2 billion image-text pairs from LAION-2B and COYO-700M, which suggests that these datasets are significant for the research.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments section**. In the paper, there is a section titled "Dataset" that lists various datasets used for evaluation. This section provides a comprehensive overview of the datasets, including their names, sizes, and evaluation metrics.
+
+From the dataset section, I will extract the following datasets:
+
+1. **LAION-2B**: This dataset consists of 2 billion image-text pairs and is mentioned as a primary dataset used for training.
+   - Citation: 
+     > Christoph Schuhmann, Richard Vencu, Romain Beaumont, Robert Kaczmarczyk, Clayton Mullis, Aarush Katta, Theo Coombes, Jenia Jitsev, and Aran Komatsuzaki. *LAION-2B: Open dataset of CLIP-filtered 2 billion image-text pairs*. arXiv preprint arXiv:2111.02114, 2021.
+
+2. **COYO-700M**: This dataset contains 700 million image-text pairs and is used to complement the training dataset.
+   - Citation: 
+     > Minwoo Byeon, Beomhee Park, Haecheon Kim, Sungjun Lee, Woonhyuk Baek, and Saehoon Kim. *Coyo-700M: A large-scale image-text pair dataset*. arXiv preprint arXiv:2204.14198, 2022.
+
+3. **Merged-2B**: This dataset is a combination of LAION-2B and COYO-700M, totaling 2 billion samples.
+   - Citation: 
+     > The dataset is derived from LAION-2B and COYO-700M, as described above.
+
+4. **Flickr30K**: This dataset is used for zero-shot image-text retrieval tasks.
+   - Citation: 
+     > Peter Young, Alice Lai, Micah Hodosh, and Julia Hockenmaier. *From image descriptions to visual denotations: New similarity metrics for semantic inference over event descriptions*. TACL, 2014.
+
+5. **COCO**: This dataset is also used for zero-shot image-text retrieval tasks.
+   - Citation: 
+     > Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. *Microsoft COCO: Common objects in context*. In European Conference on Computer Vision, pages 740–755. Springer, 2014.
+
+6. **Kinetics-400**: This dataset is used for video classification tasks.
+   - Citation: 
+     > Joao Carreira and Andrew Zisserman. *Quo vadis, action recognition? A new model and the Kinetics dataset*. In CVPR, 2017.
+
+7. **UCF-101**: Another dataset used for video classification.
+   - Citation: 
+     > Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. *UCF101: A dataset of 101 human actions classes from videos in the wild*. arXiv preprint arXiv:1212.0402, 2012.
+
+After identifying these datasets and their citations, I will ensure that I format the information clearly and accurately for any downstream processing or documentation needs. This structured approach will help maintain clarity and ensure that all relevant datasets are captured effectively.

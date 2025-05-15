@@ -1,0 +1,35 @@
+To extract the datasets mentioned in the research paper titled "LSTM-Based Anomaly Detection: Detection Rules from Extreme Value Theory" by Neema Davis et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and datasets section** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the study but does not specify datasets. The introduction discusses the importance of anomaly detection in transportation networks but does not name specific datasets either.
+
+Next, I will focus on **section 2 (Data Sets)**, where the authors provide a detailed description of the datasets used in their experiments. Here, they mention seven datasets, which I will summarize:
+
+1. **Vehicular Travel Time**: This dataset consists of 2500 readings from a traffic sensor, covering the period from July 10, 2015, to September 17, 2015, with eight marked anomalies.
+
+2. **Vehicular Speed**: This dataset contains 1128 readings of average vehicle speed from September 8, 2015, to September 17, 2015, with three marked unusual subsequences.
+
+3. **Vehicular Occupancy**: This dataset has 2382 readings indicating the percentage of time a vehicle was detected during a 30-second period, collected over 17 days from September 1, 2015, to September 17, 2015, with two marked anomalies.
+
+4. **New York City Taxi Demand**: This publicly available dataset includes pick-up locations and timestamps of street-hailing yellow taxi services from January 1, 2016, to February 29, 2016, with three time-sequences showing clear anomalies.
+
+5. **Bengaluru Taxi Demand**: This dataset is obtained from a private taxi service provider in Bengaluru, India, containing GPS traces of passengers booking taxis via a mobile application, also for January and February 2016, with three sequences showing visible anomalies.
+
+6. **Electrocardiogram (ECG)**: This dataset includes 18000 readings with three unusual subsequences labeled as anomalies, exhibiting a repeating pattern with some variability.
+
+7. **Machine Temperature**: This dataset contains temperature sensor readings from an industrial machine, covering December 2, 2013, to February 19, 2014, with 22695 readings taken every 5 minutes, including four anomalies with known causes.
+
+Now, I will check the **References section** to find the full citations for these datasets. The paper cites the following relevant works:
+
+- For the **New York City Taxi Demand** dataset, the citation is:
+  > TLC data, http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml, accessed 2017-10-05.
+
+- For the **Bengaluru Taxi Demand** dataset, there is no specific citation provided in the paper, as it is obtained from a private service provider.
+
+- The **Electrocardiogram (ECG)** dataset citation is:
+  > Chauhan, S., Vig, L. (2015). Anomaly detection in ECG time signals via deep long short-term memory networks. In Proceedings of the International Conference on Data Science and Advanced Analytics. pp. 1–7. IEEE.
+
+- The **Machine Temperature** dataset does not have a specific citation in the paper.
+
+For the **Vehicular Travel Time**, **Vehicular Speed**, and **Vehicular Occupancy** datasets, the paper does not provide specific citations, but they are mentioned as being collected by the Minnesota Department of Transportation.
+
+After gathering all this information, I will compile the dataset entries with their descriptions and citations into a structured format for further processing or review.

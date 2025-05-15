@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "PointMoment: Mixed-Moment-based Self-Supervised Representation Learning for 3D Point Clouds" by Xin Cao et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract mentions that the authors evaluate their method on various datasets, which indicates that datasets are likely discussed in detail later in the paper.
+
+In the **introduction**, the authors discuss the challenges of obtaining large-scale annotated data for point clouds, hinting at the datasets they might use for their experiments. However, I need to look for specific dataset names.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors typically describe the datasets used for training and evaluation. In **section 4.1 (Pre-training)**, they mention using the **ModelNet40 dataset** for pre-training, which consists of CAD models of 40 common objects. They provide details about the number of point clouds used for training and testing.
+
+In **section 4.2 (Downstream tasks)**, the authors mention two datasets for evaluating their method: **ModelNet40** and **ScanObjectNN**. They describe the characteristics of these datasets, including the number of categories and objects, which is crucial for understanding their application.
+
+Additionally, in **section 4.2.2**, they refer to the **ShapeNetPart dataset** for the object part segmentation task, detailing its composition and significance in evaluating segmentation methods.
+
+Now, I will consult the **References section** to gather full citations for these datasets:
+
+1. **ModelNet40**:
+   > Wu, Z., et al. "Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling." In Advances in Neural Information Processing Systems (Curran Associates, Inc., 2016), 29.
+
+2. **ScanObjectNN**:
+   > Uy, M. A., Pham, Q.-H., Hua, B.-S., Nguyen, T., and Yeung, S.-K. "Revisiting Point Cloud Classification: A New Benchmark Dataset and Classification Model on Real-World Data." In 2019 IEEE/CVF International Conference on Computer Vision (ICCV) (IEEE, 2019), pp. 1588–1597.
+
+3. **ShapeNetPart**:
+   > Yi, L., Kim, V. G., Ceylan, D., Shen, I.-C., Yan, H., Su, H., Lu, C., Huang, Q., Sheffer, A., and Guibas, L. "A scalable active framework for region annotation in 3D shape collections." ACM Trans. Graph. 35(6), 1–12 (2016).
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "Multi-scale, Data-driven and Anatomically Constrained Deep Learning Image Registration for Adult and Fetal Echocardiography" by Md. Kamrul Hasan et al., I will follow a systematic approach.
+
+First, I will read through the **abstract and introduction** to identify any datasets mentioned. The abstract indicates that the authors used the **CAMUS adult echo dataset** and a **private multi-demographic fetal echo dataset** for their experiments. This is a strong indication that these datasets are crucial to the research.
+
+Next, I will look into **section 3 (Experimental Setup and Datasets)**, where the authors provide detailed descriptions of the datasets used. In **subsection 3.4 (Experimental Datasets)**, they describe:
+
+1. **CAMUS Adult Dataset**: This dataset includes 500 patients with echocardiography images acquired from GE Vivid E95 ultrasound scanners. It consists of apical two-chamber and four-chamber views, with a pixel resolution of 0.154m × 0.154m. The authors reference a previous work for further details.
+
+2. **Private Fetal Dataset**: This dataset comprises 4D fetal echocardiography images from 15 patients, including both healthy and disease cases. It contains 105 2D echo videos with a resolution of 0.95µm × 0.90µm. The dataset was manually labeled at specific time points, and the authors mention a validated cardiac motion estimation algorithm used for generating masks.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citation for the CAMUS dataset is provided in the paper as follows:
+- For **CAMUS Adult Dataset**:
+  > Leclerc, S., Smistad, E., Pedrosa, J., Østvik, A., Cervenansky, F., Espinosa, F., Espeland, T., Berg, E. A. R., Jodoin, P.-M., Grenier, T., et al. (2019). Deep learning for segmentation using an open large-scale dataset in 2D echocardiography. *IEEE Transactions on Medical Imaging*, 38(10), 2198-2210.
+
+The private fetal dataset does not have a formal citation as it is proprietary, but I will note that it is a collection of images from the authors' own research.
+
+Finally, I will compile the dataset entries, ensuring to include the full citations for the datasets in a structured format for clarity and future reference.

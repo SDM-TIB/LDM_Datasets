@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Embedding Symbolic Temporal Knowledge into Deep Sequential Models" by Yaqi Xie et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to see if any datasets are explicitly mentioned. The abstract discusses the use of deep neural networks (DNNs) for processing sequences and mentions experiments in robot tasks, which suggests that datasets may be involved.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for their evaluations. In this paper, the authors mention two specific experiments: one on **sequential human action recognition** and another on **imitation learning for creative cooking**. 
+
+For the **sequential human action recognition** task, the authors refer to the **Tasty Video Dataset**. I will extract the details provided about this dataset:
+- The Tasty Video Dataset contains 4027 recipe videos involving 1199 unique ingredients. Each recipe includes an ingredient list, step-wise instructions, and a video demonstrating the preparation. The authors also mention that they crowd-sourced labels for 500 videos, which were trimmed to balance the number of action and ingredient classes.
+
+For the **imitation learning for creative cooking**, the authors describe the environment as a discrete Markov Decision Process (MDP) but do not mention a specific dataset. Instead, they refer to the use of expert trajectories and domain knowledge expressed as LTLf, which suggests that the dataset is derived from the expert demonstrations rather than a publicly available dataset.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The citation for the **Tasty Video Dataset** is as follows:
+- For the Tasty Video Dataset:
+  > F. Sener and A. Yao, “Zero-shot anticipation for instructional activities,” in ICCV, 2019.
+
+Since the second experiment does not reference a specific dataset but rather relies on expert trajectories, I will note that no formal citation is available for that part.
+
+Finally, I will compile the dataset information into a structured format, ensuring that I include the full citation for the Tasty Video Dataset while noting the absence of a formal citation for the expert trajectories used in the imitation learning experiment.

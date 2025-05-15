@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Approximating Numerical Fluxes Using Fourier Neural Operators for Hyperbolic Conservation Laws" by Taeyoung Kim and Myungjoo Kang, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the study's focus, but I need to look for specific dataset names or descriptions in the subsequent sections.
+
+In the **introduction**, the authors discuss the integration of classical numerical methods with machine learning techniques but do not mention specific datasets yet. I will need to continue to the experiments section for more details.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors describe their experimental setup. Here, they mention generating two types of training datasets governed by the 1D linear advection and 1D Burgers’ equations. They provide details about the datasets, including the number of functions and the domains of the functions.
+
+The datasets are specified as follows:
+
+1. **Training dataset for linear advection**: This dataset consists of 100 functions generated from the 1D linear advection equation, with the domain [0, 1] × [0, 1] and a discretization into a 256-dimensional vector.
+
+2. **Training dataset for Burgers’ equation**: This dataset comprises 10 functions generated from the 1D Burgers’ equation, with the domain [0, 0.3] × [0, 1] and a discretization into a 256-dimensional vector.
+
+The authors also mention the test datasets for both equations, which consist of 10 functions each, drawn from the same distribution but with different domains.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. However, since these datasets are generated for the experiments and do not have external citations, I will note that they are based on the authors' own generation methods rather than established datasets.
+
+Finally, I will summarize the datasets extracted from the paper, ensuring to include the relevant details such as the number of functions, domains, and any specific characteristics mentioned.
+
+After compiling this information, I will prepare the dataset entries for review or further processing.

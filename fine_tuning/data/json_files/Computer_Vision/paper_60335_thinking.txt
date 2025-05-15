@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "NeRF-Loc: Visual Localization with Conditional Neural Radiance Field" by Jianlin Liu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections of the paper. The abstract mentions that the proposed method achieves higher localization accuracy on multiple benchmarks, which suggests that datasets are involved. I will look for specific names of datasets in these sections.
+
+Next, I will focus on the **experiments section** (Section IV), where the authors typically describe the datasets used for evaluation. Here, they mention evaluating their pipeline on four localization benchmarks. I will carefully read through this section to identify the names and details of each dataset.
+
+In the **experiments section**, the authors explicitly mention the following datasets:
+
+1. **12Scenes**: This dataset consists of room-size indoor localization data, where depth images are scanned by a structure light sensor, and ground truth poses are provided. It contains 12 scenes, each with several hundred frames.
+
+2. **7Scenes**: Similar to 12Scenes, this dataset also focuses on indoor localization, containing several thousand frames across different scenes. The RGB images are registered to depth maps, which adds complexity to the localization task.
+
+3. **Cambridge Landmarks**: This outdoor dataset is used for evaluating localization algorithms in large-scale scenes, with varying illumination and exposure conditions. It includes multiple sequences across different locations.
+
+4. **Onepose**: An object-level pose estimation dataset collected using hand-held smartphones. It consists of videos captured around object instances with different backgrounds, aligned to a unified coordinate system.
+
+Now, I will refer to the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to provide context for future research.
+
+- For **12Scenes**, the citation is:
+  > Valentin, J., Dai, A., Nießner, M., Kohli, P., Torr, P., Izadi, S., & Keskin, C. (2016). Learning to navigate the energy landscape. In *2016 Fourth International Conference on 3D Vision (3DV)*, pages 323–332. IEEE.
+
+- For **7Scenes**, the citation is:
+  > Shotton, J., Glocker, B., Zach, C., Izadi, S., Criminisi, A., & Fitzgibbon, A. (2013). Scene coordinate regression forests for camera relocalization in RGB-D images. In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition*, pages 2930–2937.
+
+- For **Cambridge Landmarks**, the citation is:
+  > Kendall, A., Grimes, M., & Cipolla, R. (2015). PoseNet: A convolutional network for real-time 6-DOF camera relocalization. In *Proceedings of the IEEE International Conference on Computer Vision*, pages 2938–2946.
+
+- For **Onepose**, the citation is:
+  > Sun, J., Wang, Z., Zhang, S., He, X., Zhao, H., Zhang, G., & Zhou, X. (2022). Onepose: One-shot object pose estimation without CAD models. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*, pages 6825–6834.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research, facilitating further exploration and validation of the findings presented in the paper.

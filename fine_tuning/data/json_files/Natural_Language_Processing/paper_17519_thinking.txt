@@ -1,0 +1,54 @@
+To extract datasets from the research paper titled "Learning Scalable Structural Representations for Link Prediction with Bloom Signatures" by Haoteng Yin et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reading the **abstract** and **introduction** sections to get an overview of the research context and any datasets that might be referenced. The abstract mentions "five standard link prediction benchmarks," which indicates that datasets are involved.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **methodology** or **experiments** sections. In this paper, the authors provide a summary of the datasets in **Table 3**, which lists the statistics for the datasets used in their experiments. The datasets mentioned are:
+
+1. **ogbl-collab**: A dataset for link prediction in collaboration networks.
+2. **ogbl-ddi**: A dataset for drug-drug interaction prediction.
+3. **ogbl-ppa**: A dataset for protein-protein association prediction.
+4. **ogbl-citation2**: A dataset for citation networks.
+5. **ogbl-vessel**: A dataset for vascular networks.
+
+I will then check the **references section** to find the full citations for these datasets. The paper cites the Open Graph Benchmark (OGB) as the source for these datasets. The relevant citation for the OGB is:
+
+> Hu, W., Fey, M., Zitnik, M., Dong, Y., Ren, H., Liu, B., Catasta, M., & Leskovec, J. (2020). Open graph benchmark: Datasets for machine learning on graphs. *Advances in Neural Information Processing Systems*, 33, 22118–22133.
+
+Now, I will compile the dataset entries with their respective citations. Each dataset will be described with its name, type, number of nodes, number of edges, average degree, and the citation.
+
+1. **ogbl-collab**: 
+   - Type: Homogeneous/Social
+   - #Nodes: 2,927,963
+   - #Edges: 30,561,187
+   - Average Degree: 10.44
+   - Citation: Hu et al. (2020)
+
+2. **ogbl-ddi**: 
+   - Type: Homogeneous/Drug
+   - #Nodes: 235,868
+   - #Edges: 1,285,465
+   - Average Degree: 5.45
+   - Citation: Hu et al. (2020)
+
+3. **ogbl-ppa**: 
+   - Type: Homogeneous/Protein
+   - #Nodes: 4,267
+   - #Edges: 1,334,889
+   - Average Degree: 312.84
+   - Citation: Hu et al. (2020)
+
+4. **ogbl-citation2**: 
+   - Type: Homogeneous/Social
+   - #Nodes: 576,289
+   - #Edges: 30,326,273
+   - Average Degree: 52.62
+   - Citation: Hu et al. (2020)
+
+5. **ogbl-vessel**: 
+   - Type: Homogeneous/Vesicular
+   - #Nodes: 3,538,495
+   - #Edges: 5,345,897
+   - Average Degree: 1.51
+   - Citation: Hu et al. (2020)
+
+Finally, I will ensure that I have accurately captured all relevant details and citations for each dataset, as this is crucial for proper documentation and future reference.

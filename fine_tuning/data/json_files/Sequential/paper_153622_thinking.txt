@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Applying Recent Innovations from NLP to MOOC Student Course Trajectory Modeling" by Clarence Chen and Zachary Pardos, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a general overview, but I need to look for specific mentions of datasets in the introduction and experiments.
+
+In the **introduction**, the authors reference previous work that utilized DNN models for predictive modeling in education analytics, specifically mentioning a paper [4] that investigates LSTM models for MOOC course trajectory modeling. This indicates that there may be datasets referenced in that work.
+
+Next, I will focus on the **experiments section**, particularly **section 2.1 (Dataset Cleaning and Processing)**, where the authors describe the procedures for preparing the datasets. They mention that the task involves predicting student navigation patterns based on raw MOOC server logs. 
+
+In **Table 1**, the authors provide a summary of the datasets used, which includes:
+
+1. **DelftX**: A MOOC course from the Delft University of Technology with 30,633 users and 14,496 nodes.
+2. **UCBX**: Multiple courses from the University of California, Berkeley, including:
+   - **AE1110X**: 2,951 users, 291 nodes.
+   - **EE40LX**: 40,698 users, 287 nodes.
+   - **Fin101X**: 940 users, 114 nodes.
+   - **ColWri2.2X**: 1,804 users, 54 nodes.
+   - **CS169.2X**: 204 users, 129 nodes.
+   - **Policy01X**: 1804 users, 129 nodes.
+
+These courses are explicitly listed, providing clear identifiers for the datasets used in the experiments.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The relevant citation for the dataset used in the previous work ([4]) is:
+
+- For the dataset referenced in [4]:
+  > Z. Pardos, S. Tang, D. Davis, and C. V. Le. *Enabling real-time adaptivity in moocs with a personalized next-step recommendation framework*. In Proceedings of the Fourth ACM Conference on Learning @ Scale, L@S ’17, pages 23–32, Cambridge, Massachusetts, USA, 2017. Association for Computational Linguistics.
+
+Since the datasets are derived from MOOC offerings, I will also note that the specific courses (DelftX and UCBX) are part of the datasets used in the experiments.
+
+Finally, I will compile the dataset entries, ensuring that each dataset is accurately described and includes the full citation for the source paper. This will provide a comprehensive overview of the datasets utilized in the research.

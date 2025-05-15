@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Citation-Enhanced Generation for LLM-based Chatbots" by Weitao Li et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experimental settings sections** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on various hallucination-related datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4 (Experimental Settings)**, where the authors explicitly mention four datasets used in their experiments:
+
+1. **WikiBio GPT-3 Dataset**: This dataset is constructed to evaluate the hallucination of LLMs, consisting of 238 biographical articles from the WikiBio dataset. It includes 1,908 sentences, which are annotated into three categories: Major Inaccurate, Minor Inaccurate, and Accurate.
+
+2. **FELM Dataset**: This dataset is designed to evaluate hallucination detection ability, where prompts from diverse scenarios are used to instruct GPT-3.5-Turbo-0301 to generate responses, which are then annotated as nonfactual and factual.
+
+3. **HaluEval Dataset**: This benchmark assesses the ability of LLMs to discern hallucinations, comprising questions, correct answers, and hallucinated answers. The QA subset is constructed from the Wikipedia corpus.
+
+4. **WikiRetr Dataset**: This newly constructed dataset is designed to evaluate retrieval and citation annotation performance, created based on a snapshot of Wikipedia.
+
+In the **References section**, I will look for full citations for each dataset mentioned. The citations for the datasets are as follows:
+
+- For **WikiBio Dataset**, the citation is:
+  > Rémi Lebret, David Grangier, and Michael Auli. *Neural text generation from structured data with application to the biography domain*. In Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, pages 1203–1213, Austin, Texas. Association for Computational Linguistics.
+
+- For **FELM**, the citation is:
+  > Shiqi Chen, Yiran Zhao, Jinghan Zhang, I Chern, Siyang Gao, Pengfei Liu, Junxian He, et al. *FELM: Benchmarking factuality evaluation of large language models*. arXiv preprint arXiv:2310.00741.
+
+- For **HaluEval**, the citation is:
+  > Junyi Li, Xiaoxue Cheng, Xin Zhao, Jian-Yun Nie, and Ji-Rong Wen. *HaluEval: A large-scale hallucination evaluation benchmark for large language models*. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 6449–6464, Singapore. Association for Computational Linguistics.
+
+- For **WikiRetr**, since it is a newly constructed dataset by the authors, I will note that it does not have a separate citation but is based on the October 20, 2023 snapshot of Wikipedia.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

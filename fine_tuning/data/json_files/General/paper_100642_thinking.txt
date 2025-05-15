@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Contrastive Fine-tuning Improves Robustness for Neural Rankers" by Xiaofei Ma et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** to see if any datasets are mentioned. The abstract indicates that the authors conducted experiments with "four passage ranking datasets," which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will examine the **introduction** section for any additional context or names of datasets. The introduction discusses the challenges faced by neural rankers and mentions the need for robust datasets, but it does not specify any dataset names.
+
+I will then focus on **section 4 (Experimental Setup)**, particularly **subsection 4.1 (Passage Ranking Datasets)**, where the authors explicitly list the datasets used in their experiments. Here, I find the following datasets:
+
+1. **WikiQA**: A dataset of question and sentence pairs collected for open-domain question answering. The questions are factoid and selected from Bing query logs, with answers found in the summary sections of linked Wikipedia pages.
+
+2. **WikiPassageQA**: A benchmark collection for non-factoid answer passage retrieval, with queries created from Amazon Mechanical Turk over top Wikipedia documents.
+
+3. **InsuranceQA**: This dataset consists of question and answer pairs collected from the internet in the insurance domain, with each question having an answer pool of 500 candidates.
+
+4. **YahooQA**: A dataset containing questions and answers from the Yahoo! Answers website, selected for their linguistic properties.
+
+Next, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **WikiQA**, the citation is:
+  > Yi Yang, Wen-Tau Yih, and Christopher Meek. *WIKIQA: A Challenge Dataset for Open-Domain Question Answering*. Proceedings of EMNLP 2015, (September 2015): 2013–2018.
+
+- For **WikiPassageQA**, the citation is:
+  > Daniel Cohen, Liu Yang, and W Bruce Croft. *WikiPassageQA: A Benchmark Collection for Research on Non-factoid Answer Passage Retrieval*. In SIGIR, pages 1–4, 2018.
+
+- For **InsuranceQA**, the citation is:
+  > Minwei Feng, Bing Xiang, Michael R. Glass, Lidan Wang, and Bowen Zhou. *Applying deep learning to answer selection: A study and an open task*. In 2015 IEEE Workshop on Automatic Speech Recognition and Understanding, ASRU 2015 - Proceedings, pages 813–820, 2016.
+
+- For **YahooQA**, the citation is:
+  > Yi Tay, Minh C. Phan, Luu Anh Tuan, and Siu Cheung Hui. *Learning to rank question answer pairs with holographic dual LSTM architecture*. In SIGIR 2017 - Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval, pages 695–704, 2017.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for clarity and future reference. Each dataset will be documented with its name, description, and full citation.

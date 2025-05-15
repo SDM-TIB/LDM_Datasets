@@ -1,0 +1,24 @@
+To extract the datasets mentioned in the research paper titled "A Comprehensive Framework for Occluded Human Pose Estimation" by Linhao Xu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the challenges in human pose estimation due to occlusion, but I need to look for specific dataset names.
+
+Next, I will focus on **section 3 (Experiments)**, where the authors explicitly list the datasets used for evaluation. Here, they mention three datasets:
+
+1. **MSCOCO-RE**: The paper describes the train2017 dataset, which contains 57,000 images with over 150,000 person instances. The val2017 set and test-dev set contain 5,000 images and 20,000 images, respectively. This dataset is a re-labeling of the val2017 set, adding annotations for occluded joints.
+
+2. **CrowdPose**: This dataset consists of 20,000 images and 80,000 persons labeled with 14 keypoints. The authors specify that they used the trainval set for training and the test set for evaluation.
+
+3. **OCHuman**: The authors describe this dataset as containing 4,731 images and 8,110 person instances, with 2,500 images in the validation set and 2,231 images in the test set.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For **CrowdPose**, the citation is:
+  > Jiefeng Li, Can Wang, and Hao Zhu. "CrowdPose: Efficient crowded scenes pose estimation and a new benchmark." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2019, pp. 10863–10872.
+
+- For **OCHuman**, the citation is:
+  > Song-Hai Zhang, Ruilong Li, and Xin Dong. "Pose2seg: Detection free human instance segmentation." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2019, pp. 889–898.
+
+- For **MSCOCO-RE**, while the paper does not provide a specific citation for the re-labeling, it is based on the original MSCOCO dataset, which is widely cited:
+  > Tsung-Yi Lin, Piotr Dollar, Ross Girshick, and Kaiming He. "Feature pyramid networks for object detection." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2017, pp. 2117–2125.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing.

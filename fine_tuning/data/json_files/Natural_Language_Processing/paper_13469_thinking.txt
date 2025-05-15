@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Matbench Discovery: A framework to evaluate machine learning crystal stability predictions" by Janosh Riebesell et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors are publishing a Python package and an online leaderboard, which suggests that datasets are involved in their evaluation framework.
+
+Next, I will focus on the **introduction** where the authors mention the need for benchmark datasets to measure the performance of machine learning models in materials discovery. They reference two prior efforts: **Matbench** and the **Open Catalyst Project (OCP)**, which implies that these may be datasets of interest.
+
+In the **evaluation framework section**, the authors explicitly mention the datasets used for their benchmark:
+
+1. **Materials Project (MP)**: This dataset is described as a well-known effort to calculate the properties of all inorganic materials using high-throughput ab initio methods. The paper states that the maximum allowed training set for any valid model submission is from the MP database release (v2022.10.28), which has grown to approximately 154,000 crystals.
+
+2. **WBM Dataset**: The authors describe this dataset as consisting of approximately 257,000 structures generated via chemical similarity-based elemental substitution of MP source structures. This dataset is crucial for testing the models' extrapolation performance.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Materials Project**, the citation is:
+  > Jain, A., et al. "Commentary: The Materials Project: A Materials Genome Approach to Accelerating Materials Innovation." *APL Materials*, 1.1 (2013): 011002.
+
+- For the **WBM Dataset**, the citation is:
+  > Wang, H.-C., Botti, S., and Marques, M. A. L. "Predicting Stable Crystalline Compounds Using Chemical Similarity." *npj Computational Materials*, 7.1 (2021): 1-9.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This will provide a comprehensive overview of the datasets used in the research paper, ready for further processing or review.

@@ -1,0 +1,81 @@
+[
+    {
+        "dcterms:creator": [
+            "A. Khalil",
+            "J. Kwon"
+        ],
+        "dcterms:description": "A dataset collected by a human driver navigating a training track using the OSCAR simulator, capturing visual observations and critical control values such as steering angle, throttle position, braking pressure, time, velocity, acceleration, and position.",
+        "dcterms:title": "D (Training Dataset)",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Autonomous Vehicles",
+            "Driving Simulation"
+        ],
+        "dcat:keyword": [
+            "Training dataset",
+            "Autonomous driving",
+            "Vision-based control"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Driving Control",
+            "Action Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Khalil",
+            "J. Kwon"
+        ],
+        "dcterms:description": "A dataset generated from the original dataset D, mapping input observations to distinct future actions corresponding to different latency values for training the Timed Action Prediction Model (TAPM).",
+        "dcterms:title": "DTAPM (Dataset for Timed Action Prediction Model)",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Autonomous Vehicles",
+            "Action Prediction"
+        ],
+        "dcat:keyword": [
+            "Action prediction dataset",
+            "Latency modeling",
+            "Driving control"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Action Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Kwon"
+        ],
+        "dcterms:description": "An open-source robotic car architecture simulator designed for research and education, providing a customizable environment for testing autonomous vehicle algorithms.",
+        "dcterms:title": "OSCAR Simulator",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://github.com/jrkwon/oscar",
+        "dcat:theme": [
+            "Robotics",
+            "Simulation"
+        ],
+        "dcat:keyword": [
+            "Robotic simulator",
+            "Autonomous vehicle testing",
+            "Open-source"
+        ],
+        "dcat:landingPage": "https://github.com/jrkwon/oscar",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Simulation",
+            "Testing"
+        ]
+    }
+]

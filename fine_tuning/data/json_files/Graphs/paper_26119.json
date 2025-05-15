@@ -1,0 +1,78 @@
+[
+    {
+        "dcterms:creator": [
+            "Ludovic Denoyer",
+            "Patrick Gallinari"
+        ],
+        "dcterms:description": "The INEX05 dataset is based on the (m-db-s-0) corpus, comprising 9631 XML-formatted documents represented as trees with maximum output degree L = 32 and assigned to 11 different clusters. Node labels represent 366 different XML tags. The dataset is split into a training set (4820 trees) and a test set (4811 trees).",
+        "dcterms:title": "INEX05",
+        "dcterms:issued": "2008",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "XML Data",
+            "Tree-Structured Data"
+        ],
+        "dcat:keyword": [
+            "XML documents",
+            "tree classification",
+            "clustering"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Classification",
+            "Clustering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Ludovic Denoyer",
+            "Patrick Gallinari"
+        ],
+        "dcterms:description": "The INEX06 dataset is composed of 12107 XML-formatted documents representing scientific articles, each from one of 18 different IEEE journals which represent different clusters. The node labels represent different 65 XML tags and maximum output degree L = 66. The dataset is split into a training set (6,053 trees) and a test set (6,054 trees).",
+        "dcterms:title": "INEX06",
+        "dcterms:issued": "2008",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "XML Data",
+            "Tree-Structured Data"
+        ],
+        "dcat:keyword": [
+            "XML documents",
+            "scientific articles",
+            "tree classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Classification",
+            "Clustering"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A controlled dataset which contains ternary trees (i.e., L=3), comprising left-asymmetric, symmetric, and right-asymmetric trees. The label of each node encodes structural information since it represents the number of children of the node: therefore the label goes from 0 (i.e., no child nodes) to 3 (i.e., a child node in each position).",
+        "dcterms:title": "Synthetic dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Data",
+            "Tree-Structured Data"
+        ],
+        "dcat:keyword": [
+            "ternary trees",
+            "label prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Labeling"
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+To extract the datasets mentioned in the research paper titled "RegExplainer: Generating Explanations for Graph Neural Networks in Regression Task" by Zhuomin Chen et al., I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions that the authors evaluate their method on "three benchmark datasets and a real-life dataset introduced by us." This indicates that there are multiple datasets to look for.
+
+Next, I will focus on the **experiments section** (Section 4) where the authors describe their datasets in detail. In **Section 4.1 (Datasets and Setups)**, the authors explicitly list and describe the datasets used in their experiments:
+
+1. **BA-Motif-Volume**: This dataset is based on the BA-shapes and includes random float values as node features. The regression label is the sum of the motif values.
+
+2. **BA-Motif-Counting**: This dataset counts the number of motifs in a base BA random graph, with all graphs padded to equal size to prevent trivial predictions.
+
+3. **Triangles**: This dataset consists of 5000 Erdős–Rényi random graphs, where the regression label is the number of triangles in each graph.
+
+4. **Crippen**: A real-life dataset with 1127 graphs from the Delaney solubility dataset, where the regression label is the water-actual partition coefficient of the molecule graph.
+
+Now, I will check the **References section** to find the full citations for these datasets. The paper does not provide explicit citations for the datasets, but I can infer the following based on the context provided in the paper:
+
+- For **BA-Motif-Volume** and **BA-Motif-Counting**, the authors reference the BA-shapes dataset, which is commonly associated with the work of Barabási and Albert. A typical citation for this foundational work is:
+  > Barabási, A.-L., & Albert, R. (1999). Emergence of scaling in random networks. *Science*, 286(5439), 509-512.
+
+- For **Triangles**, the authors reference previous work that constructed similar datasets, which could be cited as:
+  > Chen, Z., et al. (2020). Can Graph Neural Networks Count Substructures? *arXiv preprint arXiv:2002.04025*.
+
+- For **Crippen**, the dataset is based on the Delaney solubility dataset, which can be cited as:
+  > Delaney, J. S. (2004). ESOL: estimating aqueous solubility directly from molecular structure. *Journal of Chemical Information and Computer Sciences*, 44(3), 1000-1005.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and that the full citations are included. This will provide a comprehensive overview of the datasets used in the research paper.

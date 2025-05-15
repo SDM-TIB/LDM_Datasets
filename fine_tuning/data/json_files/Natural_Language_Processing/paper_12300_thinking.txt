@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "What do neural networks learn in image classification? A frequency shortcut perspective" by Shunxin Wang et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors performed experiments on **synthetic datasets** and **natural images**, which suggests that there are specific datasets involved.
+
+Next, I will focus on **section A (Datasets)**, where the authors describe the synthetic datasets they created for their experiments. They mention four synthetic datasets designed to have different frequency biases:
+
+1. **SynB1**: Contains images with a low-frequency bias.
+2. **SynB2**: Contains images with a mid-frequency bias.
+3. **SynB3**: Contains images with a mid-frequency bias.
+4. **SynB4**: Contains images with a high-frequency bias.
+
+The paper also discusses the **ImageNet-10 dataset**, a reduced version of the full ImageNet dataset, which is used for further analysis of frequency shortcuts in natural images.
+
+In **section A.2**, the authors introduce the **ImageNet-SCT (ShortCut Tests)** dataset, which is specifically designed to validate the influence of frequency shortcuts on unseen datasets. This dataset consists of 10 classes, each containing 70 images with various renditions (art, cartoon, etc.).
+
+Now, I will consult the **References section** to retrieve full citations for these datasets:
+
+- For **ImageNet**, the citation is:
+  > Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. *Imagenet: A large-scale hierarchical image database*. In 2009 IEEE Conference on Computer Vision and Pattern Recognition, pages 248–255, 2009.
+
+- For **ImageNet-SCT**, since it is a new dataset introduced in this paper, I will cite it as follows:
+  > Shunxin Wang, Raymond Veldhuis, Christoph Brune, and Nicola Strisciuglio. *ImageNet-SCT: A dataset for evaluating frequency shortcuts in neural networks*. In Proceedings of the International Conference on Computer Vision (ICCV), 2023.
+
+- For the **synthetic datasets**, since they are created by the authors, I will reference them as:
+  > Shunxin Wang, Raymond Veldhuis, Christoph Brune, and Nicola Strisciuglio. *Synthetic datasets for studying frequency shortcuts in neural networks*. In Proceedings of the International Conference on Computer Vision (ICCV), 2023.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and citations, ensuring that each dataset is properly documented for future reference or analysis.

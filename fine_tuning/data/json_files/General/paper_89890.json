@@ -1,0 +1,82 @@
+[
+    {
+        "dcterms:creator": [
+            "Xiaoyin Che",
+            "Cheng Wang",
+            "Haojin Yang",
+            "Christoph Meinel"
+        ],
+        "dcterms:description": "The IWSLT2011 benchmark dataset contains three types of punctuation marks (comma, period, and question mark), following the data organization and using the same tokenized data by Che et al.",
+        "dcterms:title": "IWSLT2011",
+        "dcterms:issued": "2011",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://github.com/IsaacChanghau/neural-sequence-labeling",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Speech Recognition"
+        ],
+        "dcat:keyword": [
+            "Punctuation prediction",
+            "Speech transcripts",
+            "Benchmark dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Punctuation prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "An in-house Chinese annotated dataset created by the authors, containing approximately 240K spoken utterances with punctuation and disfluency annotations.",
+        "dcterms:title": "In-house Chinese annotated dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "Chinese",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Speech Recognition"
+        ],
+        "dcat:keyword": [
+            "Disfluency detection",
+            "Punctuation prediction",
+            "Speech transcripts"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Punctuation prediction",
+            "Disfluency detection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A derived dataset from the IWSLT2011, used for pre-training purposes.",
+        "dcterms:title": "IWSLT2011 Train-pretrain",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A derived dataset from the in-house Chinese dataset, used for pre-training purposes.",
+        "dcterms:title": "Chinese Train-pretrain",
+        "dcterms:issued": "",
+        "dcterms:language": "Chinese",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

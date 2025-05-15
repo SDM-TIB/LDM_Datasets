@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Towards Trustworthy Deception Detection: Benchmarking Model Robustness across Domains, Modalities, and Languages" by Maria Glenski et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and datasets sections** to identify any datasets mentioned. The abstract indicates that the paper evaluates model robustness for deceptive news detection, which suggests that datasets are likely involved.
+
+In the **introduction**, the authors discuss the importance of evaluating model performance and mention various sources of data, including social media platforms like Twitter and Reddit. This hints at the presence of datasets but does not provide specific names yet.
+
+Next, I will focus on the **methodology section**, particularly the **3.2 Datasets** subsection, where the authors explicitly describe the datasets used in their experiments. Here, they mention:
+
+1. **Twitter Dataset**: This dataset consists of English retweets from official Twitter accounts of news media, containing text-based posts. It is used for binary classification tasks.
+
+2. **Reddit Dataset**: This dataset includes all top-level comments in response to posts on Reddit that link to news sources. It is also used for binary classification and is balanced with the Twitter dataset.
+
+3. **Multimodal Twitter Dataset**: This dataset is derived from the same collection of English retweets but includes tweets that contain images. It is used for various classification tasks, including distinguishing between propaganda, disinformation, and trustworthy content.
+
+4. **Multilingual Twitter Dataset**: This dataset comprises tweets in multiple languages (English, French, German, Russian, and Spanish) collected from the same sources as the English dataset. It is used for cross-language analyses.
+
+Now, I will check the **References section** to find full citations for these datasets. The authors reference publicly available news source annotations for deceptive and trustworthy news sources, which are crucial for understanding the datasets:
+
+- For the **Twitter Dataset**, the citation is:
+  > Glenski, M., & Weninger, T. (2018). Propagation from deceptive news sources who shares, how much, how evenly, and how quickly? *IEEE Transactions on Computational Social Systems*, 5(4), 1071–1082.
+
+- For the **Reddit Dataset**, the citation is:
+  > Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science*, 359(6380), 1146–1151.
+
+- For the **Multimodal Twitter Dataset**, the citation is:
+  > Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollár, P., & Zitnick, C. L. (2014). Microsoft COCO: Common objects in context. In *European Conference on Computer Vision* (pp. 740–755). Springer.
+
+- For the **Multilingual Twitter Dataset**, the citation is:
+  > Lazer, D. M. J., Baum, M. A., Benkler, Y., Berinsky, A. J., Greenhill, K. M., Menczer, F., Metzger, M. J., Nyhan, B., Pennycook, G., & Rothschild, D. (2018). The science of fake news. *Science*, 359(6380), 1094–1096.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

@@ -1,0 +1,52 @@
+To extract datasets from the research paper titled "Bidirectional Scene Text Recognition with a Single Decoder" by Maurits Bleeker and Maarten de Rijke, I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and the introduction often discusses the context and significance of the datasets used.
+
+Next, I will focus on **section 4 (Experimental Setup)**, specifically **subsection 4.1 (Datasets)**, where the authors explicitly list the datasets used for training and evaluation. This section is crucial as it typically contains detailed descriptions of the datasets, including their names, sizes, and any specific characteristics.
+
+In **subsection 4.1.1 (Training datasets)**, the authors mention two datasets:
+
+1. **Synth90K**: This dataset is described as containing 7.2 million training images generated synthetically, with a lexicon of 90,000 words. Each word is rendered into 100 different synthetic images.
+
+2. **SynthText**: This dataset consists of 800,000 synthetically generated images for text detection and recognition, containing approximately 8 million annotated text instances. The authors detail the preprocessing steps taken to create cropped-word images from this dataset.
+
+In **subsection 4.1.2 (Evaluation datasets)**, the authors list several datasets used for evaluation:
+
+1. **ICDAR03**: Contains 258 training images and 251 testing images, with 1,156 word instances available for cropping.
+2. **ICDAR13**: Comprises 1,095 word images for evaluation, derived from the ICDAR03 dataset.
+3. **ICDAR15**: Contains 2,077 word images cropped from video frames, with various real-world interference factors.
+4. **SVT (Street View Text)**: This dataset includes 647 word images taken from Google Street View.
+5. **SVTP (Street View Text Perspective)**: Contains 645 word images with perspective distortions.
+6. **IIIT-5K Word**: Comprises 3,000 images for evaluation, with two lexicons provided for lexicon inference.
+7. **CUTE80**: Contains 288 high-resolution word images, primarily featuring curved and/or oriented text instances.
+
+Now, I will check the **References section** to find the full citations for each dataset mentioned. This is essential for proper attribution and to allow others to access the datasets.
+
+- For **Synth90K**, the citation is:
+  > M. Jaderberg et al. *Synthetic Data for Text Localization in Natural Images*. In CVPR, 2016.
+
+- For **SynthText**, the citation is:
+  > A. Gupta, A. Vedaldi, and A. Zisserman. *Synthetic Data for Text Localization in Natural Images*. In CVPR, 2016.
+
+- For **ICDAR03**, the citation is:
+  > S. M. Lucas et al. *ICDAR 2003 Robust Reading Competitions*. In ICDAR, pages 682–687, 2003.
+
+- For **ICDAR13**, the citation is:
+  > D. Karatzas et al. *ICDAR 2013 Robust Reading Competition*. In ICDAR, pages 1484–1493, 2013.
+
+- For **ICDAR15**, the citation is:
+  > D. Karatzas et al. *ICDAR 2015 Competition on Robust Reading*. In ICDAR, pages 1156–1160, 2015.
+
+- For **SVT**, the citation is:
+  > K. Wang and S. Belongie. *Word Spotting in the Wild*. In ECCV, pages 591–604, 2010.
+
+- For **SVTP**, the citation is:
+  > T. Quy Phan et al. *Recognizing Text with Perspective Distortion in Natural Scenes*. In ICCV, pages 569–576, 2013.
+
+- For **IIIT-5K Word**, the citation is:
+  > A. Mishra et al. *Scene Text Recognition Using Higher Order Language Priors*. In BMVC, 2012.
+
+- For **CUTE80**, the citation is:
+  > A. Risnumawan et al. *A Robust Arbitrary Text Detection System for Natural Scene Images*. Expert Systems with Applications, 41(18):8027–8048, 2014.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will facilitate further research and validation of the findings presented in the paper.

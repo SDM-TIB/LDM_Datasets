@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "DialAug: Mixing up Dialogue Contexts in Contrastive Learning for Robust Conversational Modeling" by Lahari Poddar et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions that the authors experimented with **four benchmark dialogue datasets**, which indicates that there are specific datasets to look for.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors explicitly list the datasets used for their experiments. In this section, they mention four datasets:
+
+1. **Ubuntu V2**: This dataset consists of conversations extracted from Ubuntu chat logs, where users seek technical support for various Ubuntu-related problems. The authors note that they use a public repository to generate the train/dev/test examples.
+
+2. **Advising DSTC7**: This dataset contains dialogues in which university students seek advice on classes to take. It was built upon expanding original conversations by paraphrasing and includes profile information for students, although the authors do not include this information in their model.
+
+3. **Ubuntu DSTC7**: This dataset is similar to the Ubuntu V2 corpus but has been further disentangled and annotated from the original chat logs. The authors evaluate their model on subtask 1 of the DSTC7 challenge, which involves selecting the most appropriate response from 100 candidates.
+
+4. **Taskmaster**: This dataset consists of written dialogues in the movie ticketing domain. The authors split the dialogues into train/dev/test sets and treat each system turn and its corresponding dialogue context as a positive pair.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **Ubuntu V2**, the citation is:
+  > Ryan Lowe, Nissan Pow, Iulian Vlad Serban, and Joelle Pineau. *The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems*. In Proceedings of the 16th Annual Meeting of the Special Interest Group on Discourse and Dialogue, pages 285–294, 2015.
+
+- For **Advising DSTC7**, the citation is:
+  > Chulaka Gunasekara, Jonathan K Kummerfeld, Lazaros Polymenakos, and Walter Lasecki. *DSTC7 Task 1: Noetic End-to-End Response Selection*. In Proceedings of the First Workshop on NLP for Conversational AI, pages 60–67, 2019.
+
+- For **Ubuntu DSTC7**, the citation is:
+  > Jonathan K. Kummerfeld, S. R. Gouravajhala, Joseph Peper, V. Athreya, R. Chulaka Gunasekara, Jatin Ganhotra, S. Patel, L. Polymenakos, and Walter S. Lasecki. *Analyzing Assumptions in Conversation Disentanglement Research Through the Lens of a New Dataset and Model*. ArXiv, abs/1810.11118, 2018.
+
+- For **Taskmaster**, the citation is:
+  > B. Byrne, K. Krishnamoorthi, Chinnadhurai Sankar, Arvind Neelakantan, Daniel Duckworth, Semih Yavuz, Ben Goodrich, Amit Dubey, A. Cedilnik, and Kyu-Young Kim. *Taskmaster-1: Toward a Realistic and Diverse Dialog Dataset*. In EMNLP/IJC-NLP, 2019.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

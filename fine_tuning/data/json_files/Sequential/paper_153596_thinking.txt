@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Exploiting Event Cameras for Spatio-Temporal Prediction of Fast-Changing Trajectories" by Marco Monforte et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to locate any references to datasets. The abstract provides a brief overview of the research focus, and while it may not explicitly mention datasets, it sets the context for the experiments.
+
+Next, I will examine the **introduction** for any mentions of datasets used in the study. The introduction discusses the use of event cameras and LSTM networks but does not specify datasets yet. I will continue to the **methodology** section, where the authors describe their experimental setup. Here, they mention collecting a dataset of 250 individual trajectories of a ball, which is a crucial finding.
+
+In the **experiments section**, the authors detail how they collected and processed the dataset. They state that the dataset consists of 500 trajectories (after flipping for independence) and specify the split into training, validation, and test sets. This section confirms the dataset's relevance and provides context for its use in the experiments.
+
+Now, I will look for the full citation of the dataset in the **references section**. However, the paper does not provide a formal citation for the dataset itself, as it appears to be a custom dataset created by the authors for their specific experiments. Therefore, I will note that the dataset is not publicly available and does not have a formal citation.
+
+To summarize, the dataset extracted from the paper is:
+
+1. **Custom Dataset of Trajectories**: This dataset consists of 500 trajectories of a ball thrown in front of the camera, collected using the ATIS event camera. The dataset is split into 470 training trajectories, 20 validation trajectories, and 10 test trajectories.
+
+Since there is no formal citation for this dataset, I will document it as follows:
+
+- **Dataset Name**: Custom Dataset of Trajectories
+- **Description**: A dataset containing 500 trajectories of a ball thrown in front of the ATIS event camera, used for training and testing LSTM models for trajectory prediction.
+
+Now, I will compile this information into a structured format for further processing or review.

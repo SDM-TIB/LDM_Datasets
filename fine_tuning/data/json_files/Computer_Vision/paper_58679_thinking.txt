@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Score-based Diffusion Models in Function Space" by Jae Hyun Lim et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** and **introduction** sections to get an overview of the datasets that might be referenced. The abstract mentions that the authors empirically verify their approach on a set of function-valued problems, including generating solutions to the **Navier-Stokes equation**, **volcano InSAR**, and **MNIST-SDF**. This indicates that these datasets are likely to be important for the experiments.
+
+Next, I will look into the **experiments section** (Section 5) where the authors describe their empirical evaluations. Here, they explicitly mention the datasets used for their experiments:
+
+1. **Navier-Stokes Dataset**: This dataset is used to generate solutions to the Navier-Stokes equations. The authors mention that they develop a solver for this problem and generate random forcings from a Gaussian distribution.
+
+2. **Volcano InSAR Dataset**: The authors describe this dataset as consisting of 4096 data points of spatial resolution 128 × 128, derived from raw interferograms produced from satellites covering the Long Valley Caldera near Mammoth Lakes, California.
+
+3. **MNIST-SDF Dataset**: This dataset is a collection of 2D signed distance functions (SDFs) extracted from the MNIST dataset. The authors state that this dataset is used to demonstrate the efficacy of their proposed method on function generation.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper documentation:
+
+- For the **Navier-Stokes Dataset**, the authors do not provide a specific citation, but they reference the foundational work on the Navier-Stokes equations, which can be cited as:
+  > Roger Temam. *Infinite-dimensional dynamical systems in mechanics and physics*. Springer-Verlag, New York, 1988.
+
+- For the **Volcano InSAR Dataset**, the authors reference the original work that proposed this dataset:
+  > R. A. Rosen, E. Gurrola, G. F. Sacco, and H. Zebker. *The InSAR Scientific Computing Environment*. In EUSAR 2012; 9th European Conference on Synthetic Aperture Radar, pages 730–733, 2012.
+
+- For the **MNIST-SDF Dataset**, the citation is:
+  > Vincent Sitzmann, Eric R. Chan, Richard Tucker, Noah Snavely, and Gordon Wetzstein. *MetaSDF: Meta-learning Signed Distance Functions*. In Proceedings of NeurIPS, 2020.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or processing. This will ensure that I have accurately captured the datasets referenced in the paper along with their proper citations.

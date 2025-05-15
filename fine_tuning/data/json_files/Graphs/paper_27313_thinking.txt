@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Ranking vs. Classifying: Measuring Knowledge Base Completion Quality" by Marina Speranskaya et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to locate any references to datasets. The abstract mentions the construction of a dataset called **FB14k-QAQ**, which is a strong indicator that this is a key dataset for the paper.
+
+Next, I will focus on **section 3 (Data set FB14k-QAQ)**, where the authors provide a detailed description of the dataset. They explain how the dataset was constructed, including the process of transforming existing knowledge base triples into queries and the criteria for selecting entities to be removed. This section is crucial for understanding the dataset's structure and purpose.
+
+In this section, the authors describe the **FB14k-QAQ dataset** as follows:
+- It is based on the **FB15k-237** dataset, which is a well-established benchmark for knowledge base completion (KBC).
+- The dataset includes 13,541 entities, 237 relations, and 236,795 triples in the training set.
+- It is designed to evaluate KBC models using a query-driven setup, with queries categorized into those with complete answers, incomplete answers, and type-violating queries.
+
+I will also check the **References section** to find the full citation for the **FB15k-237 dataset**, as it is the foundational dataset for FB14k-QAQ. The citation for FB15k-237 is:
+> Kristina Toutanova, Danqi Chen, Patrick Pantel, Hoifung Poon, Pallavi Choudhury, and Michael Gamon. *Representing text for joint embedding of text and knowledge bases*. In Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing, pages 1499–1509, Lisbon, Portugal, September 2015. Association for Computational Linguistics. doi: 10.18653/v1/D15-1174. URL https://www.aclweb.org/anthology/D15-1174.
+
+Now, I will compile the information about the datasets into a structured format, ensuring that I include the full citations for each dataset mentioned in the paper.
+
+In summary, the key dataset extracted from the paper is:
+1. **FB14k-QAQ**: A dataset constructed for evaluating knowledge base completion models, based on the FB15k-237 dataset.
+   - Citation: Not explicitly provided in the paper, but it is derived from the FB15k-237 dataset.
+
+2. **FB15k-237**: The foundational dataset for FB14k-QAQ.
+   - Citation: Kristina Toutanova et al. (2015). *Representing text for joint embedding of text and knowledge bases*. In Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing, pages 1499–1509, Lisbon, Portugal, September 2015. doi: 10.18653/v1/D15-1174.
+
+With this information, I am ready to create the dataset entries as required.

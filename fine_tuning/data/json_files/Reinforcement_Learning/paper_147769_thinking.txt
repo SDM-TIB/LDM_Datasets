@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Learning End-to-end Autonomous Driving using Guided Auxiliary Supervision" by Ashish Mehta et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets that are explicitly mentioned or described. The abstract mentions the use of the **CARLA simulator**, which suggests that the dataset is related to this environment.
+
+Next, I will focus on **section 4 (Experimental Setup)**, where the authors describe the environment and data collection process. Here, they mention collecting **150,000 frames of images** from the CARLA simulator, which indicates that this is a significant dataset used for their experiments.
+
+In **section 4.2 (Data Collection)**, the authors provide more details about the dataset, stating that it includes RGB images, high-level planner commands, and speed data collected during driving demonstrations. This section confirms that the dataset is curated from expert demonstrations in the CARLA simulator.
+
+Additionally, in **section 4.3 (Auxiliary Tasks and Data Annotation)**, the authors list various **visual affordances and action primitives** that are derived from the dataset. This further emphasizes the importance of the dataset in their research.
+
+Now, I will consult the **References section** to find the full citation for the CARLA simulator, as it is the primary source of the dataset used in this research. The citation for CARLA is:
+
+- **CARLA Simulator**: 
+  > Alexey Dosovitskiy, German Ros, Felipe Codevilla, Antonio López, and Vladlen Koltun. *CARLA: An Open Urban Driving Simulator*. arXiv preprint arXiv:1711.03938, 2017.
+
+With this information, I can summarize the dataset as follows:
+
+1. **CARLA Dataset**: This dataset consists of 150,000 frames of images collected from the CARLA simulator, which includes various driving scenarios with annotated driving commands and auxiliary tasks.
+
+Finally, I will compile the dataset entry into a structured format for further processing or review, ensuring that the full citation is included for proper attribution.

@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "DNABERT-S: Learning Species-Aware DNA Embedding with Genome Foundation Models" by Zhihan Zhou et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and data sections** of the paper to identify any datasets that are explicitly mentioned. The abstract highlights that empirical results were shown on **18 diverse datasets**, which indicates that multiple datasets are involved.
+
+Next, I will focus on **section 4 (Data)**, where the authors provide detailed information about the datasets used for training and evaluation. In this section, I will look for specific names, descriptions, and any relevant statistics about the datasets.
+
+1. **Training Dataset**: The authors mention that the training dataset is constructed from **reference genomes from GenBank**. They specify that they obtained **47,923 pairs from 17,636 viral genomes**, **1 million pairs from 5,011 fungi genomes**, and **1 million pairs from 6,402 bacteria genomes**. They randomly selected **2 million pairs** from the total of **2,047,923 pairs** for training.
+
+   - **Citation for GenBank**:
+     > Dennis A Benson, Mark Cavanaugh, Karen Clark, Ilene Karsch-Mizrachi, David J Lipman, James Ostell, and Eric W Sayers. *Genbank*. Nucleic acids research, 41(D1):D36–D42, 2012.
+
+2. **Evaluation Datasets**: The paper mentions that the evaluation spans the **Critical Assessment of Metagenome Interpretation (CAMI) II** challenge benchmark and **4 synthetic datasets**. The CAMI2 dataset is noted for its comprehensive design to mimic realistic microbiome environments.
+
+   - **Citation for CAMI II**:
+     > Fernando Meyer, Adrian Fritz, Zhi-Luo Deng, David Koslicki, Till Robin Lesker, Alexey Gurevich, Gary Robertson, Mohammed Alser, Dmitry Antipov, Francesco Beghini, et al. *Critical assessment of metagenome interpretation: the second round of challenges*. Nature methods, 19(4):429–440, 2022.
+
+3. **Additional Synthetic Datasets**: The authors also created **4 synthetic datasets** by randomly extracting DNA sequences from fungi and viral reference genomes that do not overlap with the training data. However, specific citations for these synthetic datasets are not provided in the text.
+
+Next, I will compile the information gathered into a structured format, ensuring that each dataset is clearly described along with its citation. This will include the training dataset from GenBank, the CAMI II benchmark, and the synthetic datasets, even though the latter lacks a specific citation.
+
+Finally, I will ensure that all dataset entries are ready for downstream processing or review, maintaining clarity and accuracy in the documentation of each dataset's details and citations.

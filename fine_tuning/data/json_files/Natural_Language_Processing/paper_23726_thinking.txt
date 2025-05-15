@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "RANDONET: Shallow-Networks with Random Projections for Learning Linear and Nonlinear Operators" by Gianluca Fabiani et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract provides a brief overview of the study and may mention datasets used for validation or testing.
+
+Next, I will focus on the **introduction** section, where the authors often discuss previous work and datasets that are relevant to their research. This section may provide insights into the datasets they are building upon or comparing against.
+
+In the **methods section**, I will look for any specific mentions of datasets used for training or testing their proposed method, RandONets. The authors may describe how they generated their datasets or any existing datasets they utilized.
+
+The **results section** may also contain references to datasets, especially if the authors present performance metrics or comparisons against other methods. 
+
+After identifying potential datasets, I will check the **references section** to find full citations for each dataset mentioned. This is crucial for proper attribution and to allow others to access the datasets.
+
+From the paper, I can identify the following datasets:
+
+1. **Random Parametrized Functions Dataset**: The authors generated a dataset of functions using random parameters for their experiments. The specific function form is given as:
+   > u(t) = w exp(s(t - c)²) + a0 + a1 t + a2 t², where w, s, c are randomized parameters.
+
+   The citation for this dataset is:
+   > Fabiani, G., Kevrekidis, I. G., Siettos, C., & Yannacopoulos, A. N. (2024). RANDONET: Shallow-Networks with Random Projections for Learning Linear and Nonlinear Operators. arXiv preprint arXiv:2402.11397.
+
+2. **Ground Truth Data for ODEs**: The authors mention using MATLAB's ode45 solver to compute the ground truth for their output functions. This is not a dataset per se but indicates the method used to generate reference data.
+
+3. **Benchmark Problems**: The authors refer to various benchmark problems, including the anti-derivative operator, pendulum dynamics, and PDEs like the Burgers' equation and Allen-Cahn equation. These problems are often associated with standard datasets in the literature.
+
+   For example, the citation for the DeepONet framework, which they compare against, is:
+   > Lu, L., Jin, P., Pang, G., Zhang, Z., & Karniadakis, G. E. (2021). Learning Nonlinear Operators via DeepONet Based on the Universal Approximation Theorem of Operators. Nature Machine Intelligence, 3(3), 218-229.
+
+After gathering this information, I will compile the dataset entries, ensuring to include full citations for each dataset mentioned in the paper. This will provide a comprehensive overview of the datasets utilized in the research.

@@ -1,0 +1,63 @@
+To extract datasets from the research paper titled "TinyTrain: Resource-Aware Task-Adaptive Sparse Training of DNNs at the Data-Scarce Edge" by Young D. Kwon et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections for any mentions of datasets. The abstract highlights the challenges of on-device training and mentions the use of various datasets for evaluation, which indicates that datasets are likely discussed in detail later in the paper.
+
+Next, I will look into the **methodology** section, particularly in the **experimental setup** subsection, where the authors typically describe the datasets used for training and testing their models. Here, I will pay close attention to any specific dataset names, descriptions, and their relevance to the experiments conducted.
+
+In the **results** section, I will check for any references to datasets used in the experiments, including performance metrics associated with each dataset. This will help confirm the datasets' roles in the study and their significance in evaluating the proposed method.
+
+I will also consult the **appendices** for any additional details regarding datasets, as supplementary materials often contain valuable information that may not be included in the main text.
+
+From my reading, I have identified the following datasets mentioned in the paper:
+
+1. **MiniImageNet**: This dataset is used for meta-training and consists of 100 classes from ImageNet-1k, split into training, validation, and testing sets.
+
+   Citation:
+   > Vinyals, O., Blundell, C., Lillicrap, T., Kavukcuoglu, K., & Wierstra, D. (2016). *Matching Networks for One Shot Learning*. In Advances in Neural Information Processing Systems (NeurIPS).
+
+2. **Traffic Sign Dataset**: This dataset contains 50,000 images of German road signs, used as one of the target datasets for evaluation.
+
+   Citation:
+   > Houben, S., Stallkamp, J., Salmen, J., & Igel, C. (2013). *Detection of Traffic Signs in Real-World Images: The German Traffic Sign Detection Benchmark*. In International Joint Conference on Neural Networks (IJCNN).
+
+3. **Omniglot**: This dataset consists of 1,623 handwritten characters from 50 different alphabets, used for few-shot learning tasks.
+
+   Citation:
+   > Lake, B. M., Salakhutdinov, R., & Tenenbaum, J. B. (2015). *Human-level Concept Learning through Probabilistic Program Induction*. Science, 350(6266), 1332-1338.
+
+4. **Aircraft Dataset**: This dataset contains images of 102 model variants, with 100 images per class, used for evaluation.
+
+   Citation:
+   > Maji, S., Rahtu, E., Kannala, J., Blaschko, M. B., & Vedaldi, A. (2013). *Fine-grained visual classification of aircraft*. CoRR, abs/1306.5151.
+
+5. **VGG Flowers**: This dataset consists of natural images of 102 flower categories, used in the experiments.
+
+   Citation:
+   > Nilsback, M.-E., & Zisserman, A. (2008). *Automated Flower Classification over a Large Number of Classes*. In Indian Conference on Computer Vision, Graphics & Image Processing (ICVGIP).
+
+6. **CUB-200-2011**: This dataset is based on the fine-grained classification of 200 different bird species.
+
+   Citation:
+   > Welinder, P., Branson, S., Mita, T., Wah, C., Schroff, F., Belongie, S., & Perona, P. (2011). *Caltech-UCSD Birds 200-2011 Dataset*. Technical Report CNS-TR-2011-001, California Institute of Technology.
+
+7. **Describable Textures Dataset (DTD)**: This dataset comprises 5,640 images organized into 47 texture categories.
+
+   Citation:
+   > Cimpoi, M., Maji, S., Kokkinos, I., Mohamed, S., & Vedaldi, A. (2014). *Describing Textures in the Wild*. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
+
+8. **Quick Draw Dataset (QDraw)**: This dataset consists of 50 million black-and-white drawings of 345 categories.
+
+   Citation:
+   > Jongejan, J., Rowley, H., Kawashima, T., Kim, J., & Fox-Gieg, N. (2016). *The quick, draw!-ai experiment*. Mount View, CA.
+
+9. **Fungi Dataset**: This dataset contains around 100K images of 1,394 wild mushroom species.
+
+   Citation:
+   > Schroeder, B., & Cui, Y. (2018). *FGVCx fungi classification challenge*. Available online: github.com/visipedia/fgvcx_fungi_comp.
+
+10. **MSCOCO (COCO)**: This dataset is the train2017 split of the COCO dataset, containing images from Flickr with 1.5 million object instances of 80 classes.
+
+    Citation:
+    > Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollár, P., & Zitnick, C. L. (2014). *Microsoft COCO: Common Objects in Context*. In European Conference on Computer Vision (ECCV).
+
+Now that I have gathered the necessary information about the datasets, I will compile this into a structured format for further processing or review.

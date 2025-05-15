@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Conditional diffusion models for downscaling & bias correction of Earth system model precipitation" by Michael Aich et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract highlights the use of a generative diffusion model trained on observational data, which suggests that there are specific datasets involved.
+
+Next, I will focus on the **methods section**, particularly **section 4.1 (Data)**, where the authors explicitly mention the datasets used in their study:
+
+1. **ERA5 Reanalysis Data**: This dataset is described as a state-of-the-art atmospheric reanalysis dataset provided by the European Center for Medium-Range Weather Forecasting (ECMWF). It contains daily total precipitation data at a horizontal resolution of 0.25° and spans from January 1, 1992, to January 1, 2011.
+
+2. **GFDL-ESM4 Data**: This dataset is from the GFDL Earth System Model Version 4.1, which includes daily precipitation data from the first ensemble member of the historical simulation (esm-hist). The data is available from 1850 to 2014 at a resolution of 1° latitude and 1.25° longitude.
+
+Additionally, the authors mention a **benchmark dataset** created by applying quantile mapping to the GFDL data to fit it to the ERA5 data. This benchmark dataset is used for evaluating the performance of their method.
+
+Now, I will check the **references section** to obtain the full citations for these datasets:
+
+- For **ERA5 Reanalysis Data**, the citation is:
+  > Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Horányi, A., Muñoz-Sabater, J., Nicolas, J., Peubey, C., Radu, R., Schepers, D., Simmons, A., Soci, C., Abdalla, S., Abellan, X., Balsamo, G., Bechtold, P., Biavati, G., Bidlot, J., Bonavita, M., De Chiara, G., Dahlgren, P., Dee, D., Diamantakis, M., Dragani, R., Flemming, J., Forbes, R., Fuentes, M., Geer, A., Haimberger, L., Healy, S., Hogan, R. J., Holm, E., Janisková, M., Keeley, S., Laloyaux, P., Lopez, P., Lupu, C., Radnoti, G., de Rosnay, P., Rozum, I., Vamborg, F., Villaume, S., and Thépaut, J.-N. (2020). The ERA5 global reanalysis. *Quarterly Journal of the Royal Meteorological Society*, 146(730):1999–2049.
+
+- For **GFDL-ESM4 Data**, the citation is:
+  > Dunne, J. P., Horowitz, L. W., Adcroft, A. J., Ginoux, P., Held, I. M., John, J. G., Krasting, J. P., Malyshev, S., Naik, V., Paulot, F., Shevliakova, E., Stock, C. A., Zadeh, N., Balaji, V., Blanton, C., Dunne, K. A., Dupuis, C., Durachta, J., Dussin, R., Gauthier, P. P. G., Griffies, S. M., Guo, H., Hallberg, R. W., Harrison, M., He, J., Hurlin, W., McHugh, C., Menzel, R., Milly, P. C. D., Nikonov, S., Paynter, D. J., Ploshay, J., Radhakrishnan, A., Rand, K., Reichl, B. G., Robinson, T., Schwarzkopf, D. M., Sentman, L. T., Underwood, S., Vahlenkamp, H., Winton, M., Wittenberg, A. T., Wyman, B., Zeng, Y., and Zhao, M. (2020). The GFDL Earth System Model Version 4.1 (GFDL-ESM 4.1): Overall Coupled Model Description and Simulation Characteristics. *Journal of Advances in Modeling Earth Systems*, 12(11):e2019MS002015.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

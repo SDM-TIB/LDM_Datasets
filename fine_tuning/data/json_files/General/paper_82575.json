@@ -1,0 +1,139 @@
+[
+    {
+        "dcterms:creator": [
+            "A.S. McEwen",
+            "E.M. Eliason",
+            "J.W. Bergstrom",
+            "N.T. Bridges",
+            "C.J. Hansen",
+            "W.A. Delamere",
+            "J.A. Grant",
+            "V.C. Gulick",
+            "K.E. Herkenhoff",
+            "L. Keszthelyi",
+            "R.L. Kirk",
+            "M.T. Mellon",
+            "S.W. Squyres",
+            "N. Thomas",
+            "C.M. Weitz"
+        ],
+        "dcterms:description": "HiRISE images are used for the identification of ice block falls on Mars, facilitating change detection through repeated observations under similar illumination conditions.",
+        "dcterms:title": "HiRISE images",
+        "dcterms:issued": "2007",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://doi.org/10.1029/2005JE002605",
+        "dcat:theme": [
+            "Planetary Science",
+            "Remote Sensing"
+        ],
+        "dcat:keyword": [
+            "Mars",
+            "HiRISE",
+            "change detection",
+            "block falls",
+            "ice cap"
+        ],
+        "dcat:landingPage": "https://doi.org/10.1029/2005JE002605",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Change Detection",
+            "Block Fall Identification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D.E. Shean",
+            "O. Alexandrov",
+            "Z.M. Moratto",
+            "B.E. Smith",
+            "I.R. Joughin",
+            "C. Porter",
+            "P. Morin"
+        ],
+        "dcterms:description": "A Digital Terrain Model (DTM) produced using an automated, open-source pipeline for mass production from very-high-resolution commercial stereo satellite imagery.",
+        "dcterms:title": "Digital Terrain Model (DTM)",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://doi.org/10.1016/j.isprsjprs.2016.03.012",
+        "dcat:theme": [
+            "Geospatial Data",
+            "Remote Sensing"
+        ],
+        "dcat:keyword": [
+            "Digital Terrain Model",
+            "DTM",
+            "stereo imagery",
+            "Mars"
+        ],
+        "dcat:landingPage": "https://doi.org/10.1016/j.isprsjprs.2016.03.012",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Model",
+        "mls:task": [
+            "Terrain Analysis",
+            "Change Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A training dataset consisting of positive and negative samples used for training the machine learning model to detect block falls.",
+        "dcterms:title": "Training dataset (positive and negative samples)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "training dataset",
+            "machine learning",
+            "block detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Training",
+            "Block Fall Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A difference image created by subtracting the 'before' image from the 'after' image to identify changes in the landscape.",
+        "dcterms:title": "Difference image",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "difference image",
+            "change detection",
+            "image analysis"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Change Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Validation areas consisting of six areas of 1000×1000 pixels used to test the effectiveness of the detection method.",
+        "dcterms:title": "Validation areas (six areas of 1000×1000 pixels)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "validation areas",
+            "block detection",
+            "Mars"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Validation",
+            "Block Fall Detection"
+        ]
+    }
+]

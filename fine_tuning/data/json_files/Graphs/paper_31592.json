@@ -1,0 +1,164 @@
+[
+    {
+        "dcterms:creator": [
+            "Andrew McCallum",
+            "Kamal Nigam",
+            "Jason D. M. Rennie",
+            "Kristie Seymore"
+        ],
+        "dcterms:description": "A citation network dataset where nodes correspond to manuscripts and edges represent citations. The node feature vector indicates the distribution of words in each paper's abstract, and the node label represents the domain of the paper.",
+        "dcterms:title": "Cora",
+        "dcterms:issued": "2000",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Networks"
+        ],
+        "dcat:keyword": [
+            "Citation",
+            "Manuscripts",
+            "Word Distribution"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "C. Lee Giles",
+            "Kurt D. Bollacker",
+            "Steve Lawrence"
+        ],
+        "dcterms:description": "A citation network dataset similar to Cora, where nodes correspond to manuscripts and edges represent citations. The node feature vector indicates the distribution of words in each paper's abstract, and the node label represents the domain of the paper.",
+        "dcterms:title": "CiteSeer",
+        "dcterms:issued": "1998",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Networks"
+        ],
+        "dcat:keyword": [
+            "Citation",
+            "Manuscripts",
+            "Word Distribution"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Benedek Rozemberczki",
+            "Carl Allen",
+            "Rik Sarkar"
+        ],
+        "dcterms:description": "A social network dataset where nodes correspond to Twitch streamers and edges represent mutual followers. The node features contain a representation of the games played by the streamer, and the node label indicates whether the streamer streams mature content.",
+        "dcterms:title": "Twitch",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Networks"
+        ],
+        "dcat:keyword": [
+            "Twitch",
+            "Streamers",
+            "Mutual Followers"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node Classification",
+            "Link Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Oleksandr Shchur",
+            "Maximilian Mumme",
+            "Aleksandar Bojchevski",
+            "Stephan Günnemann"
+        ],
+        "dcterms:description": "An e-commerce co-purchase network dataset where nodes correspond to products and edges connect co-purchased products. The node features contain product reviews as a bag-of-words, and the node label indicates the product category.",
+        "dcterms:title": "Amazon Photos (AMZN-P)",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "E-commerce"
+        ],
+        "dcat:keyword": [
+            "Products",
+            "Co-purchase",
+            "Reviews"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node Classification",
+            "Link Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Oleksandr Shchur",
+            "Maximilian Mumme",
+            "Aleksandar Bojchevski",
+            "Stephan Günnemann"
+        ],
+        "dcterms:description": "An e-commerce co-purchase network dataset similar to Amazon Photos, where nodes correspond to products and edges connect co-purchased products. The node features contain product reviews as a bag-of-words, and the node label indicates the product category.",
+        "dcterms:title": "Amazon Computers (AMZN-C)",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "E-commerce"
+        ],
+        "dcat:keyword": [
+            "Products",
+            "Co-purchase",
+            "Reviews"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node Classification",
+            "Link Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Marinka Zitnik",
+            "Jure Leskovec"
+        ],
+        "dcterms:description": "A dataset containing a collection of graphs representing protein-protein interactions across different human tissues. The node features contain positional gene sets, motif gene sets, and immunological signatures, while the node label is a 121-dimensional vector corresponding to gene ontology sets.",
+        "dcterms:title": "Protein-Protein Interactions (PPI)",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Biological Networks"
+        ],
+        "dcat:keyword": [
+            "Proteins",
+            "Interactions",
+            "Gene Ontology"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node Classification",
+            "Link Prediction"
+        ]
+    }
+]

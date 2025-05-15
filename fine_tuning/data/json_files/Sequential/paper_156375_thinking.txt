@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Bird’s Eye View Based Pretrained World Model for Visual Navigation" by Kiran Lekkala, Chen Liu, and Laurent Itti, I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. In the abstract, the authors mention using data from a **Differential drive robot in the CARLA simulator**, which indicates that a dataset is involved.
+
+Next, I will focus on the **introduction** where the authors discuss the challenges of Sim2Real transfer and mention the need for a robust dataset for training their model. They specifically state that they built a large dataset consisting of **First-person view (FPV) and Bird’s Eye View (BEV) image sequences from the CARLA simulator**. This is a clear indication of the dataset being utilized.
+
+In the **experimental setup section**, the authors provide more details about the datasets used for training, validation, and testing:
+
+1. **Training Dataset from CARLA Simulator**: This dataset consists of FPV-BEV image pairs collected from the CARLA simulator, which is used to train the perception and memory models.
+
+2. **Validation Dataset from Google Street View**: The authors describe how they obtained panoramic images from various locations on the USC campus using the Google Street View API. This dataset is segmented into different classes for evaluation purposes.
+
+3. **Test Dataset from Beobotv3**: This dataset is collected from a mobile robot, where video sequences are recorded and labeled to evaluate the quality of the representations estimated by the system.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned:
+
+- For the **CARLA simulator**, the citation is:
+  > Alexey Dosovitskiy et al. "CARLA: An Open Urban Driving Simulator". In: 1st Annual Conference on Robot Learning, CoRL 2017, Mountain View, California, USA, November 13-15, 2017, Proceedings. Vol. 78. Proceedings of Machine Learning Research. PMLR, 2017, pp. 1–16. URL: http://proceedings.mlr.press/v78/dosovitskiy17a.html.
+
+- For the **Google Street View dataset**, while there is no specific citation provided in the references, it is commonly known that the Google Street View API is used for accessing panoramic images.
+
+- For the **Beobotv3 dataset**, there is no specific citation provided in the references, as it is a dataset collected by the authors themselves during their experiments.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and citations, ensuring that each dataset is properly documented for future reference.

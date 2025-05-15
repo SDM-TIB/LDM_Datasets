@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "BERTnesia: Investigating the capture and forgetting of knowledge in BERT" by Jonas Wallat et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will start by reviewing the **abstract and introduction** sections. The abstract mentions the use of existing knowledge base completion tasks (LAMA) to probe BERT, which suggests that datasets related to these tasks are likely included.
+
+Next, I will look for specific mentions of datasets in the **methodology and experimental setup sections**. In section 3.2, the authors describe the LAMA knowledge probes, which include several datasets:
+
+1. **ConceptNet**: This dataset is used to test general conceptual knowledge and consists of 12,514 instances.
+2. **T-REx**: This dataset contains 34,017 instances over 41 specific relationship types.
+3. **Google-RE**: This dataset includes 5,528 instances related to factual knowledge about people.
+4. **SQuAD**: This dataset is used for context-insensitive questions rewritten to cloze-style statements, containing 305 instances.
+
+I will also check the **appendix** for additional details about these datasets, including how they were used in the experiments.
+
+Now, I will gather the full citations for each dataset from the **References section** of the paper:
+
+- For **ConceptNet**, the citation is:
+  > Speer, R. and Catherine Havasi. 2012. Representing general relational knowledge in ConceptNet 5. In Proceedings of the Eighth International Conference on Language Resources and Evaluation, LREC 2012, Istanbul, Turkey, May 23-25, 2012, pages 3679–3686, European Language Resources Association (ELRA).
+
+- For **T-REx**, the citation is:
+  > ElSahar, Hady, Pavlos Vougiouklis, Arslen Remaci, Christophe Gravier, Jonathon S. Hare, Frédérique Laforest, and Elena Simperl. 2018. T-REx: A large scale alignment of natural language with knowledge base triples. In Proceedings of the Eleventh International Conference on Language Resources and Evaluation, LREC 2018, Miyazaki, Japan, May 7-12, 2018, European Language Resources Association (ELRA).
+
+- For **Google-RE**, the citation is:
+  > Orr, Dave. 2013. 50,000 lessons on how to read: a relation extraction corpus. Online: Google Research Blog.
+
+- For **SQuAD**, the citation is:
+  > Rajpurkar, Pranav, Jian Zhang, Konstantin Lopyrev, and Percy Liang. 2016. SQuAD: 100,000+ questions for machine comprehension of text. In Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, EMNLP 2016, Austin, Texas, USA, November 1-4, 2016, pages 2383–2392, The Association for Computational Linguistics.
+
+After compiling this information, I will ensure that each dataset is clearly documented with its respective citation, ready for inclusion in any structured output or further analysis.

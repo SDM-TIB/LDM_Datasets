@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "FrameNeRF: A Simple and Efficient Framework for Few-shot Novel View Synthesis" by Yan Xing et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract indicates that the proposed method achieves state-of-the-art performance across various benchmark datasets, which suggests that specific datasets will be discussed later in the paper.
+
+Next, I will focus on the **experiments section** (section 5), where the authors explicitly mention the datasets used for evaluation. Here, they list three benchmark datasets:
+
+1. **Blender Dataset**: This dataset consists of eight 360° bounded synthetic scenes, with each scene containing 400 multi-view images. The authors follow the experimental protocol of a previous work (FlipNeRF) for their evaluations.
+
+2. **LLFF Dataset**: This dataset contains 8 real forward-facing scenes. The authors describe their evaluation protocol, which involves using every eighth image of each scene for testing and sampling a specific number of views for training.
+
+3. **DTU Dataset**: This is a large multi-view dataset consisting of 124 different scenes. The authors mention that they selected 15 scenes for their experiments and kept the training and test set splits identical to a previous work (RegNeRF).
+
+To ensure I have the correct citations for these datasets, I will check the **References section** of the paper. The citations for the datasets are as follows:
+
+- For the **Blender Dataset**, the citation is:
+  > Mildenhall, B., Srinivasan, P. P., Tancik, M., Barron, J. T., Ramamoorthi, R., and Ng, R. *NeRF: Representing scenes as neural radiance fields for view synthesis*. Communications of the ACM, 65(1):99–106, 2021.
+
+- For the **LLFF Dataset**, the citation is:
+  > Mildenhall, B., Srinivasan, P. P., Ortiz-Cayon, R., Kalantari, N. K., Ramamoorthi, R., Ng, R., and Kar, A. *Local light field fusion: Practical view synthesis with prescriptive sampling guidelines*. ACM Transactions on Graphics (TOG), 38(4):1–14, 2019.
+
+- For the **DTU Dataset**, the citation is:
+  > Jensen, R., Dahl, A., Vogiatzis, G., Tola, E., and Aanæs, H. *Large scale multi-view stereopsis evaluation*. In Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 406–413, 2014.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing. This will ensure that I have accurately captured the datasets used in the research and their corresponding references.

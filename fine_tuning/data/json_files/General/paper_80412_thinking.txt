@@ -1,0 +1,58 @@
+To extract datasets from the research paper titled "PASSCoDe: Parallel ASynchronous Stochastic dual Co-ordinate Descent" by Cho-Jui Hsieh et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to locate any references to datasets. The abstract mentions that the proposed algorithms are evaluated on several datasets, which indicates that there are datasets to be extracted.
+
+Next, I will focus on the **experiments section** where the authors typically provide details about the datasets used for evaluation. In this paper, the authors mention five datasets: **news20, covtype, rcv1, webspam, and kddb**. I will note down the specific details provided for each dataset, including the number of instances, dimensions, and any other relevant statistics.
+
+I will also check the **data statistics table** (Table 3) in the paper, which summarizes the datasets used. This table provides the following information:
+
+1. **news20**: 
+   - Number of instances (n): 16,000
+   - Number of features (d): 1,355,191
+   - Average non-zero entries per instance (¯d): 455.5
+   - Regularization parameter (C): 2
+
+2. **covtype**: 
+   - Number of instances (n): 500,000
+   - Number of features (d): 54
+   - Average non-zero entries per instance (¯d): 11.9
+   - Regularization parameter (C): 0.0625
+
+3. **rcv1**: 
+   - Number of instances (n): 677,399
+   - Number of features (d): 47,236
+   - Average non-zero entries per instance (¯d): 73.2
+   - Regularization parameter (C): 1
+
+4. **webspam**: 
+   - Number of instances (n): 280,000
+   - Number of features (d): 16,609,143
+   - Average non-zero entries per instance (¯d): 3727.7
+   - Regularization parameter (C): 1
+
+5. **kddb**: 
+   - Number of instances (n): 19,264,097
+   - Number of features (d): 29,890,095
+   - Average non-zero entries per instance (¯d): 29.4
+   - Regularization parameter (C): 1
+
+After gathering the dataset names and their respective details, I will refer to the **References section** of the paper to find the full citations for these datasets. If the datasets are well-known, I will look for their original papers or sources.
+
+For example, the citations for the datasets might look like this:
+
+- **news20**: 
+  > Lang, K. (1995). *Newsweeder: Learning to filter netnews*. In Proceedings of the 1995 International Conference on Machine Learning.
+
+- **covtype**: 
+  > Blackard, J. A., & Dean, D. J. (1999). *Comparative accuracy of artificial neural networks and discriminant analysis in predicting forest cover types*. 
+
+- **rcv1**: 
+  > Lewis, D. D., & Gale, W. A. (2000). *A sequential algorithm for training text classifiers*. 
+
+- **webspam**: 
+  > D. D. Lewis, Y. Yang, T. G. Rose, and F. Li. (2004). *Rcv1: A new benchmark collection for text categorization research*. 
+
+- **kddb**: 
+  > KDD Cup 2009. *KDD Cup 2009 Data*. 
+
+Finally, I will compile the dataset entries with their full citations into a structured format for easy reference and use in future analyses or applications.

@@ -1,0 +1,29 @@
+To extract the datasets mentioned in the research paper titled "COCOLA: Coherence-Oriented Contrastive Learning of Musical Audio Representations" by Ruben Ciranni et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors release models trained on public datasets containing separate stems, which suggests that datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4 (Experimental Setup)**, particularly **subsection 4.1 (Datasets)**, where the authors explicitly list the datasets used for training COCOLA and fine-tuning CompoNet. Here, they mention four datasets:
+
+1. **MUSDB18-HQ**: This dataset is described as the uncompressed version of the MUSDB18 dataset, containing 150 tracks divided into four stems: Bass, Drums, Vocals, and Other. It totals approximately 10 hours of professional-quality audio.
+
+2. **MoisesDB**: This dataset features 240 music tracks across various genres and artists, totaling over 14 hours of music. It includes a two-tier taxonomy of 11 distinct stems with detailed type annotations.
+
+3. **Slakh2100**: This dataset consists of 2100 tracks synthesized from the Lakh MIDI Dataset, organized into 1500 tracks for training, 375 for validation, and 225 for testing, amounting to 145 hours of audio. It is annotated into 34 stem categories.
+
+4. **CocoChorales**: This dataset contains 240,000 tracks generated through a synthesis process, extending over 1411 hours of audio data. It is richly annotated and includes a diverse range of instruments.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For **MUSDB18-HQ**:
+  > Z. Rafii, A. Liutkus, F.-R. Stöter, S. I. Mimilakis, and R. Bittner. *Musdb18-hq - an uncompressed version of musdb18*. Aug. 2019. [Online]. Available: https://doi.org/10.5281/zenodo.3338373
+
+- For **MoisesDB**:
+  > I. G. Pereira, F. Araujo, F. Korzeniowski, and R. Vogl. *Moisesdb: A dataset for source separation beyond 4 stems*. In Ismir 2023 Hybrid Conference, 2023.
+
+- For **Slakh2100**:
+  > E. Manilow, G. Wichern, P. Seetharaman, and J. Le Roux. *Cutting music source separation some Slakh: A dataset to study the impact of training data quality and quantity*. In Proc. IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA), IEEE, 2019, pp. 45–49.
+
+- For **CocoChorales**:
+  > Y. Wu, I. Simon, J. Gardner, E. Manilow, C. Hawthorne, and J. Engel. *The chamber ensemble generator: Limitless high-quality mir data via generative modeling*. arXiv preprint arXiv:2209.14458, 2022.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing or review.

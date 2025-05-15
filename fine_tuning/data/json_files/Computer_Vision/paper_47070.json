@@ -1,0 +1,76 @@
+[
+    {
+        "dcterms:creator": [
+            "T. Khare",
+            "V. Bahel",
+            "A. C. Phadke"
+        ],
+        "dcterms:description": "A dataset containing 530 PCB images used for training an object detection model to classify and detect missing components in PCBs.",
+        "dcterms:title": "DSLR dataset of 530 PCB images",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Object Detection"
+        ],
+        "dcat:keyword": [
+            "PCB images",
+            "Object detection",
+            "Component classification"
+        ],
+        "dcat:landingPage": "https://cvl.tuwien.ac.at/research/cvl-databases/pcb-dslr-dataset/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Object Detection",
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Joseph Redmon",
+            "Ali Farhadi"
+        ],
+        "dcterms:description": "A neural network model used for object detection and classification, which was utilized in the study for detecting missing components in PCBs.",
+        "dcterms:title": "YOLOv3",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Deep Learning"
+        ],
+        "dcat:keyword": [
+            "Object detection",
+            "Neural network",
+            "YOLO"
+        ],
+        "dcat:landingPage": "https://pjreddie.com/darknet/yolo/",
+        "dcterms:hasVersion": "v3",
+        "dcterms:format": "Model",
+        "mls:task": [
+            "Object Detection",
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "An open-source labeling tool used for annotating the components in PCB images for training the object detection model.",
+        "dcterms:title": "labelImg",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Annotation Tool"
+        ],
+        "dcat:keyword": [
+            "Image annotation",
+            "Labeling tool"
+        ],
+        "dcat:landingPage": "https://github.com/tzutalin/labelImg",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Software",
+        "mls:task": []
+    }
+]

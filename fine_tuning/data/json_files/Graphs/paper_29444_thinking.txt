@@ -1,0 +1,46 @@
+To extract datasets from the research paper titled "Vision-Language Pre-Training for Boosting Scene Text Detectors" by Sibo Song et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract mentions the use of vision-language joint representation learning for scene text detection, which suggests that datasets are involved. 
+
+In the **introduction**, the authors discuss the challenges of scene text detection and the importance of pre-training techniques, hinting at the datasets used for training and evaluation. I will look for specific mentions of datasets in this section.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors typically describe the datasets used for their experiments. Here, they explicitly mention the following datasets:
+
+1. **SynthText**: A large-scale dataset containing about 800,000 synthetic images used for pre-training. The authors specify that they only use text labels without bounding box annotations.
+
+2. **Total-Text**: This dataset focuses on curved text and contains 1,255 training images and 300 test images, labeled with polygon-shaped bounding boxes.
+
+3. **CTW1500**: Another dataset primarily consisting of curved text, with 1,000 training images and 500 test images, where text instances are labeled with polygons annotated by 14 vertices.
+
+4. **ICDAR2015**: Composed of 1,000 training images and 500 test images, with text annotations provided in word level with rectangular bounding boxes.
+
+5. **ICDAR2017**: A multilingual dataset that includes 7,200 training images, 1,800 validation images, and 9,000 test images.
+
+6. **MSRA-TD500**: This dataset includes 300 training images and 200 test images with line-level annotations.
+
+7. **TextOCR**: A large and diverse OCR dataset consisting of 28,134 images and 903,000 annotated words.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- **SynthText**:
+  > Ankush Gupta, Andrea Vedaldi, and Andrew Zisserman. *Synthetic data for text localisation in natural images*. In CVPR, pages 2315–2324, 2016.
+
+- **Total-Text**:
+  > Chee Kheng Ch’ng and Chee Seng Chan. *Total-text: A comprehensive dataset for scene text detection and recognition*. In 2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR), volume 1, pages 935–942. IEEE, 2017.
+
+- **CTW1500**:
+  > Liu Yuliang, Jin Lianwen, Zhang Shuaitao, and Zhang Sheng. *Detecting curve text in the wild: New dataset and new solution*. arXiv preprint arXiv:1712.02170, 2017.
+
+- **ICDAR2015**:
+  > Dimosthenis Karatzas, Lluis Gomez-Bigorda, Anguelos Nicolaou, Suman Ghosh, Andrew Bagdanov, Masakazu Iwamura, Jiri Matas, Lukas Neumann, Vijay Ramaseshan Chandrasekhar, Shijian Lu, et al. *ICDAR 2015 competition on robust reading*. In 2015 13th International Conference on Document Analysis and Recognition (ICDAR), pages 1156–1160. IEEE, 2015.
+
+- **ICDAR2017**:
+  > Nibal Nayef, Fei Yin, Imen Bizid, Hyunsoo Choi, Yuan Feng, Dimosthenis Karatzas, Zhenbo Luo, Umapada Pal, Christophe Rigaud, Joseph Chazalon, et al. *ICDAR2017 robust reading challenge on multi-lingual scene text detection and script identification-rrc-mlt*. In 2017 14th IAPR International Conference on Document Analysis and Recognition (ICDAR), volume 1, pages 1454–1459. IEEE, 2017.
+
+- **MSRA-TD500**:
+  > Cong Yao, Xiang Bai, and Wenyu Liu. *A unified framework for multioriented text detection and recognition*. IEEE Transactions on Image Processing, 23(11):4737–4749, 2014.
+
+- **TextOCR**:
+  > Amanpreet Singh, Guan Pang, Mandy Toh, Jing Huang, Wojciech Galuba, and Tal Hassner. *TextOCR: Towards large-scale end-to-end reasoning for arbitrary-shaped scene text*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 8802–8812, 2021.
+
+Now that I have gathered the datasets and their citations, I will compile this information into a structured format for further processing.

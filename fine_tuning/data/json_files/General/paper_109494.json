@@ -1,0 +1,90 @@
+[
+    {
+        "dcterms:creator": [
+            "X. Tao",
+            "X. Hong",
+            "X. Chang",
+            "S. Dong",
+            "X. Wei",
+            "Y. Gong"
+        ],
+        "dcterms:description": "The mini-ImageNet dataset contains 100 classes which contain 500 images for training and 100 images for testing in each class. It is used for incremental learning, where the 100 classes are divided into 60 base classes and 40 novel classes, further divided into 8 incremental sessions with 5 classes in each session, where each class is provided with 5 examples.",
+        "dcterms:title": "Mini-ImageNet",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Few-Shot Learning"
+        ],
+        "dcat:keyword": [
+            "Image dataset",
+            "Incremental learning",
+            "Few-shot classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S.A. Rebuffi",
+            "A. Kolesnikov",
+            "G. Sperl",
+            "C.H. Lampert"
+        ],
+        "dcterms:description": "The CUB200 dataset is commonly used for fine-grained image classification, containing 200 classes of birds. The images are resized and cropped for training. The dataset is split into 100 base classes and 100 novel classes, with the novel classes divided into 10 incremental sessions, each with 5 training examples.",
+        "dcterms:title": "CUB200",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Fine-Grained Classification"
+        ],
+        "dcat:keyword": [
+            "Bird dataset",
+            "Fine-grained classification",
+            "Incremental learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "X. Yan",
+            "Z. Chen",
+            "A. Xu",
+            "X. Wang",
+            "X. Liang",
+            "L. Lin"
+        ],
+        "dcterms:description": "The MS-COCO dataset is used for object detection and is split into 80 categories. In this study, 20 classes overlapping with Pascal VOC are used as novel classes, while the remaining 60 classes serve as base classes. The novel classes are divided into 10 or 20 incremental sessions, with limited bounding-box annotations provided for each.",
+        "dcterms:title": "MS-COCO",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Object Detection",
+            "Few-Shot Learning"
+        ],
+        "dcat:keyword": [
+            "Object detection dataset",
+            "Incremental learning",
+            "Few-shot detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Object Detection"
+        ]
+    }
+]

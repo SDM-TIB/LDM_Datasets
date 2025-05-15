@@ -1,0 +1,186 @@
+[
+    {
+        "dcterms:creator": [
+            "U. M. L. Group"
+        ],
+        "dcterms:description": "A highly imbalanced dataset consisting of 284,807 anonymized credit card transactions, with a significant imbalance ratio of 1:578, where only 0.17% of the transactions are fraudulent.",
+        "dcterms:title": "European Credit Card (ECC) dataset",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.kaggle.com/mlg-ulb/creditcardfraud",
+        "dcat:theme": [
+            "Fraud Detection",
+            "Imbalanced Data"
+        ],
+        "dcat:keyword": [
+            "Credit card fraud",
+            "Imbalanced dataset",
+            "Transaction data"
+        ],
+        "dcat:landingPage": "https://www.kaggle.com/mlg-ulb/creditcardfraud",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Fraud Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "C. Drummond",
+            "R. C. Holte"
+        ],
+        "dcterms:description": "A technique for addressing class imbalance in datasets by randomly removing instances from the majority class.",
+        "dcterms:title": "Random Under Sampling (RUS)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Under-sampling",
+            "Class imbalance"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "C. Drummond",
+            "R. C. Holte"
+        ],
+        "dcterms:description": "A technique for addressing class imbalance by randomly duplicating instances from the minority class.",
+        "dcterms:title": "Random Over Sampling (ROS)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Over-sampling",
+            "Class imbalance"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "N. V. Chawla",
+            "K. W. Bowyer",
+            "L. O. Hall",
+            "W. P. Kegelmeyer"
+        ],
+        "dcterms:description": "A technique that generates synthetic samples for the minority class to balance the dataset.",
+        "dcterms:title": "Synthetic Minority Over-Sampling Technique (SMOTE)",
+        "dcterms:issued": "2002",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Synthetic data",
+            "Over-sampling",
+            "Class imbalance"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "I. Tomek"
+        ],
+        "dcterms:description": "A technique that removes instances from the majority class that are close to instances of the minority class.",
+        "dcterms:title": "Tomek link",
+        "dcterms:issued": "1976",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Data cleaning",
+            "Class imbalance"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "P. Hart"
+        ],
+        "dcterms:description": "A technique that reduces the size of the training set by removing instances that are misclassified by their nearest neighbors.",
+        "dcterms:title": "Condensed Nearest Neighbor (CNN)",
+        "dcterms:issued": "1968",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Data reduction",
+            "Class imbalance"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "M. Kubat",
+            "S. Matwin"
+        ],
+        "dcterms:description": "A technique that selects instances from the majority class while ensuring that the minority class is represented.",
+        "dcterms:title": "One side Selection (OSS)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Data selection",
+            "Class imbalance"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "D. L. Wilson"
+        ],
+        "dcterms:description": "A technique that edits the training set by removing instances that are misclassified by their nearest neighbors.",
+        "dcterms:title": "Edited Nearest Neighbor (ENN)",
+        "dcterms:issued": "1972",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Data cleaning",
+            "Class imbalance"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "J. Laurikkala"
+        ],
+        "dcterms:description": "A technique that improves the identification of difficult small classes by balancing class distribution.",
+        "dcterms:title": "Neighborhood Cleaning Rule (NCL)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Data cleaning",
+            "Class imbalance"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

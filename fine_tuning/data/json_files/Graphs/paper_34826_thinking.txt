@@ -1,0 +1,39 @@
+To extract datasets from the research paper titled "Robust and Reliable Early-Stage Website Fingerprinting Attacks via Spatial-Temporal Distribution Analysis" by Xinhao Deng et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions that the authors evaluate their method using **six datasets**, which indicates that multiple datasets are involved. I will look for specific names or descriptions of these datasets.
+
+Next, I will carefully read through the **experiments section** (Section 6) where the authors discuss their evaluation methodology. In this section, they explicitly list the datasets used for their experiments, which include:
+
+1. **Dataset of Alexa-top websites**: This dataset includes data from both closed-world and open-world scenarios, comprising 95 monitored websites with over 1000 traces each, and over 40,000 unmonitored websites.
+
+2. **Dataset of dark web websites**: This dataset consists of 80 popular dark web websites based on measurements of Tor v3 onion services, collected from various servers in August 2023 and April 2024.
+
+3. **Dataset with WTF-PAD defense**: This dataset evaluates the effectiveness of the WTF-PAD defense against website fingerprinting attacks.
+
+4. **Dataset with Front defense**: This dataset assesses the Front defense, which utilizes padding techniques to disrupt traffic patterns.
+
+5. **Dataset with Walkie-Talkie defense**: This dataset examines the Walkie-Talkie defense, which merges original traffic with decoy traffic.
+
+6. **Dataset with TrafficSliver defense**: This dataset evaluates the TrafficSliver defense, which employs a traffic-splitting mechanism.
+
+After identifying these datasets, I will refer to the **References section** to find the full citations for each dataset. The citations may not always be explicitly listed for datasets, but I will look for any relevant papers or sources mentioned in the context of the datasets.
+
+For the **Alexa-top websites dataset**, the citation is:
+> [39] Payap Sirinam, Mohsen Imani, Marc Juarez, and Matthew Wright. *Deep fingerprinting: Undermining website fingerprinting defenses with deep learning*. In Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security, pages 1928–1943, 2018.
+
+For the **dark web websites dataset**, the citation is:
+> [41] Chunmian Wang, Junzhou Luo, Zhen Ling, Lan Luo, and Xinwen Fu. *A comprehensive and long-term evaluation of tor v3 onion services*. In Proceedings of the 42nd IEEE International Conference on Computer Communications (INFOCOM), 2023.
+
+For the **WTF-PAD defense dataset**, the citation is:
+> [23] Marc Juárez, Mohsen Imani, Mike Perry, Claudia Dıaz, and Matthew Wright. *WTF-PAD: toward an efficient website fingerprinting defense for tor*. CoRR, abs/1512.00524, 2015.
+
+For the **Front defense dataset**, the citation is:
+> [16] Jiajun Gong and Tao Wang. *Zero-delay lightweight defenses against website fingerprinting*. In 29th USENIX Security Symposium, pages 717–734, 2020.
+
+For the **Walkie-Talkie defense dataset**, the citation is:
+> [44] Tao Wang and Ian Goldberg. *Walkie-talkie: An efficient defense against passive website fingerprinting attacks*. In 26th USENIX Security Symposium, pages 1375–1390, 2017.
+
+For the **TrafficSliver defense dataset**, the citation is:
+> [8] Wladimir De la Cadena et al. *Trafficsliver: Fighting website fingerprinting attacks with traffic splitting*. In Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security, pages 1971–1985, 2020.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

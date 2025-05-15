@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "DiffusionMTL: Learning Multi-Task Denoising Diffusion Model from Partially Annotated Data" by Hanrong Ye and Dan Xu, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on **three challenging multi-task benchmarks**, which suggests that datasets are involved.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors explicitly mention the datasets used for evaluation. They state that they conducted experiments on three prevalent multi-task datasets with dense annotations: **PASCAL**, **NYUD**, and **Cityscapes**. This is a clear indication that these datasets are central to their research.
+
+In this section, the authors provide details about each dataset:
+
+1. **PASCAL**: Described as a comprehensive dataset providing images of both indoor and outdoor scenes, with 4,998 training images and 5,105 testing images. It includes labels for semantic segmentation, human parsing, and object boundary detection, along with pseudo labels for surface normals estimation and saliency detection.
+
+2. **NYUD**: This dataset provides images of indoor scenes with dense annotations for 13-class semantic segmentation and depth estimation. The training set contains 795 images, while the testing set contains 654 images.
+
+3. **Cityscapes**: This dataset captures street scenes of different cities with fine pixel-level annotations. It includes 2,975 training images and 500 validation images, focusing on 7-class semantic segmentation and monocular depth estimation tasks.
+
+Now, I will check the **References section** to retrieve the full citations for these datasets:
+
+- For **PASCAL**, the citation is:
+  > Mark Everingham, Luc Van Gool, Christopher KI Williams, John Winn, and Andrew Zisserman. *The PASCAL Visual Object Classes (VOC) Challenge*. In International Journal of Computer Vision (IJCV), 111:98–136, 2010.
+
+- For **NYUD**, the citation is:
+  > Nathan Silberman, Derek Hoiem, Pushmeet Kohli, and Rob Fergus. *Indoor Segmentation and Support Inference from RGBD Images*. In European Conference on Computer Vision (ECCV), 2012.
+
+- For **Cityscapes**, the citation is:
+  > Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele. *The Cityscapes Dataset for Semantic Urban Scene Understanding*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

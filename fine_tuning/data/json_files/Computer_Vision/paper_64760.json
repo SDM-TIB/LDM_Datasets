@@ -1,0 +1,109 @@
+[
+    {
+        "dcterms:creator": [
+            "O. Bernard",
+            "A. Lalande",
+            "C. Zotti",
+            "F. Cervenansky",
+            "X. Yang",
+            "P.-A. Heng",
+            "I. Cetin",
+            "K. Lekadir",
+            "O. Camara",
+            "M. A. G. Ballester"
+        ],
+        "dcterms:description": "The ACDC dataset comprises 100 cine MRI scans (1,902 slices) used for cardiac multi-structures segmentation and diagnosis.",
+        "dcterms:title": "ACDC",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Cardiology"
+        ],
+        "dcat:keyword": [
+            "MRI",
+            "Cardiac Segmentation",
+            "Deep Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Segmentation",
+            "Diagnosis"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "T. Mansi",
+            "K. Mcleod",
+            "M. Pop",
+            "K. S. Rhode",
+            "M. Sermesant",
+            "A. A. Young"
+        ],
+        "dcterms:description": "The LiVScar dataset contains 30 images (200 slices) used for statistical atlases and computational models of the heart.",
+        "dcterms:title": "LiVScar",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Cardiology"
+        ],
+        "dcat:keyword": [
+            "LGE",
+            "Cardiac Imaging",
+            "Segmentation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Segmentation",
+            "Modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A private dataset consisting of 277 unlabeled DTI images and 271 labeled LGE images, used for training and assessment of the proposed models.",
+        "dcterms:title": "Private Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "DTI",
+            "LGE",
+            "Myocardium Infarction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Segmentation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A hybrid dataset constructed from ACDC and LiVScar datasets, used for self-supervised learning pre-training.",
+        "dcterms:title": "Hybrid LGE Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Hybrid Dataset",
+            "LGE",
+            "Self-Supervised Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Pre-training",
+            "Segmentation"
+        ]
+    }
+]

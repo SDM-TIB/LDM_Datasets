@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Speech Enhancement Based on CycleGAN with Noise-informed Training" by Wen-Yuan Ting et al., I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets mentioned. The abstract provides a brief overview of the study, but I need to look for specific datasets used in the experiments.
+
+In the **introduction**, the authors discuss the challenges of speech enhancement and the need for various types of training data. However, they do not explicitly mention any datasets here.
+
+Next, I will focus on the **experiments section**. In **section 4.1 (Experimental setup)**, the authors mention using the **Taiwan Mandarin Hearing in Noise Test dataset**. This dataset contains 2,560 clean speech utterances recorded at a 16-kHz sampling rate. The authors also describe how they prepared two training sets, **Cat-L** and **Cat-S**, from these utterances, which are crucial for understanding the datasets used in their experiments.
+
+1. **Taiwan Mandarin Hearing in Noise Test dataset**: This dataset is used for training and contains 2,560 clean speech utterances. The citation for this dataset is:
+   > M.-W. Huang, “Development of Taiwan Mandarin hearing in noise test,” Master thesis, Department of speech language pathology and audiology, National Taipei University of Nursing and Health science, 2005.
+
+2. **Cat-L training set**: This is a subset of the Taiwan Mandarin dataset, consisting of 1,194 clean utterances contaminated by five different noise types at various signal-to-noise ratios (SNRs). The authors do not provide a formal citation for this specific training set, as it is derived from the Taiwan Mandarin dataset.
+
+3. **Cat-S training set**: Another subset of the Taiwan Mandarin dataset, which is created by splitting the clean utterances into two parts and generating noisy utterances from one part. Similar to Cat-L, there is no formal citation for this training set, as it is also derived from the Taiwan Mandarin dataset.
+
+Additionally, the authors mention using noise sources collected from the **DEMAND dataset** for generating noisy utterances. The citation for this dataset is:
+   > J. Thiemann, N. Ito, and E. Vincent, “Demand: a collection of multi-channel recordings of acoustic noise in diverse environments,” in Proc. Meetings Acoust, 2013, pp. 1–6.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing. This includes noting that while Cat-L and Cat-S are derived from the Taiwan Mandarin dataset, they do not have separate citations since they are not standalone datasets but rather subsets created for the study.

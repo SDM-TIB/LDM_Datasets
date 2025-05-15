@@ -1,0 +1,50 @@
+To extract datasets from the research paper titled "Neural Bellman-Ford Networks: A General Graph Neural Network Framework for Link Prediction" by Zhaocheng Zhu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research and may mention specific datasets used for evaluation. 
+
+In the **introduction**, I will look for any references to datasets that the authors used to validate their proposed method. This section often highlights the significance of the datasets in the context of the research.
+
+Next, I will focus on the **experiments section**, which typically contains detailed information about the datasets used for training and testing the models. Here, I will look for specific dataset names, descriptions, and any relevant statistics that the authors provide.
+
+Upon reviewing the paper, I find that the authors mention several datasets:
+
+1. **FB15k-237**: This dataset is used for knowledge graph completion. It contains 14,541 entities, 237 relations, and a total of 272,115 training triplets, with 17,535 validation triplets and 20,466 test triplets.
+
+2. **WN18RR**: Another dataset for knowledge graph completion, it includes 40,943 entities, 11 relations, and 86,835 training triplets, with 3,034 validation triplets and 3,134 test triplets.
+
+3. **Cora**: This dataset is used for homogeneous graph link prediction, consisting of 2,708 nodes, 4,614 training edges, 271 validation edges, and 544 test edges.
+
+4. **CiteSeer**: Similar to Cora, this dataset has 3,327 nodes, 4,022 training edges, 236 validation edges, and 474 test edges.
+
+5. **PubMed**: This dataset also pertains to homogeneous graph link prediction, containing 19,717 nodes, 37,687 training edges, 2,216 validation edges, and 4,435 test edges.
+
+6. **ogbl-biokg**: A large biomedical knowledge graph with 93,773 entities, 51 relations, and 5,088,434 triplets, used in the OGB challenge.
+
+7. **WikiKG90M**: An extremely large dataset with 87,143,637 entities, 1,315 relations, and 504,220,369 triplets, also used in the OGB challenge.
+
+Next, I will check the **References section** to find the full citations for these datasets. The citations may not always be provided directly in the paper, but I can look for the original papers or sources that introduced these datasets.
+
+For example, the citations for the datasets might look like this:
+
+- **FB15k-237**: 
+  > Toutanova, K., & Chen, D. (2015). Observed versus latent features for knowledge base and text inference. In Proceedings of the 3rd workshop on continuous vector space models and their compositionality (pp. 57-66).
+
+- **WN18RR**: 
+  > Dettmers, T., Minervini, P., Stenetorp, P., & Riedel, S. (2018). Convolutional 2D knowledge graph embeddings. In Proceedings of the AAAI Conference on Artificial Intelligence, 32.
+
+- **Cora**: 
+  > Sen, P., Namata, G. E., Bilgic, M., Getoor, L., Galligher, B., & Eliassi-Rad, T. (2008). Collective classification in network data. AI Magazine, 29(3), 93-93.
+
+- **CiteSeer**: 
+  > Sen, P., Namata, G. E., Bilgic, M., Getoor, L., Galligher, B., & Eliassi-Rad, T. (2008). Collective classification in network data. AI Magazine, 29(3), 93-93.
+
+- **PubMed**: 
+  > Sen, P., Namata, G. E., Bilgic, M., Getoor, L., Galligher, B., & Eliassi-Rad, T. (2008). Collective classification in network data. AI Magazine, 29(3), 93-93.
+
+- **ogbl-biokg**: 
+  > Hu, W., Fey, W., Ren, H., Nakata, M., Dong, Y., & Leskovec, J. (2021). OGB-LSC: A large-scale challenge for machine learning on graphs. arXiv preprint arXiv:2103.09430.
+
+- **WikiKG90M**: 
+  > Hu, W., Fey, W., Ren, H., Nakata, M., Dong, Y., & Leskovec, J. (2021). OGB-LSC: A large-scale challenge for machine learning on graphs. arXiv preprint arXiv:2103.09430.
+
+After gathering all this information, I will compile the dataset entries with their respective citations into a structured format for further use.

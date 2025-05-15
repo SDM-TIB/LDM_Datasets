@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "RoomDesigner: Encoding Anchor-latents for Style-consistent and Shape-compatible Indoor Scene Generation" by Yiqun Zhao et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract mentions that experimental results were demonstrated on the **3D-Front dataset**, which indicates that this dataset is likely important for the research.
+
+Next, I will look closely at **section 4 (Experiments)**, where the authors discuss the datasets used for their experiments. Here, they explicitly mention the **3D-Front dataset** and provide details about its composition. They state that it is a synthetic dataset composed of **6,813 houses with 14,629 rooms**, arranged with furniture from the **3D-Future dataset**. They also specify that they filtered the dataset to include **4,041 bedrooms, 900 dining rooms, and 813 living rooms**.
+
+In addition, the authors mention the **3D-Future dataset**, which consists of **16,565 3D objects** used for shape autoencoder training. They note that they selected **9,495 3D data** from this dataset for their experiments.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+1. For the **3D-Front dataset**, the citation is:
+   > Huan Fu, Bowen Cai, Lin Gao, Ling-Xiao Zhang, Jiaming Wang, Cao Li, Qixun Zeng, Chengyue Sun, Rongfei Jia, Binqiang Zhao, et al. *3D-FRONT: 3D Furnished Rooms with Layouts and Semantics*. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 10933–10942, 2021.
+
+2. For the **3D-Future dataset**, the citation is:
+   > Huan Fu, Rongfei Jia, Lin Gao, Mingming Gong, Binqiang Zhao, Steve Maybank, and Dacheng Tao. *3D-FUTURE: 3D Furniture Shape with Texture*. International Journal of Computer Vision, pages 1–25, 2021.
+
+After gathering this information, I will summarize the datasets as follows:
+
+- **3D-Front Dataset**: A large-scale synthetic dataset containing 6,813 houses and 14,629 rooms, used for indoor scene generation.
+- **3D-Future Dataset**: A dataset comprising 16,565 3D objects used for training shape autoencoders.
+
+Finally, I will compile the dataset entries into a structured format for further processing or review.

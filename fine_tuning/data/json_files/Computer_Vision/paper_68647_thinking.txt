@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Quantum Denoising Diffusion Models" by Michael Kölle et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reading through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors benchmark their models using **MNIST digits, Fashion MNIST, and CIFAR-10**, which suggests these are the datasets of interest.
+
+Next, I will focus on the **experimental setup section (Section 4)**, particularly **subsection 4.1 (Datasets)**, where the authors explicitly list the datasets used for evaluation. Here, they mention:
+
+1. **MNIST digits**: This dataset consists of 28 × 28 pixel grayscale images of handwritten digits (0-9). The authors also note that they utilize downscaled (8×8) and upscaled (32×32) versions for specific experiments.
+
+2. **Fashion MNIST**: This dataset contains images of clothing items, also sized at 28 × 28 pixels. The authors highlight the challenges posed by this dataset due to its intra-class and inter-class variations.
+
+3. **CIFAR-10**: The authors mention using a grayscale version of this dataset, which consists of 32 × 32 pixel images across 10 classes. They note that they created this grayscale version by averaging the RGB channels.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For **MNIST**, the citation is:
+  > Li Deng. *The MNIST database of handwritten digit images for machine learning research*. IEEE Signal Processing Magazine, 29(6):141–142, 2012.
+
+- For **Fashion MNIST**, the citation is:
+  > Han Xiao, Kashif Rasul, and Roland Vollgraf. *Fashion-MNIST: a novel image dataset for benchmarking machine learning algorithms*. 2017.
+
+- For **CIFAR-10**, the citation is:
+  > Alex Krizhevsky. *Learning multiple layers of features from tiny images*. University of Toronto, 2012.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+1. **MNIST digits**: A dataset of handwritten digits, consisting of 28 × 28 pixel grayscale images. Variants include downscaled (8×8) and upscaled (32×32) versions.
+   - Citation: Li Deng. *The MNIST database of handwritten digit images for machine learning research*. IEEE Signal Processing Magazine, 29(6):141–142, 2012.
+
+2. **Fashion MNIST**: A dataset containing images of clothing items, sized at 28 × 28 pixels, designed to serve as a more challenging alternative to MNIST.
+   - Citation: Han Xiao, Kashif Rasul, and Roland Vollgraf. *Fashion-MNIST: a novel image dataset for benchmarking machine learning algorithms*. 2017.
+
+3. **CIFAR-10**: A dataset of 32 × 32 pixel images across 10 classes, with a grayscale version created by averaging RGB channels.
+   - Citation: Alex Krizhevsky. *Learning multiple layers of features from tiny images*. University of Toronto, 2012.
+
+Finally, I will compile this information into a structured format for further processing or review.

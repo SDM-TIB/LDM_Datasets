@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "ActMAD: Activation Matching to Align Distributions for Test-Time-Training" by Muhammad Jehanzeb Mirza et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental evaluation sections** to identify any datasets mentioned. The abstract indicates that the authors evaluated their method on **CIFAR-100C and ImageNet-C**, which suggests that these datasets are relevant.
+
+Next, I will focus on **section 4.1 (Datasets)**, where the authors explicitly list the datasets used in their experiments. Here, they mention:
+
+1. **CIFAR-10C**: This dataset is created by corrupting test images from the CIFAR-10 dataset. It is used to benchmark the performance of ActMAD in image classification and for ablation studies. The authors specify that they used 15 corruption types and 5 corruption levels.
+
+2. **CIFAR-100C**: Similar to CIFAR-10C, this dataset is derived from the CIFAR-100 dataset and is used for benchmarking. The same corruption types and levels are applied.
+
+3. **ImageNet-C**: This dataset contains test images from ImageNet that have been corrupted in the same manner as CIFAR-10/100C. It is used for large-scale classification experiments.
+
+4. **KITTI Dataset**: This dataset is utilized to evaluate the performance of ActMAD on object detection for automotive applications. The authors mention that the KITTI dataset contains 8 classes of traffic participants and was recorded mostly in clear weather. They also describe how they simulated degrading weather conditions using physics-based rendering.
+
+After identifying these datasets, I will look into the **References section** to find the full citations for each dataset:
+
+- For **CIFAR-10** and **CIFAR-100**, the citations are:
+  > Alex Krizhevsky and Geoffrey Hinton. *Learning Multiple Layers of Features from Tiny Images*. Technical report, Department of Computer Science, University of Toronto, 2009.
+
+- For **ImageNet**, the citation is:
+  > Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. *Imagenet: A Large-scale Hierarchical Image Database*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009.
+
+- For **KITTI**, the citation is:
+  > Andreas Geiger, Philip Lenz, Christoph Stiller, and Raquel Urtasun. *Vision meets Robotics: The KITTI Dataset*. In Proceedings of the IEEE International Conference on Robotics and Automation (ICRA), 2013.
+
+Now, I will compile the dataset entries with their respective citations into a structured format for further processing.

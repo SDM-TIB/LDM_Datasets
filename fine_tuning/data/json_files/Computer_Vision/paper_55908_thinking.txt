@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Image-Based Detection of Modifications in PCBs with Deep Convolutional Autoencoders" by Diulhio Candido de Oliveira et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors have built a dataset for their experiments, which is a good starting point.
+
+Next, I will focus on the **introduction** where the authors discuss the challenges of detecting anomalies in PCBs and mention the need for a representative dataset. They also refer to a dataset that they will make publicly available, which suggests that it is a key part of their research.
+
+In the **experiments section**, specifically **section 4.1**, the authors describe the dataset they created, named the **MPI-PCB Dataset**. This dataset consists of 1742 images of an unmodified gas pump PCB and 55 images showing modifications, along with corresponding segmentation masks. This section provides detailed information about the dataset, including its purpose and the conditions under which the images were captured.
+
+I will also check the **references section** to find full citations for any datasets mentioned. The authors reference the MVTec-AD dataset, which is a well-known dataset for anomaly detection. The citation for this dataset is:
+- Bergmann, P., Fauser, M., Sattlegger, D., & Steger, C. (2019). Mvtec ad–a comprehensive real-world dataset for unsupervised anomaly detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 9592–9600.
+
+For the MPI-PCB dataset, since it is created by the authors, I will note that it is publicly available but does not have a formal citation in the references section. However, I can provide the details as follows:
+- MPI-PCB Dataset: Contains 1742 images of an unmodified gas pump PCB and 55 images with modifications, along with segmentation masks. The dataset is publicly available at: https://github.com/Diulhio/pcb_anomaly/tree/main/dataset.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for the datasets identified.
+
+1. **MPI-PCB Dataset**: 
+   - Description: Contains 1742 images of an unmodified gas pump PCB and 55 images with modifications, along with segmentation masks.
+   - Citation: Available at: https://github.com/Diulhio/pcb_anomaly/tree/main/dataset.
+
+2. **MVTec-AD Dataset**: 
+   - Description: A comprehensive dataset for unsupervised anomaly detection containing 5354 images with 70 types of anomalies across 15 kinds of objects.
+   - Citation: Bergmann, P., Fauser, M., Sattlegger, D., & Steger, C. (2019). Mvtec ad–a comprehensive real-world dataset for unsupervised anomaly detection. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 9592–9600.
+
+After gathering all this information, I will prepare the dataset entries for further processing or review.

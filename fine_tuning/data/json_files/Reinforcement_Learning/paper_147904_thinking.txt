@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Asynchronous Episodic Deep Deterministic Policy Gradient: Towards Continuous Control in Computationally Complex Environments" by Zhizheng Zhang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract highlights that the proposed method, AE-DDPG, is evaluated on a specific task, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** where the authors describe the environments used for evaluation. In this section, they mention the **Learning to Run (L2R) environment** and **MuJoCo environments**. I will look for specific details about these environments to understand their structure and purpose.
+
+1. **Learning to Run (L2R) Environment**: This environment is implemented in OpenSim and is designed for controlling a musculoskeletal model to navigate an obstacle course. The authors provide details about the action vector and observation vector, which are crucial for understanding the dataset's structure.
+
+2. **MuJoCo Environments**: The paper mentions six continuous control tasks from the MuJoCo physics engine, specifically: Ant-v2, HalfCheetah-v2, Hopper-v2, Humanoid-v2, Swimmer-v2, and Walker2d-v2. Each of these tasks involves controlling different robotic models to perform specific actions.
+
+Now, I will check the **References section** to find full citations for the datasets or environments mentioned:
+
+- For the **Learning to Run Challenge**, the citation is:
+  > Kidziski, U., Prasanna Mohanty, S., Ong, C. F., Huang, Z., Zhou, S., Pechenko, A., Stelmaszczyk, A., Jarosik, P., Pavlov, M., Kolesnikov, S., Plis, S., Chen, Z., Zhang, Z., Chen, J., Shi, Z., Zheng, C., Yuan, Z., Lin, H., Michalewski, H., & Delp, S. (2018). Learning to Run Challenge Solutions: Adapting Reinforcement Learning Methods for Neuromusculoskeletal Environments. In Proceedings of the Learning to Run Challenge, pp. 121–153.
+
+- For the **MuJoCo environments**, the citation is:
+  > Todorov, E., Erez, T., & Tassa, Y. (2012). MuJoCo: A physics engine for model-based control. In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 5026–5033.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the names, descriptions, and full citations for each dataset. This will ensure that all relevant details are captured accurately for further processing or review.

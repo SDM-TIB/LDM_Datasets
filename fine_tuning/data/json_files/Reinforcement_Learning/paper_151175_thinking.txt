@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "CARFF: Conditional Auto-encoded Radiance Field for 3D Scene Forecasting" by Jiezhi “Stephen” Yang et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract discusses the use of a method for predicting future 3D scenes and mentions the CARLA driving simulator, which suggests that datasets related to driving scenarios may be involved.
+
+Next, I will focus on the **data generation section (4.1)**, where the authors explicitly describe the datasets used in their experiments. Here, they mention two datasets:
+
+1. **Blender Synthetic Dataset**: This dataset consists of a stationary blue cube (ego) and a red cylinder (actor) that may or may not be present. It is designed for simple, controllable simulations to evaluate the model.
+
+2. **CARLA Dataset**: This dataset is generated using the CARLA driving simulator and includes various scenarios involving state uncertainty. The authors describe multiple specific scenarios within this dataset:
+   - **Single-Scene Approaching Intersection**: Involves an ego vehicle at a T-intersection with an actor vehicle.
+   - **Multi-Scene Approaching Intersection**: A more complex scenario with probabilistic existence of the actor vehicle.
+   - **Multi-Scene Multi-actor Two Lane Merge**: Involves multiple actors at an intersection with partial occlusions.
+
+After identifying these datasets, I will check the **References section** for full citations. The CARLA dataset is referenced as follows:
+
+- For the **CARLA dataset**, the citation is:
+  > Alexey Dosovitskiy, German Ros, Felipe Codevilla, Antonio Lopez, and Vladlen Koltun. *CARLA: An open urban driving simulator*. In Conf. on Robol Learning, pages 1–16, 2017.
+
+The Blender dataset does not have a specific citation provided in the paper, as it is likely a synthetic dataset created by the authors for their experiments.
+
+Now, I will compile the dataset entries, ensuring to include the full citation for the CARLA dataset and a note about the Blender dataset being synthetic without a formal citation.
+
+Finally, I will prepare the dataset entries in a structured format for further processing or review.

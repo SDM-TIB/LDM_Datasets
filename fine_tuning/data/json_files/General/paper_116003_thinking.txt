@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Attentive Symmetric Autoencoder for Brain MRI Segmentation" by Junjia Huang et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on "three brain MRI segmentation benchmarks," which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on the **methodology** and **experiments** sections, particularly looking for a section explicitly labeled as "Datasets." In the **experiments section**, the authors mention using T1 MRI from two public datasets for pre-training their model:
+
+1. **Alzheimer’s Disease Neuroimaging Initiative (ADNI)**: This dataset includes 9,952 cases of T1 MRI images. The authors mention that they converted the data into Brain Imaging Data Structure (BIDS) format and processed it accordingly.
+
+2. **Open Access Series of Imaging Studies (OASIS)**: This dataset consists of 2,041 cases of T1 MRI images, also processed into BIDS format.
+
+For the downstream tasks, the authors specify three additional datasets:
+
+3. **Brain Tumor Segmentation (BraTS) 2021**: This dataset contains 1,251 subjects, each with four aligned MRI modalities (T1, T1Gd, T2, and T2-FLAIR). The authors provide details about the annotations for tumor regions.
+
+4. **Internet Brain Segmentation Repository (IBSR)**: This dataset includes 18 T1-weighted MRI volumes from healthy individuals, with specific training and testing splits mentioned.
+
+5. **White Matter Hyperintensities (WMH)**: This dataset consists of 60 T1 images with pixel-level labels for White Matter Hyperintensities, with a specified training/testing split.
+
+Now, I will check the **References section** to gather the full citations for each dataset:
+
+- For the **ADNI dataset**, the citation is:
+  > Jack Jr, C.R., Bernstein, M.A., Fox, N.C., Thompson, P., Alexander, G., Harvey, D., Borowski, B., Britson, P.J., Whitwell, L., Ward, C., et al. "The Alzheimer’s Disease Neuroimaging Initiative (ADNI): MRI methods." *Journal of Magnetic Resonance Imaging* 27(4), 685–691, 2008.
+
+- For the **OASIS dataset**, the citation is:
+  > LaMontagne, P.J., Benzinger, T.L., Morris, J.C., Keefe, S., Hornbeck, R., Xiong, C., Grant, E., Hassenstab, J., Moulder, K., Vlassenko, A.G., et al. "OASIS-3: longitudinal neuroimaging, clinical, and cognitive dataset for normal aging and Alzheimer disease." *MedRxiv*, 2019.
+
+- For the **BraTS 2021 dataset**, the citation is:
+  > Menze, B.H., Jakab, A., Bauer, S., Kalpathy-Cramer, J., Farahani, K., Kirby, J., Burren, Y., Porz, N., Slotboom, J., Wiest, R., et al. "The multimodal brain tumor image segmentation benchmark (BraTS)." *IEEE Transactions on Medical Imaging* 34(10), 1993–2024, 2014.
+
+- For the **IBSR dataset**, the citation is:
+  > Rohlfing, T., Brandt, R., Menzel, R., Maurer Jr, C.R. "Evaluation of atlas selection strategies for atlas-based image segmentation with application to confocal microscopy images of bee brains." *NeuroImage* 21(4), 1428–1442, 2004.
+
+- For the **WMH dataset**, the citation is:
+  > Kuijf, H.J., Biesbroek, J.M., De Bresser, J., Heinen, R., Andermatt, S., Bento, M., Berseth, M., Belyaev, M., Cardoso, M.J., Casamitjana, A., et al. "Standardized assessment of automatic segmentation of white matter hyperintensities and results of the WMH segmentation challenge." *IEEE Transactions on Medical Imaging* 38(11), 2556–2568, 2019.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

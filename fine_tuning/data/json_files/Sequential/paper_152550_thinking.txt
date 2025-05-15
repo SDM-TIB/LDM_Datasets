@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Predicting Blood Glucose with an LSTM and Bi-LSTM Based Deep Neural Network" by Qingnan Sun et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and datasets sections** to identify any datasets mentioned. The abstract indicates that the method was trained and tested on **26 datasets from 20 real patients**, which suggests that there are specific datasets to extract.
+
+Next, I will focus on the **Methodology section**, particularly the **Datasets and Evaluation Criteria** subsection. Here, the authors describe the datasets used in their study. They mention two main sources of data:
+
+1. **Real Patient Datasets**: The datasets are derived from a pilot prospective randomized controlled crossover study (NCT02546063) involving 20 adults with Type 1 Diabetes (T1D). The paper states that these datasets contain CGM measurements taken every 5 minutes, resulting in a total of 26 sub-datasets, each with a minimum length of 1500 measurements.
+
+2. **In Silico Trials**: The authors also used data from the FDA-accepted UVa/Padova T1D Simulator, which established 38-day in silico clinical trials for 11 virtual adult subjects. This data was used for pre-training the model.
+
+In the **References section**, I will look for full citations related to the datasets mentioned. The paper cites the study from which the real patient datasets were derived:
+
+- For the **GoCARB study**, the citation is:
+  > Lia, B., et al. "Carbohydrate Estimation Supported by the GoCARB system in Individuals With Type 1 Diabetes: A Randomized Prospective Pilot Study." *Diabetes Care*, vol. 40, no. 2, pp. e6–e7, 2017.
+
+- For the **FDA-accepted UVa/Padova T1D Simulator**, the paper does not provide a specific citation, but I can note that it is a recognized simulator in diabetes research.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for the datasets as required. 
+
+After gathering all this information, I will prepare the dataset entries for structured output, ensuring clarity and completeness for future reference or processing.

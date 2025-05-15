@@ -1,0 +1,40 @@
+To extract datasets from the research paper titled "Monocular Expressive Body Regression through Body-Driven Attention" by Vasileios Choutas et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors curated a dataset of SMPL-X fits on in-the-wild images, which suggests that there is a primary dataset involved.
+
+Next, I will focus on the **Methods section**, particularly the subsection titled **Datasets**. Here, the authors provide detailed information about the datasets they used:
+
+1. **Curated SMPL-X Dataset**: This dataset consists of 32,617 pairs of images and SMPL-X parameters, created by fitting SMPL-X to images from several standard in-the-wild body datasets (LSP, LSP extended, and MPII). The authors mention that human annotators verified the plausibility of the body meshes.
+
+2. **H3.6M Dataset**: This dataset is used for additional 3D supervision for the body. It is a well-known dataset in the field of human pose estimation.
+
+3. **FreiHAND Dataset**: This dataset contains multi-view RGB hand data with 3D MANO hand pose and shape annotations, which is used for evaluating the hand sub-network predictions.
+
+4. **FFHQ Dataset**: This dataset is used to create a pseudo ground-truth face dataset by running RingNet on it, which provides facial landmark fitting.
+
+5. **Stirling/ESRC 3D Dataset**: This dataset consists of facial RGB images with ground-truth 3D face scans, used to evaluate the face sub-network.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **LSP Dataset**:
+  > Johnson, S., & Everingham, M. (2010). Clustered pose and nonlinear appearance models for human pose estimation. In Proceedings of the British Machine Vision Conference (BMVC). 
+
+- For the **LSP Extended Dataset**:
+  > Johnson, S., & Everingham, M. (2011). Learning effective human pose estimation from inaccurate annotation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
+
+- For the **MPII Dataset**:
+  > Andriluka, M., Pishchulin, L., Gehler, P., & Schiele, B. (2014). 2D human pose estimation: New benchmark and state of the art analysis. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
+
+- For the **H3.6M Dataset**:
+  > Ionescu, C., Papava, D., Olaru, V., & Sminchisescu, C. (2014). Human3.6M: Large scale datasets and predictive methods for 3D human sensing in natural environments. IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI).
+
+- For the **FreiHAND Dataset**:
+  > Zimmermann, C., Ceylan, D., Yang, J., Russell, B., Argus, M., & Brox, T. (2019). FreiHAND: A dataset for markerless capture of hand pose and shape from single RGB images. In Proceedings of the IEEE International Conference on Computer Vision (ICCV).
+
+- For the **FFHQ Dataset**:
+  > Karras, T., Laine, S., & Aila, T. (2019). A style-based generator architecture for generative adversarial networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
+
+- For the **Stirling/ESRC 3D Dataset**:
+  > Feng, Z.H., Huber, P., Kittler, J., Hancock, P., Wu, X.J., Zhao, Q., Koppen, P., & Ratsch, M. (2018). Evaluation of dense 3D reconstruction from 2D face images in the wild. In International Conference on Automatic Face & Gesture Recognition (FG).
+
+After gathering all this information, I will compile the dataset entries with their full citations, ensuring that each dataset is accurately represented and attributed. This structured approach will help maintain clarity and thoroughness in the extraction process.

@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Predicting Bandwidth Utilization on Network Links Using Machine Learning" by Maxime Labonne et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that a simulated network was created to collect data related to network performance, which suggests that there is a dataset involved.
+
+Next, I will focus on **section III (Data Generation Using a Simulated Network)**, where the authors describe the process of creating a testbed network to collect data. They mention that the simulation generated around **2 million samples (12 GB)** for all monitored interfaces, which indicates a substantial dataset. However, I need to look for specific details about how this dataset is structured and any additional datasets that may be referenced.
+
+In **section IV (Preprocessing Stage)**, the authors discuss the tools used for data collection, specifically **Netmate** and **Dstat**. They mention that Netmate collects 46 features for every active flow, while Dstat collects 29 features. This suggests that the data collected from these tools form the basis of the dataset used for training the machine learning models.
+
+I will also check the **References section** to find citations for the tools and datasets mentioned. The authors reference Netmate and Dstat, which are crucial for understanding the dataset's origin. 
+
+The relevant citations I will extract are:
+
+- For **Netmate**:
+  > C. Zander, S. Schmoll, and others. *Netmate: Network Measuring and Accounting Meter*. [Online]. Available: https://github.com/DanielArndt/netmate-flowcalc
+
+- For **Dstat**:
+  > “dstat(1) - Linux man page.” [Online]. Available: https://linux.die.net/man/1/dstat
+
+Additionally, I will note that the dataset created from the simulation is not attributed to a specific external source but is generated from the authors' own simulated network environment.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for each dataset and tool used in the data collection process. This will provide a comprehensive overview of the datasets utilized in the research.

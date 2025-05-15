@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Pre-Training Representations of Binary Code Using Contrastive Learning" by Yifan Zhang et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experimental design sections** of the paper. The abstract mentions that the authors evaluate their method through four downstream tasks related to binary code, which suggests that datasets are involved.
+
+Next, I will look for specific mentions of datasets in the **introduction**. The authors discuss the importance of binary code analysis and mention that they utilize various datasets for their experiments. This indicates that I should pay close attention to any dataset names that follow.
+
+In the **experimental design section**, the authors detail the datasets used for each of the four downstream tasks. I will extract the following datasets:
+
+1. **AnghaBench**: This dataset is used for training the model and consists of 1 million single-function C files extracted from popular GitHub repositories. The citation for this dataset is:
+   > Da Silva, A. F., Kind, B. C., Magalhães, J. W. de S., Rocha, J. N., Guimarães, B. C. F., & Pereira, F. M. Q. (2021). AnghaBench: A suite with one million compilable C benchmarks for code-size reduction. In 2021 IEEE/ACM International Symposium on Code Generation and Optimization (CGO) (pp. 378-390). IEEE.
+
+2. **POJ-104**: This dataset is used for the binary functional algorithm classification task and includes programming problems with verified source code solutions. The citation for this dataset is:
+   > Lu, S., Guo, D., Ren, S., Huang, J., Svyatkovskiy, A., Blanco, A., Clement, C., Drain, D., Jiang, D., Tang, D., et al. (2021). CodeXGLUE: A machine learning benchmark dataset for code understanding and generation. arXiv preprint arXiv:2102.04664.
+
+3. **DIRT**: This dataset is used for the binary function name recovery task and contains around 1 million functions mined from public GitHub repositories. The citation for this dataset is:
+   > Lacomis, J., Yin, P., Schwartz, E., Allamanis, M., Le Goues, C., Neubig, G., & Vasilescu, B. (2019). DIRE: A neural approach to decompiled identifier naming. In 2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE) (pp. 628-639). IEEE.
+
+4. **AnghaBench (for summarization and reverse engineering)**: The authors also use the AnghaBench dataset for the binary code summarization and reverse engineering tasks, which is the same dataset mentioned earlier.
+
+After identifying these datasets, I will ensure to note their full citations as they are crucial for proper referencing.
+
+Finally, I will compile the dataset entries into a structured format for further processing, ensuring that each dataset is clearly described along with its citation.

@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Where Are the Facts? Searching for Fact-checked Information to Alleviate the Spread of Fake News" by Nguyen Vo and Kyumin Lee, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and data collection sections** to identify any datasets mentioned. The abstract discusses a framework for searching fact-checking articles, which suggests that datasets related to tweets and fact-checking articles may be involved.
+
+Next, I will focus on the **data collection section** (Section 4), where the authors describe their dataset in detail. They mention using a dataset from Vo and Lee (2019) that provides pairs of original tweets and their corresponding fact-checking articles. This section outlines the process of how they collected and labeled the data, which is crucial for understanding the dataset's structure and purpose.
+
+The authors specify that they have a total of **19,341 original tweet and fact-checking article pairs**, with **18,961 unique original tweets** and **2,845 fact-checking articles**. They also mention splitting the dataset into two sub-datasets based on the source of the fact-checking articles: **Snopes** and **Politifact**.
+
+I will extract the following datasets:
+
+1. **Full Dataset**: This dataset contains 19,341 pairs of original tweets and fact-checking articles.
+2. **Snopes Dataset**: This subset includes 11,202 positive pairs made by 11,167 tweets and 1,703 fact-checking articles.
+3. **Politifact Dataset**: This subset contains 2,037 positive pairs made by 2,026 tweets and 467 fact-checking articles.
+
+Now, I will look for the full citations for these datasets in the **References section**. The relevant citation for the dataset used in this paper is:
+
+- For the dataset from Vo and Lee (2019):
+  > Nguyen Vo and Kyumin Lee. *Learning from fact-checkers: Analysis and generation of fact-checking language*. In Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval, pages 335–344, 2019.
+
+With this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research paper.

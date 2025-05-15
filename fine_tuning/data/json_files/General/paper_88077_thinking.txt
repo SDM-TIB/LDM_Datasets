@@ -1,0 +1,23 @@
+To extract the datasets from the research paper titled "Self-Supervised Contextual Language Representation of Radiology Reports to Improve the Identification of Communication Urgency" by Xing Meng et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, materials and methods, and datasets sections** to identify any datasets mentioned. The abstract discusses the use of a self-supervised model trained on radiology reports, which suggests that datasets are involved.
+
+In the **introduction**, the authors highlight the challenges of obtaining large amounts of annotated training data in the biomedical domain, indicating the importance of datasets for their research.
+
+Next, I will focus on the **datasets section**, where the authors explicitly describe the datasets used in their study. They mention two primary sources:
+
+1. **RadCore Dataset**: This dataset contains about 2 million deidentified radiology reports aggregated from three major healthcare organizations. It is used for pre-training the BERT model.
+
+2. **DHMC Dataset**: This dataset consists of 2,124 radiology reports extracted from Dartmouth-Hitchcock Medical Center, with a balanced selection of reports requiring prompt communication and those that do not.
+
+The authors also provide details about the manual annotation of the DHMC dataset, which establishes ground truth labels for the reports.
+
+I will then check the **references section** to find the full citations for these datasets. The citations are crucial for proper attribution:
+
+- For the **RadCore Dataset**, the citation is:
+  > Hassanpour S, Langlotz CP. Information extraction from multi-institutional radiology reports. *Artificial Intelligence in Medicine*. 2016;66:29–39.
+
+- For the **DHMC Dataset**, the citation is:
+  > Meng X, Ganoe CH, Sieberg RT, Cheung YY, Hassanpour S. Assisting radiologists with reporting urgent findings to referring physicians: a machine learning approach to identify cases for prompt communication. *Journal of Biomedical Informatics*. 2019;93:103169.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing. This includes ensuring that each dataset is clearly described with its source and citation for clarity and proper referencing.

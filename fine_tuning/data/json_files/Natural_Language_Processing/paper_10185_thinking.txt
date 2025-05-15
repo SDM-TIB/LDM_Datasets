@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "An Efficient Hash-based Data Structure for Dynamic Vision Sensors and its Application to Low-energy Low-memory Noise Filtering" by Pradeep Kumar Gopalakrishnan et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the paper's contributions, and the introduction often outlines the context and significance of the research, which may include references to datasets.
+
+Next, I will focus on the **experiments section** (Section V in this case), as it typically contains detailed descriptions of the datasets used for evaluation. Here, the authors mention two datasets:
+
+1. **Driving Dataset**: This dataset was created by converting a simulated video from a dashboard camera into event data using the Video to Events (v2e) tool. It has a resolution of 346 × 260 pixels, lasts approximately 6 seconds, and contains around 3.9 million events. The dataset is used to simulate noise-free events mixed with recorded noise for performance evaluation.
+
+2. **Hotel-bar Dataset**: This dataset represents a typical surveillance operation using a stationary DVS camera. It was created by recording scenes from a hotel lobby and contains approximately 614,000 events over a length of about 6.2 seconds. Similar to the driving dataset, noise-free video files were mixed with noise data for evaluation.
+
+In addition, the authors mention a third dataset:
+
+3. **NUS Traffic Dataset**: This dataset was acquired using a DAVIS240 event camera at a traffic junction, monitoring various objects. It includes ground truth boxes manually drawn around objects of interest at specific time instances.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For the **Driving Dataset**, the citation is:
+  > Hu, Y., Liu, S. C., & Delbruck, T. (2021). v2e: From Video Frames to Realistic DVS Events. In 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW).
+
+- For the **Hotel-bar Dataset**, the citation is:
+  > Guo, S., & Delbruck, T. (2022). Low Cost and Latency Event Camera Background Activity Denoising. IEEE Transactions on Pattern Analysis and Machine Intelligence.
+
+- For the **NUS Traffic Dataset**, the citation is:
+  > NUS Traffic Dataset. (2020). Zenodo. https://zenodo.org/record/4574759.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is described accurately and includes the full citation for proper referencing. This structured approach will ensure that I capture all relevant details and provide a comprehensive overview of the datasets used in the research.

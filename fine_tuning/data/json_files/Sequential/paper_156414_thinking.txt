@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Automated Detection of Hidden Damages and Impurities in Aluminum Die Casting Materials and Fibre-Metal Laminates using Low-quality X-ray Radiography, Synthetic X-ray Data Augmentation by Simulation, and Machine Learning" by Stefan Bosse and Dirk Lehmhus, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract discusses the challenges of detecting hidden defects in materials and mentions the use of X-ray images, which suggests that datasets related to these images may be present.
+
+Next, I will focus on the **introduction** to see if the authors mention specific datasets or sources of data. The introduction discusses the use of X-ray imaging and the challenges of obtaining sufficient training data, which indicates that datasets are crucial to their research.
+
+In the **methods section**, the authors describe the use of synthetic data generated from CAD models and the application of various X-ray imaging techniques. They mention using different measuring devices (Low-Q, Mid-Q, High-Q) and the types of data collected from these devices. This section is likely to contain specific details about the datasets used for training and testing their models.
+
+I will also check the **results section** to see if the authors provide any quantitative results based on the datasets, which may help confirm the datasets' relevance and usage.
+
+Finally, I will consult the **references section** to find full citations for any datasets mentioned. The authors may refer to previous works or datasets that they used or built upon in their research.
+
+From my reading, I will identify the following datasets:
+
+1. **Synthetic X-ray Data**: This dataset is generated from CAD models to provide ground truth for training the models. The authors mention that this synthetic data is crucial for overcoming the missing ground truth issue.
+
+2. **Aluminum Die Casting Plates Dataset**: This dataset consists of real measured single-projection X-ray images of aluminum die casting plates with pore defects. The authors indicate that they have more than 10,000 individual data instances from these plates.
+
+3. **Fibre-Metal Laminate Plates Dataset**: This dataset includes images of FML plates with impact damages. The authors note that they have only a few plates, each providing one primary impact damage, which presents a challenge for data-driven modeling.
+
+After identifying these datasets, I will look for full citations in the references section. For example, if the authors refer to specific datasets or previous works, I will extract the relevant citations.
+
+Now, I will compile the dataset entries with their full citations into a structured format for further processing.

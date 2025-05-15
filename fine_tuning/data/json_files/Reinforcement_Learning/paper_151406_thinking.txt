@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Detecting Conceptual Abstraction in LLMs" by Michaela Regneri et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the research, and while it does not mention specific datasets, it indicates that the authors analyze noun pairs in taxonomic relationships, which suggests that a dataset may be involved.
+
+Next, I will focus on **section 3 (Data)**, which is likely to contain detailed information about the datasets used in the study. In this section, the authors describe the creation of a dataset of noun pairs that are in a hypernymy relationship, as well as two sets of counterfactual pairs. This indicates that there are at least three datasets involved:
+
+1. **Positive Examples Dataset**: This dataset is derived from McRae’s feature norms, which contain pairs of concepts and features annotated with semantic relationships. The authors mention that they select all pairs labeled with a “superordinate” relationship, which gives rise to a dataset of hyponym-hypernym pairs.
+
+2. **Negative Examples Dataset**: This dataset consists of counterfactual noun pairs that are not in a hypernymy relationship. The authors describe how they create this dataset using WordNet to generate pairs that share a hypernym with the target concepts but are not hypernyms themselves.
+
+3. **Sister Terms Dataset**: This dataset includes noun pairs that are sister terms in WordNet, which are matched by the level of abstraction of the feature concepts. The authors explain that this dataset is used to control for semantic similarity.
+
+Now, I will look for full citations for the datasets mentioned. The authors reference McRae’s feature norms and WordNet, which are essential for understanding the datasets:
+
+- For **McRae’s feature norms**, the citation is:
+  > Ken McRae, George S. Cree, Mark S. Seidenberg, and Chris Mcnorgan. *Semantic feature production norms for a large set of living and nonliving things*. Behavior Research Methods, 37(4):547–559, 2005.
+
+- For **WordNet**, the citation is:
+  > Christiane Fellbaum, editor. *WordNet: An Electronic Lexical Database*. Language, Speech, and Communication. MIT Press, Cambridge, MA, 1998.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described and includes the full citation for reference. This will provide a comprehensive overview of the datasets used in the research paper.

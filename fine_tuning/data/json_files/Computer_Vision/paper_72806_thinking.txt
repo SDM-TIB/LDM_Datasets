@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "SubGDiff: A Subgraph Diffusion Model to Improve Molecular Representation Learning" by Jiying Zhang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned or referenced. The abstract provides a brief overview of the research and may mention key datasets used for evaluation.
+
+Next, I will focus on the **experiments section**, particularly section 5, where the authors typically describe the datasets used for training and evaluation. In this section, I will look for specific names of datasets, their characteristics, and any relevant details about their usage in the experiments.
+
+Upon reviewing the paper, I find the following datasets mentioned:
+
+1. **PCQM4Mv2 Dataset**: This dataset is described as a sub-dataset of PubChemQC, containing 3.4 million molecules with 3D geometric conformations. It is used for pretraining the model.
+
+2. **MD17 Dataset**: This dataset comprises eight molecular dynamics simulations focused on small organic molecules. It is used for various molecular property prediction tasks.
+
+3. **GEOM-QM9 Dataset**: This dataset includes quantum chemistry structures and properties of 134,000 molecules, which is utilized for evaluating the performance of the proposed model in molecular conformation generation.
+
+4. **GEOM-Drugs Dataset**: This dataset contains larger drug-like compounds and is used to assess the generative ability of the diffusion models.
+
+Next, I will check the **References section** of the paper to find the full citations for these datasets. The citations are crucial for proper attribution and further exploration of the datasets.
+
+- For **PCQM4Mv2**, the citation is:
+  > Hu, W., Fey, M., Zitnik, M., Dong, Y., Ren, H., Liu, B., Catasta, M., & Leskovec, J. (2020). Open graph benchmark: Datasets for machine learning on graphs. arXiv preprint arXiv:2005.00687.
+
+- For **MD17**, the citation is:
+  > Schütt, K. T., et al. (2017). Quantum-chemical insights from deep tensor neural networks. Nature communications, 8(1), 13890.
+
+- For **GEOM-QM9**, the citation is:
+  > Ramakrishnan, R., Dral, P. O., Rupp, M., & Von Lilienfeld, O. A. (2014). Quantum chemistry structures and properties of 134 kilo molecules. Scientific data, 1(1), 140022.
+
+- For **GEOM-Drugs**, the citation is:
+  > Axelrod, S., & Gomez-Bombarelli, R. (2022). GEOM, energy-annotated molecular conformations for property prediction and molecular generation. Scientific Data, 9(1), 185.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for easy reference and use in future research or applications.

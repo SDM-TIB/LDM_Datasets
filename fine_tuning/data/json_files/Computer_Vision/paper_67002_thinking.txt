@@ -1,0 +1,45 @@
+To extract datasets from the research paper titled "DiffUTE: Universal Text Editing Diffusion Model" by Haoxing Chen et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will start by examining the **abstract and introduction** sections. The abstract mentions that the authors leverage large amounts of web data to improve their model's representation ability, which suggests that they may have used specific datasets for training and evaluation. The introduction also discusses the challenges in scene text editing and references various studies, which might indicate the datasets used in those studies.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments section**. In this paper, the authors describe their data preparation process in **section 4.1 (Data Preparation)**. Here, they mention collecting 5 million images by combining web-crawled data and publicly available text image datasets. They specifically list the datasets used for training and testing, which are crucial for my extraction.
+
+The datasets mentioned include:
+
+1. **CLDA**: A dataset for document layout analysis.
+2. **XFUND**: A benchmark dataset for multilingual visually rich form understanding.
+3. **PubLayNet**: The largest dataset for document layout analysis.
+4. **ICDAR series competitions**: A series of datasets used for various challenges in document analysis.
+
+In the same section, they also mention that they randomly selected 1000 images from the following datasets for their test set:
+
+- **ArT**: A dataset for artistic text generation.
+- **TextOCR**: A dataset for scene text recognition.
+- **ICDAR13**: A dataset from the ICDAR 2013 competition.
+
+Now, I will gather the full citations for these datasets from the **References section** of the paper. This is essential for providing proper attribution.
+
+The citations I will extract are:
+
+- For **CLDA**:
+  > Hang Li. *CDLA: A Chinese Document Layout Analysis (CDLA) Dataset*. [Online]. Available: https://github.com/buptlihang/CDLA. Accessed 2021.
+
+- For **XFUND**:
+  > Yiheng Xu, Tengchao Lv, Lei Cui, Guoxin Wang, Yijuan Lu, Dinei Florencio, Cha Zhang, and Furu Wei. *Xfund: A Benchmark Dataset for Multilingual Visually Rich Form Understanding*. In Findings of ACL, pages 3214–3224, 2022.
+
+- For **PubLayNet**:
+  > Xu Zhong, Jianbin Tang, and Antonio Jimeno Yepes. *PubLayNet: Largest Dataset Ever for Document Layout Analysis*. In ICDAR, pages 1015–1022, 2019.
+
+- For **ICDAR series competitions**:
+  > Dimosthenis Karatzas, Lluis Gomez-Bigorda, Anguelos Nicolaou, Suman K. Ghosh, Andrew D. Bagdanov, Masakazu Iwamura, Jiri Matas, Lukas Neumann, Vijay Ramaseshan Chandrasekhar, Shijian Lu, Faisal Shafait, Seiichi Uchida, and Ernest Valveny. *ICDAR 2015 Competition on Robust Reading*. In ICDAR, pages 1156–1160, 2015.
+
+- For **ArT**:
+  > Chee Kheng Chng, Yuliang Liu, Yipeng Sun, Chun Chet Ng, Canjie Luo, Zihan Ni, ChuanMing Fang, Shuaitao Zhang, Junyu Han, Errui Ding, et al. *ICDAR2019 Robust Reading Challenge on Arbitrary-Shaped Text-RRC-ART*. In ICDAR, pages 1571–1576, 2019.
+
+- For **TextOCR**:
+  > Amanpreet Singh, Guan Pang, Mandy Toh, Jing Huang, Wojciech Galuba, and Tal Hassner. *TextOCR: Towards Large-Scale End-to-End Reasoning for Arbitrary-Shaped Scene Text*. In CVPR, pages 8802–8812, 2021.
+
+- For **ICDAR13**:
+  > Rui Zhang, Yongsheng Zhou, Qianyi Jiang, Qi Song, Nan Li, Kai Zhou, Lei Wang, Dong Wang, Minghui Liao, Mingkun Yang, et al. *ICDAR 2019 Robust Reading Challenge on Reading Chinese Text on Signboard*. In ICDAR, pages 1577–1581, 2019.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets utilized in the research, which is crucial for reproducibility and further research.

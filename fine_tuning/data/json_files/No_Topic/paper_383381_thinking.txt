@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "A Fused Gromov-Wasserstein Framework for Unsupervised Knowledge Graph Entity Alignment" by Jianheng Tang et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions that the authors performed extensive experiments on four entity alignment datasets covering 14 distinct knowledge graphs across five languages. This indicates that there are multiple datasets to look for.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments section**. In this paper, the authors provide a detailed description of the datasets used in their evaluation in **section 4.1 (Experimental Setup)**. Here, they list the datasets as follows:
+
+1. **DBP15K**: This dataset consists of three subsets of cross-lingual KG pairs extracted from DBpedia: 
+   - **DBP15KZH_EN** (Chinese to English)
+   - **DBP15KJA_EN** (Japanese to English)
+   - **DBP15KFR_EN** (French to English)
+   Each KG pair contains 15,000 pre-aligned entity links.
+
+2. **SRPRS**: This is a sparse dataset that includes two cross-lingual KG pairs extracted from DBpedia:
+   - **SRPRSEN_FR** (English to French)
+   - **SRPRSEN_DE** (English to German)
+   Each subset contains 15,000 entity links, but with fewer relation triples and no attribute triples.
+
+3. **D-W-15K-V2**: This dataset consists of two English KGs extracted from DBpedia and WikiData, respectively, also containing 15,000 pre-aligned entity links.
+
+4. **MED-BBK-9K**: This is an industry dataset containing two Chinese medical KGs with 9,162 entity links, one being an authoritative human-annotated KG and the other extracted from a Chinese online encyclopedia called Baidu Baike.
+
+After identifying these datasets, I will check the **References section** for full citations. The paper provides the following citations for the datasets:
+
+- For **DBP15K**, the citation is:
+  > Zequn Sun, Muhao Chen, and Wei Hu. *Cross-lingual entity alignment via joint attribute-preserving embedding*. In ISWC, pages 628–644, 2017.
+
+- For **SRPRS**, the citation is:
+  > Guo, L., Liu, X., & Zheng, B. *Make it easy: An effective end-to-end entity alignment framework*. In SIGIR ’21: The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval, pages 777–786, 2021.
+
+- For **D-W-15K-V2**, the citation is:
+  > Sun, Z., Chen, M., & Hu, W. *A benchmarking study of embedding-based entity alignment for knowledge graphs*. In Proceedings of the VLDB Endowment, 13(11):2326–2340, 2020.
+
+- For **MED-BBK-9K**, the citation is:
+  > Qi, Z., Zhang, Y., & Zheng, Y. *Unsupervised knowledge graph alignment by probabilistic reasoning and semantic embedding*. arXiv preprint arXiv:2105.05596, 2021.
+
+Now that I have gathered the dataset names and their corresponding citations, I will compile this information into a structured format for clarity and future reference. This will ensure that I have accurately captured the datasets and their citations from the paper.

@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Approximating DTW with a Convolutional Neural Network on EEG Data" by Hugo Lerogeron et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors focus on EEG datasets, which suggests that specific datasets will be discussed later in the paper.
+
+Next, I will examine **section 4 (Experimental Setup)**, as it is likely to contain detailed information about the datasets used for the experiments. In this section, the authors explicitly mention the **SleepEDF-78 dataset**. They describe it as containing recordings from various sensors during sleep, specifically focusing on the Sleep Cassette files for their experiments.
+
+I will also look for any additional datasets mentioned in the **related works** or **results** sections, but it appears that the SleepEDF-78 dataset is the primary dataset used for their experiments.
+
+Now, I will check the **References section** to find the full citation for the SleepEDF-78 dataset. The authors reference the original paper that introduced this dataset, which is:
+
+- For **SleepEDF-78 dataset**:
+  > B. Kemp, A.H. Zwinderman, B. Tuk, H.A.C. Kamphuisen, and J.J.L. Oberye. *Analysis of a sleep-dependent neuronal feedback loop: the slow-wave microcontinuity of the EEG*. IEEE Transactions on Biomedical Engineering, 47(9):1185–1194, 2000.
+
+Since the authors also mention using the SHHS dataset for generalization tests, I will look for its citation as well. The citation for the SHHS dataset is:
+
+- For **SHHS dataset**:
+  > Stuart F. Quan, Barbara V. Howard, Conrad Iber, James P. Kiley, F. Javier Nieto, George T. O’Connor, David M. Rapoport, Susan Redline, John Robbins, Jonathan M. Samet, et al. *The Sleep Heart Health Study: design, rationale, and methods*. Sleep, 20(12):1077–1085, 1997.
+
+Now that I have identified the datasets and their citations, I will summarize the findings:
+
+1. **SleepEDF-78 Dataset**: Used for training and validation, focusing on sleep data from various sensors.
+   - Citation: B. Kemp et al. (2000). *Analysis of a sleep-dependent neuronal feedback loop: the slow-wave microcontinuity of the EEG*. IEEE Transactions on Biomedical Engineering, 47(9):1185–1194.
+
+2. **SHHS Dataset**: Used for testing the generalization of the model.
+   - Citation: Stuart F. Quan et al. (1997). *The Sleep Heart Health Study: design, rationale, and methods*. Sleep, 20(12):1077–1085.
+
+With this information, I can now compile the dataset entries for further processing or review.

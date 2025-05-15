@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Improving Zero-Shot Multilingual Translation with Universal Representations and Cross-Mappings" by Shuhao Gu and Yang Feng, I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the experimental results are based on "diverse multilingual datasets," which suggests that specific datasets will be discussed later in the paper.
+
+Next, I will focus on the **experiments section** (section 4) where the authors typically describe the datasets used for their experiments. In **section 4.1 (Data Preparation)**, the authors mention three datasets: **IWSLT17**, **PC-6**, and **OPUS-7**. I will extract the details provided for each dataset, including their characteristics and sizes.
+
+1. **IWSLT17**: This dataset is used in two scenarios: 
+   - The first scenario (IWSLT) retains parallel sentences from/to English, with about 0.22M sentence pairs for each translation direction.
+   - The second scenario (IWSLT-b) involves a chain of pivots, also with approximately 0.22M sentence pairs for each translation direction.
+
+2. **PC-6**: This dataset is extracted from the PC-32 corpus and has an unbalanced amount of data across different language pairs, ranging from 0.12M to 1.84M. It includes ten supervised and twenty zero-shot translation directions.
+
+3. **OPUS-7**: This dataset is derived from the OPUS-100 corpus and features twelve supervised translation directions and thirty zero-shot translation directions.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For **IWSLT17**, the citation is:
+  > Mauro Cettolo, Marcello Federico, Luisa Bentivogli, Niehues Jan, Stüker Sebastian, Sudoh Katsuitho, Yoshino Koichiro, and Federmann Christian. *Overview of the iwslt 2017 evaluation campaign*. In International Workshop on Spoken Language Translation, pages 2–14, 2017.
+
+- For **PC-6**, the citation is:
+  > Zehui Lin, Xiao Pan, Mingxuan Wang, Xipeng Qiu, Jiangtao Feng, Hao Zhou, and Lei Li. *Pretraining multilingual neural machine translation by leveraging alignment information*. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing, EMNLP 2020, pages 2649–2663, 2020.
+
+- For **OPUS-7**, the citation is:
+  > Holger Schwenk, Vishrav Chaudhary, Shuo Sun, Hongyu Gong, and Francisco Guzmán. *WikiMatrix: Mining 135m parallel sentences in 1620 language pairs from Wikipedia*. In Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume, EACL 2021, pages 1351–1361, 2021.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this into a structured format for further processing or review.

@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "SparseNeRF: Distilling Depth Ranking for Few-shot Novel View Synthesis" by Guangcong Wang et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections of the paper. The abstract mentions the introduction of a new dataset called **NVS-RGBD**, which is a strong indication that there are datasets to extract. The introduction further emphasizes the significance of this dataset in the context of their experiments.
+
+Next, I will look for a dedicated **Datasets** section, which is typically where authors describe the datasets used in their research. In this paper, the relevant information about the datasets is found in **section 4 (NVS-RGBD Dataset)**. Here, the authors provide a detailed description of the NVS-RGBD dataset, including the sources of the depth maps (Azure Kinect, ZED 2, and iPhone 13 Pro) and the number of scenes collected.
+
+The authors also mention two other datasets used for comparison in their experiments: **LLFF** and **DTU**. I will need to gather information about these datasets as well.
+
+1. **NVS-RGBD Dataset**: This dataset contains real-world depth maps captured by consumer-level depth sensors, including Azure Kinect, ZED 2, and iPhone 13 Pro. The authors collected 8 scenes for both Azure Kinect and ZED 2, and 4 scenes for iPhone 13 Pro. The dataset is designed for few-shot novel view synthesis.
+
+2. **LLFF Dataset**: The authors refer to the LLFF dataset as a popular benchmark for NeRFs, which contains 8 complex forward-facing scenes. 
+
+3. **DTU Dataset**: This dataset is described as an object-level dataset, which is used in their experiments alongside the NVS-RGBD dataset.
+
+Now, I will check the **References section** to find the full citations for each dataset mentioned:
+
+- For the **NVS-RGBD Dataset**, since it is a new dataset introduced by the authors, I will cite it as follows:
+  > Wang, G., Chen, Z., Loy, C. C., & Liu, Z. (2023). *NVS-RGBD: A dataset for few-shot novel view synthesis with real-world depth maps*. Available at: https://sparsenerf.github.io/
+
+- For the **LLFF Dataset**, the citation is:
+  > Mildenhall, B., Srinivasan, P. P., Ortiz-Cayon, R., Khademi Kalantari, N., Ramamoorthi, R., Ng, R., & Kar, A. (2019). *Local light field fusion: Practical view synthesis with prescriptive sampling guidelines*. ACM Transactions on Graphics (TOG), 38(4), 1-14.
+
+- For the **DTU Dataset**, the citation is:
+  > Jensen, R., Dahl, A., Vogiatzis, G., Tola, E., & Aanæs, H. (2014). *Large scale multi-view stereopsis evaluation*. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 406-413).
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation, ready for structured output or further processing.

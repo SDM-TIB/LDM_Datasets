@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Natural language processing of MIMIC-III clinical notes for identifying diagnosis and procedures with neural networks" by Siddhartha Nuthakki et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** of the paper. The abstract mentions the use of the **MIMIC-III dataset**, which is a strong indication that this dataset is central to the research. 
+
+In the **introduction**, the authors describe the MIMIC-III database as an extensive resource developed by MIT, containing de-identified healthcare data. This section provides context about the dataset's significance and its application in the study.
+
+Next, I will focus on the **methodology section**, particularly the subsections that detail data preprocessing and feature extraction. Here, the authors specify that they utilized the **note_events**, **diagnosis_icd**, and **procedures_icd** tables from the MIMIC-III database. They explain how these tables were merged and filtered to create four distinct datasets based on the top-10 and top-50 diagnosis and procedure codes.
+
+The four datasets mentioned are:
+1. **Top-10 Diagnosis Dataset**: Contains clinical notes associated with the top-10 diagnosis codes.
+2. **Top-10 Procedures Dataset**: Contains clinical notes associated with the top-10 procedure codes.
+3. **Top-50 Diagnosis Dataset**: Contains clinical notes associated with the top-50 diagnosis codes.
+4. **Top-50 Procedures Dataset**: Contains clinical notes associated with the top-50 procedure codes.
+
+In the **results section**, the authors present performance metrics for these datasets, confirming their relevance and the outcomes of the experiments conducted.
+
+Now, I will check the **references section** to find the full citation for the MIMIC-III dataset. The relevant citation is:
+
+- For **MIMIC-III**:
+  > Alistair EW Johnson, Tom J Pollard, Lu Shen, H Lehman Li-wei, Mengling Feng, Mohammad Ghassemi, Benjamin Moody, Peter Szolovits, Leo Anthony Celi, and Roger G Mark. *MIMIC-III, a freely accessible critical care database*. Scientific Data, 3:160035, 2016.
+
+With this information, I can now compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will involve creating a structured output that includes the dataset names, descriptions, and their respective citations.

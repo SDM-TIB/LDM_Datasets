@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "RAGSys: Item-Cold-Start Recommender as RAG System" by Emile Contal and Garrin McGoldrick, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview, but the introduction and methodology sections are likely to contain more detailed descriptions of the datasets used.
+
+In the **introduction**, the authors discuss the challenges of using Large Language Models (LLMs) and mention the need for domain-specific datasets. However, they do not specify any datasets at this point.
+
+Next, I will examine the **methodology section**, particularly the part where they describe the experimental setup. Here, they mention using the **TruthfulQA dataset** for their experiments. This dataset is highlighted as meeting specific criteria for their research, which indicates its importance.
+
+In **section 4.1 (Experimental Setup)**, the authors provide details about the **TruthfulQA dataset**. They state that it contains 817 distinct examples, each with a variable number of correct and incorrect answers. This section confirms that the dataset is used for evaluating the performance of their proposed methods.
+
+Additionally, they describe how the dataset is utilized in different forms:
+1. **DMC**: The dataset as described in the original paper, containing 817 examples.
+2. **DDPO**: A set of every distinct (query, correct answer, incorrect answer) triple, totaling 12,485 triplets.
+3. **DICL**: A set of every distinct (query, correct answer) pair, containing 2,846 pairs.
+
+Now, I will look at the **References section** to find the full citation for the TruthfulQA dataset. The citation provided in the paper is:
+> Stephanie C. Lin, Jacob Hilton, and Owain Evans. *TruthfulQA: Measuring How Models Mimic Human Falsehoods*. In Annual Meeting of the Association for Computational Linguistics. https://api.semanticscholar.org/CorpusID:237532606.
+
+With this information, I will compile the dataset entries, ensuring to include the full citations for each dataset mentioned in the paper.
+
+In summary, the datasets extracted from the paper are:
+1. **TruthfulQA Dataset**: Used for evaluating the proposed methods, containing 817 examples.
+   - Citation: Stephanie C. Lin, Jacob Hilton, and Owain Evans. *TruthfulQA: Measuring How Models Mimic Human Falsehoods*. In Annual Meeting of the Association for Computational Linguistics. https://api.semanticscholar.org/CorpusID:237532606.
+
+Now, I will prepare the dataset entries for further processing.

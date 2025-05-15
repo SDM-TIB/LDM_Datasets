@@ -1,0 +1,153 @@
+[
+    {
+        "dcterms:creator": [
+            "Xuanyi Dong",
+            "Yi Yang"
+        ],
+        "dcterms:description": "The dataset contains information of 15,625 different neural architectures, each of which is trained with SGD optimiser and evaluated on 3 different datasets: CIFAR10, CIFAR100, IMAGENET-16-120 for 3 random initialisation seeds. The training accuracy/loss, validation accuracy/loss after every training epoch as well as architecture meta-information such as number of parameters, and FLOPs are all accessible from the dataset.",
+        "dcterms:title": "NASBench-201",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://github.com/D-X-Y/NAS-Bench-201",
+        "dcat:theme": [
+            "Neural Architecture Search",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Neural architectures",
+            "CIFAR10",
+            "CIFAR100",
+            "IMAGENET-16-120"
+        ],
+        "dcat:landingPage": "https://github.com/D-X-Y/NAS-Bench-201",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Saining Xie",
+            "Alexander Kirillov",
+            "Ross Girshick",
+            "Kaiming He"
+        ],
+        "dcterms:description": "We produce this dataset by generating 552 randomly wired neural architectures from the random graph generators proposed in [42] and evaluate their performance on the image dataset FLOWERS102. We explore 69 sets of hyperparameter values for the random graph generators and for each set of hyperparameter values, we sample 8 randomly wired neural networks from the generator.",
+        "dcterms:title": "RandWiredNN",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Neural Architecture Search",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Randomly wired neural networks",
+            "FLOWERS102"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Hanxiao Liu",
+            "Karen Simonyan",
+            "Yiming Yang"
+        ],
+        "dcterms:description": "DARTS search space is more general than those of NASBench-201 and contains over 10^18 architectures. It’s also the most widely adopted space in NAS. This search space comprises a cell of 7 nodes: the first two nodes in cell k are the input nodes which equals to the outputs of cell k − 2 and cell k − 1 respectively.",
+        "dcterms:title": "DARTS",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Neural Architecture Search",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Differentiable architecture search",
+            "Neural architectures"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Julien Siems",
+            "Lucas Zimmer",
+            "Arber Zela",
+            "Jovita Lukasik",
+            "Margret Keuper",
+            "Frank Hutter"
+        ],
+        "dcterms:description": "This dataset contains 23000 8-cell architectures drawn from the DARTS search space and evaluated on CIFAR10. These architectures are much smaller than the 20-cell counterparts we generate and can be trained to convergence in fewer epochs.",
+        "dcterms:title": "NASBench-301",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://github.com/automl/nasbench301",
+        "dcat:theme": [
+            "Neural Architecture Search",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "DARTS",
+            "CIFAR10"
+        ],
+        "dcat:landingPage": "https://github.com/automl/nasbench301",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Ilija Radosavovic",
+            "Justin Johnson",
+            "Saining Xie",
+            "Wan-Yen Lo",
+            "Piotr Dollár"
+        ],
+        "dcterms:description": "It features two ResNet model families: ResNet and ResNeXt. Each architecture is trained on CIFAR10 for 100 epochs using SGD with an initial learning rate of 0.1, a cosine annealing schedule and a batch size of 128.",
+        "dcterms:title": "ResNet",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://github.com/facebookresearch/nds",
+        "dcat:theme": [
+            "Neural Architecture Search",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "ResNet",
+            "ResNeXt",
+            "CIFAR10"
+        ],
+        "dcat:landingPage": "https://github.com/facebookresearch/nds",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Maria-Elena Nilsback",
+            "Andrew Zisserman"
+        ],
+        "dcterms:description": "Automated flower classification over a large number of classes.",
+        "dcterms:title": "FLOWERS102",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "Flower classification",
+            "Image dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

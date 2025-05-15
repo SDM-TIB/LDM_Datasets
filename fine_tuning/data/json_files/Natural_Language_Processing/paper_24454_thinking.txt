@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Improving Large Models with Small Models: Lower Costs and Better Performance" by Dong Chen et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract mentions that the proposed method, Data Shunt+ (DS+), is validated across various modalities and tasks, which suggests that datasets are likely involved.
+
+Next, I will focus on the **experiments section** (Section 4), where the authors typically describe the datasets used for validation. In this section, I will look for any explicit mentions of datasets, including their names, sizes, and any specific characteristics that are highlighted.
+
+Upon reviewing the experiments, I find that the authors conducted experiments on several datasets:
+
+1. **Amazon Product Data**: This dataset is used for sentiment analysis, containing 2,504,958 training samples, 277,508 validation samples, and 309,186 test samples. The authors mention that it includes 20 categories of product comments with corresponding sentiment labels.
+
+2. **ChaosNLI**: This dataset is used to evaluate the effectiveness of the proposed method on tasks with inherent ambiguities. The authors do not specify the size of this dataset in the text, but it is referenced in the context of the experiments.
+
+3. **CIFAR-100**: This dataset is used for long-tailed image classification experiments. The authors mention that it is separated into head, medium, and tail regions based on the number of samples, but they do not provide specific sample sizes in the text.
+
+4. **Microsoft COCO**: This dataset is used for image captioning tasks. The authors state that it comprises 82,783 images with captions, which is a well-known dataset in the field.
+
+Now, I will check the **References section** to find full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For **Amazon Product Data**, the citation is:
+  > He, R., & McAuley, J. (2016). Ups and downs: Modeling the visual evolution of fashion trends with one-class collaborative filtering. In Proceedings of the 25th International Conference on World Wide Web (WWW), pp. 507-517.
+
+- For **ChaosNLI**, the citation is:
+  > Nie, Y., Zhou, X., & Bansal, M. (2020). What can we learn from collective human opinions on natural language inference data? In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+
+- For **CIFAR-100**, the citation is:
+  > Krizhevsky, A. (2009). Learning multiple layers of features from tiny images. Technical Report, University of Toronto.
+
+- For **Microsoft COCO**, the citation is:
+  > Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollár, P., & Zitnick, C. L. (2014). Microsoft COCO: Common objects in context. In European Conference on Computer Vision (ECCV), pp. 740-755.
+
+After gathering this information, I will compile the dataset entries into a structured format for clarity and completeness. This will ensure that all relevant details are captured and properly cited for future reference.

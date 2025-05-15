@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "SSP: A Simple and Safe Automatic Prompt Engineering Method Towards Realistic Image Synthesis on LVM" by Weijin Cheng et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and dataset sections** to identify any datasets mentioned. The abstract indicates that the authors created a dataset from multiple sources, which suggests that there are specific datasets involved.
+
+Next, I will focus on **section 2 (Dataset)**, where the authors explicitly mention the datasets used to create original prompts. They state that they sourced data from three publicly available datasets:
+
+1. **MSCOCO**: This dataset comprises images paired with corresponding captions, forming text-image pairs. The authors used GPT-4 to caption the images and summarize both the original and generated captions.
+
+2. **ImageNet**: This dataset contains a large-scale hierarchical image database. The authors mention that it was used to extract a subset of images for their study.
+
+3. **DiffusionDB**: This dataset includes captions of images, which were summarized using GPT-4 to generate new captions for the study.
+
+In the paper, the authors also mention that they collected a total of 10,000 prompts for their dataset, which is a significant detail.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **MSCOCO**, the citation is:
+  > Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. *Microsoft COCO: Common Objects in Context*. In European Conference on Computer Vision (ECCV), 2014.
+
+- For **ImageNet**, the citation is:
+  > Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. *Imagenet: A large-scale hierarchical image database*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009.
+
+- For **DiffusionDB**, the citation is:
+  > Zijie J Wang, Evan Montoya, David Munechika, Haoyang Yang, Benjamin Hoover, and Duen Horng Chau. *DiffusionDB: A large-scale prompt gallery dataset for text-to-image generative models*. arXiv, 2022.
+
+With these citations in hand, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets utilized in the research paper.

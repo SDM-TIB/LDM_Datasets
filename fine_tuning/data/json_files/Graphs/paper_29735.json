@@ -1,0 +1,100 @@
+[
+    {
+        "dcterms:creator": [
+            "Anders S. Christensen",
+            "O. Anatole von Lilienfeld"
+        ],
+        "dcterms:description": "The revised MD17 (rMD17) dataset contains five train test splits of 10 different small organic molecules. Each of the splits contains 1000 conﬁgurations for each molecule sampled randomly from a long Ab initio molecular dynamics simulation carried out at 500 K computed with DFT.",
+        "dcterms:title": "rMD17",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.1088/2632-2153/abba6f",
+        "dcat:theme": [
+            "Computational Chemistry",
+            "Molecular Dynamics"
+        ],
+        "dcat:keyword": [
+            "Molecular dynamics",
+            "Organic molecules",
+            "Machine learning",
+            "Force fields"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Energy prediction",
+            "Force prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Dávid Péter Kovács",
+            "Cas van der Oord",
+            "Jiri Kucera",
+            "Alice E. A. Allen",
+            "Daniel J. Cole",
+            "Christoph Ortner",
+            "Gábor Csányi"
+        ],
+        "dcterms:description": "The 3BPA dataset contains DFT train test splits of a flexible drug-like organic molecule sampled from different temperature molecular dynamics trajectories. The models are trained on 500 snapshots sampled at 300K and tested on three independent test sets for each temperature (300K, 600K, 1200K).",
+        "dcterms:title": "3BPA",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.1021/acs.jctc.1c00647",
+        "dcat:theme": [
+            "Computational Chemistry",
+            "Molecular Dynamics"
+        ],
+        "dcat:keyword": [
+            "Drug-like molecules",
+            "Temperature extrapolation",
+            "Molecular dynamics",
+            "Energy prediction"
+        ],
+        "dcat:landingPage": "https://doi.org/10.1021/acs.jctc.1c00647",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Energy prediction",
+            "Force prediction",
+            "Extrapolation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Ilyes Batatia",
+            "Simon Batzner",
+            "Dávid Péter Kovács",
+            "Albert Musaelian",
+            "Gregor N. C. Simm",
+            "Ralf Drautz",
+            "Christoph Ortner",
+            "Boris Kozinsky",
+            "Gábor Csányi"
+        ],
+        "dcterms:description": "The acetylacetone dataset contains trajectories of a small reactive molecule sampled at different temperatures. The task is to train on snapshots sampled at 300K and test on independent test sets sampled at 300K and 600K.",
+        "dcterms:title": "Acetylacetone",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://arxiv.org/abs/2205.06643",
+        "dcat:theme": [
+            "Computational Chemistry",
+            "Molecular Dynamics"
+        ],
+        "dcat:keyword": [
+            "Reactive molecules",
+            "Temperature extrapolation",
+            "Bond breaking",
+            "Molecular dynamics"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/2205.06643",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Energy prediction",
+            "Force prediction",
+            "Extrapolation"
+        ]
+    }
+]

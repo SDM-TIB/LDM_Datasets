@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Deep Learning reconstruction with uncertainty estimation for γ photon interaction in fast scintillator detectors" by G. Daniela et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, materials, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the study, but I will focus on sections that typically contain detailed descriptions of datasets.
+
+In the **introduction**, the authors discuss the context of gamma photon detection and the importance of accurate position estimation, but they do not mention specific datasets. I will move on to the **materials section**.
+
+In **section 2.3 (Waveform preprocessing and input data shaping)**, the authors describe the observables used for the neural network but do not specify datasets yet. However, in **section 3.2.3 (Generated datasets)**, they explicitly mention three datasets used for training and testing their machine learning algorithms:
+
+1. **Training Set**: This dataset simulates a gamma photon source shaped in a 6 cm cube, containing 450,000 events. The energy spectrum is adjusted to favor high energy deposits in the PbWO4 crystal.
+
+2. **First Test Dataset**: This dataset simulates a grid of 9 × 9 511-keV gamma ray point sources, containing 300,000 events. The gamma rays impinge the PbWO4 crystal perpendicularly.
+
+3. **Second Test Dataset**: This dataset simulates a 6 cm cube-shaped gamma photon source, mono-energetic at 511 keV, containing 600,000 events. It is designed for a detailed performance analysis of the neural network.
+
+Next, I will check the **references section** to find full citations for any datasets mentioned. However, the datasets described are generated from simulations and do not have external citations. Instead, I will note the details provided in the paper itself.
+
+Now, I will compile the dataset entries based on the information gathered:
+
+1. **Training Set**: 450,000 events from a simulated gamma photon source in a 6 cm cube.
+2. **First Test Dataset**: 300,000 events from a grid of 9 × 9 511-keV gamma ray point sources.
+3. **Second Test Dataset**: 600,000 events from a mono-energetic 511 keV gamma photon source in a 6 cm cube.
+
+Since these datasets are generated for the study and do not have external citations, I will note that they are based on the authors' simulations and methodologies described in the paper.
+
+Finally, I will summarize the findings in a structured format for clarity and future reference.

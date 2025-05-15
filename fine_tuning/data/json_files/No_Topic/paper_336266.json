@@ -1,0 +1,61 @@
+[
+    {
+        "dcterms:creator": [
+            "Wei Liu",
+            "Dragomir Anguelov",
+            "Dumitru Erhan",
+            "Christian Szegedy",
+            "Scott Reed",
+            "Cheng-Yang Fu",
+            "Alexander C Berg"
+        ],
+        "dcterms:description": "This dataset currently consists of 310 images of the human user’s face over 4 years to model the real world image space (unique lighting, angles, age). In consideration of image and model safety the author’s face is used in the dataset. After extracting the face subset using a Caffe-based face detector, each image is cropped to the same dimension.",
+        "dcterms:title": "Human User Dataset",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Face Verification",
+            "Image Generation"
+        ],
+        "dcat:keyword": [
+            "Face images",
+            "User dataset",
+            "Image cropping"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Face Verification",
+            "Image Generation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Kimmo Karkkainen",
+            "Jungseock Joo"
+        ],
+        "dcterms:description": "FairFace is a race balanced dataset consisting of 108,501 face images. Each image is treated as a unique user in the verification system. Like in the previous dataset, after extracting the face subset using a Caffe-based face detector, each image is cropped to the same dimension.",
+        "dcterms:title": "FairFace",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Face Verification",
+            "Bias Measurement"
+        ],
+        "dcat:keyword": [
+            "Face images",
+            "Race balanced",
+            "Bias mitigation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Face Verification",
+            "Bias Measurement"
+        ]
+    }
+]

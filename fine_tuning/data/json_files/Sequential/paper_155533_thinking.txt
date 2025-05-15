@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "SearchMorph: Multi-scale Correlation Iterative Network for Unsupervised Deformable Image Registration" by Xiao Fan et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors evaluate their method using "single-temporal brain MR images" and "multi-temporal echocardiographic sequences," which suggests that datasets are involved.
+
+Next, I will focus on **section IV (Experiments)**, where the authors explicitly list the datasets used for validation. They mention four datasets:
+
+1. **LPBA40**: This is a 3D brain MRI dataset containing images from 40 volunteers. Each image has a format of 160 × 192 × 160, and the authors specify that they use the 80th slice for registration.
+
+2. **CAMUS**: This dataset includes two-dimensional echocardiograms of 500 patients, each with at least one complete cardiac cycle. It provides manual labels for myocardial and cardiac blood pools at the end-diastolic and end-systolic phases.
+
+3. **Synthetic Ground-Truth Data**: This dataset consists of 105 sequence videos of A2C, A3C, and A4C echocardiograms, with manual labels for the myocardial regions. The authors specifically mention using the A3C sequences to supplement their data.
+
+4. **Echocardiography Video**: This dataset contains images from 20 patients, each with two complete cardiac cycles, and includes manual labels for the myocardial and cardiac blood pools for each frame.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For **LPBA40**, the citation is:
+  > Shattuck, D. W., Mirza, M., Adisetiyo, V., et al. "Construction of a 3D probabilistic atlas of human cortical structures." *Neuroimage*, 39(3): 1064-1080, 2008.
+
+- For **CAMUS**, the citation is:
+  > Leclerc, S., Smistad, E., Pedrosa, J., Ostvik, A., et al. "Deep Learning for Segmentation using an Open Large-Scale Dataset in 2D Echocardiography." *IEEE Transactions on Medical Imaging*, early access, 2019.
+
+- For **Synthetic Ground-Truth Data**, the citation is:
+  > Alessandrini, M., Chakraborty, B., Heyde, B., et al. "Realistic vendor-specific synthetic ultrasound data for quality assurance of 2-D speckle tracking echocardiography: simulation pipeline and open access database." *IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control*, 65(3): 411-422, 2017.
+
+- For **Echocardiography Video**, the citation is not explicitly provided in the references, but it is mentioned as data acquired by the authors.
+
+Now, I will compile the dataset entries with their respective citations into a structured format for further processing.

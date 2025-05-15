@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Reinforcement Learning Approach for Multi-Agent Flexible Scheduling Problems" by Hongjian Zhou et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to see if any datasets are mentioned or referenced. The abstract discusses the development of an OpenAI gym environment for scheduling problems, which suggests that there may be datasets used for testing or evaluation.
+
+Next, I will examine **section 6 (Evaluation)**, where the authors describe the benchmark instances used to evaluate their solution. They mention four distinct instances from the OR-Library, which are crucial for understanding the datasets they utilized:
+
+1. **Env with 3 machines, 2 jobs, and a maximum operation count of 3**: This instance is likely a synthetic dataset created for testing the proposed method.
+2. **Envm with 6 machines, 6 jobs, and a maximum operation count of 6**: Another synthetic dataset that increases complexity.
+3. **Envl with 6 machines, 10 jobs, and a maximum operation count of 6**: This instance further escalates the complexity and is also synthetic.
+4. **Envxl with 11 machines, 10 jobs, and a maximum operation count of 10**: The most complex synthetic dataset mentioned.
+
+The authors also reference benchmark instances from the OR-Library, which are widely used in scheduling research. They specifically mention three sets of instances:
+
+1. **Brandimarte instances (Mk04 - Mk05)**: These are standard datasets used in scheduling literature.
+2. **Hurink instances (la01 - la05)**: Another set of established datasets for evaluating scheduling algorithms.
+3. **Taillard’s instances (Ta01 and Ta41)**: These instances are also well-known in the field.
+
+Now, I will look at the **References section** to find full citations for the datasets mentioned. The citations for the benchmark instances from the OR-Library are as follows:
+
+- For **Brandimarte instances**:
+  > Brandimarte, P. (1993). *Annals of Operations Research*, 41, 157-183.
+
+- For **Hurink instances**:
+  > Hurink, J., Jurisch, B., & Thole, M. (1994). *OR Spektrum*, 15, 205-215.
+
+- For **Taillard’s instances**:
+  > Taillard, E. (1993). *European Journal of Operational Research*, 64, 278-285.
+
+Finally, I will compile the dataset entries, ensuring that I include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research paper.

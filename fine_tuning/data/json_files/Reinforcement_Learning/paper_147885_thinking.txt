@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Competitive Experience Replay" by Hao Liu et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any references to datasets. The abstract mentions evaluating the proposed method on tasks involving an ant maze and robotic arm manipulation, which suggests that there may be datasets related to these tasks.
+
+Next, I will focus on the **experiments section** (Section 4) where the authors describe the environments used for their evaluations. In **Section 4.1**, they mention two specific environments:
+
+1. **Ant Maze**: This environment is described as having a "U" shaped maze and an "S" shaped maze, where the agent is tasked with reaching a target. The authors provide details about the setup, including the binary reward structure.
+
+2. **Robotic Control Environments**: The paper mentions several tasks involving robotic manipulation, specifically using the Fetch robotic arm and the Shadow Dexterous Hand. The tasks listed include:
+   - FetchPickAndPlace
+   - FetchPush
+   - FetchReach
+   - FetchSlide
+   - HandManipulateBlock
+   - HandManipulateEgg
+   - HandManipulatePen
+
+In the **appendix**, the authors provide additional details about these environments, confirming their use in the experiments.
+
+Now, I will check the **References section** to find full citations for the datasets or environments mentioned. However, since these environments are likely based on existing frameworks (like OpenAI Gym), I will cite the relevant papers or resources that describe these environments:
+
+- For the **Ant Maze** and robotic control environments, the citation is:
+  > Matthias Plappert, Marcin Andrychowicz, Alex Ray, Bob McGrew, Bowen Baker, Glenn Powell, Jonas Schneider, Josh Tobin, Maciek Chociej, Peter Welinder, et al. *Multi-goal reinforcement learning: Challenging robotics environments and request for research*. arXiv preprint arXiv:1802.09464, 2018.
+
+- For the **OpenAI Gym** framework, which includes the robotic environments, the citation is:
+  > Greg Brockman, Vicki Cheung, Ludwig Pettersson, Jonas Schneider, John Schulman, Jie Tang, and Wojciech Zaremba. *OpenAI Gym*. arXiv preprint arXiv:1606.01540, 2016.
+
+After gathering this information, I will compile the dataset entries, ensuring that each entry includes the dataset name, a brief description, and the full citation. This structured approach will ensure that I accurately capture the datasets referenced in the paper.

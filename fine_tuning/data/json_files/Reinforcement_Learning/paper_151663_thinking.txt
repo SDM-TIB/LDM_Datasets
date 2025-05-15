@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Latent Adversarial Training Improves Robustness to Persistent Harmful Behaviors in LLMs" by Abhay Sheshadri et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** of the paper. The abstract provides a brief overview of the research and may mention specific datasets used for experiments. The introduction often discusses the context and significance of the research, which may include references to datasets.
+
+Next, I will focus on **section 4 (Experiments)**, as this section typically details the datasets used for the experiments. I will look for any explicit mentions of datasets, including their names and descriptions. For instance, the authors mention creating a dataset of triples containing prompts, harmful completions, and harmless completions, which indicates the presence of a dataset.
+
+In **section 4.1 (Improving Robustness to Jailbreaks)**, the authors describe the dataset they created for their experiments. They mention generating harmful user requests and filtering prompts for diversity, which suggests a structured dataset was developed for this purpose. I will note the specifics of this dataset, including how it was constructed and its intended use.
+
+In **section 4.2 (Backdoor Removal)**, the authors refer to using the "Anthropic’s HH-RLHF preference dataset" for training models to remove backdoors. This is another dataset that needs to be documented.
+
+In **section 4.3 (Machine Unlearning)**, the authors mention using the "WMDP biology and cyber corpora" as forget datasets, which is crucial for understanding their unlearning approach.
+
+After identifying the datasets, I will consult the **References section** to find the full citations for each dataset mentioned. This is critical for proper attribution and to provide readers with the necessary information to locate the datasets.
+
+The datasets I will extract and their citations are as follows:
+
+1. **Dataset for Jailbreak Robustness**: A dataset of triples containing prompts, harmful completions, and harmless completions, generated using a method based on Self-Instruct.
+   - Citation: Not explicitly provided in the paper; I will summarize the construction method instead.
+
+2. **Anthropic’s HH-RLHF preference dataset**: Used for training models to remove backdoors.
+   - Citation: Anthropic. *HH-RLHF: Human Feedback Reinforcement Learning Dataset*. Available at: [Anthropic's website or repository link].
+
+3. **WMDP biology and cyber corpora**: Used as forget datasets for unlearning.
+   - Citation: Li, N., Pan, A., Gopal, A., Yue, S., Berrios, D., Gatti, A., Li, J. D., Dombrowski, A. K., Goel, S., Phan, L., et al. *The WMDP Benchmark: Measuring and Reducing Malicious Use with Unlearning*. arXiv preprint arXiv:2403.03218, 2024.
+
+Now, I will compile these dataset entries into a structured format for further processing or review.

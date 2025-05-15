@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "BanglaNLG and BanglaT5: Benchmarks and Resources for Evaluating Low-Resource Natural Language Generation in Bangla" by Abhik Bhattacharjee et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors aggregate six conditional text generation tasks under the BanglaNLG benchmark, which suggests multiple datasets are involved.
+
+Next, I will focus on **section 2 (The Bangla Natural Language Generation (BanglaNLG) Benchmark)**, where the authors describe the six tasks and their corresponding datasets. The tasks listed are:
+
+1. **Machine Translation (MT)**: The dataset used is the **BanglaNMT parallel corpus**, which contains 2.75 million parallel pairs for training.
+2. **Text Summarization (TS)**: The dataset for this task is the **Bangla portion of XL-Sum**, which is a large dataset for abstractive summarization.
+3. **Question Answering (QA)**: The dataset used is **BQA**, which is derived from SQuAD 2.0 and includes unanswerable questions.
+4. **Multi-turn Dialogue (MTD)**: A new dataset curated by translating the **DailyDialog** dataset into Bangla.
+5. **News Headline Generation (NHG)**: This task repurposes the **XL-Sum** dataset, which includes article titles.
+6. **Cross-lingual Summarization (XLS)**: The dataset used is the **CrossSum** dataset, which aligns articles in different languages.
+
+In the **experiments section**, the authors confirm the use of these datasets for their evaluations, providing further validation of their relevance.
+
+Now, I will look into the **References section** to find the full citations for each dataset:
+
+1. **BanglaNMT**: The citation is:
+   > Tahmid Hasan, Abhik Bhattacharjee, Md. Saiful Islam, Kazi Mubasshir, Yuan-Fang Li, Yong-Bin Kang, M. Sohel Rahman, and Rifat Shahriyar. *Not low-resource anymore: Aligner ensembling, batch filtering, and new datasets for Bengali-English machine translation*. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 2612–2623, 2020.
+
+2. **XL-Sum**: The citation is:
+   > Tahmid Hasan, Abhik Bhattacharjee, Kazi Samin, Masum Hasan, Madhusudan Basak, M. Sohel Rahman, and Rifat Shahriyar. *XL-sum: Large-scale multilingual abstractive summarization for 44 languages*. In Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021, pages 4693–4703, 2021.
+
+3. **BQA**: The citation is:
+   > Abhik Bhattacharjee, Tahmid Hasan, Wasi Uddin Ahmad, Yuan-Fang Li, Yong bin Kang, and Rifat Shahriyar. *BanglaBERT: Language model pretraining and benchmarks for low-resource language understanding evaluation in Bangla*. In Findings of the North American Chapter of the Association for Computational Linguistics: NAACL 2022.
+
+4. **DailyDialog**: The citation is:
+   > Yanran Li, Hui Su, Xiaoyu Shen, Wenjie Li, Ziqiang Cao, and Shuzi Niu. *DailyDialog: A manually labelled multi-turn dialogue dataset*. In Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pages 986–995, 2017.
+
+5. **CrossSum**: The citation is:
+   > Abhik Bhattacharjee, Tahmid Hasan, Wasi Ahmad Uddin, Kazi Mubasshir, Md. Saiful Islam, Anindya Iqbal, M. Sohel Rahman, and Rifat Shahriyar. *Crosssum: Beyond english-centric cross-lingual abstractive text summarization for 1500+ language pairs*. CoRR, abs/2112.08804, 2021.
+
+With these citations in hand, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This structured approach will ensure that I accurately capture all relevant datasets and their details from the paper.

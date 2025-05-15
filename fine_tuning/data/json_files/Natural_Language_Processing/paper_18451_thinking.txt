@@ -1,0 +1,40 @@
+To extract datasets from the research paper titled "H2O-Danube-1.8B Technical Report" by Philipp Singer et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the model and its training data, but I need to look for specific datasets used in training or evaluation.
+
+Next, I will focus on **section 6 (Chat Fine-Tuning)**, where the authors describe the datasets used for fine-tuning the chat model. Here, they mention combining several datasets totaling 157k samples for supervised fine-tuning. The datasets listed are:
+
+1. **OpenOrca**: This dataset is referenced as following the steps outlined in the Orca paper.
+2. **MetaMathQA**: A dataset used for mathematical question answering.
+3. **UltraChat200k**: A dataset containing conversational pairs.
+4. **Oasst2**: Another dataset used in the fine-tuning process.
+
+I will also check **section 6.2 (DPO)**, where the authors mention additional datasets used for direct preference optimization. The datasets listed here are:
+
+1. **UltraFeedback Binarized**: A dataset for feedback optimization.
+2. **Orca DPO Pairs**: Pairs of data used for preference optimization.
+3. **Distilabel Math Preference DPO**: A dataset focused on mathematical preferences.
+
+Additionally, they mention a final DPO fine-tune using the **Oasst2** dataset again, which is important to note.
+
+After identifying these datasets, I will refer to the **References section** to find the full citations for each dataset mentioned. The citations I will look for include:
+
+- For **OpenOrca**:
+  > Open-Orca. OpenOrca. Last accessed on 2024-01-15. https://huggingface.co/datasets/Open-Orca/OpenOrca.
+
+- For **MetaMathQA**:
+  > Longhui Yu, Weisen Jiang, Han Shi, Jincheng Yu, Zhengying Liu, Yu Zhang, James T Kwok, Zhenguo Li, Adrian Weller, and Weiyang Liu. *Metamath: Bootstrap your own mathematical questions for large language models*. arXiv preprint arXiv:2309.12284, 2023.
+
+- For **UltraChat200k**:
+  > HuggingFaceH4. UltraChat200k. Last accessed on 2024-01-15. https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k.
+
+- For **Oasst2**:
+  > OpenAssistant. Oasst2. Last accessed on 2024-01-15. https://huggingface.co/datasets/OpenAssistant/oasst2.
+
+- For **UltraFeedback Binarized**:
+  > argilla. Distilabel math preference dpo, 2023. Last accessed on 2024-01-15. https://huggingface.co/datasets/argilla/distilabel-math-preference-dpo.
+
+- For **Orca DPO Pairs**:
+  > Intel. Orca dpo pairs. Last accessed on 2024-01-15. https://huggingface.co/datasets/Intel/orca_dpo_pairs.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their respective citations.

@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "QuadricsNet: Learning Concise Representation for Geometric Primitives in Point Clouds" by Ji Wu et al., I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract mentions a "novel pattern-comprehensive dataset with quadrics segments and objects," which indicates that a dataset is indeed present.
+
+Next, I will focus on **section I (Introduction)**, where the authors discuss the need for a dataset to train and evaluate their proposed framework. They mention the creation of a "QuadricsDataset," which is a strong indication that this dataset is central to their work.
+
+In **section V (Experiments)**, the authors provide more details about the QuadricsDataset. They describe it as being built from simulated quadric segments and CAD objects selected from the ABC dataset. This section outlines that the dataset consists of two subsets: the Segment Dataset (20k quadrics segments for training and 3k for testing) and the Object Dataset (for training and evaluation).
+
+Now, I will look for the **full citations** for the datasets mentioned. The authors reference the ABC dataset, which is crucial for understanding the source of their data. The citation for the ABC dataset is:
+
+- For the **ABC dataset**, the citation is:
+  > Koch, S., Matveev, A., Jiang, Z., Williams, F., Artemov, A., Burnaev, E., Alexa, M., Zorin, D., & Panozzo, D. (2019). *ABC: A big CAD model dataset for geometric deep learning*. In Proceedings of the IEEE/CVF International Conference on Computer Vision and Pattern Recognition (CVPR), pages 9601–9611.
+
+Since the QuadricsDataset is built from the ABC dataset, I will note that the authors created their dataset based on this source, but there is no separate citation provided for the QuadricsDataset itself, as it is an original contribution of the authors.
+
+Finally, I will summarize the datasets extracted from the paper:
+
+1. **QuadricsDataset**: A dataset consisting of quadrics segments and objects, specifically designed for training and evaluation of the QuadricsNet framework. It includes two subsets: Segment Dataset (20k segments for training, 3k for testing) and Object Dataset.
+
+2. **ABC Dataset**: The foundational dataset used to build the QuadricsDataset.
+   > Koch, S., Matveev, A., Jiang, Z., Williams, F., Artemov, A., Burnaev, E., Alexa, M., Zorin, D., & Panozzo, D. (2019). *ABC: A big CAD model dataset for geometric deep learning*. In Proceedings of the IEEE/CVF International Conference on Computer Vision and Pattern Recognition (CVPR), pages 9601–9611.
+
+With this information, I will compile the dataset entries for further processing or review.

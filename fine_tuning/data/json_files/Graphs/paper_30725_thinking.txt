@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "CLAWSAT: Towards Both Robust and Accurate Code Models" by Jinghan Jia et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to look for any explicit mentions of datasets. The abstract provides a brief overview of the research but may not detail specific datasets. The introduction often outlines the context and may reference datasets used in prior work or the current study.
+
+Next, I will focus on the **experiments section**, which typically contains detailed information about the datasets used for evaluation. In this paper, the authors mention evaluating their method on several tasks, including code summarization, code completion, and code clone detection. I will look for specific dataset names associated with these tasks.
+
+Upon reviewing the **experiments setup**, I find that the authors mention the following datasets:
+
+1. **PY-CSN Dataset**: This dataset is used for pre-training and contains approximately 500,000 methods in Python.
+2. **PY150 Dataset**: This dataset is used for fine-tuning and contains around 200,000 methods in Python.
+3. **JAVA-CSN Dataset**: Similar to the PY-CSN, this dataset is used for pre-training and contains about 600,000 methods in Java.
+4. **JAVA-C2S Dataset**: This dataset is used for fine-tuning and contains approximately 500,000 methods in Java.
+
+Next, I will check the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For the **PY-CSN Dataset**, the citation is:
+  > Husain, H., Wu, H., Gazit, T., Allamanis, M., & Brockschmidt, M. (2019). Codesearchnet challenge: Evaluating the state of semantic code search. CoRR, abs/1909.09436.
+
+- For the **PY150 Dataset**, the citation is:
+  > Raychev, V., Bielik, P., & Vechev, M. (2016). Probabilistic model for code with decision trees. SIGPLAN Not., 51(10), 731–747.
+
+- For the **JAVA-CSN Dataset**, the citation is the same as for the PY-CSN Dataset since it is part of the same challenge:
+  > Husain, H., Wu, H., Gazit, T., Allamanis, M., & Brockschmidt, M. (2019). Codesearchnet challenge: Evaluating the state of semantic code search. CoRR, abs/1909.09436.
+
+- For the **JAVA-C2S Dataset**, the citation is:
+  > Alon, U., Zilberstein, M., Levy, O., & Yahav, E. (2018). A general path-based representation for predicting program properties. ACM SIGPLAN Notices, 53(4), 404–419.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or processing. This ensures that I have accurately captured the datasets referenced in the paper along with their proper citations.

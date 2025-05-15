@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Territory Design for Dynamic Multi-Period Vehicle Routing Problem with Time Windows" by Hernán Lespay and Karol Suchan, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the study and may mention datasets used for computational experiments. 
+
+Next, I will focus on the **experiments section** (Section 5) where the authors typically describe the datasets used for testing their algorithms. In this section, I will look for any specific datasets mentioned, including their characteristics, sizes, and any relevant details about how they were constructed or sourced.
+
+In the paper, the authors mention that they generated **56 small instances from VRPTW benchmark instances of Solomon** and constructed **15 large instances from the company’s historical monthly demand data**. This indicates that there are two main datasets of interest:
+
+1. **Small TD-DMPVRPTW Instances**: These are derived from Solomon's VRPTW benchmark instances, which are well-known datasets in the vehicle routing literature. The authors specify that they used the first ten customers from these instances, maintaining their original demands, coordinates, time windows, and service times.
+
+2. **Large TD-DMPVRPTW Instances**: These datasets are based on the company's historical demand data from January 2018 to March 2019. Each instance is characterized by a different number of customers and days, with specific details provided in Table 2 of the paper.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned:
+
+- For the **Solomon's VRPTW benchmark instances**, the citation is:
+  > Solomon, M. M. *Algorithms for the vehicle routing and scheduling problems with time window constraints*. Operations Research 35, 2 (1987), 254–265.
+
+- For the **company's historical demand data**, since it is not a publicly available dataset, I will note that it is proprietary to the food distribution company in Chile and does not have a formal citation.
+
+After gathering this information, I will summarize the datasets, ensuring to include the full citation for the Solomon dataset and note the proprietary nature of the company's data.
+
+Finally, I will compile the dataset entries into a structured format for clarity and future reference.

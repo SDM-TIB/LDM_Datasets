@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "PPFM: Image denoising in photon-counting CT using single-step posterior sampling Poisson flow generative models" by Dennis Hein et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the study but does not specify datasets. Therefore, I will focus on the **experiments section**, which typically contains detailed information about the datasets used.
+
+In **section III (Experiments)**, the authors explicitly mention two datasets:
+
+1. **Mayo low-dose CT data**: This dataset is used for training and validation. It is publicly available and contains images from 10 patients reconstructed using two different kernels and two different slice thicknesses on a 512 × 512 pixel grid. The authors specify that they used the data with a slice thickness of 1 mm and reconstruction kernel D30, splitting the data into a training set with 4800 slices and a validation set with 1136 slices.
+
+2. **Photon-counting CT data**: This dataset is used for testing and consists of images gathered as part of a clinical study of a GE prototype photon-counting system. The authors provide details about the scanning locations and parameters, including effective diameter and CDTIvol for two cases.
+
+Next, I will check the **References section** to find the full citations for these datasets. However, since the Mayo low-dose CT data is publicly available and the authors do not provide a specific citation, I will note that it is from the AAPM low-dose CT grand challenge. For the photon-counting CT data, the authors reference a specific study:
+
+- For **Mayo low-dose CT data**, the citation is:
+  > AAPM, “Low dose CT grand challenge,” 2017. [Online]. Available: https://www.aapm.org/grandchallenge/lowdosect/.
+
+- For **Photon-counting CT data**, the citation is:
+  > H. Almqvist, et al., “Initial Clinical Images From a Second-Generation Prototype Silicon-Based Photon-Counting Computed Tomography System,” Acad. Radiol., Epub ahead of print, 2023.
+
+Now, I will compile the dataset entries with their respective citations. This structured approach ensures that I accurately capture the datasets and their sources for further processing or review.

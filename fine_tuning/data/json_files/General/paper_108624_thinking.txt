@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Cyclical Variational Bayes Monte Carlo for Efficient Multi-Modal Posterior Distributions Evaluation" by Felipe Igea and Alice Cicirello, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and results sections** to identify any datasets mentioned. The abstract discusses the evaluation of the proposed method using numerical and experimental investigations, which suggests that datasets are involved.
+
+Next, I will focus on the **results section** where the authors describe the experiments conducted. They mention using various case studies, including numerical examples and an experimental investigation. I will look for specific datasets or data sources referenced in these examples.
+
+In the **results section**, the authors detail four case studies:
+1. **Himmelblau Multi-modal Posterior**: This case study references the Himmelblau function, which is a well-known mathematical function used to evaluate optimization algorithms. The authors mention that the posterior used has four distinct solutions, indicating that they likely used synthetic data generated from this function.
+
+2. **Mass-spring System (Multi-modal Posterior)**: This example involves a 2-dimensional multi-modal Bayesian model updating system. The authors describe the parameters and their distributions, but they do not provide a specific dataset citation. However, they mention that the uniform priors for the spring constants are used, which suggests that the data is generated based on these parameters.
+
+3. **Mass-spring System (Unimodal Posterior)**: Similar to the previous example, this case study involves a 2-DoF system with uncertain parameters. The authors describe the likelihood function and the experimental measurements used, but again, they do not provide a specific dataset citation.
+
+4. **Experimental Validation: Aluminium Frame Problem**: This case study references experimental data obtained from an aluminium frame structure. The authors provide a table summarizing the experimental results, including natural frequencies for different configurations. They cite the source of the experimental data as [30] and [51], which I will need to reference for the dataset.
+
+Now, I will compile the relevant datasets and their citations:
+
+1. **Himmelblau Multi-modal Posterior**: 
+   - Dataset: Synthetic data generated from the Himmelblau function.
+   - Citation: Not explicitly provided, but the function is well-known in optimization literature.
+
+2. **Mass-spring System (Multi-modal Posterior)**: 
+   - Dataset: Generated based on the uniform priors for spring constants.
+   - Citation: Not explicitly provided.
+
+3. **Mass-spring System (Unimodal Posterior)**: 
+   - Dataset: Experimental measurements of natural frequencies.
+   - Citation: Not explicitly provided.
+
+4. **Aluminium Frame Problem**: 
+   - Dataset: Experimental data for natural frequencies from the aluminium frame structure.
+   - Citation: 
+     > [30] A. Lye, A. Cicirello, E. Patelli, An efficient and robust sampler for Bayesian inference: Transitional Ensemble Markov Chain Monte Carlo, Mech Syst Signal Process. 167 (2022) 108471. https://doi.org/10.1016/J.YMSSP.2021.108471.
+     > [51] R. Rocchetta, M. Broggi, Q. Huchet, E. Patelli, On-line Bayesian model updating for structural health monitoring, Mech Syst Signal Process. 103 (2018) 174–195. https://doi.org/10.1016/J.YMSSP.2017.10.015.
+
+Finally, I will ensure that I have accurately captured the essence of each dataset and its citation for future reference or processing.

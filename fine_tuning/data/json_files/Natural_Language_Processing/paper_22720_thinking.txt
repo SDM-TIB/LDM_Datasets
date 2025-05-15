@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Selective Annotation via Data Allocation: These Data Should Be Triaged to Experts for Annotation Rather Than the Model" by Chen Huang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and evaluation sections** to identify any datasets mentioned. The abstract discusses a selective annotation framework called SANT, but it does not specify any datasets directly. Therefore, I will need to look deeper into the paper.
+
+Next, I will focus on **section 4 (Evaluation)**, where the authors describe the tasks and datasets used for their experiments. They mention three specific annotation tasks: sentiment annotation, knowledge graph completion, and tagging. Each task corresponds to a different dataset.
+
+1. **IMDB Dataset**: This dataset is used for sentiment annotation, containing 50,000 movie reviews classified into binary sentiment classes (positive or negative).
+
+2. **WN18RR Dataset**: This dataset is utilized for knowledge graph completion, consisting of 93,003 triples, 40,943 entities, and 11 relation types.
+
+3. **CiteULike Dataset**: This dataset is employed for the tagging task, which includes 72,288 authors’ citations on 8,212 papers, along with 46,391 different tags.
+
+In the **evaluation metrics section**, the authors provide details about how they assess the quality of annotations for these datasets, confirming their relevance to the experiments.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **IMDB Dataset**, the citation is:
+  > Lakshmi, S. (2020). *IMDB Dataset of 50K Movie Reviews*. Retrieved from https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews.
+
+- For the **WN18RR Dataset**, the citation is:
+  > Bordes, A., Glorot, X., Weston, J., & Bengio, Y. (2013). *Translating Embeddings for Modeling Multi-relational Data*. In Proceedings of the 26th International Conference on Neural Information Processing Systems (NIPS), pages 2787–2795. Retrieved from https://paperswithcode.com/dataset/wn18rr.
+
+- For the **CiteULike Dataset**, the citation is:
+  > Chen, X., & Wang, T. (2013). *CiteULike: A Dataset for Scientific Paper Tagging*. Retrieved from https://github.com/js05212/citeulike-a.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

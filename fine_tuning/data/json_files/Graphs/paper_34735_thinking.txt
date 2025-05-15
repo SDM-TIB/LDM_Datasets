@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Toward Exploring the Code Understanding Capabilities of Pre-trained Code Generation Models" by Jiayi Lin et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract discusses the use of pre-trained code generation models and their application to code understanding tasks, which suggests that datasets are likely involved.
+
+In the **introduction**, the authors reference several models and their training data, but I need to look for specific datasets. The mention of "The Stack dataset" in the methodology section indicates that it is a significant dataset used in their experiments.
+
+Next, I will focus on the **methodology section**, particularly the subsection titled **3.2.1 Training data**, where the authors explicitly state that they trained their models on six programming languages from "The Stack" dataset. They provide a breakdown of the languages and the total number of functions, which is crucial information.
+
+The datasets mentioned are:
+
+1. **The Stack dataset**: This dataset is used for training and consists of code samples from various programming languages. The authors mention that it includes bimodal data (query, code) pairs extracted using Tree-Sitter.
+
+In the **experiments section**, the authors evaluate their models on two tasks: code search and clone detection, using datasets such as **CodeSearchNet (CSN)** and **POJ-104**. 
+
+I will now look for the full citations for these datasets in the **References section**:
+
+- For **The Stack dataset**, the citation is:
+  > Denis Kocetkov, Raymond Li, Loubna Ben Allal, Jia Li, Chenghao Mou, Carlos Muñoz Ferrandis, Yacine Jernite, Margaret Mitchell, Sean Hughes, Thomas Wolf, Dzmitry Bahdanau, Leandro von Werra, and Harm de Vries. *The Stack: 3 TB of permissively licensed source code*. CoRR, abs/2211.15533, 2022.
+
+- For **CodeSearchNet**, the citation is:
+  > Hamel Husain, Ho-Hsiang Wu, Tiferet Gazit, Miltiadis Allamanis, and Marc Brockschmidt. *CodeSearchNet Challenge: Evaluating the State of Semantic Code Search*. CoRR, abs/1909.09436, 2019.
+
+- For **POJ-104**, the citation is:
+  > Lili Mou, Ge Li, Lu Zhang, Tao Wang, and Zhi Jin. *Convolutional Neural Networks over Tree Structures for Programming Language Processing*. In Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence, February 12-17, 2016, Phoenix, Arizona, USA, pages 1287–1293. AAAI Press.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and cited according to the requirements.

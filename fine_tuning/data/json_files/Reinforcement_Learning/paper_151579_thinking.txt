@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Multistep Criticality Search and Power Shaping in Microreactors with Reinforcement Learning" by Majdi I. Radaideh et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to locate any references to datasets. The abstract mentions the use of a Serpent model to generate data on drum positions, core criticality, and core power distribution, indicating that there is a dataset involved.
+
+Next, I will focus on the **methodology section**, particularly the subsection titled "Surrogate Modeling." Here, the authors describe how they generated data using the Serpent code for different burnup states (0 YR, 2 YR, and 4 YR). They mention that a total of 750 calculations were performed, resulting in 3,000 data points used to train and evaluate the surrogate models. This is a clear indication of a dataset being utilized.
+
+In the **results section**, the authors provide performance metrics for the surrogate models, which further confirms the existence of datasets derived from the simulations. They also mention the training data set, validation set, and testing set splits (70%/15%/15%), which are crucial for understanding the dataset structure.
+
+Now, I will compile the full citations for the datasets mentioned in the paper. The primary dataset is derived from the Serpent simulations, which is referenced multiple times throughout the paper. The citation for the Serpent code is as follows:
+
+- **Serpent Code**: 
+  > J. Leppänen, M. Pusa, T. Viitanen, V. Valtavirta, T. Kaltiaisenaho. *The Serpent Monte Carlo Code: Status, Development and Applications in 2013*. Annals of Nuclear Energy, 82, 142-150, 2015.
+
+Additionally, the authors refer to their own previous work where they utilized the data generated from the Serpent model for reinforcement learning applications. The citation for their related work is:
+
+- **Radaideh et al. (2024)**: 
+  > M. I. Radaideh, D. Price, K. Abdulraheem, M. Elias. *Demonstration of Microreactor Reactivity Control with Reinforcement Learning*. In Proceedings of the International Conference on Physics of Reactors (PHYSOR 2024), American Nuclear Society, 2024, pp. 1427-1436.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+1. **Dataset from Serpent Simulations**: This dataset includes data on drum positions, core criticality, and core power distribution across three different burnup states (0 YR, 2 YR, and 4 YR), totaling 3,000 data points.
+
+Now, I will prepare to format this information according to the required structure for downstream processing, ensuring that each dataset is clearly documented with its full citation.

@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Towards Learning a Generic Agent for Vision-and-Language Navigation via Pre-training" by Weituo Hao et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors validate their performance on three VLN tasks, which suggests that datasets are involved.
+
+Next, I will focus on **section 4.4 (Pre-training Datasets)**, where the authors describe the datasets used for pre-training their model. Here, they mention two key datasets:
+
+1. **R2R Dataset**: This dataset consists of 104,000 image-text-action triplets, which are crucial for training the model. It is specifically designed for the Room-to-Room navigation task.
+
+2. **Matterport3D Dataset**: The authors utilize the Matterport3D Simulator to generate synthetic data, leading to a total of 6,482,000 image-text-action triplets for pre-training. This dataset is synthesized using a speaker model to create language instructions based on the agent's trajectory.
+
+In the **experiments section**, the authors validate their model on three tasks: R2R, Cooperative Vision-and-Dialogue Navigation (CVDN), and "Help, Anna!" (HANNA). I will check if these tasks have associated datasets mentioned in the paper.
+
+For the **CVDN dataset**, the authors state that it comprises 2,050 human-human navigation dialogs and over 7,000 navigation trajectories across 83 MatterPort houses. This dataset is essential for evaluating the model's performance in a dialog-based navigation context.
+
+For the **HANNA dataset**, the authors mention that it features 289 object types and a vocabulary of 2,332 words, which is used for interactive navigation tasks.
+
+Now, I will gather the full citations for each dataset from the **References section** of the paper:
+
+- For the **R2R Dataset**, the citation is:
+  > Anderson, P., Wu, Q., Teney, D., Bruce, J., Johnson, M., Sunderhauf, N., Reid, I., Gould, S., & van den Hengel, A. (2018). Vision-and-language navigation: Interpreting visually-grounded navigation instructions in real environments. In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*.
+
+- For the **Matterport3D Dataset**, the citation is:
+  > Chang, A., Dai, A., Funkhouser, T., Halber, M., Nießner, M., Savva, M., Song, S., Zeng, A., & Zhang, Y. (2017). Matterport3D: Learning from RGB-D data in indoor environments. In *International Conference on 3D Vision (3DV)*.
+
+- For the **CVDN Dataset**, the citation is:
+  > Thomason, J., Gordon, D., & Bisk, Y. (2019). Vision-and-dialog navigation. In *Conference on Robot Learning (CoRL)*.
+
+- For the **HANNA Dataset**, the citation is:
+  > Nguyen, K., & Daumé III, H. (2019). Help, Anna! Visual navigation with natural multimodal assistance via retrospective curiosity-encouraging imitation learning. In *Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

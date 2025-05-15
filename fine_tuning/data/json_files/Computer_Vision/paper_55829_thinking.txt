@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Scalable and Equivariant Spherical CNNs by Discrete-Continuous (DISCO) Convolutions" by Jeremy Ocampo et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to find any references to datasets. The abstract mentions applying the DISCO spherical CNN framework to "a number of benchmark dense-prediction problems on the sphere," which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (section 5) where the authors describe their evaluations. Here, they mention several datasets used for different tasks:
+
+1. **MNIST Dataset**: The authors state that they project MNIST digits onto the sphere for classification tasks. This dataset is widely known and used for handwritten digit recognition.
+
+2. **2D3DS Dataset**: The paper mentions using the 2D3DS dataset for semantic segmentation of indoor scenes. This dataset consists of equirectangular RGB-Depth indoor 360° images.
+
+3. **Omni-SYNTHIA Dataset**: This dataset is referenced for semantic segmentation of outdoor city scenes. It contains panoramic RGB images.
+
+4. **Matterport3D Dataset**: The authors use this dataset for depth estimation tasks. It contains spherical RGB images.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **MNIST Dataset**, the citation is:
+  > Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. *The MNIST Database of Handwritten Digits*. 1998. URL: http://yann.lecun.com/exdb/mnist/
+
+- For the **2D3DS Dataset**, the citation is:
+  > I. Armeni, S. Sax, Amir R Zamir, and Silvio Savarese. *Joint 2D-3D-Semantic Data for Indoor Scene Understanding*. ArXiv Preprint, 2017. URL: https://arxiv.org/abs/1702.01105.
+
+- For the **Omni-SYNTHIA Dataset**, the citation is:
+  > G. Ros, L. Sellart, J. Materzynska, D. Vazquez, and A. M. Lopez. *The SYNTHIA Dataset: A Large Collection of Synthetic Images for Semantic Segmentation of Urban Scenes*. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016.
+
+- For the **Matterport3D Dataset**, the citation is:
+  > A. Chang, A. Dai, T. Funkhouser, M. Halber, M. Nießner, M. Savva, S. Song, A. Zeng, and Y. Zhang. *Matterport3D: Learning from RGB-D Data in Indoor Environments*. In International Conference on 3D Vision (3DV), 2017. URL: https://arxiv.org/abs/1709.06158.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly documented with its citation for future reference or processing.

@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Effective Lymph Nodes Detection in CT Scans Using Location Debiased Query Selection and Contrastive Query Representation in Transformer" by Qinji Yu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors trained and tested their method on **3D CT scans of 1067 patients** with **10,000+ labeled lymph nodes (LNs)**, which suggests that multiple datasets are involved.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors provide detailed information about the datasets used. They mention that they collected and curated **seven LN datasets** from different clinical institutions, which is crucial for understanding the scope of their research.
+
+In **Table 1**, the authors summarize the statistics of the seven LN datasets, including the number of patients, number of LNs, average resolution, body parts, and whether the datasets are used for internal or external testing. The datasets listed are:
+
+1. **NIH-LN**: 89 patients, 1956 LNs, chest & abdomen.
+2. **Center1-HN**: 256 patients, 1890 LNs, head & neck.
+3. **Center2-Eso**: 91 patients, 857 LNs, chest.
+4. **Center2-Lung**: 97 patients, 668 LNs, chest.
+5. **Center3-Eso**: 300 patients, 2515 LNs, chest.
+6. **Center4-Mul**: 184 patients, 2131 LNs, chest & abdomen.
+7. **Center5-HN**: 50 patients, 418 LNs, head & neck.
+
+The paper also notes that the **NIH-LN** dataset is a public dataset, while the others are in-house datasets collected from various clinical centers.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned. The NIH-LN dataset citation is:
+
+- **NIH-LN**: 
+  > Yan, K., Wang, X., Lu, L., Summers, R.M. (2018). *DeepLesion: Automated mining of large-scale lesion annotations and universal lesion detection with deep learning*. Journal of Medical Imaging, 5(3), 036501.
+
+The other datasets are in-house and may not have formal citations, but I will note their descriptions as provided in the paper.
+
+Finally, I will compile the dataset entries into a structured format, ensuring that each dataset is clearly described and that the full citation for the NIH-LN dataset is included. This will provide a comprehensive overview of the datasets used in the research.

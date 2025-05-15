@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Multi-task Safe Reinforcement Learning for Navigating Intersections in Dense Traffic" by Yuqi Liu et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** of the paper. The abstract mentions that the proposed method is evaluated in two simulators: **SUMO** and **CARLA**. This indicates that these simulators may be used as datasets or environments for the experiments.
+
+Next, I will check the **experiments section** for any specific datasets or data collection methods mentioned. In the **SUMO experiments**, the authors describe the setup and parameters used for the simulation, but they do not mention a specific dataset. Instead, they refer to the simulation environment itself. However, they do mention collecting **4 million tuples of data** for training the safety layer, which is important to note.
+
+In the **CARLA experiments**, the authors again describe the simulation setup and the parameters used, but they do not refer to a specific dataset. They mention that the environmental vehicles are controlled by the built-in Autopilot, which is part of the CARLA simulator. 
+
+Since both SUMO and CARLA are simulation environments rather than traditional datasets, I will treat them as such. I will also note that the authors collected data tuples during their experiments, but they do not provide a formal citation for these data tuples as they are generated from the simulations.
+
+Now, I will look at the **References section** to find citations for the simulators used:
+
+1. For **SUMO**, the citation is:
+   > P. A. Lopez, M. Behrisch, L. Bieker-Walz, J. Erdmann, Y.-P. Flötteröd, R. Hilbrich, L. Lücken, J. Rummel, P. Wagner, E. Wießner. *Microscopic traffic simulation using SUMO*. In: The 21st IEEE International Conference on Intelligent Transportation Systems, IEEE, 2018. URL: https://elib.dlr.de/124092/
+
+2. For **CARLA**, the citation is:
+   > A. Dosovitskiy, G. Ros, F. Codevilla, A. Lopez, V. Koltun. *CARLA: An open urban driving simulator*. In: Proceedings of the 1st Annual Conference on Robot Learning, 2017, pp. 1–16.
+
+After gathering this information, I will summarize the datasets as follows:
+
+- **SUMO Simulator**: Used for intersection navigation tasks, providing a highly portable interface for intelligent controller deployment.
+- **CARLA Simulator**: Used for high-fidelity simulation of autonomous driving scenarios.
+
+Finally, I will compile the dataset entries into a structured format for review or further processing, ensuring that I include the full citations for both simulators as they are critical to the research context.

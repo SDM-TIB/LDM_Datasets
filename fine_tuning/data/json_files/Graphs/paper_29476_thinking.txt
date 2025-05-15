@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "CODE-MVP: Learning to Represent Source Code from Multiple Views with Contrastive Pre-Training" by Xin Wang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to gather initial insights about the datasets used. The abstract mentions experiments conducted on "three downstream tasks over five datasets," which indicates that multiple datasets are involved.
+
+Next, I will focus on **section 4 (Experimental Setup)**, where the authors provide detailed information about the datasets used for evaluation. In this section, they list the datasets along with their respective statistics for training, validation, and testing. The datasets mentioned are:
+
+1. **AdvTest**: This dataset is used for the natural language code retrieval task, with 251K training samples, 9.6K validation samples, and 19.2K test samples.
+
+2. **CoNaLa**: Another dataset for natural language code retrieval, containing 2.4K training samples, with no validation set, and a test set of 0.5K samples.
+
+3. **CosQA**: This dataset also serves the natural language code retrieval task, with 19.6K training samples, 0.5K validation samples, and 0.5K test samples.
+
+4. **Python800**: Used for code-to-code retrieval and code clone detection tasks, this dataset has 144K training samples, 8K validation samples, and 8K test samples.
+
+5. **GREAT**: This dataset is utilized for code defect detection, comprising 100K training samples, 5K validation samples, and 4K test samples.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The citations for the datasets are as follows:
+
+- For **AdvTest**, the citation is:
+  > Lu, Y., et al. (2021). AdvTest: A dataset for evaluating code retrieval models. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP 2021).
+
+- For **CoNaLa**, the citation is:
+  > Yin, P., et al. (2018). CoNaLa: A large-scale dataset for code-to-natural language generation. In Proceedings of the 15th International Conference on Mining Software Repositories (MSR 2018).
+
+- For **CosQA**, the citation is:
+  > Huang, J., et al. (2021). CosQA: 20,000+ web queries for code search and question answering. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL 2021).
+
+- For **Python800**, the citation is:
+  > Puri, R., et al. (2021). Project CodeNet: A large-scale AI for code dataset for learning a diversity of coding tasks. In CoRR, abs/2105.12655.
+
+- For **GREAT**, the citation is:
+  > Hellendoorn, V., et al. (2020). Global relational models of source code. In Proceedings of the 8th International Conference on Learning Representations (ICLR 2020).
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing or review.

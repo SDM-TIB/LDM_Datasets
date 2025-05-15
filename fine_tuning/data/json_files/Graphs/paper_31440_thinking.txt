@@ -1,0 +1,16 @@
+To extract datasets from the research paper titled "CLIP4MC: An RL-Friendly Vision-Language Model for Minecraft" by Ziluo Ding et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned or described. In the abstract, the authors mention constructing a "neat YouTube dataset based on the large-scale YouTube database provided by MineDojo." This indicates that a dataset is indeed present.
+
+Next, I will focus on **section 4 (YouTube Dataset)**, where the authors provide detailed information about the dataset construction process. They describe how they utilized over 730K Minecraft videos from YouTube and their corresponding transcripts to create a dataset of 640K video-text pairs. This section is crucial as it outlines the filtering processes used to ensure the quality of the dataset.
+
+The authors detail two filtering processes: **Content Filtering** and **Correlation Filtering**. Content Filtering ensures that the video content is relevant to key entities in Minecraft, while Correlation Filtering selects video clips that are highly correlated with the extracted transcript clips. This results in a dataset that is both relevant and high-quality.
+
+Now, I will look at the **References section** to find full citations for the datasets mentioned. The paper references the MineDojo database, which is essential for understanding the source of the YouTube dataset. The citation for MineDojo is:
+
+- For **MineDojo**:
+  > Linxi Fan, Guanzhi Wang, Yunfan Jiang, Ajay Mandlekar, Yuncong Yang, Haoyi Zhu, Andrew Tang, De-An Huang, Yuke Zhu, and Anima Anandkumar. *Minedojo: Building open-ended embodied agents with internet-scale knowledge*. In Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track, 2022.
+
+Additionally, the authors mention that they will release their constructed YouTube dataset, specifying transcript clips and corresponding timestamps. However, they do not provide a separate citation for this dataset since it is derived from the MineDojo database.
+
+Finally, I will compile the dataset entries, ensuring that I include the full citations for the datasets as required. The key dataset extracted from this paper is the YouTube dataset constructed from the MineDojo database, which is essential for the experiments conducted in the study.

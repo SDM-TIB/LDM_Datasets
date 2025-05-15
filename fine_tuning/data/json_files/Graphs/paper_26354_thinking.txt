@@ -1,0 +1,21 @@
+To extract the datasets from the research paper titled "Quantifying Urban Canopy Cover with Deep Convolutional Neural Networks" by Bill Cai et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** to identify any mentions of datasets. The abstract indicates that the authors trained deep convolutional neural networks (DCNNs) on datasets used for self-driving cars, which suggests that specific datasets will be discussed later in the paper.
+
+Next, I will focus on **section 2 (Dataset and Methods)**, as this section is likely to contain detailed descriptions of the datasets used. Here, the authors mention that they selected images from **Google Street View (GSV)** for their training and testing. They specifically state that they randomly selected 100 images from each of five cities: Cambridge (USA), Johannesburg (South Africa), Oslo (Norway), São Paulo (Brazil), and Singapore (Singapore). This gives me the first dataset:
+
+1. **Google Street View Dataset**: A dataset consisting of 500 images (100 from each of the five cities) used for training, validation, and testing, with manual labels for vertical vegetation.
+
+The authors also mention that they used the **Cityscapes dataset** to augment their model training. This dataset is designed for autonomous driving and contains over 5000 images taken from vehicle-mounted cameras in various German cities. This is the second dataset:
+
+2. **Cityscapes Dataset**: A dataset containing over 5000 images with fine annotations for semantic segmentation, which the authors adapted for their study by collapsing multi-class labels into binary labels for vegetation and non-vegetation.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For the **Cityscapes dataset**, the citation is:
+  > Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele. *The Cityscapes Dataset for Semantic Urban Scene Understanding*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 3213–3223, 2016.
+
+The **Google Street View dataset** does not have a formal citation in the references, but it is commonly referenced in the context of urban studies and can be cited as follows:
+  > Google LLC. *Google Street View*. Available at: https://www.google.com/streetview/
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

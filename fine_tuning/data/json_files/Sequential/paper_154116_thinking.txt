@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "RTFN: Robust Temporal Feature Network" by Zhiwen Xiao et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper. The abstract mentions that the RTFN was evaluated on **85 datasets in the UCR2018 archive**, which indicates that these datasets are crucial for understanding the experiments conducted.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors detail their experimental setup. In **section 4.1 (Experimental Setup)**, they explicitly state that they used **85 standard datasets from the UCR2018 archive** for the supervised structure and **11 datasets** for the unsupervised clustering. This section is key for identifying the datasets used.
+
+In **section 4.2 (Evaluation of the RTFN-based Supervised Structure)**, the authors provide a table (Table 1) that summarizes the performance of various algorithms on the 85 datasets. However, the specific names of these datasets are not listed in this section.
+
+To find the actual dataset names, I will look at **Table 2**, which lists details about **12 long time-series datasets** used for further evaluation. The datasets mentioned here are:
+
+1. **Beetlefly**: 20 training samples, 20 testing samples, 2 classes, length 512.
+2. **BirdChicken**: 20 training samples, 20 testing samples, 2 classes, length 512.
+3. **Car**: 60 training samples, 60 testing samples, 4 classes, length 577.
+4. **Earthquakes**: 322 training samples, 139 testing samples, 2 classes, length 512.
+5. **Herring**: 64 training samples, 64 testing samples, 2 classes, length 512.
+6. **Haptics**: 155 training samples, 308 testing samples, 5 classes, length 1092.
+7. **Lightning2**: 60 training samples, 61 testing samples, 2 classes, length 637.
+8. **OliveOil**: 30 training samples, 30 testing samples, 4 classes, length 570.
+9. **SemgHandGenderCh2**: 300 training samples, 600 testing samples, 2 classes, length 1500.
+10. **SemgHandMovementCh2**: 450 training samples, 450 testing samples, 6 classes, length 1500.
+11. **SemgHandSubjectCh2**: 450 training samples, 450 testing samples, 5 classes, length 1500.
+12. **Rock**: 20 training samples, 50 testing samples, 4 classes, length 2844.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned. However, since the datasets are part of the UCR2018 archive, I will refer to the original source of the UCR time series archive for the citation.
+
+The citation for the UCR time series archive is:
+> H. A. Dau, A. Bagnall, K. Kamgar, C.-C. M. Yeh, Y. Zhu, S. Gharghabi, C. A. Ratanamahatana, and E. Keogh. *The UCR time series archive*. arXiv preprint arXiv:1810.07758v2, 2019.
+
+With this information, I can now compile the dataset entries, ensuring to include the full citation for the UCR time series archive as the authoritative source for the datasets used in the experiments.
+
+Finally, I will prepare the dataset entries for output, ensuring that each dataset is clearly described along with its citation.

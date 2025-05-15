@@ -1,0 +1,39 @@
+To extract datasets from the research paper titled "BioLORD-2023: Semantic Textual Representations Fusing LLM and Clinical Knowledge Graph Insights" by François Remy et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, materials and methods, and evaluation methodology sections** to identify any datasets mentioned. The abstract indicates that the authors conducted evaluations using the **BioLORD testing suite** and various downstream tasks, which suggests that datasets are involved.
+
+Next, I will focus on the **materials and methods section**, where the authors describe their training data. They mention using a large language model to generate definitions for biomedical concepts, specifically referencing the **Automatic Glossary of Clinical Terminology (AGCT)**, which contains 400,000 biomedical definitions. This is a significant dataset that I need to note.
+
+In the **evaluation methodology section**, the authors detail several benchmarks used to evaluate their model's performance. I will extract the following datasets mentioned:
+
+1. **MedSTS**: A dataset for clinical semantic textual similarity containing 1,068 sentence pairs annotated by medical experts.
+   - Citation: Wang, Y., Afzal, N., Fu, S., Wang, L., Shen, F., Rastegar-Mojarad, M., et al. (2020). MedSTS: a resource for clinical semantic textual similarity. *Language Resources and Evaluation*, 54(1), 57-72.
+
+2. **MedNLI**: A dataset for evaluating natural language inference in the clinical domain.
+   - Citation: Romanov, A., & Shivade, C. (2018). Lessons from Natural Language Inference in the Clinical Domain. In *Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing* (pp. 1586-1596).
+
+3. **BIOSSES**: A biomedical semantic similarity dataset containing 100 sentence pairs focused on scientific articles.
+   - Citation: Sogancioglu, G., Öztürk, H., & Özgür, A. (2017). BIOSSES: a semantic sentence similarity estimation system for the biomedical domain. *Bioinformatics*, 33(14), i49-i58.
+
+4. **EHR-RelB**: A dataset containing 3,630 concept pairs sampled from electronic health records, rated for relatedness.
+   - Citation: Schulz, C., Levy-Kramer, J., Van Assel, C., Kepes, M., & Hammerla, N. (2020). Biomedical Concept Relatedness – A large EHR-based benchmark. In *Proceedings of the 28th International Conference on Computational Linguistics* (pp. 6565-6575).
+
+5. **UMNSRS**: A pair of datasets consisting of 725 clinical term pairs whose semantic similarity and relatedness were determined by clinicians.
+   - Citation: Pakhomov, S. V., McInnes, B., Adam, T., Liu, Y., Pedersen, T., & Melton, G. B. (2010). Semantic similarity and relatedness between clinical terms: an experimental study. *AMIA Annual Symposium Proceedings*, 2010, 572.
+
+6. **MayoSRS**: A dataset formed by 101 clinical term pairs rated for relatedness by medical coders and physicians.
+   - Citation: Pakhomov, S. V., Pedersen, T., McInnes, B., Melton, G. B., Ruggieri, A., & Chute, C. G. (2011). Towards a framework for developing semantic relatedness reference standards. *Journal of Biomedical Informatics*, 44(2), 251-265.
+
+7. **TwiMed**: A comparable corpus of texts from PubMed and Twitter, containing 1,000 samples each.
+   - Citation: Alvaro, N., Miyao, Y., & Collier, N. (2017). TwiMed: Twitter and PubMed Comparable Corpus of Drugs, Diseases, Symptoms, and Their Relations. *JMIR Public Health Surveill*, 3(2), e24.
+
+8. **SMM4H**: A dataset for Adverse Drug Event normalization used in the SMM4H 2020 shared task.
+   - Citation: Gonzalez-Hernandez, G., Klein, A. Z., Flores, I., Weissenbacher, D., Magge, A., O'Connor, K., & Sarker, A. (2020). Proceedings of the Fifth Social Media Mining for Health Applications Workshop & Shared Task. Association for Computational Linguistics.
+
+9. **PsyTAR**: Contains patients’ expressions of effectiveness and adverse drug events associated with psychiatric medications.
+   - Citation: Zolnoori, M., Fung, K. W., Patrick, T. B., Fontelo, P., Kharrazi, H., Faiola, A., & Shah, N. D. (2019). The PsyTAR dataset: From patients generated narratives to a corpus of adverse drug events and effectiveness of psychiatric medications. *Data Brief*, 24, 103838.
+
+10. **CADEC**: A corpus of user-generated reviews of drugs annotated with adverse drug events.
+    - Citation: Karimi, S., Metke-Jimenez, A., Kemp, M., & Wang, C. (2015). CADEC: A corpus of adverse drug event annotations. *J Biomed Inform*, 55, 73-81.
+
+After identifying these datasets, I will ensure to compile their full citations accurately for inclusion in the final output. This structured approach will help in systematically extracting and documenting the datasets used in the research paper.

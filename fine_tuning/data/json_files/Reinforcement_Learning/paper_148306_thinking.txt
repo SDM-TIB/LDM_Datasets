@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Using Hindsight to Anchor Past Knowledge in Continual Learning" by Arslan Chaudhry et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract provides a brief overview of the research and may mention specific datasets used for evaluation. The introduction often elaborates on the context and significance of the datasets in relation to the research problem.
+
+Next, I will focus on the **experiments section**, specifically looking for any subsections that detail the datasets used. In this paper, the authors mention conducting experiments on four supervised classification benchmarks for continual learning: **Permuted MNIST**, **Rotated MNIST**, **Split CIFAR**, and **Split miniImageNet**. I will note down these datasets and their descriptions as they are crucial for understanding the experimental setup.
+
+For each dataset, I will gather the necessary details:
+1. **Permuted MNIST**: A variant of the MNIST dataset where each task applies a fixed random pixel permutation. It contains 23 tasks, each with 1000 samples from 10 different classes.
+2. **Rotated MNIST**: Another variant of MNIST where each task applies a fixed random image rotation (between 0 and 180 degrees). Similar to Permuted MNIST, it contains 23 tasks with 1000 samples from 10 classes.
+3. **Split CIFAR**: A variant of the CIFAR-100 dataset where each task contains data pertaining to 5 random classes (without replacement). This benchmark consists of 20 tasks, each with 250 samples per class.
+4. **Split miniImageNet**: A subset of the ImageNet dataset, containing a selection of images and classes. This benchmark also consists of 20 tasks, each with 250 samples per class.
+
+After identifying the datasets, I will check the **References section** to find the full citations for the original datasets used in the experiments. The citations are essential for proper attribution and to allow readers to access the datasets.
+
+The citations for the datasets are as follows:
+- **MNIST Dataset**: 
+  > Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. *The MNIST Database of Handwritten Digits*. 1998. Available at: http://yann.lecun.com/exdb/mnist/
+  
+- **CIFAR-100 Dataset**: 
+  > Alex Krizhevsky and Geoffrey Hinton. *Learning Multiple Layers of Features from Tiny Images*. 2009. Available at: https://www.cs.toronto.edu/~kriz/cifar.html
+  
+- **ImageNet Dataset**: 
+  > Olga Russakovsky, Jia Deng, Hao Sheng, et al. *ImageNet Large Scale Visual Recognition Challenge*. International Journal of Computer Vision, 115(3): 211–252, 2015. Available at: https://arxiv.org/abs/1409.0575
+
+Now, I will compile the dataset entries, ensuring to include the dataset names, descriptions, and full citations in a structured format for clarity and completeness. This will provide a comprehensive overview of the datasets used in the research paper.

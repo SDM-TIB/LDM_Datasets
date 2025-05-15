@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Learning to forecast vegetation greenness at fine resolution over Africa with ConvLSTMs" by Claire Robin et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the authors use **Sentinel-2 satellite NDVI**, **ERA5 weather reanalysis**, **SMAP satellite measurements**, and **topography (DEM of SRTMv4.1)** as variables for their predictions. This suggests that these datasets are crucial for their research.
+
+Next, I will focus on the **methodology section**, particularly the **dataset description** part, which is likely to provide detailed information about the datasets used. In this section, the authors describe their dataset as containing **over 40,000 samples**, referred to as **minicubes**, which consist of high-resolution satellite imagery and various environmental variables. They specify that the data spans from **2016 to 2021** and includes multiple sources.
+
+The key datasets mentioned in the paper are:
+
+1. **Sentinel-2 Satellite Imagery**: This dataset includes reflectance bands (red, blue, green, and near-infrared) used to compute the Normalized Difference Vegetation Index (NDVI). The authors note that this dataset is crucial for vegetation health monitoring.
+
+2. **ERA5 Weather Reanalysis**: This dataset provides various weather variables such as surface pressure, net solar radiation, temperature, and precipitation, which are used to guide the predictions.
+
+3. **SMAP Satellite Measurements**: This dataset includes soil moisture data, which is essential for understanding vegetation dynamics.
+
+4. **Topography from SRTMv4.1 DEM**: This dataset provides elevation data, which is used to inform the model about the terrain.
+
+After identifying these datasets, I will check the **References section** for full citations. The relevant citations are:
+
+- For **Sentinel-2**:
+  > Matthias Drusch, Umberto Del Bello, Sébastien Carlier, Olivier Colin, Veronica Fernandez, Ferran Gascon, Bianca Hoersch, Claudia Isola, Paolo Laberinti, Philippe Martimort, et al. *Sentinel-2: ESA’s optical high-resolution mission for GMES operational services*. Remote Sensing of Environment, 120:25–36, 2012.
+
+- For **ERA5**:
+  > Hans Hersbach, Bill Bell, Paul Berrisford, Shoji Hirahara, András Horányi, Joaquín Muñoz-Sabater, Julien Nicolas, Carole Peubey, Raluca Radu, Dinand Schepers, et al. *The ERA5 global reanalysis*. Quarterly Journal of the Royal Meteorological Society, 146(730):1999–2049, 2020.
+
+- For **SMAP**:
+  > Dara Entekhabi, Eni G Njoku, Peggy E O’Neill, Kent H Kellogg, Wade T Crow, Wendy N Edelstein, Jared K Entin, Shawn D Goodman, Thomas J Jackson, Joel Johnson, et al. *The Soil Moisture Active Passive (SMAP) mission*. Proceedings of the IEEE, 98(5):704–716, 2010.
+
+- For **SRTMv4.1 DEM**:
+  > Hannes Isaak Reuter, Andy Nelson, and Andrew Jarvis. *An evaluation of void-filling interpolation methods for SRTM data*. International Journal of Geographical Information Science, 21(9):983–1008, 2007.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

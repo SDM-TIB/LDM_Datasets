@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Optimal design of experiments in the context of machine-learning inter-atomic potentials: improving the efficiency and transferability of kernel based methods" by Bartosz Barzdajn and Christopher P. Race, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to identify any datasets mentioned. The abstract provides a general overview, but I need to look for specific mentions of datasets in the body of the paper.
+
+In the **introduction**, the authors discuss the challenges of training data for machine learning models in atomistic simulations, but they do not mention specific datasets yet. I will continue to the **methodology** section, where they describe the creation of a training database for Gaussian Approximation Potentials (GAP).
+
+In **section 3 (Numerical (in silico) experiment)**, the authors mention that they generated a training database consisting of **1000 examples** of elastically deformed structures, specifically including hcp, fcc, and bcc structures. This indicates that they have created a dataset for their experiments.
+
+Next, I will check the **references section** to find any citations related to the datasets used. The authors mention using DFT (Density Functional Theory) methods implemented in VASP for generating reference data, but they do not provide a specific dataset citation for the elastically deformed structures.
+
+Since the paper does not provide a formal dataset citation for the training examples, I will note that the dataset is based on the authors' own generation of atomic configurations and energies using DFT methods. However, I will still provide a citation for the VASP software used to generate the reference data.
+
+The citation for VASP is:
+> G. Kresse and J. Furthmüller. *Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set*. Physical Review B, 54(16):11169–11186, 1996. DOI: 10.1103/PhysRevB.54.11169.
+
+Now, I will summarize the datasets identified:
+
+1. **Training Database for GAP**: A dataset consisting of 1000 examples of elastically deformed structures (hcp, fcc, and bcc).
+   - Citation: Not formally cited, based on authors' generation.
+
+2. **Reference Data from DFT**: Data generated using VASP for training sets.
+   - Citation: G. Kresse and J. Furthmüller. *Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set*. Physical Review B, 54(16):11169–11186, 1996. DOI: 10.1103/PhysRevB.54.11169.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

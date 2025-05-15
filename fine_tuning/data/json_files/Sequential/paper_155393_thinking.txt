@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Robust Portfolio Design and Stock Price Prediction Using an Optimized LSTM Model" by Jaydip Sen, Saikat Mondal, and Gourab Nath, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that stock prices were extracted from the web for a specific time period, which suggests that there is a dataset involved.
+
+Next, I will focus on **Section III (Data and Methodology)**, where the authors describe the data acquisition process. They mention that stock prices for the top stocks in four sectors were extracted from Yahoo Finance from January 1, 2016, to June 1, 2021. This indicates that the dataset is based on historical stock prices for these sectors.
+
+In **Section III.A (Choosing the Sectors)**, the authors specify the four sectors: financial services, oil and gas, pharmaceuticals, and public sector unit (PSU) banks. They also mention that the ten most significant stocks from each sector were identified based on a report published by the NSE on June 30, 2021. This provides context for the dataset but does not give specific dataset names.
+
+In **Section III.B (Data Acquisition)**, the authors detail how they used the `DataReader` function from the `pandas_datareader` module to extract stock prices. They specify that the dataset includes stock prices from January 1, 2016, to December 31, 2020, for building portfolios, and prices up to June 1, 2021, for testing.
+
+Now, I will compile the details of the datasets mentioned:
+
+1. **Stock Price Dataset**: This dataset includes historical stock prices for the top stocks in the four sectors (financial services, oil and gas, pharmaceuticals, PSU banks) from January 1, 2016, to June 1, 2021. The dataset is derived from Yahoo Finance.
+
+Next, I will check the **References section** for any citations related to the datasets. However, the paper does not provide specific citations for the datasets used, as they are based on publicly available data from Yahoo Finance and the NSE.
+
+Since the dataset is based on publicly available stock prices, I will note that the dataset does not have a formal citation but can be referenced as follows:
+
+- **Stock Price Dataset**: Historical stock prices for significant stocks in the financial services, oil and gas, pharmaceuticals, and PSU banks sectors, extracted from Yahoo Finance (January 1, 2016 - June 1, 2021).
+
+Finally, I will summarize the dataset information clearly, ensuring that I include the relevant time frame and source for the dataset. This will help in understanding the context and usage of the dataset in the research paper.

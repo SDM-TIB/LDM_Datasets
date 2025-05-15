@@ -1,0 +1,222 @@
+[
+    {
+        "dcterms:creator": [
+            "G. D. Konidaris",
+            "A. G. Barto"
+        ],
+        "dcterms:description": "A continuous state domain where the agent must navigate a ball through a set of obstacles to reach the main goal, with a four-dimensional state space consisting of (x, y, ˙x, ˙y) positions and velocities.",
+        "dcterms:title": "PinBall",
+        "dcterms:issued": "2009",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Continuous State Space"
+        ],
+        "dcat:keyword": [
+            "Navigation",
+            "Obstacle Avoidance",
+            "Continuous State Domain"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Navigation",
+            "Goal Achievement"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "G. D. Konidaris",
+            "A. G. Barto"
+        ],
+        "dcterms:description": "A grid world environment where the agent can choose from one of 4 actions in a discrete action space, with deterministic state transitions.",
+        "dcterms:title": "FourRooms",
+        "dcterms:issued": "2009",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Discrete Action Space"
+        ],
+        "dcat:keyword": [
+            "Grid World",
+            "Deterministic Transitions",
+            "Navigation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Navigation",
+            "Goal Achievement"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "G. D. Konidaris",
+            "A. G. Barto"
+        ],
+        "dcterms:description": "A modified version of the PinBall environment that removes the velocity components, facilitating visualization and analysis.",
+        "dcterms:title": "GridBall",
+        "dcterms:issued": "2009",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Discrete Action Space"
+        ],
+        "dcat:keyword": [
+            "Grid World",
+            "Obstacle Avoidance",
+            "Visualization"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Navigation",
+            "Goal Achievement"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "T. Schaul",
+            "D. Horgan",
+            "K. Gregor",
+            "D. Silver"
+        ],
+        "dcterms:description": "A framework for approximating value functions that can generalize across different states and actions, allowing for efficient learning in reinforcement learning tasks.",
+        "dcterms:title": "Universal Value Function Approximators (UVFAs)",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Value Function Approximation"
+        ],
+        "dcat:keyword": [
+            "Generalization",
+            "Value Function",
+            "Reinforcement Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Value Function Approximation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. S. Sutton"
+        ],
+        "dcterms:description": "A classic reinforcement learning framework that integrates model-based and model-free learning, allowing agents to learn from both real and simulated experiences.",
+        "dcterms:title": "Dyna",
+        "dcterms:issued": "1991",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Model-Based Learning"
+        ],
+        "dcat:keyword": [
+            "Model-Based Learning",
+            "Reinforcement Learning",
+            "Planning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Planning",
+            "Learning from Simulation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. S. Sutton",
+            "A. G. Barto"
+        ],
+        "dcterms:description": "A foundational text in reinforcement learning that covers various algorithms and concepts, including temporal difference learning and eligibility traces.",
+        "dcterms:title": "Sarsa(λ)",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Temporal Difference Learning"
+        ],
+        "dcat:keyword": [
+            "Temporal Difference Learning",
+            "Eligibility Traces",
+            "Reinforcement Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Policy Learning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. van Hasselt",
+            "A. Guez",
+            "D. Silver"
+        ],
+        "dcterms:description": "An approach to deep reinforcement learning that addresses the overestimation bias in Q-learning by using two separate value functions.",
+        "dcterms:title": "Double DQN",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Deep Learning"
+        ],
+        "dcat:keyword": [
+            "Deep Q-Learning",
+            "Overestimation Bias",
+            "Reinforcement Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Policy Learning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "C. Lo",
+            "K. Roice",
+            "P. M. Panahi",
+            "S. Jordan",
+            "A. White",
+            "G. Mihucz",
+            "F. Aminmansour"
+        ],
+        "dcterms:description": "A framework for planning in reinforcement learning that utilizes subgoal models to improve efficiency and effectiveness in learning.",
+        "dcterms:title": "Goal-Space Planning (GSP)",
+        "dcterms:issued": "2024",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Planning"
+        ],
+        "dcat:keyword": [
+            "Subgoal Models",
+            "Planning",
+            "Reinforcement Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Planning",
+            "Goal Achievement"
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+To extract datasets from the research paper titled "CharacterBERT: Reconciling ELMo and BERT for Word-Level Open-Vocabulary Representations From Characters" by Hicham El Boukkouri et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses the development of CharacterBERT and its evaluation on medical domain tasks, which suggests that specific datasets may be used for these evaluations.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors typically describe the datasets used for training and evaluation. In this section, they mention the use of two main corpora for pre-training their models:
+
+1. **MIMIC-III**: A freely accessible critical care database that contains clinical notes and is widely used in medical research.
+2. **PMC OA (PubMed Central Open Access)**: A collection of biomedical article abstracts that is also utilized for training their medical-domain models.
+
+I will also check **Table 2** in the paper, which provides statistics on the pre-training corpora, confirming the use of MIMIC-III and PMC OA abstracts.
+
+Next, I will look for any additional datasets mentioned in the **evaluation tasks** section (4.3). The authors evaluate their models on several medical tasks, each associated with specific datasets:
+
+- **i2b2/VA 2010**: A dataset for clinical concept extraction.
+- **MEDNLI**: A dataset for natural language inference in clinical texts.
+- **ChemProt**: A dataset for biomedical relation classification focusing on chemical-protein interactions.
+- **DDI**: A dataset for drug-drug interaction classification.
+- **ClinicalSTS**: A dataset for clinical semantic textual similarity.
+
+Now, I will gather the full citations for each dataset mentioned in the paper. I will refer to the references section to find the appropriate citations:
+
+1. **MIMIC-III**:
+   > Johnson, A. E. W., Pollard, T. J., Shen, L., Li-wei, H. L., Feng, M., Ghassemi, M., Moody, B., Szolovits, P., Celi, L. A., & Mark, R. G. (2016). MIMIC-III, a freely accessible critical care database. *Scientific Data*, 3, 160035.
+
+2. **PMC OA**:
+   > No specific citation is provided in the references for PMC OA, but it is generally recognized as a resource from PubMed Central.
+
+3. **i2b2/VA 2010**:
+   > Uzuner, Ö., South, B. R., Shen, S., & DuVall, S. L. (2011). 2010 i2b2/VA challenge on concepts, assertions, and relations in clinical text. *Journal of the American Medical Informatics Association*, 18(5), 552-556.
+
+4. **MEDNLI**:
+   > Romanov, A., & Shivade, C. (2018). Lessons from natural language inference in the clinical domain. In *Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing* (pp. 1586-1596).
+
+5. **ChemProt**:
+   > Krallinger, M., Rabal, O., Akhondi, S. A., et al. (2017). Overview of the BioCreative VI chemical-protein interaction track. In *Proceedings of the sixth BioCreative challenge evaluation workshop* (Vol. 1, pp. 141-146).
+
+6. **DDI**:
+   > Herrero-Zazo, M., Segura-Bedmar, I., Martínez, P., & Declerck, T. (2013). The DDI corpus: An annotated corpus with pharmacological substances and drug–drug interactions. *Journal of Biomedical Informatics*, 46(5), 914-920.
+
+7. **ClinicalSTS**:
+   > Wang, Y., Afzal, N., Fu, S., Liu, M., Rastegar-Mojarad, M., Wang, L., & Liu, H. (2018). Overview of the BioCreative/OHNLP challenge 2018 task 2: clinical semantic textual similarity. *Proceedings of the BioCreative/OHNLP Challenge*, 2018.
+
+After gathering all this information, I will compile the dataset entries with their respective citations, ensuring that each dataset is accurately represented and properly cited for future reference or processing.

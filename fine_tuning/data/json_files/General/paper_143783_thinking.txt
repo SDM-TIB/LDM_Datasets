@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Hyperspectral Image Reconstruction for Predicting Chick Embryo Mortality Towards Advancing Egg and Hatchery Industry" by Md. Toukir Ahmed et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, materials and methods, and results sections** to identify any datasets mentioned. The abstract discusses the use of hyperspectral imaging for egg quality analysis, which suggests that there may be datasets related to egg imaging or embryo mortality.
+
+In the **introduction**, the authors mention the use of hyperspectral imaging (HSI) and its potential applications in the egg and hatchery industry. They highlight the need for non-destructive techniques, which may imply the existence of datasets related to egg quality or embryo status.
+
+Next, I will focus on the **materials and methods section**, particularly the subsections that describe sample preparation and image acquisition. Here, the authors state that they collected **102 white-shell chicken eggs** from the UIUC poultry farm, which indicates that this is a dataset of interest. They also mention that **306 hyperspectral images** were obtained for analysis, which is another dataset.
+
+I will also look for any specific datasets used for training or validation of the reconstruction algorithms. The authors mention using **RGB images** as inputs for reconstruction and constructing **ground-truth hypercubes** from selected wavelengths in the VIS-NIR spectrum. This suggests that there are datasets related to both RGB images and hyperspectral data.
+
+Now, I will check the **results section** to see if the authors provide any additional details about the datasets used for classification or evaluation. They mention using **XGBoost and Random Forest classification methods** on the reconstructed spectra, which may imply that the datasets used for these analyses are derived from the previously mentioned images.
+
+Finally, I will consult the **references section** to find full citations for any datasets mentioned. The authors reference several studies related to hyperspectral imaging and egg quality, which may provide authoritative citations for the datasets they utilized.
+
+Based on this analysis, I will compile the following datasets:
+
+1. **Dataset of White-Shell Chicken Eggs**: This dataset consists of 102 eggs collected from the UIUC poultry farm for the study.
+   - Citation: Not explicitly provided in the paper; I will note that it is an original dataset collected by the authors.
+
+2. **Hyperspectral Images Dataset**: This dataset includes 306 hyperspectral images obtained from the eggs during the early incubation period.
+   - Citation: Not explicitly provided in the paper; I will note that it is an original dataset collected by the authors.
+
+3. **Ground-Truth Hypercubes**: These are constructed from selected wavelengths in the VIS-NIR spectrum for training the reconstruction algorithms.
+   - Citation: Not explicitly provided in the paper; I will note that it is derived from the hyperspectral images dataset.
+
+After gathering this information, I will ensure to document the datasets clearly, emphasizing the importance of citing original sources where applicable, even if they are original datasets created by the authors themselves. This will help maintain academic integrity and provide context for future researchers interested in this work.

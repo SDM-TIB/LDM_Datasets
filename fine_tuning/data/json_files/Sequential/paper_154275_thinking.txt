@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Knowledge Graph-based Question Answering with Electronic Health Records" by Junwoo Park et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to locate any references to datasets. The abstract mentions the creation of **four EHR QA datasets**, which indicates that datasets are a significant part of the research.
+
+Next, I will focus on **section 3 (Dataset)**, where the authors describe the datasets in detail. They specifically mention two datasets that they constructed:
+
+1. **MIMICSQL***: This dataset is a modified version of the original MIMICSQL dataset, which preserves the true structure of MIMIC-III. It is designed for table-based question answering.
+
+2. **MIMIC-SPARQL***: This dataset is created for graph-based question answering and is derived from the MIMICSQL* dataset. It consists of NLQ-SPARQL pairs, which are used to evaluate the performance of the graph-based approach.
+
+In the **experiments section**, the authors confirm that they used both **MIMICSQL*** and **MIMIC-SPARQL*** for their evaluations, which reinforces their significance in the study.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **MIMIC-III**, which is the original dataset used to create MIMICSQL and MIMICSQL*, the citation is:
+  > Alistair E.W. Johnson, Tom J. Pollard, Lu Shen, H. Lehman Li-wei, Mengling Feng, Mohammad Ghassemi, Benjamin Moody, Peter Szolovits, Leo Anthony Celi, and Roger G. Mark. *MIMIC-III, a freely accessible critical care database*. Scientific Data, 3:160035, 2016.
+
+- For **MIMICSQL**, the citation is:
+  > Ping Wang, Tian Shi, and Chandan K. Reddy. *Text-to-sql generation for question answering on electronic medical records*. In Proceedings of the International Conference on World Wide Web (WWW), 2020.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

@@ -1,0 +1,19 @@
+To extract the datasets from the research paper titled "Camera Calibration Through Camera Projection Loss" by Talha Hanif Butt and Murtaza Taj, I will follow a systematic approach.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the authors propose a novel dataset called the **CVGL Camera Calibration dataset** generated using the CARLA Simulator. This is a clear indication that a dataset is involved.
+
+Next, I will look into the **results and evaluation** section, specifically **section 3.1 (Datasets)**, where the authors provide detailed information about the datasets used in their experiments. They mention two datasets:
+
+1. **CVGL Camera Calibration Dataset**: This dataset is generated using Town 1 and Town 2 of the CARLA Simulator. It consists of 50 camera configurations, with a total of 1,23,017 image pairs, where Town 1 has 58,596 images and Town 2 has 64,421 images. The parameters modified for generating the configurations include field of view, translation, and rotation.
+
+2. **Cyclist Detection Dataset**: This dataset is used for evaluating the proposed approach on real-world data. The authors mention using the test set provided by the authors of this dataset, which contains 2,914 images.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **CVGL Camera Calibration Dataset**, the authors reference the CARLA Simulator, which is cited as:
+  > Alexey Dosovitskiy, German Ros, Felipe Codevilla, Antonio Lopez, and Vladlen Koltun. *CARLA: An open urban driving simulator*. In 1st Annual Conference on Robot Learning, 2017, pp. 1–16.
+
+- For the **Cyclist Detection Dataset**, the citation is:
+  > Xiaofei Li, Fabian Flohr, Yue Yang, Hui Xiong, Markus Braun, Shuyue Pan, Keqiang Li, and Dariu M Gavrila. *A new benchmark for vision-based cyclist detection*. In IEEE Intelligent Vehicles Symposium, 2016, pp. 1028–1033.
+
+With this information, I can now compile the dataset entries, ensuring that I include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research paper.

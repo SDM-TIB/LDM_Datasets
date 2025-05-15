@@ -1,0 +1,450 @@
+[
+    {
+        "dcterms:creator": [
+            "X. Dong",
+            "J. Shen"
+        ],
+        "dcterms:description": "The Triplet Loss was introduced for Siamese networks to compare a given input to a positive and a negative input, maximizing association between positively associated inputs while minimizing those of negative ones.",
+        "dcterms:title": "Triplet Loss",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Deep Learning",
+            "Object Tracking"
+        ],
+        "dcat:keyword": [
+            "Siamese networks",
+            "Triplet loss",
+            "Object tracking"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Object Tracking"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "T.-Y. Lin",
+            "P. Goyal",
+            "R. Girshick",
+            "K. He",
+            "P. Dollár"
+        ],
+        "dcterms:description": "Focal Loss focuses learning on hard misclassified samples by altering the cross-entropy loss, adding a factor to prioritize difficult examples.",
+        "dcterms:title": "Focal Loss",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Deep Learning",
+            "Object Detection"
+        ],
+        "dcat:keyword": [
+            "Focal loss",
+            "Cross-entropy",
+            "Object detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Object Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "P. Khosla",
+            "P. Teterwak",
+            "C. Wang",
+            "A. Sarna",
+            "Y. Tian",
+            "P. Isola",
+            "A. Maschinot",
+            "C. Liu",
+            "D. Krishnan"
+        ],
+        "dcterms:description": "Supervised Contrastive Loss pulls together clusters of points of the same class in embedding space and pushes samples of different classes apart, leveraging label information more effectively than cross-entropy loss.",
+        "dcterms:title": "Supervised Contrastive Loss",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Deep Learning",
+            "Contrastive Learning"
+        ],
+        "dcat:keyword": [
+            "Contrastive loss",
+            "Supervised learning",
+            "Embedding space"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Representation Learning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J.-Y. Zhu",
+            "T. Park",
+            "P. Isola",
+            "A. A. Efros"
+        ],
+        "dcterms:description": "Cycle Consistency Loss is tailored towards unpaired image-to-image translation of generative adversarial networks, supporting the learning of mappings between two image domains.",
+        "dcterms:title": "Cycle Consistency Loss",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Deep Learning",
+            "Image Translation"
+        ],
+        "dcat:keyword": [
+            "Cycle consistency",
+            "Image-to-image translation",
+            "Generative adversarial networks"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Image Translation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J.-B. Grill",
+            "F. Strub",
+            "F. Altch\'e",
+            "C. Tallec",
+            "P. Richemond",
+            "E. Buchatskaya",
+            "C. Doersch",
+            "B. Avila Pires",
+            "Z. Guo",
+            "M. Gheshlaghi Azar"
+        ],
+        "dcterms:description": "Bootstrap Your Own Latent (BYOL) uses an online and a target network to predict the target network’s representation given an augmentation of the same input.",
+        "dcterms:title": "Bootstrap Your Own Latent (BYOL)",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Deep Learning",
+            "Self-Supervised Learning"
+        ],
+        "dcat:keyword": [
+            "Self-supervised learning",
+            "Latent representation",
+            "Online learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Representation Learning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Sohn",
+            "D. Berthelot",
+            "N. Carlini",
+            "Z. Zhang",
+            "H. Zhang",
+            "C. A. Raffel",
+            "E. D. Cubuk",
+            "A. Kurakin",
+            "C.-L. Li"
+        ],
+        "dcterms:description": "FixMatch predicts the label of a weakly-augmented image and trains the model to produce the same label for the strongly-augmented version if the confidence is above a threshold.",
+        "dcterms:title": "FixMatch",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Deep Learning",
+            "Semi-Supervised Learning"
+        ],
+        "dcat:keyword": [
+            "Semi-supervised learning",
+            "Consistency training",
+            "Confidence-based learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Q. Xie",
+            "M.-T. Luong",
+            "E. Hovy",
+            "Q. V. Le"
+        ],
+        "dcterms:description": "Noisy Student improves ImageNet classification by self-training a model on labeled data and generating pseudo labels for unlabeled images.",
+        "dcterms:title": "Noisy Student",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Deep Learning",
+            "Self-Training"
+        ],
+        "dcat:keyword": [
+            "Self-training",
+            "Noisy student",
+            "Image classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "M. Lewis",
+            "Y. Liu",
+            "N. Goyal",
+            "M. Ghazvininejad",
+            "A. Mohamed",
+            "O. Levy",
+            "V. Stoyanov",
+            "L. Zettlemoyer"
+        ],
+        "dcterms:description": "BART is a denoising autoencoder for pretraining sequence-to-sequence models, effective for language generation, translation, and comprehension.",
+        "dcterms:title": "BART",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Language Generation"
+        ],
+        "dcat:keyword": [
+            "Denoising autoencoder",
+            "Sequence-to-sequence",
+            "Language generation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Text Generation",
+            "Translation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Dosovitskiy",
+            "L. Beyer",
+            "A. Kolesnikov",
+            "D. Weissenborn",
+            "X. Zhai",
+            "T. Unterthiner",
+            "M. Dehghani",
+            "M. Minderer",
+            "G. Heigold",
+            "S. Gelly"
+        ],
+        "dcterms:description": "The Vision Transformer processes images by partitioning them into small patches, which are then flattened and linearly embedded for further processing.",
+        "dcterms:title": "Vision Transformer",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:2010.11929",
+        "dcat:theme": [
+            "Computer Vision",
+            "Image Recognition"
+        ],
+        "dcat:keyword": [
+            "Transformers",
+            "Image processing",
+            "Patch-based representation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Chowdhery",
+            "S. Narang",
+            "J. Devlin",
+            "M. Bosma",
+            "G. Mishra",
+            "A. Roberts",
+            "P. Barham",
+            "H. W. Chung",
+            "C. Sutton",
+            "S. Gehrmann"
+        ],
+        "dcterms:description": "PaLM is a large language model that scales language modeling with pathways, achieving state-of-the-art results in various NLP tasks.",
+        "dcterms:title": "PaLM",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:2204.02311",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Language Modeling"
+        ],
+        "dcat:keyword": [
+            "Large language model",
+            "Pathways",
+            "NLP"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Language Modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Google"
+        ],
+        "dcterms:description": "PaLM 2 is the successor to PaLM, featuring improved performance and a focus on diverse languages and domains.",
+        "dcterms:title": "PaLM 2",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://ai.google/static/documents/palm2techreport.pdf",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Language Modeling"
+        ],
+        "dcat:keyword": [
+            "Language model",
+            "Diversity",
+            "NLP"
+        ],
+        "dcat:landingPage": "https://ai.google/static/documents/palm2techreport.pdf",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Language Modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "T. N. Kipf",
+            "M. Welling"
+        ],
+        "dcterms:description": "Graph Convolutional Networks use CNNs for semi-supervised learning on graph-structured data, approximating spectral graph convolutions.",
+        "dcterms:title": "Graph Convolutional Networks",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1609.02907",
+        "dcat:theme": [
+            "Graph Neural Networks",
+            "Semi-Supervised Learning"
+        ],
+        "dcat:keyword": [
+            "Graph convolution",
+            "Semi-supervised learning",
+            "Graph data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "P. Veličković",
+            "G. Cucurull",
+            "A. Casanova",
+            "A. Romero",
+            "P. Lio",
+            "Y. Bengio"
+        ],
+        "dcterms:description": "Graph Attention Networks use masked self-attention layers to allow nodes to attend flexibly over their neighborhoods’ features, assigning different importances to nodes.",
+        "dcterms:title": "Graph Attention Networks",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1710.10903",
+        "dcat:theme": [
+            "Graph Neural Networks",
+            "Attention Mechanisms"
+        ],
+        "dcat:keyword": [
+            "Graph attention",
+            "Node features",
+            "Self-attention"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "I. Balažević",
+            "C. Allen",
+            "T. M. Hospedales"
+        ],
+        "dcterms:description": "TuckER performs tensor factorization for knowledge graph completion, predicting relationships between entities represented as triplets.",
+        "dcterms:title": "TuckER",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1901.09590",
+        "dcat:theme": [
+            "Knowledge Graphs",
+            "Link Prediction"
+        ],
+        "dcat:keyword": [
+            "Tensor factorization",
+            "Knowledge graph",
+            "Link prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Knowledge Graph Completion"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Z. Sun",
+            "Z.-H. Deng",
+            "J.-Y. Nie",
+            "J. Tang"
+        ],
+        "dcterms:description": "RotatE models relational properties in knowledge graphs by embedding entities into a complex space and treating relations as rotations.",
+        "dcterms:title": "RotatE",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1902.10197",
+        "dcat:theme": [
+            "Knowledge Graphs",
+            "Link Prediction"
+        ],
+        "dcat:keyword": [
+            "Knowledge graph embedding",
+            "Relational rotation",
+            "Link prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Knowledge Graph Completion"
+        ]
+    }
+]

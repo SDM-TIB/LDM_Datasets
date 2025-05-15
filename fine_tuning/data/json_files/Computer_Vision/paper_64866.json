@@ -1,0 +1,110 @@
+[
+    {
+        "dcterms:creator": [
+            "W. Hamilton",
+            "Z. Ying",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "A widely used benchmark data for graph learning, which is a citation network, where each node represents a research paper, and edges denote the citation relation. Node features are extracted from the abstract of the paper.",
+        "dcterms:title": "Cora",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Learning",
+            "Citation Networks"
+        ],
+        "dcat:keyword": [
+            "Citation network",
+            "Research papers",
+            "Graph learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Hamilton",
+            "Z. Ying",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "Another citation network used frequently in GNN literature. It follows a similar structure to the Cora dataset, where each node represents a scientific document, and the edges are citation information between them. The node features are derived from the text of the documents.",
+        "dcterms:title": "CiteSeer",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Learning",
+            "Citation Networks"
+        ],
+        "dcat:keyword": [
+            "Citation network",
+            "Scientific documents",
+            "Graph learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Hamilton",
+            "Z. Ying",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "A citation network composed of scientific papers related to biomedicine. As with the other datasets, nodes represent documents, and edges indicate citation relationships. Node features correspond to term frequency-inverse document frequency (TF-IDF) representations of the documents.",
+        "dcterms:title": "PubMed",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Learning",
+            "Citation Networks"
+        ],
+        "dcat:keyword": [
+            "Citation network",
+            "Biomedical papers",
+            "Graph learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Hamilton",
+            "Z. Ying",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "A subset of the full Cora dataset, retaining the same structure but restricted to documents and citations within the field of machine learning. The node features are the bag-of-words representation for the papers.",
+        "dcterms:title": "FullCoraML",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Learning",
+            "Citation Networks"
+        ],
+        "dcat:keyword": [
+            "Citation network",
+            "Machine learning papers",
+            "Graph learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Node Classification"
+        ]
+    }
+]

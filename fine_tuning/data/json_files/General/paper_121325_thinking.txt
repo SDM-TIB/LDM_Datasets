@@ -1,0 +1,46 @@
+To extract datasets from the research paper titled "Learning-Rate-Free Learning by D-Adaptation" by Aaron Defazio and Konstantin Mishchenko, I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the research, and the introduction often outlines the context and significance of the datasets used.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for their experiments. In this paper, the authors mention several machine learning problems and datasets, particularly in the context of their experiments with D-Adaptation.
+
+I will look for specific mentions of datasets in the following subsections:
+
+1. **Convex Problems**: The authors refer to using **12 benchmark problems from the LIBSVM repository**. I will note this as a dataset.
+   
+2. **Convolutional Image Classification**: The authors mention using **CIFAR10, CIFAR100, and ImageNet 2012** datasets. I will extract these names and details.
+
+3. **LSTM Recurrent Neural Networks**: The paper references the **IWSLT14 German-to-English dataset** for benchmarking machine translation models.
+
+4. **Object Detection**: The authors mention using the **COCO 2017 dataset** for training a Faster R-CNN model.
+
+5. **fastMRI**: The **fastMRI Knee Dataset** is mentioned as a large-scale release of raw MRI data.
+
+6. **Recommendation Systems**: The **Criteo Kaggle Display Advertising dataset** is referenced for the DLRM model.
+
+After identifying these datasets, I will check the **References section** for full citations of each dataset. This is crucial for proper attribution and to provide context for future researchers.
+
+The full citations I will extract are:
+
+- For **LIBSVM**: 
+  > Chang, C.-C., & Lin, C.-J. (2011). *LIBSVM: A library for support vector machines*. ACM Transactions on Intelligent Systems and Technology, 2(3), 1-27.
+
+- For **CIFAR10** and **CIFAR100**:
+  > Krizhevsky, A. (2009). *Learning multiple layers of features from tiny images*. Technical Report, University of Toronto.
+
+- For **ImageNet 2012**:
+  > Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., ... & Fei-Fei, L. (2015). *ImageNet Large Scale Visual Recognition Challenge*. International Journal of Computer Vision, 115(3), 211-252.
+
+- For **IWSLT14**:
+  > Cettolo, M., Niehues, J., Stüker, S., Bentivogli, L., & Federico, M. (2014). *Report on the 11th IWSLT evaluation campaign*. In IWSLT.
+
+- For **COCO 2017**:
+  > Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., ... & Dollár, P. (2014). *Microsoft COCO: Common objects in context*. In European Conference on Computer Vision (ECCV).
+
+- For **fastMRI**:
+  > Zbontar, J., Knoll, F., Sriram, A., Muckley, M. J., Bruno, M., Defazio, A., ... & Sodickson, D. K. (2020). *fastMRI: A publicly available raw k-space and DICOM dataset of knee images for accelerated MR image reconstruction using machine learning*. Radiology: Artificial Intelligence, 2(1), e190007.
+
+- For **Criteo Kaggle**:
+  > Criteo. (2014). *Criteo Display Advertising Challenge Dataset*. Retrieved from https://www.kaggle.com/c/criteo-display-ad-challenge.
+
+Finally, I will compile this information into a structured format that clearly outlines each dataset, its description, and the corresponding citation. This will ensure that the datasets are properly documented for future reference and use in research.

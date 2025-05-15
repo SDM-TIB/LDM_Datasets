@@ -1,0 +1,240 @@
+[
+    {
+        "dcterms:creator": [
+            "Andreas Geiger",
+            "Philip Lenz",
+            "Christoph Stiller",
+            "Raquel Urtasun"
+        ],
+        "dcterms:description": "The KITTI dataset consists of calibrated RGB images with synchronized point clouds from Velodyne lidar, inertial, and GPS information, and from more than 61 driving scenes. It contains approximately 80K raw image frames and associated sparse depth maps.",
+        "dcterms:title": "KITTI",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Autonomous Driving",
+            "Depth Completion"
+        ],
+        "dcat:keyword": [
+            "RGB images",
+            "Lidar",
+            "Sparse depth maps"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Depth Completion"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Adrien Gaidon",
+            "Qiao Wang",
+            "Yohann Cabon",
+            "Eleonora Vig"
+        ],
+        "dcterms:description": "Virtual KITTI contains approximately 17K images from 35 synthetic videos created by applying variations in weather, lighting, or camera angle to cloned KITTI videos. It includes dense depth maps and simulates KITTI's lidar-generated sparse depth measurements.",
+        "dcterms:title": "Virtual KITTI",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Autonomous Driving",
+            "Depth Completion"
+        ],
+        "dcat:keyword": [
+            "Synthetic data",
+            "Depth maps",
+            "Domain adaptation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Depth Completion"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Holger Caesar",
+            "Varun Bankiti",
+            "Alex H Lang",
+            "Sourabh Vora",
+            "Venice Erin Liong",
+            "Qiang Xu",
+            "Anush Krishnan",
+            "Yu Pan",
+            "Giancarlo Baldan",
+            "Oscar Beijbom"
+        ],
+        "dcterms:description": "nuScenes is a multi-modal dataset for autonomous driving, consisting of calibrated RGB images and synchronized sparse point clouds. It includes 27.4K images from 1000 outdoor driving scenes for training and 5.8K images from 150 scenes for testing.",
+        "dcterms:title": "nuScenes",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Autonomous Driving",
+            "Depth Completion"
+        ],
+        "dcat:keyword": [
+            "RGB images",
+            "Lidar",
+            "Sparse point clouds"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Depth Completion"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Alex Wong",
+            "Xiaohan Fei",
+            "Stephanie Tsuei",
+            "Stefano Soatto"
+        ],
+        "dcterms:description": "VOID contains synchronized RGB images and sparse depth maps from indoor and outdoor scenes. It is designed for depth completion tasks and includes challenging sequences captured with a rolling shutter.",
+        "dcterms:title": "VOID",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Depth Completion",
+            "Indoor and Outdoor Scenes"
+        ],
+        "dcat:keyword": [
+            "RGB images",
+            "Sparse depth maps",
+            "Visual Inertial Odometry"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Depth Completion"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Nathan Silberman",
+            "Derek Hoiem",
+            "Pushmeet Kohli",
+            "Rob Fergus"
+        ],
+        "dcterms:description": "NYUv2 contains synchronized RGB images and depth maps from indoor scenes, providing a rich dataset for depth completion tasks. It includes a diverse set of scenes from households, offices, and commercial types.",
+        "dcterms:title": "NYUv2",
+        "dcterms:issued": "2012",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Indoor Scenes",
+            "Depth Completion"
+        ],
+        "dcat:keyword": [
+            "RGB images",
+            "Depth maps",
+            "Indoor segmentation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Depth Completion"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "John McCormac",
+            "Ankur Handa",
+            "Stefan Leutenegger",
+            "Andrew J Davison"
+        ],
+        "dcterms:description": "SceneNet RGB-D provides photorealistic images of synthetic indoor trajectories with ground truth depth maps. It is designed for depth completion tasks and includes a large number of images.",
+        "dcterms:title": "SceneNet",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Data",
+            "Depth Completion"
+        ],
+        "dcat:keyword": [
+            "RGB images",
+            "Depth maps",
+            "Synthetic indoor scenes"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Depth Completion"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Angela Dai",
+            "Angel X Chang",
+            "Manolis Savva",
+            "Maciej Halber",
+            "Thomas Funkhouser",
+            "Matthias Nießner"
+        ],
+        "dcterms:description": "ScanNet is a richly-annotated dataset of 3D reconstructions of indoor scenes, providing dense depth maps for depth completion tasks. It includes a large number of images and annotations.",
+        "dcterms:title": "ScanNet",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Indoor Scenes",
+            "Depth Completion"
+        ],
+        "dcat:keyword": [
+            "3D reconstructions",
+            "Dense depth maps",
+            "Indoor segmentation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Depth Completion"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Pei Sun",
+            "Henrik Kretzschmar",
+            "Xerxes Dotiwalla",
+            "Aurelien Chouard",
+            "Vijaysai Patnaik",
+            "Paul Tsui",
+            "James Guo",
+            "Yin Zhou",
+            "Yuning Chai",
+            "Benjamin Caine"
+        ],
+        "dcterms:description": "The Waymo Open Dataset contains RGB images and lidar scans from autonomous vehicles, providing a large dataset for depth completion tasks. It includes a diverse set of scenes and annotations.",
+        "dcterms:title": "Waymo Open Dataset",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Autonomous Driving",
+            "Depth Completion"
+        ],
+        "dcat:keyword": [
+            "RGB images",
+            "Lidar scans",
+            "Autonomous vehicles"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Depth Completion"
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Software Vulnerability Prediction in Low-Resource Languages: An Empirical Study of CodeBERT and ChatGPT" by Triet Huynh Minh Le et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methods sections** to gather initial insights about the datasets. The abstract mentions that the study evaluates software vulnerability (SV) prediction in three low-resource languages: Kotlin, Swift, and Rust. This indicates that datasets related to these languages may be discussed.
+
+Next, I will focus on **section 4 (Case Study Setup)**, specifically **subsection 4.1 (Datasets)**, where the authors describe the datasets used for their experiments. Here, they mention that they curated SV data for Kotlin, Swift, and Rust using methods from CVEfixes, which is crucial for understanding the datasets' origins and characteristics.
+
+The authors explain that the data collection process involves analyzing SV-fixing commits, where functions containing changes are labeled as vulnerable or non-vulnerable. They also provide statistics about the number of vulnerable and non-vulnerable functions and lines for each language, which is essential for detailing the datasets.
+
+Now, I will compile the information about the datasets:
+
+1. **Kotlin SV Dataset**: Contains data on vulnerable functions and lines, with statistics indicating a limited number of vulnerable functions (20) and non-vulnerable functions (98).
+
+2. **Swift SV Dataset**: Similar to Kotlin, this dataset includes 36 vulnerable functions and 449 non-vulnerable functions.
+
+3. **Rust SV Dataset**: This dataset has 104 vulnerable functions and 8,091 non-vulnerable functions.
+
+Next, I will check the **References section** to find full citations for the datasets mentioned. The authors refer to the methods and tools from CVEfixes and Big-Vul, which are significant for understanding the datasets' context.
+
+The citation for the CVEfixes tool is:
+> Guru Bhandari, Amara Naseer, and Leon Moonen. *CVEfixes: automated collection of vulnerabilities and their fixes from open-source software*. In Proceedings of the 17th International Conference on Predictive Models and Data Analytics in Software Engineering, pages 30–39, 2021.
+
+The citation for the Big-Vul dataset is:
+> Michael Fu, Chakkrit Tantithamthavorn, Trung Le, Van Nguyen, and Dinh Phung. *VulRepair: A T5-based automated software vulnerability repair*. In Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering, pages 935–947, 2022.
+
+Finally, I will summarize the datasets and their citations in a structured format, ensuring that each dataset is clearly identified along with its full citation. This will provide a comprehensive overview of the datasets used in the study, ready for further processing or review.

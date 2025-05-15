@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "GRI: General Reinforced Imitation and its Application to Camera-Based Autonomous Driving" by Raphaël Chekroun et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions the use of a "perception dataset" and "pre-generated expert data," which indicates that there are datasets relevant to the study. The introduction further discusses the challenges of imitation learning and reinforcement learning, hinting at the need for annotated datasets.
+
+Next, I will look for a dedicated **datasets section** or any relevant subsections that detail the datasets used in the experiments. In this paper, the authors describe two key datasets:
+
+1. **Perception Dataset**: This dataset consists of 400,000 samples generated using the CARLA autopilot, which corresponds to 44 hours of driving. Each sample includes three images from three cameras and corresponding ground truth information, such as segmentation maps and traffic light states.
+
+2. **Demonstration Dataset**: This dataset contains 200,000 samples generated using the CARLA autopilot on predefined tracks. Each sample consists of three images from the three cameras and a discrete action derived from the expert's continuous actions.
+
+After identifying these datasets, I will check the **References section** to find the full citations for the datasets mentioned. The paper references the CARLA simulator, which is crucial for understanding the datasets:
+
+- For the **CARLA simulator**, the citation is:
+  > Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2017). *CARLA: An open urban driving simulator*. In Proceedings of the 1st Annual Conference on Robot Learning (pp. 1–16).
+
+Now, I will compile the information about each dataset, including their descriptions and citations, ensuring that I provide complete and accurate references.
+
+Finally, I will prepare the dataset entries in a structured format, ready for review or further processing, while ensuring that the citations are correctly formatted and included for each dataset.

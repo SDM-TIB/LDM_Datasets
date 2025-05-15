@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Think Before You Act: A Two-Stage Framework for Mitigating Gender Bias Towards Vision-Language Tasks" by Yunqi Zhang et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiment sections** of the paper. The abstract mentions the development of a framework (GAMA) to mitigate gender bias in vision-language tasks, which suggests that datasets may be involved in the experiments.
+
+Next, I will focus on **section 4 (Experiment Setup)**, where the authors typically describe the datasets used for their experiments. In this section, they provide a table (Table 1) that lists the datasets along with their statistics. I will extract the names and descriptions of the datasets mentioned here.
+
+The datasets identified in the paper are:
+
+1. **Localized Narratives Dataset**: This dataset is used for training the narrative generation model. It is associated with Open Images and is designed to depict image regions covered by a mouse trace, associating specific image regions with specific words in the narrative.
+
+2. **MSCOCO Captions**: This dataset is utilized for image captioning tasks. It consists of images with five human-annotated captions each, and the authors specify the training, validation, and test splits used in their experiments.
+
+3. **Flickr30K**: This dataset is used for image search tasks alongside MSCOCO. The authors mention using the Karpathy split for training and validation.
+
+4. **VisoGender**: This dataset benchmarks occupation-related gender bias in vision-language models. It is used to evaluate the performance of GAMA in aligning images with correct gender pronouns.
+
+5. **VL-Bias**: This dataset is mentioned as a benchmark for measuring gender bias, which includes 24K image-text pairs related to activities and occupations.
+
+Now, I will look into the **References section** to find the full citations for each dataset. The citations for the datasets are as follows:
+
+- **Localized Narratives Dataset**:
+  > Voigtlaender, P., Changpinyo, S., Pont-Tuset, J., Soricut, R., & Ferrari, V. (2023). Connecting Vision and Language with Video Localized Narratives. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 2461–2471.
+
+- **MSCOCO**:
+  > Chen, X., Fang, H., Lin, T.-Y., Vedantam, R., Gupta, S., Dollár, P., & Zitnick, C. L. (2015). Microsoft COCO Captions: Data Collection and Evaluation Server. arXiv preprint arXiv:1504.00325.
+
+- **Flickr30K**:
+  > Young, P., Lai, A., Hodosh, M., & Hockenmaier, J. (2014). From Image Descriptions to Visual Denotations: New Similarity Metrics for Semantic Inference Over Event Descriptions. Transactions of the Association for Computational Linguistics, 2, 67–78.
+
+- **VisoGender**:
+  > Hall, S. M., Abrantes, F. G., Zhu, H., Sodunke, G., Shtedritski, A., & Kirk, H. R. (2023). VisoGender: A Dataset for Benchmarking Gender Bias in Image-Text Pronoun Resolution. In Proceedings of the 37th Conference on Neural Information Processing Systems Datasets and Benchmarks Track.
+
+- **VL-Bias**:
+  > Zhang, Z., Wang, J., & Sang, J. (2022). Counterfactually Measuring and Eliminating Social Bias in Vision-Language Pre-Training Models. In Proceedings of the 30th ACM International Conference on Multimedia, pages 4996–5004.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

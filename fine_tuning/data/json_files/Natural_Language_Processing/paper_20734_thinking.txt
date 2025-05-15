@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Ghost Sentence: A Tool for Everyday Users to Copyright Data from Large Language Models" by Shuai Zhao et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that multiple datasets are created and tested, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on the **methodology section**, particularly where the authors discuss the creation of datasets. They mention using user statistics from a subset of Reddit (Webis-TLDR-17) to create datasets with ghost sentences. This is a crucial point, as it directly references a dataset.
+
+In **section 4 (Experiments)**, the authors provide details about the datasets used for instruction tuning and continuing pre-training. They specifically mention:
+
+1. **Webis-TLDR-17**: This dataset contains Reddit posts (submissions and comments) with "TL;DR" summaries from 2006 to 2016. It includes 3,725,000 examples and is used to analyze user data for the ghost sentence task.
+
+2. **LaMini-Instruction**: This dataset is mentioned as part of the continuing pre-training process, containing 2,585,000 examples.
+
+3. **OpenOrca**: Another dataset used for continuing pre-training, which contains 3,467,000 examples.
+
+I will now check the **References section** to find the full citations for these datasets:
+
+- For **Webis-TLDR-17**, the citation is:
+  > Völke, M., Potthast, M., Syed, S., & Stein, B. (2017). TL;DR: Mining Reddit to Learn Automatic Summarization. In Workshop on New Frontiers in Summarization at EMNLP 2017, pages 59–63. doi:10.18653/v1/W17-4508.
+
+- For **LaMini-Instruction**, the citation is:
+  > Wu, M., Waheed, A., Zhang, C., Abdul-Mageed, M., & Aji, A. F. (2023). LaMini-instruction: A diverse herd of distilled models from large-scale instructions. CoRR, abs/2304.14402. URL: https://huggingface.co/datasets/MBZUAI/LaMini-instruction.
+
+- For **OpenOrca**, the citation is:
+  > Lian, W., Goodson, B., Pentland, E., Cook, A., Vong, C., & "Teknium". (2023). OpenOrca: An open dataset of GPT-augmented Flan reasoning traces. URL: https://huggingface.co/Open-Orca/OpenOrca.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "DrugCLIP: Contrastive Drug-Disease Interaction For Drug Repurposing" by Yingzhou Lu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the authors curated a drug repurposing dataset based on real-world clinical trial records, which suggests that a specific dataset is involved.
+
+Next, I will examine **section 4.1 (Data)**, where the authors describe the data curation process. Here, they mention several public sources from which they collected data for their dataset. The key datasets mentioned are:
+
+1. **Clinical Trial Records**: This dataset includes more than 420K registered clinical trials, which are detailed records of clinical trials that test drugs. The authors specify that they only include trials that meet certain criteria, such as being interventional and testing a single drug.
+
+2. **DrugBank**: This database provides drug molecule structures in SMILES format, which is essential for the representation of drug molecules in their study.
+
+3. **ZINC Molecule Database**: This dataset contains approximately 250K drug-like molecules and is used for pretraining and training their models.
+
+4. **ICD-10 Coding System**: This medical classification list catalogs codes for diseases, symptoms, and signs, which is crucial for mapping diseases in their dataset.
+
+In the **experiments section**, the authors confirm that they utilized the curated dataset for their empirical studies, reinforcing the importance of the datasets mentioned.
+
+Now, I will gather the full citations for each dataset from the **References section** of the paper:
+
+- For **Clinical Trial Records**, the citation is:
+  > ClinicalTrials.gov. "Clinical Trial Records." National Library of Medicine. [http://clinicaltrials.gov](http://clinicaltrials.gov).
+
+- For **DrugBank**, the citation is:
+  > Wishart, D. S., et al. (2018). "DrugBank 5.0: a major update to the DrugBank database for 2018." *Nucleic Acids Research*, 46(D1), D1074-D1082. [https://doi.org/10.1093/nar/gkx1037](https://doi.org/10.1093/nar/gkx1037).
+
+- For **ZINC Molecule Database**, the citation is:
+  > Sterling, T., & Irwin, J. J. (2015). "ZINC 15–ligand discovery for everyone." *Journal of Chemical Information and Modeling*, 55(11), 2324–2337. [https://doi.org/10.1021/acs.jcim.5b00559](https://doi.org/10.1021/acs.jcim.5b00559).
+
+- For **ICD-10 Coding System**, the citation is:
+  > Anker, S. D., Morley, J. E., & von Haehling, S. (2016). "Welcome to the ICD-10 code for sarcopenia." *Journal of Cachexia, Sarcopenia and Muscle*, 7(5), 512–514. [https://doi.org/10.1002/jcsm.12129](https://doi.org/10.1002/jcsm.12129).
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper, ready for further processing or review.

@@ -1,0 +1,385 @@
+[
+    {
+        "dcterms:creator": [
+            "T.-H. Wang",
+            "S. Manivasagam",
+            "M. Liang",
+            "B. Yang",
+            "W. Zeng",
+            "R. Urtasun"
+        ],
+        "dcterms:description": "The V2V-Sim dataset is a synthetic dataset generated using LiDARsim, featuring realistic traffic scenarios rebuilt from the real-world ATG4D dataset. It contains 5,500 snippets with 25 seconds each, resulting in 46,796 frames for training and 4,404 frames for testing, primarily for collective 3D object detection.",
+        "dcterms:title": "V2V-Sim",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Dataset",
+            "Collective Perception"
+        ],
+        "dcat:keyword": [
+            "LiDAR",
+            "Synthetic Data",
+            "3D Object Detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Synthetic",
+        "mls:task": [
+            "Collective 3D Object Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "E. Arnold",
+            "S. Mozaffari",
+            "M. Dianati"
+        ],
+        "dcterms:description": "CODD is a simulated dataset for collective perception and SLAM that contains only LiDAR point clouds. It includes 108 scenarios with 4 to 16 CAVs in various environments, resulting in 13,500 frames and 204,250 annotated 3D bounding boxes for collective 3D object detection.",
+        "dcterms:title": "CODD",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Simulated Dataset",
+            "Collective Perception"
+        ],
+        "dcat:keyword": [
+            "LiDAR",
+            "Point Clouds",
+            "3D Object Detection",
+            "SLAM"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "LiDAR",
+        "mls:task": [
+            "Collective 3D Object Detection",
+            "Point Cloud Registration",
+            "Object Tracking"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Y. Yuan",
+            "M. Sester"
+        ],
+        "dcterms:description": "COMAP is a synthetic collective perception dataset generated with a co-simulation of CARLA and SUMO, consisting of 21 intersection scenarios with various CAVs. It includes 8,668 frames and 226,958 annotated 3D bounding boxes for collective 3D object detection and semantic segmentation.",
+        "dcterms:title": "COMAP",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Dataset",
+            "Collective Perception"
+        ],
+        "dcat:keyword": [
+            "Intersection Scenarios",
+            "3D Object Detection",
+            "Semantic Segmentation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Synthetic",
+        "mls:task": [
+            "Collective 3D Object Detection",
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. Xu",
+            "H. Xiang",
+            "Z. Tu",
+            "X. Xia",
+            "M.-H. Yang",
+            "J. Ma"
+        ],
+        "dcterms:description": "V2XSet is a dataset generated using CARLA and OpenCDA, consisting of 11,447 frames across 55 scenarios with labeled vehicles. The main task is collective 3D object detection, featuring realistic noise simulation in communication.",
+        "dcterms:title": "V2XSet",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Dataset",
+            "Collective Perception"
+        ],
+        "dcat:keyword": [
+            "3D Object Detection",
+            "Vehicle Labels",
+            "Simulation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Synthetic",
+        "mls:task": [
+            "Collective 3D Object Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. Mao",
+            "J. Guo",
+            "Y. Jia",
+            "Y. Sun",
+            "S. Zhou",
+            "Z. Niu"
+        ],
+        "dcterms:description": "DOLPHINS is a dataset generated using the CARLA simulator, consisting of six scenarios with 42,376 frames and 292,549 objects. It allows for V2V and V2X collective perception, featuring both 2D and 3D annotations.",
+        "dcterms:title": "DOLPHINS",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Dataset",
+            "Collective Perception"
+        ],
+        "dcat:keyword": [
+            "V2V",
+            "V2X",
+            "3D Object Detection",
+            "Annotations"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Synthetic",
+        "mls:task": [
+            "Collective 3D Object Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. Xu",
+            "H. Xiang",
+            "X. Xia",
+            "X. Han",
+            "J. Li",
+            "J. Ma"
+        ],
+        "dcterms:description": "OPV2V is a dataset generated using OpenCDA with CARLA and SUMO, consisting of 11,464 frames and 232,913 annotated 3D vehicle bounding boxes. It is suitable for collective 3D object detection and includes various urban scenarios.",
+        "dcterms:title": "OPV2V",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Dataset",
+            "Collective Perception"
+        ],
+        "dcat:keyword": [
+            "3D Object Detection",
+            "Vehicle Bounding Boxes",
+            "Urban Scenarios"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Synthetic",
+        "mls:task": [
+            "Collective 3D Object Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Yu",
+            "Y. Luo",
+            "M. Shu",
+            "Y. Huo",
+            "Z. Yang",
+            "Y. Shi",
+            "Z. Guo",
+            "H. Li",
+            "X. Hu",
+            "J. Yuan",
+            "Z. Nie"
+        ],
+        "dcterms:description": "DAIR-V2X is a large-scale real-world dataset for collective perception, recorded in Beijing, containing data from multiple infrastructure sensors and one CAV. It includes 464k 3D labels across various classes for collective 3D object detection.",
+        "dcterms:title": "DAIR-V2X",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Real-World Dataset",
+            "Collective Perception"
+        ],
+        "dcat:keyword": [
+            "3D Object Detection",
+            "Infrastructure Sensors",
+            "Collective Perception"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Real-World",
+        "mls:task": [
+            "Collective 3D Object Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Yu",
+            "W. Yang",
+            "H. Ruan",
+            "Z. Yang",
+            "Y. Tang",
+            "X. Gao",
+            "X. Hao",
+            "Y. Shi",
+            "Y. Pan",
+            "N. Sun",
+            "J. Song",
+            "J. Yuan",
+            "P. Luo",
+            "Z. Nie"
+        ],
+        "dcterms:description": "V2X-Seq is a dataset based on DAIR-V2X, consisting of sequential perception and trajectory forecasting data. It includes 15k frames with unique tracking IDs for collective object tracking and forecasting.",
+        "dcterms:title": "V2X-Seq",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Real-World Dataset",
+            "Collective Perception"
+        ],
+        "dcat:keyword": [
+            "Object Tracking",
+            "Trajectory Forecasting"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Real-World",
+        "mls:task": [
+            "Collective Object Tracking",
+            "Trajectory Forecasting"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. Xu",
+            "X. Xia",
+            "J. Li",
+            "H. Li",
+            "S. Zhang",
+            "Z. Tu",
+            "Z. Meng",
+            "H. Xiang",
+            "X. Dong",
+            "R. Song",
+            "H. Yu",
+            "B. Zhou",
+            "J. Ma"
+        ],
+        "dcterms:description": "V2V4Real is a real-world dataset consisting of 10k frames recorded on urban and highway roads. It provides 240k 3D bounding boxes for collective 3D object detection.",
+        "dcterms:title": "V2V4Real",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Real-World Dataset",
+            "Collective Perception"
+        ],
+        "dcat:keyword": [
+            "3D Object Detection",
+            "Real-World Data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Real-World",
+        "mls:task": [
+            "Collective 3D Object Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Axmann",
+            "R. Moftizadeh",
+            "J. Su",
+            "B. Tennstedt",
+            "Q. Zou",
+            "Y. Yuan",
+            "D. Ernst",
+            "H. Alkhatib",
+            "C. Brenner",
+            "S. Schön"
+        ],
+        "dcterms:description": "LUCOOP is a real-world dataset recorded in Hannover with three CAVs, providing 15k frames and 34k labeled objects for urban navigation and 3D object detection.",
+        "dcterms:title": "LUCOOP",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Real-World Dataset",
+            "Collective Perception"
+        ],
+        "dcat:keyword": [
+            "Urban Navigation",
+            "3D Object Detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Real-World",
+        "mls:task": [
+            "Urban Navigation",
+            "3D Object Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Zimmer",
+            "G. A. Wardana",
+            "S. Sritharan",
+            "X. Zhou",
+            "R. Song",
+            "A. C. Knoll"
+        ],
+        "dcterms:description": "TUMTraf-V2X is a dataset for cooperative perception collected at a large intersection, consisting of 1,000 frames and 30k labeled objects for collective 3D object detection.",
+        "dcterms:title": "TUMTraf-V2X",
+        "dcterms:issued": "2024",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Real-World Dataset",
+            "Collective Perception"
+        ],
+        "dcat:keyword": [
+            "3D Object Detection",
+            "Cooperative Perception"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Real-World",
+        "mls:task": [
+            "Collective 3D Object Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Xiang",
+            "Z. Zheng",
+            "X. Xia",
+            "R. Xu",
+            "L. Gao",
+            "Z. Zhou",
+            "X. Han",
+            "X. Ji",
+            "M. Li",
+            "Z. Meng"
+        ],
+        "dcterms:description": "V2X-Real is a real-world dataset recorded at an intersection in Los Angeles, consisting of 33k labeled frames for collective 3D object detection.",
+        "dcterms:title": "V2X-Real",
+        "dcterms:issued": "2024",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Real-World Dataset",
+            "Collective Perception"
+        ],
+        "dcat:keyword": [
+            "3D Object Detection",
+            "Real-World Data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Real-World",
+        "mls:task": [
+            "Collective 3D Object Detection"
+        ]
+    }
+]

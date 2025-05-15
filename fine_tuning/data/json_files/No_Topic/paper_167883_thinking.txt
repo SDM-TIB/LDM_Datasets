@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Plan, Attend, Generate: Planning for Sequence-to-Sequence Models" by Francis Dutil et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to look for any references to datasets. The abstract mentions that the model is evaluated on various tasks, which may imply the use of specific datasets.
+
+Next, I will focus on the **experiments section** (section 4) where the authors typically describe the datasets used for evaluation. In this section, I will look for any explicit mentions of datasets, including their names and descriptions.
+
+Upon reviewing the paper, I find that the authors mention two key datasets:
+
+1. **WMT’15**: This dataset is used for character-level translation tasks, specifically for English to German, English to Czech, and English to Finnish language pairs. The authors state that they used 2000 examples from the SQUAD training set for validation and the official development set for testing.
+
+2. **SQUAD**: The Stanford Question Answering Dataset (SQUAD) is referenced as a question-answering corpus where each sample consists of a document, a question, and an answer span. The authors evaluate their planning models on the question-generation task using this dataset.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **WMT’15**, the citation is:
+  > Rico Sennrich, Barry Haddow, and Alexandra Birch. *Neural machine translation of rare words with subword units*. arXiv preprint arXiv:1508.07909, 2015.
+
+- For **SQUAD**, the citation is:
+  > Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang. *SQUAD: 100,000+ questions for machine comprehension of text*. arXiv preprint arXiv:1606.05250, 2016.
+
+With these citations in hand, I will now compile the dataset entries, ensuring that each dataset is clearly described along with its full citation for proper attribution. This will provide a comprehensive overview of the datasets utilized in the research.

@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Gauss-Newton Unrolled Neural Networks and Data-driven Priors for Regularized PSSE with Robustness" by Qiuling Yang et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and numerical tests sections** to locate any references to datasets. The abstract mentions "numerical tests using real load data on the IEEE 118-bus benchmark system," indicating that this dataset is likely important for the experiments.
+
+Next, I will examine the **numerical tests section** more closely, particularly the part where the authors describe their experiments. They mention using "real load consumption data from the 2012 Global Energy Forecasting Competition (GEFC)" and detail how they prepared training and testing collections by solving AC power flow equations using the MATPOWER toolbox. This suggests that there are two datasets to consider:
+
+1. **2012 Global Energy Forecasting Competition (GEFC)**: This dataset is used for training and testing the models. The authors specify that they generated 1,000 pairs of measured and ground-truth voltages, with 80% for training and 20% for testing.
+
+2. **IEEE 118-bus benchmark system**: This is referenced as the system on which the numerical tests were conducted, showcasing the performance of the proposed methods.
+
+Now, I will look into the **References section** to find the full citations for these datasets:
+
+- For the **2012 Global Energy Forecasting Competition (GEFC)**, the citation is:
+  > [1] Global Energy Forecasting Competition 2012. Available: https://www.kaggle.com/c/global-energy-forecasting-competition-2012-load-forecasting/data.
+
+- For the **MATPOWER toolbox**, which is used to generate the dataset, the citation is:
+  > R. D. Zimmerman, C. E. Murillo-Sanchez, and R. J. Thomas. "MATPOWER: steady-state operations, planning and analysis tools for power systems research and education." *IEEE Trans. Power Syst.*, vol. 26, no. 1, pp. 12-19, Feb. 2011.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research paper.

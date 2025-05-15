@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Two-stage Generative Question Answering on Temporal Knowledge Graph Using Large Language Models" by Yifu Gao et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and it may mention datasets used for evaluation or experimentation. 
+
+Next, I will focus on the **experiments section**, specifically **section 5.1 (Datasets, Metrics and Baselines)**, where the authors typically describe the datasets used in their experiments. Here, I find that the authors mention the **CronQuestions dataset**. They provide details about its composition, including the number of entities, relations, timestamps, and facts, which is crucial for understanding the dataset's scope.
+
+In this section, the authors state that the **CronQuestions dataset** is based on the **Wikidata TKG** and includes 125k entities, 203 relations, 1.7k timestamps, and 328k facts. They also mention that it contains 410K unique question-answer pairs, categorized into simple and complex reasoning types.
+
+Now, I will look for the full citation of the **CronQuestions dataset** in the **References section**. The citation provided is:
+> Apoorv Saxena, Soumen Chakrabarti, and Partha P. Talukdar. *Question answering over temporal knowledge graphs*. In ACL-IJCNLP, pages 6663–6676, 2021.
+
+Additionally, I will also note the citation for the **Wikidata TKG**, which is referenced in the context of the dataset:
+> Timothée Lacroix, Guillaume Obozinski, and Nicolas Usunier. *Tensor decompositions for temporal knowledge base completion*. In ICLR, 2020.
+
+With these citations, I can now summarize the datasets extracted from the paper:
+
+1. **CronQuestions Dataset**: A temporal QA dataset based on the Wikidata TKG, comprising 125k entities, 203 relations, 1.7k timestamps, and 328k facts. It contains 410K unique question-answer pairs, categorized into simple reasoning and complex reasoning types.
+   - Citation: Apoorv Saxena, Soumen Chakrabarti, and Partha P. Talukdar. *Question answering over temporal knowledge graphs*. In ACL-IJCNLP, pages 6663–6676, 2021.
+
+2. **Wikidata TKG**: A knowledge graph that serves as the basis for the CronQuestions dataset.
+   - Citation: Timothée Lacroix, Guillaume Obozinski, and Nicolas Usunier. *Tensor decompositions for temporal knowledge base completion*. In ICLR, 2020.
+
+Finally, I will compile these dataset entries into a structured format for further processing or review.

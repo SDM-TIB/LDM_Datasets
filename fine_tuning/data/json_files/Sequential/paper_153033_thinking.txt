@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Transferable Neural Projection Representations" by Chinnadhurai Sankar et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the research but may not detail specific datasets. The introduction may reference prior work or datasets used in related studies, which could be relevant.
+
+Next, I will focus on **section 3 (Training Setup)**, where the authors describe the datasets used for training their models. Here, they mention that they trained their skip-gram models on the **Wikipedia data XML dump, enwik91**. This is a significant dataset, and I will need to note its details.
+
+In **section 4.2.1 (Similarity Task)**, the authors list several datasets used for evaluating their model's performance on similarity tasks. The datasets mentioned are:
+
+1. **MTurk-287**: This dataset consists of 287 pairs of words and was constructed by crowd-sourcing human similarity ratings using Amazon Mechanical Turk.
+2. **WS353**: This dataset contains 353 pairs of similar English words rated by humans and is further split into:
+   - **WS353-SIM**: A subset focusing on similarity.
+   - **WS353-REL**: A subset capturing different types of similarities and relatedness.
+3. **RW-STANFORD**: This dataset includes 2034 rare word pairs sampled from different frequency bins.
+
+I will also check the **References section** to find the full citations for these datasets:
+
+- For **MTurk-287**, the citation is:
+  > Kira Radinsky, Eugene Agichtein, Evgeniy Gabrilovich, and Shaul Markovitch. *A word at a time: computing word relatedness using temporal semantic analysis*. In Proceedings of the 20th International Conference on World Wide Web, WWW 2011, Hyderabad, India, March 28 - April 1, 2011, pages 337–346.
+
+- For **WS353**, the citation is:
+  > Lev Finkelstein, Evgeniy Gabrilovich, Yossi Matias, Ehud Rivlin, Zach Solan, Gadi Wolfman, and Eytan Ruppin. *Placing search in context: the concept revisited*. In Proceedings of the Tenth International World Wide Web Conference, WWW 10, Hong Kong, China, May 1-5, 2001, pages 406–414.
+
+- For **RW-STANFORD**, the citation is:
+  > Thang Luong, Richard Socher, and Christopher D. Manning. *Better word representations with recursive neural networks for morphology*. In Proceedings of the Seventeenth Conference on Computational Natural Language Learning, CoNLL 2013, Sofia, Bulgaria, August 8-9, 2013, pages 104–113.
+
+Now, I will compile the dataset entries, ensuring that each dataset is clearly described and includes its full citation. This will provide a comprehensive overview of the datasets utilized in the research paper, ready for further processing or review.

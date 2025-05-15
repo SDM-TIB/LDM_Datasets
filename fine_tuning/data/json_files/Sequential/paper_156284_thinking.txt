@@ -1,0 +1,37 @@
+To extract datasets from the research paper titled "OpenBA: An Open-Sourced 15B Bilingual Asymmetric Seq2Seq Model Pre-trained from Scratch" by Juntao Li et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** of the paper. The abstract mentions that OpenBA has been fine-tuned with specialized datasets for various downstream tasks, which indicates that there are specific datasets used in the research.
+
+In the **introduction**, the authors discuss the construction of pre-training data and the Bilingual Flan dataset. This suggests that these datasets are crucial for understanding the model's training process.
+
+Next, I will focus on **section 3 (Methodology)**, particularly **subsections 3.1 (Dataset Collection)** and 3.1.2 (Bilingual Flan Data Collection). Here, the authors detail the sources and processing of the datasets used for pre-training and fine-tuning. 
+
+1. **Pre-training Data**: The authors mention that the pre-training data consists of English and Chinese tokens collected from various sources, including the Pile corpus, Common Crawl, and others. However, they do not provide a specific dataset name for this collection, so I will note it as a general source.
+
+2. **Bilingual Flan Dataset (BiFlan)**: This dataset is explicitly mentioned as being constructed from cleansed Flan data and contains various instruction types and tasks in both English and Chinese. The authors state that this dataset significantly enhances model performance.
+
+In **section 6 (OpenBA-X: Downstream Task Adaptation)**, the authors describe the datasets used for fine-tuning on specific tasks:
+
+- **OpenBA-Chat**: This dataset is built from DialogStudio, BELLE, and ShareGPT, focusing on bilingual multi-turn dialogue.
+- **OpenBA-Code**: This dataset is derived from the Evol-Instruct dataset, specifically for code generation tasks.
+- **OpenBA-InstructGen**: This dataset is constructed from the DollyV2 dataset and its Chinese counterpart, focusing on instruction generation.
+- **OpenBA-Tool**: This dataset is based on the Toolformer-Retrieval dataset, designed for retrieval tasks.
+
+Now, I will gather the full citations for these datasets from the **References section** of the paper:
+
+- For the **Pile dataset**, the citation is:
+  > Gao, L., Biderman, S., Black, S., Golding, L., Hoppe, T., Foster, C., Phang, J., He, H., Thite, A., et al. (2020). *The Pile: An 800GB Dataset of Diverse Text for Language Modeling*. arXiv preprint arXiv:2101.00027.
+
+- For the **Flan dataset**, the citation is:
+  > Chung, H., Hou, L., Longpre, S., Zoph, B., Tay, Y., Fedus, W., Li, E., Wang, X., Dehghani, M., et al. (2022). *Scaling Instruction-Finetuned Language Models*. arXiv preprint arXiv:2210.11416.
+
+- For the **Evol-Instruct dataset**, the citation is:
+  > Luo, Z., Xu, C., Zhao, P., Sun, Q., Geng, X., Hu, W., Tao, C., Ma, J., Lin, Q., & Jiang, D. (2023). *Wizardcoder: Empowering Code Large Language Models with Evol-Instruct*. arXiv preprint arXiv:2306.08568.
+
+- For the **DollyV2 dataset**, the citation is:
+  > Conover, M., Hayes, M., Mathur, A., Xie, J., Wan, J., Shah, S., Ghodsi, A., Wendell, P., Zaharia, M., & Xin, R. (2023). *Free Dolly: Introducing the World’s First Truly Open Instruction-Tuned LLM*. arXiv preprint arXiv:2304.01212.
+
+- For the **Toolformer-Retrieval dataset**, the citation is:
+  > Schick, T., Dwivedi-Yu, J., Dessì, R., Raileanu, R., Lomeli, M., Zettlemoyer, L., Cancedda, N., & Scialom, T. (2023). *Toolformer: Language Models Can Teach Themselves to Use Tools*. arXiv preprint arXiv:2302.04761.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

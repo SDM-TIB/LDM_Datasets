@@ -1,0 +1,44 @@
+To extract datasets from the research paper titled "Tune without Validation: Searching for Learning Rate and Weight Decay on Training Sets" by Lorenzo Brigato and Stavroula Mougiakakou, I will follow a systematic approach.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract states that the authors conducted experiments on **20 image classification datasets**, which indicates that multiple datasets are involved.
+
+Next, I will look into **section 4 (Experiments)**, where the authors describe their experimental setup. In **section 4.2 (Small Datasets)**, they mention specific datasets used for their experiments. The datasets listed include:
+
+1. **ciFAIR-10**: A dataset containing 50 samples per class, used for image classification tasks.
+2. **EuroSAT**: A dataset for land use and land cover classification, also with 50 samples per class.
+3. **CLaMM**: A dataset consisting of grayscale hand-written documents, with 50 samples per class.
+4. **ISIC 2018**: A dataset for skin lesion analysis, with 80 samples per class.
+5. **CUB**: The Caltech-UCSD Birds-200-2011 dataset, which includes 30 images per category.
+
+In **section 4.3 (Medical Images)**, the authors refer to the **MedMNIST v2 benchmark**, which includes 11 tasks covering various medical imaging modalities.
+
+In **section 4.4 (Natural Images)**, they mention using popular datasets such as **CIFAR-10**, **CIFAR-100**, and **Tiny Imagenet**, which are well-known in the image classification community.
+
+Now, I will gather the full citations for these datasets from the **References section** of the paper:
+
+- For **ciFAIR-10**, the citation is:
+  > Brigato, L., Barz, B., Iocchi, L., Denzler, J. (2022). Image classification with small datasets: overview and benchmark. *IEEE Access*.
+
+- For **EuroSAT**, the citation is:
+  > Helber, P., Bischke, B., Dengel, A., Borth, D. (2019). EuroSAT: A novel dataset and deep learning benchmark for land use and land cover classification. *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, 12(7), 2217–2226. https://doi.org/10.1109/JSTARS.2019.2918242.
+
+- For **CLaMM**, the citation is:
+  > Brigato, L., Barz, B., Iocchi, L., Denzler, J. (2021). Tune it or don’t use it: Benchmarking data-efficient image classification. In *Proceedings of the IEEE/CVF International Conference on Computer Vision*.
+
+- For **ISIC 2018**, the citation is:
+  > Codella, N., Rotemberg, V., Tschandl, P., Celebi, M.E., Dusza, S., Gutman, D., Helba, B., Kalloo, A., Liopyris, K., Marchetti, M., et al. (2019). Skin lesion analysis toward melanoma detection 2018: A challenge hosted by the international skin imaging collaboration (ISIC). arXiv preprint arXiv:1902.03368.
+
+- For **CUB**, the citation is:
+  > Wah, C., Branson, S., Welinder, P., Perona, P., Belongie, S. (2011). The Caltech-UCSD Birds-200-2011 Dataset. Tech. Rep. CNS-TR-2011-001, California Institute of Technology.
+
+- For **MedMNIST v2**, the citation is:
+  > Yang, J., Shi, R., Wei, D., Liu, Z., Zhao, L., Ke, B., Pfister, H., Ni, B. (2023). MedMNIST v2 - a large-scale lightweight benchmark for 2D and 3D biomedical image classification. *Scientific Data*, 11.
+
+- For **CIFAR-10** and **CIFAR-100**, the citations are:
+  > Krizhevsky, A. (2009). Learning multiple layers of features from tiny images. 
+  > Krizhevsky, A., Sutskever, I., Hinton, G.E. (2012). Imagenet classification with deep convolutional neural networks. *Advances in neural information processing systems*, 25.
+
+- For **Tiny Imagenet**, the citation is:
+  > Le, Y., Yang, X. (2015). Tiny imagenet visual recognition challenge. CS 231N.
+
+After gathering this information, I will compile the dataset entries with their respective citations for further processing.

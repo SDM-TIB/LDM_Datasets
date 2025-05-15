@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Interactive Generation of Laparoscopic Videos with Diffusion Models" by Ivan Iliash et al., I will follow a systematic approach to ensure I capture all relevant information and provide full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions the use of the **Cholec dataset family**, which indicates that there are datasets involved in the research.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors provide detailed descriptions of the datasets used. In **section 4.1 (Data)**, the authors explicitly mention two datasets:
+
+1. **CholecT50**: This dataset consists of 50 laparoscopic cholecystectomy surgery videos with a total of 100,863 frames. Each frame is annotated with surgical action text triplets in the format <tool, verb, target>. The dataset includes 6 tools, 8 verbs, 14 target classes, and 101 possible triplets. Additionally, it contains labels for the presence of surgical tools and the current surgical phase.
+
+2. **Cholec80**: This dataset is a superset of CholecT50, containing 80 videos. It is annotated only with labels for surgical phases and tool presence, which makes it less informative than CholecT50 but increases the number of frames by an additional 94,056.
+
+The authors also mention using two other datasets for tool segmentation:
+
+3. **CholecSeg8k**: This dataset contains 8,000 semantically segmented images derived from Cholec80.
+
+4. **ART-Net**: This dataset consists of 1,324 laparoscopic images with tool segmentation masks.
+
+Now, I will check the **References section** to find the full citations for each dataset mentioned:
+
+- For **CholecT50**, the citation is:
+  > Nwoye, C.I., Yu, T., Gonzalez, C., Seeliger, B., Mascagni, P., Mutter, D., Marescaux, J., Padoy, N. "Rendezvous: Attention mechanisms for the recognition of surgical action triplets in endoscopic videos." CoRR abs/2109.03223 (2021).
+
+- For **Cholec80**, the citation is:
+  > Twinanda, A.P., Shehata, S., Mutter, D., Marescaux, J., de Mathelin, M., Padoy, N. "Endonet: A deep architecture for recognition tasks on laparoscopic videos." CoRR abs/1602.03012 (2016).
+
+- For **CholecSeg8k**, the citation is:
+  > Hong, W., Kao, C., Kuo, Y., Wang, J., Chang, W., Shih, C. "Cholecseg8k: A semantic segmentation dataset for laparoscopic cholecystectomy based on cholec80." CoRR abs/2012.12453 (2020).
+
+- For **ART-Net**, the citation is:
+  > Hasan, M.K., Calvet, L., Rabbani, N., Bartoli, A. "Detection, segmentation, and 3D pose estimation of surgical tools using convolutional neural networks and algebraic geometry." Medical Image Analysis 70, 101994 (2021).
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that I have accurately represented the datasets used in the research.

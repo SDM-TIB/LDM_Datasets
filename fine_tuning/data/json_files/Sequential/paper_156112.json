@@ -1,0 +1,98 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset for testing tree-to-tree transformations, including various synthetic tree-transform tasks such as a Lisp function interpreter task and several natural-language tasks inspired by semantic parsing and language generation. It is designed to test compositional generalization in structure transformations.",
+        "dcterms:title": "Basic Sentence Transforms",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://huggingface.co/datasets/rfernand/basic_sentence_transforms",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "synthetic tree-transform tasks",
+            "Lisp function interpreter",
+            "semantic parsing",
+            "language generation",
+            "compositional generalization"
+        ],
+        "dcat:landingPage": "https://huggingface.co/datasets/rfernand/basic_sentence_transforms",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A tree transformation task where the source tree represents a template-generated English sentence, and the target tree represents a subset of the source tree formed from a sequence of Lisp car and cdr operations.",
+        "dcterms:title": "CAR-CDR-SEQ",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "tree transformation",
+            "Lisp operations",
+            "semantic parsing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Contains syntax trees in active voice and logical form, testing the transformation from active voice into logical form and vice versa.",
+        "dcterms:title": "Active↔Logical",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "syntax trees",
+            "active voice",
+            "logical form",
+            "semantic parsing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Contains syntax trees in passive voice and logical form, testing the transformation from passive voice into logical form and vice versa.",
+        "dcterms:title": "Passive↔Logical",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "syntax trees",
+            "passive voice",
+            "logical form",
+            "semantic parsing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Contains input trees in either active or passive voice and output trees in logical form, testing the simultaneous parsing of different types of trees into a shared logical form.",
+        "dcterms:title": "Active & Passive→Logical",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "syntax trees",
+            "active voice",
+            "passive voice",
+            "logical form",
+            "semantic parsing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

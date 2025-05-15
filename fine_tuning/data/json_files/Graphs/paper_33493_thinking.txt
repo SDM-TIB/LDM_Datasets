@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Backdoor Attack on Unpaired Medical Image-Text Foundation Models: A Pilot Study on MedCLIP" by Ruinan Jin et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned or described. In the abstract, the authors discuss their evaluation revolving around MedCLIP, which indicates that datasets are likely involved.
+
+Next, I will focus on the **introduction section**, where the authors mention the use of unpaired training strategies in the medical domain. They highlight the need for paired images and reports, suggesting that datasets containing only images or text are underutilized. This context implies that specific datasets may be referenced later in the paper.
+
+In the **methods section**, particularly in the subsection titled "Dataset," the authors explicitly list three datasets used in their study:
+
+1. **MIMIC**: This dataset is described as a large-scale image-text paired chest radiology dataset spanning five years. It is used to fine-tune MedCLIP for both targeted and untargeted attacks.
+
+2. **COVIDX**: This dataset consists of chest X-ray images categorized as either Covid-positive or Covid-negative. It is utilized to evaluate MedCLIP's zero-shot classification capabilities.
+
+3. **RSNA**: Sourced from the National Institutes of Health, this dataset features chest X-rays labeled with pneumonia or non-pneumonia labels. It serves as a benchmark test dataset for zero-shot classification tasks.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **MIMIC**, the citation is:
+  > Alistair EW Johnson, Tom J Pollard, Seth J Berkowitz, Nathaniel R Greenbaum, Matthew P Lungren, Chih-ying Deng, Roger G Mark, and Steven Horng. *MIMIC-CXR, a de-identified publicly available database of chest radiographs with free-text reports*. Scientific data, 6(1):317, 2019.
+
+- For **COVIDX**, the citation is:
+  > Tawsifur Rahman, Amith Khandakar, Yazan Qiblawey, Anas Tahir, Serkan Kiranyaz, Saad Bin Abul Kashem, Mohammad Tariqul Islam, Somaya Al Maadeed, Susu M Zughaier, Muhammad Salman Khan, et al. *Exploring the effect of image enhancement techniques on covid-19 detection using chest x-ray images*. Computers in biology and medicine, 132:104319, 2021.
+
+- For **RSNA**, the citation is:
+  > George Shih, Carol C Wu, Safwan S Halabi, Marc D Kohli, Luciano M Prevedello, Tessa S Cook, Arjun Sharma, Judith K Amorosa, Veronica Arteaga, Maya Galperin-Aizenberg, et al. *Augmenting the national institutes of health chest radiograph dataset with expert annotations of possible pneumonia*. Radiology: Artificial Intelligence, 1(1):e180041, 2019.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

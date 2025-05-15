@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Interpretable Entity Representations through Large-Scale Typing" by Yasumasa Onoe and Greg Durrett, I will follow a systematic approach to identify and document each dataset mentioned in the text.
+
+First, I will start by reviewing the **abstract and introduction** sections. In the abstract, the authors discuss their approach to creating interpretable entity representations and mention using a fine-grained entity typing model trained on datasets. This indicates that datasets are likely to be detailed further in the paper.
+
+Next, I will examine **section 4 (Training Data)**, where the authors explicitly describe the datasets used for training their entity typing model. Here, they mention three key datasets:
+
+1. **Wiki-Context**: This dataset is created from hyperlinks in Wikipedia, yielding 6 million training examples. It uses the hyperlink as the entity mention and the sentence containing the hyperlink as the context.
+
+2. **Wiki-Description**: This dataset consists of 2 million training examples derived from the lead paragraphs of Wikipedia pages, where the page title serves as the entity mention and the surrounding text as context.
+
+3. **UFET (Ultra-Fine Entity Typing)**: This dataset contains 6,000 manually annotated examples, which include various types of entity mentions.
+
+In the **experiments section**, the authors mention using the **CoNLL-YAGO** dataset for coreference arc prediction and the **WikilinksNED** dataset for named entity disambiguation. These datasets are crucial for evaluating their model's performance.
+
+Now, I will look at the **References section** to gather the full citations for each dataset mentioned:
+
+- For **Wiki-Context**, the citation is:
+  > Yasumasa Onoe and Greg Durrett. *Fine-Grained Entity Typing for Domain Independent Entity Linking*. In Proceedings of the AAAI Conference on Artificial Intelligence, 2020.
+
+- For **Wiki-Description**, the citation is the same as above since it is derived from the same work.
+
+- For **UFET**, the citation is:
+  > Eunsol Choi, Omer Levy, Yejin Choi, and Luke Zettlemoyer. *Ultra-Fine Entity Typing*. In Proceedings of the Annual Meeting of the Association for Computational Linguistics, 2018.
+
+- For **CoNLL-YAGO**, the citation is:
+  > Johannes Hoffart et al. *Robust Disambiguation of Named Entities in Text*. In Proceedings of the Conference on Empirical Methods in Natural Language Processing, 2011.
+
+- For **WikilinksNED**, the citation is:
+  > Thibault Févry et al. *Entities as Experts: Sparse Memory Access with Entity Supervision*. ArXiv, 2020.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This structured approach will help ensure that I capture all relevant datasets and their citations from the paper effectively.

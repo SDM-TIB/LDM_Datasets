@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "3D Neural Edge Reconstruction" by Lei Li et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to gather initial insights about the datasets used. The abstract mentions that the method is evaluated on "multiple challenging datasets," which indicates that datasets are indeed present.
+
+Next, I will focus on the **experiments section** (Section 4), where the authors typically provide detailed information about the datasets used for evaluation. In **Section 4.1 (Experiment Setting)**, the authors explicitly list four datasets:
+
+1. **ABC-NEF Dataset**: This dataset consists of 115 CAD models, each with 50 observed images and ground truth parametric edges. The authors mention that they selected 82 CAD models for their experiments.
+
+2. **DTU Dataset**: This dataset provides dense ground-truth point clouds. The authors selected 6 objects from this dataset that meet specific multi-view constraints.
+
+3. **Replica Dataset**: This dataset contains high-quality indoor scenes, but the authors note that it lacks ground-truth edges, which they address through qualitative comparisons.
+
+4. **Tanks & Temples Dataset**: This dataset includes real-world outdoor scenes and also lacks ground-truth edges, leading to qualitative comparisons among baselines.
+
+To ensure accuracy, I will check the **References section** for full citations of these datasets:
+
+- For the **ABC-NEF Dataset**, the citation is:
+  > Yunfan Ye, Renjiao Yi, Zhirui Gao, Chenyang Zhu, Zhiping Cai, and Kai Xu. *NEF: Neural Edge Fields for 3D Parametric Curve Reconstruction from Multi-View Images*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023.
+
+- For the **DTU Dataset**, the citation is:
+  > Henrik Aanæs, Rasmus Ramsbøl Jensen, George Vogiatzis, Engin Tola, and Anders Bjorholm Dahl. *Large-scale data for multiple-view stereopsis*. International Journal of Computer Vision (IJCV), 2016.
+
+- For the **Replica Dataset**, the citation is:
+  > Julian Straub, Thomas Whelan, Lingni Ma, Yufan Chen, Erik Wijmans, Simon Green, Jakob J Engel, Raul Mur-Artal, Carl Ren, Shobhit Verma, et al. *The Replica Dataset: A Digital Replica of Indoor Spaces*. arXiv preprint arXiv:1906.05797, 2019.
+
+- For the **Tanks & Temples Dataset**, the citation is:
+  > Arno Knapitsch, Jaesik Park, Qian-Yi Zhou, and Vladlen Koltun. *Tanks and Temples: Benchmarking Large-Scale Scene Reconstruction*. ACM Transactions on Graphics (ToG), 2017.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. Each dataset will be clearly documented with its name, description, and full citation to ensure clarity and accuracy.

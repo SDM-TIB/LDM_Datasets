@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Evaluating Methods for Ground-Truth-Free Foreign Accent Conversion" by Wen-Chin Huang and Tomoki Toda, I will follow a systematic approach.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract discusses the evaluation of methods for foreign accent conversion (FAC) but does not specify any datasets. However, the introduction mentions the use of a "shared database," which suggests that datasets are involved.
+
+Next, I will examine **section IV (Experimental Evaluation and Discussion)**, where the authors describe the datasets used for their experiments. Here, they mention two specific datasets:
+
+1. **L2-ARCTIC Dataset**: This dataset is used for training and consists of parallel utterances between a non-native speaker (THXC) and a native speaker (bdl). The authors specify that there are 1032 training utterances, along with development and testing sets.
+
+2. **ARCTIC Dataset**: This dataset is referenced as the source of the native speaker's data, which is used in conjunction with the L2-ARCTIC dataset for the experiments.
+
+Additionally, the authors mention the use of the **LJSpeech Dataset** for pretraining the seq2seq model, and the **LibriSpeech** and **LibriLight** datasets for training the PPG and vq-wav2vec models, respectively.
+
+Now, I will look at the **References section** to gather full citations for each dataset mentioned:
+
+- For the **L2-ARCTIC Dataset**, the citation is:
+  > G. Zhao, S. Sonsaat, A. Silpachai, et al. "L2-ARCTIC: A Non-native English Speech Corpus." In Proceedings of Interspeech, 2018, pp. 2783–2787.
+
+- For the **ARCTIC Dataset**, the citation is:
+  > K. Ito and L. Johnson. "The LJ Speech Dataset." 2017. Available at: https://keithito.com/LJ-Speech-Dataset/.
+
+- For the **LJSpeech Dataset**, the citation is:
+  > K. Ito and L. Johnson. "The LJ Speech Dataset." 2017. Available at: https://keithito.com/LJ-Speech-Dataset/.
+
+- For the **LibriSpeech Dataset**, the citation is:
+  > V. Panayotov, G. Chen, D. Povey, and S. Khudanpur. "LibriSpeech: An ASR corpus based on public domain audio books." In Proceedings of ICASSP, 2015, pp. 5206–5210.
+
+- For the **LibriLight Dataset**, the citation is:
+  > J. Kahn, M. Rivière, W. Zheng, et al. "Libri-light: A benchmark for ASR with limited or no supervision." In Proceedings of ICASSP, 2020, pp. 7669–7673.
+
+With these citations in hand, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will facilitate reproducibility and provide clear references for future research.

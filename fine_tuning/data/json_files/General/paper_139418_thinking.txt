@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "DeepCode AI Fix" by Berkay Berabi et al., I will follow a systematic approach to identify and document each dataset mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to locate any references to datasets. The abstract mentions the creation of a "new and comprehensive code fixing dataset," which indicates that a dataset is indeed present.
+
+Next, I will focus on the **data collection section** (Section 4), where the authors describe their dataset in detail. They mention that they collected data from open-source repositories, specifically noting that they assembled a dataset of over 5,000 manually labeled fix examples. This section provides crucial information about the dataset's composition and purpose.
+
+The authors also describe the dataset's structure, indicating that it includes pairs of buggy and fixed code versions, which is essential for understanding its application in evaluating code repair models. They mention that the dataset is based on code scanning results from the Snyk Code SAST engine, which adds context to its origin.
+
+I will also check the **experiments section** to see if the authors reference any specific datasets used for training or evaluation. They mention using the dataset for training and evaluation purposes, confirming its significance in their experiments.
+
+Now, I will compile the full citations for the datasets mentioned in the paper. The authors do not provide specific citations for the datasets they created, but they do reference the Snyk Code SAST engine, which is a tool used to generate the dataset. Therefore, I will include a citation for Snyk Code as follows:
+
+- **Snyk Code**: 
+  > Snyk. 2023. Snyk Code - Developer-focused, real-time SAST. https://snyk.io/product/snyk-code/
+
+Since the paper does not provide a formal citation for the dataset they created, I will note that it is an original dataset developed by the authors for the purpose of their research.
+
+Finally, I will summarize the findings in a structured format, ensuring that each dataset is clearly identified along with its citation.
+
+In conclusion, I will document the dataset as follows:
+1. **Dataset Name**: DeepCode AI Fix Dataset
+   - **Description**: A dataset of over 5,000 manually labeled fix examples for non-trivial bug patterns, including security vulnerabilities, collected from open-source repositories.
+   - **Citation**: Original dataset created by Berkay Berabi et al. (2024). Snyk Code - Developer-focused, real-time SAST. https://snyk.io/product/snyk-code/
+
+This structured approach ensures that I accurately capture the relevant datasets and their citations from the research paper.

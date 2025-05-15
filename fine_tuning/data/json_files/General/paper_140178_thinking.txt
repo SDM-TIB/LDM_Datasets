@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "An In-depth Evaluation of GPT-4 in Sentence Simplification with Error-based Human Assessment" by Xuanxin Wu and Yuki Arase, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the study evaluates GPT-4's performance on three representative datasets for sentence simplification, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 3 (Datasets)**, where the authors explicitly describe the datasets used in their study. Here, they mention both training and evaluation datasets, which is crucial for understanding the context of their experiments.
+
+The datasets mentioned in the paper are:
+
+1. **WikiLarge**: This dataset consists of 296,000 complex-simple sentence pairs automatically extracted from English Wikipedia and Simple English Wikipedia. It is used for training purposes.
+
+2. **Newsela**: This dataset originates from a collection of news articles with simplified versions written by professional editors. The authors utilized approximately 94,000 complex-simple sentence pairs from this dataset for training.
+
+3. **Turk**: This dataset comprises 2,359 sentences from English Wikipedia, each paired with eight simplified references written by crowd-workers. It focuses on lexical paraphrasing.
+
+4. **ASSET**: This dataset uses the same 2,359 source sentences as the Turk dataset but aims for more diverse transformations, providing 10 simplified references written by crowd-workers.
+
+5. **Newsela (validation and test splits)**: The authors also used the validation and test splits from the Newsela dataset, totaling 2,206 sentence pairs.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For **WikiLarge**, the citation is:
+  > Xu, W., Callison-Burch, C., & Napoles, C. (2015). Problems in Current Text Simplification Research: New Data Can Help. *Transactions of the Association for Computational Linguistics*, 3, 283-297. https://doi.org/10.1162/tacl_a_00139
+
+- For **Newsela**, the citation is:
+  > Xu, W., Napoles, C., Pavlick, E., Chen, Q., & Callison-Burch, C. (2016). Optimizing Statistical Machine Translation for Text Simplification. *Transactions of the Association for Computational Linguistics*, 4, 401-415. https://doi.org/10.1162/tacl_a_00107
+
+- For **Turk**, the citation is:
+  > Alva-Manchego, F., Martin, L., Bordes, A., Scarton, C., Sagot, B., & Specia, L. (2020). ASSET: A Dataset for Tuning and Evaluation of Sentence Simplification Models with Multiple Rewriting Transformations. *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*. https://doi.org/10.18653/v1/2020.acl-main.424
+
+- For **ASSET**, the citation is the same as for Turk since they share the same source sentences.
+
+Now that I have gathered the datasets and their citations, I will compile this information into a structured format for further processing or review.

@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "An extensible point-based method for data chart value detection" by Carlos Soto and Shinjae Yoo, I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and methods sections** to get an overview of the datasets discussed. The abstract mentions that the authors present a method for identifying semantic points in data charts and that they contribute several datasets, which indicates that multiple datasets are likely detailed in the paper.
+
+Next, I will focus on **section 5 (Datasets)**, where the authors explicitly describe the datasets they annotated and generated. This section is crucial as it provides detailed information about each dataset, including their types, uses, and statistics.
+
+The datasets mentioned in the paper are:
+
+1. **Bar chart detection dataset**: This dataset consists of 1592 document page images collected from the PubMed Central Open Access Subset, with 3548 annotated scientific bar charts. This dataset is used for evaluating baseline performance and detection qualities.
+
+2. **Synthetic bar charts for value detection**: This dataset contains 5000 synthetically generated bar charts, which are used for pre-training the model. The authors generated these charts programmatically using the Matplotlib library.
+
+3. **Manually annotated real charts values**: This dataset includes 500 manually annotated vertical bar charts sampled from the bar chart detection dataset. The authors used these for value detection in real charts.
+
+4. **Real-augmented synthetic charts**: This dataset consists of 5000 augmented synthetic bar charts, which were created by incorporating real chart fragments into synthetic charts to improve model training.
+
+5. **Synthetic pie charts**: This dataset includes synthetic pie charts generated to demonstrate the extensibility of the method to other chart types. The authors produced point annotations for the boundaries between pie wedges and the pie chart centroid.
+
+Now, I will look into the **References section** to find the full citations for the datasets mentioned. The citations for the datasets are as follows:
+
+- For the **Bar chart detection dataset**:
+  > Central, P. (2001). Pubmed central: The genbank of the published literature. 
+
+- For the **Synthetic bar charts for value detection**:
+  > Matplotlib Development Team. (n.d.). Matplotlib: Python plotting. Retrieved from https://matplotlib.org/
+
+- For the **Manually annotated real charts values**:
+  > Soto, C., & Yoo, S. (2023). An extensible point-based method for data chart value detection. In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).
+
+- For the **Real-augmented synthetic charts**:
+  > Soto, C., & Yoo, S. (2023). An extensible point-based method for data chart value detection. In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).
+
+- For the **Synthetic pie charts**:
+  > Soto, C., & Yoo, S. (2023). An extensible point-based method for data chart value detection. In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).
+
+After gathering all this information, I will compile the dataset entries into a structured format that is ready for review or further processing. This ensures that I have accurately captured the datasets and their citations as required.

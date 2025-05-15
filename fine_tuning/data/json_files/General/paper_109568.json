@@ -1,0 +1,139 @@
+[
+    {
+        "dcterms:creator": [
+            "Paul Ekman"
+        ],
+        "dcterms:description": "The WASSA dataset is used for emotion detection, focusing on identifying emotions such as sadness, surprise, neutral, anger, fear, disgust, and joy based on essay texts.",
+        "dcterms:title": "WASSA Dataset",
+        "dcterms:issued": "1992",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Emotion Detection",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Emotion classification",
+            "Text analysis",
+            "Essay emotions"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Emotion Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Dorottya Demszky",
+            "Dana Movshovitz-Attias",
+            "Jeong-woo Ko",
+            "Alan Cowen",
+            "Gaurav Nemade",
+            "Sujith Ravi"
+        ],
+        "dcterms:description": "The GoEmotions dataset is utilized for augmenting the WASSA dataset, providing a broader range of emotions with 27 different emotion categories.",
+        "dcterms:title": "GoEmotions Dataset",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:2005.00547",
+        "dcat:theme": [
+            "Emotion Detection",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Fine-grained emotions",
+            "Text classification",
+            "Data augmentation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Emotion Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Saif Mohammad",
+            "Felipe Bravo-Marquez",
+            "Mohammad Salameh",
+            "Svetlana Kiritchenko"
+        ],
+        "dcterms:description": "The SemEval dataset is referenced for its established benchmarks in emotion classification tasks, particularly in analyzing emotions in tweets.",
+        "dcterms:title": "SemEval Dataset",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Emotion Detection",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Affect in tweets",
+            "Emotion classification",
+            "Sentiment analysis"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Emotion Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "AOUS (Augmented Oversampling) is a derived dataset created to address class imbalance by undersampling or oversampling based on the number of data points per class.",
+        "dcterms:title": "AOUS (Augmented Oversampling)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Data augmentation",
+            "Class imbalance",
+            "Oversampling"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "AOS (Augmented Oversampling) is another derived dataset aimed at balancing the dataset by adding comments from the GoEmotions dataset with the highest lengths.",
+        "dcterms:title": "AOS (Augmented Oversampling)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Data augmentation",
+            "Class imbalance",
+            "Oversampling"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "RSO (Random Synthetic Oversampling) is a derived dataset that creates synthetic essays by concatenating multiple random comments with the same emotion to address class imbalance.",
+        "dcterms:title": "RSO (Random Synthetic Oversampling)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Data augmentation",
+            "Synthetic data",
+            "Class imbalance"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

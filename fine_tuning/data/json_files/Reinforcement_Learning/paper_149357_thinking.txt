@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Cycle-Consistent World Models for Domain Independent Latent Imagination" by Sidney Bender et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** to identify any mentions of datasets. The abstract discusses the use of simulations for training autonomous vehicles and mentions experiments conducted in the **CARLA simulator**, which suggests that datasets related to this simulator may be involved.
+
+Next, I will examine the **introduction** section for any explicit references to datasets. The introduction discusses the challenges of training in real-world environments and mentions the use of different modalities, which may indicate the presence of datasets that correspond to these modalities.
+
+In the **experiments section**, particularly **section 5**, the authors describe their experimental setup and mention three datasets collected with the CARLA roaming agent. I will extract the details of these datasets:
+
+1. **Semantic View Dataset**: This dataset contains trajectories of observations from a semantic camera with downstream information. It is used for training the model.
+
+2. **RGB Camera Dataset**: This dataset consists of trajectories of observations from an RGB camera without downstream information. It is also used for training the model.
+
+3. **Aligned Dataset**: This dataset includes aligned semantic and RGB camera trajectories along with downstream information. It is used for evaluation.
+
+Now, I will refer to the **References section** to find the full citations for the datasets mentioned. The paper does not provide specific citations for the datasets themselves, but it does reference the CARLA simulator, which is crucial for understanding the context of the datasets.
+
+The citation for the CARLA simulator is:
+> Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2017). *CARLA: An Open Urban Driving Simulator*. In Conference on Robot Learning (CoRL), pages 1–16.
+
+Since the datasets are derived from the CARLA simulator, I will use this citation to represent the datasets in my final output.
+
+Finally, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and the citation for the CARLA simulator, ensuring that all information is accurately represented and ready for downstream processing.

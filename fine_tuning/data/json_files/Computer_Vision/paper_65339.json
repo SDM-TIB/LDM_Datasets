@@ -1,0 +1,172 @@
+[
+    {
+        "dcterms:creator": [
+            "J. McAuley",
+            "C. Targett",
+            "Q. Shi",
+            "A. Van Den Hengel"
+        ],
+        "dcterms:description": "A co-purchasing graph from Amazon where nodes represent products and an edge indicates whether two products are frequently bought together. The dataset consists of 7,487 photographic equipment products, 119,043 co-purchasing connections, and 8 categories.",
+        "dcterms:title": "Amazon Photo",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "E-commerce",
+            "Recommendation Systems"
+        ],
+        "dcat:keyword": [
+            "Co-purchasing",
+            "Product recommendations",
+            "Graph data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Recommendation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "O. Shchur",
+            "M. Mumme",
+            "A. Bojchevski",
+            "S. G¨unnemann"
+        ],
+        "dcterms:description": "A co-authorship graph based on the Microsoft Academic Graph from the KDD Cup 2016 challenge. Each node in the graph represents an author, while an edge represents the co-authorship of a paper between two authors. The dataset consists of 18,333 computer science authors with 81,894 connections and 15 ground-truth clusters.",
+        "dcterms:title": "Coauthor CS",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Co-authorship",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Co-authorship graph",
+            "Academic collaboration",
+            "Graph data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Clustering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "O. Shchur",
+            "M. Mumme",
+            "A. Bojchevski",
+            "S. G¨unnemann"
+        ],
+        "dcterms:description": "A co-authorship graph extracted from the Microsoft Academic Graph, focusing on Physics research. The dataset has 34,493 physics researchers and 247,962 connections among them, with each researcher belonging to one of the 5 ground-truth clusters.",
+        "dcterms:title": "Coauthor Physics",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Co-authorship",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Co-authorship graph",
+            "Physics research",
+            "Graph data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Clustering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "O. Shchur",
+            "M. Mumme",
+            "A. Bojchevski",
+            "S. G¨unnemann"
+        ],
+        "dcterms:description": "A co-purchasing graph extracted from Amazon, with the same structure as Amazon Photo. It has 13,752 computer equipment products, 245,861 connections, and 10 categories.",
+        "dcterms:title": "Amazon Computers",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "E-commerce",
+            "Recommendation Systems"
+        ],
+        "dcat:keyword": [
+            "Co-purchasing",
+            "Product recommendations",
+            "Graph data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Recommendation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. K. McCallum",
+            "K. Nigam",
+            "J. Rennie",
+            "K. Seymore"
+        ],
+        "dcterms:description": "A citation network where each node denotes a scientific publication in Computer Science. The graph includes 2,708 publications, 5,429 edges, and 7 classes denoting the paper categories. The node features are bag-of-words encodings of the paper abstract.",
+        "dcterms:title": "Cora",
+        "dcterms:issued": "2000",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Network",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Citation graph",
+            "Scientific publications",
+            "Graph data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "P. Sen",
+            "G. Namata",
+            "M. Bilgic",
+            "L. Getoor",
+            "B. Galligher",
+            "T. Eliassi-Rad"
+        ],
+        "dcterms:description": "A citation network with a similar structure as Cora, categorizing medical publications into one of 3 classes. The dataset comprises 19,717 nodes and 44,338 edges, with node features being TF/IDF encodings from a selected dictionary.",
+        "dcterms:title": "Pubmed",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Network",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Citation graph",
+            "Medical publications",
+            "Graph data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Classification"
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Decentralised Q-Learning for Multi-Agent Markov Decision Processes with a Satisfiability Criterion" by Keshav P. Keval and Vivek S. Borkar, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and the introduction often outlines the context and significance of the work, which may include references to datasets.
+
+Next, I will look for a dedicated **section on experiments or datasets**. In this paper, I will specifically check sections that discuss empirical evaluations or simulations, as these typically contain information about the datasets used. 
+
+Upon reviewing the paper, I find that the authors mention several environments and scenarios in which their algorithm is tested. Specifically, they describe:
+
+1. **7-Agent 2-state-2-action MDP (Simple case)**: This dataset is generated with random transition kernels and cost functions, which are uniformly drawn from a specified range. However, it does not have a formal citation since it is a synthetic dataset created for the purpose of the study.
+
+2. **7-Agent 10-state-2-action MDP (Simple case)**: Similar to the previous dataset, this is also a synthetic dataset created for testing the algorithm. Again, it lacks a formal citation.
+
+3. **4-Agent Queueing System (General case)**: This dataset is described in detail, including the dynamics and costs associated with the agents. It is also a synthetic dataset, and no formal citation is provided.
+
+4. **2-Agent Grid World Environment (General case)**: This dataset is based on a modified environment from a previous work, specifically Jiang and Amato [2021]. This is the only dataset with a formal citation.
+
+Now, I will compile the full citations for the datasets mentioned:
+
+- For the **2-Agent Grid World Environment**, the citation is:
+  > Shuo Jiang and Christopher Amato. *Multi-agent reinforcement learning with directed exploration and selective memory reuse*. In Proceedings of the 36th Annual ACM Symposium on Applied Computing, pages 777–784, 2021.
+
+Since the other datasets are synthetic and do not have formal citations, I will note that they are generated for the purposes of the experiments in this paper.
+
+Finally, I will summarize the datasets in a structured format, ensuring to include the citations where applicable. This will provide a clear overview of the datasets used in the research.

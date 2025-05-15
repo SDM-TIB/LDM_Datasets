@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "Energy-Guided Diffusion Sampling for Offline-to-Online Reinforcement Learning" by Xu-Hui Liu et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract discusses the performance of the proposed method (EDIS) on various environments, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (Section 5), where the authors evaluate their method. Here, they mention specific environments and datasets used for testing. In particular, they refer to benchmark tasks from **D4RL** (Fu et al., 2020), which is a significant clue that I should look for specific datasets associated with these tasks.
+
+In **Section 5.1**, the authors list several environments where EDIS was evaluated, including:
+
+1. **MuJoCo Locomotion**: This includes tasks like hopper, halfcheetah, and walker2d, which are standard benchmarks in reinforcement learning.
+2. **AntMaze Navigation**: This includes various datasets such as antmaze-umaze-v2 and antmaze-medium-diverse-v2.
+3. **Adroit Manipulation**: This includes tasks like pen-human-v1 and door-human-v1.
+
+I will also check the **References section** to find full citations for the datasets mentioned. The paper cites the D4RL dataset, which is crucial for understanding the context of the datasets used.
+
+The full citation for the D4RL dataset is:
+> Fu, J., Kumar, A., Nachum, O., Tucker, G., and Levine, S. D4RL: datasets for deep data-driven reinforcement learning. CoRR, abs/2004.07219, 2020.
+
+Now, I will compile the identified datasets along with their citations:
+
+1. **MuJoCo Locomotion**: This includes several tasks, but the specific datasets are not individually cited in the paper. However, they are part of the D4RL benchmark.
+2. **AntMaze Navigation**: Similar to MuJoCo, the specific datasets are part of the D4RL benchmark.
+3. **Adroit Manipulation**: The datasets mentioned (e.g., pen-human-v1, door-human-v1) are also part of the D4RL benchmark.
+
+Since the paper does not provide separate citations for each task within the D4RL benchmark, I will reference the D4RL citation for all the datasets mentioned.
+
+In summary, I will document the datasets as follows:
+
+- **MuJoCo Locomotion**: Part of D4RL (Fu et al., 2020).
+- **AntMaze Navigation**: Part of D4RL (Fu et al., 2020).
+- **Adroit Manipulation**: Part of D4RL (Fu et al., 2020).
+
+Finally, I will ensure that the citations are formatted correctly and ready for inclusion in any structured output or documentation.

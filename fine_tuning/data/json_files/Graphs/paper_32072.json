@@ -1,0 +1,47 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The data set is data from 300 viewers over a six-month period based on TV viewing records. A user interaction is defined as watching a program, an item is defined as a program, and a session is defined as a sequence of program viewing records. In raw data, sessions are randomly divided with 180 seconds interval because sessions were not previously divided. In addition, TV programs that appeared less than 5 times out of all viewing records were excluded, and data with a session length of 2 or more were used. For each user, we sort the viewing sequence in chronological order, and 80 percent of the previous session was used as a train set and 20 percent of the next session as a test set. TVwatching dataset is private and not gonna be publicly released.",
+        "dcterms:title": "TVwatching dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "TV viewing records",
+            "User interaction",
+            "Session-based recommendation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Yongquan Xie",
+            "Zhengru Li",
+            "Tian Qin",
+            "Finn Tseng",
+            "Kristinsson Johannes",
+            "Shiqi Qiu",
+            "Yi Lu Murphey"
+        ],
+        "dcterms:description": "The AppUsage dataset is application usage history data for the iPhone. A user interaction is defined as app use. In addition, the item becomes an app, and the session becomes an app usage record sequence. Following the reference, system default apps were removed from train or test step.",
+        "dcterms:title": "AppUsage dataset",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Application usage",
+            "iPhone",
+            "User interaction",
+            "Session-based recommendation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

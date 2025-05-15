@@ -1,0 +1,51 @@
+To extract datasets from the research paper titled "XLM-V: Overcoming the Vocabulary Bottleneck in Multilingual Masked Language Models" by Davis Liang et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract mentions that the authors evaluate their model on various tasks, which suggests that datasets are involved. I will look for specific mentions of datasets in these sections.
+
+In the **introduction**, the authors discuss the limitations of existing multilingual models and hint at the datasets used for evaluation. However, I need to find explicit mentions of dataset names.
+
+Next, I will focus on the **experiments section** (section 4), where the authors typically describe the datasets used for training and evaluation. Here, they mention several datasets:
+
+1. **CC100**: A multilingual corpus created from a Common Crawl dump, containing 2.5 TB of data across 116 languages. This dataset is used for constructing vocabularies and pretraining the models.
+
+2. **FLoRes-200**: An evaluation corpus consisting of 3,001 sentences extracted from 842 English Wikipedia articles, translated into 200 languages by professional translators.
+
+3. **XNLI**: A dataset for natural language inference that includes crowd-sourced English data translated into ten other languages.
+
+4. **MLQA**: A question answering dataset created by mining target language sentences parallel to English sentences from Wikipedia.
+
+5. **XQuAD**: A dataset that translates the dev set of SQuAD v1.1 into ten other languages for evaluation.
+
+6. **TyDiQA-GoldP**: A question answering dataset covering 11 diverse languages with 200K QA pairs.
+
+7. **Americas NLI**: An extension of XNLI for ten indigenous languages of the Americas.
+
+8. **MasakhaNER**: A dataset for named entity recognition in ten African languages.
+
+Now, I will check the **References section** to find the full citations for each dataset mentioned:
+
+- For **CC100**, the citation is:
+  > Alexis Conneau, Kartikay Khandelwal, Naman Goyal, Vishrav Chaudhary, Guillaume Wenzek, Francisco Guzmán, Edouard Grave, Myle Ott, Luke Zettlemoyer, and Veselin Stoyanov. *Unsupervised cross-lingual representation learning at scale*. arXiv preprint arXiv:1911.02116, 2019.
+
+- For **FLoRes-200**, the citation is:
+  > Naman Goyal, Cynthia Gao, Vishrav Chaudhary, Peng-Jen Chen, Guillaume Wenzek, Da Ju, Sanjana Krishnan, Marc’Aurelio Ranzato, Francisco Guzman, and Angela Fan. *The flores-101 evaluation benchmark for low-resource and multilingual machine translation*. Transactions of the Association for Computational Linguistics, 10:522–538, 2022.
+
+- For **XNLI**, the citation is:
+  > Alexis Conneau, Guillaume Lample, Ruty Rinott, Adina Williams, Samuel R Bowman, Holger Schwenk, and Veselin Stoyanov. *XNLI: Evaluating cross-lingual sentence representations*. arXiv preprint arXiv:1809.05053, 2018.
+
+- For **MLQA**, the citation is:
+  > Patrick Lewis, Barlas Oğuz, Ruty Rinott, Sebastian Riedel, and Holger Schwenk. *MLQA: Evaluating cross-lingual extractive question answering*. arXiv preprint arXiv:1910.07475, 2019.
+
+- For **XQuAD**, the citation is:
+  > Mikel Artetxe, Sebastian Ruder, and Dani Yogatama. *On the cross-lingual transferability of monolingual representations*. arXiv preprint arXiv:1910.11856, 2019.
+
+- For **TyDiQA-GoldP**, the citation is:
+  > Jonathan H Clark, Eunsol Choi, Michael Collins, Dan Garrette, Tom Kwiatkowski, Vitaly Nikolaev, and Jennimaria Palomaki. *TyDi QA: A benchmark for information-seeking question answering in typologically diverse languages*. Transactions of the Association for Computational Linguistics, 8:454–470, 2020.
+
+- For **Americas NLI**, the citation is:
+  > Abteen Ebrahimi, Manuel Mager, Arturo Oncevay, Vishrav Chaudhary, Luis Chiruzzo, Angela Fan, John Ortega, Ricardo Ramos, Annette Rios, Ivan. *AmericasNLI: Evaluating zero-shot natural language understanding of pretrained multilingual models in truly low-resource languages*. arXiv preprint arXiv:2104.08726, 2021.
+
+- For **MasakhaNER**, the citation is:
+  > David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D’souza, Julia Kreutzer, Constantine Lignos, Chester Palen-Michel, Happy Buzaaba, Shruti Rijhwani, Sebastian Ruder, et al. *MasakhaNER: Named entity recognition for African languages*. Transactions of the Association for Computational Linguistics, 9:1116–1131, 2021.
+
+With all this information gathered, I will now compile the dataset entries into a structured format for further processing.

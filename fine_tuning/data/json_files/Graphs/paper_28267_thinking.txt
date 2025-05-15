@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "r-GAT: Relational Graph Attention Network for Multi-Relational Graphs" by Meiqi Chen et al., I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract and introduction** sections to identify any mentions of datasets. The abstract provides a brief overview of the research and may highlight key datasets used for experiments. In this case, the authors mention "extensive experiments on link prediction and entity classification tasks," which suggests that datasets are involved.
+
+Next, I will examine the **Methods** section, particularly the part where the authors describe their approach to link prediction and entity classification. Here, they mention using two benchmark knowledge graph datasets for link prediction: **FB15k-237** and **WN18RR**. This is a clear indication that these datasets are crucial for their experiments.
+
+I will then look for a **Datasets** or **Experiments** section, where the authors typically provide detailed descriptions of the datasets used. In this paper, the relevant information is found in the **Experiments** section, where the authors describe the datasets used for link prediction tasks. They provide statistics for both datasets, including the number of entities, relations, and edges.
+
+The datasets mentioned are:
+
+1. **FB15k-237**: This dataset is a subset of FB15k, derived from Freebase, and contains knowledge graph triplets of Freebase entities. The authors note that it removes reverse relations, making it more challenging for models to predict new facts.
+
+2. **WN18RR**: This dataset is created from WN18, which is a subset of WordNet. The authors explain that WN18RR was introduced to avoid reverse relation test leakage problems found in WN18.
+
+Now, I will consult the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **FB15k-237**, the citation is:
+  > Toutanova, K., Chen, D., Pantel, P., Poon, H., Choudhury, P., & Gamon, M. (2015). Representing Text for Joint Embedding of Text and Knowledge Bases. In Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP), 1499–1509. Lisbon, Portugal: Association for Computational Linguistics.
+
+- For **WN18RR**, the citation is:
+  > Dettmers, T., Minervini, P., Stenetorp, P., & Riedel, S. (2018). Convolutional 2D Knowledge Graph Embeddings. In Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence (AAAI-18), 1811–1818. AAAI Press.
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

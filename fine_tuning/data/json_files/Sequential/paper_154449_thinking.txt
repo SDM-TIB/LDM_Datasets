@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "How to Train Your Differentiable Filter" by Alina Kloss et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the paper's focus on differentiable filters and their application in various tasks, which may hint at the datasets used.
+
+Next, I will focus on the **experiments section** (Section V and subsequent sections) where the authors typically describe the datasets used for their evaluations. I will look for specific mentions of datasets, including their names, characteristics, and any relevant details about how they were used in the experiments.
+
+In the **experimental setup**, the authors mention using the **KITTI Visual Odometry dataset** and the **MIT Push dataset**. I will extract the details provided about these datasets:
+
+1. **KITTI Visual Odometry Dataset**: This dataset consists of eleven trajectories of varying lengths with ground truth annotations for position and heading, collected from two cameras at 10 Hz. The authors mention that they build eleven different datasets from this, using one trajectory for testing and the others for training and validation.
+
+2. **MIT Push Dataset**: This dataset is used for constructing datasets for the planar pushing task. The authors describe how they obtain additional annotations for contact points and normals, and how they render images for the dataset.
+
+After identifying these datasets, I will consult the **References section** to find the full citations for each dataset:
+
+- For the **KITTI Visual Odometry dataset**, the citation is:
+  > A. Geiger, P. Lenz, and R. Urtasun. "Are we ready for autonomous driving? The KITTI vision benchmark suite." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2012.
+
+- For the **MIT Push dataset**, the citation is:
+  > K. T. Yu et al. "More than a million ways to be pushed: A high-fidelity experimental dataset of planar pushing." In Proceedings of the IEEE International Conference on Intelligent Robots and Systems (IROS), 2016.
+
+Now, I will compile the dataset entries, ensuring that each entry includes the dataset name, a brief description, and the full citation. This structured approach will ensure that I capture all relevant information accurately and comprehensively.

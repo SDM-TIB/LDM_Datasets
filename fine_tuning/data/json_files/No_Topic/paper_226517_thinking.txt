@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Learning to Avoid Poor Images: Towards Task-aware C-arm Cone-beam CT Trajectories" by Jan-Nico Zaech et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract** to see if any datasets are mentioned. The abstract discusses the use of synthetic and real data to demonstrate the proposed method, which suggests that datasets are involved, but I need to find specific names.
+
+Next, I will examine the **introduction** section for any references to datasets. The introduction provides context about the problem being addressed but does not explicitly mention any datasets.
+
+Moving on to the **methods** section, I will look for detailed descriptions of the datasets used for training and testing. Here, I find that the authors mention using realistic digitally reconstructed radiographs (DRRs) generated from CT scans. They specify that five chest CT volumes were obtained from the Cancer Imaging Archive, which is a key dataset.
+
+In the **training** subsection, the authors describe the dataset used for training their convolutional neural network. They mention generating a dataset of 212 "scans" with a total of 290,016 images, which is derived from the CT volumes. This dataset is crucial for understanding the training process.
+
+Additionally, the authors mention a second dataset consisting of 75 "scans" generated with analytic phantoms for real data experiments. This dataset is also important for the evaluation of their method.
+
+Now, I will check the **references section** to find full citations for the datasets mentioned:
+
+1. For the **Cancer Imaging Archive**, the citation is:
+   > The Cancer Imaging Archive. *Cancer Imaging Archive*. [Online]. Available: https://www.cancerimagingarchive.net/
+
+2. For the **DeepDRR** tool used for generating DRRs, the citation is:
+   > Unberath, M., Zaech, J.N., Lee, S.C., Bier, B., Fotouhi, J., Armand, M., Navab, N. *DeepDRR–a catalyst for machine learning in fluoroscopy-guided procedures*. In: MICCAI. pp. 98–106. Springer (2018).
+
+3. The authors also reference their own dataset generated from the analytic phantoms, but since it is not a publicly available dataset, it may not have a formal citation.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described and that full citations are included for those that are publicly available.
+
+This structured approach will ensure that I accurately capture all relevant datasets from the paper while adhering to the importance of proper citation.

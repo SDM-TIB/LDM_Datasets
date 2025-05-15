@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Make-An-Agent: A Generalizable Policy Network Generator with Behavior-Prompted Diffusion" by Yongyuan Liang et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract mentions the development of a policy generator and hints at the use of a dataset for training, which suggests that there are datasets involved.
+
+In the **introduction**, the authors discuss the need for a dataset of policy network parameters and trajectories, indicating that they have constructed a dataset for their experiments. This is a strong indication that I should look for specific details about this dataset.
+
+Next, I will focus on the **methodology section**, where the authors describe their approach to building the dataset. They mention that they collected tens of thousands of policy parameters and trajectories from deploying these policies, which is crucial information. I will note the specifics of how the dataset was constructed, including the number of policy networks collected for each task.
+
+In the **experiments section**, the authors provide further details about the datasets used for evaluation. They mention collecting 1500 policy networks for each task in two benchmarks: **MetaWorld** and **Robosuite**. This section will help me confirm the datasets used in their experiments.
+
+Now, I will compile the information about the datasets:
+
+1. **MetaWorld Dataset**: This dataset consists of 1500 policy networks collected from various tasks in the MetaWorld benchmark, which is designed for robotic manipulation. The authors state that these networks are sourced from policy checkpoints during training.
+
+2. **Robosuite Dataset**: Similar to MetaWorld, this dataset also contains 1500 policy networks for tasks in the Robosuite benchmark. The networks are collected from policy checkpoints during training, ensuring a robust dataset for evaluation.
+
+Next, I will check the **References section** to find the full citations for the datasets mentioned. The paper does not provide specific citations for the datasets themselves, but it does reference the original papers for the benchmarks:
+
+- For **MetaWorld**, the citation is:
+  > Tianhe Yu, Deirdre Quillen, Zhanpeng He, Ryan Julian, Karol Hausman, Chelsea Finn, and Sergey Levine. *Meta-world: A benchmark and evaluation for multi-task and meta reinforcement learning*. In Conference on Robot Learning (CoRL), 2019.
+
+- For **Robosuite**, the citation is:
+  > Yuke Zhu, Josiah Wong, Ajay Mandlekar, Roberto Martín-Martín, Abhishek Joshi, Soroush Nasiriany, and Yifeng Zhu. *Robosuite: A modular simulation framework and benchmark for robot learning*. arXiv preprint arXiv:2009.12293, 2020.
+
+Finally, I will summarize the datasets and their citations clearly to ensure that all relevant information is captured accurately for future reference or processing.

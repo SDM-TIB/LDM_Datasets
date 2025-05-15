@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "How to Train Your Super-Net: An Analysis of Training Heuristics in Weight-Sharing NAS" by Kaicheng Yu et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and the introduction often discusses the context and significance of the datasets used.
+
+In the **introduction**, the authors mention leveraging three benchmark search spaces: **NASBench-101**, **NASBench-201**, and **DARTS-NDS**. This indicates that these are the datasets of interest, but I need to confirm their details in the methodology section.
+
+Next, I will look into the **evaluation methodology section**, where the authors describe the datasets in detail. Here, they specify the characteristics of each dataset:
+
+1. **NASBench-101**: This dataset consists of 423,624 architectures and is compatible with weight-sharing NAS. It provides ground-truth performance for a large number of architectures.
+
+2. **NASBench-201**: This dataset contains 15,625 architectures and includes more operations than NASBench-101 but fewer nodes. It also provides ground-truth performance metrics.
+
+3. **DARTS-NDS**: This dataset includes a subset of 5,000 models that were sampled and trained in a stand-alone fashion, allowing for performance evaluation.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to guide readers to the original sources.
+
+The full citations for the datasets are as follows:
+
+- For **NASBench-101**:
+  > Ying, C., Klein, A., Real, E., Christiansen, E., Murphy, K., & Hutter, F. (2019). *NAS-Bench-101: Towards reproducible neural architecture search*. arXiv:1902.09635. URL: https://arxiv.org/abs/1902.09635.
+
+- For **NASBench-201**:
+  > Dong, X., & Yang, Y. (2020). *NAS-Bench-201: Extending the scope of reproducible neural architecture search*. In International Conference on Learning Representations. URL: https://openreview.net/forum?id=HJxyZkBKDr.
+
+- For **DARTS-NDS**:
+  > Liu, H., Simonyan, K., & Yang, Y. (2019). *DARTS: Differentiable architecture search*. International Conference on Learning Representations. URL: https://openreview.net/forum?id=HylxE1HKwS.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Federated Learning for Channel Estimation in Conventional and RIS-Assisted Massive MIMO" by Ahmet M. Elbir and Sinem Coleri, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses the use of local datasets for training a convolutional neural network (CNN) for channel estimation, which suggests that datasets are involved.
+
+Next, I will look for specific mentions of datasets in the **methodology section**. In this section, the authors describe the training data collection process, indicating that each user collects its own training dataset from received pilot signals. They mention that the local dataset \( D_k \) at the \( k \)-th user contains input-output pairs, where the input is the received pilot signals and the output is the channel matrix.
+
+I will also check the **experiments section** to see if the authors provide details about the datasets used for evaluation. They mention that the datasets consist of channel realizations for different users, specifically stating that the local dataset of each user includes 100 different channel realizations for 8 users.
+
+Now, I will look for any references to existing datasets or any specific datasets that were used in their experiments. The authors mention that the training data can be obtained via offline datasets prepared by collecting data from field measurements, and they reference a dataset obtained by electromagnetic simulations.
+
+Next, I will consult the **References section** to find full citations for any datasets mentioned. The paper references several works related to channel estimation and machine learning, but it does not provide specific citations for the datasets used in their experiments.
+
+Based on the information gathered, I will summarize the datasets as follows:
+
+1. **Local Datasets for Channel Estimation**: Each user collects its own dataset consisting of input-output pairs, where the input is the received pilot signals and the output is the channel matrix. The size of each local dataset is 100 different channel realizations for each of the 8 users.
+
+2. **Electromagnetic Simulations Dataset**: The authors mention a dataset obtained from electromagnetic simulations, but they do not provide a specific citation for this dataset.
+
+Since the paper does not provide full citations for the datasets, I will note that the local datasets are generated based on the authors' methodology, and the electromagnetic simulations dataset may need to be referenced from the original source if it is available.
+
+Finally, I will compile the dataset entries into a structured format for further processing.

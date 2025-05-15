@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Knowledge Graph Enhanced Event Extraction in Financial Documents" by Kaihao Guo et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to locate any references to datasets. The abstract mentions the construction of a new lawsuit event dataset, which indicates that there are datasets relevant to the study.
+
+Next, I will focus on the **introduction** section, where the authors discuss the challenges of event extraction and the need for labeled data. They mention using a dataset from a previous study (Doc2EDAG) and constructing a new dataset for lawsuit events. This suggests that there are at least two datasets to consider.
+
+In the **methodology section**, the authors describe their approach to labeling data using distant supervision and template matching. They mention the use of a dataset consisting of 21,871 financial announcements, which is crucial for their experiments. This section provides specific details about the dataset's composition and the types of events it includes.
+
+In the **experiments section**, the authors provide statistics about the dataset, including the number of instances for each event type. They also mention the split of the dataset into training, validation, and test sets, which is important for understanding how the dataset is structured.
+
+Now, I will compile the information about the datasets and look for full citations in the **references section**. The relevant datasets identified are:
+
+1. **Doc2EDAG Dataset**: This dataset is referenced as the source for the event extraction framework. The citation is:
+   > Zheng, S., Cao, W., Xu, W., & Bian, J. (2019). *Doc2EDAG: An end-to-end document-level framework for Chinese financial event extraction*. In 2019 Conference on Empirical Methods in Natural Language Processing (pp. 337–346).
+
+2. **Lawsuit Event Dataset**: This dataset is constructed using distant supervision and template matching methods. The authors mention that it consists of 2,528 labeled lawsuit type financial announcements. Since this dataset is newly constructed and not previously published, I will note that it is a contribution of this paper without a formal citation.
+
+3. **Main Knowledge Graph Data**: The authors describe a knowledge graph with 347,570 entities and 441,127 relations, which is used to enhance the event extraction process. This knowledge graph is based on publicly available business information from China's National Enterprise Credit Information Publicity System. However, it does not have a specific citation as it is derived from publicly available data.
+
+After gathering this information, I will summarize the datasets in a structured format, ensuring to include the full citations where applicable. This will provide a clear overview of the datasets used in the research and their significance in the context of the study.

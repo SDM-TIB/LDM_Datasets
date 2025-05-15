@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Isotropic Gaussian Processes on Finite Spaces of Graphs" by Viacheslav Borovitskiy et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to see if any datasets are explicitly mentioned. The abstract provides a brief overview of the research, and the introduction often discusses the context and relevance of the datasets used.
+
+In the **introduction**, the authors mention applications in chemistry and a specific task related to molecular property prediction. This suggests that there may be datasets related to molecular properties.
+
+Next, I will focus on the **experimental setup section**. Here, the authors describe their evaluation methods and the datasets they used. They specifically mention using the **FreeSolv dataset**, which consists of 642 molecules with experimentally measured hydration free energy values. They also mention a subset called **FreeSolv-S**, which includes a smaller number of molecules with specific atom types.
+
+Now, I will look for the full citations of these datasets in the **References section** of the paper. The citation for the FreeSolv dataset is:
+
+- **FreeSolv Dataset**:
+  > Mobley, D. L., & Guthrie, J. P. (2014). FreeSolv: a database of experimental and calculated hydration free energies, with input files. *Journal of Computer-Aided Molecular Design*, 28(7), 711-720.
+
+For the subset FreeSolv-S, since it is derived from the FreeSolv dataset, I will reference the same citation as it is not a separate dataset but a specific configuration of the original dataset.
+
+After gathering this information, I will summarize the datasets as follows:
+
+1. **FreeSolv Dataset**: A dataset containing 642 molecules with experimentally measured hydration free energy values.
+2. **FreeSolv-S Dataset**: A smaller subset of the FreeSolv dataset, allowing up to four atom types (carbon, nitrogen, oxygen, and chlorine) with a maximum of 3 atoms per type.
+
+Finally, I will compile the dataset entries into a structured format for clarity and future reference.

@@ -1,0 +1,199 @@
+[
+    {
+        "dcterms:creator": [
+            "O. Shchur",
+            "M. Mumme",
+            "A. Bojchevski",
+            "S. G¨unnemann"
+        ],
+        "dcterms:description": "A network of co-purchase relationships constructed from Amazon, where nodes are goods and two goods are connected when they are frequently bought together. Each node has a sparse bag-of-words feature encoding product reviews and is labeled with its category.",
+        "dcterms:title": "Amazon-Photo",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "E-commerce",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Co-purchase relationships",
+            "Product reviews",
+            "Graph neural networks"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "O. Shchur",
+            "M. Mumme",
+            "A. Bojchevski",
+            "S. G¨unnemann"
+        ],
+        "dcterms:description": "A network of co-purchase relationships constructed from Amazon, where nodes are goods and two goods are connected when they are frequently bought together. Each node has a sparse bag-of-words feature encoding product reviews and is labeled with its category.",
+        "dcterms:title": "Amazon-Computers",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "E-commerce",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Co-purchase relationships",
+            "Product reviews",
+            "Graph neural networks"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "P. Mernyei",
+            "C. Cangea"
+        ],
+        "dcterms:description": "A reference network constructed based on Wikipedia. The nodes correspond to articles about computer science and edges are hyperlinks between the articles. Nodes are labeled with ten classes each representing a branch of the field. Node features are calculated as the average of pre-trained GloVe word embeddings of words in each article.",
+        "dcterms:title": "Wiki-CS",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Education",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Wikipedia",
+            "Computer Science",
+            "Graph neural networks"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "O. Shchur",
+            "M. Mumme",
+            "A. Bojchevski",
+            "S. G¨unnemann"
+        ],
+        "dcterms:description": "An academic network containing co-authorship graphs based on the Microsoft Academic Graph. Nodes represent authors and edges indicate co-authorship relationships. Each node has a sparse bag-of-words feature based on paper keywords of the author.",
+        "dcterms:title": "Coauthor-CS",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Academia",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Co-authorship",
+            "Academic papers",
+            "Graph neural networks"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. L. Hamilton",
+            "R. Ying",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "Contains Reddit posts created in September 2014, where posts belong to different communities. Nodes correspond to posts, and edges connect posts if the same user has commented on both. Node features are constructed from post title, content, and comments.",
+        "dcterms:title": "Reddit",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Media",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Reddit posts",
+            "Community detection",
+            "Graph neural networks"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "O. Shchur",
+            "M. Mumme",
+            "A. Bojchevski",
+            "S. G¨unnemann"
+        ],
+        "dcterms:description": "A dataset originating from NUS-wide, collected from four different sources including NUS-wide, generating an undirected graph where nodes represent images uploaded to Flickr. Edges exist between nodes if two images share common properties.",
+        "dcterms:title": "Flickr",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Data",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Flickr images",
+            "Image classification",
+            "Graph neural networks"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Hu",
+            "M. Fey",
+            "M. Zitnik",
+            "Y. Dong",
+            "H. Ren",
+            "B. Liu",
+            "M. Catasta",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "A large-scale citation network where nodes represent CS papers on arXiv indexed by the Microsoft Academic Graph. Papers are classified into 40 classes based on arXiv subject area.",
+        "dcterms:title": "ogbn-arXiv",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Academia",
+            "Graph Data"
+        ],
+        "dcat:keyword": [
+            "Citation network",
+            "CS papers",
+            "Graph neural networks"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node classification"
+        ]
+    }
+]

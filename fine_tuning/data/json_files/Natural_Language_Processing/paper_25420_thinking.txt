@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Case2Code: Learning Inductive Reasoning with Synthetic Data" by Yunfan Shao et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors focus on synthesizing a diverse set of executable programs and input-output transformations, which suggests that there may be datasets involved in this process.
+
+Next, I will examine **section 3 (Method)**, where the authors describe their framework for synthesizing Case2Code data. They mention collecting a diverse collection of executable code texts from "The Stack" dataset. This is a significant dataset that I need to document.
+
+In **section 4.1 (Experimental Setup)**, the authors state that they randomly sampled about 2.3 million functions from "The Stack" pre-training dataset. This confirms the use of this dataset for their experiments.
+
+Now, I will look for the full citation of "The Stack" dataset in the **References section**. The citation is as follows:
+> Denis Kocetkov, Raymond Li, Loubna Ben Allal, Jia Li, Chenghao Mou, Carlos Muñoz Ferrandis, Yacine Jernite, Margaret Mitchell, Sean Hughes, Thomas Wolf, Dzmitry Bahdanau, Leandro von Werra, and Harm de Vries. *The Stack: 3 TB of permissively licensed source code*. CoRR, abs/2211.15533.
+
+Additionally, I will note that the authors synthesized large-scale Case2Code training samples from the collected programs, but they do not provide a separate dataset citation for the synthetic data itself, as it is generated from the original dataset.
+
+Now, I will compile the dataset entries into a structured format, ensuring that I include the full citations for each dataset mentioned in the paper.
+
+In summary, the key dataset extracted from the paper is:
+1. **The Stack**: A dataset of executable code texts used to synthesize Case2Code data.
+
+The full citation for this dataset is:
+> Denis Kocetkov, Raymond Li, Loubna Ben Allal, Jia Li, Chenghao Mou, Carlos Muñoz Ferrandis, Yacine Jernite, Margaret Mitchell, Sean Hughes, Thomas Wolf, Dzmitry Bahdanau, Leandro von Werra, and Harm de Vries. *The Stack: 3 TB of permissively licensed source code*. CoRR, abs/2211.15533.
+
+With this information, I am ready to create the structured output for the dataset.

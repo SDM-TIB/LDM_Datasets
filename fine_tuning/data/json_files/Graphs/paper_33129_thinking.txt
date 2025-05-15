@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Crafting In-context Examples according to LMs’ Parametric Knowledge" by Yoonsang Lee et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experimental settings** sections to identify any datasets that are explicitly mentioned. The abstract indicates that the authors analyze three multi-answer question answering datasets, which suggests that datasets are indeed present.
+
+Next, I will focus on **section 2 (Experimental Settings)**, where the authors describe their evaluation settings. Here, they explicitly mention three datasets used for evaluation:
+
+1. **AmbigQA**: This dataset contains a subset of questions from the Natural Questions dataset, specifically those marked as ambiguous, allowing for multiple correct answers.
+
+2. **QAMPARI**: This dataset consists of questions whose correct answers span multiple paragraphs in the document from which they were retrieved. It was originally developed to evaluate retrieval methods.
+
+3. **QUEST**: This dataset is constructed by formulating queries that define implicit set operations over Wikipedia entities.
+
+In the **appendix**, the authors provide additional details about the datasets, including statistics such as the number of examples, average number of answers, and lengths of queries and answers. This information will be useful for a comprehensive description of each dataset.
+
+Now, I will consult the **References section** to retrieve the full citations for these datasets:
+
+- For **AmbigQA**, the citation is:
+  > Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh Hajishirzi, and Luke Zettlemoyer. *AmbigQA: Answering Ambiguous Open-Domain Questions*. ArXiv preprint arXiv:2004.10645, 2020.
+
+- For **QAMPARI**, the citation is:
+  > Samuel Joseph Amouyal, Ohad Rubin, Ori Yoran, Tomer Wolfson, Jonathan Herzig, and Jonathan Berant. *Qampari: An Open-Domain Question Answering Benchmark for Questions with Many Answers from Multiple Paragraphs*. ArXiv preprint arXiv:2205.12665, 2022.
+
+- For **QUEST**, the citation is:
+  > Chaitanya Malaviya, Peter Shaw, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. *Quest: A Retrieval Dataset of Entity-Seeking Queries with Implicit Set Operations*. ArXiv preprint arXiv:2305.11694, 2023.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations. This will ensure that the datasets are accurately represented and properly cited for any future reference or analysis.

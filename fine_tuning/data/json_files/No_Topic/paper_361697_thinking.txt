@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Time-aware Metapath Feature Augmentation for Ponzi Detection in Ethereum" by Chengxiang Jin et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to see if any datasets are explicitly mentioned. The abstract indicates that the authors conducted extensive experiments on the **Ethereum dataset**, which suggests that this dataset is crucial for their research.
+
+Next, I will look for specific sections that detail the datasets used, particularly in **section 4 (Account Interaction Graph Modeling)** and **section 4.1 (Ethereum Data)**. Here, the authors provide statistics about the datasets they constructed, including the number of nodes and edges in both homogeneous and heterogeneous graphs.
+
+In **section 4.1**, the authors describe the datasets as follows:
+
+1. **Homogeneous Graph Dataset (Ghom)**: This dataset consists of 57,130 nodes and 86,602 edges, representing interactions in a simplified manner without distinguishing between different types of accounts or interactions.
+
+2. **Heterogeneous Graph Dataset (Ghet)**: This dataset includes 57,130 nodes, with 4,616 categorized as Contract Accounts (CAs) and 52,514 as Externally Owned Accounts (EOAs). It has a total of 2,765,279 edges, which includes 1,780,781 transaction edges and 984,498 call edges. Additionally, there are 191 labeled Ponzi accounts identified from various sources.
+
+Next, I will check the **References section** to find full citations for the datasets mentioned. However, the paper primarily discusses the Ethereum dataset without providing a separate citation for it, as it is a well-known public blockchain dataset.
+
+Now, I will compile the dataset entries based on the information gathered:
+
+- For the **Homogeneous Graph Dataset (Ghom)**, I will note:
+  > Ghom: A dataset representing interactions in Ethereum with 57,130 nodes and 86,602 edges.
+
+- For the **Heterogeneous Graph Dataset (Ghet)**, I will note:
+  > Ghet: A dataset representing Ethereum interactions with 57,130 nodes (4,616 CAs and 52,514 EOAs) and 2,765,279 edges (1,780,781 transaction edges and 984,498 call edges), including 191 labeled Ponzi accounts.
+
+Finally, I will summarize the findings and prepare to present them in a structured format, ensuring that the citations and descriptions are clear and accurate for future reference.

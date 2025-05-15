@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "SpineCLUE: Automatic Vertebrae Identification Using Contrastive Learning and Uncertainty Estimation" by Sheng Zhang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors achieved state-of-the-art results on the **VerSe19 and VerSe20 challenge benchmarks**, suggesting that these are the datasets used.
+
+Next, I will look for specific details about these datasets in the **experiments section**. In section 4.1, the authors explicitly mention that they evaluated their method on two public datasets: 
+
+1. **VerSe19**: This dataset contains 160 spinal CT scans with ground truth annotations. It is divided into 80 scans for training, 40 for testing, and 40 for a hidden dataset.
+
+2. **VerSe20**: This dataset consists of 319 spinal CT scans with ground truth annotations, divided into 113 for training, 103 for testing, and 103 for a hidden dataset.
+
+The authors also mention that they collected an additional dataset comprising 62 cervical and thoracic FOV images and 132 lumbar FOV images from two large spine datasets, **Spine1K** and **CSI2014**, which includes various conditions such as scoliosis and degenerative deformities.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned:
+
+- For **VerSe19**, the citation is:
+  > Sekuboyina, A., Husseini, M.E., Bayat, A., Löffler, M., Liebl, H., Li, H., Tetteh, G., Kukačka, J., Payer, C., Štern, D., et al. *VerSe: A Vertebrae Labelling and Segmentation Benchmark for Multi-Detector CT Images*. Medical Image Analysis, 73, 102166, 2021.
+
+- For **VerSe20**, the citation is:
+  > Sekuboyina, A., Husseini, M.E., Bayat, A., Löffler, M., Liebl, H., Li, H., Tetteh, G., Kukačka, J., Payer, C., Štern, D., et al. *VerSe: A Vertebrae Labelling and Segmentation Benchmark for Multi-Detector CT Images*. Medical Image Analysis, 73, 102166, 2021.
+
+- For **Spine1K**, the citation is:
+  > Deng, Y., Wang, C., Hui, Y., Li, Q., Li, J., Luo, S., Sun, M., Quan, Q., Yang, S., Hao, Y., Liu, P., Xiao, H., Zhao, C., Wu, X., Zhou, S.K. *CTSpine1K: A Large-Scale Dataset for Spinal Vertebrae Segmentation in Computed Tomography*. arXiv preprint arXiv:2105.14711, 2021.
+
+- For **CSI2014**, the citation is:
+  > Forsberg, D., Lundström, C., Andersson, M., Vavruch, L., Tropp, H., Knutsson, H. *Fully Automatic Measurements of Axial Vertebral Rotation for Assessment of Spinal Deformity in Idiopathic Scoliosis*. Physics in Medicine and Biology, 58, 1775, 2013.
+
+After gathering all the necessary information, I will compile the dataset entries into a structured format for further processing.

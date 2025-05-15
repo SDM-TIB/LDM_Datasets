@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Conditional Generation of Temporally-ordered Event Sequences" by Shih-Ting Lin et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by reading the **abstract** and **introduction** sections. The abstract mentions the use of a BART-based model and references the need for datasets related to temporal event sequences. This suggests that datasets are crucial to the research, and I should look for specific names or descriptions.
+
+Next, I will examine the **methodology** section, particularly the parts where the authors discuss their training data collection. Here, they mention using the **EventsNarratives corpus** (Yao and Huang, 2018) for training their model. This corpus is significant as it provides the foundational data for their experiments.
+
+I will also look into the **experiments** section, where the authors evaluate their model's performance. They mention two specific datasets used for evaluation: **CaTeRS** and **MCTaco**. I will extract details about these datasets, including their purpose and characteristics.
+
+1. **EventsNarratives Corpus**: This corpus is described as containing over 200,000 narrative-structured documents from various sources, which are used to automatically extract temporal event sequences. The citation for this dataset is:
+   > Yao, L., & Huang, R. (2018). Temporal event knowledge acquisition via identifying narratives. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 537–547, Melbourne, Australia. Association for Computational Linguistics.
+
+2. **CaTeRS Dataset**: This dataset includes annotations of events and their causal and temporal relations on 320 five-sentence short stories. The authors extract test temporal event sequences from this dataset. The citation for CaTeRS is:
+   > Mostafazadeh, N., Chambers, N., He, X., Parikh, D., Batra, D., Vanderwende, L., Kohli, P., & Allen, J. (2016). A corpus and cloze evaluation for deeper understanding of commonsense stories. In Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 839–849, San Diego, California. Association for Computational Linguistics.
+
+3. **MCTaco Dataset**: This dataset is a multiple-choice QA dataset for evaluating model understanding of temporal commonsense reasoning. The authors extract suitable test data from MCTaco for their evaluation. The citation for MCTaco is:
+   > Zhou, B., Khashabi, D., Ning, Q., & Roth, D. (2019). “Going on a vacation” takes longer than “going for a walk”: A study of temporal commonsense understanding. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 3363–3369, Hong Kong, China. Association for Computational Linguistics.
+
+After identifying these datasets and their citations, I will compile the information into a structured format for easy reference. This will ensure that I have accurately captured the datasets used in the research and their respective citations for future use or analysis.

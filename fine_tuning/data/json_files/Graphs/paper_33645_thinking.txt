@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "MolPLA: A Molecular Pretraining Framework for Learning Cores, R-Groups and their Linker Joints" by Mogan Gim et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations.
+
+First, I will read through the **abstract** to identify any datasets mentioned. The abstract discusses the use of a pre-training framework and mentions "304,466 drug-like compounds originated from GEOM," indicating that GEOM is a dataset used in their research.
+
+Next, I will examine the **introduction** section for any additional context or datasets. The introduction emphasizes the importance of molecular representation learning and mentions the challenges faced due to the lack of labeled data, but it does not introduce new datasets.
+
+Moving on to the **Materials and Methods** section, particularly **section 2.1 (Dataset)**, I will find detailed descriptions of the datasets used. Here, the authors specify that they pre-processed **304,466 drug-like compounds** from the **GEOM dataset** to construct their pre-training dataset for MolPLA. They also mention the use of **putative cores** and **R-groups** derived from these compounds, but these are not separate datasets.
+
+In the same section, they describe the process of molecular graph decomposition and the resulting data instances, which total **1,054,787** after filtering. However, these instances are derived from the original GEOM dataset and do not constitute new datasets.
+
+Next, I will check the **results** section to see if any other datasets are referenced. The authors mention evaluating their model on various molecular property prediction tasks, but they do not introduce new datasets here either.
+
+Finally, I will look at the **References section** to find the full citation for the GEOM dataset. The citation provided in the paper is:
+> Axelrod, S. and Gomez-Bombarelli, R. (2022). Geom, energy-annotated for property prediction and molecular conformations generation. Scientific Data, 9(1), 185.
+
+Now, I will compile the information I have gathered into a structured format, ensuring to include the full citation for the GEOM dataset as it is the primary dataset referenced in the paper.
+
+The final output will include:
+1. **GEOM Dataset**: 304,466 drug-like compounds used for pre-training MolPLA.
+   - Citation: Axelrod, S. and Gomez-Bombarelli, R. (2022). Geom, energy-annotated for property prediction and molecular conformations generation. Scientific Data, 9(1), 185.
+
+This structured approach ensures that I have accurately identified and cited the relevant datasets from the research paper.

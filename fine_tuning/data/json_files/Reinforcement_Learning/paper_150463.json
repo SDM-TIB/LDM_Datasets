@@ -1,0 +1,90 @@
+[
+    {
+        "dcterms:creator": [
+            "Felipe Codevilla",
+            "Matthias Müller",
+            "Antonio M. López",
+            "Vladlen Koltun",
+            "Alexey Dosovitskiy"
+        ],
+        "dcterms:description": "A high-fidelity autonomous driving simulator that allows for the adjustment of various environmental factors, such as the positions and behaviors of other agents, the layout of roads, and the presence of obstacles.",
+        "dcterms:title": "CARLA Simulator",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.1109/ICRA.2018.8460487",
+        "dcat:theme": [
+            "Autonomous Driving",
+            "Simulation"
+        ],
+        "dcat:keyword": [
+            "Driving simulator",
+            "Autonomous vehicles",
+            "Environment sampling"
+        ],
+        "dcat:landingPage": "https://doi.org/10.1109/ICRA.2018.8460487",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Imitation Learning",
+            "Data Aggregation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset collected from a human driver operating a steering wheel and pedal to drive the ego car in simulation through a four-way intersection.",
+        "dcterms:title": "Expert Dataset (from human driver)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Human driving behavior",
+            "Driving data",
+            "Imitation learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Imitation Learning"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset generated from the built-in autopilot of the CARLA simulator, used to evaluate imitation learning models.",
+        "dcterms:title": "Expert Dataset (from CARLA built-in autopilot)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Autopilot behavior",
+            "Driving data",
+            "Imitation learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Imitation Learning"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A set of formal specifications used to guide the data aggregation process in imitation learning, focusing on avoiding collisions, not halting, and not abruptly braking.",
+        "dcterms:title": "STL Properties (Avoid collisions, Do not halt, Do not abruptly brake)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Formal specifications",
+            "Safety properties",
+            "Imitation learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

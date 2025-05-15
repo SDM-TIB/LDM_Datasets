@@ -1,0 +1,110 @@
+[
+    {
+        "dcterms:creator": [
+            "W. L. Hamilton",
+            "R. Ying",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "A Reddit post network with each node representing a post, and each link indicating that the connected two posts are commonly commented by at least three users. User-averaged distributions of comments in different communities are used as link attributes.",
+        "dcterms:title": "Reddit",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Network",
+            "Community Detection"
+        ],
+        "dcat:keyword": [
+            "Reddit posts",
+            "Social interactions",
+            "Link attributes"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node-wise Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. L. Hamilton",
+            "R. Ying",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "A co-author network constructed with papers from 2013 to 2017 in eight artificial intelligence conferences. The tf-idf vectors of paper titles are used as node attributes, and one-hot embeddings of common authors are used as link attributes.",
+        "dcterms:title": "Dblp",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Academic Network",
+            "Co-authorship Analysis"
+        ],
+        "dcat:keyword": [
+            "Co-authorship",
+            "Artificial Intelligence",
+            "Link attributes"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node-wise Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. L. Hamilton",
+            "R. Ying",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "A temporal network constructed with user contacts in email services. The contacts of exact times are discretized into time-slices and used as link attributes. Node features are represented by embeddings obtained from transductive LINE.",
+        "dcterms:title": "Email",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Temporal Network",
+            "User Interaction"
+        ],
+        "dcat:keyword": [
+            "Email contacts",
+            "Temporal data",
+            "Link attributes"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node-wise Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. L. Hamilton",
+            "R. Ying",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "A temporal network constructed with user contacts in mobile-phone services. Similar to the email dataset, the contacts of exact times are discretized into time-slices and used as link attributes. Node features are represented by embeddings obtained from transductive LINE.",
+        "dcterms:title": "Fmobile",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Temporal Network",
+            "User Interaction"
+        ],
+        "dcat:keyword": [
+            "Mobile contacts",
+            "Temporal data",
+            "Link attributes"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node-wise Classification"
+        ]
+    }
+]

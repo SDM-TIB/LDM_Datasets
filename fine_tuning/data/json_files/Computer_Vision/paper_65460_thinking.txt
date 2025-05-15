@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Seeking Neural Nuggets: Knowledge Transfer in Large Language Models from a Parametric Perspective" by Ming Zhong et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the research focus, and the introduction often outlines the context and significance of the datasets used.
+
+In the **introduction**, the authors discuss their empirical investigations and mention evaluations across four benchmarks. This suggests that specific datasets are used for these evaluations, prompting me to look for their names.
+
+Next, I will examine **section 4 (Experiments)**, where the authors detail their experimental setup. Here, they explicitly list the datasets used for evaluation:
+
+1. **Grade School Math (GSM)**: This dataset is used to assess the reasoning capabilities of models, requiring them to solve math problems and produce a chain-of-thought process.
+
+2. **Massive Multitask Language Understanding (MMLU)**: This dataset encompasses questions across 57 subjects, formatted as multiple-choice questions, and is used to measure the professional knowledge of language models.
+
+3. **Super Natural Instructions (Super NI)**: This dataset consists of 1,616 varied NLP tasks along with their expert-written instructions, used to evaluate instruction-driven NLP tasks.
+
+4. **AlpacaFarm**: This dataset contains 805 instructions from various evaluations, used to assess open-ended conversation capabilities.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **Grade School Math (GSM)**, the citation is:
+  > Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman. *Training verifiers to solve math word problems*. CoRR, abs/2110.14168, 2021. URL https://arxiv.org/abs/2110.14168.
+
+- For **Massive Multitask Language Understanding (MMLU)**, the citation is:
+  > Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt. *Measuring massive multitask language understanding*. In 9th International Conference on Learning Representations, ICLR 2021, Virtual Event, Austria, May 3-7, 2021. URL https://openreview.net/forum?id=d7KBjmI3GmQ.
+
+- For **Super Natural Instructions (Super NI)**, the citation is:
+  > Yizhong Wang, Swaroop Mishra, Pegah Alipoormolabashi, Yeganeh Kordi, Amirreza Mirzaei, Atharva Naik, Arjun Ashok, Arut Selvan Dhanasekaran, Anjana Arunkumar, David Stap, Eshaan Pathak, Giannis Karamanolakis, Haizhi Gary Lai, Ishan Purohit, Ishani Mondal, Jacob Anderson, Kirby Kuznia, Krima Doshi, Kuntal Kumar Pal, Maitreya Patel, Mehrad Moradshahi, Mihir Parmar, Mirali Purohit, Neeraj Varshney, Phani Rohitha Kaza, Pulkit Verma, Ravsehaj Singh Puri, Rushang Karia, Savan Doshi, Shailaja Keyur Sampat, Siddhartha Mishra, Sujan Reddy A, Sumanta Patro, Tanay Dixit, and Xudong Shen. *Super-natural instructions: Generalization via declarative instructions on 1600+ NLP tasks*. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, EMNLP 2022, Abu Dhabi, United Arab Emirates, December 7-11, 2022. URL https://doi.org/10.18653/v1/2022.emnlp-main.340.
+
+- For **AlpacaFarm**, the citation is:
+  > Yann Dubois, Xuechen Li, Rohan Taori, Tianyi Zhang, Ishaan Gulrajani, Jimmy Ba, Carlos Guestrin, Percy Liang, and Tatsunori B. Hashimoto. *Alpacafarm: A simulation framework for methods that learn from human feedback*. CoRR, abs/2305.14387, 2023. URL https://doi.org/10.48550/arXiv.2305.14387.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or analysis.

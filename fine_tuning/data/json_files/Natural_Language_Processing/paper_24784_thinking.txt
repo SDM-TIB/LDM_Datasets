@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "Improving Retrieval-augmented Text-to-SQL with AST-based Ranking and Schema Pruning" by Zhili Shen et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to gather initial insights about the datasets used. The abstract mentions that the authors apply their approach to "monolingual and cross-lingual benchmarks for semantic parsing," which suggests that datasets are involved.
+
+Next, I will focus on **section 5 (Experiments)**, where the authors explicitly list the datasets they experimented with. Here, they mention several SQL datasets, specifically:
+
+1. **CSPIDER**: The authors note that CSPIDER is a translated version of SPIDER in Chinese, and they report experiments on it. They also mention that CSPIDER contains 8,659 examples of questions and SQL queries along with their relevant SQL schemata.
+
+2. **SPIDER**: This dataset is highlighted as containing 8,659 examples of questions and SQL queries, similar to CSPIDER, but in English. The authors indicate that they focus on the development sets for their experiments.
+
+3. **SPIDER-DK**: A variant of the SPIDER dataset, which is used to evaluate zero-shot domain generalization.
+
+4. **SPIDER-REAL**: Another variant of the SPIDER dataset, also used for evaluation.
+
+5. **SPIDER-SYN**: A further variant of the SPIDER dataset, used for testing.
+
+In the **References section**, I will look for full citations for these datasets. The citations for the datasets are as follows:
+
+- For **SPIDER**, the citation is:
+  > Tao Yu, Rui Zhang, Kai Yang, Michihiro Yasunaga, Dongxu Wang, Zifan Li, James Ma, Irene Li, Qingning Yao, Shanelle Roman, Zilin Zhang, and Dragomir Radev. *Spider: A large-scale human-labeled dataset for complex and cross-domain semantic parsing and text-to-SQL task*. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 3911–3921, Brussels, Belgium, 2018.
+
+- For **CSPIDER**, the citation is:
+  > Qingkai Min, Yuefeng Shi, and Yue Zhang. *A pilot study for Chinese SQL semantic parsing*. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 3652–3658, Hong Kong, China, 2019.
+
+- For **SPIDER-DK**, the citation is:
+  > Yujian Gan, Xinyun Chen, and Matthew Purver. *Exploring underexplored limitations of cross-domain text-to-SQL generalization*. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, pages 8926–8931, Online and Punta Cana, Dominican Republic, 2021.
+
+- For **SPIDER-REAL**, the citation is:
+  > Xiang Deng, Ahmed Hassan Awadallah, Christopher Meek, Oleksandr Polozov, Huan Sun, and Matthew Richardson. *Structure-grounded pretraining for text-to-SQL*. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 1337–1350, Online, 2021.
+
+- For **SPIDER-SYN**, the citation is:
+  > Yujian Gan, Xinyun Chen, Qiuping Huang, Matthew Purver, John R. Woodward, Jinxia Xie, and Pengsheng Huang. *Towards robustness of text-to-SQL models against synonym substitution*. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pages 2505–2515, Online, 2021.
+
+After gathering this information, I will compile the dataset entries with their full citations for further processing.

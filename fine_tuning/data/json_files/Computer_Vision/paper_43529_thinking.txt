@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Accelerating Antimicrobial Discovery with Controllable Deep Generative Models and Molecular Dynamics" by Payel Das et al., I will follow a systematic approach to identify and document each dataset mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to locate any references to datasets. The abstract mentions a "new two-part (unlabeled and labeled) dataset for learning a meaningful representation of the peptide space," which indicates that datasets are indeed discussed.
+
+Next, I will focus on **section 5 (Dataset)**, where the authors provide detailed descriptions of the datasets used in their research. Here, I will identify the specific datasets mentioned:
+
+1. **Unlabeled Sequences**: This dataset is derived from the Uniprot-SwissProt and Uniprot-Trembl databases, containing over 1.7 million sequences of peptides with lengths up to 50 amino acids.
+
+2. **Labeled Sequences**: This dataset includes various attributes curated from publicly available databases. The authors specify several categories within this dataset:
+   - Antimicrobial (8683 AMP, 6536 non-AMP)
+   - Toxic (3149 Toxic, 16280 non-Toxic)
+   - Broad-spectrum (1302 Positive, 1238 Negative)
+   - Structured (1170 Positive, 2136 Negative)
+   - Hormone (569 Positive)
+   - Antihypertensive (1659 Positive)
+   - Anticancer (504 Positive)
+
+3. **Peptide Dataset for Baseline Simulations**: This includes high potency and low potency datasets, as well as a dataset of inactive sequences, specifically curated for control simulations.
+
+After identifying these datasets, I will consult the **References section** to find the full citations for the datasets mentioned. The authors reference several databases and studies that provide the data, which I will need to document accurately.
+
+For example, the citations for the datasets might include:
+- Uniprot database: 
+  > P. EMBL-EBI, SIB, Universal Protein Resource (UniProt), https://www.uniprot.org (2018).
+  
+- satPDB database:
+  > C. H. Chen, et al., Journal of the American Chemical Society 141, 4839 (2019).
+
+- DBAASP database:
+  > M. D. Torres, et al., Communications biology 1, 1 (2018).
+
+- ToxinPred dataset:
+  > A. Gupta, et al., Molecular informatics 37, 1700111 (2018).
+
+Once I have gathered all the necessary information, I will compile the dataset entries, ensuring that each entry includes the dataset name, description, and full citation, ready for structured output or further processing.

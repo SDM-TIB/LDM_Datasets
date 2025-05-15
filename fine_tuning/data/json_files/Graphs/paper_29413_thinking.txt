@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "M2N: Mesh Movement Networks for PDE Solvers" by Wenbin Song et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the development of a learning-based mesh movement framework for PDE solvers, but it does not explicitly mention any datasets. Therefore, I will need to look deeper into the paper.
+
+Next, I will examine the **experiments section** closely, particularly the subsections that detail the experimental setup and results. In this section, the authors describe their experiments on solving the Poisson's equation and the Burgers' equation, but they do not explicitly mention datasets in the traditional sense (like image or text datasets). Instead, they refer to generating problem samples and ground truth solutions.
+
+In the **Experiment Setup** subsection, the authors mention generating analytical samples from a mixed Gaussian distribution for the Poisson's equation. This indicates that they created synthetic data rather than using pre-existing datasets. I will note this as a dataset for the purpose of understanding their methodology.
+
+For the **Burgers' equation**, they mention training on cases with specific mesh resolutions and trajectories, but again, they do not refer to a traditional dataset. Instead, they describe the conditions under which the data was generated.
+
+Since the paper does not reference any established datasets, I will summarize the generated datasets as follows:
+
+1. **Poisson's Equation Samples**: Generated from a mixed Gaussian distribution to create source terms and boundary conditions. The authors used 275 samples for training and 125 for testing across various mesh resolutions.
+
+2. **Burgers' Equation Samples**: Generated with different viscosity coefficients, using 9 trajectories and 60 timesteps per trajectory for training, and testing on cases with varying mesh resolutions.
+
+Now, I will compile the information regarding these datasets, including their descriptions and the context in which they were used, along with any relevant citations from the references section that pertain to the methods used for generating these datasets.
+
+Since there are no formal citations for these generated datasets, I will note that they are derived from the authors' experimental methodology as described in the paper.
+
+Finally, I will prepare to present this information in a structured format that clearly outlines each dataset, its description, and the context of its use in the research.

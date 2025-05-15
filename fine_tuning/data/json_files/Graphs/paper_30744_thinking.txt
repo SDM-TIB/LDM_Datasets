@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Learnable Graph Convolutional Attention Networks" by Adrián Javaloy et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions that the authors conducted experiments on a wide range of datasets, which suggests that there are specific datasets that need to be identified.
+
+Next, I will focus on the **experiments section** (section 6) where the authors describe their empirical analysis. Here, they mention using various datasets for validation of their proposed model. I will look for specific names of datasets and any relevant details about them.
+
+In section 6.2 (Real data), the authors list several datasets used for node classification tasks. They mention:
+
+1. **Facebook / GitHub / TwitchEN Datasets**: These datasets involve social-network graphs where nodes represent verified pages/developers/streamers, and the task is to predict the topic/expertise of the node.
+
+2. **Coauthor Physics Dataset**: This dataset represents a co-authorship network where nodes represent authors, and the task is to infer their main research field.
+
+3. **Amazon Datasets**: These datasets represent product-similarity graphs where each node is a product, and the task is to infer its category.
+
+4. **Open Graph Benchmark Datasets**: The authors mention four datasets from the OGB suite: 
+   - **ogbn-arxiv**: A citation network of computer science papers.
+   - **ogbn-products**: A co-purchasing network.
+   - **ogbn-mag**: A heterogeneous network formed from the Microsoft Academic Graph.
+   - **ogbn-proteins**: A network whose nodes represent proteins.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are crucial for proper documentation.
+
+- For the **Facebook, GitHub, and TwitchEN datasets**, the citation is:
+  > Benedek Rozemberczki, Carl Allen, and Rik Sarkar. *Multi-scale attributed node embedding*. Journal of Complex Networks, 2021.
+
+- For the **Coauthor Physics dataset**, the citation is:
+  > Oleksandr Shchur, Maximilian Mumme, Aleksandar Bojchevski, and Stephan Günnemann. *Pitfalls of graph neural network evaluation*. arXiv preprint arXiv:1811.05868, 2018.
+
+- For the **Amazon datasets**, the citation is:
+  > Kiran K Thekumparampil, Chong Wang, Sewoong Oh, and Li-Jia Li. *Attention-based graph neural network for semi-supervised learning*. arXiv preprint arXiv:1803.03735, 2018.
+
+- For the **Open Graph Benchmark datasets**, the citation is:
+  > Weihua Hu, Matthias Fey, Marinka Zitnik, Yuxiao Dong, Hongyu Ren, Bowen Liu, Michele Catasta, and Jure Leskovec. *Open graph benchmark: Datasets for machine learning on graphs*. In Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020.
+
+After gathering all the necessary information, I will compile the dataset entries, ensuring that each entry includes the dataset name, a brief description, and the full citation. This structured approach will ensure that I accurately capture all relevant datasets from the paper.

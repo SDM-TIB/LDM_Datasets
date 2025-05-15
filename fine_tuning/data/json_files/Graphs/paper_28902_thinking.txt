@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "Contrastive Embedding Distribution Refinement and Entropy-Aware Attention for 3D Point Cloud Classification" by Feng Yang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract states that the authors achieved significant performance improvements on the **ScanObjectNN dataset** and the **ModelNet40 dataset**, indicating that these datasets are crucial for their experiments.
+
+Next, I will look for specific details about these datasets in the **experiments section**. The authors describe the **ModelNet40 dataset** as a synthetic point cloud dataset comprising 9,832 training objects and 2,468 test objects across 40 classes. They mention that the points are uniformly sampled from the mesh surfaces and preprocessed for the experiments.
+
+For the **ScanObjectNN dataset**, the authors note that it contains approximately 15,000 objects in 15 categories, emphasizing its real-world complexity due to background noise and occlusions. They specify that they used the PBT75RS split for their evaluations, which involves transformations like translation, rotation, and scaling.
+
+Now, I will check the **references section** to find the full citations for these datasets:
+
+1. For the **ModelNet40 dataset**, the citation is:
+   > Wu, Z., Song, S., Khosla, A., Yu, F., Zhang, L., Tang, X., & Xiao, J. (2015). *3D ShapeNets: A Deep Representation for Volumetric Shapes*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 1912-1920.
+
+2. For the **ScanObjectNN dataset**, the citation is:
+   > Uy, M. A., Pham, Q. H., Hua, B. S., Nguyen, D. T., & Yeung, S. K. (2019). *Revisiting Point Cloud Classification: A New Benchmark Dataset and Classification Model on Real-World Data*. arXiv preprint arXiv:1908.04616.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all details are accurately represented for future reference or processing.

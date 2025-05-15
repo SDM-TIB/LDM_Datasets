@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "PointShufﬂeNet: Learning Non-Euclidean Features with Homotopy Equivalence and Mutual Information" by Linchao He et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract states that the proposed PointShufﬂeNet achieves state-of-the-art results on **ModelNet40, ShapeNet, and S3DIS**. This indicates that these datasets are likely used in the experiments.
+
+Next, I will look for explicit mentions of these datasets in the **experiments section**. In the experiments section, the authors detail their evaluations on the following datasets:
+
+1. **ModelNet40**: This dataset includes 12,311 CAD models from 40 classes, with 9,843 models used for training and 2,468 for evaluation.
+
+2. **ShapeNet**: This dataset contains 16,881 shapes from various classes, with 14,006 models for training and 2,874 for evaluation.
+
+3. **S3DIS (Stanford 3D Large-Scale Indoor Spaces)**: This dataset consists of indoor scenes with annotations for semantic segmentation, specifically mentioning that areas 1-4 and 6 are used for training, while area 5 is used for evaluation.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **ModelNet40**, the citation is:
+  > Wu, Z., Song, S., Khosla, A., Yu, F., Zhang, L., Tang, X., & Xiao, J. (2015). *3D ShapeNets: A Deep Representation for Volumetric Shapes*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 1912-1920.
+
+- For **ShapeNet**, the citation is:
+  > Chang, A. X., Funkhouser, T., Guibas, L., Hanrahan, P., Huang, Q., Li, Z., Savarese, S., & Song, S. (2015). *ShapeNet: An Information-Rich 3D Model Repository*. arXiv preprint arXiv:1512.03012.
+
+- For **S3DIS**, the citation is:
+  > Armeni, I., Sax, S., Zamir, A. R., & Savarese, S. (2017). *Joint 2D-3D-Semantic Data for Indoor Scene Understanding*. arXiv preprint arXiv:1702.01105.
+
+With these citations, I can now compile the dataset entries for the JSON output. Each dataset will be described with its name, description, and citation, ensuring that the full citation is included for each dataset mentioned in the paper.

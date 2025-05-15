@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "SegPrompt: Boosting Open-World Segmentation via Category-level Prompt Learning" by Muzhi Zhu et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** and **introduction** sections to get an overview of the datasets discussed. The abstract mentions a new benchmark for open-world segmentation, which suggests that there may be specific datasets involved.
+
+Next, I will focus on the **methodology** and **benchmark** sections, as these are likely to contain detailed descriptions of the datasets used in the experiments. In the benchmark section, the authors discuss the construction of their new dataset, referred to as **LVIS-OW**, which is specifically designed for open-world instance segmentation. This dataset is constructed based on the **COCO** and **LVIS** datasets.
+
+In the **dataset construction** subsection, the authors provide details about the datasets:
+
+1. **COCO Dataset**: This is a widely used large-scale instance segmentation benchmark that contains 118k images for training, 5k for validation, and 41k for testing, with 80 annotated categories.
+   - Citation: 
+     > Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence Zitnick. *Microsoft COCO: Common objects in context*. In Eur. Conf. Comput. Vis., pages 740–755. Springer, 2014.
+
+2. **LVIS Dataset**: This dataset is designed for large vocabulary instance segmentation and shares images with COCO, containing 1203 categories.
+   - Citation: 
+     > Agrim Gupta, Piotr Dollar, and Ross Girshick. *LVIS: A dataset for large vocabulary instance segmentation*. In IEEE Conf. Comput. Vis. Pattern Recogn., pages 5356–5364, 2019.
+
+3. **LVIS-OW Dataset**: This is the new benchmark introduced in the paper, which separates object categories into known, seen, and unseen parts to better reflect real-world scenarios.
+   - Citation: 
+     > Muzhi Zhu, Hengtao Li, Hao Chen, Chengxiang Fan, Weian Mao, Chenchen Jing, Yifan Liu, Chunhua Shen. *SegPrompt: Boosting Open-World Segmentation via Category-level Prompt Learning*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023.
+
+After identifying these datasets, I will ensure to note their specific roles in the experiments and any relevant statistics provided in the paper, such as the number of images or categories.
+
+Finally, I will compile the dataset information, including full citations, into a structured format for easy reference and further analysis.

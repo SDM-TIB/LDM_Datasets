@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "The Effectiveness of Memory Replay in Large Scale Continual Learning" by Yogesh Balaji et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to find any references to datasets. The abstract mentions experiments on the **Taskonomy benchmark** and two standard datasets, **Split-CIFAR** and **Split-miniImageNet**. This indicates that these datasets are likely to be discussed in detail later in the paper.
+
+Next, I will focus on the **experiments section** (Section 4) where the authors typically describe the datasets used for their evaluations. In this section, they explicitly mention:
+
+1. **Taskonomy Dataset**: This dataset is described as a large-scale dataset of indoor scenes containing annotations for various computer vision tasks. The authors specify that they used data from 54 buildings, with details on how the training and test sets were constructed.
+
+2. **Split-CIFAR**: This dataset is derived from the CIFAR dataset, split into 20 tasks for continual learning experiments. The authors follow a specific protocol for training and validation.
+
+3. **Split-miniImageNet**: Similar to Split-CIFAR, this dataset is also used for continual learning tasks, with a defined structure for training and validation.
+
+I will then check the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to guide readers to the original sources.
+
+- For the **Taskonomy Dataset**, the citation is:
+  > Amir R. Zamir, Alexander Sax, William Shen, Leonidas J. Guibas, Jitendra Malik, and Silvio Savarese. *Taskonomy: Disentangling Task Transfer Learning*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 3712–3722, 2018.
+
+- For **Split-CIFAR**, the citation is:
+  > Arslan Chaudhry, Marc’Aurelio Ranzato, Marcus Rohrbach, and Mohamed Elhoseiny. *Efficient Lifelong Learning with A-GEM*. arXiv preprint arXiv:1812.00420, 2018.
+
+- For **Split-miniImageNet**, the citation is:
+  > Arslan Chaudhry, Albert Gordo, Puneet K Dokania, Philip Torr, and David Lopez-Paz. *Using Hindsight to Anchor Past Knowledge in Continual Learning*. arXiv preprint arXiv:2002.08165, 2020.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This will provide a comprehensive overview of the datasets used in the research, facilitating further exploration or replication of the study.

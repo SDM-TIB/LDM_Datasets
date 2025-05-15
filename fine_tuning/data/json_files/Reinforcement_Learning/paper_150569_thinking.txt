@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Realistically distributing object placements in synthetic training data improves the performance of vision-based object detection models" by Setareh Dabiri et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, experiments, and conclusion sections** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments using synthetic data generated from the CARLA simulator and tested on the KITTI dataset. This suggests that there are at least two datasets involved.
+
+Next, I will focus on the **experiments section**, particularly **section 2.1 (Data generation)**, where the authors describe how they generated their datasets. They mention creating a KITTI-like dataset for 3D object detection using the CARLA simulator. They specifically refer to two datasets:
+
+1. **Baseline Dataset**: This dataset is generated using the CARLA Traffic Manager, which allows vehicles to move from predefined spawning locations. It serves as a control for their experiments.
+
+2. **INITIALIZE Dataset**: This dataset uses a commercial model called INITIALIZE, which samples vehicle positions based on learned traffic patterns, resulting in more realistic vehicle placements.
+
+In the **results section**, the authors compare the performance of models trained on these two datasets, confirming their significance in the experiments.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **KITTI dataset**, the citation is:
+  > Andreas Geiger, Philip Lenz, and Raquel Urtasun. *Are we ready for autonomous driving? The KITTI vision benchmark suite*. In Conference on Computer Vision and Pattern Recognition (CVPR), 2012.
+
+- The **CARLA simulator** is cited as:
+  > Alexey Dosovitskiy, German Ros, Felipe Codevilla, Antonio Lopez, and Vladlen Koltun. *CARLA: An Open Urban Driving Simulator*. In Conference on Robot Learning, pages 1–16. PMLR, Oct. 2017.
+
+The authors also mention that they will release their training datasets and specific configurations for reproducibility, which indicates that the datasets are publicly available.
+
+Now, I will compile the dataset entries into a structured format, ensuring that I include the full citations for each dataset as required. This will allow for proper attribution and facilitate further research or validation of the findings presented in the paper.

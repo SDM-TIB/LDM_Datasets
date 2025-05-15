@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "On the Ability of CNNs to Extract Color-Invariant Intensity-Based Features for Image Classification" by Pradyumna Elavarthi et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to locate any references to datasets. The abstract mentions experiments conducted on "modified MNIST and FashionMNIST data," indicating that these datasets are central to the research.
+
+Next, I will focus on the **experimental setup section** where the authors describe how they generated three distinct datasets from the MNIST dataset. They specifically mention:
+
+1. **MD1 (Modified MNIST)**: A dataset created using exclusively green-colored images derived from the original MNIST dataset.
+2. **MD2 (Modified MNIST)**: A dataset consisting of images with a single color channel (red, green, or blue) randomly selected from the original MNIST dataset.
+3. **MD3 (Modified MNIST)**: A dataset containing images with all three color channels (RGB) derived from the original MNIST dataset.
+
+Additionally, the authors also mention the **FashionMNIST dataset**, which is modified in a similar manner to create three variants:
+
+1. **FD1 (Modified FashionMNIST)**: A dataset of green-only images.
+2. **FD2 (Modified FashionMNIST)**: A dataset with images having one color channel (red, green, or blue).
+3. **FD3 (Modified FashionMNIST)**: A dataset containing images with all three color channels (RGB).
+
+Now, I will check the **References section** to find the full citations for the original datasets used in the experiments:
+
+- For the **MNIST dataset**, the citation is:
+  > Yann LeCun and Corinna Cortes. *The MNIST Database of Handwritten Digits*. 2005.
+
+- For the **FashionMNIST dataset**, the citation is:
+  > Han Xiao, Kashif Rasul, and Roland Vollgraf. *Fashion-MNIST: A Novel Image Dataset for Benchmarking Machine Learning Algorithms*. 2017.
+
+With this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research paper.

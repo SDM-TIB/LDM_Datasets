@@ -1,0 +1,69 @@
+[
+    {
+        "dcterms:creator": [
+            "D.W. Shattuck",
+            "M. Mirza",
+            "V. Adisetiyo",
+            "C. Hojatkashani",
+            "G. Salamon",
+            "K.L. Narr",
+            "R.A. Poldrack",
+            "R.M. Bilder",
+            "A.W. Toga"
+        ],
+        "dcterms:description": "The LPBA40 dataset contains 40 3D volumes of whole-brain Magnetic Resonance Imaging (MRI) scans from normal volunteers, which is divided into training, validation, and testing sets. Skull stripping and spatial normalization are performed on each scan, followed by padding and cropping to ensure the same size of 160×192×160 voxels for each scan. Manual annotation of 56 structures are provided as the ground truth.",
+        "dcterms:title": "LONI Probabilistic Brain Atlas (LPBA40)",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Neuroscience"
+        ],
+        "dcat:keyword": [
+            "MRI",
+            "Brain Atlas",
+            "3D Volumes",
+            "Neuroimaging"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Registration",
+            "Segmentation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D.S. Marcus",
+            "T.H. Wang",
+            "J. Parker",
+            "J.G. Csernansky",
+            "J.C. Morris",
+            "R.L. Buckner"
+        ],
+        "dcterms:description": "The Neurite-OASIS dataset contains 414 inter-patient 3D T1-weighted MRI brain scans from abnormal subjects with various stages of cognitive decline. The dataset is split into training, validation, and testing sets. The scans are pre-processed by the challenge organizer, including skull stripping and spatial normalization, and then cropped to 224×192×160 voxels. Sub-cortical segmentation maps of 35 anatomical structures are provided as the ground truth for evaluation.",
+        "dcterms:title": "Neurite subset of the Open Access Series of Imaging Studies (Neurite-OASIS)",
+        "dcterms:issued": "2007",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Cognitive Decline"
+        ],
+        "dcat:keyword": [
+            "MRI",
+            "Cognitive Decline",
+            "3D Scans",
+            "Neuroimaging"
+        ],
+        "dcat:landingPage": "https://learn2reg.grand-challenge.org/Datasets/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Registration",
+            "Segmentation"
+        ]
+    }
+]

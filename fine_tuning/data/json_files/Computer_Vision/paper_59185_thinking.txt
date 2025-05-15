@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "Learning Enhancement From Degradation: A Diffusion Model For Fundus Image Enhancement" by Pujin Cheng et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** of the paper. The abstract mentions the evaluation of the proposed method on several downstream tasks, which suggests that datasets are involved. 
+
+Next, I will focus on **section 3 (Experiments)**, where the authors explicitly mention the datasets used for training and evaluation. Here, they describe the **EyeQ dataset** used for training and detail the datasets used for evaluation:
+
+1. **EyeQ Dataset**: This dataset contains 28,792 fundus images labeled with three quality grades: “Good”, “Usable”, and “Reject”. The authors specify that they selected “Good” images as high-quality images and “Usable” images as low-quality ones for their experiments.
+
+2. **GAMMA Dataset**: This dataset consists of 100 fundus images with glaucoma annotations, fovea location labels, and optic disc/optic cup (OD/OC) segmentation masks.
+
+3. **DRIVE Dataset**: This dataset contains 40 fundus images with vessel segmentation masks.
+
+4. **REFUGE Dataset**: This dataset includes 1,200 fundus images with OD/OC segmentation masks.
+
+5. **FIVES Dataset**: This dataset comprises 800 fundus images with labels of three eye diseases.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset mentioned. 
+
+- For the **EyeQ dataset**, the citation is:
+  > Fu, H., Wang, B., Shen, J., Cui, S., Xu, Y., Liu, J., Shao, L. *Evaluation of retinal image quality assessment networks in different color-spaces*. In: MICCAI 2019, Part I, pp. 48-56, Springer, Cham (2019).
+
+- For the **GAMMA dataset**, the citation is:
+  > Orlando, J. I., Fu, H., Breda, J. B., et al. *Refuge challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs*. Medical Image Analysis, 59, pp. 101570 (2020).
+
+- For the **DRIVE dataset**, the citation is:
+  > Staal, J., Abramoﬀ, M. D., Niemeijer, M., Viergever, M. A., van Ginneken, B. *Ridge-based vessel segmentation in color images of the retina*. IEEE Trans. Med. Imaging, TMI, 23(4), pp. 501–509 (2004).
+
+- For the **REFUGE dataset**, the citation is:
+  > Orlando, J. I., Fu, H., Breda, J. B., et al. *Refuge challenge: A unified framework for evaluating automated methods for glaucoma assessment from fundus photographs*. Medical Image Analysis, 59, pp. 101570 (2020).
+
+- For the **FIVES dataset**, the citation is:
+  > Jin, K., Huang, X., Zhou, J., et al. *Fives: A fundus image dataset for artificial intelligence based vessel segmentation*. Scientific Data, 9(1), pp. 47 (2022).
+
+Now that I have gathered the datasets and their citations, I will compile this information into a structured format for further processing or review.

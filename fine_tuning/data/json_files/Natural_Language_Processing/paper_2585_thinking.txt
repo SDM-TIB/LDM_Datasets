@@ -1,0 +1,38 @@
+To extract datasets from the research paper titled "DICT-MLM: Improved Multilingual Pre-Training using Bilingual Dictionaries" by Aditi Chaudhary et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and I will look for any explicit mentions of datasets or data sources.
+
+In the **introduction**, the authors discuss the effectiveness of their proposed method across multiple downstream tasks and mention the use of bilingual dictionaries. I will note any specific datasets referenced in this context.
+
+Next, I will focus on the **methodology section**, particularly section 2.2, where the authors describe how they prepare the training data for DICT-MLM. They mention using bilingual dictionaries to create multilingual code-switched sentences, which indicates that the training data is derived from existing resources rather than a standalone dataset.
+
+In the **experiments section**, the authors detail the various tasks they evaluated their model on, including:
+1. **XNLI (Cross-lingual Natural Language Inference)**: This dataset covers 15 languages and is used for textual entailment tasks.
+2. **NER (Named Entity Recognition)**: The authors mention using datasets that cover 38 languages for this task.
+3. **POS (Part-of-Speech tagging)**: This task utilizes datasets covering 33 languages.
+4. **PAWS-X**: A dataset for paraphrase identification available in 7 languages.
+5. **MLDOC**: A document classification dataset available for 8 languages.
+6. **TATOEBA**: A dataset containing English-aligned sentences across 122 languages.
+
+Now, I will look into the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to provide context for the datasets used in the experiments.
+
+The citations I will extract include:
+- For **XNLI**:
+  > Conneau, A., Rinott, R., Lample, G., Williams, A., Bowman, S. R., Schwenk, H., & Stoyanov, V. (2018). XNLI: Evaluating cross-lingual sentence representations. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing.
+
+- For **NER**:
+  > Pan, X., Zhang, B., May, J., Nothman, J., Knight, K., & Ji, H. (2017). Cross-lingual name tagging and linking for 282 languages. In Proceedings of ACL 2017.
+
+- For **POS**:
+  > Nivre, J., Abrams, M., Agić, Ž., Ahrenberg, L., Antonsen, L., Aranzabe, M. J., ... & others. (2018). Universal dependencies 2.2.
+
+- For **PAWS-X**:
+  > Yang, Y., Zhang, Y., Tar, C., & Baldridge, J. (2019). PAWS-X: A cross-lingual adversarial dataset for paraphrase identification. In Proceedings of EMNLP 2019.
+
+- For **MLDOC**:
+  > Schwenk, H., & Li, X. (2018). A corpus for multilingual document classification in eight languages. In Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018).
+
+- For **TATOEBA**:
+  > Artetxe, M., & Schwenk, H. (2019). Massively multilingual sentence embeddings for zero-shot cross-lingual transfer and beyond. Transactions of the ACL 2019.
+
+After gathering this information, I will compile the dataset entries along with their full citations to ensure that all relevant details are captured accurately for further processing or review.

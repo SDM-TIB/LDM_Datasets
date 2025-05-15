@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Training a Resilient Q-Network against Observational Interference" by Chao-Han Huck Yang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions evaluating the performance of the proposed CIQ method in several benchmark DQN environments, which suggests that there are specific datasets or environments used for evaluation.
+
+Next, I will look for a dedicated **datasets** section or any mention of datasets in the **experiments** section. In this paper, the authors describe their experiments in detail, including the environments used for testing the CIQ method. They mention four environments:
+
+1. **Cartpole-v0**: A continuous control environment from OpenAI Gym.
+2. **Banana Collector**: A 3D graphical environment from Unity ML-Agents.
+3. **LunarLander-v2**: Another environment from OpenAI Gym, specifically for discrete actions.
+4. **Pixel Cartpole**: A visual learning task based on the Cartpole environment.
+
+In the **experiments** section, the authors provide details about these environments, including their characteristics and the types of interferences tested. This confirms that these environments serve as datasets for their experiments.
+
+Now, I will check the **References section** to find full citations for these environments:
+
+- For **Cartpole-v0**, the citation is:
+  > Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., & Zaremba, W. (2016). OpenAI Gym. arXiv preprint arXiv:1606.01540.
+
+- For **Banana Collector**, the citation is:
+  > Juliani, A., Berges, V.-P., Vckay, E., Gao, Y., Henry, H., Mattar, M., & Lange, D. (2018). Unity: A general platform for intelligent agents. arXiv preprint arXiv:1809.02627.
+
+- For **LunarLander-v2**, the citation is:
+  > Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., & Zaremba, W. (2016). OpenAI Gym. arXiv preprint arXiv:1606.01540.
+
+- For **Pixel Cartpole**, the citation is derived from the same source as Cartpole-v0, as it is a variant of that environment.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each environment used in the experiments. This will provide a comprehensive overview of the datasets referenced in the paper.

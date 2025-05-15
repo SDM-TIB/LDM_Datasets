@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Beyond Correctness: Benchmarking Multi-dimensional Code Generation for Large Language Models" by Jiasheng Zheng et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract mentions the introduction of the **RACE benchmark**, which suggests that there may be datasets associated with this benchmark.
+
+Next, I will focus on **section 3 (RACE Benchmark Construction)**, where the authors discuss the construction of the benchmark. Here, they mention several datasets used for evaluating code generation capabilities across different dimensions. Specifically, I will look for any tables or lists that summarize the datasets and their characteristics.
+
+In **Table 1**, the authors provide a detailed overview of the evaluation data sources and the number of cases for each factor within the RACE benchmark. The datasets mentioned include:
+
+1. **HumanEval+**: This dataset is used for evaluating code correctness and consists of 923 cases.
+2. **MBPP+**: Another dataset for correctness evaluation, also containing 923 cases.
+3. **ClassEval**: This dataset is used for class-level code generation and contains 328 cases.
+4. **LeetCode**: Used for coding competition problems, with 492 cases for correctness, 984 for maintainability, and 101 for efficiency.
+
+Next, I will check the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and further exploration of the datasets.
+
+- For **HumanEval+**, the citation is:
+  > Chen, M., Tworek, J., Jun, H., Yuan, Q., Pinto, H. P. d. O., Kaplan, J., Edwards, H., Burda, Y., Joseph, N., Brockman, G., et al. (2021). Evaluating large language models trained on code. *arXiv preprint arXiv:2107.03374*.
+
+- For **MBPP+**, the citation is:
+  > Austin, J., Odena, J., Nye, M., Bosma, M., Michalewski, H., Dohan, D., Jiang, E., Cai, C., Terry, M., Le, Q., et al. (2021). Program synthesis with large language models. *arXiv preprint arXiv:2108.07732*.
+
+- For **ClassEval**, the citation is:
+  > Du, X., Liu, M., Wang, K., Wang, H., Liu, J., Chen, Y., Feng, J., Sha, C., Peng, X., & Lou, Y. (2023). ClassEval: A manually-crafted benchmark for evaluating LLMs on class-level code generation. *arXiv preprint arXiv:2308.01861*.
+
+- For **LeetCode**, the citation is:
+  > Guo, D., Zhu, Q., Yang, D., Xie, Z., Dong, K., Zhang, W., Chen, G., Bi, X., Wu, Y., Li, Y. K., et al. (2024). DeepSeek-Coder: When the large language model meets programming—the rise of code intelligence. *arXiv preprint arXiv:2401.14196*.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This structured approach will help in accurately documenting the datasets used in the research paper.

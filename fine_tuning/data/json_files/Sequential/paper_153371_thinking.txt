@@ -1,0 +1,21 @@
+To extract the datasets mentioned in the research paper titled "Mental Task Classification Using Electroencephalogram Signal" by Ruizhi Yang et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and data description sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the study but does not mention specific datasets. Therefore, I will focus on the **introduction** and **data description** sections for more detailed information.
+
+In the **introduction**, the authors discuss the use of EEG data for mental task classification but do not specify any datasets. Moving on to the **data description section**, I find detailed information about the input data. The authors describe the EEG signals collected from **9 subjects**, with a total of **288 trials** sampled over **4 seconds** at **250 Hz**, resulting in a total of **1000 time signals**. They also mention the configuration of the electrodes used for data collection.
+
+The data description section provides the following breakdown of the datasets used in the study:
+
+- **Training Data**: X_train with shape (2358, 22, 1000) and y_train with shape (2358,)
+- **Validation Data**: X_val with shape (100, 22, 1000) and y_val with shape (100,)
+- **Testing Data**: X_test with shape (100, 22, 1000) and y_test with shape (100,)
+
+This indicates that the authors have created their own dataset from the EEG signals collected from the subjects, which is crucial for the experiments conducted in the paper.
+
+Next, I will check the **References section** to see if there are any citations related to the dataset or similar datasets used in EEG studies. However, the references primarily cite other research papers and do not provide a specific citation for the dataset used in this study. Since the dataset appears to be original and created by the authors, I will note that the dataset does not have a formal citation but is derived from their own experimental setup.
+
+Now, I will summarize the findings regarding the dataset:
+
+1. **EEG Dataset**: This dataset consists of EEG signals collected from 9 subjects, with a total of 288 trials, resulting in training, validation, and testing datasets as described above. The dataset is not formally cited as it is original to the authors.
+
+In conclusion, I will compile the dataset information into a structured format, ensuring to highlight that the dataset is original and created by the authors, as there is no external citation available for it. This will be important for anyone referencing the dataset in future work.

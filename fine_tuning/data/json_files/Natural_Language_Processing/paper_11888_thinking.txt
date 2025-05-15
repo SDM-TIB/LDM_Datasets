@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "On the choice of training data for machine learning of geostrophic mesoscale turbulence" by F. E. Yan et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract** and **introduction** to get an overview of the research focus and any datasets that may be referenced. The abstract discusses the impact of data choice on machine learning models for ocean modeling, which suggests that specific datasets may be used for training and evaluation.
+
+Next, I will examine **section 3 (Model details)**, where the authors describe their experimental setup and the data used for training the models. This section is likely to contain explicit mentions of datasets, including their characteristics and how they were utilized in the experiments.
+
+In **section 4 (Model skill)**, the authors evaluate the performance of their models based on different datasets. This section may provide additional insights into the datasets used and their relevance to the study.
+
+I will also check the **References section** to find full citations for any datasets mentioned in the paper. This is crucial for proper attribution and to allow others to access the datasets.
+
+From my reading, I will identify the following datasets:
+
+1. **Eddy Force Function Dataset**: This dataset is derived from the numerical model used in the study, which is based on the quasi-geostrophic double gyre configuration. The authors mention that they utilize the eddy force function to filter out dynamically inert components from the eddy fluxes.
+
+2. **Eddy PV Flux Dataset**: This dataset is generated from the numerical model and is used to assess the performance of the machine learning models. The authors describe how they compute the divergence of the eddy PV fluxes and use this data for training.
+
+3. **Eddy Relative Vorticity Flux Dataset**: Similar to the eddy PV flux, this dataset is also derived from the numerical model and is used in the experiments to evaluate model skill.
+
+4. **Eddy Buoyancy Flux Dataset**: This dataset is related to the buoyancy fluxes in the ocean and is used in the analysis of model performance.
+
+After identifying these datasets, I will compile their full citations from the References section:
+
+- For the **Eddy Force Function**, the citation is:
+  > Maddison, J. R., & Marshall, D. P. (2015). On the dynamical influence of ocean eddy potential vorticity fluxes. *Ocean Modelling*, 92, 169–182. doi: 10.1016/j.ocemod.2015.06.002
+
+- For the **Eddy PV Flux**, the citation is:
+  > Bolton, T., & Zanna, L. (2019). Applications of deep learning to ocean data inference and sub-grid parameterisation. *J. Adv. Model. Earth Syst.*, 11, 376–399. doi: 10.1029/2018MS001472
+
+- For the **Eddy Relative Vorticity Flux**, the citation is:
+  > Marshall, D. P., Maddison, J. R., & Berloff, P. S. (2012). A framework for parameterizing eddy potential vorticity fluxes. *J. Phys. Oceanogr.*, 42, 539–557. doi: 10.1175/JPO-D-11-048.1
+
+- For the **Eddy Buoyancy Flux**, the citation is:
+  > Griesel, A., Gille, S. T., Sprintall, J., McClean, J. L., & Maltrud, M. E. (2009). Assessing eddy heat flux and its parameterization: A wavenumber perspective from a 1/10° ocean simulation. *Ocean Modelling*, 29, 248–260. doi: 10.1016/j.ocemod.2009.06.002
+
+Finally, I will summarize the datasets and their citations in a structured format for easy reference and further analysis.

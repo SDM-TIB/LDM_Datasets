@@ -1,0 +1,146 @@
+[
+    {
+        "dcterms:creator": [
+            "Greg Brockman",
+            "Vicki Cheung",
+            "Ludwig Pettersson",
+            "Jonas Schneider",
+            "John Schulman",
+            "Jie Tang",
+            "Wojciech Zaremba"
+        ],
+        "dcterms:description": "A toolkit for developing and comparing reinforcement learning algorithms, providing a variety of environments for testing.",
+        "dcterms:title": "OpenAI Gym",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1606.01540",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Artificial Intelligence"
+        ],
+        "dcat:keyword": [
+            "Reinforcement learning",
+            "Gym",
+            "OpenAI",
+            "Algorithmic tasks"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The agent should emit a copy of the sequence. The pointer actions are move left and right.",
+        "dcterms:title": "Copy",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Sequence copying",
+            "Reinforcement learning task"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Sequence generation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "In the hidden tape, each character is repeated twice. The agent must deduplicate the sequence and emit every other character.",
+        "dcterms:title": "DuplicatedInput",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Deduplication",
+            "Reinforcement learning task"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Sequence processing"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The agent should emit the hidden sequence once, then emit the sequence in reverse order, then emit the original sequence again.",
+        "dcterms:title": "RepeatCopy",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Sequence repetition",
+            "Reinforcement learning task"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Sequence generation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The agent should emit the hidden sequence in the reverse order.",
+        "dcterms:title": "Reverse",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Sequence reversal",
+            "Reinforcement learning task"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Sequence processing"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The hidden tape is a 2×n grid of digits representing two numbers in base 3 in little-endian order. The agent must emit the sum of the two numbers, in little-endian order.",
+        "dcterms:title": "ReversedAddition",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Addition",
+            "Reinforcement learning task"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Arithmetic computation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Given an integer n, the environment has a hidden array of n distinct numbers stored in ascending order. The environment also has a query number x unknown to the agent that is contained somewhere in the array. The goal of the agent is to find the query number in the array in a small number of actions.",
+        "dcterms:title": "BinarySearch",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Search algorithm",
+            "Reinforcement learning task"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Searching"
+        ]
+    }
+]

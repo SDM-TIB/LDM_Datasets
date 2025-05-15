@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "Exploring Richer and More Accurate Information via Frequency Selection for Image Restoration" by Hu Gao and Depeng Dang, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper to identify any datasets mentioned. The abstract provides a brief overview of the research focus, while the introduction often discusses the context and significance of the datasets used.
+
+In the **introduction**, the authors discuss the advancements in image restoration and the importance of utilizing large-scale datasets for training deep learning models. However, I need to look for specific dataset names.
+
+Next, I will focus on the **experiments section**, particularly the subsection labeled **Datasets**. Here, the authors explicitly mention the datasets used for training and evaluation. They describe the datasets in detail, including the number of images, types of images, and any specific characteristics relevant to the experiments.
+
+From the text, I identify the following datasets:
+
+1. **GoPro Dataset**: This dataset includes 2,103 image pairs for training and 1,111 pairs for evaluation, specifically designed for image motion deblurring.
+2. **HIDE Dataset**: This dataset consists of 2,025 images used for evaluating the generalizability of the model trained on the GoPro dataset.
+3. **RealBlur Dataset**: This dataset contains image pairs captured under real-world conditions, divided into two subsets: RealBlur-J and RealBlur-R.
+4. **DPDD Dataset**: This dataset comprises images from 500 indoor/outdoor scenes captured with a DSLR camera, used for single-image defocus deblurring.
+5. **Rain datasets**: The authors mention using 13,712 clean-rain image pairs collected from multiple datasets for image deraining, including Rain100H and Rain100L.
+6. **Composite Dataset for Denoising**: This dataset includes images from DIV2K, Flickr2K, BSD500, and WED, used for training the model to handle various noise levels.
+
+Now, I will look at the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For the **GoPro Dataset**, the citation is:
+  > Nah, S., Kim, T. H., & Lee, K. M. (2017). Deep multi-scale convolutional neural network for dynamic scene deblurring. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 257–265.
+
+- For the **HIDE Dataset**, the citation is:
+  > Shen, Z., Wang, W., Lu, X., Shen, J., Ling, H., Xu, T., & Shao, L. (2019). Human-aware motion deblurring. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pp. 5571–5580.
+
+- For the **RealBlur Dataset**, the citation is:
+  > Rim, J., Lee, H., Won, J., & Cho, S. (2020). Real-world blur dataset for learning and benchmarking deblurring algorithms. In Proceedings of the European Conference on Computer Vision (ECCV), pp. 111–126.
+
+- For the **DPDD Dataset**, the citation is:
+  > Abuolaim, A., & Brown, M. S. (2020). Defocus deblurring using dual-pixel data. In European Conference on Computer Vision (ECCV), pp. 111–126.
+
+- For the **Rain datasets**, the citation for Rain100H and Rain100L is:
+  > Yang, W., Tan, R. T., Liu, J., Guo, Z., & Yan, S. (2016). Deep joint rain detection and removal from a single image. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 1685–1694.
+
+- For the **Composite Dataset for Denoising**, the citations for the individual datasets are:
+  > Agustsson, E., & Timofte, R. (2017). NTIRE 2017 challenge on single image super-resolution: Dataset and study. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), pp. 1122–1131.
+  > Lim, B., Son, S., Kim, H., Nah, S., & Lee, K. M. (2017). Enhanced deep residual networks for single image super-resolution. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), pp. 136–144.
+  > Arbeláez, P., Maire, M., Fowlkes, C., & Malik, J. (2011). Contour detection and hierarchical image segmentation. IEEE Transactions on Pattern Analysis and Machine Intelligence, 33(5), 898–916.
+  > Ma, K., Duanmu, Z., Wu, Q., Wang, H., Yong, H., Li, H., & Zhang, L. (2016). Waterloo exploration database: New challenges for image quality assessment models. IEEE Transactions on Image Processing, 26(2), 1004–1016.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

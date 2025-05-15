@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "GAN Compression: Efficient Architectures for Interactive Conditional GANs" by Muyang Li et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methods sections** to see if any datasets are mentioned. The abstract provides a brief overview of the research but may not specify datasets. The introduction often outlines the context and may mention datasets used in prior work or the current study.
+
+Next, I will focus on the **experiments section**, particularly **section 4.1 (Setups)**, where the authors typically describe the datasets used for their experiments. Here, I will look for specific names of datasets and any relevant details such as the number of images, types of tasks, or any unique characteristics of the datasets.
+
+In this paper, the authors mention the following datasets:
+
+1. **Edges→shoes**: This dataset consists of 50,025 images from the UT Zappos50K dataset, which is used for evaluating the Pix2pix and MUNIT models. The dataset is split into a training set and a validation set.
+
+2. **Cityscapes**: This dataset contains images of German street scenes, with 2,975 images for training and 500 for validation. It is used to evaluate both the Pix2pix and GauGAN models.
+
+3. **Horse↔zebra**: This dataset consists of 1,187 horse images and 1,474 zebra images, originally sourced from ImageNet. It is used for evaluating the CycleGAN model.
+
+4. **Map↔aerial photo**: This dataset contains 2,194 images scraped from Google Maps, used for evaluating the Pix2pix model.
+
+5. **COCO-Stuff**: This dataset is derived from the COCO dataset and includes 118,000 training images and 5,000 validation images. It is used to evaluate the GauGAN model.
+
+After identifying the datasets, I will check the **References section** for full citations. The citations for the datasets mentioned in the paper are as follows:
+
+- **UT Zappos50K dataset**: 
+  > Yu, F., & Grauman, K. (2014). Fine-grained visual comparisons with local learning. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2014, pp. 192–199.
+
+- **Cityscapes dataset**: 
+  > Cordts, M., Omran, M., Ramos, S., Rehfeld, T., Enzweiler, M., Benenson, R., Franke, U., Roth, S., & Schiele, B. (2016). The cityscapes dataset for semantic urban scene understanding. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016, pp. 3213–3223.
+
+- **ImageNet dataset**: 
+  > Deng, J., Dong, W., Socher, R., Li, L.-J., Li, K., & Fei-Fei, L. (2009). Imagenet: A large-scale hierarchical image database. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009, pp. 248–255.
+
+- **COCO-Stuff dataset**: 
+  > Caesar, H., Uijlings, J., & Ferrari, V. (2018). COCO-Stuff: Thing and stuff classes in context. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018, pp. 1209–1218.
+
+Now, I will compile the dataset entries with their respective citations into a structured format for further processing or review.

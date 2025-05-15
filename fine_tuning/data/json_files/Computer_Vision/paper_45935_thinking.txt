@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Deep Dose Plugin: Towards Real-time Monte Carlo Dose Calculation Through a Deep Learning–based Denoising Algorithm" by Ti Bai et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract mentions the development of a deep learning-based dose denoiser, but it does not specify datasets. Therefore, I will look for more detailed information in the introduction and methods sections.
+
+In the **introduction**, the authors discuss the importance of accurate dose calculation in radiotherapy and mention the use of Monte Carlo (MC) simulations. However, they do not specify any datasets here.
+
+Next, I will focus on **section 2.2 (Materials)**, where the authors describe the dataset used for their experiments. They mention that they used a dataset consisting of **199 prostate patients with IMRT plans** to generate volumetric MC dose maps. This section provides crucial details about the dataset, including how it was split into training and validation sets.
+
+The dataset is described as follows:
+- **Training Dataset**: 162 cases were used for training, with two independent noisy MC simulations conducted for each patient case, each with 1 × 10^6 histories.
+- **Validation Dataset**: 37 cases were used for validation, with 15 independent noisy MC simulations conducted for each patient case, also with 1 × 10^6 histories.
+
+The authors also mention that for quantitative comparison, one "clean" simulation with 1 × 10^9 histories was performed for each patient, which served as the ground truth dose map.
+
+Now, I will check the **References section** to find the full citation for the dataset. However, since the dataset is not a publicly available dataset and is specific to the study conducted at UT Southwestern Medical Center, there may not be a formal citation. The authors note that the data are available upon reasonable request and approved by the IRB.
+
+Given this information, I will summarize the dataset as follows:
+
+1. **Dataset Name**: Prostate Patients Dataset
+   - **Description**: A dataset consisting of 199 prostate patients with IMRT plans used to generate volumetric MC dose maps for algorithm verification. The dataset was split into 162 training cases and 37 validation cases.
+   - **Training Details**: Two independent noisy MC simulations (1 × 10^6 histories) for each training case; 15 independent noisy MC simulations (1 × 10^6 histories) for each validation case; one clean simulation (1 × 10^9 histories) for ground truth.
+   - **Citation**: Not publicly available; data can be requested from the corresponding author.
+
+After gathering all this information, I will compile the dataset entry into a structured format for further processing.

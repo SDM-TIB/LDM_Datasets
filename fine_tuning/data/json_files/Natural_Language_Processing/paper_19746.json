@@ -1,0 +1,79 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A large-scale dataset collected from Weibo, comprising approximately 70,000 posts and 24 million comments filtered from the raw datasets, used for trendy response prediction.",
+        "dcterms:title": "Weibo Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "Chinese",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Social Media",
+            "Response Prediction",
+            "Trendy Responses"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Trendy Response Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A subset of the Weibo dataset used for supervised fine-tuning, consisting of popular responses selected as gold responses for each post.",
+        "dcterms:title": "SFT Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "Chinese",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Supervised Fine-Tuning",
+            "Response Generation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Response Generation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A subset of the Weibo dataset used for training the reward model, containing ranked responses paired with negative samples of less-liked responses.",
+        "dcterms:title": "RM Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "Chinese",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Reward Model Training",
+            "Response Ranking"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Reward Model Training"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A subset of the Weibo dataset used for training the reinforcement learning policy, providing trendy responses as signals for reward enhancement.",
+        "dcterms:title": "RL Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "Chinese",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Reinforcement Learning",
+            "Response Generation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Reinforcement Learning Policy Training"
+        ]
+    }
+]

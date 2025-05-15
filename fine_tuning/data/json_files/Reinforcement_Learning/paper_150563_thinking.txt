@@ -1,0 +1,40 @@
+To extract datasets from the research paper titled "Improving Classifier Robustness through Active Generation of Pairwise Counterfactuals" by Ananth Balashankar et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract highlights the use of counterfactual data augmentation (CDA) and mentions improvements in robustness on "6 out-of-domain datasets." This indicates that multiple datasets are involved, prompting me to look for specific names.
+
+Next, I will examine the **methodology** and **experiments** sections, particularly focusing on any subsections that explicitly discuss datasets. In the **experiments section**, the authors mention two primary datasets used for evaluation:
+
+1. **Stanford Sentiment Treebank (SST-2)**: This dataset is used for sentiment analysis, containing 4,000 samples, with counterfactuals generated for evaluation. The paper states that the counterfactual dataset had 2,000 samples with human labels.
+
+2. **Quora Question Pair (QQP)**: This dataset is used for determining semantic equivalence between question pairs. The original dataset consists of 20,000 samples, and the authors mention that 1,911 samples were human-annotated for evaluation.
+
+In addition to these primary datasets, the authors also refer to **out-of-domain datasets** for testing robustness, including:
+
+- **IMDB movie reviews**
+- **Amazon reviews**
+- **SemEval Twitter reviews**
+- **Yelp reviews**
+
+These datasets are mentioned in the context of evaluating the generalizability of the proposed methods.
+
+Now, I will look at the **References section** to find the full citations for the datasets mentioned:
+
+- For **Stanford Sentiment Treebank (SST-2)**, the citation is:
+  > Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D. Manning, Andrew Ng, and Christopher Potts. *Recursive deep models for semantic compositionality over a sentiment treebank*. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, pages 1631–1642, Seattle, Washington, USA, October 2013.
+
+- For **Quora Question Pair (QQP)**, the citation is:
+  > Shankar Iyer, Nikhil Dandekar, and Kornel Csernai. *First quora dataset release: Question pairs*, 2017.
+
+- For **IMDB movie reviews**, the citation is:
+  > Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. *Learning word vectors for sentiment analysis*. In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies, pages 142–150, Portland, Oregon, USA, June 2011.
+
+- For **Amazon reviews**, the citation is:
+  > Jianmo Ni, Jiacheng Li, and Julian McAuley. *Justifying recommendations using distantly-labeled reviews and fine-grained aspects*. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 188–197, Hong Kong, China, November 2019.
+
+- For **SemEval Twitter reviews**, the citation is:
+  > Sara Rosenthal, Noura Farra, and Preslav Nakov. *SemEval-2017 task 4: Sentiment analysis in Twitter*. In Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-2017), pages 502–518, Vancouver, Canada, August 2017.
+
+- For **Yelp reviews**, the citation is:
+  > Nabiha Asghar. *Yelp dataset challenge: Review rating prediction*. CoRR, abs/1605.05362, 2016.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately represented with its full citation. This will provide a comprehensive overview of the datasets used in the research paper.

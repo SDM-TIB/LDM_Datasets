@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Model-Based Imitation Learning for Urban Driving" by Anthony Hu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset mentioned.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets that are referenced. The abstract mentions that the model is trained on an offline corpus of urban driving data, which suggests that there is a dataset involved.
+
+Next, I will look for specific mentions of datasets in the **experimental setting** section, as this is where authors typically describe the data used for training and evaluation. In this paper, the authors mention that the training data was collected in the **CARLA simulator** with an expert reinforcement learning agent. They specify that the data consists of tuples including RGB images, route maps, speed, actions, and bird's-eye view (BeV) semantic segmentation labels.
+
+I will note the details provided about the dataset:
+- The dataset includes 2.9 million frames collected at 25Hz across four different training towns (Town01, Town03, Town04, Town06) and four weather conditions (ClearNoon, WetNoon, HardRainNoon, ClearSunset).
+- Each tuple consists of the following components: 
+  - **ot**: RGB image (3 × 600 × 960)
+  - **routet**: Route map (1 × 64 × 64)
+  - **speedt**: Current speed (1)
+  - **at**: Action executed by the expert (2)
+  - **yt**: BeV semantic segmentation (Cb × 192 × 192)
+
+Now, I will check the **References section** to find the full citation for the CARLA simulator, as it is the primary dataset used in this research. The CARLA simulator is referenced multiple times throughout the paper, and its citation is as follows:
+
+- **CARLA Simulator**:
+  > Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2017). CARLA: An Open Urban Driving Simulator. In Proceedings of the Conference on Robot Learning (CoRL), pages 1–16.
+
+After gathering this information, I will compile the dataset entry for the CARLA dataset, ensuring to include the full citation as required.
+
+Finally, I will prepare the dataset entry in the specified format, ensuring clarity and completeness for future reference or processing.

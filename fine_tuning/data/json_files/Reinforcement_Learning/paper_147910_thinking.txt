@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Active and Semi-Supervised Learning in ASR: Benefits on the Acoustic and Language Models" by Thomas Drugman et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and method sections** to identify any datasets that are mentioned or implied. The abstract discusses the application of active learning (AL) and semi-supervised training (SST) in speech recognition, but it does not specify any datasets. The introduction may provide more context or specific datasets used in the experiments.
+
+Next, I will focus on the **experiments section** (Section 3) to see if the authors mention any datasets used for their simulations. In this section, they describe having access to about **600 hours of transcribed voice search data in German**, which is crucial for understanding the datasets involved. They mention that **50 hours are first randomly selected to build the baseline acoustic model (AM) and language model (LM)**, which indicates that this specific dataset is used for training.
+
+I will also check the **references section** for any citations related to datasets. However, the paper primarily discusses methodologies and does not provide specific dataset citations beyond the general description of the voice search data.
+
+The key datasets identified are:
+1. **Transcribed Voice Search Data**: 600 hours of data, with 50 hours used for baseline model training.
+2. **Active Learning Data**: 100 hours of supervised data selected using a confidence filter.
+3. **Unsupervised Data**: Additional data selected from the remaining pool of 550 hours.
+
+Since the paper does not provide formal citations for these datasets, I will note that the primary dataset is the transcribed voice search data, which is not attributed to a specific source in the paper.
+
+Now, I will compile the dataset entries, ensuring to include the relevant details and citations where applicable, even if they are not explicitly provided in the paper. The focus will be on accurately representing the datasets mentioned in the context of the research.
+
+Finally, I will prepare the dataset entries for output, ensuring clarity and completeness for any downstream processing or review.

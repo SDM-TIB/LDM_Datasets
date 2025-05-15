@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Critical Hyper-Parameters: No Random, No Cry" by Olivier Bousquet et al., I will follow a systematic approach to identify and document each dataset mentioned in the text.
+
+First, I will read through the **abstract, introduction, experiments, and references sections** to locate any datasets that are explicitly mentioned. The abstract provides a general overview, but I will focus on sections that typically contain detailed information about datasets.
+
+In the **introduction**, the authors discuss hyperparameter optimization and mention various methods but do not specify any datasets yet. I will continue to the **experiments section**, where datasets are likely to be described in detail.
+
+In **section 4 (Experiments)**, the authors mention using several datasets for their experiments. Specifically, they refer to:
+
+1. **Penn Tree Bank (PTB)**: This dataset is used for language modeling tasks. The authors note that they utilize both a word-level representation and a byte-level representation of this dataset.
+
+2. **UB-PTB**: This is a variant of the PTB dataset created by the authors, where they randomly permute blocks of 200 lines to avoid systematic bias between train/validation/test splits.
+
+3. **Enwik8**: A dataset used for language modeling, from which the authors take a subset (about 6%) and name it **MiniWiki**. They also create a shuffled version of this subset called **MiniUBWiki**.
+
+Next, I will check the **References section** to find the full citations for these datasets:
+
+- For **Penn Tree Bank (PTB)**, the citation is:
+  > Marcus, M. P., Marcinkiewicz, M. A., & Santorini, B. (1993). Building a large annotated corpus of English: The Penn Treebank. *Computational Linguistics*, 19(2), 313-330.
+
+- For **Enwik8**, the citation is:
+  > Hutter, M. (2006). 50000 euros prize for compressing human knowledge. Retrieved from http://prize.hutter1.net/
+
+Since the authors created the UB-PTB and MiniWiki datasets, I will note that these do not have formal citations but can be referenced as follows:
+- **UB-PTB**: A variant of the Penn Tree Bank dataset created by the authors.
+- **MiniWiki**: A subset of the Enwik8 dataset created by the authors.
+- **MiniUBWiki**: A shuffled version of the MiniWiki dataset created by the authors.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for the datasets that have them and noting the created datasets appropriately. This will provide a comprehensive overview of the datasets used in the research paper.

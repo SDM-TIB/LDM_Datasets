@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Improved Soft Actor-Critic: Mixing Prioritized Off-Policy Samples with On-Policy Experience" by Chayan Banerjee et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the performance of the proposed method on various continuous control tasks in MuJoCo environments, which suggests that datasets related to these tasks may be present.
+
+Next, I will focus on the **experiments section (Section IV)**, where the authors describe the environments used for testing their algorithm. They mention three specific MuJoCo environments:
+
+1. **InvertedPendulum-v2**: This environment involves balancing a pole on a cart and is a standard benchmark in reinforcement learning.
+
+2. **Reacher-v2**: This environment simulates a two-degree-of-freedom robotic arm that must reach a randomly generated target.
+
+3. **Swimmer-v2**: This environment features a planar robot swimming in a viscous fluid, which is another common benchmark for testing control algorithms.
+
+In the experiments section, the authors provide details about how they evaluated their proposed method on these environments, confirming that these are indeed the datasets used for their experiments.
+
+Now, I will check the **References section** to find full citations for the datasets or environments mentioned. However, since these environments are standard benchmarks in the reinforcement learning community, they may not have specific citations in the paper. Instead, I can refer to the original sources or documentation for these environments:
+
+- For **MuJoCo**, the citation is:
+  > Todorov, E., Erez, T., & Tassa, Y. (2012). MuJoCo: A physics engine for model-based control. In *2012 IEEE/RSJ International Conference on Intelligent Robots and Systems* (pp. 5026–5033).
+
+- For **OpenAI Gym**, which provides these environments, the citation is:
+  > Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., & Zaremba, W. (2016). OpenAI Gym. arXiv preprint arXiv:1606.01540.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each environment used in the experiments. This will provide a comprehensive overview of the datasets referenced in the paper.

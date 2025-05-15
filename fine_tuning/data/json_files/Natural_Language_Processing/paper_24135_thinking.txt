@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "UniGLM: Training One Unified Language Model for Text-Attributed Graphs" by Yi Fang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions that the authors conducted extensive empirical results across 9 benchmark TAGs, which suggests that multiple datasets are involved. The introduction further elaborates on the use of text-attributed graphs (TAGs) and hints at the datasets used for evaluation.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments** section. In this paper, the authors provide a detailed description of the datasets in the **Appendix**. I will focus on this section to gather the necessary information.
+
+From the Appendix, I identify the following datasets:
+
+1. **PubMed**: This dataset consists of 19,717 scientific publications from the PubMed database, forming a citation network with 44,338 links.
+   - Citation: Sen, P., Bilgic, M., Getoor, L., Galligher, B., & Eliassi-Rad, T. (2008). Collective classification in network data. AI Magazine, 29(3), 93–93.
+
+2. **Ogbn-Arxiv**: A directed graph representing the citation network between all Computer Science arXiv papers.
+   - Citation: Hu, W., Fey, M., Zitnik, M., Dong, X., Ren, H., Liu, B., Catasta, M., & Leskovec, J. (2020). Open graph benchmark: Datasets for machine learning on graphs. Advances in Neural Information Processing Systems, 33, 22118–22133.
+
+3. **Ogbn-Products**: This dataset represents an Amazon product co-purchasing network, with product descriptions as raw text.
+   - Citation: He, R., & McAuley, J. (2016). Ups and downs: Modeling the visual evolution of fashion trends with one-class collaborative filtering. In Proceedings of the 25th International Conference on World Wide Web (pp. 507–517). International World Wide Web Conferences Steering Committee.
+
+4. **Electronics-Computers**: A segment of the Amazon co-purchase graph where nodes represent goods, and edges indicate frequent co-purchases.
+   - Citation: Ni, J., Li, J., & McAuley, J. (2019). Justifying recommendations using distantly-labeled reviews and fine-grained aspects. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP) (pp. 188–197).
+
+5. **Books-History**: Each node represents a book related to the history domain, with edges indicating frequent co-purchases.
+   - Citation: Ni, J., Li, J., & McAuley, J. (2019). Justifying recommendations using distantly-labeled reviews and fine-grained aspects. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP) (pp. 188–197).
+
+6. **Books-Children**: Similar to the Books-History dataset, but focused on children's books.
+   - Citation: Ni, J., Li, J., & McAuley, J. (2019). Justifying recommendations using distantly-labeled reviews and fine-grained aspects. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP) (pp. 188–197).
+
+7. **Sports-Fitness**: Each node represents an item in the Sports and Fitness category.
+   - Citation: Ni, J., Li, J., & McAuley, J. (2019). Justifying recommendations using distantly-labeled reviews and fine-grained aspects. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP) (pp. 188–197).
+
+8. **Electronics-Photography**: This dataset contains review data from the Amazon platform, with nodes representing reviews related to camera items.
+   - Citation: Ni, J., Li, J., & McAuley, J. (2019). Justifying recommendations using distantly-labeled reviews and fine-grained aspects. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP) (pp. 188–197).
+
+9. **VideoGames**: Another co-purchase network dataset.
+   - Citation: He, R., & McAuley, J. (2016). Ups and downs: Modeling the visual evolution of fashion trends with one-class collaborative filtering. In Proceedings of the 25th International Conference on World Wide Web (pp. 507–517). International World Wide Web Conferences Steering Committee.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

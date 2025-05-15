@@ -1,0 +1,98 @@
+[
+    {
+        "dcterms:creator": [
+            "F. Codevilla",
+            "A. Dosovitskiy",
+            "V. Koltun",
+            "A. Lopez",
+            "G. Ros"
+        ],
+        "dcterms:description": "The CARLA simulator dataset was generated using the open-source simulator CARLA, which allows visually and physically realistic simulation of vehicles, pedestrians, and environmental conditions. It includes images of pedestrians crossing the road, along with measures related to their respective region in the image, distance, level of occlusion, and type of pedestrian.",
+        "dcterms:title": "CARLA simulator dataset",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1711.03938",
+        "dcat:theme": [
+            "Simulation",
+            "Autonomous Driving"
+        ],
+        "dcat:keyword": [
+            "Urban driving",
+            "Pedestrian detection",
+            "Simulation dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Pedestrian Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The COCO dataset is used for object detection and includes a class for persons. It provides a large-scale dataset for training and evaluating machine learning models.",
+        "dcterms:title": "COCO dataset",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Object Detection"
+        ],
+        "dcat:keyword": [
+            "Object detection",
+            "Image dataset",
+            "Common objects"
+        ],
+        "dcat:landingPage": "https://cocodataset.org/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Object Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The CDC weather observations dataset provides weather parameters that were used to simulate various weather conditions in the CARLA simulator for the pedestrian detection use case.",
+        "dcterms:title": "CDC weather observations dataset",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://cdc.dwd.de/portal/",
+        "dcat:theme": [
+            "Weather Data",
+            "Climate Studies"
+        ],
+        "dcat:keyword": [
+            "Weather observations",
+            "Climate data",
+            "Simulation parameters"
+        ],
+        "dcat:landingPage": "https://cdc.dwd.de/portal/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The YOLOv3 dataset is used for pedestrian detection and is based on the YOLOv3 implementation, which utilizes pretrained network weights learned on the COCO dataset.",
+        "dcterms:title": "YOLOv3 dataset",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://github.com/eriklindernoren/PyTorch-YOLOv3",
+        "dcat:theme": [
+            "Computer Vision",
+            "Object Detection"
+        ],
+        "dcat:keyword": [
+            "Pedestrian detection",
+            "Deep learning",
+            "Object detection"
+        ],
+        "dcat:landingPage": "https://github.com/eriklindernoren/PyTorch-YOLOv3",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Object Detection"
+        ]
+    }
+]

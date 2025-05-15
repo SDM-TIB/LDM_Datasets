@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Multimodal End-to-End Autonomous Driving" by Yi Xiao et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the use of RGB and depth modalities for end-to-end driving, which suggests that datasets related to these modalities may be included.
+
+Next, I will focus on the **experiments section** (Section IV), particularly **subsection IV-C (Training dataset)**, where the authors describe the dataset used for training their models. Here, they mention that the dataset corresponds to 25 hours of driving in the CARLA simulator, which includes RGB images, depth information, and semantic segmentation data.
+
+The paper specifies that the dataset contains approximately 2.5 million RGB images of 800 × 600 pixels resolution, along with corresponding depth images and semantic segmentation labels. This is a significant dataset for training their end-to-end driving models.
+
+I will also check the **References section** to find full citations for the datasets mentioned. The authors refer to the CARLA simulator, which is crucial for their experiments. The citation for the CARLA simulator is:
+
+- **CARLA Simulator**:
+  > Dosovitskiy, A., Ros, G., Codevilla, F., López, A. M., & Koltun, V. (2017). CARLA: An open urban driving simulator. In Conference on Robot Learning (CoRL).
+
+Additionally, the authors mention that they used depth information from the CARLA simulator, which is post-processed to simulate realistic depth data. However, they do not provide a separate citation for the depth data since it is derived from the CARLA simulator.
+
+Now, I will compile the dataset entries, ensuring that I include the full citation for the CARLA simulator as it is the primary dataset used in their experiments.
+
+In summary, the key dataset extracted from the paper is:
+1. **CARLA Driving Dataset**: Contains RGB images, depth information, and semantic segmentation data collected from the CARLA simulator.
+
+The citation for this dataset is:
+> Dosovitskiy, A., Ros, G., Codevilla, F., López, A. M., & Koltun, V. (2017). CARLA: An open urban driving simulator. In Conference on Robot Learning (CoRL).
+
+After gathering this information, I will prepare the dataset entries for further processing or review.

@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "DPMesh: Exploiting Diffusion Prior for Occluded Human Mesh Recovery" by Yixuan Zhu et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** and **introduction** sections to get an overview of the research context and any datasets that may be referenced. The abstract mentions that the authors conducted extensive experiments on various occlusion benchmarks, which suggests that specific datasets are involved.
+
+Next, I will focus on the **experiments section** (section 4) to find detailed information about the datasets used. In section 4.1, the authors explicitly list the datasets they evaluated their method on. They mention:
+
+1. **3DPW-OC**: This dataset is described as a person-object occlusion subset of the 3DPW dataset, containing 20,243 persons.
+2. **3DPW-PC**: This dataset is a person-person occlusion subset of the 3DPW dataset, comprising 2,218 individuals.
+3. **3DPW-Crowd**: This dataset is a person crowded subset of the 3DPW dataset, containing 1,923 persons.
+4. **3DOH**: This dataset is a person-object occlusion-specific dataset that includes 1,290 images in the test split.
+5. **CMU-Panoptic**: This dataset is a multi-person indoor dataset collected with multi-view cameras.
+
+In section 4.3, the authors confirm that they evaluated their model on the **3DPW** test split, which is a widely-used benchmark for human mesh recovery.
+
+Now, I will check the **References section** to gather the full citations for each dataset mentioned. The citations for the datasets are as follows:
+
+- For **3DPW**:
+  > Timo von Marcard, Roberto Henschel, Michael Black, Bodo Rosenhahn, and Gerard Pons-Moll. *Recovering accurate 3D human pose in the wild using IMUs and a moving camera*. In Proceedings of the European Conference on Computer Vision (ECCV), 2018.
+
+- For **CMU-Panoptic**:
+  > Hanbyul Joo, Hao Liu, Lei Tan, Lin Gui, Bart Nabbe, Iain Matthews, Takeo Kanade, Shohei Nobuhara, and Yaser Sheikh. *Panoptic studio: A massively multiview system for social motion capture*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2015.
+
+- For **3DOH**:
+  > Tianshu Zhang, Buzhen Huang, and Yangang Wang. *Object-occluded human shape and pose estimation from a single color image*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
+
+- For **CrowdPose**:
+  > Jiefeng Li, Can Wang, Hao Zhu, Yihuan Mao, Hao-Shu Fang, and Cewu Lu. *Crowdpose: Efficient crowded scenes pose estimation and a new benchmark*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
+
+- For **3DPW-OC** and **3DPW-PC**, since they are subsets of the 3DPW dataset, they will reference the same citation as the 3DPW dataset.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and that the full citations are included for each one. This structured approach will ensure that I capture all relevant datasets and their citations effectively.

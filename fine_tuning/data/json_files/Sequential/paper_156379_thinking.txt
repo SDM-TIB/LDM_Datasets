@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Density Estimation for Entry Guidance Problems using Deep Learning" by Jens A. Rataczak et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are referenced or described. The abstract mentions that the authors trained a neural network using data generated from a Monte Carlo analysis and that the truth density profiles were sampled from MarsGRAM. This indicates that there are datasets involved.
+
+Next, I will focus on **section IV (Data Set Generation)**, where the authors detail how they generated the training data. They state that they simulated 5,000 individual trajectories and used the Mars Global Reference Atmospheric Model (MarsGRAM) to generate the truth atmospheric profiles. This section is crucial as it provides specific details about the datasets used.
+
+In this section, I will note the following datasets:
+
+1. **MarsGRAM**: This is the atmospheric model used to generate the truth density profiles for the simulations. The authors mention that the atmospheric properties are computed as a function of altitude, latitude, and longitude.
+
+2. **Simulated Trajectories Dataset**: The authors generated a dataset consisting of 5,000 individual trajectories for training the LSTM model. Each trajectory includes variations in atmospheric density due to different parameters sampled from specified distributions.
+
+Now, I will check the **References section** to find full citations for these datasets:
+
+- For **MarsGRAM**, the citation is:
+  > Justh, H. L., Cianciolo, A. M. D., and Hoffman, J. "Mars Global Reference Atmospheric Model (Mars-GRAM): User Guide." Tech. rep., National Aeronautics and Space Administration, NASA/TM-20210023957, November 2021.
+
+- For the **Simulated Trajectories Dataset**, since it is generated from the MarsGRAM model and the methodology described in the paper, I will cite the paper itself as the source of the dataset:
+  > Rataczak, J. A., Amato, D., and McMahon, J. W. "Density Estimation for Entry Guidance Problems using Deep Learning." In Proceedings of the AIAA SciTech Forum, 2023.
+
+After gathering this information, I will compile the dataset entries into a structured format for clarity and future reference. This will ensure that I have accurately documented the datasets used in the research paper, along with their full citations.

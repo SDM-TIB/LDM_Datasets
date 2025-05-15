@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL" by Haoyang Li et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to locate any references to datasets. In the abstract, the authors mention evaluating their framework on **Spider and its three robustness variants**. This indicates that these datasets are crucial for their experiments.
+
+Next, I will focus on the **experiments section**, where the authors provide details about the datasets used. They explicitly mention:
+
+1. **Spider Dataset**: This is described as the most challenging benchmark for the cross-domain and multi-table Text-to-SQL task, containing a training set with 7,000 samples, a dev set with 1,034 samples, and a hidden test set with 2,147 samples.
+
+2. **Spider-DK**: A variant of the Spider dataset, which incorporates domain knowledge to paraphrase questions, containing 535 samples.
+
+3. **Spider-Syn**: Another variant that replaces schema-related words with synonyms, also containing 1,034 samples.
+
+4. **Spider-Realistic**: This variant removes explicitly mentioned column names in questions, containing 508 samples.
+
+The authors provide a clear description of each dataset, including their purpose and sample sizes, which is essential for understanding the context of their experiments.
+
+Now, I will check the **References section** to find the full citations for these datasets. The Spider dataset is referenced as follows:
+
+- For **Spider Dataset**:
+  > Yu, T., Zhang, R., Yang, K., Yasunaga, M., Wang, D., Li, Z., Ma, J., Li, I., Yao, Q., Roman, S., Zhang, Z., and Radev, D. R. (2018). *Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task*. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, 3911–3921.
+
+The variants (Spider-DK, Spider-Syn, and Spider-Realistic) are derived from the original Spider dataset, so they can be cited using the same reference.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research.

@@ -1,0 +1,62 @@
+[
+    {
+        "dcterms:creator": [
+            "S. Raschka"
+        ],
+        "dcterms:description": "The original training data containing ground-truth manual character annotations of the text in each receipt image.",
+        "dcterms:title": "truth",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://lightning.ai/pages/community/lora-insights/",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Ground-truth data",
+            "Character annotations",
+            "Receipt images"
+        ],
+        "dcat:landingPage": "https://lightning.ai/pages/community/lora-insights/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "S. Raschka"
+        ],
+        "dcterms:description": "The 'truth' dataset, but with synthetic OCR errors, where characters are corrupted randomly based on a separately computed confusion matrix.",
+        "dcterms:title": "ocr1",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://lightning.ai/pages/community/lora-insights/",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Synthetic OCR errors",
+            "Corrupted character data",
+            "Receipt images"
+        ],
+        "dcat:landingPage": "https://lightning.ai/pages/community/lora-insights/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "S. Raschka"
+        ],
+        "dcterms:description": "The same as the 'ocr1' dataset, but repeated 10 times with different seeds applied each time to the random function which generates 10 different sets of training data with synthetic OCR errors.",
+        "dcterms:title": "ocr10",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://lightning.ai/pages/community/lora-insights/",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Synthetic OCR errors",
+            "Multiple datasets",
+            "Receipt images"
+        ],
+        "dcat:landingPage": "https://lightning.ai/pages/community/lora-insights/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

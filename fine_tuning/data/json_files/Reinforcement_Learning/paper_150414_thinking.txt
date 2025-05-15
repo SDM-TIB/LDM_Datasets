@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Measuring Axiomatic Soundness of Counterfactual Image Models" by Miguel Monteiro et al., I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** of the paper. The abstract mentions that the authors demonstrate their evaluation framework on three datasets, which indicates that there are specific datasets to look for.
+
+Next, I will focus on the **experiments section** (section 4), where the authors describe the datasets used for their evaluations. In section 4.1, they explicitly mention three datasets:
+
+1. **Colour MNIST**: This dataset is derived from the original MNIST dataset, where each image is colored by introducing a new parent variable (hue). The authors describe the dataset's construction and the different scenarios (unconfounded and confounded) used in their experiments.
+
+2. **3D Shapes**: The authors refer to the 3D Shapes dataset created by Burgess and Kim (2018), which consists of procedurally generated images based on various attributes. They mention that this dataset contains 480,000 images generated from six independent parents.
+
+3. **CelebA-HQ**: This dataset is a high-quality version of the CelebA dataset, which contains images of celebrity faces with various attributes. The authors specify that they used the binary attributes 'smiling' and 'eyeglasses' for their counterfactual evaluations.
+
+Now, I will look into the **References section** to find the full citations for each dataset:
+
+- For **Colour MNIST**, the original MNIST dataset citation is:
+  > Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick Haffner. *Gradient-based learning applied to document recognition*. Proceedings of the IEEE, 86(11):2278–2324, 1998. doi: 10.1109/5.726791.
+
+- For **3D Shapes**, the citation is:
+  > Chris Burgess and Hyunjik Kim. *3D shapes dataset*. https://github.com/deepmind/3dshapes-dataset/, 2018.
+
+- For **CelebA-HQ**, the citation is:
+  > Tero Karras, Timo Aila, Samuli Laine, and Jaakko Lehtinen. *Progressive growing of GANs for improved quality, stability, and variation*. In International Conference on Learning Representations, 2018.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+1. **Colour MNIST**: A modified version of the MNIST dataset where images are colored based on a new parent variable (hue).
+   - Citation: Yann LeCun et al. (1998).
+
+2. **3D Shapes**: A dataset of procedurally generated images based on six independent attributes.
+   - Citation: Chris Burgess and Hyunjik Kim (2018).
+
+3. **CelebA-HQ**: A high-quality dataset of celebrity images with attributes for counterfactual evaluation.
+   - Citation: Tero Karras et al. (2018).
+
+Finally, I will compile this information into a structured format for further processing or review.

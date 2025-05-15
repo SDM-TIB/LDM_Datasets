@@ -1,0 +1,35 @@
+To extract the datasets from the research paper titled "Semantic Guided Level-Category Hybrid Prediction Network for Hierarchical Image Classification" by Peng Wang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and datasets sections** to identify any datasets mentioned. The abstract indicates that the authors constructed two new datasets for hierarchical classification, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 2 (Datasets)**, where the authors describe the datasets they constructed. They mention two source datasets that were used to create new datasets:
+
+1. **CUB-200-2011 Dataset**: This dataset consists of 11,788 high-quality images of birds, organized into a hierarchy of 13 orders, 38 families, and 200 species. Each image has a bounding box and part annotations for 15 bird parts.
+
+2. **HRSC Dataset**: This dataset is used for remote sensing ship classification and contains 617 training images and 438 test images, organized into 3 coarse-grained classes and 21 fine-grained classes. It also provides bounding box annotations.
+
+The authors then create two new datasets based on these source datasets:
+
+- **CUB-200-2023 Dataset**: This dataset is derived from the CUB-200-2011 dataset, with images distorted to simulate varying quality and labeled according to their quality levels.
+
+- **HRSC-2023 Dataset**: This dataset is derived from the HRSC dataset, similarly distorted and labeled.
+
+In the **Statistics of New Datasets** subsection, the authors provide details about the number of samples in each dataset, confirming the existence of the new datasets.
+
+Now, I will look at the **References section** to find the full citations for the original datasets:
+
+- For **CUB-200-2011 Dataset**, the citation is:
+  > Wah, C., Branson, S., Welinder, P., Perona, P., & Belongie, S. (2011). *The Caltech-UCSD Birds-200-2011 Dataset*. California Institute of Technology.
+
+- For **HRSC Dataset**, the citation is:
+  > Liu, Z., Yuan, L., Weng, L., & Yang, Y. (2017). *A High Resolution Optical Satellite Image Dataset for Ship Recognition and Some New Baselines*. In Proceedings of the International Conference on Pattern Recognition Applications and Methods (pp. 324–331). IEEE.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+1. **CUB-200-2023 Dataset**: Derived from the CUB-200-2011 dataset, this dataset contains distorted images labeled according to their quality levels.
+   - Citation: Wah, C., Branson, S., Welinder, P., Perona, P., & Belongie, S. (2011). *The Caltech-UCSD Birds-200-2011 Dataset*. California Institute of Technology.
+
+2. **HRSC-2023 Dataset**: Derived from the HRSC dataset, this dataset also contains distorted images labeled according to their quality levels.
+   - Citation: Liu, Z., Yuan, L., Weng, L., & Yang, Y. (2017). *A High Resolution Optical Satellite Image Dataset for Ship Recognition and Some New Baselines*. In Proceedings of the International Conference on Pattern Recognition Applications and Methods (pp. 324–331). IEEE.
+
+Finally, I will compile this information into a structured format for further processing or review.

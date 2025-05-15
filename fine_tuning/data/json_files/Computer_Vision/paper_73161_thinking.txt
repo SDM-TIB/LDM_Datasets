@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Autoregressive Image Diffusion: Generation of Image Sequence and Application in MRI" by Guanxiong Luo et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will start by examining the **abstract** and **introduction** sections of the paper. The abstract mentions that the authors evaluated their method using the **fastMRI dataset**, which indicates that this dataset is significant for their research.
+
+Next, I will look for specific sections that detail the datasets used, particularly in the **Methods** or **Experiments** sections. In the **Experiments and Results** section, the authors describe two models trained on different datasets:
+
+1. **fastMRI Dataset**: This dataset includes T1-weighted, T2-weighted, and FLAIR images, which were reconstructed from fully sampled multi-channel k-space volumes. The authors mention that the images were normalized and resized for training.
+
+2. **Cardiac Dataset**: This dataset contains cine images reconstructed by the SSA-FARY method. The authors note that a VQVAE was trained on these cine images, which were preprocessed similarly to the fastMRI dataset.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **fastMRI dataset**, the citation is:
+  > Florian Knoll, Jure Zbontar, Anuroop Sriram, Matthew J Muckley, Mary Bruno, Aaron Defazio, Marc Parente, Krzysztof J Geras, Joe Katsnelson, Hersh Chandarana, et al. *fastMRI: A publicly available raw k-space and DICOM dataset of knee images for accelerated MR image reconstruction using machine learning*. Radiology: Artificial Intelligence, 2(1):e190007, 2020.
+
+- For the **Cardiac dataset**, the citation is:
+  > Sebastian Rosenzweig, Nick Scholand, H Christian M Holme, and Martin Uecker. *Cardiac and respiratory self-gating in radial MRI using an adapted singular spectrum analysis (SSA-FARY)*. IEEE Transactions on Medical Imaging, 39(10):3029–3041, 2020.
+
+Having identified the datasets and their citations, I will summarize the findings:
+
+1. **fastMRI Dataset**: Used for training the image space model, includes various MRI images.
+2. **Cardiac Dataset**: Used for training the latent space model, contains cine images.
+
+Finally, I will compile this information into a structured format for further processing or review, ensuring that each dataset is accurately represented with its full citation.

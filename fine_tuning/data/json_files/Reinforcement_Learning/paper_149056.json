@@ -1,0 +1,130 @@
+[
+    {
+        "dcterms:creator": [
+            "Y. Tassa",
+            "Y. Doron",
+            "A. Muldal",
+            "T. Erez",
+            "Y. Li",
+            "D. de Las Casas",
+            "D. Budden",
+            "A. Abdolmaleki",
+            "J. Merel",
+            "A. Lefrancq",
+            "T. Lillicrap",
+            "M. Riedmiller"
+        ],
+        "dcterms:description": "DEXTRON is a stochastic simulation environment that utilizes real human trajectories for training end-to-end grasping policies in human-in-the-loop robot systems.",
+        "dcterms:title": "DEXTRON (DEXTerity enviRONment)",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Robotics",
+            "Reinforcement Learning",
+            "Human-Robot Collaboration"
+        ],
+        "dcat:keyword": [
+            "Simulation environment",
+            "Human trajectories",
+            "Grasping policies"
+        ],
+        "dcat:landingPage": "https://github.com/sharif1093/dextron",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Grasping",
+            "Policy training"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Υ is a dataset of tuples that includes state, action, and final outcome of rolling out a policy in the environment, used for training a success model.",
+        "dcterms:title": "Υ (dataset for training the success model)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Success model",
+            "Policy roll-out",
+            "Outcome prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Outcome prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Gs is a database of successful policy-environment parameters collected during the Monte Carlo simulation.",
+        "dcterms:title": "Gs (database of successful policy-environment parameters)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Policy parameters",
+            "Successful grasps"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "This dataset is used for training the Behavior Cloning (BC) policy based on transitions from expert policies and environment settings.",
+        "dcterms:title": "Dataset for training the BC policy",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Behavior Cloning",
+            "Policy training"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Policy training"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "ΥEX consists of transitions from rolling out sampled expert policies in the environment.",
+        "dcterms:title": "ΥEX (transitions from rolling out sampled policy πe)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Expert policies",
+            "Policy transitions"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "ΥRL includes transitions from trained RL policy roll-outs in an environment setting sampled from Gs.",
+        "dcterms:title": "ΥRL (transitions from trained RL policy roll-outs)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Reinforcement Learning",
+            "Policy roll-outs"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

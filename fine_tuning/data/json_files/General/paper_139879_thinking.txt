@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Large Language Models for Simultaneous Named Entity Extraction and Spelling Correction" by Edward Whittaker and Ikuo Kitagishi, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors fine-tuned LLMs on data obtained from OCR applied to Japanese shop receipts, which suggests that there are specific datasets involved.
+
+Next, I will focus on **section 3 (Experimental Setup)**, where the authors describe the datasets used for training and evaluation. They mention three specific datasets:
+
+1. **truth**: This dataset contains the original training data with ground-truth manual character annotations of the text in each receipt image. It is crucial for evaluating the performance of the models.
+
+2. **ocr1**: This dataset is a version of the "truth" dataset but includes synthetic OCR errors, where characters are randomly corrupted based on a confusion matrix. This dataset is used to test the robustness of the models against OCR errors.
+
+3. **ocr10**: Similar to "ocr1", this dataset is a repeated version of "ocr1" with different seeds applied to generate ten different sets of training data with synthetic OCR errors.
+
+In **section 3.1**, the authors provide a breakdown of the number of receipt images used for training, validation, and testing, which further confirms the datasets' structure and purpose.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. However, since these datasets are not standard public datasets but rather specific to this research, they may not have formal citations like publicly available datasets. Instead, I will note their descriptions and the context in which they were used.
+
+The datasets are as follows:
+
+- **truth**: Original annotated dataset for training.
+- **ocr1**: Dataset with synthetic OCR errors for robustness testing.
+- **ocr10**: Dataset with multiple variations of OCR errors for further testing.
+
+Since these datasets are not published in a conventional manner, I will summarize their details without formal citations, as they are specific to the authors' research.
+
+Finally, I will compile the dataset entries into a structured format for clarity and future reference.

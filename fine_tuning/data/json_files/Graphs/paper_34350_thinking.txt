@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "WEST GCN-LSTM: Weighted Stacked Spatio-Temporal Graph Neural Networks for Regional Traffic Forecasting" by Theodoros Theodoropoulos et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental evaluation sections** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments across several datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section V (Experimental Evaluation)**, where the authors describe the datasets used for their experiments. Here, they mention two primary datasets:
+
+1. **Central Park Dataset**: This dataset was generated through a simulation of pedestrian traffic in Central Park and surrounding urban areas, capturing the movement attributes of 200,000-230,000 individuals over a week. The dataset includes position and velocity data recorded every second, with a time window of 5 minutes.
+
+2. **Berlin Cycling Dataset**: This dataset, available on Kaggle, contains 9 years of bicycle traffic counts collected using Automatic Permanent Counting Points (APCPs) in Berlin, Germany. It provides insights into long-term bicycle traffic trends and seasonal fluctuations, with a time window of 1 hour.
+
+The authors also mention two additional datasets derived from the Central Park dataset, referred to as **Central Park (Low)** and **Central Park (High)**, which categorize moving entities based on their speed and the number of regions they can traverse during a single time-step.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Central Park Dataset**, since it is generated using the SUMO framework, I will cite the relevant reference:
+  > M. Behrisch, L. Bieker, J. Erdmann, and D. Krajzewicz. *SUMO – Simulation of Urban MObility: An Overview*. In Proceedings of SIMUL 2011, The Third International Conference on Advances in System Simulation, 2011.
+
+- For the **Berlin Cycling Dataset**, the citation is:
+  > Phisinger. *Berlin Cycling Dataset*. Available at: https://www.kaggle.com/datasets/phisinger/bike-counting-berlin.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This structured approach will ensure that I accurately capture all relevant details about the datasets used in the research paper.

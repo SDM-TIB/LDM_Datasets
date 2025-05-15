@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Training-Free Structured Diffusion Guidance for Compositional Text-to-Image Synthesis" by Weixi Feng et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will start by examining the **abstract** and **introduction** sections. In the abstract, the authors mention a benchmark called the **Attribute Binding Contrast set (ABC-6K)**, which indicates that a dataset is involved. The introduction further elaborates on the challenges in text-to-image synthesis and hints at the use of datasets for evaluation.
+
+Next, I will look into **section 3 (Experiments)**, where the authors provide detailed information about the datasets used. Here, they explicitly mention two datasets:
+
+1. **Attribute Binding Contrast set (ABC-6K)**: This dataset consists of natural prompts from MSCOCO, containing at least two color words modifying different objects. The authors state that it includes 6.4K captions or 3.2K contrastive pairs.
+
+2. **Concept Conjunction 500 (CC-500)**: This dataset comprises prompts that follow a specific sentence structure, such as “a red apple and a yellow banana,” and is used to evaluate the compositional capabilities of their method.
+
+Additionally, they mention evaluating their method on **10K randomly sampled captions from MSCOCO**. This indicates that MSCOCO is also a significant dataset used in their experiments.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **MSCOCO**, the citation is:
+  > Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence Zitnick. *Microsoft COCO: Common Objects in Context*. In European Conference on Computer Vision, pp. 740–755. Springer, 2014.
+
+- For **Attribute Binding Contrast set (ABC-6K)**, since it is a newly proposed benchmark in this paper, I will cite it as follows:
+  > Weixi Feng, Xuehai He, Tsu-jui Fu, Varun Jampani, Arjun Akula, Pradyumna Narayana, Sugato Basu, Xin Eric Wang, and William Yang Wang. *Attribute Binding Contrast set (ABC-6K)*. In Proceedings of the International Conference on Learning Representations (ICLR), 2023.
+
+- For **Concept Conjunction 500 (CC-500)**, it is also a part of the proposed work in this paper, so I will cite it similarly:
+  > Weixi Feng, Xuehai He, Tsu-jui Fu, Varun Jampani, Arjun Akula, Pradyumna Narayana, Sugato Basu, Xin Eric Wang, and William Yang Wang. *Concept Conjunction 500 (CC-500)*. In Proceedings of the International Conference on Learning Representations (ICLR), 2023.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation, ready for structured output or further processing.

@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Flow of Reasoning: Efficient Training of LLM Policy with Divergent Thinking" by Fangxu Yu et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and experimental sections** to identify any datasets that are explicitly named or described. The abstract mentions empirical results across three tasks: **embodied reasoning (BlocksWorld)**, **math puzzle solving (Game24)**, and **logical reasoning (PrOntoQA)**. This indicates that datasets related to these tasks are likely included.
+
+Next, I will examine **section 4 (Experiments)**, where the authors detail the tasks and datasets used for evaluation. In this section, they explicitly mention:
+
+1. **BlocksWorld**: This task involves a set of blocks where the model must provide a sequence of actions to rearrange them. The dataset consists of various examples grouped by the number of actions required.
+
+2. **Game24**: This is a mathematical reasoning task where the objective is to use four integers and basic arithmetic operations to reach the number 24. The authors mention using a dataset from LLM-reasoner, which includes examples for training and testing.
+
+3. **PrOntoQA**: This logical reasoning task uses a dataset that includes questions, facts, and reasoning chains. The authors specify that they evaluate the model on both in-distribution and out-of-distribution examples.
+
+After identifying these datasets, I will check the **References section** for full citations related to each dataset. The citations may not always be directly provided for the datasets themselves, but I will look for any papers or sources that describe these datasets in detail.
+
+For the datasets identified, I will compile the following citations:
+
+- For **BlocksWorld**, the citation is:
+  > Karthik Valmeekam, Matthew Marquez, Sarath Sreedharan, and Subbarao Kambhampati. *On the planning abilities of large language models-a critical investigation*. Advances in Neural Information Processing Systems, 36, 2024.
+
+- For **Game24**, the citation is:
+  > Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Tom Griffiths, Yuan Cao, and Karthik Narasimhan. *Tree of thoughts: Deliberate problem solving with large language models*. Advances in Neural Information Processing Systems, 36, 2024.
+
+- For **PrOntoQA**, the citation is:
+  > Abulhair Saparov and He He. *Language models are greedy reasoners: A systematic formal analysis of chain-of-thought*. arXiv preprint arXiv:2210.01240, 2022.
+
+Now, I will summarize the datasets and their citations in a structured format for clarity and future reference. This will ensure that I have accurately captured the necessary information regarding the datasets used in the research paper.

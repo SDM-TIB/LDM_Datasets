@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Anonymization Prompt Learning for Facial Privacy-Preserving Text-to-Image Generation" by Liang Shi et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract and introduction** to get an overview of the research focus and any datasets that might be referenced. The abstract mentions the use of a dataset for training the Anonymization Prompt, which indicates that there are specific datasets involved.
+
+Next, I will examine **section 4 (Experiments)**, where the authors typically describe the datasets used for training and evaluation. In this section, they mention two key datasets:
+
+1. **SID (Specific Identity Dataset)**: This dataset is curated for training the Anonymization Prompt. It consists of images of public figures along with prompts that include their names and demographic descriptions. The authors note that this dataset contains 100 non-overlapping identities of public figures.
+
+2. **Stest (Testing Dataset)**: This dataset is used for evaluating the anonymization performance of the Anonymization Prompt. It also contains 100 identities, which are distinct from those in the SID dataset.
+
+In addition, the authors refer to the **LAION-2B dataset** as a regularization dataset used to ensure that the Anonymization Prompt does not affect the generation quality of non-identity-specific images.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **SID**, the authors do not provide a specific citation since it is a custom dataset they created. However, they describe the process of collecting it, which involves generating images using Stable Diffusion and obtaining demographic descriptions from ChatGPT.
+
+- For **LAION-2B**, the citation is:
+  > Schuhmann, C., Beaumont, R., Vencu, R., Gordon, C., Wightman, R., Cherti, M., Coombes, T., Katta, A., Mullis, C., Wortsman, M., et al. *Laion-5b: An open large-scale dataset for training next generation image-text models*. Advances in Neural Information Processing Systems 35, 25278–25294 (2022).
+
+- For **VGGFace-2**, which is mentioned in the context of Dreambooth personalization, the citation is:
+  > Cao, Q., Shen, L., Xie, W., Parkhi, O.M., Zisserman, A. *Vggface2: A dataset for recognising faces across pose and age*. In: 2018 13th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2018), pp. 67–74 (2018).
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research paper.

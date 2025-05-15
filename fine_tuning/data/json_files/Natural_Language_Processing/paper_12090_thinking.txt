@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Uni-Removal: A Semi-Supervised Framework for Simultaneously Addressing Multiple Degradations in Real-World Images" by Yongheng Zhang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research and may mention specific datasets used for evaluation. 
+
+Next, I will focus on the **experiments section**, particularly the part where the authors describe their experimental setup. This section typically contains detailed information about the datasets used for training and testing the proposed method. 
+
+In the **experiments section**, the authors mention several datasets:
+
+1. **RESIDE Dataset**: This dataset is used for single image dehazing and consists of five subsets: Indoor Training Set (ITS), Outdoor Training Set (OTS), Synthetic Object Testing Set (SOTS), Unannotated Real Hazy Images (URHI), and Real Task-driven Testing Set (RTTS). The authors specify that they used the OTS and URHI for training and the SOTS and RTTS for evaluation.
+
+2. **Rain1400 Dataset**: This dataset is utilized for single image deraining and contains 1400 image pairs with rain streaks of various sizes, shapes, and directions. The authors mention that they fine-tuned and tested their model on the SPA dataset, which consists of real rainy images.
+
+3. **GoPro Dataset**: This dataset is used for single image deblurring and contains 2103 image pairs, each consisting of a sharp image and a blurry image. The authors also mention fine-tuning their model on the RealBlur dataset, which includes two subsets: RealBlur-J and RealBlur-R.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For the **RESIDE Dataset**, the citation is:
+  > B. Li, W. Ren, D. Fu, D. Tao, D. Feng, W. Zeng, and Z. Wang. "Benchmarking single-image dehazing and beyond." *IEEE Transactions on Image Processing*, vol. 28, no. 1, pp. 492–505, 2018.
+
+- For the **Rain1400 Dataset**, the citation is:
+  > X. Fu, J. Huang, D. Zeng, Y. Huang, X. Ding, and J. Paisley. "Removing rain from single images via a deep detail network." In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition*, 2017, pp. 3855–3863.
+
+- For the **GoPro Dataset**, the citation is:
+  > S. Nah, T. Hyun Kim, and K. Mu Lee. "Deep multi-scale convolutional neural network for dynamic scene deblurring." In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition*, 2017, pp. 3883–3891.
+
+- For the **RealBlur Dataset**, the citation is:
+  > J. Rim, H. Lee, J. Won, and S. Cho. "Real-world blur dataset for learning and benchmarking deblurring algorithms." In *Computer Vision–ECCV 2020: 16th European Conference*, Glasgow, UK, August 23–28, 2020, Proceedings, Part XXV, 2020, pp. 184–201.
+
+After gathering all this information, I will compile the dataset entries with their respective citations for further processing.

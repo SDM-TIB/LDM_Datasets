@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Path Development Network with Finite-Dimensional Lie Group Representation" by Hang Lou et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper. The abstract mentions that "numerical experiments demonstrate that the path development consistently and significantly outperforms... on several empirical datasets." This indicates that there are datasets used for evaluation.
+
+Next, I will focus on the **experiments section** (Section 4), where the authors typically describe the datasets used in their experiments. I will look for any specific mentions of datasets, including their names, characteristics, and any relevant details about how they were used in the experiments.
+
+In **Section 4.1 (Speech Command dataset)**, the authors describe the dataset as consisting of 34,975 samples of audio recordings, represented in a regularly spaced time series of length 169 and path dimension 20. This is a clear identification of a dataset used in their experiments.
+
+In **Section 4.2 (Character Trajectories dataset)**, the authors mention using the Character Trajectories dataset from the UEA time series classification archive, which consists of 2,858 time series with a constant length of 182 and 20 unique characters to classify. This is another dataset that needs to be documented.
+
+In **Section 4.3 (N-body simulations)**, the authors describe a simulated dataset of 5 charged particles, which is used for a regression task predicting future locations based on past trajectories. While this dataset is simulated, it is still important to note as it is part of their experimental setup.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned:
+
+1. For the **Speech Command dataset**, the citation is:
+   > Warden, P. (2018). Speech commands: A dataset for limited-vocabulary speech recognition. arXiv preprint arXiv:1804.03209.
+
+2. For the **Character Trajectories dataset**, the citation is:
+   > Bagnall, A., Dau, H. A., Lines, J., Flynn, M., Large, J., Bostrom, A., Southam, P., & Keogh, E. (2018). The UEA multivariate time series classification archive. arXiv preprint arXiv:1811.00075.
+
+3. The **N-body simulation dataset** is simulated and does not have a formal citation, but I will note that it is based on the work by Kipf et al. (2018):
+   > Kipf, T., Fetaya, E., Wang, K.-C., Welling, M., & Zemel, R. (2018). Neural relational inference for interacting systems. In International Conference on Machine Learning (ICML).
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation for future reference or processing.

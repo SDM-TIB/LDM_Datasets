@@ -1,0 +1,44 @@
+To extract the datasets mentioned in the research paper titled "Enhancing Representation in Radiography-Reports: Foundation Model: A Granular Alignment Algorithm Using Masked Contrastive Learning" by Weijian Huang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors conducted experiments using **6 well-known open-source X-ray datasets**, which suggests that multiple datasets are involved.
+
+Next, I will focus on the **Datasets section** of the paper, where the authors provide detailed descriptions of the datasets used. Here, they mention:
+
+1. **MIMIC-CXR v2**: This dataset comprises 377,110 chest X-rays associated with 227,827 clinical reports sourced from the Beth Israel Deaconess Medical Center between 2011 and 2016. This dataset is used for pre-training the MaCo model.
+
+2. **CheXpert**: A multi-label dataset for chest X-ray classification, which includes 218,414 training images, 5,000 validation images, and 234 test images. The authors follow specific guidelines for evaluation.
+
+3. **NIH ChestX-ray**: This dataset contains 112,120 frontal-view chest radiograph images, focusing on a multi-label classification problem involving 14 different chest pathologies. The dataset is split into training, validation, and test sets.
+
+4. **COVID-19 Rural**: A small-scale dataset comprising over 200 chest X-ray images with segmentation masks for COVID-19. The dataset is split into training, validation, and test sets.
+
+5. **SIIM-ACR Pneumothorax**: This dataset includes over 120,000 frontal-view chest X-rays with manual segmentation of pneumothorax regions. The dataset is used for segmentation and zero-shot classification tasks.
+
+6. **RSNA Pneumonia Detection**: Derived from the 2018 RSNA Pneumonia Challenge, this dataset consists of 6,012 slices with bounding box annotations, used for classification and detection tasks.
+
+7. **MS-CXR**: This dataset provides annotations in the form of bounding boxes and sentence pairs describing clinical findings in chest X-ray images. It is used for measuring the overlap between labeled bounding boxes and results of vision-language association.
+
+After identifying these datasets, I will look into the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- **MIMIC-CXR v2**:
+  > Johnson, A.E.W., Pollard, T.J., Berkowitz, S.J., Greenbaum, N.R., Lungren, M.P., Deng, C.-y., Mark, R.G., Horng, S. (2019). MIMIC-CXR, a de-identified publicly available database of chest radiographs with free-text reports. *Scientific Data*, 6(1), 317.
+
+- **CheXpert**:
+  > Irvin, J., Rajpurkar, P., Ko, M., Yu, Y., Ciurea-Ilcus, S., Chute, C., Marklund, H., Haghgoo, B., Ball, R., Shpanskaya, K., et al. (2019). CheXpert: A large chest radiograph dataset with uncertainty labels and expert comparison. *Proceedings of the AAAI Conference on Artificial Intelligence*, 33, 590-597.
+
+- **NIH ChestX-ray**:
+  > Wang, X., Peng, Y., Lu, L., Lu, Z., Bagheri, M., Summers, R.M. (2017). ChestX-ray8: Hospital-scale chest X-ray database and benchmarks on weakly-supervised classification and localization of common thorax diseases. *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition*, 2097-2106.
+
+- **COVID-19 Rural**:
+  > Tang, H., Sun, N., Li, Y., Xia, H. (2020). Deep learning segmentation model for automated detection of the opacity regions in the chest X-rays of the COVID-19 positive patients and the application for disease severity. *medRxiv*.
+
+- **SIIM-ACR Pneumothorax**:
+  > Zawacki, A., Wu, C., Shih, G., Elliott, J., Fomitchev, M., Hussain, M., ParasLakhani, Culliton, P., Bao, S. (2019). SIIM-ACR Pneumothorax Segmentation. *Kaggle Competition*.
+
+- **RSNA Pneumonia Detection**:
+  > Shih, G., Wu, C.C., Halabi, S.S., Kohli, M.D., Prevedello, L.M., Cook, T.S., Sharma, A., Amorosa, J.K., Arteaga, V., Galperin-Aizenberg, M., et al. (2019). Augmenting the National Institutes of Health Chest Radiograph Dataset with Expert Annotations of Possible Pneumonia. *Radiology: Artificial Intelligence*, 1(1), 180041.
+
+- **MS-CXR**:
+  > Huang, Z., Bianchi, F., Yuksekgonul, M., Montine, T.J., Zou, J. (2023). A visual–language foundation model for pathology image analysis using medical Twitter. *Nature Medicine*, 1-10.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

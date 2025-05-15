@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "A Graph Transformer-Driven Approach for Network Robustness Learning" by Yu Zhang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the research focus, and the introduction often outlines the context and significance of the datasets used.
+
+Next, I will pay special attention to **section IV (Experiments)**, where the authors typically describe the datasets used for their experiments. In this section, the authors mention evaluating their method on five synthetic network models: 
+
+1. **Erdős-Rényi (ER) Network**: A classic random graph model where each edge is included in the graph with a probability p independent from every other edge.
+2. **Generic Scale-Free (SF) Network**: A network that follows a power-law degree distribution, meaning a few nodes (hubs) have a very high degree while most nodes have a low degree.
+3. **Q-snapback (QSN) Network**: A specific model that exhibits snapback behavior, which is relevant for robustness studies.
+4. **Newman-Watts Small-World (NW) Network**: A model that combines properties of regular lattices and random graphs, characterized by high clustering and short path lengths.
+5. **Barabási-Albert (BA) Scale-Free Network**: A model that generates scale-free networks using a preferential attachment mechanism.
+
+In the experiments section, the authors also describe the types of node-removal attacks considered, which include random attacks, targeted degree-based attacks (TDA), and targeted betweenness-based attacks (TBA). This context is important for understanding how the datasets are utilized in the experiments.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. However, since these datasets are well-known models in network theory, they may not have specific citations in the references. Instead, I will provide a general description of each dataset based on established literature.
+
+Here are the entries for the datasets based on the information gathered:
+
+1. **Erdős-Rényi (ER) Network**:
+   - Citation: Erdős, P., & Rényi, A. (1961). On the strength of connectedness of a random graph. *Acta Mathematica Hungarica*, 12(1), 261-267.
+
+2. **Generic Scale-Free (SF) Network**:
+   - Citation: Goh, K.-I., Kahng, B., & Kim, D. (2001). Universal behavior of load distribution in scale-free networks. *Physical Review Letters*, 87(27), 278701.
+
+3. **Q-snapback (QSN) Network**:
+   - Citation: Lou, Y., Wang, L., & Chen, G. (2018). Toward stronger robustness of network controllability: A snapback network model. *IEEE Transactions on Circuits and Systems I: Regular Papers*, 65(9), 2983-2991.
+
+4. **Newman-Watts Small-World (NW) Network**:
+   - Citation: Newman, M. E. J., & Watts, D. J. (1999). Renormalization group analysis of the small-world network model. *Physics Letters A*, 263(4), 341-346.
+
+5. **Barabási-Albert (BA) Scale-Free Network**:
+   - Citation: Barabási, A.-L., & Albert, R. (1999). Emergence of scaling in random networks. *Science*, 286(5439), 509-512.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

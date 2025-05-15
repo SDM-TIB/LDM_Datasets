@@ -1,0 +1,300 @@
+[
+    {
+        "dcterms:creator": [
+            "Karl Moritz Hermann",
+            "Tomás Kociský",
+            "Edward Grefenstette",
+            "Lasse Espeholt",
+            "Will Kay",
+            "Mustafa Suleyman",
+            "Phil Blunsom"
+        ],
+        "dcterms:description": "The dataset extracts the entity of the critical sentence in the news story and replaces it with a placeholder. Named entities are replaced by anonymous IDs, which are shuffled for each example, making the models rely on text to answer questions.",
+        "dcterms:title": "CNN/Daily Mail",
+        "dcterms:issued": "2015",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Reading Comprehension",
+            "Cloze-style"
+        ],
+        "dcat:keyword": [
+            "News articles",
+            "Cloze-style questions",
+            "Reading comprehension"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Cloze-style question answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Felix Hill",
+            "Antoine Bordes",
+            "Sumit Chopra",
+            "Jason Weston"
+        ],
+        "dcterms:description": "The dataset takes a sequence of 21 consecutive sentences from a children's book, where the first 20 sentences are viewed as context, and the query is to infer the missing word in the 21st sentence.",
+        "dcterms:title": "Children’s Book Test",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Reading Comprehension",
+            "Cloze-style"
+        ],
+        "dcat:keyword": [
+            "Children's literature",
+            "Cloze-style questions",
+            "Reading comprehension"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Cloze-style question answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Matthew Richardson",
+            "Christopher J. C. Burges",
+            "Erin Renshaw"
+        ],
+        "dcterms:description": "The first comprehensive reading comprehension dataset since the wave of neural networks, which has 660 fictional stories, each with 4 questions and 4 candidate answers.",
+        "dcterms:title": "MCTest",
+        "dcterms:issued": "2013",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Reading Comprehension",
+            "Multi-choice"
+        ],
+        "dcat:keyword": [
+            "Fictional stories",
+            "Multi-choice questions",
+            "Reading comprehension"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Multi-choice question answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Guokun Lai",
+            "Qizhe Xie",
+            "Hanxiao Liu",
+            "Yiming Yang",
+            "Eduard H. Hovy"
+        ],
+        "dcterms:description": "The dataset contains more than 20,000 articles and 100,000 questions from Chinese middle and high school students’ English exams, covering a wide range of fields.",
+        "dcterms:title": "RACE",
+        "dcterms:issued": "2017",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Reading Comprehension",
+            "Multi-choice"
+        ],
+        "dcat:keyword": [
+            "English exams",
+            "Multi-choice questions",
+            "Reading comprehension"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Multi-choice question answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Pranav Rajpurkar",
+            "Jian Zhang",
+            "Konstantin Lopyrev",
+            "Percy Liang"
+        ],
+        "dcterms:description": "The dataset contains more than 100,000 questions identified in 536 Wikipedia articles, where each question corresponds to a specific passage, and the answer is located at a span of the passage.",
+        "dcterms:title": "SQuAD",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Reading Comprehension",
+            "Span-Prediction"
+        ],
+        "dcat:keyword": [
+            "Wikipedia",
+            "Extractive questions",
+            "Reading comprehension"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Extractive question answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Pranav Rajpurkar",
+            "Robin Jia",
+            "Percy Liang"
+        ],
+        "dcterms:description": "The SQuAD 2.0 version includes more than 50,000 new, unanswerable questions that have plausible answers in the corresponding article, requiring the model to identify these questions to avoid answering them.",
+        "dcterms:title": "SQuAD2.0",
+        "dcterms:issued": "2018",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Reading Comprehension",
+            "Span-Prediction"
+        ],
+        "dcat:keyword": [
+            "Wikipedia",
+            "Unanswerable questions",
+            "Reading comprehension"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Extractive question answering",
+            "Identifying unanswerable questions"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Mandar Joshi",
+            "Eunsol Choi",
+            "Daniel S. Weld",
+            "Luke Zettlemoyer"
+        ],
+        "dcterms:description": "The dataset contains over 650K question-answer-evidence triples, requiring more cross-sentence reasoning to find answers.",
+        "dcterms:title": "TriviaQA",
+        "dcterms:issued": "2017",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Reading Comprehension",
+            "Free-Form"
+        ],
+        "dcat:keyword": [
+            "Question-answer pairs",
+            "Cross-sentence reasoning",
+            "Reading comprehension"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Free-form question answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Tomás Kociský",
+            "Jonathan Schwarz",
+            "Phil Blunsom",
+            "Chris Dyer",
+            "Karl Moritz Hermann",
+            "Gábor Melis",
+            "Edward Grefenstette"
+        ],
+        "dcterms:description": "A more difficult dataset aimed to increase the difficulty of the question, containing 1567 complete stories from books and screenplays, with questions and answers written by humans.",
+        "dcterms:title": "NarrativeQA",
+        "dcterms:issued": "2018",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Reading Comprehension",
+            "Free-Form"
+        ],
+        "dcat:keyword": [
+            "Stories",
+            "Complex questions",
+            "Reading comprehension"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Free-form question answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Wei He",
+            "Kai Liu",
+            "Jing Liu",
+            "Yajuan Lyu",
+            "Shiqi Zhao",
+            "Xinyan Xiao",
+            "Yuan Liu",
+            "Yizhong Wang",
+            "Hua Wu",
+            "Qiaoqiao She",
+            "Xuan Liu",
+            "Tian Wu",
+            "Haifeng Wang"
+        ],
+        "dcterms:description": "A Chinese reading comprehension dataset, which collected more than one million documents and more than 200,000 different types of questions from Baidu Zhidao and Baidu Search.",
+        "dcterms:title": "DuReader",
+        "dcterms:issued": "2018",
+        "dcterms:language": "Chinese",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Reading Comprehension",
+            "Free-Form"
+        ],
+        "dcat:keyword": [
+            "Chinese documents",
+            "Various question types",
+            "Reading comprehension"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Free-form question answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Tri Nguyen",
+            "Mir Rosenberg",
+            "Xia Song",
+            "Jianfeng Gao",
+            "Saurabh Tiwary",
+            "Rangan Majumder",
+            "Li Deng"
+        ],
+        "dcterms:description": "A large-scale machine reading comprehension dataset, which comprises of 8,841,823 passages and 1,010,916 anonymized questions sampled from Bing’s search query logs.",
+        "dcterms:title": "MS MARCO",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Reading Comprehension",
+            "Free-Form"
+        ],
+        "dcat:keyword": [
+            "Search queries",
+            "Passages",
+            "Reading comprehension"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Free-form question answering"
+        ]
+    }
+]

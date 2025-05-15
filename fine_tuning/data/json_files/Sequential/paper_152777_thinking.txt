@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Effectiveness of LSTMs in Predicting Congestive Heart Failure Onset" by Sunil Mallya et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the study involves a large cohort of **216,394 patients**, which suggests that patient data is a significant part of the dataset.
+
+Next, I will focus on the **Cohort section** (Section 2), where the authors describe the creation of the cohort from anonymized, structured data from a large healthcare delivery system. They mention that the cohort includes **21,405 CHF patients** and **194,989 control patients**. This section provides critical information about the dataset used for the study.
+
+In the **Data Extraction subsection (2.2)**, the authors detail how they broke down the observation interval into discrete time intervals and extracted demographic information, condition diagnosis codes, and procedure codes. This indicates that the dataset is not only large but also rich in features relevant to the study.
+
+I will also check the **References section** for any citations related to the datasets used. However, since the dataset is derived from a specific healthcare system and does not appear to be publicly available or associated with a formal citation, I will note that the dataset is based on internal data from Cerner’s HealtheIntent platform.
+
+The key datasets identified are:
+
+1. **Cohort Dataset**: This dataset includes **216,394 patients**, with **21,405 CHF patients** and **194,989 control patients**. It is derived from a large healthcare delivery system and includes various features such as demographics, medical diagnosis codes, and procedure codes.
+
+2. **Feature Dataset**: The authors mention that approximately **30,000 condition or diagnosis codes and procedure codes** were present in the cohort, which were then reduced to **1,837 medical concepts** for analysis.
+
+Since the dataset is based on internal data and does not have a formal citation, I will document it as follows:
+
+- **Cohort Dataset**: 
+  > Mallya, S., Srivastava, N., Arai, T. J., Erdman, C., & Overhage, J. M. (2023). *Effectiveness of LSTMs in Predicting Congestive Heart Failure Onset*. Amazon Web Services, Inc. and Cerner Corporation.
+
+- **Feature Dataset**: 
+  > Mallya, S., Srivastava, N., Arai, T. J., Erdman, C., & Overhage, J. M. (2023). *Effectiveness of LSTMs in Predicting Congestive Heart Failure Onset*. Amazon Web Services, Inc. and Cerner Corporation.
+
+Now, I will compile the dataset entries into a structured format for further processing or review.

@@ -1,0 +1,128 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A publicly available dataset containing investigation reports of civil aviation accidents in the US, used to construct an Aviation Knowledge Graph.",
+        "dcterms:title": "National Transportation Safety Board (NTSB) reports",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.ntsb.gov/Pages/AviationQuery.aspx",
+        "dcat:theme": ["Aviation Safety", "Accident Reporting"],
+        "dcat:keyword": ["Accident reports", "Aviation safety", "Investigation reports"],
+        "dcat:landingPage": "https://www.ntsb.gov/Pages/AviationQuery.aspx",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": ["Question Answering", "Knowledge Graph Construction"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A publicly available dataset that gathers information from pilots and crew members about close call events during flight journeys, utilized in the construction of the Aviation Knowledge Graph.",
+        "dcterms:title": "Aviation Safety Reporting System (ASRS) reports",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://asrs.arc.nasa.gov/search/reportsets.html",
+        "dcat:theme": ["Aviation Safety", "Incident Reporting"],
+        "dcat:keyword": ["Safety reports", "Pilot reports", "Close call events"],
+        "dcat:landingPage": "https://asrs.arc.nasa.gov/search/reportsets.html",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": ["Question Answering", "Knowledge Graph Construction"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Notifications to owners of certified aircraft about unsafe conditions that exist in particular aircraft models and the corresponding corrective measures, used in the context of aviation safety.",
+        "dcterms:title": "Airworthiness Directives (ADs)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.faa.gov/regulations_policies/airworthiness_directives/",
+        "dcat:theme": ["Aviation Safety", "Regulatory Directives"],
+        "dcat:keyword": ["Airworthiness", "Safety directives", "Aircraft regulations"],
+        "dcat:landingPage": "https://www.faa.gov/regulations_policies/airworthiness_directives/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": ["Question Answering", "Knowledge Graph Construction"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A complex multi-level hierarchy of factual and analytical descriptors related to accidents, used for constructing ontology in the aviation domain.",
+        "dcterms:title": "Accident/Incident Data Reporting (ADREP) Taxonomy",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.icao.int/safety/airnavigation/aig/pages/adrep-taxonomies.aspx",
+        "dcat:theme": ["Aviation Safety", "Data Taxonomy"],
+        "dcat:keyword": ["Taxonomy", "Accident descriptors", "Incident reporting"],
+        "dcat:landingPage": "https://www.icao.int/safety/airnavigation/aig/pages/adrep-taxonomies.aspx",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": ["Knowledge Graph Construction"]
+    },
+    {
+        "dcterms:creator": [
+            "E. F. Sang",
+            "F. De Meulder"
+        ],
+        "dcterms:description": "A dataset used for training Named Entity Recognition models, which is referenced in the context of entity extraction from NTSB reports.",
+        "dcterms:title": "CoNLL dataset",
+        "dcterms:issued": "2003",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:cs/0306050",
+        "dcat:theme": ["Natural Language Processing", "Named Entity Recognition"],
+        "dcat:keyword": ["NER", "Entity recognition", "Text classification"],
+        "dcat:landingPage": "arXiv:cs/0306050",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": ["Named Entity Recognition"]
+    },
+    {
+        "dcterms:creator": [
+            "P. Rajpurkar",
+            "R. Jia",
+            "P. Liang"
+        ],
+        "dcterms:description": "A dataset that includes unanswerable questions for training models in question answering, referenced in the context of evaluating the QA system.",
+        "dcterms:title": "SQuAD 2.0 dataset",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": ["Natural Language Processing", "Question Answering"],
+        "dcat:keyword": ["Question answering", "Unanswerable questions", "Reading comprehension"],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": ["Question Answering"]
+    },
+    {
+        "dcterms:creator": [
+            "J. Pennington",
+            "R. Socher",
+            "C. D. Manning"
+        ],
+        "dcterms:description": "A dataset providing global vectors for word representation, referenced in the context of deep learning models for question answering.",
+        "dcterms:title": "GloVe word embeddings",
+        "dcterms:issued": "2014",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": ["Natural Language Processing", "Word Embeddings"],
+        "dcat:keyword": ["Word embeddings", "Vector representation", "Natural language processing"],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": ["Word Representation"]
+    },
+    {
+        "dcterms:creator": [
+            "S. Robertson",
+            "H. Zaragoza"
+        ],
+        "dcterms:description": "A probabilistic relevance framework used for information retrieval, referenced in the context of the QA system's baseline model.",
+        "dcterms:title": "BM25",
+        "dcterms:issued": "2009",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": ["Information Retrieval", "Search Algorithms"],
+        "dcat:keyword": ["Information retrieval", "Ranking algorithm", "BM25"],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": ["Information Retrieval"]
+    }
+]

@@ -1,0 +1,221 @@
+[
+    {
+        "dcterms:creator": [
+            "Colin Raffel",
+            "Noam Shazeer",
+            "Adam Roberts",
+            "Katherine Lee",
+            "Sharan Narang",
+            "Michael Matena",
+            "Yanqi Zhou",
+            "Wei Li",
+            "Peter J. Liu"
+        ],
+        "dcterms:description": "A large dataset used for training language models, specifically designed to explore the limits of transfer learning with a unified text-to-text transformer.",
+        "dcterms:title": "C4",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://jmlr.org/papers/v21/20-074.html",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Transfer Learning"
+        ],
+        "dcat:keyword": [
+            "Language model",
+            "Text dataset",
+            "Transfer learning"
+        ],
+        "dcat:landingPage": "http://jmlr.org/papers/v21/20-074.html",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Language Modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Alexey Dosovitskiy",
+            "Lucas Beyer",
+            "Alexander Kolesnikov",
+            "Dirk Weissenborn",
+            "Xiaohua Zhai",
+            "Thomas Unterthiner",
+            "Mostafa Dehghani",
+            "Matthias Minderer",
+            "Georg Heigold",
+            "Sylvain Gelly",
+            "Jakob Uszkoreit",
+            "Neil Houlsby"
+        ],
+        "dcterms:description": "A model architecture for image recognition that utilizes transformers, demonstrating that images can be treated as sequences of patches.",
+        "dcterms:title": "ViT model",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://arxiv.org/abs/2010.11929",
+        "dcat:theme": [
+            "Computer Vision",
+            "Image Recognition"
+        ],
+        "dcat:keyword": [
+            "Vision Transformer",
+            "Image dataset",
+            "Image classification"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/2010.11929",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Alec Radford",
+            "Jeffrey Wu",
+            "Rewon Child",
+            "David Luan",
+            "Dario Amodei",
+            "Ilya Sutskever"
+        ],
+        "dcterms:description": "A language model that is capable of performing a variety of tasks without task-specific training data, showcasing the potential of unsupervised learning.",
+        "dcterms:title": "GPT-2",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://openai.com/blog/better-language-models/",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Unsupervised Learning"
+        ],
+        "dcat:keyword": [
+            "Language model",
+            "Text generation",
+            "Unsupervised learning"
+        ],
+        "dcat:landingPage": "https://openai.com/blog/better-language-models/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Text Generation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Ilya Loshchilov",
+            "Frank Hutter"
+        ],
+        "dcterms:description": "A method for regularizing neural networks by decoupling weight decay from the optimization process, improving training stability.",
+        "dcterms:title": "AdamW",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://openreview.net/forum?id=Bkg6RiCqY7",
+        "dcat:theme": [
+            "Optimization",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Optimizer",
+            "Weight decay",
+            "Regularization"
+        ],
+        "dcat:landingPage": "https://openreview.net/forum?id=Bkg6RiCqY7",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Greg Yang",
+            "Edward J Hu",
+            "Igor Babuschkin",
+            "Szymon Sidor",
+            "Xiaodong Liu",
+            "David Farhi",
+            "Nick Ryder",
+            "Jakub Pachocki",
+            "Weizhu Chen",
+            "Jianfeng Gao"
+        ],
+        "dcterms:description": "A framework for tuning large neural networks through zero-shot hyperparameter transfer, facilitating efficient training.",
+        "dcterms:title": "µParam",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Hyperparameter Optimization"
+        ],
+        "dcat:keyword": [
+            "Hyperparameter tuning",
+            "Neural networks",
+            "Transfer learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Aakanksha Chowdhery",
+            "Sharan Narang",
+            "Jacob Devlin",
+            "Maarten Bosma",
+            "Gaurav Mishra",
+            "Adam Roberts",
+            "Paul Barham",
+            "Hyung Won Chung",
+            "Charles Sutton",
+            "Sebastian Gehrmann"
+        ],
+        "dcterms:description": "A regularization technique that encourages the output logits to remain close to zero, addressing divergence issues in large models.",
+        "dcterms:title": "z-loss",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://arxiv.org/abs/2204.02311",
+        "dcat:theme": [
+            "Optimization",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Regularization",
+            "Loss function",
+            "Neural networks"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/2204.02311",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Mostafa Dehghani",
+            "Josip Djolonga",
+            "Basil Mustafa",
+            "Piotr Padlewski",
+            "Jonathan Heek",
+            "Justin Gilmer",
+            "Andreas Steiner",
+            "Mathilde Caron",
+            "Robert Geirhos",
+            "Ibrahim Alabdulmohsin"
+        ],
+        "dcterms:description": "A technique that enhances the stability of training across different scales by applying layer normalization to the queries and keys in attention layers.",
+        "dcterms:title": "qk-layernorm",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://arxiv.org/abs/2302.05442",
+        "dcat:theme": [
+            "Optimization",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Layer normalization",
+            "Attention mechanism",
+            "Stability"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/2302.05442",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

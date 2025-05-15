@@ -1,0 +1,33 @@
+To extract the datasets mentioned in the research paper titled "BiO-Net: Learning Recurrent Bi-directional Connections for Encoder-Decoder Architecture" by Tiange Xiang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the paper, and I will look for any references to datasets used for evaluation.
+
+Next, I will focus on the **experiments section**, as it typically contains detailed information about the datasets used in the study. In this paper, the authors mention evaluating their method on three common digital pathology image analysis tasks and specify that they used four different datasets.
+
+I will extract the relevant datasets as follows:
+
+1. **MoNuSeg Dataset**: This dataset is described as consisting of a 30-image training set and a 14-image testing set, with images of size 1000² sampled from different whole slide images of multiple organs. The authors mention that they extracted 512² patches from the corners of each image, effectively enlarging the dataset.
+
+2. **TNBC Dataset**: This dataset comprises 50 histopathology images of size 512² without a specific testing set. It includes pixel-level annotations for the nuclei semantic segmentation problem.
+
+3. **Piriform Cortex EM Dataset**: This dataset is used for EM membrane segmentation and contains four stacks of EM images with varying slice image sizes (255², 512², 512², and 256²).
+
+4. **Super Resolution Dataset**: This dataset was constructed from a whole slide image collected by MICCAI15 CBTC, consisting of 2900 patches of size 512² at a 40× magnification level, with a 9:1 split ratio for training and testing.
+
+After identifying these datasets, I will refer to the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The citations for the datasets are as follows:
+
+- **MoNuSeg Dataset**:
+  > Kumar, N., Verma, R., Sharma, S., Bhargava, S., Vahadane, A., & Sethi, A. (2017). A dataset and a technique for generalized nuclear segmentation for computational pathology. *IEEE Transactions on Medical Imaging (TMI)*, 36(7), 1550–1560.
+
+- **TNBC Dataset**:
+  > Naylor, P., Laé, M., Reyal, F., & Walter, T. (2018). Segmentation of nuclei in histopathology images by deep regression of the distance map. *IEEE Transactions on Medical Imaging (TMI)*, 38(2), 448–459.
+
+- **Piriform Cortex EM Dataset**:
+  > Lee, K., Zlateski, A., Ashwin, V., & Seung, H.S. (2015). Recursive training of 2D-3D convolutional networks for neuronal boundary prediction. In *Advances in Neural Information Processing Systems (NeurIPS)*, pp. 3573–3581.
+
+- **Super Resolution Dataset**:
+  > Chen, Y., Shi, F., Christodoulou, A.G., Xie, Y., Zhou, Z., & Li, D. (2018). Efficient and accurate MRI super-resolution using a generative adversarial network and 3D multi-level densely connected network. In *International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)*, pp. 91–99.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing or review.

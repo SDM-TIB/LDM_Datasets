@@ -1,0 +1,61 @@
+To extract datasets from the research paper titled "CLCE: An Approach to Refining Cross-Entropy and Contrastive Learning for Optimized Learning Fusion" by Zijun Long et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and evaluation sections** to identify any datasets mentioned. The abstract highlights that the proposed CLCE approach is evaluated across **twelve benchmarks**, which suggests that multiple datasets are involved.
+
+Next, I will focus on the **evaluation section** where the authors discuss their experiments. In **section 4.1 (Few-shot Learning)**, they explicitly mention four datasets used for evaluation: 
+
+1. **CIFAR-FS**: A few-shot learning benchmark derived from CIFAR-100, consisting of 100 classes with 600 images each.
+2. **FC100**: A few-shot learning dataset that contains 100 classes, each with 600 images, but with a more challenging class distribution.
+3. **miniImageNet**: A widely used few-shot learning dataset that consists of 100 classes, each containing 600 images.
+4. **tieredImageNet**: A dataset designed for few-shot learning, containing 608 classes and a total of 779,165 images.
+
+In **section 4.2 (Transfer Learning)**, the authors mention eight datasets used for transfer learning:
+
+1. **CIFAR-100**: A dataset with 100 classes, each containing 600 images.
+2. **CUB-200-2011**: A dataset for fine-grained image classification, containing 200 bird species with 11,788 images.
+3. **Caltech-256**: A dataset containing 256 object categories with a total of 30,607 images.
+4. **Oxford 102 Flowers**: A dataset with 102 flower categories, containing 8,189 images.
+5. **Oxford Pets**: A dataset with 37 categories of pets, containing 7,349 images.
+6. **iNaturalist 2017**: A large dataset with 5,089 species, containing over 800,000 images.
+7. **Places365**: A dataset for scene recognition, containing 365 scene categories with over 1.8 million images.
+8. **ImageNet-1k**: A large-scale dataset with 1,000 classes and over 1.2 million images used for image classification.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **CIFAR-FS**, the citation is:
+  > Luca Bertinetto, Joao F. Henriques, et al. *Meta-learning with differentiable closed-form solvers*. In 7th International Conference on Learning Representations, ICLR 2019.
+
+- For **FC100**, the citation is:
+  > Boris N. Oreshkin, Pau Rodriguez Lopez, et al. *TADAM: task dependent adaptive metric for improved few-shot learning*. In Advances in Neural Information Processing Systems 31, NeurIPS 2018.
+
+- For **miniImageNet**, the citation is:
+  > Sachin Ravi and Hugo Larochelle. *Optimization as a model for few-shot learning*. In 5th International Conference on Learning Representations, ICLR 2017.
+
+- For **tieredImageNet**, the citation is:
+  > Oriol Vinyals, Charles Blundell, Tim Lillicrap, et al. *Matching networks for one shot learning*. In Advances in Neural Information Processing Systems 29, NeurIPS 2016.
+
+- For **CIFAR-100**, the citation is:
+  > Alex Krizhevsky, Geoffrey Hinton, et al. *Learning multiple layers of features from tiny images*. 2009.
+
+- For **CUB-200-2011**, the citation is:
+  > C. Wah, S. Branson, P. Welinder, P. Perona, and S. Belongie. *The Caltech-UCSD Birds-200-2011 Dataset*. Technical Report CNS-TR-2011-001, California Institute of Technology, 2011.
+
+- For **Caltech-256**, the citation is:
+  > Gregory Griffin, Alex Holub, and Pietro Perona. *Caltech-256 Object Category Dataset*. Mar 2007.
+
+- For **Oxford 102 Flowers**, the citation is:
+  > Maria-Elena Nilsback and Andrew Zisserman. *Automated flower classification over a large number of classes*. In Sixth Indian Conference on Computer Vision, Graphics & Image Processing, ICVGIP 2008.
+
+- For **Oxford Pets**, the citation is:
+  > Omkar M. Parkhi, Andrea Vedaldi, Andrew Zisserman, and C. V. Jawahar. *Cats and dogs*. In 2012 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2012.
+
+- For **iNaturalist 2017**, the citation is:
+  > Grant Van Horn, Oisin Mac Aodha, Yang Song, et al. *The inaturalist species classification and detection dataset*. In 2018 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018.
+
+- For **Places365**, the citation is:
+  > Bolei Zhou, `Agata Lapedriza, Jianxiong Xiao, et al. *Learning deep features for scene recognition using places database*. In Advances in Neural Information Processing Systems 27, NeurIPS 2014.
+
+- For **ImageNet-1k**, the citation is:
+  > Jia Deng, Wei Dong, Richard Socher, et al. *Imagenet: A large-scale hierarchical image database*. In 2009 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2009).
+
+With all this information gathered, I will now compile the dataset entries into a structured format for further processing.

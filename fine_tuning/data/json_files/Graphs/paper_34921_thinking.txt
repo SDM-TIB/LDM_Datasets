@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "One Stone, Four Birds: A Comprehensive Solution for QA System Using Supervised Contrastive Learning" by Bo Wang and Tsunenori Mine, I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the paper's contributions, but it may not detail specific datasets. Therefore, I will pay close attention to the **introduction** and **experiments** sections, as these often contain references to datasets used in the research.
+
+In the **introduction**, the authors discuss the importance of question answering (QA) systems and mention that they evaluate their methods using three popular intent classification datasets. This indicates that datasets are indeed involved, but I need to find their specific names and details.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments section**. In this paper, the authors provide a table (Table 1) that outlines the original data composition of each dataset used for evaluation. The datasets mentioned are:
+
+1. **CLINC Dataset**: This dataset is widely used for out-of-domain detection and contains 150 intents of texts as the in-domain (IND) data. The authors specify that they randomly select 112 IND intents for their experiments.
+
+2. **BANKING Dataset**: This dataset focuses on online banking services and consists of 77 intents. The authors randomly select 57 intents as the IND intents for their evaluation.
+
+3. **SNIPS Dataset**: This dataset is extracted from a voice assistant and originally contains 7 intents. The authors select 5 intents as the IND intents for their experiments.
+
+In the **experiments section**, the authors provide additional details about how they split the datasets into training, validation, and test sets, which is crucial for understanding the context in which these datasets are used.
+
+Now, I will consult the **References section** to retrieve full citations for these datasets. The citations are as follows:
+
+- For **CLINC Dataset**:
+  > Larson, S., Mahendran, A., Peper, J. J., Clarke, C., Lee, A., Hill, P., Kummerfeld, J. K., Leach, K., Laurenzano, M. A., Tang, L., & Mars, J. (2019). An evaluation dataset for intent classification and out-of-scope prediction. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP) (pp. 1311–1316). Hong Kong, China: Association for Computational Linguistics. Available: https://aclanthology.org/D19-1131
+
+- For **BANKING Dataset**:
+  > Casanueva, I., Temčinas, T., Gerz, D., Henderson, M., & Vulić, I. (2020). Efficient intent detection with dual sentence encoders. In Proceedings of the 2nd Workshop on Natural Language Processing for Conversational AI (pp. 38–45). Online: Association for Computational Linguistics. Available: https://aclanthology.org/2020.nlp4convai-1.5
+
+- For **SNIPS Dataset**:
+  > Coucke, A., Saade, A., Ball, A., Bluche, T., Caulier, A., Leroy, D., Doumouro, C., Gisselbrecht, T., Caltagirone, F., Lavril, T., Primet, M., & Dureau, J. (2018). Snips Voice Platform: An embedded Spoken Language Understanding system for private-by-design voice interfaces. arXiv: 2018.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all relevant details are captured for future reference or processing.

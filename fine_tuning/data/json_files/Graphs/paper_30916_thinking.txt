@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "WUKONG-READER: Multi-modal Pre-training for Fine-grained Visual Document Understanding" by Haoli Bai et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will start by reviewing the **abstract and introduction** sections. The abstract mentions that the experiments show superior performance on various visual document understanding tasks, which suggests that datasets are likely involved. The introduction further discusses the importance of visual document understanding and hints at the use of multiple datasets for evaluation.
+
+Next, I will look for a dedicated **Datasets section** or any mention of datasets in the **experiments section**. In this paper, the authors explicitly mention three datasets used for evaluation in the **Experiments section**:
+
+1. **FUNSD**: This dataset is described as consisting of noisy scanned documents aimed at understanding the structure of textual content in forms. It contains 199 fully labeled real scanned images, with 149 training samples and 50 test documents.
+
+2. **CORD**: This dataset is a consolidated dataset for receipt parsing, comprising over 11,000 Indonesian receipt images collected from shops and restaurants. It includes 800 training samples, 100 validation samples, and 100 test samples.
+
+3. **SROIE**: This dataset contains 1,000 scanned receipt images for text recognition and key information extraction, with 626 training and 347 test receipts. It labels four entities: company, date, address, and total.
+
+Additionally, the paper mentions the **RVL-CDIP** dataset for document classification, which contains around 400,000 industrial document images across 16 classes, with 360,000 for training and 40,000 for testing.
+
+Now, I will check the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For **FUNSD**, the citation is:
+  > Guillaume Jaume, Hazim Kemal Ekenel, and Jean-Philippe Thiran. *FUNSD: A Dataset for Form Understanding in Noisy Scanned Documents*. In 2019 International Conference on Document Analysis and Recognition Workshops, volume 2, pages 1–6, 2019.
+
+- For **CORD**, the citation is:
+  > Seunghyun Park, Seung Shin, Bado Lee, Junyeop Lee, Jaeheung Surh, Minjoon Seo, and Hwalsuk Lee. *CORD: A Consolidated Receipt Dataset for Post-OCR Parsing*. In Workshop on Document Intelligence at NeurIPS 2019.
+
+- For **SROIE**, the citation is:
+  > Zheng Huang, Kai Chen, Jianhua He, Xiang Bai, Dimosthenis Karatzas, Shijian Lu, and CV Jawahar. *ICDAR2019 Competition on Scanned Receipt OCR and Information Extraction*. In 2019 International Conference on Document Analysis and Recognition, pages 1516–1520, IEEE.
+
+- For **RVL-CDIP**, the citation is:
+  > Adam W Harley, Alex Ufkes, and Konstantinos G Derpanis. *Evaluation of Deep Convolutional Nets for Document Image Classification and Retrieval*. In 2015 13th International Conference on Document Analysis and Recognition, pages 991–995, 2015.
+
+With this information, I can now compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This structured approach will help ensure that I capture all relevant details for each dataset mentioned in the paper.

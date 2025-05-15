@@ -1,0 +1,48 @@
+To extract datasets from the research paper titled "MedGen3D: A Deep Generative Framework for Paired 3D Image and Mask Generation" by Kun Han et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** to identify any datasets mentioned. The abstract discusses the challenges of acquiring labeled data for medical image segmentation and hints at the use of synthetic data, but does not specify any datasets.
+
+Next, I will examine the **introduction** section. Here, the authors emphasize the importance of having a substantial quantity of accurately annotated 3D data for medical image analysis, but again, no specific datasets are mentioned.
+
+Moving on to **section 4.1 (Datasets and Setups)**, I will look for explicit mentions of datasets used in their experiments. In this section, the authors list the datasets they utilized:
+
+1. **SegTHOR**: This dataset consists of 3D thorax CT scans, with 25 training, 5 validation, and 10 testing scans.
+2. **OASIS**: This dataset includes 3D brain MRI T1 scans, with 40 training, 10 validation, and 10 testing scans.
+
+Additionally, they mention using data from **StructSeg-Thorax** and **Public-Thor** for downstream segmentation tasks, as well as the **ADNI** dataset for brain MRI data.
+
+Next, I will check the **References section** to gather the full citations for each dataset mentioned:
+
+- For **SegTHOR**, the citation is:
+  > Lambert, Z., Petitjean, C., Dubray, B., & Kuan, S. (2020). Segthor: Segmentation of thoracic organs at risk in ct images. In *2020 Tenth International Conference on Image Processing Theory, Tools and Applications (IPTA)* (pp. 1–6). IEEE.
+
+- For **OASIS**, the citation is:
+  > Marcus, D.S., Wang, T.H., Parker, J., Csernansky, J.G., Morris, J.C., & Buckner, R.L. (2007). Open access series of imaging studies (oasis): cross-sectional mri data in young, middle aged, nondemented, and demented older adults. *Journal of Cognitive Neuroscience*, 19(9), 1498–1507.
+
+- For **StructSeg-Thorax**, the citation is:
+  > https://structseg2019.grand-challenge.org/dataset/
+
+- For **Public-Thor**, the citation is:
+  > https://structseg2019.grand-challenge.org/dataset/
+
+- For **ADNI**, the citation is:
+  > https://adni.loni.usc.edu/
+
+Now that I have identified the datasets and their citations, I will summarize the findings:
+
+1. **SegTHOR**: 3D thorax CT scans (25 training, 5 validation, 10 testing).
+   - Citation: Lambert, Z., Petitjean, C., Dubray, B., & Kuan, S. (2020). Segthor: Segmentation of thoracic organs at risk in ct images. In *2020 Tenth International Conference on Image Processing Theory, Tools and Applications (IPTA)* (pp. 1–6). IEEE.
+
+2. **OASIS**: 3D brain MRI T1 scans (40 training, 10 validation, 10 testing).
+   - Citation: Marcus, D.S., Wang, T.H., Parker, J., Csernansky, J.G., Morris, J.C., & Buckner, R.L. (2007). Open access series of imaging studies (oasis): cross-sectional mri data in young, middle aged, nondemented, and demented older adults. *Journal of Cognitive Neuroscience*, 19(9), 1498–1507.
+
+3. **StructSeg-Thorax**: Used for downstream segmentation tasks.
+   - Citation: https://structseg2019.grand-challenge.org/dataset/
+
+4. **Public-Thor**: Used for downstream segmentation tasks.
+   - Citation: https://structseg2019.grand-challenge.org/dataset/
+
+5. **ADNI**: Used for brain MRI data.
+   - Citation: https://adni.loni.usc.edu/
+
+With this information, I will now compile the dataset entries into a structured format for further processing or review.

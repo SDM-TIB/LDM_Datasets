@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "SynthVision - Harnessing Minimal Input for Maximal Output in Computer Vision Models using Synthetic Image data" by Yudara Kularathne et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract indicates that the study involves generating synthetic images for detecting HPV genital warts, which suggests that there may be a dataset related to these synthetic images.
+
+In the **introduction**, the authors discuss the challenges of data scarcity in medical imaging and mention the use of synthetic images generated from a minimal set of guide images. This hints at the existence of a dataset derived from these guide images.
+
+Next, I will focus on the **methods section**, particularly the subsection titled "Phase 1 - Fine-Tuning of Diffusion Models and Synthetic Image Generation." Here, the authors describe the generation of synthetic images from 10 clinically validated images of HPV genital warts. This indicates that the dataset consists of these 10 guide images, which were used to create a larger synthetic dataset.
+
+In the same section, the authors mention generating a total of **630 synthetic images**, out of which **500 were clinically validated** and selected for use in training the model. This is a crucial dataset that I need to document.
+
+Moving on to the **dataset preparation for the classification model**, the authors specify that the training dataset comprises **500 synthetic images of HPV genital warts** and **500 real images of normal cases**. They also mention a validation set and a testing set, which include real images of both HPV genital warts and normal cases. This information is essential for understanding the composition of the datasets used in their experiments.
+
+Now, I will check the **references section** to find full citations for the datasets mentioned. However, since the paper primarily discusses synthetic data generated from a small number of real images, the citations may not directly correspond to traditional datasets but rather to the methodologies and prior works referenced.
+
+The key datasets to extract from this paper are:
+
+1. **Synthetic HPV Genital Warts Dataset**: Comprising 500 clinically validated synthetic images generated from 10 guide images.
+2. **Real Normal Cases Dataset**: Comprising 500 real images of normal cases used alongside the synthetic images for training.
+3. **Validation and Testing Datasets**: Including real images of HPV genital warts and normal cases for model evaluation.
+
+I will now compile the dataset entries with their descriptions and citations, ensuring to include the relevant references for the methodologies used to generate the synthetic images.
+
+After gathering all the necessary information, I will prepare the dataset entries for structured output, ready for further processing or review.

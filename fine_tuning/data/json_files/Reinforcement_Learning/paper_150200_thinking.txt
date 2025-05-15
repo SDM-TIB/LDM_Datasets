@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Data-Centric Debugging: mitigating model failures via targeted data collection" by Sahil Singla et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are referenced or described. The abstract mentions a "large pool of weakly (noisily) labeled data F," which indicates that there is a dataset involved. 
+
+Next, I will focus on **section 3 (Framework for model debugging)**, where the authors discuss the datasets used in their experiments. They mention a dataset called **ImageNet-V2**, which is used to sample the seed and heldout sets. This is a significant dataset for their experiments, and I need to gather more details about it.
+
+In **section 3.2**, the authors describe how they collected a large pool of images from the web, resulting in a weakly labeled dataset denoted as **F**, consisting of 952,951 images across 160 classes. This dataset is crucial for their methodology, as it is used to improve model performance.
+
+Additionally, in **section 3.4**, they mention the **MatchedFrequency** and **Complement** sets derived from the ImageNet-V2 dataset, which are used for constructing the seed and heldout sets. 
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+1. **ImageNet**: The original ImageNet dataset is cited as follows:
+   > J. Deng, W. Dong, R. Socher, L. Li, K. Li, and L. Fei-Fei. *Imagenet: A large-scale hierarchical image database*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 248–255, 2009.
+
+2. **ImageNet-V2**: The citation for the ImageNet-V2 dataset is:
+   > Benjamin Recht, Rebecca Roelofs, Ludwig Schmidt, and Vaishaal Shankar. *Do ImageNet classiﬁers generalize to ImageNet?* In Proceedings of the 36th International Conference on Machine Learning, 2019.
+
+3. **FOCUS Dataset**: The authors also refer to the FOCUS dataset in their experiments, which is cited as:
+   > Mazda Moayeri, Sahil Singla, and Soheil Feizi. *FOCUS: Familiar objects in common and uncommon settings*. In Proceedings of the 39th International Conference on Machine Learning, volume 162, pages 10825–10847, 2022.
+
+After gathering this information, I will compile the dataset entries, ensuring that each entry includes the dataset name, a brief description, and the full citation. This will provide a comprehensive overview of the datasets used in the research paper, ready for further processing or review.

@@ -1,0 +1,111 @@
+[
+    {
+        "dcterms:creator": [
+            "Z. Ying",
+            "D. Bourgeois",
+            "J. You",
+            "M. Zitnik",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "A synthetic dataset using a Barabási-Albert graph as the base with a house motif. Each node has 5 neighbors on average, with motifs labeled 1, 2, and 3 as ‘roof’, ‘middle’, and ‘ground’. The remaining nodes are labeled 0.",
+        "dcterms:title": "BAHouse",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Graphs",
+            "Graph Neural Networks"
+        ],
+        "dcat:keyword": [
+            "Barabási-Albert",
+            "Graph Motifs",
+            "Synthetic Dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "M. Zitnik",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "A protein-protein interaction dataset containing human proteins (nodes) and their interactions (edges). Node features include motif gene sets and immunological signatures, labeled by gene ontology sets reflecting functional properties.",
+        "dcterms:title": "PPI",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Biological Networks",
+            "Graph Neural Networks"
+        ],
+        "dcat:keyword": [
+            "Protein-Protein Interaction",
+            "Biological Dataset",
+            "Gene Ontology"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "C. L. Giles",
+            "K. D. Bollacker",
+            "S. Lawrence"
+        ],
+        "dcterms:description": "A citation dataset for computer science where each node is a publication with edges as citation relations. There are 6 classes: Agents, AI, DB, IR, ML, and HCI.",
+        "dcterms:title": "CiteSeer",
+        "dcterms:issued": "1998",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Networks",
+            "Graph Neural Networks"
+        ],
+        "dcat:keyword": [
+            "Citation Dataset",
+            "Publications",
+            "Computer Science"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. L. Hamilton",
+            "R. Ying",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "A large-scale social network dataset with hundreds of millions of edges and a set of nodes (posts) with features and node classes. Node features are word vectors, and node labels are communities in which the post belongs.",
+        "dcterms:title": "Reddit",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Networks",
+            "Graph Neural Networks"
+        ],
+        "dcat:keyword": [
+            "Social Media",
+            "Community Detection",
+            "Large-Scale Dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    }
+]

@@ -1,0 +1,66 @@
+To extract datasets from the research paper titled "Exploring Multi-level Prompt Tuning for Machine Reading Comprehension" by Guoxin Chen et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract and introduction** sections to identify any mentions of datasets. The abstract states that the authors conducted experiments on **12 benchmarks of various QA formats**, which suggests that multiple datasets are involved.
+
+Next, I will focus on **section 4.1 (Datasets and Baselines)**, where the authors explicitly list the datasets used in their experiments. Here, they mention the following datasets:
+
+1. **SQuAD2**: This dataset is used for extractive question answering and contains 118,446 training examples. The authors note that it requires token overlap for evaluation.
+
+2. **NewsQA**: Another extractive QA dataset with 72,219 training examples, evaluated using the ROUGE-L metric.
+
+3. **NarrativeQA (NarQA)**: An abstractive QA dataset with 65,494 training examples, also evaluated using ROUGE-L.
+
+4. **DROP**: This dataset has 67,864 training examples and requires discrete reasoning for evaluation.
+
+5. **MCTest**: A multiple-choice QA dataset with 1,480 training examples.
+
+6. **ARC (easy and challenge)**: Two datasets with 2,250 and 1,119 training examples, respectively, used for multiple-choice questions.
+
+7. **OpenBookQA (OBQA)**: A multiple-choice QA dataset with 4,957 training examples.
+
+8. **QASC**: Another multiple-choice dataset with 7,208 training examples.
+
+9. **RACE**: This dataset has 25,421 training examples and is used for multiple-choice questions.
+
+10. **BoolQ**: A yes/no QA dataset with 6,157 training examples.
+
+11. **BoolQ-NP**: A variant of BoolQ with 9,727 training examples.
+
+I will then look for the **References section** to find the full citations for these datasets. The citations are typically provided in the format of the original papers or sources from which these datasets were derived. 
+
+For example, I will find the following citations:
+
+- For **SQuAD2**, the citation is:
+  > Pranav Rajpurkar, Robin Jia, and Percy Liang. *Know what you don’t know: Unanswerable questions for SQuAD*. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 2381–2391, 2018.
+
+- For **NewsQA**, the citation is:
+  > Adam Trischler, Tong Wang, Xingdi Yuan, Justin Harris, Alessandro Sordoni, Philip Bachman, and Kaheer Suleman. *NewsQA: A machine comprehension dataset*. arXiv preprint arXiv:1611.09830, 2016.
+
+- For **NarrativeQA**, the citation is:
+  > Tomáš Kočiský, Jonathan Schwarz, Phil Blunsom, Chris Dyer, Karl Moritz Hermann, Gábor Melis, and Edward Grefenstette. *The NarrativeQA reading comprehension challenge*. Transactions of the Association for Computational Linguistics, 6:317–328, 2018.
+
+- For **DROP**, the citation is:
+  > Dheeru Dua, Yizhong Wang, Pradeep Dasigi, Gabriel Stanovsky, Sameer Singh, and Matt Gardner. *DROP: A reading comprehension benchmark requiring discrete reasoning over paragraphs*. arXiv preprint arXiv:1903.00161, 2019.
+
+- For **MCTest**, the citation is:
+  > Matthew Richardson, Christopher JC Burges, and Erin Renshaw. *MCTest: A challenge dataset for the open-domain machine comprehension of text*. In EMNLP, pages 193–203, 2013.
+
+- For **ARC**, the citation is:
+  > Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and Oyvind Tafjord. *Think you have solved question answering? Try ARC, the AI2 reasoning challenge*. arXiv preprint arXiv:1803.05457, 2018.
+
+- For **OpenBookQA**, the citation is:
+  > Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. *Can a suit of armor conduct electricity? A new dataset for open book question answering*. In EMNLP, pages 2381–2391, 2018.
+
+- For **QASC**, the citation is:
+  > Tushar Khot, Peter Clark, Michal Guerquin, Peter Jansen, and Ashish Sabharwal. *QASC: A dataset for question answering via sentence composition*. In AAAI, volume 34, pages 8082–8090, 2020.
+
+- For **RACE**, the citation is:
+  > Guokun Lai, Qizhe Xie, Hanxiao Liu, Yiming Yang, and Eduard Hovy. *RACE: Large-scale reading comprehension dataset from examinations*. arXiv preprint arXiv:1704.04683, 2017.
+
+- For **BoolQ**, the citation is:
+  > Christopher Clark, Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael Collins, and Kristina Toutanova. *BoolQ: Exploring the surprising difficulty of natural yes/no questions*. arXiv preprint arXiv:1905.10044, 2019.
+
+- For **BoolQ-NP**, the citation is:
+  > Daniel Khashabi, Tushar Khot, and Ashish Sabharwal. *More bang for your buck: Natural perturbation for robust question answering*. arXiv preprint arXiv:2004.04849, 2020.
+
+After gathering all the necessary information, I will compile the dataset entries with their full citations, ensuring that each dataset is accurately represented and properly cited for future reference.

@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "MetaDiffuser: Diffusion Model as Conditional Planner for Offline Meta-RL" by Fei Ni et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to find any references to datasets. The abstract mentions that the experiments were conducted on **MuJoCo benchmarks**, which suggests that datasets related to these benchmarks are likely included.
+
+Next, I will look for specific mentions of datasets in the **experiments section**. The authors describe their experiments on various tasks, specifically mentioning **Point-Robot**, **Cheetah**, **Ant**, **Hopper**, and **Walker** environments. These are indicative of the datasets used for the experiments.
+
+In the **environment settings subsection**, the authors provide details about the environments used for testing. They mention that the **Point-Robot** environment is a 2D navigation task, while the **Cheetah**, **Ant**, **Hopper**, and **Walker** environments are part of the MuJoCo control tasks. This indicates that the datasets for these environments are derived from the MuJoCo physics engine.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The paper does not provide specific dataset citations, but I can infer the following based on the environments described:
+
+1. **MuJoCo**: The datasets for the MuJoCo environments are typically derived from the MuJoCo physics engine, which is widely used in reinforcement learning research. The citation for the MuJoCo simulator is:
+   > Todorov, E., Erez, T., & Tassa, Y. (2012). *Mujoco: A physics engine for model-based control*. In Proceedings of the 2012 IEEE International Conference on Robotics and Automation (ICRA), pp. 5026-5033.
+
+2. **Point-Robot**: This environment is often used in meta-reinforcement learning studies. The specific dataset citation may not be available, but it is commonly referenced in the context of offline RL. A relevant citation is:
+   > Rakelly, K., Zhou, A., Quillen, D., Finn, C., & Levine, S. (2019). *Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables*. In Proceedings of the 36th International Conference on Machine Learning (ICML), pp. 5321-5330.
+
+3. **Cheetah, Ant, Hopper, and Walker**: These environments are part of the MuJoCo suite, and their datasets are typically referenced collectively. The citation for the MuJoCo environments is:
+   > Yu, T., Quillen, D., He, Z., Julian, R., Hausman, K., Finn, C., & Levine, S. (2020). *Meta-world: A benchmark and evaluation for multi-task and meta reinforcement learning*. In Conference on Robot Learning, pp. 1094-1100.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is properly cited according to the references provided in the paper and the relevant literature.
+
+In summary, the datasets extracted from the paper include:
+- **MuJoCo environments** (general reference)
+- **Point-Robot** (Rakelly et al., 2019)
+- **Cheetah, Ant, Hopper, and Walker** (Yu et al., 2020)
+
+Now, I will prepare the structured output for these datasets, ensuring that each entry includes the full citation as required.

@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Operator Deep Q-Learning: Zero-Shot Reward Transferring in Reinforcement Learning" by Ziyang Tang et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper. The abstract mentions the use of several tasks, which suggests that datasets are involved. I will look for specific mentions of datasets or environments used in the experiments.
+
+Next, I will focus on **section 6 (Experiments)**, where the authors describe the environments and datasets used for their experiments. Here, they mention three continuous control environments:
+
+1. **Pendulum-Angle**: The dataset is constructed from a modified version of the Pendulum environment, where the goal is to swing up a bar to a specified angle. The authors provide details about the reward function and how the dataset is sampled.
+
+2. **HalfCheetah-Vel**: This environment is adapted from a previous work, where the goal is to achieve a target velocity. The authors specify how the dataset is constructed and the parameters used for sampling.
+
+3. **Ant-Dir**: Similar to the previous environments, this dataset is adapted from another work, focusing on keeping a 2D-Ant moving in a given direction. The authors describe the reward function and the sampling process.
+
+After identifying these datasets, I will check the **References section** to find the full citations for the original sources of these datasets or environments. The citations are crucial for proper attribution and to provide context for the datasets used in the experiments.
+
+The full citations for the datasets mentioned in the paper are as follows:
+
+- For **Pendulum-Angle**, the original reward function is based on:
+  > The original Pendulum environment is described in: 
+  > "OpenAI Gym." (https://gym.openai.com/)
+
+- For **HalfCheetah-Vel**, the environment is adapted from:
+  > Fujimoto, S., Hoof, H., & Meger, D. (2018). Addressing function approximation error in actor-critic methods. In *International Conference on Machine Learning* (ICML), pages 1587–1596. PMLR.
+
+- For **Ant-Dir**, the environment is also adapted from:
+  > Rakelly, K., Zhou, A., Finn, C., Levine, S., & Quillen, D. (2019). Efficient off-policy meta-reinforcement learning via probabilistic context variables. In *International Conference on Machine Learning* (ICML), pages 5331–5340. PMLR.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

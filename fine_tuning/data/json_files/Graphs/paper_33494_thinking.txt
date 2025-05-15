@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Task Oriented Dialogue as a Catalyst for Self-Supervised Automatic Speech Recognition" by David M. Chan et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and data sections** of the paper to locate any references to datasets. The abstract mentions a new public large-scale semi-synthetic meta-dataset called **OD3**, which is a strong indicator that this dataset will be detailed further in the paper.
+
+Next, I will focus on the **introduction** and **section 2.1 (Data)**, where the authors describe the datasets used for their experiments. In section 2.1, they mention two datasets:
+
+1. **Real-World (Internal) Data**: This dataset consists of 130K hours of de-identified agent-centric task-directed dialogues. It is constructed from independent interactions with a conversational assistant, with a maximum of five utterances per dialogue.
+
+2. **OD3 (Open Directed Dialogue Dataset)**: This is a new semi-synthetic meta-dataset designed for conversational learning. It contains 63K conversations (600K turns, 1,172 hours of audio) and is augmented with synthetic audio, including turns with repeats and rephrases of previous failed utterances.
+
+I will then check the **References section** to find the full citations for the datasets mentioned. The paper references several seed datasets used to construct OD3, which include:
+
+- **KVRET**: 
+  > Eric, M., Krishnan, L., Charette, F., & Manning, C. D. (2017). Key-value retrieval networks for task-oriented dialogue. In SIGDIAL.
+
+- **MultiWOZ**: 
+  > Budzianowski, P., et al. (2018). MultiWOZ - a large-scale multi-domain Wizard-of-Oz dataset for task-oriented dialogue modelling. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+
+- **DSTC11 (Track 5)**: 
+  > Zhao, C., et al. (2023). “What do others think?”: Task-oriented conversational modeling with subjective knowledge. arXiv:2305.12091.
+
+- **NOESIS-II**: 
+  > Gunasekara, C., et al. (2020). Noesis II: Predicting responses, identifying success, and managing complexity in task-oriented dialogue. In AAAI: Workshop on Dialog System Tech Challenges.
+
+- **SIMMC-2.1**: 
+  > Kottur, S., et al. (2021). SIMMC 2.0: A task-oriented dialog dataset for immersive multimodal conversations. In EMNLP.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research, ready for further processing or review.

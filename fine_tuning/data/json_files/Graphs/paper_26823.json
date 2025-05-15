@@ -1,0 +1,66 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A heterogeneous network extracted from a bibliography dataset on major computer science journals and proceedings. The dataset has been preprocessed to contain 14328 papers, 4057 authors, 20 conferences, and 8789 terms. The classification task is to predict the label for each author among four domain areas: database, data mining, machine learning, and information retrieval.",
+        "dcterms:title": "DBLP",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://dblp.uni-trier.de",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Heterogeneous network",
+            "Bibliography dataset",
+            "Node classification"
+        ],
+        "dcat:landingPage": "https://dblp.uni-trier.de",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A small citation network dataset containing paper-author and paper-subject relation types among 3025 papers, 5835 authors, and 56 subjects node types. Paper nodes are associated with a bag-of-words presentation of keywords as features. The task is to label the conference each paper is published in, among the KDD, SIGMOD, SIGCOM, MobiCOMM, and VLDB venues.",
+        "dcterms:title": "ACM",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://dl.acm.org",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Heterogeneous network",
+            "Citation network",
+            "Node classification"
+        ],
+        "dcat:landingPage": "https://dl.acm.org",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "I. Cantador",
+            "P. Brusilovsky",
+            "T. Kuﬂik"
+        ],
+        "dcterms:description": "A movie database network containing movie-actor and movie-director relations among 4780 movies, 5841 actors, and 2269 directors. Each movie contains bag-of-words features of the plot, and the prediction task is to label the movie’s genre among Action, Comedy, and Drama.",
+        "dcterms:title": "IMDB",
+        "dcterms:issued": "2011",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Heterogeneous network",
+            "Movie database",
+            "Node classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node classification"
+        ]
+    }
+]

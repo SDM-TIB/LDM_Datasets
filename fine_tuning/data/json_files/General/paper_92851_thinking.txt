@@ -1,0 +1,38 @@
+To extract datasets from the research paper titled "Few-Shot One-Class Classification via Meta-Learning" by Ahmed Frikha et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and experimental evaluation sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors conducted experiments on **eight datasets from the image and time-series domains**, which suggests that multiple datasets are involved.
+
+Next, I will focus on the **experimental evaluation section (Section 4)**, particularly **subsection 4.1 (Baselines and Datasets)**, where the authors provide a list of datasets used for their experiments. Here, they mention:
+
+1. **Multi-Task MNIST (MT-MNIST)**: A dataset derived from MNIST, used for one-class classification tasks.
+2. **Omniglot**: A dataset containing handwritten characters from various alphabets, used for binary classification tasks.
+3. **MiniImageNet**: A benchmark dataset for few-shot learning, adapted for one-class classification tasks.
+4. **CIFAR-FS**: A few-shot learning benchmark derived from CIFAR-100, also adapted for one-class classification.
+5. **FC100**: Another few-shot learning benchmark derived from CIFAR-100, with different superclasses for training, validation, and testing.
+6. **Synthetic Time-Series (STS)**: Two synthetic datasets (STS-Sawtooth and STS-Sine) created for anomaly detection tasks.
+7. **CNC Milling Machine Data (CNC-MMD)**: A real-world dataset of sensor readings from industrial manufacturing processes.
+
+I will then look for the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- **Multi-Task MNIST (MT-MNIST)**: 
+  > LeCun, Y., Cortes, C., & Burges, C. J. (2010). The MNIST database of handwritten digits. http://yann.lecun.com/exdb/mnist/.
+
+- **Omniglot**: 
+  > Lake, B. M., Salakhutdinov, R., & Tenenbaum, J. B. (2015). Human-level concept learning through probabilistic program induction. Science, 350(6266), 1332-1338. doi:10.1126/science.aab3050.
+
+- **MiniImageNet**: 
+  > Ravi, S., & Larochelle, H. (2016). Optimization as a model for few-shot learning. In Proceedings of the International Conference on Learning Representations (ICLR).
+
+- **CIFAR-FS**: 
+  > Bertinetto, L., Henriques, J. F., Torr, P. H., & Vedaldi, A. (2018). Meta-learning with differentiable closed-form solvers. arXiv preprint arXiv:1805.08136.
+
+- **FC100**: 
+  > Oreshkin, B. N., López, P. R., & Lacoste, A. (2018). Tadam: Task dependent adaptive metric for improved few-shot learning. In Advances in Neural Information Processing Systems.
+
+- **Synthetic Time-Series (STS)**: 
+  > This dataset is proposed by the authors and will be published upon paper acceptance.
+
+- **CNC Milling Machine Data (CNC-MMD)**: 
+  > This dataset is derived from real-world industrial processes and is labeled by domain experts from Siemens Digital Industries.
+
+Now, I will compile the dataset entries, ensuring that each entry includes the dataset name, a brief description, and the full citation. This structured approach will ensure that I accurately capture all relevant datasets and their citations from the paper.

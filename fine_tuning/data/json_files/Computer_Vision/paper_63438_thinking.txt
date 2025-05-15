@@ -1,0 +1,46 @@
+To extract datasets from the research paper titled "TrainFors: A Large Benchmark Training Dataset for Image Manipulation Detection and Localization" by Soumyaroop Nandi et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset mentioned.
+
+First, I will start by reading the **abstract** to identify any datasets that are introduced or referenced. The abstract mentions the creation of a standardized benchmark training dataset called **TrainFors**, which is a strong indication that this dataset is central to the paper.
+
+Next, I will move to the **introduction** section, where the authors discuss the need for a standardized training dataset for image manipulation detection and localization (IMDL). They mention that previous works have used various datasets but did not standardize them. This section may provide additional context or names of datasets that are relevant to their work.
+
+In **section 3 (TrainFors: Benchmark IMDL training set)**, the authors provide a detailed description of the **TrainFors** dataset. They mention that it contains 1 million images, including 200K pristine images and 800K manipulated images, categorized into four types of manipulations: image splicing, copy-move forgery, removal, and image enhancement. This section is crucial as it outlines the dataset's structure and purpose.
+
+The authors also reference several source datasets used to create **TrainFors**. I will list these datasets along with their descriptions:
+
+1. **MS-COCO**: Used for generating manipulated images, providing ground-truth masks for various objects.
+   - Citation: Tsung-Yi Lin et al. *Microsoft COCO: Common Objects in Context*. In Computer Vision–ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13, pages 740–755.
+
+2. **Socrates**: A camera identifying dataset used to create manipulated images.
+   - Citation: Chiara Galdi et al. *Socrates: A database of realistic data for source camera recognition on smartphones*. In ICPRAM, pages 648–655, 2019.
+
+3. **Vision**: Another camera identifying dataset contributing to the creation of manipulated images.
+   - Citation: Dasara Shullani et al. *Vision: a video and image dataset for source identification*. EURASIP Journal on Information Security, 2017(1):1–16, 2017.
+
+4. **FODB**: Used for generating manipulated images.
+   - Citation: Gaël Mahfoudi et al. *Defacto: image and face manipulation dataset*. In 2019 27th European Signal Processing Conference (EUSIPCO), pages 1–5. IEEE, 2019.
+
+5. **KCMI**: Another dataset used for generating manipulated images.
+   - Citation: IEEE’s Signal Processing Society - Camera Model Identification. *Kaggle Competition*. 2017.
+
+6. **Paris-Street-View**: Used for creating removal manipulated images.
+   - Citation: Not explicitly provided in the paper, but it is a known dataset for urban scene understanding.
+
+The authors also mention existing datasets used for evaluation, such as **Columbia**, **Coverage**, **CASIAv1**, **NIST16**, and **IMD2020**. I will extract their citations as well:
+
+1. **Columbia**: 
+   - Citation: Tian-Tsong Ng et al. *Columbia image splicing detection evaluation dataset*. DVMM lab. Columbia Univ CalPhotos Digit Libr, 2009.
+
+2. **Coverage**: 
+   - Citation: Bihan Wen et al. *Coverage—a novel database for copy-move forgery detection*. In 2016 IEEE International Conference on Image Processing (ICIP), pages 161–165. IEEE, 2016.
+
+3. **CASIAv1**: 
+   - Citation: Jing Dong et al. *Casia image tampering detection evaluation database*. In 2013 IEEE China Summit and International Conference on Signal and Information Processing, pages 422–426. IEEE, 2013.
+
+4. **NIST16**: 
+   - Citation: Nimble Challenge. *NIST Challenge 2018*. https://www.nist.gov/itl/iad/mig/nimble-challenge-2017-evaluation. Accessed on 11/14/2020.
+
+5. **IMD2020**: 
+   - Citation: Adam Novozamsky et al. *IMD2020: A large-scale annotated dataset tailored for detecting manipulated images*. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision Workshops, pages 71–80, 2020.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets referenced in the paper, which is essential for any further analysis or replication of the research.

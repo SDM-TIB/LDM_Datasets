@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "End-to-end View Synthesis via NeRF Attention" by Zelin Zhao and Jiaya Jia, I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the NeRFA model demonstrates superior performance on four datasets, which suggests that these datasets will be detailed later in the paper.
+
+Next, I will navigate to **section 4.1 (Datasets)**, where the authors explicitly list the datasets used in their experiments. This section is crucial as it typically contains the names, descriptions, and characteristics of the datasets.
+
+In section 4.1, the authors mention the following datasets:
+
+1. **DeepVoxels**: This dataset includes four objects (vase, pedestal, chair, and cube) and consists of images rendered from 479 poses. The training images are of 512 × 512 resolution, with 30 images reserved for validation and 1000 for testing.
+
+2. **Blender**: This dataset is derived from the original NeRF paper and contains eight objects with complex geometries. Each object has 100 training views and 200 testing views, with a resolution of 800 × 800 pixels.
+
+3. **LLFF**: The LLFF dataset includes eight rendered scenes captured by a cellphone, with 20 to 62 images per scene. The resolution of the rendered frames is 1008 × 756, and the dataset is split into training, validation, and testing sets.
+
+4. **CO3D**: The Common Objects in 3D dataset contains 1.5 million multi-view images of approximately 19,000 objects. It is designed to evaluate novel view synthesis capabilities and is divided into four splits: train-known, train-unseen, test-known, and test-unseen.
+
+Now, I will refer to the **References section** to gather the full citations for each dataset mentioned:
+
+- For **DeepVoxels**, the citation is:
+  > Sitzmann, V., Thies, J., Heide, F., Niessner, M., Wetzstein, G., & Zollhofer, M. (2019). *Deepvoxels: Learning persistent 3D feature embeddings*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).
+
+- For **Blender**, the citation is:
+  > Mildenhall, B., Srinivasan, P.P., Tancik, M., Barron, J.T., Ramamoorthi, R., & Ng, R. (2020). *NeRF: Representing scenes as neural radiance fields for view synthesis*. In European Conference on Computer Vision.
+
+- For **LLFF**, the citation is:
+  > Mildenhall, B., Srinivasan, P.P., Ortiz-Cayon, R., Kalantari, N.K., Ramamoorthi, R., Ng, R., & Kar, A. (2019). *Local light field fusion: Practical view synthesis with prescriptive sampling guidelines*. ACM Transactions on Graphics (TOG).
+
+- For **CO3D**, the citation is:
+  > Reizenstein, J., Shapovalov, R., Henzler, P., Sbordone, L., Labatut, P., & Novotny, D. (2021). *Common objects in 3D: Large-scale learning and evaluation of real-life 3D category reconstruction*. In Proceedings of the IEEE/CVF International Conference on Computer Vision.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

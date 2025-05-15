@@ -1,0 +1,191 @@
+[
+    {
+        "dcterms:creator": [
+            "Nasrin Mostafazadeh",
+            "Nathanael Chambers",
+            "Xiaodong He",
+            "Devi Parikh",
+            "Dhruv Batra",
+            "Lucy Vanderwende",
+            "Pushmeet Kohli",
+            "James Allen"
+        ],
+        "dcterms:description": "The Story Cloze Test is a natural language understanding task that consists in selecting the right ending for a given short story. The evaluation data consists of a Dev set and a Test set, each containing samples of four sentences of a story, followed by two alternative sentences, from which the system has to select the proper story ending.",
+        "dcterms:title": "Story Cloze Test",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Commonsense Reasoning"
+        ],
+        "dcat:keyword": [
+            "Story understanding",
+            "Cloze test",
+            "Natural language understanding"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Story ending selection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Nasrin Mostafazadeh",
+            "Nathanael Chambers",
+            "Xiaodong He",
+            "Devi Parikh",
+            "Dhruv Batra",
+            "Lucy Vanderwende",
+            "Pushmeet Kohli",
+            "James Allen"
+        ],
+        "dcterms:description": "ROC Stories consists of around 100,000 crowd-sourced short five-sentence stories ranging over various topics. These stories do not feature a wrong ending, but with appropriate extensions they can be deployed as training data for the Story Cloze task.",
+        "dcterms:title": "ROC Stories",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Commonsense Reasoning"
+        ],
+        "dcat:keyword": [
+            "Crowd-sourced stories",
+            "Short stories",
+            "Training data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Story generation",
+            "Training data for story tasks"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Nasrin Mostafazadeh",
+            "Nathanael Chambers",
+            "Xiaodong He",
+            "Devi Parikh",
+            "Dhruv Batra",
+            "Lucy Vanderwende",
+            "Pushmeet Kohli",
+            "James Allen"
+        ],
+        "dcterms:description": "The Dev set is a subset of the Story Cloze Test dataset used for development and tuning of models. It contains instances of stories and their corresponding endings.",
+        "dcterms:title": "Dev set",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Commonsense Reasoning"
+        ],
+        "dcat:keyword": [
+            "Development set",
+            "Model tuning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Model development"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Nasrin Mostafazadeh",
+            "Nathanael Chambers",
+            "Xiaodong He",
+            "Devi Parikh",
+            "Dhruv Batra",
+            "Lucy Vanderwende",
+            "Pushmeet Kohli",
+            "James Allen"
+        ],
+        "dcterms:description": "The Test set is a subset of the Story Cloze Test dataset used for evaluating the performance of models. It contains instances of stories and their corresponding endings.",
+        "dcterms:title": "Test set",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Commonsense Reasoning"
+        ],
+        "dcat:keyword": [
+            "Test set",
+            "Model evaluation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Model evaluation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Nasrin Mostafazadeh",
+            "Nathanael Chambers",
+            "Xiaodong He",
+            "Devi Parikh",
+            "Dhruv Batra",
+            "Lucy Vanderwende",
+            "Pushmeet Kohli",
+            "James Allen"
+        ],
+        "dcterms:description": "The Dev-Train set is a small training dataset constructed from the Dev set by splitting it randomly into two parts, used for training models.",
+        "dcterms:title": "Dev-Train set",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Commonsense Reasoning"
+        ],
+        "dcat:keyword": [
+            "Training set",
+            "Model training"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Model training"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Nasrin Mostafazadeh",
+            "Nathanael Chambers",
+            "Xiaodong He",
+            "Devi Parikh",
+            "Dhruv Batra",
+            "Lucy Vanderwende",
+            "Pushmeet Kohli",
+            "James Allen"
+        ],
+        "dcterms:description": "The Dev-Dev set is a subset of the Dev set containing 10% of the instances used for validation of models.",
+        "dcterms:title": "Dev-Dev set",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Commonsense Reasoning"
+        ],
+        "dcat:keyword": [
+            "Validation set",
+            "Model validation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Model validation"
+        ]
+    }
+]

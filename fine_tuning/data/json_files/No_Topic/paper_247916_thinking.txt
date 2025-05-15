@@ -1,0 +1,46 @@
+To extract datasets from the research paper titled "Graph Backdoor" by Zhaohan Xi et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and results sections** to see if any datasets are explicitly mentioned. The abstract discusses the effectiveness of the proposed backdoor attack on GNNs and mentions "benchmark datasets," which suggests that specific datasets are used in the evaluation.
+
+Next, I will focus on the **experiments section**, particularly the part where the authors describe their evaluation methodology. In this section, they provide a table summarizing the dataset statistics, which is crucial for identifying the datasets used in their experiments.
+
+Upon reviewing the relevant sections, I find the following datasets mentioned:
+
+1. **Fingerprint Dataset**: This dataset consists of graph representations of fingerprint shapes from the NIST-4 database. The paper states that it contains 1,661 graphs with an average of 8.15 nodes and 6.81 edges.
+
+2. **WinMal Dataset**: This dataset includes Windows PE call graphs of malware and goodware, comprising 1,361 graphs with an average of 606.33 nodes and 745.34 edges.
+
+3. **AIDS Dataset**: This dataset consists of molecular structure graphs of active and inactive compounds, containing 2,000 graphs with an average of 15.69 nodes and 16.20 edges.
+
+4. **Toxicant Dataset**: Similar to the AIDS dataset, this dataset includes molecular structure graphs, with 10,315 graphs, an average of 18.67 nodes, and 19.20 edges.
+
+5. **AndroZoo Dataset**: This dataset contains call graphs of benign and malicious APKs collected from AndroZoo, consisting of 211 graphs with an average of 5736.5 nodes and 25234.9 edges.
+
+6. **Bitcoin Dataset**: An anonymized Bitcoin transaction network with 5,664 graphs, an average of 2 nodes, and 4 edges.
+
+7. **Facebook Dataset**: A page-page relationship network with 12,539 graphs, an average of 2 nodes and 0 edges.
+
+Now, I will look for the full citations for these datasets in the **References section** of the paper. The citations are as follows:
+
+- **Fingerprint Dataset**: 
+  > Neuhaus, M., & Bunke, H. (2005). A Graph Matching Based Approach to Fingerprint Classification Using Directional Variance. *Lecture Notes in Computer Science*, 3546, 455–501.
+
+- **WinMal Dataset**: 
+  > Biggio, B., & Roli, F. (2018). Wild Patterns: Ten Years after The Rise of Adversarial Machine Learning. *Pattern Recognition*, 84, 317–331.
+
+- **AIDS Dataset**: 
+  > Rossi, R. A., & Ahmed, N. K. (2015). The Network Data Repository with Interactive Graph Analytics and Visualization. *2015*.
+
+- **Toxicant Dataset**: 
+  > Tox21 Data Challenge. (2014). Retrieved from https://tripod.nih.gov/tox21/.
+
+- **AndroZoo Dataset**: 
+  > Allix, K., Bissyandé, T. F., Klein, J., & Le Traon, Y. (2016). AndroZoo: Collecting Millions of Android Apps for the Research Community. In *Proceedings of Conference on Mining Software Repositories (MSR)*.
+
+- **Bitcoin Dataset**: 
+  > Elliptic. (2018). Retrieved from www.elliptic.co.
+
+- **Facebook Dataset**: 
+  > Rozemberczki, B., Allen, C., & Sarkar, R. (2019). Multi-scale Attributed Node Embedding. In *ArXiv e-prints*.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

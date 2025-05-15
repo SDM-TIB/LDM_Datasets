@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "MSI-NeRF: Linking Omni-Depth with View Synthesis through Multi-Sphere Image aided Generalizable Neural Radiance Field" by Dongyu Yan et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the method's capabilities but does not specify datasets. However, in the introduction, the authors mention the need for training on large-scale panoramic image datasets, which indicates that datasets are involved.
+
+Next, I will focus on **section IV (Experiments)**, where the authors explicitly mention the datasets used for training and evaluation. They state that they utilize the fisheye panorama datasets proposed in OmniMVS for network training, specifically mentioning:
+
+1. **OmniThings**: Used for base model training.
+2. **OmniHouse**: Used for indoor scene fine-tuning.
+
+Additionally, they introduce a new dataset they constructed called **Replica360**, which contains 33 indoor scenes, each with 4 fisheye source views and 5 randomly sampled omnidirectional target views.
+
+Now, I will check the **References section** to gather the full citations for these datasets:
+
+- For **OmniMVS**, the citation is:
+  > C. Won, J. Ryu, and J. Lim. "OmniMVS: End-to-end learning for omnidirectional stereo matching." In Proceedings of the IEEE/CVF International Conference on Computer Vision, 2019, pp. 8987–8996.
+
+- For **Replica Dataset**, the citation is:
+  > J. Straub, T. Whelan, L. Ma, Y. Chen, E. Wijmans, S. Green, J. J. Engel, R. Mur-Artal, C. Ren, S. Verma et al. "The Replica Dataset: A digital replica of indoor spaces." arXiv preprint arXiv:1906.05797, 2019.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing. Each dataset will be described with its name, description, and full citation.

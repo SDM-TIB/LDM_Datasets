@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Getting More Juice Out of the SFT Data: Reward Learning from Human Demonstration Improves SFT for LLM Alignment" by Jiaxiang Li et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to find any references to datasets. The abstract mentions the use of "human demonstration data" and "preference data," which suggests that there are datasets involved in the research.
+
+Next, I will focus on the **introduction section**, where the authors discuss the types of alignment datasets used in their work. They categorize these datasets into demonstration data and preference data, indicating that both types are crucial for their experiments. I will look for specific names or descriptions of these datasets.
+
+In the **experiments section**, the authors provide details about the datasets used for their experiments. They mention two specific datasets:
+
+1. **Anthropic-HH Dataset**: This dataset is described as a preference dataset that provides two continuations based on helpfulness and harmlessness. The authors state that they only use a subset of 10,000 chosen/preferred continuations to form their demonstration dataset.
+
+2. **Ultrachat200k Dataset**: This dataset is mentioned as a subset of the high-quality demonstration UltraChat dataset, which is used for text generation and dialogue. The authors specify that they adopt a strategy to select 50,000 data points for training.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For the **Anthropic-HH Dataset**, the citation is:
+  > Bai, Y., Jones, A., Ndousse, K., Askell, A., Chen, A., DasSarma, N., Drain, D., Fort, S., Ganguli, D., Henighan, T., et al. *Training a helpful and harmless assistant with reinforcement learning from human feedback*. arXiv preprint arXiv:2204.05862, 2022.
+
+- For the **UltraChat Dataset**, the citation is:
+  > Ding, N., Chen, Y., Xu, B., Qin, Y., Zheng, Z., Hu, S., Liu, Z., Sun, M., & Zhou, B. *Enhancing chat language models by scaling high-quality instructional conversations*. arXiv preprint arXiv:2305.14233, 2023.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

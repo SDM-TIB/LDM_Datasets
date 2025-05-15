@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Deceptive Reinforcement Learning in Model-Free Domains" by Alan Lewis and Tim Miller, I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses the evaluation of the proposed method in various environments, which suggests that datasets may be involved.
+
+Next, I will focus on the **experiments section** (Section 6) where the authors describe the environments used for evaluation. Here, they mention two types of environments: discrete and continuous path planning environments. I will look for specific names of datasets or environments used in these experiments.
+
+In the **experiments section**, the authors specify that they assess their method in two path planning environments: one discrete and one continuous. They mention using the same 40 environment settings as Liu et al. (2021) for the discrete environment, which indicates that the datasets are derived from previous work.
+
+I will also check the **references section** to find full citations for the datasets mentioned. The authors reference Liu et al. (2021) multiple times, which likely contains the details of the datasets used in the experiments.
+
+Now, I will compile the information I have gathered:
+
+1. **Discrete Path Planning Environment**: The authors adapted the MiniGrid environment from Chevalier-Boisvert et al. (2018), which is a lightweight grid-based environment. The citation for this dataset is:
+   > Chevalier-Boisvert, M.; Willems, L.; and Pal, S. 2018. Minimalistic Gridworld Environment for OpenAI Gym. https://github.com/maximecb/gym-minigrid.
+
+2. **Continuous Path Planning Environment**: The continuous environment is based on the 2D range-based navigation problem adapted from Henderson et al. (2017). The citation for this dataset is:
+   > Henderson, P.; Chang, W.-D.; Shkurti, F.; Hansen, J.; Meger, D.; and Dudek, G. 2017. Benchmark Environments for Multitask Learning in Continuous Domains. ICML Lifelong Learning: A Reinforcement Learning Approach Workshop.
+
+After gathering this information, I will ensure that I have the full citations for both datasets and prepare to format them according to the required structure for downstream processing.

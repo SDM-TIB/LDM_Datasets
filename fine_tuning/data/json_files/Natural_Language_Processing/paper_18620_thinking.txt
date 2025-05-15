@@ -1,0 +1,48 @@
+To extract datasets from the research paper titled "Learning with Mixture of Prototypes for Out-of-Distribution Detection" by Shuo Wang et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions that the authors evaluate their method on the **CIFAR-100 benchmark**, which indicates that this is one of the datasets used. The introduction may provide additional context or mention other datasets, so I will read through it carefully.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **methodology** or **experiments** sections. In this paper, the authors describe their experiments in section 4, where they detail the datasets used for training and evaluation. 
+
+In section 4, the authors explicitly mention the following datasets:
+
+1. **CIFAR-100**: This dataset is used as the in-distribution (ID) training dataset. It consists of 60,000 32x32 color images in 100 classes, with 600 images per class.
+
+2. **CIFAR-10**: This dataset is also mentioned as another ID training dataset, consisting of 60,000 32x32 color images in 10 classes, with 6,000 images per class.
+
+3. **SVHN**: The Street View House Numbers dataset is used as an out-of-distribution (OOD) dataset. It contains over 600,000 digit images obtained from house numbers in Google Street View images.
+
+4. **Places365**: This dataset is used as another OOD dataset, consisting of 1.8 million images across 365 scene categories.
+
+5. **LSUN**: The Large-scale Scene Understanding dataset is mentioned as an OOD dataset, which contains millions of labeled images across various scene categories.
+
+6. **iSUN**: The iSUN dataset is also used as an OOD dataset, consisting of images from various categories, specifically designed for scene recognition.
+
+7. **Textures**: This dataset is included as an OOD dataset, which contains images of various textures.
+
+After identifying these datasets, I will check the **References section** of the paper to find the full citations for each dataset. This is crucial for proper attribution and to provide readers with the necessary information to access these datasets.
+
+The full citations for the datasets are as follows:
+
+- **CIFAR-100**: 
+  > Krizhevsky, A., Hinton, G. E., et al. (2009). *Learning multiple layers of features from tiny images*. 
+
+- **CIFAR-10**: 
+  > Krizhevsky, A., Hinton, G. E., et al. (2009). *Learning multiple layers of features from tiny images*.
+
+- **SVHN**: 
+  > Netzer, Y., Wang, T., Coates, A., Bissacco, A., Wu, B., & Ng, A. Y. (2011). *Reading digits in natural images with unsupervised feature learning*. 
+
+- **Places365**: 
+  > Zhou, B., Lapedriza, A., Khosla, A., Oliva, A., & Torralba, A. (2017). *Places: A 10 million image database for scene recognition*. 
+
+- **LSUN**: 
+  > Yu, F., & Seff, A. (2015). *LSUN: Construction of a large-scale image dataset using deep learning with humans in the loop*. 
+
+- **iSUN**: 
+  > Xu, P., Ehinger, K. A., Zhang, Y., Finkelstein, A., Kulkarni, S. R., & Xiao, J. (2015). *Turkergaze: Crowdsourcing saliency with webcam based eye tracking*. 
+
+- **Textures**: 
+  > Cimpoi, M., Maji, S., Kokkinos, I., Mohamed, S., & Vedaldi, A. (2014). *Describing textures in the wild*. 
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or processing.

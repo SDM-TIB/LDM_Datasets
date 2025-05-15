@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Multi-target Backdoor Attacks for Code Pre-trained Models" by Yanzhou Li et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and experimental setup sections** to locate any references to datasets. The abstract mentions evaluating the approach on "two code understanding tasks and three code generation tasks over seven datasets," which indicates that multiple datasets are involved.
+
+Next, I will focus on the **experimental setup section** where the authors describe the tasks and datasets used for evaluation. In this section, they specify that they evaluate their approach on two code understanding tasks (defect detection and clone detection) and three code generation tasks (Code2Code translation, code refinement, and Text2Code generation). They mention that the datasets for these tasks are sourced from **CodeXGLUE** and **Tufano et al. (2019)**.
+
+I will then look for specific mentions of datasets in the **methodology section**. The authors state that they use the **CodeSearchNet** dataset for poisoning data, which includes bimodal and unimodal data in various programming languages. They also mention that they combine the original dataset with the poisoned dataset for pre-training their models.
+
+Now, I will compile the information about the datasets:
+
+1. **CodeSearchNet**: This dataset is used for pre-training and includes 2.1 million bimodal data and 4.1 million unimodal data in programming languages such as Java, JavaScript, Python, PHP, Go, and Ruby. The dataset is referenced in the context of poisoning data for the backdoored models.
+
+2. **CodeXGLUE**: This benchmark dataset is used for evaluating the code understanding and generation tasks. It provides datasets for defect detection and clone detection tasks.
+
+3. **Tufano et al. (2019)**: This dataset is specifically mentioned for the code refinement task, where the authors use the original source code version rather than the code abstraction version listed in CodeXGLUE.
+
+Next, I will check the **References section** to ensure I have the full citations for these datasets:
+
+- For **CodeSearchNet**, the citation is:
+  > Husain, H., Wu, H.-H., Gazit, T., Allamanis, M., & Brockschmidt, M. (2019). CodeSearchNet challenge: Evaluating the state of semantic code search. arXiv preprint arXiv:1909.09436.
+
+- For **CodeXGLUE**, the citation is:
+  > Lu, S., Guo, D., Ren, S., Huang, J., Svyatkovskiy, A., Blanco, A., Clement, C., Drain, D., Jiang, D., Tang, D., et al. (2021). Codexglue: A machine learning benchmark dataset for code understanding and generation. In Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 1).
+
+- For **Tufano et al. (2019)**, the citation is:
+  > Tufano, M., Watson, C., Bavota, G., Di Penta, M., White, M., & Poshyvanyk, D. (2019). An empirical study on learning bug-fixing patches in the wild via neural machine translation. ACM Transactions on Software Engineering and Methodology (TOSEM), 28(4):1–29.
+
+After gathering all this information, I will create structured entries for each dataset, ensuring that I include the full citations as required. This will provide a comprehensive overview of the datasets utilized in the research paper.

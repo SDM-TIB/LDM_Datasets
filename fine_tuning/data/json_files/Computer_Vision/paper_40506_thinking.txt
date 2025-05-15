@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Boosted GAN with Semantically Interpretable Information for Image Inpainting" by Ang Li et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract discusses the use of semantically interpretable information for image inpainting, but it does not explicitly mention any datasets. However, the introduction hints at the use of auxiliary labeled datasets for training the model, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will look into the **methodology** section, particularly where the authors describe the inpainting network and the auxiliary embedding networks. Here, they mention the need for two auxiliary datasets: one labeled with attribute information and another with segmentation information. This indicates that these datasets are crucial for the model's training.
+
+In the **experiments** section, the authors provide details about the datasets used for training their models. They specifically mention:
+
+1. **CelebA**: This dataset is used to pretrain the attribute embedding network. It contains images of celebrity faces with annotations for various attributes.
+2. **Helen Face Dataset**: This dataset is used to pretrain the segmentation embedding network. It includes images of faces with detailed segmentation annotations.
+3. **Places2**: This dataset is used for training the inpainting model, focusing on scene categories.
+
+I will now check the **references section** to find the full citations for these datasets:
+
+- For **CelebA**, the citation is:
+  > Z. Liu, P. Luo, X. Wang, and X. Tang. "Deep learning face attributes in the wild." In Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2015.
+
+- For **Helen Face Dataset**, the citation is:
+  > B. M. Smith, L. Zhang, J. Brandt, Z. Lin, and J. Yang. "Exemplar-based face parsing." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2013.
+
+- For **Places2**, the citation is:
+  > B. Zhou, A. Lapedriza, A. Khosla, A. Oliva, and A. Torralba. "Places: A 10 million image database for scene recognition." IEEE Transactions on Pattern Analysis and Machine Intelligence, 2017.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use. This includes ensuring that each dataset is clearly described along with its full citation, which is essential for proper attribution in any subsequent analysis or application of the research findings.

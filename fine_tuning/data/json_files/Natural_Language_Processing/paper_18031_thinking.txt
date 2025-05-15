@@ -1,0 +1,43 @@
+To extract datasets from the research paper titled "Enhancing Evolving Domain Generalization through Dynamic Latent Representations" by Binghui Xie et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the research focus, and the introduction often outlines the context and significance of the datasets used.
+
+In the **introduction**, the authors discuss the challenges of domain generalization and mention the need for datasets that reflect evolving domains. This suggests that datasets are likely to be discussed in detail later in the paper.
+
+Next, I will focus on the **experiments section**, where the authors typically describe the datasets used for their experiments. In this section, they mention several datasets:
+
+1. **Circle Dataset**: This dataset includes 30 evolving domains, where data points are sampled from 30 2D Gaussian distributions. The concept shift is introduced by gradually changing the center and radius of the decision boundary over time.
+
+2. **Sine Dataset**: This dataset is extended to 24 evolving domains by rearranging it. The labels of Sine-C are reversed from the 6th domain to the last one to test the model's adaptability to sudden changes.
+
+3. **Rotated MNIST Dataset**: This dataset consists of MNIST digits with varying degrees of rotation, which serves as a benchmark for evaluating the model's performance on rotated images.
+
+4. **Portraits Dataset**: This dataset contains photos of high-school seniors from the 1900s to the 2000s, split into 34 domains based on a fixed interval over time for gender classification tasks.
+
+5. **Caltran Dataset**: A real-world surveillance dataset comprising images captured from a fixed traffic camera deployed in an intersection, divided into 34 domains based on different times.
+
+6. **Elec Dataset**: This dataset is designed for time-section prediction of current power supply based on hourly records from an Italian electricity company, split into 30 domains based on days.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and further exploration of the datasets.
+
+The citations for the datasets are as follows:
+
+- **Circle Dataset**: 
+  > Pesaranghader, A., & Viktor, H. L. (2016). Fast Hoeffding Drift Detection Method for Evolving Data Streams. In European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases.
+
+- **Sine Dataset**: 
+  > Pesaranghader, A., & Viktor, H. L. (2016). Fast Hoeffding Drift Detection Method for Evolving Data Streams. In European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases.
+
+- **Rotated MNIST Dataset**: 
+  > Ghifary, M., Kleijn, W. B., Zhang, M., & Balduzzi, D. (2015). Domain generalization for object recognition with multi-task autoencoders. In Proceedings of the IEEE International Conference on Computer Vision.
+
+- **Portraits Dataset**: 
+  > Ginosar, S., Rakelly, K., Sachs, S., Yin, B., & Efros, A. A. (2015). A century of portraits: A visual historical record of American high school yearbooks. In Proceedings of the IEEE International Conference on Computer Vision Workshops.
+
+- **Caltran Dataset**: 
+  > Hoffman, J., Darrell, T., & Saenko, K. (2014). Continuous manifold based adaptation for evolving visual domains. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition.
+
+- **Elec Dataset**: 
+  > Dau, H. A., Bagnall, A., Kamgar, K., Yeh, C.-C. M., Zhu, Y., Gharghabi, S., Ratanamahatana, C. A., & Keogh, E. (2019). The UCR time series archive. IEEE/CAA Journal of Automatica Sinica.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or analysis.

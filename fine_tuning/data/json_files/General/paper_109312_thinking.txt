@@ -1,0 +1,39 @@
+To extract datasets from the research paper titled "Compressing Sentence Representation for Semantic Retrieval via Homomorphic Projective Distillation" by Xuandong Zhao et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions evaluating the proposed method on semantic textual similarity (STS) and semantic retrieval (SR) tasks, which suggests that datasets are likely involved. 
+
+Next, I will look for specific mentions of datasets in the **experiments section**. In section 4 (Experiment), the authors detail their evaluation on standard STS tasks and SR tasks. They specifically mention using the following datasets:
+
+1. **NLI Dataset**: This dataset is a combination of the SNLI (Stanford Natural Language Inference) and MNLI (Multi-Genre Natural Language Inference) datasets. The SNLI dataset contains 570k sentence pairs, while the MNLI dataset has 430k sentence pairs. This dataset is crucial as it is used to train the teacher model.
+
+2. **STS Datasets**: The authors evaluate their model on several STS tasks, specifically mentioning:
+   - STS 2012 (Agirre et al., 2012)
+   - STS 2013 (Agirre et al., 2013)
+   - STS 2014 (Agirre et al., 2014)
+   - STS 2015 (Agirre et al., 2015)
+   - STS 2016 (Agirre et al., 2016)
+   - STS Benchmark (Cer et al., 2017)
+   - SICK-Relatedness (Marelli et al., 2014)
+
+3. **Quora Duplicate Questions Dataset**: This dataset is used for the semantic retrieval task, containing over 500k sentences with annotations on whether two questions are duplicates.
+
+Now, I will gather the full citations for these datasets from the **References section** of the paper:
+
+- For the **SNLI Dataset**:
+  > Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D. Manning. *A large annotated corpus for learning natural language inference*. In EMNLP, 2015.
+
+- For the **MNLI Dataset**:
+  > Adina Williams, Nikita Nangia, and Samuel R. Bowman. *A broad-coverage challenge corpus for sentence understanding through inference*. In NAACL, 2018.
+
+- For the **STS Datasets**:
+  > Eneko Agirre, Daniel Matthew Cer, Mona T. Diab, and Aitor Gonzalez-Agirre. *Semeval-2012 task 6: A pilot on semantic textual similarity*. In SemEval, 2012.
+  > Eneko Agirre, Carmen Banea, Daniel Matthew Cer, Mona T. Diab, Aitor Gonzalez-Agirre, and Rada Mihalcea. *Semeval-2013 task 10: Multilingual semantic textual similarity*. In SemEval, 2013.
+  > Eneko Agirre, Carmen Banea, Daniel Matthew Cer, Mona T. Diab, Aitor Gonzalez-Agirre, and Rada Mihalcea. *Semeval-2014 task 10: Multilingual semantic textual similarity*. In SemEval, 2014.
+  > Eneko Agirre, Carmen Banea, Daniel Matthew Cer, Mona T. Diab, Aitor Gonzalez-Agirre, and Rada Mihalcea. *Semeval-2015 task 2: Semantic textual similarity, English, Spanish and pilot on interpretability*. In SemEval, 2015.
+  > Eneko Agirre, Carmen Banea, Daniel Matthew Cer, Mona T. Diab, Aitor Gonzalez-Agirre, and Rada Mihalcea. *Semeval-2016 task 1: Semantic textual similarity, monolingual and cross-lingual evaluation*. In SemEval, 2016.
+  > Daniel Matthew Cer, Mona T. Diab, Eneko Agirre, Iñigo Lopez-Gazpio, and Lucia Specia. *Semeval-2017 task 1: Semantic textual similarity multilingual and crosslingual focused evaluation*. In SemEval, 2017.
+
+- For the **Quora Duplicate Questions Dataset**:
+  > Quora. *First Quora Dataset Release: Question Pairs*. Available at: https://quoradata.quora.com/First-Quora-Dataset-Release-Question-Pairs.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "iART: Learning from Demonstration for Assisted Robotic Therapy Using LSTM" by Shrey Pareek and Thenkurussi Kesavadas, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experimental evaluation sections** to identify any datasets mentioned. The abstract provides a brief overview of the system and its capabilities, but I need to look for specific datasets used in the experiments.
+
+In the **introduction**, the authors discuss the context of robotic therapy and the importance of learning from demonstrations, but they do not mention specific datasets yet. I will continue to the methodology section.
+
+In the **methodology**, particularly in the **Demonstration Phase**, the authors describe how the data is collected during the interaction between the therapist and the patient. They mention that various local states are logged at a sampling rate of 30 Hz, which indicates that they are collecting data during the experiments, but they do not specify a named dataset.
+
+Next, I will check the **experimental evaluation section**. Here, the authors describe the experiments conducted with nine healthy subjects, but again, they do not explicitly name any datasets. However, they mention that state-action pairs collected during the execution of the first trajectory serve as the training dataset for the LSTM network. This indicates that the data collected during the experiments is used as a dataset, but it lacks a formal name.
+
+Since the paper does not provide specific dataset names, I will look at the **References section** to see if any datasets are cited in relation to the experiments. However, the references primarily cite other research papers and methodologies rather than specific datasets.
+
+After reviewing the entire paper, it appears that the authors did not use any publicly available datasets but instead created their own dataset from the experiments conducted with the subjects. Therefore, I will note that the dataset is derived from the experimental setup and is not formally named.
+
+Now, I will compile the information regarding the dataset into a structured format, ensuring to include the context of how the dataset was created and its relevance to the experiments conducted in the paper.
+
+In summary, the dataset extracted from this paper is:
+- **Dataset Name**: Not explicitly named; derived from experimental data collected during the demonstration phase.
+- **Description**: State-action pairs collected from nine healthy subjects during a 2-minute trajectory tracking task, logged at a sampling rate of 30 Hz.
+
+Since there are no formal citations for a named dataset, I will note that the dataset is unique to this study and does not have a reference to an external source.

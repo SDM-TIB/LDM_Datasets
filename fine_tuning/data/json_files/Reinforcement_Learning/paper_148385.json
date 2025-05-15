@@ -1,0 +1,89 @@
+[
+    {
+        "dcterms:creator": [
+            "Marek Grze´s",
+            "Daniel Kudenko"
+        ],
+        "dcterms:description": "In the Mountain Car environment, the agent is positioned somewhere inside a valley and must reach the top of the right hand side. The state-space consists of the x-position and velocity of the car. The agent has three actions, left, neutral and right, indicating an amount of force to apply in the designated direction. A reward of -1 is received after each action the agent makes. An episode terminates upon reaching an x-position of 0.5 or after 200 steps have elapsed.",
+        "dcterms:title": "Mountain Car",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Continuous Control"
+        ],
+        "dcat:keyword": [
+            "Mountain Car",
+            "Reinforcement Learning",
+            "Continuous Control",
+            "State Space",
+            "Agent Dynamics"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Control",
+            "Navigation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Marek Grze´s",
+            "Daniel Kudenko"
+        ],
+        "dcterms:description": "In the Continuous Puddle World environment, the agent is situated on a two-dimensional plane, ranging on values from (0, 0) to (1, 1). The agent begins in the bottom left quadrant and must reach very close to (1, 1). There are 5 discrete actions available to the agent; the agent may move in any cardinal directions (by a randomly determined, but bounded amount), as well as standing still. The agent receives a reward of -1 for each step, as well as additional negative reward based on how deep into the puddle the agent is.",
+        "dcterms:title": "Puddle World",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Continuous Control"
+        ],
+        "dcat:keyword": [
+            "Puddle World",
+            "Reinforcement Learning",
+            "Continuous Control",
+            "State Space",
+            "Agent Dynamics"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Control",
+            "Navigation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Marek Grze´s",
+            "Daniel Kudenko"
+        ],
+        "dcterms:description": "In the catcher game, the agent embodies a one-dimensional, horizontal line. Small squares fall from above the agent, perpendicular to the agent’s axis of movement. The agent’s goal is to move itself to intercept the falling square. The state-space consists of the agent’s x position and velocity, as well as the square’s x and y position. For each square the agent intercepts, it receives a reward of 1. For each square that it misses it receives a reward of -1.",
+        "dcterms:title": "Catcher",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Continuous Control"
+        ],
+        "dcat:keyword": [
+            "Catcher",
+            "Reinforcement Learning",
+            "Continuous Control",
+            "State Space",
+            "Agent Dynamics"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Control",
+            "Navigation"
+        ]
+    }
+]

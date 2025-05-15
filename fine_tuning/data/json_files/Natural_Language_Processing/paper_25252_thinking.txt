@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Pathology-knowledge Enhanced Multi-instance Prompt Learning for Few-shot Whole Slide Image Classification" by Linhao Qu et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions the challenges of limited Whole Slide Images (WSIs) for effective training, indicating that datasets are likely discussed in detail later in the paper.
+
+Next, I will focus on the **experiments section**, specifically looking for any mention of datasets used for evaluation. In this section, the authors state that they address three clinical tasks across five tumor types using both in-house datasets and public datasets. This suggests that there are multiple datasets involved.
+
+I will then look for a dedicated **datasets section** or any subsections that explicitly list the datasets. In the experiments section, the authors mention:
+
+1. **In-house Dataset**: This dataset is used for predicting patient survival prognosis and lymph node metastasis from H&E slides of early-stage cervical cancer. The paper states that for testing, they used 80 cases for prognosis and 74 cases for lymph node metastasis.
+
+2. **TCGA-CESC Dataset**: This is a public dataset used in conjunction with the in-house dataset for the same tasks. The authors clarify that the prompts utilized in the public TCGA datasets are the same as those used in the corresponding in-house datasets.
+
+3. **Round Cell Tumor Dataset**: This dataset is used for classifying round cell tumors into subtypes, with 112 cases mentioned for testing.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The paper does not provide specific citations for the in-house dataset, as it is likely a proprietary dataset created by the authors. However, the citation for the TCGA-CESC dataset is as follows:
+
+- For **TCGA-CESC Dataset**, the citation is:
+  > The Cancer Genome Atlas Research Network. *The Cancer Genome Atlas: Comprehensive genomic characterization of cervical squamous cell carcinoma*. Nature 2015.
+
+The in-house dataset does not have a formal citation since it is not publicly available, but I will note that it is used for specific clinical tasks as described.
+
+Finally, I will compile the dataset entries, ensuring that I include the full citation for the TCGA-CESC dataset and a description for the in-house dataset, even if it lacks a formal citation. This will provide a comprehensive overview of the datasets utilized in the research.

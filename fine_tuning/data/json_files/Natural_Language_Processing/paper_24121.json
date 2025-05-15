@@ -1,0 +1,206 @@
+[
+    {
+        "dcterms:creator": [
+            "Prithviraj Sen",
+            "Galileo Namata",
+            "Mustafa Bilgic",
+            "Lise Getoor",
+            "Brian Galligher",
+            "Tina Eliassi-Rad"
+        ],
+        "dcterms:description": "Cora dataset contains 2,708 scientific publications classified into seven classes: case-based, genetic algorithms, neural networks, probabilistic methods, reinforcement learning, rule learning, and theory. Each paper in the citation network cites or is cited by at least one other paper, resulting in a total of 5,429 edges.",
+        "dcterms:title": "Cora",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Scientific Publications",
+            "Citation Networks"
+        ],
+        "dcat:keyword": [
+            "Graph Dataset",
+            "Node Classification",
+            "Citation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Péter Mernyei",
+            "C˘at˘alina Cangea"
+        ],
+        "dcterms:description": "WikiCS dataset is a Wikipedia-based dataset designed for benchmarking Graph Neural Networks, consisting of 10 computer science branches as classes with high connectivity. Node features are derived from the corresponding article texts.",
+        "dcterms:title": "WikiCS",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Wikipedia",
+            "Graph Neural Networks"
+        ],
+        "dcat:keyword": [
+            "Graph Dataset",
+            "Node Classification",
+            "Wikipedia"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "C. Lee Giles",
+            "Kurt D. Bollacker",
+            "Steve Lawrence"
+        ],
+        "dcterms:description": "CiteSeer dataset comprises 3,186 scientific publications categorized into six areas: Agents, Machine Learning, Information Retrieval, Database, Human Computer Interaction, and Artificial Intelligence, with the task of classifying each paper based on its title and abstract.",
+        "dcterms:title": "CiteSeer",
+        "dcterms:issued": "1998",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Scientific Publications",
+            "Citation Networks"
+        ],
+        "dcat:keyword": [
+            "Graph Dataset",
+            "Node Classification",
+            "Citation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Xiaoxin He",
+            "Xavier Bresson",
+            "Thomas Laurent",
+            "Adam Perold",
+            "Yann LeCun",
+            "Bryan Hooi"
+        ],
+        "dcterms:description": "ArXiv-2023 dataset is a directed graph representing the citation network of computer science arXiv papers published in 2023 or later. The goal is to classify each paper into one of 40 subject areas such as cs.AI, cs.LG, and cs.OS.",
+        "dcterms:title": "ArXiv-2023",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Scientific Publications",
+            "Citation Networks"
+        ],
+        "dcat:keyword": [
+            "Graph Dataset",
+            "Node Classification",
+            "Citation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Jianmo Ni",
+            "Jiacheng Li",
+            "Julian McAuley"
+        ],
+        "dcterms:description": "Ele-Photo dataset consists of nodes representing electronics products, with edges indicating frequent co-purchases or co-views. Each node is labeled according to a three-level classification of electronics products.",
+        "dcterms:title": "Ele-Photo",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "E-commerce",
+            "Product Recommendations"
+        ],
+        "dcat:keyword": [
+            "Graph Dataset",
+            "Node Classification",
+            "E-commerce"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Will Hu",
+            "Matthias Fey",
+            "Marinka Zitnik",
+            "Yuxiao Dong",
+            "Hongyu Ren",
+            "Bowen Liu",
+            "Michele Catasta",
+            "Jure Leskovec"
+        ],
+        "dcterms:description": "OGBN-Products dataset is reduced using a node sampling strategy to create the OGBN-Products (subset) with 54k nodes and 74k edges. Each node represents an Amazon product, with edges denoting co-purchases.",
+        "dcterms:title": "OGBN-Products (subset)",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "E-commerce",
+            "Product Recommendations"
+        ],
+        "dcat:keyword": [
+            "Graph Dataset",
+            "Node Classification",
+            "E-commerce"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Will Hu",
+            "Matthias Fey",
+            "Marinka Zitnik",
+            "Yuxiao Dong",
+            "Hongyu Ren",
+            "Bowen Liu",
+            "Michele Catasta",
+            "Jure Leskovec"
+        ],
+        "dcterms:description": "OGBN-ArXiv dataset is a directed graph depicting the citation network among computer science arXiv papers indexed by MAG. The goal is to classify papers into one of 40 subject areas like cs.AI, cs.LG, and cs.OS.",
+        "dcterms:title": "OGBN-ArXiv",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Scientific Publications",
+            "Citation Networks"
+        ],
+        "dcat:keyword": [
+            "Graph Dataset",
+            "Node Classification",
+            "Citation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Node Classification"
+        ]
+    }
+]

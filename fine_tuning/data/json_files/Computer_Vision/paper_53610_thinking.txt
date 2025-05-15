@@ -1,0 +1,43 @@
+To extract datasets from the research paper titled "SemiCurv: Semi-Supervised Curvilinear Structure Segmentation" by Xun Xu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors evaluate their method on six curvilinear segmentation datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **methodology** or **experiments** sections. In this case, the authors explicitly mention six datasets in the **Experiments** section, specifically in subsection A titled "Datasets." Here, they provide a brief description of each dataset used for evaluation.
+
+The datasets mentioned are:
+
+1. **CrackForest**: This dataset consists of 118 labeled images for crack segmentation from paved road images. The authors created a data split for evaluating semi-supervised segmentation by randomly splitting the dataset into 80% for training, 10% for validation, and 10% for testing.
+
+2. **Crack500**: A more comprehensive dataset with 1896 labeled road crack images, split into training, validation, and testing sets.
+
+3. **Gaps384**: Created from a larger dataset, GAPS, this dataset contains 508 annotated images specifically cropped for crack detection.
+
+4. **MIT Road**: This dataset is used for automatically extracting roads from satellite images, consisting of 6880 labeled images, which were preprocessed to crop non-blank regions.
+
+5. **EM128**: This dataset consists of 30 labeled images for evaluating segmentation on cell membranes, with a derived dataset created by dividing each image into smaller regions.
+
+6. **DRIVE128**: Developed for evaluating segmentation on retinal blood vessels, this dataset consists of 20 labeled images, which were split into training and testing sets.
+
+After identifying the datasets, I will check the **References section** of the paper to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The full citations for the datasets are as follows:
+
+- **CrackForest**: 
+  > F. Yang, L. Zhang, S. Yu, D. Prokhorov, X. Mei, and H. Ling. "Feature pyramid and hierarchical boosting network for pavement crack detection." *IEEE Transactions on Intelligent Transportation Systems*, 2019.
+
+- **Crack500**: 
+  > F. Wang, Y. Gu, W. Liu, Y. Yu, S. He, and J. Pan. "Context-aware spatio-recurrent curvilinear structure segmentation." In *IEEE Conference on Computer Vision and Pattern Recognition*, 2019.
+
+- **Gaps384**: 
+  > M. Eisenbach, R. Stricker, D. Seichter, K. Amende, K. Debes, M. Sesselmann, D. Ebersbach, U. Stoeckert, and H.-M. Gross. "How to get pavement distress detection ready for deep learning? A systematic approach." In *International Joint Conference on Neural Networks*, 2017.
+
+- **MIT Road**: 
+  > V. Mnih and G. E. Hinton. "Learning to detect roads in high-resolution aerial images." In *European Conference on Computer Vision*, 2010.
+
+- **EM128**: 
+  > I. Arganda-Carreras, S. C. Turaga, D. R. Berger, D. Cires¸an, A. Giusti, L. M. Gambardella, J. Schmidhuber, D. Laptev, S. Dwivedi, J. M. Buhmann et al. "Crowdsourcing the creation of image segmentation algorithms for connectomics." *Frontiers in neuroanatomy*, 2015.
+
+- **DRIVE128**: 
+  > J. Staal, M. D. Abr`amoff, M. Niemeijer, M. A. Viergever, and B. Van Ginneken. "Ridge-based vessel segmentation in color images of the retina." *IEEE Transactions on Medical Imaging*, 2004.
+
+Now that I have gathered all the necessary information about the datasets and their citations, I will compile this into a structured format for further use or processing.

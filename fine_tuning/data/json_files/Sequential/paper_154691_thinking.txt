@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "Stateless Neural Meta-Learning using Second-Order Gradients" by Mike Huisman et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract discusses the performance of the proposed TURTLE algorithm on various benchmarks, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (Section 5), where the authors describe their experimental setup. In this section, they mention two specific problems: **sine wave regression** and **image classification**. I will look for any datasets associated with these problems.
+
+1. **Sine Wave Regression**: The authors state that they generated 70,000 random sine tasks for meta-training, 1,000 tasks for meta-validation, and 2,000 tasks for meta-testing. However, they do not provide a formal dataset citation since these tasks are generated rather than sourced from a pre-existing dataset.
+
+2. **Image Classification**: The authors mention using the **miniImageNet** and **CUB** datasets for their experiments. I will extract details about these datasets:
+   - **miniImageNet**: This dataset is commonly used in few-shot learning and is referenced in the paper. The citation for miniImageNet is:
+     > Vinyals, O., Blundell, C., Lillicrap, T., Kavukcuoglu, K., & Wierstra, D. (2016). Matching Networks for One Shot Learning. In Advances in Neural Information Processing Systems 29, NIPS’16, pp. 3637–3645.
+   - **CUB (Caltech-UCSD Birds-200-2011)**: This dataset is also mentioned in the context of image classification. The citation for CUB is:
+     > Wah, C., Branson, S., Welinder, P., Perona, P., & Belongie, S. (2011). The Caltech-UCSD Birds-200-2011 Dataset. Technical Report CNS-TR-2011-001, California Institute of Technology.
+
+After identifying these datasets, I will ensure that I have the correct citations for each and summarize the relevant details about their use in the experiments.
+
+Finally, I will compile the dataset entries into a structured format for clarity and future reference, ensuring that each dataset is accompanied by its full citation.

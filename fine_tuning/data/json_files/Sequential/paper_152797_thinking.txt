@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Deep Speaker Embedding Learning with Multi-Level Pooling for Text-Independent Speaker Verification" by Yun Tang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract mentions improvements on the x-vector model and references evaluations on the NIST SRE 2016 eval test and SRE 2018 dev test, indicating that these are likely datasets used in the study.
+
+Next, I will focus on **section 4.1 (Data set)**, where the authors provide details about the datasets used for their experiments. Here, they mention:
+
+1. **NIST SRE 2016 eval test**: This dataset includes Tagalog and Cantonese telephone speech, which is used to evaluate the performance of the proposed model.
+
+2. **NIST SRE 2018 dev test**: Specifically, the authors refer to the Call My Net2 (CMN2) portion of the development dataset, which consists of PSTN and VOIP data collected outside North America, spoken in Tunisian Arabic.
+
+Additionally, the authors describe a large training dataset formed from various publicly available sources, including:
+
+- SRE data from years 2004 to 2006, 2008, 2010
+- All Switchboard data
+- All Fisher data
+- All Voxceleb data
+
+This dataset comprises approximately 13,564 hours of audio from a total of 20,803 speakers.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For the **NIST SRE 2016 eval test** and **NIST SRE 2018 dev test**, the citation is:
+  > NIST. "The NIST Speaker Recognition Evaluation Series." Available at: https://www.nist.gov/itl/iad/mig/speaker-recognition-evaluations.
+
+- For the **SRE data** and other datasets mentioned, the citation is:
+  > Snyder, D., Garcia-Romero, D., Sell, G., Povey, D., & Khudanpur, S. (2018). "X-vectors: Robust DNN embeddings for speaker recognition." In ICASSP 2018.
+
+With this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research paper.

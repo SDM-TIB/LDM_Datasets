@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Multistream CNN for Robust Acoustic Modeling" by Kyu J. Han et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and data sections** to locate any references to datasets. The abstract mentions improvements in word error rates (WER) on the **LibriSpeech corpus** and custom data from ASAPP's production ASR system, indicating that these are datasets used in the research.
+
+Next, I will focus on **section 2 (Data and Experimental Setups)**, where the authors provide detailed descriptions of the datasets used:
+
+1. **LibriSpeech Corpus**: This dataset is described as a collection of approximately 1,000 hours of read speech from audiobooks, sampled at 16kHz. It includes various subsets for evaluation, such as clean and other categories.
+
+2. **Switchboard-1 Release 2**: This dataset, referenced as LDC97S62, along with the **Fisher English Training Part 1 and 2** (LDC2004S13, LDC2004T19, LDC2005S13, LDC2005T19), totals around 2,000 hours of telephony speech sampled at 8kHz. The authors also mention using the **HUB5 eval2000 data** (LDC2002S09, LDC2002T43) for evaluation.
+
+3. **Custom ASAPP Data**: The authors collected approximately 500 hours of 8kHz audio from their production ASR system, with a specific evaluation set of 10 hours of audio.
+
+After identifying these datasets, I will check the **References section** for full citations to ensure proper attribution:
+
+- For the **LibriSpeech Corpus**, the citation is:
+  > Vassil Panayotov, Guoguo Chen, Daniel Povey, and Sanjeev Khudanpur. *LibriSpeech: An ASR corpus based on public domain audio books*. In Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 5206–5210, 2015.
+
+- For the **Switchboard-1 Release 2** and **Fisher datasets**, the citations are:
+  > The Linguistic Data Consortium. *Switchboard-1 Release 2 (LDC97S62)*. 1997.
+  > The Linguistic Data Consortium. *Fisher English Training Part 1 and 2 (LDC2004S13, LDC2004T19, LDC2005S13, LDC2005T19)*. 2004-2005.
+
+- For the **HUB5 eval2000 data**, the citation is:
+  > The Linguistic Data Consortium. *HUB5 eval2000 (LDC2002S09, LDC2002T43)*. 2002.
+
+Now, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will prepare the information for structured output or further processing.

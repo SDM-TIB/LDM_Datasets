@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Game State Learning via Game Scene Augmentation" by Chintan Trivedi et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to identify any datasets that are explicitly named or described. The abstract mentions the use of the **CARLA driving simulator environment**, which suggests that this is a key dataset used in the study.
+
+Next, I will focus on the **introduction** section, where the authors discuss the challenges of obtaining game state information from on-screen footage and the advancements in computer vision. They mention using the CARLA simulator, which indicates that it is a significant dataset for their experiments.
+
+In the **methodology section**, the authors describe how they utilize the CARLA simulator to generate images for testing their contrastive learning methods. They mention collecting RGB images and traffic variables from the CARLA environment, which further confirms the use of this dataset.
+
+I will also check the **results section**, where the authors present findings based on the data collected from CARLA. They refer to the evaluation dataset created in CARLA, which includes synchronized traffic variables collected alongside the images. This dataset is crucial for their analysis and conclusions.
+
+Now, I will compile the details of the dataset:
+
+1. **CARLA Driving Simulator**: This dataset is used for testing the GameCLR and SimCLR methods. It provides access to a variety of game states through its Unreal engine, allowing the authors to generate images and collect traffic variables. The dataset includes RGB images and six synchronized traffic variables: Distance and Direction for vehicles on the left, front, and right of the ego-vehicle.
+
+Next, I will consult the **References section** to retrieve the full citation for the CARLA dataset:
+
+- For the **CARLA Driving Simulator**, the citation is:
+  > Alexey Dosovitskiy, German Ros, Felipe Codevilla, Antonio Lopez, and Vladlen Koltun. *CARLA: An open urban driving simulator*. In Proceedings of the Conference on Robot Learning (CoRL), 2017.
+
+After gathering this information, I will prepare to create entries for the dataset using the required format, ensuring that I include the full citation for the CARLA dataset as it is essential for proper attribution and reference.

@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Multi-Robot Collaborative Perception with Graph Neural Networks" by Yang Zhou et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract mentions that the authors conducted experiments using both simulated and real-world data, which indicates that datasets are likely discussed in detail later in the paper.
+
+Next, I will focus on **section IV (Experiments)**, where the authors describe the datasets used for their experiments. They mention that they collected both photo-realistic simulation data and real-world data. Specifically, they outline four datasets with different properties:
+
+1. **Airsim-MAP Dataset**: This dataset contains images from five robots flying in a city environment, with added Gaussian noise and blurring to simulate sensor corruption. The authors reference a previous work for this dataset.
+
+2. **Industrial Datasets**: These include three datasets generated using the Flightmare simulator: 
+   - **Industrial-pose Dataset**: Features variations in relative poses among robots.
+   - **Industrial-circle Dataset**: Robots form a circle with significant overlapping fields of view.
+   - **Industrial-rotation Dataset**: Robots point outward from the circle, with less overlap.
+
+3. **ARPL-r4 Dataset**: This real-world dataset was collected in an indoor flying arena using multiple aerial robots equipped with RGB cameras. The authors mention that this dataset is used to validate their method in real-world scenarios.
+
+Now, I will look for the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For the **Airsim-MAP Dataset**, the citation is:
+  > Liu, Y.-C., Tian, J., Glaser, N., & Kira, Z. (2020). Who2com: Collaborative Perception via Learnable Handshake Communication. In IEEE International Conference on Robotics and Automation (ICRA), pp. 6876–6883.
+
+- For the **Industrial Datasets**, the citation for the Flightmare simulator is:
+  > Song, Y., Naji, S., Kaufmann, E., Loquercio, A., & Scaramuzza, D. (2020). Flightmare: A Flexible Quadrotor Simulator. Conference on Robot Learning (CoRL).
+
+- For the **ARPL-r4 Dataset**, the citation is:
+  > Loianno, G., Brunner, C., McGrath, G., & Kumar, V. (2017). Estimation, control, and planning for aggressive flight with a small quadrotor with a single camera and imu. IEEE Robotics and Automation Letters, 2(2), 404–411.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This will provide a comprehensive overview of the datasets used in the research paper, ready for further processing or review.

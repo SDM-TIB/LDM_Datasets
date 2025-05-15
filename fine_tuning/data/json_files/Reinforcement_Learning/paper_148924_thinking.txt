@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Memory-based Deep Reinforcement Learning for POMDPs" by Lingheng Meng et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to see if any datasets are explicitly mentioned. The abstract provides a brief overview of the research, and the introduction often discusses the context and relevance of the datasets used.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for their evaluations. In this paper, the authors mention several tasks from the **PyBullet-Gym** environment, which indicates that the datasets are likely related to these tasks.
+
+I will look for specific mentions of datasets or environments in the **experiments section** and any tables that summarize the tasks. For instance, the paper lists various tasks such as **HalfCheetahPyBulletEnv-v0**, **AntPyBulletEnv-v0**, **HopperPyBulletEnv-v0**, and **Walker2DPyBulletEnv-v0**. These tasks are part of the PyBullet simulation environment, which serves as the dataset for the experiments.
+
+Next, I will check the **references section** to find full citations for the datasets or environments mentioned. Since the datasets are derived from the PyBullet-Gym, I will look for the original source or documentation that describes these environments.
+
+The relevant citations for the datasets are as follows:
+
+1. **PyBullet-Gym**: 
+   > Benelot, S. (2018). *PyBullet: A Python module for physics simulation for games, robotics and machine learning*. Retrieved from https://github.com/bulletphysics/bullet3
+
+2. **OpenAI Gym** (for context on the environments):
+   > Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., & Zaremba, W. (2016). *OpenAI Gym*. arXiv preprint arXiv:1606.01540.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use.
+
+In summary, the datasets extracted from the paper include the environments from the PyBullet-Gym, which are used for evaluating the proposed LSTM-TD3 algorithm in the context of POMDPs. The full citations for these datasets are crucial for proper attribution and further exploration.

@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Bursting the Burden Bubble? An Assessment of Sharma et al.’s Counterfactual-Based Fairness Metric" by Yochem van Rosmalen et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors used **three datasets**: two synthetic datasets and one real-world dataset. This is a good starting point for identifying the datasets.
+
+Next, I will look specifically in **section 3 (Methods)**, where the authors describe the datasets in detail. They mention the creation of two synthetic datasets, **DA** and **DB**, and provide a description of the **Default of Credit Card Clients dataset** (also referred to as the Taiwan dataset).
+
+1. **Synthetic Dataset DA**: This dataset is designed to demonstrate a scenario where Burden disagrees with statistical parity regarding the presence of unfairness. It consists of 80 datapoints, each with three features and a binary label.
+
+2. **Synthetic Dataset DB**: Similar to DA, this dataset also contains 80 datapoints and is structured to show a disagreement between Burden and statistical parity regarding which group is treated unfairly.
+
+3. **Default of Credit Card Clients Dataset**: This real-world dataset contains 30,000 instances of credit card users, focusing on whether individuals default on a loan. The sensitive attributes include gender, education, marriage, and age. The authors mention that they used a random sample of 1,000 instances for their analysis.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Default of Credit Card Clients dataset**, the citation is:
+  > Yeh, I.C., Lien, C.H. (2009). *The Comparisons of Data Mining Techniques for the Predictive Accuracy of Probability of Default of Credit Card Clients*. Expert Systems with Applications, 36(2), 2473–2480. https://doi.org/10.1016/j.eswa.2007.12.020
+
+The synthetic datasets (DA and DB) do not have formal citations since they were created for the purpose of this study, but I will note that they are described in the paper.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citation for the Default of Credit Card Clients dataset and a note about the synthetic datasets being created for the study.

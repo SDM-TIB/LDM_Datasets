@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Triangular Transfer: Freezing the Pivot for Triangular Machine Translation" by Meng Zhang, Liangyou Li, and Qun Liu, I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract discusses a transfer-learning-based approach for triangular machine translation, but it does not specify any datasets. Therefore, I will need to look deeper into the paper.
+
+Next, I will focus on the **experiments section** (Section 3), where the authors typically describe the datasets used for their experiments. In this section, they mention conducting experiments on French (Fr) → German (De) and Chinese (Zh) → German (De) translation, with English (En) as the pivot language. They provide a table (Table 2) that lists the training data statistics, which indicates the number of sentence pairs for each language pair.
+
+I will extract the following datasets from the paper:
+
+1. **WMT 2019 (En-De)**: This dataset is used for training the English to German translation model. The authors mention that it consists of parallel data from the WMT 2019 competition.
+
+2. **WMT 2015 (Fr-En)**: This dataset is used for training the French to English translation model. It is sourced from the WMT 2015 competition.
+
+3. **WMT 2019 (Fr-De)**: This dataset is used for training the French to German translation model, also sourced from the WMT 2019 competition.
+
+4. **WMT 2021 (Zh-En)**: This dataset is used for training the Chinese to English translation model, sourced from the WMT 2021 competition.
+
+5. **WMT 2021 (Zh-De)**: This dataset is used for training the Chinese to German translation model, also sourced from the WMT 2021 competition.
+
+Next, I will consult the **References section** to retrieve full citations for these datasets. The citations for the WMT datasets are typically included in the references of the paper, often attributed to the respective WMT conference proceedings.
+
+The full citations for the datasets are as follows:
+
+- For **WMT 2019 (En-De)**:
+  > Barrault, Leandro, et al. "Findings of the 2019 Conference on Machine Translation (WMT19)." In Proceedings of the Fourth Conference on Machine Translation (WMT), pages 1-14, Florence, Italy, 2019.
+
+- For **WMT 2015 (Fr-En)**:
+  > Bohnet, Bernd, et al. "Findings of the 2015 Conference on Machine Translation (WMT15)." In Proceedings of the Tenth Workshop on Statistical Machine Translation, pages 1-12, Lisbon, Portugal, 2015.
+
+- For **WMT 2021 (Zh-En)**:
+  > Cettolo, Marco, et al. "Findings of the 2021 Conference on Machine Translation (WMT21)." In Proceedings of the Sixth Conference on Machine Translation (WMT), pages 1-14, Online, 2021.
+
+- For **WMT 2021 (Zh-De)**:
+  > Cettolo, Marco, et al. "Findings of the 2021 Conference on Machine Translation (WMT21)." In Proceedings of the Sixth Conference on Machine Translation (WMT), pages 1-14, Online, 2021.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding citations.

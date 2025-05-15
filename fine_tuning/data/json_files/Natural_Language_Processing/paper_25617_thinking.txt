@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "MIBench: Evaluating Multimodal Large Language Models over Multiple Images" by Haowei Liu et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets that are mentioned or implied. The abstract indicates the creation of a benchmark called **MIBench**, which suggests that there are datasets involved in its construction.
+
+Next, I will focus on the **methodology sections**, particularly **section 3 (MIBench)**, where the authors describe the tasks and the datasets used for data construction. Here, they mention that they sampled images from **nine existing datasets** for the Multi-Image Instruction (MII) and Multimodal Knowledge-Seeking (MKS) scenarios. I will look for specific names of these datasets.
+
+In **section 3.1**, the authors detail the tasks and the datasets used for each task:
+
+1. **NLVR2**: Used for the General Comparison (GC) task. This dataset is referenced as:
+   > Alane Suhr, Stephanie Zhou, Ally Zhang, Iris Zhang, Huajun Bai, and Yoav Artzi. *A corpus for reasoning about natural language grounded in photographs*. arXiv preprint arXiv:1811.00491, 2018.
+
+2. **MagicBrush**: Used for the Subtle Difference (SD) task. The citation is:
+   > Kai Zhang, Lingbo Mo, Wenhu Chen, Huan Sun, and Yu Su. *Magicbrush: A manually annotated dataset for instruction-guided image editing*. Advances in Neural Information Processing Systems, 36, 2024.
+
+3. **VrR-VG**: Used for the Visual Referring (VR) task. The citation is:
+   > Yuanzhi Liang, Yalong Bai, Wei Zhang, Xueming Qian, Li Zhu, and Tao Mei. *Vrr-vg: Refocusing visually-relevant relationships*. In Proceedings of the IEEE/CVF international conference on computer vision, pages 10403–10412, 2019.
+
+4. **Something-Something V2**: Used for the Temporal Reasoning (TR) task. The citation is:
+   > Raghav Goyal, Samira Ebrahimi Kahou, Vincent Michalski, Joanna Materzynska, Susanne Westphal, Heuna Kim, Valentin Haenel, Ingo Fruend, Peter Yianilos, Moritz Mueller-Freitag, et al. *The "something something" video database for learning and evaluating visual common sense*. In Proceedings of the IEEE international conference on computer vision, pages 5842–5850, 2017.
+
+5. **NExT-QA**: Used for the Logical Reasoning (LR) task. The citation is:
+   > Junbin Xiao, Xindi Shang, Angela Yao, and Tat-Seng Chua. *Next-qa: Next phase of question-answering to explaining temporal actions*. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 9777–9786, 2021.
+
+In **section 3.2**, the authors mention that they used a combination of several fine-grained recognition datasets for the Fine-Grained Visual Recognition (FVR) task, but they do not specify the names of these datasets in this section.
+
+For the **Text-Rich Images (TRI) VQA task**, they use the **Slide-VQA** dataset, which is cited as:
+   > Ryota Tanaka, Kyosuke Nishida, Kosuke Nishida, Taku Hasegawa, Itsumi Saito, and Kuniko Saito. *Slidevqa: A dataset for document visual question answering on multiple images*. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 37, pages 13636–13645, 2023.
+
+For the **Vision-linked Textual Knowledge (VTK)** task, the **InfoSeek** dataset is used, cited as:
+   > Yang Chen, Hexiang Hu, Yi Luan, Haitian Sun, Soravit Changpinyo, Alan Ritter, and Ming-Wei Chang. *Can pre-trained vision and language models answer visual information-seeking questions?* arXiv preprint arXiv:2302.11713, 2023.
+
+For the **Text-linked Visual Knowledge (TVK)** task, the **WebQA** dataset is referenced:
+   > Yifan Li, Yifan Du, Kun Zhou, Jinpeng Wang, Wayne Xin Zhao, and Ji-Rong Wen. *Evaluating object hallucination in large vision-language models*. arXiv preprint arXiv:2305.10355, 2023.
+
+Finally, I will compile the dataset entries along with their full citations into a structured format for clarity and future reference. This will ensure that all datasets are accurately represented and properly cited.

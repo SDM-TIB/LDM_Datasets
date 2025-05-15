@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Learning to Correct for QA Reasoning with Black-box LLMs" by Jaehyung Kim et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** and **introduction** sections to get an overview of the research focus and any datasets that might be referenced. The abstract mentions that the authors demonstrate the effectiveness of their method across various QA benchmarks, which suggests that datasets are involved.
+
+Next, I will examine the **experiments section** (Section 4) closely, as this is where datasets are typically detailed. In this section, the authors explicitly mention four different QA tasks: **StrategyQA**, **GSM8K**, **TruthfulQA**, and **ScienceQA**. I will take note of each dataset's purpose and characteristics as described in the paper.
+
+For each dataset, I will summarize the key details:
+
+1. **StrategyQA**: This dataset focuses on implicit multi-hop reasoning for strategy-based questions. It consists of binary true/false questions and requires models to infer unspoken premises.
+
+2. **GSM8K**: A collection of grade school math word problems that require multi-step reasoning and mathematical computations. It includes a variety of linguistic styles.
+
+3. **TruthfulQA**: This dataset assesses a model's ability to produce truthful and factual answers, targeting the common issue of generating plausible yet incorrect responses.
+
+4. **ScienceQA**: A multi-modal question-answering dataset centered on science topics, which includes annotated answers and explanations.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and will be formatted as follows:
+
+- For **StrategyQA**, the citation is:
+  > Geva, M., Khashabi, D., Segal, E., Khot, T., & Roth, D. (2021). Did Aristotle use a laptop? A question answering benchmark with implicit reasoning strategies. *Transactions of the Association for Computational Linguistics*, 9, 346–361.
+
+- For **GSM8K**, the citation is:
+  > Cobbe, K., Kosaraju, V., Bavarian, M., Chen, M., Jun, H., Kaiser, L., Plappert, M., Tworek, J., Hilton, J., & Nakano, R. (2021). Training verifiers to solve math word problems. *arXiv preprint arXiv:2110.14168*.
+
+- For **TruthfulQA**, the citation is:
+  > Lin, S., Hilton, J., & Evans, O. (2022). TruthfulQA: Measuring how models mimic human falsehoods. *Annual Meeting of the Association for Computational Linguistics (ACL)*.
+
+- For **ScienceQA**, the citation is:
+  > Lu, X., Mishra, P., & Kalyan, A. (2022). Learn to explain: Multimodal reasoning via thought chains for science question answering. *Advances in Neural Information Processing Systems (NeurIPS)*.
+
+Finally, I will compile the dataset entries along with their citations into a structured format for clarity and ease of use in future references or analyses. This systematic approach ensures that I capture all relevant details and provide proper citations for each dataset mentioned in the paper.

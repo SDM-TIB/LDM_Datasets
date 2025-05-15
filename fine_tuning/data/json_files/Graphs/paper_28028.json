@@ -1,0 +1,53 @@
+[
+    {
+        "dcterms:creator": [
+            "P. Porwal",
+            "et al."
+        ],
+        "dcterms:description": "IDRiD consists of 81 fundus images, with pixel-wise lesion annotations of hemorrhages, microaneurysms, soft exudates, and hard exudates. These manual annotations are converted to bounding boxes to train an object detection network.",
+        "dcterms:title": "IDRiD",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Diabetic Retinopathy"
+        ],
+        "dcat:keyword": [
+            "Fundus images",
+            "Lesion annotations",
+            "Diabetic retinopathy"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Object Detection",
+            "Medical Image Analysis"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "EyePACS provides 35k training, 11k validation, and 43k testing fundus images classified into five grades of diabetic retinopathy severity. The training and validation sets without annotations are used for training a self-supervised model.",
+        "dcterms:title": "EyePACS",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.kaggle.com/c/diabetic-retinopathy-detection",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Diabetic Retinopathy"
+        ],
+        "dcat:keyword": [
+            "Fundus images",
+            "Diabetic retinopathy grading",
+            "Self-supervised learning"
+        ],
+        "dcat:landingPage": "https://www.kaggle.com/c/diabetic-retinopathy-detection",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification",
+            "Medical Image Analysis"
+        ]
+    }
+]

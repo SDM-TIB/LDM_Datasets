@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "CalibrationPhys: Self-supervised Video-based Heart and Respiratory Rate Measurements by Calibrating Between Multiple Cameras" by Yusuke Akamatsu, Terumi Umematsu, and Hitoshi Imaoka, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors utilized **two datasets** for their experiments, which is a strong indication that I need to find details about these datasets.
+
+Next, I will focus on **section IV (Experiments)**, specifically **subsection A (Datasets)**, where the authors describe the datasets used in their study. Here, they mention three datasets:
+
+1. **Multi-camera Dataset**: This dataset was self-collected and includes 20 subjects (11 males and 9 females) using multiple cameras. The authors provide details about the data collection process, including the types of devices used (Logitech C920n HD PRO webcam and Google Pixel 5 smartphone) and the nature of the data collected (facial videos, pulse waves, HRs, and respiratory waves).
+
+2. **Pre-train Dataset**: This dataset was also self-collected and includes 22 subjects using a webcam. Similar to the multi-camera dataset, it includes facial videos, pulse waves, HRs, and respiratory waves, and it was used for pre-training the models.
+
+3. **UBFC-rPPG Dataset**: This is a public dataset that includes 42 subjects and was used for evaluating the HR estimation performance of the webcam model trained with the multi-camera dataset.
+
+After identifying these datasets, I will look into the **References section** to find the full citations for the datasets mentioned. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For the **Multi-camera Dataset** and **Pre-train Dataset**, since they are self-collected, I will note that they do not have formal citations but will include the details provided in the paper.
+  
+- For the **UBFC-rPPG Dataset**, I will find the citation:
+  > Bobbia, S., Macwan, R., Benezeth, Y., Mansouri, A., et al. (2019). "Unsupervised skin tissue segmentation for remote photoplethysmography." *Pattern Recognition Letters*, 124, 82-90.
+
+Now, I will compile the information about each dataset, including their descriptions and citations, into a structured format for further processing or review.

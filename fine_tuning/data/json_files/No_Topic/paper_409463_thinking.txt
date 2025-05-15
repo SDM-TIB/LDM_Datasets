@@ -1,0 +1,37 @@
+To extract datasets from the research paper titled "Learning Scene Context Without Images" by Amirreza Rouhi and David Han, I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions a novel approach called LMOD that relies on labels from image datasets, indicating that datasets are indeed involved.
+
+Next, I will focus on the **experiments section** where the authors explicitly mention the datasets used for evaluation. In **section 3 (Experiments)**, they state that their experiments leverage two primary datasets: **COCO-2014** and **VG-500**, along with their subsets. They also introduce a new dataset called **COCO-80-indoor**.
+
+I will take note of the details provided for each dataset:
+
+1. **COCO-2014**: This dataset is part of the Microsoft COCO dataset, which is widely used for object detection tasks.
+2. **VG-500**: This is a curated subset of the Visual Genome dataset, focusing on the 500 most frequent categories.
+3. **COCO-80-indoor**: A subset of COCO-80, specifically designed for indoor scenarios, containing 27,594 training and 13,759 testing images.
+4. **COCO-1000**: This dataset focuses on the 1,000 most common words extracted from COCO-80.
+5. **COCO-2017**: Used for evaluating the model's object detection performance, with categories based on bounding box area.
+6. **COCO-2017-Blurred**: A modified version of COCO-2017, where one-third of the objects are randomly blurred to simulate challenging conditions.
+7. **ExDark**: A dataset comprising 7,363 low-light images spanning 12 categories.
+
+Now, I will refer to the **References section** to gather the full citations for these datasets:
+
+- For **COCO-2014**, the citation is:
+  > Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. *Microsoft COCO: Common objects in context*. In Computer Vision–ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13, pages 740–755. Springer, 2014.
+
+- For **VG-500**, the citation is:
+  > Ranjay Krishna, Yuke Zhu, Oliver Groth, Justin Johnson, Kenji Hata, Joshua Kravitz, Stephanie Chen, Yannis Kalantidis, Li-Jia Li, David A Shamma, et al. *Visual genome: Connecting language and vision using crowdsourced dense image annotations*. International journal of computer vision, 123:32–73, 2017.
+
+- For **COCO-80-indoor**, the citation is derived from the COCO dataset citation, as it is a subset:
+  > Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. *Microsoft COCO: Common objects in context*. In Computer Vision–ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13, pages 740–755. Springer, 2014.
+
+- For **COCO-1000**, the citation is also derived from the COCO dataset citation:
+  > Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. *Microsoft COCO: Common objects in context*. In Computer Vision–ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13, pages 740–755. Springer, 2014.
+
+- For **COCO-2017**, the citation is:
+  > Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. *Microsoft COCO: Common objects in context*. In Computer Vision–ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13, pages 740–755. Springer, 2014.
+
+- For **ExDark**, the citation is:
+  > Yuen Peng Loh and Chee Seng Chan. *Getting to know low-light images with the exclusively dark dataset*. Computer Vision and Image Understanding, 178:30–42, 2019. doi:https://doi.org/10.1016/j.cviu.2018.10.010.
+
+With all this information gathered, I will now compile the dataset entries, ensuring that each dataset is accurately represented with its full citation for clarity and future reference.

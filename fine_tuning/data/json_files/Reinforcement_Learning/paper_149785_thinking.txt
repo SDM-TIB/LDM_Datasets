@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Cliff Diving: Exploring Reward Surfaces in Reinforcement Learning Environments" by Ryan Sullivan et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the authors visualize reward surfaces for **27 widely used reinforcement learning environments in Gym**. This suggests that there are multiple datasets involved, but I need to find their specific names.
+
+Next, I will examine the **methodology** and **results sections** to see if the authors provide a detailed list of the environments they analyzed. In the **Environment Selection** section, the authors mention that they generated plots for all "Classic Control" and "MuJoCo" environments in Gym, as well as a selection of **12 Atari environments**. This gives me a clearer idea of the datasets being referenced.
+
+I will then look for a **table or list** that explicitly names these environments. In the **Appendix**, the authors provide a comprehensive list of the environments analyzed, which includes:
+
+1. **Classic Control Environments**: Acrobot, CartPole, MountainCar, MountainCarContinuous, Pendulum.
+2. **MuJoCo Environments**: Ant, HalfCheetah, Hopper, Humanoid, HumanoidStandup, InvertedDoublePendulum, InvertedPendulum, Reacher, Swimmer, Walker2d.
+3. **Atari Environments**: Breakout, Pong, SpaceInvaders, BankHeist, MsPacman, Q*bert, Freeway, Montezuma’s Revenge, Pitfall!, Private Eye, Solaris, Venture.
+
+Now, I will gather the full citations for these datasets. The authors reference the following key papers for the environments:
+
+- For **OpenAI Gym** (which includes Classic Control and Atari environments):
+  > Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., & Zaremba, W. (2016). *OpenAI Gym*. arXiv preprint arXiv:1606.01540.
+
+- For **MuJoCo** environments:
+  > Todorov, E., Erez, T., & Tassa, Y. (2012). *Mujoco: A physics engine for model-based control*. In Proceedings of the 2012 IEEE International Conference on Robotics and Automation (ICRA), pages 5026-5033.
+
+- For the **Atari Learning Environment**:
+  > Bellemare, M. G., Naddaf, Y., Veness, J., & Bowling, M. (2013). *The arcade learning environment: An evaluation platform for general agents*. Journal of Artificial Intelligence Research, 47, 253-279.
+
+After compiling this information, I will ensure that each dataset is clearly described along with its citation, ready for structured output or further processing.

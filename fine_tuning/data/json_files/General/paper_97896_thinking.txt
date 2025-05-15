@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Regression Oracles and Exploration Strategies for Short-Horizon Multi-Armed Bandits" by Robert C. Gray et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the research focus, and the introduction often discusses the context and relevance of the datasets used.
+
+In the **introduction**, the authors mention using data from a Mechanical Turk experiment conducted in 2016 by Furberg et al. This indicates that there is a dataset related to daily steps collected from participants, which is crucial for the experiments described in the paper.
+
+Next, I will look for specific sections that detail the datasets used, such as **section III (Simulation Environments)** and **section IV (Approach)**. In these sections, the authors describe two simulation environments that utilize data from the Mechanical Turk experiment:
+
+1. **Mechanical Turk Dataset**: This dataset consists of daily step counts collected from participants using a Fitbit. The authors mention that after removing outliers, they have 1,665 valid data points. This dataset is used to model human step behavior in their simulations.
+
+2. **Gamma Distribution**: While not a dataset in the traditional sense, the authors fit a Gamma distribution to the step data to simulate daily steps in their experiments. They reference the parameters used for this distribution, which are derived from the Mechanical Turk dataset.
+
+I will also check the **References section** to find the full citation for the Mechanical Turk dataset. The relevant citation is:
+
+- For the Mechanical Turk dataset:
+  > Furberg, R. K. M., & Ortiz, A. (2016). *Crowd-sourced Fitbit datasets 03.12.2016-05.12.2016*. Zenodo. https://doi.org/10.5281/zenodo.53894
+
+Now, I will compile the dataset entries, ensuring to include the full citations as required. This will provide a clear and structured overview of the datasets utilized in the research paper.

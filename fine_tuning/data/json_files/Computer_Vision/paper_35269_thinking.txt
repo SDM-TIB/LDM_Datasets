@@ -1,0 +1,42 @@
+To extract datasets from the research paper titled "Deep Active Learning for Anomaly Detection" by Tiago Pimentel et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper. The abstract mentions that the authors report results on both synthetic and real anomaly detection datasets, which indicates that there are datasets to be identified.
+
+Next, I will focus on the **experiments section** (Section IV), where the authors describe their experimental setup and the datasets used. In this section, they specifically mention two types of datasets: synthetic datasets based on MNIST and Fashion-MNIST, as well as real anomaly detection benchmarks.
+
+1. **Synthetic Datasets**:
+   - **MNIST Datasets**: The authors describe three variations:
+     - **MNIST0**: Contains only 10% of the original samples for the digit '0', making it 1.1% of the total dataset.
+     - **MNIST0-2**: Reduces the presence of digits '0', '1', and '2', making anomalies about 4.1% of the dataset.
+     - **MNISThard**: Comprises misclassified points from a weak classifier trained on MNIST, with anomalies making up approximately 3.3% of the dataset.
+   
+   - **Fashion-MNIST Datasets**: Similar to the MNIST datasets, they include:
+     - **Fashion-MNIST0**: Anomalies constitute 1.1% of the dataset.
+     - **Fashion-MNIST0-2**: Anomalies make up 4.0% of the dataset.
+     - **Fashion-MNISThard**: Anomalies represent 16.1% of the dataset.
+
+2. **Real Datasets**: The authors evaluate their models on publicly available anomaly detection benchmarks, which include:
+   - **KDDCUP**: A dataset with 494,021 instances and 20% anomalies.
+   - **Arrhythmia**: Contains 3,772 instances with 2.5% anomalies.
+   - **Thyroid**: Comprises 452 instances with 15% anomalies.
+   - **KDDCUP-Rev**: Contains 121,597 instances with 20% anomalies.
+   - **Yeast**: Comprises 1,191 instances with 4.6% anomalies.
+   - **Abalone**: Contains 1,920 instances with 1.5% anomalies.
+   - **CTG**: Comprises 1,700 instances with 2.6% anomalies.
+   - **Credit**: Contains 284,807 instances with 0.17% anomalies.
+   - **Covtype**: Comprises 286,048 instances with 0.9% anomalies.
+   - **MMG**: Contains 11,183 instances with 2.3% anomalies.
+   - **Shuttle**: Comprises 12,345 instances with 7.0% anomalies.
+
+After identifying the datasets, I will refer to the **References section** to find the full citations for each dataset mentioned in the paper. 
+
+For example, the citations for the MNIST and Fashion-MNIST datasets are:
+- **MNIST Dataset**: 
+  > Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. *The MNIST Database of Handwritten Digits*. 1998.
+  
+- **Fashion-MNIST Dataset**: 
+  > Han Xiao, Kashif Rasul, and Roland Vollgraf. *Fashion-MNIST: A Novel Image Dataset for Benchmarking Machine Learning Algorithms*. 2017.
+
+For the real datasets, I will look for their respective citations in the references, ensuring to include the authors, title, and publication details.
+
+Finally, I will compile all the identified datasets along with their full citations into a structured format for easy reference and further processing.

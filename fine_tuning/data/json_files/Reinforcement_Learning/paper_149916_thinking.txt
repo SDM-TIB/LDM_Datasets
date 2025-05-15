@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Data generation using simulation technology to improve perception mechanism of autonomous vehicles" by Minh Cao and Ramin Ramezani, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors utilize synthetic data generated from simulators like **DeepGTA-V** and **CARLA** to complement real-world datasets for training autonomous vehicle perception systems. This suggests that there are datasets involved.
+
+Next, in the **introduction**, the authors discuss the challenges of collecting real-world data, particularly for dangerous driving scenarios, and mention the use of the **KITTI dataset** as a real-world dataset for training. This is a key dataset that I need to note.
+
+In the **methodology section**, the authors describe how they leverage the **CARLA simulator** to generate synthetic training data, which includes various sensor outputs like camera images and lidar data. They also mention that they will generate training data for different driving scenarios, including dangerous conditions, which implies that they will create a dataset from these simulations.
+
+In the **experiments section**, the authors refer to the **Waymo Open Dataset** as a test dataset for evaluating their models. This dataset is crucial for understanding the performance of their proposed methods.
+
+Now, I will compile the full citations for each dataset mentioned in the paper:
+
+1. **KITTI Dataset**:
+   > Andreas Geiger, Philip Lenz, Christoph Stiller, and Raquel Urtasun. *Vision meets Robotics: The KITTI Dataset*. The International Journal of Robotics Research, 32(11), 1231-1237, 2013.
+
+2. **Waymo Open Dataset**:
+   > Waymo. *Waymo Open Dataset: An Autonomous Driving Dataset*. Retrieved from https://waymo.com/open/
+
+3. **CARLA Simulator**:
+   > Alexey Dosovitskiy, Georgios Ros, Filipe Codevilla, Antonio Lopez, and Vladlen Koltun. *CARLA: An open urban driving simulator*. arXiv preprint arXiv:1711.03938, 2017.
+
+4. **DeepGTA-V**:
+   > Aitorzip. *DeepGTAV*. GitHub. Retrieved from https://github.com/aitorzip/DeepGTAV.
+
+After gathering this information, I will summarize the datasets and their citations in a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

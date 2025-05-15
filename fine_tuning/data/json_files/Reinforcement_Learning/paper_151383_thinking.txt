@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study" by Shusheng Xu et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions benchmarking DPO and PPO across a collection of RLHF testbeds, which suggests that datasets are involved. The introduction further discusses the importance of aligning large language models with human preferences and mentions various methods, hinting at the presence of datasets used for evaluation.
+
+Next, I will look for specific sections that typically contain dataset information, such as **section 4 (Experiments)** and **section 6 (Benchmark Results)**. In these sections, the authors describe their experimental setup and the datasets used for training and evaluation.
+
+Upon reviewing the paper, I identify the following datasets:
+
+1. **SafeRLHF Dataset**: This dataset is mentioned in section 4.3 and consists of preference pairs for training LLMs to prioritize safety over helpfulness. The authors reference Dai et al. (2023) for this dataset.
+   - Citation: Dai, J., Pan, X., Sun, R., Ji, J., Xu, X., Liu, M., Wang, Y., and Yang, Y. *Safe RLHF: Safe Reinforcement Learning from Human Feedback*. arXiv preprint arXiv:2310.12773, 2023.
+
+2. **HH-RLHF Dataset**: This dataset is referenced in section 6 and consists of human preferences on AI assistant responses, encompassing 170k comparisons. The authors cite Bai et al. (2022) for this dataset.
+   - Citation: Bai, Y., Jones, A., Ndousse, K., Askell, A., Chen, A., DasSarma, N., Drain, D., Fort, S., Ganguli, D., Henighan, T., et al. *Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback*. arXiv preprint arXiv:2204.05862, 2022.
+
+3. **APPS Dataset**: This dataset is used for code generation tasks and is mentioned in section 6. The authors cite Hendrycks et al. (2021) for this dataset.
+   - Citation: Hendrycks, D., Basart, S., Kadavath, S., Mazeika, M., Arora, A., Guo, E., Burns, C., Puranik, S., He, H., Song, D., et al. *Measuring Coding Challenge Competence with APPS*. arXiv preprint arXiv:2105.09938, 2021.
+
+4. **CodeContest Dataset**: This dataset is also referenced in section 6 and is used for evaluating code generation performance. The authors cite Li et al. (2022) for this dataset.
+   - Citation: Li, Y., Choi, D., Chung, J., Kushman, N., Schrittwieser, J., Leblond, R., Eccles, T., Keeling, J., Gimeno, F., Dal Lago, A., et al. *Competition-Level Code Generation with AlphaCode*. Science, 378(6624):1092–1097, 2022.
+
+After identifying these datasets, I will ensure to compile their details along with the full citations into a structured format for further processing or review. This systematic approach ensures that I capture all relevant datasets and their citations accurately from the paper.

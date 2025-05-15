@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Retrieve and Refine: Exemplar-based Neural Comment Generation" by Bolin Wei et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will start by examining the **abstract** and **introduction** sections of the paper. The abstract mentions that the authors evaluate their approach on a "large-scale Java corpus," which indicates that a dataset is involved. I will look for specific names or descriptions of datasets in these sections.
+
+Next, I will move to the **experiments section** (Section 4), where the authors typically describe the datasets used for their experiments. In this section, they mention that they evaluate their approach on a dataset provided by LeClair et al., which originally comes from the Sourcerer repository. They also provide details about the preprocessing steps taken on this dataset, which is crucial for understanding its structure and content.
+
+The authors specify that the dataset contains 5.1 million Java methods and has been processed to remove duplicates and auto-generated code. They mention that the dataset is divided into training, validation, and test sets, which is important for reproducibility.
+
+I will also look for any specific names given to the datasets used in the experiments. The authors refer to two datasets:
+1. **Standard Dataset**: Contains three elements for each sample: a code sequence of the Java method, an SBT-AO sequence of the Java method, and a comment.
+2. **Challenge Dataset**: Contains two elements for each sample: an SBT-AO sequence of the Java method and a comment.
+
+Next, I will check the **References section** to find the full citations for the datasets mentioned. The authors reference the original dataset from Lopes et al. (2010) and the preprocessing work by LeClair et al. (2019). 
+
+The citations I will extract are:
+- For the original dataset:
+  > Lopes, C., Bajracharya, S., Ossher, J., & Baldi, P. (2010). UCI Source Code Data Sets. Retrieved from https://www.ics.uci.edu/~lopes/datasets/
+
+- For the preprocessing work:
+  > LeClair, A., Jiang, S., & McMillan, C. (2019). A neural model for generating natural language summaries of program subroutines. In Proceedings of the 41st International Conference on Software Engineering (ICSE 2019), Montreal, QC, Canada, May 25-31, 2019. https://doi.org/10.1109/ICSE.2019.00087
+
+After gathering this information, I will compile the dataset entries, ensuring that I include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research paper, along with their proper references for future use or verification.

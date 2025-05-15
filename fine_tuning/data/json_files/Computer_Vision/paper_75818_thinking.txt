@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Adapt2Reward: Adapting Video-Language Models to Generalizable Robotic Rewards via Failure Prompts" by Yanting Yang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract discusses the challenges of collecting data on robots executing various language instructions, which suggests that datasets are involved.
+
+Next, I will focus on the **introduction** where the authors mention the use of human video-language datasets and robotic datasets. They highlight the lack of failure videos in typical datasets, indicating that they may have created or utilized specific datasets for their experiments.
+
+In the **methods section**, I will look for any explicit mentions of datasets used for training and evaluation. The authors mention using the **Something-Something v2 (SSv2)** dataset, which is a human video-language dataset, and they describe how it was transformed into a video and language dataset for their experiments. They also mention using a dataset of robotic videos, specifically noting that they collected both successful and failed robotic videos for training.
+
+I will also check the **experiments section** to see if the authors provide more details about the datasets used, including the number of videos and the tasks they represent. They mention using 280 successful and 280 failed robotic videos per task in the Meta-World simulation environment, which is crucial information.
+
+Finally, I will consult the **references section** to find full citations for the datasets mentioned. The citations I need to extract include:
+
+1. **Something-Something v2 (SSv2)** dataset:
+   > Goyal, R., Kahou, S.E., Michalski, V., Materzynska, J., Westphal, S., Kim, H., Haenel, V., Fründ, I., Yianilos, P.N., Mueller-Freitag, M., Hoppe, F., Thurau, C., Bax, I., Memisevic, R. "The 'Something Something' video database for learning and evaluating visual common sense." 2017 IEEE International Conference on Computer Vision (ICCV) pp. 5843–5851.
+
+2. **Meta-World** environment:
+   > Yu, T., Quillen, D., He, Z., Julian, R.C., Hausman, K., Finn, C., Levine, S. "Meta-world: A benchmark and evaluation for multi-task and meta reinforcement learning." ArXiv abs/1910.10897.
+
+3. **Concept2Robot** environment:
+   > Shao, L., Migimatsu, T., Zhang, Q., Yang, K., Bohg, J. "Concept2robot: Learning manipulation concepts from instructions and human demonstrations." The International Journal of Robotics Research 40, 1419 – 1434.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This structured approach will help ensure that I accurately capture all relevant datasets from the paper.

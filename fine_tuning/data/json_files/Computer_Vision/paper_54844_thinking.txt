@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Class-Aware Universum Inspired Re-Balance Learning for Long-Tailed Recognition" by Enhao Zhang, Chuanxing Geng, and Songcan Chen, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the use of benchmark datasets for experiments, which indicates that datasets are likely included.
+
+In the **introduction**, the authors mention the challenges of long-tailed recognition and refer to datasets like **Cifar-10** and **CelebA** in the context of imbalanced data. This suggests that these datasets are relevant to their work.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments section**. In this paper, the authors describe their experimental setup and explicitly mention the datasets used:
+
+1. **Cifar-10-LT**: A long-tailed version of the Cifar-10 dataset, which consists of 60,000 images across 10 classes. The dataset is constructed by sampling the number of images per class with exponential decay.
+
+2. **Cifar-100-LT**: Similar to Cifar-10, this dataset contains 60,000 images but spans 100 classes, also constructed with an exponential decay sampling method.
+
+3. **CelebA-5**: A facial attribute dataset that includes images of faces with attributes such as hair color. This dataset is unbalanced and consists of 5 classes.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **Cifar-10**, the citation is:
+  > Krizhevsky, A., & Hinton, G. (2009). Learning multiple layers of features from tiny images. Tech Report.
+
+- For **Cifar-100**, the citation is:
+  > Krizhevsky, A. (2009). Learning multiple layers of features from tiny images. Tech Report.
+
+- For **CelebA**, the citation is:
+  > Liu, Z., Luo, P., Wang, X., & Tang, X. (2015). Deep learning face attributes in the wild. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), 3730-3738.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and includes its full citation. This structured approach will help ensure that I capture all relevant details for each dataset mentioned in the paper.

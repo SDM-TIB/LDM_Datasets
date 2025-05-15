@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "End-to-end Autonomous Driving with Semantic Depth Cloud Mapping and Multi-agent" by Oskar Natan and Jun Miura, I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reading through the **abstract, introduction, and experiment sections** of the paper. The abstract mentions that the model is evaluated on the **CARLA simulator**, which suggests that the dataset used for training and validation might be generated from this simulator.
+
+Next, I will look for specific mentions of datasets in **Section IV (Experiment Setup)**, where the authors describe the data generation process. Here, they state that they use the **CARLA simulator** to generate datasets for training and validation. They provide details about the maps and weather presets used, which indicates that the dataset is not a single entity but rather a collection of data generated under various conditions.
+
+In **Table I**, the authors outline the dataset generation settings, including the different **towns** (Town01 to Town10) and the types of **route sets** (long, short, tiny) used in the experiments. This table is crucial as it summarizes the dataset's structure and the conditions under which it was generated.
+
+The authors also mention that the dataset consists of **RGB images, depth maps, semantic segmentation ground truth, expert trajectories, speed measurements, and vehicular controls**. This comprehensive description indicates that the dataset is rich and multi-modal, which is essential for the tasks they are addressing.
+
+Now, I will compile the full citation for the CARLA simulator, which is the primary source of the dataset:
+
+- **CARLA Simulator**: 
+  > Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2017). *CARLA: An open urban driving simulator*. In Proceedings of the Annual Conference on Robot Learning (CoRL), Mountain View, USA, Nov. 2017, pp. 1–16.
+
+Finally, I will summarize the datasets extracted from the paper:
+
+1. **CARLA Dataset**: Generated from the CARLA simulator, consisting of RGB images, depth maps, semantic segmentation ground truth, expert trajectories, speed measurements, and vehicular controls across various towns and weather conditions.
+
+After gathering all this information, I will prepare the dataset entries for further processing or review, ensuring that I have included all necessary citations and descriptions.

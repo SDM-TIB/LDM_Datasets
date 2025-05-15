@@ -1,0 +1,74 @@
+[
+    {
+        "dcterms:creator": [
+            "Ranjay Krishna",
+            "Yuke Zhu",
+            "Oliver Groth",
+            "Justin Johnson",
+            "Kenji Hata",
+            "Joshua Kravitz",
+            "Stephanie Chen",
+            "Yannis Kalantidis",
+            "Li-Jia Li",
+            "David A Shamma"
+        ],
+        "dcterms:description": "A dataset containing dense image annotations that connect language and vision, used to curate custom datasets for model training.",
+        "dcterms:title": "Visual Genome",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Image Annotation"
+        ],
+        "dcat:keyword": [
+            "Image dataset",
+            "Dense annotations",
+            "Language and vision"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A custom dataset created from the Visual Genome dataset containing 3400 images with balanced positive and negative labels for detecting buses or trains.",
+        "dcterms:title": "Baseline Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Custom dataset",
+            "Image classification",
+            "Buses and trains"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Model Selection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A custom dataset created from the Visual Genome dataset containing 3400 images that are label-balanced but with completely mislabeled positive classes.",
+        "dcterms:title": "Mislabeled Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Custom dataset",
+            "Image classification",
+            "Mislabeled data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Model Selection"
+        ]
+    }
+]

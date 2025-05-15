@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Fishr: Invariant Gradient Variances for Out-of-Distribution Generalization" by Alexandre Ramé et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections of the paper. In the abstract, the authors mention that their method improves performance on the **DomainBed benchmark** and that they validate their approach on various datasets. This indicates that there are specific datasets used in their experiments.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments section**. In the paper, the authors describe their experiments in section 4, where they mention using the **Colored MNIST** dataset and the **DomainBed benchmark**. 
+
+1. **Colored MNIST**: This dataset is a variant of the traditional MNIST dataset, where the digits are colored, and there is a correlation between color and label that is reversed at test time. The authors describe it in detail in section 4.1. 
+
+2. **DomainBed Benchmark**: This benchmark includes multiple datasets for evaluating out-of-distribution generalization. The authors mention several datasets used in this benchmark, including:
+   - **PACS**: A dataset consisting of images from four domains: art, cartoons, photos, and sketches.
+   - **VLCS**: A dataset that includes images from four domains: Caltech101, LabelMe, SUN09, and VOC2007.
+   - **OfficeHome**: A dataset with images from four domains: art, clipart, product, and real.
+   - **TerraIncognita**: A dataset containing photographs of wild animals taken by camera traps.
+   - **DomainNet**: A dataset with six domains: clipart, infograph, painting, quickdraw, real, and sketch.
+
+I will now gather the full citations for these datasets from the **References section** of the paper:
+
+- **Colored MNIST**: 
+  > Arjovsky, M., Bottou, L., Gulrajani, I., & Lopez-Paz, D. (2019). *Invariant risk minimization*. arXiv preprint arXiv:1907.02893.
+
+- **PACS**: 
+  > Li, Z., Zhou, F., Yang, J., & Huo, Y. (2017). *Domain generalization via conditional invariant representations*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV) (pp. 1-9).
+
+- **VLCS**: 
+  > Fang, C., Xu, Y., & Rockmore, D. N. (2013). *Unbiased metric learning: On the utilization of multiple datasets and web images for softening bias*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV) (pp. 1-8).
+
+- **OfficeHome**: 
+  > Venkateswara, H., Eusebio, J., Chakraborty, S., & Panchanathan, S. (2017). *Deep hashing network for unsupervised domain adaptation*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV) (pp. 1-8).
+
+- **TerraIncognita**: 
+  > Beery, S., Van Horn, G., & Perona, P. (2018). *Recognition in terra incognita*. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 1-17).
+
+- **DomainNet**: 
+  > Peng, X., Bai, Q., Xia, X., Huang, Z., Saenko, K., & Wang, B. (2019). *Moment matching for multi-source domain adaptation*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV) (pp. 1-8).
+
+Finally, I will compile the dataset entries, ensuring that each entry includes the dataset name, a brief description, and the full citation. This structured approach will ensure that I capture all relevant datasets and their citations accurately.

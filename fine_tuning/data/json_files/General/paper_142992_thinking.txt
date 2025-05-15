@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Overconfidence is Key: Verbalized Uncertainty Evaluation in Large Language and Vision-Language Models" by Tobias Groot and Matias Valdenegro-Toro, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract mentions a new dataset called the **Japanese Uncertain Scenes (JUS)**, which is aimed at testing VLM capabilities. This is a clear indication that a dataset is involved.
+
+Next, I will look into **section 3 (Evaluation Approach)**, specifically **subsection 3.2 (Datasets)**, where the authors describe the datasets used for their experiments. Here, I will find detailed descriptions of the datasets utilized in their study:
+
+1. **Japanese Uncertain Scenes (JUS)**: This dataset consists of 39 images with prompts designed to test uncertainty estimation in VLMs. The images were taken in various locations in Japan, and the dataset is publicly available at https://github.com/ML-RUG/jus-dataset.
+
+2. **Stanford Sentiment Treebank (SST)**: Used for sentiment analysis, this dataset includes both binary labels (SST2) and float values indicating sentiment positivity.
+
+3. **GSM8K**: This dataset is used for math word problems and contains various mathematical problems for evaluation.
+
+4. **CoNLL 2003**: This dataset is used for named-entity recognition tasks and consists of sentences in English and German.
+
+I will also check the **References section** to gather full citations for each dataset mentioned:
+
+- For **Japanese Uncertain Scenes (JUS)**, since it is a newly created dataset by the authors, the citation will be:
+  > Groot, T., & Valdenegro-Toro, M. (2023). *Japanese Uncertain Scenes (JUS) Dataset*. Available at: https://github.com/ML-RUG/jus-dataset.
+
+- For **Stanford Sentiment Treebank (SST)**, the citation is:
+  > Socher, R., Perelygin, A., Wu, J., Chuang, J., Manning, C. D., Ng, A., & Potts, C. (2013). *Recursive deep models for semantic compositionality over a sentiment treebank*. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 1631–1642.
+
+- For **GSM8K**, the citation is:
+  > Cobbe, K., Kosaraju, V., Bavarian, M., Chen, M., Jun, H., Kaiser, L., Plappert, M., Tworek, J., Hilton, J., Nakano, R., Hesse, C., & Schulman, J. (2021). *Training verifiers to solve math word problems*. arXiv preprint arXiv:2110.14168.
+
+- For **CoNLL 2003**, the citation is:
+  > Tjong Kim Sang, E. F., & De Meulder, F. (2003). *Introduction to the CoNLL-2003 shared task: Language-independent named entity recognition*. In Proceedings of the Seventh Conference on Natural Language Learning at HLT-NAACL 2003, pages 142–147.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

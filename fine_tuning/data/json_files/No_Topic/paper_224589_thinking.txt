@@ -1,0 +1,16 @@
+To extract datasets from the research paper titled "Long Range Neural Navigation Policies for the Real World" by Ayzaan Wahid et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract and introduction** sections to see if any datasets are mentioned. The abstract discusses the deployment of a neural navigation policy on a real robot, but does not specify any datasets. The introduction elaborates on the challenges of robot navigation and mentions the use of learned policies, but again does not name any datasets.
+
+Next, I will examine the **methodology sections**, particularly **Section III (Navigation Model)** and **Section IV (Training Environments and Algorithms)**, where the authors describe their training environments and datasets in detail. In Section IV, they introduce **WorldViewEnv**, which is a training environment created using real images captured during traversals in an office building. This environment is crucial for training the high-level policy of their navigation model.
+
+I will also look for any references to datasets in the **experiments section**. The authors mention that they tested their model in a large office building and used a second scan of the same building for evaluation. However, they do not explicitly name any publicly available datasets.
+
+Now, I will check the **References section** to find any citations related to datasets mentioned in the paper. The authors reference several works that may involve datasets, but I need to determine if any of these are directly related to the datasets used in their experiments.
+
+The key dataset I can identify is the **Active Vision Dataset**, which is mentioned as a dense capture of homes. The citation for this dataset is:
+> P. Ammirato, P. Poirson, E. Park, J. Košecká, and A. C. Berg. *A dataset for developing and benchmarking active vision*. In ICRA, 2017.
+
+Additionally, the authors reference other datasets and environments that may not be explicitly used in their experiments but are relevant to the field of navigation and robotics. However, since the focus is on extracting datasets explicitly mentioned in the paper, I will only include the **WorldViewEnv** and **Active Vision Dataset** in my final output.
+
+Finally, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a clear and structured overview of the datasets referenced in the research paper.

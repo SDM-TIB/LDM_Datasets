@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Improving Robustness of LLM-based Speech Synthesis by Learning Monotonic Alignment" by Paarth Neekhara et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research but may not specify datasets. The introduction often discusses the context and significance of the research, which might include references to datasets.
+
+Next, I will focus on **section 4.1 (Datasets and Models)**, as this section typically contains detailed information about the datasets used in the experiments. Here, the authors mention that they trained their T5-TTS models on a data blend containing 1.8k hours of English TTS data from four specific datasets:
+
+1. **LibriTTS**: Specifically, the train-clean-360 subset is used, which is a well-known dataset for TTS research.
+2. **HiFiTTS**: Another dataset mentioned, which is also used for TTS tasks.
+3. **LibriVox MLS**: A 1000-hour subset of this dataset is utilized, contributing to the training data.
+4. **Proprietary Dataset**: This dataset consists of 63 hours of speech data from two speakers, which is not publicly available.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The citations I will look for are:
+
+- For **LibriTTS**, the citation is:
+  > H. Zen, V. Dang, R. Clark, Y. Zhang, R. J. Weiss, Y. Jia, Z. Chen, and Y. Wu. "Libritts: A corpus derived from librispeech for text-to-speech." In INTERSPEECH, 2019.
+
+- For **HiFiTTS**, the citation is:
+  > E. Bakhturina, V. Lavrukhin, B. Ginsburg, and Y. Zhang. "Hi-Fi Multi-Speaker English TTS Dataset." In INTERSPEECH, 2021.
+
+- For **LibriVox MLS**, the citation is:
+  > V. Pratap, Q. Xu, A. Sriram, G. Synnaeve, and R. Collobert. "MLS: A Large-Scale Multilingual Dataset for Speech Research." In INTERSPEECH, 2020.
+
+- The **proprietary dataset** does not have a citation since it is not publicly available.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for each dataset as identified. This will provide a comprehensive overview of the datasets used in the research paper.

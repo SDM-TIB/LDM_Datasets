@@ -1,0 +1,83 @@
+[
+    {
+        "dcterms:creator": [
+            "K. Ahuja",
+            "K. Shanmugam",
+            "A. Dhurandhar"
+        ],
+        "dcterms:description": "A modified version of the MNIST dataset where colors are used as spurious features. Digits less than 5 are attributed with label 0 and the rest with label 1. The dataset is divided across three clients, with two serving as training and one as testing.",
+        "dcterms:title": "Colored MNIST",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "MNIST",
+            "Spurious Features",
+            "Color Correlation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Binary Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Ahuja",
+            "K. Shanmugam",
+            "A. Dhurandhar"
+        ],
+        "dcterms:description": "A modified version of the Fashion MNIST dataset where colors are used as spurious features. The dataset includes various clothing items and footwear, with spurious correlations introduced through color coding.",
+        "dcterms:title": "Colored Fashion MNIST",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Fashion MNIST",
+            "Spurious Features",
+            "Color Correlation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Binary Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Ahuja",
+            "K. Shanmugam",
+            "A. Dhurandhar"
+        ],
+        "dcterms:description": "A modified version of the CIFAR-10 dataset where small black patches are added to images to create spurious correlations with the labels. The dataset is used for binary classification between motor and non-motor objects.",
+        "dcterms:title": "Spurious CIFAR10",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "CIFAR-10",
+            "Spurious Features",
+            "Spatial Correlation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Binary Classification"
+        ]
+    }
+]

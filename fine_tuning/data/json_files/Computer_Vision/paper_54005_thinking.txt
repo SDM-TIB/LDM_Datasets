@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "A generative recommender system with GMM prior for cancer drug generation and sensitivity prediction" by Krzysztof Koras et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** to see if any datasets are mentioned. The abstract discusses the development of a model called VADEERS and mentions the use of various data types, which suggests that datasets are involved.
+
+Next, I will examine the **introduction** section. Here, the authors discuss the context of kinase inhibitors and the need for data on drug sensitivity and molecular features of cancer cell lines. This section may provide insights into the datasets used.
+
+I will then focus on **section 3.4 (Dataset)**, where the authors explicitly describe the datasets used in their study. They mention that the analyzed dataset consists of five parts:
+
+1. **Drugs' SMILES vector representations (XS)**: This dataset includes 304 compounds represented by their SMILES strings, sourced from the Genomics of Drug Sensitivity in Cancer (GDSC) database.
+
+2. **Drugs' inhibition profiles (XI)**: This dataset contains inhibition profiles for 117 compounds across a panel of 294 protein kinases, extracted from the HMS LINCS KINOMEscan data resource.
+
+3. **Cell lines biological features (XB)**: This dataset includes biological features for 922 cell lines, which consist of gene expression levels and mutation calls.
+
+4. **Drug response indicators (YR)**: This dataset contains log half maximal inhibitory concentration (IC50) values for the compound-cell line pairs, also sourced from the GDSC database.
+
+5. **Guiding labels (yG)**: This vector contains discrete class assignments for the compounds based on their inhibition profiles, derived from clustering.
+
+Next, I will check the **References section** to find full citations for the datasets mentioned. The GDSC database and the HMS LINCS KINOMEscan data resource are likely to have specific citations that need to be included.
+
+For the **GDSC database**, the citation is:
+> Cyril Benes, Daniel A. Haber, Dave Beare, Elena J. Edelman, Howard Lightfoot, I. Richard Thompson, James A. Smith, Jorge Soares, Michael R. Stratton, Nidhi Bindal, P. Andrew Futreal, Patricia Greninger, Simon Forbes, Sridhar Ramaswamy, Wanjuan Yang, Ultan McDermott, and Mathew J. Garnett. *Genomics of Drug Sensitivity in Cancer (GDSC): a resource for therapeutic biomarker discovery in cancer cells*. Nucleic Acids Research, 41(D1):D955–D961, 2012.
+
+For the **HMS LINCS KINOMEscan data resource**, the citation is:
+> Miles Fabian, William Biggs, Daniel Treiber, Corey Atteridge, Mihai Azimioara, Michael Benedetti, Todd Carter, Pietro Ciceri, Philip Edeen, Mark Floyd, Julia Ford, Margaret Galvin, Jay Gerlach, Robert Grotzfeld, Sanna Herrgard, Darren Insko, Michael Insko, Andiliy Lai, Jean-Michel Lélias, and David Lockhart. *A small molecule-kinase interaction map for clinical kinase inhibitors*. Nature Biotechnology, 23:329–336, 2005.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is clearly described and that the full citations are included for reference. This structured approach will ensure that I accurately capture the datasets used in the research paper.

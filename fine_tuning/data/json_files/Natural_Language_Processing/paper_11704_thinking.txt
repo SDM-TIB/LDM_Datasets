@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "MOVES: Movable and Moving LiDAR Scene Segmentation in Label-Free settings using Static Reconstruction" by Prashant Kumar et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the problem and the proposed solution, and it may mention datasets used for evaluation. 
+
+In the **introduction**, the authors discuss the challenges of segmenting non-stationary objects in LiDAR scans and introduce their method, MOVES. They mention the use of "corresponding static-dynamic LiDAR pairs," which indicates that datasets are involved, but I need to find specific names.
+
+Next, I will focus on **section 5 (Experiments)**, where the authors explicitly list the datasets used for their experiments. Here, they mention three datasets:
+
+1. **ARD-16**: A real-world industrial LiDAR dataset collected using a 16-beam VLP-Puck LiDAR sensor. It has paired correspondence information available and is noted for being challenging due to its sparsity.
+
+2. **KITTI**: A well-known dataset used to demonstrate the model's performance in the absence of correspondence information. The authors note that less than 7% of the available scans are static scans without any correspondence information.
+
+3. **CARLA-64**: An extensive dataset collected using the CARLA simulator with paired correspondence between static and dynamic scans. The authors highlight the ease of collecting such paired datasets in urban and industrial settings.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **ARD-16**, the citation is:
+  > Kumar, P., Sahoo, S., Shah, V., Kondameedi, V., Jain, A., Verma, A., Bhattacharyya, C., Vishwanath, V. "Dynamic to static LiDAR scan reconstruction using adversarially trained autoencoder." In Proceedings of the AAAI Conference on Artificial Intelligence, volume 35, 2021, pp. 1836–1844.
+
+- For **KITTI**, the citation is:
+  > Geiger, A., Lenz, P., Urtasun, R. "Are we ready for autonomous driving? The KITTI vision benchmark suite." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2012, pp. 3354–3361.
+
+- For **CARLA-64**, the citation is:
+  > Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., Koltun, V. "CARLA: An open urban driving simulator." In Proceedings of the 1st Annual Conference on Robot Learning, 2017, pp. 1–16.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review. This ensures that I have accurately captured the datasets and their citations as presented in the paper.

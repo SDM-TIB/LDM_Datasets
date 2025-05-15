@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "The Power of Fragmentation: A Hierarchical Transformer Model for Structural Segmentation in Symbolic Music Generation" by Guowei Wu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the model is evaluated on **two open MIDI datasets**, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will look for a dedicated **section on datasets** or any mention of datasets in the **experiments or results sections**. In this paper, the authors mention using the **GuitarPro dataset**, which they compiled, as well as two canonical music corpora: **J.S. Bach Chorales** and **Maestro v3.0.0**. 
+
+In the **experiments section**, the authors provide a brief description of each dataset:
+
+1. **GuitarPro Dataset**: This dataset consists of 300 scores with 3,188 sections and a total of 355,411 notes. It is specifically created for pre-training the Fragment Scope Localization (FSL) layer.
+
+2. **J.S. Bach Chorales**: This dataset is referenced as a canonical dataset for short-term generation, containing 382 scores and 56,441 notes. The paper cites the original work for this dataset.
+
+3. **Maestro v3.0.0**: This dataset is used for long-term generation and contains 1,276 scores with 7,040,164 notes. The authors also provide a citation for this dataset.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned:
+
+- For the **GuitarPro dataset**, since it is compiled by the authors, I will note it as:
+  > Wu, G., Liu, S., & Fan, X. (2022). *The Power of Fragmentation: A Hierarchical Transformer Model for Structural Segmentation in Symbolic Music Generation*. 
+
+- For the **J.S. Bach Chorales**, the citation is:
+  > Hadjeres, G., Pachet, F., & Nielsen, F. (2017). *Deepbach: a steerable model for bach chorales generation*. In Proceedings of the 34th International Conference on Machine Learning (ICML 2017), Sydney, NSW, Australia, 6-11 August 2017.
+
+- For the **Maestro v3.0.0**, the citation is:
+  > Hawthorne, C., Stasyuk, A., Roberts, A., Simon, I., Huang, C. A., Dieleman, S., Elsen, E., Engel, J. H., & Eck, D. (2019). *Enabling factorized piano music modeling and generation with the MAESTRO dataset*. In 7th International Conference on Learning Representations (ICLR 2019), New Orleans, LA, USA, May 6-9, 2019.
+
+After gathering all this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This structured approach will ensure that I accurately capture all relevant details about the datasets used in the research paper.

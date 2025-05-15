@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Know Your Neighborhood: General and Zero-Shot Capable Binary Function Search Powered by Call Graphlets" by Josh Collyer et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and datasets sections** to locate any datasets that are explicitly mentioned. The abstract indicates that the proposed approach is evaluated across four distinct datasets, which suggests that there are specific datasets to look for.
+
+Next, I will focus on **section 3.3 (Datasets)**, where the authors provide detailed descriptions of the datasets used for training and evaluation. Here, I will identify the datasets mentioned:
+
+1. **Dataset-1**: This dataset is derived from seven popular open-source projects (ClamAV, Curl, Nmap, Openssl, Unrar, z3, and zlib) compiled across various architectures and optimization levels. The authors note that this dataset is significantly larger than previously reported due to their data representation method.
+
+2. **Dataset-2**: This dataset is a subset of the evaluation dataset used in previous research, including libraries like Binutils, coreutils, and SQLite, compiled for multiple architectures and optimization levels.
+
+3. **BinKit NoInline dataset**: This dataset contains binaries compiled with function inlining turned off, covering various architectures and compiler versions.
+
+4. **BinKit Normal dataset**: Similar to the NoInline dataset, but with function inlining enabled, allowing for a comparison of performance when inlining is present.
+
+After identifying these datasets, I will check the **References section** to find the full citations for the datasets mentioned. The authors reference previous works that describe these datasets, which will help in providing accurate citations.
+
+For **Dataset-1**, the citation is:
+> Andrea Marcelli, Mariano Graziano, Xabier Ugarte-Pedrero, Yanick Fratantonio, Mohamad Mansouri, and Davide Balzarotti. *How machine learning is solving the binary function similarity problem*. In 31st USENIX Security Symposium (USENIX Security 22), pages 2099–2116, 2022.
+
+For **Dataset-2**, the citation is the same as for Dataset-1 since it is a subset of the evaluation dataset used in the same work.
+
+For **BinKit NoInline** and **BinKit Normal datasets**, the citation is:
+> Dongkwan Kim, Eunsoo Kim, Sang Kil Cha, Sooel Son, and Yongdae Kim. *Revisiting binary code similarity analysis using interpretable feature engineering and lessons learned*. IEEE Transactions on Software Engineering, 49(4):1661–1682, 2022.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding citations.

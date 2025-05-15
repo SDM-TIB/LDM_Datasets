@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Readout Guidance: Learning Control from Diffusion Features" by Grace Luo et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and the introduction often outlines the context and significance of the datasets used.
+
+In the **introduction**, the authors discuss the use of readout heads trained on various datasets to extract signals from diffusion model features. This indicates that datasets are likely mentioned later in the paper.
+
+Next, I will focus on the **methodology section**, specifically **section 4 (Readout Heads)**, where the authors describe the training of different readout heads. Here, they mention specific datasets used for training:
+
+1. **PascalVOC Dataset**: This dataset is used for training spatially aligned heads, specifically for tasks like pose and depth estimation. The authors mention that pseudo labels for control are computed using off-the-shelf models.
+
+2. **DAVIS Dataset**: This dataset is utilized for training the correspondence feature head, which learns to enforce correspondence constraints in generated images. The authors describe using image pairs with labeled point correspondences for training.
+
+3. **CelebA-HQ Dataset**: This dataset is used for training the identity head, which aims to preserve the identity of individuals in generated images. The authors mention using tightly cropped images of faces from this dataset.
+
+After identifying these datasets, I will check the **References section** of the paper to find the full citations for each dataset:
+
+- For **PascalVOC Dataset**, the citation is:
+  > M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman. *The PASCAL Visual Object Classes Challenge 2012 (VOC2012) Results*. http://www.pascal-network.org/challenges/VOC/voc2012/workshop/index.html, 2012.
+
+- For **DAVIS Dataset**, the citation is:
+  > Jordi Pont-Tuset, Federico Perazzi, Sergi Caelles, Pablo Arbelaez, Alexander Sorkine-Hornung, and Luc Van Gool. *The 2017 DAVIS Challenge on Video Object Segmentation*. CoRR, abs/1704.00675, 2017.
+
+- For **CelebA-HQ Dataset**, the citation is:
+  > Tero Karras, Timo Aila, Samuli Laine, and Jaakko Lehtinen. *Progressive Growing of GANs for Improved Quality, Stability, and Variation*. ICLR, 2018.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

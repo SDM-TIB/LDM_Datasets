@@ -1,0 +1,38 @@
+To extract datasets from the research paper titled "Mitigating Social Biases in Language Models through Unlearning" by Omkar Dige et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experimental setup sections** to identify any datasets mentioned. The abstract provides a brief overview of the study and may mention key datasets used for evaluation or experimentation.
+
+Next, I will focus on the **introduction** section, where the authors often discuss the context of their research and may reference datasets that are foundational to their work. I will look for any explicit mentions of datasets or references to prior studies that utilized specific datasets.
+
+In the **methodology section**, I will pay close attention to the subsections that describe the experimental setup and the specific techniques employed. Here, the authors mention the use of two unlearning methods and may specify the datasets used for training or evaluation. I will look for any tables or figures that summarize the datasets.
+
+In **section 4 (Experimental Setup)**, I will find detailed descriptions of the datasets used for the experiments. The authors mention the following datasets:
+
+1. **Bias Benchmark for QA (BBQ)**: This dataset is used for the Partitioned Contrastive Gradient Unlearning (PCGU) method. It consists of ambiguous context samples designed to highlight social biases in language models.
+
+2. **StereoSet**: This dataset is utilized for fine-tuning the model to introduce bias. It contains sentences that are categorized based on stereotypes.
+
+3. **Civil Comments**: Another dataset used for fine-tuning, focusing on toxic comments, which helps in understanding and mitigating biases in language models.
+
+4. **CrowS-Pairs**: This dataset is used for evaluating bias in language models, where each sample consists of stereotypical and anti-stereotypical sentences.
+
+5. **WikiText-2**: This corpus is mentioned as a source for evaluating perplexity.
+
+Now, I will check the **References section** to gather the full citations for each dataset mentioned:
+
+- For **BBQ Dataset**:
+  > Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, Jana Thompson, Phu Mon Htut, and Samuel R Bowman. *BBQ: A Hand-Built Bias Benchmark for Question Answering*. arXiv preprint arXiv:2110.08193, 2021.
+
+- For **StereoSet**:
+  > Moin Nadeem, Anna Bethke, and Siva Reddy. *StereoSet: Measuring Stereotypical Bias in Pretrained Language Models*. arXiv preprint arXiv:2006.11178, 2020.
+
+- For **Civil Comments**:
+  > Corentin Duchene, Henri Jamet, Pierre Guillaume, and Reda Dehak. *A Benchmark for Toxic Comment Classification on Civil Comments Dataset*. 2023.
+
+- For **CrowS-Pairs**:
+  > Nikita Nangia, Clara Vania, Rasika Bhalerao, and Samuel R Bowman. *CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in Masked Language Models*. arXiv preprint arXiv:2010.00133, 2020.
+
+- For **WikiText-2**:
+  > Stephen Merity, Caiming Xiong, James Bradbury, and Richard Socher. *Pointer Sentinel Mixture Models*. arXiv preprint arXiv:1609.07843, 2016.
+
+After gathering all the necessary information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

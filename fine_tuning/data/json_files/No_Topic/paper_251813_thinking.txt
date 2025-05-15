@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Cassandra: Detecting Trojaned Networks from Adversarial Perturbations" by Xiaoyu Zhang et al., I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** to identify any datasets mentioned. The abstract states that the authors evaluate their methods on **MNIST, NIST-Round0, and NIST-Round1 datasets**, which indicates that these datasets are crucial for the research.
+
+Next, I will examine the **introduction** section for any additional context or details about the datasets. The introduction discusses the challenges of Trojan detection and mentions the use of pre-trained models sourced from various datasets, but it does not provide new dataset names.
+
+I will then focus on the **experiments section**, specifically **section 6 (Experiments)**, where the authors explicitly describe the datasets used. Here, they detail the following datasets:
+
+1. **Triggered MNIST Dataset**: This dataset consists of images from the MNIST dataset with two types of triggers inserted. The authors generated a total of 900 models across three architectures (ModdedBadNet, BadNet, and ModdedLeNet5), with 300 models being benign and the rest being Trojaned. 
+
+2. **NIST-Round0 Dataset**: This dataset includes traffic sign classification models, half of which are benign and half are Trojaned. The models were trained on synthetically created images of artificial traffic signs.
+
+3. **NIST-Round1 Dataset**: Similar to NIST-Round0, this dataset consists of traffic sign classification models but includes a larger number of models (1,000) compared to Round0 (200).
+
+In the **results section**, the authors provide performance metrics for their methods on these datasets, confirming their significance in the study.
+
+Now, I will look at the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For the **MNIST dataset**, the citation is:
+  > Yann LeCun, Corinna Cortes, and Chris Burges. *The MNIST Database of Handwritten Digits*. 1998. [http://yann.lecun.com/exdb/mnist/](http://yann.lecun.com/exdb/mnist/)
+
+- For the **NIST datasets**, the citation is:
+  > NIST. *TrojAI Challenge Datasets*. [https://pages.NIST.gov/trojai/docs/data.html#download-links](https://pages.NIST.gov/trojai/docs/data.html#download-links)
+
+With this information, I can now compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will allow for a structured output that can be used for further analysis or integration into other systems.

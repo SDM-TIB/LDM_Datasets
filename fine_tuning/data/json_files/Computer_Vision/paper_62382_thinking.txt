@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "DoseDiff: Distance-aware Diffusion Model for Dose Prediction in Radiotherapy" by Yiwen Zhang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors evaluate their model on **two in-house datasets and a public dataset**, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section III (Experiments)**, where the authors describe the datasets used for their evaluations. Here, they mention two in-house datasets and one public dataset:
+
+1. **Breast Cancer Dataset**: This dataset consists of data from 119 patients who underwent postoperative radiotherapy. The CT images have specific pixel spacings and slice thicknesses, and the dataset includes delineated target areas and organs-at-risk (OARs).
+
+2. **Nasopharyngeal Cancer (NPC) Dataset**: This dataset includes data from 139 patients receiving radiotherapy for primary lesions. Similar to the breast cancer dataset, it provides details about the CT images and the delineated target areas and OARs.
+
+3. **Public Head and Neck Cancer Dataset**: This dataset is sourced from the AAPM OpenKBP challenge and contains 200 training cases, 40 validation cases, and 100 testing cases. It includes specific details about the RT plans and the target areas.
+
+After identifying these datasets, I will check the **References section** to find the full citations for the datasets mentioned. However, the paper does not provide specific citations for the in-house datasets, as they are likely original datasets created by the authors. For the public dataset, I will find the citation provided in the references:
+
+- For the **OpenKBP dataset**, the citation is:
+  > A. Babier, B. Zhang, R. Mahmood, K. L. Moore, T. G. Purdie, A. L. McNiven, and T. C. Chan. *Openkbp: the open-access knowledge-based planning grand challenge and dataset*. Medical Physics, vol. 48, no. 9, pp. 5549–5561, 2021.
+
+Now, I will summarize the datasets with their descriptions and citations:
+
+1. **Breast Cancer Dataset**: Data from 119 patients who underwent postoperative radiotherapy, with specific CT imaging parameters and delineated target areas.
+   - Citation: Not provided (original dataset).
+
+2. **Nasopharyngeal Cancer (NPC) Dataset**: Data from 139 patients receiving radiotherapy for primary lesions, with detailed CT imaging and delineated target areas.
+   - Citation: Not provided (original dataset).
+
+3. **Public Head and Neck Cancer Dataset**: Contains 200 training cases, 40 validation cases, and 100 testing cases from the AAPM OpenKBP challenge.
+   - Citation: A. Babier et al. *Openkbp: the open-access knowledge-based planning grand challenge and dataset*. Medical Physics, vol. 48, no. 9, pp. 5549–5561, 2021.
+
+With this information, I can now compile the dataset entries for further processing or review.

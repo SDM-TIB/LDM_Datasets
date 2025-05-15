@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Faster RER-CNN: application to the detection of vehicles in aerial images" by Jean Ogier du Terrail and Frédéric Jurie, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors achieved state-of-the-art results on a challenging aerial imagery dataset, which suggests that datasets are involved.
+
+Next, I will focus on **section 4.1 (Datasets)**, where the authors explicitly list the datasets used in their experiments. Here, they mention three datasets:
+
+1. **VeDAI Dataset**: This dataset consists of 1200 images of Salt Lake City, available in two sizes (512x512 and 1024x1024), with annotations for around 10 classes of vehicles. The dataset is structured with 10 folds for evaluation.
+
+2. **Munich Dataset**: This dataset contains 20 large colored images, with 10 images for training and 10 for testing. The authors mention that the images need to be rasterized into smaller patches for effective training.
+
+3. **Google Earth Dataset**: This dataset includes 20 colored images taken over the city of Bruxelles, augmented with additional annotations.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For the **VeDAI Dataset**, the citation is:
+  > Sébastien Razakarivony and Frédéric Jurie. *Vehicle Detection in Aerial Imagery: A small target detection benchmark*. Journal of Visual Communication and Image Representation, December 2015.
+
+- For the **Munich Dataset**, the citation is:
+  > Jens Leitloff, Dominik Rosenbaum, Franz Kurz, Oliver Meynberg, and Peter Reinartz. *An operational system for estimating road traffic information from aerial images*. Remote Sensing, 6(11):11315–11341, 2014.
+
+- For the **Google Earth Dataset**, the citation is:
+  > Geremy Heitz and Daphne Koller. *Learning spatial context: Using stuff to find things*. In ECCV. European Conference on Computer Vision, October 2008.
+
+Now that I have the datasets and their citations, I will compile this information into a structured format for further processing. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

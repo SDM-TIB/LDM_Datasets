@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "PredRNN++: Towards A Resolution of the Deep-in-Time Dilemma in Spatiotemporal Predictive Learning" by Yunbo Wang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the model achieves state-of-the-art results on both synthetic and real video datasets, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (section 5) where the authors explicitly mention the datasets used for evaluation. In this section, they describe two datasets:
+
+1. **Moving MNIST Dataset**: This dataset consists of sequences of handwritten digits bouncing inside a 64 × 64 grid. The authors mention that they use 10,000 sequences for training, 3,000 for validation, and 5,000 for testing. This dataset is crucial for evaluating the model's performance on synthetic video prediction tasks.
+
+2. **KTH Action Dataset**: This dataset contains video clips of human actions (walking, jogging, running, boxing, hand waving, and hand clapping) captured in various scenarios. The authors specify that the dataset is divided into a training set of 108,717 sequences and a test set of 4,086 sequences. This dataset is important for assessing the model's performance on real-world video prediction tasks.
+
+After identifying the datasets, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Moving MNIST Dataset**, the citation is:
+  > LeCun, Y., Cortes, C., & Burges, C. J. C. *The MNIST Database of Handwritten Digits*. 1998. [http://yann.lecun.com/exdb/mnist/](http://yann.lecun.com/exdb/mnist/)
+
+- For the **KTH Action Dataset**, the citation is:
+  > Schuldt, C., Laptev, I., & Caputo, B. *Recognizing Human Actions: A Local SVM Approach*. In Proceedings of the International Conference on Pattern Recognition, pp. 32–36, 2004.
+
+Now, I will compile the dataset entries with their respective citations, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

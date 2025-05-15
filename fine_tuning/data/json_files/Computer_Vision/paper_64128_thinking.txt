@@ -1,0 +1,51 @@
+To extract datasets from the research paper titled "Reuse and Diffuse: Text-to-Video Generation" by Shicong Wang et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions the use of multiple existing datasets for training their text-to-video generation model, which indicates that there are datasets to extract. The introduction further elaborates on the challenges of video synthesis and the need for high-quality video-text data, hinting at the datasets used.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **methodology** or **experiments** sections. In this paper, the authors describe their strategies for composing video-text data from various existing datasets. They categorize the datasets into four types: well-captioned video-text datasets, short video classification datasets, long video classification datasets, and image datasets.
+
+I will identify the specific datasets mentioned:
+
+1. **Well-captioned video-text datasets**:
+   - **WebVid-2M**: Contains about 2.5 million subtitled videos, but only those with a duration of less than 20 seconds are used.
+   - **TGIF**: Comprises 100K GIFs collected from Tumblr.
+   - **VATEX**: A large-scale dataset covering 600 fine-grained human activities.
+   - **Pexels**: Contains approximately 360,000 well-captioned videos.
+
+2. **Short video classification datasets**:
+   - **Moments-In-Time**: Contains over one million videos covering 339 action categories.
+   - **Kinetics-700**: Includes over 650,000 videos covering 700 human action categories.
+
+3. **Long video classification datasets**:
+   - **VideoLT**: Contains 250,000 untrimmed long videos covering 1004 categories.
+
+4. **Image datasets**:
+   - **LAION-5B**: Contains 5.58 billion image-text pairs, with a portion used to create pseudo-videos.
+
+Next, I will check the **References section** to gather the full citations for each dataset. Here are the citations I will compile:
+
+- **WebVid-2M**: 
+  > Max Bain, Arsha Nagrani, Gül Varol, and Andrew Zisserman. *Frozen in time: A joint video and image encoder for end-to-end retrieval*. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pp. 1728–1738, 2021.
+
+- **TGIF**: 
+  > Lianghua Huang, Di Chen, Yu Liu, Yujun Shen, Deli Zhao, and Jingren Zhou. *Composer: Creative and controllable image synthesis with composable conditions*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 11315–11325, 2022.
+
+- **VATEX**: 
+  > Wenjing Wang, Huan Yang, Zixi Tuo, Huiguo He, Junchen Zhu, Jianlong Fu, and Jiaying Liu. *Videofactory: Swap attention in spatiotemporal diffusions for text-to-video generation*. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pp. 4581–4591, 2019.
+
+- **Pexels**: 
+  > Not explicitly cited in the paper; I will note that it is a popular website providing free stock videos.
+
+- **Moments-In-Time**: 
+  > Mathew Monfort, Bowen Pan, Kandan Ramakrishnan, Alex Andonian, Barry A McNamara, Alex Lascelles, Quanfu Fan, Dan Gutfreund, Rogério Schmidt Feris, and Aude Oliva. *Multi-moments in time: Learning and interpreting models for multi-action video understanding*. IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(12):9434–9445, 2021.
+
+- **Kinetics-700**: 
+  > Lucas Smaira, João Carreira, Eric Noland, Ellen Clancy, Amy Wu, and Andrew Zisserman. *A short note on the kinetics-700-2020 human action dataset*. arXiv preprint arXiv:2010.10864, 2020.
+
+- **VideoLT**: 
+  > Xing Zhang, Zuxuan Wu, Zejia Weng, Huazhu Fu, Jingjing Chen, Yu-Gang Jiang, and Larry S Davis. *Videolt: Large-scale long-tailed video recognition*. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pp. 7960–7969, 2021.
+
+- **LAION-5B**: 
+  > Christoph Schuhmann, Romain Beaumont, Richard Vencu, Cade Gordon, Ross Wightman, Mehdi Cherti, Theo Coombes, Aarush Katta, Clayton Mullis, Mitchell Wortsman, et al. *Laion-5b: An open large-scale dataset for training next generation image-text models*. Advances in Neural Information Processing Systems (NeurIPS), 35:25278–25294, 2022.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

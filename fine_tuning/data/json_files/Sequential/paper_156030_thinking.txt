@@ -1,0 +1,42 @@
+To extract datasets from the research paper titled "Multi-Modal Deep Learning for Credit Rating Prediction Using Text and Numerical Data Streams" by Mahsa Tavakoli et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the study involves structured and unstructured datasets for credit rating prediction, which suggests that there are specific datasets being utilized.
+
+Next, I will examine **section 4 (Experiment Design)**, as it is likely to contain detailed information about the datasets used in the experiments. In this section, the authors describe the datasets as follows:
+
+1. **Numerical Channels**: The paper mentions four sources of numerical data collected from 2010 to 2022, specifically:
+   - **Bond Historical Dataset**: Contains features related to securities such as monthly high price, low price, trading volume, etc.
+   - **Financial Ratios Dataset**: Includes 45 features related to various financial ratios of companies.
+   - **Market Dataset**: Comprises 98 features related to market indices and stock market returns.
+   - **Covariate Features**: Contains information about the rating agency type and the last observed rating class.
+
+2. **Text Data**: The authors also describe a dataset of **earnings call transcripts** sourced from Seeking Alpha, which is used as an input channel for their models.
+
+Now, I will look for the **References section** to find the full citations for these datasets. The paper does not provide specific citations for the datasets themselves, but it does reference the source of the earnings call transcripts:
+
+- For the **Seeking Alpha** earnings call transcripts, the citation is:
+  > Frankel, R. M., Jennings, J. N., & Lee, J. A. (2017). Using natural language processing to assess text usefulness to readers: The case of conference calls and earnings prediction. Available at SSRN 3095754.
+
+For the numerical datasets, while the paper does not provide specific citations, it mentions that the numerical data was taken from **CRSP/Compustat**. Therefore, I will include a general citation for these sources:
+
+- For **CRSP/Compustat**, the citation is:
+  > CRSP/Compustat. (n.d.). Retrieved from https://www.crsp.com/ and https://www.compustat.com/
+
+With this information gathered, I will summarize the datasets and their citations clearly.
+
+1. **Bond Historical Dataset**: Contains features related to securities.
+   - Citation: CRSP/Compustat. (n.d.). Retrieved from https://www.crsp.com/
+
+2. **Financial Ratios Dataset**: Includes various financial ratios of companies.
+   - Citation: CRSP/Compustat. (n.d.). Retrieved from https://www.crsp.com/
+
+3. **Market Dataset**: Comprises features related to market indices and stock market returns.
+   - Citation: CRSP/Compustat. (n.d.). Retrieved from https://www.crsp.com/
+
+4. **Covariate Features**: Information about the rating agency type and last observed rating class.
+   - Citation: CRSP/Compustat. (n.d.). Retrieved from https://www.crsp.com/
+
+5. **Earnings Call Transcripts**: Text data used for model input.
+   - Citation: Frankel, R. M., Jennings, J. N., & Lee, J. A. (2017). Using natural language processing to assess text usefulness to readers: The case of conference calls and earnings prediction. Available at SSRN 3095754.
+
+After compiling this information, I will ensure that it is formatted correctly for any downstream processing or review.

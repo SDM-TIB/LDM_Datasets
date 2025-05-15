@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Course Correcting Koopman Representations" by Mahan Fathi et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and results sections** to identify any datasets mentioned. The abstract provides a brief overview of the study, and the introduction often outlines the context and significance of the datasets used.
+
+In the **introduction**, the authors mention that they validate their approach on established nonlinear dynamical systems and also on offline reinforcement learning datasets within D4RL. This indicates that there are specific datasets that will be detailed later in the paper.
+
+Next, I will look for a dedicated **section on datasets** or any mention of datasets in the **methodology or results sections**. In this paper, the authors describe their empirical validation on various nonlinear environments and specifically mention using the **D4RL dataset** for training their Koopman autoencoder.
+
+In **section 4.1 (Dynamical Systems)**, the authors describe several well-known dynamical systems used as benchmarks, but they do not provide specific dataset citations for these systems. However, they do mention that they used **100 trajectories for the Lorenz system** and **50 trajectories for non-chaotic systems**. While these are not formal datasets, they indicate the data used for their experiments.
+
+In **section 4.2 (D4RL: State Prediction)**, the authors detail their experiments using the D4RL benchmark, which includes environments like **Hopper-v2, HalfCheetah-v2, and Walker2d-v2**. They mention that each dataset comprises **1 million transitions**, organized as trajectories with a maximum length of **1,000 steps**. This section confirms the use of the D4RL dataset for their experiments.
+
+Now, I will consult the **References section** to retrieve full citations for the datasets mentioned:
+
+1. **D4RL Dataset**: The citation for the D4RL dataset is:
+   > Justin Fu, Aviral Kumar, Ofir Nachum, George Tucker, and Sergey Levine. *D4RL: Datasets for Deep Data-Driven Reinforcement Learning*. arXiv e-prints, April 2020.
+
+2. **Lorenz System**: While the Lorenz system is a well-known dynamical system, it does not have a specific dataset citation as it is often used in theoretical contexts. However, the original paper describing the Lorenz system is:
+   > Edward N. Lorenz. *Deterministic Nonperiodic Flow*. Journal of Atmospheric Sciences, 20(2):130–148, March 1963.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all relevant details are accurately captured for future reference or processing.

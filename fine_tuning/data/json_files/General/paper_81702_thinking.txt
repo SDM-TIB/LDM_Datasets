@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Satellite Imagery Multiscale Rapid Detection with Windowed Networks" by Adam Van Etten, I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses challenges in satellite imagery analytics and mentions a pipeline for object detection, which suggests that datasets are likely involved.
+
+Next, I will focus on **section 4 (Training Data)**, where the author explicitly describes the datasets used for training. Here, I will find specific datasets mentioned for different object categories:
+
+1. **Cars Overhead with Context (COWC)**: This dataset is described as a large, high-quality set of annotated cars from overhead imagery collected via aerial platforms. It includes 13,303 labeled training cars.
+
+2. **DigitalGlobe Images**: The paper mentions labeled DigitalGlobe images over airports, totaling 230 objects in the training set for airplanes.
+
+3. **DigitalGlobe Images for Boats**: The author notes that three DigitalGlobe images taken over coastal regions were labeled, resulting in a total of 556 boats.
+
+4. **Planet Images for Airports**: The dataset for airports consists of 37 Planet images, each containing a single airport per 5000m chip.
+
+Additionally, the author mentions the **SpaceNet dataset** as a potential source for building footprints, which could be relevant for future work.
+
+After identifying these datasets, I will consult the **References section** to retrieve the full citations for each dataset:
+
+- For **COWC**, the citation is:
+  > T. N. Mundhenk, G. Konjevod, W. A. Sakla, and K. Boakye. *A large contextual dataset for classification, detection and counting of cars with deep learning*. CoRR, abs/1609.04453, 2016.
+
+- For **DigitalGlobe images**, the citation is not explicitly provided in the paper, but it is implied that these are proprietary datasets from DigitalGlobe.
+
+- For **Planet images**, similar to DigitalGlobe, the citation is not explicitly provided, but it refers to imagery from Planet Labs.
+
+- For **SpaceNet**, the citation is:
+  > SpaceNet. *SpaceNet Dataset*. Available at: https://spacenetchallenge.github.io/
+
+Now, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research paper, ready for further processing or review.

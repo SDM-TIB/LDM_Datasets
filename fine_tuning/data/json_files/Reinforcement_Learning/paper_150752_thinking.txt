@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Out-of-Distribution Detection for Monocular Depth Estimation" by Julia Hornauer et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors built their experiments on the **NYU Depth V2** and **KITTI** benchmarks, which suggests these are the primary datasets used.
+
+Next, I will examine **section 4.1 (Experimental Setup)**, where the authors provide detailed descriptions of the datasets used in their experiments. Here, they mention:
+
+1. **NYU Depth V2**: This dataset is described as an indoor depth estimation dataset recorded with a resolution of 480 × 640 at 494 scenes. The authors use the official train/test split with a maximum depth of 10 meters.
+
+2. **KITTI**: This dataset is noted as an autonomous driving dataset with an average resolution of 375 × 1242 captured at 61 scenes in Germany. The authors use the Eigen split with a maximum depth set to 80 meters for evaluation.
+
+Additionally, the authors mention several out-of-distribution (OOD) datasets used for evaluation, including:
+
+- **Places365**: This dataset consists of scenes captured in various indoor and outdoor environments. The authors specifically select images from outdoor scenes for their experiments.
+
+- **India Driving**: This dataset includes driving scenes on Indian roads.
+
+- **Virtual KITTI (vKITTI)**: This dataset consists of synthetic driving scenarios.
+
+Now, I will check the **References section** to gather the full citations for each dataset mentioned:
+
+- For **NYU Depth V2**, the citation is:
+  > Nathan Silberman, Derek Hoiem, and Rob Fergus. *Indoor segmentation and support inference from RGBD images*. In European Conference on Computer Vision, 2012.
+
+- For **KITTI**, the citation is:
+  > Andreas Geiger, Philip Lenz, Christoph Stiller, and Raquel Urtasun. *Vision meets robotics: The KITTI dataset*. International Journal of Robotics Research, 2013.
+
+- For **Places365**, the citation is:
+  > Bolei Zhou, `Agata Lapedriza, Aditya Khosla, Aude Oliva, and Antonio Torralba. *Places: A 10 million image database for scene recognition*. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2018.
+
+- For **India Driving**, the citation is:
+  > G. Varma, A. Subramanian, Anoop M. Namboodiri, Manmohan Chandraker, and C. V. Jawahar. *IDD: A dataset for exploring problems of autonomous navigation in unconstrained environments*. 2019 IEEE Winter Conference on Applications of Computer Vision, 2018.
+
+- For **Virtual KITTI**, the citation is:
+  > Yohann Cabon, Naila Murray, and Martin Humenberger. *Virtual KITTI 2*. 2020.
+
+After gathering all the necessary information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

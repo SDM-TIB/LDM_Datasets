@@ -1,0 +1,93 @@
+[
+    {
+        "dcterms:creator": [
+            "M. Abadi",
+            "A. Agarwal",
+            "P. Barham",
+            "E. Brevdo",
+            "Z. Chen",
+            "C. Citro"
+        ],
+        "dcterms:description": "A dataset of handwritten digits used for training various image processing systems. It consists of 60,000 training images and 10,000 testing images, each representing a single digit from 0 to 9.",
+        "dcterms:title": "MNIST",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://tensorflow.org/",
+        "dcat:theme": [
+            "Image Processing",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Handwritten digits",
+            "Image dataset",
+            "Classification"
+        ],
+        "dcat:landingPage": "http://tensorflow.org/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A benchmark dataset where the network is presented with a one-dimensional time-series of T time-steps, aiming to approximate the first input after receiving the last.",
+        "dcterms:title": "Copy first input benchmark",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Time-series",
+            "Memory",
+            "Recurrent Neural Networks"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Sequence Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A benchmark dataset used to evaluate the ability of networks to exploit complex relationships between different elements of the input signal to predict the output.",
+        "dcterms:title": "Denoising benchmark",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Denoising",
+            "Time-series",
+            "Recurrent Neural Networks"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Signal Denoising"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A benchmark dataset where MNIST images are presented pixel by pixel as a time-series, allowing the evaluation of RNNs on sequential data.",
+        "dcterms:title": "Sequential MNIST",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Sequential Data",
+            "Image Processing",
+            "Recurrent Neural Networks"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Image Classification",
+            "Sequence Prediction"
+        ]
+    }
+]

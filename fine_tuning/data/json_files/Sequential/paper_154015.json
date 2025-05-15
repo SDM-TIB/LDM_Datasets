@@ -1,0 +1,95 @@
+[
+    {
+        "dcterms:creator": [
+            "Y. Hasson",
+            "G. Varol",
+            "D. Tzionas",
+            "I. Kalevatykh",
+            "M. J. Black",
+            "I. Laptev",
+            "C. Schmid"
+        ],
+        "dcterms:description": "The ObMan dataset is a large-scale synthetic dataset containing hand-object images, where the hand is generated through the MANO model and the object is sampled from the ShapeNet dataset. It includes more than 2000 object meshes across eight categories, with plausible grasps generated using GraspIt software. The dataset contains 141K training frames and 6K test frames, providing RGB-D images, 3D hand and object meshes, and 3D hand keypoints.",
+        "dcterms:title": "ObMan Dataset",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "3D Reconstruction",
+            "Computer Vision"
+        ],
+        "dcat:keyword": [
+            "Synthetic dataset",
+            "Hand-object interaction",
+            "3D meshes",
+            "RGB-D images"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "3D Shape Reconstruction",
+            "Hand Pose Estimation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "G. Garcia-Hernando",
+            "S. Yuan",
+            "S. Baek",
+            "T.-K. Kim"
+        ],
+        "dcterms:description": "The FHB dataset collects RGB-D video sequences of daily hand action categories with hand-object interaction. It includes automatic annotations for 3D hand joints and 6D object poses. A subset named FHBc, containing around 5K frames for training and 5.6K frames for testing, is used in the experiments.",
+        "dcterms:title": "First-Person Hand Action Benchmark Dataset (FHB)",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Action Recognition",
+            "Hand-Object Interaction"
+        ],
+        "dcat:keyword": [
+            "RGB-D videos",
+            "Hand action",
+            "3D pose annotations"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Video",
+        "mls:task": [
+            "Action Recognition",
+            "Hand Pose Estimation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D. Tzionas",
+            "L. Ballan",
+            "A. Srikantha",
+            "P. Aponte",
+            "M. Pollefeys",
+            "J. Gall"
+        ],
+        "dcterms:description": "The HIC dataset consists of sequences where a hand interacts with an object. Only frames where the hand is less than 5mm away from the object are used. The dataset provides hand and object meshes, and specific sequences are designated for training and evaluation.",
+        "dcterms:title": "Hands in Action Dataset (HIC)",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Human-Computer Interaction",
+            "3D Reconstruction"
+        ],
+        "dcat:keyword": [
+            "Hand-object interaction",
+            "3D meshes",
+            "Action sequences"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Video",
+        "mls:task": [
+            "Hand Pose Estimation",
+            "Object Reconstruction"
+        ]
+    }
+]

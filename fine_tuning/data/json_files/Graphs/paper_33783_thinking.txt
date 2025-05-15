@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "ASGEA: Exploiting Logic Rules from Align-Subgraphs for Entity Alignment" by Yangyifei Luo et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract provides a brief overview of the study and may mention datasets used for evaluation. The introduction typically outlines the context and significance of the research, which might include references to specific datasets.
+
+In the **experiments section**, I will look for a dedicated subsection that discusses the datasets used. This is often where authors provide detailed descriptions of the datasets, including their characteristics and how they were utilized in the experiments.
+
+Upon reviewing the paper, I find that in **section 4 (Experiment)**, the authors mention several datasets:
+
+1. **MMKG (Liu et al., 2019)**: This dataset includes two subsets: **FB15K-DB15K (FBDB15K)** and **FB15K-YAGO15K (FBYG15K)**. The authors note that these datasets are split into three subsets based on the ratio of seed alignments: Rsa ∈ {0.2, 0.5, 0.8}.
+
+2. **DBP15K (Sun et al., 2017)**: This dataset is derived from multilingual versions of DBpedia and includes three subsets: **DBP15KZH-EN**, **DBP15KJA-EN**, and **DBP15KFR-EN**. The authors also mention a multi-modal variant of these datasets (Liu et al., 2021), which enhances the entities with corresponding images.
+
+3. **Multi-OpenEA (Li et al., 2023b)**: This dataset consists of multi-modal variants of the OpenEA benchmarks (Sun et al., 2020b) and includes datasets such as **EN-FR-15K**, **EN-DE-15K**, **D-W-15K-V1**, and **D-W-15K-V2**. The authors specify that they selected only the rank one image for each entity.
+
+Next, I will check the **References section** to gather the full citations for each dataset mentioned:
+
+- For **MMKG**, the citation is:
+  > Liu, Y., Chen, M., Roth, D., & Collier, N. (2019). MMKG: Multi-modal knowledge graphs. In ESWC, volume 11503 of Lecture Notes in Computer Science, pages 459–474. Springer.
+
+- For **DBP15K**, the citation is:
+  > Sun, Z., Hu, W., & Li, C. (2017). Cross-lingual entity alignment via joint attribute-preserving embedding. In ISWC (1), volume 10587 of Lecture Notes in Computer Science, pages 628–644. Springer.
+
+- For **Multi-OpenEA**, the citation is:
+  > Li, Y., Chen, J., Li, Y., Xiang, Y., Chen, X., & Zheng, H.-T. (2023b). Vision, deduction and alignment: An empirical study on multi-modal knowledge graph alignment. In ICASSP, pages 1–5. IEEE.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

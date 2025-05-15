@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "KG-NSF: Knowledge Graph Completion with a Negative-Sample-Free Approach" by Adil Bahaj et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reading the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract provides a brief overview of the research, and the introduction often outlines the context and significance of the datasets used.
+
+Next, I will focus on **section 4.1 (Datasets)**, which is likely to contain detailed descriptions of the datasets used in the experiments. This section typically lists the datasets along with their characteristics, such as the number of entities, relations, and triples.
+
+In this paper, the authors mention the following datasets:
+
+1. **FB15K**: A subset of the Freebase dataset, which is a large knowledge base containing numerous facts. The authors used the default split available in the TorchKGE package.
+
+2. **WN18**: A subset of the WordNet dataset, which is a large lexical knowledge graph. Similar to FB15K, the authors used the default split provided by TorchKGE.
+
+3. **FB15k-237AM**: A subset of the FB15k-237 dataset, introduced after noticing missing entities in the validation and test splits of the original dataset. The authors used the splits introduced by the original authors.
+
+4. **WN18AM**: A subset of the WN18RR dataset, also introduced to address similar issues as FB15k-237AM. The authors used the same splits as those introduced by the original authors.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset. This is crucial for proper attribution and to provide context for future researchers.
+
+The citations for the datasets are as follows:
+
+- For **FB15K**:
+  > Kurt Bollacker, Colin Evans, Praveen Paritosh, Tim Sturge, and Jamie Taylor. *Freebase: a collaboratively created graph database for structuring human knowledge*. In Proceedings of the 2008 ACM SIGMOD international conference on Management of data, pages 1247–1250, 2008.
+
+- For **WN18**:
+  > George A Miller. *Wordnet: a lexical database for English*. Communications of the ACM, 38(11):39–41, 1995.
+
+- For **FB15k-237AM**:
+  > Tim Dettmers, Pasquale Minervini, Pontus Stenetorp, and Sebastian Riedel. *Convolutional 2D knowledge graph embeddings*. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 32, 2018.
+
+- For **WN18AM**:
+  > Kristina Toutanova and Danqi Chen. *Observed versus latent features for knowledge base and text inference*. In Proceedings of the 3rd workshop on continuous vector space models and their compositionality, pages 57–66, 2015.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format for further use or analysis. This ensures that I have accurately captured the datasets and their sources as required.

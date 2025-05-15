@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "Semi-supervised Adversarial Learning to Generate Photorealistic Face Images of New Identities from 3D Morphable Model" by Baris Gecer et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors evaluated their model on two datasets: **LFW** and **IJB-A**. This is a good starting point for identifying datasets.
+
+Next, I will look for specific sections that discuss datasets in detail, particularly the **Implementation Details** section, where the authors describe the datasets used for training and evaluation. Here, they mention:
+
+1. **CASIA-Web Face Dataset**: This dataset consists of approximately 500,000 face images of around 10,000 individuals. It is used as the real face image dataset for training.
+
+2. **300W-3D and AFLW2000-3D Datasets**: These datasets are used to create a paired training set consisting of 5,000 real images with their corresponding 3D morphable model (3DMM) parameter annotations. The authors render synthetic images using these parameters.
+
+3. **Large Scale Face Model (LSFM)**: This dataset is used to generate synthetic face images, totaling around 500,000 images of 10,000 different identities.
+
+4. **Face Warehouse Model**: This model is utilized for generating expressions in the synthetic dataset.
+
+Additionally, I will check the **References section** to find full citations for these datasets. The citations I need to extract include:
+
+- For **CASIA-Web Face Dataset**:
+  > Yi, D., Lei, Z., Liao, S., & Li, S. Z. (2014). Learning face representation from scratch. arXiv preprint arXiv:1411.7923.
+
+- For **300W-3D**:
+  > Zhu, X., Lei, Z., Liu, X., Shi, H., & Li, S. Z. (2016). Face alignment across large poses: A 3D solution. In CVPR.
+
+- For **AFLW2000-3D**:
+  > Cao, C., Weng, Y., Zhou, S., Tong, Y., & Zhou, K. (2014). Facewarehouse: A 3D facial expression database for visual computing. IEEE Transactions on Visualization and Computer Graphics, 20(3), 413-425.
+
+- For **Large Scale Face Model (LSFM)**:
+  > Booth, J., Roussos, A., Zafeiriou, A., Ponniah, A., & Dunaway, D. (2016). A 3D morphable model learnt from 10,000 faces. In CVPR.
+
+- For **Face Warehouse Model**:
+  > Cao, C., Weng, Y., Zhou, S., Tong, Y., & Zhou, K. (2014). Facewarehouse: A 3D facial expression database for visual computing. IEEE Transactions on Visualization and Computer Graphics, 20(3), 413-425.
+
+Now, I will compile the dataset entries with their respective citations into a structured format for further processing. This will ensure that I have accurately captured all relevant datasets and their citations from the paper.

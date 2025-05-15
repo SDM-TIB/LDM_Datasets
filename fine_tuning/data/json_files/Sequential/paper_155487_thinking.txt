@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Recipe for a General, Powerful, Scalable Graph Transformer" by Ladislav Rampášek et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to locate any references to datasets. The abstract mentions that the authors tested their architecture on **16 benchmarks**, which suggests that multiple datasets are involved.
+
+Next, I will focus on the **experiments section** (Section 4), where the authors typically provide detailed information about the datasets used for evaluation. I will look for any subsections specifically labeled as "Datasets" or similar, as these often contain the most relevant information.
+
+In the **experiments section**, the authors list several datasets used for benchmarking their model. They mention:
+
+1. **ZINC**: A dataset consisting of 12,000 molecular graphs from the ZINC database, used for predicting constrained solubility (logP).
+2. **MNIST**: A dataset derived from the MNIST image classification dataset, transformed into a graph format for a 10-class classification task.
+3. **CIFAR10**: Similar to MNIST, this dataset is derived from CIFAR10 images and is also structured as a graph for classification.
+4. **ogbg-molhiv**: A molecular property prediction dataset for binary classification of a molecule's fitness to inhibit HIV replication.
+5. **ogbg-molpcba**: A dataset for predicting results of 128 bioassays in a multi-task binary classification setting.
+6. **ogbg-ppa**: A dataset consisting of protein-protein association networks for classifying taxonomic groups.
+7. **ogbg-code2**: A dataset of abstract syntax trees derived from Python source code for predicting subtokens of function names.
+8. **PCQM4Mv2**: A large-scale molecular dataset for regressing the HOMO-LUMO gap.
+9. **MalNet-Tiny**: A dataset of function call graphs derived from Android APKs for predicting software types.
+10. **PascalVOC-SP**: A dataset derived from the Pascal VOC image dataset for node classification.
+11. **COCO-SP**: A dataset derived from the MS COCO image dataset for node classification.
+12. **Peptides-func**: A dataset of atomic graphs of peptides for multi-label graph classification.
+13. **Peptides-struct**: A dataset for graph regression of structural properties of peptides.
+
+After identifying these datasets, I will refer to the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+For example, the citation for the **ZINC dataset** is:
+> Dwivedi, V. P., et al. "Benchmarking Graph Neural Networks." *arXiv preprint arXiv:2003.00982* (2020).
+
+Similarly, I will find citations for the other datasets mentioned, ensuring that I accurately document the source of each dataset.
+
+Finally, I will compile the dataset information, including their descriptions and citations, into a structured format that can be easily reviewed or processed further.

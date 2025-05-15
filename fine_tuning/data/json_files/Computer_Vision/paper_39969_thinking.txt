@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Synthesizing 3D Shapes from Silhouette Image Collections using Multi-projection Generative Adversarial Networks" by Xiao Li et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and implementation sections** to identify any datasets mentioned. The abstract indicates that the method is validated on both synthetic and real image datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on the **implementation section** where the authors describe the training data used for their experiments. Here, they mention four different datasets:
+
+1. **Synthetic Dataset**: This dataset consists of 40,000 rendered silhouette images for 6,000 3D shapes of chairs from the ShapeNet dataset. The silhouettes are rendered from viewpoints with no elevation angle and uniformly distributed azimuth angles in [0, 2π].
+
+2. **Chair Images**: Approximately 22,000 chair images mined from internet image repositories and the Pix3D dataset.
+
+3. **Car Images**: A dataset of approximately 36,000 car images, which includes images from internet repositories and the Stanford car dataset.
+
+4. **Bird Images**: A dataset of around 12,000 bird images from the CUB-Birds-200-2011 dataset.
+
+In the **references section**, I will look for full citations for these datasets. The citations I need to find are:
+
+- For the **ShapeNet dataset**:
+  > Chang, A. X., Funkhouser, T. A., Guibas, L. J., Hanrahan, P., Huang, Q., Li, Z., Savarese, S., Savva, M., Song, H., Su, H., Xiao, J., Yi, L., & Yu, F. (2015). *ShapeNet: An information-rich 3D model repository*. arXiv:1512.03012.
+
+- For the **Pix3D dataset**:
+  > Sun, X., Wu, J., Zhang, X., Zhang, Z., Zhang, C., Xue, T., Tenenbaum, J. B., & Freeman, W. T. (2018). *Pix3D: Dataset and methods for single-image 3D shape modeling*. In CVPR.
+
+- For the **Stanford car dataset**:
+  > Krause, J., Stark, M., Deng, J., & Fei-Fei, L. (2013). *3D object representations for fine-grained categorization*. In 3dRR-13.
+
+- For the **CUB-Birds-200-2011 dataset**:
+  > Wah, C., Branson, S., Welinder, P., Perona, P., & Belongie, S. (2011). *The Caltech-UCSD Birds-200-2011 Dataset*. Technical Report CNS-TR-2011-001, California Institute of Technology.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This will provide a comprehensive overview of the datasets used in the research, which is crucial for reproducibility and further research in the field.

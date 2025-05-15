@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "HyperFormer: Learning Expressive Sparse Feature Representations via Hypergraph Transformer" by Kaize Ding et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to locate any references to datasets. The abstract provides a brief overview of the research, and while it may not explicitly mention datasets, it sets the context for the experiments.
+
+Next, I will focus on the **introduction** section, where the authors discuss the challenges of representation learning on sparse features. This section may provide insights into the datasets used for evaluation.
+
+In the **experiments section**, particularly in **section 4**, the authors provide detailed information about the datasets used for their experiments. I will look for any tables or descriptions that summarize the datasets, including their names, characteristics, and any relevant statistics.
+
+From the text, I identify two main tasks: **CTR prediction** and **top-K item recommendation**. The datasets mentioned for these tasks are:
+
+1. **MovieLens-1M**: This dataset is used for CTR prediction and consists of 0.94 million samples with 7 fields and 3,529 features. The authors mention that they transformed the original user ratings into binary values for this task.
+
+2. **Criteo**: Another dataset for CTR prediction, which includes 45.84 million samples with 39 fields and 998,960 features. The authors specify that they used data from the first 6 days for training and split the last day for validation and testing.
+
+3. **Amazon-Movie**: This dataset is used for top-K item recommendation and consists of 19,873 users and 10,176 items, with 8,504 features.
+
+4. **Bookcrossing**: Another dataset for top-K item recommendation, which includes 48,999 users and 5,100 items, with 193,765 features.
+
+Now, I will check the **References section** to find the full citations for these datasets. However, the datasets mentioned (MovieLens, Criteo, Amazon-Movie, and Bookcrossing) are well-known public datasets, and their citations can be found in the literature. I will provide the standard citations for these datasets:
+
+- For **MovieLens-1M**:
+  > F. Maxwell Harper and Joseph A. Konstan. *The MovieLens Datasets: History and Context*. ACM Transactions on Interactive Intelligent Systems, 5(4):19, 2015.
+
+- For **Criteo**:
+  > Criteo Labs. *Criteo Labs Dataset*. Available at: https://www.kaggle.com/c/criteo-ads-challenge/data.
+
+- For **Amazon-Movie**:
+  > Julian McAuley and J. Leskovec. *Hidden Factors and Hidden Topics: Understanding Rating Dimensions with Review Text*. In Proceedings of the 7th ACM Conference on Recommender Systems, 2013.
+
+- For **Bookcrossing**:
+  > Cai-Nicolas Ziegler, Sean M McNee, Joseph A Konstan, and Georg Lausen. *Improving Recommendation Lists through Topic Diversification*. In WWW, 2005.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all relevant details are captured for future reference or processing.

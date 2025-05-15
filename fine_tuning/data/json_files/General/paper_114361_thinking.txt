@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "Simplex Clustering via sBeta with Applications to Online Adjustment of Black-Box Predictions" by Florent Chiaroni et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract mentions that the authors provide comparisons with existing simplex-clustering approaches and introduce softmax-prediction benchmarks, indicating that datasets are likely included.
+
+Next, I will focus on the **experiments section** (Section 5) where the authors describe their experimental setup. Here, they mention using datasets for various tasks, including:
+
+1. **SVHN (Street View House Numbers)**: This dataset is used for the SVHN→MNIST challenge, where a source model is trained on SVHN and applied to the MNIST test set.
+
+2. **VISDA-C**: This dataset is used for the VISDA-C challenge, which contains samples split into different semantic classes.
+
+3. **Simu Dataset**: This is a synthetic dataset generated from Dirichlet distributions, specifically designed for benchmarking clustering methods.
+
+4. **iSimu Dataset**: This is an imbalanced version of the Simu dataset, created to test the performance of clustering methods under class imbalance conditions.
+
+In the **appendices**, the authors provide additional details about the datasets used, including their proportions and characteristics, particularly for the iVISDA-C dataset.
+
+Now, I will look for the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and should be formatted correctly. 
+
+- For **SVHN**, the citation is:
+  > Y. Netzer, T. Wang, A. Coates, A. Bissacco, B. Wu, and A. Y. Ng. *Reading digits in natural images with unsupervised feature learning*. In NIPS Workshop, 2011.
+
+- For **MNIST**, the citation is:
+  > Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. *Gradient-based learning applied to document recognition*. Proceedings of the IEEE, 86(11):2278–2324, 1998.
+
+- For **VISDA-C**, the citation is:
+  > X. Peng, B. Usman, N. Kaushik, D. Wang, J. Hoffman, and K. Saenko. *Visda: A synthetic-to-real benchmark for visual domain adaptation*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops, 2018.
+
+- For **Simu Dataset**, since it is synthetic, it may not have a formal citation but can be described as:
+  > Simulated dataset generated from Dirichlet distributions for benchmarking clustering methods.
+
+- For **iSimu Dataset**, similarly, it can be described as:
+  > Imbalanced version of the Simu dataset, created for testing clustering methods under class imbalance conditions.
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset name, description, and full citation for each dataset. This will ensure that all relevant information is captured and properly attributed.

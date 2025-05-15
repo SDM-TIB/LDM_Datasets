@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "KAMA: 3D Keypoint Aware Body Mesh Articulation" by Umar Iqbal et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions that the proposed method is evaluated on the **3DPW** and **Human3.6M** datasets, which indicates that these datasets are crucial for understanding the performance of the method.
+
+Next, I will focus on the **experiments section** where the authors provide detailed descriptions of the datasets used. In this section, they explicitly mention:
+
+1. **Human3.6M**: This dataset is referenced as a standard protocol for training and testing, specifically mentioning that they use five subjects for training and two for testing. 
+
+2. **3D Poses in-the-Wild (3DPW)**: The authors describe this dataset as consisting of 60 videos recorded in diverse environments, with ground-truth poses obtained using IMU sensors.
+
+3. **RenderPeople**: This synthetic dataset is mentioned as having ground-truth annotations for all 26 keypoints used in their method, generated from characters and poses.
+
+4. **MS-COCO**: This dataset is used as a weakly-labeled set for training the 3D keypoint regressor, providing 2D annotations for 18 keypoints.
+
+I will then check the **References section** to find the full citations for each dataset mentioned. The citations are as follows:
+
+- **Human3.6M**:
+  > Catalin Ionescu, Dragos Papava, Vlad Olaru, and Cristian Sminchisescu. *Human3.6M: Large scale datasets and predictive methods for 3D human sensing in natural environments*. TPAMI, 36(7):1325–1339, 2014.
+
+- **3D Poses in-the-Wild (3DPW)**:
+  > Timo von Marcard, Roberto Henschel, Michael Black, Bodo Rosenhahn, and Gerard Pons-Moll. *Recovering accurate 3D human pose in the wild using IMUs and a moving camera*. In ECCV, 2018.
+
+- **RenderPeople**:
+  > Render People. *Render People 3D Characters*. 2020. Available at: https://renderpeople.com/3d-people.
+
+- **MS-COCO**:
+  > Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. *Microsoft COCO: Common objects in context*. In ECCV, 2014.
+
+After gathering all this information, I will summarize the datasets and their citations in a clear format, ensuring that each dataset is accurately represented with its full citation for future reference or processing.

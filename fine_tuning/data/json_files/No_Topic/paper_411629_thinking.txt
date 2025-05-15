@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "PaSCo: Urban 3D Panoptic Scene Completion with Uncertainty Awareness" by Anh-Quan Cao et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on **three large-scale autonomous driving datasets**, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for evaluation. In this case, they mention extending three large-scale urban LiDAR datasets: 
+
+1. **Semantic KITTI**: This dataset is referenced as having 64-layer LiDAR scans voxelized into grids. The authors follow the standard train/val split, leading to a specific number of grids for training and validation.
+
+2. **SSCBench-KITTI360**: This dataset is described as a recent benchmark derived from KITTI-360, with urban scans encoded similarly to Semantic KITTI. The authors also mention the standard train/val/test splits for this dataset.
+
+3. **Robo3D**: This dataset is introduced as a robustness benchmark that modifies point cloud inputs with various types of corruptions. The authors specify that they use corrupted input point clouds from the SemanticKITTI-C set of Robo3D.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **Semantic KITTI**, the citation is:
+  > Behley, J., Garbade, M., Milioto, A., Quenzel, J., Behnke, S., Stachniss, C., & Gall, J. (2019). *SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV).
+
+- For **SSCBench-KITTI360**, the citation is:
+  > Li, Y., Li, S., Liu, X., Gong, M., Ren, J., Pan, K., Wang, Z., Yu, F., Zhao, H., & Feng, C. (2023). *SSCBench: Monocular 3D Semantic Scene Completion Benchmark in Street Views*. arXiv.
+
+- For **Robo3D**, the citation is:
+  > Kong, L., Liu, Y., Li, X., Chen, R., Zhang, W., Ren, J., Pan, L., Chen, K., & Liu, Z. (2023). *Robo3D: Towards Robust and Reliable 3D Perception Against Corruptions*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV).
+
+After gathering this information, I will summarize the datasets with their respective details and citations, ensuring that I maintain clarity and accuracy in the descriptions. This structured approach will help in compiling the dataset entries for further processing or review.

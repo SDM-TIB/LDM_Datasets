@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Anomaly Detection using Deep Reconstruction and Forecasting for Autonomous Systems" by Nadarasar Bahavan et al., I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections of the paper. The abstract mentions the use of "camera video and IMU readings" for anomaly detection, which suggests that there are datasets related to these modalities. I will look for specific mentions of datasets or data sources.
+
+Next, I will examine the **data preparation** section (Section IV) closely, as it typically contains detailed information about the datasets used in the experiments. In this section, the authors describe the datasets used for training and testing their models. 
+
+1. **IMU Data**: The authors mention that the dataset consists of six normal scenarios and six abnormal scenarios, referred to as normal-0 through normal-5 and abnormal-0 through abnormal-5. They specify that the IMU data is contained in ROS bag files, which are commonly used in robotics for storing sensor data.
+
+2. **Image Data**: The authors describe a dataset of RGB images taken from a drone's frontal camera, also consisting of six normal and six abnormal scenarios. They mention that the images are resized and normalized, and that they constructed sequences of four images for training.
+
+After identifying the datasets, I will check the **References section** for any citations related to the datasets mentioned. However, since the datasets are described as being collected from specific scenarios and not from external sources, they may not have formal citations. Instead, I will note the context in which they are used.
+
+For the IMU data, I will summarize:
+- **Dataset Name**: IMU Data
+- **Description**: Contains six normal scenarios (normal-0 to normal-5) and six abnormal scenarios (abnormal-0 to abnormal-5) stored in ROS bag files.
+
+For the image data, I will summarize:
+- **Dataset Name**: Image Data
+- **Description**: Sequences of RGB images taken from a drone's frontal camera, consisting of six normal and six abnormal scenarios, with images resized to 128x128 and normalized.
+
+Since these datasets are not sourced from external publications, I will note that they are original datasets created for the study.
+
+Finally, I will compile the dataset entries into a structured format, ensuring that I include all relevant details and descriptions for clarity and future reference. This will allow for easy access and understanding of the datasets used in the research.

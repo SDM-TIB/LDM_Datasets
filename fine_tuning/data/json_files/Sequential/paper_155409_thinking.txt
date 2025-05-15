@@ -1,0 +1,46 @@
+To extract datasets from the research paper titled "Parameter-Efficient Tuning by Manipulating Hidden States of Pretrained Language Models For Classification Tasks" by Haoran Yang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the study but does not specify datasets. The introduction discusses various tuning methods but does not list datasets either.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors describe their experimental setup. Here, they mention using several datasets for different tasks. Specifically, they list:
+
+1. **IMDB**: Used for sentiment classification, with 45,000 training samples and 5,000 test samples.
+2. **SST (Stanford Sentiment Treebank)**: Also for sentiment classification, with 67,350 training samples and 873 test samples.
+3. **MRPC (Microsoft Research Paraphrase Corpus)**: Used for paraphrase detection, with 3,068 training samples and 1,721 test samples.
+4. **QQP (Quora Question Pairs)**: Another dataset for paraphrase detection, with 363,868 training samples and 40,432 test samples.
+5. **QNLI (Question Natural Language Inference)**: Used for natural language inference, with 105,000 training samples and 5,000 test samples.
+6. **RTE (Recognizing Textual Entailment)**: Another natural language inference dataset, with 2,490 training samples and 277 test samples.
+7. **SciTaiL (Science Tail)**: A dataset for natural language inference, with 23,596 training samples and 2,126 test samples.
+8. **CB (CommitmentBank)**: Used for natural language inference, with 250 training samples and 56 test samples.
+9. **BOOLQ (Boolean Questions)**: Another natural language inference dataset, with 94,276 training samples and 3,270 test samples.
+
+I will then check the **References section** to find full citations for these datasets. The citations for the datasets are as follows:
+
+- **IMDB**: 
+  > Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. *Learning Word Vectors for Sentiment Analysis*. In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies, pages 142–150, 2011.
+
+- **SST**: 
+  > Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D. Manning, Andrew Ng, and Christopher Potts. *Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank*. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, pages 1631–1642, 2013.
+
+- **MRPC**: 
+  > William B. Dolgov, and others. *Microsoft Research Paraphrase Corpus*. 2006.
+
+- **QQP**: 
+  > Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel Bowman. *SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems*. In Advances in Neural Information Processing Systems, volume 32, 2019.
+
+- **QNLI**: 
+  > Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel Bowman. *GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding*. In Proceedings of the 2018 EMNLP Workshop BlackboxNLP, pages 353–355, 2018.
+
+- **RTE**: 
+  > Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel Bowman. *SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems*. In Advances in Neural Information Processing Systems, volume 32, 2019.
+
+- **SciTaiL**: 
+  > Tushar Khot, Ashish Sabharwal, and Peter Clark. *SciTail: A Textual Entailment Dataset from Science Question Answering*. In AAAI, 2018.
+
+- **CB**: 
+  > Z. Z. Chen, and others. *CommitmentBank: A Corpus for Commitment in Natural Language*. 2019.
+
+- **BOOLQ**: 
+  > Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel Bowman. *SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems*. In Advances in Neural Information Processing Systems, volume 32, 2019.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

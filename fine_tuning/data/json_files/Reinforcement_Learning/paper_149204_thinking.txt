@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Enhancing Video Analytics Accuracy via Real-time Automated Camera Parameter Tuning" by Sibendu Paul et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to see if any datasets are explicitly mentioned. The abstract discusses the use of "proprietary videos provided by our customers" for experiments, which suggests that there may be specific datasets referenced later in the paper.
+
+Next, I will look closely at **section 3 (Motivation)**, where the authors describe their experiments. They mention using "several proprietary videos provided by our customers" that were captured with default camera settings. This indicates that these videos are crucial for their analysis, but I need to find more details about them.
+
+In **section 7 (Evaluation)**, the authors describe their experimental setup and mention using "annotated video frames from the olympics and HMDB datasets" for evaluating their AU-specific quality estimators. This is a clear indication that these datasets are part of their research.
+
+Now, I will compile the datasets identified:
+
+1. **Proprietary Videos**: These are not publicly available datasets but are crucial for the experiments. The authors do not provide a formal citation for these, but they are referenced as "proprietary videos provided by our customers."
+
+2. **Olympics Dataset**: This dataset is used for evaluating the face-detection AU-specific quality estimator. The citation for this dataset is:
+   > J. C. Niebles, C.-W. Chen, and L. Fei-Fei. *Modeling temporal structure of decomposable motion segments for activity classification*. In European conference on computer vision, pages 392–405. Springer, 2010.
+
+3. **HMDB Dataset**: This dataset is used for evaluating the object-detection AU-specific quality estimator. The citation for this dataset is:
+   > H. Kuehne, H. Jhuang, E. Garrote, T. Poggio, and T. Serre. *HMDB: a large video database for human motion recognition*. In Proceedings of the International Conference on Computer Vision (ICCV), 2011.
+
+4. **COCO Dataset**: This dataset is used for training the object-detection AU-specific quality estimator. The citation for this dataset is:
+   > T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollár, and C. L. Zitnick. *Microsoft coco: Common objects in context*. In European conference on computer vision, pages 740–755. Springer, 2014.
+
+After identifying these datasets, I will ensure to document them properly with their respective citations, as this is crucial for the integrity of the research and for any future references.
+
+Finally, I will compile the dataset entries into a structured format for clarity and ease of access.

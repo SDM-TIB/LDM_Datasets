@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Zero-Shot ECG Classification with Multimodal Learning and Test-time Clinical Knowledge Enhancement" by Che Liu et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions that the authors benchmark their method across **six public ECG datasets**, which indicates that multiple datasets are involved. I will look for specific names of these datasets.
+
+Next, I will proceed to the **methodology** and **experiments** sections, particularly focusing on any sections that explicitly mention datasets. In the **Experiments** section, the authors detail their evaluation on three widely-used public datasets:
+
+1. **MIMIC-ECG**: This dataset is used for pre-training the MERL framework. It contains 800,035 paired samples from 161,352 unique subjects, with each sample comprising a raw ECG signal and its associated report.
+
+2. **PTBXL**: This dataset encompasses 21,837 ECG signals collected from 18,885 patients. It includes multiple subsets for multi-label classification tasks.
+
+3. **CPSC2018**: This dataset comprises 6,877 standard 12-lead ECG records, annotated with 9 distinct labels.
+
+4. **Chapman-Shaoxing-Ningbo (CSN)**: This dataset contains 45,152 standard 12-lead ECG records, with a curated version having 23,026 ECG records and 38 distinct labels.
+
+I will also check the **References** section to gather the full citations for these datasets:
+
+- For **MIMIC-ECG**, the citation is:
+  > Gow, B., Pollard, T., Nathanson, L. A., Johnson, A., Moody, B., Fernandes, C., Greenbaum, N., Berkowitz, S., Moukheiber, D., Eslami, P., et al. *MIMIC-IV-ECG-Diagnostic Electrocardiogram Matched Subset*.
+
+- For **PTBXL**, the citation is:
+  > Wagner, P., Strodthoff, N., Bousseljot, R.-D., Kreiseler, D., Lunze, F. I., Samek, W., and Schaeffter, T. *PTB-XL, a Large Publicly Available Electrocardiography Dataset*. Scientific Data, 7(1):1–15, 2020.
+
+- For **CPSC2018**, the citation is:
+  > Liu, F., Liu, C., Zhao, L., Zhang, X., Wu, X., Xu, X., Liu, Y., Ma, C., Wei, S., He, Z., et al. *An Open Access Database for Evaluating the Algorithms of Electrocardiogram Rhythm and Morphology Abnormality Detection*. Journal of Medical Imaging and Health Informatics, 8(7):1368–1373, 2018.
+
+- For **CSN**, the citation is:
+  > Zheng, J., Guo, H., and Chu, H. *A Large Scale 12-Lead Electrocardiogram Database for Arrhythmia Study*. PhysioNet 2022. Available online: http://physionet.org/content/ecg-arrhythmia/1.0.0/ (accessed on 23 November 2022).
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described and that the full citations are included for reference. This structured approach will ensure that I accurately capture all relevant datasets from the paper.

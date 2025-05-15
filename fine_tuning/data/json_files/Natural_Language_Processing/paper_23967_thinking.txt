@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Deep Symbolic Optimization for Combinatorial Optimization: Accelerating Node Selection by Discovering Potential Heuristics" by Hongyu Liu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and while it may not explicitly mention datasets, it can give clues about the experiments conducted.
+
+Next, I will focus on the **experiments section** (section 4) where the authors typically describe the datasets used for their evaluations. In this paper, the authors mention conducting experiments on three NP-hard combinatorial optimization problems, which suggests that specific datasets or benchmarks are involved.
+
+In section 4.1 (Setup), the authors detail the benchmarks used for their experiments:
+
+1. **Fixed Charge Multicommodity Network Flow (FCMCNF)**: This benchmark consists of instances generated with varying numbers of nodes and commodities, specifically designed for testing optimization algorithms.
+
+2. **Capacitated Facility Location**: This benchmark involves instances with a specified number of customers and is representative of practical problems in optimization.
+
+3. **Set Covering**: This benchmark is based on a family of cutting planes and involves generating instances with varying constraints.
+
+The authors provide details about the number of training, validation, and test instances generated for each benchmark, which confirms the datasets used in their experiments.
+
+Now, I will check the **References section** for full citations related to the datasets or benchmarks mentioned. However, since these benchmarks are commonly used in the field of combinatorial optimization, they may not have specific citations like proprietary datasets. Instead, I will note the original sources or papers where these benchmarks were introduced or discussed.
+
+For the **Fixed Charge Multicommodity Network Flow (FCMCNF)**, the citation is:
+> Mike Hewitt, George L Nemhauser, and Martin WP Savelsbergh. 2010. *Combining exact and heuristic approaches for the capacitated fixed-charge network flow problem*. INFORMS Journal on Computing 22, 2 (2010), 314–325.
+
+For the **Capacitated Facility Location**, the citation is:
+> Gérard Cornuéjols, Ranjani Sridharan, and Jean-Michel Thizy. 1991. *A comparison of heuristics and relaxations for the capacitated plant location problem*. European Journal of Operational Research 50, 3 (1991), 280–297.
+
+For the **Set Covering** problem, the citation is:
+> Egon Balas and Andrew Ho. 1980. *Set covering algorithms using cutting planes, heuristics, and subgradient optimization: a computational study*. Springer.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each dataset or benchmark used in the experiments. This will provide a comprehensive overview of the datasets referenced in the paper.

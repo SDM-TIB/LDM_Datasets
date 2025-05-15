@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Learned representation-guided diffusion models for large-image generation" by Alexandros Graikos et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract discusses the use of self-supervised learning (SSL) features and mentions the application of their models to histopathology and satellite imagery, which suggests that datasets related to these domains may be included.
+
+Next, I will focus on **section 4 (Image Generation Experiments)**, which is likely to contain detailed information about the datasets used for training and evaluation. In this section, the authors explicitly list the datasets:
+
+1. **TCGA-BRCA (Breast Invasive Carcinoma Collection)**: This dataset is part of The Cancer Genome Atlas (TCGA) and is used for training diffusion models conditioned on embeddings from self-supervised learning. 
+
+2. **TCGA-CRC (Colorectal Carcinoma)**: Another dataset from TCGA, used similarly to TCGA-BRCA for training purposes.
+
+3. **Chesapeake Land Cover dataset**: This dataset contains 732 NAIP tiles, each measuring 6km × 7.5 km at 1m resolution, and is used for satellite imagery tasks.
+
+4. **NCT-CRC dataset**: This dataset consists of 100,000 colorectal cancer patches from 86 patients, used for patch-level augmentation.
+
+5. **BACH dataset**: This dataset includes 400 H&E-stained breast cancer images, used for large-image augmentation.
+
+I will now look for the **References section** to find the full citations for each dataset mentioned:
+
+- For **TCGA-BRCA** and **TCGA-CRC**, the citation is:
+  > JN Cancer Genome Atlas Research Network et al. *The cancer genome atlas pan-cancer analysis project*. Nat. Genet, 45(10):1113–1120, 2013.
+
+- For **Chesapeake Land Cover dataset**, the citation is:
+  > Caleb Robinson, Le Hou, Kolya Malkin, Rachel Soobitsky, Jacob Czawlytko, Bistra Dilkina, and Nebojsa Jojic. *Large scale high-resolution land cover mapping with multi-resolution data*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 12726–12735, 2019.
+
+- For **NCT-CRC dataset**, the citation is:
+  > Jakob Nikolas Kather, Niels Halama, and Alexander Marx. *100,000 histological images of human colorectal cancer and healthy tissue*, 2018.
+
+- For **BACH dataset**, the citation is:
+  > Ant´onio Pol´onia, Catarina Eloy, and Paulo Aguiar. *BACH Dataset: Grand Challenge on Breast Cancer Histology images*, 2020.
+
+After gathering all the necessary information, I will compile the dataset entries, ensuring that each dataset is accurately described and includes its full citation. This will provide a comprehensive overview of the datasets utilized in the research paper.

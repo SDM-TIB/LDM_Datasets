@@ -1,0 +1,47 @@
+To extract datasets from the research paper titled "SAPT: A Shared Attention Framework for Parameter-Efficient Continual Learning of Large Language Models" by Weixiang Zhao et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract mentions "extensive experiments on two CL benchmarks," which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (Section 5), where the authors explicitly mention the datasets used for evaluation. They refer to two benchmarks:
+
+1. **SuperNI Benchmark**: This benchmark consists of diverse NLP tasks and their expert-written instructions. The authors mention that they selected three tasks for each type, forming a total of 15 tasks to evaluate various methods.
+
+2. **Long Sequence Benchmark**: This benchmark includes 15 classification datasets, and the authors specify that they selected 1,000 random samples for training each task and held out 500 samples per class for validation and testing.
+
+In the **dataset details section (Appendix B)**, the authors provide specific datasets used in the SuperNI Benchmark and Long Sequence Benchmark. I will extract the relevant datasets along with their descriptions:
+
+For the **SuperNI Benchmark**, the datasets include:
+- **task002_quoref_answer_generation**: A dataset for question answering.
+- **task875_emotion_classification**: A dataset for sentiment analysis.
+- **task1572_samsum_summary**: A dataset for summarization.
+
+For the **Long Sequence Benchmark**, the datasets include:
+- **Yelp**: A dataset for sentiment analysis.
+- **Amazon**: A dataset for sentiment analysis.
+- **DBpedia**: A dataset for topic classification.
+- **Yahoo**: A dataset for topic classification.
+- **AG News**: A dataset for topic classification.
+
+Next, I will consult the **References section** to find full citations for these datasets. The citations for the datasets mentioned in the SuperNI Benchmark are as follows:
+
+- For **Quoref**: 
+  > Dasigi, P., Liu, N. F., Marasović, A., Smith, N. A., & Gardner, M. (2019). *Quoref: A reading comprehension dataset with questions requiring coreferential reasoning*. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 5925–5932.
+
+- For **Emotion Classification**: 
+  > Socher, R., Perelygin, A., Wu, J., Chuang, J., Manning, C. D., Ng, A. Y., & Potts, C. (2013). *Recursive deep models for semantic compositionality over a sentiment treebank*. In Proceedings of the 2013 conference on empirical methods in natural language processing, pages 1631–1642.
+
+- For **Samsum**: 
+  > Gliwa, B., Mochol, I., Biesek, M., & Wawer, A. (2019). *Samsum corpus: A human-annotated dialogue dataset for abstractive summarization*. arXiv preprint arXiv:1911.12237.
+
+For the **Long Sequence Benchmark**, the citations for the datasets are as follows:
+
+- For **Yelp**: 
+  > Zhang, X., Zhao, J., & LeCun, Y. (2015). *Character-level convolutional networks for text classification*. In Advances in neural information processing systems, 28.
+
+- For **Amazon**: 
+  > He, J., & McAuley, J. (2016). *Ups and downs: Modeling the visual evolution of fashion trends with one-class collaborative filtering*. In Proceedings of the 25th International Conference on World Wide Web, pages 507–517.
+
+- For **DBpedia**: 
+  > Lehmann, J., Iannone, L., & Auer, S. (2015). *DBpedia: A large-scale, multilingual knowledge base extracted from Wikipedia*. In Proceedings of the 24th International Conference on World Wide Web, pages 721–726.
+
+Now, I will compile the dataset entries with their full citations into a structured format for further processing.

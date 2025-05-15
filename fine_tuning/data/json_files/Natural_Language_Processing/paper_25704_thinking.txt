@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "PyBench: Evaluating LLM Agent on various real-world coding tasks" by Yaolun Zhang et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors have synthesized four datasets to enhance the capabilities of their LLM Agent, which suggests that these datasets will be detailed further in the paper.
+
+Next, I will focus on the **section 4 (Fine-tuning LLM Agent for Real World Coding Task)**, where the authors explicitly list the four datasets they collected and synthesized:
+
+1. **Homologous Dataset (PyInstruct)**: This dataset was generated using GPT-3.5-turbo to synthesize tasks similar to those in PyBench, resulting in 3,091 trajectories covering various task categories.
+
+2. **Multi-turn Code Interaction Dataset (CodeFeedback)**: This dataset is designed to improve the LLM's ability to handle multi-turn interactions with code execution results. It is referenced as being filtered from open-source code instruction data.
+
+3. **Multi-turn Chat Dataset (UltraChat)**: This dataset consists of 1.5 million high-quality multi-turn instructional dialogues aimed at enhancing the performance of conversational models.
+
+4. **Code-Rich Corpus (The-stack-v2)**: This dataset contains Jupyter notebooks with 11 million lines of code, which is intended to improve the foundational abilities of the LLM Agent.
+
+In the **References section**, I will look for full citations for these datasets. The citations for the datasets are as follows:
+
+- For **PyInstruct**, the authors synthesized it themselves, so it does not have a separate citation.
+  
+- For **CodeFeedback**, the citation is:
+  > Zheng, Q., Xia, X., Zou, X., Dong, Y., Wang, S., Xue, Y., Wang, Z., Shen, L., Wang, A., Li, Y., Su, Y., Yang, Z., & Tang, J. (2024). Opencodeinterpreter: Integrating code generation with execution and refinement. arXiv preprint arXiv:2402.14658.
+
+- For **UltraChat**, the citation is:
+  > Ding, N., Chen, Y., Xu, B., Qin, Y., Zheng, Z., Hu, S., Liu, Z., Sun, M., & Zhou, B. (2023). Enhancing chat language models by scaling high-quality instructional conversations. arXiv preprint arXiv:2305.14233.
+
+- For **The-stack-v2**, the citation is:
+  > Lozhkov, A., Li, R., Ben Allal, L., Cassano, F., Lamy-Poirier, J., Tazi, N., Tang, A., Pykhtar, D., Liu, J., Wei, Y., Liu, T., Tian, M., Kocetkov, D., Zucker, A., Belkada, Y., Liu, Q., Abulkhanov, D., Paul, I., Li, Z., Zhu, J., & Zhuo, T. Y. (2024). Starcoder 2 and the stack v2: The next generation. arXiv preprint arXiv:2401.14196.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets and their relevant citations from the paper.

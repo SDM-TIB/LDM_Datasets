@@ -1,0 +1,82 @@
+[
+    {
+        "dcterms:creator": [
+            "E. Sabir",
+            "W. AbdAlmageed",
+            "Y. Wu",
+            "P. Natarajan"
+        ],
+        "dcterms:description": "A multimodal dataset comprising images, text and location modalities. Manipulations are present in text and location modalities and comprise three types of entity manipulations — person, location and organization. The dataset comprises 82,156 packages in reference dataset and 57,940 packages split between training, test and validation sets.",
+        "dcterms:title": "Multimodal Entity Image Repurposing (MEIR)",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://doi.acm.org/10.1145/3240508.3240707",
+        "dcat:theme": [
+            "Multimodal Semantic Forensics",
+            "Image Repurposing"
+        ],
+        "dcat:keyword": [
+            "Multimodal dataset",
+            "Image manipulation",
+            "Semantic forensics"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image, Text, Location",
+        "mls:task": [
+            "Image Repurposing Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Noh",
+            "A. Araujo",
+            "J. Sim",
+            "T. Weyand",
+            "B. Han"
+        ],
+        "dcterms:description": "A large-scale dataset for image retrieval, containing over 1.2 million images and 14,951 different landmarks. The dataset is used for evaluating location manipulation.",
+        "dcterms:title": "Google Landmarks",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Retrieval",
+            "Location Manipulation"
+        ],
+        "dcat:keyword": [
+            "Landmark dataset",
+            "Image retrieval",
+            "Location confusion"
+        ],
+        "dcat:landingPage": "https://www.kaggle.com/google/google-landmarks-dataset/home",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Location Manipulation Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset created from the Painters by Numbers dataset, restructured for semantic forensics, where the identity of the artist for a given painting is potentially manipulated.",
+        "dcterms:title": "Painter by Numbers",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://kaggle.com/c/painter-by-numbers",
+        "dcat:theme": [
+            "Art Forgery Detection",
+            "Semantic Forensics"
+        ],
+        "dcat:keyword": [
+            "Painting dataset",
+            "Artist manipulation",
+            "Art forgery"
+        ],
+        "dcat:landingPage": "https://kaggle.com/c/painter-by-numbers",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Painting Repurposing Detection"
+        ]
+    }
+]

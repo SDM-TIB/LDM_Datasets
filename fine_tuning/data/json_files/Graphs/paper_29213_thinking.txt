@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Towards Textual Out-of-Domain Detection without In-Domain Labels" by Di Jin et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methods sections** to gather initial insights about the datasets used. In the abstract, the authors mention conducting experiments on "four datasets," which indicates that specific datasets will be detailed later in the paper.
+
+Next, I will focus on the **experiments section**, particularly the subsection labeled **A. Datasets**. Here, the authors explicitly list the datasets they used for their experiments. They mention four datasets: 
+
+1. **ROSTD**: This dataset consists of user utterances for intent classification and includes both in-domain (ID) and out-of-domain (OOD) examples. The authors provide specific statistics about the dataset, such as the number of training, validation, and test samples.
+
+2. **SNIPS**: This dataset contains user utterances for seven intent classes. The authors describe how they synthetically created OOD examples from this dataset, which is crucial for understanding its application in their experiments.
+
+3. **Stackoverflow**: This dataset is a subset of challenge data from Kaggle, focusing on question titles associated with various categories. The authors also mention their method for creating OOD samples from this dataset.
+
+4. **Searchsnippets**: This dataset is derived from web search snippets associated with different topics. The authors explain how they selected classes for ID and OOD samples.
+
+After identifying these datasets, I will check the **References section** to find full citations for each dataset. The citations are essential for proper attribution and to allow others to access the datasets. 
+
+For the datasets mentioned, I will compile the following citations:
+
+- For **ROSTD**, the citation is:
+  > Jin, D., Gao, S., Kim, S., Liu, Y., & Hakkani-Tür, D. (2021). Towards zero and few-shot knowledge-seeking turn detection in task-oriented dialogue systems. In Proceedings of the 3rd Workshop on Natural Language Processing for Conversational AI. Association for Computational Linguistics.
+
+- For **SNIPS**, the citation is:
+  > Coucke, A., Saade, A., Ball, A., Bluche, T., Caulier, A., Leroy, D., Doumouro, C., Gisselbrecht, T., Caltagirone, F., & Lavril, T. (2018). Snips voice platform: an embedded spoken language understanding system for private-by-design voice interfaces. arXiv preprint arXiv:1805.10190.
+
+- For **Stackoverflow**, the citation is:
+  > Xu, J., Xu, B., Wang, P., Zheng, S., Tian, G., & Zhao, J. (2017). Self-taught convolutional neural networks for short text clustering. Neural Networks, 88, 22-31.
+
+- For **Searchsnippets**, the citation is:
+  > Phan, X.-H., Nguyen, L.-M., & Horiguchi, S. (2008). Learning to classify short and sparse text & web with hidden topics from large-scale data collections. In Proceedings of the 17th International Conference on World Wide Web (pp. 91-100).
+
+Now that I have identified the datasets and their citations, I will prepare to format this information according to the required structure for downstream processing.

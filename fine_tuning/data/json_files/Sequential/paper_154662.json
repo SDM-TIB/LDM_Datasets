@@ -1,0 +1,115 @@
+[
+    {
+        "dcterms:creator": [
+            "I. Teinemaa",
+            "M. Dumas",
+            "M. La Rosa",
+            "F. M. Maggi"
+        ],
+        "dcterms:description": "This dataset describes a loan application process at a Dutch bank. Every case has three possible targets: ‘approved’, ‘declined’ or ‘canceled’. This multi-classification problem was transformed into three different binary classification problems for our purposes.",
+        "dcterms:title": "BPIC 2012",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Process Mining",
+            "Outcome Prediction"
+        ],
+        "dcat:keyword": [
+            "Loan application",
+            "Binary classification",
+            "Process mining"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Outcome Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "I. Teinemaa",
+            "M. Dumas",
+            "M. La Rosa",
+            "F. M. Maggi"
+        ],
+        "dcterms:description": "This dataset is a higher-quality version of BPIC 2012 with both more examples and features that should facilitate better predictions. Note that the sum of the three targets exceeds 100% as sometimes ‘canceled’ cases are restarted and ‘approved’ or ‘declined’ cases become ‘canceled’ later.",
+        "dcterms:title": "BPIC 2017",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Process Mining",
+            "Outcome Prediction"
+        ],
+        "dcat:keyword": [
+            "Loan application",
+            "Binary classification",
+            "Process mining",
+            "Higher quality dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Outcome Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "I. Teinemaa",
+            "M. Dumas",
+            "M. La Rosa",
+            "F. M. Maggi"
+        ],
+        "dcterms:description": "An event log of a system managing traffic road fines. Fines are either paid in full or sent for credit collection. The latter is our target (‘deviant’). Cases in this dataset are very short (avg. 3.3 events).",
+        "dcterms:title": "Traffic fines",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Traffic Management",
+            "Outcome Prediction"
+        ],
+        "dcat:keyword": [
+            "Traffic fines",
+            "Event log",
+            "Credit collection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Outcome Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "I. Teinemaa",
+            "M. Dumas",
+            "M. La Rosa",
+            "F. M. Maggi"
+        ],
+        "dcterms:description": "Describes the pathways of patients through a hospital. We define three targets: 28 days EM (is the patient admitted to the emergency rooms within twenty-eight days of his/her release from the hospital?), IC (does the patient enter the intensive care unit?), and no A release (is the patient eventually released from the hospital for another reason than the most frequent ‘A’?).",
+        "dcterms:title": "Sepsis cases",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Healthcare",
+            "Outcome Prediction"
+        ],
+        "dcat:keyword": [
+            "Sepsis",
+            "Patient pathways",
+            "Hospital admission"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Outcome Prediction"
+        ]
+    }
+]

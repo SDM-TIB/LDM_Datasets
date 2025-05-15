@@ -1,0 +1,197 @@
+[
+    {
+        "dcterms:creator": [
+            "R. Taori",
+            "I. Gulrajani",
+            "T. Zhang",
+            "Y. Dubois",
+            "X. Li",
+            "C. Guestrin",
+            "P. Liang",
+            "T. B. Hashimoto"
+        ],
+        "dcterms:description": "A dataset used for aligning the LLaMA model to human intents via PPO training, containing instruction-response pairs generated using text-davinci-003.",
+        "dcterms:title": "Alpaca Dataset",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://github.com/tatsu-lab/stanford_alpaca",
+        "dcat:theme": [
+            "Instruction Following",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Instruction dataset",
+            "PPO training",
+            "LLaMA model"
+        ],
+        "dcat:landingPage": "https://github.com/tatsu-lab/stanford_alpaca",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Instruction Following"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. Taori",
+            "I. Gulrajani",
+            "T. Zhang",
+            "Y. Dubois",
+            "X. Li",
+            "C. Guestrin",
+            "P. Liang",
+            "T. B. Hashimoto"
+        ],
+        "dcterms:description": "An instruction-following dataset containing 52,000 examples, automatically generated using text-davinci-003, used for supervised fine-tuning and reward modeling.",
+        "dcterms:title": "Alpaca-52K Instruction-Following Dataset",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://github.com/tatsu-lab/stanford_alpaca",
+        "dcat:theme": [
+            "Instruction Following",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Instruction dataset",
+            "Supervised fine-tuning",
+            "Reward modeling"
+        ],
+        "dcat:landingPage": "https://github.com/tatsu-lab/stanford_alpaca",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Instruction Following"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Y. Dubois",
+            "X. Li",
+            "R. Taori",
+            "T. Zhang",
+            "I. Gulrajani",
+            "J. Ba",
+            "C. Guestrin",
+            "P. Liang",
+            "T. B. Hashimoto"
+        ],
+        "dcterms:description": "An evaluation dataset for assessing the performance of models trained with human feedback, consisting of 805 diverse instructions.",
+        "dcterms:title": "AlpacaFarm Evaluation Dataset",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Evaluation",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Evaluation dataset",
+            "Instruction following",
+            "Human feedback"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Model Evaluation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Y. Dubois",
+            "X. Li",
+            "R. Taori",
+            "T. Zhang",
+            "I. Gulrajani",
+            "J. Ba",
+            "C. Guestrin",
+            "P. Liang",
+            "T. B. Hashimoto"
+        ],
+        "dcterms:description": "A dataset containing 10,000 examples used for supervised fine-tuning in the RLHF process.",
+        "dcterms:title": "SFT-10K",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Supervised Learning",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Supervised fine-tuning",
+            "Instruction dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Supervised Learning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Y. Dubois",
+            "X. Li",
+            "R. Taori",
+            "T. Zhang",
+            "I. Gulrajani",
+            "J. Ba",
+            "C. Guestrin",
+            "P. Liang",
+            "T. B. Hashimoto"
+        ],
+        "dcterms:description": "A checkpoint optimized using PPO for the RLHF process, providing a model trained with human feedback.",
+        "dcterms:title": "PPO-Optimized Checkpoint",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "PPO",
+            "Reinforcement Learning",
+            "Human feedback"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Model",
+        "mls:task": [
+            "Reinforcement Learning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Min",
+            "K. Krishna",
+            "X. Lyu",
+            "M. Lewis",
+            "W. Yih",
+            "P. W. Koh",
+            "M. Iyyer",
+            "L. Zettlemoyer",
+            "H. Hajishirzi"
+        ],
+        "dcterms:description": "A labeled split for evaluating factual precision in long-form text generation, assessing the factual accuracy of model outputs.",
+        "dcterms:title": "FActScore Labeled Split",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:2305.14251",
+        "dcat:theme": [
+            "Evaluation",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Factual precision",
+            "Evaluation dataset",
+            "Long-form text generation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Factual Evaluation"
+        ]
+    }
+]

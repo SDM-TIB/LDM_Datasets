@@ -1,0 +1,55 @@
+To extract datasets from the research paper titled "Multiview Contrastive Learning for Completely Blind Video Quality Assessment of User Generated Content" by Shankhanil Mitra et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract discusses the evaluation of the proposed method on multiple camera-captured VQA datasets, which indicates that datasets are involved.
+
+Next, I will look for specific mentions of datasets in the **methodology** and **experiments** sections. In the **method** section, particularly in **section 3.2 (Data Generation)**, the authors mention using several existing datasets for training their model. They specifically list:
+
+1. **LIVE Mobile**: A dataset containing videos with various synthetic distortions.
+2. **LIVE VQA**: Another dataset with videos suffering from compression artifacts and transmission distortions.
+3. **EPFL-PoliMI**: A dataset composed of videos encoded with H.264/AVC.
+4. **CSIQ VQD**: This dataset includes videos subjected to various compression methods.
+5. **ECVQ and EVVQ**: Datasets that include videos with H.264 and MPEG-4 visual compression.
+6. **LIVE-FB Large-Scale Social Video Quality (LSVQ)**: This dataset is used for training with authentically distorted videos.
+
+In the **experiments section**, the authors mention evaluating their method on four user-generated content datasets:
+
+1. **KoNViD-1K**: A dataset containing 1200 videos filtered from the YFCC100m database.
+2. **LIVE Video Quality Challenge (LVQC)**: A dataset consisting of 585 videos captured from various devices.
+3. **LIVE Qualcomm Database (LQCOMM)**: This dataset includes 208 videos with distortions from mobile devices.
+4. **YouTube-UGC**: A dataset containing 1380 user-generated videos across various categories.
+
+Now, I will check the **References section** to find the full citations for each dataset mentioned. 
+
+For the datasets used in training:
+- **LIVE Mobile**: 
+  > A. K. Moorthy, L. K. Choi, A. C. Bovik, and G. de Veciana. *Video Quality Assessment on Mobile Devices: Subjective, Behavioral and Objective Studies*. IEEE Journal of Selected Topics in Signal Processing, 6(6):652–671, 2012.
+  
+- **LIVE VQA**: 
+  > Anish Mittal, Rajiv Soundararajan, and Alan C. Bovik. *Making a “Completely Blind" Image Quality Analyzer*. IEEE Signal Processing Letters, 20(3):209–212, 2013.
+
+- **EPFL-PoliMI**: 
+  > F. De Simone, M. Tagliasacchi, M. Naccari, S. Tubaro, and T. Ebrahimi. *A H.264/AVC video database for the evaluation of quality metrics*. In 2010 IEEE International Conference on Acoustics, Speech and Signal Processing, pages 2430–2433, 2010.
+
+- **CSIQ VQD**: 
+  > Phong V. Vu and Damon M. Chandler. *ViS3: an algorithm for video quality assessment via analysis of spatial and spatiotemporal slices*. Journal of Electronic Imaging, 23(1):1–25, 2014.
+
+- **ECVQ and EVVQ**: 
+  > Snježana Rimac-Drıje, Mario Vranješ, and Drago Žagar. *Foveated Mean Squared Error–a Novel Video Quality Metric*. Multimedia Tools and Applications, 49(3):425–445, 2010.
+
+- **LIVE-FB LSVQ**: 
+  > Zhenqiang Ying, Maniratnam Mandal, Deepti Ghadiyaram, and Alan Bovik. *Patch-VQ: ‘Patching Up’ the Video Quality Problem*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 14019–14029, 2021.
+
+For the evaluation datasets:
+- **KoNViD-1K**: 
+  > Vlad Hosu et al. *The Konstanz natural video database (KoNViD-1k)*. In 2017 Ninth International Conference on Quality of Multimedia Experience (QoMEX), pages 1–6, 2017.
+
+- **LIVE Video Quality Challenge (LVQC)**: 
+  > Anish Mittal et al. *A Completely Blind Video Integrity Oracle*. IEEE Transactions on Image Processing, 25(1):289–300, 2016.
+
+- **LIVE Qualcomm Database (LQCOMM)**: 
+  > Deepti Ghadiyaram et al. *In-Capture Mobile Video Distortions: A Study of Subjective Behavior and Objective Algorithms*. IEEE Transactions on Circuits and Systems for Video Technology, 28(9):2061–2077, 2018.
+
+- **YouTube-UGC**: 
+  > Yilin Wang et al. *YouTube UGC Dataset for Video Compression Research*. In 2019 IEEE 21st International Workshop on Multimedia Signal Processing (MMSP), pages 1–5, 2019.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing.

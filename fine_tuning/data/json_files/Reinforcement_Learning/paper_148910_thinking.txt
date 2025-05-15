@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Learning Memory-Dependent Continuous Control from Demonstrations" by Siqing Hou, Dongqi Han, and Jun Tani, I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract and introduction** to identify any mentions of datasets. The abstract discusses the challenges of reinforcement learning and mentions experiments involving memory-crucial continuous control tasks, which may imply the use of specific datasets.
+
+Next, I will examine the **experiments section** (Section IV) closely, as this is where the authors typically describe the datasets used for their experiments. I will look for any specific names of datasets or descriptions of the environments in which the experiments were conducted.
+
+In the experiments section, the authors describe three tasks: **POMountainCarContinuous**, **SequentialReach**, and **SequentialTouch**. Each of these tasks is likely associated with specific datasets or environments used for training and evaluation.
+
+1. **POMountainCarContinuous**: This task is based on the classic Mountain Car problem, modified to remove speed information from the observations. The authors mention that they collected demonstrations for this task, which indicates that there are datasets associated with the demonstrations.
+
+2. **SequentialReach**: This task involves a robot reaching three randomly sampled target positions in a specific sequence. The authors also mention collecting demonstrations for this task, suggesting the existence of a dataset related to the robot's interactions.
+
+3. **SequentialTouch**: This task involves a humanoid robot touching targets in a specified order. Again, the authors collected demonstrations, indicating that there is a dataset associated with this task.
+
+Next, I will check the **References section** to find full citations for any datasets mentioned. However, since the datasets are likely derived from the tasks described, I will focus on the original sources of these tasks.
+
+For the **Mountain Car task**, the citation is:
+> Moore, A. W. (1990). *Efficient memory-based learning for robot control*. Ph.D. dissertation, University of Cambridge.
+
+For the **SequentialReach task**, the citation is:
+> Han, D., Doya, K., & Tani, J. (2019). *Self-organization of action hierarchy and compositionality by reinforcement learning with recurrent networks*. arXiv preprint arXiv:1901.10113.
+
+For the **V-REP simulator** used in the **SequentialTouch task**, the citation is:
+> Rohmer, E., & Singh, S. P. N. (2013). *V-Rep: A versatile and scalable robot simulation framework*. In Proceedings of The International Conference on Intelligent Robots and Systems (IROS).
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing. Each dataset will include its name, a brief description, and the full citation to ensure proper attribution.

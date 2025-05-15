@@ -1,0 +1,48 @@
+To extract datasets from the research paper titled "Word Embeddings for Sentiment Analysis: A Comprehensive Empirical Survey" by Erion Çano and Maurizio Morisio, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental design sections** to identify any datasets mentioned. The abstract indicates that the authors investigate various factors affecting word embeddings in sentiment analysis across multiple domains, which suggests that datasets are likely involved.
+
+Next, I will focus on **section 3 (Sentiment Analysis Tasks and Datasets)**, as it explicitly discusses the datasets used for sentiment analysis. Here, the authors detail four specific tasks and the datasets associated with each:
+
+1. **Semeval-2013 Task2 and Semeval-2014 Task9**: This dataset is used for sentiment analysis of tweets. The authors mention that they combined the train and dev parts of Semeval-2013 with the test sets of Semeval-2014, resulting in a total of 13,400 tweets after removing duplicates and neutral tweets.
+
+2. **MoodyLyricsPN**: This dataset consists of 2,595 song lyrics labeled with emotional categories based on a crowdsourced approach using Last.fm tags. It is specifically designed for sentiment analysis of song lyrics.
+
+3. **Pang and Lee's Movie Review Dataset**: This dataset contains 2,000 movie reviews divided into positive and negative categories. It serves as a foundational dataset for movie review sentiment analysis.
+
+4. **Amazon Product Reviews**: This dataset includes 142 million reviews across various product categories, including movies and electronics. The authors mention that they filtered the reviews to focus on those with clear positive or negative ratings.
+
+In addition to these datasets, the authors also refer to various corpora used for training word embeddings, which are detailed in **section 2.2 (Text Preprocessing and Training)**. The following corpora are mentioned:
+
+- **Wikipedia Gigaword**: A combination of Wikipedia and Gigaword datasets used for training Glove embeddings.
+- **CommonCrawl**: Two versions (840B and 42B tokens) used for training Glove embeddings.
+- **Google News**: A large corpus of news articles used for training Word2vec embeddings.
+- **Twitter Tweets**: A collection of tweets used for training Glove embeddings.
+
+Now, I will gather the full citations for each dataset mentioned in the paper from the **References section**:
+
+1. **Semeval-2013 Task2 and Semeval-2014 Task9**:
+   > Mohammad, S. M., Kiritchenko, S., & Zhu, X. (2013). NRC-Canada: Building the state-of-the-art in sentiment analysis of tweets. CoRR, abs/1308.6242.
+
+2. **MoodyLyricsPN**:
+   > Çano, E., & Morisio, M. (2017). Music mood dataset creation based on last.fm tags. In 2017 International Conference on Artificial Intelligence and Applications, Vienna, Austria, May 2017.
+
+3. **Pang and Lee's Movie Review Dataset**:
+   > Pang, B., & Lee, L. (2004). A sentimental education: Sentiment analysis using subjectivity. In Proceedings of ACL, pages 271–278.
+
+4. **Amazon Product Reviews**:
+   > McAuley, J., Targett, C., Shi, Q., & Van Den Hengel, A. (2015). Image-based recommendations on styles and substitutes. In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval, pages 43–52.
+
+5. **Wikipedia Gigaword**:
+   > Pennington, J., Socher, R., & Manning, C. D. (2014). Glove: Global vectors for word representation. In Empirical Methods in Natural Language Processing (EMNLP), pages 1532–1543.
+
+6. **CommonCrawl**:
+   > Mikolov, T., Chen, K., Corrado, G., & Dean, J. (2013). Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781.
+
+7. **Google News**:
+   > Mikolov, T., Sutskever, I., Chen, K., Corrado, G. S., & Dean, J. (2013). Distributed representations of words and phrases and their compositionality. In Advances in Neural Information Processing Systems 26, pages 3111–3119.
+
+8. **Twitter Tweets**:
+   > Cheng, Z., Caverlee, J., & Lee, K. (2010). You are where you tweet: a content-based approach to geo-locating twitter users. In Proceedings of the 19th ACM international conference on Information and knowledge management, pages 759–768.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing.

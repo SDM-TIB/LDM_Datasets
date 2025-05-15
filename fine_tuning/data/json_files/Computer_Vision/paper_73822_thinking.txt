@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "Capsule Enhanced Variational AutoEncoder for Underwater Image Reconstruction" by Rita Pucci and Niki Martinel, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets mentioned. The abstract indicates that the authors conducted evaluations on **6 benchmark datasets**, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on the **Experiments section** where the authors explicitly mention the datasets used for training and validation. In this section, they describe the datasets as follows:
+
+1. **LSUI Train-L split**: This dataset consists of 4500 underwater image pairs featuring a variety of underwater scenes, object categories, water types, and lighting conditions. It is used for fine-tuning the model.
+
+2. **Large Scale Underwater Image (LSUI)**: This dataset is referenced as a benchmark for validation, specifically the LSUI-L400 split, which includes underwater scenes based on different water types and lighting conditions.
+
+3. **Enhancing Underwater Visual Perception (EUVP)**: This dataset contains paired and unpaired image samples of varying quality, used to validate models trained for underwater image enhancement.
+
+4. **UFO-120**: This dataset includes 120 full-reference testing images collected from various oceanic explorations, used for comparison against ground truth images.
+
+5. **Underwater Color Cast Set (UCCS)**: Comprising 300 genuine underwater images, this dataset is used to evaluate the model's ability to correct color casts.
+
+6. **Underwater test dataset (U45)**: This dataset contains 45 raw underwater images acquired at different locations and depths, showcasing various degradation characteristics.
+
+7. **Stereo Quantitative Underwater Image Dataset (SQUID)**: This dataset includes 57 raw underwater images, also used for assessing the quality of enhanced images.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset mentioned. The citations are as follows:
+
+- **LSUI Dataset**: 
+  > Liu, R., Fan, X., Zhu, M., Hou, M., & Luo, Z. (2020). Real-world underwater enhancement: Challenges, benchmarks, and solutions under natural light. *IEEE Transactions on Circuits and Systems for Video Technology*, 30(12), 4861-4875.
+
+- **EUVP Dataset**: 
+  > Islam, M. J., Xia, Y., & Sattar, J. (2020). Fast underwater image enhancement for improved visual perception. *IEEE Robotics and Automation Letters*, 5(2), 3227-3234.
+
+- **UFO-120 Dataset**: 
+  > Islam, M. J., Luo, P., & Sattar, J. (2020). Simultaneous enhancement and super-resolution of underwater imagery for improved visual perception. *arXiv:2002.01155*.
+
+- **UCCS Dataset**: 
+  > Ancuti, C. O., Ancuti, C., Vleeschouwer, C. D., & Bekaert, P. (2018). Color balance and fusion for underwater image enhancement. *IEEE Transactions on Image Processing*, 27(1), 379-393.
+
+- **U45 Dataset**: 
+  > Li, H., Li, J., & Wang, W. (2019). A fusion adversarial underwater image enhancement network with a public test dataset. *arXiv:1906.06819*.
+
+- **SQUID Dataset**: 
+  > Berman, D., Levy, D., Avidan, S., & Treibitz, T. (2020). Underwater single image color restoration using haze-lines and a new quantitative dataset. *IEEE Transactions on Pattern Analysis and Machine Intelligence*, 43(8), 2822-2837.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

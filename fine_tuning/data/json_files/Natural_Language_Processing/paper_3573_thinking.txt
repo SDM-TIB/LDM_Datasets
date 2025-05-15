@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "ProphetNet-X: Large-Scale Pre-training Models for English, Chinese, Multi-lingual, Dialog, and Code Generation" by Weizhen Qi et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors present various pre-trained models and mention achieving state-of-the-art performance on multiple benchmarks, suggesting the presence of datasets.
+
+Next, I will focus on **section 2.2 (Pre-training Corpus)**, where the authors provide detailed information about the datasets used for pre-training their models. Here, they list several datasets along with their sizes and languages:
+
+1. **ProphetNet-En**: Pre-trained with 160GB of English raw text, including Wikipedia, books, stories, news, and web texts.
+2. **ProphetNet-Zh**: Pre-trained with 160GB of Chinese data, sourced from Chinese Wikipedia, CLUE, and Common Crawl.
+3. **ProphetNet-Multi**: Utilizes a 101GB Wiki-100 corpus and 1.5TB of Common Crawl data for multilingual training.
+4. **ProphetNet-Dialog-En**: Pre-trained on a Reddit open-domain dialog corpus consisting of 60 million sessions.
+5. **ProphetNet-Dialog-Zh**: Based on a Chinese dialog corpus with over 30 million sessions.
+6. **ProphetNet-Code**: Pre-trained on a dataset of 10 million code samples and documents.
+
+In the **experiments section**, the authors mention various benchmarks where these models were evaluated, confirming the datasets used for training and testing.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The citations for the datasets are as follows:
+
+- For **CLUE** (used in ProphetNet-Zh):
+  > Xu, C., Pei, J., Wu, H., Liu, Y., & Li, C. (2020). CLUE: A Chinese Language Understanding Evaluation Benchmark. arXiv preprint arXiv:2004.05986.
+
+- For **CodeSearchNet** (used in ProphetNet-Code):
+  > Husain, H., Wu, H.-H., Gazit, T., Allamanis, M., & Brockschmidt, M. (2019). CodeSearchNet Challenge: Evaluating the State of Semantic Code Search. arXiv preprint arXiv:1909.09436.
+
+- For **DailyDialog** (used in ProphetNet-Dialog-En):
+  > Li, Y., Su, H., Shen, X., Li, W., Cao, Z., & Niu, S. (2017). DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. In Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pages 986–995.
+
+- For **MATINF** (used in ProphetNet-Zh):
+  > Xu, C., Pei, J., Wu, H., Liu, Y., & Li, C. (2020). MATINF: A Jointly Labeled Large-scale Dataset for Classification, Question Answering and Summarization. arXiv preprint arXiv:2004.12302.
+
+- For **Common Crawl** (used in multiple models):
+  > Common Crawl. (n.d.). Retrieved from https://commoncrawl.org/
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This structured approach will help ensure that all relevant datasets are accurately extracted and cited.

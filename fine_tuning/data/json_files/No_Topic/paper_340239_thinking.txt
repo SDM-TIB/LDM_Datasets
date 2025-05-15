@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "VPNets: Volume-preserving neural networks for learning source-free dynamics" by Aiqing Zhu et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper. The abstract provides a brief overview of the research and may mention datasets used for validation. The introduction often discusses the context and significance of the research, which might include references to specific datasets.
+
+Next, I will focus on **section 4 (Numerical results)**, as this section typically contains detailed descriptions of the experiments conducted, including any datasets used. In this case, the authors describe two benchmark problems: **Volterra equations** and **Charged particle dynamics**. I will look for specific mentions of datasets or data sources related to these problems.
+
+In the **Volterra equations** subsection, the authors mention using two trajectories with initial conditions for training, but they do not specify a formal dataset name. However, I will note the details provided, such as the initial conditions and the number of training points.
+
+In the **Charged particle dynamics** subsection, the authors describe using 100 pairs of snapshots as the training dataset. Again, while they do not provide a formal dataset name, I will document the details of the data used for training.
+
+After identifying the datasets, I will check the **References section** for any citations related to the datasets mentioned. If the authors refer to existing datasets or methodologies, I will extract the full citations for those as well.
+
+Here’s a summary of the datasets I will document:
+
+1. **Volterra equations dataset**: 
+   - Description: Two trajectories with initial conditions (5, 4.1, 5.9) and (5, 3.9, 6.1) used for training.
+   - Citation: Not explicitly provided in the paper.
+
+2. **Charged particle dynamics dataset**: 
+   - Description: 100 pairs of snapshots at (ih, (i + 1)h) with shared data step h = 0.5, starting from initial conditions x0 = [0.1, 1, 0], v0 = [1, 0.2, 0].
+   - Citation: Not explicitly provided in the paper.
+
+Finally, I will compile this information into a structured format, ensuring that I include the details and any relevant citations, even if they are not formally named datasets. This will provide a comprehensive overview of the datasets utilized in the research.

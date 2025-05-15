@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Monte-Carlo Tree Search for Multi-Agent Pathfinding: Preliminary Results" by Yelisey Pitanov et al., I will follow a systematic approach to identify and document any datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to see if any datasets are explicitly referenced. The abstract discusses the application of Monte-Carlo Tree Search (MCTS) to multi-agent pathfinding but does not mention specific datasets. The introduction provides context about multi-agent pathfinding but also lacks specific dataset references.
+
+Next, I will focus on the **experimental setup section** where the authors describe the environment and maps used for their experiments. Here, they mention using **POGEMA**, an open-source multi-agent pathfinding environment, which is crucial for understanding the datasets utilized in their experiments. However, they do not provide specific datasets in the traditional sense (like image or text datasets) but rather describe the environments and maps generated for testing.
+
+In the **experimental results section**, the authors present results from various algorithms tested on different types of maps, including cooperative random maps and maze maps. They mention the characteristics of these maps but do not provide formal dataset citations.
+
+Since the paper does not reference any external datasets with full citations, I will note the following:
+
+1. **POGEMA Environment**: This is the primary environment used for the experiments, which is an open-source platform for multi-agent pathfinding. The citation for this environment is:
+   > Skrynnik, A., Andreychuk, A., Yakovlev, K., Panov, A.I. *Pogema: partially observable grid environment for multiple agents*. arXiv preprint arXiv:2206.10944 (2022).
+
+2. **Map Types**: The authors describe two types of maps used in their experiments:
+   - **Cooperative Random Maps**: These maps are generated with an obstacle density of 0.3 and are selected based on their difficulty.
+   - **Maze Maps**: Generated using the labmaze package, which includes various maze patterns.
+
+The labmaze package is referenced but not cited in detail in the paper. Therefore, I will include a general reference to it without a formal citation since it is a tool rather than a dataset.
+
+In conclusion, while the paper does not provide traditional datasets with citations, it does reference the POGEMA environment and describes the types of maps used for experimentation. I will compile this information into a structured format for clarity and future reference.

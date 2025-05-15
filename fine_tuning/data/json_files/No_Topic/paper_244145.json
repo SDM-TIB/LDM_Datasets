@@ -1,0 +1,80 @@
+[
+    {
+        "dcterms:creator": [
+            "J. Angwin",
+            "J. Larson"
+        ],
+        "dcterms:description": "The COMPAS dataset was originally a sample of outcomes from the COMPAS system that predicted the risk of recidivism. This caused a debate about whether or not this score was disadvantaging African Americans. The dataset includes the race of individuals.",
+        "dcterms:title": "COMPAS",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Criminal Justice",
+            "Fairness in Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Recidivism prediction",
+            "Bias",
+            "Criminal justice",
+            "Risk assessment"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": [
+            "Classification",
+            "Fairness evaluation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "German Credit is the smallest dataset, with only 1,000 instances and 20 features. There is a class imbalance, with 70% of all samples being good credits and only 30% being bad credits. The protected attribute is age, with a threshold at 25 years.",
+        "dcterms:title": "German Credit",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Finance",
+            "Fairness in Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Credit scoring",
+            "Financial fairness",
+            "Class imbalance"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": [
+            "Classification",
+            "Fairness evaluation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. Kohavi"
+        ],
+        "dcterms:description": "The Adult dataset gathers 32,000 instances represented by 9 features. Gender is used as a protected attribute and the binary target variable is income, whether someone earns more than 50,000 USD.",
+        "dcterms:title": "Adult Census",
+        "dcterms:issued": "1996",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Demographics",
+            "Fairness in Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Income prediction",
+            "Demographic fairness",
+            "Income classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": [
+            "Classification",
+            "Fairness evaluation"
+        ]
+    }
+]

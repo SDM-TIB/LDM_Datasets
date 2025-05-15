@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "ProoFVer: Natural Logic Theorem Proving for Fact Verification" by Amrith Krishna et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to locate any references to datasets. The abstract mentions that ProoFVer has been evaluated on the **FEVER leaderboard**, which suggests that the FEVER dataset is involved.
+
+Next, I will examine the **introduction** for any explicit mentions of datasets. The authors discuss the use of existing resources for training their model, specifically mentioning the **FEVER dataset** and its variants, such as **symmetric FEVER** and **FEVER 2.0**. This indicates that these datasets are crucial for their experiments.
+
+In the **methodology section**, particularly in **section 4 (Generating Proofs for Training)**, the authors describe how they heuristically generate training data from the **FEVER dataset** and its variants. They also mention using **PPDB**, **WordNet**, and **Wikidata** for additional information, but these are not datasets in the same sense as FEVER.
+
+In **section 5 (Experimental Methodology)**, the authors provide details about the datasets used for training and evaluation. They specify:
+
+1. **FEVER Dataset**: A large-scale dataset for fact extraction and verification, with a train-test-development split of 145,449, 19,998, and 19,998 claims respectively.
+   - Citation: Thorne, J., & Vlachos, A. (2018). FEVER: a large-scale dataset for fact extraction and VERiﬁcation. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), pages 809–819, New Orleans, Louisiana. Association for Computational Linguistics.
+
+2. **Symmetric FEVER**: A dataset designed to assess the robustness of fact verification systems against claim-only bias, consisting of 1,420 counterfactual instances.
+   - Citation: Schuster, T., et al. (2019). Towards debiasing fact verification models. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 3419–3425, Hong Kong, China. Association for Computational Linguistics.
+
+3. **FEVER 2.0**: An updated version of the FEVER dataset that includes adversarial examples.
+   - Citation: Thorne, J., et al. (2019). The FEVER2.0 shared task. In Proceedings of the Second Workshop on Fact Extraction and VERiﬁcation (FEVER), pages 1–6, Hong Kong, China. Association for Computational Linguistics.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for each dataset as specified. 
+
+After gathering all the necessary information, I will prepare the dataset entries for structured output, ready for further processing or review.

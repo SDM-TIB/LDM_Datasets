@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "CO3: Low-resource Contrastive Co-training for Generative Conversational Query Rewrite" by Yifei Yuan et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research focus, and the introduction often discusses the datasets used in the context of the research problem.
+
+In the **introduction**, the authors mention the challenges of generative query rewriting and the need for labeled data. However, I need to look for specific dataset names and details.
+
+Next, I will focus on **section 4 (Experiments)**, particularly the subsection titled **4.1 (Datasets)**, where the authors provide detailed information about the datasets used in their experiments. Here, I find the following datasets:
+
+1. **TREC CAst Dataset**: This dataset contains 50 conversational sessions and 479 queries, each associated with a manual rewrite. It is explicitly mentioned as a labeled dataset used for experiments.
+
+2. **CANARD Dataset**: The authors mention using a sampled version of the original dev set from the QUAC training set, which contains 515 query-rewrite pairs. This dataset is also labeled and used in their experiments.
+
+3. **MS MARCO Dataset**: This dataset is used for the Simplifier model, consisting of 9306 sessions with 13799 different queries. It is noted that the queries in this dataset do not contain information omission.
+
+4. **QUAC Dataset**: This dataset is used for the Rewriter model, consisting of 1000 unique sessions with 7354 queries. The authors indicate that this dataset contains queries with coreference and ellipsis.
+
+After identifying the datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For **TREC CAst Dataset**:
+  > Jeffrey Dalton, Chenyan Xiong, and Jamie Callan. *Trec cast 2019: The conversational assistance track overview*. arXiv preprint arXiv:2003.13624, 2020.
+
+- For **CANARD Dataset**:
+  > Ahmed Elgohary, Denis Peskov, and Jordan Boyd-Graber. *Can you unpack that? learning to rewrite questions-in-context*. In Empirical Methods in Natural Language Processing, 2019.
+
+- For **MS MARCO Dataset**:
+  > Daniel Fernando Campos, Tri Nguyen, Mir Rosenberg, Xia Song, Jianfeng Gao, Saurabh Tiwary, Rangan Majumder, Li Deng, and Bhaskar Mitra. *Ms marco: A human generated machine reading comprehension dataset*. arXiv preprint arXiv:1611.09268, 2016.
+
+- For **QUAC Dataset**:
+  > Eunsol Choi, He He, Mohit Iyyer, Mark Yatskar, Wen-tau Yih, Yejin Choi, Percy Liang, and Luke Zettlemoyer. *Quac: Question answering in context*. In EMNLP, 2018.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This systematic approach ensures that I capture all relevant details about the datasets used in the research paper.

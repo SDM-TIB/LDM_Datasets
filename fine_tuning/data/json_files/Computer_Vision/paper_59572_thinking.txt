@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering" by Yushi Hu et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract introduces TIFA v1.0, a benchmark consisting of 4K diverse text inputs and 25K questions across 12 categories. This indicates that there is a dataset involved, and I need to gather more details.
+
+Next, I will focus on **section 4 (TIFA v1.0: Benchmark for Text-to-Image Generation Faithfulness)**, where the authors describe the benchmark in detail. Here, they mention that TIFA v1.0 consists of 4,081 text inputs, which are sourced from various datasets, including:
+
+1. **MSCOCO captions**: 2,000 text inputs are taken from the COCO validation set, which is a well-known dataset in the field of computer vision.
+
+2. **DrawBench**: 161 text inputs are collected from this dataset, which is used for generating artistic prompts.
+
+3. **PartiPrompt**: 1,420 text inputs are sourced from this dataset, which focuses on abstract prompts.
+
+4. **PaintSkill**: 500 text inputs are included from this dataset, which is also used for evaluating generative models.
+
+In the **experiments section**, the authors evaluate existing text-to-image models using TIFA v1.0, confirming that the datasets mentioned are indeed utilized for their experiments.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **MSCOCO**, the citation is:
+  > Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. *Microsoft COCO: Common Objects in Context*. In European Conference on Computer Vision, pages 740–755, Springer, 2014.
+
+- For **DrawBench**, the citation is:
+  > Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily L. Denton, Seyed Kamyar Seyed Ghasemipour, Burcu Karagol Ayan, Seyedeh Sara Mahdavi, Raphael Gontijo Lopes, Tim Salimans, Jonathan Ho, David J. Fleet, and Mohammad Norouzi. *Photorealistic text-to-image diffusion models with deep language understanding*. ArXiv preprint arXiv:2205.11487, 2022.
+
+- For **PartiPrompt**, the citation is:
+  > Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, and Ilya Sutskever. *Zero-shot text-to-image generation*. ArXiv preprint arXiv:2102.12092, 2021.
+
+- For **PaintSkill**, the citation is:
+  > Ranjay Krishna, Michael S. Bernstein, and Li Fei-Fei. *Information maximizing visual question generation*. 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 2008–2018, 2019.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and includes its full citation for clarity and proper attribution.

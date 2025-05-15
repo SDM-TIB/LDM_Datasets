@@ -1,0 +1,44 @@
+To extract datasets from the research paper titled "Robust, General, and Low Complexity Acoustic Scene Classification Systems and An Effective Visualization for Presenting a Sound Scene Context" by Lam Pham et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and the datasets section** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on various ASC datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **Section II (Evaluating Datasets)**, where the authors explicitly describe the datasets used in their experiments. Here, they mention several datasets:
+
+1. **Crowded Scenes**: This dataset contains 341 videos collected from YouTube, totaling nearly 29.06 hours of recording time. Each video is split into 10-second segments and annotated into five categories: ‘Riot’, ‘Noise-Street’, ‘Firework-Event’, ‘Music-Event’, or ‘Sport-Atmosphere’. The authors also mention the method of extracting audio recordings from these segments.
+
+2. **DCASE 2018 Task 1A**: This dataset comprises 8640 10-second segments with a total recording time of 24 hours, recorded from a single device (Device A). The authors explain how they split the development set into training and evaluating subsets.
+
+3. **DCASE 2019 Task 1A**: This dataset reuses the DCASE 2018 Task 1A Development set and adds more data, resulting in 14400 segments with 40 hours of recording time. The authors clarify that the recordings are from the same device, which helps mitigate issues related to mismatched recording devices.
+
+4. **DCASE 2018 Task 1B**: This dataset builds on the DCASE 2018 Task 1A Development set and includes additional recordings from two other devices (Device B and Device C), with a total of 72 segments recorded from each device.
+
+5. **DCASE 2019 Task 1B**: Similar to the previous dataset, this one reuses the DCASE 2019 Task 1A Development set and adds more recordings from Devices B and C.
+
+6. **DCASE 2020 Task 1A**: This dataset is noted as the largest for ASC tasks, comprising 23040 segments with a total recording time of 64 hours, recorded from three devices (A, B, and C) and includes synthesized audio recordings.
+
+7. **DCASE 2021 Task 1A** and **DCASE 2022 Task 1**: These datasets are also mentioned as part of the evaluation process for low-complexity models.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset mentioned:
+
+- For **Crowded Scenes**, the citation is:
+  > Lam Pham, Dat Ngo, Tho Nguyen, Phu Nguyen, Truong Hoang, and Alexander Schindler. *An audio-visual dataset and deep learning frameworks for crowded scene classification*. In Proceedings of the CBMI, 2022, pp. 23–28.
+
+- For **DCASE 2018 Task 1A**, the citation is:
+  > Annamaria Mesaros, Toni Heittola, and Tuomas Virtanen. *A multi-device dataset for urban acoustic scene classification*. In Proceedings of the DCASE, 2018, pp. 9–13.
+
+- For **DCASE 2019 Task 1A**, the citation is:
+  > Annamaria Mesaros, Toni Heittola, and Tuomas Virtanen. *Acoustic scene classification in DCASE 2019 challenge: Closed and open set classification and data mismatch setups*. In Proceedings of the DCASE, 2019, pp. 164–168.
+
+- For **DCASE 2018 Task 1B**, the citation is:
+  > Annamaria Mesaros, Toni Heittola, and Tuomas Virtanen. *Acoustic scene classification in DCASE 2018 challenge: Generalization across devices and low complexity solutions*. In Proceedings of the DCASE, 2020, pp. 56–60.
+
+- For **DCASE 2019 Task 1B**, the citation is:
+  > Toni Heittola, Annamaria Mesaros, and Tuomas Virtanen. *Acoustic scene classification in DCASE 2019 challenge: Generalization across devices and low complexity solutions*. In Proceedings of the DCASE, 2019, pp. 164–168.
+
+- For **DCASE 2020 Task 1A**, the citation is:
+  > Toni Heittola, Annamaria Mesaros, and Tuomas Virtanen. *Acoustic scene classification in DCASE 2020 challenge: Generalization across devices and low complexity solutions*. In Proceedings of the DCASE, 2020, pp. 56–60.
+
+- For **DCASE 2021 Task 1A** and **DCASE 2022 Task 1**, the citations are:
+  > DCASE Community. *DCASE Challenges*. https://dcase.community.
+
+After gathering all this information, I will compile the dataset entries with their full citations for further processing.

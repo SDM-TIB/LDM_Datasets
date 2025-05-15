@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Maximizing Stylistic Control and Semantic Accuracy in NLG: Personality Variation and Discourse Contrast" by Vrindavan Harrison et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions "two stylistic benchmark tasks," which suggests that datasets are involved, but I need to find specific names and details.
+
+Next, I will focus on **section 3 (Experiments)**, where the authors describe their experimental setup. Here, they explicitly mention two benchmark datasets:
+
+1. **Personality Benchmark**: This dataset is used to generate outputs that vary by personality type, based on structured meaning representations (MRs). The authors state that it consists of 88,855 training examples and 1,390 test examples, evenly distributed across five personality types. The dataset was created using MRs from the E2E Dataset and reference texts synthesized by a statistical language generator.
+
+2. **Contrast Benchmark**: This dataset provides reference outputs for 1,000 MRs, where the style of the output varies based on whether or not it uses a discourse contrast relation. The authors explain that this dataset is based on 15,000 examples from the E2E generation challenge, with a specific split for training and testing.
+
+To ensure I have the correct citations for these datasets, I will check the **References section** of the paper. The citations for the datasets are as follows:
+
+- For the **E2E Dataset**, which is referenced in the context of the Personality Benchmark, the citation is:
+  > Jekaterina Novikova, Ondřej Dušek, and Verena Rieser. *The E2E Dataset: New Challenges for End-to-End Generation*. In Proceedings of the 18th Annual SIGdial Meeting on Discourse and Dialogue, pages 201–206, 2017.
+
+- For the **Contrast Benchmark**, the authors refer to the work by Reed et al. (2018) as the basis for their contrastive examples. The citation is:
+  > Lena Reed, Shereen Oraby, and Marilyn Walker. *Can Neural Generators Learn Sentence Planning and Discourse Structuring?* arXiv:1809.03015 [cs], 2018.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This will ensure that I have accurately captured the datasets used in the research and their respective references.

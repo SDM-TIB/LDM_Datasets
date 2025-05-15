@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Textual Enhanced Contrastive Learning for Solving Math Word Problems" by Yibin Shen et al., I will follow a systematic approach to identify and document each dataset mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly named or described. The abstract mentions that the method achieves state-of-the-art results on "widely used benchmark datasets" and "exquisitely designed challenge datasets," indicating that datasets are involved.
+
+Next, I will focus on **section 4 (Experiments)**, particularly **subsection 4.1 (Datasets)**, where the authors provide detailed information about the datasets used in their experiments. Here, I will look for specific names, descriptions, and any relevant statistics about each dataset.
+
+In this section, the authors mention four datasets:
+
+1. **Math23K**: A Chinese dataset containing 23,161 math word problems of elementary school level. The authors specify that they use the standard train-test split for experiments.
+
+2. **Asdiv-A**: This dataset is described as the arithmetic subset of ASDiv, containing 1,218 math word problems mostly up to grade level 4. The experiments on this dataset are evaluated using a 5-fold cross-validation method.
+
+3. **HE-MWP**: This is a challenge dataset created from the Math23K validation set using data augmentation techniques. The authors mention that they manually curated a subset of 400 examples from the augmented data.
+
+4. **Adv-Asdiv-SP**: This dataset is described as a challenge set constructed from adversarial examples generated through sentence paraphrasing.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The citations I will extract are:
+
+- For **Math23K**:
+  > Wang, Y., Liu, X., & Shi, S. (2017). Deep neural solver for math word problems. In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP 2017), pages 845–854. Association for Computational Linguistics.
+
+- For **Asdiv-A**:
+  > Miao, S., Liang, C., & Su, K. (2020). A diverse corpus for evaluating and developing English math word problem solvers. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, ACL 2020, pages 975–984. Association for Computational Linguistics.
+
+- For **HE-MWP**:
+  > Liu, Q., Guan, W., Li, S., & Kurohashi, S. (2021). RODA: Reverse operation based data augmentation for solving math word problems. IEEE/ACM Transactions on Audio, Speech, and Language Processing, 30:1–11.
+
+- For **Adv-Asdiv-SP**:
+  > Kumar, V., Maheshwary, R., & Pudi, V. (2021). Adversarial examples for evaluating math word problem solvers. In Findings of the Association for Computational Linguistics: EMNLP 2021, pages 2705–2712. Association for Computational Linguistics.
+
+Now, I will compile the dataset entries with their respective citations into a structured format for further processing or review. This ensures that I have accurately captured all relevant information about the datasets used in the research.

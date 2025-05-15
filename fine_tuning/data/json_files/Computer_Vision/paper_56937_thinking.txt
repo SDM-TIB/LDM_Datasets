@@ -1,0 +1,38 @@
+To extract datasets from the research paper titled "Denoising Diffusion Models for Out-of-Distribution Detection" by Mark S. Graham et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** to see if any datasets are mentioned. The abstract discusses the validation of the proposed method on standard computer vision datasets and higher-dimensional medical datasets, indicating that datasets will be detailed later in the paper.
+
+Next, I will examine the **introduction** section. Here, the authors mention the importance of out-of-distribution (OOD) detection and refer to various datasets used for evaluation, but I need to look for specific names and details in subsequent sections.
+
+I will then focus on **section 4 (Experiments and Results)**, particularly **subsection 4.1 (Datasets)**, where the authors explicitly list the datasets used for their experiments. The paper mentions the following datasets:
+
+1. **Fashion-MNIST**: A dataset of clothing images used as an in-distribution dataset.
+2. **CIFAR10**: A dataset of 60,000 32x32 color images in 10 classes, also used as an in-distribution dataset.
+3. **CelebA**: A large-scale face attributes dataset with over 200,000 celebrity images, used as an in-distribution dataset.
+4. **SVHN**: The Street View House Numbers dataset, used as an out-of-distribution dataset.
+5. **MNIST**: A dataset of handwritten digits, used as an out-of-distribution dataset for Fashion-MNIST.
+6. **MedNIST**: A dataset consisting of medical images from various modalities, used for higher-dimensional evaluations.
+
+In the **results section**, the authors provide performance metrics for these datasets, confirming their use in the experiments.
+
+Next, I will check the **References section** to find the full citations for each dataset mentioned. The citations are as follows:
+
+- **Fashion-MNIST**:
+  > Han Xiao, Kashif Rasul, and Roland Vollgraf. *Fashion-MNIST: A Novel Image Dataset for Benchmarking Machine Learning Algorithms*. arXiv preprint arXiv:1708.07747, 2017.
+
+- **CIFAR10**:
+  > Alex Krizhevsky, Geoffrey Hinton, et al. *Learning Multiple Layers of Features from Tiny Images*. 2009.
+
+- **CelebA**:
+  > Ziwei Liu, Ping Luo, Xiaogang Wang, and Xiaoou Tang. *Deep Learning Face Attributes in the Wild*. In Proceedings of International Conference on Computer Vision (ICCV), December 2015.
+
+- **SVHN**:
+  > Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo Wu, and Andrew Y Ng. *Reading Digits in Natural Images with Unsupervised Feature Learning*. 2011.
+
+- **MNIST**:
+  > Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick Haffner. *Gradient-Based Learning Applied to Document Recognition*. Proceedings of the IEEE, 86(11):2278–2324, 1998.
+
+- **MedNIST**:
+  > A dataset consisting of medical images from various modalities, specific citation details may need to be looked up as they are not provided in the paper.
+
+After gathering all this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This structured approach will ensure that I accurately capture all relevant datasets and their citations from the paper.

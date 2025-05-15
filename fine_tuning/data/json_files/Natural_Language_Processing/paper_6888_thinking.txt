@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Discovering Language-neutral Sub-networks in Multilingual Language Models" by Negar Foroutan et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experimental setup sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and it may mention specific datasets used for evaluation or training.
+
+Next, I will focus on the **experimental setup section** (Section 4), where the authors typically describe the tasks and datasets used in their experiments. In this section, I will look for explicit mentions of datasets, including their names and any relevant details such as the number of examples, languages covered, and specific tasks associated with each dataset.
+
+From my reading of Section 4.2 (Tasks & Datasets), I note the following datasets:
+
+1. **WikiAnn**: This dataset is used for Named Entity Recognition (NER) and is built on Wikipedia articles for 282 languages. The authors mention that Swahili is not included, and Hindi has a small data size, which is important for understanding the dataset's limitations.
+
+2. **XNLI Dataset**: This dataset is used for Natural Language Inference (NLI) and includes a subset of examples from the MNLI dataset, translated into 14 languages. The authors note that Farsi is not included in this dataset.
+
+3. **Masked Language Modeling (MLM)**: The authors mention using 512-token sequences from Wikipedia in each language as the training data for the MLM task. However, this is more of a description of the data source rather than a specific dataset name.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The citations for the datasets are as follows:
+
+- For **WikiAnn**, the citation is:
+  > Pan, Xiaoman, Boliang Zhang, Jonathan May, Joel Nothman, Kevin Knight, and Heng Ji. "Cross-lingual name tagging and linking for 282 languages." In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics, ACL 2017, Vancouver, Canada, July 30 - August 4, Volume 1: Long Papers, pages 1946–1958. Association for Computational Linguistics.
+
+- For **XNLI**, the citation is:
+  > Conneau, Alexis, Ruty Rinott, Guillaume Lample, Adina Williams, Samuel R. Bowman, Holger Schwenk, and Veselin Stoyanov. "XNLI: Evaluating Cross-lingual Sentence Representations." In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 2475–2485.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is described with its name, description, and full citation. This will allow for a clear and organized presentation of the datasets used in the research paper.

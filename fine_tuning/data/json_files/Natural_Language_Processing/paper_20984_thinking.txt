@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "IndiBias: A Benchmark Dataset to Measure Social Biases in Language Models for Indian Context" by Nihar Ranjan Sahoo et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by reading the **abstract** and **introduction** sections. The abstract mentions the creation of the **IndiBias** dataset, which is specifically designed to evaluate social biases in the Indian context. This indicates that the dataset is central to the paper's contributions.
+
+Next, I will look into **section 4 (IndiBias Dataset)**, where the authors provide a detailed description of the dataset. Here, they outline the components of the IndiBias dataset, which includes:
+
+1. **Bias Tuples**: The dataset contains 300 tuples of the form (identity term, stereotypical attribute) that were generated using LLMs like ChatGPT and InstructGPT. These tuples cover various social identities such as gender, religion, caste, age, region, physical appearance, and occupation.
+
+2. **Indian CrowS-Pairs (ICS)**: The authors adapted the original CrowS-Pairs dataset to create a version that reflects the Indian socio-cultural landscape. This adaptation includes 542 sentence pairs filtered from the original dataset, focusing on relevant bias categories.
+
+3. **Bleached Sentences**: The dataset also includes approximately 1000 bleached sentences designed to evaluate intersectional biases across three axes: gender-religion, gender-caste, and gender-age.
+
+In the **experiments section**, the authors mention that they used the **IndiBias dataset** to compare ten different language models on various bias measurement metrics. This reinforces the importance of the dataset in their evaluation process.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned:
+
+- For the **CrowS-Pairs dataset**, the citation is:
+  > Nihar Sahoo, Clara Vania, Rasika Bhalerao, and Samuel R. Bowman. *CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in Masked Language Models*. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 1953–1967, 2020.
+
+- For the **IndiBias dataset**, since it is a new dataset introduced in this paper, I will cite it as follows:
+  > Nihar Ranjan Sahoo, Pranamya Prashant Kulkarni, Narjis Asad, Arif Ahmad, Tanu Goyal, Aparna Garimella, Pushpak Bhattacharyya. *IndiBias: A Benchmark Dataset to Measure Social Biases in Language Models for Indian Context*. Accepted at NAACL 2024.
+
+After gathering this information, I will compile the dataset entries into a structured format that highlights the key aspects of each dataset, including their purpose, composition, and citations. This will ensure that the datasets are well-documented and easily accessible for future reference or analysis.

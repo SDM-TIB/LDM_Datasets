@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "LLplace: The 3D Indoor Scene Layout Generation and Editing via Large Language Model" by Yixuan Yang et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to gather initial insights about any datasets referenced. The abstract mentions that the authors curated a new dialogue dataset based on the **3D-Front dataset**, which indicates that this is a key dataset used in their research.
+
+Next, I will look for specific sections that detail the datasets used, particularly focusing on the **methodology** and **experiments** sections. In the **method** section, the authors describe how they reconstructed the **3D-Front dataset** into a dialogue dataset for training their model. This dataset is crucial as it expands the original data volume and incorporates dialogue data for adding and removing objects, enhancing the model's spatial understanding.
+
+In the **experiments** section, the authors provide details about their constructed dataset, which contains a total of **5,754 original entries**. They also mention creating additional editing instructions through random removal and addition, resulting in **2,944 removal editing instructions** and **3,100 addition editing instructions**. This indicates that the dataset is not only based on the original **3D-Front dataset** but also includes modifications for training purposes.
+
+Now, I will check the **references section** to find the full citation for the **3D-Front dataset**. The citation is as follows:
+> Huan Fu, Bowen Cai, Lin Gao, Ling-Xiao Zhang, Jiaming Wang, Cao Li, Qixun Zeng, Chengyue Sun, Rongfei Jia, Binqiang Zhao, et al. *3D-Front: 3D Furnished Rooms with Layouts and Semantics*. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 10933–10942, 2021.
+
+Additionally, since the authors mention that they are using dialogue data based on the **3D-Front dataset**, I will note that this dataset is pivotal for their research, even though it is not a separate dataset but rather an augmentation of the original.
+
+Finally, I will compile the dataset entries, ensuring to include the full citations for each dataset mentioned in the paper. The key dataset extracted is:
+
+1. **3D-Front Dataset**: A dataset containing 3D furnished rooms with layouts and semantics, which has been reconstructed into a dialogue dataset for the purpose of enhancing the model's spatial understanding.
+
+After gathering all this information, I will prepare the dataset entries for structured output, ensuring that the citations are correctly formatted and included.

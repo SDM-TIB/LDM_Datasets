@@ -1,0 +1,105 @@
+[
+    {
+        "dcterms:creator": [
+            "Andrea Marcelli",
+            "Mariano Graziano",
+            "Xabier Ugarte-Pedrero",
+            "Yanick Fratantonio",
+            "Mohamad Mansouri",
+            "Davide Balzarotti"
+        ],
+        "dcterms:description": "This dataset contains seven popular open source projects: ClamAV, Curl, Nmap, Openssl, Unrar, z3 and zlib. Each of these are compiled for ARM32, ARM64, MIPS32, MIPS64, x86 and x86-64 using 4 different versions of Clang and GCC alongside 5 different optimization levels. Each project has 24 unique configurations.",
+        "dcterms:title": "Dataset-1",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Binary code",
+            "Function similarity",
+            "Open source projects",
+            "Compilation",
+            "Optimization levels"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Andrea Marcelli",
+            "Mariano Graziano",
+            "Xabier Ugarte-Pedrero",
+            "Yanick Fratantonio",
+            "Mohamad Mansouri",
+            "Davide Balzarotti"
+        ],
+        "dcterms:description": "This dataset includes a subset of binaries which encompasses the Z3 and Nmap projects, all of which are not present within the train dataset. It contains 522003 functions which is identical to the size used within previous studies.",
+        "dcterms:title": "Dataset-2",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Binary code",
+            "Function similarity",
+            "Evaluation dataset",
+            "Open source libraries"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Dongkwan Kim",
+            "Eunsoo Kim",
+            "Sang Kil Cha",
+            "Sooel Son",
+            "Yongdae Kim"
+        ],
+        "dcterms:description": "This dataset contains 51 unique packages/libraries across 8 architectures (x86, x64, ARM32, ARM64, MIPS32, MIPS64, MIPS32EB and MIPS64EB), 9 different versions of compiler (five unique versions of GCC, four unique versions of Clang) as well as five different optimization levels (O0, O1, O2, O3, Os). All of the binaries have also been compiled with function inlining turned off.",
+        "dcterms:title": "BinKit NoInline",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Binary code",
+            "Function inlining",
+            "Compiler versions",
+            "Architectures"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Dongkwan Kim",
+            "Eunsoo Kim",
+            "Sang Kil Cha",
+            "Sooel Son",
+            "Yongdae Kim"
+        ],
+        "dcterms:description": "This dataset is identical to the BinKit NoInline dataset but with one fundamental difference - The compilers are able to inline functions. This dataset allows for empirical results of how well approaches fare when faced with function inlining.",
+        "dcterms:title": "BinKit Normal",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Binary code",
+            "Function inlining",
+            "Compiler versions",
+            "Architectures"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

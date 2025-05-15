@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "ADELT: Transpilation Between Deep Learning Frameworks" by Linyuan Gong et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. In the abstract, the authors mention that they make their **code, corpus, and evaluation benchmark publicly available**, which indicates that there are datasets involved.
+
+Next, I will focus on the **experiments section** where the authors discuss the datasets used for training and evaluation. In **section 3.2 (Training Setup)**, they describe the **DL corpus** constructed from various sources, which includes:
+
+1. **GitHub Dataset**: This dataset is derived from public repositories on GitHub that contain PyTorch, Keras, or MXNet code. It is noted to be 2.5GB after filtering.
+
+2. **JuiCe Dataset**: A code generation dataset based on Jupyter Notebook files from GitHub, which is significantly larger at 25.0GB.
+
+3. **Kaggle Dataset**: This dataset consists of Jupyter Notebooks from Kaggle, totaling 54.4GB.
+
+4. **Web Dataset**: This includes Python code snippets extracted from web pages, specifically from Stack Overflow and PyTorch Forums, amounting to 85MB in total.
+
+In **section 3.3 (Evaluation Benchmark)**, the authors mention that they manually curated a clean evaluation benchmark of **30 PyTorch-Keras pairs and 25 PyTorch-MXNet pairs** for evaluating their method.
+
+Now, I will check the **References section** to find full citations for these datasets. The citations for the datasets mentioned in the paper are as follows:
+
+- For the **GitHub Dataset**:
+  > GitHub. *GitHub public dataset available on Google BigQuery*. URL: https://console.cloud.google.com/marketplace/details/github/github-repos.
+
+- For the **JuiCe Dataset**:
+  > Rajas Agashe, Srinivasan Iyer, and Luke Zettlemoyer. *Juice: A large scale distantly supervised dataset for open domain context-based code generation*. arXiv:1910.02216 [cs], Oct 2019. URL: http://arxiv.org/abs/1910.02216.
+
+- For the **Kaggle Dataset**:
+  > Kaggle. *KGTorrent: A dataset of Jupyter Notebooks from Kaggle*. 2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR), page 550–554, May 2021. doi: 10.1109/MSR52588.2021.00072. URL: http://arxiv.org/abs/2103.10558.
+
+- For the **Web Dataset**:
+  > Stack Overflow and PyTorch Forums. *Python code snippets extracted from web pages*. URL: https://stackoverflow.com/ and https://discuss.pytorch.org/.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all relevant details are accurately captured for future reference or processing.

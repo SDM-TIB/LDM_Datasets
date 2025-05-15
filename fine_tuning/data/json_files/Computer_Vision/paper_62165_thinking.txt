@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Diffusion with Forward Models: Solving Stochastic Inverse Problems Without Direct Supervision" by Ayush Tewari et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the research, and the introduction often outlines the context and significance of the datasets used.
+
+In the **introduction**, the authors discuss the challenges of reconstructing 3D scenes from 2D images and mention the need for datasets that provide pairs of observations and corresponding parameters. This indicates that datasets are crucial for their experiments.
+
+Next, I will look into **section 4 (Applications)**, where the authors describe their framework's application to three specific tasks: inverse graphics, single-image motion prediction, and GAN inversion. Each of these applications likely utilizes specific datasets.
+
+1. **Co3D Dataset**: The authors mention using the Co3D dataset for evaluating their method on object-centric scenes. This dataset is referenced in the context of generating diverse 3D scenes from image observations.
+
+2. **RealEstate10k Dataset**: This dataset is used for scene-level 3D synthesis, consisting of indoor and outdoor videos of various scenes. The authors highlight its challenging nature and its role in their experiments.
+
+3. **Vimeo90K Dataset**: This dataset is utilized for training the model in the single-image motion prediction task. It consists of natural videos and is crucial for learning motion dynamics from static images.
+
+4. **FFHQ Dataset**: The authors mention using the FFHQ dataset in the context of GAN inversion, where they project partial images onto the latent space of a StyleGAN model.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **Co3D Dataset**, the citation is:
+  > Jeremy Reizenstein, Roman Shapovalov, Philipp Henzler, Luca Sbordone, Patrick Labatut, and David Novotny. *Common objects in 3D: Large-scale learning and evaluation of real-life 3D category reconstruction*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2021.
+
+- For **RealEstate10k Dataset**, the citation is:
+  > Tinghui Zhou, Richard Tucker, John Flynn, Graham Fyffe, and Noah Snavely. *Stereo magnification: Learning view synthesis using multiplane images*. ACM Transactions on Graphics (Proc. SIGGRAPH), 37, 2018.
+
+- For **Vimeo90K Dataset**, the citation is:
+  > Tianfan Xue, Baian Chen, Jiajun Wu, Donglai Wei, and William T. Freeman. *Video enhancement with task-oriented flow*. International Journal of Computer Vision, 127:1106–1125, 2019.
+
+- For **FFHQ Dataset**, the citation is:
+  > Tero Karras, Samuli Laine, and Timo Aila. *A style-based generator architecture for generative adversarial networks*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing or review.

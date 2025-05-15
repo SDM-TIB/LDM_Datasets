@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "Frequency-Modulated Point Cloud Rendering with Easy Editing" by Yi Zhang et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract states that the authors conducted extensive experiments on several datasets, which indicates that there are specific datasets used in their research.
+
+Next, I will focus on the **experiments section** where the authors detail their evaluation methods. In this section, they mention using the following datasets:
+
+1. **NeRF-Synthetic**: This dataset is described as containing path-traced images of 8 objects, with 100 frames for training and 200 frames for testing. This dataset is crucial for their experiments on novel view synthesis.
+
+2. **ScanNet**: This is a RGBD dataset of indoor scenes, and the authors evaluate on specific scenes (scene0000 00, scene0043 00, and scene0045 00). This dataset is important for assessing the performance of their rendering method in real-world scenarios.
+
+3. **DTU**: This dataset is a multi-view stereo dataset, and the authors mention evaluating on specific scans (scan110, scan114, and scan118). This dataset is significant for testing the robustness of their method.
+
+4. **Tanks and Temples**: The authors use a subset of this dataset, which contains real objects and is used for evaluating rendering quality. They mention that each scene contains a varying number of images.
+
+5. **ToyDesk**: This dataset is used for training and editing without evaluation, indicating its role in the practical application of their method.
+
+Now, I will look at the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- **NeRF-Synthetic**:
+  > Ben Mildenhall, Pratul P Srinivasan, Matthew Tancik, Jonathan T Barron, Ravi Ramamoorthi, and Ren Ng. *NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis*. Communications of the ACM, 65(1):99–106, 2021.
+
+- **ScanNet**:
+  > Angela Dai, Angel X Chang, Manolis Savva, Maciej Halber, Thomas Funkhouser, and Matthias Nießner. *ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 5828–5839, 2017.
+
+- **DTU**:
+  > Rasmus Jensen, Anders Dahl, George Vogiatzis, Engin Tola, and Henrik Aanæs. *Large Scale Multi-View Stereopsis Evaluation*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 406–413, 2014.
+
+- **Tanks and Temples**:
+  > Arno Knapitsch, Jaesik Park, Qian-Yi Zhou, and Vladlen Koltun. *Tanks and Temples: Benchmarking Large-Scale Scene Reconstruction*. ACM Transactions on Graphics (ToG), 36(4):1–13, 2017.
+
+- **ToyDesk**:
+  > Bangbang Yang, Yinda Zhang, Yinghao Xu, Yijin Li, Han Zhou, Hujun Bao, Guofeng Zhang, and Zhaopeng Cui. *Learning Object-Compositional Neural Radiance Field for Editable Scene Rendering*. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 13779–13788, 2021.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and cited according to the requirements.

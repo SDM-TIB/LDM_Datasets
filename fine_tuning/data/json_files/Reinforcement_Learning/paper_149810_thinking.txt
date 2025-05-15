@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Wireless Ad Hoc Federated Learning: A Fully Distributed Cooperative Machine Learning" by Hideya Ochiai et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the paper discusses the development of generalized models from Non-IID datasets stored in distributed nodes, which suggests that datasets are indeed involved.
+
+Next, I will focus on **section IV (Evaluation)**, where the authors describe their experimental setup. Here, they mention the use of **MNIST dataset** for creating Non-IID datasets. They specify that they configured 10 training nodes, each having 90% of their data composed of samples from their respective labels, with the remaining 10% uniformly composed of other labels. This detailed description indicates that the MNIST dataset is a primary dataset used in their experiments.
+
+I will also check the **References section** to find the full citation for the MNIST dataset. The citation for the MNIST dataset is:
+> Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. *The MNIST Database of Handwritten Digits*. 1998. [Online]. Available: http://yann.lecun.com/exdb/mnist/
+
+Additionally, the authors mention the creation of Non-IID datasets from the MNIST dataset based on the study of another reference. I will look for this reference in the paper to provide a complete citation for the methodology used to create the Non-IID datasets.
+
+The reference for the methodology used to create Non-IID datasets is:
+> Hao Wang, Zakhary Kaplan, Di Niu, and Baochun Li. *Optimizing federated learning on non-iid data with reinforcement learning*. In IEEE INFOCOM 2020-IEEE Conference on Computer Communications, pages 1698–1707. IEEE, 2020.
+
+Now, I will summarize the datasets identified:
+
+1. **MNIST Dataset**: Used as the base dataset for creating Non-IID datasets. It consists of handwritten digit images and is widely used for training various image processing systems.
+
+2. **Non-IID Datasets**: Created from the MNIST dataset, where each node has a distribution of data that is not independent and identically distributed.
+
+Finally, I will compile the dataset entries, ensuring that I include the full citations for each dataset as required. This structured approach will help ensure that I capture all necessary details for downstream processing.

@@ -1,0 +1,114 @@
+[
+    {
+        "dcterms:creator": [
+            "Greg Brockman",
+            "Vicki Cheung",
+            "Ludwig Pettersson",
+            "Jonas Schneider",
+            "John Schulman",
+            "Jie Tang",
+            "Wojciech Zaremba"
+        ],
+        "dcterms:description": "In this environment, the agent learns to navigate from a start location to a goal in a frozen lake grid with holes in the ice. Each episode ends when the agent reaches the goal or falls through a hole in the ice.",
+        "dcterms:title": "Frozen Lake 8 × 8 environment",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Grid Navigation"
+        ],
+        "dcat:keyword": [
+            "Frozen Lake",
+            "Grid World",
+            "Navigation",
+            "Reinforcement Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Navigation",
+            "Goal Achievement"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Thomas G Dietterich"
+        ],
+        "dcterms:description": "A chain of 11 states, where the agent starts at s0 and the episodes end when the agent enters s10. The agent receives a reward of r = 1 upon entering goal state s10 and incurs a cost for measuring the state.",
+        "dcterms:title": "Chain environment",
+        "dcterms:issued": "2000",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Markov Decision Process"
+        ],
+        "dcat:keyword": [
+            "Chain",
+            "State Transitions",
+            "Reward",
+            "Reinforcement Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "State Navigation",
+            "Reward Maximization"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Thomas G Dietterich"
+        ],
+        "dcterms:description": "The agent learns to navigate a city grid world to pick up and drop off passengers at the appropriate location. The agent receives rewards for correct actions and incurs costs for measuring the state.",
+        "dcterms:title": "Taxi environment",
+        "dcterms:issued": "2000",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Grid Navigation"
+        ],
+        "dcat:keyword": [
+            "Taxi",
+            "City Grid",
+            "Passenger Pickup",
+            "Reinforcement Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Navigation",
+            "Task Completion"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "This environment emulates a student learning to manipulate an energy source to produce a desired state change in a target material. The agent learns to adjust a heat source to transition the ratio of ice, liquid, gas.",
+        "dcterms:title": "Junior Scientist environment",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Educational Simulation"
+        ],
+        "dcat:keyword": [
+            "Junior Scientist",
+            "Energy Manipulation",
+            "State Change",
+            "Reinforcement Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "State Manipulation",
+            "Goal Achievement"
+        ]
+    }
+]

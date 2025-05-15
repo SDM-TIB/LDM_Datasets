@@ -1,0 +1,61 @@
+[
+    {
+        "dcterms:creator": [
+            "Myle Ott",
+            "Sergey Edunov",
+            "Alexei Baevski",
+            "Angela Fan",
+            "Sam Gross",
+            "Nathan Ng",
+            "David Grangier",
+            "Michael Auli"
+        ],
+        "dcterms:description": "This dataset comprises 4.5M parallel sentence pairs. During SFT, we randomly sample 100k sentence pairs for fine-tuning LLM. Consistent with Ma et al. (2020), we use newstest2013 as the validation set and newstest2015 as the test set.",
+        "dcterms:title": "WMT15 German→English (De→En)",
+        "dcterms:issued": "2015",
+        "dcterms:language": "German, English",
+        "dcterms:identifier": "https://www.statmt.org/wmt15",
+        "dcat:theme": [
+            "Machine Translation"
+        ],
+        "dcat:keyword": [
+            "Parallel corpus",
+            "Translation",
+            "German to English"
+        ],
+        "dcat:landingPage": "https://www.statmt.org/wmt15",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Mattia A. Di Gangi",
+            "Roldano Cattoni",
+            "Luisa Bentivogli",
+            "Matteo Negri",
+            "Marco Turchi"
+        ],
+        "dcterms:description": "This dataset contains 230k samples. Similarly, we randomly sample 100k samples from the training set for fine-tuning LLM. We use dev set for validation and tst-COMMON set for the testing.",
+        "dcterms:title": "MuST-C English→German (En→De)",
+        "dcterms:issued": "2019",
+        "dcterms:language": "English, German",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Speech Translation"
+        ],
+        "dcat:keyword": [
+            "Multilingual corpus",
+            "Speech translation",
+            "English to German"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Speech Translation"
+        ]
+    }
+]

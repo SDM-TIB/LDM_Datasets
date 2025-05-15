@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Jo-SRC: A Contrastive Approach for Combating Noisy Labels" by Yazhou Yao et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions that the authors conducted extensive experiments, which suggests that datasets are involved. I will look for specific mentions of datasets in these sections.
+
+In the **introduction**, the authors discuss the challenges of training with noisy labels and the importance of large-scale datasets. However, they do not explicitly name any datasets here. I will need to continue searching in the experiments section.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors typically describe the datasets used for their experiments. In this section, they mention evaluating their method on **four benchmark datasets**: **CIFAR100N-C**, **CIFAR80N-O**, **Clothing1M**, and **Food101N**. I will take note of these datasets and their characteristics as described in the paper.
+
+1. **CIFAR100N-C**: A synthetic dataset created from CIFAR100 with a noise ratio that can vary. It is used for closed-set scenarios.
+2. **CIFAR80N-O**: Another synthetic dataset created from CIFAR100, designed to simulate open-set scenarios by introducing out-of-distribution classes.
+3. **Clothing1M**: A large-scale real-world dataset containing one million training images with a significant proportion of noisy labels.
+4. **Food101N**: A real-world dataset with 310k training images across 101 food categories, also containing noisy labels.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to provide context for future researchers.
+
+- For **CIFAR100**, the original dataset citation is:
+  > Alex Krizhevsky and Geoffrey Hinton. *Learning multiple layers of features from tiny images*. Technical report, University of Toronto, 2009.
+
+- For **Clothing1M**, the citation is:
+  > Tong Xiao, Tian Xia, Yi Yang, Chang Huang, and Xiaogang Wang. *Learning from massive noisy labeled data for image classification*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2691–2699, 2015.
+
+- For **Food101**, the citation is:
+  > Lukas Bossard, Matthieu Guillaumin, and Luc Van Gool. *Food-101 – Mining Discriminative Components with a Large-Scale Dataset*. In European Conference on Computer Vision (ECCV), pages 407–422, 2014.
+
+- For **CIFAR80**, since it is a synthetic dataset derived from CIFAR100, I will reference the same citation as CIFAR100.
+
+With this information gathered, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research paper.

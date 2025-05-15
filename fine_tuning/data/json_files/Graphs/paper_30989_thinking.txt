@@ -1,0 +1,39 @@
+To extract datasets from the research paper titled "SCENE: Reasoning about Traffic Scenes using Heterogeneous Graph Neural Networks" by Thomas Monninger et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the methodology is evaluated on two binary node classification tasks, which suggests that datasets are involved, but I need to find specific names and details.
+
+Next, I will look into the **experiments section** (Section IV) where the authors describe their methodology and the datasets used for evaluation. Here, they mention that experiments are carried out on a large-scale, in-house dataset with over 22,400 sequences, which is crucial information. The dataset is derived from in-vehicle recordings from various locations in Germany and the U.S., and it includes diverse environments and scenarios.
+
+The paper does not provide a specific name for this dataset, but it describes its characteristics in detail, including the types of data collected (camera, LiDAR, and Radar detections) and the temporal history of the sequences. This dataset is significant for the experiments conducted, so I will note it down.
+
+In addition, I will check the **references section** to see if there are any citations related to publicly available datasets that might have been used in the context of the experiments or comparisons. However, the paper primarily focuses on their in-house dataset and does not reference any external datasets.
+
+Now, I will compile the information I have gathered:
+
+1. **In-house Dataset**: This dataset is described as having over 22,400 sequences, each with 3 seconds of temporal history, and includes various features from different sensor modalities. Since it is an in-house dataset, it does not have a formal citation like publicly available datasets.
+
+2. **Publicly Available Datasets**: The paper mentions the use of four publicly available heterogeneous knowledge graph datasets for transferability tests: AIFB, MUTAG, BGS, and AM. I will look up the citations for these datasets to ensure I have the correct references.
+
+After researching, I find the following citations for the knowledge graph datasets:
+
+- **AIFB Dataset**: 
+  > P. Ristoski, G. K. D. de Vries, and H. Paulheim. *A collection of benchmark datasets for systematic evaluations of machine learning on the semantic web*. In The Semantic Web, 2016, pp. 186–194.
+
+- **MUTAG Dataset**: 
+  > N. Shervashidze, P. Schweitzer, E. J. van Leeuwen, K. Mehlhorn, and K. M. Borgwardt. *Weisfeiler-lehman graph kernels*. Journal of Machine Learning Research, vol. 12, pp. 2539–2561, 2011.
+
+- **BGS Dataset**: 
+  > P. Ristoski, J. Rosati, T. D. Noia, R. D. Leone, and H. Paulheim. *Rdf2vec: Rdf graph embeddings and their applications*. The Semantic Web, vol. 10, pp. 721–752, 2019.
+
+- **AM Dataset**: 
+  > P. Ristoski, G. K. D. de Vries, and H. Paulheim. *A collection of benchmark datasets for systematic evaluations of machine learning on the semantic web*. In The Semantic Web, 2016, pp. 186–194.
+
+Now, I will summarize the datasets extracted from the paper:
+
+1. **In-house Dataset**: A large-scale dataset with over 22,400 sequences, derived from in-vehicle recordings in Germany and the U.S. (No formal citation).
+2. **AIFB Dataset**: Ristoski et al. (2016).
+3. **MUTAG Dataset**: Shervashidze et al. (2011).
+4. **BGS Dataset**: Ristoski et al. (2019).
+5. **AM Dataset**: Ristoski et al. (2016).
+
+Finally, I will ensure that I have all the necessary details and citations ready for any structured output or further processing.

@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Curriculum Learning with Hindsight Experience Replay for Sequential Object Manipulation Tasks" by Binyamin Manela and Armin Biess, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the algorithm's application to sequential object manipulation tasks, but it does not explicitly mention any datasets. Therefore, I will need to look deeper into the paper.
+
+Next, I will examine **section 4 (Experiments)**, where the authors describe the environments used for testing their algorithm. They mention three specific tasks: 
+
+1. **Hand Task**: The agent needs to pick up the ball and throw it at the target.
+2. **Hand-Wall Task**: Similar to the Hand Task, but with a wall that the agent must throw the ball over.
+3. **Robot Task**: The agent uses a manipulator to pick up the ball and throw it at the target.
+
+These tasks are described in detail, but I need to confirm if they are based on existing datasets or if they are original environments created for the study.
+
+In the **References section**, I will check if any of the tasks are linked to previously published datasets. The authors reference a previous work by Manela and Biess (2019) that discusses bias-reduced hindsight experience replay, which may provide context for the environments used.
+
+Upon reviewing the references, I find that the environments were introduced in the paper by Manela and Biess (2019):
+
+- For the **Hand, Hand-Wall, and Robot environments**, the citation is:
+  > Binyamin Manela and Armin Biess. *Bias-reduced hindsight experience replay with virtual goal prioritization*. arXiv preprint arXiv:1905.05498, 2019.
+
+Since the datasets are not standard datasets but rather custom environments created for the experiments, I will note them as such.
+
+Now, I will compile the information into a structured format, ensuring that I include the full citations for the environments used in the experiments.
+
+In summary, the datasets extracted from the paper are:
+
+1. **Hand Task Environment**: A custom environment where the agent picks up and throws a ball.
+2. **Hand-Wall Task Environment**: A custom environment similar to the Hand Task but includes a wall.
+3. **Robot Task Environment**: A custom environment where a manipulator picks up and throws a ball.
+
+The full citation for the environments is:
+> Binyamin Manela and Armin Biess. *Bias-reduced hindsight experience replay with virtual goal prioritization*. arXiv preprint arXiv:1905.05498, 2019.
+
+With this information, I am ready to create the dataset entries in the required format.

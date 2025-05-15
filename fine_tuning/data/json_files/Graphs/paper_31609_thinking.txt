@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "ELVIS: Empowering Locality of Vision Language Pre-training with Intra-modal Similarity" by Sumin Seo et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** of the paper. The abstract mentions that the authors evaluate their method on various datasets, which indicates that there are datasets to be identified.
+
+In the **introduction**, the authors discuss the challenges of collecting annotated data for chest X-ray images and mention that they utilize the **MIMIC-CXR** dataset for pre-training their model. This is a significant dataset that I need to note.
+
+Next, I will look into the **experiments section** where the authors evaluate their model on several datasets. They specifically mention using the following datasets for evaluation:
+
+1. **RSNA Pneumonia Detection Dataset**: This dataset consists of 26,684 frontal-view chest radiographs with bounding boxes indicating the location of pneumonia.
+
+2. **COVID Rural Segmentation Dataset**: This dataset contains 221 frontal-view chest radiographs with segmentation annotations for detecting COVID-19.
+
+3. **SIIM Pneumothorax Segmentation Dataset**: This dataset comprises 12,047 frontal-view chest radiographs and segmentation masks for localizing pneumothorax.
+
+4. **MS-CXR Local Alignment Dataset**: A subset of the MIMIC-CXR dataset, curated for phrase grounding, which includes 1,162 image-sentence pairs of bounding boxes for various lesions.
+
+Now, I will gather the full citations for each dataset from the **References section** of the paper:
+
+- For the **MIMIC-CXR dataset**, the citation is:
+  > Johnson, A.E.W., Pollard, T.J., Greenbaum, N.R., Lungren, M.P., Deng, C.Y., Peng, Y., Lu, Z., Mark, R.G., Berkowitz, S.J., Horng, S. (2019). *MIMIC-CXR-JPG, a large publicly available database of labeled chest radiographs*. https://doi.org/10.48550/ARXIV.1901.07042.
+
+- For the **RSNA Pneumonia Detection Dataset**, the citation is:
+  > Radiological Society of North America. (2018). *RSNA Pneumonia Detection Challenge*. https://www.kaggle.com/competitions/rsna-pneumonia-detection-challenge/data.
+
+- For the **COVID Rural Segmentation Dataset**, the citation is:
+  > Tang, H., Sun, N., Li, Y. (2020). *Segmentation model of the opacity regions in the chest X-rays of the COVID-19 patients in the US rural areas and the application to the disease severity*. medRxiv.
+
+- For the **SIIM Pneumothorax Segmentation Dataset**, the citation is:
+  > SIIM-ACR. (2019). *SIIM-ACR Pneumothorax Segmentation*. https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation.
+
+- For the **MS-CXR Local Alignment Dataset**, the citation is:
+  > Boecking, B., Usuyama, N., Bannur, S., Castro, D.C., Schwaighofer, A., Hyland, S., Wetscherek, M., Naumann, T., Nori, A., Alvarez-Valle, J., et al. (2022). *Making the most of text semantics to improve biomedical vision–language processing*. European Conference on Computer Vision.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

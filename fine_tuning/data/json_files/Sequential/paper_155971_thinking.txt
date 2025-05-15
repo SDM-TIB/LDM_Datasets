@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Large-scale End-of-Life Prediction of Hard Disks in Distributed Datacenters" by Rohan Mohapatra et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract discusses the use of S.M.A.R.T. health data from Backblaze, which suggests that this dataset is crucial for the research.
+
+Next, I will focus on the **introduction** where the authors mention the importance of predicting hard disk failures and refer to the S.M.A.R.T. logs collected from Backblaze. This indicates that the dataset is likely to be detailed further in the paper.
+
+In the **methodology section**, particularly in the subsections discussing the data pipeline and feature selection, the authors provide more context about the dataset. They mention that the dataset consists of S.M.A.R.T. health data collected over 10 years from Backblaze, specifically focusing on Seagate hard drives. This is a significant dataset for their analysis.
+
+I will also check the **experiments section** where the authors describe how they utilized the dataset for training and testing their encoder-decoder LSTM model. They emphasize the size of the dataset (approximately 35 GB) and its relevance to their predictive analysis.
+
+Now, I will compile the full citation for the dataset mentioned:
+
+1. **Backblaze S.M.A.R.T. Health Data**: This dataset includes logs recorded daily at the datacenter level from 2013 to 2022, focusing on Seagate hard drives. The dataset is crucial for predicting the remaining useful life (RUL) of hard disks.
+
+The citation for the dataset is:
+> Backblaze. "Backblaze Drive Stats for 2022." Available: https://www.backblaze.com/blog/backblaze-drive-stats-for-2022/, accessed on 6 March 2023.
+
+After gathering this information, I will ensure that I have accurately documented the dataset's details and citation for further processing or review. This structured approach will help in extracting relevant datasets from similar research papers in the future.

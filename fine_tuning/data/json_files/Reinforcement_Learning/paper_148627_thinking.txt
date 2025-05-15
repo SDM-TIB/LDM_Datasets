@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Sample Efficiency in Sparse Reinforcement Learning: Or Your Money Back" by Trevor A. McInroe, I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract discusses the introduction of a new sampler called OYMB and mentions testing it on five tasks across three unique environments. This indicates that there may be datasets or environments used for these tasks.
+
+Next, I will examine the **experiments section** (section 4) closely, particularly **section 4.1 (Environments)**, where the author describes the environments used for testing the OYMB method. The environments mentioned are:
+
+1. **LunarLander**: A discrete control environment simulating a physics problem where an agent must land a vehicle on a pad.
+2. **MountainCar**: A discrete control environment where the agent must drive a vehicle up a mountain using momentum.
+3. **Robo**: A custom-designed gridworld maze environment where the agent navigates to a specified square.
+
+In this section, the author provides details about the tasks and the nature of the environments, which can be considered datasets for the experiments.
+
+Next, I will check the **references section** to find full citations for any datasets or environments mentioned. However, since the environments are not traditional datasets but rather simulation environments, I will note that they are based on existing frameworks (like OpenAI Gym) and may not have formal citations. 
+
+For the **LunarLander** and **MountainCar** environments, I can reference the OpenAI Gym documentation as follows:
+
+- **LunarLander**: 
+  > OpenAI. *LunarLander-v2*. Available at: https://gym.openai.com/envs/LunarLander-v2/
+
+- **MountainCar**: 
+  > OpenAI. *MountainCar-v0*. Available at: https://gym.openai.com/envs/MountainCar-v0/
+
+For the **Robo** environment, since it is a custom design by the author, I will note it as such without a formal citation.
+
+Now, I will compile the information into a structured format, ensuring that I include the full citations for the environments where applicable. This will provide a clear overview of the datasets used in the research paper.

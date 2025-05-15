@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Benchmarking Large Language Models in Biomedical Triple Extraction" by Mingchen Li et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and related work sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors present a new dataset called **GIT**, which is a significant clue that there are datasets to extract.
+
+Next, I will focus on the **introduction** section, where the authors discuss the challenges in biomedical triple extraction and mention the lack of high-quality datasets. They reference existing datasets like **BioRelEx** and **ADE**, which suggests that these datasets will be detailed later in the paper.
+
+In the **related work section**, the authors provide a brief overview of several existing datasets used for biomedical triple extraction. Here, they mention:
+
+1. **BioRelEx**: This dataset is noted for annotating 2,010 sentences focusing on binding interactions involving proteins and biomolecules.
+2. **ADE**: This dataset includes 4,272 sentences from medical reports, specifically addressing drug-related adverse effects.
+3. **DDI**: This dataset consists of five relation types extracted from MedLine abstracts.
+4. **CHEMPROT**: This dataset is mentioned as well, but specific details are not provided in this section.
+
+Moving on to the **GIT section**, the authors describe their newly developed dataset, which includes high-quality annotations and a comprehensive range of relation types. They mention that GIT consists of 4,691 labeled sentences, which is a significant contribution to the field.
+
+In the **experiments section**, the authors confirm that they used **GIT**, **CHEMPROT**, and **DDI** for their evaluations. This reinforces the datasets I need to document.
+
+Now, I will consult the **References section** to gather full citations for each dataset:
+
+- For **BioRelEx**, the citation is:
+  > Hrant Khachatrian, Lilit Nersisyan, Karen Hambardzumyan, Tigran Galstyan, Anna Hakobyan, Arsen Arakelyan, Andrey Rzhetsky, and Aram Galstyan. *Biorelex 1.0: Biological relation extraction benchmark*. In Proceedings of the 18th BioNLP Workshop and Shared Task, pages 176–190, 2019.
+
+- For **ADE**, the citation is:
+  > Harsha Gurulingappa, Abdul Mateen Rajput, Angus Roberts, Juliane Fluck, Martin Hofmann-Apitius, and Luca Toldo. *Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports*. Journal of biomedical informatics, 45(5):885–892, 2012.
+
+- For **DDI**, the citation is:
+  > Isabel Segura-Bedmar, Paloma Martínez Fernández, and María Herrero Zazo. *Semeval-2013 task 9: Extraction of drug-drug interactions from biomedical texts (ddiextraction 2013)*. Association for Computational Linguistics, 2013.
+
+- For **CHEMPROT**, the citation is:
+  > Olivier Taboureau, Sonny Kim Nielsen, Karine Audouze, Nils Weinhold, Daniel Edsgärd, Francisco S Roque, Irene Kouskoumvekaki, Alina Bora, Ramona Curpan, Thomas Skøt Jensen, et al. *Chemprot: a disease chemical biology database*. Nucleic acids research, 39(suppl_1):D367–D372, 2010.
+
+- For **GIT**, since it is a new dataset introduced by the authors, the citation is:
+  > Mingchen Li, Huixue Zhou, Rui Zhang. *GIT: General BioMedical and Complementary and Integrative Health Triples*. In Benchmarking Large Language Models in Biomedical Triple Extraction, 2023.
+
+After gathering all the necessary information, I will compile the dataset entries, ensuring that each dataset is accurately represented with its full citation. This will provide a comprehensive overview of the datasets utilized in the research paper.

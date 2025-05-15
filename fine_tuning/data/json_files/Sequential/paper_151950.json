@@ -1,0 +1,69 @@
+[
+    {
+        "dcterms:creator": [
+            "C. Raffel"
+        ],
+        "dcterms:description": "A dataset containing approximately one hundred thousand songs in the MIDI data format, which includes messages like 'note on', 'note off', and 'change tempo'. It is beneficial for training neural networks due to its smaller size compared to audio files.",
+        "dcterms:title": "Lakh MIDI Dataset",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Music Generation",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "MIDI",
+            "Music dataset",
+            "Neural networks",
+            "Music theory"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "MIDI",
+        "mls:task": [
+            "Music Generation",
+            "Chord Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset derived from the Lakh MIDI Dataset, where the songs have been shifted to the same root note C to simplify the music generation task.",
+        "dcterms:title": "Shifted Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Shifted music",
+            "MIDI",
+            "Music generation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "MIDI",
+        "mls:task": [
+            "Music Generation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Another dataset derived from the Lakh MIDI Dataset, which retains the original key of the songs without shifting.",
+        "dcterms:title": "Original Unshifted Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Original music",
+            "MIDI",
+            "Music generation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "MIDI",
+        "mls:task": [
+            "Music Generation"
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Enabling Low-Overhead Over-the-Air Synchronization Using Online Learning" by Dieter Verbruggen, Hazem Sallouha, and Sofie Pollin, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental design sections** to identify any datasets mentioned. The abstract discusses the use of measurement-based results, which suggests that there may be datasets involved.
+
+Next, I will focus on the **experiments section (Section IV)**, where the authors detail their experiment setup and data collection process. Here, they mention collecting data from two Pluto-SDRs, which includes:
+
+1. **Timestamp**: The second of the day when measurements were taken.
+2. **Temperature**: Measurements collected by the onboard temperature sensor of the Pluto-SDR.
+3. **LTE-based ppm measurement**: This is a measurement of the oscillator's ppm based on LTE signals.
+4. **Single-tone-based ppm measurement**: This serves as a benchmark for the LSTM-based method.
+
+The authors state that they collected a total of **4,200 data points over a span of 70 hours**, which indicates a substantial dataset.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The paper does not provide specific citations for the datasets themselves, as they are derived from the experimental setup using the Pluto-SDRs. However, I can note the relevant references that pertain to the technologies and methods used in the experiments:
+
+- For the **Pluto-SDR**, the citation is:
+  > Analog Devices. *PlutoSDR: A Low-Cost Software Defined Radio for Education and Research*. [Online]. Available: https://wiki.analog.com/university/tools/pluto
+
+- For the **GPS Reference Clock**, the citation is:
+  > Leo Bodnar. *Mini Precision GPS Reference Clock*. [Online]. Available: http://www.leobodnar.com
+
+Since the datasets are derived from the measurements taken during the experiments, I will summarize them as follows:
+
+1. **Dataset of Timestamp and Temperature Measurements**: This dataset includes timestamps and temperature readings collected from the Pluto-SDRs.
+2. **Dataset of LTE-based ppm Measurements**: This dataset consists of ppm measurements derived from LTE signals.
+3. **Dataset of Single-tone-based ppm Measurements**: This dataset serves as a benchmark for the LSTM-based method.
+
+Finally, I will compile the dataset entries, ensuring to include the relevant citations for the technologies used in the experiments, as these provide context for the datasets.
+
+After completing this process, I will have a clear understanding of the datasets extracted from the paper, along with their descriptions and citations.

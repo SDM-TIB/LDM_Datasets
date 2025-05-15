@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "SPACE-3: Unified Dialog Model Pre-training for Task-Oriented Dialog Understanding and Generation" by Wanwei He et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors constructed a labeled corpus (AnPreDial) and an unlabeled corpus (UnPreDial) for pre-training their model, which suggests that these are the primary datasets of interest.
+
+Next, I will focus on **section 3 (Pre-training Data Construction)**, where the authors provide detailed descriptions of the datasets:
+
+1. **AnPreDial**: This is a labeled dialog corpus containing 3 million utterances derived from 32 existing task-oriented dialog datasets. The authors emphasize that it includes rich semantic annotations, which are crucial for their model's training.
+
+2. **UnPreDial**: This is a large-scale unlabeled dialog corpus with 19 million utterances, aggregated from 21 online dialog corpora. The authors mention that this dataset underwent careful data cleaning to ensure quality.
+
+In the **related work section**, the authors reference other datasets but do not provide additional datasets used in their experiments. Therefore, I will focus on the two datasets they constructed.
+
+Now, I will check the **References section** to find the full citations for these datasets. Since AnPreDial is a compilation of multiple datasets, I will need to cite the individual datasets that comprise it. The paper lists several datasets used to create AnPreDial, including:
+
+- **BANKING77**: 
+  > Iñigo Casanueva, Tadas Temčinas, Daniela Gerz, Matthew Henderson, and Ivan Vulić. *Efficient Intent Detection with Dual Sentence Encoders*. In Proceedings of the 2nd Workshop on Natural Language Processing for Conversational AI, 2020.
+
+- **CLINC150**: 
+  > Derek Chen, Howard Chen, Yi Yang, Alex Lin, and Zhou Yu. *Action-Based Conversations Dataset: A Corpus for Building More In-Depth Task-Oriented Dialogue Systems*. arXiv preprint arXiv:2104.00783, 2021.
+
+- **HWU64**: 
+  > Yinpei Dai, Hangyu Li, Yongbin Li, Jian Sun, Fei Huang, Luo Si, and Xiaodan Zhu. *Preview, Attend and Review: Schema-Aware Curriculum Learning for Multi-Domain Dialogue State Tracking*. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics, 2021.
+
+- **MultiWOZ**: 
+  > Budzianowski, P., et al. *MultiWOZ - A Large-Scale Multi-Domain Wizard-of-Oz Dataset for Task-Oriented Dialogue Modelling*. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, 2018.
+
+For UnPreDial, since it is a compilation of various online dialog corpora, I will need to cite the individual datasets mentioned in the paper, such as:
+
+- **AirDialogue**: 
+  > Wei Wei, Quoc Le, Andrew Dai, and Jia Li. *AirDialogue: An Environment for Goal-Oriented Dialogue Research*. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, 2018.
+
+- **CoQA**: 
+  > Siva Reddy, Danqi Chen, and Christopher D. Manning. *CoQA: A Conversational Question Answering Challenge*. Transactions of the Association for Computational Linguistics, 2019.
+
+After gathering all necessary citations, I will compile the dataset entries with their respective citations into a structured format for clarity and completeness. This will ensure that I have accurately captured the datasets used in the research paper along with their proper citations.

@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Highly Scalable Tensor Factorization for Prediction of Drug-Protein Interaction Type" by Adam Arany et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** of the paper. The abstract mentions using public IC50 and Ki data from ChEMBL, which indicates that there is at least one dataset involved.
+
+Next, I will focus on the **experiments section** (Section IV), where the authors provide details about the datasets used. They specifically mention that the inhibitory activities were obtained from **ChEMBL version 19**, which is a significant dataset for drug-protein interactions. The authors also describe the dimensions of the tensor Y, indicating that it includes data for 15,073 compounds and 346 proteins, with observed values for pIC50 and pKi.
+
+I will also look for any additional datasets mentioned in the paper. In this case, the authors refer to the generation of ECFP features for the compounds using RDKit software, but this is more of a method than a dataset itself.
+
+Now, I will check the **References section** to find the full citation for the ChEMBL dataset. The citation for ChEMBL is:
+
+- For **ChEMBL**:
+  > Bento, A. P., Gaulton, A., Hersey, A., Bellis, L. J., Chambers, J., Davies, M., Krüger, F. A., Light, Y., Mak, L., McGlinchey, S., et al. (2014). The ChEMBL bioactivity database: an update. *Nucleic Acids Research*, 42(D1), D1083–D1090.
+
+With this information, I can now summarize the datasets extracted from the paper:
+
+1. **ChEMBL Dataset**: Contains bioactivity data for drug-protein interactions, specifically focusing on IC50 and Ki values.
+
+Finally, I will compile the dataset entries into a structured format for further processing, ensuring that I include the full citations for each dataset as required.

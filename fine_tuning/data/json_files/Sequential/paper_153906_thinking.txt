@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Leveraging Text Data Using Hybrid Transformer-LSTM Based End-to-End ASR in Transfer Learning" by Zhiping Zeng et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors conducted experiments on an **in-house Malay corpus**, which suggests that this is a dataset of interest.
+
+Next, I will focus on **section 4.1 (Data)**, where the authors provide detailed information about the datasets used in their experiments. Here, they mention:
+
+1. **In-house Malay Corpus**: This dataset consists of limited labeled data and a large amount of extra text data. The authors specify that it is split into training, validation, and evaluation sets, which is crucial for understanding its structure.
+
+2. **National Speech Corpus (NSC)**: The authors utilize two subsets of this corpus for training their models. The first subset, referred to as **S200h**, contains 200 hours of labeled data, while the second subset, **S1000h**, consists of 1000 hours of labeled data.
+
+In the **experimental setup**, the authors describe how they perform data augmentation on the Malay corpus and how they utilize the NSC subsets for training. This confirms that both the Malay corpus and the NSC subsets are integral to their experiments.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Malay corpus**, since it is an in-house dataset, it may not have a formal citation. However, I will note its significance in the context of the paper.
+
+- For the **National Speech Corpus (NSC)**, the citation is:
+  > J. X. Koh et al., “Building the Singapore English national speech corpus,” in Proc. of INTERSPEECH, 2019, pp. 321–325.
+
+With this information, I will summarize the datasets as follows:
+
+1. **In-house Malay Corpus**: A dataset containing limited labeled data and a large amount of extra text data, specifically designed for the experiments in this paper.
+
+2. **National Speech Corpus (NSC)**: 
+   - **S200h**: A subset containing 200 hours of labeled data.
+   - **S1000h**: A subset containing 1000 hours of labeled data.
+
+Finally, I will compile the dataset entries into a structured format for further processing, ensuring that I include the full citation for the NSC dataset and note the significance of the Malay corpus as an in-house dataset.

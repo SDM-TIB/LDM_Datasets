@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Preserving Silent Features for Domain Generalization" by Chujie Zhao et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper. The abstract provides a brief overview of the research and may mention specific datasets used for evaluation. In this case, the authors discuss their method's performance on standard domain generalization benchmarks, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for their evaluations. In this paper, the authors mention five standard domain generalization datasets:
+
+1. **VLCS Dataset**: This dataset consists of four domains (Caltech101, PASCAL VOC, LabelMe, SUN09) with a total of 10,729 images across 5 categories. The authors reference the data partition from a previous study.
+
+2. **PACS Dataset**: This dataset includes four domains (Art Painting, Cartoon, Photo, Sketch) with a total of 9,991 images across 7 categories. The authors use the original train-val split from a cited source.
+
+3. **Office-Home Dataset**: Comprising 15,500 images in 65 categories from four domains (Art, Clipart, Product, Real-World), this dataset is used to evaluate the performance of silent features on test domains similar to the training distributions.
+
+4. **Terra Incognita Dataset**: This dataset contains 24,788 images in 10 categories from four domains (L100, L38, L43, L46), with domain shifts primarily due to environmental and camera parameter variations.
+
+5. **DomainNet Dataset**: A large-scale dataset with 586,575 images across 345 categories from six domains (clipart, infograph, painting, quickdraw, real, sketch). The authors follow the original data split provided in the referenced work.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets used in the research.
+
+Here are the full citations for the datasets mentioned:
+
+- **VLCS Dataset**:
+  > Chen Fang, Ye Xu, and Daniel N. Rockmore. *Unbiased metric learning: On the utilization of multiple datasets and web images for softening bias*. In ICCV, 2013.
+
+- **PACS Dataset**:
+  > Fabio M. Carlucci, Antonio D’Innocente, Silvia Bucci, Barbara Caputo, and Tatiana Tommasi. *Domain generalization by solving jigsaw puzzles*. In CVPR, 2019.
+
+- **Office-Home Dataset**:
+  > Hemanth Venkateswara, Jose Eusebio, Shayok Chakraborty, and Sethuraman Panchanathan. *Deep hashing network for unsupervised domain adaptation*. In CVPR, 2017.
+
+- **Terra Incognita Dataset**:
+  > Sara Beery, Grant Van Horn, and Pietro Perona. *Recognition in terra incognita*. In ECCV, 2018.
+
+- **DomainNet Dataset**:
+  > Xingchao Peng, Qinxun Bai, Xide Xia, Zijun Huang, Kate Saenko, and Bo Wang. *Moment matching for multi-source domain adaptation*. In ICCV, 2019.
+
+Finally, I will compile the dataset information and their citations into a structured format for easy reference and further use.

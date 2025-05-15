@@ -1,0 +1,39 @@
+To extract datasets from the research paper titled "Relational Fusion Networks: Graph Convolutional Networks for Road Networks" by Tobias Skovgaard Jepsen et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper. The abstract mentions the application of machine learning techniques on road networks and introduces the Relational Fusion Network (RFN). It hints at the evaluation of the method on specific tasks, which suggests that datasets are involved.
+
+Next, I will focus on the **experimental section (Section IV)**, where the authors describe their experiments in detail. Here, they mention two specific tasks: driving speed estimation and speed limit classification. I will look for any datasets mentioned in this section.
+
+In **Section IV-A (Data Set)**, the authors provide information about the datasets used for their experiments. They mention that they extracted spatial representations of Danish municipalities from OpenStreetMap (OSM) and converted them into graph representations. They also provide details about the datasets used for driving speed estimation and speed limit classification:
+
+1. **Driving Speeds Dataset (Aalborg)**: This dataset contains observed driving speeds matched to road segments, derived from vehicle trajectories collected between January 1, 2012, and December 31, 2014. The dataset size is 8,675,599 observations, with a temporal split of 0.46 for training, 0.21 for validation, and 0.32 for testing.
+
+2. **Driving Speeds Dataset (Brønderslev)**: Similar to the Aalborg dataset, this dataset contains observed driving speeds, but for the municipality of Brønderslev, with a total of 847,963 observations. The split is 0.00 for training, 0.00 for validation, and 1.00 for testing.
+
+3. **Speed Limits Dataset (Aalborg)**: This dataset includes 19,510 speed limits collected from OSM data and additional sources. The split is 0.50 for training, 0.23 for validation, and 0.27 for testing.
+
+4. **Speed Limits Dataset (Copenhagen)**: This dataset contains 17,824 speed limits, with a split of 0.00 for training, 0.00 for validation, and 1.00 for testing.
+
+Next, I will check the **References section** to find the full citations for the datasets mentioned. The paper cites the OpenStreetMap data as follows:
+
+- OpenStreetMap contributors. *Planet dump retrieved from https://planet.osm.org*, 2014.
+
+Additionally, the vehicle trajectory data used for the driving speeds dataset is cited as:
+
+- O. Andersen, B. B. Krogh, and K. Torp. *An Open-source Based ITS Platform*. In Proceedings of MDM, vol. 2, 2013, pp. 27–32.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for clarity.
+
+1. **Driving Speeds Dataset (Aalborg)**:
+   - Citation: O. Andersen, B. B. Krogh, and K. Torp. *An Open-source Based ITS Platform*. In Proceedings of MDM, vol. 2, 2013, pp. 27–32.
+
+2. **Driving Speeds Dataset (Brønderslev)**:
+   - Citation: O. Andersen, B. B. Krogh, and K. Torp. *An Open-source Based ITS Platform*. In Proceedings of MDM, vol. 2, 2013, pp. 27–32.
+
+3. **Speed Limits Dataset (Aalborg)**:
+   - Citation: OpenStreetMap contributors. *Planet dump retrieved from https://planet.osm.org*, 2014.
+
+4. **Speed Limits Dataset (Copenhagen)**:
+   - Citation: OpenStreetMap contributors. *Planet dump retrieved from https://planet.osm.org*, 2014.
+
+After compiling this information, I will ensure that it is presented clearly and accurately for any further processing or review.

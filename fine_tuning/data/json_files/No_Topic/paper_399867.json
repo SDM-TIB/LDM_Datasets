@@ -1,0 +1,137 @@
+[
+    {
+        "dcterms:creator": [
+            "Martin Arjovsky",
+            "Amar Shah",
+            "Yoshua Bengio"
+        ],
+        "dcterms:description": "A sequential version of the MNIST dataset where the images are presented one pixel at a time in a sequence.",
+        "dcterms:title": "Sequential MNIST (sMNIST)",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Sequential Learning"
+        ],
+        "dcat:keyword": [
+            "MNIST",
+            "Sequential Data",
+            "Image Recognition"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Jimmy Ba",
+            "Geoffrey Hinton",
+            "Volodymyr Mnih",
+            "Joel Z. Leibo",
+            "Catalin Ionescu"
+        ],
+        "dcterms:description": "A permuted version of the Sequential MNIST dataset where the order of the pixels is randomized.",
+        "dcterms:title": "Permuted Sequential MNIST (psMNIST)",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Sequential Learning"
+        ],
+        "dcat:keyword": [
+            "MNIST",
+            "Permutation",
+            "Image Recognition"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Bo Chang",
+            "Minmin Chen",
+            "Eldad Haber",
+            "Ed H. Chi"
+        ],
+        "dcterms:description": "A noisy version of the CIFAR10 dataset where each row of the image is fed as a sequence with added noise.",
+        "dcterms:title": "Noisy Sequential CIFAR10 (nsCIFAR10)",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://openreview.net/forum?id=ryxepo0cFX",
+        "dcat:theme": [
+            "Image Classification",
+            "Sequential Learning"
+        ],
+        "dcat:keyword": [
+            "CIFAR10",
+            "Noisy Data",
+            "Image Recognition"
+        ],
+        "dcat:landingPage": "https://openreview.net/forum?id=ryxepo0cFX",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Sepp Hochreiter",
+            "Jürgen Schmidhuber"
+        ],
+        "dcterms:description": "A task where the model must reproduce a sequence of inputs after a delay.",
+        "dcterms:title": "Copy Task",
+        "dcterms:issued": "1997",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Memory Tasks",
+            "Sequence Learning"
+        ],
+        "dcat:keyword": [
+            "Memory",
+            "Sequence Reproduction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Memory Task"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "T. Konstantin Rusch",
+            "Siddhartha Mishra"
+        ],
+        "dcterms:description": "A task where the model must add two numbers presented in a sequence.",
+        "dcterms:title": "Adding Task",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Arithmetic Tasks",
+            "Sequence Learning"
+        ],
+        "dcat:keyword": [
+            "Addition",
+            "Memory",
+            "Sequence Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Arithmetic Task"
+        ]
+    }
+]

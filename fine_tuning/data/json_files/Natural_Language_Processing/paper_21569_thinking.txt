@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Impact of Preference Noise on the Alignment Performance of Generative Language Models" by Yang Gao, Dana Alon, and Donald Metzler, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets mentioned. The abstract provides a brief overview of the study's focus on preference noise in alignment tasks, but I need to look for specific datasets used in the experiments.
+
+In the **introduction**, the authors discuss the use of binary preferences for aligning Generative Language Models (GLMs) but do not mention specific datasets yet. I will continue to the **experimental setup section** where they describe the tasks and datasets used.
+
+In **section 5 (Experimental Setup)**, the authors explicitly mention two datasets:
+
+1. **Reddit TL;DR**: This dataset consists of two subsets, a SFT set and a preference set, with the preference set containing 93k/53k/33k data entries in train/validation/test splits.
+
+2. **Anthropic-Helpful**: This dataset is a subset of the AnthropicHH dataset, containing 161k/9k data entries in train/test splits, with a validation set of 1k randomly-sampled entries from the train set.
+
+Next, I will check the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to provide context for the datasets used in the experiments.
+
+- For **Reddit TL;DR**, the citation is:
+  > Nisan Stiennon, Long Ouyang, Jeffrey Wu, Daniel Ziegler, Ryan Lowe, Chelsea Voss, Alec Radford, Dario Amodei, and Paul F Christiano. *Learning to summarize with human feedback*. Advances in Neural Information Processing Systems, 33:3008–3021, 2020.
+
+- For **Anthropic-Helpful**, the citation is:
+  > Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, et al. *Training a helpful and harmless assistant with reinforcement learning from human feedback*. arXiv preprint arXiv:2204.05862, 2022.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Probing Cross-Lingual Lexical Knowledge from Multilingual Sentence Encoders" by Ivan Vulic et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions the use of "standard benchmarks" for evaluating their methods, which suggests that specific datasets are likely referenced later in the paper. The introduction further discusses tasks such as bilingual lexical induction (BLI), cross-lingual similarity, and cross-lingual entity linking, indicating that datasets for these tasks will be detailed.
+
+Next, I will look for a dedicated **datasets section** or any relevant sections that describe the experiments. In this paper, the authors discuss their experimental setup in **section 3 (Experimental Setup)**, where they outline the tasks and the datasets used for evaluation.
+
+Upon reviewing this section, I identify the following datasets:
+
+1. **GT-BLI Dataset**: This dataset is constructed semi-automatically from Google Translate and comprises 28 language pairs. It is used for evaluating bilingual lexicon induction (BLI).
+   - Citation: Glavaš, G., Litschko, R., Ruder, S., & Vulić, I. (2019). How to (properly) evaluate cross-lingual word embeddings: On strong baselines, comparative analyses, and some misconceptions. In Proceedings of ACL 2019, pages 710–721.
+
+2. **PanLex-BLI Dataset**: This dataset focuses on BLI evaluation for lower-resource languages, derived from PanLex.
+   - Citation: Vulić, I., Glavaš, G., Reichart, R., & Korhonen, A. (2019). Do we really need fully unsupervised cross-lingual embeddings? In Proceedings of EMNLP-IJCNLP 2019, pages 4407–4418.
+
+3. **Multi-SimLex Dataset**: This dataset is used for evaluating cross-lingual lexical semantic similarity (XLSIM) and comprises scored word pairs across multiple languages.
+   - Citation: Vulić, I., Baker, S., Ponti, E. M., Petti, U., Leviant, I., Wing, K., Majewska, O., Bar, E., Malone, M., Poibeau, T., Reichart, R., & Korhonen, A. (2020). Multi-SimLex: A large-scale evaluation of multilingual and crosslingual lexical semantic similarity. Computational Linguistics, 46(4), 847–897.
+
+4. **XL-BEL Dataset**: This dataset is used for cross-lingual entity linking and requires linking entity mentions to entries in a language-agnostic knowledge base.
+   - Citation: Liu, C., Wang, R., Liu, J., Sun, J., Huang, F., & Si, L. (2021). Learning domain-specialised representations for cross-lingual biomedical entity linking. In Proceedings of ACL-IJCNLP 2021, pages 565–574.
+
+After identifying these datasets, I will ensure to note their specific applications in the experiments described in the paper. The authors provide a clear context for each dataset's use, which is crucial for understanding the results and implications of their research.
+
+Finally, I will compile the dataset information along with their citations into a structured format for easy reference and further analysis.

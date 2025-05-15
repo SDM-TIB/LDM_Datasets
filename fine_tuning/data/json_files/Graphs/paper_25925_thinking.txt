@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Non-Parametric Variational Inference with Graph Convolutional Networks for Gaussian Processes" by Linfeng Liu and Liping Liu, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the paper's contributions, but I need to look for specific datasets in the main body of the text.
+
+In the **introduction**, the authors discuss the challenges of Gaussian Process (GP) inference and mention the need for efficient methods, but they do not specify any datasets yet. I will continue to the **experiments section** where datasets are typically detailed.
+
+In **section 4 (Experiment)**, the authors describe three tasks: bird abundancy estimation, raster data modeling, and flight delay regression. Each task likely corresponds to a specific dataset. I will extract the details for each dataset mentioned:
+
+1. **eBird Data**: This dataset is derived from the eBird project, which collects bird observation data. The authors specify that they focus on the population of the Savannah Sparrow from February 2012 to 2016 across the contiguous United States. The dataset contains 15,085 observations, with 6,477 positive data points.
+
+2. **NightLight Raster Data**: This dataset consists of satellite images of nighttime light over the contiguous United States, provided by the Earth at Night project. The authors preprocess the image to obtain 56,722 pixels with values rescaled to the range [0, 1].
+
+3. **Flight Delay Dataset**: This dataset includes 5.9 million records of flight arrivals and departures within the US in 2008. The authors randomly select 800,000 instances for their experiments, focusing on 8 attributes related to flight delays.
+
+Next, I will check the **References section** to find full citations for these datasets. However, the datasets themselves are often not cited in the same way as academic papers. Instead, I will note the sources mentioned in the text:
+
+- For the **eBird Data**, the citation is:
+  > Sullivan, B. L., Wood, C. L., Iliff, M. J., Bonney, R. E., Fink, D., and Kelling, S. (2009). *eBird: A citizen-based bird observation network in the biological sciences*. Biological Conservation, 142(10):2282–2292.
+
+- For the **NightLight Raster Data**, the source is:
+  > Earth at Night. (n.d.). Retrieved from https://earthobservatory.nasa.gov/IOTD/view.php?id=79800.
+
+- For the **Flight Delay Dataset**, the citation is:
+  > Hensman, J., Fusi, N., and Lawrence, N. D. (2013). *Gaussian processes for big data*. In Conference on Uncertainty in Artificial Intelligence, pp. 282–290.
+
+Now that I have identified the datasets and their sources, I will compile this information into a structured format for further processing or review.

@@ -1,0 +1,59 @@
+[
+    {
+        "dcterms:creator": [
+            "Ruining He",
+            "Julian McAuley"
+        ],
+        "dcterms:description": "The subsets (book domains) of Amazon Product dataset. The item grouping relies on the field 'categories'. Each training sample is truncated at length 20. As a pre-processing step, groups with fewer than 50 items are considered as a single group, named the 'infrequent group'.",
+        "dcterms:title": "Amazon-Book",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://jmcauley.ucsd.edu/data/amazon/",
+        "dcat:theme": [
+            "Recommender Systems",
+            "E-commerce"
+        ],
+        "dcat:keyword": [
+            "Book recommendations",
+            "E-commerce dataset",
+            "Collaborative filtering"
+        ],
+        "dcat:landingPage": "http://jmcauley.ucsd.edu/data/amazon/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Recommendation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Han Zhu",
+            "Xiang Li",
+            "Pengye Zhang",
+            "Guozheng Li",
+            "Jie He",
+            "Han Li",
+            "Kun Gai"
+        ],
+        "dcterms:description": "Collected about 1 million user behaviors data based on Taobao’s recommender systems during November 25 to December 03, 2017. The item grouping relies on the field 'category ID'. Each training sample is truncated at length 50. As a pre-processing step, groups with fewer than 200 items are considered as a single group, named the 'infrequent group'.",
+        "dcterms:title": "Taobao",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Recommender Systems",
+            "E-commerce"
+        ],
+        "dcat:keyword": [
+            "User behavior data",
+            "E-commerce dataset",
+            "Recommendation"
+        ],
+        "dcat:landingPage": "https://tianchi.aliyun.com/dataset/dataDetail?dataId=649&userId=1",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Recommendation"
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Embed and Emulate: Learning to estimate parameters of dynamical systems with uncertainty quantification" by Ruoxi Jiang and Rebecca Willett, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract discusses a framework for learning emulators for parameter estimation, but it does not explicitly mention any datasets. I will need to look deeper into the paper.
+
+Next, I will focus on the **experiments section** (Section 5) where the authors typically describe the datasets used for their experiments. In this section, they mention conducting a numerical case study on the **multiscale Lorenz-96 model**, which is a common test model in climate science. However, they do not refer to a specific dataset but rather describe the simulation setup.
+
+I will also check the **appendices** for any additional details on datasets or data generation methods. The authors describe how they generate training and testing data using a Runge-Kutta solver and specify the parameters for the simulations, but again, they do not refer to any publicly available datasets.
+
+Since the paper primarily discusses simulations rather than real-world datasets, I will note that the authors generated their own data for the experiments. The specific details about the data generation process are provided, including the ranges for the parameters used in the simulations.
+
+Now, I will compile the information regarding the datasets:
+
+1. **Multiscale Lorenz-96 Model Data**: The authors generated training data using a Runge-Kutta solver with parameters sampled uniformly from a specified range. The training data consists of simulated observations of the Lorenz-96 system.
+
+2. **Kuramoto-Sivashinsky Equation Data**: The authors also conducted experiments on the Kuramoto-Sivashinsky equation, generating data similarly through simulations.
+
+Since there are no publicly available datasets cited in the paper, I will note that the datasets are generated through simulations rather than sourced from external repositories.
+
+Finally, I will summarize the findings and ensure that I provide any relevant citations for the methods used to generate the data, even though they are not traditional datasets.
+
+In conclusion, I will document the generated datasets as follows:
+
+- **Multiscale Lorenz-96 Model Data**: Generated through simulations using a Runge-Kutta solver with parameters ranging from [Fmin, hmin, cmin, bmin] to [Fmax, hmax, cmax, bmax].
+
+- **Kuramoto-Sivashinsky Equation Data**: Generated through simulations with specified ranges for parameters.
+
+Since there are no formal citations for these datasets, I will note that they are derived from the methods described in the paper itself.
+
+This structured approach ensures that I capture all relevant information regarding datasets, even when they are not explicitly named or sourced from external repositories.

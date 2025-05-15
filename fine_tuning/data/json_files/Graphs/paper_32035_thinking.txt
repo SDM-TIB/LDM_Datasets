@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "Towards Semi-supervised Universal Graph Classification" by Xiao Luo et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to locate any references to datasets. The abstract mentions "extensive experiments on six datasets," which indicates that multiple datasets are used in the research.
+
+Next, I will focus on the **experiments section**, particularly **section 5.1.1 (Datasets)**, where the authors provide a detailed list of the datasets used in their experiments. Here, they mention six datasets:
+
+1. **COIL-DEL**: A dataset constructed by applying Harris corner detection and Delaunay Triangulation on images, resulting in a graph representation.
+2. **Letter-High**: This dataset involves graph representations of 15 capital letters, where nodes represent endpoints of the drawing and edges correspond to lines.
+3. **MNIST**: A dataset created by extracting super-pixels from images and constructing a k-nearest-neighbor graph to represent the images.
+4. **CIFAR10**: Similar to MNIST, but with larger graphs and richer semantic meanings, making the classification task more challenging.
+5. **REDDIT-MULTI-12K**: A dataset containing graphs where nodes denote users and edges denote comments, aimed at classifying graphs into different communities.
+6. **COLORS-3**: A dataset containing random graphs where each node shows one color from red, green, and blue, with the goal of capturing the number of green nodes in each graph.
+
+I will then check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **COIL-DEL**, the citation is:
+  > K. Riesen and H. Bunke. "IAM graph database repository for graph based pattern recognition and machine learning." In Joint IAPR International Workshops on Statistical Techniques in Pattern Recognition (SPR) and Structural and Syntactic Pattern Recognition (SSPR). Springer, 2008, pp. 287–297.
+
+- For **Letter-High**, the citation is:
+  > K. Riesen and H. Bunke. "IAM graph database repository for graph based pattern recognition and machine learning." In Joint IAPR International Workshops on Statistical Techniques in Pattern Recognition (SPR) and Structural and Syntactic Pattern Recognition (SSPR). Springer, 2008, pp. 287–297.
+
+- For **MNIST**, the citation is:
+  > Y. LeCun, C. Cortes, and C. J. Burges. "The MNIST database of handwritten digits." 2010.
+
+- For **CIFAR10**, the citation is:
+  > A. Krizhevsky. "Learning Multiple Layers of Features from Tiny Images." 2009.
+
+- For **REDDIT-MULTI-12K**, the citation is:
+  > J. Leskovec, L. Adamic, and B. Huberman. "The dynamics of viral marketing." ACM Transactions on the Web (TWEB), 2007.
+
+- For **COLORS-3**, the citation is:
+  > B. Knyazev, G. W. Taylor, and M. Amer. "Understanding attention and generalization in graph neural networks." In Proceedings of the Conference on Neural Information Processing Systems, 2019.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation, ready for structured output or further processing.

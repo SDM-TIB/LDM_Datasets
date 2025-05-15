@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "ReLaText: Exploiting Visual Relationships for Arbitrary-Shaped Scene Text Detection with Graph Convolutional Networks" by Chixiang Ma et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract states that the proposed method achieves state-of-the-art performance on five public text detection benchmarks, which suggests that these benchmarks are datasets I need to extract.
+
+Next, I will look for specific mentions of datasets in the **experiments section**. Here, the authors explicitly list the datasets used for evaluation:
+
+1. **RCTW-17**: This dataset contains 8,034 training images and 4,229 testing images with scene texts in either Chinese or English. Text instances are labeled by quadrangles at the text-line level.
+
+2. **MSRA-TD500**: This dataset includes 300 training images and 200 testing images, featuring multi-oriented text instances labeled by rotated rectangles at the text-line level.
+
+3. **Total-Text**: Comprising 1,255 training images and 300 testing images, this dataset contains 11,459 text instances, with 4,907 being curved texts, labeled in word-level with polygons.
+
+4. **CTW1500**: This dataset has 1,000 training images and 500 testing images, with 10,751 text instances, including 3,530 curved texts, annotated in text-line level with 14-point polygons.
+
+5. **DAST1500**: A dense and arbitrary-shaped text detection dataset, it includes 1,038 training images and 500 testing images, with polygon annotations given in text-line level.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- **RCTW-17**: 
+  > B. Shi, C. Yao, M. Liao, M. Yang, P. Xu, L. Cui, S. Belongie, S. Lu, X. Bai. *ICDAR2017 competition on reading Chinese text in the wild (RCTW-17)*. In: ICDAR, 2017, pp. 1429–1434.
+
+- **MSRA-TD500**: 
+  > C. Yao, X. Bai, W. Liu, Y. Ma, Z. Tu. *Detecting texts of arbitrary orientations in natural images*. In: CVPR, 2012, pp. 1083–1090.
+
+- **Total-Text**: 
+  > C. K. Ch’ng, C. S. Chan. *Total-text: A comprehensive dataset for scene text detection and recognition*. In: ICDAR, 2017, pp. 935–942.
+
+- **CTW1500**: 
+  > Y. Liu, L. Jin, S. Zhang, C. Luo, S. Zhang. *Curved scene text detection via transverse and longitudinal sequence connection*. Pattern Recognit. 90 (2019) 337–345.
+
+- **DAST1500**: 
+  > J. Tang, Z. Yang, Y. Wang, Q. Zheng, Y. Xu, X. Bai. *Seglink++: Detecting dense and arbitrary-shaped scene text by instance-aware component grouping*. Pattern Recognit. 96 (2019) 106954.
+
+Now that I have identified the datasets and their full citations, I will compile this information into a structured format for further processing or review.

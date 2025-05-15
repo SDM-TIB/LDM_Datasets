@@ -1,0 +1,39 @@
+To extract datasets from the research paper titled "GInX-Eval: Towards In-Distribution Evaluation of Graph Neural Network Explanations" by Kenza Amara et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to locate any references to datasets. The abstract mentions that the authors conducted experiments across **multiple datasets**, which indicates that there are datasets to be identified.
+
+Next, I will focus on **section 4 (Experimental Results)**, where the authors describe the datasets used for their experiments. They specifically mention the following datasets:
+
+1. **BA-2Motifs**: This is a synthetic dataset with binary graph labels based on house and cycle motifs. The authors reference the original work by Luo et al. (2020) for this dataset.
+
+2. **BA-HouseGrid**: This is a new synthetic dataset created by the authors, which includes graphs with house and grid motifs attached to a Barabási base structure.
+
+3. **MUTAG**: This dataset consists of approximately 3,000 nitroaromatic compounds, with binary labels indicating their mutagenicity. The ground-truth explanations are based on specific chemical fragments.
+
+4. **BBBP**: This dataset includes binary labels for over 2,000 compounds related to their permeability properties, as referenced in the work by Wu et al. (2018).
+
+5. **Benzene**: This dataset contains 12,000 molecular graphs extracted from the ZINC15 database, with the task of identifying whether a molecule contains a benzene ring.
+
+6. **MNISTbin**: This dataset is derived from the MNIST dataset, where images are converted into graphs based on superpixels, specifically for binary classification tasks.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **BA-2Motifs**, the citation is:
+  > Luo, D., et al. (2020). *Parameterized explainer for graph neural network*. In NeurIPS.
+
+- For **BA-HouseGrid**, since it is a new dataset introduced in this paper, I will cite it as:
+  > Amara, K., El-Assady, M., & Ying, R. (2023). *GInX-Eval: Towards In-Distribution Evaluation of Graph Neural Network Explanations*. In Proceedings of the Conference on Neural Information Processing Systems.
+
+- For **MUTAG**, the citation is:
+  > Wu, Z., et al. (2018). *Moleculenet: A benchmark for molecular machine learning*. Chemical Science, 9(2), 513-530.
+
+- For **BBBP**, the citation is:
+  > Wu, Z., et al. (2018). *Moleculenet: A benchmark for molecular machine learning*. Chemical Science, 9(2), 513-530.
+
+- For **Benzene**, the citation is:
+  > Sterling, T. & Irwin, J. J. (2015). *Zinc 15–ligand discovery for everyone*. Journal of Chemical Information and Modeling, 55(11), 2324-2337.
+
+- For **MNISTbin**, the citation is:
+  > LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). *Gradient-based learning applied to document recognition*. Proceedings of the IEEE, 86(11), 2278-2324.
+
+Now, I will compile the dataset entries with their respective citations into a structured format for further processing.

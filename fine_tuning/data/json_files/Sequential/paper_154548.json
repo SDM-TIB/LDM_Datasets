@@ -1,0 +1,92 @@
+[
+    {
+        "dcterms:creator": [
+            "L. Vadicamo",
+            "F. Carrara",
+            "A. Cimino",
+            "S. Cresci",
+            "F. Dell’Orletta",
+            "F. Falchi",
+            "M. Tesconi"
+        ],
+        "dcterms:description": "B-T4SA is a subset of T4SA, consisting of 470 thousand samples, each one containing both text and image information. All classes are balanced, and the splits are stratified. The train set consists of approximately 80% of the dataset, while both the validation and test sets have 10% each. B-T4SA was created to solve the problems of T4SA, such as duplicated entries, small sentences, malformed images, and unbalanced classes.",
+        "dcterms:title": "B-T4SA",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Sentiment Analysis",
+            "Multimodal Data"
+        ],
+        "dcat:keyword": [
+            "Twitter data",
+            "Image sentiment analysis",
+            "Text sentiment analysis"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text and Image",
+        "mls:task": [
+            "Sentiment Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. Socher",
+            "A. Perelygin",
+            "J. Wu",
+            "J. Chuang",
+            "C. D. Manning",
+            "A. Ng",
+            "C. Potts"
+        ],
+        "dcterms:description": "The Stanford Sentiment Treebank (SST) consists of sentiment labels for 215,154 phrases in the parse trees of 11855 sentences. The dataset can be presented in the form of binary classification, either negative or positive, or in a fine-grained way, using a 5-class classification: very negative, negative, neutral, positive, and very positive. SST-5 was used in this work as a way to initially train a model, before training it on a final dataset.",
+        "dcterms:title": "Stanford Sentiment Treebank (SST-5)",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Sentiment Analysis",
+            "Text Classification"
+        ],
+        "dcat:keyword": [
+            "Sentiment labels",
+            "Text data",
+            "Phrase classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Text Sentiment Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Q. You",
+            "J. Luo",
+            "H. Jin",
+            "J. Yang"
+        ],
+        "dcterms:description": "The Flickr and Instagram dataset is composed of 23,308 labelled images of 8 different classes of emotions - amusement, anger, awe, contentment, disgust, excitement, fear, and sadness. The goal with this dataset was to pre-train the image classifiers, which upon convergence, are transferred to B-T4SA.",
+        "dcterms:title": "Flickr and Instagram Dataset",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Emotion Recognition",
+            "Transfer Learning"
+        ],
+        "dcat:keyword": [
+            "Image data",
+            "Emotion classification",
+            "Transfer learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    }
+]

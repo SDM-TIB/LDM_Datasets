@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "Few-Shot Relation Extraction with Hybrid Visual Evidence" by Jiaying Gong and Hoda Eldardiry, I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on two public datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors explicitly mention the datasets used. In **section 4.1 (Datasets)**, they list the datasets as follows:
+
+1. **MNRE**: This dataset is described as a public human-annotated unbalanced multi-modal neural relation extraction dataset. It includes sentences with two named entities and corresponding images. The authors mention that it was originally built upon Twitter data and that they re-split it to ensure no overlap between training and testing sets. 
+
+2. **FewRel**: This dataset is a public human-annotated balanced few-shot relation classification dataset consisting of 80 types of relations. The authors explain that they crawled images to create a multi-modal dataset from the original text-only FewRel dataset.
+
+3. **FewRelsmall**: This is a subset of FewRel, which includes only clean images. The authors clarify that they removed noisy images to ensure high quality.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For **MNRE**, the citation is:
+  > Zheng, C., Feng, J., Wu, Z., Fu, Z., & Cai, Q. (2021). MNRE: A challenge multimodal dataset for neural relation extraction with visual evidence in social media posts. In Proceedings of the 29th ACM International Conference on Multimedia (pp. 5298-5306).
+
+- For **FewRel**, the citation is:
+  > Han, J., Cheng, B., & Lu, W. (2018). FewRel: A large-scale supervised few-shot relation classification dataset with state-of-the-art evaluation. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (pp. 4803-4809).
+
+- For **FewRelsmall**, since it is a subset of FewRel and does not have a separate citation, I will reference it as derived from the FewRel dataset.
+
+After gathering this information, I will summarize the datasets as follows:
+
+1. **MNRE**: A public human-annotated unbalanced multi-modal neural relation extraction dataset.
+   - Citation: Zheng et al. (2021).
+
+2. **FewRel**: A public human-annotated balanced few-shot relation classification dataset.
+   - Citation: Han et al. (2018).
+
+3. **FewRelsmall**: A subset of FewRel with clean images.
+   - Citation: Derived from Han et al. (2018).
+
+Finally, I will compile this information into a structured format for further processing or review.

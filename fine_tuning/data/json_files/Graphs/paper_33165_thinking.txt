@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Complexity-Guided Curriculum Learning for Text Graphs" by Nidhi Vakil and Hadi Amiri, I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections to see if any datasets are mentioned. The abstract discusses the effectiveness of the proposed curriculum learning approach on several text graph tasks and mentions "real-world datasets," which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will look into **section 3 (Experiments)**, as this section typically contains information about the datasets used for evaluation. Here, the authors explicitly list several datasets:
+
+1. **Ogbn-arxiv**: This dataset is described as a citation network of computer science articles, with each paper categorized into one of 40 categories and provided with an embedding vector of size 128.
+
+2. **Cora**: This is a smaller citation network where papers are categorized into one of seven subject categories, with features derived from the content of the papers.
+
+3. **Citeseer**: Another citation network of scientific articles, classified into six classes, with a specific data split referenced.
+
+4. **Gene, Disease, Phenotype Relation (GDPR)**: A large-scale dataset for predicting causal relations between genes and diseases based on text descriptions.
+
+5. **Gene Phenotype Relation (PGR)**: This dataset focuses on extracting relations between genes and phenotypes from short sentences, with a note that a validation set was generated from the training data.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and further exploration of the datasets.
+
+The citations for the datasets are as follows:
+
+- **Ogbn-arxiv**: 
+  > Hu, W., Fey, M., Zitnik, M., Dong, Y., Ren, H., Liu, B., Catasta, M., & Leskovec, J. (2020). Open graph benchmark: Datasets for machine learning on graphs. *Advances in Neural Information Processing Systems*, 33, 22118–22133.
+
+- **Cora**: 
+  > McCallum, A. K., Nigam, K., Rennie, J., & Seymore, K. (2000). Automating the construction of internet portals with machine learning. *Information Retrieval*, 3(2), 127–163.
+
+- **Citeseer**: 
+  > Kipf, T. N., & Welling, M. (2017). Semi-supervised classification with graph convolutional networks. In *5th International Conference on Learning Representations, ICLR 2017, Toulon, France, April 24-26, 2017, Conference Track Proceedings*. OpenReview.net.
+
+- **GDPR**: 
+  > Vakil, N., & Amiri, H. (2022). Generic and trend-aware curriculum learning for relation extraction. In *Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*, pages 2202–2213, Seattle, United States. Association for Computational Linguistics.
+
+- **PGR**: 
+  > Sousa, D., Lamúrias, A., & Couto, F. M. (2019). A silver standard corpus of human phenotype-gene relations. In *Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)*.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or analysis. This process ensures that I have accurately captured the datasets referenced in the paper along with their proper citations.

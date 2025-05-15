@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Sequential Learning of Movement Prediction in Dynamic Environments using LSTM Autoencoder" by Meenakshi Sarkar and Debasish Ghose, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets mentioned. The abstract indicates that a virtual environment based on the OpenAI-Gym framework is used to gather training data, which suggests that there may be specific datasets or data collection methods described later in the paper.
+
+Next, I will focus on the **experimental setup section**. Here, the authors describe a virtual experimental environment set up using OpenAI-Gym for robotics. They mention that the data was collected using two turtlebots, where one bot (Tb1) is stationary while tracking the movement of another bot (Tb2). This implies that the data collected is related to the movements of these robots in a dynamic environment.
+
+I will look for specific details about the dataset, such as the number of trials, types of data collected, and any specific characteristics of the data. The authors mention conducting **5000 training trials** with different PID parameters and various starting and ending points for the moving bot. This information is crucial as it outlines the dataset's structure and the conditions under which it was collected.
+
+Now, I will check the **References section** to see if there are any citations related to datasets or data collection methods. The authors reference the OpenAI-Gym framework, which is important for understanding the context of the dataset. The relevant citation for the OpenAI-Gym framework is:
+
+- For OpenAI-Gym:
+  > Iker Zamora, Nestor Gonzalez Lopez, Victor Mayoral Vilches, and Alejandro Hernández Cordero. 2016. *Extending the OpenAI Gym for robotics: a toolkit for reinforcement learning using ROS and Gazebo*. CoRR abs/1608.05742 (2016). https://arxiv.org/abs/1608.05742
+
+Since the paper does not mention any other specific datasets or provide additional citations for datasets, I will summarize the findings:
+
+1. **Dataset from OpenAI-Gym**: The data was collected in a virtual environment using the OpenAI-Gym framework, specifically designed for robotics. The dataset consists of sequences of images captured during the movement of two turtlebots, with a total of 5000 trials conducted under varying conditions.
+
+Now, I will compile the dataset information, ensuring to include the full citation for the OpenAI-Gym framework, as it is the primary source of the dataset used in the experiments.

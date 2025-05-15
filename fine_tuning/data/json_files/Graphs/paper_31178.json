@@ -1,0 +1,339 @@
+[
+    {
+        "dcterms:creator": [
+            "R. Socher",
+            "A. Perelygin",
+            "J. Wu",
+            "J. Chuang",
+            "C. D. Manning",
+            "A. Y. Ng",
+            "C. Potts"
+        ],
+        "dcterms:description": "A sentiment classification benchmark containing five fine-grained classes including ‘very positive’, ‘positive’, ‘neutral’, ‘negative’, and ‘very negative’.",
+        "dcterms:title": "SST-5",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Sentiment Analysis"
+        ],
+        "dcat:keyword": [
+            "Sentiment classification",
+            "Fine-grained sentiment",
+            "Sentiment analysis benchmark"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Sentiment Analysis"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. B. Dolan",
+            "C. Quirk",
+            "C. Brockett"
+        ],
+        "dcterms:description": "A corpus of sentence pairs automatically extracted from online news sources, with human annotations for whether the sentences in the pair are semantically equivalent.",
+        "dcterms:title": "MRPC",
+        "dcterms:issued": "2004",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Paraphrase Detection"
+        ],
+        "dcat:keyword": [
+            "Paraphrase corpus",
+            "Semantic equivalence",
+            "Sentence pairs"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Paraphrase Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Williams",
+            "N. Nangia",
+            "S. Bowman"
+        ],
+        "dcterms:description": "A crowdsourced collection of sentence pairs with textual entailment annotations. Given a premise sentence and a hypothesis sentence, the task is to predict whether the premise entails the hypothesis, contradicts the hypothesis, or neither.",
+        "dcterms:title": "MNLI",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Inference"
+        ],
+        "dcat:keyword": [
+            "Textual entailment",
+            "Sentence pairs",
+            "Natural language inference"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Natural Language Inference"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Wang",
+            "S. Singh",
+            "J. Michael",
+            "F. Hill",
+            "O. Levy",
+            "S. Bowman"
+        ],
+        "dcterms:description": "A question-answering dataset consisting of question-paragraph pairs, and the task is to determine whether the context sentence contains the answer to the question.",
+        "dcterms:title": "QNLI",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Question Answering"
+        ],
+        "dcat:keyword": [
+            "Question-answer pairs",
+            "Contextual understanding",
+            "Natural language processing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Question Answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Talmor",
+            "J. Herzig",
+            "N. Lourie",
+            "J. Berant"
+        ],
+        "dcterms:description": "A multiple-choice question-answering dataset that requires different types of commonsense knowledge. The task is to predict the correct answer out of five provided candidate answers.",
+        "dcterms:title": "CMSQA",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Commonsense Reasoning"
+        ],
+        "dcat:keyword": [
+            "Commonsense knowledge",
+            "Multiple-choice questions",
+            "Question answering"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Commonsense Reasoning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. Zellers",
+            "A. Holtzman",
+            "Y. Bisk",
+            "A. Farhadi",
+            "Y. Choi"
+        ],
+        "dcterms:description": "A large-scale dataset of grounded commonsense reasoning. There are four candidate answers for each question: a video caption from ActivityNet Captions and the Large Scale Movie Description Challenge. The three incorrect answers are adversarially generated and human validated to deceive machines.",
+        "dcterms:title": "HellaSwag",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Commonsense Reasoning"
+        ],
+        "dcat:keyword": [
+            "Grounded commonsense reasoning",
+            "Multiple-choice questions",
+            "Adversarial examples"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Commonsense Reasoning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Berant",
+            "A. Chou",
+            "R. Frostig",
+            "P. Liang"
+        ],
+        "dcterms:description": "Question-answer pairs obtained from the web. The questions are selected using Google Suggest API, and the answers are entities in Freebase.",
+        "dcterms:title": "WebQs",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Open-Domain Question Answering"
+        ],
+        "dcat:keyword": [
+            "Web questions",
+            "Question answering",
+            "Freebase entities"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Open-Domain Question Answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "X. V. Lin",
+            "C. Wang",
+            "L. Zettlemoyer",
+            "M. D. Ernst"
+        ],
+        "dcterms:description": "A dataset for the problem of mapping English sentences to Bash commands. The corpus consists of text–command pairs, where each pair consists of a Bash command scraped from the web and an expert-generated natural language description.",
+        "dcterms:title": "NL2Bash",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Code Generation"
+        ],
+        "dcat:keyword": [
+            "Natural language to code",
+            "Bash commands",
+            "Semantic parsing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Code Generation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Zelle",
+            "R. J. Mooney"
+        ],
+        "dcterms:description": "Contains a parallel corpus of questions about US geography paired with Prolog queries. The compositional dataset focuses on compositional generalization.",
+        "dcterms:title": "GeoQuery",
+        "dcterms:issued": "1996",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Semantic Parsing"
+        ],
+        "dcat:keyword": [
+            "Geography questions",
+            "Prolog queries",
+            "Compositional generalization"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Semantic Parsing"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "T. Wolfson",
+            "M. Geva",
+            "A. Gupta",
+            "M. Gardner",
+            "Y. Goldberg",
+            "D. Deutch",
+            "J. Berant"
+        ],
+        "dcterms:description": "A dataset that maps complex natural language questions into a language-based meaning representation. The question is decomposed into an ordered list of atomic steps.",
+        "dcterms:title": "Break",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Semantic Parsing"
+        ],
+        "dcat:keyword": [
+            "Natural language questions",
+            "Meaning representation",
+            "Question decomposition"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Semantic Parsing"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Li",
+            "A. Arora",
+            "S. Chen",
+            "A. Gupta",
+            "S. Gupta",
+            "Y. M. Mehdad"
+        ],
+        "dcterms:description": "A multilingual task-oriented semantic parsing dataset covering 6 languages and 11 domains.",
+        "dcterms:title": "MTOP",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Semantic Parsing"
+        ],
+        "dcat:keyword": [
+            "Multilingual",
+            "Task-oriented",
+            "Semantic parsing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Semantic Parsing"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Andreas",
+            "J. Bufe",
+            "D. Burkett",
+            "C. Chen Jr",
+            "J. Clausman",
+            "J. Crawford",
+            "J. Crim",
+            "K. DeLoach",
+            "J. Dorner",
+            "L. Eisner"
+        ],
+        "dcterms:description": "A large dialogue dataset, featuring natural conversations about tasks involving calendars, weather, places, and people. The meaning representation is an executable dataflow program.",
+        "dcterms:title": "SMCalFlow",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Semantic Parsing"
+        ],
+        "dcat:keyword": [
+            "Dialogue dataset",
+            "Task-oriented dialogue",
+            "Dataflow synthesis"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Semantic Parsing"
+        ]
+    }
+]

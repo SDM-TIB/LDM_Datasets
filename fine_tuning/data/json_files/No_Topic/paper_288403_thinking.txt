@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Learning to Compose 6-DoF Omnidirectional Videos Using Multi-Sphere Images" by Jisheng Li et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract** and **introduction** sections to get an overview of the paper's focus and any mention of datasets. The abstract indicates that the authors propose a system for generating 6-DoF content and mention the need for high-quality datasets for training and evaluation, which suggests that datasets are indeed involved.
+
+Next, I will examine **section 3 (Omnidirectional 6-DoF Data Generation)**, where the authors describe their approach to generating datasets. They specifically mention using two CG rendering frameworks: **UnrealCV** and **Replica**. This is a strong indication that these frameworks are integral to the dataset generation process.
+
+In this section, the authors detail how they generate high-quality VR datasets for both training and evaluation. They state that they created a dataset consisting of 2000 locations, which were split into training (1600 locations) and evaluation (400 locations) subsets. This information is crucial for understanding the dataset's structure.
+
+I will also look at the **experiments section** to confirm the datasets used and their configurations. The authors mention that they rendered two resolutions (640×320 and 400×200) and two different numbers of MSI layers (32 and 64) during their experiments. This further clarifies the dataset's characteristics.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned. The authors refer to the following datasets:
+
+1. **UnrealCV**: 
+   > Weichao Qiu and Alan Yuille. *Unrealcv: Connecting computer vision to unreal engine*. In European Conference on Computer Vision. Springer, 2016, pp. 909–916.
+
+2. **Replica**: 
+   > Julian Straub, Thomas Whelan, Lingni Ma, Yufan Chen, Erik Wijmans, Simon Green, Jakob J Engel, Raul Mur-Artal, Carl Ren, Shobhit Verma, et al. *The replica dataset: A digital replica of indoor spaces*. arXiv preprint arXiv:1906.05797, 2019.
+
+With this information, I can now summarize the datasets extracted from the paper:
+
+1. **Dataset Name**: UnrealCV
+   - **Description**: A framework for generating realistic images with lighting changes and reflections on handcrafted models.
+   - **Citation**: Weichao Qiu and Alan Yuille. *Unrealcv: Connecting computer vision to unreal engine*. In European Conference on Computer Vision. Springer, 2016, pp. 909–916.
+
+2. **Dataset Name**: Replica
+   - **Description**: A dataset that provides digital replicas of indoor spaces, useful for generating rendered images with real-world textures and dynamic ranges.
+   - **Citation**: Julian Straub, Thomas Whelan, Lingni Ma, Yufan Chen, Erik Wijmans, Simon Green, Jakob J Engel, Raul Mur-Artal, Carl Ren, Shobhit Verma, et al. *The replica dataset: A digital replica of indoor spaces*. arXiv preprint arXiv:1906.05797, 2019.
+
+Finally, I will compile this information into a structured format for further processing or review.

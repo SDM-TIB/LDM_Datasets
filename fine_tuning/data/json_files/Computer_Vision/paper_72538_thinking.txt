@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Detection of ransomware attacks using federated learning based on the CNN model" by Hong Nhung Nguyen et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract and introduction** to get an overview of the research focus and any datasets that may be referenced. The abstract mentions a ransomware detection method and the use of a CNN model, but it does not specify any datasets yet.
+
+Next, I will examine **section 3 (Proposed Method)**, particularly the **Data Collection** subsection, where the authors describe their dataset. They mention obtaining a collection of about **30,000 PE ransomware binaries** from virusshare.com, which is crucial for understanding the dataset used in their experiments.
+
+In the same section, they detail the transformation of these binaries into images, which is an important aspect of their methodology. They also mention balancing the dataset to include **3,000 positive (malicious)** and **3,000 negative (benign)** examples, which is significant for the classification task.
+
+I will also look at **section 4 (Experiments)**, where the authors provide a summary of the dataset used for their experiments. They confirm that the dataset consists of **6,000 samples** divided equally between normal and ransomware data, which reinforces the dataset's structure and purpose.
+
+Now, I will check the **References section** for full citations related to the datasets. However, the paper primarily discusses the dataset it created and does not cite external datasets. Therefore, I will focus on documenting the dataset they constructed.
+
+The dataset can be summarized as follows:
+
+1. **Ransomware Dataset**: A collection of **3,000 ransomware binaries** and **3,000 benign binaries**. The ransomware binaries were sourced from virusshare.com and other sources, while benign examples were collected from Windows System32 and the Windows Application Store.
+
+Since the authors do not provide a formal citation for their dataset in the references, I will note that this dataset is original to their research.
+
+Finally, I will compile the dataset information into a structured format, ensuring that I include the dataset name, description, and any relevant details about its composition and source.
+
+This thorough approach will ensure that I accurately capture the datasets used in the research paper while providing proper documentation for future reference.

@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "LIVABLE: Exploring Long-Tailed Classification of Software Vulnerability Types" by Xin-Cheng Wen et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets mentioned. The abstract indicates that the authors evaluate their method on various datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4 (Experimental Setup)**, where the authors describe the datasets used for their experiments. Here, they mention:
+
+1. **Fan et al. Dataset**: This dataset consists of different types of vulnerabilities from 2002 to 2019, providing the Common Weakness Enumeration IDentifier (CWE ID) for each vulnerable function. The authors state that they extracted a total of 10,667 vulnerable functions with 91 different kinds of CWE-ID.
+
+2. **FFMpeg+Qemu Dataset**: This dataset was previously utilized in the Devign paper and contains over 22,000 data instances, with a vulnerability rate of 45.0% among all instances.
+
+3. **Reveal Dataset**: This dataset consists of over 18,000 instances, with a proportion of vulnerable to non-vulnerable data being 1:9.9.
+
+In the same section, the authors clarify that the **Fan et al. Dataset** is used for vulnerability type classification, while the **FFMpeg+Qemu** and **Reveal** datasets are used for vulnerability detection tasks.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Fan et al. Dataset**, the citation is:
+  > J. Fan, Y. Li, S. Wang, and T. N. Nguyen. *A C/C++ code vulnerability dataset with code changes and CVE summaries*. In MSR ’20: 17th International Conference on Mining Software Repositories, Seoul, Republic of Korea, 29-30 June, 2020, pp. 508–512.
+
+- For the **FFMpeg+Qemu Dataset**, the citation is:
+  > Y. Zhou, S. Liu, J. K. Siow, X. Du, and Y. Liu. *Devign: Effective vulnerability identification by learning comprehensive program semantics via graph neural networks*. In Advances in Neural Information Processing Systems 32: Annual Conference on Neural Information Processing Systems 2019, NeurIPS 2019, December 8-14, 2019, Vancouver, BC, Canada, pp. 10 197–10 207.
+
+- For the **Reveal Dataset**, the citation is:
+  > Y. Li, S. Wang, and T. N. Nguyen. *Vulnerability detection with fine-grained interpretations*. In ESEC/FSE ’21: 29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering, Athens, Greece, August 23-28, 2021, pp. 292–303.
+
+After gathering all the necessary information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a clear and comprehensive overview of the datasets used in the research.

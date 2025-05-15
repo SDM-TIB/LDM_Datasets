@@ -1,0 +1,51 @@
+To extract datasets from the research paper titled "PointCNN: Convolution On X-Transformed Points" by Yangyan Li et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions that the authors conducted experiments on "multiple challenging benchmark datasets and tasks," which suggests that datasets are indeed used.
+
+Next, I will focus on the **experiments section (Section 4)**, where the authors typically describe the datasets used for their evaluations. In this section, they mention evaluating PointCNN on several datasets for both classification and segmentation tasks. 
+
+I will identify the datasets mentioned:
+
+1. **ModelNet40**: This dataset consists of 12,311 3D mesh models from 40 categories, with a training/testing split of 9,843/2,468. The authors note that the models are mostly pre-aligned, which is important for understanding the dataset's structure.
+
+2. **ShapeNet Parts**: This dataset contains 16,880 models from 16 shape categories, annotated with parts. The training/testing split is 14,006/2,874, and the task involves predicting part labels for each point.
+
+3. **S3DIS**: This dataset includes 3D scans from indoor environments, with 271 rooms and annotations for 13 semantic categories. The authors describe how the data is processed for segmentation tasks.
+
+4. **ScanNet**: This dataset consists of 1,513 scanned indoor scenes, with a training/testing split of 1,201/312. It is used for semantic voxel labeling across 17 categories.
+
+5. **TU-Berlin**: A dataset for sketch classification, containing sketches from 250 categories, with 80 sketches per category.
+
+6. **Quick Draw**: This is a large sketch dataset with sketches from 345 categories, each containing 70,000 training samples and 2,500 testing samples.
+
+7. **MNIST**: The authors also evaluate PointCNN on the point cloud representation of the MNIST dataset, which is a well-known dataset for handwritten digit classification.
+
+8. **CIFAR10**: Similar to MNIST, PointCNN is evaluated on the point cloud representation of the CIFAR10 dataset, which consists of 60,000 32x32 color images in 10 classes.
+
+Next, I will check the **References section** to find the full citations for each dataset:
+
+- **ModelNet40**: 
+  > Wu, Zhirong, et al. "3D ShapeNets: A Deep Representation for Volumetric Shapes." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015.
+
+- **ShapeNet Parts**: 
+  > Yi, Li, et al. "A Scalable Active Framework for Region Annotation in 3D Shape Collections." ACM Transactions on Graphics (TOG), 2016.
+
+- **S3DIS**: 
+  > Armeni, Iro, et al. "3D Semantic Parsing of Large-Scale Indoor Spaces." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016.
+
+- **ScanNet**: 
+  > Dai, Angela, et al. "ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
+
+- **TU-Berlin**: 
+  > Eitz, Mathias, et al. "How Do Humans Sketch Objects?" ACM Transactions on Graphics (TOG), 2012.
+
+- **Quick Draw**: 
+  > Ha, David, and Douglas Eck. "A Neural Representation of Sketch Drawings." arXiv preprint arXiv:1704.03477, 2017.
+
+- **MNIST**: 
+  > LeCun, Yann, et al. "Gradient-Based Learning Applied to Document Recognition." Proceedings of the IEEE, 1998.
+
+- **CIFAR10**: 
+  > Krizhevsky, Alex, et al. "Learning Multiple Layers of Features from Tiny Images." Technical Report, 2009.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

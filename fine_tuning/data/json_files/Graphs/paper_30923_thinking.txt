@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "WACO: Word-Aligned Contrastive Learning for Speech Translation" by Siqi Ouyang et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** to see if any datasets are mentioned. The abstract states that the authors evaluate their method on the **MuST-C dataset** and a low-resource direction from **IWSLT 2023**, which indicates that these datasets are significant for their experiments.
+
+Next, I will examine the **introduction** section for any additional context or details about the datasets. The introduction reiterates the use of the **MuST-C dataset** and mentions the low-resource Maltese-English direction from **IWSLT 2023**.
+
+Moving on to the **experiments section**, specifically **section 4.1 (Datasets)**, I will find detailed descriptions of the datasets used in the experiments. Here, the authors provide specific information about:
+
+1. **MuST-C Dataset**: This dataset is described as one of the largest benchmarks for speech translation, containing translations from English to eight languages, with around 400 hours of audio recordings for each language direction.
+
+2. **IWSLT Low-Resource Dataset**: The authors mention that they created ASR and ST subsets from the MuST-C En-De training set, specifically noting the sizes of the subsets (1-hour and 10-hour ST subsets).
+
+3. **LibriSpeech**: This is introduced as an external ASR dataset, which is a widely used benchmark containing 960 hours of audiobook speech.
+
+4. **WMT Datasets**: The authors mention using external WMT datasets for pre-training text embedding and Transformer models.
+
+Next, I will check the **References section** to gather full citations for each dataset mentioned:
+
+- For the **MuST-C dataset**, the citation is:
+  > Di Gangi, M. A., Cattoni, R., Bentivogli, L., Negri, M., & Turchi, M. (2019). *MuST-C: a Multilingual Speech Translation Corpus*. In Proceedings of NAACL-HLT, pages 2012–2017.
+
+- For the **IWSLT dataset**, the citation is:
+  > IWSLT. (2023). *International Workshop on Spoken Language Translation*. Retrieved from https://iwslt.org/2023/low-resource.
+
+- For **LibriSpeech**, the citation is:
+  > Panayotov, V., Chen, G., Povey, D., & Khudanpur, S. (2015). *Librispeech: An ASR corpus based on public domain audio books*. In 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 5206–5210.
+
+- For the **WMT datasets**, the citation is:
+  > Bojar, O., Chatterjee, R., Federmann, C., Graham, Y., Haddow, B., Huck, M., Jimeno Yepes, A., Koehn, P., Logacheva, V., Monz, C., Negri, M., Névéol, A., Scarton, C., Turchi, M., Verspoor, K., & Zampieri, M. (2016). *Findings of the 2016 conference on machine translation*. In Proceedings of the First Conference on Machine Translation: Volume 2, Shared Task Papers, pages 131–198.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review. This systematic approach ensures that I accurately capture all relevant datasets and their citations from the paper.

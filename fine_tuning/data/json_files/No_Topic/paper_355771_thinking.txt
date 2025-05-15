@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "NELLIE: A Neuro-Symbolic Inference Engine for Grounded, Compositional, and Explainable Reasoning" by Nathaniel Weir et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract provides a high-level overview of the paper's contributions, and the introduction often discusses the context and significance of the research, which may include references to datasets.
+
+In the **introduction**, I will look for any statements that indicate the use of specific datasets for training or evaluation purposes. The authors may mention datasets that are foundational to their work or that they compare their results against.
+
+Next, I will focus on the **experiments section**, which typically contains detailed information about the datasets used for evaluation. Here, I will look for sections that explicitly list the datasets, including any descriptions of their characteristics, such as size, type, and purpose.
+
+Upon reviewing the paper, I find that the authors mention two datasets used in their experiments:
+
+1. **EntailmentBank**: This dataset is described as a collection of entailment trees for declarativized answers to the AI2 Reasoning Challenge (ARC) dataset. It is used to demonstrate how hypotheses can be derived via compositional entailment hops from WorldTree facts.
+
+2. **WorldTree**: This dataset is noted as a subset of the ARC dataset, annotated with undirected explanation graphs whose nodes are facts from the WorldTree tablestore. It is used to evaluate the model's ability to reason over a large corpus of scientific facts.
+
+Next, I will consult the **References section** to retrieve the full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For **EntailmentBank**, the citation is:
+  > Bhavana Dalvi, Peter Jansen, Oyvind Tafjord, Zhengnan Xie, Hannah Smith, Leighanna Pipatanangkura, and Peter Clark. *Explaining answers with entailment trees*. In Proceedings of EMNLP, 2021.
+
+- For **WorldTree**, the citation is:
+  > Zhengnan Xie, Sebastian Thiem, Jaycie Martin, Elizabeth Wainwright, Steven Marmorstein, and Peter Jansen. *WorldTree v2: A corpus of science-domain structured explanations and inference patterns supporting multi-hop inference*. In Proceedings of the Twelfth Language Resources and Evaluation Conference, 2020.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or processing. This ensures that I have accurately captured the datasets referenced in the paper along with their proper citations.

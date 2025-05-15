@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Align as Ideal: Cross-Modal Alignment Binding for Federated Medical Vision-Language Pre-training" by Zitao Shuai and Liyue Shen, I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract highlights the need for large-scale multimodal data for pre-training in medical applications, which suggests that datasets are crucial to the research.
+
+Next, I will focus on **section 5 (Experiment)**, where the authors typically describe the datasets used for their experiments. In this section, they mention using the **MIMIC-CXR dataset** for medical vision-language pre-training. This dataset is described as containing 227,835 image-text pairs from 65,379 patients, which is significant for understanding the scope of their research.
+
+Additionally, I will look for any references to other datasets used in downstream tasks. The authors mention evaluating their model on several benchmarks, including:
+
+1. **RSNA Pneumonia Detection Dataset**: This dataset is used for few-shot classification tasks related to pneumonia detection.
+2. **Covidx Dataset**: Another dataset used for classification tasks, specifically for COVID-19 detection.
+3. **Chest imaGenome Dataset**: This dataset is utilized for image retrieval tasks.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **MIMIC-CXR dataset**, the citation is:
+  > Bigolin Lanfredi, R., Zhang, M., Auffermann, W. F., Chan, J., Duong, P.-A. T., Srikumar, V., Drew, T., Schroeder, J. D., and Tasdizen, T. *Reflacx, a dataset of reports and eye-tracking data for localization of abnormalities in chest x-rays*. Scientific data, 9(1):350, 2022.
+
+- For the **RSNA Pneumonia Detection Dataset**, the citation is:
+  > Shih, G., Wu, C. C., Halabi, S. S., Kohli, M. D., Prevedello, L. M., Cook, T. S., Sharma, A., Amorosa, J. K., Arteaga, V., Galperin-Aizenberg, M., et al. *Augmenting the national institutes of health chest radiograph dataset with expert annotations of possible pneumonia*. Radiology: Artificial Intelligence, 1(1):e180041, 2019.
+
+- For the **Covidx Dataset**, the citation is:
+  > Wang, L., Lin, Z. Q., and Wong, A. *Covid-net: A tailored deep convolutional neural network design for detection of covid-19 cases from chest x-ray images*. Scientific reports, 10(1):19549, 2020.
+
+- For the **Chest imaGenome Dataset**, the citation is:
+  > Wu, J. T., Agu, N. N., Lourentzou, I., Sharma, A., Paguio, J. A., Yao, J. S., Dee, E. C., Mitchell, W., Kashyap, S., Giovannini, A., et al. *Chest imagenome dataset (version 1.0. 0)*. PhysioNet, 5:18, 2021.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited, ready for structured output or further processing.

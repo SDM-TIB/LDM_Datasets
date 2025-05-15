@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "Lost in Translation: When GPT-4V(ision) Can’t See Eye to Eye with Text" by Xiang Zhang et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors introduce a set of datasets designed for evaluating cross-modal interactions, which suggests that multiple datasets are involved.
+
+Next, I will focus on **section 5 (Experiment)**, particularly **subsection 5.1 (Dataset construction approach)**, where the authors detail the datasets they created for their evaluation framework. They mention constructing **5 Translation Invariant (TI) task datasets** and **1 Translation Variant (TV) task dataset**. I will extract the names and descriptions of these datasets.
+
+The datasets mentioned in the paper are:
+
+1. **Math Equation Solving Dataset**: This dataset contains images of mathematical questions paired with their corresponding text representations. It is designed for evaluating the model's ability to solve math equations.
+
+2. **Math Reasoning Dataset**: This dataset is based on the GSM8K dataset and includes images of math and logical reasoning questions paired with their text versions.
+
+3. **Knowledge Access Dataset**: This dataset is constructed using the WebQuestions dataset, containing questions in text format paired with their image representations.
+
+4. **Common Sense Reasoning Dataset**: This dataset is based on the CommonsenseQA dataset and consists of multiple-choice questions transformed into images, paired with their original text questions.
+
+5. **State Machine Reasoning Dataset**: This dataset includes images of state machines with corresponding text descriptions, designed to assess reasoning capabilities.
+
+6. **VQA Common Sense Reasoning Dataset**: This dataset is created from the CommonsenseQA dataset, where the text questions are replaced with corresponding images, forming pairs for visual question answering tasks.
+
+Now, I will look into the **References section** to find the full citations for the datasets used in the paper. The citations for the datasets are as follows:
+
+- For the **GSM8K dataset** (used in the Math Reasoning Dataset):
+  > Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman. *Training verifiers to solve math word problems*. CoRR, 2021.
+
+- For the **WebQuestions dataset** (used in the Knowledge Access Dataset):
+  > Antoine Bordes, Sumit Chopra, and Jason Weston. *Question answering with subgraph embeddings*. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 615–620, Doha, Qatar. Association for Computational Linguistics, 2014.
+
+- For the **CommonsenseQA dataset** (used in the Common Sense Reasoning Dataset and VQA Common Sense Reasoning Dataset):
+  > Alon Talmor, Jonathan Herzig, Nicholas Lourie, and Jonathan Berant. *CommonsenseQA: A question answering challenge targeting commonsense knowledge*. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 4149–4158, Minneapolis, Minnesota. Association for Computational Linguistics, 2019.
+
+With these citations, I will now compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper, ready for further processing or review.

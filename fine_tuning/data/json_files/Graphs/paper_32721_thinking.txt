@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "LLM-based Medical Assistant Personalization with Short- and Long-Term Memory Coordination" by Kai Zhang et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the authors are releasing a new conversation dataset generated from an open-source medical corpus, which suggests that there is at least one dataset to extract.
+
+Next, I will look for specific sections that discuss datasets in detail. In this paper, the **Data** section (section 3) is likely to contain the most relevant information. Here, I will focus on the **Data Construction** subsection, where the authors describe how they constructed a personalized dialogue dataset using self-chat simulations based on user profiles derived from a publicly available medical corpus.
+
+The authors mention that they derived the patient’s profile from the publicly available medical corpus referenced as "Chen et al. (2020)". I will need to find the full citation for this corpus in the **References** section.
+
+In the **Data Construction** subsection, the authors explain that they focus on medical scenarios involving dialogues between patients and doctors, which emphasizes the importance of memory and personalization. They also mention the number of users, average rounds, average length, number of dialogues, and utterances in their dataset, which provides useful context for understanding the dataset's scale and structure.
+
+Now, I will check the **References** section to find the full citation for the medical corpus used in the dataset construction. The citation for the medical dialogue dataset is:
+
+- Chen, S., Ju, Z., Dong, X., Fang, H., Wang, S., Yang, Y., Zeng, J., Zhang, R., Zhang, R., Zhou, M., Zhu, P., & Xie, P. (2020). *Meddialog: A large-scale medical dialogue dataset*. arXiv preprint arXiv:2004.03329.
+
+Additionally, the authors mention using open-source datasets from HealthCareMagic-100k and iCliniq, which are also relevant datasets. I will need to find their citations as well.
+
+After reviewing the references, I find the following citations:
+
+- Yunxiang, L., Zihan, L., Kai, Z., Ruilong, D., & You, Z. (2023). *ChatDoctor: A medical chat model fine-tuned on LLaMA model using medical domain knowledge*. arXiv preprint arXiv:2303.14070.
+  
+- Zhang, R., Han, J., Zhou, A., Hu, X., Yan, S., Lu, P., Li, H., Gao, P., & Qiao, Y. (2023). *LLaMA-Adapter: Efficient fine-tuning of language models with zero-init attention*. arXiv preprint arXiv:2303.16199.
+
+Now that I have identified the datasets and their citations, I will summarize the findings:
+
+1. **Personalized Medical Dialogue Dataset**: This dataset was generated based on user profiles from a publicly available medical corpus and includes dialogues between patients and doctors.
+   - Citation: Chen, S., Ju, Z., Dong, X., Fang, H., Wang, S., Yang, Y., Zeng, J., Zhang, R., Zhang, R., Zhou, M., Zhu, P., & Xie, P. (2020). *Meddialog: A large-scale medical dialogue dataset*. arXiv preprint arXiv:2004.03329.
+
+2. **HealthCareMagic-100k Dataset**: An open-source dataset used for medical dialogue generation.
+   - Citation: Yunxiang, L., Zihan, L., Kai, Z., Ruilong, D., & You, Z. (2023). *ChatDoctor: A medical chat model fine-tuned on LLaMA model using medical domain knowledge*. arXiv preprint arXiv:2303.14070.
+
+3. **iCliniq Dataset**: Another open-source dataset referenced in the context of medical dialogue.
+   - Citation: Zhang, R., Han, J., Zhou, A., Hu, X., Yan, S., Lu, P., Li, H., Gao, P., & Qiao, Y. (2023). *LLaMA-Adapter: Efficient fine-tuning of language models with zero-init attention*. arXiv preprint arXiv:2303.16199.
+
+With this information, I can now compile the dataset entries for further processing or review.

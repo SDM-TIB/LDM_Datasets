@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Over-Parameterized Neural Networks as Under-Determined Linear Systems" by Austin R. Benson, Anil Damle, and Alex Townsend, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and results sections** to identify any datasets mentioned. The abstract provides a brief overview of the paper's focus on neural networks and their training dynamics, but it does not explicitly mention any datasets.
+
+Next, I will examine the **introduction** for any references to datasets. The introduction discusses the theoretical aspects of neural networks but does not provide specific dataset names.
+
+I will then look into **section 2 (An over-parameterized two-layer neural network)**, where the authors describe the model and the data points used. Here, I find a specific dataset mentioned in **Definition 2.1**:
+
+1. **Dataset XR**: This dataset consists of 8 distinct data points in a specific format. The points are defined as:
+   - \( x_1 = (s, s, s, 0) \)
+   - \( x_2 = (-s, s, s, 0) \)
+   - \( x_3 = (s, -s, s, 0) \)
+   - \( x_4 = (s, s, -s, 0) \)
+   - \( x_5 = (-s, -s, s, 0) \)
+   - \( x_6 = (-s, s, -s, 0) \)
+   - \( x_7 = (s, -s, -s, 0) \)
+   - \( x_8 = (-s, -s, -s, 0) \)
+   where \( s = \frac{1}{\sqrt{3}} \).
+
+Next, I will check the **references section** to find the full citation for any datasets mentioned. However, since the dataset XR is a constructed dataset specific to this paper, it may not have an external citation. The authors do not provide a reference for this dataset, as it is defined within the context of their theoretical analysis.
+
+After confirming the dataset details, I will summarize the findings:
+
+- **Dataset XR**: A set of 8 distinct data points defined in the paper, used to demonstrate the limitations of the ReLU activation function in achieving zero training loss.
+
+Since there are no external datasets cited in the references, I will note that the dataset is unique to this study and does not have a formal citation.
+
+Finally, I will compile the dataset information into a structured format for clarity and future reference.

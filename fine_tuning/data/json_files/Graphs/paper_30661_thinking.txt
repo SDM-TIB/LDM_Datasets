@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Contrastive Learning for Climate Model Bias Correction and Super-Resolution" by Tristan Ballard and Gopal Erinjippurath, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract mentions benchmarking against NASA’s NEX-GDDP product, which indicates that datasets are involved.
+
+Next, I will focus on **section 3 (Data)**, where the authors describe the datasets used in their study. Here, they mention several key datasets:
+
+1. **CMIP6 Climate Model Simulations**: The authors use low-resolution (LR) input images from CMIP6 climate model simulations regridded to a common 0.5° resolution. They also mention that these simulations include daily maximum temperature and daily precipitation.
+
+2. **ERA5-Land Data**: This dataset is used for observed daily maximum temperature and daily precipitation, with global coverage at approximately 9km resolution over land, regridded to 0.125° for analysis.
+
+3. **NASA NEX-GDDP Benchmark Product**: This is a bias-corrected product based on the BCSD algorithm, which the authors use for benchmarking their model performance. The NEX-GDDP data corresponds to the same GFDL-CM4 model and is available at a 0.25° resolution.
+
+In the **References section**, I will look for full citations for these datasets:
+
+- For **CMIP6**, the citation is:
+  > Thrasher, B., Wange, A., Michaelis, A., Melton, F., Lee, T., & Nemani, R. (2022). NASA Global Daily Downscaled Projections, CMIP6. *Scientific Data*, 9(1).
+
+- For **ERA5-Land**, the citation is:
+  > Munoz-Sabater, J., Dutra, E., Agusti-Panareda, A., Albergel, C., Arduini, G., Balsamo, G., Boussetta, S., Choulga, M., Harrigan, S., Hersbach, H., & Martens, B. (2021). ERA5-Land: A state-of-the-art global reanalysis dataset for land applications. *Earth System Science Data*, 13(9).
+
+- For **NEX-GDDP**, the citation is:
+  > Thrasher, B., Wange, A., Michaelis, A., Melton, F., Lee, T., & Nemani, R. (2022). NASA Global Daily Downscaled Projections, CMIP6. *Scientific Data*, 9(1).
+
+Now, I will compile the dataset entries, ensuring that each dataset is accurately described and that the full citations are included. This will provide a comprehensive overview of the datasets utilized in the research paper.

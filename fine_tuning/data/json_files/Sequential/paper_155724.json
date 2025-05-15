@@ -1,0 +1,126 @@
+[
+    {
+        "dcterms:creator": [
+            "Najoung Kim",
+            "Tal Linzen"
+        ],
+        "dcterms:description": "COGS is a synthetic semantic parsing dataset in which English sentences must be mapped to logic-based meaning representations. It distinguishes 21 generalization types, each requiring generalizing from training instances to test instances in a systematic and linguistically-informed way.",
+        "dcterms:title": "COGS",
+        "dcterms:issued": "2020",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Semantic Parsing",
+            "Compositional Generalization"
+        ],
+        "dcat:keyword": [
+            "synthetic dataset",
+            "semantic parsing",
+            "generalization types"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Semantic Parsing"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Najoung Kim",
+            "Tal Linzen"
+        ],
+        "dcterms:description": "Syntax-COGS is a variant of the COGS dataset that converts each training and generalization instance into a pair of the sentence with its syntax tree.",
+        "dcterms:title": "Syntax-COGS",
+        "dcterms:issued": "2020",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Syntactic Parsing",
+            "Compositional Generalization"
+        ],
+        "dcat:keyword": [
+            "syntactic dataset",
+            "syntax trees",
+            "generalization"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Syntactic Parsing"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Najoung Kim",
+            "Tal Linzen"
+        ],
+        "dcterms:description": "POS-COGS is another variant of the COGS dataset that transforms each instance into a pair of the sentence with its POS tag sequence.",
+        "dcterms:title": "POS-COGS",
+        "dcterms:issued": "2020",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "POS Tagging",
+            "Compositional Generalization"
+        ],
+        "dcat:keyword": [
+            "POS tagging dataset",
+            "part-of-speech",
+            "generalization"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "POS Tagging"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "QA-COGS-base uses the sentences of COGS as context sentences and asks questions about each sentence that can be answered by a contiguous substring.",
+        "dcterms:title": "QA-COGS-base",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Question Answering",
+            "Compositional Generalization"
+        ],
+        "dcat:keyword": [
+            "question answering",
+            "context sentences",
+            "substring answers"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Question Answering"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "QA-COGS-disamb is a harder text-to-text task based on COGS that exploits the interplay of syntactic structure with constraints on tense and number agreement.",
+        "dcterms:title": "QA-COGS-disamb",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Question Answering",
+            "Compositional Generalization"
+        ],
+        "dcat:keyword": [
+            "disambiguation",
+            "question answering",
+            "syntactic structure"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Question Answering"
+        ]
+    }
+]

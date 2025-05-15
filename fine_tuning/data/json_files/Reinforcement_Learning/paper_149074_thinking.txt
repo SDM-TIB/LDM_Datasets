@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Time-Aware Q-Networks: Resolving Temporal Irregularity for Deep Reinforcement Learning" by Yeo Jin Kim and Min Chi, I will follow a systematic approach to ensure I capture all relevant datasets and their citations.
+
+First, I will start by reading through the **abstract** and **introduction** sections. The abstract mentions that the authors conducted experiments on various tasks, including classic RL tasks and real-world applications like nuclear reactor control and septic treatment. This indicates that there may be datasets related to these tasks.
+
+Next, I will examine the **methodology** and **experiments** sections, particularly focusing on any sections that explicitly mention datasets. In the paper, the authors describe two real-world environments: **nuclear reactor control** and **septic treatment**. I will look for specific datasets used in these experiments.
+
+In the **nuclear reactor control** section, the authors mention that they used a dataset generated from a digital reactor system called GOTHIC, which includes 994 episodes with 1,988,994 events. They also describe how the data was resampled with irregularly elapsed time intervals, which is crucial for their analysis.
+
+For the **septic treatment** task, the authors refer to a dataset provided by the Mayo Clinic, which includes EHRs of 83,034 patients and 121,019 visits. They specify that they extracted trajectories from this dataset, resulting in 4,410 visits with a total of 392,850 events.
+
+Now, I will gather the full citations for these datasets from the **References section** of the paper:
+
+1. **Nuclear Reactor Dataset**:
+   - The dataset is generated from the GOTHIC simulator, but since it is not attributed to a specific paper, I will cite it as:
+     > EPRI: GOTHIC Thermal Hydraulic Analysis Package, Version 8.3 (QA) (2018).
+
+2. **Septic Treatment Dataset**:
+   - The dataset is derived from EHRs provided by the Mayo Clinic. The citation for this dataset is:
+     > Mayo Clinic. EHRs from July 2013 to December 2015, including 83,034 patients and 121,019 visits.
+
+After identifying the datasets and their citations, I will summarize the findings:
+
+- **Nuclear Reactor Control Dataset**: Generated from the GOTHIC simulator, consisting of 994 episodes and 1,988,994 events.
+- **Septic Treatment Dataset**: EHRs from the Mayo Clinic, including 83,034 patients and 121,019 visits, with 4,410 visits extracted for analysis.
+
+Finally, I will compile this information into a structured format for further processing or review.

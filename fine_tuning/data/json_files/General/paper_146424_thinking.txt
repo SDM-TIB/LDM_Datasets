@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Q-Adapter: Training Your LLM Adapter as a Residual Q-Function" by Yi-Chen Li et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the authors conducted experiments on a range of domain-specific tasks and safety alignment tasks, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for their evaluations. In this section, they mention using the **domain-specific preference dataset (DSP)** and the **HH-RLHF dataset** for training and evaluation.
+
+1. **Domain-Specific Preference Dataset (DSP)**: This dataset is described as being filtered and categorized from the 52K Alpaca training set into four domains: academic, business, entertainment, and literature. Each domain contains different instructions and answers, forming distinct downstream tasks.
+
+2. **HH-RLHF Dataset**: This dataset is used for training on helpfulness and harmlessness alignment data. It contains preferences about providing helpful information and avoiding potentially harmful responses.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Domain-Specific Preference Dataset (DSP)**, the citation is:
+  > Pengyu Cheng, Jiawen Xie, Ke Bai, Yong Dai, and Nan Du. *Everyone deserves A reward: Learning customized human preferences*. arXiv preprint arXiv:2309.03126, 2023.
+
+- For the **HH-RLHF Dataset**, the citation is:
+  > Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, Nicholas Joseph, Saurav Kadavath, Jackson Kernion, Tom Conerly, Sheer El Showk, Nelson Elhage, Zac Hatfield-Dodds, Danny Hernandez, Tristan Hume, Scott Johnston, Shauna Kravec, Liane Lovitt, Neel Nanda, Catherine Olsson, Dario Amodei, Tom B. Brown, Jack Clark, Sam McCandlish, Chris Olah, Benjamin Mann, and Jared Kaplan. *Training a helpful and harmless assistant with reinforcement learning from human feedback*. arXiv preprint arXiv:2204.05862, 2022.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

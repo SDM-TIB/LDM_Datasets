@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Advanced Image Segmentation Techniques for Neural Activity Detection via C-fos Immediate Early Gene Expression" by Peilin Cai, I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methods, and results sections** of the paper. The abstract provides a brief overview of the research focus, which involves image segmentation techniques for analyzing C-fos gene expression. This suggests that there may be datasets related to C-fos images.
+
+In the **introduction**, I will look for any mentions of specific datasets used for training or evaluation. The introduction discusses the challenges of analyzing C-fos images but does not explicitly mention any datasets.
+
+Next, I will examine the **methods section**, particularly the subsections that describe the workflow and dataset preparation. Here, the author mentions using a **training dataset** derived from C-fos images, but I need to identify if there are specific datasets referenced.
+
+In the **results section**, I will look for any tables or figures that summarize the datasets used, including their sizes and characteristics. The author discusses various training methods and their corresponding datasets, such as those generated through manual labeling and the Segment Anything Model (SAM). However, I need to confirm if these datasets have formal citations.
+
+I will also check the **references section** to find any citations related to the datasets mentioned. The paper cites several foundational works and models, but I need to determine if any of these references correspond to specific datasets.
+
+After reviewing the paper, I will compile the datasets identified:
+
+1. **C-fos Image Dataset**: This dataset consists of images of C-fos immediate early gene expression, which were manually labeled and used for training the Unet model. The dataset is not formally cited in the references, but it is crucial for the study.
+
+2. **Segment Anything Model (SAM) Dataset**: This dataset is generated using the SAM for automatic labeling of C-fos images. The SAM is referenced in the paper, and its citation is:
+   > Kirillov, Alexander, Eric Mintun, Nikhila Ravi, Hanzi Mao, Chloe Rolland, Laura Gustafson, Tete Xiao, et al. 2023. “Segment Anything.” arXiv. https://doi.org/10.48550/arXiv.2304.02643.
+
+3. **Manual Labeling Dataset**: The dataset created using the labelme tool for manual annotation of C-fos images is also mentioned. While it does not have a specific citation, it is important to note its significance in validating the performance of the automatic labeling technique.
+
+Finally, I will ensure that I have accurately captured the essence of each dataset and its relevance to the research. I will prepare to format this information according to the required structure for downstream processing.

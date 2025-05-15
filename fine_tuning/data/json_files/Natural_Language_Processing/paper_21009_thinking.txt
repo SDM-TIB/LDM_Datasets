@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "On Train-Test Class Overlap and Detection for Image Retrieval" by Chull Hwan Song et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors revisit the **Google Landmarks v2 clean** dataset and introduce a new version called **RGLDv2-clean**. This suggests that there are at least two datasets involved.
+
+Next, I will examine the **introduction** section more closely. Here, the authors discuss the importance of high-quality datasets for image retrieval and mention the **Google Landmarks v2** dataset as a widely adopted benchmark. They also reference the **Revisited Oxford** and **Paris** datasets as popular evaluation sets. This confirms the presence of multiple datasets.
+
+In the **experiments section**, the authors provide detailed comparisons of their new dataset, **RGLDv2-clean**, against the original **Google Landmarks v2 clean** dataset. They also mention the **NC-clean** and **SfM-120k** datasets, which are used for training and evaluation purposes. 
+
+Now, I will compile the information about each dataset:
+
+1. **Google Landmarks v2 clean**: This dataset is referenced as the original dataset that has class overlap issues with evaluation sets. It is a large-scale dataset used for training in image retrieval tasks.
+
+2. **RGLDv2-clean**: This is the new version introduced by the authors, which aims to eliminate class overlap with evaluation sets. The dataset is available for public use at the provided GitHub link.
+
+3. **NC-clean**: This dataset is mentioned as a clean dataset that does not overlap with the evaluation sets and is used for fair comparisons in the experiments.
+
+4. **SfM-120k**: Another dataset referenced in the paper, which is also used for training and does not overlap with the evaluation sets.
+
+Next, I will look at the **References section** to find the full citations for these datasets:
+
+- For **Google Landmarks v2**, the citation is:
+  > Tobias Weyand, Andre Araujo, Bingyi Cao, and Jack Sim. *Google Landmarks Dataset v2 - A Large-Scale Benchmark for Instance-Level Recognition and Retrieval*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
+
+- For **RGLDv2-clean**, since it is a new dataset introduced in this paper, I will cite it as follows:
+  > Chull Hwan Song, Jooyoung Yoon, Yeong Hyeon Gu, Yannis Avrithis, Taebaek Hwang, and Shunghyun Choi. *On Train-Test Class Overlap and Detection for Image Retrieval*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023.
+
+- For **NC-clean**, the citation is:
+  > Albert Gordo, Jon Almazan, Jerome Revaud, and Diane Larlus. *Deep Image Retrieval: Learning Global Representations for Image Search*. In Proceedings of the European Conference on Computer Vision (ECCV), 2016.
+
+- For **SfM-120k**, the citation is:
+  > Artem Babenko, Anton Slesarev, Alexandr Chigorin, and Victor Lempitsky. *Neural Codes for Image Retrieval*. In Proceedings of the European Conference on Computer Vision (ECCV), 2014.
+
+After gathering all this information, I will summarize the datasets and their citations in a structured format for easy reference. This will ensure that I have accurately captured the datasets used in the research and their respective citations for future use.

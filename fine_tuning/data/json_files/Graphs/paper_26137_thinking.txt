@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "Multiple Instance Learning with Graph Neural Networks" by Ming Tu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract and introduction** to identify any mentions of datasets. The abstract states that the proposed algorithm achieves state-of-the-art performance on several popular MIL datasets, which indicates that specific datasets will be discussed later in the paper.
+
+Next, I will focus on the **experiments section**, particularly **section 3**, where the authors describe the datasets used for their experiments. In **subsection 3.1**, they mention five benchmark datasets commonly used in MIL studies:
+
+1. **MUSK1**: This dataset consists of 47 positive bags and 45 negative bags, where instances represent different conformations of a molecule. The task is to predict whether new molecules will be musks or non-musks.
+
+2. **MUSK2**: Similar to MUSK1, this dataset has 39 positive bags and 63 negative bags, with the same task of predicting musks.
+
+3. **FOX**: This dataset is used for image classification, containing 100 positive and 100 negative examples, where each image has several regions of interest (ROIs) regarded as instances.
+
+4. **TIGER**: Another image classification dataset with the same structure as FOX.
+
+5. **ELEPHANT**: This dataset also follows the same structure as the previous image datasets.
+
+In **subsection 3.2**, the authors mention using **20 text categorization datasets** organized by the authors of a previous study. Each dataset has 50 positive and 50 negative bags, with instances represented by TF-IDF features.
+
+In **subsection 3.3**, they discuss the **Messidor dataset**, which is a public diabetic retinopathy screening dataset containing 654 positive and 546 negative images. The task is to detect diabetes from retinal images.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For **MUSK1 and MUSK2**, the original datasets are referenced in:
+  > Dietterich, T. G., & Bakiri, G. (1995). Solving multiclass learning problems via error-correcting output codes. *Journal of Artificial Intelligence Research*, 2, 263-286.
+
+- For the **Messidor dataset**, the citation is:
+  > Decenciere, E., Zhang, X., Cazuguel, G., Lay, B., Cochener, B., Trone, C., Gain, P., Ordonez, R., Massin, P., Erginay, A., et al. (2014). Feedback on a publicly distributed image database: the Messidor database. *Image Analysis & Stereology*, 33(3), 231-234.
+
+- The **20 text categorization datasets** are referenced in:
+  > Zhou, Z.-H., Sun, Y.-Y., & Li, Y.-F. (2009). Multi-instance learning by treating instances as non-iid samples. In *Proceedings of the 26th annual international conference on machine learning* (pp. 1249-1256). ACM.
+
+With this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This structured approach will help ensure that I do not miss any important details or citations.

@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "The Expressive Leaky Memory Neuron: An Efficient and Expressive Phenomenological Neuron Model Can Solve Long-Horizon Tasks" by Aaron Spieler et al., I will follow a systematic approach.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract mentions evaluating the ELM neuron on various tasks, including the Long Range Arena (LRA) datasets and a novel neuromorphic dataset based on the Spiking Heidelberg Digits dataset (SHD-Adding). This indicates that there are at least two datasets to look for.
+
+Next, I will examine the **experiments section** (specifically section 4) to find detailed descriptions of the datasets used. In section 4.1, the authors describe the **NeuronIO dataset**, which consists of simulated input-output data for a biophysical layer 5 cortical pyramidal neuron model. The dataset includes biologically inspired spiking patterns and the model's somatic membrane voltage and output spikes.
+
+In section 4.2, the authors discuss the **Spiking Heidelberg Digits (SHD)** dataset, which comprises spike-encoded spoken digits in German and English. They also introduce the **SHD-Adding dataset**, created by concatenating two SHD digits and setting the target to their sum.
+
+In section 4.3, the authors mention the **Long Range Arena (LRA)** benchmark datasets, which include various classification tasks. They specifically reference the **Pathfinder-X** task, which is known for its complexity.
+
+Now, I will gather the full citations for each dataset mentioned in the paper from the **References section**:
+
+1. **NeuronIO Dataset**:
+   - Citation: 
+     > Beniaguev, D., Segev, I., & London, M. (2021). Single cortical neurons as deep artificial neural networks. *Neuron*, 109(17), 2727-2739.
+
+2. **Spiking Heidelberg Digits (SHD) Dataset**:
+   - Citation:
+     > Cramer, B., Stradmann, Y., Schemmel, J., & Zenke, F. (2020). The Heidelberg spiking data sets for the systematic evaluation of spiking neural networks. *IEEE Transactions on Neural Networks and Learning Systems*.
+
+3. **SHD-Adding Dataset**:
+   - This dataset is derived from the SHD dataset, so the citation remains the same as above.
+
+4. **Long Range Arena (LRA) Datasets**:
+   - Citation:
+     > Tay, Y., Dehghani, M., Abnar, S., Shen, Y., Bahri, D., Pham, P., Rao, J., Yang, L., Ruder, S., & Metzler, D. (2021). Long Range Arena: A benchmark for efficient transformers. *International Conference on Learning Representations*.
+
+5. **Pathfinder-X Task**:
+   - This task is part of the LRA benchmark, so it shares the same citation as above.
+
+After compiling this information, I will create structured entries for each dataset, ensuring that the full citations are included for reference. This will provide a comprehensive overview of the datasets utilized in the research paper.

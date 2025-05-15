@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "CAKES: Channel-wise Automatic KErnel Shrinking for Efficient 3D Networks" by Qihang Yu et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the proposed method is evaluated on tasks including **3D medical imaging segmentation and video action recognition**, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section**, specifically looking for any explicit mentions of datasets used for evaluation. In the experiments section, the authors describe their evaluations on two public datasets:
+
+1. **Pancreas Tumours dataset**: This dataset is sourced from the Medical Segmentation Decathlon Challenge (MSD) and contains 282 cases with annotations for pancreatic tumors and normal pancreas. The authors mention using 226 cases for training and evaluating the segmentation performance on the remaining 56 cases.
+
+2. **NIH Pancreas Segmentation dataset**: This dataset consists of 82 abdominal CT volumes. The authors detail the preprocessing steps and the evaluation methodology, indicating its significance in their experiments.
+
+Additionally, in the section discussing **action recognition in videos**, the authors mention the **Something-Something V1 dataset**, which is a large-scale action recognition dataset containing about 110,000 videos across 174 classes.
+
+Now, I will check the **References section** to gather full citations for these datasets:
+
+- For the **Pancreas Tumours dataset**, the citation is:
+  > Simpson, A. L., Antonelli, M., Bakas, S., Bilello, M., Farahani, K., van Ginneken, B., Kopp-Schneider, A., Landman, B. A., Litjens, G., Menze, B., et al. (2019). A large annotated medical image dataset for the development and evaluation of segmentation algorithms. *arXiv preprint arXiv:1902.09063*.
+
+- For the **NIH Pancreas Segmentation dataset**, the citation is:
+  > Roth, H. R., Lu, L., Farag, A., Shin, H.-C., Liu, J., Turkbey, E. B., & Summers, R. M. (2015). DeepOrgan: Multi-level deep convolutional networks for automated pancreas segmentation. In *MICCAI*.
+
+- For the **Something-Something V1 dataset**, the citation is:
+  > Goyal, R., Kahou, S. E., Michalski, V., Materzynska, J., Westphal, S., Kim, H., Haenel, V., Fruend, I., Yianilos, P., Mueller-Freitag, M., et al. (2017). The "Something Something" Video Database for Learning and Evaluating Visual Common Sense. In *ICCV*.
+
+After gathering this information, I will compile the dataset entries into a structured format for clarity and future reference. This will ensure that each dataset is properly documented with its full citation, which is crucial for academic integrity and reproducibility.

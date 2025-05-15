@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Analysis of the HiSCORE Simulated Events in TAIGA Experiment Using Convolutional Neural Networks" by Anna Vlaskina and Alexander Kryukov, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract provides a brief overview of the study, and while it mentions the use of convolutional neural networks, it does not specify datasets. Therefore, I will need to look deeper.
+
+In the **introduction**, the authors discuss the TAIGA experiment and the use of various instruments for gamma-ray and cosmic-ray physics. However, they do not mention specific datasets here either.
+
+Next, I will focus on the **methods section**, where the authors describe their approach to determining air shower parameters. They mention using **Monte-Carlo simulated events** prepared with **CORSIKA software**. This indicates that the dataset is derived from simulations rather than real-world data, which is important to note.
+
+The authors specify that the dataset contains data from **44 Cherenkov stations** and includes **signal amplitudes and signal registration times**. They also mention that the dataset was used to create **11400 images for training** and **816 images for testing**, with oversampling increasing the training set to **45600 images**. This detailed description of the dataset is crucial for understanding its structure and purpose.
+
+In the **results section**, the authors present their findings based on the dataset, but they do not introduce any new datasets here. 
+
+Now, I will consult the **references section** to find the full citation for the CORSIKA software, which is the source of the dataset used in the study. The relevant citation is:
+
+- **CORSIKA**: 
+  > D. Heck, J. Knapp, J. N. Capdevielle, G. Schatz and T. Thouw. "CORSIKA: A Monte Carlo code to simulate extensive air showers," FZKA-6019.
+
+With this information, I can summarize the dataset extracted from the paper:
+
+1. **Dataset Name**: Monte-Carlo simulated events from CORSIKA
+   - **Description**: The dataset includes simulated events with parameters such as air shower axis coordinates, primary particle type, polar and azimuth angles of the air shower axis, and primary particle energy. It consists of data from 44 Cherenkov stations, with signal amplitudes and registration times used to create images for training a convolutional neural network.
+   - **Full Citation**: D. Heck, J. Knapp, J. N. Capdevielle, G. Schatz and T. Thouw. "CORSIKA: A Monte Carlo code to simulate extensive air showers," FZKA-6019.
+
+Finally, I will compile this information into a structured format for further processing or review.

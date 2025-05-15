@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Real-Time 2D Temperature Field Prediction in Metal Additive Manufacturing Using Physics-Informed Neural Networks" by Pouyan Sajadi et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and applications sections** to identify any datasets mentioned. The abstract discusses the use of real-time temperature data for predictions, which suggests that datasets are involved.
+
+In the **introduction**, the authors mention the challenges of obtaining high-quality datasets in the metal additive manufacturing domain. This indicates that they may reference specific datasets later in the paper.
+
+Next, I will focus on the **applications section**, particularly **3.1 (2D-Temperature Field Prediction of a Thin Wall)** and **3.2 (2D-Temperature Field Prediction of a Cylinder and a Cube)**. Here, the authors describe the datasets used for their experiments:
+
+1. **Infra-red images from the LMD process**: These images were taken during the printing of 60-layer Ti-6Al-4V thin-walled structures, provided by Marshall et al. (2016a). The dataset consists of 2760 thermal images captured by an IR camera, each containing a 320×240 matrix of temperature values.
+
+2. **Simulation data for cylindrical and cubic geometries**: The authors mention that each simulation generates a dataset for every timestamp, resulting in approximately 16,000 input-output pairs for training and validation.
+
+Now, I will check the **References section** to gather full citations for these datasets:
+
+- For the **infra-red images dataset**, the citation is:
+  > Marshall, G.J., Thompson, S.M., Shamsaei, N., 2016a. Data indicating temperature response of Ti–6Al–4V thin-walled structure during its additive manufacture via Laser Engineered Net Shaping. *Data Brief*, 7, 697–703.
+
+- For the **simulation data**, while it is not attributed to a specific paper, it is derived from the ANSYS AM DED process module, which is a widely recognized simulation tool in the field.
+
+After gathering this information, I will compile the dataset entries into a structured format that highlights the dataset names, descriptions, and full citations, ensuring that all necessary details are included for future reference or processing.

@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "RAW-GNN: RAndom Walk Aggregation based Graph Neural Network" by Di Jin et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the proposed method but may not detail specific datasets. Therefore, I will focus on the **experiments section**, particularly **section 4 (Experiments)**, where datasets are typically discussed.
+
+In **section 4.1 (Datasets)**, the authors explicitly list the datasets used for evaluation. They mention seven datasets, categorized into homophilic and heterophilic networks. I will extract the names of these datasets along with their descriptions:
+
+1. **Cora**: A homophilic citation network where nodes represent papers and edges represent citations. Node features are bag-of-words representations of papers, and node labels are academic topics.
+
+2. **Citeseer**: Similar to Cora, this is another homophilic citation network with the same structure and features.
+
+3. **Pubmed**: Another homophilic citation network, structured like Cora and Citeseer.
+
+4. **Texas**: A heterophilic dataset consisting of web pages from the computer science department of the University of Texas. Nodes are web pages, edges are hyperlinks, and node features are bag-of-words representations.
+
+5. **Wisconsin**: Similar to Texas, this dataset consists of web pages from the University of Wisconsin, structured in the same way.
+
+6. **Actor**: A heterophilic actor co-occurrence network where nodes represent actors, and edges denote co-occurrences on Wikipedia pages. Node features correspond to keywords from these pages.
+
+7. **Cornell**: Another heterophilic dataset consisting of web pages from the Cornell University computer science department, structured similarly to Texas and Wisconsin.
+
+Next, I will check the **References section** to find the full citations for each dataset. The citations for the datasets mentioned in the paper are as follows:
+
+- For **Cora**, **Citeseer**, and **Pubmed**, the citation is:
+  > Sen, P., Namata, G. M., Bilgic, M., Getoor, L., Gallagher, B., & Eliassi-Rad, T. (2008). Collective classification in network data. *AI Magazine*, 29(3), 93-106.
+
+- For **Texas**, **Wisconsin**, and **Cornell**, the citation is:
+  > Pei, H., Wei, B., Chang, K. C. C., Lei, Y., & Yang, B. (2020). Geom-gcn: Geometric graph convolutional networks. In *Proceedings of the 8th International Conference on Learning Representations*.
+
+- For **Actor**, the citation is:
+  > Tang, J., Sun, J., Wang, C., & Yang, Z. (2009). Social influence analysis in large-scale networks. In *Proceedings of the 15th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, 807-816.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured all necessary details regarding the datasets used in the research.

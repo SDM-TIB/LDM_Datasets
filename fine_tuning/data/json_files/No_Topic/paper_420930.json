@@ -1,0 +1,87 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset developed to benchmark LLMs’ medical coaching efficacy, facilitating the development of communicative medical coaching tools for early-career doctors. It comprises 3,500 conversations with 13,666 utterances, based on real-world medical consultations from the MedDialog dataset.",
+        "dcterms:title": "ChatCoach Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://github.com/zerowst/Chatcoach",
+        "dcat:theme": [
+            "Healthcare",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Medical coaching",
+            "Conversational dataset",
+            "Large Language Models",
+            "Communication skills"
+        ],
+        "dcat:landingPage": "https://github.com/zerowst/Chatcoach",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Detection of Medical Terminology Usage Errors",
+            "Correction of Medical Terminology Usage Errors"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Xuehai He",
+            "Shu Chen",
+            "Zeqian Ju",
+            "Xiangyu Dong",
+            "Hongchao Fang",
+            "Sicheng Wang",
+            "Yue Yang",
+            "Jiaqi Zeng",
+            "Ruisi Zhang",
+            "Ruoyu Zhang"
+        ],
+        "dcterms:description": "A corpus of real-world medical consultations used to generate training data for fine-tuning open-source Large Language Models (LLMs). It serves as a primary source for patient queries in the ChatCoach framework.",
+        "dcterms:title": "MedDialog Dataset",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:2004.03329",
+        "dcat:theme": [
+            "Healthcare",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Medical dialogue",
+            "Consultation dataset",
+            "Natural language processing"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/2004.03329",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A database containing comprehensive disease-related information, including symptoms, diagnostic tests, treatments, and medications, used as a source for generating training data in the ChatCoach framework.",
+        "dcterms:title": "Disease Database",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A human-annotated testing dataset compiled to rigorously evaluate LLM’s performance in medical coaching, focusing on the detection and correction of medical terminology misuse.",
+        "dcterms:title": "Human-Annotated Testing Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

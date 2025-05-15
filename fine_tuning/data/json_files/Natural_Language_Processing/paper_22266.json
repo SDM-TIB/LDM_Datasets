@@ -1,0 +1,115 @@
+[
+    {
+        "dcterms:creator": [
+            "T. K. Kilvaer",
+            "N. Shvetsov",
+            "S. M. Dalen"
+        ],
+        "dcterms:description": "The primary dataset comprises complete clinical information and tissue from 553 NSCLC patients treated at the University Hospital of North Norway and Nordland Central Hospital from 1990 to 2010. The WSIs were captured using an Aperio scanner at x40 magnification in *.svs format and are approximately 10^6 x 10^6 pixels at highest resolution.",
+        "dcterms:title": "WSI dataset",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.1093/carcin/bgaa105",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Cancer Research"
+        ],
+        "dcat:keyword": [
+            "Whole Slide Images",
+            "Non-Small Cell Lung Cancer",
+            "Tumor-Infiltrating Lymphocytes"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Tumor Analysis",
+            "Prognostic Evaluation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. A. Borkowski",
+            "M. M. Bui",
+            "L. B. Thomas",
+            "C. P. Wilson",
+            "L. A. DeLand",
+            "S. M. Mastorides"
+        ],
+        "dcterms:description": "An assembly of randomly selected patches from a subset of 194 WSIs derived from the WSI dataset, coupled with lung cancer tiles from the LC25000 dataset. The labeled data comprises various tissue types including necrosis, stroma, normal lung, and tumor tissue patches.",
+        "dcterms:title": "LC25000 dataset",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Cancer Research"
+        ],
+        "dcat:keyword": [
+            "Histopathological Images",
+            "Lung Cancer",
+            "Patch Dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Patch Classification",
+            "TIL Quantification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Gamper"
+        ],
+        "dcterms:description": "The PanNuke dataset is utilized for training a modified version of the HoVer-Net model to delineate cellular structures, classify them, and quantify tumor-infiltrating lymphocytes.",
+        "dcterms:title": "PanNuke dataset",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:2003.10778",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Cancer Research"
+        ],
+        "dcat:keyword": [
+            "Cell Segmentation",
+            "Deep Learning",
+            "Histopathology"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Cell Segmentation",
+            "TIL Quantification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "N. Shvetsov",
+            "T. K. Kilvaer",
+            "S. M. Dalen"
+        ],
+        "dcterms:description": "The UNN-LC High-Resolution Histopathological Lung Tissue Patch Dataset includes high-resolution patches for lung cancer analysis, specifically designed for the study.",
+        "dcterms:title": "UNN-LC High-Resolution Histopathological Lung Tissue Patch Dataset",
+        "dcterms:issued": "2024",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.18710/ZZASBA",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Cancer Research"
+        ],
+        "dcat:keyword": [
+            "Histopathological Patches",
+            "Lung Cancer",
+            "TIL Analysis"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Patch Classification",
+            "TIL Quantification"
+        ]
+    }
+]

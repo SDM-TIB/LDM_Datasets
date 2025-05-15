@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Balancing Exploration and Exploitation in LLM using Soft RLLF for Enhanced Negation Understanding" by Ha-Thanh Nguyen and Ken Satoh, I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract mentions the use of a benchmark dataset for training and evaluation, which indicates that datasets are involved. I will look for specific names and descriptions of datasets in these sections.
+
+In the **introduction**, the authors reference several datasets that are used to enhance language models' capabilities in handling negation. I will note these datasets as they are mentioned.
+
+Next, I will focus on **section 4 (Experiment)**, where the authors explicitly list the datasets used in their experiments. Here, they mention three datasets:
+
+1. **Ruletaker Dataset**: This dataset is used to train the reward model and contains 480,000 training samples, 76,000 development samples, and 150,000 test samples. It is designed to test reasoning over synthetically generated natural language sentences.
+
+2. **Jina Dataset**: This dataset is used for transfer learning and consists of 10,000 samples. It consolidates various retrieval objectives and is reformatted into sentence pairs for negation analysis.
+
+3. **xNot360 Dataset**: This dataset serves two purposes: evaluating the performance of the model and providing queries for the RLLF process. It contains 360 samples designed to test logical understanding through negation.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For the **Ruletaker Dataset**, the citation is:
+  > Clark, P., Tafjord, O., Richardson, K. (2020). Transformers as soft reasoners over the Twenty-Ninth International Joint Conference on Artificial Intelligence. In Proceedings of the International Joint Conferences on Artificial Intelligence Organization. https://doi.org/10.24963/ijcai.2020/537.
+
+- For the **Jina Dataset**, the citation is:
+  > Günther, M., Milliken, L., Geuter, J., Mastrapas, G., Wang, B., Xiao, H. (2023). Jina embeddings: A novel set of high-performance sentence embedding models. arXiv preprint arXiv:2307.11224.
+
+- For the **xNot360 Dataset**, the citation is:
+  > Nguyen, H.T., Goebel, R., Toni, F., Stathis, K., Satoh, K. (2023). A negation detection assessment of GPTs: analysis with the xNot360 dataset. arXiv preprint arXiv:2306.16638.
+
+Now that I have gathered the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets and their respective references from the paper.

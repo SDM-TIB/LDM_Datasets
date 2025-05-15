@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Dual-stream Multiple Instance Learning Network for Whole Slide Image Classification with Self-supervised Contrastive Learning" by Bin Li et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the method is evaluated on two public WSI datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4 (Experiments and Results)**, where the authors typically describe the datasets used for their evaluations. In this section, they mention two datasets:
+
+1. **Camelyon16**: This dataset is used for metastasis detection in breast cancer and consists of 271 training images and 129 testing images, yielding approximately 3.2 million patches at 20× magnification. The authors note that tumor regions are fully labeled with pixel-level annotations, but they only use slide-level labels for training.
+
+2. **TCGA Lung Cancer**: This dataset includes 1054 diagnostic digital slides from two sub-types of lung cancer (Lung Adenocarcinoma and Lung Squamous Cell Carcinoma). The authors mention that they randomly split the WSIs into 840 training slides and 210 testing slides, with a total of 5.2 million patches at 20× magnification.
+
+After identifying the datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For **Camelyon16**, the citation is:
+  > Babak Ehteshami Bejnordi et al. "Diagnostic Assessment of Deep Learning Algorithms for Detection of Lymph Node Metastases in Women With Breast Cancer." *JAMA*, 318(22):2199–2210, 2017.
+
+- For **TCGA Lung Cancer**, the citation is:
+  > The Cancer Genome Atlas Research Network. "Comprehensive Molecular Characterization of Lung Adenocarcinoma." *Nature*, 511(7511):543–550, 2014.
+
+Now that I have the datasets and their citations, I will compile this information into a structured format for further use. This includes ensuring that each dataset is clearly described along with its full citation for proper attribution.

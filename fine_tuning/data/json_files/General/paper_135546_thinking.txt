@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Biomedical knowledge graph-optimized prompt generation for large language models" by Karthik Soman et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by reading the **abstract** and **introduction** sections to get an overview of the study's objectives and the datasets that may be referenced. The abstract mentions benchmarking on human-curated datasets, specifically **biomedical true/false and multiple-choice questions (MCQ)**, which indicates that these datasets are important for the research.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **methods** or **results** sections. In the **results** section, the authors discuss the performance of their framework on the True/False and MCQ datasets, which confirms their significance in the study.
+
+In the **Materials and Methods** section, the authors provide details about the datasets used for benchmarking. They mention that the True/False dataset was created from three external sources: **DisGeNET**, **MONDO**, and **SemMedDB**. They also describe the MCQ dataset, which was created using data from the **Monarch Initiative** and **ROBOKOP**.
+
+Now, I will gather the full citations for these datasets from the **References section**:
+
+1. **True/False Dataset**:
+   - **DisGeNET**: 
+     > Piñero J, Bravo À, Queralt-Rosinach N et al. DisGeNET: a comprehensive platform integrating information on human disease-associated genes and variants. *Nucleic Acids Res* 2016;45:D833–9.
+   - **MONDO**: 
+     > Vasilevsky NA, Matentzoglu NA, Toro S et al. Mondo: Unifying diseases for the world, by the world. *medRxiv* 2022:2022.04.13.22273750.
+   - **SemMedDB**: 
+     > Kilicoglu H, Shin D, Fiszman M et al. SemMedDB: a PubMed-scale repository of biomedical semantic predications. *Bioinformatics* 2012;28:3158–60.
+
+2. **MCQ Dataset**:
+   - **Monarch Initiative**: 
+     > Mungall CJ, McMurry JA, Köhler S et al. The Monarch Initiative: an integrative data and analytic platform connecting phenotypes to genotypes across species. *Nucleic Acids Res* 2017;45:D712–22.
+   - **ROBOKOP**: 
+     > Bizon C, Cox S, Balhoff J et al. ROBOKOP KG and KGB: Integrated Knowledge Graphs from Federated Sources. *J Chem Inf Model* 2019;59:4968–73.
+
+Additionally, the authors mention that they created a **RAG comparison dataset** based on Disease-Gene associations from the SPOKE graph, but they do not provide a specific citation for this dataset as it is derived from their own work.
+
+Finally, I will compile the dataset entries, ensuring that each dataset is accurately described and that the full citations are included for reference. This will provide a comprehensive overview of the datasets utilized in the research.

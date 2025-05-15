@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "Towards Efficient Fine-tuning of Pre-trained Code Models: An Experimental Study and Beyond" by Ensheng Shi et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper. The abstract mentions conducting experiments on five various downstream tasks, which suggests that datasets are involved. I will look for specific names of datasets in these sections.
+
+Next, I will focus on the **experimental sections**, particularly **Section 3 (Experimental Study)** and **Section 4 (Efficient Fine-tuning)**, where the authors describe the tasks and datasets used. In **Table 1**, the authors provide an overview of the downstream tasks, including the datasets associated with each task. Here are the datasets I will extract:
+
+1. **CodeSearchNet**: This dataset is used for code search tasks and includes Python and Ruby programming languages. The paper states that it contains 251K/9.6K/1K samples for Python and 24.9K/1.4K/1.3K samples for Ruby.
+
+2. **BigCloneBench**: This dataset is utilized for clone detection tasks, containing 901K/416K/416K samples in Java.
+
+3. **CONCODE**: This dataset is used for code generation tasks, with 100K/2K/2K samples.
+
+4. **POJ-104**: This dataset is mentioned for semantic probing, consisting of 104 problems with 500 C/C++ implementations for each problem.
+
+5. **GitHub Java Corpus**: This dataset is used for line-level code completion tasks, with 12K/1.5K/1.5K samples.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For **CodeSearchNet**, the citation is:
+  > Husain, H., Wu, H.-H., Gazit, T., Allamanis, M., & Brockschmidt, M. (2019). CodeSearchNet Challenge: Evaluating the State of Semantic Code Search. CoRR, abs/1909.09436.
+
+- For **BigCloneBench**, the citation is:
+  > Svajlenko, J., Islam, J. F., Keivanloo, I., Roy, C. K., & Mia, M. M. (2014). Towards a big data curated benchmark of inter-project code clones. In 2014 IEEE International Conference on Software Maintenance and Evolution (ICSME), 476–480.
+
+- For **CONCODE**, the citation is:
+  > Iyer, S., Konstas, I., Cheung, A., & Zettlemoyer, L. (2018). Mapping Language to Code in Programmatic Context. In EMNLP, 1643–1652.
+
+- For **POJ-104**, the citation is:
+  > Mou, L., Li, G., Zhang, L., Wang, T., & Jin, Z. (2016). Convolutional neural networks over tree structures for programming language processing. In Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence, 1287–1293.
+
+- For **GitHub Java Corpus**, the citation is:
+  > Svyatkovskiy, A., Deng, S. K., Fu, S. Y., & Sundaresan, N. (2020). Intellicode compose: Code generation using transformer. In Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering, 1433–1443.
+
+Now, I will compile the dataset entries with their respective citations into a structured format for further processing.

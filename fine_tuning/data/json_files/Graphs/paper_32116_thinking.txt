@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Sequential Graph Neural Networks for Source Code Vulnerability Identification" by Ammar Ahmed et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and dataset sections** of the paper. The abstract mentions the introduction of a curated dataset called **CVEFunctionGraphEmbeddings (CVEFGE)**, which is a strong indication that this is a primary dataset used in the research.
+
+Next, I will focus on the **introduction section**, where the authors discuss the challenges of vulnerability identification and the need for reliable datasets. They specifically mention the **CVEFGE** dataset, which they have curated from the CVE database, indicating its significance in their work.
+
+In the **dataset curation section (Section 3)**, the authors provide detailed information about the **CVEFGE** dataset. They describe the dataset's characteristics, including the number of instances, types of vulnerabilities, and the process of how the dataset was collected from the CVE database. This section is crucial as it provides the necessary details for describing the dataset.
+
+The authors also mention another dataset, **Big-Vul**, in the context of their experiments. They compare their proposed dataset, CVEFGE, with Big-Vul, indicating that both datasets were used for evaluation purposes.
+
+Now, I will gather the full citations for both datasets from the **References section** of the paper:
+
+1. **CVEFunctionGraphEmbeddings (CVEFGE)**: Since this dataset is newly introduced in the paper, it does not have a separate citation in the references. However, I will note that it is derived from the CVE database, which is referenced in the paper:
+   > CVE. 1999. Common Vulnerabilities and Exposures. MITRE corporation. https://www.cve.org/
+
+2. **Big-Vul**: The citation for this dataset is:
+   > Jiahao Fan, Yi Li, Shaohua Wang, and Tien N Nguyen. 2020. AC/C++ Code Vulnerability Dataset with Code Changes and CVE Summaries. In Proceedings of the 17th International Conference on Mining Software Repositories. ACM, NY, USA, 508–512.
+
+After collecting this information, I will summarize the datasets as follows:
+
+- **CVEFunctionGraphEmbeddings (CVEFGE)**: A curated dataset of C/C++ source code vulnerabilities collected from the CVE database, containing a rich set of open-source functions and their control flow graphs.
+
+- **Big-Vul**: A dataset containing vulnerable source codes and their fixed versions, which has been used for comparison in the experiments.
+
+Finally, I will compile the dataset entries into a structured format for further processing or review.

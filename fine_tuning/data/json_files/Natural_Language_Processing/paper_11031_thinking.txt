@@ -1,0 +1,42 @@
+To extract datasets from the research paper titled "BitE: Accelerating Learned Query Optimization in a Mixed-Workload Environment" by Yewon Choi et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to gather initial insights about the datasets used. The abstract mentions the introduction of BitE and its application in query optimization, but it does not specify datasets. Therefore, I will need to look deeper into the paper.
+
+Next, I will focus on **section 4 (Learning Requirements)**, where the authors describe the datasets used for training their model. Here, they provide a detailed list of workloads and datasets, which includes:
+
+1. **JOB Dataset**: This dataset consists of 113 queries from the IMDB dataset, which is an augmentation of the Join Order Benchmark. It is crucial for evaluating query optimization performance.
+
+2. **JOB-light Dataset**: This dataset contains 70 queries with a 6 table-schema, commonly used in cardinality estimation studies.
+
+3. **JOB-light-ranges Dataset**: This dataset includes more complex filters based on the JOB-light dataset.
+
+4. **JOB-M Dataset**: This dataset contains more complicated join conditions, with each query joining 2-11 tables.
+
+5. **JOB-Extended Dataset**: This dataset uses the same relations as JOB but with different semantics.
+
+6. **TPCH Dataset**: A decision support benchmark with 22 queries, which has various scaling factors (e.g., SF1, SF10, SF100).
+
+7. **TPCDS Dataset**: Another decision support benchmark with 99 queries, also featuring different scaling factors.
+
+8. **JCCH Dataset**: A skewed version of the TPCH SF10 schemas, using the same TPCH queries.
+
+9. **STACK Dataset**: A real-world dataset and workload referenced from the Bao paper.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For the **JOB Dataset**: 
+  > Ryan Marcus, Parimarjan Negi, Hongzi Mao, Nesime Tatbul, Mohammad Alizadeh, and Tim Kraska. *Bao: Making Learned Query Optimization Practical*. In Proceedings of the 2021 International Conference on Management of Data (SIGMOD ’21), June 20–25, 2021, Virtual Event, China. ACM, New York, NY, USA.
+
+- For the **TPCH Dataset**: 
+  > TPC Benchmark H (TPCH). *http://www.tpc.org/tpch/*.
+
+- For the **TPCDS Dataset**: 
+  > Raghunath Othayoth Nambiar and Meikel Poess. *The making of TPC-DS*. In Proceedings of the 32nd international conference on Very large data bases (VLDB ’06). VLDB Endowment, 1049–1058.
+
+- For the **JCCH Dataset**: 
+  > Boncz, P., Anatiotis, A.C., Kläbe, S. (2018). JCC-H: Adding Join Crossing Correlations with Skew to TPC-H. In: Nambiar, R., Poess, M. (eds) Performance Evaluation and Benchmarking for the Analytics Era. TPCTC 2017. Lecture Notes in Computer Science(), vol 10661. Springer, Cham.
+
+- For the **STACK Dataset**: 
+  > Ryan Marcus et al. *Bao: Making Learned Query Optimization Practical*. In Proceedings of the 2021 International Conference on Management of Data (SIGMOD ’21).
+
+Now, I will compile the dataset entries with their respective citations into a structured format for further processing.

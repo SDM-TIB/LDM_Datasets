@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "LightStereo: Channel Boost Is All Your Need for Efficient 2D Cost Aggregation" by Xianda Guo et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that LightStereo achieves competitive performance on the **SceneFlow datasets** and **KITTI** benchmarks, indicating that these are the datasets used for evaluation.
+
+Next, I will focus on the **experiments section**, specifically **section 4.1 (Datasets and Evaluation Metrics)**, where the authors provide detailed descriptions of the datasets used:
+
+1. **SceneFlow Dataset**: This dataset is described as a synthetic stereo collection that includes 35,454 training image pairs and 4,370 testing image pairs, with a resolution of 960×540. It provides dense disparity maps as ground truth and is categorized into cleanpass and finalpass images.
+
+2. **KITTI Dataset**: The paper references two subsets of the KITTI dataset:
+   - **KITTI 2012**: Contains 194 training and 195 testing image pairs, providing sparse ground-truth disparities.
+   - **KITTI 2015**: Offers 200 image pairs for both training and testing, also with sparse ground-truth disparities.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For the **SceneFlow Dataset**, the citation is:
+  > Nikolaus Mayer, Eddy Ilg, Philip Hausser, Philipp Fischer, Daniel Cremers, Alexey Dosovitskiy, and Thomas Brox. *A large dataset to train convolutional networks for disparity, optical flow, and scene flow estimation*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016.
+
+- For the **KITTI Dataset**, the citation for KITTI 2012 is:
+  > Andreas Geiger, Philip Lenz, and Raquel Urtasun. *Are we ready for autonomous driving? The KITTI vision benchmark suite*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2012.
+
+And for KITTI 2015:
+  > Moritz Menze and Andreas Geiger. *Object scene flow for autonomous vehicles*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015.
+
+Having gathered the necessary information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research.

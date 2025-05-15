@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "HoughCL: Finding Better Positive Pairs in Dense Self-supervised Learning" by Yunsung Lee et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the performance of the proposed method on various datasets, which indicates that datasets are likely included in the paper.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors detail their experimental setup. In **section 4.1 (Pre-training Setup)**, they mention three datasets used for pre-training: 
+
+1. **COCO**: The authors describe it as consisting of about 118K training images containing common objects in complex everyday scenes.
+2. **ImageNet**: This dataset is noted to have about 1.28M training images across 1K image classes.
+3. **Tiny ImageNet**: This is described as a miniature version of ImageNet, containing 100K training images of size 64×64 in 200 image classes.
+
+In **section 4.2 (Fine-tuning Setup)**, the authors mention that they evaluate their pre-trained model on three downstream tasks, which include datasets used for fine-tuning:
+
+1. **PASCAL VOC**: This dataset is referenced in the context of object detection and is known for its visual object classes challenge.
+2. **COCO**: Again mentioned as a dataset for both object detection and instance segmentation.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **COCO**, the citation is:
+  > Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollár, P., and Zitnick, C. L. *Microsoft COCO: Common objects in context*. In European Conference on Computer Vision, pp. 740–755, 2014.
+
+- For **ImageNet**, the citation is:
+  > Deng, J., Dong, W., Socher, R., Li, L.-J., Li, K., and Fei-Fei, L. *ImageNet: A large-scale hierarchical image database*. In 2009 IEEE Conference on Computer Vision and Pattern Recognition, pp. 248–255, 2009.
+
+- For **Tiny ImageNet**, the citation is:
+  > Le, Y. and Yang, X. *Tiny ImageNet Visual Recognition Challenge*. CS 231N, 7:7, 2015.
+
+- For **PASCAL VOC**, the citation is:
+  > Everingham, M., Van Gool, L., Williams, C. K., Winn, J., and Zisserman, A. *The PASCAL Visual Object Classes (VOC) Challenge*. International Journal of Computer Vision, 88(2):303–338, 2010.
+
+With this information, I will compile the dataset entries, ensuring that each dataset is accurately described and includes its full citation. This will provide a comprehensive overview of the datasets used in the research paper.

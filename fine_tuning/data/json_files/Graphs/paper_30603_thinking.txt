@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "CLOP: Video-and-Language Pre-Training with Knowledge Regularizations" by Guohao Li et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions evaluating the method on "four text-video retrieval tasks and one multi-choice QA task," which suggests that there are datasets involved, but I need to identify them specifically.
+
+Next, I will focus on the **experiments section** (Section 4), where the authors typically describe the datasets used for evaluation. In **Section 4.1 (Experiment Settings)**, the authors mention the use of the **WebVid2M dataset** for pre-training, which consists of 2.5 million video-text pairs scraped from the web. This is a significant dataset for their work.
+
+Continuing in **Section 4.2 (Overall Results on End Tasks)**, the authors list several datasets used for evaluation:
+
+1. **MSRVTT**: A well-known dataset for text-video retrieval, consisting of 10,000 videos, each associated with 20 text descriptions. The authors follow the official 1k-A split for training and evaluation.
+
+2. **MSVD**: This dataset contains 1,970 videos with about 40 text descriptions per video, split into training, validation, and testing sets.
+
+3. **VATEX**: A large-scale multilingual video-text dataset containing 34,991 videos, with specific splits for training, validation, and testing.
+
+4. **DiDeMo**: This dataset includes 10,000 flickr videos and 40,000 localized text annotations, used for paragraph-to-video retrieval tasks.
+
+5. **MSRVTT Multi-choice QA**: This task uses the MSRVTT training videos and evaluates video-text relevance similar to retrieval tasks.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **WebVid2M**, the citation is:
+  > Miech, A., Zhukov, D., Alayrac, J.-B., Tapaswi, M., Laptev, I., & Sivic, J. (2019). Howto100m: Learning a text-video embedding by watching hundred million narrated video clips. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2630–2640.
+
+- For **MSRVTT**, the citation is:
+  > Xu, J., Mei, T., Yao, T., & Rui, Y. (2016). MSR-VTT: A large video description dataset for bridging video and language. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 5288–5296.
+
+- For **MSVD**, the citation is:
+  > Chen, D., & Dolan, W. B. (2011). Collecting highly parallel data for paraphrase evaluation. In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies, 190–200.
+
+- For **VATEX**, the citation is:
+  > Wang, X., Wu, J., Chen, J., Li, L., Wang, Y.-F., & Wang, W. Y. (2019). VATEX: A large-scale, high-quality multilingual dataset for video-and-language research. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 4581–4591.
+
+- For **DiDeMo**, the citation is:
+  > Hendricks, L. A., Wang, O., Shechtman, E., Sivic, J., Darrell, T., & Russell, B. (2017). Localizing moments in video with natural language. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), 5803–5812.
+
+After gathering this information, I will compile the dataset entries with their full citations to ensure they are ready for any required structured output or further processing.

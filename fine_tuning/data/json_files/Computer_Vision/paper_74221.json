@@ -1,0 +1,125 @@
+[
+    {
+        "dcterms:creator": [
+            "C.I. Nwoye",
+            "T. Yu",
+            "C. Gonzalez",
+            "B. Seeliger",
+            "P. Mascagni",
+            "D. Mutter",
+            "J. Marescaux",
+            "N. Padoy"
+        ],
+        "dcterms:description": "A collection of 50 laparoscopic cholecystectomy surgery videos with a total of 100,863 frames, each labeled with surgical action text triplets in the format <tool, verb, target>.",
+        "dcterms:title": "CholecT50",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Surgical Video Analysis",
+            "Medical Imaging"
+        ],
+        "dcat:keyword": [
+            "Laparoscopic surgery",
+            "Surgical action recognition",
+            "Video dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Video",
+        "mls:task": [
+            "Surgical action recognition"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A.P. Twinanda",
+            "S. Shehata",
+            "D. Mutter",
+            "J. Marescaux",
+            "M. de Mathelin",
+            "N. Padoy"
+        ],
+        "dcterms:description": "A superset of CholecT50 comprised of 80 videos, annotated with labels of surgical phases and tool presence.",
+        "dcterms:title": "Cholec80",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Surgical Video Analysis",
+            "Medical Imaging"
+        ],
+        "dcat:keyword": [
+            "Laparoscopic surgery",
+            "Surgical phase recognition",
+            "Video dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Video",
+        "mls:task": [
+            "Surgical phase recognition"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Hong",
+            "C. Kao",
+            "Y. Kuo",
+            "J. Wang",
+            "W. Chang",
+            "C. Shih"
+        ],
+        "dcterms:description": "A semantic segmentation dataset for laparoscopic cholecystectomy based on Cholec80, containing 8000 semantically segmented images.",
+        "dcterms:title": "CholecSeg8k",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Semantic Segmentation"
+        ],
+        "dcat:keyword": [
+            "Laparoscopic surgery",
+            "Semantic segmentation",
+            "Image dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Semantic segmentation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "M.K. Hasan",
+            "L. Calvet",
+            "N. Rabbani",
+            "A. Bartoli"
+        ],
+        "dcterms:description": "A dataset for detection, segmentation, and 3D pose estimation of surgical tools using convolutional neural networks and algebraic geometry.",
+        "dcterms:title": "ART-Net",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical Imaging",
+            "Tool Detection"
+        ],
+        "dcat:keyword": [
+            "Surgical tools",
+            "Detection",
+            "Segmentation",
+            "Image dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Tool detection",
+            "Segmentation",
+            "3D pose estimation"
+        ]
+    }
+]

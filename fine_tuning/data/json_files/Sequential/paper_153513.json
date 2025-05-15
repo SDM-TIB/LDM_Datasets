@@ -1,0 +1,164 @@
+[
+    {
+        "dcterms:creator": [
+            "T. Mikolov",
+            "A. Deoras",
+            "S. Kombrink",
+            "L. Burget",
+            "J. Černocký"
+        ],
+        "dcterms:description": "The Penn TreeBank (PTB) dataset contains the Penn Treebank portion of the Wall Street Journal corpus, pre-processed to consist of 929k tokens for training, 73k for validation, and 82k for testing. It has a limited context due to its sentence structure.",
+        "dcterms:title": "Penn TreeBank (PTB)",
+        "dcterms:issued": "2011",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Language Modeling"
+        ],
+        "dcat:keyword": [
+            "Word-level language modeling",
+            "Tokenization",
+            "Corpus"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Language Modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Merity",
+            "C. Xiong",
+            "J. Bradbury",
+            "R. Socher"
+        ],
+        "dcterms:description": "WikiText-103 consists of 28,475 good and featured articles from Wikipedia, containing 103 million tokens. It is designed for long-term dependency tasks and has a vocabulary size of 267,735 after replacing infrequent tokens with an <unk> token.",
+        "dcterms:title": "WikiText-103",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Language Modeling"
+        ],
+        "dcat:keyword": [
+            "Long-term dependency",
+            "Wikipedia articles",
+            "Tokenization"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Language Modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Merity",
+            "C. Xiong",
+            "J. Bradbury",
+            "R. Socher"
+        ],
+        "dcterms:description": "WikiText-2 is a smaller version of WikiText-103, containing 2 million tokens and a vocabulary size of 33,278. It is used for language modeling tasks.",
+        "dcterms:title": "WikiText-2",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Language Modeling"
+        ],
+        "dcat:keyword": [
+            "Shorter version",
+            "Wikipedia articles",
+            "Tokenization"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Language Modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Z. Dai",
+            "Z. Yang",
+            "Y. Yang",
+            "W. W. Cohen",
+            "J. Carbonell",
+            "Q. V. Le",
+            "R. Salakhutdinov"
+        ],
+        "dcterms:description": "The One-Billion Word (1Billion) dataset consists of 829 million tokens over a vocabulary of 793K. The sentences in this dataset are shuffled, which limits the context available for language modeling.",
+        "dcterms:title": "One-Billion Word (1Billion)",
+        "dcterms:issued": "2019",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Language Modeling"
+        ],
+        "dcat:keyword": [
+            "Large dataset",
+            "Tokenization",
+            "Shuffled sentences"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Language Modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "SimpleBooks-92 is a dataset created from 1,573 Gutenberg books, containing 92 million tokens. It is designed to have a high average word frequency while maintaining a smaller vocabulary size of 98K.",
+        "dcterms:title": "SimpleBooks-92",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://dldata-public.s3.us-east-2.amazonaws.com/simplebooks.zip",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Language Modeling"
+        ],
+        "dcat:keyword": [
+            "Gutenberg books",
+            "Word-level language modeling",
+            "High frequency"
+        ],
+        "dcat:landingPage": "https://dldata-public.s3.us-east-2.amazonaws.com/simplebooks.zip",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Language Modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "SimpleBooks-2 is a smaller version of SimpleBooks-92, containing 2 million tokens and designed to have a vocabulary size that is one third of that of WikiText-2.",
+        "dcterms:title": "SimpleBooks-2",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Language Modeling"
+        ],
+        "dcat:keyword": [
+            "Gutenberg books",
+            "Word-level language modeling",
+            "Small dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Language Modeling"
+        ]
+    }
+]

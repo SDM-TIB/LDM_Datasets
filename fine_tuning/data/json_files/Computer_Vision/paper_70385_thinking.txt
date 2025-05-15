@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "V3D: Video Diffusion Models are Effective 3D Generators" by Zilong Chen et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to locate any references to datasets. The abstract mentions the use of "3D datasets" for fine-tuning the video diffusion model, which indicates that specific datasets are likely discussed later in the paper.
+
+Next, I will focus on the **methodology section**, particularly the subsections that detail the data used for training and evaluation. In section 3.2, the authors mention fine-tuning the model on the **Objaverse dataset**, which is described as containing synthetic 3D triangle meshes. They also specify that they curated a subset of approximately 290k high-quality meshes for their experiments.
+
+In section 3.4, the authors discuss fine-tuning on the **MVImgNet dataset**, which consists of 219k posed real-world video clips. This dataset is crucial for scene-level novel view synthesis, as it provides the necessary input for the model to generate images along a camera path.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+1. **Objaverse Dataset**: The citation is:
+   > Deitke, M., Schwenk, D., Salvador, J., Weihs, L., Michel, O., VanderBilt, E., Schmidt, L., Ehsani, K., Kembhavi, A., Farhadi, A. "Objaverse: A universe of annotated 3D objects." arXiv preprint arXiv:2212.08051 (2022).
+
+2. **MVImgNet Dataset**: The citation is:
+   > Yu, X., Xu, M., Zhang, Y., Liu, H., Ye, C., Wu, Y., Yan, Z., Liang, T., Chen, G., Cui, S., Han, X. "MVImgNet: A large-scale dataset of multi-view images." In: CVPR (2023).
+
+After gathering this information, I will summarize the datasets and their citations clearly, ensuring that each dataset is accurately represented with its full citation for future reference or processing.

@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Rethinking Vision Transformer and Masked Autoencoder in Multimodal Face Anti-Spoofing" by Zitong Yu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the research focus, and the introduction often discusses the datasets used in the context of the research problem.
+
+In the **introduction**, the authors mention the need for robust face anti-spoofing (FAS) systems and refer to existing multimodal datasets. I will look for specific names of datasets in this section.
+
+Next, I will focus on **section 4.1 (Datasets and Performance Metrics)**, where the authors explicitly list the datasets used for their experiments. Here, they mention three datasets:
+
+1. **WMCA**: This dataset contains a wide variety of 2D and 3D presentation attacks and is used for both seen and unseen attack protocols.
+
+2. **MmFA**: This dataset consists of 1,000 subjects with 21,000 videos, each sample having three modalities. It has an official intra-testing protocol.
+
+3. **CeFA**: This is the largest multimodal FAS dataset, covering three ethnicities, three modalities, 1,607 subjects, and 34,200 videos. It is used for self-supervised pre-training.
+
+In the **experiments section**, the authors confirm that they conducted intra- and cross-dataset testing on WMCA and MmFA, while CeFA is used for self-supervised pre-training. This reinforces the importance of these datasets in their research.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For **WMCA**, the citation is:
+  > Shifeng Zhang, Xiaobo Wang, Ajian Liu, Chenxu Zhao, Jun Wan, Sergio Escalera, Hailin Shi, Zezheng Wang, and Stan Z Li. *A dataset and benchmark for large-scale multi-modal face anti-spoofing*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
+
+- For **MmFA**, the citation is:
+  > Shifeng Zhang, Ajian Liu, Jun Wan, Yanyan Liang, Guodong Guo, Sergio Escalera, Hugo Jair Escalante, and Stan Z Li. *Casia-surf: A large-scale multi-modal benchmark for face anti-spoofing*. IEEE Transactions on Biometrics, Behavior, and Identity Science (TBIOM), 2(2):182–193, 2020.
+
+- For **CeFA**, the citation is:
+  > Ajian Liu, Zichang Tan, Jun Wan, Sergio Escalera, Guodong Guo, and Stan Z Li. *Casia-surf cefa: A benchmark for multi-modal cross-ethnicity face anti-spoofing*. In Proceedings of the IEEE Winter Conference on Applications of Computer Vision (WACV), 2021.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will facilitate further research and validation of the findings presented in the paper.

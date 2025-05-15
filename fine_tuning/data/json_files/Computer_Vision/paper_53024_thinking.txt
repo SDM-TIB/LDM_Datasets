@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Semantic Segmentation for Point Cloud Scenes via Dilated Graph Feature Aggregation and Pyramid Decoders" by Yongqiang Mao et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that experiments were conducted on **S3DIS, ShapeNetPart, and Toronto-3D**, which suggests these are the datasets used.
+
+Next, I will look for specific details about these datasets in the **Datasets section** of the paper. In the experiments section, the authors explicitly mention:
+
+1. **S3DIS (Stanford Large-Scale 3D Indoor Spaces)**: This dataset consists of 3D RGB point clouds collected from 271 rooms. The authors specify that they follow PointNet++ for evaluation, using Area-5 as the testing set.
+
+2. **ShapeNetPart**: This dataset contains 16,881 models divided into 16 categories, with 50 parts annotated. The authors mention that 2048 points are sampled from each shape for the segmentation task.
+
+3. **Toronto-3D**: This dataset is collected from a region in Toronto and is divided into 4 areas, with L002 designated as the testing set.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **S3DIS**, the citation is:
+  > Armeni, I., Sener, O., Zamir, A. R., Jiang, H., Brilakis, I., Fischer, M., & Savarese, S. (2016). 3D semantic parsing of large-scale indoor spaces. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 1534–1543.
+
+- For **ShapeNetPart**, the citation is:
+  > Yi, L., Kim, V. G., Ceylan, D., Shen, I.-C., Yan, M., Su, H., Lu, C., Huang, Q., Sheffer, A., & Guibas, L. J. (2016). A scalable active framework for region annotation in 3D shape collections. ACM Transactions on Graphics (ToG), 35(6), 1–12.
+
+- For **Toronto-3D**, the citation is:
+  > Tan, W., Qin, N., Ma, L., Li, Y., Du, J., Cai, G., Yang, K., & Li, J. (2020). Toronto-3D: A large-scale mobile lidar dataset for semantic segmentation of urban roadways. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, 202–203.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This structured approach will ensure that I accurately capture all relevant details about the datasets used in the research paper.

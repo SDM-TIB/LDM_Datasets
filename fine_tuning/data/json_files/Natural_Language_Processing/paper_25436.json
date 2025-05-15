@@ -1,0 +1,122 @@
+[
+    {
+        "dcterms:creator": [
+            "Chongming Gao",
+            "Shijun Li",
+            "Wenqiang Lei",
+            "Jiawei Chen",
+            "Biao Li",
+            "Peng Jiang",
+            "Xiangnan He",
+            "Jiaxin Mao",
+            "Tat-Seng Chua"
+        ],
+        "dcterms:description": "A video dataset that contains a fully-observed user-item interaction matrix used for evaluation. Within this matrix, each user’s feedback towards any item is known. The normalized viewing time of a video is used as a reward signal.",
+        "dcterms:title": "KuaiRec",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Recommender Systems",
+            "Video Dataset"
+        ],
+        "dcat:keyword": [
+            "User-item interaction",
+            "Video recommendations",
+            "Normalized viewing time"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Recommendation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Chongming Gao",
+            "Shijun Li",
+            "Yuan Zhang",
+            "Jiawei Chen",
+            "Biao Li",
+            "Wenqiang Lei",
+            "Peng Jiang",
+            "Xiangnan He"
+        ],
+        "dcterms:description": "A video dataset that contains user-item interaction collected by randomly inserting the target videos in the standard recommendation stream. This part is used to simulate a fully observed interaction matrix like KuaiRec for evaluation, while the data collected in the standard stream serves as the training set.",
+        "dcterms:title": "KuaiRand-Pure",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Recommender Systems",
+            "Video Dataset"
+        ],
+        "dcat:keyword": [
+            "User-item interaction",
+            "Randomly exposed videos",
+            "Recommendation simulation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Recommendation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Tobias Schnabel",
+            "Adith Swaminathan",
+            "Ashudeep Singh",
+            "Navin Chandak",
+            "Thorsten Joachims"
+        ],
+        "dcterms:description": "A shopping dataset consisting of user ratings on self-selected items and uniformly sampled ones. These two parts of data are used for training and testing, respectively. The ratings are used as reward signals.",
+        "dcterms:title": "Coat",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Recommender Systems",
+            "Shopping Dataset"
+        ],
+        "dcat:keyword": [
+            "User ratings",
+            "Shopping recommendations",
+            "Reward signals"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Recommendation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Benjamin M Marlin",
+            "Richard S Zemel"
+        ],
+        "dcterms:description": "A music dataset with training set and testing set collection similar to Coat. The ratings on the user-selected items are used for training, while those on the randomly picked items are for testing. Similarly, the ratings are treated as reward signals.",
+        "dcterms:title": "Yahoo",
+        "dcterms:issued": "2009",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Recommender Systems",
+            "Music Dataset"
+        ],
+        "dcat:keyword": [
+            "User ratings",
+            "Music recommendations",
+            "Reward signals"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Recommendation"
+        ]
+    }
+]

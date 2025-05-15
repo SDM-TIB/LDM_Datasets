@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "MotionCtrl: A Unified and Flexible Motion Controller for Video Generation" by Zhouxia Wang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract provides a brief overview of the paper's contributions and may mention datasets used for training or evaluation. In this case, the abstract discusses the need for datasets with annotations for camera poses and object movement trajectories, indicating that datasets are indeed involved.
+
+Next, I will focus on the **methodology section**, particularly the subsections that detail the Camera Motion Control Module (CMCM) and Object Motion Control Module (OMCM). Here, the authors describe the datasets used for training these modules. 
+
+1. **Realestate10K Dataset**: The authors mention using the Realestate10K dataset, which contains 62,992 video clips with diverse camera poses. They also note that captions are generated using Blip2 for each video clip. This dataset is crucial for training the CMCM module.
+
+2. **WebVid Dataset**: The paper discusses augmenting the WebVid dataset to create a new dataset with object movement trajectories. The authors use ParticleSfM to extract these trajectories, which are essential for training the OMCM module.
+
+In the **experiments section**, the authors evaluate their model using specific datasets, which further confirms the datasets mentioned earlier.
+
+Now, I will check the **References section** to gather the full citations for the datasets:
+
+- For the **Realestate10K dataset**, the citation is:
+  > Tinghui Zhou, Richard Tucker, John Flynn, Graham Fyffe, and Noah Snavely. *Learning view synthesis using multiplane images*. arXiv preprint arXiv:1805.09817, 2018.
+
+- For the **WebVid dataset**, the citation is:
+  > Max Bain, Arsha Nagrani, Gül Varol, and Andrew Zisserman. *Frozen in time: A joint video and image encoder for end-to-end retrieval*. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 1728–1738, 2021.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This structured approach will ensure that I accurately capture the datasets used in the research paper.

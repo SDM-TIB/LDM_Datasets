@@ -1,0 +1,72 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "County level data collected for each of Iowa’s 99 counties from 1980 to 2016, used for training and forecasting corn yields.",
+        "dcterms:title": "Iowa County-Level Corn Yield Data",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://quickstats.nass.usda.gov/",
+        "dcat:theme": ["Agriculture", "Yield Prediction"],
+        "dcat:keyword": ["Corn yield", "County-level data", "Agricultural statistics"],
+        "dcat:landingPage": "http://quickstats.nass.usda.gov/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": ["Yield prediction"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Hourly weather data purchased from Weather Underground, representing weather conditions over a mile area, used to reflect the growing season.",
+        "dcterms:title": "Hourly Weather Data",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.wunderground.com/history/",
+        "dcat:theme": ["Meteorology", "Weather Data"],
+        "dcat:keyword": ["Hourly weather", "Weather conditions", "Growing season"],
+        "dcat:landingPage": "https://www.wunderground.com/history/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": ["Weather analysis", "Yield prediction"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Palmer Drought Severity Index (PDSI) data, a long-term cumulative measure of water availability in the soil, used to assess drought conditions.",
+        "dcterms:title": "Palmer Drought Severity Index (PDSI)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.ncdc.noaa.gov/temp-and-precip/drought/historical-palmers/",
+        "dcat:theme": ["Drought Monitoring", "Soil Moisture"],
+        "dcat:keyword": ["Drought index", "Water availability", "Soil moisture"],
+        "dcat:landingPage": "https://www.ncdc.noaa.gov/temp-and-precip/drought/historical-palmers/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": ["Drought assessment", "Yield prediction"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Soil quality data collected from the SSURGO database, aggregated to the county level, covering various soil quality variables relevant to corn yield.",
+        "dcterms:title": "Soil Quality Data from SSURGO",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/geo/?cid=nrcs142p2_053631",
+        "dcat:theme": ["Soil Science", "Agriculture"],
+        "dcat:keyword": ["Soil quality", "SSURGO", "Agricultural soil data"],
+        "dcat:landingPage": "https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/survey/geo/?cid=nrcs142p2_053631",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": ["Soil analysis", "Yield prediction"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "National Land Cover Database (NLCD) data used to classify land cover types, relevant for understanding land use in relation to corn yield.",
+        "dcterms:title": "National Land Cover Database (NLCD)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://catalog.data.gov/dataset/national-land-cover-database-nlcd-land-cover-collection",
+        "dcat:theme": ["Land Use", "Geospatial Data"],
+        "dcat:keyword": ["Land cover", "NLCD", "Geospatial analysis"],
+        "dcat:landingPage": "https://catalog.data.gov/dataset/national-land-cover-database-nlcd-land-cover-collection",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": ["Land use analysis", "Yield prediction"]
+    }
+]

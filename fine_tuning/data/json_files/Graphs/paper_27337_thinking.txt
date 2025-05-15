@@ -1,0 +1,42 @@
+To extract datasets from the research paper titled "Learning Visual Models using a Knowledge Graph as a Trainer" by Sebastian Monka et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract** and **introduction** sections to get an overview of the datasets used in the study. The abstract mentions that the authors evaluate their method on visual transfer learning tasks using the **mini-ImageNet dataset** and **road sign recognition datasets from Germany and China**. This indicates that there are at least two datasets involved.
+
+Next, I will look into **section 4 (Experiment)**, where the authors describe their experimental setup in detail. In **section 4.1 (Scenario 1 - Domain Generalization)**, they specify that they use the **mini-ImageNet** dataset as the source domain and evaluate on its derivatives, including **ImageNetV2**, **ImageNet-R**, **ImageNet-Sketch**, and **ImageNet-A**. This gives me a clear list of datasets used for evaluation.
+
+In **section 4.2 (Scenario 2 - Supervised Domain Adaptation)**, the authors mention using the **German Traffic Sign Dataset (GTSRB)** as the source domain and the **Chinese Traffic Sign Dataset (CTSD)** as the target domain. This confirms the presence of two additional datasets.
+
+Now, I will compile the datasets identified:
+
+1. **mini-ImageNet**: A derivative of the ImageNet dataset consisting of 60,000 color images across 100 classes.
+2. **ImageNetV2**: A dataset containing new test images per class that closely follows the original labeling protocol.
+3. **ImageNet-R**: A dataset with artistic renditions of ImageNet classes.
+4. **ImageNet-Sketch**: A dataset containing sketches of ImageNet classes.
+5. **ImageNet-A**: A dataset with real-world, unmodified examples that challenge model performance.
+6. **German Traffic Sign Dataset (GTSRB)**: Contains 51,970 images of 43 road signs.
+7. **Chinese Traffic Sign Dataset (CTSD)**: Contains 6,164 images of 58 road signs.
+
+Next, I will check the **References section** to find the full citations for each dataset:
+
+- For **mini-ImageNet**, the citation is:
+  > Vinyals, O., Blundell, C., Lillicrap, T., Kavukcuoglu, K., & Wierstra, D. (2016). *Matching networks for one shot learning*. In NIPS.
+
+- For **ImageNetV2**, the citation is:
+  > Recht, B., Roelofs, R., Schmidt, L., & Shankar, V. (2019). *Do imagenet classifiers generalize to imagenet?* In ICML.
+
+- For **ImageNet-R**, the citation is:
+  > Hendrycks, D., Zhao, K., Basart, S., Steinhardt, J., & Song, D. (2019). *Natural adversarial examples*. CoRR.
+
+- For **ImageNet-Sketch**, the citation is:
+  > Wang, H., Ge, S., Lipton, Z., & Xing, E.P. (2019). *Learning robust global representations by penalizing local predictive power*. In NeurIPS.
+
+- For **ImageNet-A**, the citation is:
+  > Hendrycks, D., Basart, S., Mu, N., & Kadavath, S. (2020). *The many faces of robustness: A critical analysis of out-of-distribution generalization*. CoRR.
+
+- For **German Traffic Sign Dataset (GTSRB)**, the citation is:
+  > Stallkamp, J., Schlipsing, M., Salmen, J., & Igel, C. (2012). *Man vs. computer: Benchmarking machine learning algorithms for traffic sign recognition*. Neural Networks.
+
+- For **Chinese Traffic Sign Dataset (CTSD)**, the citation is:
+  > Yang, Y., Luo, H., Xu, H., Wu, F. (2016). *Towards real-time traffic sign detection and classification*. IEEE Trans. Intell. Transp. Syst.
+
+After gathering all this information, I will ensure that each dataset is documented with its respective citation, ready for further processing or review.

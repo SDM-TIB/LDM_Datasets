@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Space-Time Continuous PDE Forecasting using Equivariant Neural Fields" by David M. Knigge et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and the introduction often highlights the significance of the datasets used. 
+
+Next, I will focus on **section 4.1 (Datasets and evaluation)**, where the authors explicitly describe the datasets used in their experiments. This section typically contains detailed information about each dataset, including the type of PDEs modeled and the specific conditions under which the data was generated.
+
+In this section, I will find the following datasets:
+
+1. **Heat equation on R²**: The authors describe how they generated this dataset using narrow spikes as initial conditions, solving the diffusion equation over a 64 × 64 grid. 
+
+2. **Navier-Stokes on T²**: This dataset is created using Gaussian random fields as initial conditions, solved using a Crank-Nicholson method. The authors mention generating 8192 training and 512 test trajectories.
+
+3. **Diffusion on the 2-sphere**: The dataset consists of states defined over a 128 × 64 grid, with initial conditions generated as a Gaussian peak inserted at random points on the sphere.
+
+4. **Shallow-water equations on S²**: The authors describe the initial conditions based on a mid-latitude tropospheric jet, with a balanced height field, and provide details on the grid size and number of trajectories.
+
+5. **Internally-heated convection in a 3D ball**: This dataset involves solving the Boussinesq equation with specific boundary conditions, and the authors provide details on the grid and the number of training and test trajectories.
+
+After identifying the datasets, I will refer to the **References section** to find the full citations for the original works related to these datasets. This is crucial for proper attribution and to provide context for the datasets used in the experiments.
+
+The citations I will look for include:
+
+- For the **heat equation**, I will check if there is a specific reference to the original work or dataset used.
+- For the **Navier-Stokes equations**, I will find the original paper that describes the numerical methods used.
+- For the **shallow-water equations**, I will look for the foundational work that established these equations.
+- For the **Boussinesq equation**, I will find the relevant literature that discusses this model in the context of convection.
+
+Once I have gathered all the necessary information, I will compile the dataset descriptions along with their full citations into a structured format for clarity and ease of use in future references or applications. This will ensure that all datasets are accurately represented and properly cited.

@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "PROTLLM: An Interleaved Protein-Language LLM with Protein-as-Word Pre-Training" by Le Zhuo et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to locate any references to datasets. The abstract mentions the construction of a large-scale interleaved protein-text dataset named **InterPT**, which is a strong indicator that this dataset is significant to the research.
+
+Next, I will focus on **section 3.3 (InterPT: Interleaving Protein-Text Data)**, where the authors provide a detailed description of the InterPT dataset. They explain that it is constructed from various data sources, including:
+
+1. **Multi-protein scientific articles**: The authors state that they collected 165,206 interleaved protein-text sequences from PubMed articles, which describe complex relationships among different proteins.
+
+2. **Protein-annotation pairs**: This dataset consists of 90,000 protein-annotation pairs sourced from the UniProt and STRING databases, mapping individual proteins to their textual annotations.
+
+3. **Protein instruction-following data**: This dataset includes instruction-following data from the Mol-Instructions dataset, which contains 173,973 items.
+
+In the **results and experiments sections**, the authors confirm that they utilized the InterPT dataset for pre-training their model, which further validates its importance.
+
+Now, I will gather the full citations for each dataset mentioned:
+
+- For the **PubMed** dataset, the citation is:
+  > Kathi Canese and Sarah Weis. *Pubmed: the bibliographic database*. The NCBI handbook, 2(1), 2013.
+
+- For the **UniProt** dataset, the citation is:
+  > UniProt Consortium. *Uniprot: a hub for protein information*. Nucleic acids research, 43(D1):D204–D212, 2015.
+
+- For the **STRING** dataset, the citation is:
+  > Christian von Mering et al. *String: a database of predicted functional associations between proteins*. Nucleic acids research, 31(1):258–261, 2003.
+
+- For the **Mol-Instructions** dataset, the citation is:
+  > Yin Fang et al. *Mol-instructions: A large-scale biomolecular instruction dataset for large language models*. arXiv preprint arXiv:2306.08018, 2023.
+
+After compiling this information, I will ensure that each dataset is clearly documented with its respective citation, ready for inclusion in any structured output or further analysis.

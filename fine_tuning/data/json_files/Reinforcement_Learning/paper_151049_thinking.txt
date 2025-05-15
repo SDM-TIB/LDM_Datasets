@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Graph-based Prediction and Planning Policy Network (GP3Net) for scalable self-driving in dynamic environments using Deep Reinforcement Learning" by Jayabrata Chowdhury et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract mentions that the GP3Net framework is evaluated on **standard CARLA benchmarking scenarios**, which suggests that the CARLA simulator is a key dataset or environment used in the research.
+
+Next, I will look for specific mentions of datasets in the **experiments section**. The authors describe the training data collection for the trajectory prediction module, indicating that they collected trajectory data of surrounding vehicles using the CARLA simulator. This data includes rectangular coordinates of all vehicles at various time steps, which is crucial for understanding the dataset's structure.
+
+In the **experiments section**, the authors also mention that the GP3Net's performance is evaluated in different towns and weather conditions using the CARLA simulator. This implies that the CARLA simulator serves as a dataset for various driving scenarios, including urban, highway, and mixed environments.
+
+Now, I will check the **References section** for full citations related to the datasets mentioned. The CARLA simulator is referenced as follows:
+- For the CARLA simulator, the citation is:
+  > Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2017). CARLA: An open urban driving simulator. In Conference on robot learning (pp. 1-16). PMLR.
+
+Additionally, the authors mention using trajectory data collected from the CARLA simulator, but they do not provide a separate citation for this specific dataset since it is derived from the CARLA simulator itself.
+
+After gathering this information, I will compile the dataset entries into a structured format, ensuring that I include the full citations for the datasets identified. The key datasets extracted from the paper are:
+1. **CARLA Simulator**: Used for collecting trajectory data and evaluating the GP3Net framework in various driving scenarios.
+
+Now, I will prepare the dataset entries for further processing.

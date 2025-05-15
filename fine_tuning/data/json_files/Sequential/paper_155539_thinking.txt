@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Evolutionary Preference Learning via Graph Nested GRU ODE for Session-based Recommendation" by Peiyan Zhang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to gather initial insights about the datasets. The abstract mentions that empirical results are shown on three benchmark datasets, which indicates that datasets are indeed present.
+
+Next, I will focus on the **experiments section**, specifically **section 5.1 (Datasets and Preprocessing)**, where the authors explicitly list the datasets used for evaluation. Here, they mention three datasets:
+
+1. **Gowalla**: This dataset contains users' check-in information for point-of-interest recommendation. The authors specify that they keep the 30,000 most popular locations and set the splitting interval to 1 day, using the last 20% of sessions for testing.
+
+2. **Tmall**: This dataset consists of user-purchase data obtained from the Tmall platform, where only purchase records are utilized. Similar to Gowalla, the last 20% of sessions are used as test sets.
+
+3. **Nowplaying**: This dataset is a comprehensive implicit feedback dataset consisting of user-song interactions crawled from Twitter. The authors mention that they randomly select 20% of users who have played the music as the test sets.
+
+I will also check the **References section** to find the full citations for these datasets. The paper provides links to the datasets, which I will use to construct the citations:
+
+- For **Gowalla**, the citation is:
+  > "Gowalla Dataset." Stanford Large Network Dataset Collection. Available at: https://snap.stanford.edu/data/loc-gowalla.html.
+
+- For **Tmall**, the citation is:
+  > "Tmall Dataset." Last.fm Dataset. Available at: http://ocelma.net/MusicRecommendationDataset/lastfm-1K.html.
+
+- For **Nowplaying**, the citation is:
+  > Poddar, A., Zangerle, E., & Yang, Y. (2018). nowplaying-RS: A new benchmark dataset for building context-aware music recommender systems. In 15th Sound and Music Computing Conference.
+
+Now, I will compile the dataset entries, ensuring that I include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research paper.

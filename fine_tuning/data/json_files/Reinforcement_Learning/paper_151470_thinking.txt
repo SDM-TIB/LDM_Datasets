@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Continuously Learning, Adapting, and Improving: A Dual-Process Approach to Autonomous Driving" by Jianbiao Mei et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract mentions the development of LeapAD and its evaluation in the CARLA simulator, which suggests that datasets are likely involved in the experiments.
+
+Next, I will focus on the **experiments section** (Section 4) where the authors describe their data preparation and evaluation methods. In **Section 4.1 (Data preparation)**, they mention constructing datasets for supervised fine-tuning of their Vision Language Model (VLM). Specifically, they reference three datasets:
+
+1. **Rank2Tell Dataset**: This dataset is used for joint importance ranking and reasoning in driving scenarios. It consists of multimodal data that helps in understanding critical objects in driving contexts.
+
+2. **DriveLM Dataset**: This dataset is utilized for driving-related tasks and is integrated into the training of the VLM. It focuses on generating human-instructed decisions in simulated environments.
+
+3. **CARLA Dataset**: This dataset is collected from the CARLA simulator, which is an open-source urban driving simulator. It is specifically designed for closed-loop experiments and contains various driving scenarios.
+
+In the **Appendix B**, the authors provide examples of the datasets used to train the VLM, including annotations for critical objects based on semantic, spatial, motion, and risk ranking attributes. This reinforces the importance of the datasets mentioned.
+
+Now, I will look at the **References section** to find full citations for these datasets. The citations are as follows:
+
+- For **Rank2Tell Dataset**:
+  > Sachdeva, E., Agarwal, N., Chundi, S., Roelofs, S., Li, J., Kochenderfer, M., Choi, C., & Dariush, B. (2024). *Rank2Tell: A multimodal driving dataset for joint importance ranking and reasoning*. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, pp. 7513–7522.
+
+- For **DriveLM Dataset**:
+  > Ma, Y., Cao, Y., Sun, J., Pavone, M., & Xiao, C. (2023). *Dolphins: Multimodal language model for driving*. arXiv preprint arXiv:2312.00438.
+
+- For **CARLA Dataset**:
+  > Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2017). *CARLA: An open urban driving simulator*. In Conference on Robot Learning, pp. 1–16.
+
+With these citations, I have successfully identified and documented the datasets used in the research paper. I will now compile this information into a structured format for further processing.

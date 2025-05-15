@@ -1,0 +1,19 @@
+To extract the datasets from the research paper titled "DNS Typo-squatting Domain Detection: A Data Analytics & Machine Learning Based Approach" by Abdallah Moubayed et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any mentions of datasets. The abstract provides a brief overview of the study's focus on typosquatting and mentions the use of machine learning, which suggests that datasets are likely involved.
+
+Next, I will focus on **section V (Dataset Description)**, as this section is dedicated to detailing the datasets used in the research. Here, the authors describe two datasets:
+
+1. **Labeled Dataset**: This dataset was collected by combining data from Alexa’s top 1 million legitimate domains and from "Cryptolocker" for domains generated algorithmically (DGA). It consists of 133,926 unique domains, with 81,261 legitimate domains and 52,665 DGA domains. Each record includes the complete URL, the domain accessed, and the classification of the domain (either legit or DGA).
+
+2. **Unlabeled Dataset**: This dataset is based on the DNS Census 2013 public dataset, consisting of 750,719,726 type A records. However, only the first 1 million records were used in the study, resulting in 302,689 unique domains after processing. Each record includes the domain accessed and the corresponding IPv4 address.
+
+After identifying the datasets, I will check the **References section** for full citations. The relevant citations for the datasets are:
+
+- For the **Labeled Dataset**, the citation is:
+  > Jacobs, J., & Rudis, B. (2014). *Data-Driven Security: Analysis, Visualization and Dashboards*. John Wiley & Sons.
+
+- For the **DNS Census 2013 Dataset**, the citation is:
+  > DNS Census 2013. (2013). *DNS Census 2013*. Retrieved from http://dnscensus2013.neocities.org/index.html
+
+Now, I will compile the extracted information into a structured format that includes the dataset names, descriptions, and full citations. This will ensure that all necessary details are captured for further processing or review.

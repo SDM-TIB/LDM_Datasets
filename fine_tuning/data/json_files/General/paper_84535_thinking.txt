@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Stochastic Gradients for Large-Scale Tensor Decomposition" by Tamara G. Kolda and David Hong, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and results sections** to identify any datasets mentioned. The abstract discusses the use of stochastic gradients for tensor decomposition but does not explicitly mention datasets. Therefore, I will need to look deeper into the paper.
+
+Next, I will examine **section 5 (Experimental Results)**, which is likely to contain information about the datasets used for the experiments. In this section, the authors mention computational experiments on both artificial and real-world problems. They specifically refer to a **dense gas measurements tensor** and a **sparse count crime data tensor**.
+
+1. **Dense Gas Measurements Tensor**: The authors describe this dataset as being based on chemo-sensing data collected by Vergara et al. (2013). The tensor consists of measurements from 71 sensors over 1250 time points, 5 temperatures, and 140 trials. This dataset is used with a β-divergence loss function for GCP decomposition.
+
+2. **Sparse Count Crime Data Tensor**: This dataset comprises over 15 years of crime data from the city of Chicago, structured as a 4-way tensor. The modes correspond to days, hours, communities, and types of crimes. The authors mention that this dataset has 5,330,673 nonzeros and is used with a Poisson loss function for GCP.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **dense gas measurements tensor**, the citation is:
+  > Vergara, A., Fonollosa, J., Mahiques, J., Trincavelli, M., Rulkov, N., & Huerta, R. (2013). On the performance of gas sensor arrays in open sampling systems using inhibitory support vector machines. *Sensors and Actuators B: Chemical*, 185, 462-477. doi:10.1016/j.snb.2013.05.027.
+
+- For the **Chicago crime data tensor**, the citation is:
+  > Smith, S., Choi, J. W., Li, J., Vuduc, R., Park, J., Liu, X., & Karypis, G. (2016). FROSTT: The formidable repository of open sparse tensors and tools. Available at http://frostt.io/.
+
+After gathering this information, I will summarize the datasets, ensuring to include their full citations as required. This will provide a clear and concise overview of the datasets used in the research paper.

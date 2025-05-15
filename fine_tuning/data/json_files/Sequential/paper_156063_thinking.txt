@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Blockchain Transaction Fee Forecasting: A Comparison of Machine Learning Methods" by Conall Butler and Martin Crane, I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract provides a brief overview of the research focus, and the introduction often outlines the context and significance of the datasets used.
+
+In the **introduction**, the authors discuss the Ethereum network and its transaction dynamics, hinting at the use of specific datasets related to Ethereum transactions and gas prices. I will look for explicit mentions of datasets or data sources.
+
+Next, I will focus on the **Materials and Methods section**, particularly **section 5.2 (Description of Dataset)**, where the authors describe the datasets used for their analysis. Here, they mention that Ethereum blockchain data were collected from the publicly available BigQuery database, spanning from **26 November 2021 to 27 April 2022**. They specify that the final modeled dataset consists of **953,336 blocks**, averaging one block every **14 seconds**, with an average of **203 transactions per block**.
+
+Additionally, they mention that minute-wise tick opening prices of ETH in US Dollar Tether were retrieved from Binance exchange historic records. This indicates that there are at least two datasets involved:
+
+1. **Ethereum Blockchain Data**: This dataset includes block-level data with transaction details, gas prices, and other relevant metrics.
+2. **Binance ETH/USDT Price Data**: This dataset includes minute-wise tick opening prices of ETH.
+
+Now, I will check the **References section** to find full citations for these datasets. The authors mention the BigQuery database and Binance exchange, but I need to ensure I have the correct citations.
+
+For the **Ethereum Blockchain Data**, the citation is:
+> Ethereum.org. Ethereum Development Documentation. Available online: https://ethereum.org/en/developers/docs/ (accessed on 21 April 2023).
+
+For the **Binance ETH/USDT Price Data**, the citation is:
+> Binance. Minute-Tick ETH/USDT Open Data. Available online: https://data.binance.vision/?prefix=data/spot/monthly/klines/ETHUSDT/1m/ (accessed on 12 May 2022).
+
+With these citations in hand, I will summarize the datasets as follows:
+
+1. **Ethereum Blockchain Data**: This dataset consists of transaction data from the Ethereum blockchain, covering a period from 26 November 2021 to 27 April 2022, with a total of 953,336 blocks.
+   - Citation: Ethereum.org. Ethereum Development Documentation. Available online: https://ethereum.org/en/developers/docs/ (accessed on 21 April 2023).
+
+2. **Binance ETH/USDT Price Data**: This dataset includes minute-wise tick opening prices of ETH in US Dollar Tether, sourced from Binance exchange.
+   - Citation: Binance. Minute-Tick ETH/USDT Open Data. Available online: https://data.binance.vision/?prefix=data/spot/monthly/klines/ETHUSDT/1m/ (accessed on 12 May 2022).
+
+Finally, I will compile these dataset entries into a structured format for further processing or review.

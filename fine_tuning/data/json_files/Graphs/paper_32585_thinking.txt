@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "SeisCLIP: A seismology foundation model pre-trained by multi-modal data for multi-purpose seismic feature extraction" by Xu Si et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors developed a foundation model trained on a vast dataset, which suggests that there are specific datasets involved.
+
+In the **introduction**, the authors discuss the challenges of limited labeled data in seismology and mention the need for a foundation model trained on broad data. This reinforces the idea that they are utilizing specific datasets for their research.
+
+Next, I will focus on the **methods section**, particularly the **data preparation** subsection, where the authors detail the datasets used for pre-training and evaluation. They mention the **STEAD dataset**, which is used for pre-training the foundation model. The STEAD dataset contains around 1,030,000 three-component signals with complete event information.
+
+Additionally, the authors describe datasets used for downstream tasks:
+1. **PNW Dataset**: Used for event classification, which includes various event types such as earthquakes and explosions. The authors mention that they selected 20,000 earthquake events for balanced classification.
+2. **SCSN Dataset**: A subset of the larger SCSN dataset used for evaluating the generalization ability of the model.
+3. **Japanese Earthquake Dataset**: Used for localization, consisting of M >2 earthquakes recorded by the NIED Hi-net.
+4. **Focal Mechanism Dataset**: Also from Japan, containing M >3 earthquakes with focal mechanisms calculated by the Japan Meteorological Agency.
+
+Now, I will look into the **references section** to find the full citations for these datasets:
+
+- For the **STEAD dataset**, the citation is:
+  > S Mostafa Mousavi, Weiqiang Zhu, Yixiao Sheng, and Gregory C Beroza. *Stanford earthquake dataset (STEAD): A global data set of seismic signals for AI*. IEEE Access, 7:179464–179476, 2019.
+
+- For the **PNW dataset**, the citation is:
+  > Zefeng Li, Men-Andrin Meier, Egill Hauksson, Zhongwen Zhan, and Jennifer Andrews. *Machine learning seismic wave discrimination: Application to earthquake early warning*. Geophysical Research Letters, 45(10):4773–4779, 2018.
+
+- For the **SCSN dataset**, the citation is:
+  > Zhu, Lihua Fang, Fajun Miao, Liping Fan, Ji Zhang, and Zefeng Li. *Deep learning and transfer learning of earthquake and quarry-blast discrimination: Applications to southern California and eastern Kentucky*. Authorea Preprints, 2022a.
+
+- For the **Japanese Earthquake Dataset**, the citation is:
+  > Japan Meteorological Agency. *Earthquake data and focal mechanisms*. Available at: https://www.data.jma.go.jp/svd/eqev/data/bulletin/index.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This will provide a comprehensive overview of the datasets utilized in the research paper.

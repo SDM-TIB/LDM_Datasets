@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "NeRFuser: Large-Scale Scene Representation by NeRF Fusion" by Jiading Fang et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to gather initial insights about the datasets used. The abstract mentions evaluating NeRFuser on public benchmarks and a self-collected object-centric indoor dataset, indicating that there are at least two datasets involved.
+
+Next, I will focus on **section 4.1 (Datasets)**, where the authors provide detailed descriptions of the datasets used in their experiments. Here, I will find specific information about each dataset, including their characteristics and how they were collected.
+
+1. **Object-Centric Indoor Scenes**: This dataset consists of three indoor scenes captured using an iPhone 13 mini. Each scene includes three video clips focusing on two objects, with a third test sequence observing the entire scene. The authors describe the process of extracting images and recovering poses using a structure-from-motion tool. This dataset is crucial for testing their method.
+
+2. **ScanNet Dataset**: The authors utilize the ScanNet dataset, which contains 1513 RGB-D scenes with annotated camera poses. They specifically mention using the first 218 scenes and describe how they split the images into training and test sets. This dataset is important for evaluating registration performance.
+
+3. **Mission Bay Dataset**: This dataset is referenced as being used to test the rendering quality of different blending methods. It features a street scene captured using 12 cameras. The authors provide details on how the images are split into training and test sets for their experiments.
+
+After identifying these datasets, I will look into the **References section** to find the full citations for each dataset:
+
+- For the **Object-Centric Indoor Scenes**, since it is a self-collected dataset, I will note that it does not have a formal citation but will document the methodology used for its creation.
+
+- For the **ScanNet Dataset**, the citation is:
+  > Angela Dai, Angel X. Chang, Manolis Savva, Maciej Halber, Thomas A. Funkhouser, and Matthias Nießner. *ScanNet: Richly-annotated 3D reconstructions of indoor scenes*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2432–2443, 2017.
+
+- For the **Mission Bay Dataset**, the citation is:
+  > Matthew Tancik, Vincent Casser, Xinchen Yan, Sabeek Pradhan, Ben Mildenhall, Pratul P. Srinivasan, Jonathan T. Barron, and Henrik Kretzschmar. *Block-NeRF: Scalable large scene neural view synthesis*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 8238–8248, 2022.
+
+Now, I will compile the dataset entries with their respective citations, ensuring that each dataset is clearly documented for future reference or processing.

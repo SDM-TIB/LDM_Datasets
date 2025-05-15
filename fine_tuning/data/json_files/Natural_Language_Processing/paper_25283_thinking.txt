@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "LLM Circuit Analyses Are Consistent Across Training and Scale" by Curt Tigges et al., I will follow a systematic approach to identify and document each dataset mentioned in the text.
+
+First, I will start by reviewing the **abstract and introduction** sections. The abstract provides a high-level overview of the study, and the introduction often outlines the context and significance of the research, which may include references to datasets used for experiments. 
+
+Next, I will look for specific mentions of datasets in the **methods** section, particularly in subsections that discuss experimental design or data collection. This section typically contains detailed descriptions of the datasets used, including their characteristics and purposes.
+
+In this paper, I notice that the authors mention several tasks and datasets in the **Methods** section, specifically in subsection 2.4 (Tasks). The tasks include:
+
+1. **Indirect Object Identification (IOI)**: The authors state that they used a small dataset of 70 IOI examples created with Wang et al.'s (2023) generator. This indicates a specific dataset used for this task.
+
+2. **Gendered-Pronoun**: The authors refer to a dataset crafted with 70 examples as in Mathwin et al. (2023). This dataset is used to measure the gender of pronouns in context.
+
+3. **Greater-Than**: The authors mention creating 200 examples with Hanna et al.'s (2023) generator for this task.
+
+4. **Subject-Verb Agreement (SVA)**: The authors state that they used 200 synthetic SVA example sentences from Newman et al. (2021).
+
+Next, I will check the **References section** to find the full citations for each dataset mentioned. This is crucial for proper attribution and to provide readers with the necessary information to locate the datasets.
+
+The citations I will extract are:
+
+- For the **IOI dataset**:
+  > Wang, K. R., Variengien, A., Conmy, A., Shlegeris, B., & Steinhardt, J. (2023). Interpretability in the wild: a circuit for indirect object identification in GPT-2 small. In The Eleventh International Conference on Learning Representations. URL: https://openreview.net/forum?id=NpsVSN6o4ul.
+
+- For the **Gendered-Pronoun dataset**:
+  > Mathwin, C., Corlouer, G., Kran, E., Barez, F., & Nanda, N. (2023). Identifying a preliminary circuit for predicting gendered pronouns in GPT-2 small. URL: https://itch.io/jam/mechint/rate/1889871.
+
+- For the **Greater-Than dataset**:
+  > Hanna, M., Liu, O., & Variengien, A. (2023). How does GPT-2 compute greater-than?: Interpreting mathematical abilities in a pre-trained language model. In Thirty-seventh Conference on Neural Information Processing Systems. URL: https://openreview.net/forum?id=p4PckNQR8k.
+
+- For the **SVA dataset**:
+  > Newman, B., Ang, K.-S., Gong, J., & Hewitt, J. (2021). Refining targeted syntactic evaluation of language models. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies. URL: https://aclanthology.org/2021.naacl-main.290.
+
+After gathering this information, I will compile the dataset entries, ensuring that each entry includes the dataset name, a brief description, and the full citation. This structured approach will ensure that I accurately capture all relevant datasets from the paper while providing proper attribution.

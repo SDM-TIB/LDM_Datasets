@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Semantic-based End-to-End Learning for Typhoon Intensity Prediction" by Hamada M. Zahera et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and data sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the research and hints at the use of social media and environmental data for typhoon intensity prediction, which suggests that datasets related to these topics will be discussed.
+
+Next, I will focus on **section 2 (Data and Preliminaries)**, where the authors describe the datasets used in their experiments. This section is likely to contain detailed information about the datasets, including their sources, characteristics, and any preprocessing steps taken.
+
+In this section, the authors mention three datasets:
+
+1. **JTWC Best-tracked Dataset**: This dataset consists of 3,162 tracked data points for 70 typhoons between 2006-2016. It includes features such as time-stamp, location, maximum wind speed, wind intensity, and sea level pressure. The authors also note that they handled noisy data and class imbalance using the SMOTE technique.
+
+2. **Typhoon Tweets Dataset**: This dataset was created by executing keyword-based queries to retrieve typhoon-related tweets. The authors mention that they used the open-source library GetOldTweets-python to collect tweets over a period from 2006 to 2018.
+
+3. **Stanford NLP Sentiment140 Dataset**: This dataset contains 1.6 million labeled tweets with binary sentiments (positive/negative) and is used to enhance the sentiment detection capabilities of their model.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For the **JTWC Best-tracked Dataset**, the citation is:
+  > Joint Typhoon Warning Center (JTWC). *Best Track Data*. Available at: [JTWC website](https://www.metoc.navy.mil/jtwc/jtwc.html).
+
+- For the **Typhoon Tweets Dataset**, since it is based on tweets collected using the GetOldTweets-python library, I will cite the library:
+  > Jefferson Henrique. *GetOldTweets-python*. Available at: [GitHub repository](https://github.com/Jefferson-Henrique/GetOldTweets-python).
+
+- For the **Stanford NLP Sentiment140 Dataset**, the citation is:
+  > Go, A., Bhayani, R., & Huang, L. (2009). *Twitter sentiment classification using distant supervision*. CS224N Project Report, Stanford University.
+
+Now that I have gathered all the necessary information and citations, I will compile the dataset entries into a structured format for further processing or review.

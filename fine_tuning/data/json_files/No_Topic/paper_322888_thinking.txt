@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Camera Motion Agnostic 3D Human Pose Estimation" by Seong Hyun Kim et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets mentioned. The abstract indicates that the authors use the **3DPW** and **AMASS** datasets for evaluation, which is a good starting point.
+
+Next, I will look specifically in **section 4 (Experimental Results)**, where the authors provide detailed information about the datasets used. Here, they mention:
+
+1. **AMASS Dataset**: This dataset is described as consisting of sequences from publicly available datasets, including CMU MoCap and TotalCapture, and provides SMPL parameters extracted using MoSh++. This dataset is used for training the proposed model.
+
+2. **Human3.6M Dataset**: This dataset is widely recognized in the field of 3D human pose estimation and contains 3.6 million video frames captured from fixed cameras. The authors specify that they use SMPL parameters extracted via MoSh for quantitative evaluation.
+
+3. **3DPW Dataset**: This dataset contains 60 sequences captured outdoors and provides global human pose information. However, the authors note challenges in using it for evaluation due to severe drift, and they describe their method for obtaining pseudo ground-truth global human poses from this dataset.
+
+4. **Synthetic Dataset**: The authors also mention that they constructed a synthetic dataset using CMU sequences from the AMASS dataset, which includes animated 3D human poses with circular camera motions.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations I need to extract are:
+
+- For **AMASS Dataset**:
+  > Naureen Mahmood, Nima Ghorbani, Nikolaus F Troje, Gerard Pons-Moll, and Michael J Black. *Amass: Archive of motion capture as surface shapes*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2019.
+
+- For **Human3.6M Dataset**:
+  > Catalin Ionescu, Dragos Papava, Vlad Olaru, and Cristian Sminchisescu. *Human3.6M: Large scale datasets and predictive methods for 3D human sensing in natural environments*. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2013.
+
+- For **3DPW Dataset**:
+  > Timo von Marcard, Roberto Henschel, Michael J Black, Bodo Rosenhahn, and Gerard Pons-Moll. *Recovering accurate 3D human pose in the wild using IMUs and a moving camera*. In Proceedings of the European Conference on Computer Vision (ECCV), 2018.
+
+- For the **Synthetic Dataset**, since it is constructed from the CMU sequences in the AMASS dataset, I will reference the AMASS citation.
+
+Now, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation, ready for structured output.

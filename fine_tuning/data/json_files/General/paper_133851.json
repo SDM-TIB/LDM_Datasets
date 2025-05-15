@@ -1,0 +1,111 @@
+[
+    {
+        "dcterms:creator": [
+            "Y. LeCun",
+            "C. Cortes"
+        ],
+        "dcterms:description": "A semi-synthetic dataset built on the MNIST dataset, with 50K images as the source domain and the same 50K images rotated by 45 degrees as the target domain. Intermediate domains are evenly distributed between the source and target.",
+        "dcterms:title": "Rotated MNIST",
+        "dcterms:issued": "1998",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://yann.lecun.com/exdb/mnist/",
+        "dcat:theme": [
+            "Image Classification",
+            "Domain Adaptation"
+        ],
+        "dcat:keyword": [
+            "Handwritten digits",
+            "Image rotation",
+            "Domain adaptation"
+        ],
+        "dcat:landingPage": "http://yann.lecun.com/exdb/mnist/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Y. LeCun",
+            "C. Cortes"
+        ],
+        "dcterms:description": "A dataset derived from MNIST where the pixel values are normalized to be in [0, 1] for the source domain and shifted by 1 for the target domain. It consists of 50K images.",
+        "dcterms:title": "Color-Shift MNIST",
+        "dcterms:issued": "1998",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://yann.lecun.com/exdb/mnist/",
+        "dcat:theme": [
+            "Image Classification",
+            "Domain Adaptation"
+        ],
+        "dcat:keyword": [
+            "Handwritten digits",
+            "Color shift",
+            "Domain adaptation"
+        ],
+        "dcat:landingPage": "http://yann.lecun.com/exdb/mnist/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Ginosar",
+            "K. Rakelly",
+            "S. Sachs",
+            "B. Yin",
+            "C. Lee",
+            "P. Krahenbuhl",
+            "A. A. Efros"
+        ],
+        "dcterms:description": "A real-world gender classification image dataset consisting of portraits of high school seniors from 1905 to 2013. The dataset is sorted chronologically and split into a source domain, intermediate domains, and a target domain.",
+        "dcterms:title": "Portraits",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://arxiv.org/abs/1511.02575",
+        "dcat:theme": [
+            "Image Classification",
+            "Gender Classification"
+        ],
+        "dcat:keyword": [
+            "Portraits",
+            "Gender classification",
+            "Historical data"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/1511.02575",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Gender Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. A. Blackard",
+            "D. J. Dean"
+        ],
+        "dcterms:description": "A tabular dataset aiming at predicting the forest cover type at certain locations given 54 features. The data is sorted by the distance to water body in ascending order, splitting the data into a source domain, intermediate domains, and a target domain.",
+        "dcterms:title": "Cover Type",
+        "dcterms:issued": "1999",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Tabular Data",
+            "Environmental Science"
+        ],
+        "dcat:keyword": [
+            "Forest cover prediction",
+            "Environmental data",
+            "Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": [
+            "Classification"
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Contrastive Representation Learning for Acoustic Parameter Estimation" by Philipp Götz et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to locate any references to datasets. The abstract mentions the evaluation of embeddings across three different downstream tasks, which suggests that datasets are involved, but I need to find specific names and details.
+
+In the **introduction**, the authors discuss various tasks in acoustic scene analysis, including the estimation of room-acoustic parameters and environment classification. However, they do not explicitly mention any datasets yet.
+
+Next, I will focus on the **data generation section (3.3)**, where the authors describe how they constructed their datasets. They mention using the **LibriSpeech ASR corpus** to create two fully disjoint datasets for upstream and downstream training. This is a key dataset that I need to document.
+
+The authors specify that for the upstream training, they simulated room impulse responses (RIRs) from 64 different rooms and convolved them with anechoic speech segments to generate a total of 8192, 2048, and 2048 reverberant speech samples for training, validation, and testing, respectively. However, they do not provide a specific name for this dataset, so I will refer to it as the "Upstream Reverberant Speech Dataset."
+
+For the downstream dataset, they mention generating the same number of samples as in the upstream case, but with RIRs selected from a dataset of 1000 RIRs from 100 different rooms. This dataset will be referred to as the "Downstream Reverberant Speech Dataset."
+
+Now, I will check the **References section** to find the full citation for the **LibriSpeech ASR corpus**:
+
+- The citation for the **LibriSpeech ASR corpus** is:
+  > Vassil Panayotov, Guoguo Chen, Daniel Povey, and Sanjeev Khudanpur. *Librispeech: an ASR corpus based on public domain audio books*. In Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 5206–5210, 2015.
+
+Since the paper does not provide specific citations for the simulated datasets (Upstream and Downstream Reverberant Speech Datasets), I will note that these datasets are derived from the authors' own data generation process and do not have formal citations.
+
+Finally, I will compile the dataset entries, ensuring to include the full citation for the LibriSpeech ASR corpus and document the other datasets as described.
+
+After completing this process, I will have a clear and organized representation of the datasets extracted from the paper, ready for further processing or review.

@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "CORMF: Criticality-Ordered Recurrent Mean Field Ising Solver" by Zhenyu Pan et al., I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper to identify any datasets mentioned. The abstract provides a brief overview of the methodology and results, and it may mention specific datasets used for validation.
+
+Next, I will focus on the **experiments section**, particularly **Section 5 (Experimental Studies)**, where the authors describe the datasets used for their experiments. In this section, they explicitly mention several datasets related to Ising models:
+
+1. **N=100 1D Spin Chain**: This dataset consists of a one-dimensional Ising model with 100 spins, where the interaction strength is set to -1 for neighboring spins, and an external field is applied to enforce a specific behavior in the spins.
+
+2. **N=10 Ising Model**: This dataset includes two variations:
+   - For **β = 1**, the interaction strengths (Jij) are randomly selected from a set of integers, and the external field is adjusted to facilitate evaluation.
+   - For **β = 5**, the same model is scaled to increase the interaction strengths.
+
+3. **N=20 Ising Models**: This dataset includes several configurations:
+   - **Dense N=20 with L=400**: Interaction strengths are uniformly picked from a range, ensuring low ambiguity in the criticality order.
+   - **Dense N=20 with L=5**: This configuration introduces high ambiguity due to repeated interaction strengths.
+   - **Sparse N=20**: Interaction strengths are drawn from a Poisson distribution to create a sparse graph.
+   - **Random N=20**: A more complex interaction pattern is introduced with random values.
+
+After identifying these datasets, I will check the **References section** for any citations related to these datasets. However, it appears that the datasets are generated or defined within the context of this paper, and thus may not have external citations. 
+
+For the datasets mentioned, I will summarize them as follows:
+
+1. **N=100 1D Spin Chain**: 
+   - Description: A one-dimensional Ising model with 100 spins, where all neighboring interactions are set to -1, and an external field is applied.
+   - Citation: Not applicable (dataset generated for the study).
+
+2. **N=10 Ising Model**:
+   - Description: Two variations of a 10-spin Ising model with different interaction strengths and external fields.
+   - Citation: Not applicable (dataset generated for the study).
+
+3. **N=20 Ising Models**:
+   - Description: Multiple configurations including dense, sparse, and random interaction patterns.
+   - Citation: Not applicable (dataset generated for the study).
+
+Finally, I will compile this information into a structured format that clearly outlines each dataset, its description, and any relevant citations. This will ensure that the extraction process is thorough and that all necessary details are captured for future reference or analysis.

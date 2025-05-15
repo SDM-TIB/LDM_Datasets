@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Ensembles of Compact, Region-specific & Regularized Spiking Neural Networks for Scalable Place Recognition" by Somayeh Hussaini, Michael Milford, and Tobias Fischer, I will follow a systematic approach.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors evaluate their method on benchmark localization datasets, specifically naming **Nordland** and **Oxford RobotCar**. This is a strong indication that these datasets will be discussed in detail later in the paper.
+
+Next, I will look for a dedicated **datasets section** or any relevant sections that discuss the datasets used for evaluation. In this case, the **Experimental Setup** section (IV) provides a clear description of the datasets.
+
+In **section IV.B (Datasets)**, the authors provide detailed descriptions of the two datasets:
+
+1. **Nordland Dataset**: This dataset captures a 728 km train journey in Norway, recorded during different seasons. The authors mention that they trained their model on the spring and fall traverses and used the summer traverse as the query dataset, resulting in 3300 places sampled every 8 seconds.
+
+2. **Oxford RobotCar Dataset**: This dataset contains over 100 traversals captured under varying weather conditions and times of day. The authors specify that their reference dataset consists of sun and rain traverses, while the query dataset is from a dusk traverse, resulting in 450 places sampled every 8 seconds.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For the **Nordland Dataset**, the citation is:
+  > N. Sunderhauf, P. Neubert, and P. Protzel. *Are we there yet? Challenging SeqSLAM on a 3000 km journey across all four seasons*. In Proceedings of the IEEE International Conference on Robotics and Automation (ICRA), 2013.
+
+- For the **Oxford RobotCar Dataset**, the citation is:
+  > W. Maddern, G. Pascoe, C. Linegar, and P. Newman. *1 year, 1000 km: The Oxford RobotCar dataset*. International Journal of Robotics Research, vol. 36, no. 1, pp. 3–15, 2017.
+
+With this information, I can now compile the dataset entries, ensuring that I include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research paper.

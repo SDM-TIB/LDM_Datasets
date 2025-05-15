@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "SafeInfer: Context Adaptive Decoding Time Safety Alignment" by Somnath Banerjee et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the authors evaluate their method on several datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4 (Datasets)**, where the authors explicitly describe the datasets used for their evaluations. In this section, they mention five existing datasets and one newly proposed dataset:
+
+1. **DangerousQA**: This dataset consists of approximately 200 toxic questions generated using the text-davinci-002 model, covering categories such as racist, stereotypical, sexist, illegal, toxic, and harmful content.
+
+2. **AdvBench**: This dataset includes 500 harmful instructions that encompass various behaviors like profanity, graphic depictions, threats, misinformation, discrimination, and illegal activities.
+
+3. **HEx-PHI**: This dataset contains 330 harmful instructions across 11 prohibited categories for evaluating the harmfulness of language models.
+
+4. **TechHazardQA**: This dataset consists of approximately 1850 harmful instructions across 7 technology-oriented topics for evaluating the harmfulness of language models.
+
+5. **NicheHazardQA**: This dataset includes 388 unethical questions covering topics such as hate speech, fake news, and advanced technology for creating weapons.
+
+6. **HarmEval**: This is a new dataset developed based on prohibited scenarios listed in OpenAI and Meta’s usage policies, containing approximately 550 crafted harmful queries.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset mentioned. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+For the datasets mentioned, I will compile the following citations:
+
+- **DangerousQA**: 
+  > Shaikh, O., Zhang, H., Held, W., Bernstein, M., & Yang, D. (2023). On second thought, let’s not think step by step! Bias and toxicity in zero-shot reasoning. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 4454–4470, Toronto, Canada.
+
+- **AdvBench**: 
+  > Zou, A., Phan, L., Chen, S., Campbell, J., Guo, P., Ren, R., Pan, A., Yin, X., Mazeika, M., Dombrowski, A.-K., Goel, S., Li, N., Byun, M. J., Wang, Z., & Fredrikson, M. (2023b). Representation engineering: A top-down approach to AI transparency. Preprint, arXiv:2310.01405.
+
+- **HEx-PHI**: 
+  > Qi, X., Zeng, Y., Xie, T., Chen, P.-Y., Jia, R., Mittal, P., & Henderson, P. (2023a). Fine-tuning aligned language models compromises safety, even when users do not intend to! In The Twelfth International Conference on Learning Representations.
+
+- **TechHazardQA**: 
+  > Banerjee, S., Layek, S., Hazra, R., & Mukherjee, A. (2024). How (un)ethical are instruction-centric responses of LLMs? Unveiling the vulnerabilities of safety guardrails to harmful queries. CoRR, abs/2402.15302.
+
+- **NicheHazardQA**: 
+  > Hazra, R., Layek, S., Banerjee, S., & Poria, S. (2024). Sowing the wind, reaping the whirlwind: The impact of editing language models. CoRR, abs/2401.10647.
+
+- **HarmEval**: 
+  > Qi, X., Zeng, Y., Xie, T., Chen, P.-Y., Jia, R., Mittal, P., & Henderson, P. (2023b). Fine-tuning aligned language models compromises safety, even when users do not intend to! Preprint, arXiv:2310.03693.
+
+Now, I will summarize the datasets along with their citations in a structured format for clarity and ease of reference.

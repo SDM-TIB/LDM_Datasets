@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Adapting to Change: Robust Counterfactual Explanations in Dynamic Data Landscapes" by Bardh Prenkaj et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, but I need to look for specific dataset names and descriptions in the main body of the paper.
+
+Next, I will focus on **section 5 (DyGRACE’s performance analysis)**, where the authors discuss the benchmarking datasets used for their experiments. Here, they mention two datasets:
+
+1. **Tree-Cycles**: This is a synthetic dataset generated according to the methods described by Prado-Romero and Stilo [2022] and Ying et al. [2019]. The dataset includes cyclic and acyclic graphs, and the authors extended it by introducing a time dimension.
+
+2. **DBLP-Coauthors**: This dataset represents authors as graphs, where edges denote co-authorship relationships. The authors sampled ego-networks of authors with at least ten collaborations in 2000 and traced their evolution from 2000 to 2010. The dataset is cited as being based on the work of Benson et al. [2018].
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **Tree-Cycles**, the citation is:
+  > Mario Alfonso Prado-Romero and Giovanni Stilo. *A survey on graph counterfactual explanations: Definitions, methods, evaluation*. arXiv preprint arXiv:2210.12089, 2022.
+
+- For **DBLP-Coauthors**, the citation is:
+  > Austin R Benson, Rediet Abebe, Michael T Schaub, Ali Jadbabaie, and Jon Kleinberg. *Simplicial closure and higher-order link prediction*. Proceedings of the National Academy of Sciences, 115(48):E11221–E11230, 2018.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+1. **Tree-Cycles**: A synthetic dataset containing cyclic and acyclic graphs, generated with a time dimension to track graph evolution.
+   - Citation: Mario Alfonso Prado-Romero and Giovanni Stilo. *A survey on graph counterfactual explanations: Definitions, methods, evaluation*. arXiv preprint arXiv:2210.12089, 2022.
+
+2. **DBLP-Coauthors**: A real-world dataset representing authors as graphs based on co-authorship relationships, focusing on the evolution of ego-networks from 2000 to 2010.
+   - Citation: Austin R Benson, Rediet Abebe, Michael T Schaub, Ali Jadbabaie, and Jon Kleinberg. *Simplicial closure and higher-order link prediction*. Proceedings of the National Academy of Sciences, 115(48):E11221–E11230, 2018.
+
+Finally, I will compile this information into a structured format for further use or analysis, ensuring that each dataset is clearly described and properly cited.

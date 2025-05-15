@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "SimpleNet: A Simple Network for Image Anomaly Detection and Localization" by Zhikang Liu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions that the authors evaluate their method on the **MVTec AD benchmark** and also conduct experiments on **CIFAR-10**. This indicates that these two datasets are likely important for the research.
+
+Next, I will look into **section 4.1 (Datasets)**, where the authors provide detailed descriptions of the datasets used in their experiments. Here, they explicitly mention:
+
+1. **MVTec AD**: This dataset is described as a comprehensive real-world dataset for unsupervised anomaly detection, containing 5 texture and 10 object categories with a total of 5,354 images. It includes normal images for training and both normal and anomaly images for testing, along with pixel-level annotations for defective test images.
+
+2. **CIFAR-10**: This dataset consists of 50,000 training images and 10,000 test images across 10 categories, with a resolution of 32x32 pixels. The authors use it for one-class novelty detection, treating one category as normal data and the others as novelty.
+
+After identifying these datasets, I will refer to the **References section** to find the full citations for each dataset:
+
+- For **MVTec AD**, the citation is:
+  > Paul Bergmann, Michael Fauser, David Sattlegger, and Carsten Steger. *MVTec AD – A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 9592–9600, 2019.
+
+- For **CIFAR-10**, the citation is:
+  > Alex Krizhevsky. *Learning Multiple Layers of Features from Tiny Images*. Master's thesis, University of Toronto, 2009.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will prepare to format this information according to the required structure for downstream processing. This includes ensuring that each dataset entry is clear and includes the full citation as specified.

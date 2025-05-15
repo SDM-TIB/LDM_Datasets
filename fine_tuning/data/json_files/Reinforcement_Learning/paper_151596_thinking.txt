@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Acceleration method for generating perception failure scenarios based on editing Markov process" by Canjie Cai, I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** and **introduction** sections to see if any datasets are mentioned or implied. The abstract discusses generating perception failure scenarios for autonomous vehicles, but it does not explicitly mention any datasets. However, it does indicate that a dataset was collected for the study.
+
+Next, I will examine the **experiments section** (Section IV) closely, as this is where datasets are typically described in detail. In this section, the author mentions collecting a dataset of an underground parking garage following the format used by the **nuscenes** dataset. The specifics of this dataset are provided in Table III, which includes details such as sampling frequency, collection duration, total frames, and annotations.
+
+The dataset is described as follows:
+- **Underground Parking Garage Dataset**: Collected to evaluate the perception algorithm in the context of autonomous driving. It consists of 122,400 frames collected over 17 hours at a frequency of 2Hz, with annotations including 3D vehicle bounding boxes.
+
+Now, I will look for the full citation of the **nuscenes** dataset in the **References section** to ensure I have the correct citation for this dataset. The citation for the nuscenes dataset is:
+> H. Caesar, V. Bankiti, A. H. Lang, S. Vora, V. E. Liong, Q. Xu, A. Krishnan, Y. Pan, G. Baldan, and O. Beijbom. *nuscenes: A multimodal dataset for autonomous driving*. arXiv preprint arXiv:1903.11027, 2019.
+
+Since the paper does not provide a separate citation for the underground parking garage dataset, I will note that it is based on the format of the nuscenes dataset.
+
+In summary, I will document the following datasets:
+
+1. **Underground Parking Garage Dataset**: 
+   - Description: A dataset collected for testing the perception algorithm in an underground parking garage environment, consisting of 122,400 frames with 3D vehicle bounding box annotations.
+   - Citation: Based on the nuscenes dataset format.
+
+2. **nuscenes Dataset**:
+   - Citation: H. Caesar, V. Bankiti, A. H. Lang, S. Vora, V. E. Liong, Q. Xu, A. Krishnan, Y. Pan, G. Baldan, and O. Beijbom. *nuscenes: A multimodal dataset for autonomous driving*. arXiv preprint arXiv:1903.11027, 2019.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

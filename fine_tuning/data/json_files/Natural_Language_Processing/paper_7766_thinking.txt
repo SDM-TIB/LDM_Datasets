@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Code Compliance Assessment as a Learning Problem" by Neela Sawant and Srinivasan H. Sengamedu, I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract mentions that the authors benchmark their approach on two listings of coding policies (CWE and CBP), which indicates that datasets are involved.
+
+Next, I will focus on the **evaluation setup section** where the authors detail the datasets used for their experiments. Here, they explicitly mention:
+
+1. **Common Weakness Enumeration (CWE)**: This is a public domain list of software weaknesses that includes 185 Java weaknesses, each with a description and examples of compliant and non-compliant code. The authors use the weakness descriptions as policies for their compliance assessment.
+
+2. **Coding Best Practices (CBP)**: This dataset consists of Java best practice descriptions and examples obtained from the Amazon CodeGuru static analyzer test suite. It contains 46 best practices, each with compliant and non-compliant examples.
+
+3. **CodeSearchNet (CSN)**: This is a public domain dataset that includes a test split with 27,000 unlabeled code examples. The authors use this dataset to evaluate their compliance search task.
+
+After identifying these datasets, I will look into the **References section** to find the full citations for each dataset:
+
+- For **Common Weakness Enumeration (CWE)**, the citation is:
+  > Mitre Corporation. "The Common Weakness Enumeration (CWE) Initiative." http://cwe.mitre.org/, 2021.
+
+- For **Coding Best Practices (CBP)**, the citation is:
+  > Amazon Web Services. "Amazon CodeGuru: Automate code reviews and optimize application performance with ML-powered recommendations." https://aws.amazon.com/codeguru/, 2021.
+
+- For **CodeSearchNet (CSN)**, the citation is:
+  > Husain, H., Wu, H., Gazit, T., Allamanis, M., & Brockschmidt, M. "Codesearchnet challenge: Evaluating the state of semantic code search." CoRR, vol. abs/1909.09436, 2019. http://arxiv.org/abs/1909.09436.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

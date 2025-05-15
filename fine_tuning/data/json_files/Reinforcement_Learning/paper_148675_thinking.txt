@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Proximal Policy Optimization with Relative Pearson Divergence" by Taisuke Kobayashi, I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and results sections** to see if any datasets are mentioned. The abstract discusses the performance of PPO-RPE on benchmark tasks, which suggests that datasets are involved, but I need to find specific names.
+
+Next, I will look for a dedicated **section on datasets** or any mention of datasets in the **experiments section**. In this paper, the author mentions that PPO-RPE was evaluated on **four benchmark tasks** simulated in a Pybullet simulator. I will need to identify these tasks and check if they correspond to specific datasets.
+
+Upon reviewing the paper, I find that the author refers to the following benchmark tasks:
+
+1. **Inverted Pendulum**: A classic control problem often used in reinforcement learning studies.
+2. **Swingup**: A variation of the Inverted Pendulum task that requires the pendulum to swing up to an upright position.
+3. **HalfCheetah**: A benchmark task in which a simulated half-cheetah robot learns to run.
+4. **Ant**: Another robotic simulation task where an ant-like robot learns to walk.
+
+These tasks are commonly used in reinforcement learning research, and while they may not be datasets in the traditional sense, they are associated with environments that provide data for training and evaluation.
+
+Next, I will check the **References section** to see if there are any citations related to these benchmark tasks or the environments used. The paper does not provide specific dataset citations for these tasks, as they are standard benchmarks in the reinforcement learning community.
+
+However, I can provide general citations for the environments used:
+
+- For **OpenAI Gym**, which includes these tasks, the citation is:
+  > Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., & Zaremba, W. (2016). OpenAI Gym. arXiv preprint arXiv:1606.01540.
+
+- For **PyBullet**, which is used for the simulations, the citation is:
+  > Coumans, E., & Bai, Y. (2016). Pybullet, a python module for physics simulation for games, robotics and machine learning. GitHub repository.
+
+Now, I will compile the information about the benchmark tasks and their associated citations into a structured format for clarity.
+
+In summary, I have identified the benchmark tasks used in the paper and their corresponding citations, which will be important for anyone looking to reference the datasets or environments utilized in this research.

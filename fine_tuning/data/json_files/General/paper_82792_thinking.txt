@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Cross-lingual Language Model Pretraining" by Guillaume Lample and Alexis Conneau, I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** and **introduction** sections to see if any datasets are mentioned. The abstract highlights the use of cross-lingual pretraining and mentions improvements on various benchmarks, which may imply the use of specific datasets.
+
+Next, I will examine the **experiments section** (Section 5) closely, as this is where datasets are typically detailed. I will look for any explicit mentions of datasets used for evaluation or training. In this paper, the authors refer to several benchmarks and datasets, including:
+
+1. **XNLI (Cross-lingual Natural Language Inference)**: This dataset is used for evaluating cross-lingual classification performance. It is mentioned in Section 4.1, where the authors describe how they fine-tune their models on this benchmark.
+
+2. **WMT (Workshop on Machine Translation) datasets**: The authors mention using WMT’14 English-French, WMT’16 English-German, and WMT’16 Romanian-English for unsupervised and supervised machine translation tasks in Sections 4.2 and 4.3.
+
+3. **MultiUN**: This dataset is referenced in Section 5.2 as a source of parallel data for training, specifically for languages like French, Spanish, Russian, Arabic, and Chinese.
+
+4. **IIT Bombay English-Hindi Parallel Corpus**: This dataset is mentioned as part of the parallel data used for Hindi in Section 5.2.
+
+5. **OPUS**: The authors refer to various corpora extracted from the OPUS website, including the EUbookshop corpus, OpenSubtitles 2018, Tanzil, and GlobalVoices, which are used for different language pairs.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. This is crucial for proper attribution and to provide readers with the necessary information to locate the datasets.
+
+The citations I will need to extract include:
+
+- For **XNLI**:
+  > Conneau, A., Rinott, R., Lample, G., Williams, A., Bowman, S. R., Schwenk, H., & Stoyanov, V. (2018). XNLI: Evaluating cross-lingual sentence representations. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing.
+
+- For **WMT datasets**:
+  > Bojar, O., et al. (2016). Findings of the 2016 Conference on Machine Translation (WMT). In Proceedings of the First Conference on Machine Translation.
+
+- For **MultiUN**:
+  > Ziemski, M., Junczys-Dowmunt, M., & Pouliquen, B. (2016). The United Nations Parallel Corpus v1.0. In LREC.
+
+- For **IIT Bombay English-Hindi Parallel Corpus**:
+  > Anoop, K., Mehta, P., & Bhattacharyya, P. (2018). The IIT Bombay English-Hindi Parallel Corpus. In LREC.
+
+- For **OPUS**:
+  > Tiedemann, J. (2012). Parallel data, tools and interfaces in OPUS. In LREC.
+
+Once I have gathered all this information, I will compile the dataset entries with their full citations, ensuring that each dataset is clearly described and attributed correctly. This will provide a comprehensive overview of the datasets used in the research paper.

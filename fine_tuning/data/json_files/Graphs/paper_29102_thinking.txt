@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Real-Time Hybrid Mapping of Populated Indoor Scenes using a Low-Cost Monocular UAV" by Stuart Golodetz et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors validate their system using the **ScanNet** and **GTA-IM** datasets, which suggests that these are important datasets for their research.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments** section. In the introduction, the authors mention that they validate their design choices through experiments on **ScanNet** and **GTA-IM**, confirming their significance. 
+
+In the **experiments section**, the authors provide details about the datasets used:
+1. **ScanNet**: Described as a large-scale 3D reconstruction dataset consisting of 1513 RGB-D sequences of unpopulated scenes. This dataset is used to compare different depth estimators and to demonstrate the effectiveness of their post-processing methods.
+2. **GTA-IM**: This dataset is characterized as a large-scale indoor motion and human-scene interaction dataset, consisting of 64 synthetic RGB-D sequences with ground-truth camera poses and instance masks, as well as 3D skeleton data for the primary character in each sequence. It is used to evaluate skeleton detection and people masking approaches.
+
+Additionally, the authors mention that they constructed a new dataset called the **Oxford Hybrid Mapping dataset**, which consists of 6 populated scenes captured using a DJI Tello drone and a Vicon Vantage system. This dataset is used to evaluate the overall performance of their hybrid mapping system.
+
+Now, I will check the **References section** to find the full citations for each dataset mentioned:
+
+- For **ScanNet**, the citation is:
+  > A. Dai, A. X. Chang, M. Savva, M. Halber, T. Funkhouser, and M. Nießner. *ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
+
+- For **GTA-IM**, the citation is:
+  > Z. Cao, H. Gao, K. Mangalam, Q.-Z. Cai, M. Vo, and J. Malik. *Long-term Human Motion Prediction with Scene Context*. In Proceedings of the European Conference on Computer Vision (ECCV), 2020.
+
+- For the **Oxford Hybrid Mapping dataset**, since it is a new dataset created by the authors, I will use the citation for the paper itself:
+  > Stuart Golodetz, Madhu Vankadari, Andrew Markham, Aluna Everitt, Niki Trigoni, and Sangyun Shin. *Real-Time Hybrid Mapping of Populated Indoor Scenes using a Low-Cost Monocular UAV*. In Proceedings of the IEEE International Conference on Robotics and Automation (ICRA), 2022.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

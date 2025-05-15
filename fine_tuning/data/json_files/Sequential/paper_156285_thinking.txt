@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Chain-of-Verification Reduces Hallucination in Large Language Models" by Shehzaad Dhuliawala et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly referenced. The abstract mentions evaluating the Chain-of-Verification (CoVe) method across various tasks, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (section 4), where the authors describe the tasks and benchmarks used to evaluate their method. In **section 4.1 (Tasks)**, the authors list several datasets used for their experiments:
+
+1. **Wikidata**: This dataset consists of automatically generated questions using the Wikidata API, resulting in a set of 56 test questions. Each question typically contains around 600 known gold entities.
+
+2. **QUEST Dataset**: This dataset is created using Wikipedia category lists, converted into questions. It includes 55 test questions, each having approximately 8 answers.
+
+3. **MultiSpanQA**: This dataset comprises questions that have multiple independent answers derived from a series of discontiguous spans in the text. The authors mention using a test set of 418 questions for evaluation.
+
+4. **Longform Generation of Biographies**: The authors evaluate their method on generating biographies, using a benchmark proposed in a previous work by Min et al. (2023).
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **Wikidata**, the citation is:
+  > Wikidata contributors. *Wikidata: A free collaborative knowledge base*. Available at: https://www.wikidata.org.
+
+- For **QUEST Dataset**, the citation is:
+  > Chaitanya Malaviya, Peter Shaw, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. *QUEST: A retrieval dataset of entity-seeking queries with implicit set operations*. arXiv preprint arXiv:2305.11694, 2023.
+
+- For **MultiSpanQA**, the citation is:
+  > Haonan Li, Martin Tomko, Maria Vasardani, and Timothy Baldwin. *Multispanqa: A dataset for multi-span question answering*. In Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pp. 1250–1260, 2022.
+
+- For **Longform Generation of Biographies**, the citation is:
+  > Sewon Min, Kalpesh Krishna, Xinxi Lyu, Mike Lewis, Wen-tau Yih, Pang Wei Koh, Mohit Iyyer, Luke Zettlemoyer, and Hannaneh Hajishirzi. *Factscore: Fine-grained atomic evaluation of factual precision in long form text generation*. arXiv preprint arXiv:2305.14251, 2023.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets utilized in the research paper.

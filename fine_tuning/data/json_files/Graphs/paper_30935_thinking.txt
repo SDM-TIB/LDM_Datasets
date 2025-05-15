@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "GraphIX: Graph-based In silico XAI for drug repositioning from biopharmaceutical network" by Atsuko Takagi et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, materials and methods, and results sections** to identify any datasets mentioned. The abstract discusses the use of a knowledge graph for drug repositioning, which suggests that datasets related to drug-disease associations and protein interactions may be involved.
+
+In the **introduction**, the authors mention the importance of computational methods in drug repositioning and reference several existing methods. This indicates that they may be using or referencing datasets from previous studies.
+
+Next, I will focus on the **materials and methods section**, particularly the subsection titled **"Construction of knowledge graph."** Here, the authors specify that the knowledge graph is constructed using several datasets:
+
+1. **Disease-drug associations**: These were collected from drug indication information in public databases such as KEGG and Metab2MeSH.
+2. **Drug-gene associations**: These were constructed from drug-target information on FDA-approved drugs in the DrugBank database.
+3. **Gene-gene associations**: Edited by Menche et al., integrating various types of protein interactions from public databases such as TRANSFAC and IntAct.
+4. **Disease-gene associations**: Collected from OMIM and the GWAS catalog.
+
+In the **results section**, the authors provide quantitative evaluations and case studies that further confirm the datasets used, particularly in relation to the performance of their model.
+
+Now, I will look at the **references section** to find full citations for these datasets:
+
+- For the **KEGG database**, the citation is:
+  > Kanehisa, M., & Goto, S. (2000). KEGG: Kyoto Encyclopedia of Genes and Genomes. *Nucleic Acids Research*, 28(1), 27-30.
+
+- For the **DrugBank database**, the citation is:
+  > Wishart, D. S., et al. (2018). DrugBank 5.0: a major update to the DrugBank database for 2018. *Nucleic Acids Research*, 46(D1), D1074-D1082.
+
+- For the **OMIM database**, the citation is:
+  > Amberger, J. S., et al. (2015). OMIM.org: leveraging knowledge across phenotype-gene relationships. *Nucleic Acids Research*, 43(D1), D789-D798.
+
+- For the **GWAS catalog**, the citation is:
+  > Buniello, A., et al. (2019). The NHGRI-EBI GWAS Catalog of published genome-wide association studies, 2019. *Nucleic Acids Research*, 47(D1), D1005-D1012.
+
+- For the **Menche et al. dataset**, the citation is:
+  > Menche, J., et al. (2015). Uncovering disease-disease relationships through the incomplete interactome. *Science*, 347(6224), 841-845.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited according to the references provided. This will ensure that the extraction is thorough and that the citations are complete for future reference.

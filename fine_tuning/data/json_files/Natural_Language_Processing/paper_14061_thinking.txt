@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "STRUCTCHART: PERCEPTION, STRUCTURING, REASONING FOR VISUAL CHART UNDERSTANDING" by Renqiu Xia et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors have created a synthetic chart dataset termed **SimChart9K**, which is a strong lead for dataset extraction.
+
+Next, I will examine **section 4.1 (Datasets)**, where the authors typically provide details about the datasets used in their experiments. Here, they mention several datasets:
+
+1. **ChartQA**: A large-scale visual reasoning dataset with 20,882 charts collected from online sources. This dataset is crucial for evaluating the performance of their proposed method.
+
+2. **PlotQA**: A synthetic dataset that contains 28.9 million question-answer pairs across 224,377 plots. This dataset is also significant for the experiments conducted in the paper.
+
+3. **FigureQA**: A visual reasoning corpus consisting of over one million human-designed question-answer pairs. This dataset is relevant for the reasoning tasks discussed.
+
+4. **Chart2Text**: A dataset for automatic summarization of statistical charts, yielding a total of 8,305 charts with annotations. This dataset is important for the summarization tasks.
+
+5. **SimChart9K**: The synthetic dataset produced by the authors, composed of 9,098 charts and associated data annotations in CSV format. This dataset is particularly highlighted as a contribution of the paper.
+
+After identifying these datasets, I will look into the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- **ChartQA**: 
+  > Ahmed Masry, Xuan Long Do, Jia Qing Tan, Shafiq R. Joty, and Enamul Hoque. *ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning*. ArXiv, abs/2203.10244, 2022.
+
+- **PlotQA**: 
+  > Nitesh Methani, Pritha Ganguly, Mitesh M. Khapra, and Pratyush Kumar. *PlotQA: Reasoning over Scientific Plots*. In Proceedings of the 2020 IEEE Winter Conference on Applications of Computer Vision (WACV), pp. 1516–1525, 2019.
+
+- **FigureQA**: 
+  > Samira Ebrahimi Kahou, Adam Atkinson, Vincent Michalski, Ákos Kádár, Adam Trischler, and Yoshua Bengio. *FigureQA: An Annotated Figure Dataset for Visual Reasoning*. ArXiv, abs/1710.07300, 2017.
+
+- **Chart2Text**: 
+  > Jason Obeid and Enamul Hoque. *Chart-to-Text: Generating Natural Language Descriptions for Charts by Adapting the Transformer Model*. ArXiv, abs/2010.09142, 2020.
+
+- **SimChart9K**: 
+  > Renqiu Xia, Bo Zhang, Haoyang Peng, Hancheng Ye, Xiangchao Yan, Peng Ye, Botian Shi, Yu Qiao, Junchi Yan. *SimChart9K: A Synthetic Chart Dataset for Chart Understanding*. Available at: https://github.com/UniModal4Reasoning/SimChart9K.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that all relevant datasets from the paper are documented accurately with their respective citations.

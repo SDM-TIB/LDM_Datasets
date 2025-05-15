@@ -1,0 +1,43 @@
+To extract datasets from the research paper titled "LLaMAX: Scaling Linguistic Horizons of LLM by Enhancing Translation Capabilities Beyond 100 Languages" by Yinquan Lu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract mentions extensive multilingual continual pre-training and references the **Flores-101 benchmark**, which suggests that datasets are involved.
+
+Next, I will look for specific sections that detail the datasets used. In the **Training Data Construction section**, the authors describe the components of their training data, which includes:
+
+1. **MC4 Dataset**: A multilingual variant of the C4 dataset, comprising natural text in 101 languages sourced from Common Crawl. This dataset is crucial for training massively multilingual models.
+
+2. **MADLAD-400 Dataset**: A manually audited general domain monolingual dataset based on CommonCrawl, covering 419 languages. This dataset is notable for its extensive language coverage and rigorous auditing process.
+
+3. **Lego-MT Dataset**: A benchmark for massively multilingual machine translation, featuring a detachable model built upon an efficient training recipe. It includes a comprehensive translation benchmark with data from OPUS, covering 433 languages.
+
+In the **Evaluation Benchmark section**, the authors mention additional datasets used for evaluation:
+
+1. **Flores-101**: A benchmark for machine translation evaluation, comprising a multi-way dataset derived from English Wikipedia and produced by professional translators.
+
+2. **Flores-200**: An extension of the Flores-101 dataset, containing parallel sentences for 200 languages.
+
+3. **WMT-23**: A comprehensive translation evaluation benchmark proposed in 2023.
+
+4. **TICO**: A dataset representing a joint translation effort targeting COVID-19 materials.
+
+Now, I will gather the full citations for these datasets from the references section:
+
+- For **MC4 Dataset**:
+  > Linting Xue, Noah Constant, Adam Roberts, Mihir Kale, Rami Al-Rfou, Aditya Siddhant, Aditya Barua, and Colin Raffel. *mT5: A massively multilingual pre-trained text-to-text transformer*. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 483–498, Online, 2021.
+
+- For **MADLAD-400 Dataset**:
+  > Sneha Kudugunta, Isaac Caswell, Biao Zhang, Xavier Garcia, Derrick Xin, Aditya Kusupati, Romi Stella, Ankur Bapna, and Orhan Firat. *Madlad-400: A multilingual and document-level large audited dataset*. Advances in Neural Information Processing Systems (NeurIPS), 2024.
+
+- For **Lego-MT Dataset**:
+  > Fei Yuan, Yinquan Lu, Wenhao Zhu, Lingpeng Kong, Lei Li, Yu Qiao, and Jingjing Xu. *Lego-MT: Learning detachable models for massively multilingual machine translation*. In Findings of the Association for Computational Linguistics: ACL 2023, pages 11518–11533, Toronto, Canada, 2023.
+
+- For **Flores-101**:
+  > Naman Goyal, Cynthia Gao, Vishrav Chaudhary, Peng-Jen Chen, Guillaume Wenzek, Da Ju, Sanjana Krishnan, Marc’Aurelio Ranzato, Francisco Guzmán, and Angela Fan. *The Flores-101 evaluation benchmark for low-resource and multilingual machine translation*. Transactions of the Association for Computational Linguistics, 10:522–538, 2022.
+
+- For **Flores-200**:
+  > NLLB Team, Marta R. Costa-jussà, James Cross, Onur Çelebi, Maha Elbayad, Kenneth Heafield, Kevin Heffernan, Elahe Kalbassi, Janice Lam, Daniel Licht, Jean Maillard, Anna Sun, Skyler Wang, Guillaume Wenzek, Al Youngblood, Bapi Akula, Loic Barrault, Gabriel Mejia Gonzalez, Prangthip Hansanti, John Hoffman, Semarley Jarrett, Kaushik Ram Sadagopan, Dirk Rowe, Shannon Spruit, Chau Tran, Pierre Andrews, Necip Fazil Ayan, Shruti Bhosale, Sergey Edunov, Angela Fan, Cynthia Gao, Vedanuj Goswami, Philipp Koehn, Alexandre Mourachko, Christophe Ropers, Safiyyah Saleem, Holger Schwenk, and Jeff Wang. *No language left behind: Scaling human-centered machine translation*. ArXiv, 2022.
+
+- For **TICO**:
+  > Antonios Anastasopoulos, Alessandro Cattelan, Zi-Yi Dou, Marcello Federico, Christian Federmann, Dmitriy Genzel, Franscisco Guzmán, Junjie Hu, Macduff Hughes, Philipp Koehn, Rosie Lazar, Will Lewis, Graham Neubig, Mengmeng Niu, Alp Öktem, Eric Paquin, Grace Tang, and Sylwia Tur. *TICO-19: the translation initiative for COvid-19*. In Proceedings of the 1st Workshop on NLP for COVID-19 (Part 2) at EMNLP 2020, Online. Association for Computational Linguistics.
+
+After compiling this information, I will create structured entries for each dataset, ensuring that the full citations are included for clarity and reference.

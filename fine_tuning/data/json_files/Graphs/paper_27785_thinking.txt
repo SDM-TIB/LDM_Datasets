@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Generating Adversarial Examples with Graph Neural Networks" by Florian Jaeckle and M. Pawan Kumar, I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors provide a "new challenging dataset specifically designed to allow for a more illustrative comparison of adversarial attacks." This suggests that a dataset is indeed present.
+
+Next, I will focus on **section 6 (A New Dataset for Comparing Adversarial Attacks)**, where the authors describe their dataset in detail. They mention that the dataset is based on the **CIFAR-10 dataset** and is designed for three different neural networks: the 'Base', 'Wide', and 'Deep' models. The authors explain how they generated the dataset and the properties included, which is crucial for understanding its structure and purpose.
+
+In this section, they also mention the number of properties generated for each model:
+- **Base Model**: 641 properties
+- **Wide Model**: 303 properties
+- **Deep Model**: 250 properties
+
+The authors describe the generation process, which involves selecting images from the CIFAR-10 test set and ensuring that adversarial examples exist for each property. This detailed explanation confirms the dataset's relevance and application.
+
+Now, I will check the **References section** to find the full citation for the CIFAR-10 dataset, which is essential for proper attribution. The citation is as follows:
+> Krizhevsky, A., Hinton, G. E., et al. (2009). *Learning multiple layers of features from tiny images*. Technical report, Citeseer.
+
+Additionally, I will note that the authors created a validation dataset based on the same parameters used for the test dataset on the 'Base' model, consisting of 50 properties. This information is also relevant for dataset extraction.
+
+Finally, I will compile the dataset entries, ensuring that I include the full citations for both the CIFAR-10 dataset and any other datasets mentioned in the paper.
+
+In summary, the datasets extracted from the paper are:
+1. **CIFAR-10 Dataset**: Used as the basis for generating the new dataset.
+   - Citation: Krizhevsky, A., Hinton, G. E., et al. (2009). *Learning multiple layers of features from tiny images*. Technical report, Citeseer.
+2. **New Dataset for Comparing Adversarial Attacks**: Generated from CIFAR-10 for three models with specific properties.
+
+After gathering all this information, I will prepare the dataset entries for structured output.

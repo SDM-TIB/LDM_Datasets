@@ -1,0 +1,479 @@
+[
+    {
+        "dcterms:creator": [
+            "A. Krizhevsky",
+            "G. Hinton"
+        ],
+        "dcterms:description": "A dataset containing 60,000 32x32 color images in 10 classes, with 6,000 images per class, commonly used for training machine learning models.",
+        "dcterms:title": "CIFAR-10",
+        "dcterms:issued": "2009",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "Image dataset",
+            "Color images",
+            "Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Y. LeCun",
+            "C. Cortes"
+        ],
+        "dcterms:description": "A dataset of handwritten digits consisting of 60,000 training images and 10,000 testing images, widely used for benchmarking machine learning algorithms.",
+        "dcterms:title": "MNIST",
+        "dcterms:issued": "2010",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Digit Recognition"
+        ],
+        "dcat:keyword": [
+            "Handwritten digits",
+            "Image dataset",
+            "Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Digit Recognition"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Deng",
+            "W. Dong",
+            "R. Socher",
+            "L. Li",
+            "K. Li",
+            "L. Fei-Fei"
+        ],
+        "dcterms:description": "A large-scale dataset containing over 14 million images categorized into over 20,000 classes, used for training and evaluating image classification models.",
+        "dcterms:title": "ImageNet",
+        "dcterms:issued": "2009",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.1109/CVPR.2009.5206848",
+        "dcat:theme": [
+            "Computer Vision",
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "Large-scale dataset",
+            "Image classification",
+            "Object recognition"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "C. Yuan",
+            "S. Wu"
+        ],
+        "dcterms:description": "A dataset generated to create unlearnable examples for deep learning models, making it difficult for models to learn from the data.",
+        "dcterms:title": "Unlearnable MNIST",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Data Privacy"
+        ],
+        "dcat:keyword": [
+            "Unlearnable examples",
+            "Data poisoning",
+            "Handwritten digits"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Data Privacy"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "C. Yuan",
+            "S. Wu"
+        ],
+        "dcterms:description": "A dataset generated to create unlearnable examples for deep learning models, specifically for the CIFAR-10 dataset.",
+        "dcterms:title": "Unlearnable CIFAR-10",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Data Privacy"
+        ],
+        "dcat:keyword": [
+            "Unlearnable examples",
+            "Data poisoning",
+            "Image dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Data Privacy"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "C. Yuan",
+            "S. Wu"
+        ],
+        "dcterms:description": "A dataset generated to create unlearnable examples for deep learning models, specifically for the ImageNet dataset.",
+        "dcterms:title": "Unlearnable ImageNet",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Data Privacy"
+        ],
+        "dcat:keyword": [
+            "Unlearnable examples",
+            "Data poisoning",
+            "Large-scale dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Data Privacy"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Feng",
+            "Q. Cai",
+            "Z. Zhou"
+        ],
+        "dcterms:description": "Datasets generated using an auto-encoder to create adversarial data that confuses deep learning models during training.",
+        "dcterms:title": "Unlearnable datasets generated by Deepconfuse",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Data Privacy"
+        ],
+        "dcat:keyword": [
+            "Adversarial data",
+            "Data poisoning",
+            "Image dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Data Privacy"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Huang",
+            "X. Ma",
+            "S. M. Erfani",
+            "J. Bailey",
+            "Y. Wang"
+        ],
+        "dcterms:description": "Datasets generated to create unlearnable examples that protect personal data from unauthorized use.",
+        "dcterms:title": "Unlearnable datasets generated by error-minimizing",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Data Privacy"
+        ],
+        "dcat:keyword": [
+            "Unlearnable examples",
+            "Data poisoning",
+            "Data privacy"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Data Privacy"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "L. Fowl",
+            "M. Goldblum",
+            "P. Chiang",
+            "J. Geiping",
+            "J. Czaja",
+            "T. Goldstein"
+        ],
+        "dcterms:description": "Datasets generated to create unlearnable examples that maximize error in deep learning models.",
+        "dcterms:title": "Unlearnable datasets generated by error-maximizing",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Data Privacy"
+        ],
+        "dcat:keyword": [
+            "Unlearnable examples",
+            "Data poisoning",
+            "Data privacy"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Data Privacy"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D. Yu",
+            "H. Zhang",
+            "W. Chen",
+            "J. Yin",
+            "T. Y. Liu"
+        ],
+        "dcterms:description": "Datasets generated to create unlearnable examples that serve as shortcuts for adversarial attacks.",
+        "dcterms:title": "Unlearnable datasets generated by synthetic",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Data Privacy"
+        ],
+        "dcat:keyword": [
+            "Unlearnable examples",
+            "Data poisoning",
+            "Synthetic data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Data Privacy"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "P. S. Segura",
+            "V. Singla",
+            "J. Geiping",
+            "M. Goldblum",
+            "T. Goldstein"
+        ],
+        "dcterms:description": "Datasets generated to create unlearnable examples using autoregressive processes.",
+        "dcterms:title": "Unlearnable datasets generated by autoregressive",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Data Privacy"
+        ],
+        "dcat:keyword": [
+            "Unlearnable examples",
+            "Data poisoning",
+            "Autoregressive processes"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Data Privacy"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Wu",
+            "S. Chen",
+            "C. Xie",
+            "X. Huang"
+        ],
+        "dcterms:description": "Datasets generated to create unlearnable examples using a one-pixel shortcut technique.",
+        "dcterms:title": "Unlearnable datasets generated by One-Pixel Shortcut",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Data Privacy"
+        ],
+        "dcat:keyword": [
+            "Unlearnable examples",
+            "Data poisoning",
+            "One-pixel attack"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Data Privacy"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Chen",
+            "G. Ma",
+            "J. Yuan",
+            "X. Gong",
+            "Y. Qin"
+        ],
+        "dcterms:description": "Datasets generated to create unlearnable examples using self-ensemble protection techniques.",
+        "dcterms:title": "Unlearnable datasets generated by Self-Ensemble Protection",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Data Privacy"
+        ],
+        "dcat:keyword": [
+            "Unlearnable examples",
+            "Data poisoning",
+            "Self-ensemble protection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Data Privacy"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. Wen",
+            "Z. Zhao",
+            "Z. Liu",
+            "M. Backes",
+            "T. Wang",
+            "Y. Zhang"
+        ],
+        "dcterms:description": "Datasets generated to create unlearnable examples using entangled features.",
+        "dcterms:title": "Unlearnable datasets generated by Entangled Features",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Data Privacy"
+        ],
+        "dcat:keyword": [
+            "Unlearnable examples",
+            "Data poisoning",
+            "Entangled features"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Data Privacy"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Fu",
+            "F. He",
+            "Y. Liu",
+            "L. Shen",
+            "D. Tao"
+        ],
+        "dcterms:description": "Datasets generated to create unlearnable examples using robust error-minimizing techniques.",
+        "dcterms:title": "Unlearnable datasets generated by Robust Error-Minimizing",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Data Privacy"
+        ],
+        "dcat:keyword": [
+            "Unlearnable examples",
+            "Data poisoning",
+            "Robust error-minimizing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Data Privacy"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "L. Tao",
+            "L. Feng",
+            "H. Wei",
+            "J. Yi",
+            "S. Huang",
+            "S. Chen"
+        ],
+        "dcterms:description": "Datasets generated to create unlearnable examples using hypocritical techniques.",
+        "dcterms:title": "Unlearnable datasets generated by Hypocritical",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Data Privacy"
+        ],
+        "dcat:keyword": [
+            "Unlearnable examples",
+            "Data poisoning",
+            "Hypocritical techniques"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Data Privacy"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Shen",
+            "X. Zhu",
+            "D. Ma"
+        ],
+        "dcterms:description": "Datasets generated to create unlearnable examples using TensorClog techniques.",
+        "dcterms:title": "Unlearnable datasets generated by TensorClog",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.1109/ACCESS.2019.2905915",
+        "dcat:theme": [
+            "Machine Learning",
+            "Data Privacy"
+        ],
+        "dcat:keyword": [
+            "Unlearnable examples",
+            "Data poisoning",
+            "TensorClog"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Data Privacy"
+        ]
+    }
+]

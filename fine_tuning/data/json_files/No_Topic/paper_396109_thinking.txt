@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "The DKU-MSXF Diarization System for the VoxCeleb Speaker Recognition Challenge 2023" by Ming Cheng et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and dataset description sections** to identify any datasets mentioned. The abstract provides a brief overview of the system and its performance but does not specify datasets. The introduction discusses the speaker diarization task but does not list datasets either.
+
+Next, I will focus on **section 2 (Dataset Description)**, where the authors explicitly mention the datasets used for training their models. Here, they list several datasets:
+
+1. **VoxCeleb 1**: This dataset is used for data simulation in voice activity detection (VAD) and overlapped speech detection (OSD).
+2. **VoxCeleb 2**: Similar to VoxCeleb 1, this dataset is also utilized for VAD and OSD.
+3. **VoxBlink-Clean**: This dataset is mentioned as part of the training for speaker embedding models.
+4. **VoxConverse**: This dataset is used for hyperparameter tuning and adaptation/validation in the clustering-based and TSVAD-based diarization methods.
+5. **MUSAN**: This corpus is used for data augmentation.
+6. **RIRs**: This dataset is also used for data augmentation.
+
+Now, I will check the **References section** to find the full citations for each dataset mentioned:
+
+- For **VoxCeleb 1**, the citation is:
+  > A. Nagrani, J. S. Chung, and A. Zisserman. "Voxceleb: A large-scale speaker identification dataset." In Proceedings of Interspeech, 2017, pp. 2616–2620.
+
+- For **VoxCeleb 2**, the citation is:
+  > J. S. Chung, A. Nagrani, and A. Zisserman. "Voxceleb2: Deep speaker recognition." In Proceedings of Interspeech, 2018, pp. 1086–1090.
+
+- For **VoxBlink-Clean**, the citation is:
+  > Y. Lin, X. Qin, M. Cheng, and M. Li. "Voxblink: X-large speaker verification dataset on camera." 2023.
+
+- For **VoxConverse**, the citation is:
+  > J. S. Chung, J. Huh, A. Nagrani, T. Afouras, and A. Zisserman. "Spot the conversation: Speaker diarisation in the wild." In Proceedings of Interspeech, 2020, pp. 299–303.
+
+- For **MUSAN**, the citation is:
+  > D. Snyder, G. Chen, and D. Povey. "Musan: A music, speech, and noise corpus." 2015.
+
+- For **RIRs**, the citation is:
+  > T. Ko, V. Peddinti, D. Povey, M. L. Seltzer, and S. Khudanpur. "A study on data augmentation of reverberant speech for robust speech recognition." In Proceedings of ICASSP, 2017, pp. 5220–5224.
+
+After gathering all the necessary information, I will compile the dataset entries, ensuring that each dataset is accurately described and accompanied by its full citation. This will provide a comprehensive overview of the datasets used in the research paper, ready for further processing or review.

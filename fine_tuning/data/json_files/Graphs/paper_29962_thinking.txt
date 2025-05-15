@@ -1,0 +1,46 @@
+To extract datasets from the research paper titled "LocVTP: Video-Text Pre-training for Temporal Localization" by Meng Cao et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions that the authors conducted extensive experiments on four downstream tasks across six datasets, indicating that multiple datasets are involved.
+
+Next, I will focus on the **experiments section** to identify the specific datasets used. In **section 4.1 (Settings of Pre-training)**, the authors list three public datasets used for pre-training their model:
+
+1. **HowTo100M**: This dataset consists of more than 1.2 million videos accompanied by ASR-generated speech transcriptions. It is used to create video-sentence pairs separated by timestamps.
+
+2. **WebVid-2M**: This dataset contains about 2.5 million well-aligned web video-text pairs.
+
+3. **Google Conceptual Captions**: This dataset includes 3.3 million image and description pairs harvested from the web.
+
+In **section 4.2 (Transfer Results on Video Retrieval)**, the authors evaluate their model on the **MSR-VTT dataset**, which is composed of 10,000 YouTube videos (9,000 for training and 1,000 for testing).
+
+In **section 4.3 (Transfer Results on Temporal Grounding)**, they mention three additional datasets used for temporal grounding:
+
+1. **ActivityNet Captions**: This dataset contains 20,000 untrimmed videos with 100,000 descriptions.
+
+2. **Charades-STA**: This dataset includes 12,408 video-query pairs for training and 3,720 pairs for testing.
+
+3. **TACoS**: This dataset has 10,146 video-query pairs for training, 4,589 pairs for validation, and 4,083 pairs for testing.
+
+Next, I will consult the **References section** to retrieve the full citations for each dataset mentioned:
+
+- For **HowTo100M**, the citation is:
+  > Miech, A., Zhukov, D., Alayrac, J.B., Tapaswi, M., Laptev, I., Sivic, J. *Howto100m: Learning a text-video embedding by watching hundred million narrated video clips*. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 2630–2640, 2019.
+
+- For **WebVid-2M**, the citation is:
+  > Miech, A., Alayrac, J.B., Smaira, L., Laptev, I., Sivic, J., Zisserman, A. *End-to-end learning of visual representations from uncurated instructional videos*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 9879–9889, 2020.
+
+- For **Google Conceptual Captions**, the citation is:
+  > Sharma, P., Ding, N., Goodman, S., Soricut, R. *Conceptual captions: A cleaned, hypernymed, image alt-text dataset for automatic image captioning*. In ACL, pages 2556–2565, 2018.
+
+- For **MSR-VTT**, the citation is:
+  > Xu, J., Mei, T., Yao, T., Rui, Y. *MSR-VTT: A large video description dataset for bridging video and language*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 5288–5296, 2016.
+
+- For **ActivityNet Captions**, the citation is:
+  > Krishna, R., Hata, K., Ren, F., Fei-Fei, L., Carlos Niebles, J. *Dense-captioning events in videos*. In ICCV, pages 706–715, 2017.
+
+- For **Charades-STA**, the citation is:
+  > Gao, J., Sun, C., Yang, Z., Nevatia, R. *Tall: Temporal activity localization via language query*. In ICCV, pages 5267–5275, 2017.
+
+- For **TACoS**, the citation is:
+  > Regneri, M., Rohrbach, M., Wetzel, D., Thater, S., Schiele, B., Pinkal, M. *Grounding action descriptions in videos*. TACL, pages 25–36, 2013.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing.

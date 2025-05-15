@@ -1,0 +1,137 @@
+[
+    {
+        "dcterms:creator": [
+            "Alistair E. W. Johnson",
+            "Tom J. Pollard",
+            "Lu Shen",
+            "Li wei H. Lehman",
+            "Mengling Feng",
+            "Mohammad Mahdi Ghassemi",
+            "Benjamin Moody",
+            "Peter Szolovits",
+            "Leo Anthony Celi",
+            "Roger G. Mark"
+        ],
+        "dcterms:description": "MIMIC-III common is a publicly accessible dataset containing discharge summary documents from an Intensive Care Unit (ICU), with each document associated with ICD codes labeled by medical coding experts. The dataset was filtered to retain instances featuring at least one of the top 50 most frequent ICD codes.",
+        "dcterms:title": "MIMIC-III common",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://api.semanticscholar.org/CorpusID:33285731",
+        "dcat:theme": [
+            "Healthcare",
+            "Medical Coding"
+        ],
+        "dcat:keyword": [
+            "ICD codes",
+            "discharge summaries",
+            "Intensive Care Unit",
+            "medical coding"
+        ],
+        "dcat:landingPage": "https://api.semanticscholar.org/CorpusID:33285731",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "ICD coding"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Alistair E. W. Johnson",
+            "Tom J. Pollard",
+            "Lu Shen",
+            "Li wei H. Lehman",
+            "Mengling Feng",
+            "Mohammad Mahdi Ghassemi",
+            "Benjamin Moody",
+            "Peter Szolovits",
+            "Leo Anthony Celi",
+            "Roger G. Mark"
+        ],
+        "dcterms:description": "MIMIC-III few-shot is a subset of the MIMIC-III dataset, randomly selected to assess the model’s performance under limited training data conditions. It comprises about one-eighth of the instances from the training data, focusing on the top 50 most frequent ICD codes.",
+        "dcterms:title": "MIMIC-III few-shot",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://api.semanticscholar.org/CorpusID:33285731",
+        "dcat:theme": [
+            "Healthcare",
+            "Medical Coding"
+        ],
+        "dcat:keyword": [
+            "ICD codes",
+            "few-shot learning",
+            "limited training data"
+        ],
+        "dcat:landingPage": "https://api.semanticscholar.org/CorpusID:33285731",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "ICD coding"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Alistair E. W. Johnson",
+            "Tom J. Pollard",
+            "Lu Shen",
+            "Li wei H. Lehman",
+            "Mengling Feng",
+            "Mohammad Mahdi Ghassemi",
+            "Benjamin Moody",
+            "Peter Szolovits",
+            "Leo Anthony Celi",
+            "Roger G. Mark"
+        ],
+        "dcterms:description": "MIMIC-III rare is a dataset created to assess the model’s performance on predicting rare disease codes. It includes instances of rare diseases defined by medical experts, with an average of about 5 training instances per label.",
+        "dcterms:title": "MIMIC-III rare",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://api.semanticscholar.org/CorpusID:33285731",
+        "dcat:theme": [
+            "Healthcare",
+            "Medical Coding"
+        ],
+        "dcat:keyword": [
+            "ICD codes",
+            "rare diseases",
+            "medical coding"
+        ],
+        "dcat:landingPage": "https://api.semanticscholar.org/CorpusID:33285731",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "ICD coding"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Hua Cheng",
+            "Rana Jafari",
+            "April Russell",
+            "Russell Klopfer",
+            "Edmond Lu",
+            "Benjamin Striner",
+            "Matthew Gormley"
+        ],
+        "dcterms:description": "MDACE Profee is a dataset used for evaluating the model’s explainability, containing expert-annotated text spans for each ICD code assigned, indicating the rationale behind the assignment. It includes 172 sentence-ICD pairs in the evaluation dataset.",
+        "dcterms:title": "MDACE Profee",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://aclanthology.org/2023.acl-long.416",
+        "dcat:theme": [
+            "Healthcare",
+            "Medical Coding"
+        ],
+        "dcat:keyword": [
+            "ICD codes",
+            "evidence extraction",
+            "medical coding"
+        ],
+        "dcat:landingPage": "https://aclanthology.org/2023.acl-long.416",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "evidence extraction",
+            "ICD coding"
+        ]
+    }
+]

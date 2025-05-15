@@ -1,0 +1,113 @@
+[
+    {
+        "dcterms:creator": [
+            "Zhitao Ying",
+            "Dylan Bourgeois",
+            "Jiaxuan You",
+            "Marinka Zitnik",
+            "Jure Leskovec"
+        ],
+        "dcterms:description": "This dataset is based on the BA-shapes and makes a modification, which is adding random float values from [0.00, 100.00] as the node feature. The regression label is the sum of the node values on the motif.",
+        "dcterms:title": "BA-Motif-Volume",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://doi.org/10.48550/ARXIV.1903.03894",
+        "dcat:theme": [
+            "Graph Regression",
+            "Synthetic Dataset"
+        ],
+        "dcat:keyword": [
+            "Graph Neural Networks",
+            "Regression",
+            "Node Features"
+        ],
+        "dcat:landingPage": "https://doi.org/10.48550/ARXIV.1903.03894",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Graph Regression"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Zhitao Ying",
+            "Dylan Bourgeois",
+            "Jiaxuan You",
+            "Marinka Zitnik",
+            "Jure Leskovec"
+        ],
+        "dcterms:description": "In this dataset, various numbers of motifs are attached to the base BA random graph, and all graphs are padded to equal size. The regression label is the count of motifs.",
+        "dcterms:title": "BA-Motif-Counting",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://doi.org/10.48550/ARXIV.1903.03894",
+        "dcat:theme": [
+            "Graph Regression",
+            "Synthetic Dataset"
+        ],
+        "dcat:keyword": [
+            "Graph Neural Networks",
+            "Regression",
+            "Motif Counting"
+        ],
+        "dcat:landingPage": "https://doi.org/10.48550/ARXIV.1903.03894",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Graph Regression"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Zhengdao Chen",
+            "Lei Chen",
+            "Soledad Villar",
+            "Joan Bruna"
+        ],
+        "dcterms:description": "This dataset consists of 5000 Erdős–Rényi random graphs where the regression label is the number of triangles in a graph.",
+        "dcterms:title": "Triangles",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:2002.04025",
+        "dcat:theme": [
+            "Graph Regression",
+            "Synthetic Dataset"
+        ],
+        "dcat:keyword": [
+            "Graph Neural Networks",
+            "Regression",
+            "Triangle Counting"
+        ],
+        "dcat:landingPage": "arXiv:2002.04025",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Graph Regression"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "John S Delaney"
+        ],
+        "dcterms:description": "The Crippen dataset is a real-life dataset that contains 1127 graphs with weights assigned by the Crippen model, predicting the water-actual partition coefficient.",
+        "dcterms:title": "Crippen",
+        "dcterms:issued": "2004",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Regression",
+            "Real-world Dataset"
+        ],
+        "dcat:keyword": [
+            "Graph Neural Networks",
+            "Regression",
+            "Chemical Properties"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Graph Regression"
+        ]
+    }
+]

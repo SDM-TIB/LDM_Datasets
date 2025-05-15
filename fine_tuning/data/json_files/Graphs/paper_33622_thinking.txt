@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Inverse analysis of granular flows using differentiable graph neural network simulator" by Yongjin Choi and Krishna Kumar, I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections to see if any datasets are mentioned. The abstract discusses the use of a differentiable graph neural network simulator (GNS) for solving inverse problems in granular flows, which suggests that datasets may be involved in the training and evaluation of the model.
+
+Next, I will look for specific mentions of datasets in the **Methods** section, particularly in the subsection titled **Training data**. Here, the authors describe two types of datasets used for training the GNS model:
+
+1. **Flow2D Dataset**: This dataset consists of 385 square-shaped granular mass flow trajectories in a two-dimensional box boundary, generated using the explicit time integration method with varying friction angles. Each friction angle has 77 simulation datasets.
+
+2. **Obstacle3D Dataset**: This dataset includes 1000 trajectories of granular mass interacting with barriers in a three-dimensional box boundary. The initial geometry and velocities of the granular mass vary, and the dataset is generated using the Moving Least Squares (MLS)-MPM code.
+
+I will also check the **Results** section to confirm that these datasets were indeed used for the experiments and to gather any additional details that might be relevant for describing the datasets.
+
+After confirming the details, I will refer to the **References section** to find the full citations for the datasets. The citations for the datasets are as follows:
+
+- For the **Flow2D Dataset**, the citation is:
+  > Choi, Y., & Kumar, K. (2023). Graph neural network-based surrogate model for granular flows. arXiv:00.
+
+- For the **Obstacle3D Dataset**, the citation is:
+  > Choi, Y., & Kumar, K. (2023). Training, validation, testing data, and trained model. DesignSafe Data Depot. doi:10.17603/DS2-4NQZ-S548.
+
+Now, I will compile the information into a structured format that includes the dataset names, descriptions, and full citations. This will ensure that I have accurately documented the datasets used in the research paper for future reference or analysis.

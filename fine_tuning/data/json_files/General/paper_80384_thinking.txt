@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Identifying Reliable Annotations for Large Scale Image Segmentation" by Alexander Kolesnikov and Christoph H. Lampert, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the challenges of obtaining reliable annotations for large image datasets, which suggests that datasets are likely involved.
+
+In the **introduction**, the authors mention the emergence of large image datasets and the need for annotated images for training models. This indicates that they may reference specific datasets later in the paper.
+
+Next, I will focus on the **experiments section**. Here, the authors describe their experiments on two large-scale datasets for foreground-background image segmentation. They mention:
+
+1. **HDSeg Dataset**: This dataset consists of 19,060 images of horses and 111,668 images of dogs, with segmentation masks created automatically by a segmentation transfer method. The test images include 241 manually segmented images of horses and 306 of dogs.
+
+2. **AutoSeg Dataset**: This dataset is newly collated from public sources and augmented with additional annotations. It contains training images from the ImageNet project, categorized into four classes: horses (9,007 images), dogs (41,777 images), cats (3,006 images), and sheep (5,079 images). The test set consists of 1001 images of horses, 1521 of dogs, 1480 of cats, and 489 of sheep, all with manually created per-pixel segmentation masks from the MS COCO dataset.
+
+To ensure I have the correct citations for these datasets, I will check the **References section** of the paper. However, the datasets themselves are not typically cited in the references; instead, they are described in the text. Therefore, I will compile the information based on the descriptions provided in the experiments section.
+
+Now, I will summarize the datasets with their details:
+
+1. **HDSeg Dataset**:
+   - Description: Contains 19,060 images of horses and 111,668 images of dogs with segmentation masks created automatically.
+   - Citation: Kolesnikov, A., Guillaumin, M., Ferrari, V., & Lampert, C. H. (2014). Closed-form approximate CRF training for scalable image segmentation. In *European Conference on Computer Vision (ECCV)*.
+
+2. **AutoSeg Dataset**:
+   - Description: A new dataset with training images from the ImageNet project, categorized into horses (9,007), dogs (41,777), cats (3,006), and sheep (5,079). Test images have manually created segmentation masks from the MS COCO dataset.
+   - Citation: Kolesnikov, A., Guillaumin, M., Ferrari, V., & Lampert, C. H. (2014). Closed-form approximate CRF training for scalable image segmentation. In *European Conference on Computer Vision (ECCV)*.
+
+After gathering this information, I will prepare the dataset entries for further processing or review.

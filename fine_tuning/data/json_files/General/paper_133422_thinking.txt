@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Unit Commitment Predictor With a Performance Guarantee: A Support Vector Machine Classifier" by Farzaneh Pourahmadi and Jalal Kazempour, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to identify any datasets mentioned. The abstract provides a brief overview of the study's objectives and methods, which may include references to datasets used for training and testing.
+
+In the **introduction**, the authors discuss the context of the unit commitment problem and the need for historical data to train their models. They mention the use of historical databases of unit commitment solutions, which indicates that there are datasets involved.
+
+Next, I will focus on the **methodology section**, particularly in **Step III: Data Collection**. Here, the authors describe how they construct their training dataset from historical forecasts of wind and demand. They mention that they solve the unit commitment problem multiple times with varying inputs to generate a dataset of feature vectors and corresponding strategies. This section will likely contain specific details about the datasets, including the number of samples and the features included.
+
+The authors state that they collected a dataset comprising of **5,000 samples for training** and **1,000 samples for testing**. The features include power generation from wind farms and load data across various buses over a 24-hour period. This information is crucial for understanding the datasets used in their experiments.
+
+I will also check the **results section** to see if the authors provide any additional insights or statistics regarding the datasets, such as performance metrics or comparisons with other methods.
+
+Finally, I will look at the **references section** to find full citations for any datasets mentioned. The authors refer to the IEEE 6-bus and 118-bus test systems, which are standard datasets in power system studies. I will ensure to include the full citations for these datasets.
+
+The citations I will extract are:
+
+1. **IEEE 6-bus test system**:
+   > "IEEE 6-bus test system." Available at: https://github.com/farzanehpourahmadi/UCP.git
+
+2. **IEEE 118-bus test system**:
+   > "IEEE 118-bus test system." Available at: https://github.com/farzanehpourahmadi/UCP.git
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all relevant details are captured for future reference or analysis.

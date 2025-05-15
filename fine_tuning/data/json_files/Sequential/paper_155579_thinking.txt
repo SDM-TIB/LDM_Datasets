@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Unsupervised Hebbian Learning on Point Sets in StarCraft II" by Beomseok Kang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to gather initial insights about any datasets that may be referenced. The abstract mentions a novel Hebbian learning method applied to point sets in StarCraft II, which suggests that there may be specific datasets related to the game.
+
+Next, I will focus on **section III (Overview)**, where the authors explicitly describe the dataset used for their experiments. Here, they mention that they extracted data from open-source replay videos provided by Blizzard, specifically using Terran versus Terran replay games. This indicates that the dataset is derived from gameplay data.
+
+In this section, the authors detail how they extracted the position of all units every 0.2 seconds, and they describe the format of the data, which includes two types: one as a set of x and y positions and the other as binary image data representing the game map. This is crucial information for understanding the dataset's structure.
+
+The authors also mention that they used the PySC2 package to extract the data, which is a significant detail that can help in locating the dataset or similar datasets in the future.
+
+Now, I will check the **References section** to find the full citation for the PySC2 package, as it is essential to provide proper attribution for the tools used in the dataset extraction. The relevant citation for PySC2 is:
+> Vinyals, O., et al. "Starcraft II: A new challenge for reinforcement learning." arXiv preprint arXiv:1708.04782, 2021.
+
+Additionally, I will note that the dataset is based on gameplay data from StarCraft II, which is publicly available through Blizzard's GitHub repository. The specific link provided in the paper is:
+> GitHub: https://github.com/Blizzard/s2client-proto#downloads
+
+Finally, I will compile the information into a structured format, ensuring that I include the full citations for both the dataset and the tools used to extract it.
+
+In summary, the datasets extracted from the paper are:
+1. **StarCraft II Replay Dataset**: Extracted from open-source replay videos provided by Blizzard, specifically for Terran versus Terran games. The data includes unit positions and binary image representations of the game map.
+   - Citation for PySC2: Vinyals, O., et al. "Starcraft II: A new challenge for reinforcement learning." arXiv preprint arXiv:1708.04782, 2021.
+   - GitHub link: https://github.com/Blizzard/s2client-proto#downloads
+
+With this information, I will prepare the dataset entries for further processing or review.

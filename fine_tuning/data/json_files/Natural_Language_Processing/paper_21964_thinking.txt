@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Automatic AI controller that can drive with confidence: steering vehicle with uncertainty knowledge" by Neha Kumari et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets mentioned. The abstract discusses the development of a vehicle's lateral control system using a Bayesian Neural Network (BNN) and mentions that the model is trained using simulated data gathered from the vehicle. This indicates that there is a dataset involved, but I need to find more specific details.
+
+Next, I will focus on the **introduction** section, where the authors mention using the **TORCS (The Open Racing Car Simulator)** for data generation. This suggests that the dataset is derived from simulations conducted in this environment. I will look for specific details about the dataset, such as its structure and the type of data collected.
+
+In the **problem formulation and approach section**, the authors describe how the dataset consists of distance measurements from a LIDAR sensor suite along with corresponding steering values. This is crucial information that helps define the dataset's content.
+
+I will also check the **experimental results section** to confirm the dataset's application in experiments. The authors mention using the BNN controller on various tracks, which implies that the dataset is utilized for training and testing the model.
+
+Now, I will consult the **references section** to find the full citation for the TORCS simulator, as it is the source of the dataset:
+
+- For **TORCS**, the citation is:
+  > B. Wymann, E. Espi´e, C. Guionneau, C. Dimitrakakis, R. Coulom, and A. Sumner. *Torcs, the open racing car simulator*. Software available at http://torcs.sourceforge.net, vol. 4, no. 6, p. 2, 2000.
+
+Since the dataset is generated using the TORCS simulator, I will note that the dataset is based on simulated driving data collected from this environment.
+
+Finally, I will summarize the dataset information, ensuring to include the full citation for the TORCS simulator, which is essential for proper attribution.
+
+After gathering all this information, I will prepare the dataset entries for further processing or review.

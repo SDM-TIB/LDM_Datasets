@@ -1,0 +1,62 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The environment consists of 50 states that are connected in a circular chain. The agent has two actions available, moving left or right. Upon taking an action, the agent succeeds with probability 0.7, stays in place with probability 0.1, and moves in the opposite direction with probability 0.2. The agent receives a reward of 1 when entering state 10, a reward of -1 when entering state 40, and a reward of 0 otherwise. The policy evaluated in the PE experiments is to always move left.",
+        "dcterms:title": "Chain Walk",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Reinforcement Learning",
+            "Markov Decision Process",
+            "Chain Environment"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Amin Rakhsha"
+        ],
+        "dcterms:description": "A 6 by 6 grid world is used, visualized in Figure 5. The agent starts on the top left. Its goal is to end up on the top right. There are 12 cliff tiles, and the agent is stuck in them if it falls in. Moreover, the agent is stuck in the goal state once entering it. Upon making a move in the goal state, it receives a reward of 20. Making a move in a cliff receives a reward of -32, -16, or -8 depending on whether the cliff is on the top, middle, or bottom respectively. Otherwise, it receives a reward of -1. The agent has four possible actions corresponding to moving up, down, left, and right. If the agent attempts to move off the grid, it simply stays in place. Otherwise, its action succeeds with probability 0.9, and moves in one of the other three directions at random with uniform probability. The policy evaluated in the TD experiments is a random walk.",
+        "dcterms:title": "Cliff Walk",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Reinforcement Learning",
+            "Grid World",
+            "Cliff Environment"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Shalabh Bhatnagar",
+            "Richard S. Sutton",
+            "Mohammad Ghavamzadeh"
+        ],
+        "dcterms:description": "The environment is randomly generated. They consist of 50 states, and 3 actions per state. To build the environment, for each action and state, (x, a), we pick 5 other random states Xx,a. For 10 randomly chosen states x, we set r(x) from a uniform distribution between 0 and 1. We set r(x) is zero on all other states. Then, when taking action a and from state x, we receive reward r(x) and move to any state in Xx,a with equal probability. The policy evaluated in the TD experiments is a random walk.",
+        "dcterms:title": "Garnet",
+        "dcterms:issued": "2009",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Reinforcement Learning",
+            "Random Environment",
+            "Markov Decision Process"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

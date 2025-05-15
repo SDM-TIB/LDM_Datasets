@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "ECG Semantic Integrator (ESI): A Foundation ECG Model Pretrained with LLM-Enhanced Cardiological Text" by Han Yu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and evaluation sections** to identify any datasets mentioned. The abstract mentions that the authors validate their approach through various downstream tasks, which suggests that datasets are involved.
+
+In the **introduction**, the authors discuss the challenges of obtaining large-scale annotated ECG data and mention the use of multimodal learning approaches. However, I need to look for specific dataset names.
+
+Next, I will focus on **section 4 (Evaluation)**, where the authors describe the datasets used for pretraining their model. They specifically mention three datasets:
+
+1. **PTB-XL**: This dataset consists of 21,837 12-lead, 10-second ECG recordings from 18,885 participants. The authors followed the training and test data split guidelines outlined in the original publication.
+
+2. **Chapman-Shaoxing**: This dataset contains 45,000 samples with associated demographic information and arrhythmia diagnoses.
+
+3. **MIMIC-IV-ECG**: This is the largest dataset with 600,000 samples accompanied by demographics and machine-generated ECG reports.
+
+The authors provide a detailed breakdown of each dataset, including the number of samples and associated information, confirming their relevance to the study.
+
+Now, I will check the **References section** to retrieve full citations for these datasets:
+
+- For **PTB-XL**, the citation is:
+  > Patrick Wagner, Nils Strodthoff, Ralf-Dieter Bousseljot, Dieter Kreiseler, Fatima I Lunze, Wojciech Samek, and Tobias Schaeffter. *PTB-XL, a large publicly available electrocardiography dataset*. Scientific Data, 7(1):154, 2020.
+
+- For **Chapman-Shaoxing**, the citation is:
+  > Jianwei Zheng, Huimin Chu, Daniele Struppa, Jianming Zhang, Sir Magdi Yacoub, Hesham El-Askary, Anthony Chang, Louis Ehwerhemuepha, Islam Abudayyeh, Alexander Barrett, et al. *Optimal multi-stage arrhythmia classification approach*. Scientific Reports, 10(1):2898, 2020.
+
+- For **MIMIC-IV-ECG**, the citation is:
+  > Brian Gow, Tom Pollard, Larry A Nathanson, Alistair Johnson, Benjamin Moody, Chrystinne Fernandes, Nathaniel Greenbaum, Seth Berkowitz, Dana Moukheiber, Parastou Eslami, et al. *MIMIC-IV-ECG: Diagnostic electrocardiogram matched subset*. Type: dataset, 2023.
+
+With these citations, I have gathered the necessary information about the datasets used in the study. I will now compile the dataset entries into a structured format for further processing.

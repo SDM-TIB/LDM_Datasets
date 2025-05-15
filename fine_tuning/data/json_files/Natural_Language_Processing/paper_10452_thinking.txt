@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Bring More Attention to Syntactic Symmetry for Automatic Postediting of High-Quality Machine Translations" by Baikjin Jung et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiment sections** to identify any datasets mentioned. The abstract provides a brief overview of the research but does not specify datasets. The introduction discusses the context of Automatic Postediting (APE) but does not mention specific datasets either.
+
+Next, I will focus on **section 4 (Experiment)**, where the authors explicitly list the datasets used for their experiments. In this section, they mention:
+
+1. **eSCAPE-NMT**: A cleansed subset of eSCAPE’s English–German-NMT set, with a training size of 5,065,187 examples.
+2. **WMT 2019**: Used for validation and testing, with sizes of 13,442 for validation, 1,000 for the validation set, and 1,023 for the test set.
+
+The authors also clarify that the cleansing procedure for eSCAPE-NMT is a reproduction of a previous study by Shin et al. (2021), which indicates that this dataset is derived from an established source.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **eSCAPE-NMT**, the citation is:
+  > Matteo Negri, Marco Turchi, Rajen Chatterjee, and Nicola Bertoldi. *eSCAPE: a Large-scale Synthetic Corpus for Automatic Post-Editing*. In Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018), pages 24–30, Miyazaki, Japan, 2018. European Language Resources Association (ELRA).
+
+- For **WMT 2019**, the citation is:
+  > Rajen Chatterjee, Christian Federmann, Matteo Negri, and Marco Turchi. *Findings of the WMT 2019 Shared Task on Automatic Post-Editing*. In Proceedings of the Fourth Conference on Machine Translation (Volume 3: Shared Task Papers, Day 2), pages 11–28, Florence, Italy, 2019. Association for Computational Linguistics.
+
+With these citations in hand, I will now summarize the datasets:
+
+1. **eSCAPE-NMT**: A cleansed subset of a larger dataset specifically designed for English–German machine translation tasks.
+2. **WMT 2019**: A dataset used for validation and testing in the context of the WMT shared task on Automatic Post-Editing.
+
+Finally, I will compile the dataset entries into a structured format for further processing, ensuring that each dataset is accurately represented with its full citation.

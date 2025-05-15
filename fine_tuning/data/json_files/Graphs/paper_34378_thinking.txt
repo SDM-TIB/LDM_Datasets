@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Contrastive Dual-Interaction Graph Neural Network for Molecular Property Prediction" by Zexing Zhao et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** of the paper. The abstract mentions the introduction of DIG-Mol and its application in molecular property prediction, which suggests that datasets are likely discussed in the context of experiments.
+
+Next, I will focus on the **Materials and Methodology section**, where the authors typically describe the datasets used for training and evaluation. In this section, they mention that DIG-Mol was evaluated using a diverse suite of **13 datasets from MoleculeNet**, which is a strong indication that multiple datasets are involved.
+
+I will then look for specific mentions of datasets in the **Results and Discussion section**. The authors provide a summary table (Table 1) that lists the datasets along with their characteristics, such as the number of molecules, tasks, and task types. This table is crucial for identifying the datasets used in their experiments.
+
+The datasets mentioned in the paper include:
+
+1. **BBBP**: A dataset for predicting blood-brain barrier penetration, containing 2039 molecules and classified as a physiology task.
+2. **BACE**: A dataset with 1513 compounds for predicting β-secretase 1 inhibitors, also a physiology task.
+3. **SIDER**: A dataset of 1427 approved drugs and their side effects, classified into 27 organ categories.
+4. **ClinTox**: A dataset of 1478 drug compounds comparing FDA-approved drugs with non-approved drugs due to toxicity.
+5. **HIV**: A dataset containing 41127 compounds tested for their ability to inhibit HIV replication.
+6. **Tox21**: A dataset with 7831 synthesized substances for measuring compound toxicity across 12 tasks.
+7. **MUV**: A dataset of 93087 compounds used for maximum unbiased validation across 17 tasks.
+8. **FreeSolv**: A regression dataset with 642 molecules containing hydration free energy values.
+9. **ESOL**: A dataset with 1128 drug molecules and their water solubility data.
+10. **Lipo**: A dataset with over 4200 compounds providing experimental results of lipophilicity.
+11. **QM7**: A dataset of 6830 molecules providing Coulomb matrix representations and atomization energies.
+12. **QM8**: A dataset with 21786 samples related to electronic spectra and excited state energy.
+13. **QM9**: A dataset of 130829 species with various computed properties.
+
+After identifying these datasets, I will refer to the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+For example, the citation for the **MoleculeNet** benchmark is:
+> Wu, Z., Ramsundar, B., Feinberg, E. N., Gomes, J., Geniesse, C., Pappu, A. S., Leswing, K., & Pande, V. (2018). Moleculenet: A benchmark for molecular machine learning. *Chemical Science*, 9(2), 513-530.
+
+Now, I will compile the dataset entries, ensuring that each dataset is accurately described and includes its full citation. This structured approach will help in creating a comprehensive dataset summary that adheres to the requirements of the task.

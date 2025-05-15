@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "SIMEX: Express Prediction of Inter-Dataset Similarity by a Fleet of Autoencoders" by Inseok Hwang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the method SimEx and its implications for dataset similarity, but I need to find specific datasets used in the experiments.
+
+Next, I will focus on **section 5 (Experiments)**, where the authors describe their experimental setup. They mention using five publicly available MNIST-variant datasets:
+
+1. **MNIST**: A well-known dataset for handwritten digit recognition.
+2. **Rotated MNIST**: A variant of MNIST where the digits are rotated.
+3. **Background-image MNIST**: Another variant of MNIST that includes background images.
+4. **Fashion MNIST**: A dataset consisting of fashion items, serving as a drop-in replacement for MNIST.
+5. **EMNIST-Letters**: An extension of MNIST that includes handwritten letters.
+
+In this section, the authors provide details about how these datasets were used in their experiments, confirming their relevance.
+
+Now, I will check the **References section** to find the full citations for each dataset:
+
+- For **MNIST**, the citation is:
+  > Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick Haffner. *Gradient-based learning applied to document recognition*. Proceedings of the IEEE, 86(11):2278–2324, 1998.
+
+- For **Rotated MNIST**, the citation is:
+  > Hugo Larochelle, Dumitru Erhan, Aaron Courville, James Bergstra, and Yoshua Bengio. *An empirical evaluation of deep architectures on problems with many factors of variation*. In Proceedings of the 24th international conference on Machine learning, pp. 473–480. ACM, 2007.
+
+- For **Background-image MNIST**, the citation is the same as for Rotated MNIST since it was introduced in the same paper:
+  > Hugo Larochelle, Dumitru Erhan, Aaron Courville, James Bergstra, and Yoshua Bengio. *An empirical evaluation of deep architectures on problems with many factors of variation*. In Proceedings of the 24th international conference on Machine learning, pp. 473–480. ACM, 2007.
+
+- For **Fashion MNIST**, the citation is:
+  > Han Xiao, Kashif Rasul, and Roland Vollgraf. *Fashion-MNIST: A novel image dataset for benchmarking machine learning algorithms*. arXiv preprint arXiv:1708.07747, 2017.
+
+- For **EMNIST-Letters**, the citation is:
+  > Greg Cohen, Sam Afshar, James Tapson, and Andrew van Schaik. *EMNIST: An extension of MNIST to handwritten letters*. arXiv preprint arXiv:1702.05373, 2017.
+
+After gathering all this information, I will compile the dataset entries with their full citations, ensuring that each dataset is accurately represented and properly cited.

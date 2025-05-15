@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Correct-n-Contrast: A Contrastive Approach for Improving Robustness to Spurious Correlations" by Michael Zhang et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** and **introduction** sections to get an overview of the datasets that might be referenced. The abstract mentions evaluating the proposed method on "popular benchmarks," which suggests that specific datasets will be discussed later in the paper.
+
+Next, I will focus on the **experiments section** (Section 5), where the authors typically describe the datasets used for evaluation. Here, I will look for any explicit mentions of datasets, including their names, characteristics, and any relevant details about how they were used in the experiments.
+
+In this paper, the authors mention four datasets:
+
+1. **Colored MNIST (CMNIST∗)**: This dataset is described as a modified version of the MNIST dataset, where colors are used as spurious attributes. The authors specify that they classify digits from Y = {(0, 1), (2, 3), (4, 5), (6, 7), (8, 9)} and that the dataset is designed to test the robustness of models against spurious correlations.
+
+2. **Waterbirds**: This dataset consists of images of birds pasted onto different backgrounds (water or land). The classification task is to identify whether the bird is a waterbird or a landbird, with the background serving as a spurious attribute.
+
+3. **CelebA**: This dataset contains images of celebrities, where the task is to classify hair color (blond or not blond) based on the gender of the celebrity, which acts as a spurious attribute.
+
+4. **CivilComments-WILDS**: This dataset consists of online comments labeled as toxic or non-toxic, with demographic identities mentioned as spurious attributes.
+
+After identifying these datasets, I will check the **References section** of the paper to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The full citations for the datasets are as follows:
+
+- **Colored MNIST (CMNIST∗)**: 
+  > Arjovsky, M., Bottou, L., Gulrajani, I., & Lopez-Paz, D. (2019). *Invariant risk minimization*. arXiv preprint arXiv:1907.02893.
+
+- **Waterbirds**: 
+  > Sagawa, S., Koh, P. W., Hashimoto, T. B., & Liang, P. (2019). *Distributionally robust neural networks for group shifts: On the importance of regularization for worst-case generalization*. In International Conference on Learning Representations.
+
+- **CelebA**: 
+  > Liu, Z., Luo, P., Wang, X., & Tang, X. (2015). *Deep learning face attributes in the wild*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 3730–3738.
+
+- **CivilComments-WILDS**: 
+  > Borkan, D., Dixon, L., Sorensen, J., Thain, N., & Vasserman, L. (2019). *Nuanced metrics for measuring unintended bias with real data for text classification*. In Companion Proceedings of the 2019 World Wide Web Conference, pages 491–500.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or analysis.

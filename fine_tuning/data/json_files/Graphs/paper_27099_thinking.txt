@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Deep Data Flow Analysis" by Chris Cummins et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned. In the abstract, the authors introduce a benchmark dataset of **461k Intermediate Representation (IR) files for LLVM**, which is a strong indication that a dataset is present.
+
+Next, I will look for specific sections that detail the datasets used. In the **introduction**, the authors mention the **DEEPDATAFLOW dataset**, which is constructed from the aforementioned IR files and includes **15.4 million corresponding data flow results**. This indicates that the dataset is not only large but also has a specific purpose related to data flow analysis.
+
+In the **section on the DEEPDATAFLOW dataset**, the authors provide a detailed description of the dataset, including its composition and the tasks it supports. They mention that the dataset comprises **461k LLVM-IR files** from various sources, totaling **256 million lines of code**. This section is crucial as it provides the necessary details about the dataset's structure and purpose.
+
+Now, I will gather the full citations for the datasets mentioned in the paper. The authors reference several sources for the IR files used in the DEEPDATAFLOW dataset:
+
+1. **LLVM-IR files**: The dataset is constructed from various sources, including:
+   - **BLAS 3.8.0**: 
+     > Bailey, D. H., et al. *The NAS Parallel Benchmarks*. IJHPCA, 5(3), 1991.
+   - **Linux 4.19**: 
+     > Torvalds, L. *Linux Kernel*. Available at: https://www.kernel.org/
+   - **OpenCV 3.4.0**: 
+     > Bradski, G., & Kaehler, A. *Learning OpenCV: Computer Vision with the OpenCV Library*. O'Reilly Media, 2008.
+   - **POJ-104**: 
+     > Mou, L., et al. *Convolutional Neural Networks over Tree Structures for Programming Language Processing*. AAAI, 2016.
+   - **TensorFlow**: 
+     > Abadi, M., et al. *TensorFlow: A System for Large-scale Machine Learning*. In OSDI, 2016.
+
+The DEEPDATAFLOW dataset is a significant contribution to the field, and its full citation is as follows:
+> Cummins, C., Leather, H., Fisches, Z., Ben-Nun, T., & Hoeffler, T. *Deep Data Flow Analysis*. Under review as a conference paper at ICLR 2021.
+
+After gathering this information, I will compile the dataset entries into a structured format that highlights the key aspects of each dataset, including their purpose, size, and relevant citations. This will ensure that the datasets are well-documented and easily accessible for future reference or analysis.

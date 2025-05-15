@@ -1,0 +1,44 @@
+To extract datasets from the research paper titled "RET-CLIP: A Retinal Image Foundation Model Pre-trained with Clinical Diagnostic Reports" by Jiawei Du et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will start by reading through the **abstract** and **introduction** sections. The abstract mentions a dataset of **193,865 patients** used for training the RET-CLIP model, which indicates that this dataset is significant. The introduction further emphasizes the importance of clinical diagnostic reports and the integration of image-text pairs, suggesting that there may be multiple datasets involved.
+
+Next, I will focus on the **Method** section, particularly **section 2.1 (Data Collection and Preprocessing)**, where the authors describe the dataset they constructed, referred to as **RET-Clinical**. This dataset consists of **binocular images-text triplets** for each patient, which includes two color fundus photographs (CFPs) for the left and right eyes, along with a clinical diagnostic report. This is a key dataset that I need to document.
+
+Then, I will examine **section 3.1 (Tasks and Datasets)**, where the authors list several datasets used for evaluation across different diagnostic tasks. The datasets mentioned include:
+
+1. **IDRID**: Contains 516 images for diabetic retinopathy diagnosis.
+2. **APTOS-2019**: Contains 3,662 images for diabetic retinopathy diagnosis.
+3. **PAPILA**: A dataset with 488 images for glaucoma diagnosis.
+4. **Glaucoma Fundus**: Contains 1,544 images for glaucoma diagnosis.
+5. **JSIEC**: A dataset with 1,000 images for multiple disease diagnosis.
+6. **Retina**: Contains 601 images for multiple disease diagnosis.
+7. **RFMid**: A dataset with 3,200 images for multi-label classification of multiple diseases.
+8. **ODIR**: Contains 10,000 images for multi-label classification of multiple diseases.
+
+I will also check the **References section** to gather full citations for each dataset mentioned. Here are the citations I will extract:
+
+- For **IDRID**:
+  > Porwal, P., Pachade, S., Kokare, M., Deshmukh, G., Son, J., Bae, W., Liu, L., Wang, J., Liu, X., Gao, L., et al. "IDRID: Diabetic retinopathy–segmentation and grading challenge." *Medical Image Analysis* 59, 101561 (2020).
+
+- For **APTOS-2019**:
+  > APTOS 2019 Blindness Detection. *Kaggle Competition Dataset*. Available at: https://www.kaggle.com/competitions/aptos2019-blindness-detection/data.
+
+- For **PAPILA**:
+  > Kovalyk, O., Morales-Sánchez, J., Verdú-Monedero, R., Sellés-Navarro, I., Palazón-Cabanes, A., Sancho-Gómez, J.L. "Papila: Dataset with fundus images and clinical data of both eyes of the same patient for glaucoma assessment." *Scientific Data* 9(1), 291 (2022).
+
+- For **Glaucoma Fundus**:
+  > Ahn, J.M., Kim, S., Ahn, K.S., Cho, S.H., Lee, K.B., Kim, U.S. "A deep learning model for the detection of both advanced and early glaucoma using fundus photography." *PloS One* 13(11), e0207982 (2018).
+
+- For **JSIEC**:
+  > Cen, L.P., Ji, J., Lin, J.W., Ju, S.T., Lin, H.J., Li, T.P., Wang, Y., Yang, J.F., Liu, Y.F., Tan, S., et al. "Automatic detection of 39 fundus diseases and conditions in retinal photographs using deep neural networks." *Nature Communications* 12(1), 4828 (2021).
+
+- For **Retina**:
+  > Retina Dataset. *Kaggle Dataset*. Available at: https://www.kaggle.com/datasets/jr2ngb/cataractdataset.
+
+- For **RFMid**:
+  > Pachade, S., Porwal, P., Thulkar, D., Kokare, M., Deshmukh, G., Sahasrabuddhe, V., Giancardo, L., Quellec, G., Mériadeau, F. "Retinal fundus multi-disease image dataset (rfmid): A dataset for multi-disease detection research." *Data* 6(2), 14 (2021).
+
+- For **ODIR**:
+  > ODIR Dataset. Available at: https://odir2019.grand-challenge.org/.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper, which is essential for reproducibility and further research.

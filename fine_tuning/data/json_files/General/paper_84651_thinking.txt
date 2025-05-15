@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "What Does BERT Look At? An Analysis of BERT’s Attention" by Kevin Clark et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to see if any datasets are explicitly mentioned. The abstract discusses analyzing BERT's attention mechanisms but does not mention specific datasets. The introduction provides context about BERT but does not list any datasets either.
+
+Next, I will focus on the **methodology section**, particularly the parts where the authors describe their experimental setup. In **section 4 (Probing Individual Attention Heads)**, the authors mention using the **Penn Treebank** for dependency parsing and the **CoNLL-2012 dataset** for coreference resolution. This is a crucial finding as it indicates the datasets used for their analysis.
+
+1. **Penn Treebank**: The authors state that they extract attention maps from BERT on the Wall Street Journal portion of the Penn Treebank annotated with Stanford Dependencies. This dataset is essential for evaluating the syntactic capabilities of BERT's attention heads.
+
+2. **CoNLL-2012 Dataset**: The authors use this dataset to evaluate attention heads for coreference resolution. This dataset is significant for understanding how well BERT's attention can capture coreference links.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Penn Treebank**, the citation is:
+  > Mitchell P Marcus, Mary Ann Marcinkiewicz, and Beatrice Santorini. *Building a large annotated corpus of English: The Penn Treebank*. Computational Linguistics, 19(2):313–330, 1993.
+
+- For the **CoNLL-2012 dataset**, the citation is:
+  > Sameer Pradhan, Alessandro Moschitti, Nianwen Xue, Olga Uryupina, and Yuchen Zhang. *CoNLL-2012 shared task: Modeling multilingual unrestricted coreference in Ontonotes*. In Joint Conference on EMNLP and CoNLL-Shared Task, 2012.
+
+Having gathered this information, I will now compile the dataset entries with their respective citations for further processing or review.

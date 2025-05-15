@@ -1,0 +1,59 @@
+[
+    {
+        "dcterms:creator": [
+            "Loic Matthey",
+            "Irina Higgins",
+            "Demis Hassabis",
+            "Alexander Lerchner"
+        ],
+        "dcterms:description": "dSprites comprises images determined by five latent parameters (shape, scale, rotation, posX, posY). Each image has dimensions of 64 × 64 = 4096 and serves as the treatment variable X. The dataset is used for both low- and high-dimensional IV and PCL settings.",
+        "dcterms:title": "dSprites Dataset",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://github.com/deepmind/dsprites-dataset/",
+        "dcat:theme": [
+            "Computer Vision",
+            "Causal Inference"
+        ],
+        "dcat:keyword": [
+            "Image dataset",
+            "Latent parameters",
+            "Causal estimation"
+        ],
+        "dcat:landingPage": "https://github.com/deepmind/dsprites-dataset/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Instrumental Variable Regression",
+            "Proxy Causal Learning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Jason Hartford",
+            "Greg Lewis",
+            "Kevin Leyton-Brown",
+            "Matt Taddy"
+        ],
+        "dcterms:description": "Demand Design is a synthetic benchmark for nonlinear IV regression. It involves predicting ticket demands based on airplane ticket price, price sensitivity, and year time, with the presence of observable and unobservable confounders.",
+        "dcterms:title": "Demand Design Dataset",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Economics",
+            "Causal Inference"
+        ],
+        "dcat:keyword": [
+            "Synthetic dataset",
+            "Nonlinear regression",
+            "Causal estimation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Instrumental Variable Regression"
+        ]
+    }
+]

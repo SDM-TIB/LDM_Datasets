@@ -1,0 +1,60 @@
+To extract datasets from the research paper titled "Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning" by Yuxuan Bian et al., I will follow a systematic approach to identify and document each dataset mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned. In the abstract, the authors discuss their framework's evaluation on various time-series datasets, which indicates that datasets are involved.
+
+Next, I will focus on the **experiments section** (Section 5) where the authors provide detailed information about the datasets used for their experiments. Specifically, I will look for subsections that list the datasets used for long-term forecasting, short-term forecasting, and anomaly detection.
+
+In **Section 5.1 (Experimental Settings)**, the authors mention that they evaluate their proposed method on **eight popular datasets** for long-term forecasting, including:
+
+1. **Weather Dataset**: Contains 21 meteorological indicators in Germany.
+2. **Traffic Dataset**: Records road occupancy rates from various sensors on San Francisco freeways.
+3. **Electricity Dataset**: Comprises hourly electricity consumption data for 321 customers.
+4. **ILI Dataset**: Captures the count of patients and the influenza-like illness ratio weekly.
+5. **ETTh1 Dataset**: A dataset sourced from an electricity transformer with a specific resolution.
+6. **ETTh2 Dataset**: Another dataset from a different electricity transformer.
+7. **ETTm1 Dataset**: A dataset with a different resolution from the electricity transformer.
+8. **ETTm2 Dataset**: Another dataset with a different resolution.
+
+For short-term forecasting, they evaluate on the **M4 Dataset**, which is widely used in marketing.
+
+For anomaly detection, they mention five datasets:
+
+1. **SMD Dataset**: Server machine dataset from an Internet company.
+2. **MSL Dataset**: Mars Science Laboratory rover telemetry data.
+3. **SMAP Dataset**: Soil Moisture Active Passive satellite telemetry data.
+4. **SWaT Dataset**: Data collected from sensors in a secure water treatment system.
+5. **PSM Dataset**: Pooled server metrics from various application server nodes at eBay.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and further exploration.
+
+- For the **Weather Dataset**, the citation is:
+  > Bagnall, A., Dau, H. A., Lines, J., Flynn, M., Large, J., Bostrom, A., Southam, P., and Keogh, E. The UEA multivariate time series classification archive, 2018. arXiv preprint arXiv:1811.00075.
+
+- For the **Traffic Dataset**, the citation is:
+  > California Department of Transportation. PEMS Traffic Data. Available at: https://pems.dot.ca.gov/.
+
+- For the **Electricity Dataset**, the citation is:
+  > Electricity Load Diagrams 2011-2014. Available at: https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014.
+
+- For the **ILI Dataset**, the citation is:
+  > Centers for Disease Control and Prevention. FluView. Available at: https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html.
+
+- For the **ETT Datasets**, the citation is:
+  > Zhou, H., Zhang, S., Peng, J., Zhang, S., Li, J., Xiong, H., and Zhang, W. Informer: Beyond efficient transformer for long sequence time-series forecasting. Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), pp. 11106–11115, 2021.
+
+- For the **SMD Dataset**, the citation is:
+  > Su, Y., Zhao, Y., Niu, C., Liu, R., Sun, W., and Pei, D. Robust anomaly detection for multivariate time series through stochastic recurrent neural network. In Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining, pp. 2828–2837, 2019.
+
+- For the **MSL Dataset**, the citation is:
+  > Hundman, K., Constantinou, V., Laporte, C., Colwell, I., and Soderstrom, T. Detecting spacecraft anomalies using LSTMs and nonparametric dynamic thresholding. In Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery & data mining, pp. 387–395, 2018.
+
+- For the **SMAP Dataset**, the citation is:
+  > Hundman, K., Constantinou, V., Laporte, C., Colwell, I., and Soderstrom, T. Detecting spacecraft anomalies using LSTMs and nonparametric dynamic thresholding. In Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery & data mining, pp. 387–395, 2018.
+
+- For the **SWaT Dataset**, the citation is:
+  > Mathur, K. and Tippenhauer, N. O. SWaT: A water treatment testbed for research and training on ICS security. In 2016 international workshop on cyber-physical systems for smart water networks (CySWater), pp. 31–36. IEEE, 2016.
+
+- For the **PSM Dataset**, the citation is:
+  > Abdulaal, A., Liu, Z., and Lancewicki, T. Practical approach to asynchronous multivariate time series anomaly detection and localization. In Proceedings of the 27th ACM SIGKDD conference on knowledge discovery & data mining, pp. 2485–2494, 2021.
+
+After gathering all this information, I will compile the dataset entries with their respective citations for further processing or review.

@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Saliency-Aware Regularized Graph Neural Network" by Wenjie Pei et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the authors demonstrate the merits of their method through extensive experiments on **seven datasets across various types of graph data**. This indicates that multiple datasets are involved, and I need to find their specific names.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors provide details about the datasets used for evaluation. In **subsection 4.1 (Experimental Setup)**, the authors list the datasets as follows:
+
+1. **MUTAG**: A chemical dataset containing two categories of compounds: mutagenic aromatic and heteroaromatic compounds.
+2. **ENZYMES**: A protein dataset comprising 600 protein tertiary structures, grouped into 6 top-level enzyme classes.
+3. **PROTEINS**: Another protein dataset that contains two types of samples: enzymes or non-enzymes.
+4. **IMDB-MULTI**: This dataset includes ego-network graphs involving 1000 actors categorized into three genre classes: Comedy, Romance, and Sci-Fi.
+5. **IMDB-BINARY**: Similar to IMDB-MULTI, but this dataset has two categories: Action and Romance.
+6. **TRIANGLES**: A large synthetic dataset consisting of 45,000 graph samples, where the task is to predict the number of triangles in a graph (ranging from 1 to 10).
+7. **Letter-high**: Another synthetic dataset containing 2,250 graph samples, each representing distorted letter drawings.
+
+I will now check the **References section** to find the full citations for these datasets. However, it appears that the datasets are primarily well-known benchmarks in the field of graph classification, and they may not have specific citations in the references. Instead, I will provide general citations based on common knowledge in the field:
+
+- **MUTAG**: 
+  > Debnath, A. K., Lopez de Compadre, R. L., Debnath, G., Shusterman, A. J., & Hansch, C. (1991). Structure-activity relationship of mutagenic aromatic and heteroaromatic Nitro compounds. *Journal of Medicinal Chemistry*, 34(2), 786-797.
+
+- **ENZYMES**: 
+  > Schomburg, I., Chang, A., Ebeling, C., Gremse, M., Heldt, M., Huhn, D., & Schomburg, D. (2004). BRENDA, the enzyme database: updates and major new developments. *Nucleic Acids Research*, 32, D431-D433.
+
+- **PROTEINS**: 
+  > Borgwardt, K. M., Ong, C. S., Schönauer, S., Vishwanathan, A. J., Smola, A. J., & Kriegel, H.-P. (2005). Protein function prediction via graph kernels. *Bioinformatics*, 21(suppl 1), i47-i56.
+
+- **IMDB-MULTI** and **IMDB-BINARY**: 
+  > Yanardag, P., & Vishwanathan, S. V. N. (2015). Deep graph kernels. In *Proceedings of the 21st ACM SIGKDD International Conference on Knowledge Discovery and Data Mining* (pp. 1365-1374).
+
+- **TRIANGLES**: 
+  > This dataset is synthetic and does not have a specific citation. It is commonly used in graph classification tasks.
+
+- **Letter-high**: 
+  > Riesen, K., & Bunke, H. (2008). IAM graph database repository for graph-based pattern recognition and machine learning. In *Structural, Syntactic, and Statistical Pattern Recognition* (pp. 287-297).
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

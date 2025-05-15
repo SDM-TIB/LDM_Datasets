@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "EBMs vs. CL: Exploring Self-Supervised Visual Pretraining for Visual Question Answering" by Violetta Shevchenko et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to see if any datasets are explicitly mentioned. The abstract discusses the challenges of training models for visual question answering (VQA) due to the need for labeled data, which suggests that datasets are likely to be referenced.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for their evaluations. In this case, they mention a **custom controlled small-scale dataset** similar to CLEVR, which is crucial for their experiments. I will look for specific details about this dataset, such as its structure, number of images, and how it was generated.
+
+In the **experiments section**, the authors provide a detailed description of their diagnostic dataset, including:
+- The dataset consists of 12,000 images for pretraining, 3,600 for training, 800 for validation, and 3,600 for testing.
+- The images are generated using Blender and contain three objects (sphere, cube, cylinder) in various colors.
+- The dataset allows for systematic evaluation of generalization to unseen combinations of objects and colors.
+
+I will also check the **references section** for any citations related to the datasets mentioned. The authors reference the CLEVR dataset, which is a well-known benchmark in the field. The citation for CLEVR is:
+> Justin Johnson, Bharath Hariharan, Laurens van der Maaten, Li Fei-Fei, C Lawrence Zitnick, and Ross Girshick. *CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2435–2443, 2017.
+
+Now, I will compile the information into a structured format, ensuring that I include the full citations for each dataset mentioned in the paper.
+
+1. **Custom Diagnostic Dataset**:
+   - Description: A controlled small-scale dataset similar to CLEVR, consisting of images with three objects (sphere, cube, cylinder) in various colors.
+   - Number of Images: 12,000 for pretraining, 3,600 for training, 800 for validation, and 3,600 for testing.
+   - Citation: Not explicitly cited in the references, as it is a custom dataset created by the authors.
+
+2. **CLEVR Dataset**:
+   - Description: A diagnostic dataset for compositional language and elementary visual reasoning.
+   - Citation: 
+   > Justin Johnson, Bharath Hariharan, Laurens van der Maaten, Li Fei-Fei, C Lawrence Zitnick, and Ross Girshick. *CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2435–2443, 2017.
+
+After gathering all this information, I will prepare the dataset entries for further processing or review.

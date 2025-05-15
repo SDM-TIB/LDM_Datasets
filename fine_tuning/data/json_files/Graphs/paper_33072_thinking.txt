@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Operational risk quantification of power grids using graph neural network surrogates of the DC OPF" by Yadong Zhang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors used **four synthetic grids (Case118, Case300, Case1354pegase, and Case2848rte)** for surrogate model performance evaluation. This suggests that these grids are the datasets of interest.
+
+Next, I will look for specific details about these datasets in the **methodology section**. The authors describe how they generated training and testing datasets. They mention that **Dataset I** is generated using uncorrelated uniform distributions for stochastic grid variables, while **Dataset II** is created using a Gaussian copula to represent correlated stochastic grid variables. This distinction is crucial for understanding the datasets' characteristics.
+
+In the **numerical experiments section**, the authors confirm that they evaluated their GNN surrogates on the four benchmark power grids. They provide details about how the datasets were generated and the specific characteristics of each grid.
+
+Now, I will gather the full citations for the datasets mentioned in the paper. The citations for the four synthetic grids are as follows:
+
+1. **Case118**: 
+   > R. D. Zimmerman, C. E. Murillo-Sánchez, and D. Gan. *Matpower: A matlab power system simulation package*. Manual, Power Systems Engineering Research Center, Ithaca NY, vol. 1, pp. 10–7, 1997.
+
+2. **Case300**: 
+   > R. D. Zimmerman, C. E. Murillo-Sánchez, and D. Gan. *Matpower: A matlab power system simulation package*. Manual, Power Systems Engineering Research Center, Ithaca NY, vol. 1, pp. 10–7, 1997.
+
+3. **Case1354pegase**: 
+   > S. Fliscounakis, P. Panciatici, F. Capitanescu, and L. Wehenkel. *Contingency ranking with respect to overloads in very large power systems taking into account uncertainty, preventive, and corrective actions*. IEEE Transactions on Power Systems, vol. 28, no. 4, pp. 4909–4917, 2013.
+
+4. **Case2848rte**: 
+   > C. Josz, S. Fliscounakis, J. Maeght, and P. Panciatici. *AC power flow data in matpower and qcqp format: itesla, rte snapshots, and pegase*. arXiv preprint arXiv:1603.01533, 2016.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

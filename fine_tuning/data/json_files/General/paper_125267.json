@@ -1,0 +1,167 @@
+[
+    {
+        "dcterms:creator": [
+            "Maxar"
+        ],
+        "dcterms:description": "Very high resolution canopy height maps produced using Maxar Vivid2 mosaic imagery as input imagery for model training and inference.",
+        "dcterms:title": "Maxar Vivid2 mosaic imagery",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://resources.maxar.com/data-sheets/imagery-basemaps-data-sheet",
+        "dcat:theme": [
+            "Remote Sensing",
+            "Vegetation Mapping"
+        ],
+        "dcat:keyword": [
+            "Satellite imagery",
+            "Canopy height",
+            "High resolution",
+            "Maxar"
+        ],
+        "dcat:landingPage": "https://resources.maxar.com/data-sheets/imagery-basemaps-data-sheet",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Canopy height estimation",
+            "Vegetation structure mapping"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Approximately 5800 canopy height maps selected from the National Ecological Observatory Network (NEON) for training and validation of models.",
+        "dcterms:title": "National Ecological Observatory Network (NEON)",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://data.neonscience.org/data-products/DP3.30015.001.",
+        "dcat:theme": [
+            "Ecological Monitoring",
+            "Forest Structure"
+        ],
+        "dcat:keyword": [
+            "Canopy height maps",
+            "Ecological data",
+            "Remote sensing"
+        ],
+        "dcat:landingPage": "https://data.neonscience.org/data-products/DP3.30015.001.",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Geotiff",
+        "mls:task": [
+            "Model training",
+            "Validation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. Dubayah",
+            "J. Armston",
+            "J. Kellner",
+            "L. Duncanson",
+            "S. Healey",
+            "P. Patterson",
+            "S. Hancock",
+            "H. Tang",
+            "J. Bruening",
+            "M. Hofton",
+            "J. Blair",
+            "S. Luthcke"
+        ],
+        "dcterms:description": "GEDI L4A footprint level aboveground biomass density data used for model training and validation.",
+        "dcterms:title": "GEDI (Global Ecosystem Dynamics Investigation)",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=2056",
+        "dcat:theme": [
+            "Remote Sensing",
+            "Forest Biomass"
+        ],
+        "dcat:keyword": [
+            "Lidar",
+            "Aboveground biomass",
+            "Forest dynamics"
+        ],
+        "dcat:landingPage": "https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=2056",
+        "dcterms:hasVersion": "version 2.1",
+        "dcterms:format": "Lidar data",
+        "mls:task": [
+            "Biomass estimation",
+            "Model training"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Brande"
+        ],
+        "dcterms:description": "3D fuel structure data in relation to prescribed fire, used for validation of canopy height models.",
+        "dcterms:title": "CA-Brande",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://doi.org/10.5069/G9C53J18",
+        "dcat:theme": [
+            "Fire Ecology",
+            "Forest Management"
+        ],
+        "dcat:keyword": [
+            "3D fuel structure",
+            "Prescribed fire",
+            "California"
+        ],
+        "dcat:landingPage": "https://doi.org/10.5069/G9C53J18",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Lidar data",
+        "mls:task": [
+            "Validation",
+            "Forest management"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "M. Dos-Santos",
+            "M. Keller",
+            "D. Morton"
+        ],
+        "dcterms:description": "Lidar surveys over selected forest research sites in the Brazilian Amazon, used for processing canopy height models.",
+        "dcterms:title": "S˜ao Paulo dataset",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://daac.ornl.gov/CMS/guides/LiDAR Forest Inventory Brazil.html",
+        "dcat:theme": [
+            "Remote Sensing",
+            "Forest Inventory"
+        ],
+        "dcat:keyword": [
+            "Lidar surveys",
+            "Brazilian Amazon",
+            "Forest research"
+        ],
+        "dcat:landingPage": "https://daac.ornl.gov/CMS/guides/LiDAR Forest Inventory Brazil.html",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Lidar data",
+        "mls:task": [
+            "Forest inventory",
+            "Canopy height modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A subset of NEON sites used for validation, referred to as the NEON test dataset.",
+        "dcterms:title": "NEON test dataset",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://data.neonscience.org/data-products/DP3.30015.001.",
+        "dcat:theme": [
+            "Ecological Monitoring",
+            "Forest Structure"
+        ],
+        "dcat:keyword": [
+            "Validation dataset",
+            "Remote sensing",
+            "Ecological data"
+        ],
+        "dcat:landingPage": "https://data.neonscience.org/data-products/DP3.30015.001.",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Model validation"
+        ]
+    }
+]

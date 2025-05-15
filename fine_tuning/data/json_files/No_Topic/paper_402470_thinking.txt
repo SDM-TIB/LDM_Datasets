@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Attributing Learned Concepts in Neural Networks" by Nicholas Konz et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly named or described. The abstract mentions the use of "two concept datasets," which indicates that there are specific datasets relevant to the research.
+
+Next, I will focus on **section 3 (Datasets, Base Models and Concepts)**, where the authors provide detailed descriptions of the datasets used in their experiments. Here, I find two datasets:
+
+1. **ImageNet10p**: This dataset is created by randomly sampling 10% of the images from each class in the ImageNet training and validation sets. It serves as the training and validation sets for the base models.
+
+2. **Concept Datasets**:
+   - **Snakes Concept Dataset**: This dataset consists of images from 17 ImageNet classes (classes 477-493) that represent snakes. The training set includes all examples of these classes and an equal number of non-snake images randomly sampled from the training set.
+   - **High-Low Frequencies Concept Dataset**: This dataset is constructed from images that exhibit a transition between high and low spatial frequencies. The authors used the top 0.001% highest-activating ImageNet images based on specific neuron activations to define this dataset.
+
+After identifying these datasets, I will check the **References section** for full citations. The relevant citations for the datasets are:
+
+- For **ImageNet**:
+  > Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. *Imagenet: A large-scale hierarchical image database*. In 2009 IEEE Conference on Computer Vision and Pattern Recognition, pages 248–255, 2009. doi: 10.1109/CVPR.2009.5206848.
+
+- For the **Snakes Concept Dataset** and **High-Low Frequencies Concept Dataset**, since they are derived from ImageNet, I will cite the original ImageNet paper as the authoritative source.
+
+Now, I will compile the dataset entries with their respective citations, ensuring that each dataset is clearly described and properly referenced. This will provide a comprehensive overview of the datasets used in the research.

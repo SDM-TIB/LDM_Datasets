@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Eye-gaze Guided Multi-modal Alignment Framework for Radiology" by Chong Ma et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions the use of eye-gaze data collected from radiologists, which suggests that there may be specific datasets related to this data. The introduction further discusses the integration of eye-gaze data with medical images and texts, indicating that datasets are likely to be detailed in the paper.
+
+Next, I will look for a dedicated **Datasets** section or any relevant subsections within the **methodology** or **experiments** sections. In this paper, the datasets are mentioned in the **Implementation Details** section, where the authors describe the datasets used for training and evaluation.
+
+The key datasets identified in the paper are:
+
+1. **MIMIC-EYE Dataset**: This dataset includes 3,689 images from the MIMIC-IV dataset, along with corresponding eye-tracking data and transcripts from radiologists. It serves as the primary training set for the proposed framework.
+
+2. **CheXpert Dataset**: This is a large-scale public dataset for chest radiograph interpretation, containing 224,316 chest radiographic images. The authors specifically mention using subsets of this dataset, namely **CheXpert 5x200** and **CheXpert 8x200**, for their experiments.
+
+3. **RSNA Pneumonia Detection Dataset**: This dataset includes 29,700 chest X-ray images categorized into normal and pneumonia-positive categories, which are used for zero-shot classification testing.
+
+4. **SIIM-ACR Dataset**: This dataset is utilized for pneumothorax classification and segmentation, consisting of 2,379 images with pneumothorax and 8,300 images without.
+
+Now, I will gather the full citations for each dataset from the **References** section of the paper:
+
+- For the **MIMIC-EYE Dataset**, the citation is:
+  > C. Hsieh, C. Ouyang, J. C. Nascimento, J. Pereira, J. Jorge, and C. Moreira. *MIMIC-EYE: Integrating MIMIC datasets with REFLACX and eye gaze for multimodal deep learning applications*. 2023.
+
+- For the **CheXpert Dataset**, the citation is:
+  > J. Irvin, P. Rajpurkar, M. Ko, Y. Yu, S. Ciurea-Ilcus, C. Chute, H. Marklund, B. Haghgoo, R. Ball, K. Shpanskaya et al. *CheXpert: A large chest radiograph dataset with uncertainty labels and expert comparison*. In Proceedings of the AAAI Conference on Artificial Intelligence, vol. 33, 2019, pp. 590–597.
+
+- For the **RSNA Pneumonia Detection Dataset**, the citation is:
+  > G. Shih, C. C. Wu, S. S. Halabi, M. D. Kohli, L. M. Prevedello, T. S. Cook, A. Sharma, J. K. Amorosa, V. Arteaga, M. Galperin-Aizenberg et al. *Augmenting the National Institutes of Health chest radiograph dataset with expert annotations of possible pneumonia*. Radiology: Artificial Intelligence, vol. 1, no. 1, 2019.
+
+- For the **SIIM-ACR Dataset**, the citation is:
+  > SIIM-ACR Pneumothorax Segmentation. 2020. Available: https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation.
+
+After compiling this information, I will ensure that each dataset is clearly documented with its respective citation, ready for further processing or review.

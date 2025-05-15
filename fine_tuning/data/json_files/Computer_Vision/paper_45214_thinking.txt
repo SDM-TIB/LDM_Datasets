@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "GitEvolve: Predicting the Evolution of GitHub Repositories" by Honglu Zhou et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to locate any references to datasets. The abstract mentions the development of a system to predict GitHub repository evolution, which suggests that datasets related to GitHub repositories are likely involved.
+
+Next, I will focus on **section 4.1 (Dataset)**, where the authors explicitly describe the dataset used for their experiments. They mention that they filtered a set of repositories related to CVE (Common Vulnerabilities and Exposures) codes, which is a clear indication of a specific dataset being utilized.
+
+The authors state that they used a dataset that includes **700 randomly chosen CVE IDs**, filtered to maintain only repositories with events from January 1, 2015, to August 31, 2017. This results in a total of **1,377 repositories and 49,000 users** who made at least one event during that period. This detailed description provides a solid foundation for documenting the dataset.
+
+Now, I will look into the **References section** to find the full citation for the dataset. The dataset is derived from the **gharchive service** and the **ghtorrent** dataset, which are mentioned in the paper. I will ensure to include these references in the final documentation.
+
+The citations for the datasets are as follows:
+
+- For the **gharchive service**, the citation is:
+  > GitHub. [n.d.]. GH Archive. https://www.gharchive.org/
+
+- For the **ghtorrent dataset**, the citation is:
+  > Georgios Gousios. 2013. The GHTorrent dataset and tool suite. In Proceedings of the 10th Working Conference on Mining Software Repositories (MSR ’13). IEEE Press, Piscataway, NJ, USA, 233–236. http://dl.acm.org/citation.cfm?id=2487085.2487132
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is clearly described and that the full citations are included for reference. This will provide a comprehensive overview of the datasets used in the research paper.

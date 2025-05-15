@@ -1,0 +1,255 @@
+[
+    {
+        "dcterms:creator": [
+            "Nihal Ye˘ginobalı"
+        ],
+        "dcterms:description": "A bilingual corpus consisting of the works of the literary translator Nihal Ye˘ginobalı, used for training machine translation models.",
+        "dcterms:title": "Translator Corpus",
+        "dcterms:issued": "",
+        "dcterms:language": "English, Turkish",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Literary Translation",
+            "Machine Translation"
+        ],
+        "dcat:keyword": [
+            "Bilingual corpus",
+            "Literary works",
+            "Translation style"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A reference corpus comprising 512 e-books reflective of linguistic tendencies in Turkish literary translations.",
+        "dcterms:title": "Reference Corpus",
+        "dcterms:issued": "",
+        "dcterms:language": "Turkish",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Literary Translation",
+            "Linguistic Analysis"
+        ],
+        "dcat:keyword": [
+            "E-books",
+            "Linguistic tendencies",
+            "Turkish literature"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset consisting of 48 manually aligned books from the translator corpus, used for training machine translation models.",
+        "dcterms:title": "Manual Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "English, Turkish",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Literary Translation",
+            "Machine Translation"
+        ],
+        "dcat:keyword": [
+            "Manually aligned",
+            "Translation training",
+            "Literary corpus"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset that combines 24 manually aligned and 24 automatically aligned books for training machine translation models.",
+        "dcterms:title": "Manual-auto Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "English, Turkish",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Literary Translation",
+            "Machine Translation"
+        ],
+        "dcat:keyword": [
+            "Hybrid alignment",
+            "Translation training",
+            "Literary corpus"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset consisting of 48 automatically aligned books used for training machine translation models.",
+        "dcterms:title": "Auto Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "English, Turkish",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Literary Translation",
+            "Machine Translation"
+        ],
+        "dcat:keyword": [
+            "Automatically aligned",
+            "Translation training",
+            "Literary corpus"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset formed by combining the Manual dataset and a portion of size 250K selected randomly from the 800K self-trained data.",
+        "dcterms:title": "Self-trained-small Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "English, Turkish",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Literary Translation",
+            "Machine Translation"
+        ],
+        "dcat:keyword": [
+            "Self-training",
+            "Translation training",
+            "Literary corpus"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset formed in the same fashion as Self-trained-small and contains 800K synthetic parallel sentences.",
+        "dcterms:title": "Self-trained-large Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "English, Turkish",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Literary Translation",
+            "Machine Translation"
+        ],
+        "dcat:keyword": [
+            "Self-training",
+            "Translation training",
+            "Literary corpus"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset consisting of the Manual dataset and a portion of size 250K sampled randomly from the 800K back-translated data.",
+        "dcterms:title": "Back-translated-small Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "English, Turkish",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Literary Translation",
+            "Machine Translation"
+        ],
+        "dcat:keyword": [
+            "Back-translation",
+            "Translation training",
+            "Literary corpus"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset containing 800K back-translated sentences used for training machine translation models.",
+        "dcterms:title": "Back-translated-large Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "English, Turkish",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Literary Translation",
+            "Machine Translation"
+        ],
+        "dcat:keyword": [
+            "Back-translation",
+            "Translation training",
+            "Literary corpus"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Tiedemann, Jörg",
+            "Thottingal, Santhosh"
+        ],
+        "dcterms:description": "An English-Turkish pre-trained machine translation model developed as part of the OPUS-MT project.",
+        "dcterms:title": "English-Turkish OPUS-MT Model",
+        "dcterms:issued": "2020",
+        "dcterms:language": "English, Turkish",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Translation"
+        ],
+        "dcat:keyword": [
+            "Pre-trained model",
+            "Machine translation",
+            "English-Turkish"
+        ],
+        "dcat:landingPage": "https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-en-tr",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Model",
+        "mls:task": [
+            "Machine Translation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset used for self-training, consisting of English texts.",
+        "dcterms:title": "English BookCorpus",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Literary Translation",
+            "Machine Translation"
+        ],
+        "dcat:keyword": [
+            "Self-training",
+            "English texts",
+            "Literary corpus"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": []
+    }
+]

@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "On Training Recurrent Networks with Truncated Backpropagation Through Time in Speech Recognition" by Hao Tang and James Glass, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the study, and the introduction often outlines the context and significance of the datasets used.
+
+In the **introduction**, the authors discuss the use of recurrent neural networks (RNNs) for speech recognition and mention the importance of long-term dependencies in the data. However, they do not explicitly name any datasets at this point.
+
+Next, I will focus on the **experiments section**. In **section 4**, the authors describe their experiments in detail. They mention using the **Wall Street Journal (WSJ) dataset**, which consists of about 80 hours of read speech and is suitable for studying long-term dependencies. This is a key dataset for their experiments.
+
+I will also look for any additional datasets mentioned in the results or discussions. The authors refer to specific subsets of the WSJ dataset, such as **si284**, which is used for training and evaluation. They specify that 90% of si284 is used for training and 10% for development, with evaluations conducted on **dev93**.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned:
+
+1. For the **Wall Street Journal (WSJ) dataset**, the citation is:
+   > Paul J. Werbos. *Backpropagation through time: what it does and how to do it*. Proceedings of the IEEE, 1990.
+
+2. For the **Kaldi recipe** used to obtain time-aligned frame labels, the citation is:
+   > Daniel Povey et al. *The Kaldi speech recognition toolkit*. In IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU), 2011.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will include the WSJ dataset and any relevant subsets or methodologies referenced in the paper.
+
+Finally, I will prepare the dataset entries for structured output, ensuring that the citations are complete and formatted correctly for future reference or processing.

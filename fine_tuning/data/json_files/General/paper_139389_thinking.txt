@@ -1,0 +1,61 @@
+To extract datasets from the research paper titled "FinGPT-HPC: Efficient Pretraining and Finetuning Large Language Models for Financial Applications" by Xiao-Yang Liu et al., I will follow a systematic approach to identify and document each dataset mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper to locate any references to datasets. The abstract mentions the use of specific datasets for pretraining and finetuning, which indicates that I should look for their names and details.
+
+Next, I will focus on **Section VI (Performance Evaluation)**, where the authors describe the datasets used for training and evaluation. Here, they mention several datasets:
+
+1. **OpenWebText**: This dataset is used for pretraining and is described as a clone of the GPT-2 WebText dataset, containing approximately 11.2 billion tokens.
+
+2. **Alpaca Dataset**: This dataset is constructed using the self-instruct method and is used for finetuning. It contains 52,000 instruction-following examples.
+
+3. **FinGPT Dataset**: Collected from financial websites, this dataset is also used for finetuning and contains 52,000 instruction-following examples.
+
+For evaluation, the authors mention several datasets:
+
+1. **BoolQ**: A question-answering dataset with 16,000 examples, where each example consists of a passage, question, and answer.
+
+2. **PIQA**: A dataset for physical commonsense reasoning with 21,000 examples, each containing a question and two possible solutions.
+
+3. **WinoGrande**: A commonsense reasoning dataset with 44,000 sentences, where each sentence has a blank to be filled.
+
+4. **FPB**: This dataset consists of 4,800 sentences from financial news categorized by sentiment.
+
+5. **FiQA SA**: Comprising 17,000 sentences from microblog headlines and financial news, classified according to sentiment.
+
+6. **TFNS**: This dataset consists of 11,900 sentences from an annotated corpus of finance-related tweets, used for sentiment classification.
+
+7. **NER**: A dataset consisting of 1,400 sentences from financial agreements, used for named entity recognition.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The citations for the datasets are as follows:
+
+- **OpenWebText**: 
+  > A. Gokaslan, V. Cohen, Openwebtext, https://github.com/Skylion007/openwebtext (2019).
+
+- **Alpaca Dataset**: 
+  > R. Taori, I. Gulrajani, T. Zhang, Y. Dubois, X. Li, C. Guestrin, P. Liang, T. B. Hashimoto, Stanford alpaca: An instruction-following llama model (2023).
+
+- **FinGPT Dataset**: 
+  > X.-Y. Liu, G. Wang, H. Yang, D. Zha, Data-centric FinGPT: Democratizing internet-scale data for financial large language models, NeurIPS Workshop on Instruction Tuning and Instruction Following (2023).
+
+- **BoolQ**: 
+  > C. Clark, K. Lee, M.-W. Chang, T. Kwiatkowski, M. Collins, K. Toutanova, BoolQ: Exploring the surprising difficulty of natural yes/no questions, in: NAACL, 2019.
+
+- **PIQA**: 
+  > Y. Bisk, R. Zellers, R. L. Bras, J. Gao, Y. Choi, PiQA: Reasoning about physical commonsense in natural language, in: Thirty-Fourth AAAI Conference on Artificial Intelligence, 2020.
+
+- **WinoGrande**: 
+  > Winogrande: An adversarial winograd schema challenge at scale, 2019.
+
+- **FPB**: 
+  > P. Malo, A. Sinha, P. Korhonen, J. Wallenius, P. Takala, Good debt or bad debt: Detecting semantic orientations in economic texts, Journal of the Association for Information Science and Technology 65 (4) (2014) 782–796.
+
+- **FiQA SA**: 
+  > M. Maia, S. Handschuh, A. Freitas, B. Davis, A. Balahur, WWW’18 open challenge: Financial opinion mining and question answering, in: Companion of the The Web Conference 2018, 2018.
+
+- **TFNS**: 
+  > N. Magic, Twitter financial news sentiment, http://precog.iiitd.edu.in/people/anupama, (2022).
+
+- **NER**: 
+  > J. C. S. Alvarado, K. Verspoor, T. Baldwin, Domain adaptation of named entity recognition to support credit risk assessment, in: Proceedings of the Australasian Language Technology Association Workshop 2015, 2015, pp. 84–90.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

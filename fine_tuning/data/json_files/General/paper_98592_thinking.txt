@@ -1,0 +1,33 @@
+To extract the datasets mentioned in the research paper titled "Severity Quantification and Lesion Localization of COVID-19 on CXR using Vision Transformer" by Gwanghyun Kim et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental details sections** to identify any datasets that are explicitly mentioned or described. The abstract discusses the importance of automated frameworks for quantifying COVID-19 severity and mentions the use of chest X-ray (CXR) images, which suggests that datasets related to CXR images are involved.
+
+Next, I will focus on the **experimental details section** where the authors provide a summary of the datasets used for training and testing their model. Here, they mention several datasets:
+
+1. **JSRT Dataset**: This dataset consists of 247 normal CXR images used for segmentation network training, along with its segmentation labels from the SCR dataset.
+
+2. **CheXpert Dataset**: A large dataset containing 190,847 frontal CXR images with annotations for 14 types of radiological findings, used for pretraining the feature embedding network.
+
+3. **Brixia Dataset**: This dataset is mentioned as being used for training the model, and it contains a consensus subset where five different radiologists annotate CXR images.
+
+4. **CNUH Dataset**: This dataset is used for external testing and consists of CXR images from another independent domestic institution.
+
+5. **BIMCV Dataset**: This dataset contains COVID-19 lesion segmentation labels annotated on 12 frontal images, used for qualitative analysis.
+
+Now, I will consult the **References section** to retrieve full citations for these datasets:
+
+- For the **JSRT Dataset**, the citation is:
+  > Shiraishi, J., Katsuragawa, S., Ikezoe, J., Matsumoto, T., Kobayashi, T., Komatsu, K.i., Matsui, M., Fujita, H., Kodera, Y., Doi, K. (2000). Development of a digital image database for chest radiographs with and without a lung nodule: receiver operating characteristic analysis of radiologists’ detection of pulmonary nodules. *American Journal of Roentgenology*, 174(1), 71-74. http://db.jsrt.or.jp/eng.php
+
+- For the **CheXpert Dataset**, the citation is:
+  > Irvin, J., Rajpurkar, P., Ko, M., Yu, Y., Ciurea-Ilcus, S., Chute, C., Marklund, H., Haghgoo, B., Ball, R., Shpanskaya, K., et al. (2019). Chexpert: A large chest radiograph dataset with uncertainty labels and expert comparison. In *Proceedings of the AAAI Conference on Artificial Intelligence*, 33, 590-597.
+
+- For the **Brixia Dataset**, the citation is:
+  > Signoroni, A., Savardi, M., Benini, S., Adami, N., Leonardi, R., Gibellini, P., Vaccher, F., Ravanelli, M., Borghesi, A., Maroldi, R., Farina, D. (2020). End-to-end learning for semiquantitative rating of covid-19 severity on chest x-rays. arXiv:2006.04603. https://brixia.github.io/
+
+- For the **BIMCV Dataset**, the citation is:
+  > De La Iglesia Vayá, M., Saborit, J.M., Montell, J.A., Pertusa, A., Bustos, A., Cazorla, M., Galant, J., Barber, X., Orozco-Beltrán, D., García-García, F., et al. (2020). BIMCV COVID-19+: A large annotated dataset of RX and CT images from COVID-19 patients. arXiv:2006.01174. https://bimcv.cipf.es/bimcv-projects/bimcv-covid19
+
+- The **CNUH Dataset** is not explicitly cited in the references, but it is mentioned as being collected from Chungnam National University Hospital.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented with its source.

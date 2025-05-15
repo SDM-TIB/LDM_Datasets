@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion" by Shitao Tang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the paper's contributions, and the introduction often discusses the context and significance of the datasets used.
+
+In the **introduction**, the authors mention that their method, MVDiffusion, is evaluated on two multi-view image generation tasks. This suggests that datasets are involved, but I need to find specific names and details.
+
+Next, I will look for a dedicated **section on datasets** or any mention of datasets in the **experiments section**. In this paper, the authors describe their experiments in section 5, where they evaluate MVDiffusion on two tasks: panoramic image generation and multi-view depth-to-image generation.
+
+1. **Matterport3D Dataset**: This dataset is mentioned in section 5.1, where it is described as a comprehensive indoor scene dataset consisting of 90 buildings with 10,912 panoramic images. The authors allocate 9,820 panoramas for training and 1,092 for evaluation.
+
+2. **ScanNet Dataset**: In section 5.2, the authors refer to the ScanNet dataset, which is an indoor RGB-D video dataset comprising over 1,513 training scenes and 100 testing scenes, all with known camera parameters. This dataset is used for training their model on multi-view depth-to-image generation.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Matterport3D Dataset**, the citation is:
+  > Angel Chang, Angela Dai, Thomas Funkhouser, Maciej Halber, Matthias Niessner, Manolis Savva, Shuran Song, Andy Zeng, and Yinda Zhang. *Matterport3D: Learning from RGB-D Data in Indoor Environments*. arXiv preprint arXiv:1709.06158, 2017.
+
+- For the **ScanNet Dataset**, the citation is:
+  > Alexander R. K. M. Dai, Angel Chang, Manolis Savva, and Thomas Funkhouser. *ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 5828–5839, 2017.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all relevant details are captured for future reference or processing.

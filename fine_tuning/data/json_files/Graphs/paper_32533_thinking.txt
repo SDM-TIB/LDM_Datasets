@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Cross-Video Contextual Knowledge Exploration and Exploitation for Ambiguity Reduction in Weakly Supervised Temporal Action Localization" by Songchun Zhang and Chunhui Zhao, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets mentioned. The abstract indicates that the authors conducted extensive experiments on three datasets: **THUMOS14, ActivityNet1.3, and FineAction**. This is a strong indication that these datasets are crucial to the research.
+
+Next, I will look for specific details about each dataset in the **experiments section**. The authors provide a brief description of each dataset:
+
+1. **THUMOS14**: This dataset is widely used for evaluating weakly supervised temporal action localization methods. The authors mention that they trained their model using a subset of THUMOS14 that has frame-level annotations for 20 action categories, specifically using 200 untrimmed videos from the validation set and evaluating on 212 untrimmed videos from the test set.
+
+2. **ActivityNet1.3**: This dataset is described as a benchmark for temporal action localization tasks, available in two versions (1.2 and 1.3). The authors utilized the training set of version 1.3, which includes 200 complex human action classes and provides 10,024 videos for training, 4,926 for validation, and 5,044 for testing.
+
+3. **FineAction**: This dataset combines three existing datasets: YouTube8M, Kinetics400, and FCVID. It contains a wide range of video content with a three-level tagging hierarchy from coarse to fine. The authors used the same setup as a previous work for training their model.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **THUMOS14**, the citation is:
+  > H. Idrees, A. R. Zamir, Y.-G. Jiang, A. Gorban, I. Laptev, R. Sukthankar, and M. Shah. "The THUMOS challenge on action recognition for videos 'in the wild'." *Computer Vision and Image Understanding*, vol. 155, pp. 1–23, 2017.
+
+- For **ActivityNet1.3**, the citation is:
+  > F. Caba Heilbron, V. Escorcia, B. Ghanem, and J. Carlos Niebles. "Activitynet: A large-scale video benchmark for human activity understanding." In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition*, 2015, pp. 961–970.
+
+- For **FineAction**, the citation is:
+  > Y. Liu, L. Wang, Y. Wang, X. Ma, and Y. Qiao. "FineAction: A fine-grained video dataset for temporal action localization." *IEEE Transactions on Image Processing*, vol. 31, pp. 6937–6950, 2022.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

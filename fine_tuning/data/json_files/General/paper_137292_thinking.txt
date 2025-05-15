@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Scalable Normalizing Flows Enable Boltzmann Generators for Macromolecules" by Joseph C. Kim et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, results, and discussion sections** to identify any datasets mentioned. The abstract mentions evaluating the model on specific proteins, which suggests that datasets are involved.
+
+Next, I will focus on the **results section** where the authors describe the protein systems used for evaluation. They mention three specific proteins:
+
+1. **Villin headpiece HP35(nle-nle)**: The authors state that they used the MD simulation dataset made publicly available by Beauchamp et al. (2012). This indicates a dataset is referenced.
+
+2. **Protein G**: The authors describe generating samples through MD simulations, indicating that they created their own dataset based on the crystal structure of protein G (1PGA) and subsequent simulations. This dataset is not publicly available but is derived from a known structure.
+
+3. **Alanine dipeptide (ADP)**: The authors mention using MD simulation datasets provided by Midgley et al. (2022) for training and validation. This is another dataset that needs to be cited.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **HP35(nle-nle)** dataset, the citation is:
+  > Kyle A. Beauchamp, Robert McGibbon, Yu-Shan Lin, and Vijay S. Pande. *Simple few-state models reveal hidden complexity in protein folding*. The Proceedings of the National Academy of Sciences, 109(44):17807–17813, 2012.
+
+- For the **Protein G** dataset, since it is generated from the crystal structure (1PGA) and MD simulations, I will note that it is based on:
+  > Jianlin Su, Yu Lu, Shengfeng Pan, Bo Wen, and Yunfeng Liu. *Roformer: Enhanced transformer with rotary position embedding*. arXiv preprint arXiv:2104.09864, 2021. (This citation is for the method used, but the original structure citation is: 
+  > Nathaniel J. Derrick and Dale B. Wigley. *The third igg-binding domain from streptococcal protein g. an analysis by x-ray crystallography of the structure alone and in a complex with fab*. Journal of Molecular Biology, 243(5):906–918, 1994.)
+
+- For the **ADP** dataset, the citation is:
+  > Laurence Illing Midgley, Vincent Stimper, Gregor N. C. Simm, Bernhard Schölkopf, and José Miguel Hernández-Lobato. *Flow annealed importance sampling bootstrap*. arXiv preprint arXiv:2208.01893, 2022.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research paper.

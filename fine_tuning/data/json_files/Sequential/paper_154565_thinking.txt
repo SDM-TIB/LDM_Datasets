@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "When Attention Meets Fast Recurrence: Training Language Models with Reduced Compute" by Tao Lei, I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract** and **introduction** sections to get an overview of the datasets used in the research. The abstract mentions that the model is evaluated on standard language modeling tasks, specifically naming **ENWIK8**, **WIKI-103**, and **BILLION WORD** datasets. This indicates that these datasets are significant for the experiments conducted.
+
+Next, I will look into the **experimental setup** section, which is likely to provide detailed descriptions of the datasets used. In this section, the author explicitly describes each dataset:
+
+1. **ENWIK8**: A character-level language modeling dataset consisting of 100 million tokens taken from Wikipedia. The paper states that the vocabulary size is about 200, and it uses standard splits for training, validation, and testing.
+
+2. **WIKI-103**: A word-level language modeling dataset containing 100 million tokens extracted from Wikipedia articles. The authors mention using a vocabulary of 260,000 tokens and adaptive embedding and softmax layers.
+
+3. **BILLION WORD**: This dataset is one of the largest language modeling datasets, containing 768 million tokens for training. The sentences in this dataset are randomly shuffled, and it uses a vocabulary of 800,000 tokens.
+
+4. **IWSLT’14 De→En**: A low-resource machine translation dataset consisting of 170,000 translation pairs. The authors note that this dataset is used to showcase the applicability of their model to other tasks.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets used in the research.
+
+The full citations for the datasets are as follows:
+
+- **ENWIK8**: 
+  > Hutter, M. (2006). The human knowledge compression contest. http://prize.hutter1.net/.
+
+- **WIKI-103**: 
+  > Merity, S., Keskar, N. L., & Socher, R. (2017). Regularizing and optimizing LSTM language models. In Proceedings of the International Conference on Learning Representations (ICLR).
+
+- **BILLION WORD**: 
+  > Chelba, C., Mikolov, T., Schuster, M., Ge, Q., Brants, T., Koehn, P., & Robinson, T. (2013). One billion word benchmark for measuring progress in statistical language modeling. Technical report, Google.
+
+- **IWSLT’14 De→En**: 
+  > Lin, C. Y., & Och, F. J. (2004). Automatic evaluation of machine translation quality using longest common subsequence and skip-bigram statistics. In Proceedings of the 2004 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+
+Now that I have gathered all the necessary information about the datasets and their citations, I will compile this information into a structured format for further use or processing.

@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Word length-aware text spotting: Enhancing detection and recognition in dense text image" by Hao Wang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract states that the authors conducted experiments on public datasets and introduced a new dataset called **DSTD1500**. This indicates that there are at least two datasets involved.
+
+Next, I will look for specific mentions of datasets in the **experiments section**. In this section, the authors describe their evaluation on several public datasets, including:
+
+1. **SynthText 150k**: This dataset includes 94,723 multi-oriented straight text images and 54,327 curved text images, with word-level bounding boxes and annotations.
+2. **ICDAR 2013**: A scene text dataset consisting of 229 training images and 233 test images.
+3. **ICDAR 2015**: Contains 1,000 training images and 500 test images, annotated with multi-oriented text.
+4. **Total-Text**: A benchmark for arbitrarily shaped scene text, using word-level polygonal boxes as annotations, with 1,255 images for training and 300 images for testing.
+5. **CTW1500**: A scene text benchmark of any shape at the text line level, consisting of 1,000 training images and 500 test images.
+
+The authors also introduce their own dataset, **DSTD1500**, which consists of 1,500 images captured from paper books, annotated with 75,471 instances of English text.
+
+Now, I will consult the **References section** to retrieve full citations for these datasets:
+
+- For **SynthText 150k**, the citation is:
+  > Gupta, A., Vedaldi, A., & Zisserman, A. (2016). *SynthText: Generating training data for text detection in natural images*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pp. 2315-2323.
+
+- For **ICDAR 2013**, the citation is:
+  > Pratikakis, I., Gatos, B., & Ntirogiannis, K. (2013). *ICDAR 2013 Document Image Binarization Contest (DIBCO 2013)*. In 2013 12th International Conference on Document Analysis and Recognition (ICDAR), pp. 1471-1476.
+
+- For **ICDAR 2015**, the citation is:
+  > Karatzas, D., Gomez-Bigorda, L., Nicolaou, A., Ghosh, S., Bagdanov, A., Iwamura, M., Matas, J., Neumann, L., Chandrasekhar, V. R., & Lu, S. (2015). *ICDAR 2015 Competition on Robust Reading*. In 2015 13th International Conference on Document Analysis and Recognition (ICDAR), pp. 1156-1160.
+
+- For **Total-Text**, the citation is:
+  > Ch’ng, C.-K., Chan, C. S., & Liu, C.-L. (2020). *Total-Text: Toward Orientation Robustness in Scene Text Detection*. International Journal on Document Analysis and Recognition, 23(1), 31-52.
+
+- For **CTW1500**, the citation is:
+  > Liu, Y., Jin, L., Zhang, S., Luo, C., & Zhang, S. (2019). *Curved Scene Text Detection via Transverse and Longitudinal Sequence Connection*. Pattern Recognition, 90, 337-345.
+
+- For **DSTD1500**, since it is a new dataset introduced by the authors, the citation is:
+  > Wang, H., Zhou, H., Zhang, Y., Lu, T., & Ma, J. (2023). *Word length-aware text spotting: Enhancing detection and recognition in dense text image*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

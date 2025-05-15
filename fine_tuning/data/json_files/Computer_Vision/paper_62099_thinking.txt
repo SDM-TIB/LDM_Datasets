@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "Distribution Shift Inversion for Out-of-Distribution Prediction" by Runpeng Yu et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the experimental results are based on "multiple-domain generalization datasets and single-domain generalization datasets," indicating that datasets are indeed involved.
+
+Next, I will focus on the **experiments section** where the authors explicitly list the datasets used in their experiments. In this section, they mention:
+
+1. **PACS Dataset**: This dataset contains 999 colored images from 7 classes and 4 domains (art painting, cartoon, photo, and sketch). It is used for evaluating the performance of their method in the context of out-of-distribution prediction.
+
+2. **Office-Home Dataset**: This dataset consists of around 15,500 images from 65 different classes and 4 domains (artistic, clip art, product, and real-world). It is also utilized for testing the effectiveness of the proposed method.
+
+3. **ImageNet-R Dataset**: A variant of ImageNet containing 30,000 images from 200 classes with different styles, used as a single-training domain classification benchmark.
+
+4. **ImageNet Sketch Dataset**: Another variant of ImageNet with 50,000 sketch images collected from Google, used for testing.
+
+5. **CdSprites-5 Dataset**: A variant of the DSprites dataset, which constructs a binary classification problem by selecting 2 shapes from DSprites, used to evaluate the method's performance under covariate shift and spurious correlation.
+
+After identifying these datasets, I will check the **References section** of the paper for full citations. The citations for the datasets are as follows:
+
+- For **PACS Dataset**:
+  > Li, D., Yang, Y., Song, Y.-Z., & Hospedales, T. M. (2017). Deeper, broader and artier domain generalization. In *Proceedings of the IEEE International Conference on Computer Vision (ICCV)*, 2017.
+
+- For **Office-Home Dataset**:
+  > Venkateswara, H., Eusebio, J., Chakraborty, S., & Panchanathan, S. (2017). Deep hashing network for unsupervised domain adaptation. In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, 2017.
+
+- For **ImageNet-R Dataset**:
+  > Hendrycks, D., Basart, S., Mu, N., et al. (2021). The many faces of robustness: A critical analysis of out-of-distribution generalization. In *Proceedings of the IEEE International Conference on Computer Vision (ICCV)*, 2021.
+
+- For **ImageNet Sketch Dataset**:
+  > Hendrycks, D., Basart, S., Mu, N., et al. (2021). The many faces of robustness: A critical analysis of out-of-distribution generalization. In *Proceedings of the IEEE International Conference on Computer Vision (ICCV)*, 2021.
+
+- For **CdSprites-5 Dataset**:
+  > Matthey, L., Higgins, I., Hassabis, D., & Lerchner, A. (2017). dsprites: Disentanglement testing sprites dataset. Retrieved from https://github.com/deepmind/dsprites-dataset/.
+
+Now that I have gathered the dataset names and their citations, I will compile this information into a structured format for further processing or review.

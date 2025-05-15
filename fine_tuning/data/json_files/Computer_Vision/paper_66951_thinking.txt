@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "CompGS: Smaller and Faster Gaussian Splatting with Vector Quantization" by Navaneet K. et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract** to see if any datasets are mentioned. The abstract states that the authors conducted extensive experiments on standard benchmarks and an existing 3D dataset, which indicates that datasets are involved but does not specify their names.
+
+Next, I will examine the **introduction** section. Here, the authors discuss the challenges of 3D Gaussian Splatting and mention the need for efficient datasets for their experiments. However, they do not provide specific dataset names in this section.
+
+I will then look into **section 4 (Experiments)**, where the authors typically describe the datasets used for their experiments. In this section, they explicitly mention three datasets:
+
+1. **Tanks & Temples**: A benchmark for large-scale scene reconstruction, which includes two scenes used in their experiments.
+2. **Deep Blending**: Another dataset used for evaluating their method, which also contains two scenes.
+3. **Mip-NeRF360**: A dataset that consists of nine scenes, which is used for novel-view synthesis.
+
+In addition, they mention a subset of the **DL3DV-10K dataset**, which contains 140 scenes and is used to create a novel-view synthesis benchmark. They also reference a subset of the **ARKIT dataset**, specifically the **ARKIT-200**, which contains 200 scenes.
+
+Next, I will check the **References section** to find the full citations for each dataset mentioned:
+
+- For **Tanks & Temples**, the citation is:
+  > Knapitsch, A., Park, J., Zhou, Q.Y., Koltun, V. (2017). *Tanks and temples: Benchmarking large-scale scene reconstruction*. ACM Transactions on Graphics (ToG), 36(4), 1–13.
+
+- For **Deep Blending**, the citation is:
+  > Hedman, P., Philip, J., Price, T., Frahm, J.M., Drettakis, G., Brostow, G. (2018). *Deep blending for free-viewpoint image-based rendering*. ACM Transactions on Graphics (ToG), 37(6), 1–15.
+
+- For **Mip-NeRF360**, the citation is:
+  > Barron, J.T., Mildenhall, B., Verbin, D., Srinivasan, P.P., Hedman, P. (2022). *Mip-nerf 360: Unbounded anti-aliased neural radiance fields*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 5470–5479.
+
+- For **DL3DV-10K**, the citation is:
+  > Ling, L., Sheng, Y., Tu, Z., Zhao, W., Xin, C., Wan, K., Yu, L., Guo, Q., Yu, Z., Lu, Y., et al. (2023). *DL3DV-10K: A large-scale scene dataset for deep learning-based 3D vision*. arXiv preprint arXiv:2312.16256.
+
+- For **ARKIT-200**, the citation is:
+  > Baruch, G., Chen, Z., Dehghan, A., Dimry, T., Feigin, Y., Fu, P., Gebauer, T., Joffe, B., Kurz, D., Schwartz, A., Shulman, E. (2021). *ARKitscenes: A diverse real-world dataset for 3D indoor scene understanding using mobile RGB-D data*. In Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 1).
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or analysis.

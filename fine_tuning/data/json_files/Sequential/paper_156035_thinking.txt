@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Evaluating Inter-Bilingual Semantic Parsing for Indian Languages" by Divyanshu Aggarwal et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reading the **abstract** and **introduction** sections to get an overview of the datasets discussed. The abstract mentions the creation of a dataset called **IE-SEMPARSE** for 11 distinct Indian languages, which indicates that there are specific datasets to look for.
+
+Next, I will look into **section 3 (IE-SEMPARSE Creation and Validation)**, where the authors describe the datasets in detail. Here, they mention three specific datasets that are part of the IE-SEMPARSE suite:
+
+1. **IE-mTOP**: This dataset is a translated version of the multi-domain TOP-v2 dataset, where English utterances are translated into Indic languages while preserving the logical forms.
+
+2. **IE-multilingualTOP**: This dataset is derived from the multilingual TOP dataset, where utterances were translated and logical forms were decoupled using the pytext library.
+
+3. **IE-multiATIS++**: This dataset comes from the multi-ATIS++ dataset, where utterances were translated, and logical forms were generated from labeled dictionaries.
+
+In the **experiments section**, the authors confirm that these datasets were used for evaluating their proposed methods, which further validates their significance.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned. The citations for the original datasets that were translated to create the IE-SEMPARSE suite are as follows:
+
+- For **mTOP**, the citation is:
+  > Li, H., Arora, A., Chen, S., Gupta, A., Gupta, S., & Mehdad, Y. (2021). *MTOP: A comprehensive multilingual task-oriented semantic parsing benchmark*. In Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume, pages 2950–2962.
+
+- For **multilingual TOP**, the citation is:
+  > Xia, M., & Monti, E. (2021). *Multilingual neural semantic parsing for low-resourced languages*. In Proceedings of *SEM 2021: The Tenth Joint Conference on Lexical and Computational Semantics, pages 185–194.
+
+- For **multi-ATIS++**, the citation is:
+  > Xu, W., Haider, B., & Mansour, S. (2020). *End-to-end slot alignment and recognition for cross-lingual NLU*. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 5052–5063.
+
+After gathering this information, I will compile the dataset entries with their respective citations into a structured format for further processing or review.

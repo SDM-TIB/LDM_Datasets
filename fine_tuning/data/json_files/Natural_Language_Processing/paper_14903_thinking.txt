@@ -1,0 +1,42 @@
+To extract datasets from the research paper titled "LoftQ: LoRA-Fine-Tuning-Aware Quantization for Large Language Models" by Yixiao Li et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract and introduction** sections to see if any datasets are mentioned. The abstract discusses evaluating the proposed method on various natural language understanding and generation tasks, which suggests that datasets may be involved.
+
+Next, I will examine the **experiments section** (Section 4) in detail, as this is where datasets are typically described. In this section, the authors mention evaluating their method on several tasks, and they specify the datasets used for these evaluations.
+
+1. **GLUE Benchmark**: This is a widely recognized benchmark for evaluating natural language understanding models. The authors mention using the GLUE benchmark, which consists of multiple datasets for various tasks. The specific datasets within GLUE include:
+   - **MNLI** (Multi-Genre Natural Language Inference)
+   - **QNLI** (Question Natural Language Inference)
+   - **SST-2** (Stanford Sentiment Treebank)
+   - **CoLA** (Corpus of Linguistic Acceptability)
+   - **MRPC** (Microsoft Research Paraphrase Corpus)
+   - **QQP** (Quora Question Pairs)
+   - **STS-B** (Semantic Textual Similarity Benchmark)
+   - **ANLI** (Adversarial Natural Language Inference)
+
+2. **SQuADv1.1**: This dataset is mentioned as another evaluation dataset used for question answering tasks. It consists of over 100,000 questions based on a set of Wikipedia articles.
+
+3. **XSum**: This dataset is used for extreme summarization tasks, where the goal is to generate a one-sentence summary of a given article.
+
+4. **CNN/DailyMail**: This dataset is also used for summarization tasks, consisting of news articles and their corresponding summaries.
+
+5. **GSM8K**: This dataset is used for evaluating the model's performance on mathematical word problems.
+
+After identifying these datasets, I will look into the **References section** to find the full citations for each dataset mentioned. Here are the citations I found:
+
+- For **GLUE Benchmark**:
+  > Wang, A., Singh, A., Michael, J., Hill, F., Levy, O., and Bowman, S. R. (2019). *GLUE: A multi-task benchmark and analysis platform for natural language understanding*. In International Conference on Learning Representations.
+
+- For **SQuADv1.1**:
+  > Rajpurkar, P., Zhang, J., Lopyrev, K., and Liang, P. (2016). *SQuAD: 100,000+ questions for machine comprehension of text*. In Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing.
+
+- For **XSum**:
+  > Narayan, S., Cohen, S. B., and Lapata, M. (2018). *Don’t give me the details, just the summary! Topic-aware convolutional neural networks for extreme summarization*. ArXiv, abs/1808.08745.
+
+- For **CNN/DailyMail**:
+  > Hermann, K. M., Kocisky, T., Grefenstette, E., Espeholt, L., Kay, W., Suleyman, M., and Blunsom, P. (2015). *Teaching machines to read and comprehend*. Advances in neural information processing systems, 28.
+
+- For **GSM8K**:
+  > Cobbe, K., Kosaraju, V., Bavarian, M., Chen, M., Jun, H., Kaiser, L., Plappert, M., Tworek, J., Hilton, J., Nakano, R., et al. (2021). *Training verifiers to solve math word problems*. arXiv preprint arXiv:2110.14168.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Noise-cleaning the precision matrix of fMRI time series" by Miguel Ibáñez-Berganza et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methods sections** to locate any references to datasets. The abstract mentions a comparison of algorithms on "two types of datasets," which indicates that datasets are indeed present.
+
+Next, I will focus on the **Materials and Methods section**, specifically **section II (Datasets)**, where the authors describe the datasets used in their study. Here, they mention:
+
+1. **Synthetic Datasets**: These are generated from a generative multivariate Gaussian model, with parameters that can be varied. The authors specify that they generate a collection of synthetic datasets based on the Dirichlet-Haar model, which is crucial for their analysis.
+
+2. **fMRI Datasets**: The authors analyze two collections of fMRI data:
+   - **Collection A**: This dataset consists of BOLD activity time series from 40 subjects, with 180 observations of 116 features.
+   - **Collection B**: This dataset is derived from the CamCAN Data Repository, which includes data from 652 subjects, with 260 observations of 114 features.
+
+In the **Results section**, the authors confirm that they applied their noise-cleaning algorithms to both collections of fMRI data, reinforcing the importance of these datasets in their analysis.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For **Collection A**, the citation is:
+  > R. Mastrandrea, A. Gabrielli, F. Piras, G. Spalletta, G. Caldarelli, and T. Gili. *Organization and hierarchy of the human functional brain network lead to a chain-like core*. Scientific Reports, 7, 1 (2017).
+
+- For **Collection B**, the citation is:
+  > M. A. Shafto, L. K. Tyler, M. Dixon, J. R. Taylor, J. B. Rowe, R. Cusack, A. J. Calder, W. D. Marslen-Wilson, J. Duncan, T. Dalgleish, et al. *The Cambridge Centre for Ageing and Neuroscience (Cam-CAN) study protocol: a cross-sectional, lifespan, multidisciplinary examination of healthy cognitive ageing*. BMC Neurology, 14, 1 (2014).
+
+- Additionally, the CamCAN Data Repository is cited as:
+  > Cambridge Centre for Ageing and Neuroscience. *CamCAN Data Repository*. Available at: http://www.mrc-cbu.cam.ac.uk/datasets/camcan/.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited, ready for structured output or further processing.

@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Graph Neural Network Interatomic Potential Ensembles with Calibrated Aleatoric and Epistemic Uncertainty on Energy and Forces" by Jonas Busk et al., I will follow a systematic approach.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract states that the method is evaluated on two publicly available datasets, which indicates that datasets are indeed present.
+
+Next, I will focus on **section 3 (Experiments and Results)**, where the authors explicitly describe the datasets used for their experiments. In this section, they mention two datasets:
+
+1. **ANI-1x**: This dataset consists of Density Functional Theory (DFT) calculations for approximately 5 million diverse molecular conformations, including properties such as total energy and interatomic forces. The dataset was generated to ensure conformational diversity for developing accurate ML potentials.
+
+2. **Transition1x**: This dataset contains DFT calculations of energy and forces for 9.6 million molecular conformations, focusing on structures near transition states. It was generated using a nudged elastic band (NEB) algorithm on a set of organic reactions.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **ANI-1x**, the citation is:
+  > J. S. Smith, B. Nebgen, N. Lubbers, O. Isayev, and A. E. Roitberg. *The Journal of Chemical Physics*, 2018, 148, 241733.
+
+- For **Transition1x**, the citation is:
+  > M. Schreiner, A. Bhowmik, T. Vegge, J. Busk, and O. Winther. *Scientific Data*, 2022, 9, 779.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+1. **ANI-1x**: A dataset containing DFT calculations for approximately 5 million molecular conformations, including total energy and interatomic forces.
+   - Citation: Smith, J. S., Nebgen, B., Lubbers, N., Isayev, O., & Roitberg, A. E. (2018). The Journal of Chemical Physics, 148, 241733.
+
+2. **Transition1x**: A dataset with DFT calculations of energy and forces for 9.6 million molecular conformations, focusing on near transition states.
+   - Citation: Schreiner, M., Bhowmik, A., Vegge, T., Busk, J., & Winther, O. (2022). Scientific Data, 9, 779.
+
+Finally, I will compile this information into a structured format for further processing or review.

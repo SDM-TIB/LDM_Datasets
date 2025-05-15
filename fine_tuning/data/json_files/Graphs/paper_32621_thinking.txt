@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "ImitationNet: Unsupervised Human-to-Robot Motion Retargeting via Shared Latent Space" by Yashuai Yan et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract provides a brief overview of the research and may mention datasets used for evaluation or training. In this case, the abstract discusses the use of a shared latent space for motion retargeting but does not specify datasets yet.
+
+Next, I will examine the **introduction** section closely. Here, the authors mention the use of large human motion capture datasets to learn and synthesize human motions. They reference the **HumanML3D dataset**, which is crucial for understanding the context of their experiments.
+
+Moving on to the **experiments section**, I will look for any explicit mentions of datasets used for training or evaluation. The authors state that they collected around 15 million poses from the TiaGo++ robot and used the **HumanML3D dataset**, which consists of 14,616 motions covering various human activities. This confirms that both datasets are integral to their research.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+1. For the **HumanML3D dataset**, the citation is:
+   > Chuan Guo, Shihao Zou, Xinxin Zuo, Sen Wang, Wei Ji, Xingyu Li, and Li Cheng. *Generating diverse and natural 3D human motions from text*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 5152–5161, June 2022.
+
+2. The TiaGo++ robot's dataset is not explicitly cited in the references, but it is mentioned that the poses were generated from the robot's kinematic information. Therefore, I will note that while the dataset is used, it does not have a formal citation in the paper.
+
+After gathering this information, I will summarize the datasets as follows:
+
+- **HumanML3D Dataset**: A dataset containing 14,616 human motions representing various daily activities, sports, and artistic movements. It is used for training the model to understand human motion.
+
+- **TiaGo++ Robot Dataset**: A dataset generated from the TiaGo++ robot, consisting of approximately 15 million poses sampled from its configuration space. This dataset is used for evaluating the robot's motion retargeting capabilities.
+
+Finally, I will compile the dataset entries, ensuring that I include the full citation for the HumanML3D dataset and note the TiaGo++ dataset's usage without a formal citation. This structured approach will ensure that I accurately capture the datasets and their relevance to the research presented in the paper.

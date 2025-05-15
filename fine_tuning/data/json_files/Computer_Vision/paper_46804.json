@@ -1,0 +1,92 @@
+[
+    {
+        "dcterms:creator": [
+            "S. Guo",
+            "Y. Lin",
+            "S. Li",
+            "Z. Chen",
+            "H. Wan"
+        ],
+        "dcterms:description": "TaxiBJ records taxicab GPS data in Beijing, during four periods from 1st Jul. 2013 to 30th Oct. 2013, 1st Mar. 2014 to 30th Jun. 2014, 1st Mar. 2015 to 30th Jun. 2015, and 1st Nov. 2015 to 10th Apr. 2016. There are in total 528-day records divided into 30-minute time slots, yielding a total of 22,459 time slots (some slots are omitted due to corrupted data). The city of Beijing is divided into a 32×32 grid map according to the longitude and latitude.",
+        "dcterms:title": "TaxiBJ",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Traffic Data",
+            "GPS Data"
+        ],
+        "dcat:keyword": [
+            "Taxi",
+            "GPS",
+            "Traffic Flow",
+            "Beijing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "GPS Data",
+        "mls:task": [
+            "Traffic Flow Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Guo",
+            "Y. Lin",
+            "S. Li",
+            "Z. Chen",
+            "H. Wan"
+        ],
+        "dcterms:description": "BikeNYC records bike trajectories taken from the NYC Bike System, from 1st Apr. 2014 to 30th Sept. 2014. There are in total 183-days records divided into 60-minute tile slots, yielding a total of 4,392 time slots. BikeNYC is organized in a grid map of scale 8 × 16.",
+        "dcterms:title": "BikeNYC",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Bike Data",
+            "Traffic Data"
+        ],
+        "dcat:keyword": [
+            "Bike",
+            "Trajectories",
+            "Traffic Flow",
+            "New York City"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Bike Data",
+        "mls:task": [
+            "Traffic Flow Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Guo",
+            "Y. Lin",
+            "S. Li",
+            "Z. Chen",
+            "H. Wan"
+        ],
+        "dcterms:description": "TaxiSZ records taxi transactions carried out by over 20k taxis during the period from 1st Jan. 2019 to 30th Jun. 2019. The raw data include numerous corrupted or incomplete information, such as positions outside Shenzhen or missing get-on/-off times. We clean up the data by removing these records, yielding about 128 million transaction records ready for use. Next, we divide the data into 30-minute time slots, resulting in a total of 8,688 time slots.",
+        "dcterms:title": "TaxiSZ",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Taxi Data",
+            "Traffic Data"
+        ],
+        "dcat:keyword": [
+            "Taxi",
+            "Transactions",
+            "Traffic Flow",
+            "Shenzhen"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Taxi Data",
+        "mls:task": [
+            "Traffic Flow Prediction"
+        ]
+    }
+]

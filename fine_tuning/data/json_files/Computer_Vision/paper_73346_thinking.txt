@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "FUGNN: Harmonizing Fairness and Utility in Graph Neural Networks" by Huafei Huang et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the paper's contributions, but the experiments section is likely to contain detailed information about the datasets used.
+
+In **section 6 (Experiments)**, the authors mention that they conducted empirical evaluations on **six real-world datasets**. This is a clear indication that multiple datasets are involved, and I need to gather their names and details.
+
+The datasets listed in section 6.1 are:
+
+1. **Income Dataset**: This dataset is extracted from the Adult Data Set. It includes individuals as nodes, with connections based on certain criteria. The sensitive feature is race, and the classification task is to determine if an individual's salary exceeds $50,000 annually.
+
+2. **Pokec-z and Pokec-n Datasets**: Both datasets are collected from the Pokec social network in Slovakia. Each user is represented as a node, and edges represent friendship relations. The sensitive feature is the region of users, and the task is to classify users' working fields.
+
+3. **Bail Dataset**: This dataset includes defendants released on bail in U.S. state courts from 1990 to 2009. Nodes represent clients, with features such as gender and loan amount. The sensitive feature is gender, and the task is to categorize clients' credit risk.
+
+4. **German Dataset**: Extracted from the Adult Data Set, this dataset includes defendants released in Germany from 1990 to 2009. Nodes are connected based on shared criminal records and demographics. The sensitive feature is race, and the goal is to predict the likelihood of committing a crime post-release.
+
+5. **Credit Dataset**: Also extracted from the Adult Data Set, this dataset comprises individuals connected based on spending and payment patterns. The sensitive feature is age, and the task is to predict credit card payment defaults.
+
+Next, I will check the **References section** to find the full citations for these datasets. The citations for the datasets are as follows:
+
+- **Income Dataset**:
+  > Arthur Asuncion and David Newman. *UCI machine learning repository*. 2007.
+
+- **Pokec Dataset**:
+  > Lubos Takac and Zabovsky Michal. *Data Analysis in Public Social Networks*. In Proceedings of International Scientific Conference and International Workshop Present Day Trends of Innovations.
+
+- **Bail Dataset**:
+  > Kareem L Jordan and Tina L Freiburger. *The effect of race/ethnicity on sentencing: Examining sentence type, jail length, and prison length*. Journal of Ethnicity in Criminal Justice, 2015.
+
+- **German Dataset**:
+  > Arthur Asuncion and David Newman. *UCI machine learning repository*. 2007.
+
+- **Credit Dataset**:
+  > Arthur Asuncion and David Newman. *UCI machine learning repository*. 2007.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing or review.

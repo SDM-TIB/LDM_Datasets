@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Enabling Continual Learning with Differentiable Hebbian Plasticity" by Vithursan Thangarasa et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** to identify any datasets mentioned. The abstract indicates that the authors evaluate their approach on several benchmarks, which suggests that datasets are involved. 
+
+Next, I will look for specific sections that typically contain dataset information, such as **section IV (Differentiable Hebbian Consolidation)** and **section V (Experiments)**. In these sections, the authors mention the datasets used for evaluation:
+
+1. **Permuted MNIST**: This dataset is described as a benchmark where all MNIST pixels are permuted differently for each task. It is a well-known dataset in the continual learning literature.
+
+2. **Imbalanced Permuted MNIST**: This dataset is a variant of Permuted MNIST, where training samples in each class are artificially removed to create an imbalanced distribution.
+
+3. **Split MNIST**: This dataset involves splitting the original MNIST dataset into a sequence of binary classification tasks.
+
+4. **Vision Datasets Mixture**: This dataset consists of a mixture of five vision datasets: MNIST, notMNIST, FashionMNIST, SVHN, and CIFAR-10.
+
+I will then check the **References section** to find the full citations for these datasets:
+
+- For **Permuted MNIST**, the citation is:
+  > LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (2001). Gradient-based learning applied to document recognition. In IEEE Intelligent Signal Processing.
+
+- For **Imbalanced Permuted MNIST**, since it is a variant of the original MNIST dataset, I will reference the same citation as for Permuted MNIST.
+
+- For **Split MNIST**, I will again use the original MNIST citation, as it is derived from that dataset.
+
+- For **Vision Datasets Mixture**, I will need to cite each dataset included in the mixture:
+  - **MNIST**: LeCun et al. (2001) as mentioned above.
+  - **notMNIST**: 
+    > B. Wu, A. Y. Ng, & A. Coates. (2011). Reading digits in natural images with unsupervised feature learning. In NIPS Workshop on Deep Learning and Unsupervised Feature Learning.
+  - **FashionMNIST**: 
+    > Xiao, H., Rasul, K., & Vollgraf, R. (2017). Fashion-MNIST: A novel image dataset for benchmarking machine learning algorithms. CoRR.
+  - **SVHN**: 
+    > Netzer, Y., Wang, T., Coates, A., Bissacco, A., Wu, B., & Ng, A. Y. (2011). Reading digits in natural images with unsupervised feature learning. In NIPS Workshop on Deep Learning and Unsupervised Feature Learning.
+  - **CIFAR-10**: 
+    > Krizhevsky, A. (2009). Learning multiple layers of features from tiny images. Tech. Rep.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This structured approach will help ensure that I do not miss any important details regarding the datasets used in the research paper.

@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Class Instance Balanced Learning for Long-Tailed Classification" by Marc-Antoine Lavoie and Steven L. Waslander, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research focus, and the introduction often discusses the context and significance of the datasets used.
+
+In the **introduction**, the authors mention the challenges of imbalanced datasets in real-world scenarios, specifically referencing **nuImages** as an example. This indicates that there may be datasets relevant to their experiments.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments section**. In this paper, the authors explicitly mention two datasets used for evaluation:
+
+1. **CIFAR-100-LT**: This is a long-tailed version of the CIFAR-100 dataset, which consists of 50,000 training and 10,000 validation images across 100 classes. The long-tailed version is subsampled with an exponential factor.
+
+2. **ImageNet-LT**: This dataset is a subsampling of the original ImageNet 2012 dataset, containing 1000 classes with varying numbers of instances, following a Pareto distribution. The test set is balanced with 50 images per class.
+
+To ensure I have the correct citations for these datasets, I will refer to the **References section** of the paper:
+
+- For **CIFAR-100**, the citation is:
+  > Alex Krizhevsky, Geoffrey Hinton. *Learning Multiple Layers of Features from Tiny Images*. 2009.
+
+- For **ImageNet**, the citation is:
+  > Olga Russakovsky, Jia Deng, Hao Sheng Su, et al. *ImageNet Large Scale Visual Recognition Challenge*. International Journal of Computer Vision (IJCV), vol. 115, no. 3, pp. 211–252, 2015.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing. This includes ensuring that each dataset is clearly described along with its full citation, which is crucial for proper attribution in any subsequent analysis or application.

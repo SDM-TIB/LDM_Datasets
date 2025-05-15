@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Inferring Hybrid Neural Fluid Fields from Videos" by Hong-Xing Yu et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to see if any datasets are mentioned. The abstract discusses recovering fluid density and velocity from sparse multiview videos, which suggests that datasets are likely involved.
+
+Next, I will focus on the **experiments section**, specifically **section 5 (Experiments)**, where the authors detail the datasets used for evaluation. Here, they mention two datasets:
+
+1. **ScalarFlow Dataset**: This dataset consists of videos of buoyancy-driven rising smoke plumes. The authors specify that they use the first five scenes from the real captures, with each scene containing five video recordings. This dataset is crucial for their experiments as it provides real-world fluid dynamics data.
+
+2. **ScalarFlow Synthetic Dataset**: The authors also mention using a synthetic dataset generated from ScalarFlow's dataset generation code. This synthetic dataset allows for evaluating 3D velocity and density against ground truth, which is important for their method's validation.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **ScalarFlow Dataset**, the citation is:
+  > Marie-Lena Eckert, Kiwon Um, and Nils Thuerey. *ScalarFlow: A large-scale volumetric data set of real-world scalar transport flows for computer animation and machine learning*. ACM Transactions on Graphics (TOG), 2019.
+
+- The synthetic dataset is derived from the same ScalarFlow dataset generation code, so it does not have a separate citation but is associated with the same authors and work.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described and that the full citations are included for reference. This will provide a comprehensive overview of the datasets used in the research paper.

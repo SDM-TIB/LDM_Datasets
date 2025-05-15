@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Improving Generalization of Transfer Learning Across Domains Using Spatio-Temporal Features in Autonomous Driving" by Shivam Akhauri et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reading the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors discuss various datasets for training autonomous driving systems, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will look for a dedicated **Datasets** section, which is likely to provide explicit names and descriptions of the datasets used in their experiments. In this paper, the authors mention using data collected from the **CARLA simulator** and also refer to various test datasets.
+
+In the **Datasets** section, the authors describe the following datasets:
+
+1. **CARLA Town 3**: This dataset is collected from the CARLA simulator, where a human user controls the vehicle. It consists of image sequences formatted for training, with a total of about 6,000 examples used for training.
+
+2. **CARLA Town 1**: This dataset is used for testing the transfer learning model. It represents the same visual domain as Town 3 but in a different environment.
+
+3. **YouTube Dashcam Footage**: The authors collected real-world collision sequences from YouTube videos and combined them with standard driving data from Audi to create a real-world dataset for testing.
+
+4. **DeepDrive Simulator**: This dataset is used to observe performance in other virtual domains.
+
+5. **Udacity Dataset**: This dataset is mentioned as part of the evaluation for end-to-end steering prediction tasks.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **CARLA**, the citation is:
+  > Dosovitskiy, A., Ros, G., Codevilla, F., López, A., & Koltun, V. (2017). *CARLA: An open urban driving simulator*. In Proceedings of the 1st Annual Conference on Robot Learning (pp. 1–16).
+
+- For **Audi A2D2 Dataset**, the citation is:
+  > Geyer, J., Kassahun, Y., Mahmudi, M., Ricou, X., Durgesh, R., Chung, A. S., Hauswald, L., Pham, V. H., Mühlegg, M., Dorn, S., Mirashi, S., Savani, C., Sturm, M., Vorobiov, O., Oelker, M., Garreis, S., & Schuberth, P. (2020). *A2D2: Audi Autonomous Driving Dataset*. Available at: https://www.a2d2.audi
+
+- For **DeepDrive**, the citation is:
+  > Voyage. (n.d.). *Deepdrive*. Available at: https://deepdrive.voyage.auto/
+
+- For **Udacity Dataset**, the citation is:
+  > Udacity. (2017). *Udacity self-driving dataset*. Available at: https://github.com/udacity/self-driving-car/tree/master/datasets
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

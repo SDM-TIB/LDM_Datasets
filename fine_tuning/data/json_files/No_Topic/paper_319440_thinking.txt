@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Learning Coordinated Terrain-Adaptive Locomotion by Imitating a Centroidal Dynamics Planner" by Philémon Brakel et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and method sections** to identify any references to datasets. The abstract mentions that the authors generate a dataset of trajectories that traverse a diverse set of procedurally generated terrains, which indicates that a dataset is indeed present.
+
+Next, I will focus on the **method section**, particularly the **data generation** subsection. Here, the authors describe the process of generating procedural terrains and the corresponding trajectories. They mention that they create a dataset of trajectories that includes various parameters such as center-of-mass positions, velocities, and end-effector positions.
+
+In the **data generation section**, the authors provide details about the dataset, including the number of trajectories and the types of information included in each trajectory. They state that the dataset consists of tuples combining terrain images and discretized trajectory information, which is crucial for understanding the dataset's structure.
+
+Now, I will look for the **references section** to find the full citations for any datasets mentioned. The authors refer to the centroidal dynamics planner proposed by Winkler et al. (2018) as the basis for their data generation method. Therefore, I will include this citation as it is relevant to the dataset's creation.
+
+The citation for the centroidal dynamics planner is:
+> Winkler, A. W., Bellicoso, C. D., Hutter, M., & Buchli, J. (2018). Gait and trajectory optimization for legged systems through Phase-Based End-Effector parameterization. *IEEE Robotics and Automation Letters*, 3(3), 1560-1567.
+
+Additionally, I will note that the authors mention using the Mujoco library for simulating the dynamics of the robot, which is relevant for understanding the context in which the dataset was generated. The citation for Mujoco is:
+> Todorov, E., Erez, T., & Tassa, Y. (2012). Mujoco: A physics engine for model-based control. In *2012 IEEE/RSJ International Conference on Intelligent Robots and Systems* (pp. 5026-5033). IEEE.
+
+Finally, I will compile the dataset information, including the dataset description and the citations, ensuring that each dataset is clearly documented with its full citation.
+
+In summary, I will extract the following datasets from the paper:
+
+1. **Terrain-Adaptive Trajectory Dataset**: A dataset of trajectories generated over procedurally generated terrains, including various parameters such as center-of-mass positions and end-effector positions.
+
+Citations:
+- Winkler, A. W., Bellicoso, C. D., Hutter, M., & Buchli, J. (2018). Gait and trajectory optimization for legged systems through Phase-Based End-Effector parameterization. *IEEE Robotics and Automation Letters*, 3(3), 1560-1567.
+- Todorov, E., Erez, T., & Tassa, Y. (2012). Mujoco: A physics engine for model-based control. In *2012 IEEE/RSJ International Conference on Intelligent Robots and Systems* (pp. 5026-5033). IEEE.
+
+After gathering all this information, I will prepare it for structured output as needed.

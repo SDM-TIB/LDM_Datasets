@@ -1,0 +1,39 @@
+To extract datasets from the research paper titled "Towards Effective Image Manipulation Detection with Proposal Contrastive Learning" by Yuyuan Zeng et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections of the paper. The abstract mentions that "Extensive experiments among several standard datasets demonstrate that our PCL can be a general module to obtain consistent improvement." This indicates that multiple datasets are used, prompting me to look for specific names and details.
+
+Next, I will focus on the **experiments section** (Section IV) where the authors describe their experimental settings and the datasets used. In this section, they mention several datasets explicitly:
+
+1. **COCO synthetic dataset**: This dataset is created from the COCO dataset by splicing objects from one image into another. It contains 11,000 manipulated images with ground-truth tampered masks.
+
+2. **NIST16**: A dataset from the Nimble Challenge Evaluation 2016, which includes 404 images for fine-tuning and 160 images for evaluation, with masks provided to indicate manipulation.
+
+3. **CASIA**: This dataset includes splice and copy-move tampered images, with 5,123 images for fine-tuning and 921 images for evaluation.
+
+4. **COVERAGE**: A smaller dataset consisting of 75 images for fine-tuning and 25 images for evaluation, specifically for copy-move tampering.
+
+5. **Columbia**: A dataset containing 180 splicing images, with ground-truth masks provided.
+
+6. **IMD20**: This dataset consists of 2,010 real-life manipulated images collected from the internet, covering various manipulation types.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets mentioned are as follows:
+
+- **COCO dataset**: 
+  > Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollár, P., & Zitnick, C. L. (2014). *Microsoft COCO: Common objects in context*. In European Conference on Computer Vision (ECCV), 740-755.
+
+- **NIST16 dataset**: 
+  > Guan, H., Kozak, M., Robertson, E., Lee, Y., Yates, A. N., Delgado, A., Zhou, D., Kheyrkhah, T., Smith, J., & Fiscus, J. (2019). *MFC datasets: Large-scale benchmark datasets for media forensic challenge evaluation*. In 2019 IEEE Winter Applications of Computer Vision Workshops (WACVW), 63-72.
+
+- **CASIA dataset**: 
+  > Dong, J., Wang, W., & Tan, T. (2010). *CASIA image tampering detection evaluation database*. Retrieved from http://forensics.idealtest.org.
+
+- **COVERAGE dataset**: 
+  > Wen, B., Zhu, Y., Subramanian, R., Ng, T.-T., Shen, X., & Winkler, S. (2016). *Coverage—a novel database for copy-move forgery detection*. In 2016 IEEE International Conference on Image Processing (ICIP), 161-165.
+
+- **Columbia dataset**: 
+  > Ng, T.-T., Hsu, J., & Chang, S.-F. (2009). *Columbia image splicing detection evaluation dataset*. DVMM lab. Columbia University.
+
+- **IMD20 dataset**: 
+  > Novozamsky, A., Mahdian, B., & Saic, S. (2020). *IMD2020: a large-scale annotated dataset tailored for detecting manipulated images*. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision Workshops, 71-80.
+
+Now that I have gathered the datasets and their citations, I will compile this information into a structured format for further processing or review.

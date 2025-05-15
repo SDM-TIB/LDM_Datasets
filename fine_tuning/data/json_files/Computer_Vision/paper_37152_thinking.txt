@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Sparse Additive Gaussian Process with Soft Interactions" by Garret Vo and Debdeep Pati, I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract** to see if any datasets are mentioned. The abstract discusses the development of a Bayesian additive regression model but does not specify any datasets directly.
+
+Next, I will examine the **introduction** section. Here, the authors discuss variable selection in various scientific applications but do not mention specific datasets. 
+
+I will then look at the **simulation examples** section (section 6), which is likely to contain information about the datasets used for testing their method. In this section, the authors describe eight different simulation settings with 50 replicated datasets each. They provide a summary table (Table 1) that outlines the datasets used for both non-interaction and interaction cases. The datasets are defined by equations that describe how the data was generated, but they do not provide formal dataset names or citations.
+
+The datasets described in Table 1 are as follows:
+
+1. **Dataset 1**: Non-interaction: \(y = x_1 + x_2^2 + x_3 + \epsilon\); Interaction: \(y = x_1 + x_2^2 + x_3 + x_1x_2 + x_2x_3 + x_3x_1 + \epsilon\)
+2. **Dataset 2**: Non-interaction: \(y = x_1 + x_2^2 + x_3 + \epsilon\); Interaction: \(y = x_1 + x_2^2 + x_3 + x_1x_2 + x_2x_3 + x_3x_1 + \epsilon\)
+3. **Dataset 3**: Non-interaction: \(y = x_1 + x_2^2 + x_3 + x_2^4 + x_5 + \epsilon\); Interaction: \(y = x_1 + x_2^2 + x_3 + x_2^4 + x_5 + x_1x_2 + x_2x_3 + x_3x_4 + \epsilon\)
+4. **Dataset 4**: Non-interaction: \(y = x_1 + x_2^2 + x_3 + x_2^4 + x_5 + \epsilon\); Interaction: \(y = x_1 + x_2^2 + x_3 + x_2^4 + x_5 + x_1x_2 + x_2x_3 + x_3x_4 + \epsilon\)
+
+The authors also mention that they conducted simulations with 50 replicated datasets for each setting, but they do not provide specific citations for these datasets since they are generated synthetically.
+
+Next, I will check the **real data analysis** section (section 7) to see if any real-world datasets are used. The authors analyze two datasets:
+
+1. **Boston Housing Data**: This dataset contains information on housing prices in Boston and is widely used in regression analysis. The citation for this dataset is:
+   > Harrison, D., & Rubinfeld, D. L. (1978). Hedonic housing prices and the demand for clean air. *Journal of Environmental Economics and Management*, 5(1), 81-102.
+
+2. **Concrete Slump Test Dataset**: This dataset records test results on concrete to study its behavior. The citation for this dataset is:
+   > Yeh, I. C., et al. (2008). Modeling slump of concrete with fly ash and superplasticizer. *Computers and Concrete*, 5(6), 559-572.
+
+Finally, I will compile the dataset entries, ensuring to include the full citations for the real datasets as required. The simulated datasets do not have formal citations since they are generated for the study.
+
+In summary, I will document the following datasets:
+- Simulated datasets (no formal citations)
+- Boston Housing Data: Harrison & Rubinfeld (1978)
+- Concrete Slump Test Dataset: Yeh et al. (2008)
+
+This structured approach will ensure that I accurately capture the datasets referenced in the paper along with their proper citations.

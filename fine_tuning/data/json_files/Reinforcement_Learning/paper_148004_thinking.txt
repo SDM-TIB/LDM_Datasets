@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Prediction and optimization of mechanical properties of composites using convolutional neural networks" by Diab W. Abueiddaa et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the authors developed a convolutional neural network model to predict mechanical properties using data from finite element analyses. This suggests that there is a dataset involved, likely generated from simulations.
+
+Next, I will examine **section 2.2 (Data description and processing)**, where the authors describe the data generation process. They mention that finite element analysis (FEA) was performed to generate the required data for the study, specifically for two grid sizes: **8x8** and **16x16**. They state that the sample space for the 8x8 grid has a size of **232 composite configurations**, while the 16x16 grid results in a sample space of **2128 possible configurations**. This indicates that the datasets are derived from these configurations.
+
+In this section, the authors also mention that they ended up with **4.3 million data points** for the 8x8 grid and **4.9 million data points** for the 16x16 grid. This is crucial information as it provides insight into the scale of the datasets used.
+
+I will also check the **results and discussion** sections to confirm that these datasets were indeed used for training and testing the convolutional neural network model. The authors discuss the performance of their model based on the data generated from the finite element analysis, reinforcing the importance of these datasets.
+
+Finally, I will look at the **References section** to find any citations related to the datasets. However, since the datasets are generated from the authors' own finite element analyses, there may not be external citations for them. Instead, I will note that the datasets are based on the authors' simulations and methodologies.
+
+Now, I will compile the dataset entries with the following details:
+
+1. **Dataset Name**: 8x8 Grid Dataset
+   - **Description**: Contains 4.3 million data points generated from finite element analysis of composite configurations with an 8x8 grid.
+   - **Citation**: Diab W. Abueiddaa, Mohammad Almasrib, Rami Ammourahc, Umberto Ravaiolib, Iwona M. Jasiuka, Nahil A. Sobhc. *Prediction and optimization of mechanical properties of composites using convolutional neural networks*. Preprint submitted to Elsevier, June 4, 2019.
+
+2. **Dataset Name**: 16x16 Grid Dataset
+   - **Description**: Contains 4.9 million data points generated from finite element analysis of composite configurations with a 16x16 grid.
+   - **Citation**: Diab W. Abueiddaa, Mohammad Almasrib, Rami Ammourahc, Umberto Ravaiolib, Iwona M. Jasiuka, Nahil A. Sobhc. *Prediction and optimization of mechanical properties of composites using convolutional neural networks*. Preprint submitted to Elsevier, June 4, 2019.
+
+After gathering all this information, I will prepare the dataset entries for further processing or review.

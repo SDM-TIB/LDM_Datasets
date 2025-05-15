@@ -1,0 +1,24 @@
+To extract the datasets from the research paper titled "Matching Entities Across Different Knowledge Graphs with Graph Embeddings" by Michael Azmy et al., I will follow a systematic approach.
+
+First, I will read through the **abstract and introduction** sections to identify any mentions of datasets. The abstract indicates that the authors present "two large-scale datasets for this task based on existing cross-ontology links between DBpedia and Wikidata." This suggests that datasets are indeed a focus of the paper.
+
+Next, I will examine **section 2 (Problem Formulation)**, where the authors describe the construction of the datasets. They mention creating two benchmark datasets for entity matching: one for matching entities from DBpedia to Wikidata and another for the reverse. This section provides critical details about the datasets, including their purpose and the methodology used for their creation.
+
+In **Table 1**, the authors provide statistics about the datasets, including the number of training, validation, and testing instances for each dataset. This information is essential for understanding the datasets' scale and structure.
+
+The datasets are explicitly named as follows:
+1. **DBpedia to Wikidata Dataset**: This dataset contains mappings from DBpedia entities to their corresponding entities in Wikidata, focusing on ambiguous cases. It includes 263,245 training instances, 37,607 validation instances, and 75,213 testing instances, totaling 376,065 unique DBpedia URIs.
+
+2. **Wikidata to DBpedia Dataset**: This dataset contains mappings from Wikidata entities to their corresponding entities in DBpedia, also focusing on ambiguous cases. It includes 230,523 training instances, 32,933 validation instances, and 658,640 testing instances, totaling 329,320 unique Wikidata URIs.
+
+Next, I will check the **References section** to find the full citations for the datasets. The authors mention that the datasets are based on existing links between DBpedia and Wikidata, which are curated and can be considered high-quality ground truth. However, they do not provide separate citations for the datasets themselves, as they are derived from these knowledge graphs.
+
+Since the datasets are based on DBpedia and Wikidata, I will provide the citations for these knowledge graphs as they are the sources of the datasets:
+
+- For **DBpedia**, the citation is:
+  > Auer, S., Bizer, C., Kobilarov, G., Lehmann, J., Cyganiak, R., & Ives, Z. (2007). DBpedia: a nucleus for a web of open data. In *The Semantic Web* (pp. 722–735). Springer.
+
+- For **Wikidata**, the citation is:
+  > Vrandečić, D., & Krötzsch, M. (2014). Wikidata: a free collaborative knowledgebase. *Communications of the ACM*, 57(10), 78–85.
+
+Now, I will summarize the datasets and their citations in a structured format, ensuring that each dataset is clearly described along with its full citation. This will provide a comprehensive overview of the datasets presented in the paper.

@@ -1,0 +1,44 @@
+To extract datasets from the research paper titled "High-Fidelity Synthesis with Disentangled Representation" by Wonkwang Lee et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions the use of the **CelebA-HQ dataset** for generating high-resolution images, which indicates that this dataset is relevant to the research. The introduction may provide additional context or mention other datasets used in the experiments.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments** section. In this paper, the authors describe their experiments and the datasets used. I will pay close attention to any tables or figures that summarize the datasets, as they often provide concise information.
+
+Upon reviewing the paper, I find the following datasets mentioned:
+
+1. **dSprites Dataset**: This dataset consists of 737,280 binary images of 2D sprites with five ground-truth factors, including shape, scale, orientation, and position. The paper references it as a foundational dataset for evaluating disentanglement learning.
+
+2. **Color-dSprites Dataset**: This is a variant of the dSprites dataset where the sprites are filled with random colors. It is used to assess the model's ability to handle color variations.
+
+3. **Noisy-dSprites Dataset**: Another variant of the dSprites dataset, where the background is filled with random uniform noise, testing the robustness of the model against noise.
+
+4. **Scream-dSprites Dataset**: This dataset replaces the background of the dSprites images with a randomly cropped patch from Edvard Munch's painting "The Scream," adding complexity to the evaluation.
+
+5. **CelebA Dataset**: A large-scale dataset containing 202,599 RGB images of celebrity faces, which includes various attributes and is used for training and evaluating generative models.
+
+6. **CelebA-HQ Dataset**: A high-resolution subset of the CelebA dataset, consisting of 30,000 RGB images at 1024x1024 resolution, used for high-fidelity image synthesis.
+
+7. **3D Chairs Dataset**: This dataset contains 86,366 RGB images of chair CAD models, used to evaluate the model's performance on 3D object representations.
+
+8. **Cars Dataset**: A dataset with 16,185 RGB images of cars, used to assess the model's ability to generate realistic images of vehicles.
+
+After identifying these datasets, I will now gather the full citations for each dataset from the **References section** of the paper:
+
+- **dSprites Dataset**: 
+  > Loic Matthey, Irina Higgins, Demis Hassabis, and Alexander Lerchner. *dSprites: Disentanglement testing Sprites dataset*. https://github.com/deepmind/dsprites-dataset/, 2017.
+
+- **CelebA Dataset**: 
+  > Ziwei Liu, Ping Luo, Xiaogang Wang, and Xiaoou Tang. *Deep learning face attributes in the wild*. In ICCV, 2015.
+
+- **CelebA-HQ Dataset**: 
+  > Tero Karras, Timo Aila, Samuli Laine, and Jaakko Lehtinen. *Progressive growing of GANs for improved quality, stability, and variation*. In ICLR, 2018.
+
+- **3D Chairs Dataset**: 
+  > Mathieu Aubry, Daniel Maturana, Alexei Efros, Bryan Russell, and Josef Sivic. *Seeing 3D chairs: exemplar part-based 2D-3D alignment using a large dataset of CAD models*. In CVPR, 2014.
+
+- **Cars Dataset**: 
+  > Jonathan Krause, Michael Stark, Jia Deng, and Li Fei-Fei. *3D object representations for fine-grained categorization*. In 4th International IEEE Workshop on 3D Representation and Recognition (3dRR-13), 2013.
+
+The Color-dSprites and Noisy-dSprites datasets are variations of the dSprites dataset and do not have separate citations, as they are derived from the original dataset.
+
+Now, I will compile the dataset entries with their descriptions and citations into a structured format for further processing or review.

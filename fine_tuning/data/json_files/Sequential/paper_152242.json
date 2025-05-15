@@ -1,0 +1,108 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset generated from Wikipedia for the number prediction task, containing approximately 1.35 million number prediction problems based on sentences with present-tense verbs.",
+        "dcterms:title": "Wikipedia Corpus for Number Prediction",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Number prediction",
+            "Wikipedia corpus",
+            "LSTM",
+            "Language modeling"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Number prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. Jozefowicz",
+            "O. Vinyals",
+            "M. Schuster",
+            "N. Shazeer",
+            "Y. Wu"
+        ],
+        "dcterms:description": "A large-scale language model trained on a billion-word corpus, used as a baseline for comparison in language modeling tasks.",
+        "dcterms:title": "Google Language Model",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "arXiv:1602.02410",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Language model",
+            "Neural networks",
+            "LSTM"
+        ],
+        "dcat:landingPage": "https://github.com/tensorflow/models/tree/master/lm_1b",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Language modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A tagset used for replacing infrequent words with their part of speech, referenced in the context of syntactic structure.",
+        "dcterms:title": "Penn Treebank Tagset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Part of speech",
+            "Tagset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Baseline models trained using only common nouns or all nouns to evaluate the impact of syntactic information on number prediction.",
+        "dcterms:title": "Noun-only Baselines",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Baseline models",
+            "Nouns",
+            "Number prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset used for training the network with grammaticality judgments, assessing whether sentences violate subject-verb number agreement.",
+        "dcterms:title": "Grammaticality Judgment Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Grammaticality judgments",
+            "Syntax",
+            "Language processing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

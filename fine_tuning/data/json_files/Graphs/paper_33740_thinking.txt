@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Injecting Wiktionary to improve token-level contextual representations using contrastive learning" by Anna Mosolova et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors evaluate their approach on the **Word-in-Context (WiC) task** and mention the creation of two new WiC test sets. This suggests that there are datasets involved.
+
+Next, I will focus on **section 4 (PLM fine-tuning experiments)**, where the authors discuss their training dataset. They mention that their training data includes examples for all verbs having from 1 to 10 senses, resulting in a dataset of **13,118 verbs** with **26,398 senses** and **68,271 examples**. This dataset is crucial for understanding their experimental setup.
+
+In the same section, they also describe the three types of WiC datasets used for evaluation:
+
+1. **Wikt-WiC**: This dataset is derived from the Wiktionary DBnary dataset and contains example sentences for the WiC task. The authors mention that it is distributed under the Creative Commons Attribution-ShareAlike 3.0 license.
+
+2. **Orig-WiC**: This is the original dataset for the WiC task, which is distributed under the Creative Commons Attribution-NonCommercial 4.0 license.
+
+3. **Framenet-WiC**: This dataset is created from FrameNet 1.7 examples and is shared under the Creative Commons Attribution-Only license.
+
+I will now look at the **References section** to find the full citations for these datasets:
+
+- For **Wikt-WiC**, the citation is:
+  > Pilehvar, M. T., & Camacho-Collados, J. (2019). WiC: The word-in-context dataset for evaluating context-sensitive meaning representations. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 1267–1273, Minneapolis, Minnesota. Association for Computational Linguistics.
+
+- For **Orig-WiC**, the citation is the same as above since it is the original dataset referenced in the same paper.
+
+- For **Framenet-WiC**, the citation is:
+  > Fillmore, C. J., & Baker, C. F. (2010). A frame semantic approach to linguistic analysis. In Oxford Handbook of Linguistic Analysis. Oxford University Press.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This includes ensuring that each dataset is clearly described along with its full citation, which is critical for proper attribution and reference in any subsequent work.

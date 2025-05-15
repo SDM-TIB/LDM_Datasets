@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Navigating Memory Construction by Global Pseudo-Task Simulation for Continual Learning" by Yejia Liu et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by reading the **abstract** and **introduction** sections. In the abstract, the authors mention that their empirical results and analyses suggest that the Global Pseudo-task Simulation (GPS) improves accuracy across four commonly used vision benchmarks. This indicates that datasets are likely discussed in the paper.
+
+Next, I will look for specific mentions of datasets in the **experiments section**. In section 6.1, the authors explicitly list the datasets used for evaluation:
+
+1. **P-MNIST**: This dataset is described as containing 10 tasks where the first task is the MNIST dataset, and subsequent tasks are constructed by permuting each image in MNIST with a unique permutation seed.
+
+2. **S-CIFAR-10**: This dataset is constructed by splitting CIFAR-10 into 5 sequential tasks, each containing 2 classes and 12,000 images.
+
+3. **S-CIFAR-100**: Similar to S-CIFAR-10, this dataset is created by splitting CIFAR-100 into 10 tasks, where each task contains 10 classes and 6,000 images.
+
+4. **TinyImageNet**: This dataset is a subset of ImageNet with 200 classes, split into 10 consecutive tasks with 20 classes per task.
+
+I will now check the **References section** to find the full citations for these datasets. The citations for the datasets are as follows:
+
+- For **P-MNIST**, the citation is:
+  > LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-based learning applied to document recognition. *Proceedings of the IEEE*, 86(11), 2278-2324.
+
+- For **CIFAR-10** and **CIFAR-100**, the citation is:
+  > Krizhevsky, A. (2009). Learning multiple layers of features from tiny images. *Technical Report*, 2009.
+
+- For **TinyImageNet**, the citation is:
+  > Tiny ImageNet Challenge. (2015). Retrieved from http://tiny-imagenet.herokuapp.com/.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for clarity and future reference. Each dataset will be documented with its name, description, and full citation.

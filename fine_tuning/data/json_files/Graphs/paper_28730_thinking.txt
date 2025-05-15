@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Learning Representations with Contrastive Self-Supervised Learning for Histopathology Applications" by Karin Stacke et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors conducted experiments using multiple datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4 (Method)**, particularly **subsection 4.2 (Datasets)**, where the authors describe the datasets used in their experiments. Here, they mention three different histopathology datasets:
+
+1. **Camelyon16**: This dataset consists of 399 H&E-stained whole-slide images of sentinel lymph node tissue, annotated for breast cancer metastases. The authors explain how they sampled this dataset into smaller patches for both unsupervised and supervised training.
+
+2. **AIDA-LNSK**: This dataset contains 96 whole-slide images from 71 unique patients of skin tissue. The authors detail how they split this dataset into training, validation, and test sets based on patient levels.
+
+3. **Multidata**: This dataset is constructed from samples of 60 publicly available datasets, originating from various tissue types. The authors clarify that this dataset is used for self-supervised training only.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For **Camelyon16**, the citation is:
+  > Geert Litjens, Thijs Kooi, Babak Ehteshami Bejnordi, Arnaud Arindra Adiyoso Setio, Francesco Ciompi, Mohsen Ghafoorian, Jeroen A. W. M. van der Laak, Bram van Ginneken, and Clara I. Sánchez. *A Survey on Deep Learning in Medical Image Analysis*. Medical Image Analysis, 42:60–88, 2017.
+
+- For **AIDA-LNSK**, the citation is:
+  > Karin Lindman, F. Rose Jerónimo, Martin Lindvall, and Caroline Bivik Stadler. *Skin data from the Visual Sweden project DROID*. 2019.
+
+- For **Multidata**, the citation is:
+  > Ozan Ciga, Tony Xu, and Anne Louise Martel. *Self supervised contrastive learning for digital histopathology*. Machine Learning with Applications, 7:100198, 2022.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the study along with their proper citations.

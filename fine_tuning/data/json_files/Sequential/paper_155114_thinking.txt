@@ -1,0 +1,19 @@
+To extract the datasets mentioned in the paper titled "MoDeRNN: Towards Fine-Grained Motion Details for Spatiotemporal Predictive Learning" by Zenghao Chai et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors conducted experiments on **Moving MNIST** and **Typhoon datasets**, which suggests that these datasets are crucial for their research.
+
+Next, I will look into **section 3 (Experiment)**, where the authors provide detailed descriptions of the datasets used:
+
+1. **Moving MNIST**: This dataset is described as a benchmark for depicting the movement of two digits with constant velocity. It consists of 64x64 pixel images, with 10 frames for input and 10 frames for prediction, totaling 10,000 randomly generated sequences for training and 10,000 fixed sequences for testing.
+
+2. **Typhoon Dataset**: This dataset consists of meteorological radar data released by CEReS. The authors mention that they resize the images to 64x64 pixels and normalize them to a range of [0, 1]. The dataset is split into training and testing sets, with 1,809 sequences for training and 603 sequences for testing, using 8-hour observation data to predict the next 4 hours.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **Moving MNIST**, the citation is:
+  > Nitish Srivastava, Elman Mansimov, and Ruslan Salakhutdinov. *Unsupervised learning of video representations using LSTMs*. In ICML 2015, 2015, pp. 843–852.
+
+- For **Typhoon Dataset**, the citation is:
+  > Yuhei Yamamoto, Kazuhito Ichii, Atsushi Higuchi, et al. *Geolocation accuracy assessment of Himawari-8/AHI imagery for application to terrestrial monitoring*. Remote Sensing, vol. 12, no. 9, pp. 1372, 2020.
+
+With this information, I will compile the dataset entries, ensuring that each dataset is accurately described and includes its full citation. This will provide a comprehensive overview of the datasets used in the research paper.

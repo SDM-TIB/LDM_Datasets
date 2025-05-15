@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Exploring Concept Depth: How Large Language Models Acquire Knowledge at Different Layers?" by Mingyu Jin et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper. The abstract provides a brief overview of the study and may mention specific datasets used for probing experiments. The introduction often elaborates on the research question and may reference datasets that are central to the study.
+
+Next, I will focus on **section 4 (Experimental Setting)**, particularly **subsection 4.2 (Datasets)**, where the authors explicitly list and describe the datasets used in their experiments. This section is crucial as it typically contains detailed information about each dataset, including its purpose, size, and any specific characteristics relevant to the study.
+
+In this paper, the authors mention **nine datasets** categorized into three domains: factual, emotional, and inferential tasks. I will extract the names and descriptions of these datasets:
+
+1. **Cities Dataset**: Contains statements about the location of cities with veracity labels. It includes 1,496 samples.
+2. **CommonClaim Dataset**: A dataset of boolean statements labeled by humans as true, false, or neither, consisting of 6,000 samples.
+3. **Counterfact Dataset**: Includes counterfactual statements for testing specificity and generalization, with 4,000 samples.
+4. **HateEval Dataset**: Contains English tweets annotated for hate speech, with 6,000 samples.
+5. **STSA Dataset**: A movie review dataset with 6,920 samples, evenly split between positive and negative sentiments.
+6. **IMDb Dataset**: A benchmark dataset for binary sentiment classification, containing 2,000 samples.
+7. **Sarcasm Dataset**: A dataset for detecting sarcasm in news headlines, with 6,000 samples.
+8. **StrategyQA Dataset**: Contains questions requiring implicit reasoning across various knowledge domains, with 2,290 samples.
+9. **Coinflip Dataset**: Includes queries about coin flipping scenarios, with 500 samples.
+
+After identifying the datasets, I will check the **References section** of the paper to find the full citations for each dataset. This is essential for proper attribution and to provide readers with the sources for further exploration.
+
+The citations for the datasets are as follows:
+
+- **Cities Dataset**: Marks, S., & Tegmark, M. (2023). The geometry of truth: Emergent linear structure in large language model representations of true/false datasets. *arXiv preprint arXiv:2310.06824*.
+- **CommonClaim Dataset**: Casper, S., Lin, J., Kwon, J., Culp, G., & Hadfield-Menell, D. (2023). Explore, establish, exploit: Red teaming language models from scratch.
+- **Counterfact Dataset**: Meng, K., Bau, D., Andonian, A., & Belinkov, Y. (2022). Locating and editing factual associations in GPT. *Advances in Neural Information Processing Systems, 35*, 17359–17372.
+- **HateEval Dataset**: Manolescu, M., Löfflad, D., Mohamed Saber, A. N., & Moradipour Tari, M. (2019). TuEval at SemEval-2019 task 5: LSTM approach to hate speech detection in English and Spanish. *Proceedings of the 13th International Workshop on Semantic Evaluation*, 498–502.
+- **STSA Dataset**: Maas, A. L., Daly, R. E., Pham, P. T., Huang, D., Ng, A. Y., & Potts, C. (2011). Learning word vectors for sentiment analysis. *Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies*, 142–150.
+- **IMDb Dataset**: Maas, A. L., Daly, R. E., Pham, P. T., Huang, D., Ng, A. Y., & Potts, C. (2011). Learning word vectors for sentiment analysis. *Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies*, 142–150.
+- **Sarcasm Dataset**: Misra, R., & Arora, P. (2023). Sarcasm detection using news headlines dataset. *AI Open, 4*, 13–18.
+- **StrategyQA Dataset**: Geva, M., Khashabi, D., Segal, E., Khot, T., Roth, D., & Berant, J. (2021). Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies. *Transactions of the Association for Computational Linguistics, 9*, 346–361.
+- **Coinflip Dataset**: Wei, J., Wang, X., Schuurmans, D., Bosma, M., Xia, F., Chi, E., Le, Q. V., Zhou, D., et al. (2022). Chain-of-thought prompting elicits reasoning in large language models. *Advances in Neural Information Processing Systems, 35*, 24824–24837.
+
+Finally, I will compile this information into a structured format for easy reference and ensure that each dataset is accurately represented with its citation.

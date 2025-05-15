@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Deep Counterfactual Estimation with Categorical Background Variables" by Edward De Brouwer, I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions that the authors evaluate their method on "three different datasets with different high-dimensional modalities (images and time series)." This indicates that there are datasets used in the experiments, which I need to identify.
+
+Next, I will look into **section 5 (Experiments)**, where the authors provide detailed descriptions of the datasets used. The section is divided into subsections, and I will focus on the following:
+
+1. **5.1 Datasets**: Here, the authors explicitly mention the datasets they used for their experiments. They describe two main datasets:
+   - **Counterfactual Image Transformation**: This dataset is based on the MNIST dataset, where the covariates are original MNIST images, and the treatment involves spatial rotation and coloring of these images.
+   - **Counterfactual Longitudinal Treatment Effect Prediction**: This subsection describes two datasets:
+     - **Harmonic Oscillator**: A simulated dataset involving angular positions of coupled harmonic oscillators.
+     - **Cardiovascular Simulator**: A dataset generated from a cardiovascular system simulator to predict the impact of fluid intake on blood pressure.
+
+I will also check the **References section** to find the full citations for the datasets mentioned. The citations are crucial for proper attribution and to provide context for the datasets used.
+
+For the **MNIST dataset**, the citation is:
+> Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. *The MNIST Database of Handwritten Digits*. 1998.
+
+For the **Harmonic Oscillator** and **Cardiovascular Simulator**, the authors reference a specific paper for the cardiovascular simulator:
+> S. Zenker, J. Rubin, and G. Clermont. *From Inverse Problems in Mathematical Physiology to Quantitative Differential Diagnoses*. PLoS Comput Biol, 3(11):e204, 2007.
+
+Now, I will compile the dataset entries with their descriptions and citations:
+
+1. **Counterfactual Image Transformation**: 
+   - Description: A dataset generated from the MNIST dataset, where the treatment involves spatial rotation and coloring of the images.
+   - Citation: Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. *The MNIST Database of Handwritten Digits*. 1998.
+
+2. **Harmonic Oscillator**:
+   - Description: A simulated dataset involving angular positions of two coupled harmonic oscillators, with treatment consisting of gradual offsets to the time series.
+   - Citation: Not explicitly cited in the paper, but it is a common simulation in control theory.
+
+3. **Cardiovascular Simulator**:
+   - Description: A dataset generated from a cardiovascular system simulator to predict the impact of fluid intake on blood pressure.
+   - Citation: S. Zenker, J. Rubin, and G. Clermont. *From Inverse Problems in Mathematical Physiology to Quantitative Differential Diagnoses*. PLoS Comput Biol, 3(11):e204, 2007.
+
+After gathering all this information, I will ensure that the dataset descriptions and citations are formatted correctly for any further processing or documentation needs.

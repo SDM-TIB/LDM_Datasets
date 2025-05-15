@@ -1,0 +1,122 @@
+[
+    {
+        "dcterms:creator": [
+            "A. Coucke",
+            "A. Saade",
+            "A. Ball",
+            "T. Bluche",
+            "A. Caulier",
+            "D. Leroy",
+            "C. Doumouro",
+            "T. Gisselbrecht",
+            "F. Caltagirone",
+            "T. Lavril"
+        ],
+        "dcterms:description": "SNIPS consists of user utterances for 7 intent classes such as GetWeather, RateBook, etc. Since this dataset itself does not include OOD utterances, we follow the procedure described in [32] to synthetically create OOD examples.",
+        "dcterms:title": "SNIPS",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1805.10190",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Intent Classification"
+        ],
+        "dcat:keyword": [
+            "Intent detection",
+            "User utterances",
+            "Synthetic OOD examples"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Out-of-Domain Detection",
+            "Intent Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "V. Gangal",
+            "A. Arora",
+            "A. Einolghozati",
+            "S. Gupta"
+        ],
+        "dcterms:description": "ROSTD starts from the English part of multilingual dialog dataset released by [33] as ID utterances and later gets extended by [14] with OOD utterances.",
+        "dcterms:title": "ROSTD",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Dialog Systems"
+        ],
+        "dcat:keyword": [
+            "Multilingual dialog",
+            "Out-of-Domain detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Out-of-Domain Detection",
+            "Dialog Understanding"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Xu",
+            "B. Xu",
+            "P. Wang",
+            "S. Zheng",
+            "G. Tian",
+            "J. Zhao"
+        ],
+        "dcterms:description": "Stackoverflow is a subset of the challenge data published by Kaggle, where question titles associated with 20 different categories are selected. We follow the same way as SNIPS to create OOD samples.",
+        "dcterms:title": "Stackoverflow",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Text Classification"
+        ],
+        "dcat:keyword": [
+            "Question classification",
+            "Short text clustering"
+        ],
+        "dcat:landingPage": "https://www.kaggle.com/c/predict-closed-questions-on-stack-overflow",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Out-of-Domain Detection",
+            "Text Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "X.-H. Phan",
+            "L.-M. Nguyen",
+            "S. Horiguchi"
+        ],
+        "dcterms:description": "Searchsnippets is extracted from web search snippets, which contains search snippets associated with 8 different topics. We randomly selected 2 out of 8 classes as OOD classes while using the remaining classes as ID classes.",
+        "dcterms:title": "Searchsnippets",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Text Classification"
+        ],
+        "dcat:keyword": [
+            "Web search",
+            "Short text classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Out-of-Domain Detection",
+            "Text Classification"
+        ]
+    }
+]

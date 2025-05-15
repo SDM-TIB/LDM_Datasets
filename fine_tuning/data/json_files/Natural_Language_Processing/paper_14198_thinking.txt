@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Subspace-Guided Feature Reconstruction for Unsupervised Anomaly Localization" by Katsuya Hotta et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets mentioned. The abstract indicates that the authors conducted extensive experiments on three industrial benchmark datasets, which suggests that these datasets are crucial to the research.
+
+Next, I will look for specific mentions of datasets in the **introduction**. The authors discuss the challenges of acquiring suitable datasets for training supervised methods and mention the use of one-class classification (OCC) methods, which implies that they are likely using datasets that contain only normal samples for training.
+
+In the **experiments section**, I will focus on the details provided about the datasets used. The authors mention that they performed experiments on three public datasets, which are likely detailed in the results section. I will look for any tables or figures that summarize the datasets and their characteristics.
+
+Upon reviewing the paper, I find the following datasets mentioned:
+
+1. **MVTec AD**: This dataset is widely recognized for unsupervised anomaly detection and consists of 15 categories of industrial products, totaling 5,354 images. The training set contains only anomaly-free samples, while the test set includes both anomaly-free and anomalous samples.
+
+2. **BeanTech Anomaly Detection (BTAD)**: This dataset contains three categories of industrial products, comprising 2,540 samples, with a similar structure to MVTec AD, where the training set consists of anomaly-free samples and the test set includes both types.
+
+3. **Magnetic Tile Defect (MTD)**: This dataset includes 925 defect-free magnetic tile images and 392 anomalous images, with varied illumination levels and image sizes.
+
+Next, I will check the **References section** for full citations of these datasets. The citations are as follows:
+
+- For **MVTec AD**, the citation is:
+  > P. Bergmann, M. Fauser, D. Sattlegger, and C. Steger. "MVTec AD–A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2019, pp. 9592–9600.
+
+- For **BTAD**, the citation is:
+  > P. Mishra, R. Verk, D. Fornasier, C. Piciarelli, and G. L. Foresti. "VT-ADL: A Vision Transformer Network for Image Anomaly Detection and Localization." In Proceedings of the IEEE 30th International Symposium on Industrial Electronics (ISIE), 2021, pp. 01–06.
+
+- For **MTD**, the citation is:
+  > Y. Huang, C. Qiu, and K. Yuan. "Surface Defect Saliency of Magnetic Tile." The Visual Computer, vol. 36, pp. 85–96, 2020.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

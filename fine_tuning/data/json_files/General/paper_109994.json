@@ -1,0 +1,57 @@
+[
+    {
+        "dcterms:creator": [
+            "Xintong Han",
+            "Zuxuan Wu",
+            "Zhe Wu",
+            "Ruichi Yu",
+            "Larry S Davis"
+        ],
+        "dcterms:description": "VITON is a dataset for image-based virtual try-on, containing a training set of 14,221 image pairs and a testing dataset of 2,032 pairs. Each pair consists of a person image and the corresponding garment image, both at a resolution of 256 × 192.",
+        "dcterms:title": "VITON",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Virtual Try-On"
+        ],
+        "dcat:keyword": [
+            "Image dataset",
+            "Virtual try-on",
+            "Fashion",
+            "Clothing",
+            "Image pairs"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image-based virtual try-on"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Augmented VITON is a testing dataset created by randomly augmenting the testing person images in VITON to evaluate the model's robustness to misalignments with garment images. It includes shifts and zooms of the original images.",
+        "dcterms:title": "augmented VITON",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Vision",
+            "Virtual Try-On"
+        ],
+        "dcat:keyword": [
+            "Image dataset",
+            "Virtual try-on",
+            "Robustness evaluation",
+            "Augmented images"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image-based virtual try-on"
+        ]
+    }
+]

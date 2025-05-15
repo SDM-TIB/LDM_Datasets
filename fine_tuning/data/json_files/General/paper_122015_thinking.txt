@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Proposing Novel Extrapolative Compounds by Nested Variational Autoencoders" by Yoshihiro Osakabe and Akinori Asahara, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the use of large-scale public data and small-scale experimental data, which suggests that datasets are involved.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors explicitly mention the datasets used for their experiments. In this section, they describe two types of datasets:
+
+1. **Open Data**: This dataset consists of 500,000 SELFIES representations of chemical compounds sourced from the ZINC database. It is used to train the outer VAE, which learns the structural features of compounds.
+
+2. **Experimental Data**: This dataset contains 1,000 SELFIES representations of compounds, specifically filtered to have a Synthetic Accessibility Score (SAS) between 2.5 and 4.5. This dataset is used to train the inner VAE, which learns the relationship between the structural features and the properties of the compounds.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **ZINC database**, the citation is:
+  > John J. Irwin, Teague Sterling, Michael M. Mysinger, Erin S. Bolstad, and Ryan G. Coleman. *ZINC: A Free Tool to Discover Chemistry for Biology*. Journal of Chemical Information and Modeling, 52(7):1757–1768, jul 2012. doi:10.1021/ci3001277. URL https://pubs.acs.org/doi/10.1021/ci3001277.
+
+- The **Synthetic Accessibility Score (SAS)** is referenced in the paper by:
+  > Peter Ertl and Ansgar Schuffenhauer. *Estimation of synthetic accessibility score of drug-like molecules based on molecular complexity and fragment contributions*. Journal of Cheminformatics, 1(1):8, dec 2009. doi:10.1186/1758-2946-1-8. URL https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-1-8.
+
+With these citations, I have gathered all necessary information about the datasets used in the study. I will now compile this information into a structured format for further processing.

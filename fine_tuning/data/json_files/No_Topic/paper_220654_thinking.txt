@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Are Adversarial Perturbations a Showstopper for ML-Based CAD? A Case Study on CNN-Based Lithographic Hotspot Detection" by Kang Liu et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to see if any datasets are mentioned. The abstract provides a brief overview of the study, and the introduction often outlines the context and significance of the datasets used.
+
+In the **introduction**, the authors discuss the challenges of using machine learning in electronic CAD, which may hint at the datasets used for training and evaluation. I will pay attention to any specific dataset names or references.
+
+Next, I will focus on **section 4 (Case Study: IC Lithographic Hotspot Detection)**, where the authors describe the datasets used for their experiments. Here, they mention the creation of a custom dataset for lithographic hotspot detection, which is crucial for understanding the context of their experiments.
+
+The authors detail the dataset as follows:
+
+1. **Custom Layout Dataset**: This dataset consists of 10,403 layout clips stored in GDSII format, specifically targeting the detection of lithographic hotspots for via layers using SRAF-based RET. The dataset is generated through a series of steps involving the placement of vias and the application of optical proximity correction (OPC).
+
+In addition, they mention the **ICCAD ’12 contest dataset** as a reference point, although they note that it lacks sufficient information for their specific needs.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **ICCAD ’12 contest dataset**, the citation is:
+  > J. Andres Torres. 2012. ICCAD-2012 CAD contest in fuzzy pattern matching for physical verification and benchmark suite. In 2012 IEEE/ACM International Conference on Computer-Aided Design - ICCAD ’12. 349–350. https://doi.org/10.1145/2228360.2228576
+
+Since the custom dataset does not have a formal citation in the references, I will note it as an internal dataset created by the authors for the purpose of this study.
+
+Finally, I will compile the dataset entries into a structured format, ensuring that the full citations are included for the datasets that have them. This will provide a clear and comprehensive overview of the datasets used in the research paper.

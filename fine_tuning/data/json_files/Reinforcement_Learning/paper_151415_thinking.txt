@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "What’s in the Flow? Exploiting Temporal Motion Cues for Unsupervised Generic Event Boundary Detection" by Sourabh Vasant Gothe et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on the **Kinetics-GEBD** and **TAPOS** datasets, which suggests that these are the primary datasets used in their research.
+
+Next, I will look for specific details about these datasets in the **experiments section**. In section 4.1, the authors describe the **Kinetics-GEBD** dataset as consisting of 54,691 videos of 10 seconds each, spanning a broad range of video domains and being open-vocabulary and taxonomy-free. They also mention that the dataset is split into train, validation, and test sets, each containing approximately 18,000 videos.
+
+The authors also discuss the **TAPOS dataset**, which contains Olympics sports videos with 21 actions. They repurpose TAPOS for the GEBD task by defining boundaries between sub-actions in each action instance, with 1,790 instances available for validation.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+1. For **Kinetics-GEBD**, the citation is:
+   > Mike Zheng Shou, Stan Weixian Lei, Weiyao Wang, Deepti Ghadiyaram, and Matt Feiszli. *Generic event boundary detection: A benchmark for event segmentation*. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 8075–8084, 2021.
+
+2. For **TAPOS**, the citation is:
+   > Dian Shao, Yue Zhao, Bo Dai, and Dahua Lin. *Intra-and inter-action understanding via temporal action parsing*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 730–739, 2020.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+- **Kinetics-GEBD**: A dataset consisting of 54,691 videos, each 10 seconds long, covering a wide range of video domains and designed for generic event boundary detection.
+- **TAPOS**: A dataset containing Olympics sports videos with 21 actions, repurposed for the GEBD task, with 1,790 instances available for validation.
+
+Finally, I will compile the dataset entries into a structured format for further processing or review.

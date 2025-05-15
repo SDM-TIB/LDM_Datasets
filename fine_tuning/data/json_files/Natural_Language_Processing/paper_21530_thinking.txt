@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "DeDoDe v2: Analyzing and Improving the DeDoDe Keypoint Detector" by Johan Edstedt et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors evaluate their proposed detector on the **MegaDepth-1500** and **IMC2022** benchmarks, which suggests that these are the datasets of interest.
+
+Next, I will look specifically in **section 4 (Experiments)**, where the authors describe their experimental setup. Here, they mention using the **MegaDepth dataset** for training the DeDoDe detector and evaluating it on the **MegaDepth-1500** benchmark. They also reference the **Image Matching Challenge 2022 (IMC2022)** as another benchmark for evaluation.
+
+In **section 4.1**, the authors provide details about the **MegaDepth-1500** dataset, stating that it consists of 1500 pairs of images from the MegaDepth dataset, which are non-overlapping with their training set. This confirms that the MegaDepth-1500 is indeed a derived dataset used for evaluation.
+
+In **section 4.2**, they discuss the **IMC2022** dataset, which is described as comprising challenging uncalibrated relative pose estimation pairs. This dataset is also used for evaluating the performance of their proposed detector.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+1. For the **MegaDepth dataset**, the citation is:
+   > Zhengqi Li and Noah Snavely. *MegaDepth: Learning single-view depth prediction from internet photos*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2041–2050, 2018.
+
+2. For the **Image Matching Challenge 2022 (IMC2022)**, the citation is:
+   > Addison Howard, Eduard Trulls, Kwang Moo Yi, Dmitry Mishkin, Sohier Dane, and Yuhe Jin. *Image Matching Challenge 2022*. 2022.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+- **MegaDepth-1500**: A benchmark consisting of 1500 pairs of images derived from the MegaDepth dataset, used for evaluating relative pose estimation methods.
+- **IMC2022**: A dataset comprising challenging uncalibrated relative pose estimation pairs, used to assess the generalization performance of models.
+
+Finally, I will compile the dataset entries, ensuring that each dataset is accurately represented with its full citation for clarity and proper attribution.

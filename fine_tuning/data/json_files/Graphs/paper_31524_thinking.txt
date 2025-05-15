@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "CheckerPose: Progressive Dense Keypoint Localization for Object Pose Estimation with Graph Neural Network" by Ruyi Lian and Haibin Ling, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. In the abstract, the authors mention evaluating their method on **three commonly-used datasets** for object pose estimation, which indicates that datasets are indeed included.
+
+Next, I will focus on the **experiments section** (section 4) where the authors discuss their experimental setup. In **section 4.1 (Experimental Setup)**, they explicitly list the datasets used for their experiments:
+
+1. **Linemod Dataset**: This dataset consists of 13 sequences of real images with ground truth poses for a single object, containing around 1,200 images per sequence. The authors mention that they utilize about 15% of the images for training and the rest for testing.
+
+2. **Linemod-Occlusion Dataset**: This dataset includes 1,214 images from a sequence of the Linemod dataset, where ground truth poses of eight objects with partial occlusion are annotated for testing.
+
+3. **YCB-Video Dataset**: This dataset is composed of more than 110,000 real images of 21 objects with severe occlusion and clutter. The authors also mention using physically-based rendered data for training on Linemod-O and YCB-V.
+
+To ensure I have the correct citations for these datasets, I will check the **References section** of the paper. The citations for the datasets are as follows:
+
+- For **Linemod Dataset**:
+  > Stefan Hinterstoisser, Vincent Lepetit, Slobodan Ilic, Stefan Holzer, Gary Bradski, Kurt Konolige, and Nassir Navab. *Model based training, detection and pose estimation of texture-less 3D objects in heavily cluttered scenes*. In Asian Conference on Computer Vision (ACCV), pages 548–562, 2012.
+
+- For **Linemod-Occlusion Dataset**:
+  > Eric Brachmann, Alexander Krull, Frank Michel, Stefan Gumhold, Jamie Shotton, and Carsten Rother. *Learning 6D object pose estimation using 3D object coordinates*. In Proceedings of the European Conference on Computer Vision (ECCV), pages 536–551, 2014.
+
+- For **YCB-Video Dataset**:
+  > Yu Xiang, Tanner Schmidt, Venkatraman Narayanan, and Dieter Fox. *PoseCNN: a convolutional neural network for 6D object pose estimation in cluttered scenes*. In Robotics: Science and Systems, 2018.
+
+Now that I have identified the datasets and their citations, I will prepare to compile this information into a structured format for further use.

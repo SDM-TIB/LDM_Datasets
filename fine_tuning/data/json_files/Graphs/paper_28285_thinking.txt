@@ -1,0 +1,37 @@
+To extract datasets from the research paper titled "KFCNet: Knowledge Filtering and Contrastive Learning Network for Generative Commonsense Reasoning" by Haonan Li et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions that the authors conducted extensive experiments on the **CommonGen benchmark**, which indicates that this dataset is likely to be one of the primary datasets used in their research.
+
+Next, I will focus on **section 4.1 (Datasets)**, where the authors explicitly list the datasets they utilized. Here, they mention:
+
+1. **CommonGen**: This dataset is described as containing 32,651 training, 993 development, and 1,497 test concept sets, with corresponding English target sentences. The authors highlight the challenge of compositional generalization due to the high percentage of unseen concept sets in the development and test sets.
+
+2. **In-domain Corpus (Din)**: This corpus is built from various datasets, including ActivityNet, VaTeX, Conceptual Captions, SNLI, and MNLI, which are used to extract sentences that describe everyday scenarios.
+
+3. **Out-of-domain Corpus (Dout)**: This corpus is created from Wikipedia, providing additional context for the experiments.
+
+In the **experiments section**, the authors confirm that they used the **CommonGen** dataset for their primary evaluations, which reinforces its significance in their work.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **CommonGen**, the citation is:
+  > Bill Yuchen Lin, Ming Shen, Wangchunshu Zhou, Pei Zhou, Chandra Bhagavatula, Yejin Choi, and Xiang Ren. *CommonGen: A constrained text generation challenge for generative commonsense reasoning*. In Conference on Automated Knowledge Base Construction, AKBC, 2020.
+
+- For **ActivityNet**, the citation is:
+  > Prannay Khosla, Piotr Teterwak, Chen Wang, Aaron Sarna, Yonglong Tian, Phillip Isola, Aaron Maschinot, Ce Liu, and Dilip Krishnan. *Dense-captioning events in videos*. In International Conference on Computer Vision, ICCV, 2017.
+
+- For **VaTeX**, the citation is:
+  > Xin Wang, Jiawei Wu, Junkun Chen, Lei Li, Yuan-Fang Wang, and William Yang Wang. *VaTeX: A large-scale, high-quality multilingual dataset for video-and-language research*. In International Conference on Computer Vision, ICCV, 2019.
+
+- For **Conceptual Captions**, the citation is:
+  > Piyush Sharma, Nan Ding, Sebastian Goodman, and Radu Soricut. *Conceptual captions: A cleaned, hypernymed, image alt-text dataset for automatic image captioning*. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics, ACL, 2018.
+
+- For **SNLI**, the citation is:
+  > Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D. Manning. *A large annotated corpus for learning natural language inference*. In Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing, EMNLP, 2015.
+
+- For **MNLI**, the citation is:
+  > Nisan Stiennon, Long Ouyang, Jeff Wu, et al. *Learning to summarize with human feedback*. In Advances in Neural Information Processing Systems, NeurIPS, 2020.
+
+- For **Wikipedia**, since it is a general dataset, I will note that it is based on the English Wikipedia dump from May 01, 2020, but it does not have a specific citation like the others.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and cited according to the requirements. This will provide a comprehensive overview of the datasets used in the research paper.

@@ -1,0 +1,33 @@
+To extract the datasets from the research paper titled "Process Outcome Prediction: CNN vs. LSTM (with Attention)" by Hans Weytjens and Jochen De Weerdt, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental evaluation sections** to identify any datasets mentioned. The abstract provides a general overview, but the introduction and experimental sections are likely to contain specific details about the datasets used.
+
+In the **introduction**, the authors discuss the importance of early outcome prediction and mention that they benchmark different neural networks against each other. However, they do not specify datasets here.
+
+Next, I will focus on **section 3 (Experimental evaluation)**, particularly **subsection 3.1 (Datasets)**, where the authors explicitly list the datasets used for their experiments. Here, they mention several datasets:
+
+1. **BPIC 2012**: This dataset describes a loan application process at a Dutch bank with three possible targets: 'approved', 'declined', or 'canceled'. The authors transformed this multi-classification problem into three binary classification problems.
+
+2. **BPIC 2017**: A higher-quality version of BPIC 2012, containing more examples and features that facilitate better predictions.
+
+3. **Traffic Fines**: An event log of a system managing traffic road fines, where fines are either paid in full or sent for credit collection.
+
+4. **Sepsis Cases**: This dataset describes the pathways of patients through a hospital, with three defined targets: whether the patient is admitted to the emergency room within 28 days, whether they enter the intensive care unit, and whether they are released for reasons other than the most frequent reason.
+
+I will also check the **References section** to find the full citations for these datasets. The authors mention that all datasets can be found at the 4TU Centre for Research Data, which is a crucial detail for citation.
+
+Now, I will compile the full citations for each dataset:
+
+- For **BPIC 2012**, the citation is:
+  > 4TU Centre for Research Data. *BPIC 2012: Business Process Intelligence Challenge 2012*. Available at: https://data.4tu.nl/repository/collection:event_logs_real
+
+- For **BPIC 2017**, the citation is:
+  > 4TU Centre for Research Data. *BPIC 2017: Business Process Intelligence Challenge 2017*. Available at: https://data.4tu.nl/repository/collection:event_logs_real
+
+- For **Traffic Fines**, the citation is:
+  > 4TU Centre for Research Data. *Traffic Fines Dataset*. Available at: https://data.4tu.nl/repository/collection:event_logs_real
+
+- For **Sepsis Cases**, the citation is:
+  > 4TU Centre for Research Data. *Sepsis Cases Dataset*. Available at: https://data.4tu.nl/repository/collection:event_logs_real
+
+With this information, I can now create structured entries for each dataset, ensuring that I include the full citations as required. This will provide a comprehensive overview of the datasets used in the research paper.

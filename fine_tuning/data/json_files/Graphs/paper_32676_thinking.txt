@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "A Heterogeneous Graph-Based Multi-Task Learning for Fault Event Diagnosis in Smart Grid" by Dibaloke Chanda and Nasim Yahya Soltani, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses the use of a heterogeneous multi-task learning graph neural network (MTL-GNN) and mentions the IEEE-123 test feeder system, which suggests that this system may be a dataset used in their experiments.
+
+Next, I will focus on **section III (Dataset Generation)**, where the authors describe the IEEE-123 node feeder system in detail. They mention that this system operates at a nominal voltage of 4.16 KV and consists of various nodes and connections, which indicates that it is a structured dataset used for their analysis.
+
+In this section, the authors also describe the dataset generation process, including the simulation of different fault types and the generation of data points for fault detection, localization, classification, resistance estimation, and current estimation. They specify that for each fault type, they generate 20,400 data samples, leading to a total of 102,000 data points for fault events.
+
+I will also check the **References section** to find the full citation for the IEEE-123 node feeder system. The citation is as follows:
+> W. H. Kersting, “Radial distribution test feeders,” IEEE Transactions on Power Systems, vol. 6, no. 3, pp. 975–985, 1991.
+
+Additionally, the authors mention using OpenDSS as a power flow equation solver engine for dataset generation. I will note this as it may be relevant for understanding the dataset's context.
+
+Now, I will compile the information into a structured format, ensuring that I include the full citations for the datasets mentioned in the paper.
+
+1. **IEEE-123 Node Feeder System**: A dataset used for simulating fault events in a power distribution system, consisting of 85 nodes and various connections. The dataset includes 102,000 data points generated for different fault types.
+   - Citation: W. H. Kersting, “Radial distribution test feeders,” IEEE Transactions on Power Systems, vol. 6, no. 3, pp. 975–985, 1991.
+
+2. **OpenDSS**: An open-source platform used for power flow simulations to generate the dataset.
+   - Citation: R. C. Dugan and T. E. McDermott, “An open source platform for collaborating on smart grid research,” in IEEE Power and Energy Society General Meeting, 2011, pp. 1–7.
+
+After gathering all this information, I will prepare the dataset entries for further processing or review.

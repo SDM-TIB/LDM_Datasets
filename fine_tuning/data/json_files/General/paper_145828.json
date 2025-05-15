@@ -1,0 +1,169 @@
+[
+    {
+        "dcterms:creator": [
+            "A. Fabbri",
+            "I. Li",
+            "T. She",
+            "S. Li",
+            "D. Radev"
+        ],
+        "dcterms:description": "A prominent generic multi-document summarization dataset consisting of news articles from various sources and human-written gold summaries. Each sample includes 2 to 10 source articles, with most samples containing 2-3 documents, and a respective human summary.",
+        "dcterms:title": "MultiNews",
+        "dcterms:issued": "2019",
+        "dcterms:language": "English",
+        "dcterms:identifier": "10.18653/v1/P19-1102",
+        "dcat:theme": [
+            "Multi-document Summarization"
+        ],
+        "dcat:keyword": [
+            "News articles",
+            "Summarization",
+            "Multi-document"
+        ],
+        "dcat:landingPage": "https://aclanthology.org/P19-1102",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Summarization"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Amar",
+            "L. Schiff",
+            "O. Ernst",
+            "A. Shefer",
+            "O. Shapira",
+            "I. Dagan"
+        ],
+        "dcterms:description": "A recent dataset for multi-document open aspect-based summarization, where the target summary focuses on a specified aspect within a topic, requiring models to process any given aspect that may not have been seen before.",
+        "dcterms:title": "OpenAsp",
+        "dcterms:issued": "2023",
+        "dcterms:language": "English",
+        "dcterms:identifier": "10.18653/v1/2023.emnlp-main.121",
+        "dcat:theme": [
+            "Multi-document Summarization",
+            "Aspect-based Summarization"
+        ],
+        "dcat:keyword": [
+            "Aspect-based",
+            "Summarization",
+            "Open aspect"
+        ],
+        "dcat:landingPage": "https://aclanthology.org/2023.emnlp-main.121",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Summarization"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Slobodkin",
+            "O. Shapira",
+            "R. Levy",
+            "I. Dagan"
+        ],
+        "dcterms:description": "A dataset that addresses the task of fusion-in-context, where each instance consists of 8 reviews of the same business, with spans highlighted within the reviews, requiring the generation of a coherent passage that fuses together all highlighted spans.",
+        "dcterms:title": "FuseReviews",
+        "dcterms:issued": "2024",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Multi-document Summarization"
+        ],
+        "dcat:keyword": [
+            "Reviews",
+            "Fusion-in-context",
+            "Summarization"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Summarization"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Trivedi",
+            "N. Balasubramanian",
+            "T. Khot",
+            "A. Sabharwal"
+        ],
+        "dcterms:description": "A dataset of questions based on Wikipedia texts, requiring models to integrate information from 2-4 documents to answer multi-hop questions.",
+        "dcterms:title": "MuSiQue",
+        "dcterms:issued": "2022",
+        "dcterms:language": "English",
+        "dcterms:identifier": "10.1162/tacl_a_00475",
+        "dcat:theme": [
+            "Multi-hop Question Answering"
+        ],
+        "dcat:keyword": [
+            "Multi-hop",
+            "Question answering",
+            "Wikipedia"
+        ],
+        "dcat:landingPage": "https://aclanthology.org/2022.tacl-1.31",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Question Answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Cattan",
+            "S. Johnson",
+            "D. S. Weld",
+            "I. Dagan",
+            "I. Beltagy",
+            "D. Downey",
+            "T. Hope"
+        ],
+        "dcterms:description": "A hierarchical cross-document coreference dataset for scientific concepts, primarily consisting of computer science paper abstracts and some full-text papers about artificial intelligence.",
+        "dcterms:title": "SciCo",
+        "dcterms:issued": "2021",
+        "dcterms:language": "English",
+        "dcterms:identifier": "10.24432/C5B594",
+        "dcat:theme": [
+            "Cross-document Coreference Resolution"
+        ],
+        "dcat:keyword": [
+            "Coreference",
+            "Scientific concepts",
+            "Cross-document"
+        ],
+        "dcat:landingPage": "https://openreview.net/forum?id=OFLbgUP04nC",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Coreference Resolution"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Cybulska",
+            "P. Vossen"
+        ],
+        "dcterms:description": "A dataset focused on lexical diversity and event coreference resolution in the news domain, specifically compiled to discuss similar topics.",
+        "dcterms:title": "ECB+",
+        "dcterms:issued": "2014",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Cross-document Coreference Resolution"
+        ],
+        "dcat:keyword": [
+            "Coreference",
+            "Event resolution",
+            "News"
+        ],
+        "dcat:landingPage": "http://www.lrec-conf.org/proceedings/lrec2014/pdf/840_Paper.pdf",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Coreference Resolution"
+        ]
+    }
+]

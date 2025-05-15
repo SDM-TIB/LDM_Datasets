@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "POMO: Policy Optimization with Multiple Optima for Reinforcement Learning" by Yeong-Dae Kwon et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to look for any references to datasets. The abstract mentions that POMO is evaluated on three popular NP-hard problems: traveling salesman (TSP), capacitated vehicle routing (CVRP), and 0-1 knapsack (KP). This indicates that there may be datasets associated with these problems.
+
+Next, I will examine the **experiments section** in detail, particularly the subsections that discuss the methodology and results for each problem. In the experiments, the authors describe how they implemented POMO for TSP, CVRP, and KP, but I need to find specific datasets or benchmarks they used for these evaluations.
+
+In the **TSP section**, the authors mention using randomly sampled node locations from the unit square for the TSP problems (TSP20, TSP50, TSP100). This suggests that the datasets are generated rather than sourced from a pre-existing dataset.
+
+For the **CVRP section**, they also describe using customer nodes sampled uniformly from the unit square, indicating that the dataset is similarly generated for the capacitated vehicle routing problem.
+
+In the **0-1 knapsack problem section**, the authors state that they prepare a set of items with weights and values randomly sampled from a specified range. Again, this indicates that the dataset is generated rather than sourced from an established dataset.
+
+Since the datasets for TSP, CVRP, and KP are generated specifically for the experiments and do not reference external datasets, I will note this in my documentation.
+
+Now, I will compile the information regarding the datasets:
+
+1. **TSP Datasets**: 
+   - Description: Randomly sampled node locations from the unit square for TSP problems (TSP20, TSP50, TSP100).
+   - Citation: Not applicable (generated dataset).
+
+2. **CVRP Datasets**: 
+   - Description: Customer nodes sampled uniformly from the unit square for CVRP problems (CVRP20, CVRP50, CVRP100).
+   - Citation: Not applicable (generated dataset).
+
+3. **0-1 Knapsack Datasets**: 
+   - Description: A set of items with weights and values randomly sampled from (0, 1) for KP problems (KP50, KP100, KP200).
+   - Citation: Not applicable (generated dataset).
+
+Since these datasets are generated for the purpose of the experiments and do not have formal citations, I will document them as such. 
+
+Finally, I will summarize the findings in a structured format for clarity and future reference.

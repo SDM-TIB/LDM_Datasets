@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "A Group Symmetric Stochastic Differential Equation Model for Molecule Multi-modal Pretraining" by Shengchao Liu et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract mentions "molecule pretraining" and references "a large number of molecule datasets," which indicates that datasets are likely discussed in detail later in the paper.
+
+Next, I will focus on **section 1 (Introduction)**, where the authors reference several datasets used in molecule pretraining. They specifically mention the **PCQM4Mv2 dataset** as the primary dataset for pretraining, which is a sub-dataset of PubChemQC.
+
+In **section 5 (Experiments)**, the authors provide more details about the datasets used for pretraining and downstream tasks. They confirm that they used **PCQM4Mv2** for pretraining and also mention **Molecule3D**, which is another dataset they considered but ultimately did not use due to mismatches between 2D topologies and 3D conformations.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+1. **PCQM4Mv2**: The citation is:
+   > Hu, W., Fey, M., Zitnik, M., Dong, Y., Ren, H., Liu, B., Catasta, M., and Leskovec, J. *Open Graph Benchmark: Datasets for Machine Learning on Graphs*. arXiv preprint arXiv:2005.00687, 2020a.
+
+2. **Molecule3D**: The citation is:
+   > Xu, Z., Luo, Y., Zhang, X., Xu, X., Xie, Y., Liu, M., Dickerson, K., Deng, C., Nakata, M., and Ji, S. *Molecule3D: A Benchmark for Predicting 3D Geometries from Molecular Graphs*. arXiv preprint arXiv:2110.01717, 2021b.
+
+With these citations in hand, I will summarize the datasets extracted:
+
+- **PCQM4Mv2**: A dataset with 3.4 million molecules, used for molecule pretraining.
+- **Molecule3D**: A dataset extracted from PubChemQC, which was considered but not used due to mismatches.
+
+Finally, I will compile the dataset entries into a structured format for clarity and future reference. This ensures that I have accurately captured the datasets and their citations from the paper.

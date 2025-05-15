@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "COARSE3D: Class-Prototypes for Contrastive Learning in Weakly-Supervised 3D Point Cloud Segmentation" by Rong Li et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on three real-world outdoor datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on the **experimental setup section** (Section 4) where the authors typically describe the datasets used for their experiments. In this section, they mention three datasets:
+
+1. **SemKITTI**: This dataset is described as having 22 German scenes recorded at 10Hz with an HDL-64E LiDAR. The authors specify that they train on sequences 00 to 10, excluding sequence 08 for validation.
+
+2. **nuScenes**: This dataset consists of 850 scenes from the U.S.A. and Singapore, acquired with a VLP-32 LiDAR, and labeled at 2Hz. The authors follow standard practices by using 700 scenes for training and 150 for validation.
+
+3. **SemanticPOSS**: This dataset contains Chinese campus scenes recorded at 10Hz with a 40-layer LiDAR. The authors mention that they train on sequences 00 to 05, excluding sequence 02 for validation.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **SemKITTI**, the citation is:
+  > Jens Behley, Martin Garbade, Andres Milioto, Jan Quenzel, Sven Behnke, C. Stachniss, and Juergen Gall. *SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2019.
+
+- For **nuScenes**, the citation is:
+  > Holger Caesar, Varun Bankiti, Alex H. Lang, Sourabh Vora, Venice Erin Liong, Qiang Xu, Anush Krishnan, Yu Pan, Giancarlo Baldan, and Oscar Beijbom. *nuScenes: A Multimodal Dataset for Autonomous Driving*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
+
+- For **SemanticPOSS**, the citation is:
+  > Yancheng Pan, Biao Gao, Jilin Mei, Sibo Geng, Chengkun Li, and Huijing Zhao. *SemanticPOSS: A Point Cloud Dataset with Large Quantity of Dynamic Instances*. In Proceedings of the IEEE Intelligent Vehicles Symposium (IV), 2020.
+
+Now that I have identified the datasets and their full citations, I will compile this information into a structured format for further processing or review.

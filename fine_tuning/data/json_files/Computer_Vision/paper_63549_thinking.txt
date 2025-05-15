@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Semantify: Simplifying the Control of 3D Morphable Models using CLIP" by Omer Gralnik et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and method sections** to identify any datasets mentioned. The abstract provides a brief overview of the method and its applications, which may include references to datasets used for training or evaluation.
+
+Next, I will focus on the **method section**, particularly **section 3 (Method)**, where the authors describe their approach in detail. Here, they mention the creation of a dataset containing rendered images of randomly sampled shapes from various 3D Morphable Models (3DMMs). This indicates that there is a dataset involved, but I need to gather more specific details.
+
+In **subsection 3.1 (Dataset Creation)**, the authors explain how they create the dataset by sampling parameters from different 3DMMs. They mention using the first 10 principal components for the models, which suggests that the dataset is derived from these models. They specifically reference four parametric models: **FLAME**, **SMPL**, **SMPL-X**, and **SMAL**. 
+
+I will also look for any specific datasets mentioned in the **experiments section** (section 5), where they might discuss the datasets used for evaluation or comparison. The authors mention using the **HBW (Human Bodies in-the-wild) dataset** for zero-shot shape reconstruction, which is crucial for my extraction.
+
+Now, I will compile the full citations for each dataset mentioned in the paper. The citations are typically found in the **References section**. Here are the datasets I have identified:
+
+1. **FLAME**: 
+   - Citation: 
+     > Li, T., Bolkart, T., Black, M. J., Hao Li, and Romero, J. (2017). *Learning a model of facial shape and expression from 4D scans*. ACM Transactions on Graphics (Proc. SIGGRAPH Asia), 36(6):194:1–194:17.
+
+2. **SMPL**:
+   - Citation:
+     > Loper, M., Mahmood, N., Romero, J., Pons-Moll, G., and Black, M. J. (2015). *SMPL: A skinned multi-person linear model*. ACM Transactions on Graphics, 34(6).
+
+3. **SMPL-X**:
+   - Citation:
+     > Pavlakos, G., Choutas, V., Ghorbani, N., Bolkart, T., Osman, A. A., Tzionas, D., and Black, M. J. (2019). *Expressive body capture: 3D hands, face, and body from a single image*. In Proceedings IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), pages 10975–10985.
+
+4. **SMAL**:
+   - Citation:
+     > Zuffi, S., Kanazawa, A., Jacobs, D., and Black, M. J. (2017). *3D menagerie: Modeling the 3D shape and pose of animals*. In IEEE Conf. on Computer Vision and Pattern Recognition (CVPR).
+
+5. **HBW (Human Bodies in-the-wild) dataset**:
+   - Citation:
+     > Choutas, V., Müller, L., Huang, C.-H. P., Tang, S., Tzionas, D., and Black, M. J. (2022). *Accurate 3D body shape regression using metric and semantic attributes*. In Proceedings IEEE Conf. on Computer Vision and Pattern Recognition (CVPR).
+
+After gathering this information, I will ensure that I format the dataset entries correctly and prepare them for any further processing or review. This structured approach will help me accurately extract and cite the datasets used in the research paper.

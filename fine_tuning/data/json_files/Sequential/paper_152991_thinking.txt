@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "A Case Study: Exploiting Neural Machine Translation to Translate CUDA to OpenCL" by Yonghae Kim and Hyesoon Kim, I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and dataset generation sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors developed a dataset generation flow for translating CUDA to OpenCL, which suggests that there is a dataset involved.
+
+Next, I will focus on **section 4 (Dataset Generation)**, where the authors outline the steps taken to generate the dataset. They mention that there is no publicly available dataset for translating CUDA to OpenCL using NMT, which leads them to create their own dataset from CUDA samples. This section is crucial as it provides details about the dataset's origin and structure.
+
+In **subsection 4.1 (Steps of Dataset Generation)**, the authors describe the process of generating the dataset, which includes writing API usages, building usage symbol trees, and gathering expressions from CUDA samples. They also mention that they generated a dataset from CUDA benchmarks, specifically using **Polybench-gpu-1.0**, **NVIDIA SDK**, and **Rodinia** benchmarks.
+
+In **section 5 (Results)**, the authors provide quantitative results about the dataset, stating that they generated a total of 1,874 sentences from CUDA samples, which further confirms the existence of the dataset.
+
+Now, I will consult the **References section** to retrieve full citations for the datasets mentioned:
+
+1. For **Polybench-gpu-1.0**, the citation is:
+   > Robert Searles, Sudhee Ayalasomayajula, Scott Grauer-Gray, Lifan Xu, and John Cavazos. *Auto-tuning a High-Level Language Targeted to GPU Codes*. In Proceedings of Innovative Parallel Computing (InPar ’12).
+
+2. For **NVIDIA SDK**, the citation is:
+   > NVIDIA. *NVIDIA CUDA Samples Reference Manual*. 2017.
+
+3. For **Rodinia**, the citation is:
+   > S. Che, M. Boyer, J. Meng, D. Tarjan, J. W. Sheaffer, S. Lee, and K. Skadron. *Rodinia: A benchmark suite for heterogeneous computing*. In 2009 IEEE International Symposium on Workload Characterization (IISWC), pages 44–54, 2009. https://doi.org/10.1109/IISWC.2009.5306797
+
+After gathering this information, I will compile the dataset entries with their respective citations, ensuring that each dataset is accurately represented with its full citation for clarity and proper attribution. This will provide a comprehensive overview of the datasets utilized in the research.

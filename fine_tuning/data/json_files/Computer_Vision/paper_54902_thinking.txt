@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Design Methodology for Deep Out-of-Distribution Detectors in Real-Time Cyber-Physical Systems" by Michael Yuhas et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses the use of out-of-distribution (OOD) detectors in cyber-physical systems (CPS), but it does not specify any datasets. The introduction may provide more context or mention specific datasets used in the experiments.
+
+Next, I will focus on the **case studies section** where the authors describe their experiments. In this section, they mention using the **Duckietown platform** to simulate autonomous vehicles and collecting image data from a constructed DuckieTown environment. This indicates that there is a dataset involved, specifically related to the images collected during their experiments.
+
+I will look for specific details about the dataset in the **Evaluation Setup** subsection of the case studies. Here, the authors state that they gathered image data from DuckieTown, partitioning it into in-distribution (ID) training and testing data, and creating OOD test images by digitally superimposing rain or snow. This gives me a clear indication of the dataset's nature and its purpose.
+
+The authors also mention the number of images collected and the conditions under which they were gathered. I will note these details as they are crucial for describing the dataset.
+
+Now, I will check the **References section** to find full citations for any datasets or methodologies referenced in the paper. The authors refer to two OOD detection architectures in their methodology, which may have associated datasets or papers that provide more information.
+
+1. **Duckietown Dataset**: The dataset consists of images collected from a DuckieTown constructed out of an 8-meter long track with five different backgrounds. The authors mention that they partitioned this data into ID training and testing data and created OOD test images by digitally superimposing rain or snow. However, they do not provide a formal citation for this dataset in the references.
+
+2. **β-VAE OOD Detector**: The authors reference a paper that describes the β-VAE model, which is used for OOD detection. The citation for this paper is:
+   > S. Ramakrishna, Z. Rahiminasab, G. Karsai, A. Easwaran, and A. Dubey, “Efficient Out-of-Distribution Detection Using Latent Space of β-VAE for Cyber-Physical Systems,” ACM Transactions on Cyber-Physical Systems (TCPS), vol. 6, no. 2, pp. 1–34, Apr. 2022, doi: 10.1145/3491243.
+
+3. **Optical Flow OOD Detector**: The authors also reference another paper for the optical flow OOD detector. The citation is:
+   > Y. Feng, D. J. X. Ng, and A. Easwaran, “Improving Variational Autoencoder based Out-of-Distribution Detection for Embedded Real-time Applications,” ACM Transactions on Embedded Computing Systems (TECS), vol. 20, no. 5s, pp. 1–26, Oct. 2021, doi: 10.1145/3477026.
+
+After gathering all this information, I will summarize the datasets extracted from the paper, ensuring to include the full citations for any referenced works. This will provide a comprehensive overview of the datasets used in the research.

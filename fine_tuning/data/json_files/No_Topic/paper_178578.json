@@ -1,0 +1,197 @@
+[
+    {
+        "dcterms:creator": [
+            "C. Fredembach",
+            "S. Susstrunk"
+        ],
+        "dcterms:description": "The Near-infrared Gray Image (NGI) is a noise-free grayscale image captured in dim lighting conditions, used as a guidance image for multimodal image fusion.",
+        "dcterms:title": "Near-infrared Gray Image (NGI)",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Processing",
+            "Multimodal Fusion"
+        ],
+        "dcat:keyword": [
+            "Near-infrared imaging",
+            "Grayscale image",
+            "Noise-free"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Fusion",
+            "Noise Removal"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Zhuo",
+            "X. Zhang",
+            "X. Miao",
+            "T. Sim"
+        ],
+        "dcterms:description": "The Visible Color Image (VCI) is a color image captured in dim lighting conditions, which contains noise and is used in conjunction with the NGI for multimodal image fusion.",
+        "dcterms:title": "Visible Color Image (VCI)",
+        "dcterms:issued": "2010",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Processing",
+            "Multimodal Fusion"
+        ],
+        "dcat:keyword": [
+            "Color image",
+            "Noisy image",
+            "Low light"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Image Fusion",
+            "Noise Removal"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Buades",
+            "B. Coll",
+            "J.-M. Morel"
+        ],
+        "dcterms:description": "Non-local means filtering is a denoising method used to remove noise from images, specifically applied to the VCI in the proposed method.",
+        "dcterms:title": "Non-local means filtering",
+        "dcterms:issued": "2010",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Processing",
+            "Denoising"
+        ],
+        "dcat:keyword": [
+            "Denoising",
+            "Non-local means",
+            "Image filtering"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Algorithm",
+        "mls:task": [
+            "Image Denoising"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Dabov",
+            "A. Foi",
+            "V. Katkovnik",
+            "K. O. Egiazarian"
+        ],
+        "dcterms:description": "BM3D is a state-of-the-art denoising method that is compared against the proposed method, known for its collaborative filtering approach in the transform domain.",
+        "dcterms:title": "BM3D",
+        "dcterms:issued": "2007",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Processing",
+            "Denoising"
+        ],
+        "dcat:keyword": [
+            "Denoising",
+            "Collaborative filtering",
+            "Transform-domain"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Algorithm",
+        "mls:task": [
+            "Image Denoising"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. He",
+            "J. Sun",
+            "X. Tang"
+        ],
+        "dcterms:description": "Guided Filtering is a method used for edge-preserving smoothing and is mentioned as a conventional method in the context of image fusion.",
+        "dcterms:title": "Guided Filtering",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Processing",
+            "Smoothing"
+        ],
+        "dcat:keyword": [
+            "Edge-preserving",
+            "Smoothing filter",
+            "Image processing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Algorithm",
+        "mls:task": [
+            "Image Smoothing"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Q. Yan",
+            "X. Shen",
+            "L. Xu",
+            "S. Zhuo",
+            "X. Zhang",
+            "L. Shen",
+            "J. Jia"
+        ],
+        "dcterms:description": "Scale Map (SM) is a state-of-the-art method for image fusion that is mentioned in the context of addressing edge and brightness discrepancies.",
+        "dcterms:title": "Scale Map (SM)",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Processing",
+            "Image Fusion"
+        ],
+        "dcat:keyword": [
+            "Image fusion",
+            "Scale map",
+            "Edge preservation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Algorithm",
+        "mls:task": [
+            "Image Fusion"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "C.-H. Son",
+            "X.-P. Zhang"
+        ],
+        "dcterms:description": "Layer Decomposition (LD) is another state-of-the-art method for image fusion that is referenced in the context of improving detail representation.",
+        "dcterms:title": "Layer Decomposition (LD)",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Processing",
+            "Image Fusion"
+        ],
+        "dcat:keyword": [
+            "Image fusion",
+            "Layer decomposition",
+            "Detail representation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Algorithm",
+        "mls:task": [
+            "Image Fusion"
+        ]
+    }
+]

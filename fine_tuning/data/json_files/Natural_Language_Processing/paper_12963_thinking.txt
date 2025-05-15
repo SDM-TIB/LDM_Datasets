@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Three Ways of Using Large Language Models to Evaluate Chat" by Ondřej Plátek et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to find any references to datasets. The abstract mentions participation in the **DSTC 11 Track 4 competition**, which indicates that datasets are likely involved.
+
+Next, I will focus on **section 2 (Task & Data)**, where the authors describe the datasets provided for the competition. Here, they mention several datasets:
+
+1. **Training set**: Consists of 390k dialogues annotated with sentiment and toxicity labels. This dataset was not used in their experiments.
+
+2. **Development set**: Comprises 24 datasets, some annotated with dataset-specific metrics. The authors created a heuristic mapping to the target metrics on a subset of this development set.
+
+3. **Test set**: Contains 3,470 dialogues and 130k turns, annotated with target metrics. This dataset was published in an anonymized form after the challenge.
+
+4. **Rehearsal set**: A set of 156 turns collected similarly to the test set, which was manually annotated with target metrics and used for hyperparameter search.
+
+In addition, the authors reference specific datasets used in their experiments, such as:
+
+- **DailyDialog**: A dataset used for developing prompt templates.
+- **Fed-Turn**: Another dataset mentioned in the context of training.
+- **Persona-See** and **Persona-Usr**: Datasets used for training the feed-forward network.
+
+Now, I will check the **References section** to find full citations for these datasets. The citations I need to extract include:
+
+- For **DailyDialog**:
+  > Li, Y., Su, H., Shen, X., Li, W., Cao, Z., & Niu, S. (2017). DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset. ArXiv:1710.03957 [cs].
+
+- For **Fed-Turn**:
+  > Mehri, S., & Eskenazi, M. (2020). Unsupervised Evaluation of Interactive Dialog with DialoGPT. In Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse and Dialogue, pages 225–235.
+
+- For **Persona-See**:
+  > See, A., Roller, S., Kiela, D., & Weston, J. (2019). What makes a good conversation? How controllable attributes affect human judgments. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 1702–1723.
+
+- For **Persona-Usr**:
+  > Mehri, S., & Eskenazi, M. (2020). USR: An Unsupervised and Reference Free Evaluation Metric for Dialog Generation. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 681–707.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This structured approach will help ensure that I capture all relevant datasets and their citations from the paper.

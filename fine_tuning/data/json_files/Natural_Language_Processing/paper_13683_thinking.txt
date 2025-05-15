@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Gender-specific Machine Translation with Large Language Models" by Eduardo Sánchez et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the study uses a dataset called **MULTILINGUALHOLISTICBIAS** for evaluating gender-specific translations, which is a good starting point.
+
+Next, I will examine the **experimental framework** section, specifically **section 3**, where the authors describe the datasets used in their experiments. Here, they mention:
+
+1. **MULTILINGUALHOLISTICBIAS**: This dataset is a multilingual subset of Holistic Bias, which includes separate translations for each noun class or grammatical gender for languages that utilize them. The authors reference Costa-jussà et al. (2023) for this dataset.
+
+2. **BUG**: This dataset is used for gender bias analysis and consists of English sentences requiring unambiguous coreference resolution or grammatical gender utilization. The authors cite Levy et al. (2021) for this dataset.
+
+3. **FLoRes**: This dataset is mentioned as a general domain dataset used to reproduce results in the general domain. The authors reference multiple sources for this dataset, including NLLB Team et al. (2022) and Goyal et al. (2021).
+
+After identifying these datasets, I will check the **References section** to gather the full citations for each dataset:
+
+- For **MULTILINGUALHOLISTICBIAS**, the citation is:
+  > Marta R. Costa-jussà, Pierre Andrews, Eric Smith, Prangthip Hansanti, Christophe Ropers, Elahe Kalbassi, Cynthia Gao, Daniel Licht, and Carleigh Wood. *Multilingual holistic bias: Extending descriptors and patterns to unveil demographic biases in languages at scale*. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 9064–9079, Toronto, Canada, 2023.
+
+- For **BUG**, the citation is:
+  > Shahar Levy, Koren Lazar, and Gabriel Stanovsky. *Collecting a large-scale gender bias dataset for coreference resolution and machine translation*. In Findings of the Association for Computational Linguistics: EMNLP 2021, pages 2470–2480, Punta Cana, Dominican Republic, 2021.
+
+- For **FLoRes**, the citation is:
+  > Naman Goyal, Cynthia Gao, Vishrav Chaudhary, Peng-Jen Chen, Guillaume Wenzek, Da Ju, Sanjana Krishnan, Marc’Aurelio Ranzato, Francisco Guzmán, and Angela Fan. *The flores-101 evaluation benchmark for low-resource and multilingual machine translation*. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 1–42, Singapore, 2022.
+
+Now that I have identified the datasets and their full citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

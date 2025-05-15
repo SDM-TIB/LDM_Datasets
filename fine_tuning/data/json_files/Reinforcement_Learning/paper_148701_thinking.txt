@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Learning Dexterous Manipulation from Suboptimal Experts" by Rae Jeong et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper. The abstract mentions the use of suboptimal experts and reinforcement learning, which suggests that there may be datasets related to robotic manipulation tasks.
+
+Next, I will focus on the **experiments section** (section 6) where the authors describe their evaluations. I will look for any specific datasets mentioned in the context of the experiments. The authors discuss various manipulation tasks and environments, which may indicate the datasets used for training and evaluation.
+
+In the **appendices**, particularly in **Appendix A.1**, the authors provide details about the simulated environments used in their experiments. They describe several tasks, including:
+
+1. **Single Arm Stacking**: This environment features a 7 DOF arm controlled with a Cartesian velocity controller.
+2. **Bimanual Insertion**: This involves two 7 DOF arms and focuses on precision tasks.
+3. **Bimanual Cleanup**: This task involves using two arms to place objects in a trashcan.
+4. **Bimanual Shadow LEGO**: A complex task involving two Shadow Hands to assemble LEGO blocks.
+
+These tasks are implemented in the **MuJoCo simulator**, which is a well-known physics engine for robotic simulations. The environments themselves can be considered datasets in the context of reinforcement learning, as they provide the necessary scenarios for training and evaluation.
+
+Now, I will check the **References section** to find full citations for the datasets or environments mentioned. The paper references the **MuJoCo simulator** as follows:
+
+- For **MuJoCo**:
+  > E. Todorov, T. Erez, and Y. Tassa. *Mujoco: A physics engine for model-based control*. In Intelligent Robots and Systems (IROS), 2012 IEEE/RSJ International Conference on, pages 5026–5033. IEEE, 2012.
+
+Additionally, I will note that the specific environments (like Single Arm Stacking, Bimanual Insertion, etc.) are not standalone datasets with separate citations but are rather tasks created within the MuJoCo framework.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for the MuJoCo simulator and any relevant details about the environments used in the experiments. This will provide a comprehensive overview of the datasets utilized in the research paper.

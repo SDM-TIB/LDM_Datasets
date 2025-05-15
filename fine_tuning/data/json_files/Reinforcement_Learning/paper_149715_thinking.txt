@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Accelerating Federated Edge Learning via Topology Optimization" by Shanfeng Huang et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to see if any datasets are explicitly mentioned. In the abstract, the authors refer to applying their proposed scheme to **3D object detection with multi-vehicle point cloud datasets in the CARLA simulator**. This indicates that there is at least one dataset involved.
+
+Next, I will examine the **experiments section** to gather more details about the datasets used. The authors mention using the **CARLA simulator** to generate training and testing data samples for their experiments. They specify that they use the **"Town02" map** in CARLA to generate data from 28 vehicles, including 4 autonomous vehicles (AVs) that produce LiDAR point cloud data.
+
+In this section, the authors provide specific details about the dataset:
+- Each AV generates **600 frames of data**, with **100 frames used for training** and the remaining frames for testing.
+- The data generated from CARLA is described as being around **1.7 MB per frame**.
+
+Now, I will look for the **References section** to find the full citation for the CARLA dataset. The CARLA simulator is widely recognized in the field, and its citation is typically included in the references. 
+
+The citation for the CARLA dataset is:
+> Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2017). *CARLA: An open urban driving simulator*. In Proceedings of the 1st Annual Conference on Robot Learning (CoRL), 2017, pp. 1-16.
+
+Now that I have identified the dataset and its citation, I will compile this information into a structured format for clarity.
+
+1. **CARLA Dataset**: This dataset is generated using the CARLA simulator, specifically the "Town02" map, and is used for 3D object detection tasks in autonomous driving scenarios.
+
+Finally, I will ensure that the dataset entries are clearly documented with their respective citations for future reference or processing.

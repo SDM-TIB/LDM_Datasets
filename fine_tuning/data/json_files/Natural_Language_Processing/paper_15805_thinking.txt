@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Two Complementary Perspectives to Continual Learning: Ask Not Only What to Optimize, But Also How" by Timm Hess, Tinne Tuytelaars, and Gido M. van de Ven, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses continual learning and optimization strategies but does not explicitly mention datasets. Therefore, I will focus on the **introduction** and **experiments sections** for more detailed information.
+
+In the **introduction**, the authors mention challenges in continual learning but do not specify datasets. I will then check the **experiments section** (section 5) where they describe the benchmarks used for their experiments. Here, they mention using several datasets:
+
+1. **Split CIFAR-100**: This dataset is based on CIFAR-100, which contains 50,000 RGB images across 100 classes. The authors split these classes into ten tasks, each containing ten classes.
+
+2. **Split Mini-Imagenet**: This dataset is derived from Mini-Imagenet, which consists of 50,000 images across 100 classes, with classes divided into twenty tasks of five classes each.
+
+3. **Domain CIFAR**: This is another benchmark based on CIFAR-100, where the classes are divided across five tasks, each containing one member from each of the twenty super-classes.
+
+4. **Rotated MNIST**: This dataset consists of the MNIST dataset with static rotations applied to the images. The authors created three tasks with rotations of 0°, 80°, and 160°.
+
+Next, I will look at the **References section** to find the full citations for these datasets. The citations for the original datasets are as follows:
+
+- For **CIFAR-100**:
+  > Krizhevsky, A., Hinton, G., et al. (2009). *Learning multiple layers of features from tiny images*. Technical Report, University of Toronto, Canada.
+
+- For **Mini-Imagenet**:
+  > Vinyals, O., Blundell, C., Lillicrap, T., Wierstra, D., et al. (2016). *Matching networks for one shot learning*. Advances in Neural Information Processing Systems, 29.
+
+- For **MNIST**:
+  > LeCun, Y., Bottou, L., Bengio, Y., Haffner, P., et al. (1998). *Gradient-based learning applied to document recognition*. Proceedings of the IEEE, 86(11):2278–2324.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for clarity and future reference. Each dataset will be described with its name, a brief description, and the full citation.

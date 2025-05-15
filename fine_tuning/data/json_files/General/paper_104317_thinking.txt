@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Low Frequency Names Exhibit Bias and Overfitting in Contextualizing Language Models" by Robert Wolfe and Aylin Caliskan, I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and datasets section** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors use a dataset of U.S. first names labeled by gender and racial group, which suggests that this dataset is crucial to their analysis.
+
+Next, I will focus on **section 4 (Datasets)**, where the authors provide detailed descriptions of the datasets used in their research. Here, I will identify the specific datasets mentioned:
+
+1. **First Names Dataset**: The authors describe a dataset of first names that is cross-referenced with U.S. Social Security Administration (SSA) data. This dataset includes 3,757 names segmented by demographic group (gender and race). The authors cite Tzioumis (2018) as the source of this dataset.
+
+2. **Reddit Corpus**: The authors mention that they gather contexts from the Reddit corpus, specifically referencing Baumgartner et al. (2020). This dataset is used to obtain contextualized representations of the names.
+
+3. **Training Corpora**: The authors discuss the training corpora for the language models (BERT, GPT-2, T5, and XLNet). They mention that BERT was trained on the BookCorpus and English Wikipedia, while GPT-2 was trained on the WebText corpus, and T5 was trained on the Colossal Cleaned Crawled Corpus (C4). They provide details on how they approximated the name frequencies for these models.
+
+Now, I will look into the **References section** to retrieve full citations for each dataset:
+
+- For the **First Names Dataset** (Tzioumis, 2018), the citation is:
+  > Konstantinos Tzioumis. *Demographic aspects of first names*. Scientific data, 5(1):1–9, 2018.
+
+- For the **Reddit Corpus**, the citation is:
+  > Jason Baumgartner, Savvas Zannettou, Brian Keegan, Megan Squire, and Jeremy Blackburn. *The pushshift reddit dataset*. In Proceedings of the International AAAI Conference on Web and Social Media, volume 14, pages 830–839, 2020.
+
+- For the **BookCorpus**, the citation is:
+  > Zhilin Yang, Zihang Dai, Yiming Yang, Jaime Carbonell, Russ R Salakhutdinov, and Quoc V Le. *XLNet: Generalized autoregressive pretraining for language understanding*. In Advances in Neural Information Processing Systems, volume 32. Curran Associates, Inc., 2019.
+
+- For the **WebText corpus**, the citation is:
+  > Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever. *Language models are unsupervised multitask learners*. OpenAI blog, 1(8):9, 2019.
+
+- For the **C4 dataset**, the citation is:
+  > Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J. Liu. *Exploring the limits of transfer learning with a unified text-to-text transformer*. Journal of Machine Learning Research, 21(140):1–67, 2020.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited for future reference. This will facilitate a clear understanding of the datasets used in the research and their relevance to the findings presented in the paper.

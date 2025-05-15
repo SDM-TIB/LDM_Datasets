@@ -1,0 +1,37 @@
+To extract datasets from the research paper titled "Generating Sense Embeddings for Syntactic and Semantic Analogy for Portuguese" by Jéssica Rodrigues da Silva and Helena de Medeiros Caseli, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the generation of sense embeddings and mentions experiments conducted for Portuguese, which suggests that datasets are involved.
+
+Next, I will focus on **section 4 (Experiments and Results)**, where the authors describe the datasets used for their experiments. In **subsection 4.1 (Training Corpora)**, the authors list several corpora used for training sense vectors. They mention:
+
+1. **LX-Corpus**: A corpus of texts written in Brazilian Portuguese and European Portuguese, which includes a variety of genres.
+2. **Wikipedia**: A well-known corpus that is likely used for its extensive coverage of topics.
+3. **GoogleNews**: A corpus derived from news articles, providing a contemporary language context.
+4. **SubIMDB-PT**: A corpus of Portuguese subtitles from movies.
+5. **G1**: A corpus from a Brazilian news website.
+6. **PLN-Br**: A collection of literacy works in the public domain.
+7. **Lacio-web**: A corpus of Portuguese e-books.
+8. **Mundo Estranho**: A corpus from a Brazilian magazine.
+9. **CHC**: A corpus of educational materials.
+10. **FAPESP**: A corpus of texts related to educational projects.
+11. **Folhinha**: A corpus of children's literature.
+12. **NILC subcorpus**: A corpus from the National Institute of Language and Computation.
+13. **Para Seu Filho Ler**: A corpus of children's reading materials.
+14. **SARESP**: A corpus related to educational assessments.
+
+The total number of tokens across these corpora is reported as 1,395,926,282, with a variety of genres represented.
+
+Additionally, in **subsection 4.3 (Evaluation)**, the authors mention two specific datasets used for evaluating the performance of their models:
+
+1. **Syntactic and Semantic Analogies Dataset**: This dataset contains analogies in Brazilian (PT-BR) and European (PT-EU) Portuguese, categorized into syntactic and semantic analogies.
+2. **CSTNews Dataset**: This dataset contains 50 collections of journalistic documents in Brazilian Portuguese, annotated with meanings from WordNet.
+
+Now, I will look at the **References section** to find full citations for these datasets:
+
+- For **LX-Corpus**, the citation is:
+  > Rodrigues, J., Antônio, B., Steven, N., and João, S. (2016). LX-DSemVectors: Distributional Semantics Models for Portuguese. In Computational Processing of the Portuguese Language: 12th International Conference (PROPOR-2016). Springer International Publishing.
+
+- For **CSTNews Dataset**, the citation is:
+  > Cardoso, P. C. F., Maziero, E. G., Lúcia, M., Jorge, R. C., Felippo, A. D., Rino, L. H. M., das Graças, M., Nunes, V., Pardo, T. A. S., and Luis, R. W. (2011). CSTNews - A discourse-annotated corpus for single and multi-document summarization of news texts in Brazilian Portuguese.
+
+With these citations, I can now compile the dataset entries for structured output. This process ensures that I have accurately captured the datasets and their respective citations from the paper.

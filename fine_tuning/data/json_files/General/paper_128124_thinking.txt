@@ -1,0 +1,24 @@
+To extract the datasets mentioned in the research paper titled "SpellMapper: A non-autoregressive neural spellchecker for ASR customization with candidate retrieval based on n-gram mappings" by Alexandra Antonova et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract mentions that the proposed approach demonstrates improvements on three public datasets, which indicates that there are specific datasets to look for.
+
+Next, I will focus on **section 4.1 (Datasets)**, where the authors provide detailed information about the datasets used in their experiments. Here, I will find the following datasets:
+
+1. **Spoken Wikipedia**: This dataset is derived from a collection of spoken Wikipedia articles and is used for testing the spellchecking model. The authors mention that they perform sentence splitting, text normalization, and segmentation on this dataset.
+
+2. **SPGISpeech**: This dataset consists of transcribed financial audio and is used for evaluating the model's performance. The authors note that filler words are removed from the baseline transcriptions for this dataset.
+
+3. **UserLibri**: This dataset is used for ASR personalization and contains utterances grouped by user or document. The authors explain that only single custom words are extracted from this dataset.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **Spoken Wikipedia**, the citation is:
+  > T. Baumann, A. Köhn, and F. Hennig. "The Spoken Wikipedia corpus collection: Harvesting, alignment and an application to hyperlistening." *Language Resources and Evaluation*, vol. 53, pp. 303–329, 2019.
+
+- For **SPGISpeech**, the citation is:
+  > P. K. O’Neill, V. Lavrukhin, S. Majumdar, V. Noroozi, Y. Zhang, O. Kuchaiev, J. Balam, Y. Dovzhenko, K. Freyberg, M. D. Shulman, B. Ginsburg, S. Watanabe, and G. Kucsko. "SPGISpeech: 5,000 hours of transcribed financial audio for fully formatted end-to-end speech recognition." In *Interspeech*, 2021.
+
+- For **UserLibri**, the citation is:
+  > T. Breiner, S. Ramaswamy, E. Variani, S. Garg, R. Mathews, K. C. Sim, K. Gupta, M. Chen, and L. McConnaughey. "UserLibri: A dataset for ASR personalization using only text." In *Interspeech*, 2022.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will prepare to compile this information into a structured format for further processing or review.

@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "A Bias-Variance-Covariance Decomposition of Kernel Scores for Generative Models" by Sebastian G. Gruber and Florian Buettner, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract discusses the evaluation of their framework on various generative models, which suggests that datasets are likely involved.
+
+Next, I will focus on the **experiments section** (Section 5) where the authors typically describe the datasets used for their evaluations. In this section, they mention specific datasets for image generation, audio generation, and natural language generation tasks.
+
+1. **InfiMNIST Dataset**: This dataset is used for image generation experiments with conditional diffusion models. It is described as a synthetic dataset that generates uniquely perturbed MNIST images. The authors mention sampling 20 distinct training sets from InfiMNIST.
+
+2. **LJSpeech Dataset**: This dataset is utilized for audio generation experiments with the Glow-TTS model. It consists of 13,100 instances of text-speech pairs, where each speech is a recording of a woman reading corresponding text.
+
+3. **CoQA Dataset**: This dataset is used for evaluating the performance of their uncertainty estimation method in natural language generation tasks. It contains 7,983 test instances for conversational question answering.
+
+4. **TriviaQA Dataset**: Another dataset for natural language generation, it includes 17,943 test instances and is used to assess the performance of their proposed methods.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **InfiMNIST**, the citation is:
+  > Loosli, G., Canu, S., & Bottou, L. (2007). *Training invariant support vector machines using selective sampling*. In Large Scale Kernel Machines (pp. 301-320). MIT Press.
+
+- For **LJSpeech**, the citation is:
+  > Ito, K., & Johnson, L. (2017). *The LJSpeech dataset*. Retrieved from https://keithito.com/LJ-Speech-Dataset/.
+
+- For **CoQA**, the citation is:
+  > Reddy, S., Chen, D., & Manning, C. D. (2019). *CoQA: A conversational question answering challenge*. Transactions of the Association for Computational Linguistics, 7, 249-266.
+
+- For **TriviaQA**, the citation is:
+  > Joshi, M., Choi, E., Weld, D. S., & Zettlemoyer, L. (2017). *TriviaQA: A large scale distantly supervised challenge dataset for reading comprehension*. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (pp. 1601-1611).
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

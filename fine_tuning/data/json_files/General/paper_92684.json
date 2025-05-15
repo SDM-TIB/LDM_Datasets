@@ -1,0 +1,191 @@
+[
+    {
+        "dcterms:creator": [
+            "I. J. Goodfellow",
+            "D. Warde-Farley",
+            "M. Mirza",
+            "A. Courville",
+            "Y. Bengio"
+        ],
+        "dcterms:description": "A variant of the MNIST dataset where the pixel values are permuted for each task, creating a non-stationary input distribution while maintaining a constant output domain.",
+        "dcterms:title": "Permuted MNIST",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Continual Learning"
+        ],
+        "dcat:keyword": [
+            "MNIST",
+            "Permuted",
+            "Non-stationary",
+            "Input distribution"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "F. Zenke",
+            "B. Poole",
+            "S. Ganguli"
+        ],
+        "dcterms:description": "A variant of the MNIST dataset split into five binary classification tasks, where each task consists of two classes.",
+        "dcterms:title": "Split MNIST",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Continual Learning"
+        ],
+        "dcat:keyword": [
+            "MNIST",
+            "Binary Classification",
+            "Task Incremental Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Ritter",
+            "A. Botev",
+            "D. Barber"
+        ],
+        "dcterms:description": "A mixture of several vision datasets including MNIST, notMNIST, FashionMNIST, SVHN, and CIFAR-10, used for continual learning tasks.",
+        "dcterms:title": "Vision Datasets Mixture",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Continual Learning"
+        ],
+        "dcat:keyword": [
+            "Vision Datasets",
+            "Continual Learning",
+            "Image Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A variant of the Permuted MNIST dataset that introduces class imbalance, where training samples in each class are removed based on a random probability.",
+        "dcterms:title": "Imbalanced Permuted MNIST",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Continual Learning"
+        ],
+        "dcat:keyword": [
+            "Imbalanced Data",
+            "Permuted MNIST",
+            "Class Imbalance"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Xiao",
+            "K. Rasul",
+            "R. Vollgraf"
+        ],
+        "dcterms:description": "A dataset consisting of fashion items, designed as a drop-in replacement for the MNIST dataset for benchmarking machine learning algorithms.",
+        "dcterms:title": "FashionMNIST",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Benchmarking"
+        ],
+        "dcat:keyword": [
+            "Fashion",
+            "Image Dataset",
+            "Benchmarking"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Y. Netzer",
+            "T. Wang",
+            "A. Coates",
+            "A. Bissacco",
+            "B. Wu",
+            "A. Y. Ng"
+        ],
+        "dcterms:description": "A dataset containing images of house numbers from Google Street View, used for digit recognition tasks.",
+        "dcterms:title": "SVHN",
+        "dcterms:issued": "2011",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Digit Recognition"
+        ],
+        "dcat:keyword": [
+            "Street View",
+            "Digit Recognition",
+            "Image Dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Krizhevsky"
+        ],
+        "dcterms:description": "A dataset containing 60,000 32x32 color images in 10 classes, used for object recognition tasks.",
+        "dcterms:title": "CIFAR-10",
+        "dcterms:issued": "2009",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Object Recognition"
+        ],
+        "dcat:keyword": [
+            "CIFAR",
+            "Image Dataset",
+            "Object Recognition"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Classification"
+        ]
+    }
+]

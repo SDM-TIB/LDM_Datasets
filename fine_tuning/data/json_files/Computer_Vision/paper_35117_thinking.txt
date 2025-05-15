@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "q-Space Novelty Detection with Variational Autoencoders" by Aleksei Vasilev et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets mentioned. The abstract indicates that the methods are applied to **diffusion MRI scans of multiple sclerosis patients** and the **MNIST handwritten digits dataset**. This suggests that these two datasets are crucial for the experiments.
+
+Next, I will delve into the **experiments section** to gather more details about these datasets. In the experimental setup for **q-space novelty detection**, the authors specify that they used **26 diffusion MRI scans of healthy volunteers** as the normal dataset, which were split into training and validation sets. The test data consisted of **three multiple sclerosis patients' diffusion MRI scans**. This provides a clear understanding of the dataset used for the first experiment.
+
+For the **MNIST dataset**, the authors mention that they consider one of the handwritten digits as novel and train on the remaining ones. They specify that **80% of the normal data represents the training data**, while the test data consists of the remaining 20% of the normal data and all of the novel data. This indicates a structured approach to using the MNIST dataset for novelty detection.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The citations for the datasets are as follows:
+
+1. For the **diffusion MRI dataset**, the citation is:
+   > V. Golkov et al. *q-Space Deep Learning: Twelve-fold Shorter and Model-Free Diffusion MRI Scans*. IEEE Trans Med Imag, 35(5):1344-1351, 2016.
+
+2. For the **MNIST dataset**, the citation is:
+   > Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. *The MNIST Database of Handwritten Digits*. 1998.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+- **Diffusion MRI Dataset**: This dataset consists of diffusion MRI scans from healthy volunteers and multiple sclerosis patients, used for evaluating novelty detection methods.
+- **MNIST Dataset**: A well-known dataset of handwritten digits used for training and testing novelty detection algorithms.
+
+Finally, I will compile this information into a structured format that clearly presents each dataset along with its full citation, ensuring that all details are accurately captured for future reference or processing.

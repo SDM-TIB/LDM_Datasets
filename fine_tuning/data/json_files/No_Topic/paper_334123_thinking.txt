@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Energy Networks for State Estimation with Random Sensors Using Sparse Labels" by Yash Kumar and Souvik Chakraborty, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and it may mention specific datasets or problems addressed. The introduction often elaborates on the context and may reference datasets used in previous studies or the current research.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for their experiments. In this paper, the authors mention two specific problems: the **2D coupled Burgers’ equation** and the **Flow Past Cylinder** problem. I will look for detailed descriptions of the datasets associated with these problems, including parameters such as the number of data points, dimensions, and any specific characteristics.
+
+In the **experiments subsection**, I will find the following datasets:
+
+1. **2D Coupled Burgers’ Equation Dataset**: The authors describe the parameters used for generating this dataset, including the grid size (64x64), time step (0.005), and the number of training samples (800). The dataset is generated using the FeNICS computing platform.
+
+2. **Flow Past Cylinder Dataset**: This dataset is generated using Unsteady Reynolds-averaged Navier Stokes (URANS) simulation in OpenFoam. The parameters include a grid size of 64x64, a time step of 0.02, and a total of 63420 elements.
+
+After identifying these datasets, I will check the **References section** for full citations related to the datasets. The citations may not be explicitly stated for the datasets themselves, but I will look for the original papers or resources that describe the methodologies or datasets used.
+
+For the **2D Coupled Burgers’ Equation**, the relevant citation is:
+> Logg, A., Mardal, K.-A., & Wells, G. N. (2012). *Automated Solution of Differential Equations by the Finite Element Method*. Springer. doi:10.1007/978-3-642-23099-8.
+
+For the **Flow Past Cylinder**, the citation is:
+> Jasak, H. (2009). OpenFOAM: Open source CFD in research and industry. *International Journal of Naval Architecture and Ocean Engineering*, 1, 89-94.
+
+Now, I will compile the dataset entries with their full citations into a structured format for further processing or review.

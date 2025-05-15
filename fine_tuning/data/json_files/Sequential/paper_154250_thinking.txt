@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "A Case-Study on the Impact of Dynamic Time Warping in Time Series Regression" by Vivek Mahato and Pádraig Cunningham, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and the data sections** to identify any datasets mentioned. The abstract discusses the use of Dynamic Time Warping (DTW) on spectroscopy time-series data, which suggests that there may be a dataset related to this analysis.
+
+In the **introduction**, the authors mention the task of predicting the etch rate in silicon wafer production and refer to the data analyzed, which consists of time-series spectra across 2048 wavelengths. This indicates that the dataset is related to the production of silicon wafers and their etch rates.
+
+Next, I will focus on **section 2.1 (The Data)**, where the authors provide specific details about the dataset. They mention that they have data on the production of **1771 wafers**, with each wafer having an estimate of the average etch rate as the dependent variable. They also describe the full OES time-series data sampled across 2048 wavelengths, which contains about 57 ticks for each wavelength. Additionally, they note that they reduced the number of wavelengths considered to **38** based on domain expert consultation.
+
+Now, I will look for the **References section** to find the full citations for the datasets mentioned. The paper does not provide a specific citation for the dataset itself, as it appears to be original data collected by the authors. However, I can note the relevant references that provide context for the methods and data used:
+
+1. For the general context of plasma etching and its relation to the dataset, I will cite:
+   > Flamm, D.L., Donnelly, V.M. (1981). *The design of plasma etchants*. Plasma Chemistry and Plasma Processing, 1(4), 317–363.
+
+2. For the methodology related to time-series analysis and DTW, I will cite:
+   > Keogh, E.J., Pazzani, M.J. (2001). *Derivative dynamic time warping*. In Proceedings of the 2001 SIAM International Conference on Data Mining (pp. 1–11). SIAM.
+
+Since the dataset is original and not publicly available, I will note that the authors have not provided a formal citation for it. Instead, I will summarize the dataset details as follows:
+
+- **Dataset Name**: OES Time-Series Data for Silicon Wafer Production
+- **Description**: The dataset consists of time-series spectra from 1771 silicon wafers, with each wafer having an average etch rate as the dependent variable. The time-series data is sampled across 2048 wavelengths, with about 57 ticks per wavelength, reduced to 38 wavelengths based on expert consultation.
+
+Now, I will compile the dataset information and citations into a structured format for clarity and future reference. This will ensure that the datasets are properly documented and can be referenced in future work or analyses.

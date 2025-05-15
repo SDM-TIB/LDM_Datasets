@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Improved Noisy Student Training for Automatic Speech Recognition" by Daniel S. Park et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions the use of the **LibriSpeech** dataset, specifically the clean 100h subset as the supervised set and the remaining 860h as the unlabeled set. This indicates that there are at least two datasets involved.
+
+Next, I will look into the **experiments section** (section 3) to gather more details about the datasets used. In section 3.1, the authors explicitly state that they use the **LibriSpeech 100-860** task, which consists of the clean 100h subset of LibriSpeech as the labeled set and the remaining 860h as the unlabeled set. This confirms the datasets mentioned in the abstract.
+
+I will also check section 3.2, where the authors discuss the **LibriSpeech-LibriLight** task. Here, they mention using the entire **LibriSpeech** dataset as the labeled set and the **unlab-60k** subset of **LibriLight** as the unlabeled set. This provides additional datasets to document.
+
+Now, I will refer to the **References section** to find the full citations for each dataset mentioned:
+
+1. **LibriSpeech**:
+   > V. Panayotov, G. Chen, D. Povey, and S. Khudanpur. *LibriSpeech: An ASR corpus based on public domain audio books*. In Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2015.
+
+2. **LibriLight**:
+   > J. Kahn, M. Riviere, W. Zheng, E. Kharitonov, Q. Xu, P. Mazaré, J. Karadayi, V. Liptchinsky, R. Collobert, C. Fuegen, T. Likhomanenko, G. Synnaeve, A. Joulin, A. Mohamed, and E. Dupoux. *LibriLight: A benchmark for ASR with limited or no supervision*. In arXiv, 2019.
+
+With this information, I will summarize the datasets as follows:
+
+1. **LibriSpeech 100h**: This is the clean subset of the LibriSpeech dataset used as the labeled set for the semi-supervised task.
+2. **LibriSpeech 860h**: This is the remaining portion of the LibriSpeech dataset used as the unlabeled set.
+3. **LibriLight unlab-60k**: This is a subset of the LibriLight dataset used as the unlabeled set for the LibriSpeech 960h task.
+
+Finally, I will compile the dataset entries with their full citations, ensuring that I have accurately captured all relevant details for each dataset mentioned in the paper.

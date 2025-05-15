@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Biomedical Entity Linking with Contrastive Context Matching" by Shogo Ujiie et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** of the paper. The abstract mentions the introduction of a framework called BIOCOM and hints at the use of datasets for evaluating the model's performance. This suggests that datasets will be discussed in detail later in the paper.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors typically describe the datasets used for evaluation. In this section, they explicitly mention three datasets for the biomedical entity normalization task:
+
+1. **NCBI Disease Corpus (NCBID)**: This dataset consists of 793 PubMed titles and abstracts, with disease mentions manually annotated. The authors note that the dataset is divided into training, development, and test sets.
+
+2. **BioCreative V Chemical Disease Relation (BC5CDR)**: This dataset provides manually annotated disease and chemical entities, which are linked to the MEDIC dictionary. The authors clarify that they only used disease entities linked to concepts in MEDIC.
+
+3. **MedMentions**: This is a large-scale annotated resource that includes over 4,000 PubMed abstracts and more than 350,000 mentions linked to concepts in the Unified Medical Language System (UMLS). The authors filtered the entities to focus on those referring to diseases, resulting in a subset referred to as MedMentions-d.
+
+I will also check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **NCBI Disease Corpus (NCBID)**, the citation is:
+  > Rezarta Islamaj Do˘gan, Robert Leaman, and Zhiyong Lu. *NCBI disease corpus: a resource for disease name recognition and concept normalization*. J. Biomed. Inform., 47:1–10, 2014.
+
+- For **BioCreative V Chemical Disease Relation (BC5CDR)**, the citation is:
+  > Jiao Li, Yueping Sun, Robin J Johnson, Daniela Sciaky, Chih-Hsuan Wei, Robert Leaman, Allan Peter Davis, Carolyn J Mattingly, Thomas C Wiegers, and Zhiyong Lu. *BioCreative V CDR task corpus: a resource for chemical disease relation extraction*. Database, 2016:baw068.
+
+- For **MedMentions**, the citation is:
+  > Sunil Mohan and Donghui Li. *Medmentions: A large biomedical corpus annotated with umls concepts*. In Proc. of Automated Knowledge Base Construction (AKBC), 2018.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

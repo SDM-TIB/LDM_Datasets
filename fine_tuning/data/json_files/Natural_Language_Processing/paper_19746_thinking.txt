@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "PopALM: Popularity-Aligned Language Models for Social Media" by Erxin Yu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract and introduction** to identify any mentions of datasets. The abstract indicates that the authors built a large-scale Weibo dataset for trendy response prediction, which suggests that a dataset is indeed present.
+
+Next, I will examine the **experimental setup section** (Section 4) where the authors describe their dataset collection process. Here, they mention that they assembled a new dataset from Weibo, which includes approximately 70,000 posts and 24 million comments. This is a significant dataset for their experiments.
+
+In the same section, they specify that they created three subsets for model training and testing:
+1. **SFT dataset**: This subset consists of popular responses, where the top 10 comments for each post are selected as the gold responses.
+2. **RM dataset**: This dataset includes ranked responses, where the top 3 comments serve as trendy responses, paired with negative samples of less-liked responses.
+3. **RL dataset**: This dataset is used to train the reinforcement learning policy to generate responses.
+
+The authors provide statistics for these datasets, which further confirms their existence and relevance.
+
+Now, I will look for the **References section** to find full citations for the datasets mentioned. However, since the datasets are derived from Weibo and do not have formal citations like traditional datasets, I will note that the dataset is based on publicly available data from Weibo, and I will reference the paper itself for the dataset's details.
+
+The citation for the paper is:
+> Erxin Yu, Jing Li, Chunpu Xu. *PopALM: Popularity-Aligned Language Models for Social Media*. In Proceedings of the [Conference Name], [Year]. [Publisher/Organization].
+
+In summary, I will compile the dataset information as follows:
+1. **Weibo Dataset**: A large-scale dataset comprising approximately 70,000 posts and 24 million comments, used for trendy response prediction.
+   - Citation: Yu, E., Li, J., & Xu, C. (Year). PopALM: Popularity-Aligned Language Models for Social Media. [Conference Name].
+
+2. **SFT Dataset**: A subset of the Weibo dataset containing the top 10 comments for each post as gold responses.
+   - Citation: Same as above.
+
+3. **RM Dataset**: A subset of the Weibo dataset with the top 3 comments as trendy responses, paired with negative samples.
+   - Citation: Same as above.
+
+4. **RL Dataset**: A subset used to train the reinforcement learning policy for response generation.
+   - Citation: Same as above.
+
+After gathering all this information, I will prepare to format it according to the required structure for downstream processing.

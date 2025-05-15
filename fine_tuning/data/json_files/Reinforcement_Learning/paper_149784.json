@@ -1,0 +1,258 @@
+[
+    {
+        "dcterms:creator": [
+            "T. Salimans",
+            "J. Ho",
+            "X. Chen",
+            "S. Sidor",
+            "I. Sutskever"
+        ],
+        "dcterms:description": "OpenAI-ES is an evolutionary strategy that optimizes a population of policies using a Gaussian distribution over parameters, aiming to maximize the mean objective value through gradient estimation.",
+        "dcterms:title": "OpenAI-ES",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1703.03864",
+        "dcat:theme": [
+            "Evolutionary Algorithms",
+            "Reinforcement Learning"
+        ],
+        "dcat:keyword": [
+            "Evolutionary strategy",
+            "Natural evolution strategies",
+            "Policy optimization"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "J. Schulman",
+            "F. Wolski",
+            "P. Dhariwal",
+            "A. Radford",
+            "O. Klimov"
+        ],
+        "dcterms:description": "Proximal Policy Optimization (PPO) is an on-policy reinforcement learning algorithm that uses a surrogate objective to optimize policies while maintaining a trust region to prevent excessive updates.",
+        "dcterms:title": "Proximal Policy Optimization (PPO)",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1707.06347",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Policy Optimization"
+        ],
+        "dcat:keyword": [
+            "Actor-critic",
+            "On-policy learning",
+            "Surrogate objective"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "S. Fujimoto",
+            "H. Hoof",
+            "D. Meger"
+        ],
+        "dcterms:description": "T3D is an off-policy reinforcement learning algorithm that addresses function approximation errors in actor-critic methods, improving stability and performance.",
+        "dcterms:title": "T3D",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Actor-Critic Methods"
+        ],
+        "dcat:keyword": [
+            "Off-policy learning",
+            "Function approximation",
+            "Stability"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "T. Haarnoja",
+            "A. Zhou",
+            "P. Abbeel",
+            "S. Levine"
+        ],
+        "dcterms:description": "Soft Actor-Critic (SAC) is an off-policy maximum entropy deep reinforcement learning algorithm that utilizes a stochastic actor to optimize policies while balancing exploration and exploitation.",
+        "dcterms:title": "Soft Actor-Critic (SAC)",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Maximum Entropy"
+        ],
+        "dcat:keyword": [
+            "Stochastic policy",
+            "Off-policy learning",
+            "Entropy maximization"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "N. Hansen",
+            "A. Ostermeier"
+        ],
+        "dcterms:description": "CMA-ES is an evolutionary algorithm that adapts the covariance matrix of a multivariate normal distribution to optimize the search for solutions in continuous domains.",
+        "dcterms:title": "CMA-ES",
+        "dcterms:issued": "2001",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.1162/106365601750190398",
+        "dcat:theme": [
+            "Evolutionary Algorithms"
+        ],
+        "dcat:keyword": [
+            "Covariance matrix adaptation",
+            "Evolutionary strategy"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "J. Schulman",
+            "S. Levine",
+            "P. Abbeel",
+            "M. I. Jordan",
+            "P. Moritz"
+        ],
+        "dcterms:description": "TRPO is a reinforcement learning algorithm that optimizes policies while ensuring that updates do not deviate too far from the previous policy, maintaining a trust region.",
+        "dcterms:title": "TRPO",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Policy Optimization"
+        ],
+        "dcat:keyword": [
+            "Trust region",
+            "Policy optimization"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "E. Coumans",
+            "Y. Bai"
+        ],
+        "dcterms:description": "Pybullet is a Python module for physics simulation, providing a platform for robotics, games, and machine learning applications.",
+        "dcterms:title": "Pybullet",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://pybullet.org",
+        "dcat:theme": [
+            "Physics Simulation",
+            "Robotics"
+        ],
+        "dcat:keyword": [
+            "Physics engine",
+            "Simulation",
+            "Robotics"
+        ],
+        "dcat:landingPage": "http://pybullet.org",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Y. Duan",
+            "X. Chen",
+            "R. Houthooft",
+            "J. Schulman",
+            "P. Abbeel"
+        ],
+        "dcterms:description": "Bipedal Hardcore is a benchmark problem for deep reinforcement learning that involves training agents to walk in a challenging environment.",
+        "dcterms:title": "Bipedal Hardcore",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Benchmarking"
+        ],
+        "dcat:keyword": [
+            "Bipedal walking",
+            "Continuous control",
+            "Benchmark problem"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "D. Ha"
+        ],
+        "dcterms:description": "Slime Volley is a gym environment for reinforcement learning where two agents compete in a volleyball game, providing a platform for testing algorithms.",
+        "dcterms:title": "Slime Volley",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://github.com/hardmaru/slimevolleygym",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Game Environment"
+        ],
+        "dcat:keyword": [
+            "Volleyball",
+            "Competitive environment",
+            "Gym"
+        ],
+        "dcat:landingPage": "https://github.com/hardmaru/slimevolleygym",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "V. Mnih",
+            "K. Kavukcuoglu",
+            "D. Silver",
+            "A. A. Rusu",
+            "J. Veness",
+            "M. G. Bellemare",
+            "D. Hassabis"
+        ],
+        "dcterms:description": "Atari is a benchmark suite for reinforcement learning that includes a variety of Atari games, providing a platform for evaluating learning algorithms.",
+        "dcterms:title": "Atari",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Benchmarking"
+        ],
+        "dcat:keyword": [
+            "Atari games",
+            "Game environment",
+            "Reinforcement learning benchmark"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

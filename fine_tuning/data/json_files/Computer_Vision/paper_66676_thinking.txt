@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Point Cloud Pre-training with Diffusion Models" by Xiao Zheng et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract mentions that the proposed method achieves substantial improvement across various real-world datasets for downstream tasks, which indicates that datasets are likely discussed in detail later in the paper.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for evaluation. In this paper, the authors mention using **ShapeNet** for pre-training and evaluate their model on several downstream tasks using datasets like **ScanObjectNN**, **S3DIS**, and **ScanNet**.
+
+1. **ShapeNet**: This dataset is described as a synthetic 3D dataset containing 52,470 3D shapes across 55 object categories. It is used for pre-training the model.
+
+2. **ScanObjectNN**: This dataset is utilized for object classification tasks. It is divided into three subsets: OBJ-ONLY, OBJ-BG, and PB-T50-RS, which are used to evaluate the model's performance.
+
+3. **S3DIS**: The Stanford Large-Scale 3D Indoor Spaces dataset is used for semantic segmentation tasks. The authors report results specifically for Area 5 of this dataset.
+
+4. **ScanNet**: This dataset is mentioned in the context of object detection tasks, specifically the ScanNetV2 subset.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **ShapeNet**, the citation is:
+  > Angel X Chang, Thomas Funkhouser, Leonidas Guibas, Pat Hanrahan, Qixing Huang, Zimo Li, Silvio Savarese, Manolis Savva, Shuran Song, Hao Su, et al. *ShapeNet: An information-rich 3D model repository*. arXiv preprint arXiv:1512.03012, 2015.
+
+- For **ScanObjectNN**, the citation is:
+  > Mikaela Angelina Uy, Quang-Hieu Pham, Binh-Son Hua, Thanh Nguyen, and Sai-Kit Yeung. *Revisiting point cloud classification: A new benchmark dataset and classification model on real-world data*. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 1588–1597, 2019.
+
+- For **S3DIS**, the citation is:
+  > Iro Armeni, Ozan Sener, Amir R Zamir, Helen Jiang, Ioannis Brilakis, Martin Fischer, and Silvio Savarese. *3D semantic parsing of large-scale indoor spaces*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 1534–1543, 2016.
+
+- For **ScanNet**, the citation is:
+  > Angela Dai, Angel X Chang, Manolis Savva, Maciej Halber, Thomas Funkhouser, and Matthias Nießner. *ScanNet: Richly-annotated 3D reconstructions of indoor scenes*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 5828–5839, 2017.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

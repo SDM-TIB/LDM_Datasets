@@ -1,0 +1,201 @@
+[
+    {
+        "dcterms:creator": [
+            "Rozhin Yasaei",
+            "et al."
+        ],
+        "dcterms:description": "GNN4IP is a GNN-based IP piracy detection technique that evaluates the similarity between two circuits by converting them into a graph representation and using GCNs to obtain graph embeddings, which are passed through a fully connected layer that outputs a similarity score.",
+        "dcterms:title": "GNN4IP",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Hardware Security",
+            "IP Piracy Detection"
+        ],
+        "dcat:keyword": [
+            "Graph Neural Network",
+            "IP Piracy",
+            "Circuit Similarity"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "IP Piracy Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Hazem Lashen",
+            "et al."
+        ],
+        "dcterms:description": "TrojanSAINT is a GNN-based hardware Trojan localization technique that classifies each node in a circuit's graph representation as HT-free or HT-infested, helping to determine the location of hardware Trojans.",
+        "dcterms:title": "TrojanSAINT",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Hardware Security",
+            "Hardware Trojan Detection"
+        ],
+        "dcat:keyword": [
+            "Graph Neural Network",
+            "Hardware Trojan",
+            "Node Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Hardware Trojan Localization"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Lilas Alrahis",
+            "et al."
+        ],
+        "dcterms:description": "GNN-RE is a GNN-based technique for reverse engineering circuits that classifies gates into different modules/classes such as adders, multipliers, and control logic using graph representations.",
+        "dcterms:title": "GNN-RE",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Hardware Security",
+            "Reverse Engineering"
+        ],
+        "dcat:keyword": [
+            "Graph Neural Network",
+            "Reverse Engineering",
+            "Gate Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Reverse Engineering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Lilas Alrahis",
+            "et al."
+        ],
+        "dcterms:description": "OMLA is a GNN-based attack on hardware obfuscation that uses structural information around key-controlled gates to recover the correct key bits, thus breaking the security offered by the obfuscation.",
+        "dcterms:title": "OMLA",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Hardware Security",
+            "Hardware Obfuscation"
+        ],
+        "dcat:keyword": [
+            "Graph Neural Network",
+            "Obfuscation",
+            "Key Prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Breaking Hardware Obfuscation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Rozhin Yasaei",
+            "et al."
+        ],
+        "dcterms:description": "GNN4TJ is a GNN-based detection technique targeting hardware Trojans inserted in third-party IPs, converting circuits into graph representations and using GCNs to classify circuits as HT-infested or not.",
+        "dcterms:title": "GNN4TJ",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Hardware Security",
+            "Hardware Trojan Detection"
+        ],
+        "dcat:keyword": [
+            "Graph Neural Network",
+            "Hardware Trojan",
+            "Circuit Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Hardware Trojan Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Alan Mishchenko",
+            "et al."
+        ],
+        "dcterms:description": "ABC is a system for sequential synthesis and verification that provides various functionalities for circuit design and analysis.",
+        "dcterms:title": "ABC",
+        "dcterms:issued": "2007",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Circuit Design",
+            "Verification"
+        ],
+        "dcat:keyword": [
+            "Synthesis",
+            "Verification",
+            "Circuit Design"
+        ],
+        "dcat:landingPage": "https://people.eecs.berkeley.edu/~alanmi/abc/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "AICPS"
+        ],
+        "dcterms:description": "HW2VEC is a graph learning tool designed for automating hardware security tasks.",
+        "dcterms:title": "HW2VEC",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Hardware Security",
+            "Graph Learning"
+        ],
+        "dcat:keyword": [
+            "Graph Learning",
+            "Hardware Security",
+            "Automation"
+        ],
+        "dcat:landingPage": "https://github.com/AICPS/hw2vec",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Trust-Hub"
+        ],
+        "dcterms:description": "TrustHub is a repository of real-world circuits with various hardware Trojans that can be used for research and evaluation.",
+        "dcterms:title": "TrustHub",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Hardware Security",
+            "Trojan Detection"
+        ],
+        "dcat:keyword": [
+            "Hardware Trojans",
+            "Circuit Repository"
+        ],
+        "dcat:landingPage": "https://www.trust-hub.org/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Traffic data (flow, occupancy, speed) recorded using vehicle detector sensors (VDS) along the freeways and ramps. Raw data sampled at 30 second intervals are aggregated every 5 minutes. Flow data for one year (i.e., 104942 samples) from VDS 1114805 on California Interstate-05 NB in District 11 were used for training and testing of the models.",
+        "dcterms:title": "California Department of Transportation’s Performance Measurement System (PeMS)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic data",
+            "Flow data",
+            "Vehicle detector sensors"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Traffic prediction",
+            "Uncertainty quantification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Out-of-distribution dataset used for evaluating the performance of models. The dataset is characterized by traffic flow patterns that differ from the training dataset.",
+        "dcterms:title": "VDS 1114211",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic flow",
+            "Out-of-distribution dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Traffic prediction",
+            "Model generalization"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Out-of-distribution dataset used for evaluating the performance of models. The dataset is characterized by traffic flow patterns that differ from the training dataset.",
+        "dcterms:title": "VDS 1118170",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic flow",
+            "Out-of-distribution dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Traffic prediction",
+            "Model generalization"
+        ]
+    }
+]

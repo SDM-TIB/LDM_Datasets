@@ -1,0 +1,142 @@
+[
+    {
+        "dcterms:creator": [
+            "N. Yadati",
+            "M. Nimishakavi",
+            "P. Yadav",
+            "V. Nitin",
+            "A. Louis",
+            "P. Talukdar"
+        ],
+        "dcterms:description": "The Cora-co-authorship dataset contains publications which belong to the field of machine learning and each paper is written by several authors. We construct the hypernetwork with authors as nodes and co-author relations as hyperedges.",
+        "dcterms:title": "Cora-co-authorship",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Co-authorship Network"
+        ],
+        "dcat:keyword": [
+            "Publications",
+            "Authors",
+            "Co-authorship",
+            "Hypernetwork"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "N. Yadati",
+            "M. Nimishakavi",
+            "P. Yadav",
+            "V. Nitin",
+            "A. Louis",
+            "P. Talukdar"
+        ],
+        "dcterms:description": "The Citeseer dataset is also a citation network like Cora-co-authorship. We construct the corresponding hypernetwork in a way similar to Cora-co-authorship.",
+        "dcterms:title": "Citeseer",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Citation Network"
+        ],
+        "dcat:keyword": [
+            "Citations",
+            "Publications",
+            "Hypernetwork"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "A. R. Benson",
+            "R. Abebe",
+            "M. T. Schaub",
+            "A. Jadbabaie",
+            "J. Kleinberg"
+        ],
+        "dcterms:description": "The MAG dataset contains publications marked with the 'History' tag in the Microsoft Academic Graph. Since it also reflects the co-author relations between authors, the hypernetwork is constructed similar to the Cora-co-authorship and Citeseer datasets.",
+        "dcterms:title": "MAG",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Academic Publications",
+            "Co-authorship Network"
+        ],
+        "dcat:keyword": [
+            "Publications",
+            "Co-authorship",
+            "Hypernetwork"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "A. Sinha",
+            "Z. Shen",
+            "Y. Song",
+            "H. Ma",
+            "D. Eide",
+            "B.-J. P. Hsu",
+            "K. Wang"
+        ],
+        "dcterms:description": "The Pubmed dataset contains papers about diabetes. Nodes and edges in this dataset denote papers and the citation relation between papers, respectively. So, we construct a hypernetwork with articles as nodes and references in an article as hyperedges.",
+        "dcterms:title": "Pubmed",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical Research",
+            "Citation Network"
+        ],
+        "dcat:keyword": [
+            "Diabetes",
+            "Papers",
+            "Citations",
+            "Hypernetwork"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "A. R. Benson",
+            "R. Abebe",
+            "M. T. Schaub",
+            "A. Jadbabaie",
+            "J. Kleinberg"
+        ],
+        "dcterms:description": "The NDC dataset is a drug-substance hypernetwork with substances as nodes and co-existing relations in a drug as hyperedges. One drug is consisted of multiple substances and one substance can contribute multiple drugs.",
+        "dcterms:title": "NDC",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Pharmaceuticals",
+            "Drug Interaction"
+        ],
+        "dcat:keyword": [
+            "Drugs",
+            "Substances",
+            "Hypernetwork"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

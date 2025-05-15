@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Layerwise Proximal Replay: A Proximal Point Method for Online Continual Learning" by Jason Yoo et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract** and **introduction** sections to see if any datasets are mentioned. The abstract discusses the method's application in online continual learning but does not specify datasets. The introduction provides context about continual learning but does not name any datasets either.
+
+Next, I will examine the **experiments section** (section 4) closely, as this is typically where datasets are explicitly mentioned. In section 4.1, the authors describe their experimental setup and mention using the **Split-CIFAR100** and **Split-TinyImageNet** datasets for online class-incremental learning tasks. They also mention the **Online CLEAR** dataset for online domain-incremental learning tasks.
+
+I will now gather details about each dataset:
+
+1. **Split-CIFAR100**: This dataset is based on the original CIFAR-100 dataset, which contains 50,000 training images of size 32x32 across 100 classes. The authors mention that it is divided into a sequence of 20 tasks with mutually exclusive labels.
+
+2. **Split-TinyImageNet**: This dataset is derived from the TinyImageNet dataset, which contains 100,000 training images of size 64x64 across 200 classes. Similar to Split-CIFAR100, it is structured into tasks for continual learning.
+
+3. **Online CLEAR**: This dataset is based on the CLEAR benchmark, which contains 33,000 training images of size 224x224 across 11 classes. It is designed for domain-incremental learning with a smooth temporal evolution of visual concepts.
+
+Next, I will look into the **References section** to find the full citations for these datasets:
+
+- For **CIFAR-100**, the citation is:
+  > Krizhevsky, A., Hinton, G., et al. *Learning multiple layers of features from tiny images*. 2009.
+
+- For **TinyImageNet**, the citation is:
+  > Le, Y., & Yang, X. *Tiny ImageNet Visual Recognition Challenge*. CS 231N, 7(7):3, 2015.
+
+- For **CLEAR**, the citation is:
+  > Lin, Z., Shi, J., Pathak, D., & Ramanan, D. *The CLEAR benchmark: Continual learning on real-world imagery*. In Proceedings of the Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2), 2021.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for clarity and future reference.

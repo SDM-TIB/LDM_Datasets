@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "WIKI-EN-ASR-ADAPT: LARGE-SCALE SYNTHETIC DATASET FOR ENGLISH ASR CUSTOMIZATION" by Alexandra Antonova, I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will start by reading through the **abstract** and **introduction** sections. The abstract mentions the creation of a large-scale public synthetic dataset for contextual spellchecking customization of automatic speech recognition (ASR). This indicates that a dataset is indeed present, and I need to identify its name and details.
+
+Next, I will look for specific mentions of datasets in the **methodology** and **experiments** sections. In the methodology, the author describes the process of creating the dataset, which involves using Wikipedia titles and their parts as examples of target biasing phrases. This suggests that the dataset is derived from Wikipedia, but I need to confirm its official name and any additional details.
+
+In **section 4 (Description of the Released Dataset)**, the author provides a detailed overview of the dataset, which is referred to as the **Wiki-En-ASR-Adapt dataset**. The section outlines the components of the dataset, including:
+
+1. **Keys2Paragraph**: Contains 4.3 million unique words/phrases occurring in 33.8 million paragraphs.
+2. **Keys2Corruptions**: Comprises 24.7 million pairs in the corrupted phrase inventory, recognized by four different ASR models.
+3. **Keys2Related**: Contains 62.7 million pairs in the related phrase inventory.
+4. **FalsePositives**: Includes 449 thousand pairs in the false positive phrase inventory.
+
+The author also mentions that the dataset is published along with code that allows for the creation of training sets with desired properties for different customization task settings.
+
+Now, I will check the **References section** to find the full citation for the dataset. The paper does not provide a specific citation for the dataset itself, but it mentions that the dataset is available at a URL: https://huggingface.co/datasets/bene-ges/wiki-en-asr-adapt. This URL serves as the primary reference for accessing the dataset.
+
+Finally, I will compile the dataset information, ensuring that I include the dataset name, a brief description, and the citation (URL) in a structured format.
+
+The final entries for the dataset will be:
+
+- **Dataset Name**: Wiki-En-ASR-Adapt
+- **Description**: A large-scale synthetic dataset for contextual spellchecking customization of automatic speech recognition (ASR), focusing on rare and out-of-vocabulary phrases.
+- **Citation**: Available at: https://huggingface.co/datasets/bene-ges/wiki-en-asr-adapt
+
+With this information, I will be ready to present the dataset details in the required format for further processing or review.

@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Learning to Fold Real Garments with One Arm: A Case Study in Cloud-Based Robotics Research" by Ryan Hoque et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or referenced. The abstract mentions the development of algorithms for fabric manipulation and suggests that data collection was performed remotely, which indicates that datasets are likely involved.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for training and evaluation. I will look for any specific mentions of datasets, including their names, sizes, and characteristics. 
+
+In the **experiments section**, the authors discuss various algorithms and their performance metrics. They mention the collection of datasets for training, specifically noting the number of samples used for different algorithms. I will extract the relevant details about these datasets, including:
+
+1. **Human-labeled pick points dataset**: This dataset is collected through a graphical user interface (GUI) and is used for training the imitation learning model. The authors state that they collected a dataset of 108 human-labeled pick points on the T-shirt.
+
+2. **Keypoints dataset**: The authors mention a dataset with human-annotated keypoints for the collar, sleeves, and base corners of the shirt, which consists of 305 images initially collected with the RAND policy, followed by an additional 376 images collected to better represent the distribution of encountered states.
+
+3. **Random actions dataset**: This dataset consists of 4402 random actions collected by allowing the robot to run the RAND algorithm autonomously, which is used for training the inverse dynamics model.
+
+After identifying these datasets, I will refer to the **References section** to find full citations for any datasets that are based on previously published works. 
+
+For example, if the authors reference datasets like the YCB Object and Model set or RoboNet, I will ensure to include their full citations as follows:
+
+- For the **YCB Object and Model set**, the citation is:
+  > Calli, B., Walsman, A., Singh, A., Srinivasa, S., Abbeel, P., & Dollar, A. M. (2015). Benchmarking in manipulation research: Using the Yale-CMU-Berkeley object and model set. *IEEE Robotics & Automation Magazine*, 22(3), 36-52.
+
+- For **RoboNet**, the citation is:
+  > Dasari, S., Ebert, F., Tian, S., Nair, S., Bucher, B., Schmeckpeper, K., Singh, S., Levine, S., & Finn, C. (2019). RoboNet: Large-scale multi-robot learning. In *Conference on Robot Learning (CoRL)*.
+
+Finally, I will compile the dataset entries, ensuring that each entry includes the dataset name, a brief description, and the full citation. This structured approach will ensure that I accurately capture all relevant datasets from the paper while maintaining proper academic referencing.

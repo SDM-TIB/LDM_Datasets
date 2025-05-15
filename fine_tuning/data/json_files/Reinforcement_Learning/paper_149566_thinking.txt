@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Benchmarking of Deep Reinforcement Learning Algorithms for Vision-based Robotics" by Swagat Kumar, Hayden Sampson, and Ardhendu Behera, I will follow a systematic approach.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets or environments used in the study. The abstract indicates that the authors benchmark various reinforcement learning algorithms on two simulated vision-based robotics problems, which suggests that datasets or environments are involved.
+
+Next, I will focus on **section II (Problem Environments)**, where the authors describe the specific environments used for benchmarking. They mention two PyBullet simulation environments: 
+
+1. **KukaDiverseObjectEnv**: This environment involves a Kuka robotic arm that grasps different objects from a bin, providing rewards based on the successful grasping of objects.
+
+2. **RacecarZEDGymEnv**: This environment features a robotic car that must reach a target ball location, receiving continuous rewards based on its actions.
+
+In this section, the authors provide details about the nature of the observations (RGB images) and the action spaces (continuous), confirming that these environments are indeed the datasets used for their experiments.
+
+I will then check the **References section** to find full citations for these environments. The authors reference the PyBullet simulation framework, which is crucial for understanding the datasets used:
+
+- For **KukaDiverseObjectEnv** and **RacecarZEDGymEnv**, the citation is:
+  > PyBullet. Bullet real-time physics simulation. https://pybullet.org/wordpress/.
+
+Since the environments are part of the PyBullet framework, I will use this citation for both datasets.
+
+Now, I will compile the information into a structured format, ensuring that each dataset is clearly described and properly cited. This will include the names of the environments, their descriptions, and the citation for the PyBullet framework.
+
+Finally, I will prepare the dataset entries for review or further processing, ensuring that the citations are accurate and complete.

@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Continental-scale streamflow modeling of basins with reservoirs: towards a coherent deep-learning-based strategy" by Wenyu Ouyang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract indicates that the authors compiled a dataset of **3557 basins** across the contiguous United States, which suggests that this is a primary dataset used in their analysis.
+
+Next, I will look for specific sections that detail the datasets used. In the **Methods section**, particularly in **section 2.2 (Basin Datasets)**, the authors describe the compilation of the **3557-basin dataset** from the GAGES-II dataset. They mention that this dataset includes various attributes, forcings, and streamflow data, which is crucial for their modeling efforts.
+
+Additionally, in **section 2.4 (Experiments)**, the authors outline several subsets of the main dataset, including:
+
+1. **523-CAMELS dataset**: A subset of the CAMELS dataset that includes basins with minimal human disturbance.
+2. **Zero-dor dataset**: Basins without dams.
+3. **Small-dor dataset**: Basins with a degree of regulation (dor) between 0 and 0.1.
+4. **Large-dor dataset**: Basins with dor greater than or equal to 0.1.
+
+These subsets are essential for understanding the different modeling approaches taken in the study.
+
+Now, I will gather the full citations for these datasets from the **References section**:
+
+- For the **GAGES-II dataset**, the citation is:
+  > Falcone, J.A. (2011). GAGES-II: Geospatial Attributes of Gages for Evaluating Streamflow. Reston, VA. https://doi.org/10.3133/70046617
+
+- For the **CAMELS dataset**, the citation is:
+  > Addor, N., Newman, A.J., Mizukami, N., Clark, M.P. (2017). The CAMELS data set: catchment attributes and meteorology for large-sample studies. Hydrol. Earth Syst. Sci. 21, 5293–5313. https://doi.org/10.5194/hess-21-5293-2017
+
+- The **National Inventory of Dams (NID)** is referenced for dam-related data, and the citation is:
+  > US Army Corps of Engineers (2018). National inventory of dams. URL: https://nid.sec.usace.army.mil/
+
+After identifying these datasets and their citations, I will compile the information into a structured format for further processing or review. This systematic approach ensures that I capture all relevant datasets and their citations accurately.

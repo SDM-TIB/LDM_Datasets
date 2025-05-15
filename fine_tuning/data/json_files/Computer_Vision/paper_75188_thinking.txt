@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "The Mysterious Case of Neuron 1512: Injectable Realignment Architectures Reveal Internal Characteristics of Meta’s Llama 2 Model" by Brenden Smith et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract mentions the use of "multiple alignment datasets," which indicates that datasets are involved, but I need to find specific names and details.
+
+Next, I will focus on **section 3 (Methods)**, particularly **subsection 3.3 (Dataset Generation)**, where the authors describe the datasets they constructed. Here, they mention that they created three alignment datasets based on the SQuAD2.0 Stanford Question Answering Dataset. They specify that each dataset contains 60,000 question/answer pairs, categorized by emotional tone: neutral, angry, and sad.
+
+The datasets are as follows:
+
+1. **Angry Alignment Dataset**: This dataset consists of question/answer pairs where the answers are rephrased to reflect an angry tone.
+2. **Sad Alignment Dataset**: This dataset contains question/answer pairs with answers rephrased to convey sadness.
+3. **Neutral Alignment Dataset**: This dataset includes question/answer pairs where the answers are presented in a neutral tone.
+
+In the **results section**, the authors discuss the performance of the IRM on these datasets, confirming their use in the experiments.
+
+Now, I will check the **References section** to find the full citation for the SQuAD2.0 dataset, as it is the foundational dataset for the three alignment datasets created in this study. The citation for SQuAD2.0 is:
+
+- **SQuAD2.0 Stanford Question Answering Dataset**:
+  > Pranav Rajpurkar, Robin Jia, and Percy Liang. *Know what you don’t know: Unanswerable questions for squad*. arXiv preprint arXiv:1806.03822, 2018.
+
+Since the angry, sad, and neutral datasets are derived from SQuAD2.0, I will cite SQuAD2.0 as the authoritative source for these datasets.
+
+Finally, I will compile the dataset entries with their respective citations, ensuring that each dataset is clearly described and properly referenced.

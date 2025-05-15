@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Domain Adaptation for Ultrasound Beamforming" by Jaime Tierney et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract provides a brief overview of the study, and I will look for any explicit mentions of datasets or data sources.
+
+Next, I will focus on the **Methods section**, particularly the **Data Summary subsection**. Here, the authors describe the datasets used for training and testing their models. They mention two key datasets:
+
+1. **Simulated Anechoic Cyst Data**: This dataset is generated using the Field II simulation program to create channel data of anechoic cysts. The authors specify that they used 12 realizations of 5mm diameter cysts, with a total of 33,384 paired examples generated for training.
+
+2. **In Vivo Liver Data**: This dataset consists of ultrasound channel data acquired from a healthy male volunteer's liver. The authors indicate that they collected data from 15 different fields of view, using 6 of these for training, resulting in 33,384 unpaired examples.
+
+After identifying these datasets, I will check the **References section** to find the full citations for the sources of these datasets. The paper mentions the use of the Field II simulation program, which I will cite accordingly. However, the in vivo data does not have a specific citation since it was collected by the authors themselves.
+
+The citation for the **Field II simulation program** is:
+> Jensen, J.A. "Field: A program for simulating ultrasound systems." *Medical & Biological Engineering & Computing*, 34, 351-353 (1996).
+
+Now, I will compile the dataset entries, ensuring to include the full citation for the simulated data source and noting that the in vivo data is original to the study.
+
+Finally, I will prepare the dataset entries for structured output, ensuring clarity and completeness for any downstream processing or review.

@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "Neural Stochastic Block Model & Scalable Community-Based Graph Learning" by Zheng Chen et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract provides a brief overview of the paper's contributions and may mention specific datasets used for experiments. The introduction often elaborates on the context and significance of the research, which might include references to datasets.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments** section. In this paper, the authors discuss their experiments in detail, and it is likely that they will specify the datasets used for community detection, graph alignment, and anomaly detection tasks.
+
+Upon reviewing the **experiments section**, I find the following datasets mentioned:
+
+1. **Youtube Dataset**: This dataset contains a social network of users, where each community is a ground-truth group on Youtube. The authors note that only node adjacency is available for this dataset.
+
+2. **Amazon Co-Purchase Dataset**: This dataset provides product categories as ground-truth labels. It is a graph where an edge exists between two products if they are "also-bought" together at least three times.
+
+3. **Wikipedia Page-Link Dataset**: This dataset is a web graph of Wikipedia hyperlinks, where each node is associated with the title of the wiki page, and the page category serves as the ground-truth community label.
+
+4. **ArnetMiner-LinkedIn Dataset**: This dataset includes co-author relations and various attributes such as affiliation and research keywords.
+
+5. **Flickr-Last.fm Dataset**: This dataset consists of two social networks where the links represent friendships.
+
+6. **DBLP Dataset**: This dataset contains co-author networks with no additional attributes.
+
+7. **E-commerce Web Server Log Dataset**: This dataset consists of Apache log entries and visits from distinct IPs, used for anomaly detection.
+
+8. **Stock Price History Dataset**: This dataset includes daily price changes of U.S. stocks, also used for anomaly detection.
+
+After identifying these datasets, I will refer to the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+For example, the citation for the **Amazon Co-Purchase Dataset** is:
+> McAuley, J. and Leskovec, J. *Hidden factors and hidden topics: understanding rating dimensions with review text*. In Proceedings of the ACM Conference on Recommender Systems, 2013.
+
+Similarly, I will gather citations for the other datasets mentioned.
+
+Finally, I will compile the dataset information, including their names, descriptions, and full citations, into a structured format for easy reference and use in future research or applications.

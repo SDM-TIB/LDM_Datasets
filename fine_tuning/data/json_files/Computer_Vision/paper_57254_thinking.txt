@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Object Detection in Foggy Scenes by Embedding Depth and Reconstruction into Domain Adaptation" by Xin Yang et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors evaluate their method on multiple public datasets, which suggests that datasets will be discussed in detail later in the paper.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments** section. In this paper, the authors mention using the **Foggy Cityscapes dataset**, which is a synthetic dataset created from the Cityscapes dataset by simulating fog conditions. They also reference the **Cityscapes dataset** itself, which is a well-known dataset for urban scene understanding.
+
+In the **experiments section**, the authors provide details about the datasets used:
+1. **Cityscapes Dataset**: This dataset contains images of urban street scenes taken under clear weather conditions. It is used as the source domain for training.
+   - Citation: Cordts, M., Omran, M., Ramos, S., Rehfeld, T., Enzweiler, M., Benenson, R., Franke, U., Roth, S., Schiele, B. (2016). *The cityscapes dataset for semantic urban scene understanding*. In Proceedings of the IEEE conference on computer vision and pattern recognition, pp. 3213–3223.
+
+2. **Foggy Cityscapes Dataset**: This dataset is derived from the Cityscapes dataset by applying synthetic fog to the images. It is used as the target domain for testing.
+   - Citation: Sakaridis, C., Dai, D., Van Gool, L. (2018). *Semantic foggy scene understanding with synthetic data*. International Journal of Computer Vision, 126(9), 973–992.
+
+3. **STF (Seeing Through Fog) Dataset**: This dataset contains images categorized by different weather conditions, specifically focusing on foggy scenes.
+   - Citation: Bijelic, M., Gruber, T., Mannan, F., Kraus, F., Ritter, W., Dietmayer, K., Heide, F. (2020). *Seeing through fog without seeing fog: Deep multimodal sensor fusion in unseen adverse weather*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 11682–11692.
+
+4. **FoggyDriving Dataset**: This dataset consists of real-world foggy images used for evaluating the proposed method.
+   - Citation: Sakaridis, C., Dai, D., Van Gool, L. (2018). *Benchmarking single-image dehazing and beyond*. IEEE Transactions on Image Processing, 28(1), 492–505.
+
+5. **RTTS (Real-Time Traffic Surveillance) Dataset**: This dataset includes real-world images captured in foggy conditions, used for testing the model's performance.
+   - Citation: Li, B., Ren, W., Fu, D., Tao, D., Feng, D., Zeng, W., Wang, Z. (2018). *Benchmarking single-image dehazing and beyond*. IEEE Transactions on Image Processing, 28(1), 492–505.
+
+After identifying these datasets, I will ensure to compile their full citations accurately as they are crucial for proper referencing in any downstream applications or analyses.
+
+Finally, I will summarize the datasets and their citations in a structured format for easy reference.

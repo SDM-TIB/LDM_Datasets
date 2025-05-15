@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Risk-Averse Reinforcement Learning via Dynamic Time-Consistent Risk Measures" by Xian Yu and Siqian Shen, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and numerical studies sections** to identify any datasets mentioned. The abstract discusses the development of a risk-averse deep Q-learning framework and mentions numerical studies based on two simple MDPs, which suggests that datasets or environments are involved.
+
+Next, I will focus on the **numerical studies section** where the authors describe their experiments. They mention two specific environments used for testing their algorithms:
+
+1. **10-State MDP**: This is described as a simple MDP with ten states (s0 to s9) where actions lead to immediate rewards following specific distributions. The paper provides details about the reward distributions for actions taken in this MDP.
+
+2. **7-State Random Walk MDP**: This MDP consists of seven states (s0 to s6) with transitions that yield rewards only when reaching terminal states. The authors describe the structure of this MDP and the rewards associated with transitions.
+
+In the **conclusion section**, the authors summarize their findings but do not introduce new datasets. Therefore, I will focus on the details provided in the numerical studies section.
+
+Now, I will check the **References section** to find full citations for any datasets or environments mentioned. However, since the environments are custom MDPs created for the study, they may not have formal citations like publicly available datasets. Instead, I will note that these environments are based on standard MDP structures commonly used in reinforcement learning literature.
+
+For the **10-State MDP**, I will summarize it as follows:
+- **10-State MDP**: A custom MDP with ten states (s0 to s9) where action a0 generates rewards from a Normal distribution N(2.5, 42) and action a1 generates rewards from N(2, 0.12).
+
+For the **7-State Random Walk MDP**, I will summarize it as follows:
+- **7-State Random Walk MDP**: A custom MDP with seven states (s0 to s6) where rewards are only given for transitions into terminal states s0 and s6.
+
+Since these environments are not standard datasets with formal citations, I will note that they are based on established MDP frameworks in reinforcement learning.
+
+Finally, I will compile the dataset entries into a structured format for clarity and future reference.

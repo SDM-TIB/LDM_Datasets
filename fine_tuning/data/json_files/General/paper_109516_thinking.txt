@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "How does the pre-training objective affect what large language models learn about linguistic properties?" by Ahmed Alajrami and Nikolaos Aletras, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the study's focus, but I need to look for specific datasets used in the experiments.
+
+Next, I will examine the **experiments section** where the authors typically describe the datasets used for training and evaluation. In this paper, the authors mention that they pre-trained BERT models on the **BookCorpus** and **English Wikipedia**. These are significant datasets in the context of language model training.
+
+I will also check the **probing tasks section** to see if any additional datasets are referenced for evaluating the linguistic properties of the models. The authors mention using nine standard probing tasks, and they state that the datasets for these tasks contain 100k sentences for training, 10k for validation, and another 10k for testing. However, they do not specify the exact datasets used for these probing tasks, only that they are publicly available from Conneau and Kiela (2018).
+
+Now, I will look into the **References section** to find the full citations for the datasets mentioned:
+
+1. **BookCorpus**: The citation is:
+   > Zhu, Y., Kiros, R., Zemel, R., Salakhutdinov, R., Urtasun, R., Torralba, A., & Fidler, S. (2015). Aligning books and movies: Towards story-like visual explanations by watching movies and reading books. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 19–27.
+
+2. **English Wikipedia**: The citation is not explicitly provided in the paper, but it is generally recognized as a widely used dataset in NLP research. A common reference for Wikipedia datasets is:
+   > Wikipedia contributors. (2021). Wikipedia, The Free Encyclopedia. Retrieved from https://en.wikipedia.org/wiki/Main_Page
+
+3. **Probing Tasks Datasets**: The authors refer to datasets available from Conneau and Kiela (2018) for probing tasks. The citation is:
+   > Conneau, A., & Kiela, D. (2018). Senteval: An evaluation toolkit for universal sentence representations. arXiv preprint arXiv:1803.05449.
+
+After gathering this information, I will compile the dataset entries with their full citations, ensuring that each dataset is clearly described and attributed correctly.

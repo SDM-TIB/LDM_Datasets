@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Investigating grammatical abstraction in language models using few-shot learning of novel noun gender" by Priyanka Sukumaran et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to find any references to datasets. The abstract mentions a noun learning experiment, which suggests that there may be datasets involved in the experiments.
+
+Next, I will focus on the **methodology section** where the authors describe their experimental setup. In this section, they detail the training data used for the LSTM and transformer models. They specifically mention that the models were trained on **French Wikipedia data**, which is a significant dataset for their experiments.
+
+I will also look for any other datasets mentioned in the **results or discussion sections**. The authors discuss the performance of their models on various tasks, but they primarily refer back to the training data rather than introducing new datasets.
+
+Now, I will compile the relevant datasets and their citations:
+
+1. **French Wikipedia Dataset**: This dataset was used for training the LSTM and transformer models. The authors describe it as containing 80 million word tokens for training and 10 million tokens each for validation and testing, extracted from French Wikipedia sources.
+   - Citation: 
+     > Mueller, A., Nicolai, G., Petrou-Zeniou, P., Talmina, N., & Linzen, T. (2020). Cross-Linguistic Syntactic Evaluation of Word Prediction Models. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 5523–5539.
+
+2. **Novel Noun Combinations**: The authors created novel noun embeddings by combining existing feminine and masculine nouns to test the models. They provide a list of feminine and masculine nouns used to create these novel nouns.
+   - Citation: 
+     > Seigneuric, A., Zagar, D., Meunier, F., & Spinelli, E. (2007). The relation between language and cognition in 3- to 9-year-olds: The acquisition of grammatical gender in French. Journal of Experimental Child Psychology, 96(3).
+
+3. **Human Behavioral Experiment Dataset**: The authors conducted a one-shot word learning experiment with 25 native French speakers to compare model performance with human behavior. This dataset includes responses from participants regarding their predictions of grammatical gender.
+   - Citation: 
+     > Sukumaran, P., Houghton, C., & Kazanina, N. (2022). Do LSTMs See Gender? Probing the Ability of LSTMs to Learn Abstract Syntactic Rules. ArXiv Preprint.
+
+After identifying these datasets, I will ensure that I have the correct citations for each dataset, as they are crucial for proper attribution in any further analysis or application of this research. Finally, I will summarize the findings in a structured format for easy reference.

@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Deep RL with Information Constrained Policies: Generalization in Continuous Control" by Tyler Malloy et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methods sections** to see if any datasets are mentioned. The abstract discusses the implementation of a novel algorithm and its evaluation on continuous control tasks, which suggests that datasets may be involved, but I need to look for specific names.
+
+Next, I will focus on the **experiments section** (section 5) where the authors describe the environments used for testing their algorithm. In this section, they mention two specific environments:
+
+1. **Continuous N-Chain Environment**: This environment consists of N states where agents start in the S1 state and aim to reach the terminal state SN. The agents act by selecting continuous values from [0,1], and the probability of moving to the next state is influenced by hidden values sampled from a Beta distribution.
+
+2. **Robot Control Environments**: This section describes the use of more complex environments, specifically the **Inverted Double Pendulum** and **Ant Walker** tasks, which are implemented in the PyBullet physics simulation environment.
+
+Now, I will check the **References section** to find the full citations for the datasets or environments mentioned. However, since these environments are not traditional datasets with authors and publication details, I will note them as environments used in the experiments rather than datasets with formal citations.
+
+For the **Continuous N-Chain Environment**, the reference is:
+- Strens, M. A Bayesian framework for reinforcement learning. In ICML, volume 2000, pp. 943–950, 2000.
+
+For the **Robot Control Environments**, the reference is:
+- Coumans, E. and Bai, Y. Pybullet, a python module for physics simulation for games, robotics and machine learning. http://pybullet.org, 2016.
+
+Now, I will compile the information about the environments into a structured format, ensuring to include the full citations for each environment as required.
+
+After completing this process, I will have a clear and organized representation of the datasets/environments used in the paper, ready for further analysis or processing.

@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Vid2CAD: CAD Model Alignment using Multi-View Constraints from Videos" by Kevis-Kokitsi Maninis et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions the use of the **Scan2CAD dataset**, which indicates that there is at least one dataset involved in the research.
+
+Next, I will focus on the **experiments section** (Section 4), where the authors typically describe the datasets used for training and evaluation. In this section, they explicitly mention:
+
+1. **ScanNet**: This dataset is described as providing RGB-D videos of rich indoor scenes with multiple objects in complex spatial arrangements. It also includes camera parameters for individual frames and dense depth fusion reconstructions.
+
+2. **ShapeNetCore**: This dataset is noted for providing CAD models for 55 object classes, which are used in conjunction with the ScanNet dataset.
+
+3. **Scan2CAD**: This dataset is mentioned as providing manual 9 DoF alignments of ShapeNetCore models onto ScanNet scenes for 9 super-classes.
+
+I will also check the **References section** to find the full citations for these datasets:
+
+- For **ScanNet**, the citation is:
+  > A. Dai, A. X. Chang, M. Savva, M. Halber, T. Funkhouser, and M. Nießner. *ScanNet: Richly-annotated 3D reconstructions of indoor scenes*. In CVPR, 2017.
+
+- For **ShapeNetCore**, the citation is:
+  > A. X. Chang, T. Funkhouser, L. Guibas, P. Hanrahan, Q. Huang, Z. Li, S. Savarese, M. Savva, S. Song, H. Su, et al. *ShapeNet: An information-rich 3D model repository*. arXiv:1512.03012, 2015.
+
+- For **Scan2CAD**, the citation is:
+  > A. Avetisyan, M. Dahnert, A. Dai, M. Savva, A. X. Chang, and M. Nießner. *Scan2CAD: Learning CAD model alignment in RGB-D scans*. In CVPR, 2019.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

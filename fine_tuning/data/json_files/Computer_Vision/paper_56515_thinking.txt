@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "ERNIE-ViLG 2.0: Improving Text-to-Image Diffusion Model with Knowledge-Enhanced Mixture-of-Denoising-Experts" by Zhida Feng et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the model achieves a new state-of-the-art on **MS-COCO**, which indicates that this dataset is likely used in their experiments.
+
+Next, I will examine **section 3 (Experiments)**, where the authors discuss the implementation details and evaluation metrics. Here, they explicitly state that the training data consists of **170M image-text pairs**, including publicly available datasets like **LAION** and internal Chinese datasets. This suggests that both **LAION** and the internal datasets are relevant.
+
+I will also look for any specific mentions of datasets in the **References section** to ensure I can provide full citations for each dataset. 
+
+1. **MS-COCO**: This dataset is widely known and used for image captioning and object detection tasks. The citation for MS-COCO is:
+   > Tsung-Yi Lin, Michael Ma, Sergio Guadarrama, and Piotr Dollár. *Microsoft COCO: Common Objects in Context*. In European Conference on Computer Vision (ECCV), 2014.
+
+2. **LAION**: The authors mention using LAION as part of their training data. The citation for LAION is:
+   > Christoph Schuhmann, Richard Vencu, Romain Beaumont, Robert Kaczmarczyk, Clayton Mullis, Aarush Katta, Theo Coombes, Jenia Jitsev, and Aran Komatsuzaki. *LAION-400M: Open Dataset of CLIP-filtered 400 Million Image-Text Pairs*. CoRR, abs/2111.02114, 2021.
+
+3. **Internal Chinese datasets**: The paper does not provide a specific citation for these datasets, as they are proprietary to the authors' organization (Baidu Inc.). Therefore, I will note that these datasets are internal and not publicly available.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for MS-COCO and LAION, while noting the internal datasets as proprietary.
+
+Finally, I will prepare the dataset entries for structured output, ensuring that all necessary details are included for future reference or processing.

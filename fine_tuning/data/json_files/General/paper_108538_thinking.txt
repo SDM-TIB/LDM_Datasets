@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "Non-Deterministic Face Mask Removal Based on 3D Priors" by Xiangnan Yin, Liming Chen, and Di Huang, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses a novel image inpainting framework for face mask removal, but it does not explicitly mention any datasets. Therefore, I will need to look deeper into the paper.
+
+In the **introduction**, the authors highlight the need for large, diverse, and manually annotated mask datasets due to the varying shapes, orientations, and textures of masks. This indicates that datasets are crucial for their research, but specific names are not provided yet.
+
+Next, I will focus on **section 4 (Experiments)**, particularly **subsection 4.1 (Training Details)**, where the authors describe their training process. Here, they mention that they manually keyed out 900 masks from masked face images and collected 800 texture patches. They also state that they used the **CelebAMask-HQ** and **FFHQ** datasets to generate training pairs. This is a significant finding as it provides specific dataset names.
+
+Now, I will look for the **References section** to find the full citations for these datasets:
+
+1. **CelebAMask-HQ**: The citation is:
+   > Cheng-Han Lee, Ziwei Liu, Lingyun Wu, and Ping Luo. *Maskgan: Towards diverse and interactive facial image manipulation*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2020, pp. 5549–5558.
+
+2. **FFHQ (Flickr-Faces-HQ)**: The citation is:
+   > Tero Karras, Timo Aila, Samuli Laine, and Jaakko Lehtinen. *Progressive growing of gans for improved quality, stability, and variation*. arXiv preprint arXiv:1710.10196, 2017.
+
+With these citations, I have successfully identified and documented the datasets used in the research paper. I will now compile this information into a structured format for further processing.

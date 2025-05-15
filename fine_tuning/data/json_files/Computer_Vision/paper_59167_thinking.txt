@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Patched Diffusion Models for Unsupervised Anomaly Detection in Brain MRI" by Finn Behrendt et al., I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** to identify any datasets mentioned. The abstract indicates that the authors evaluate their method on data of tumors and multiple sclerosis lesions, which suggests that datasets are involved.
+
+Next, I will examine the **introduction** section for any explicit mentions of datasets. Here, the authors discuss the challenges of supervised learning in medical imaging and hint at the use of healthy samples for training, but I need to find specific dataset names.
+
+Moving on to **section 4.1 (Data)**, the authors provide detailed information about the datasets used in their experiments. They mention:
+
+1. **IXI Dataset**: This dataset consists of 560 pairs of T1 and T2-weighted brain MRI scans acquired from three different hospital sites. It is used as the healthy reference distribution for training.
+
+2. **BraTS21 Dataset**: This dataset includes 1251 brain MRI scans of four different weightings (T1, T1-CE, T2, FLAIR) and is used for evaluation. The authors specify that they split this dataset into an unhealthy validation set of 100 samples and an unhealthy test set of 1151 samples.
+
+3. **MSLUB Dataset**: This dataset consists of brain MRI scans from 30 patients with multiple sclerosis, including T1, T2, and FLAIR-weighted scans. The authors mention that they split this dataset into an unhealthy validation set of 10 samples and an unhealthy test set of 20 samples.
+
+In the **References section**, I will look for full citations for these datasets:
+
+- For the **IXI Dataset**, the citation is:
+  > IXI Dataset. *IXI Dataset: A dataset of brain MRI scans*. Available at: http://brain-development.org/ixi-dataset.
+
+- For the **BraTS21 Dataset**, the citation is:
+  > Ujjwal Baid, Satyam Ghodasara, Suyash Mohan, Michel Bilello, Evan Calabrese, Errol Colak, Keyvan Farahani, Jayashree Kalpathy-Cramer, Felipe C Kitamura, Sarthak Pati, et al. *The rsna-asnr-miccai brats 2021 benchmark on brain tumor segmentation and radiogenomic classification*. arXiv preprint arXiv:2107.02314, 2021.
+
+- For the **MSLUB Dataset**, the citation is:
+  > Ziga Lesjak, Alfiia Galimzianova, Ales Koren, Matej Lukin, Franjo Pernus, Bostjan Likar, and Ziga Spiclin. *A novel public MR image dataset of multiple sclerosis patients with lesion segmentations based on multi-rater consensus*. Neuroinformatics, 16(1):51–63, 2018.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

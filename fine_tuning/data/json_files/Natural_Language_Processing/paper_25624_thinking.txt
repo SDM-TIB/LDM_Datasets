@@ -1,0 +1,19 @@
+To extract the datasets mentioned in the research paper titled "PolyR-CNN: R-CNN for end-to-end polygonal building outline extraction" by Weiqin Jiao et al., I will follow a systematic approach to ensure I capture all relevant details, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper. The abstract mentions that the authors conducted experiments on the **CrowdAI dataset** and the **Inria dataset**, indicating that these are the datasets used for their evaluations.
+
+Next, I will focus on **section 3 (Experimental settings and dataset)**, where the authors provide detailed descriptions of the datasets used:
+
+1. **CrowdAI Dataset**: This dataset contains 280,741 images for training and 60,317 images for testing, with each image sized at 300×300 pixels. The annotations are in MS-COCO format. This dataset is used to evaluate the performance of the proposed method.
+
+2. **Inria Dataset**: This dataset consists of 360 aerial images, each measuring 5000×5000 pixels, sourced from 10 different cities. The authors note that this dataset is more complex than the CrowdAI dataset, containing buildings with internal holes and multiple polygons per building. The original annotations were rasterized binary masks, which were converted to vector format using the Douglas-Peucker method.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **CrowdAI dataset**, the citation is:
+  > Mohanty, S. P., Czakon, J., Kaczmarek, K. A., Pyskir, A., Tarasiewicz, P., Kunwar, S., Rohrbach, J., Luo, D., Prasad, M., Fleer, S., et al. (2020). Deep learning for understanding satellite imagery: An experimental survey. *Frontiers in Artificial Intelligence*, 3.
+
+- For the **Inria dataset**, the citation is:
+  > Maggiori, E., Tarabalka, Y., Charpiat, G., & Alliez, P. (2017). Can semantic labeling methods generalize to any city? The Inria aerial image labeling benchmark. In *2017 IEEE International Geoscience and Remote Sensing Symposium (IGARSS)* (pp. 3226-3229). IEEE.
+
+With these citations in hand, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will allow for a clear and comprehensive understanding of the datasets used in the research.

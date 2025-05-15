@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "MNISQ: A Large-Scale Quantum Circuit Dataset for Machine Learning on/for Quantum Computers in the NISQ era" by Leonardo Placidi et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and dataset construction sections** to identify any datasets mentioned. The abstract indicates that the MNISQ dataset consists of 4,950,000 data points organized in 9 subdatasets, which suggests that there are multiple datasets to extract.
+
+Next, I will focus on **section 3 (MNISQ Dataset: Construction and Characteristics)**, where the authors describe the dataset in detail. They mention that the MNISQ dataset is generated using the AQCE method and includes three main datasets: **MNIST**, **Fashion-MNIST**, and **Kuzushiji-MNIST**. Each of these datasets is augmented to create a larger dataset for training.
+
+The paper specifies that for each of these datasets, there are:
+- **60,000 training samples** and **10,000 test samples** for the original datasets.
+- An augmented version that includes **480,000 training samples** for each dataset.
+
+I will also note that the datasets are provided in two forms: quantum circuits and classical descriptions in QASM format. This dual representation is crucial for both quantum and classical machine learning applications.
+
+Now, I will look for the **References section** to find the full citations for the datasets mentioned. The citations for the original datasets are as follows:
+
+1. **MNIST Dataset**:
+   > Yann LeCun and Corinna Cortes. *The MNIST Database of Handwritten Digits*. 2005.
+
+2. **Fashion-MNIST Dataset**:
+   > Han Xiao, Kashif Rasul, and Roland Vollgraf. *Fashion-MNIST: A Novel Image Dataset for Benchmarking Machine Learning Algorithms*. 2017.
+
+3. **Kuzushiji-MNIST Dataset**:
+   > Tarin Clanuwat et al. *Deep Learning for Classical Japanese Literature*. arXiv preprint arXiv:1812.01718, 2018.
+
+With these citations, I can now summarize the datasets extracted from the paper:
+
+1. **MNIST Dataset**: Contains 60,000 training samples and 10,000 test samples, augmented to 480,000 training samples.
+   - Citation: Yann LeCun and Corinna Cortes. *The MNIST Database of Handwritten Digits*. 2005.
+
+2. **Fashion-MNIST Dataset**: Contains 60,000 training samples and 10,000 test samples, augmented to 480,000 training samples.
+   - Citation: Han Xiao, Kashif Rasul, and Roland Vollgraf. *Fashion-MNIST: A Novel Image Dataset for Benchmarking Machine Learning Algorithms*. 2017.
+
+3. **Kuzushiji-MNIST Dataset**: Contains 60,000 training samples and 10,000 test samples, augmented to 480,000 training samples.
+   - Citation: Tarin Clanuwat et al. *Deep Learning for Classical Japanese Literature*. arXiv preprint arXiv:1812.01718, 2018.
+
+Finally, I will compile this information into a structured format for further processing or review.

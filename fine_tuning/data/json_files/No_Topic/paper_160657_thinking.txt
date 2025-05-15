@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Evolved Policy Gradients" by Rein Houthooft et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract provides a brief overview of the research and may mention any datasets used for evaluation. The introduction often elaborates on the context and significance of the datasets in relation to the research objectives.
+
+Next, I will focus on the **experiments section**, as this is where the authors typically describe the datasets used for their experiments in detail. I will look for specific mentions of datasets, including their names, characteristics, and any relevant statistics (e.g., number of samples, types of tasks, etc.).
+
+In this paper, the authors mention several environments used for testing their method, such as:
+
+1. **RandomHopper**: A randomized environment with variations in gravity, friction, body mass, and link thickness. The reward function is based on forward velocity.
+
+2. **RandomWalker**: Similar to RandomHopper, this environment also features randomization in physical parameters.
+
+3. **RandomReacher**: This environment involves randomized link lengths, with the reward being the negative distance to a target.
+
+4. **DirectionalHopper**: An environment where the agent must learn to hop in either forward or backward directions based on randomized rewards.
+
+5. **GoalAnt**: An ant environment with a randomized target location and initial rotation, where the velocity to the target is used as a reward.
+
+6. **Fetch**: This environment has a randomized target location, with the reward function being the negative distance to the target.
+
+After identifying these datasets, I will check the **References section** of the paper to find full citations for any datasets that are based on previously published works. If the datasets are original to this research, I will note that as well.
+
+For example, if the authors refer to the environments as being based on existing frameworks or benchmarks, I will ensure to cite those foundational works. If they are novel environments created for this study, I will document them accordingly.
+
+Finally, I will compile the information into a structured format that includes the dataset names, descriptions, and citations, ensuring that each entry is clear and informative for future reference or analysis.

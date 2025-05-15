@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Improving Tokenisation by Alternative Treatment of Spaces" by Edward Gow-Smith et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the research focus, and the introduction often outlines the context and significance of the datasets used.
+
+Next, I will specifically look for sections that explicitly mention datasets, such as **section 4 (Intrinsic Evaluation)**, where the authors discuss their evaluation methods. Here, they mention four datasets used for evaluating their modified tokenization algorithms:
+
+1. **LADEC Dataset**: This dataset consists of 7,804 noun compounds with unique morphological parses. The authors exclude those with multiple parses.
+
+2. **MorphoLex Dataset**: This dataset provides derivational morphology for 68,624 entries from the English Lexicon Project, focusing on those with a concatenative parse, resulting in 12,028 entries.
+
+3. **MorphyNet Dataset**: This dataset includes derivational and inflectional morphology for words across 15 languages, with 193,945 entries in English that have a concatenative parse.
+
+4. **DagoBERT Dataset**: This dataset comprises 279,443 words containing low-frequency derivatives sourced from Reddit posts, with 268,513 entries that have a concatenative parse.
+
+After identifying these datasets, I will check the **References section** of the paper to find the full citations for each dataset. This is crucial for proper attribution and to allow others to access the datasets.
+
+The citations I will extract are:
+
+- For **LADEC Dataset**:
+  > Gagné, C. L., Spalding, T. L., & Schmidtke, D. (2019). LADEC: The large database of English compounds. *Behavior Research Methods*, 51(5), 2152–2179.
+
+- For **MorphoLex Dataset**:
+  > Sánchez-Gutiérrez, C. L., Mailhot, H., Deacon, S. H., & Wilson, M. A. (2018). MorphoLex: A derivational morphological database for 70,000 English words. *Behavior Research Methods*, 50(4), 1568–1580.
+
+- For **MorphyNet Dataset**:
+  > Batsuren, K., Bella, G., & Giunchiglia, F. (2021). Morphynet: A large multilingual database of derivational and inflectional morphology. In *Proceedings of the 18th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology*, 39–48.
+
+- For **DagoBERT Dataset**:
+  > Hofmann, V., Pierrehumbert, J., & Schütze, H. (2020). DagoBERT: Generating derivational morphology with a pretrained language model. *arXiv preprint arXiv:2005.00672*.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for easy reference and further processing. This ensures that I have accurately captured the datasets used in the research and their respective citations for future use.

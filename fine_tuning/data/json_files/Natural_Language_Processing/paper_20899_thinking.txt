@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Self-Supervised Image Retrieval with Open-Ended Instructions" by Kai Zhang et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions that the authors trained their models on **36.7M (query image, instruction, target image) triplets** mined from the web. This indicates a large dataset, but I need to find more specific details about the datasets used.
+
+Next, I will look into the **methodology** section, particularly the **data construction** part, which is likely to provide insights into how the datasets were created and what specific datasets were utilized. The authors describe a systematic data construction pipeline that involves mining image pairs from web pages and generating instructions using large multimodal models (LMMs) and large language models (LLMs). 
+
+In the **experiments** section, I will check for any mentions of specific datasets used for evaluation. The authors refer to several benchmarks, including **CIRCO**, **GeneCIS**, and **DTIN**, which are likely datasets used for testing their model's performance.
+
+I will also consult the **references** section to find full citations for these datasets. The paper cites various works that may provide the original sources or descriptions of the datasets used. 
+
+Based on the information gathered, I will compile the following datasets:
+
+1. **Training Dataset**: The authors constructed a dataset of **36.7 million triplets** (query image, instruction, target image) from naturally occurring image pairs on the web. However, since this dataset is not attributed to a specific source, I will note it as a self-constructed dataset.
+
+2. **CIRCO Dataset**: This dataset is mentioned as a benchmark for evaluating the model. The citation for this dataset is:
+   > Baldrati, A., Agnolucci, L., Bertini, M., & Del Bimbo, A. (2023). Zero-shot composed image retrieval with textual inversion. In Proceedings of ICCV.
+
+3. **GeneCIS Dataset**: Another benchmark used for evaluation. The citation for this dataset is:
+   > Vaze, S., Carion, N., & Misra, I. (2023). Genecis: A benchmark for general conditional image similarity. In Proceedings of CVPR.
+
+4. **DTIN Dataset**: This dataset is also used for evaluation. The citation for this dataset is:
+   > Saito, K., Sohn, K., Zhang, X., Li, C.-L., Lee, C.-Y., Saenko, K., & Pfister, T. (2023). Domain Transfer ImageNet. In Proceedings of CVPR.
+
+After gathering this information, I will ensure that each dataset is documented with its full citation, as this is crucial for proper attribution and further research. Finally, I will compile the dataset entries into a structured format for clarity and ease of use.

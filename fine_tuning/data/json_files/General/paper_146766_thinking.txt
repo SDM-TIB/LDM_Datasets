@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "FastImpute: A Baseline for Open-source, Reference-Free Genotype Imputation Methods - A Case Study in PRS313" by Aaron Ge et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets that are explicitly mentioned or described. The abstract mentions a case study focusing on **PRS313**, which indicates that this dataset is central to the research.
+
+Next, I will examine the **introduction** to see if the authors provide more context about the datasets used. They reference **PRS313**, a polygenic risk score comprising 313 SNPs for breast cancer risk prediction, which is a clear indication of a dataset being utilized.
+
+In the **methods section**, I will look for detailed descriptions of how the authors gathered and processed data. They mention using **Whole Genome Sequencing (WGS) data from the 1000 Genomes Project** and **23andMe data**. This suggests that both of these datasets are critical for their analysis.
+
+1. **1000 Genomes Project Data**: The authors state that they downloaded the data from the official repository (Auton et al., 2015). This dataset is essential for their genotype imputation model.
+
+2. **23andMe Data**: The authors describe how they reverse-engineered the V5 chip data from 23andMe, using 119 files from the OpenSNP database (Greshake et al., 2014). This dataset is crucial for their case study on PRS313.
+
+In the **results section**, the authors discuss the performance of their models using these datasets, confirming their importance in the study.
+
+Now, I will consult the **references section** to retrieve full citations for these datasets:
+
+- For the **1000 Genomes Project**, the citation is:
+  > Auton, A., Brooks, L. D., Durbin, R. M., Garrison, E. P., Kang, H. M., Korbel, J. O., Marchini, J. L., McCarthy, S., McVean, G. A., & Abecasis, G. R. (2015). *A global reference for human genetic variation*. Nature, 526(7571), 68–74. https://doi.org/10.1038/nature15393
+
+- For the **23andMe data**, the citation is:
+  > Greshake, B., Bayer, P. E., Rausch, H., & Reda, J. (2014). *openSNP–A Crowdsourced Web Resource for Personal Genomics*. PLoS ONE, 9(3), e89204. https://doi.org/10.1371/journal.pone.0089204
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all relevant details are captured for further processing or review.

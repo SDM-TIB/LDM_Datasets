@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "RC3: Regularized Contrastive Cross-lingual Cross-modal Pre-training" by Chulun Zhou et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract discusses the challenges of multilingual vision-language pre-training and hints at the use of various datasets, which suggests that there are specific datasets to look for.
+
+Next, I will focus on **section 2 (Our Approach)**, particularly **subsection 2.1 (Pre-training Data)**, where the authors explicitly describe the datasets used for their experiments. Here, they mention three types of datasets:
+
+1. **Strictly-aligned Multilingual Image-caption Dataset (Ds)**: This dataset is derived from the Conceptual Captions dataset, which contains 2,777,649 image-caption pairs that have been translated into five languages (Czech, German, French, Japanese, and Chinese). This dataset is crucial for their model's training.
+
+2. **Weakly-aligned Multilingual Image-text Dataset (Dw)**: This dataset is constructed from the WIT dataset, which includes multilingual image-caption pairs across six languages (German, English, French, Indonesian, Japanese, and Chinese). The authors note that the texts are not strictly parallel, which is an important detail.
+
+3. **Multilingual Parallel Text Dataset (Dt)**: This dataset combines parallel texts from the strictly-aligned dataset (Ds) and a subset of WikiMatrix, covering all seven languages involved in their study.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset mentioned:
+
+- For the **Conceptual Captions dataset**, the citation is:
+  > Sharma, P., Ding, N., Goodman, S., & Soricut, R. (2018). *Conceptual captions: A cleaned, hypernymed, image alt-text dataset for automatic image captioning*. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL), pages 2556–2565.
+
+- For the **WIT dataset**, the citation is:
+  > Srinivasan, K., Raman, K., Chen, J., Bendersky, M., & Najork, M. (2021). *WIT: Wikipedia-based image text dataset for multimodal multilingual machine learning*. In SIGIR ’21: The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval, pages 2443–2449.
+
+- For the **WikiMatrix dataset**, the citation is:
+  > Schwenk, H., Chaudhary, V., Sun, S., Gong, H., & Guzmán, F. (2021). *WikiMatrix: Mining 135M parallel sentences in 1620 language pairs from Wikipedia*. In Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics, pages 1351–1361.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

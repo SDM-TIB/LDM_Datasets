@@ -1,0 +1,39 @@
+To extract datasets from the research paper titled "ALISA: Accelerating Large Language Model Inference via Sparsity-Aware KV Caching" by Youpeng Zhao et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and evaluation sections** to identify any datasets mentioned. The abstract discusses the performance of ALISA on various LLM models and tasks, which suggests that datasets are involved, but I need to find specific names.
+
+Next, I will focus on the **evaluation section** where the authors mention using three open-sourced families of LLM models: OPT, LLaMA, and Pythia. They also specify that they perform evaluations on seven different datasets for language modeling and question-answering tasks. This is a strong indication that datasets are explicitly listed.
+
+In the **experimental setup section**, the authors detail the datasets used:
+1. **Wiki-Text-2**: A dataset for language modeling.
+2. **Penn Treebank**: Another dataset for language modeling.
+3. **Alpaca**: A dataset used for 4-shot question-answering inference.
+4. **PIQA**: A dataset for reasoning about physical commonsense in natural language.
+5. **COPA**: A dataset for evaluating causal reasoning.
+6. **Open-BookQA**: A dataset for open book question answering.
+7. **Winogrande**: A dataset for commonsense reasoning.
+
+Now, I will check the **References section** to find full citations for these datasets. However, since some datasets may not have formal citations in the references, I will note the ones that do:
+
+- **Wiki-Text-2** citation:
+  > Merity, S., Xiong, C., Bradbury, J., & Socher, R. (2016). Pointer sentinel mixture models. *ArXiv preprint arXiv:1609.07843*.
+
+- **Penn Treebank** citation:
+  > Marcus, M. P., Santorini, B., & Marcinkiewicz, M. A. (1993). Building a large annotated corpus of English: The Penn Treebank. *Computational Linguistics, 19*(2), 313-330.
+
+- **PIQA** citation:
+  > Bisk, Y., Zellers, R., Bras, R. L., Gao, J., & Choi, Y. (2019). PIQA: Reasoning about physical commonsense in natural language. *ArXiv preprint arXiv:1911.11641*.
+
+- **COPA** citation:
+  > Yeo, J., Lee, G., Wang, G., Choi, S., Cho, H., Amplayo, R. K., & Hwang, S. W. (2018). Visual choice of plausible alternatives: An evaluation of image-based commonsense causal reasoning. *Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)*.
+
+- **Open-BookQA** citation:
+  > Mihaylov, T., Clark, P., Khot, T., & Sabharwal, A. (2018). Can a suit of armor conduct electricity? A new dataset for open book question answering. *ArXiv preprint arXiv:1809.02789*.
+
+- **Winogrande** citation:
+  > Sakaguchi, K., Bras, R. L., Bhagavatula, C., & Choi, Y. (2019). Winogrande: An adversarial Winograd schema challenge at scale. *Communications of the ACM, 64*(2), 99-106.
+
+For **Alpaca**, the authors reference a GitHub repository rather than a formal citation:
+> Taori, R., Gulrajani, I., Zhang, T., Dubois, Y., Li, X., Guestrin, P., Liang, P., & Hashimoto, T. B. (2023). Stanford Alpaca: An instruction-following LLaMA model. *GitHub repository*.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing.

@@ -1,0 +1,48 @@
+To extract datasets from the research paper titled "How Good Are Low-bit Quantized LLAMA3 Models? An Empirical Study" by Wei Huang et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions evaluating LLAMA3 on "diverse datasets," which indicates that there are multiple datasets involved. The introduction further elaborates on the evaluation of LLAMA3 across various tasks, hinting at the presence of specific datasets.
+
+Next, I will examine the **Empirical Evaluation** section, particularly the subsections that detail the evaluation datasets used for both Post-Training Quantization (PTQ) and LoRA-FineTuning (LoRA-FT) methods. In this section, the authors explicitly list the datasets used for evaluation:
+
+1. **WikiText2**: A dataset commonly used for language modeling tasks.
+2. **C4**: A large-scale dataset for various NLP tasks.
+3. **PTB (Penn Treebank)**: A dataset used for language modeling and parsing.
+4. **CommonSenseQA**: A dataset for evaluating commonsense reasoning in question answering.
+5. **PIQA**: A dataset for physical commonsense reasoning.
+6. **ARC-e and ARC-c**: Datasets for evaluating question answering capabilities.
+7. **HellaSwag**: A dataset for evaluating commonsense reasoning in sentence completion tasks.
+8. **Winogrande**: A dataset for evaluating commonsense reasoning in a Winograd schema challenge.
+9. **MMLU**: A benchmark for measuring massive multitask language understanding.
+
+I will also check the **References section** to gather full citations for each dataset mentioned. The citations are crucial for proper attribution and to provide context for each dataset's use in the study.
+
+The citations I will extract include:
+
+- **WikiText2**:
+  > Stephen Merity, Caiming Xiong, James Bradbury, and Richard Socher. *Pointer Sentinel Mixture Models*. arXiv preprint arXiv:1609.07843, 2016.
+
+- **C4**:
+  > Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J Liu. *Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer*. The Journal of Machine Learning Research, 21(1):5485–5551, 2020.
+
+- **PTB**:
+  > Mitch Marcus, Grace Kim, Mary Ann Marcinkiewicz, Robert MacIntyre, Ann Bies, Mark Ferguson, Karen Katz, and Britta Schasberger. *The Penn Treebank: Annotating Predicate Argument Structure*. In Human Language Technology: Proceedings of a Workshop held at Plainsboro, New Jersey, March 8-11, 1994.
+
+- **CommonSenseQA**:
+  > Yonatan Bisk, Rowan Zellers, Jianfeng Gao, Yejin Choi, et al. *Piqa: Reasoning about Physical Commonsense in Natural Language*. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 34, pages 7432–7439, 2020.
+
+- **PIQA**:
+  > Yonatan Bisk, Rowan Zellers, Jianfeng Gao, Yejin Choi, et al. *Piqa: Reasoning about Physical Commonsense in Natural Language*. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 34, pages 7432–7439, 2020.
+
+- **ARC-e and ARC-c**:
+  > Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and Oyvind Tafjord. *Think You Have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge*. arXiv preprint arXiv:1803.05457, 2018.
+
+- **HellaSwag**:
+  > Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. *Hellaswag: Can a Machine Really Finish Your Sentence?* arXiv preprint arXiv:1905.07830, 2019.
+
+- **Winogrande**:
+  > Keisuke Sakaguchi, Ronan Le Bras, Chandra Bhagavatula, and Yejin Choi. *Winogrande: An Adversarial Winograd Schema Challenge at Scale*. Communications of the ACM, 64(9):99–106, 2021.
+
+- **MMLU**:
+  > Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, Dawn Song, and Jacob Steinhardt. *Measuring Massive Multitask Language Understanding*. arXiv preprint arXiv:2009.03300, 2020.
+
+After gathering all this information, I will compile the dataset entries along with their full citations to ensure that they are ready for structured output or further processing. This systematic approach will help ensure that I do not miss any important details regarding the datasets used in the study.

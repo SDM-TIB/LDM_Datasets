@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Learning to Localize: A 3D CNN Approach to User Positioning in Massive MIMO-OFDM Systems" by Chi Wu et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses a new type of fingerprint called the angle-delay channel power matrix (ADCPM) used for user positioning, which suggests that there may be datasets related to this fingerprint.
+
+Next, I will examine **section II (3D MIMO-OFDM System and Channel Characteristics)**, where the authors describe the ADCPM in detail. They mention that the ADCPM is derived from channel state information (CSI) and is used as a fingerprint for positioning. However, I need to look for specific datasets used in their experiments.
+
+In **section V (Simulation Results)**, the authors describe their simulation setup and mention that they generated fingerprints and corresponding 3D positions using MATLAB. They also refer to a simulator based on the QuaDriGa model, which is crucial for understanding the datasets used.
+
+I will also check the **References section** for any citations related to datasets or models that were utilized in their experiments. The references may include foundational works or datasets that are critical for reproducing their results.
+
+After reviewing the paper, I will compile the datasets identified:
+
+1. **ADCPM Dataset**: This dataset is generated from the channel state information (CSI) and is used for training the 3D CNN model. The authors do not provide a specific citation for this dataset, as it is derived from their simulations.
+
+2. **QuaDriGa Model**: The authors mention using the QuaDriGa model for their simulations. The citation for this model is:
+   > S. Jaeckel, L. Raschkowski, K. Borner, and L. Thiele. "QuaDRiGa: A 3-D multi-cell channel model with time evolution for enabling virtual field trials." IEEE Trans. Antennas Propag., vol. 62, no. 6, pp. 3242–3256, June 2014.
+
+3. **3D Positioning Dataset**: The authors generated a dataset of 3D positions corresponding to the fingerprints collected during the simulation. This dataset is not explicitly cited but is based on the simulation setup described in the paper.
+
+Now, I will ensure that I have the full citations for the datasets and models mentioned, as this is crucial for proper attribution and reproducibility in research.
+
+Finally, I will summarize the datasets and their citations in a structured format for easy reference in future work.

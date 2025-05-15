@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Episodic Memory Reader: Learning What to Remember for Question Answering from Streaming Data" by Moonsu Han et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors validate their model on a synthetic dataset (bAbI) and two real-world datasets (TriviaQA and TVQA). This suggests that these datasets are crucial to the research.
+
+Next, I will look for specific details about these datasets in the **experiments section**. In section 4, the authors describe their experiments and mention the datasets used:
+
+1. **bAbI Dataset**: This is a synthetic dataset for episodic question answering, consisting of 20 tasks. The authors specifically mention using Task 2, which requires remembering two supporting facts. The dataset is referenced as being from Weston et al. (2015).
+
+2. **TriviaQA Dataset**: This dataset includes 950K question-answer pairs from 662K documents collected from Wikipedia and the web. The authors note that it is more challenging than standard QA datasets like SQuAD. The citation for this dataset is provided as Joshi et al. (2017).
+
+3. **TVQA Dataset**: This dataset contains 153K question-answer pairs from 22K video clips, requiring compositional reasoning over both video frames and subtitles. The authors reference Lei et al. (2018) for this dataset.
+
+After identifying the datasets, I will consult the **References section** to retrieve the full citations for each dataset:
+
+- For the **bAbI Dataset**, the citation is:
+  > Weston, J., Chopra, S., & Mikolov, T. (2015). *Towards AI-complete question answering: A set of prerequisite toy tasks*. CoRR, abs/1502.05698.
+
+- For the **TriviaQA Dataset**, the citation is:
+  > Joshi, M., Choi, E., Weld, D. S., & Zettlemoyer, L. (2017). *TriviaQA: A large scale distantly supervised challenge dataset for reading comprehension*. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics, ACL 2017, Vancouver, Canada, July 30 - August 4, Volume 1: Long Papers, pages 1601–1611.
+
+- For the **TVQA Dataset**, the citation is:
+  > Lei, J., Yu, L., Bansal, M., & Berg, T. L. (2018). *TVQA: Localized, compositional video question answering*. CoRR, abs/1809.01696.
+
+Now that I have gathered the necessary information about each dataset, I will compile the dataset entries into a structured format for further processing or review.

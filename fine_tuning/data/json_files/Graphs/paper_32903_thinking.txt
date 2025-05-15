@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Node-based Knowledge Graph Contrastive Learning for Medical Relationship Prediction" by Zhiguang Fan et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors evaluated their method on public datasets like **FB15k-237** and **WN18RR**, which suggests these are key datasets used in their experiments.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments** section. In this paper, the authors explicitly mention the datasets in the **experiments section** (Section 5). They state that they used **FB15k-237** and **WN18RR** for general knowledge graph evaluations, and also three biomedical-specific datasets: **PharmKG8k-28**, **DRKG17k-21**, and **BioKG72k-14**.
+
+Now, I will gather detailed descriptions of each dataset from the text. The paper provides a brief overview of each dataset in the **appendix**:
+
+1. **FB15k-237**: This dataset contains knowledge base relation triples and textual mentions of Freebase node pairs. It is a subset of FB15K, originally derived from Freebase, with inverse relations removed.
+   - Citation: Bordes, A., Usunier, N., Garcia-Duran, A., Weston, J., & Yakhnenko, O. (2013). Translating embeddings for modeling multi-relational data. *Advances in Neural Information Processing Systems*, 26.
+
+2. **WN18RR**: Created from WN18, this dataset is a subset of WordNet, ensuring no inverse relation test leakage.
+   - Citation: Dettmers, T., Minervini, P., Stenetorp, P., & Riedel, S. (2018). Convolutional 2D knowledge graph embeddings. *Thirty-Second AAAI Conference on Artificial Intelligence*.
+
+3. **PharmKG8k-28**: Built from the PharmKG dataset, it is a multi-relational biomedical knowledge graph with over 500,000 interconnections between genes, drugs, and diseases.
+   - Citation: Zheng, S., Rao, J., Song, Y., Zhang, J., Xiao, X., Fang, E. F., Yang, Y., & Niu, Z. (2020). PharmKG: a dedicated knowledge graph benchmark for biomedical data mining. *Bioinformatics*, 22(4), 3173-3180. https://doi.org/10.1093/bib/bbaa344.
+
+4. **DRKG17k-21**: This dataset is based on the Drug Repositioning Knowledge Graph, which relates various biological entities and includes information from multiple databases.
+   - Citation: Ioannidis, V. N., Song, X., Manchanda, S., Li, M., Pan, X., Zheng, D., Ning, X., Zeng, X., & Karypis, G. (2020). DRKG - Drug Repurposing Knowledge Graph for Covid-19. https://github.com/gnn4dr/DRKG/.
+
+5. **BioKG72k-14**: Built from the BioKG dataset, it compiles curated relational data from open biological databases in a unified format.
+   - Citation: Walsh, B., Mohamed, S. K., & Novácek, V. (2020). BioKG: A Knowledge Graph for Relational Learning On Biological Data. In *CIKM ’20: The 29th ACM International Conference on Information and Knowledge Management* (pp. 3173–3180). ACM. https://doi.org/10.1145/3340531.3412776.
+
+After gathering this information, I will ensure that I format the dataset entries correctly, including the full citations, and prepare them for structured output as needed.

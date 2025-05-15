@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Question-controlled Text-aware Image Captioning" by Anwen Hu et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned. In the abstract, the authors introduce the concept of a new task, **Question-controlled Text-aware Image Captioning (Qc-TextCap)**, and mention that they constructed two datasets to support this task. This indicates that datasets are indeed present.
+
+Next, I will focus on **section 3 (Qc-TextCap Dataset)**, where the authors describe the datasets in detail. They mention that they automatically constructed two datasets based on existing text-aware captioning datasets:
+
+1. **ControlTextCaps**: This dataset is derived from the TextCaps dataset and is designed to support the Qc-TextCap task. It consists of tuples that include images, initial captions, control questions, and text-aware captions.
+
+2. **ControlVizWiz**: This dataset is constructed from the VizWiz-Captions dataset and follows a similar structure to ControlTextCaps, also containing tuples of images, initial captions, control questions, and text-aware captions.
+
+In the **dataset analysis section**, the authors provide statistics about these datasets, confirming their structure and content.
+
+Now, I will check the **References section** to find the full citations for the original datasets used to construct ControlTextCaps and ControlVizWiz:
+
+- For **TextCaps**, the citation is:
+  > Oleksii Sidorov, Ronghang Hu, Marcus Rohrbach, and Amanpreet Singh. *TextCaps: A Dataset for Image Captioning with Reading Comprehension*. In ECCV (2) (Lecture Notes in Computer Science, Vol. 12347). Springer, 742–758, 2020.
+
+- For **VizWiz-Captions**, the citation is:
+  > Danna Gurari, Yinan Zhao, Meng Zhang, and Nilavra Bhattacharya. *Captioning Images Taken by People Who Are Blind*. In ECCV (17) (Lecture Notes in Computer Science, Vol. 12362). Springer, 417–434, 2020.
+
+Having gathered all the necessary information, I will now compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a clear and structured overview of the datasets utilized in the research.

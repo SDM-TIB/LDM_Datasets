@@ -1,0 +1,114 @@
+[
+    {
+        "dcterms:creator": [
+            "S. L. Jewell"
+        ],
+        "dcterms:description": "EEG dataset from Patient #1, a traumatic brain injury case, recorded for 39 hours, containing 17 identified spreading depolarizations.",
+        "dcterms:title": "EEG dataset from Patient #1 (TBI case)",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Neurocritical Care",
+            "Traumatic Brain Injury"
+        ],
+        "dcat:keyword": [
+            "EEG",
+            "Spreading Depolarizations",
+            "Traumatic Brain Injury",
+            "Neurocritical Care"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "EEG",
+        "mls:task": [
+            "Spreading Depolarization Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. L. Jewell"
+        ],
+        "dcterms:description": "EEG dataset from Patient #2, a malignant hemispheric stroke case, recorded for 22 hours, confirmed not to have any spreading depolarizations.",
+        "dcterms:title": "EEG dataset from Patient #2 (MHS case)",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Neurocritical Care",
+            "Malignant Hemispheric Stroke"
+        ],
+        "dcat:keyword": [
+            "EEG",
+            "Malignant Hemispheric Stroke",
+            "Neurocritical Care"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "EEG",
+        "mls:task": [
+            "Spreading Depolarization Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Chamanzar",
+            "J. Elmer",
+            "L. Shutter",
+            "J. Hartings",
+            "P. Grover"
+        ],
+        "dcterms:description": "Simulated EEG data designed for training and testing purposes, incorporating various noise levels and characteristics of spreading depolarizations.",
+        "dcterms:title": "Simulated EEG data for training and testing",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.1109/TBME.2018.2867112",
+        "dcat:theme": [
+            "Neurocritical Care",
+            "Simulation"
+        ],
+        "dcat:keyword": [
+            "Simulated EEG",
+            "Spreading Depolarizations",
+            "Training Data",
+            "Testing Data"
+        ],
+        "dcat:landingPage": "https://doi.org/10.1109/TBME.2018.2867112",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "EEG Simulation",
+        "mls:task": [
+            "Training",
+            "Testing"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Chamanzar",
+            "J. Elmer",
+            "L. Shutter",
+            "J. Hartings",
+            "P. Grover"
+        ],
+        "dcterms:description": "Non-SD carrying EEG data from Patient #2, used for testing the model's ability to differentiate between SD-specific and non-SD neural signal changes.",
+        "dcterms:title": "Non-SD carrying EEG data from Patient #2",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.1109/TBME.2018.2867112",
+        "dcat:theme": [
+            "Neurocritical Care",
+            "Malignant Hemispheric Stroke"
+        ],
+        "dcat:keyword": [
+            "EEG",
+            "Non-SD Data",
+            "Malignant Hemispheric Stroke",
+            "Neurocritical Care"
+        ],
+        "dcat:landingPage": "https://doi.org/10.1109/TBME.2018.2867112",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "EEG",
+        "mls:task": [
+            "Testing"
+        ]
+    }
+]

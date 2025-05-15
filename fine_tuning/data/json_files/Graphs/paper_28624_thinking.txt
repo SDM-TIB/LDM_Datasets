@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Uncertainty Aware Proposal Segmentation for Unknown Object Detection" by Yimeng Li and Jana Košecká, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and the introduction often discusses the context and relevance of the datasets used.
+
+In the **introduction**, the authors mention the importance of evaluating their method on datasets that include unknown objects. This suggests that specific datasets will be referenced later in the paper.
+
+Next, I will focus on the **experiments section**, particularly **section 4 (Experiments)**, where the authors detail their evaluation methodology. Here, they explicitly mention three datasets used for their experiments:
+
+1. **FS Lost & Found (L&F)**: This dataset contains 100 real images captured with the same camera setup as Cityscapes, with pixel-level annotations for distinguishing OOD objects from known classes.
+
+2. **Fishyscapes Static (FS)**: This dataset consists of 30 images with unknown objects superimposed synthetically onto Cityscapes validation images, including various animal classes.
+
+3. **Road Anomaly (RA)**: This dataset includes 60 real images collected from the internet, featuring OOD objects located on or near the road, such as animals and construction equipment.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and further exploration of the datasets.
+
+The citations I will extract are:
+
+- For **FS Lost & Found (L&F)**, the citation is:
+  > Peter Pinggera, Sebastian Ramos, Stefan Gehrig, Uwe Franke, Carsten Rother, and Rudolf Mester. *Lost and Found: Detecting Small Road Hazards for Self-Driving Vehicles*. In 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pages 1099–1106. IEEE, 2016.
+
+- For **Fishyscapes Static (FS)**, the citation is:
+  > Hermann Blum, Paul-Edouard Sarlin, Juan Nieto, Roland Siegwart, and Cesar Cadena. *The Fishyscapes Benchmark: Measuring Blind Spots in Semantic Segmentation*. arXiv preprint arXiv:1904.03215, 2019.
+
+- For **Road Anomaly (RA)**, the citation is:
+  > Krzysztof Lis, Krishna Nakka, Pascal Fua, and Mathieu Salzmann. *Detecting the Unexpected via Image Resynthesis*. In Proceedings of the IEEE International Conference on Computer Vision, pages 2152–2161, 2019.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or processing.

@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Let’s Get Dirty: GAN Based Data Augmentation for Camera Lens Soiling Detection in Autonomous Driving" by Michal Uˇriˇc´aˇr et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors propose a novel GAN-based algorithm for generating soiled images and mention a "manually annotated soiling dataset" and a "generated augmentation dataset." This suggests that there are at least two datasets involved.
+
+Next, I will look for specific mentions of datasets in the **introduction**. The authors discuss the challenges of collecting diverse datasets for soiling detection, which reinforces the importance of the datasets they are working with.
+
+In the **methods section**, particularly in the subsection titled "Dirty Datasets," the authors explicitly mention the datasets they used:
+
+1. **WoodScape Dataset**: This dataset consists of 10,000 images with semantic segmentation annotations. It is used for training the soiling segmentation network and is crucial for generating the soiling patterns.
+
+2. **Dirty WoodScape Dataset**: This is a newly generated dataset that combines the original WoodScape images with artificially generated soiling patterns and corresponding annotations. It is intended to serve as a benchmark for further research.
+
+3. **Cityscapes Dataset**: The authors also mention that they create a "Dirty Cityscapes dataset," which is based on the Cityscapes dataset. This dataset is used to evaluate the generalization of their soiling detection model.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **WoodScape Dataset**, the citation is:
+  > Senthil Yogamani, Ciar´an Hughes, Jonathan Horgan, Ganesh Sistu, Padraig Varley, Derek O’Dea, Michal Uˇriˇc´aˇr, Stefan Milz, Martin Simon, Karl Amende, Christian Witt, Hazem Rashed, Sumanth Chennupati, Sanjaya Nayak, Saquib Mansoor, Xavier Perroton, and Patrick Perez. *WoodScape: A multi-task, multi-camera fisheye dataset for autonomous driving*. In The IEEE International Conference on Computer Vision (ICCV), 2019.
+
+- For the **Cityscapes Dataset**, the citation is:
+  > Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele. *The cityscapes dataset for semantic urban scene understanding*. In Proceedings of the IEEE conference on computer vision and pattern recognition, 2016.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+1. **WoodScape Dataset**: A dataset with 10,000 images and semantic segmentation annotations used for training the soiling segmentation network.
+2. **Dirty WoodScape Dataset**: An augmented dataset created by combining the original WoodScape images with generated soiling patterns and annotations.
+3. **Dirty Cityscapes Dataset**: A dataset based on the Cityscapes dataset, modified to include soiling effects for evaluation purposes.
+
+Finally, I will compile this information into a structured format for further processing or review.

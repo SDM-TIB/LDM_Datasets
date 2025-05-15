@@ -1,0 +1,214 @@
+[
+    {
+        "dcterms:creator": [
+            "D. Luo",
+            "W. Cheng",
+            "D. Xu",
+            "W. Yu",
+            "B. Zong",
+            "H. Chen",
+            "X. Zhang"
+        ],
+        "dcterms:description": "A synthetic dataset consisting of a single graph with Barabasi-Albert (BA) base graph composed of 300 nodes and 80 'house'-structured motifs. Nodes are assigned to one of 4 classes based on their structural role.",
+        "dcterms:title": "BA-Shapes",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Data",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Barabasi-Albert",
+            "Motifs",
+            "Node Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D. Luo",
+            "W. Cheng",
+            "D. Xu",
+            "W. Yu",
+            "B. Zong",
+            "H. Chen",
+            "X. Zhang"
+        ],
+        "dcterms:description": "A synthetic dataset that is a union of two BA-Shapes graphs. Node features are sampled using two Gaussian distributions, leading to 8 classes in total.",
+        "dcterms:title": "BA-Community",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Data",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Barabasi-Albert",
+            "Community Detection",
+            "Node Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D. Luo",
+            "W. Cheng",
+            "D. Xu",
+            "W. Yu",
+            "B. Zong",
+            "H. Chen",
+            "X. Zhang"
+        ],
+        "dcterms:description": "A synthetic dataset with an 8-level balanced binary tree as base graph. A set of 80 cycle motifs of size 6 are attached to randomly selected nodes from the base graph.",
+        "dcterms:title": "Tree-Cycles",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Data",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Tree Structure",
+            "Cycle Motifs",
+            "Node Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D. Luo",
+            "W. Cheng",
+            "D. Xu",
+            "W. Yu",
+            "B. Zong",
+            "H. Chen",
+            "X. Zhang"
+        ],
+        "dcterms:description": "A synthetic dataset constructed similarly to Tree-Cycles, but with 3-by-3 grid motifs instead of cycle motifs. Designed for node classification.",
+        "dcterms:title": "Tree-Grid",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Data",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Tree Structure",
+            "Grid Motifs",
+            "Node Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Debnath",
+            "et al."
+        ],
+        "dcterms:description": "A real-life dataset for graph classification composed of 4,337 molecule graphs, each assigned to one of 2 classes based on its mutagenic effect.",
+        "dcterms:title": "MUTAG",
+        "dcterms:issued": "1991",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Real-World Data",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Molecule Graphs",
+            "Mutagenicity",
+            "Graph Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D. Luo",
+            "W. Cheng",
+            "D. Xu",
+            "W. Yu",
+            "B. Zong",
+            "H. Chen",
+            "X. Zhang"
+        ],
+        "dcterms:description": "A citation graph where nodes represent articles and edges represent citations between pairs of papers. The task is document classification into one of seven categories.",
+        "dcterms:title": "Cora",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Real-World Data",
+            "Document Classification"
+        ],
+        "dcat:keyword": [
+            "Citation Graph",
+            "Document Classification",
+            "Machine Learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Document Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D. Luo",
+            "W. Cheng",
+            "D. Xu",
+            "W. Yu",
+            "B. Zong",
+            "H. Chen",
+            "X. Zhang"
+        ],
+        "dcterms:description": "A publication dataset with three classes and 500 features, each indicating the TF-IDF value of the corresponding word.",
+        "dcterms:title": "PubMed",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Real-World Data",
+            "Document Classification"
+        ],
+        "dcat:keyword": [
+            "Publication Dataset",
+            "TF-IDF",
+            "Document Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Document Classification"
+        ]
+    }
+]

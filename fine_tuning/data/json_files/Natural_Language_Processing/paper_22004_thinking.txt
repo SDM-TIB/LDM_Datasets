@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "MILEBENCH: Benchmarking MLLMs in Long Context" by Dingjie Song et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract introduces MILEBENCH as a benchmark for evaluating Multimodal Large Language Models (MLLMs) and hints at the use of multiple datasets for evaluation.
+
+Next, I will focus on **section 3 (MILEBENCH)**, where the authors describe the evaluation sets. Here, they mention that MILEBENCH consists of two major components: diagnostic evaluation and realistic evaluation, and they outline the tasks involved. I will look for specific datasets associated with these tasks.
+
+In **subsection 3.1 (Evaluation Taxonomy)**, the authors detail the tasks and the datasets used for each task. I will extract the following datasets:
+
+1. **Webpage QA**: Used for the Knowledge Grounded QA task.
+   - Citation: Chang, Y., Cao, G., Narang, M., Gao, J., Suzuki, H., & Bisk, Y. (2022). WebQA: Multihop and multimodal QA. In IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 16474–16483. doi:10.1109/CVPR52688.2022.01600.
+
+2. **Textbook QA**: Also used for the Knowledge Grounded QA task.
+   - Citation: Kembhavi, A., Seo, M. J., Schwenk, D., Choi, J., Farhadi, A., & Hajishirzi, H. (2017). Are you smarter than a sixth grader? Textbook question answering for multimodal machine comprehension. In CVPR, 5376–5384. doi:10.1109/CVPR.2017.571.
+
+3. **Complex Multimodal QA**: Used for the Knowledge Grounded QA task.
+   - Citation: Talmor, A., Yoran, O., Catav, A., Lahav, D., Wang, Y., Asai, A., Ilharco, G., Hajishirzi, H., & Berant, J. (2021). MultimodalQA: Complex question answering over text, tables, and images. In ICLR. URL: https://openreview.net/forum?id=ee6W5UgQLa.
+
+4. **Long Text with Images QA**: A new task created for MILEBENCH.
+   - Citation: This dataset is constructed by the authors, so it does not have an external citation.
+
+5. **Slide QA**: Used for the Text-Rich Images QA task.
+   - Citation: Tanaka, R., Nishida, K., Nishida, K., Hasegawa, T., Saito, I., & Saito, K. (2023). SlideVQA: A dataset for document visual question answering on multiple images. In AAAI, 13636–13645. doi:10.1609/AAAI.V37I11.26598.
+
+6. **OCR QA**: Also used for the Text-Rich Images QA task.
+   - Citation: Mishra, A., Shekhar, S., Singh, A. K., & Chakraborty, A. (2019). OCR-VQA: Visual question answering by reading text in images. In ICDAR, 947–952. doi:10.1109/ICDAR.2019.00156.
+
+7. **Document QA**: Another dataset for the Text-Rich Images QA task.
+   - Citation: Mathew, M., Karatzas, D., & Jawahar, C. V. (2021). DocVQA: A dataset for VQA on document images. In WACV, 2199–2208. doi:10.1109/WACV48630.2021.00225.
+
+8. **Visual Change Captioning**: Used for the Visual Relation Inference task.
+   - Citation: Jhamtani, H., & Berg-Kirkpatrick, T. (2018). Learning to describe differences between pairs of similar images. In EMNLP, 4024–4034. doi:10.18653/V1/D18-1436.
+
+9. **Conversational Embodied Dialogue**: Used for the Dialogue task.
+   - Citation: Shridhar, M., Thomason, J., Gordon, D., Bisk, Y., Han, W., Mottaghi, R., Zettlemoyer, L., & Fox, D. (2020). ALFRED: A benchmark for interpreting grounded instructions for everyday tasks. In CVPR, 10737–10746. doi:10.1109/CVPR42600.2020.01075.
+
+10. **nuScenes**: Used for the Space Understanding task.
+    - Citation: Caesar, H., Bankiti, V., Lang, A. H., Vora, S., Liong, V. E., Xu, Q., & Beijbom, O. (2020). nuScenes: A multimodal dataset for autonomous driving. In CVPR, 11618–11628. doi:10.1109/CVPR42600.2020.01164.
+
+After identifying these datasets, I will ensure to compile their full citations accurately as they are crucial for proper attribution and further research.
+
+Finally, I will summarize the extracted datasets and their citations in a structured format for easy reference.

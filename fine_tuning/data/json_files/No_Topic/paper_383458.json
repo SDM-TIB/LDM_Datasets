@@ -1,0 +1,216 @@
+[
+    {
+        "dcterms:creator": [
+            "F. Shi",
+            "M. Suzgun",
+            "M. Freitag",
+            "X. Wang",
+            "S. Vosoughi",
+            "H. W. Chung",
+            "Y. Tay",
+            "S. Ruder",
+            "D. Zhou",
+            "D. Das",
+            "J. Wei"
+        ],
+        "dcterms:description": "The MGSM benchmark contains grade school mathematical problems and asks the model to calculate the correct answer. It covers 11 languages, and we utilize the accuracy score for evaluation.",
+        "dcterms:title": "MGSM",
+        "dcterms:issued": "2023",
+        "dcterms:language": "Multiple languages",
+        "dcterms:identifier": "arXiv:2303.12528",
+        "dcat:theme": [
+            "Mathematics",
+            "Reasoning"
+        ],
+        "dcat:keyword": [
+            "Arithmetic reasoning",
+            "Mathematical problems",
+            "Multilingual evaluation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Arithmetic Reasoning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "E. Ponti",
+            "G. Glavaš",
+            "O. Majewska",
+            "Q. Liu",
+            "I. Vulić",
+            "A. Korhonen"
+        ],
+        "dcterms:description": "The XCOPA benchmark contains one premise and two choices. It asks the model to choose which one is the result or cause of the premise. It covers 11 languages from 11 diverse families, and we utilize the accuracy score for evaluation.",
+        "dcterms:title": "XCOPA",
+        "dcterms:issued": "2020",
+        "dcterms:language": "Multiple languages",
+        "dcterms:identifier": "10.18653/v1/2020.emnlp-main.236",
+        "dcat:theme": [
+            "Commonsense Reasoning"
+        ],
+        "dcat:keyword": [
+            "Causal reasoning",
+            "Multilingual dataset",
+            "Common sense"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Commonsense Reasoning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Conneau",
+            "K. Khandelwal",
+            "N. Goyal",
+            "V. Chaudhary",
+            "G. Wenzek",
+            "F. Guzmán",
+            "E. Grave",
+            "M. Ott",
+            "L. Zettlemoyer",
+            "V. Stoyanov"
+        ],
+        "dcterms:description": "The XNLI benchmark contains one premise and one hypothesis and requires the model to determine whether the hypothesis is entailed, contradicted, or neutral conditioned on the premise. It covers 15 languages, and we utilize the accuracy score for evaluation.",
+        "dcterms:title": "XNLI",
+        "dcterms:issued": "2018",
+        "dcterms:language": "Multiple languages",
+        "dcterms:identifier": "10.18653/v1/D18-1101",
+        "dcat:theme": [
+            "Natural Language Inference"
+        ],
+        "dcat:keyword": [
+            "Cross-lingual",
+            "Sentence representation",
+            "Inference"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Natural Language Inference"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Y. Yang",
+            "Y. Zhang",
+            "C. Tar",
+            "J. Baldridge"
+        ],
+        "dcterms:description": "The PAWS-X benchmark contains two sentences and requires the model to judge whether they paraphrase each other or not. It covers 7 languages, and we utilize the accuracy score for evaluation.",
+        "dcterms:title": "PAWS-X",
+        "dcterms:issued": "2019",
+        "dcterms:language": "Multiple languages",
+        "dcterms:identifier": "10.18653/v1/D19-5018",
+        "dcat:theme": [
+            "Paraphrase Identification"
+        ],
+        "dcat:keyword": [
+            "Cross-lingual",
+            "Adversarial dataset",
+            "Paraphrase"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Paraphrase Identification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Longpre",
+            "Y. Lu",
+            "J. Daiber"
+        ],
+        "dcterms:description": "The MKQA benchmark contains an open-domain question and asks the model to predict a short answer. It covers 25 languages, and we choose a subset of 10 languages, including de, en, es, fr, ja, ru, th, tr, vi, and zh. We utilize the token overlap F1 score for evaluation.",
+        "dcterms:title": "MKQA",
+        "dcterms:issued": "2021",
+        "dcterms:language": "Multiple languages",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Question Answering"
+        ],
+        "dcat:keyword": [
+            "Open-domain",
+            "Multilingual",
+            "Question answering"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Question Answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "T. Hasan",
+            "A. Bhattacharjee",
+            "M. S. Islam",
+            "K. Mubasshir",
+            "Y. F. Li",
+            "Y. B. Kang",
+            "M. S. Rahman",
+            "R. Shahriyar"
+        ],
+        "dcterms:description": "The XL-Sum benchmark contains a long news article and wants the model to summarize it into a short text. It covers 44 languages, and we choose a subset of 6 languages, including en, es, fr, tr, vi, and zh. We utilize the ROUGE-1 score for evaluation.",
+        "dcterms:title": "XL-Sum",
+        "dcterms:issued": "2021",
+        "dcterms:language": "Multiple languages",
+        "dcterms:identifier": "10.18653/v1/2021.acl-findings.4693",
+        "dcat:theme": [
+            "Summarization"
+        ],
+        "dcat:keyword": [
+            "Abstractive summarization",
+            "Multilingual",
+            "News articles"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Summarization"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "M. R. Costa-jussà",
+            "J. Cross",
+            "O. Çelebi",
+            "M. Elbayad",
+            "K. Heafield",
+            "K. Heffernan",
+            "E. Kalbassi",
+            "J. Lam",
+            "D. Licht",
+            "J. Maillard"
+        ],
+        "dcterms:description": "The FLORES benchmark contains parallel text from Wikimedia projects for 204 languages, yielding over 40,000 translation directions. We choose a subset of 12 directions, including high resource to high resource translation and low resource to low resource translation. We utilize the SacreBLEU score for evaluation.",
+        "dcterms:title": "FLORES",
+        "dcterms:issued": "2022",
+        "dcterms:language": "Multiple languages",
+        "dcterms:identifier": "arXiv:2207.04672",
+        "dcat:theme": [
+            "Machine Translation"
+        ],
+        "dcat:keyword": [
+            "Parallel text",
+            "Translation",
+            "Multilingual"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation"
+        ]
+    }
+]

@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Reduced Order Modeling of a MOOSE-based Advanced Manufacturing Model with Operator Learning" by Mahmoud Yaseen et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodologies, results, and conclusion sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the study, and I will look for any references to datasets or data used in the experiments.
+
+Next, I will focus on the **introduction** section, where the authors discuss the context and significance of their work. I will look for any mentions of datasets or data sources that are critical to their research.
+
+In the **methodologies section**, particularly in subsection 4.1 (ROMs Results), the authors describe the training data used for their models. They mention generating a total of 500 samples from the MOOSE model, which were then filtered down to 470 samples for training, testing, and validation. This indicates that the dataset is derived from simulations of the MOOSE-based AM model.
+
+I will also check the **results section** for any additional details about the datasets, such as the specific parameters used or the characteristics of the data. The authors mention that the training inputs include five process variables (laser power, scanning speed, laser beam radius, laser efficiency coefficient, and scaling factor) and that the outputs are bead volume and maximum melt pool temperature.
+
+Now, I will consult the **references section** to find any citations related to the datasets used. The authors reference previous works that describe the MOOSE framework and the modeling techniques employed, which may provide context for the datasets.
+
+The key datasets identified in this paper are:
+
+1. **MOOSE-based AM model dataset**: This dataset consists of 470 samples generated from the MOOSE model simulations, which include various process parameters and their corresponding outputs (bead volume and maximum melt pool temperature).
+
+The full citation for the MOOSE framework, which is essential for understanding the dataset, is:
+> A. D. Lindsay, D. R. Gaston, C. J. Permann, J. M. Miller, D. Andrˇs, A. E. Slaughter, F. Kong, J. Hansel, R. W. Carlsen, C. Icenhour, et al. “2.0-MOOSE: Enabling massively parallel multi-physics simulation.” SoftwareX, volume 20, p. 101202 (2022).
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review.

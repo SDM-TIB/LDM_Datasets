@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "X-Vector Based Voice Activity Detection for Multi-Genre Broadcast Speech-to-Text" by Misa Ogura and Matt Haynes, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and datasets section** to identify any datasets mentioned. The abstract highlights the use of an x-vector based VAD system and mentions its evaluation on various broadcast datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 2 (Datasets and Data Preparation)**, where the authors explicitly describe the datasets used for training and evaluation. This section is likely to contain the most relevant information about the datasets.
+
+In **subsection 2.1 (Multi-Genre Broadcast - MGB)**, the authors describe the MGB dataset, which is used for training acoustic and language models. They mention that the training set includes lightly supervised transcripts based on original BBC subtitles, and the evaluation set has manually annotated transcripts. This dataset is crucial for their study.
+
+In **subsection 2.2 (Audio Set)**, the authors describe the Audio Set, a large-scale dataset with over 2 million annotated segments from YouTube clips. They explain how they created a noise dataset by excluding segments labeled as "Speech," which is important for their VAD system.
+
+In **subsection 2.3 (BBC-VAD)**, the authors introduce a new dataset they curated, combining x-vector embeddings from Audio Set Noise and speech segments from MGB. This dataset is significant as it is specifically designed for their VAD system.
+
+In **subsection 2.4 (AVA-Speech)**, the authors describe the AVA-Speech dataset, which consists of audio segments from YouTube clips. This dataset is used to evaluate the performance of their VAD system.
+
+Now, I will check the **References section** to gather full citations for each dataset mentioned:
+
+1. **Multi-Genre Broadcast (MGB)**:
+   > Bell, P., Gales, M., Hain, T., Kilgour, J., Lanchantin, P., Liu, X., McParland, A., Renals, S., Saz-Torralba, O., Wester, M., & Woodland, P. (2015). The MGB challenge: Evaluating multi-genre broadcast media recognition. 2015 IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU), 687-693.
+
+2. **Audio Set**:
+   > Gemmeke, J., Ellis, D., Freedman, D., Jansen, A., Lawrence, W., Moore, R.C., Plakal, M., & Ritter, M. (2017). Audio Set: An ontology and human-labeled dataset for audio events. 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 776-780.
+
+3. **BBC-VAD**: Since this dataset is newly curated by the authors, it may not have a formal citation yet. However, I will note it as:
+   > Ogura, M., & Haynes, M. (2023). BBC-VAD: A new densely labeled voice activity detection dataset.
+
+4. **AVA-Speech**:
+   > Chaudhuri, S., Roth, J., Ellis, D., Gallagher, A.C., Kaver, L., Marvin, R., Pantofaru, C., Reale, N., Reid, L.G., Wilson, K., & Xi, Z. (2018). AVA-Speech: A Densely Labeled Dataset of Speech Activity in Movies. INTERSPEECH.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review. This systematic approach ensures that I capture all relevant datasets and their citations accurately.

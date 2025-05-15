@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Efficient Architecture Search for Continual Learning" by Qiang Gao et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions evaluating the proposed method on "numerous sequential classification tasks," which suggests that datasets are involved.
+
+Next, I will focus on **section 4.1 (Datasets and Benchmark Algorithms)**, where the authors explicitly list the datasets used for their experiments. Here, they describe three benchmark datasets:
+
+1. **MNIST Permutation**: This dataset consists of ten variants of the MNIST data, where each task is transformed by a different permutation of pixels. Each task contains 55,000 training samples, 5,000 validation samples, and 10,000 test samples.
+
+2. **Rotated MNIST**: Similar to the MNIST Permutation, this dataset includes ten variants of MNIST, where each task is rotated by a different fixed angle between 0 to 180 degrees. The structure of the dataset is the same as the MNIST Permutation.
+
+3. **Incremental CIFAR-100**: This dataset is derived from the original CIFAR-100 dataset, which contains 60,000 32×32 colored images across 100 classes. The authors divide this dataset into 10 tasks, each containing 5,000 training samples and 1,000 test samples.
+
+After identifying the datasets, I will check the **References section** to find the full citations for these datasets. However, since these datasets are well-known and widely used in the research community, they may not have specific citations in the references. Instead, I will provide general citations for the original datasets:
+
+- For **MNIST**, the citation is:
+  > Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick Haffner. *Gradient-based learning applied to document recognition*. Proceedings of the IEEE, 86(11):2278–2324, 1998.
+
+- For **CIFAR-100**, the citation is:
+  > Alex Krizhevsky and Geoffrey Hinton. *Learning Multiple Layers of Features from Tiny Images*. Technical Report, 2009.
+
+Now, I will compile the dataset entries with their descriptions and citations into a structured format for further processing.

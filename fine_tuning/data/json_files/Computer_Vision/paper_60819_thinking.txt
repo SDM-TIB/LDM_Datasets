@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "CaloClouds: Fast Geometry-Independent Highly-Granular Calorimeter Simulation" by Erik Buhmann et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and data samples sections** to identify any datasets mentioned. The abstract discusses the simulation of particle showers and mentions a "purpose-built dataset" for evaluating the generative model, which indicates that there is a dataset to extract.
+
+Next, I will focus on **section 2 (Data Samples)**, where the authors describe the dataset in detail. They mention a training dataset consisting of 524,000 photon showers with energies uniformly distributed between 10 GeV and 90 GeV, simulated in the electromagnetic calorimeter (ECAL) of the International Large Detector (ILD). This dataset is crucial for the experiments conducted in the paper.
+
+The authors also mention two validation datasets and one test dataset:
+1. **Validation Dataset 1**: Contains 40,000 samples with energies uniformly distributed between 10 GeV and 90 GeV.
+2. **Validation Dataset 2**: Contains 6,000 samples with fixed incident particle energies of 10 GeV, 50 GeV, and 90 GeV (2,000 showers for each energy).
+3. **Test Dataset**: Contains 2,000 samples with a fixed incident particle energy of 50 GeV, but with different photon simulation positions.
+
+I will now check the **References section** to find the full citation for the dataset mentioned. The dataset is based on simulations conducted using Geant4, and the authors refer to the ILD ECAL in their description. The relevant citation for the ILD ECAL is:
+
+- For the ILD ECAL, the citation is:
+  > The ILD Concept Group, *International Large Detector: Interim Design Report*, 2003.01116.
+
+Now, I will compile the dataset information, ensuring to include the full citation for the ILD ECAL dataset. 
+
+1. **CaloClouds Training Dataset**: 524,000 photon showers with energies uniformly distributed between 10 GeV and 90 GeV.
+   - Citation: The ILD Concept Group, *International Large Detector: Interim Design Report*, 2003.01116.
+
+2. **Validation Dataset 1**: 40,000 samples with energies uniformly distributed between 10 GeV and 90 GeV.
+   - Citation: The ILD Concept Group, *International Large Detector: Interim Design Report*, 2003.01116.
+
+3. **Validation Dataset 2**: 6,000 samples with fixed incident particle energies of 10 GeV, 50 GeV, and 90 GeV.
+   - Citation: The ILD Concept Group, *International Large Detector: Interim Design Report*, 2003.01116.
+
+4. **Test Dataset**: 2,000 samples with a fixed incident particle energy of 50 GeV, differing in photon simulation positions.
+   - Citation: The ILD Concept Group, *International Large Detector: Interim Design Report*, 2003.01116.
+
+After gathering all this information, I will prepare the dataset entries for structured output, ensuring that each dataset is clearly defined and properly cited.

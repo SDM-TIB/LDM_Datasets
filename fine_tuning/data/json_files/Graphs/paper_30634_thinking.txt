@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Reducing Down(stream)time: Pretraining Molecular GNNs using Heterogeneous AI Accelerators" by Jenna A. Bilbrey et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by reviewing the **abstract** to see if any datasets are mentioned. The abstract indicates that the authors trained a graph neural network (GNN) on a molecular database containing **2.7 million water clusters**. This suggests that there is a significant dataset involved.
+
+Next, I will examine the **introduction** section, where the authors discuss the challenges of training models in chemistry due to limited datasets. They reference several datasets, including the **ZINC database** and **PubChem**, which are used for training models on SMILES strings. I will note these datasets for further exploration.
+
+In **section 2 (Methods)**, the authors describe the data collection process. They mention a dataset of **water cluster minima** obtained from Monte Carlo simulations, which contains **2.7 million molecular structures**. This dataset is crucial for their experiments.
+
+Additionally, they refer to a dataset of **non-minima water clusters** obtained from molecular dynamics simulations. This dataset is used for downstream tasks and is essential for understanding the model's performance.
+
+In **section 4 (Results and Discussion)**, the authors provide details about the datasets used for training and testing their models. They specifically mention the **HydroNet benchmark dataset**, which contains **4.95 million unique hydrogen-bonded clusters of water molecules**. This dataset is significant for their experiments and results.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned:
+
+1. For the **HydroNet benchmark dataset**, the citation is:
+   > Sutanay Choudhury, Jenna A. Bilbrey, Logan T. Ward, Sotiris S. Xantheas, Ian T. Foster, Joseph P. Heindel, Ben Blaiszik, and Marcus E. Schwarting. *HydroNet: Benchmark tasks for preserving intermolecular interactions and structural motifs in predictive and generative models for molecular data*. Machine Learning and the Physical Sciences Workshop at the 34th Conference on Neural Information Processing Systems (NeurIPS), arXiv:2012.00131, 2020.
+
+2. For the **ZINC database**, the citation is:
+   > J. Irwin, B. A. Shoichet. *ZINC - A Free Database of Commercially Available Compounds for Virtual Screening*. Journal of Chemical Information and Computer Sciences, 2005.
+
+3. For the **PubChem dataset**, the citation is:
+   > S. Kim, J. Chen, J. Cheng, et al. *PubChem 2019 update: improved access to chemical data*. Nucleic Acids Research, 2019.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper, ready for further processing or review.

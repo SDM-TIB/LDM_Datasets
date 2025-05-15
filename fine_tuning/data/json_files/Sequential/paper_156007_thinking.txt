@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Spintronic Physical Reservoir for Autonomous Prediction and Long-Term Household Energy Load Forecasting" by Walid Al Misba et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** of the paper to identify any datasets mentioned. The abstract mentions the use of "chaotic time series such as Mackey-Glass" and "household building energy loads," indicating that datasets related to these topics are likely included.
+
+Next, I will focus on the **Methodology section**, specifically the subsection labeled **C. DATASET**. Here, the authors explicitly describe the datasets used for their experiments:
+
+1. **Mackey-Glass Time Series**: The authors provide a detailed description of this dataset, including the equation used to generate it, the parameters involved, and the specific time steps utilized for training and prediction. They mention that 431-time steps of data are considered, with specific training and prediction splits.
+
+2. **Individual Household Power Consumption Dataset**: This dataset is described as a benchmark dataset containing electricity consumption measurements for a single residential customer, gathered between December 2006 and November 2010. The authors specify that it contains 2,075,259 measurements and that they only used the aggregate active load values for the whole house. They also detail the training and prediction splits for this dataset.
+
+After identifying the datasets, I will refer to the **References section** to find the full citations for each dataset:
+
+- For the **Mackey-Glass Time Series**, the dataset is commonly referenced in literature, but the paper does not provide a specific citation. I will note that it is a well-known chaotic time series used for benchmarking in forecasting tasks.
+
+- For the **Individual Household Power Consumption Dataset**, the citation is:
+  > K. Bache and M. Lichman. "UCI Machine Learning Repository." University of California, School of Information and Computer Science, 2013. Available: http://archive.ics.uci.edu/ml
+
+Now, I will compile the dataset entries with their descriptions and citations into a structured format, ensuring that each dataset is clearly identified and properly cited. This will facilitate further analysis or integration into other systems.

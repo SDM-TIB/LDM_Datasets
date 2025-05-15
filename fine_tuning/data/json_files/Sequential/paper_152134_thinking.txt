@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Tracking the World State with Recurrent Entity Networks" by Mikael Henaff et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions that the model sets a new state-of-the-art on the **bAbI tasks** and can be practically used on large-scale datasets such as the **Children’s Book Test**. This indicates that these datasets are likely to be important for the experiments.
+
+Next, I will focus on the **experiments section** (Section 5) where the authors describe their evaluations. In **Section 5.1**, they mention the **Synthetic World Model Task**, which is a toy task designed to measure the ability to keep a world model in memory. However, this does not seem to be a publicly available dataset.
+
+In **Section 5.2**, the authors evaluate their model on the **bAbI tasks**, which are a collection of 20 synthetic question-answering datasets. They reference the original work by Weston et al. (2015) that introduced these tasks. This is a clear indication that the bAbI tasks are a dataset used in their experiments.
+
+In **Section 5.3**, they discuss the **Children’s Book Test (CBT)**, which is another dataset used for evaluating their model. The authors provide a brief description of the CBT, indicating that it is built from children’s books available from Project Gutenberg.
+
+Now, I will look at the **References section** to find the full citations for the datasets mentioned:
+
+1. **bAbI Tasks**:
+   - The citation for the bAbI tasks is:
+     > Weston, Jason, Bordes, Antoine, Chopra, Sumit, and Mikolov, Tomas. *Towards ai-complete question answering: A set of prerequisite toy tasks*. CoRR, abs/1502.05698, 2015. URL http://arxiv.org/abs/1502.05698.
+
+2. **Children’s Book Test (CBT)**:
+   - The citation for the Children’s Book Test is:
+     > Hill, Felix, Bordes, Antoine, Chopra, Sumit, and Weston, Jason. *The goldilocks principle: Reading children’s books with explicit memory representations*. In Proceedings of the International Conference on Learning Representations, 2016.
+
+After gathering this information, I will summarize the datasets as follows:
+
+- **bAbI Tasks**: A collection of 20 synthetic question-answering datasets designed to test a wide variety of reasoning abilities.
+- **Children’s Book Test (CBT)**: A semantic language modeling benchmark built from children’s books that tests the ability of models to fill in missing words based on context.
+
+Finally, I will compile the dataset entries with their full citations, ensuring that I have accurately captured all necessary details for each dataset mentioned in the paper.

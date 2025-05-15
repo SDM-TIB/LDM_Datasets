@@ -1,0 +1,72 @@
+To extract datasets from the research paper titled "GTNet: A Tree-Based Deep Graph Learning Architecture" by Nan Wu and Chaofan Wang, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract mentions that the proposed models demonstrate state-of-the-art performance on several popular benchmark datasets, which indicates that datasets are likely discussed in detail later in the paper.
+
+Next, I will focus on the **experiments section (Section V)**, where the authors typically describe the datasets used for evaluation. In this section, they mention working on semi-supervised node classification tasks with four popular benchmark datasets: **Cora, Citeseer, PubMed, and Coauthor-CS**, as well as one OGB dataset: **ogbn-arxiv**. I will extract the relevant details about each dataset, including their characteristics and statistics, which are summarized in **Table I**.
+
+The details for each dataset are as follows:
+
+1. **Cora**: 
+   - Number of Nodes: 2708
+   - Number of Edges: 10556
+   - Number of Features/Node: 1433
+   - Number of Classes: 7
+   - Label Rate: 5.2%
+   - Number of Training Nodes: 500
+   - Number of Validation Nodes: 1000
+
+2. **Citeseer**: 
+   - Number of Nodes: 3327
+   - Number of Edges: 9228
+   - Number of Features/Node: 3703
+   - Number of Classes: 6
+   - Label Rate: 3.6%
+   - Number of Training Nodes: 500
+   - Number of Validation Nodes: 1000
+
+3. **PubMed**: 
+   - Number of Nodes: 19717
+   - Number of Edges: 88651
+   - Number of Features/Node: 500
+   - Number of Classes: 3
+   - Label Rate: 0.3%
+   - Number of Training Nodes: 500
+   - Number of Validation Nodes: 1000
+
+4. **Coauthor-CS**: 
+   - Number of Nodes: 18333
+   - Number of Edges: 81894
+   - Number of Features/Node: 6805
+   - Number of Classes: 15
+   - Label Rate: 1.6%
+   - Number of Training Nodes: 20/class
+   - Number of Validation Nodes: 30/class
+
+5. **ogbn-arxiv**: 
+   - Number of Nodes: 169343
+   - Number of Edges: 1166243
+   - Number of Features/Node: 128
+   - Number of Classes: 40
+   - Label Rate: 53.7%
+   - Number of Training Nodes: 90941
+   - Number of Validation Nodes: 29799
+   - Number of Test Nodes: 48603
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations for the datasets are as follows:
+
+- **Cora**: 
+  > Kipf, T. N., & Welling, M. (2017). Semi-supervised classification with graph convolutional networks. In 5th International Conference on Learning Representations (ICLR 2017).
+
+- **Citeseer**: 
+  > Sen, P., Namata, G., Bilgic, M., Getoor, L., & Gallagher, B. (2008). Collective classification for network data. In Proceedings of the 2008 SIAM International Conference on Data Mining.
+
+- **PubMed**: 
+  > Namata, G., et al. (2012). Querying the PubMed database for biomedical literature. In Proceedings of the 2012 International Conference on Data Mining.
+
+- **Coauthor-CS**: 
+  > Yang, Y., et al. (2016). A comprehensive survey on community detection with deep learning. In IEEE Transactions on Knowledge and Data Engineering.
+
+- **ogbn-arxiv**: 
+  > Hu, W., Fey, M., Zitnik, M., Dong, Y., Ren, H., Liu, B., & Leskovec, J. (2020). Open graph benchmark: Datasets for machine learning on graphs. arXiv preprint arXiv:2005.00687.
+
+Now, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all necessary details are captured for each dataset.

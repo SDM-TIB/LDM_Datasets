@@ -1,0 +1,54 @@
+To extract datasets from the research paper titled "Prompt Tuning with Soft Context Sharing for Vision-Language Models" by Kun Ding et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors conducted experiments on **three multi-task few-shot datasets**, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors typically describe the datasets used for their experiments. In this section, they mention three datasets:
+
+1. **General-10**: This dataset is constructed from 10 public image classification datasets, including Caltech101, DTD, EuroSAT, FGVCAircraft, Food101, Flowers102, Oxford-Pets, StanfordCars, SUN397, and UCF101. It includes both coarse-grained and fine-grained tasks.
+
+2. **Plant-6**: This dataset is specialized for plant classification and is built from 6 public datasets: FruitVegetable, KaggleFlower, KaggleMushroom, KaggleVegetable, PlantSeedling, and PlantVillage.
+
+3. **Fashion-20**: This dataset is specifically for fashion classification and consists of 20 tasks related to various fashion attributes. It was collected by the authors and contains approximately 24,000 images.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset mentioned. The citations are as follows:
+
+- For **General-10**, since it is a combination of multiple datasets, I will cite the individual datasets:
+  - Caltech101: 
+    > Fei-Fei Li, Robert Fergus, and Pietro Perona. *Learning generative visual models from few training examples: An incremental bayesian approach tested on 101 object categories*. Comput. Vis. Image Underst., 106(1):59–70, 2007.
+  - DTD: 
+    > Mircea Cimpoi, Subhransu Maji, Iasonas Kokkinos, Sammy Mohamed, and Andrea Vedaldi. *Describing textures in the wild*. In CVPR, pages 3606–3613, 2014.
+  - EuroSAT: 
+    > Patrick Helber, Benjamin Bischke, Andreas Dengel, and Damian Borth. *EuroSAT: A novel dataset and deep learning benchmark for land use and land cover classification*. IEEE J. Sel. Top. Appl. Earth Obs. Remote. Sens., 12(7):2217–2226, 2019.
+  - FGVCAircraft: 
+    > Subhransu Maji, Esa Rahtu, Juho Kannala, Matthew B. Blaschko, and Andrea Vedaldi. *Fine-grained visual classification of aircraft*. CoRR, abs/1306.5151, 2013.
+  - Food101: 
+    > Lukas Bossard, Matthieu Guillaumin, and Luc Van Gool. *Food-101 - mining discriminative components with random forests*. In ECCV, volume 8694, pages 446–461, 2014.
+  - Flowers102: 
+    > Maria-Elena Nilsback and Andrew Zisserman. *Automated flower classification over a large number of classes*. In ICVGIP, pages 722–729, 2008.
+  - Oxford-Pets: 
+    > Omkar M. Parkhi, Andrea Vedaldi, Andrew Zisserman, and C. V. Jawahar. *Cats and dogs*. In CVPR, pages 3498–3505, 2012.
+  - StanfordCars: 
+    > Jonathan Krause, Michael Stark, Jia Deng, and Li Fei-Fei. *3D object representations for fine-grained categorization*. In ICCVW, pages 554–561, 2013.
+  - SUN397: 
+    > Jianxiong Xiao, James Hays, Krista A. Ehinger, Aude Oliva, and Antonio Torralba. *SUN database: Large-scale scene recognition from abbey to zoo*. In CVPR, pages 3485–3492, 2010.
+  - UCF101: 
+    > Khurram Soomro, Amir Roshan Zamir, and Mubarak Shah. *UCF101: A dataset of 101 human actions classes from videos in the wild*. CoRR, abs/1212.0402, 2012.
+
+- For **Plant-6**, the citations for the individual datasets are:
+  - FruitVegetable: 
+    > Fruits and Vegetables Image Recognition Dataset. https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition. Accessed: 2022-06-01.
+  - KaggleFlower: 
+    > Flowers Recognition. https://www.kaggle.com/datasets/alxmamaev/flowers-recognition. Accessed: 2022-06-01.
+  - KaggleMushroom: 
+    > Mushrooms classification - Common genus’s images. https://www.kaggle.com/datasets/maysee/mushrooms-classification-common-genus-images. Accessed: 2022-06-01.
+  - KaggleVegetable: 
+    > Vegetable Image Dataset. https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset. Accessed: 2022-06-02.
+  - PlantSeedling: 
+    > Plant Seedlings Dataset. https://vision.eng.au.dk/plant-seedlings-dataset. Accessed: 2022-06-03.
+  - PlantVillage: 
+    > Plantvillage Dataset. https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset. Accessed: 2022-06-03.
+
+- For **Fashion-20**, the dataset is cited as:
+  > Fashion-20 dataset collected by the authors, details not specified in the references.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

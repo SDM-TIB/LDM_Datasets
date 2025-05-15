@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Can Model Compression Improve NLP Fairness?" by Guangxuan Xu and Qingyuan Hu, I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors evaluate the effects of model compression techniques on toxicity and bias, which suggests that datasets related to these evaluations may be present.
+
+Next, I will focus on the **experiments section**, particularly **section 4**, where the authors describe their experimental setup. Here, they mention two datasets used for toxicity evaluation:
+
+1. **RealToxicityPrompts**: This dataset is sourced from the OpenWebText dataset and is used to evaluate the toxicity of model generations. The authors describe it as containing half-sentence prompts that can trigger toxic responses from language models.
+
+2. **Toxic Comment Classification Challenge (TCCC)**: This dataset is sourced from Wikipedia comment pages and is used to classify comments as toxic or non-toxic. The authors mention that they curated a prompts dataset based on TCCC.
+
+For bias evaluation, the authors refer to two additional datasets:
+
+3. **Stereoset**: This dataset measures social bias in language models and includes sentences that are stereotyped, anti-stereotyped, or unrelated.
+
+4. **Winobias**: This dataset is used to measure gender bias and contains sentences that differ only by gender pronouns.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **RealToxicityPrompts**, the citation is:
+  > Samuel Gehman, Suchin Gururangan, Maarten Sap, Yejin Choi, and Noah A. Smith. *Realtoxicityprompts: Evaluating neural toxic degeneration in language models*. ArXiv, abs/2009.11462, 2020.
+
+- For **Toxic Comment Classification Challenge**, the citation is:
+  > Google Jigsaw. *Toxic Comment Classification Challenge*. Available at: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge.
+
+- For **Stereoset**, the citation is:
+  > Moin Nadeem, Anna Bethke, and Siva Reddy. *Stereoset: Measuring stereotypical bias in pretrained language models*. In ACL/IJCNLP, 2021.
+
+- For **Winobias**, the citation is:
+  > Jieyu Zhao, Tianlu Wang, Mark Yatskar, Vicente Ordonez, and Kai-Wei Chang. *Gender bias in coreference resolution: Evaluation and debiasing methods*. In NAACL, 2018.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper, ready for further processing or review.

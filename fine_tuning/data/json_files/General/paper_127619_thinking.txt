@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Do Language Models Know When They’re Hallucinating References?" by Ayush Agrawal et al., I will follow a systematic approach to identify and document any datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to find any references to datasets. The abstract mentions the study of hallucinated book and article references, which suggests that there may be datasets related to these references.
+
+Next, I will focus on the **methodology section**, specifically **section 5 (Experimental Details)**, where the authors describe how they constructed a corpus of article and book references. They mention using the **ACM Computing Classification System (CCS)** as a source for generating a representative set of topics in computer science. This indicates that the CCS is a dataset used in their experiments.
+
+In **section 5.1**, the authors detail their dataset construction process, stating that they selected a random subset of 200 topics from the CCS and prompted language models to generate reference titles related to these topics. This results in a total of 1,000 titles per language model, which constitutes another dataset.
+
+In **section 5.2**, the authors describe using the **Bing search engine API** as an automatic labeling heuristic to classify the generated titles as either grounded or hallucinated. This indicates that the results from the Bing API are also part of their dataset for evaluating the language models.
+
+Now, I will compile the full citations for the datasets mentioned:
+
+1. **ACM Computing Classification System (CCS)**:
+   > Rous, B. (2012). Major update to ACM’s Computing Classification System. *Communications of the ACM*, 55(11), 12.
+
+2. **Bing Search API**:
+   > Microsoft. Bing Search API. Retrieved from https://www.microsoft.com/en-us/bing/apis/bing-web-search-api.
+
+After identifying these datasets and their citations, I will summarize the findings in a structured format for clarity and future reference. This will ensure that the datasets are properly documented and can be easily accessed or referenced in future work.

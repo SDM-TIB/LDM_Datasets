@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Translation Between Waves, wave2wave" by Tsuyoshi Okita et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and evaluation sections** to locate any references to datasets. The abstract mentions experimental results for two real-life data types: **earthquake translation** and **activity translation**. This indicates that there are datasets related to these applications.
+
+Next, I will examine the **evaluation sections** (specifically sections 4 and 5) where the authors discuss their experiments in detail. In section 4, they describe the dataset used for earthquake translation, which consists of **365 ground motion data** collected from the observation station IBR011 in Ibaraki prefecture, Japan, from January 1, 2000, to December 31, 2017. They also mention that 10 data points related to the Tohoku earthquakes were removed, leaving 365 usable data points.
+
+In section 5, the authors refer to the **MHAD dataset** for activity translation, which includes video, accelerometer, and motion capture modalities. They specify that the video input was preprocessed using the OpenPose library, and they used data from 12 persons across 5 trials.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+1. For the **earthquake dataset**, the authors do not provide a specific citation in the references, but they mention that the data was collected by K(kyosin)-NET. Therefore, I will note that the dataset is sourced from K(kyosin)-NET without a formal citation.
+
+2. For the **MHAD dataset**, I will refer to the original source of the dataset, which is:
+   > "Berkeley MHAD: A Multimodal Human Action Dataset." Available at: http://tele-immersion.citris-uc.org/berkeley_mhad.
+
+After gathering this information, I will summarize the datasets as follows:
+
+- **Earthquake Dataset**: 365 ground motion data collected from IBR011, Ibaraki, Japan, from January 1, 2000, to December 31, 2017. No formal citation available, sourced from K(kyosin)-NET.
+
+- **MHAD Dataset**: A multimodal dataset for human action recognition, including video, accelerometer, and motion capture data. Citation:
+   > "Berkeley MHAD: A Multimodal Human Action Dataset." Available at: http://tele-immersion.citris-uc.org/berkeley_mhad.
+
+Finally, I will compile this information into a structured format for further processing or review.

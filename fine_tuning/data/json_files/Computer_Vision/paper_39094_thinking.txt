@@ -1,0 +1,48 @@
+To extract datasets from the research paper titled "EdgeStereo: An Effective Multi-Task Learning Network for Stereo Matching and Edge Detection" by Xiao Song et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors achieved state-of-the-art performance on several datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4.1 (Datasets and Evaluation Metrics)**, where the authors explicitly list the datasets used for training and testing. Here, they mention five publicly available stereo matching datasets and two edge detection datasets:
+
+1. **FlyingThings3D**: A large-scale synthetic dataset with dense ground-truth disparities, containing 22,390 stereo pairs for training and 4,370 pairs for testing. The authors note that it is used with two specific testing protocols.
+
+2. **KITTI 2012**: A real-world dataset with street views from a driving car, containing 194 stereo pairs for training and 195 for testing. The training data is further divided into a training set and a validation set.
+
+3. **KITTI 2015**: Another real-world dataset with dynamic street views, containing 200 training pairs and 200 testing pairs, also divided into training and validation sets.
+
+4. **CityScapes**: An urban scene understanding dataset that provides 19,997 rectified stereo pairs and their disparity maps, which are used for pretraining.
+
+5. **Middlebury 2014**: A smaller indoor dataset with 15 training pairs and 15 test pairs, containing dense ground-truth disparities.
+
+For edge detection, the authors mention:
+
+1. **Multicue**: A boundary and edge detection dataset with 100 images used for training.
+
+2. **BSDS500**: A widely used edge detection dataset composed of 200 training, 100 validation, and 200 testing images, which is only used for testing in this work.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset mentioned. 
+
+The citations I will need to extract are:
+
+- For **FlyingThings3D**:
+  > Mayer, N., Ilg, E., Hausser, P., Fischer, P., Cremers, D., Dosovitskiy, A., & Brox, T. (2016). A large dataset to train convolutional networks for disparity, optical flow, and scene flow estimation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 4040–4048.
+
+- For **KITTI 2012**:
+  > Geiger, A., Lenz, P., & Urtasun, R. (2012). Are we ready for autonomous driving? The KITTI vision benchmark suite. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 3354–3361.
+
+- For **KITTI 2015**:
+  > Menze, M., & Geiger, A. (2015). Object scene flow for autonomous vehicles. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 3061–3070.
+
+- For **CityScapes**:
+  > Cordts, M., Omran, M., Ramos, S., Rehfeld, T., Enzweiler, M., Benenson, R., Franke, U., Roth, S., & Schiele, B. (2016). The Cityscapes dataset for semantic urban scene understanding. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 3213–3223.
+
+- For **Middlebury 2014**:
+  > Scharstein, D., & Szeliski, R. (2014). High-resolution stereo datasets with subpixel-accurate ground truth. In Proceedings of the German Conference on Pattern Recognition (GCPR), pp. 31–42.
+
+- For **Multicue**:
+  > Mely, D.A., Kim, J., McGill, M., Guo, Y., & Serre, T. (2016). A systematic comparison between visual cues for boundary detection. Vision Research, 120, 93–107.
+
+- For **BSDS500**:
+  > Arbelaez, P., Maire, M., Fowlkes, C., & Malik, J. (2011). Contour detection and hierarchical image segmentation. IEEE Transactions on Pattern Analysis and Machine Intelligence, 33(5), 898–916.
+
+Now, I will compile the dataset entries along with their full citations for further processing.

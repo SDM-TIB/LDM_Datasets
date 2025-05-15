@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Incrementally Improving Graph WaveNet Performance on Traffic Prediction" by Sam Shleifer et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract** to see if any datasets are mentioned. The abstract indicates that the authors improved upon Graph WaveNet's performance on the **METR-LA traffic prediction task** and also mentions the **PEMS-BAY dataset**. This suggests that these two datasets are relevant for my extraction.
+
+Next, I will examine the **introduction** section for any additional context or details about the datasets. The introduction discusses the importance of traffic prediction but does not provide new dataset names, so I will move on.
+
+In the **dataset section (Section 2)**, the authors explicitly describe the datasets used:
+
+1. **METR-LA**: This dataset consists of sensor readings from Los Angeles County highways, where velocities of passing vehicles are recorded in 5-minute intervals. The paper mentions that this dataset is used for all experiments.
+
+2. **PEMS-BAY**: This dataset is mentioned as a larger dataset that contains data from 325 sensors over 6 months in the Bay Area. The authors confirm that their modifications also improve accuracy on this dataset.
+
+I will also check the **references section** to find the full citations for these datasets. The citations are as follows:
+
+- For **METR-LA**, the citation is:
+  > Yaguang Li, Rose Yu, Cyrus Shahabi, and Yan Liu. *Diffusion convolutional recurrent neural network: Data-driven traffic forecasting*. In International Conference on Learning Representations (ICLR ’18), 2018.
+
+- For **PEMS-BAY**, while the paper does not provide a specific citation for this dataset, it is commonly referenced in traffic prediction literature. I will use the following citation:
+  > Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, and Chengqi Zhang. *Graph wavenet for deep spatial-temporal graph modeling*. arXiv preprint arXiv:1906.00121, 2019. (This citation is relevant as it discusses the Graph WaveNet model which utilizes the PEMS-BAY dataset.)
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use. This will ensure that I have accurately documented the datasets and their sources for any future reference or analysis.

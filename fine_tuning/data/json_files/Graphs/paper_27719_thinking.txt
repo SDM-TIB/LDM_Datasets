@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Learning Unknown from Correlations: Graph Neural Network for Inter-novel-protein Interaction Prediction" by Guofeng Lv et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and experiment sections** to locate any references to datasets. The abstract mentions that the authors conducted experiments on "real-world datasets of different scales," which indicates that datasets are involved.
+
+Next, I will focus on **section 4 (Experiment)**, where the authors explicitly describe the datasets used for their evaluations. Here, they mention three datasets:
+
+1. **SHS27k**: This dataset consists of 7,624 multi-label protein-protein interactions (PPIs) derived from a subset of the STRING database, which includes proteins that share less than 40% sequence identity.
+
+2. **SHS148k**: This dataset contains 44,488 multi-label PPIs, also sourced from the STRING database, with the same criteria for protein selection as SHS27k.
+
+3. **STRING**: This dataset includes all PPIs of Homo sapiens, comprising 15,335 proteins and 593,397 PPIs, providing a comprehensive view of protein interactions.
+
+In the **References section**, I will look for full citations for these datasets. The authors reference the STRING database, which is crucial for both SHS27k and SHS148k datasets. The citation for the STRING database is:
+
+- For STRING database:
+  > Damian Szklarczyk, Annika L Gable, David Lyon, Alexander Junge, Stefan Wyder, Jaime Huerta-Cepas, Milan Simonovic, Nadezhda T Doncheva, John H Morris, Peer Bork, et al. *String v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets*. Nucleic acids research, 47(D1):D607–D613, 2019.
+
+The SHS27k and SHS148k datasets are derived from the STRING database, so they do not have separate citations but are acknowledged as subsets of STRING.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for the STRING database, which serves as the source for the other two datasets. 
+
+After gathering all this information, I will prepare the dataset entries for structured output, ensuring clarity and completeness in the documentation of each dataset.

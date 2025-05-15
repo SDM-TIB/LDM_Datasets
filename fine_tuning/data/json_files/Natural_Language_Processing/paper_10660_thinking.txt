@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Exploiting Correlations Between Contexts and Definitions with Multiple Definition Modeling" by Linhan Zhang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to get an overview of the research focus and any datasets that may be introduced. The abstract mentions the creation of a new dataset called **WordWiki** for the Multiple Definition Modeling (MDM) task, which is a key dataset for this research.
+
+Next, I will look into **section 4 (Training Datasets for MDM Tasks)**, where the authors provide detailed information about the datasets used in their experiments. Here, they specifically mention two datasets:
+
+1. **MDM-WordNet**: This dataset is constructed using WordNet glosses and is designed for the MDM-Easy task. It aligns contexts and definitions, making it suitable for evaluating the MDM approach.
+
+2. **MDM-WordWiki**: This dataset is created automatically from open-domain Wikitext and is used for the MDM-Hard task. It allows for the generation of multiple definitions without requiring alignment between contexts and definitions.
+
+In **section 5 (Experiments)**, the authors also refer to the **SDM-WordNet** dataset, which is used as a benchmark for evaluating the performance of the MDM models. This dataset consists of entries from WordNet, including words, their senses, and corresponding usage examples.
+
+Now, I will gather the full citations for each dataset mentioned in the paper from the **References section**:
+
+- For **WordNet**, the citation is:
+  > Ishiwatari, S., Hayashi, H., Yoshinaga, N., Neubig, G., Sato, S., Toyoda, M., & Kitsuregawa, M. (2019). Learning to describe unknown phrases with local and global contexts. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, NAACL-HLT 2019, Minneapolis, MN, USA, June 2-7, 2019, Volume 1 (Long and Short Papers), pages 3467–3476. Association for Computational Linguistics.
+
+- For **MDM-WordNet**, since it is derived from WordNet, I will use the same citation as above.
+
+- For **MDM-WordWiki**, the citation is not explicitly provided in the references, but it is mentioned that it is created using open-domain Wikitext. Therefore, I will cite the Wikitext dataset as follows:
+  > Wikitext. (n.d.). Retrieved from https://huggingface.co/datasets/wikitext
+
+- For **SDM-WordNet**, I will use the same citation as for WordNet since it is based on the same dataset.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

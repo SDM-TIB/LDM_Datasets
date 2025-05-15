@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "LANe: Lighting-Aware Neural Fields for Compositional Scene Synthesis" by Akshay Krishnan et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors demonstrate their model's performance on both a synthetic dataset rendered with the CARLA simulator and a real-world dataset of cars collected at different times of the day. This suggests that there are at least two datasets to extract.
+
+Next, I will focus on the **experiments section** (Section 4) where the authors typically describe the datasets used in their experiments. In **Section 4.2 (Datasets)**, the authors provide detailed descriptions of the datasets:
+
+1. **Synthetic CARLA Dataset**: This dataset is generated using the CARLA simulator, which includes images of multiple urban scenes under varying lighting conditions. The dataset consists of 8 scenes with 5 different car instances observed in 40 different locations for each scene. The authors mention that they divide the scenes into 6 training scenes and 2 test scenes.
+
+2. **Real World Dataset**: This dataset comprises a multi-view collection of images of 4 different cars captured at 10 different times of the day. The images are collected using a handheld mobile camera, and the authors describe the process of extracting frames and estimating camera poses.
+
+Now, I will look into the **References section** to find the full citations for these datasets. The paper cites the CARLA simulator as follows:
+
+- For the **CARLA simulator**, the citation is:
+  > Alexey Dosovitskiy, Germán Ros, Felipe Codevilla, Antonio López, and Vladlen Koltun. *CARLA: An Open Urban Driving Simulator*. In Conference on Robot Learning, pages 1–16. PMLR, 2017.
+
+For the **real-world dataset**, the authors do not provide a specific citation in the references, as it appears to be a novel dataset collected by the authors themselves. Therefore, I will note that the dataset is original to this work.
+
+After gathering this information, I will summarize the datasets as follows:
+
+1. **Synthetic CARLA Dataset**: A dataset generated using the CARLA simulator, consisting of images of urban scenes with varying lighting conditions.
+   - Citation: 
+     > Alexey Dosovitskiy, Germán Ros, Felipe Codevilla, Antonio López, and Vladlen Koltun. *CARLA: An Open Urban Driving Simulator*. In Conference on Robot Learning, pages 1–16. PMLR, 2017.
+
+2. **Real World Dataset**: A novel dataset of cars collected at different times of the day, captured using a handheld camera.
+   - Citation: Original dataset collected by the authors.
+
+Now, I will compile the dataset entries into a structured format for further processing or review.

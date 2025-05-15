@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "LoRA-GA: Low-Rank Adaptation with Gradient Approximation" by Shaowen Wang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to locate any references to datasets. The abstract mentions that the authors conducted extensive experiments, which suggests that datasets are likely involved.
+
+Next, I will focus on the **experiments section** (Section 4) where the authors typically describe the datasets used for evaluation. In this section, they mention evaluating their method on various benchmark datasets. Specifically, they refer to:
+
+1. **GLUE Dataset**: A well-known benchmark for evaluating natural language understanding models. The authors mention using a subset of this dataset with the T5-Base model.
+
+2. **MT-Bench Dataset**: This dataset is used to evaluate the chat capabilities of their model, specifically designed for multi-turn questions.
+
+3. **MetaMathQA Dataset**: This dataset is utilized for evaluating mathematical reasoning capabilities, bootstrapped from other instruction tuning datasets.
+
+4. **GSM8K Dataset**: A dataset for mathematical problem-solving, which is also mentioned in the context of evaluating their model's performance.
+
+5. **HumanEval Dataset**: This dataset consists of Python programming tasks and is used to assess the coding abilities of the model.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For the **GLUE Dataset**, the citation is:
+  > Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R Bowman. *GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding*. arXiv preprint arXiv:1804.07461, 2018.
+
+- For the **MT-Bench Dataset**, the citation is:
+  > Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric Xing, et al. *Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena*. Advances in Neural Information Processing Systems, 36, 2024.
+
+- For the **MetaMathQA Dataset**, the citation is:
+  > Longhui Yu, Weisen Jiang, Han Shi, Jincheng Yu, Zhengying Liu, Yu Zhang, James T. Kwok, Zhenguo Li, Adrian Weller, and Weiyang Liu. *MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models*. arXiv preprint arXiv:2401.12345, 2024.
+
+- For the **GSM8K Dataset**, the citation is:
+  > Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, et al. *Training Verifiers to Solve Math Word Problems*. arXiv preprint arXiv:2110.14168, 2021.
+
+- For the **HumanEval Dataset**, the citation is:
+  > Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, et al. *Evaluating Large Language Models Trained on Code*. arXiv preprint arXiv:2107.03374, 2021.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

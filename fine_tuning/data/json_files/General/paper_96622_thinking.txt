@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Entropy Maximization and Meta Classification for Out-of-Distribution Detection in Semantic Segmentation" by Robin Chan et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. In the abstract, the authors refer to using the **COCO dataset** as an out-of-distribution (OoD) proxy, which indicates that this dataset is relevant to their research.
+
+Next, I will examine the **methodology** and **experiments** sections, particularly focusing on any sections that explicitly mention datasets. In the introduction, the authors discuss the **Cityscapes dataset** as the in-distribution dataset for training their models. They also mention the **LostAndFound** and **Fishyscapes** datasets as the OoD datasets used for evaluation.
+
+In the **experiments section**, the authors provide details about the datasets used:
+1. **Cityscapes Dataset**: This dataset is used for training the segmentation model. It consists of pixel-annotated urban street scene images.
+2. **COCO Dataset**: Used as a proxy for OoD samples, specifically images that do not contain instances present in the Cityscapes dataset.
+3. **LostAndFound Dataset**: This dataset contains images with annotations of road and small obstacles, used for evaluating OoD detection performance.
+4. **Fishyscapes Dataset**: This dataset includes images with annotated anomalous objects, also used for evaluating OoD detection performance.
+
+Now, I will look at the **References section** to find the full citations for each dataset mentioned:
+
+- For the **Cityscapes dataset**, the citation is:
+  > Marius Cordts, Mohamed Omran, Sebastian Ramos, et al. *The cityscapes dataset for semantic urban scene understanding*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016.
+
+- For the **COCO dataset**, the citation is:
+  > Tsung-Yi Lin, Michael Maire, Serge Belongie, et al. *Microsoft COCO: Common Objects in Context*. In Computer Vision – ECCV 2014, pages 740–755. Springer International Publishing, 2014.
+
+- For the **LostAndFound dataset**, the citation is:
+  > Peter Pinggera, Sebastian Ramos, Stefan Gehrig, Uwe Franke, Carsten Rother, and Rudolf Mester. *Lost and found: detecting small road hazards for self-driving vehicles*. In 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2016.
+
+- For the **Fishyscapes dataset**, the citation is:
+  > Hermann Blum, Paul-Edouard Sarlin, Juan Nieto, et al. *Fishyscapes: A benchmark for safe semantic segmentation in autonomous driving*. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops, October 2019.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described along with its full citation. This structured approach will help in maintaining clarity and accuracy in the dataset extraction process.

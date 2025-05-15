@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Integrating Offline Reinforcement Learning with Transformers for Sequential Recommendation" by Xumei Xi et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions that the authors conducted extensive experiments on public datasets, which indicates that datasets are involved. I will look for specific names or descriptions of these datasets.
+
+Next, I will examine the **experiments section** (Section 5) where the authors explicitly mention the datasets used for their experiments. In this section, they refer to two datasets:
+
+1. **MovieLens 25M**: This dataset contains 25 million 5-star movie ratings from 1995 to 2019. Each entry includes user ID, movie ID, rating (0.5–5.0), and timestamp. The authors note that they will not use the features in the dataset but will compute features via the next-item prediction in their algorithm.
+
+2. **Yoochoose**: This dataset consists of six months of user activities from an e-commerce company, including clicks and purchases. Each entry contains item ID, item price, quantity, session ID, and timestamp. The authors focus on recommending items based on click and purchase events.
+
+After identifying the datasets, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **MovieLens 25M**, the citation is:
+  > F. Maxwell Harper and Joseph A. Konstan. *The MovieLens Datasets: History and Context*. ACM Transactions on Interactive Intelligent Systems (TIIS), 5(4):1–19, 2015.
+
+- For **Yoochoose**, the citation is:
+  > David Ben-Shimon, Alexander Tsikinovsky, Michael Friedmann, Bracha Shapira, Lior Rokach, and Johannes Hoerle. *Recsys Challenge 2015 and the Yoochoose Dataset*. In Proceedings of the 9th ACM Conference on Recommender Systems, RecSys ’15, pages 357–358, 2015.
+
+Now that I have the datasets and their citations, I will compile this information into a structured format for further processing or review.

@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Enhancing Social Relation Inference with Concise Interaction Graph and Discriminative Scene Representation" by Xiaotian Yu et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions the collection of a "new large-scale dataset" consisting of about 240,000 unlabeled images, which indicates that there are datasets relevant to the research.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors explicitly describe the datasets used for their experiments. In this section, they mention two primary datasets:
+
+1. **PIPA Dataset**: This dataset is referenced as being used for evaluating social relation classification. The authors note that the accuracy over all classes is used to evaluate methods on this dataset.
+
+2. **PISC Dataset**: This dataset is also mentioned as being used for experiments, with a hierarchy of social relations defined within it. The authors provide details about the evaluation metrics used for this dataset, such as per-class recalls and mean Average Precision (mAP).
+
+Additionally, the authors introduce a new dataset called **PISC-extension**, which is an extension of the PISC dataset, created by using Google image search to find similar images. This dataset contains approximately 240,200 images and is used for contrastive learning.
+
+Now, I will check the **References section** to find the full citations for each of these datasets:
+
+- For the **PIPA Dataset**, the citation is:
+  > Zhang, N., Paluri, M., Taigman, Y., Fergus, R., & Bourdev, L. (2015). Beyond frontal faces: Improving person recognition using multiple cues. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 4804–4813.
+
+- For the **PISC Dataset**, the citation is:
+  > Li, J., Wong, Y., Zhao, Q., & Kankanhalli, M. S. (2017). Dual-glance model for deciphering social relationships. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2650–2659.
+
+- For the **PISC-extension Dataset**, since it is a new dataset created by the authors, I will note that it is based on the PISC dataset and does not have a separate citation.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation for proper attribution. This will provide a comprehensive overview of the datasets utilized in the research.

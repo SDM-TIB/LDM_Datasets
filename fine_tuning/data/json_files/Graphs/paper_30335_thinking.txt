@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "DDoS: a graph neural network based drug synergy prediction algorithm" by Kyriakos Schwarz et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** to identify any initial mentions of datasets. The authors mention that they extract data from the **DrugComb** database and generate multiple synergy scores to create seven datasets. This indicates that there are specific datasets to look for.
+
+Next, I will examine the **introduction** and **experiments sections** to gather more context about the datasets. In the introduction, the authors discuss the importance of drug synergy and the need for diverse datasets, which reinforces the idea that they will provide detailed information about the datasets used.
+
+I will then focus on **section 4.1 (Benchmark datasets)**, where the authors explicitly list the seven datasets they constructed based on different synergy scoring methods. The datasets mentioned are:
+
+1. **Majority-4 Dataset**: Contains 26,031 samples with a positive label rate of approximately 50%.
+2. **Majority-3 Dataset**: Contains 64,168 samples with a positive label rate of approximately 36%.
+3. **Majority-2 Dataset**: Contains 110,340 samples with a positive label rate of approximately 40%.
+4. **Loewe Dataset**: Contains 166,608 samples with a positive label rate of approximately 15%.
+5. **Bliss Dataset**: Contains 126,619 samples with a positive label rate of approximately 49%.
+6. **HSA Dataset**: Contains 109,691 samples with a positive label rate of approximately 30%.
+7. **ZIP Dataset**: Contains 89,868 samples with a positive label rate of approximately 40%.
+
+In this section, the authors also provide a brief description of how these datasets were constructed, including the filtering process and the majority voting scheme used to categorize samples.
+
+Next, I will check the **References section** to find the full citations for the datasets mentioned. The primary dataset referenced is the **DrugComb database**, which is cited as follows:
+
+- **DrugComb Database**: 
+  > Zheng, S., Aldahdooh, J., Shadbahr, T., Wang, Y., Aldahdooh, D., Bao, J., et al. (2021). Drugcomb update: a more comprehensive drug sensitivity data repository and analysis portal. *Nucleic Acids Research*, 49(W1), W174–W184.
+
+Additionally, the authors reference other studies that contributed to the datasets, such as:
+
+- **NCI-ALMANAC**: 
+  > Holbeck, S. L., Camalier, R., Crowell, J. A., Govindharajulu, J. P., Hollingshead, M., Anderson, L. W., et al. (2017). The national cancer institute almanac: A comprehensive screening resource for the detection of anticancer drug pairs with enhanced therapeutic activity. *Cancer Research*, 77(13), 3564–3576.
+
+- **O’NEIL Dataset**: 
+  > O’Neil, J., Benita, Y., Feldman, I., Chenard, M., Roberts, B., Liu, Y., et al. (2016). An unbiased oncology compound screen to identify novel combination strategies. *Molecular Cancer Therapeutics*, 15(6), 1155–1162.
+
+- **CLOUD Dataset**: 
+  > Licciardello, M. P., Ringler, A., Markt, P., Klepsch, F., Lardeau, C. H., Sdelci, S., et al. (2017). A combinatorial screen of the cloud uncovers a synergy targeting the androgen receptor. *Nature Chemical Biology*, 13(7), 771–778.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This will ensure that all relevant datasets are documented with their full citations, which is crucial for any downstream applications or analyses.

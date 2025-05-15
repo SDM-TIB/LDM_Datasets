@@ -1,0 +1,61 @@
+To extract datasets from the research paper titled "Learn molecular representations from large-scale unlabeled molecules for drug discovery" by Pengyong Li et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and results sections** to gather initial insights about the datasets. The abstract mentions that the proposed method was evaluated on **13 benchmark datasets** for various drug discovery tasks, which indicates that multiple datasets are involved.
+
+Next, I will focus on the **results section**, particularly the subsections that detail the experiments and evaluations. In this section, the authors provide a table summarizing the performance of their method on different datasets. This table is crucial as it lists the datasets used for molecular properties prediction, drug-drug interaction (DDI), and drug-target interaction (DTI).
+
+Upon reviewing the results, I identify the following datasets:
+
+1. **BBBP**: A dataset used for blood-brain barrier penetration prediction, containing 2,039 molecules.
+2. **SIDER**: A dataset for side effect prediction, consisting of 1,427 molecules.
+3. **ClinTox**: A dataset for clinical toxicity prediction, with 1,478 molecules.
+4. **BACE**: A dataset for predicting activity against the β-secretase enzyme, containing 1,513 molecules.
+5. **Tox21**: A dataset for toxicity prediction, which includes 7,831 molecules.
+6. **ToxCast**: A dataset for toxicity prediction with 8,575 molecules.
+7. **ESOL**: A dataset for solubility prediction, containing 1,128 molecules.
+8. **Lipo**: A dataset for lipophilicity prediction, consisting of 4,200 molecules.
+9. **FreeSolv**: A dataset for solvation free energy prediction, with 642 molecules.
+
+Additionally, the paper mentions that the authors participated in a DDI prediction task using the **BIOSNAP** dataset and a DTI prediction task using the **Human** and **C.elegans** datasets.
+
+Now, I will look into the **References section** to find the full citations for each dataset. This is essential for proper attribution and to provide context for future researchers.
+
+The citations I find are as follows:
+
+- **BBBP**: 
+  > Vilar, S. et al. Similarity-based modeling in large-scale prediction of drug-drug interactions. *Nature protocols* 9, 2147 (2014).
+
+- **SIDER**: 
+  > Gaulton, A. et al. ChEMBL: a large-scale bioactivity database for drug discovery. *Nucleic Acids Research* 40, D1100–D1107 (2011).
+
+- **ClinTox**: 
+  > Ghasemi, F. et al. Neural network and deep-learning algorithms used in QSAR studies: merits and drawbacks. *Drug Discov. Today* 23, 1784–1790 (2018).
+
+- **BACE**: 
+  > Yang, K. et al. Analyzing learned molecular representations for property prediction. *Journal of chemical information and modeling* 59, 3370–3388 (2019).
+
+- **Tox21**: 
+  > Huang, K. et al. CASTER: Predicting drug interactions with chemical substructure representation. *Proceedings of the AAAI Conference on Artificial Intelligence* 34, 702–709 (2020).
+
+- **ToxCast**: 
+  > Wu, Z. et al. MoleculeNet: A benchmark for molecular machine learning. *Chemical Science* 9, 513–530 (2018).
+
+- **ESOL**: 
+  > Ramsundar, B. et al. Massively multitask networks for drug discovery. *arXiv preprint arXiv:1502.02072* (2015).
+
+- **Lipo**: 
+  > Jaeger, S. et al. Mol2Vec: unsupervised machine learning approach with chemical intuition. *Journal of chemical information and modeling* 58, 27–35 (2018).
+
+- **FreeSolv**: 
+  > Sterling, T. & Irwin, J. J. ZINC 15 – ligand discovery for everyone. *Journal of Chemical Information and Modeling* 55, 2324–2337 (2015).
+
+- **BIOSNAP**: 
+  > Marinka Zitnik, S. M., Rok Sosić & Leskovec, J. BioSNAP Datasets: Stanford biomedical network dataset collection. http://snap.stanford.edu/biodata (2018).
+
+- **Human**: 
+  > Tsubaki, M. et al. Compound-protein interaction prediction with end-to-end learning of neural networks for graphs and sequences. *Bioinformatics* 35, 309–318 (2019).
+
+- **C.elegans**: 
+  > Chen, R. et al. Machine learning for drug-target interaction prediction. *Molecules* 23, 2208 (2018).
+
+With these citations in hand, I will compile the dataset entries into a structured format for further processing or review.

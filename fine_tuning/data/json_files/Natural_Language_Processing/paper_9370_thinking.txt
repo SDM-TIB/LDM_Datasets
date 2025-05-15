@@ -1,0 +1,34 @@
+To extract the datasets from the research paper titled "Impact of Subword Pooling Strategy on Cross-lingual Event Detection" by Shantanu Agarwal et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and datasets sections** of the paper. The abstract mentions the use of multilingual datasets for cross-lingual event detection, which indicates that datasets will be discussed in detail later in the paper.
+
+Next, I will focus on the **Datasets section**, which explicitly lists the datasets used in the experiments. The authors mention several datasets, and I will carefully note each one along with its description:
+
+1. **BETTER Abstract**: This dataset is part of the BETTER program, which focuses on information extraction and retrieval. The training data is available only in English, while test data is available in English, Arabic, Farsi, and Korean. There are no event type distinctions in this task.
+
+2. **BETTER Basic Phase-1**: This dataset includes events with associated event types, with a total of 69 event types in the Phase-1 ontology. Training and validation data are provided for English, and test data is available for both English and Arabic.
+
+3. **BETTER Basic Phase-2**: This dataset expands the Phase-1 ontology to cover 92 event types. Training and validation annotations are available for English, and test data is available for English and Farsi.
+
+4. **ACE**: The Automatic Content Extraction (ACE) dataset is widely used for benchmarking information extraction systems. It includes training, validation, and test data in English, Arabic, and Chinese. However, the authors exclude Chinese from their analysis.
+
+5. **MINION**: This dataset is designed for event detection and includes eight different languages. It borrows its ontology from the ACE dataset and has 16 event types. The authors use the official train/dev/test splits for reporting scores.
+
+After identifying the datasets, I will look into the **References section** to find the full citations for each dataset mentioned:
+
+- For **BETTER Abstract**, the citation is:
+  > National Institute of Standards and Technology (NIST). *BETTER: Better Extraction from Text Towards Enhanced Retrieval*. Available at: https://ir.nist.gov/better.
+
+- For **BETTER Basic Phase-1**, the citation is:
+  > National Institute of Standards and Technology (NIST). *BETTER Basic Phase-1 Dataset*. Available at: https://ir.nist.gov/better.
+
+- For **BETTER Basic Phase-2**, the citation is:
+  > National Institute of Standards and Technology (NIST). *BETTER Basic Phase-2 Dataset*. Available at: https://ir.nist.gov/better.
+
+- For **ACE**, the citation is:
+  > Doddington, G., Mitchell, A., Przybocki, M., Ramshaw, L., Strassel, S., & Weischedel, R. (2004). *The Automatic Content Extraction (ACE) Program – Tasks, Data, and Evaluation*. In Proceedings of the Fourth International Conference on Language Resources and Evaluation (LREC’04), Lisbon, Portugal.
+
+- For **MINION**, the citation is:
+  > Pouran Ben Veyseh, A., Nguyen, M. V., Dernoncourt, F., & Nguyen, T. (2022). *MINION: a Large-Scale and Diverse Dataset for Multilingual Event Detection*. In Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Seattle, United States.
+
+Now that I have gathered all the necessary information and citations, I will compile the dataset entries into a structured format for further processing or review.

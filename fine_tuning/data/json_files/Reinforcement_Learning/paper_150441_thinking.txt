@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Proof Number Based Monte-Carlo Tree Search" by Jakub Kowalski et al., I will follow a systematic approach to identify and document any datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to see if any datasets are explicitly referenced. The abstract provides a brief overview of the proposed algorithm and mentions testing against several games, which suggests that datasets related to these games might be included.
+
+Next, I will examine the **experiments section** in detail, as this is where datasets are most likely to be described. The authors mention conducting experiments on five two-player, zero-sum board games: **Lines of Action, Awari, MiniShogi, Knightthrough**, and **Gomoku**. I will look for any specific datasets or sources that provide the game rules or configurations used in these experiments.
+
+In the **environment section**, the authors describe the **Ludii General Game System**, which is a framework that includes over 1,000 games. This indicates that the dataset for the experiments may be derived from this system. I will note this as it is relevant to the datasets used.
+
+I will also check the **references section** for any citations that might provide full details about the datasets or game descriptions used in the experiments. This is crucial for ensuring that I have the correct citations for each dataset.
+
+After gathering this information, I will compile the datasets as follows:
+
+1. **Lines of Action**: The dataset is derived from the Ludii General Game System, which includes the rules and configurations for this game.
+   - Citation: 
+     > E. Piette, D. J. N. J. Soemers, M. Stephenson, C. F. Sironi, M. H. M. Winands, and C. Browne. *Ludii – the ludemic general game system*. In Proceedings of the 24th European Conference on Artificial Intelligence (ECAI 2020), pages 411–418, 2020.
+
+2. **Awari**: Similar to Lines of Action, the dataset for Awari is also part of the Ludii General Game System.
+   - Citation: 
+     > E. Piette, D. J. N. J. Soemers, M. Stephenson, C. F. Sironi, M. H. M. Winands, and C. Browne. *Ludii – the ludemic general game system*. In Proceedings of the 24th European Conference on Artificial Intelligence (ECAI 2020), pages 411–418, 2020.
+
+3. **MiniShogi**: The dataset for MiniShogi is also included in the Ludii General Game System.
+   - Citation: 
+     > E. Piette, D. J. N. J. Soemers, M. Stephenson, C. F. Sironi, M. H. M. Winands, and C. Browne. *Ludii – the ludemic general game system*. In Proceedings of the 24th European Conference on Artificial Intelligence (ECAI 2020), pages 411–418, 2020.
+
+4. **Knightthrough**: This game is also part of the Ludii General Game System.
+   - Citation: 
+     > E. Piette, D. J. N. J. Soemers, M. Stephenson, C. F. Sironi, M. H. M. Winands, and C. Browne. *Ludii – the ludemic general game system*. In Proceedings of the 24th European Conference on Artificial Intelligence (ECAI 2020), pages 411–418, 2020.
+
+5. **Gomoku**: Although the authors mention that Gomoku was initially included in their experiments, they decided not to include it due to performance issues. However, it is still relevant to note that it is a recognized dataset in the context of game-playing research.
+   - Citation: 
+     > L. V. Allis, H. J. van den Herik, and M. P. H. Huntjens. *Go-moku solved by new search techniques*. Computational Intelligence, vol. 12, pp. 7–23, 1996.
+
+After compiling this information, I will ensure that each dataset is clearly documented with its respective citation for future reference or use in downstream applications.

@@ -1,0 +1,79 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The synthetic dataset consists of time-series of two variables, one continuous (noisy sine curve) and one binary (random Bernoulli). The output is a non-linear function of the sine curve frequency and of the Bernoulli variable probability.",
+        "dcterms:title": "Synthetic Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Synthetic data",
+            "Time series",
+            "Class imbalance",
+            "Missing data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Time series",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. L. Goldberger",
+            "L. A. Amaral",
+            "L. Glass",
+            "J. M. Hausdorff",
+            "P. C. Ivanov",
+            "R. G. Mark",
+            "H. E. Stanley"
+        ],
+        "dcterms:description": "The Physionet dataset is a benchmark dataset from the Physionet Challenge 2012, used for predicting whether an ICU patient will survive or die during their stay at the hospital. It contains 79.75% missing values on average and is a binary classification benchmark.",
+        "dcterms:title": "Physionet",
+        "dcterms:issued": "2000",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Medical",
+            "Time series"
+        ],
+        "dcat:keyword": [
+            "ICU",
+            "Patient survival",
+            "Time series data",
+            "Missing values"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Time series",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The Clue dataset is used to predict the discontinuation of birth control methods over time. It contains 70.29% missing values on average and requires multi-class classification.",
+        "dcterms:title": "Clue",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://helloclue.com/",
+        "dcat:theme": [
+            "Health",
+            "Time series"
+        ],
+        "dcat:keyword": [
+            "Menstrual cycle",
+            "Birth control",
+            "Time series data",
+            "Missing values"
+        ],
+        "dcat:landingPage": "https://helloclue.com/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Time series",
+        "mls:task": [
+            "Classification"
+        ]
+    }
+]

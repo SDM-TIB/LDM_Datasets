@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "RETSEG: RETENTION-BASED NETWORK FOR POLYPS SEGMENTATION" by Khaled ELKarazle et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors trained and validated their model using two publicly available datasets: **Kvasir-SEG** and **CVC-ClinicDB**. This is a good starting point, as it explicitly names the datasets.
+
+Next, I will look into the **data collection section** (3.2) where the authors provide detailed descriptions of the datasets used. Here, they mention:
+
+1. **Kvasir-SEG**: This dataset consists of 1,000 colonoscopy images with corresponding ground-truth masks, annotated by gastroenterologists. The images vary in resolution from 332x487 to 1920x1072 pixels.
+
+2. **CVC-ClinicDB**: This dataset contains 612 static polyp frames extracted from 31 colonoscopy sequences, all at a resolution of 384 × 288 pixels.
+
+Additionally, the authors mention using several other datasets for testing purposes, which include:
+
+3. **CVC-300**: Comprising 300 images, each with a ground-truth mask, and a resolution of 574 x 500 pixels.
+
+4. **CVC-ColonDB**: This dataset includes 300 static samples, some of which are captured under challenging conditions.
+
+5. **ETIS-LaribPolypDB**: This dataset consists of 196 samples with a resolution of 1225 × 996 pixels.
+
+6. **BKAI-IGH NeoPolyp**: This dataset contains 1,200 samples along with their corresponding ground-truth masks.
+
+Now, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For **Kvasir-SEG**, the citation is:
+  > D. Jha, P. H. Smedsrud, and M. A. Riegler. *Kvasir-SEG: A Segmented Polyp Dataset*. In Proceedings of the 2nd International Conference on Medical Imaging with Deep Learning (MIDL), 2020.
+
+- For **CVC-ClinicDB**, the citation is:
+  > J. Bernal, J. Sánchez, and F. Vilariño. *Towards automatic polyp detection with a polyp appearance model*. In Pattern Recognition, 2012, pp. 3166–3182. doi: 10.1016/j.patcog.2012.03.002.
+
+- For **CVC-300**, the citation is:
+  > J. Silva, A. Histace, O. Romain, X. Dray, and B. Granado. *Toward embedded detection of polyps in WCE images for early diagnosis of colorectal cancer*. Int J Comput Assist Radiol Surg, vol. 9, no. 2, pp. 283–293, 2014. doi: 10.1007/s11548-013-0926-3.
+
+- For **CVC-ColonDB**, the citation is:
+  > J. Bernal, F. J. Sánchez, G. Fernández-Esparrach, D. Gil, C. Rodríguez, and F. Vilariño. *WM-DOVA maps for accurate polyp highlighting in colonoscopy: Validation vs. saliency maps from physicians*. Computerized Medical Imaging and Graphics, vol. 43, pp. 99–111, 2015. doi: 10.1016/J.COMPMEDIMAG.2015.02.007.
+
+- For **ETIS-LaribPolypDB**, the citation is:
+  > D. Vázquez et al. *A Benchmark for Endoluminal Scene Segmentation of Colonoscopy Images*. J Healthc Eng, vol. 2017, 2017. doi: 10.1155/2017/4037190.
+
+- For **BKAI-IGH NeoPolyp**, the citation is:
+  > P. Ngoc Lan et al. *NeoUNet: Towards Accurate Colon Polyp Segmentation and Neoplasm Detection*. Lecture Notes in Computer Science, vol. 13018, pp. 15–28, 2021. doi: 10.1007/978-3-030-90436-4.
+
+After gathering all this information, I will compile the dataset entries with their respective citations to ensure proper documentation and facilitate further research.

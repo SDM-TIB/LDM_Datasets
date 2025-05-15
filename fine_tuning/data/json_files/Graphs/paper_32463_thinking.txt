@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "BEV-DG: Cross-Modal Learning under Bird’s-Eye View for Domain Generalization of 3D Semantic Segmentation" by Miaoyu Li et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research focus, and the introduction typically outlines the context and significance of the datasets used.
+
+In the **introduction**, the authors discuss the challenges of domain generalization in 3D semantic segmentation and mention the use of multiple datasets. This indicates that datasets are crucial to their experiments.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments section**. In this paper, the authors explicitly mention three datasets used for their experiments:
+
+1. **A2D2 Dataset**: This dataset consists of point clouds acquired by a Velodyne 16-beam LiDAR, with approximately 28,000 training frames and 2,000 validation frames.
+
+2. **nuScenes Dataset**: This dataset contains around 40,000 LiDAR frames annotated with 3D bounding boxes, using a 32-beam LiDAR sensor. The training set includes approximately 28,000 frames from 700 scenes, while the evaluation set has around 6,000 frames from 150 scenes.
+
+3. **SemanticKITTI Dataset**: This dataset uses a Velodyne 64-beam LiDAR and includes sequences 00-07 and 09-10 for training, with around 19,000 training frames and 4,000 evaluation frames.
+
+I will then check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **A2D2 Dataset**:
+  > Geyer, J., Kassahun, Y., Mahmudi, M., Ricou, X., Durgesh, R., Chung, A. S., Hauswald, L., Pham, V. H., Mühlegg, M., Dorn, S., et al. (2020). *A2D2: Audi Autonomous Driving Dataset*. arXiv preprint arXiv:2004.06320.
+
+- For **nuScenes Dataset**:
+  > Caesar, H., Bankiti, V., Lang, A. H., Vora, S., Liong, V. E., Xu, Q., Krishnan, A., Pan, Y., Baldan, G., & Beijbom, O. (2020). *nuScenes: A Multimodal Dataset for Autonomous Driving*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 11621–11631.
+
+- For **SemanticKITTI Dataset**:
+  > Behley, J., Garbade, M., Milioto, A., Quenzel, J., Behnke, S., Stachniss, C., & Gall, J. (2019). *SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), 9297–9307.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all relevant details are accurately captured for future reference or processing.

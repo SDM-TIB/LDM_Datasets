@@ -1,0 +1,25 @@
+To extract the datasets mentioned in the paper titled "Learning Nuclei Representations with Masked Image Modelling" by Piotr Wójcik et al., I will follow a systematic approach to ensure I capture all relevant details, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to identify any datasets that are mentioned. The abstract indicates that the authors used a self-supervised pre-training approach on H&E-stained images of diffuse large B-cell lymphoma (DLBCL), which suggests that a dataset is involved.
+
+Next, I will look into the **experiments section**, specifically the part where the authors describe the datasets used. In this section, they mention three datasets:
+
+1. **In-house DLBCL Dataset**: This dataset consists of 37,665 H&E images obtained from a single whole-slide image (WSI) of a DLBCL lymph node. The authors note that each image tile is 512 × 512 pixels and contains segmented nuclei, resulting in a total of 160,545 image tiles after preprocessing.
+
+2. **CoNSeP Dataset**: This dataset contains 24,319 annotated nuclei from 41 H&E images. The nuclei are grouped into four types, and the images are resized to 448 × 448 pixels for the experiments.
+
+3. **PanNuke Dataset**: This dataset includes 205,343 annotated nuclei of five types, originating from 19 different tissue types. The images in this dataset are also resized to 448 × 448 pixels.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For the **CoNSeP Dataset**, the citation is:
+  > Gamper, J., Koohbanani, N.A., Graham, S., Jahanifar, M., Khurram, S.A., Azam, A., Hewitt, K., Rajpoot, N. (2020). *PanNuke dataset extension, insights and baselines*. arXiv preprint arXiv:2003.10778.
+
+- For the **PanNuke Dataset**, the citation is:
+  > Graham, S., Vu, Q.D., Ahmed Raza, S., Azam, A., Tsang, Y., Kwak, J.T., Rajpoot, N.M. (2019). *Hover-net: Simultaneous segmentation and classification of nuclei in multi-tissue histology images*. Medical Image Analysis, 58.
+
+The in-house DLBCL dataset does not have a formal citation since it is a proprietary dataset created by the authors.
+
+Now, I will compile the dataset entries, ensuring that I include the full citations for the CoNSeP and PanNuke datasets, while noting that the DLBCL dataset is an in-house dataset without a formal citation.
+
+After gathering all this information, I will prepare the dataset entries for structured output, ensuring clarity and completeness for future reference or processing.

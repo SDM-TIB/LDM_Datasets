@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Object Remover Performance Evaluation Methods using Class-wise Object Removal Images" by Changsuk Oh et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors created a dataset with object removal ground truth, which suggests that there is a specific dataset of interest.
+
+Next, I will focus on **section II (Object Remover Performance Evaluation)**, where the authors discuss their experimental setup. They mention generating a dataset with object removal ground truth using virtual environments. This section is crucial as it likely contains detailed information about the dataset, including its purpose and characteristics.
+
+In **subsection II-A**, the authors describe how they utilized the CARLA simulator to acquire images for their dataset. They mention capturing 50,000 images across five maps, with specific details about the images containing vehicles and the corresponding images without vehicles. This indicates that the dataset is structured and has specific attributes related to object removal tasks.
+
+I will also check the **experiments section** to see if any additional datasets are mentioned, particularly in relation to the COCO dataset, which is referenced as a comparison set for evaluating object removal performance. The authors state that they used the COCO dataset, which contains over 12,000 images with the person class as a target class.
+
+Now, I will compile the information I have gathered about the datasets:
+
+1. **Self-Acquired Dataset with Object Removal Ground Truth**: This dataset was created by the authors using the CARLA simulator. It consists of 50,000 images, with specific images containing vehicles and others without them, used for evaluating object removal methods.
+
+2. **COCO Dataset**: This is a well-known dataset used for various computer vision tasks, including object detection and segmentation. The authors used it to evaluate their proposed methods against human judgments.
+
+Next, I will retrieve the full citations for these datasets from the references section of the paper:
+
+- For the **CARLA dataset**, since it is a self-acquired dataset, I will note that it is based on the CARLA simulator, but there may not be a formal citation as it is not a published dataset.
+
+- For the **COCO dataset**, the citation is:
+  > Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C. Lawrence Zitnick. *Microsoft COCO: Common Objects in Context*. In European Conference on Computer Vision (ECCV), 2014, pp. 740–755.
+
+Finally, I will summarize the datasets with their respective citations, ensuring that I have accurately captured the necessary details for each dataset mentioned in the paper. This structured approach will help ensure that I do not miss any important information regarding the datasets used in the research.

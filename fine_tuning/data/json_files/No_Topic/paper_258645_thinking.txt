@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "A Deep Learning Forecaster with Exogenous Variables for Day-Ahead Locational Marginal Price" by Dipanwita Saha and Felipe Lopez, I will follow a systematic approach.
+
+First, I will read through the **abstract** to identify any mentions of datasets. The abstract discusses the use of a deep learning model for forecasting day-ahead locational marginal prices (daLMP) and mentions a numerical study at the PJM independent system operator (ISO). This suggests that there may be datasets related to PJM ISO.
+
+Next, I will examine the **introduction** for any specific datasets mentioned. The introduction discusses the challenges of forecasting electricity prices and the importance of incorporating exogenous variables, but it does not explicitly name any datasets.
+
+I will then look into **section III (Deep Learning Model)**, particularly the subsection on exogenous variables. Here, the authors mention using forecasted regional loads and weather data as predictors. They refer to a table (Table I) that lists the exogenous variables used in the PJM region, which may indicate the datasets used for these variables.
+
+In **section V (Numerical Analysis)**, the authors describe the data used for their numerical study, stating that the model was trained on data over a period of one year from August 09, 2019, to August 08, 2020, with a frequency of 1 hour. This section provides crucial information about the dataset's temporal scope and frequency.
+
+I will also check the **References section** for any citations related to the datasets mentioned. The authors refer to PJM Data Miner and Weather.com as sources for their data. I will need to extract the full citations for these sources.
+
+The relevant datasets I will extract are:
+
+1. **PJM Data Miner**: This dataset includes forecasted regional loads used in the model. The citation is:
+   > PJM, Data Miner 2, 2020 (Accessed August 29, 2020). Available: http://dataminer2.pjm.com/list
+
+2. **Weather.com API**: This dataset provides weather data used as predictors in the model. The citation is:
+   > T. W. Channel, Weather.com API, 2020 (Accessed August 29, 2020). Available: http://api.weather.com/
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and includes the full citation as required. This will prepare the information for structured output or further analysis.

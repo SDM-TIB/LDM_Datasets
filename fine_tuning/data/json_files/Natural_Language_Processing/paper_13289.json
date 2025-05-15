@@ -1,0 +1,131 @@
+[
+    {
+        "dcterms:creator": [
+            "P. Central"
+        ],
+        "dcterms:description": "A dataset for bar chart detection, collected from article PDFs in the PubMed Central Open Access Subset, containing 1592 document page images with manually labeled bounding boxes for each bar chart.",
+        "dcterms:title": "Bar chart detection",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/",
+        "dcat:theme": [
+            "Document Analysis",
+            "Chart Detection"
+        ],
+        "dcat:keyword": [
+            "Bar charts",
+            "Detection",
+            "Scientific literature"
+        ],
+        "dcat:landingPage": "https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Chart Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "X. Liu",
+            "D. Klabjan",
+            "P. NBless"
+        ],
+        "dcterms:description": "A dataset of synthetic bar charts generated for value detection, containing 5000 charts with varying numbers of bars and values, used for pre-training.",
+        "dcterms:title": "Synthetic bar charts for value detection",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1906.11906",
+        "dcat:theme": [
+            "Data Extraction",
+            "Synthetic Data"
+        ],
+        "dcat:keyword": [
+            "Synthetic charts",
+            "Value detection",
+            "Bar charts"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/1906.11906",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Value Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset of manually annotated real chart values, containing 500 vertical-only bar charts sampled from the bar chart detection dataset, with precise labeling of bar, tick, and origin points.",
+        "dcterms:title": "Manually annotated real charts values",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Data Extraction",
+            "Annotation"
+        ],
+        "dcat:keyword": [
+            "Real charts",
+            "Manual annotation",
+            "Value detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Value Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "X. Liu",
+            "D. Klabjan",
+            "P. NBless"
+        ],
+        "dcterms:description": "A dataset of real-augmented synthetic charts, created by augmenting synthetic bar charts with real chart surroundings to improve local feature learning.",
+        "dcterms:title": "Real-augmented synthetic charts",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1906.11906",
+        "dcat:theme": [
+            "Data Extraction",
+            "Augmentation"
+        ],
+        "dcat:keyword": [
+            "Augmented data",
+            "Synthetic charts",
+            "Value detection"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/1906.11906",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Value Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "X. Liu",
+            "D. Klabjan",
+            "P. NBless"
+        ],
+        "dcterms:description": "A dataset of synthetic pie charts generated to demonstrate the extensibility of the method, containing point annotations for the boundaries between pie wedges and the pie chart centroid.",
+        "dcterms:title": "Synthetic pie charts",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1906.11906",
+        "dcat:theme": [
+            "Data Extraction",
+            "Synthetic Data"
+        ],
+        "dcat:keyword": [
+            "Synthetic pie charts",
+            "Value detection",
+            "Chart extraction"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/1906.11906",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Value Detection"
+        ]
+    }
+]

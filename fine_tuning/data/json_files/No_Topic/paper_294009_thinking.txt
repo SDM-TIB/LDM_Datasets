@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Plot-guided Adversarial Example Construction for Evaluating Open-domain Story Generation" by Sarik Ghazarian et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly named or described. The abstract mentions the need for high-quality training data for classifiers, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section**, particularly **section 5 (Experiments)**, where the authors discuss the datasets used for their experiments. Here, they mention two specific datasets:
+
+1. **ROCStories**: This dataset is described as a resource of five-sentence commonsense stories collected via crowd-sourcing, covering logically linked daily events. The authors reference the work by Mostafazadeh et al. (2016) for the dataset's details.
+
+2. **Writing Prompt (WP)**: This dataset contains abstract high-level prompts and their corresponding long human-written stories from an online forum. The authors cite Fan et al. (2018) for the methodology used to extract plots from this dataset.
+
+In addition to these datasets, the authors also describe several manipulated datasets created for their experiments:
+
+- **HEUR_SENT_SUB**: A dataset created by replacing sentences in plausible texts with random sentences.
+- **HEUR_KEY_SUB**: A dataset created by substituting keywords in plausible texts with their antonyms.
+- **UNION_DATA**: A dataset constructed using a combination of heuristic manipulations.
+- **MANPLTS**: A dataset generated using plot-level manipulations.
+- **AF_MANPLTS**: A dataset created using adversarial filtering on the manipulated plots.
+
+Now, I will consult the **References section** to retrieve full citations for the datasets mentioned:
+
+- For **ROCStories**, the citation is:
+  > Mostafazadeh, N., Chambers, N., He, X., Parikh, D., Batra, D., Vanderwende, L., Kohli, P., & Allen, J. (2016). *A corpus and cloze evaluation framework for deeper understanding of commonsense stories*. In Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL HLT 2016), San Diego, CA, USA. Association for Computational Linguistics.
+
+- For **Writing Prompt**, the citation is:
+  > Fan, A., Lewis, M., & Dauphin, Y. (2018). *Hierarchical neural story generation*. arXiv preprint arXiv:1805.04833.
+
+Next, I will compile the dataset entries, including the manipulated datasets, and ensure that each entry includes the full citation as required.
+
+Finally, I will prepare the dataset entries for structured output, ensuring that all necessary information is included for each dataset.

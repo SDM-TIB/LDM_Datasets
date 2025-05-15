@@ -1,0 +1,63 @@
+To extract datasets from the research paper titled "Boundary-Aware Segmentation Network for Mobile and Web Applications" by Xuebin Qin et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract mentions that the authors evaluate their method on two reverse tasks, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (specifically section 4.3) where the authors detail their evaluations. Here, they explicitly mention using the following datasets for salient object segmentation:
+
+1. **DUTS-TR Dataset**: This dataset is used for training and contains 10,553 images, which were augmented to 21,106 images through horizontal flipping.
+
+2. **DUTS-TE Dataset**: This dataset is used for testing and contains 5,019 images.
+
+3. **SOD Dataset**: A dataset with 300 challenging images for salient object detection.
+
+4. **ECSSD Dataset**: This dataset contains 1,000 semantically meaningful images.
+
+5. **DUT-OMRON Dataset**: This dataset has 5,168 images with one or multiple objects, many of which are structurally complex.
+
+6. **PASCAL-S Dataset**: Originally created for semantic segmentation, this dataset consists of 850 challenging images.
+
+7. **HKU-IS Dataset**: This dataset contains 4,447 images, many of which have multiple foreground objects.
+
+8. **SOC Dataset**: This dataset is used for testing and contains 600 images with salient objects.
+
+In section 4.4, the authors also mention datasets used for camouflaged object segmentation:
+
+1. **CHAMELEON Dataset**: Contains 76 images marked as good examples of camouflaged animals.
+
+2. **CAMO Dataset**: This dataset has both camouflaged and non-camouflaged subsets, with the camouflaged subset containing 1,000 images for training and 250 images for testing.
+
+3. **COD10K Dataset**: The largest camouflaged object detection dataset, comprising 10,000 images of 78 object categories, with 5,066 images densely labeled with accurate binary masks.
+
+Now, I will check the **References section** to retrieve full citations for these datasets:
+
+- For **DUTS-TR** and **DUTS-TE**:
+  > J. Wang, H. Lu, Y. Wang, M. Feng, D. Wang, B. Yin, and X. Ruan. *Learning to Detect Salient Objects with Image-Level Supervision*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 136–145, 2017.
+
+- For **SOD**:
+  > V. Movahedi and J. H. Elder. *Design and Perceptual Validation of Performance Measures for Salient Object Segmentation*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR-W), pages 49–56, 2010.
+
+- For **ECSSD**:
+  > Q. Yan, L. Xu, J. Shi, and J. Jia. *Hierarchical Saliency Detection*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 1155–1162, 2013.
+
+- For **DUT-OMRON**:
+  > L. Liu, H. Zhang, H. Lu, and X. Ruan. *Saliency Detection via Graph-Based Manifold Ranking*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 3166–3173, 2013.
+
+- For **PASCAL-S**:
+  > L. Chen, G. Papandreou, I. Kokkinos, K. Murphy, and A. L. Yuille. *Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 1–9, 2015.
+
+- For **HKU-IS**:
+  > H. Li, Y. Liu, and Y. Yu. *Visual Saliency Based on Multiscale Deep Features*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 5455–5463, 2015.
+
+- For **SOC**:
+  > D. Fan, M. Cheng, J. Liu, S. Gao, Q. Hou, and A. Borji. *Salient Objects in Clutter: Bringing Salient Object Detection to the Foreground*. In Proceedings of the European Conference on Computer Vision (ECCV), 2018.
+
+- For **CHAMELEON**:
+  > P. Skurowski et al. *Animal Camouflage Analysis: Chameleon Database*. 2018.
+
+- For **CAMO**:
+  > T. V. Nguyen et al. *Anabranch Network for Camouflaged Object Segmentation*. In Computer Vision and Image Understanding (CVIU), 2019.
+
+- For **COD10K**:
+  > D. Fan et al. *Camouflaged Object Detection*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 2777–2787, 2020.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

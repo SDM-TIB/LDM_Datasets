@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Retrieval-augmented GPT-3.5-based Text-to-SQL Framework with Sample-aware Prompting and Dynamic Revision Chain" by Chunxi Guo et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on three Text-to-SQL benchmarks, which suggests that datasets are involved.
+
+Next, I will focus on **section 4.1 (Experimental Setup)**, where the authors explicitly list the datasets used for their experiments:
+
+1. **Spider Dataset**: This is described as a large-scale benchmark for cross-domain Text-to-SQL tasks, consisting of 138 different domain databases.
+
+2. **Spider-Syn Dataset**: A challenging variant of the Spider dataset that eliminates explicit alignment between questions and database schema through synonym substitutions.
+
+3. **Spider-DK Dataset**: Another variant based on Spider, which includes artificially added domain knowledge.
+
+In the **experiments section**, the authors discuss the performance of their method on these datasets, confirming their use in the study.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Spider Dataset**, the citation is:
+  > Yu, T., Zhang, R., et al. *Spider: A large-scale human-labeled dataset for complex and cross-domain semantic parsing and text-to-sql task*. In: EMNLP (Jun 2019).
+
+- For the **Spider-Syn Dataset**, the citation is:
+  > Gan, Y., Chen, X., Huang, Q., Purver, M., et al. *Towards robustness of text-to-sql models against synonym substitution*. In: ACL (Jul 2021).
+
+- For the **Spider-DK Dataset**, the citation is:
+  > Gan, Y., Chen, X., Purver, M. *Exploring underexplored limitations of cross-domain text-to-sql generalization*. In: EMNLP (Dec 2021).
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

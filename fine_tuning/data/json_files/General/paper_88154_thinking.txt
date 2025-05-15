@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Explaining Sequence-Level Knowledge Distillation as Data-Augmentation for Neural Machine Translation" by Mitchell A. Gordon and Kevin Duh, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiment sections** to identify any datasets mentioned. The abstract discusses the use of sequence-level knowledge distillation (SLKD) and mentions testing on TED Talks, which suggests that there is a dataset involved.
+
+Next, I will focus on the **introduction** to see if the authors provide more context about the datasets used. They mention the need for large datasets in Neural Machine Translation (NMT) and refer to the TED Talks dataset, which is a strong indication that this is a primary dataset for their experiments.
+
+In the **experiment setup section**, I will look for specific mentions of datasets. The authors describe their experiments using three datasets: 
+
+1. **base dataset**: This is the original training bitext used for the experiments.
+2. **kd dataset**: This dataset is produced by re-translating the TED source data using a teacher model trained on the base dataset.
+3. **base+kd dataset**: This dataset is a concatenation of the base and kd datasets.
+
+Additionally, they mention a **back-translation dataset (BT)** created by translating TED target sentences in the opposite direction, which is used to augment the kd and baseline datasets. They also refer to a **best-2 dataset**, which combines the best and second-best translations from beam search.
+
+Now, I will check the **References section** to find full citations for these datasets. The TED Talks dataset is referenced as follows:
+
+- For the **TED Talks dataset**, the citation is:
+  > Rico Sennrich, Barry Haddow, and Alexandra Birch. *Improving neural machine translation models with monolingual data*. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 86–96, 2016.
+
+Since the paper does not provide specific citations for the base and kd datasets, I will note that they are derived from the TED Talks dataset.
+
+After gathering all this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research.

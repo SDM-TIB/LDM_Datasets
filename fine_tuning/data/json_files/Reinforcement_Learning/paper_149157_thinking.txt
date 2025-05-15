@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "SEEN: Sharpening Explanations for Graph Neural Networks using Explanations from Neighborhoods" by Hyeoncheol Cho et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract and introduction** sections. The abstract mentions that the authors conducted experiments on "widely used synthetic datasets for measuring explanation accuracy on node classification." This indicates that datasets are indeed present, and I should look for their names and details.
+
+Next, I will focus on **section 5 (Experiments)**, particularly **subsection 5.1 (Datasets)**, where the authors explicitly describe the datasets used in their experiments. Here, they mention four datasets:
+
+1. **BA-Shapes**: This dataset consists of Barabasi-Albert (BA) graphs decorated with house-structured motifs in random positions. The nodes are numbered 0 to 3 for not-participating positions.
+
+2. **BA-Community**: This dataset is a combination of two graphs from the BA-Shapes dataset, with doubled node classes. Each node has features based on its community membership.
+
+3. **Tree-Cycles**: This dataset contains an 8-level tree with randomly attached hexagonal cycle motifs, and the task is to binary classify each node based on participation in cycle motifs.
+
+4. **Tree-Grid**: This dataset replaces the cycle motifs in Tree-Cycles with 3-by-3 grid motifs.
+
+The authors also note that the data splits for each dataset are taken from the code by Luo et al., which divides the dataset into training, validation, and testing sets.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned. The authors reference the following works:
+
+- For the **BA-Shapes** and **BA-Community** datasets, the citation is:
+  > Ying, R., Bourgeois, D., You, J., Zitnik, M., & Leskovec, J. (2019). GNNExplainer: Generating Explanations for Graph Neural Networks. In NeurIPS.
+
+- For the **Tree-Cycles** and **Tree-Grid** datasets, the citation is also:
+  > Ying, R., Bourgeois, D., You, J., Zitnik, M., & Leskovec, J. (2019). GNNExplainer: Generating Explanations for Graph Neural Networks. In NeurIPS.
+
+Since all four datasets are derived from the same source, I will use the same citation for each dataset.
+
+Finally, I will compile the dataset entries, ensuring that I include the full citations as required. This will provide a comprehensive overview of the datasets used in the research paper.

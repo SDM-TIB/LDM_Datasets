@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Generalization bounds and algorithms for estimating conditional average treatment effect of dosage" by Alexis Bellot et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and the introduction often discusses the context and significance of the datasets used.
+
+In the **introduction**, the authors mention the importance of estimating treatment effects from observational data, which suggests that they will reference specific datasets later in the paper. 
+
+Next, I will focus on the **experiments section**, where the authors typically describe the datasets used for their evaluations. In this paper, they explicitly mention three datasets:
+
+1. **Fully synthetic dataset**: This dataset consists of 6 randomly generated covariates and a single treatment with dosage ranging from 0 to 1. The authors refer to a previous work for the data generation method.
+
+2. **IHDP-continuous dataset**: This is an adaptation of the original IHDP dataset, which contains binary treatments and 747 observations on 25 covariates. The authors explain how they modified it for continuous dosage.
+
+3. **News dataset**: This dataset consists of 3000 randomly sampled news items from the NY Times corpus. The authors describe how they generated treatment and outcome variables based on this dataset.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution:
+
+- For the **IHDP dataset**, the citation is:
+  > Hill, J. L. (2011). Bayesian nonparametric modeling for causal inference. *Journal of Computational and Graphical Statistics*, 20(1), 217-240.
+
+- For the **News dataset**, the citation is:
+  > Newman, D. (2008). Bag of words data set. *UCI Machine Learning Repository*.
+
+The fully synthetic dataset does not have a specific citation as it is generated based on the authors' own methods, but I will note that it is based on the work referenced in the paper.
+
+Finally, I will compile the dataset entries, ensuring that each dataset is clearly described along with its citation. This structured approach will ensure that I accurately capture the datasets used in the research paper.

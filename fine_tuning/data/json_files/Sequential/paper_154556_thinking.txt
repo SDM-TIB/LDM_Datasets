@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Subword Pooling Makes a Difference" by Judit Ács et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors investigate the impact of subword pooling on various tasks across multiple languages, which suggests that datasets are involved.
+
+Next, I will focus on **section 2 (Tasks, languages, and architectures)**, where the authors describe the datasets used for their experiments. They mention using **Universal Dependencies (UD)** for morphological and POS tasks, and **WikiAnn** for Named Entity Recognition (NER). This is a clear indication that these are the datasets I need to extract.
+
+In the **appendices**, the authors provide additional details about how they prepared the datasets. Specifically, they mention that they sampled 2000 train, 200 dev, and 200 test sentences from UD for morphological tasks, and up to 10,000 sentences for NER from WikiAnn. This information is crucial for understanding the datasets' structure and usage.
+
+Now, I will look for the full citations of these datasets in the **References section**. The citations I need to extract are:
+
+1. **Universal Dependencies (UD)**:
+   > Nivre, J., Abrams, M., Agić, Ž., et al. (2018). Universal Dependencies 2.3. LIN-DAT/CLARIN digital library at the Institute of Formal and Applied Linguistics (UFAL), Faculty of Mathematics and Physics, Charles University.
+
+2. **WikiAnn**:
+   > Pan, X., Zhang, B., May, J., Nothman, J., Knight, K., & Ji, H. (2017). Cross-lingual name tagging and linking for 282 languages. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 1946–1958, Vancouver, Canada. Association for Computational Linguistics.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+1. **Universal Dependencies (UD)**: A dataset used for morphological and POS tasks, which includes a variety of languages and is structured into train, dev, and test splits.
+
+2. **WikiAnn**: A large-scale NER corpus that provides annotations for named entities across multiple languages, also structured into train, dev, and test splits.
+
+Finally, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all information is accurately represented for further processing or review.

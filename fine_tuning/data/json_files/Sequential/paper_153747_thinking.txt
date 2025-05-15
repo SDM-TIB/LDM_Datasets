@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Model-based Asynchronous Hyperparameter and Neural Architecture Search" by Aaron Klein et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions that the authors demonstrate their method on a wide range of challenging benchmarks for tabular data, image classification, and language modeling. This indicates that multiple datasets are likely involved.
+
+Next, I will examine **section 4 (Experiments)**, as this section typically contains detailed descriptions of the datasets used for evaluation. The authors mention several benchmarks, and I will look for specific dataset names and descriptions.
+
+In **subsection 4.1 (Featurized OpenML Datasets)**, the authors state that they optimize hyperparameters on tabular classification datasets gathered from OpenML. However, they only report results on one dataset, **electricity**, which is identified by its OpenML task ID (336). I will note this dataset.
+
+In **subsection 4.2 (Neural Architecture Search on Tabular Benchmark)**, the authors refer to the **NASBench201** dataset, which consists of a grid of neural network architectures evaluated on three datasets: **CIFAR-10**, **CIFAR-100**, and **Imagenet16**. I will extract these datasets as well.
+
+In **subsection 4.3 (Language Modelling)**, the authors mention using the **WikiText-2** dataset for tuning an LSTM model. This is another dataset I need to include.
+
+In **subsection 4.4 (Image Classification)**, the authors refer to tuning a ResNet model on the **CIFAR-10** dataset again, which I have already noted from the previous section.
+
+Now, I will compile the full citations for each dataset from the **References section** of the paper:
+
+1. For the **electricity dataset**, the citation is:
+   > J. Vanschoren, J. van Rijn, B. Bischl, and L. Torgo. *OpenML: Networked science in machine learning*. SIGKDD Explorations, 2014.
+
+2. For the **NASBench201 dataset**, the citation is:
+   > X. Dong and Y. Yang. *Nas-bench-201: Extending the scope of reproducible neural architecture search*. arXiv:2001.00326 [cs.CV], 2020.
+
+3. For the **CIFAR-10 dataset**, the citation is:
+   > A. Krizhevsky. *Learning multiple layers of features from tiny images*. Technical report, University of Toronto, 2009.
+
+4. For the **CIFAR-100 dataset**, the citation is:
+   > K. Chrabaszcz, I. Loshchilov, and F. Hutter. *A downsampled variant of ImageNet as an alternative to the CIFAR datasets*. arXiv:1707.08819 [cs.CV], 2017.
+
+5. For the **Imagenet16 dataset**, the citation is:
+   > P. Chrabaszcz, I. Loshchilov, and F. Hutter. *A downsampled variant of ImageNet as an alternative to the CIFAR datasets*. arXiv:1707.08819 [cs.CV], 2017.
+
+6. For the **WikiText-2 dataset**, the citation is:
+   > S. Merity, N. S. Keskar, and R. Socher. *Regularizing and optimizing LSTM language models*. arXiv:1708.02182 [cs.CL], 2017.
+
+After gathering all this information, I will summarize the datasets and their citations in a structured format for easy reference and further processing.

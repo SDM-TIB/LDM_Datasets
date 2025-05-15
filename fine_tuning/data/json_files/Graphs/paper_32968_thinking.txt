@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Grenade: Graph-Centric Language Model for Self-Supervised Representation Learning on Text-Attributed Graphs" by Yichuan Li et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper to identify any datasets mentioned. The abstract provides a brief overview of the research, and the introduction often outlines the context and significance of the datasets used.
+
+In the **introduction**, the authors discuss the application of text-attributed graphs (TAG) in various domains, which suggests that datasets related to TAG might be used. However, I need to look for specific dataset names.
+
+Next, I will focus on **section 4 (Experiment)**, where the authors typically describe the datasets used for their experiments. Here, they mention evaluating their model on three datasets from the Open Graph Benchmark (OGB): **ogbn-arxiv**, **ogbn-products**, and **ogbl-citation2**. Each dataset is characterized by the number of nodes, edges, and classes, which is crucial information for dataset extraction.
+
+The paper provides statistical information about these datasets in **Table 1**, which includes:
+- **ogbn-arxiv**: 169,343 nodes, 1,166,243 edges, 40 classes.
+- **ogbn-products**: 2,449,029 nodes, 61,859,140 edges, 47 classes.
+- **ogbl-citation2**: 2,927,963 nodes, 30,387,995 edges, 172 classes.
+
+Next, I will check the **References section** to find the full citations for these datasets. The citations for the datasets are as follows:
+
+- For **ogbn-arxiv**, the citation is:
+  > Hu, W., Fey, M., Zitnik, M., Dong, Y., Ren, H., Liu, B., Catasta, M., & Leskovec, J. (2020). Open Graph Benchmark: Datasets for Machine Learning on Graphs. In Advances in Neural Information Processing Systems.
+
+- For **ogbn-products**, the citation is the same as above since it is part of the same benchmark.
+
+- For **ogbl-citation2**, the citation is also the same:
+  > Hu, W., Fey, M., Zitnik, M., Dong, Y., Ren, H., Liu, B., Catasta, M., & Leskovec, J. (2020). Open Graph Benchmark: Datasets for Machine Learning on Graphs. In Advances in Neural Information Processing Systems.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use.
+
+In summary, I have extracted the following datasets from the paper:
+1. **ogbn-arxiv**: 169,343 nodes, 1,166,243 edges, 40 classes.
+   - Citation: Hu et al. (2020). Open Graph Benchmark: Datasets for Machine Learning on Graphs. In Advances in Neural Information Processing Systems.
+   
+2. **ogbn-products**: 2,449,029 nodes, 61,859,140 edges, 47 classes.
+   - Citation: Hu et al. (2020). Open Graph Benchmark: Datasets for Machine Learning on Graphs. In Advances in Neural Information Processing Systems.
+
+3. **ogbl-citation2**: 2,927,963 nodes, 30,387,995 edges, 172 classes.
+   - Citation: Hu et al. (2020). Open Graph Benchmark: Datasets for Machine Learning on Graphs. In Advances in Neural Information Processing Systems.
+
+With this information, I am ready to format the dataset entries as needed for further processing or analysis.

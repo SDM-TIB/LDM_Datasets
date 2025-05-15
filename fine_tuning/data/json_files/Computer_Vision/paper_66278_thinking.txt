@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "GEC-DePenD: Non-Autoregressive Grammatical Error Correction with Decoupled Permutation and Decoding" by Konstantin Yakovlev et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on the **ConLL-2014** and **Write&Improve+LOCNESS** datasets, which suggests that these datasets are crucial for their evaluation.
+
+Next, I will focus on **section 4.1 (Datasets and training stages)**, where the authors provide a detailed overview of the datasets used in their experiments. Here, they mention several datasets:
+
+1. **PIE Dataset**: A synthetic dataset constructed by Awasthi et al. (2019b) that contains 9,000,000 sentences with 100% errorful sentences. This dataset is used in Stage I of their training pipeline.
+
+2. **cLang8 Dataset**: A distilled version of the Lang8 dataset, containing 2,372,119 sentences with 57.7% errorful sentences, used in Stage II.
+
+3. **First Certificate in English (FCE)**: This dataset includes 28,350 error-coded sentences from English as a second language exams, with 62.5% errorful sentences, also used in Stage II.
+
+4. **National University of Singapore Corpus of Learner English (NUCLE)**: Comprising over 50,000 annotated sentences from essays of undergraduate students learning English, with 37.4% errorful sentences, used in Stage II.
+
+5. **Write&Improve+LOCNESS (W&I+L)**: This dataset has 34,308 sentences with 66.3% errorful sentences and is used in both Stage II and III.
+
+6. **CoNLL-2014 Test Dataset**: Used for evaluation, this dataset is referenced in the context of the M2 scorer.
+
+7. **W&I+L Dev and Test Sets**: These are also used for evaluation, with specific metrics mentioned.
+
+After identifying these datasets, I will check the **References section** to gather the full citations for each dataset mentioned. The citations are as follows:
+
+- **PIE Dataset**:
+  > Awasthi, A., Sarawagi, S., Goyal, R., Ghosh, S., & Piratla, V. (2019). Parallel iterative edit models for local sequence transduction. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 4260–4270, Hong Kong, China. Association for Computational Linguistics.
+
+- **cLang8 Dataset**:
+  > Rothe, S., Mallinson, J., Malmi, E., Krause, S., & Severyn, A. (2021). A simple recipe for multilingual grammatical error correction. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers), pages 702–707, Online. Association for Computational Linguistics.
+
+- **FCE Dataset**:
+  > Yannakoudakis, H., Briscoe, T., & Medlock, B. (2011). A new dataset and method for automatically grading ESOL texts. In Annual Meeting of the Association for Computational Linguistics.
+
+- **NUCLE Dataset**:
+  > Dahlmeier, D., Ng, H. T., & Wu, S. M. (2013). Building a large annotated corpus of learner English: The NUS corpus of learner English. In BEA@NAACL-HLT.
+
+- **Write&Improve+LOCNESS Dataset**:
+  > Bryant, C., Felice, C., & Briscoe, T. (2019). The BEA-2019 shared task on grammatical error correction. In BEA@ACL.
+
+- **CoNLL-2014 Test Dataset**:
+  > Ng, H. T., Wu, S. M., Briscoe, T., Hadiwinoto, C., Susanto, R. H., & Bryant, C. (2014). The CoNLL-2014 shared task on grammatical error correction.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

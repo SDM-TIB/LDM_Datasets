@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Normality-Guided Distributional Reinforcement Learning for Continuous Control" by Ju-Seung Byun and Andrew Perrault, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the use of two representative on-policy algorithms, PPO and TRPO, but does not explicitly mention datasets. Therefore, I will need to look deeper.
+
+Next, I will examine the **experiments section** (section 5) closely, as this is where datasets are typically described. The authors mention evaluating their method on several continuous control tasks using OpenAI Gym and MuJoCo environments. I will look for specific names of datasets or environments used in these evaluations.
+
+Upon reviewing the paper, I find that the authors refer to specific environments from OpenAI Gym and MuJoCo, which are commonly used benchmarks in reinforcement learning research. The environments mentioned include:
+
+1. **Hopper-v2**
+2. **Walker2d-v2**
+3. **HumanoidStandup-v2**
+4. **Ant-v2**
+5. **Swimmer-v2**
+6. **BipedalWalker-v3**
+7. **BipedalWalkerHardcore-v3**
+8. **InvertedDoublePendulum-v2**
+
+These environments serve as the datasets for the experiments conducted in the paper.
+
+Now, I will check the **References section** to find full citations for these environments. However, since these environments are part of the OpenAI Gym and MuJoCo libraries, I will provide a general citation for these resources instead of individual papers for each environment:
+
+- For **OpenAI Gym**, the citation is:
+  > Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., & Zaremba, W. (2016). OpenAI Gym. *CoRR*, abs/1606.01540. URL: http://arxiv.org/abs/1606.01540.
+
+- For **MuJoCo**, the citation is:
+  > Todorov, E., Erez, T., & Tassa, Y. (2012). Mujoco: A physics engine for model-based control. In *2012 IEEE/RSJ International Conference on Intelligent Robots and Systems* (pp. 5026–5033). doi: 10.1109/IROS.2012.6386109.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

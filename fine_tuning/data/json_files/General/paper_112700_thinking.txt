@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "NAS-Bench-Graph: Benchmarking Graph Neural Architecture Search" by Yijian Qin et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the authors have trained and evaluated architectures on nine representative graph datasets, which suggests that these datasets will be detailed later in the paper.
+
+Next, I will focus on **section 3 (Benchmark Design)**, specifically **subsection 3.2 (Datasets)**, where the authors explicitly list the datasets used in their experiments. Here, they mention nine datasets commonly used in GraphNAS:
+
+1. **Cora**: A citation graph dataset with 2,708 vertices, 5,429 links, and 7 classes. The performance metric is accuracy.
+2. **CiteSeer**: Another citation graph dataset with 3,327 vertices, 4,732 links, and 6 classes, also measured by accuracy.
+3. **PubMed**: A larger citation graph dataset with 19,717 vertices, 44,338 links, and 3 classes, measured by accuracy.
+4. **Coauthor-CS**: A co-authorship graph with 18,333 vertices, 81,894 links, and 15 classes, measured by accuracy.
+5. **Coauthor-Physics**: Similar to Coauthor-CS, this dataset has 34,493 vertices, 247,962 links, and 5 classes, measured by accuracy.
+6. **Amazon-Photo**: An e-commerce graph with 7,487 vertices, 119,043 links, and 8 classes, measured by accuracy.
+7. **Amazon-Computers**: Another e-commerce graph with 13,381 vertices, 245,778 links, and 10 classes, measured by accuracy.
+8. **ogbn-arXiv**: A graph from the Open Graph Benchmark with 169,343 vertices, 1,166,243 links, and 40 classes, measured by accuracy.
+9. **ogbn-proteins**: A biological graph with 132,534 vertices, 39,561,252 links, and 112 classes, measured by ROC-AUC.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The paper provides citations for the datasets as follows:
+
+- For **Cora, CiteSeer, and PubMed**, the citation is:
+  > Sen, P., Namata, G., Bilgic, M., Getoor, L., Galligher, J., & Eliassi-Rad, T. (2008). Collective classification in network data. *AI Magazine*, 29(3), 93-93.
+
+- For **Coauthor-CS and Coauthor-Physics**, the citation is:
+  > Shchur, O., Mumme, M., Bojchevski, A., & Günnemann, S. (2018). Pitfalls of graph neural network evaluation. *Relational Representation Learning Workshop*, NeurIPS 2018.
+
+- For **Amazon-Photo and Amazon-Computers**, the citation is:
+  > Shchur, O., Mumme, M., Bojchevski, A., & Günnemann, S. (2018). Pitfalls of graph neural network evaluation. *Relational Representation Learning Workshop*, NeurIPS 2018.
+
+- For **ogbn-arXiv and ogbn-proteins**, the citation is:
+  > Hu, W., Fey, M., Zitnik, M., Dong, Y., Ren, H., Liu, B., Catasta, M., & Leskovec, J. (2020). Open graph benchmark: Datasets for machine learning on graphs. *Neural Information Processing Systems*.
+
+Now that I have gathered the datasets and their citations, I will compile this information into a structured format for further processing or review.

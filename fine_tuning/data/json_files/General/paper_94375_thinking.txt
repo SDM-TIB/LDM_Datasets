@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "AnchiBERT: A Pre-Trained Model for Ancient Chinese Language Understanding and Generation" by Huishuang Tian et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that AnchiBERT is evaluated on various tasks, which suggests that datasets are involved.
+
+Next, I will focus on the **methodology section**, particularly the **Pre-Training Data** and **Fine-Tuning** subsections. Here, the authors describe the ancient Chinese corpora used for training AnchiBERT. They mention that the corpora consist of articles, poems, and couplets, totaling 39.5 million ancient Chinese tokens. This is a significant dataset, but I need to find specific references to datasets used for evaluation in downstream tasks.
+
+In the **Experiments section**, the authors detail four specific tasks and the datasets associated with them:
+
+1. **Poem Topic Classification (PTC)**: The dataset contains 3.2K four-line classical Chinese poems, each annotated with a literary topic. 
+
+2. **Ancient-Modern Chinese Translation (AMCT)**: This task uses a dataset of 1.2 million aligned ancient-modern Chinese sentence pairs.
+
+3. **Chinese Poem Generation (CPG)**: The authors utilize a publicly available poetry dataset containing 0.23 million four-line classical Chinese poems.
+
+4. **Chinese Couplet Generation (CCG)**: This task is based on a publicly available couplet dataset that includes 0.77 million couplet pairs.
+
+Now, I will check the **References section** to find full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For the **Ancient-Modern Chinese Translation dataset**, the citation is:
+  > Liu, D., Yang, K., Qu, Q., & Lv, J. (2020). *Ancient-modern Chinese translation with a new large training dataset*. ACM Transactions on Asian and Low-Resource Language Information Processing, 19(1), 6:1–6:13. https://doi.org/10.1145/3325887
+
+- For the **Chinese Couplet Generation dataset**, the citation is:
+  > Yan, R., Li, C., Hu, X., & Zhang, M. (2016). *Chinese couplet generation with neural network structures*. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL 2016), Berlin, Germany. https://doi.org/10.18653/v1/p16-1222
+
+- For the **Chinese Poem Generation dataset**, the citation is:
+  > Yi, X., Li, R., & Sun, M. (2017). *Generating Chinese classical poems with RNN encoder-decoder*. In Chinese Computational Linguistics and Natural Language Processing Based on Naturally Annotated Big Data - 16th China National Conference, CCL 2017. https://doi.org/10.1007/978-3-319-69005-6_18
+
+- The **Poem Topic Classification dataset** does not have a specific citation mentioned in the references, but it is noted that it is a publicly released dataset.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will facilitate further research and ensure that the datasets are accessible to others interested in this area of study.

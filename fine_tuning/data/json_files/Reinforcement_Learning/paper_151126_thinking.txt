@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "An experimental evaluation of Deep Reinforcement Learning algorithms for HVAC control" by Antonio Manjavacas et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the study's focus on evaluating DRL algorithms for HVAC control, but it does not explicitly mention datasets.
+
+Next, I will examine **section 4 (Data and environments)**, which is likely to contain detailed information about the datasets used in the experiments. This section outlines the building models and weather data utilized in the study. 
+
+In **subsection 4.1 (Building models)**, the authors describe two specific building models used for testing:
+
+1. **5ZoneAutoDXVAV**: A single-story office building model with specific dimensions and HVAC configurations.
+2. **2ZoneDataCenterHVAC**: A data center model with distinct HVAC systems and configurations.
+
+Both models are linked to specific files in the Sinergym framework, which indicates that they are part of the datasets used for the experiments.
+
+In **subsection 4.2 (Weather)**, the authors mention three types of weather data integrated into Sinergym, based on Typical Meteorological Year (TMY3) data:
+
+- **Hot dry**: Climate data corresponding to Arizona, USA.
+- **Mixed humid**: Climate data for New York, USA.
+- **Cool marine**: Climate data for Washington, USA.
+
+These weather datasets are crucial for understanding the environmental conditions under which the HVAC control algorithms were tested.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The building models and weather data are likely derived from established sources or frameworks, so I will look for any references that provide the original datasets or models.
+
+After gathering all the necessary information, I will compile the dataset entries, ensuring to include the full citations for each dataset as follows:
+
+- For **5ZoneAutoDXVAV**, I will cite the source of the model as:
+  > Wei, T., Wang, Y., Zhu, Q. (2017). *Deep reinforcement learning for building HVAC control*. In Proceedings of the 54th Annual Design Automation Conference, pp. 1–6. https://doi.org/10.1145/3061639.3062224.
+
+- For **2ZoneDataCenterHVAC**, I will cite:
+  > Ding, X., Du, W., Cerpa, A.E. (2020). *Mb2c: Model-based deep reinforcement learning for multi-zone building control*. In Proceedings of the 7th ACM International Conference on Systems for Energy-efficient Buildings, Cities, and Transportation, pp. 50–59. https://doi.org/10.1145/3408308.3427986.
+
+- For the **weather data**, I will reference the TMY3 data source as:
+  > U.S. Department of Energy. (2021). *Prototype Building Models | Building Energy Codes Program*. https://www.energycodes.gov/prototype-building-models#Weather.
+
+With this information, I will create structured entries for each dataset, ensuring that the citations are complete and accurate for future reference.

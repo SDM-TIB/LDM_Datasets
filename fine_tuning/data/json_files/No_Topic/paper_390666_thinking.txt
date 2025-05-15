@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Inter-Rater Uncertainty Quantification in Medical Image Segmentation via Rater-Specific Bayesian Neural Networks" by Qingqiao Hu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors provide an open-source 3D multi-rater dataset annotated by three raters, which suggests that there are specific datasets to extract.
+
+Next, I will focus on **section 4.1 (Datasets and evaluation metrics)**, where the authors explicitly list the datasets used in their research. Here, they mention:
+
+1. **QUBIQ Dataset**: This dataset includes multiple tasks related to brain tumor, brain growth, kidney, and prostate segmentation, with annotations from multiple raters. The authors note that it is publicly released as part of the QUBIQ challenge.
+
+2. **LIDC-IDRI Dataset**: This dataset consists of 1018 thoracic CT scans with lesions annotated by four experts. It is a well-known dataset in the medical imaging community.
+
+3. **A new rater-aligned liver tumor dataset**: This dataset was created specifically for this study, where three radiologists annotated liver tumors in a subset of the public CT liver dataset LiTS.
+
+4. **Synthetic dataset**: The authors also mention a synthetic dataset created from the LIDC-IDRI dataset by applying morphological operations to simulate data uncertainty.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For **QUBIQ Dataset**, the citation is:
+  > Bakas, S., Reyes, M., Jakab, A., Bauer, S., Rempfler, M., Crimi, A., Shinohara, R., Berger, C., Ha, S., Rozycki, M., Prastawa, M., Alberts, E., Lipkova, J., Freymann, J., Kirby, J., Bilello, M., Fathallah-Shaykh, H., Wiest, R., & Kirschke, J. (2018). Identifying the best machine learning algorithms for brain tumor segmentation, progression assessment, and overall survival prediction in the BRATS challenge.
+
+- For **LIDC-IDRI Dataset**, the citation is:
+  > Armato III, S. G., McLennan, G., Bidaut, L., McNitt-Gray, M., Meyer, C., Reeves, A., Zhao, B., Aberle, D., Henschke, C., Hoffman, E., Kazerooni, E., Macmahon, H., Beek, E., Yankelevitz, D., Biancardi, A., Bland, P., Brown, M., Engelmann, R., Laderach, G., & Clarke, L. (2011). The lung image database consortium (LIDC) and image database resource initiative (IDRI): A completed reference database of lung nodules on CT scans. Medical Physics, 38(915-931).
+
+- For **LiTS Dataset**, the citation is:
+  > Bilic, P., Christ, P., Li, H. B., Vorontsov, E., Ben-Cohen, A., Kaissis, G., Szeskin, A., Jacobs, C., Efrain Humpire Mamani, G., Chartrand, G., et al. (2023). The liver tumor segmentation benchmark (LiTS). Medical Image Analysis, 84, 102680.
+
+Now, I will compile the dataset entries with their full citations into a structured format for further processing.

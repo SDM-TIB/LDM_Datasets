@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "Learning to Solve Constraint Satisfaction Problems with Recurrent Transformer" by Zhun Yang et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the paper's contributions, and the introduction often outlines the context and significance of the datasets used.
+
+In the **introduction**, the authors discuss various models and their limitations in solving constraint satisfaction problems (CSPs). They mention the use of datasets related to Sudoku puzzles and visual constraint reasoning, which indicates that specific datasets will be referenced later.
+
+Next, I will focus on the **experiments section**, particularly **section 4 (Experiments)**, where the authors detail the datasets used for their experiments. Here, they mention:
+
+1. **SATNet Dataset**: This dataset is referenced as being used for textual Sudoku problems. The authors note that it consists of 9,000 training instances and 1,000 test instances.
+
+2. **RRN Dataset**: This dataset is used for a more challenging textual Sudoku problem, with 180,000 training instances and 18,000 test instances.
+
+3. **SATNet-V Dataset**: This is a visual version of the SATNet dataset, specifically designed for visual Sudoku problems, also with a training/test split of 9,000/1,000.
+
+4. **RRN-V Dataset**: This dataset is created based on the RRN dataset, using MNIST images to represent Sudoku boards, with a training/test split of 9,000/1,000.
+
+5. **SP4 Dataset**: This dataset is used for the shortest path problem, consisting of 1,610 data instances, split into training, validation, and test sets.
+
+6. **Nonograms Dataset**: The authors mention generating datasets for Nonograms, with a training/test split of 9,000/1,000 for both 7x7 and 15x15 grids.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The citations I will extract include:
+
+- For **SATNet Dataset**:
+  > Wang, P., Donti, P. L., Wilder, B., & Kolter, Z. (2019). *SATNet: Bridging deep learning and logical reasoning using a differentiable satisfiability solver*. In Proceedings of the 35th International Conference on Machine Learning (ICML).
+
+- For **RRN Dataset**:
+  > Palm, R., Paquet, U., & Winther, O. (2018). *Recurrent relational networks*. In Proceedings of Advances in Neural Information Processing Systems.
+
+- For **SATNet-V Dataset**:
+  > Topan, S., Rolnick, D., & Si, X. (2021). *Techniques for symbol grounding with SATNet*. Advances in Neural Information Processing Systems.
+
+- For **RRN-V Dataset**: Since this dataset is created based on the RRN dataset, I will reference the same citation as for the RRN dataset.
+
+- For **SP4 Dataset**:
+  > Xu, J., Zhang, Z., Friedman, T., Liang, Y., & Van den Broeck, G. (2018). *A semantic loss function for deep learning with symbolic knowledge*. In Proceedings of the 35th International Conference on Machine Learning (ICML).
+
+- For **Nonograms Dataset**: Since the authors generated this dataset, I will note that it is created using a specific program, but it may not have a formal citation.
+
+Now, I will compile the dataset entries with their respective citations into a structured format for clarity and future reference.

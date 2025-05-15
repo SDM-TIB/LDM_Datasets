@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Synthesize Step-by-Step: Tools, Templates and LLMs as Data Generators for Reasoning-Based Chart VQA" by Zhuowan Li et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly referenced. The abstract mentions the use of **ChartQA** and **PlotQA** datasets, indicating that these are key datasets for the research.
+
+Next, I will look into the **experiments section** (Section 4) where the authors discuss their experimental setup. In **Section 4.1**, they specify that they conducted experiments on two datasets: **ChartQA** and **PlotQA**. The authors provide details about these datasets, including their characteristics and the number of images and questions.
+
+1. **ChartQA Dataset**: This dataset contains 21,000 real-world chart images sourced from four web sources, with 9,000 human-annotated question-answer pairs and 23,000 machine-augmented pairs. The human-annotated questions require complex reasoning, making this dataset particularly valuable for evaluating reasoning capabilities in chart VQA models.
+
+2. **PlotQA Dataset**: This dataset consists of 224,000 synthetic chart images generated from real-world online data, with a total of 37 million synthetic question-answer pairs divided into two splits: V1 (8 million) and V2 (29 million). This dataset is also used to assess the performance of the proposed methods.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **ChartQA**, the citation is:
+  > Ahmed Masry, Do Xuan Long, Jia Qing Tan, Shafiq Joty, and Enamul Hoque. *ChartQA: A benchmark for question answering about charts with visual and logical reasoning*. arXiv preprint arXiv:2203.10244, 2022.
+
+- For **PlotQA**, the citation is:
+  > Nitesh Methani, Pritha Ganguly, Mitesh M Khapra, and Pratyush Kumar. *PlotQA: Reasoning over scientific plots*. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, pages 1527–1536, 2020.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format for further use or processing.

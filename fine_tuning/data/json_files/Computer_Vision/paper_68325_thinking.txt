@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Learning Prompt with Distribution-Based Feature Replay for Few-Shot Class-Incremental Learning" by Zitong Huang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract and introduction** sections to get an overview of the datasets used in the experiments. The abstract mentions experiments conducted on three prevalent benchmarks: **CIFAR-100, mini-ImageNet, and CUB-200**, which indicates that these datasets are likely to be detailed further in the paper.
+
+Next, I will look for a dedicated **Datasets section** or any relevant sections that discuss the datasets in detail. In this case, the **Experiments section** provides a summary of the datasets used. The authors specifically mention:
+
+1. **CIFAR-100**: A dataset consisting of 100 classes, each containing 50,000 training images. The paper states that there are 60 classes in the base session, with the remaining classes divided into 8 incremental sessions, each comprising 5 classes.
+
+2. **mini-ImageNet**: This dataset is described as a smaller part of ImageNet, containing 50,000 training images from 100 selected classes. Similar to CIFAR-100, it has 60 classes in the base session, with the rest divided into 8 incremental sessions of 5 classes each.
+
+3. **CUB-200**: A fine-grained classification dataset that includes 200 bird species with approximately 6,000 training images. The authors note that there are 100 classes in the base session, with the remaining classes divided into 10 incremental sessions, each containing 10 classes.
+
+Additionally, the authors introduce two more challenging benchmarks:
+
+4. **SUN-397**: A large-scale scene understanding dataset with 397 distinct scene classes and about 76,000 training images. The dataset is structured with 197 classes for the base session and the rest split into 20 incremental sessions of 10 classes each.
+
+5. **CUB-200***: A variant of CUB-200 that excludes the base session, with the total 200 classes evenly divided into 20 incremental sessions, each containing 10 categories.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **CIFAR-100**:
+  > Alex Krizhevsky, Geoffrey Hinton, et al. *Learning multiple layers of features from tiny images*. 2009.
+
+- For **mini-ImageNet**:
+  > Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, et al. *Imagenet large scale visual recognition challenge*. International journal of computer vision, 115:211–252, 2015.
+
+- For **CUB-200**:
+  > Catherine Wah, Steve Branson, Peter Welinder, Pietro Perona, and Serge Belongie. *The Caltech-UCSD Birds-200-2011 dataset*. 2011.
+
+- For **SUN-397**:
+  > Jianxiong Xiao, James Hays, Krista A Ehinger, Aude Oliva, and Antonio Torralba. *SUN database: Large-scale scene recognition from abbey to zoo*. In 2010 IEEE computer society conference on computer vision and pattern recognition, pages 3485–3492. IEEE, 2010.
+
+- For **CUB-200***:
+  > Catherine Wah, Steve Branson, Peter Welinder, Pietro Perona, and Serge Belongie. *The Caltech-UCSD Birds-200-2011 dataset*. 2011.
+
+With this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required.

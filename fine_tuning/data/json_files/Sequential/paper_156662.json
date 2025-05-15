@@ -1,0 +1,226 @@
+[
+    {
+        "dcterms:creator": [
+            "R. H. Clarke"
+        ],
+        "dcterms:description": "A statistical model used for mobile-radio reception, providing a theoretical framework for understanding channel behavior in mobile communications.",
+        "dcterms:title": "Clarke’s model",
+        "dcterms:issued": "1968",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Mobile Communications",
+            "Channel Modeling"
+        ],
+        "dcat:keyword": [
+            "Mobile-radio reception",
+            "Statistical model",
+            "Channel behavior"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "G. Liu",
+            "Z. Hu",
+            "L. Wang",
+            "J. Xue",
+            "H. Yin",
+            "D. Gesbert"
+        ],
+        "dcterms:description": "Historical channel state information (CSI) values used for predicting future channel conditions in massive MIMO-OFDM systems.",
+        "dcterms:title": "Historical CSI values",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Wireless Communications",
+            "Channel Prediction"
+        ],
+        "dcat:keyword": [
+            "Channel state information",
+            "Massive MIMO",
+            "OFDM systems"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Channel Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "G. Liu",
+            "Z. Hu",
+            "L. Wang",
+            "J. Xue",
+            "H. Yin",
+            "D. Gesbert"
+        ],
+        "dcterms:description": "Predicted channel state information (CSI) values generated for use in transmitter selection and channel prediction tasks.",
+        "dcterms:title": "Predicted CSI values",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Wireless Communications",
+            "Channel Prediction"
+        ],
+        "dcat:keyword": [
+            "Channel state information",
+            "Massive MIMO",
+            "OFDM systems"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Channel Prediction",
+            "Transmitter Selection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Observations used for training the model, consisting of historical data points for the tasks of CSI prediction and transmitter selection.",
+        "dcterms:title": "Training data observations",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Observations used for testing the model, consisting of data points to evaluate the performance of the trained model.",
+        "dcterms:title": "Test data observations",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The size of mini-batches used during the training process to optimize the learning of the model.",
+        "dcterms:title": "Mini batch size",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The number of epochs used during the training process, indicating how many times the learning algorithm will work through the entire training dataset.",
+        "dcterms:title": "Training epochs",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The number of iterations used during the training process, representing the number of times the model is updated.",
+        "dcterms:title": "Training iterations",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The learning rate used in the training process, which determines the step size at each iteration while moving toward a minimum of the loss function.",
+        "dcterms:title": "Learning rate",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The optimizer used in the training process to update the model parameters.",
+        "dcterms:title": "Optimizer",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The number of hidden units in the LSTM model, which affects the model's capacity to learn from the data.",
+        "dcterms:title": "Number of hidden units (LSTM)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The number of filters used in the CNN model, which determines the number of features that can be extracted from the input data.",
+        "dcterms:title": "Number of filters (CNN)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The size of the filters used in the CNN model, which affects the receptive field of the model.",
+        "dcterms:title": "Filter size (CNN)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

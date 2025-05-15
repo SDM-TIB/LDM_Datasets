@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Explicit Alignment Objectives for Multilingual Bidirectional Encoders" by Junjie Hu et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions the use of "zero-shot cross-lingual transfer learning" and references the **XTREME benchmark**, which suggests that datasets are involved. I will look for specific datasets mentioned in these sections.
+
+Next, I will focus on the **experiments section** (section 3), where the authors typically describe the datasets used for their experiments. Here, I will look for any explicit mentions of datasets, their purposes, and any relevant details about them.
+
+In section 3.2 (Datasets), the authors list several datasets:
+
+1. **Cross-lingual Part-Of-Speech (POS)**: This dataset contains data in 13 languages from the Universal Dependencies v2.3. 
+
+2. **PAWS-X**: A paraphrase detection dataset, where the authors train on the English data and evaluate on translations into four other languages.
+
+3. **XNLI**: A natural language inference dataset available in 15 languages, where models are trained on the English MultiNLI training data.
+
+4. **Tatoeba**: A testbed for parallel sentence identification, where the authors select non-English languages covered by their parallel data.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **Universal Dependencies v2.3**, the citation is:
+  > Nivre, J., Abrams, M., Agić, Ž., et al. (2018). *Universal dependencies 2.2*.
+
+- For **PAWS-X**, the citation is:
+  > Yang, Y., Zhang, Y., Tar, C., & Baldridge, J. (2019). *PAWS-X: A cross-lingual adversarial dataset for paraphrase identification*. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 3687–3692.
+
+- For **XNLI**, the citation is:
+  > Conneau, A., Rinott, R., Lample, G., et al. (2018). *XNLI: Evaluating cross-lingual sentence representations*. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 2475–2485.
+
+- For **Tatoeba**, the citation is:
+  > Artetxe, M., & Schwenk, H. (2019). *Massively multilingual sentence embeddings for zero-shot cross-lingual transfer and beyond*. Transactions of the Association for Computational Linguistics, 7:597–610.
+
+After gathering all the necessary information, I will compile the dataset entries with their full citations to ensure they are ready for review or further processing. This structured approach will help maintain accuracy and completeness in the dataset extraction process.

@@ -1,0 +1,88 @@
+[
+    {
+        "dcterms:creator": [
+            "K. Kockelman"
+        ],
+        "dcterms:description": "A dataset consisting of more than 2 million real-estate properties in LA County assessed between 2006 and 2017, containing features such as floor area, number of bedrooms, year built, use type, latitude, and longitude.",
+        "dcterms:title": "LA County’s property assessment dataset",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://data.lacounty.gov/Parcel-/Assessor-Parcels-Data-2017/vak5-2hqh",
+        "dcat:theme": [
+            "Real Estate",
+            "Property Assessment"
+        ],
+        "dcat:keyword": [
+            "Real estate",
+            "Housing prices",
+            "Property features"
+        ],
+        "dcat:landingPage": "https://data.lacounty.gov/Parcel-/Assessor-Parcels-Data-2017/vak5-2hqh",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": [
+            "House Price Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset of high-resolution satellite images collected via Google Static Maps API, used to enhance house price prediction models by providing visual context of properties.",
+        "dcterms:title": "High-resolution satellite images",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Remote Sensing",
+            "Image Analysis"
+        ],
+        "dcat:keyword": [
+            "Satellite imagery",
+            "Image data",
+            "Geospatial analysis"
+        ],
+        "dcat:landingPage": "https://developers.google.com/maps/documentation/static-maps/intro",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "House Price Prediction",
+            "Image Analysis"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "O. Russakovsky",
+            "J. Deng",
+            "H. Su",
+            "J. Krause",
+            "S. Satheesh",
+            "S. Ma",
+            "Z. Huang",
+            "A. Karpathy",
+            "A. Khosla",
+            "M. Bernstein",
+            "A. C. Berg",
+            "L. Fei-Fei"
+        ],
+        "dcterms:description": "A large image classification dataset used for training deep learning models to identify low-level image features, which can be transferred to other tasks such as house price prediction.",
+        "dcterms:title": "ImageNet",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://doi.org/10.1007/s11263-015-0816-y",
+        "dcat:theme": [
+            "Computer Vision",
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "Image classification",
+            "Deep learning",
+            "Transfer learning"
+        ],
+        "dcat:landingPage": "https://doi.org/10.1007/s11263-015-0816-y",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Feature Extraction",
+            "Image Classification"
+        ]
+    }
+]

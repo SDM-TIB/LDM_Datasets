@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Deep Cross-Domain Building Extraction for Selective Depth Estimation from Oblique Aerial Imagery" by B. Ruf et al., I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the authors use a combination of a large ground-based dataset and a smaller aerial dataset for training their model, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4 (Experiments)**, particularly **subsection 4.1 (Datasets)**, where the authors explicitly describe the datasets used for training and evaluation. Here, I will look for the names of the datasets, their characteristics, and any relevant details that define their use in the experiments.
+
+In this section, the authors mention four datasets:
+
+1. **Cityscapes Dataset**: This dataset is used for semantic urban scene understanding and consists of approximately 2900 training images and 500 validation images. The authors generated ground truth for building extraction by converting semantic labels into bounding boxes.
+
+2. **ISPRS Dortmund-Zeche-Zollern Dataset**: This dataset includes large images captured from nadir and oblique viewpoints. The authors cropped these images into smaller subimages and annotated them with bounding boxes for training and validation.
+
+3. **GoogleEarth Dataset**: A semi-synthetic dataset created by rendering scenes from GoogleEarth with various viewpoints and distances. This dataset is used to evaluate the performance of the Faster R-CNN on different building structures.
+
+4. **Own Dataset**: This dataset consists of images captured from a DJI Phantom 3 drone, showing a single building from different heights. It is specifically used to demonstrate the performance of the proposed approach in a real-world scenario.
+
+After identifying these datasets, I will refer to the **References section** to find the full citations for the datasets mentioned. The citations for the datasets are as follows:
+
+- **Cityscapes Dataset**:
+  > Cordts, M., Omran, M., Ramos, S., Rehfeld, T., Enzweiler, M., Benenson, R., Franke, U., Roth, S., and Schiele, B. (2016). The Cityscapes dataset for semantic urban scene understanding. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 3213–3223.
+
+- **ISPRS Dortmund-Zeche-Zollern Dataset**:
+  > Nex, F., Gerke, M., Remondino, F., Przybilla, H., Bäumker, M., and Zurhorst, A. (2015). ISPRS benchmark for multi-platform photogrammetry. ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, II-3/W4, pp. 135–142.
+
+- **GoogleEarth Dataset**: Since this dataset is semi-synthetic and generated from GoogleEarth, it may not have a formal citation. However, I can note that it is based on GoogleEarth imagery.
+
+- **Own Dataset**: This dataset does not have a formal citation as it is created by the authors themselves.
+
+Now, I will compile the dataset entries, ensuring that I include the full citations for the datasets where applicable. This structured approach will help ensure that I accurately capture all necessary information regarding the datasets used in the research paper.

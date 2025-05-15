@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Revealing the Illusion of Joint Multimodal Understanding in VideoQA Models" by Ishaan Singh Rawal et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will start by reading through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned. The abstract mentions the creation of a diagnostic dataset called **CLAVI**, which is a strong indicator that there are datasets to extract.
+
+Next, I will look for specific sections that discuss datasets in detail. In the **introduction**, the authors mention the need for a dataset that can assess joint multimodal understanding, which leads me to focus on the **CLAVI** dataset.
+
+In the **methodology section**, the authors provide a detailed description of the **CLAVI** dataset, stating that it consists of 6,018 videos and 114,342 questions, designed to probe temporal understanding in VideoQA tasks. They explain how the dataset is constructed, including the types of questions it contains (Existence, Beginning/End, Before/After) and the process of creating counterfactuals.
+
+Additionally, the authors mention other datasets used for evaluation in their experiments, specifically:
+
+1. **ActivityNet-QA**: This dataset contains 58K open-ended questions on 5.8K sampled videos from ActivityNet.
+2. **MSRVTT-QA**: This dataset includes 244K open-ended questions on 10K MSRVTT videos.
+3. **NeXT-QA**: This dataset consists of 47K 5-way multiple choice questions with one correct answer from 5.4K videos.
+
+Now, I will consult the **References section** to retrieve the full citations for each dataset mentioned:
+
+- For **CLAVI**, since it is a new dataset introduced in this paper, I will cite it as follows:
+  > Ishaan Singh Rawal, Shantanu Jaiswal, Basura Fernando, Cheston Tan. *CLAVI: Counterfactual in LAnguage and VIdeo*. In Revealing the Illusion of Joint Multimodal Understanding in VideoQA Models, 2023.
+
+- For **ActivityNet-QA**, the citation is:
+  > Yufei Xu, Qiming Zhang, Jing Zhang, and Dacheng Tao. *ActivityNet-QA: A Dataset for Understanding Complex Web Videos via Question Answering*. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 33, pp. 9127–9134, 2019.
+
+- For **MSRVTT-QA**, the citation is:
+  > Jie Lei, Licheng Yu, Mohit Bansal, and Tamara Berg. *MSRVTT-QA: Localized, Compositional Video Question Answering*. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pp. 1369–1379, 2018.
+
+- For **NeXT-QA**, the citation is:
+  > Junbin Xiao, Xindi Shang, Angela Yao, and Tat-Seng Chua. *NExT-QA: Next Phase of Question-Answering to Explaining Temporal Actions*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 9777–9786, 2021.
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

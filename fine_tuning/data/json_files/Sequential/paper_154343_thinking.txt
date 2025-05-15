@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "USING IPA-BASED TACOTRON FOR DATA EFFICIENT CROSS-LINGUAL SPEAKER ADAPTATION AND PRONUNCIATION ENHANCEMENT" by Hamed Hemati and Damian Borth, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the adaptation of a TTS model using limited data, which suggests that datasets are involved, but I need to find specific names.
+
+Next, I will focus on **section 4.1 (Datasets)**, where the authors typically provide detailed information about the datasets used in their experiments. Here, I find the following datasets mentioned:
+
+1. **LJSpeech**: This dataset is used for training the English source model. It is a single-speaker dataset that contains approximately 13,100 short audio clips of a single speaker reading passages from various texts.
+
+2. **CSS10**: This is a collection of single speaker speech datasets for 10 languages, which is used for training models in languages other than English. The authors refer to it as publicly available, indicating that it can be accessed for research purposes.
+
+3. **VCTK**: The authors mention using two random speakers from the VCTK dataset for their experiments. This dataset contains recordings of English speakers with various accents, which is useful for speaker adaptation tasks.
+
+4. **Inter-Male/Female**: This refers to internal datasets used for training the German source model, specifically containing one male and one female speaker.
+
+Now, I will check the **References section** to gather full citations for these datasets:
+
+- For **LJSpeech**, the citation is:
+  > Keith Ito and Linda Johnson. *The LJ Speech Dataset*. 2017. Available at: https://keithito.com/LJ-Speech-Dataset/
+
+- For **CSS10**, the citation is:
+  > Kyubyong Park and Thomas Mulc. *CSS10: A collection of single speaker speech datasets for 10 languages*. Interspeech, 2019.
+
+- For **VCTK**, the citation is:
+  > Y. Yamagishi, K. MacDonald, and T. Toda. *CSTR VCTK Corpus: English Multi-Speaker Corpus for CSTR Voice Cloning*. 2019. Available at: https://datashare.ed.ac.uk/handle/10283/3443
+
+- For **Inter-Male/Female**, since this is an internal dataset, it may not have a formal citation, but I will note it as an internal resource used by the authors.
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review. This ensures that I have accurately captured the datasets and their citations as required.

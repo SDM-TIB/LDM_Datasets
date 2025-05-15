@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "RELU TO THE RESCUE: IMPROVE YOUR ON-POLICY ACTOR-CRITIC WITH POSITIVE ADVANTAGES" by Chris Lu et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** of the paper. The abstract mentions "extensive empirical evaluations on diverse benchmarks," which suggests that datasets are likely discussed in detail later in the paper.
+
+Next, I will focus on the **experiments section** (Section 5) where the authors typically describe the datasets used for evaluation. In this section, they mention evaluating their method on the **MuJoCo continuous control benchmark** and the **ProcGen generalization benchmark**. I will look for specific details about these benchmarks to understand their structure and citation.
+
+In **Section 5.1**, the authors refer to the **Gymnasium** and **Brax MuJoCo** implementations for continuous control tasks. They also mention that they build off of Huang et al. (2022)’s CleanRL package, which provides reproducible implementations of reinforcement learning algorithms. This indicates that the datasets used in these benchmarks are likely derived from these sources.
+
+In **Section 5.2**, the authors discuss the **ProcGen benchmark**, which consists of 16 procedurally generated environments. They specify that they follow the "easy" generalization protocol, training on 200 levels for 25 million time steps. This section confirms that ProcGen is indeed a dataset used for their experiments.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned:
+
+1. **MuJoCo**:
+   - The citation for the MuJoCo physics engine is:
+     > Emanuel Todorov, Tom Erez, and Yuval Tassa. *Mujoco: A physics engine for model-based control*. http://www.mujoco.org, 2012.
+
+2. **ProcGen**:
+   - The citation for the ProcGen benchmark is:
+     > Karl Cobbe, Chris Hesse, Jacob Hilton, and John Schulman. *Leveraging procedural generation to benchmark reinforcement learning*. In International conference on machine learning, pp. 2048–2056, PMLR, 2020.
+
+3. **Gymnasium**:
+   - The citation for the Gymnasium library is:
+     > Greg Brockman, Vicki Cheung, Ludwig Pettersson, Jonas Schneider, John Schulman, Jie Tang, and Wojciech Zaremba. *OpenAI Gym*. arXiv preprint arXiv:1606.01540, 2016.
+
+4. **CleanRL**:
+   - The citation for the CleanRL package is:
+     > Shengyi Huang, Rousslan Fernand Julien Dossa, Chang Ye, Jeff Braga, Dipam Chakraborty, Kinal Mehta, and João G.M. Araújo. *CleanRL: High-quality single-file implementations of deep reinforcement learning algorithms*. Journal of Machine Learning Research, 23(274):1–18, 2022.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described and properly cited. This will provide a comprehensive overview of the datasets utilized in the research paper.

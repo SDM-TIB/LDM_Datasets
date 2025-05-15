@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Masked Autoencoding for Scalable and Generalizable Decision Making" by Fangchen Liu et al., I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract provides a brief overview of the research focus, and the introduction often discusses the context and significance of the datasets used.
+
+Next, I will focus on **section 4 (Experiments)**, particularly **subsection 4.1 (Experiments Setup)**, where the authors describe the datasets used for pretraining their model. Here, they mention two specific datasets:
+
+1. **Near-expert Dataset**: This dataset is constructed by training a TD3 agent for 1 million steps and collecting 4 million experience steps with Gaussian noise. This dataset is crucial for their experiments.
+
+2. **Mixed Dataset**: This dataset consists of diverse data collected from various agents, including near-expert trajectories and exploratory trajectories using intrinsic rewards. It is also essential for their experiments.
+
+In the **appendix (A.2 Datasets)**, the authors provide further details about these datasets, confirming their significance in the study.
+
+Now, I will look at the **References section** to find the full citations for the datasets mentioned. The citations are as follows:
+
+- For the **TD3 agent**, the citation is:
+  > Fujimoto, S., van Hoof, H., & Meger, D. (2018). Addressing function approximation error in actor-critic methods. arXiv preprint arXiv:1802.09477.
+
+- For the **Proto-RL**, the citation is:
+  > Laskin, M., Liu, H., Peng, X. B., Yarats, D., Rajeswaran, A., & Abbeel, P. (2022). CIC: Contrastive intrinsic control for unsupervised skill discovery. arXiv preprint arXiv:2202.00161.
+
+With this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required.
+
+Finally, I will prepare the dataset entries in a structured format that can be easily reviewed or processed further.

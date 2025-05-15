@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "KarNet: An Efficient Boolean Function Simplifier" by Shanka Subhra Mondal et al., I will follow a systematic approach to identify and document any datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to look for any references to datasets. The abstract mentions that the authors trained KarNet on "four variable Karnaugh maps," which suggests that there is a dataset related to Karnaugh maps.
+
+Next, I will focus on **section IV (Experimental Results)**, specifically the subsection **A (Training Data)**, where the authors elaborate on the data used to train KarNet. They state that there are **216 different K-maps possible for 4 variables**, and they mention using the **Quine-McCluskey Method** to generate these K-maps. This indicates that the dataset consists of these K-maps, which are derived from the minterms input to the Quine-McCluskey Method.
+
+In the same section, the authors also discuss a dataset for **K-maps with don’t care conditions**, stating that they extracted all possible 4-variable Karnaugh maps with at least one don’t care cell and at least one cell with value 1. They mention a total of **42,850,116 such K-maps**, which is another dataset of interest.
+
+Now, I will check the **References section** to find full citations for the methods used to generate these datasets. The Quine-McCluskey Method is referenced as follows:
+
+- For the **Quine-McCluskey Method**, the citation is:
+  > J. Russell and R. Cohn, "Quine Mccluskey Algorithm," Tbilisi State University, 2012.
+
+Since the authors did not provide a specific dataset citation for the K-maps they generated, I will note that the datasets are derived from the Quine-McCluskey Method as described in the paper.
+
+Finally, I will summarize the datasets identified:
+
+1. **Dataset of 4-variable Karnaugh maps**: 216 different K-maps generated using the Quine-McCluskey Method.
+   - Citation: J. Russell and R. Cohn, "Quine Mccluskey Algorithm," Tbilisi State University, 2012.
+
+2. **Dataset of 4-variable Karnaugh maps with don’t care conditions**: 42,850,116 K-maps extracted with specific conditions.
+   - Citation: J. Russell and R. Cohn, "Quine Mccluskey Algorithm," Tbilisi State University, 2012.
+
+With this information, I will compile the dataset entries for further processing or documentation.

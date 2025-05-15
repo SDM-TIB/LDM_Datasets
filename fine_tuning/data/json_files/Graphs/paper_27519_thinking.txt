@@ -1,0 +1,38 @@
+To extract datasets from the research paper titled "Improving the Expressive Power of Graph Neural Network with Tinhofer Algorithm" by Alan J.X. Guo, Qing-Hu Hou, and Ou Wu, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on several well-known datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on the **experiments section** (section 5) where the authors explicitly mention the datasets used for their comparative experiments. They state that they engaged seven commonly used datasets with more than 1000 nodes, which are:
+
+1. **PROTEINS**: A dataset representing proteins where nodes correspond to secondary structure elements (helix, sheet, turn) and edges represent connections based on amino acid sequences or 3D proximity.
+
+2. **NCI1**: A balanced dataset of chemical compounds screened for activity against non-small cell lung cancer, where each graph represents a chemical compound with nodes and edges related to atoms and chemical bonds.
+
+3. **COLLAB**: A scientific collaboration dataset derived from three fields (High Energy Physics, Condensed Matter Physics, Astro Physics), representing ego-networks of researchers.
+
+4. **IMDB-BINARY**: A dataset of movie collaborations with ego-networks derived from actors/actresses, labeled by genres (Action and Romance).
+
+5. **IMDB-MULTI**: Similar to IMDB-BINARY but with multiple genres (Comedy, Romance, Sci-Fi) as labels.
+
+6. **REDDIT-BINARY**: A dataset representing online discussion threads, where users are nodes and edges represent responses to comments, labeled as discussion or question/answer.
+
+7. **REDDIT-MULTI-5K**: Similar to REDDIT-BINARY but with labels according to subreddits.
+
+To ensure I have the correct citations for these datasets, I will refer to the **References section** of the paper. The authors cite the sources for the datasets as follows:
+
+- For **PROTEINS**:
+  > Karsten M. Borgwardt et al. "Protein function prediction via graph kernels." *Bioinformatics*, 21(suppl 1):i47–i56, 2005.
+
+- For **NCI1**:
+  > N. Wale and G. Karypis. "Comparison of descriptor spaces for chemical compound retrieval and classification." In *Sixth International Conference on Data Mining (ICDM’06)*, pages 678–689, 2006.
+
+- For **COLLAB**:
+  > Pinar Yanardag and S.V.N. Vishwanathan. "Deep graph kernels." In *Proceedings of the 21st ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*, 2015.
+
+- For **IMDB-BINARY** and **IMDB-MULTI**:
+  > Jure Leskovec, Jon Kleinberg, and Christos Faloutsos. "Graphs over time: Densification laws, shrinking diameters and possible explanations." In *Proceedings of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery in Data Mining*, 2005.
+
+- For **REDDIT-BINARY** and **REDDIT-MULTI-5K**:
+  > Christopher Morris et al. "TUDataset: A collection of benchmark datasets for learning with graphs." In *ICML 2020 Workshop on Graph Representation Learning and Beyond*, 2020.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing.

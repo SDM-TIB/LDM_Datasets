@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "MCWDST: a Minimum-Cost Weighted Directed Spanning Tree Algorithm for Real-Time Fake News Mitigation in Social Media" by Ciprian-Octavian Truică et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any mentions of datasets. The abstract states that the authors demonstrate the effectiveness of their solution on five real-world datasets, which indicates that multiple datasets are involved.
+
+Next, I will focus on **section V (Experimental Results)**, where the authors describe the datasets used for evaluation. Here, they mention using four datasets for fake news detection and one dataset for evaluating mitigation metrics. I will extract the names and details of these datasets.
+
+The datasets mentioned are:
+
+1. **Fake News Corpus (FNC)**: Contains over 9.4 million articles labeled with 11 predefined labels. The authors selected a balanced subset of 20,000 articles tagged as either reliable or fake.
+
+2. **Kaggle Dataset**: Downloaded from the Kaggle Fake News Detection challenge, consisting of 20,800 articles tagged as reliable or unreliable. After cleaning, it contains 10,387 reliable and 10,374 unreliable articles.
+
+3. **GossipCop Dataset**: Comprises 22,155 news titles, URLs, tweet IDs, and labels indicating whether articles are true or fake. The authors selected 5,323 articles to represent both tags.
+
+4. **Fakeddit Dataset**: A multimodal dataset allowing for various classification types. The authors used 107,742 posts with a 1:1 true-to-fake ratio, excluding entries with images.
+
+5. **Twitter15 Dataset**: Contains news articles and their labels, along with information on the directed network structure among users. The authors selected 361 articles identified as false for their analysis.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **Fake News Corpus (FNC)**, the citation is:
+  > Shu, K., Mahudeswaran, D., Wang, S., Lee, D., & Liu, H. (2020). FakeNewsNet: A data repository with news content, social context, and spatiotemporal information for studying fake news on social media. *Big Data*, 8(3), 171-188.
+
+- For **Kaggle Dataset**, the citation is:
+  > Kaggle. (n.d.). Fake News Detection Challenge. Retrieved from https://www.kaggle.com/c/fake-news
+
+- For **GossipCop Dataset**, the citation is:
+  > Shu, K., Mahudeswaran, D., Wang, S., Lee, D., & Liu, H. (2020). FakeNewsNet: A data repository with news content, social context, and spatiotemporal information for studying fake news on social media. *Big Data*, 8(3), 171-188.
+
+- For **Fakeddit Dataset**, the citation is:
+  > Nakamura, K., Levy, S., & Wang, W. Y. (2020). Fakeddit: A new multimodal benchmark dataset for fine-grained fake news detection. In *The 12th Language Resources and Evaluation Conference* (pp. 6149-6157).
+
+- For **Twitter15 Dataset**, the citation is:
+  > Liu, X., Nourbakhsh, A., Li, Q., Fang, R., & Shah, S. (2015). Real-time rumor debunking on Twitter. In *The 24th ACM International on Conference on Information and Knowledge Management* (pp. 1867-1870).
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

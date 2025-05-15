@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Exploring Feature Representation Learning for Semi-supervised Medical Image Segmentation" by Huimin Wu, Xiaomeng Li, and Kwang-Ting Cheng, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets mentioned. The abstract indicates that the method achieves the best results on three public medical image segmentation benchmarks, which suggests that specific datasets are used.
+
+Next, I will focus on the **experimental results section (Section IV)**, where the authors typically describe the datasets used for their experiments. In this section, they mention three datasets:
+
+1. **Pancreas CT Dataset**: This dataset contains 80 scans with a resolution of 512×512 pixels and slice thickness between 1.5 and 2.5 mm. Each image has a corresponding pixel-wise label, annotated by an expert and verified by a radiologist.
+
+2. **Colon Cancer Segmentation Dataset**: This dataset is a subset from the Medical Segmentation Decathlon (MSD) datasets, consisting of 190 colon cancer CT volumes. Pixel-level label annotations are provided for 126 CT volumes, with a random split of 26 CT volumes for testing.
+
+3. **Left Atrium (LA) MR Dataset**: This dataset contains 100 MR image scans with an isotropic resolution of 0.625 × 0.625 × 0.625 mm³. It is fully annotated with pixel-level supervision, with 80 scans used for training and 20 for validation.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For the **Pancreas CT Dataset**, the citation is:
+  > Roth, H. R., Lu, L., Farag, A., Shin, H.-C., Liu, J., Turkbey, E. B., & Summers, R. M. (2015). DeepOrgan: Multi-level deep convolutional networks for automated pancreas segmentation. In *International Conference on Medical Image Computing and Computer-Assisted Intervention* (pp. 556–564). Springer.
+
+- For the **Colon Cancer Segmentation Dataset**, the citation is:
+  > Simpson, A. L., Antonelli, M., Bakas, S., Bilello, M., Farahani, K., Van Ginneken, B., Kopp-Schneider, A., Landman, B. A., Litjens, G., Menze, B., et al. (2019). A large annotated medical image dataset for the development and evaluation of segmentation algorithms. *arXiv preprint arXiv:1902.09063*.
+
+- For the **Left Atrium (LA) MR Dataset**, the citation is:
+  > Yu, L., Wang, S., Li, X., Fu, C.-W., & Heng, P.-A. (2019). Uncertainty-aware self-ensembling model for semi-supervised 3D left atrium segmentation. In *International Conference on Medical Image Computing and Computer-Assisted Intervention* (pp. 605–613). Springer.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

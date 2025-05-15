@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Dynamic Kernel Convolution Network with Scene-dedicate Training for Sound Event Localization and Detection" by Siwei Huang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract mentions the evaluation of the proposed SELD system on the **Sony-TAu Realistic Spatial Soundscapes 2022 dataset**, which indicates that datasets are involved.
+
+Next, I will look for specific sections that detail the datasets used. In the **experiments section**, the authors provide a clear description of the datasets:
+
+1. **FSD50K Dataset**: This dataset is an open dataset of human-labeled sound events, containing over 51,000 audio clips totaling over 100 hours of audio, manually labeled using 200 classes drawn from the AudioSet Ontology.
+
+2. **STARSS22 Dataset**: Collected in Finland and Japan, this dataset contains multichannel recordings of sound scenes with strong human annotations for 13 target classes, totaling 5 hours in the development set and 2 hours in the blind test set.
+
+3. **TAU-SRIR DB Dataset**: This dataset includes spatial room impulse responses captured in various spaces, which can be used to generate multichannel mixtures for localization and acoustic scene analysis.
+
+4. **2022 DCASE SELD Task Released SELD Synthesis**: This dataset consists of synthetic spatial audio mixtures of sound events spatialized for two different formats, containing 20 hours of synthetic data with 13 target sound classes.
+
+I will then check the **References section** to obtain the full citations for each dataset:
+
+- For **FSD50K**, the citation is:
+  > Fonseca, E., Favory, X., Pons, J., Font, F., & Serra, X. (2022). FSD50K: An open dataset of human-labeled sound events. *IEEE/ACM Transactions on Audio, Speech, and Language Processing*, 30, 829–852.
+
+- For **STARSS22**, the citation is:
+  > Politis, A., Adavanne, S., Krause, D., Deleforge, A., Srivastava, P., & Virtanen, T. (2022). STARSS22: A dataset of spatial recordings of real scenes with spatiotemporal annotations of sound events. *arXiv preprint arXiv:2206.01948*.
+
+- For **TAU-SRIR DB**, the citation is:
+  > Politis, A., Adavanne, S., & Virtanen, T. (2020). A dataset of reverberant spatial sound scenes with moving sources for sound event localization and detection. *arXiv preprint arXiv:2006.01919*.
+
+- For **2022 DCASE SELD Task Released SELD Synthesis**, the citation is:
+  > Politis, A., Mesaros, A., Adavanne, S., Heittola, T., & Virtanen, T. (2021). A dataset of dynamic reverberant sound scenes with directional interferers for sound event localization and detection. In *Proceedings of the 6th Detection and Classification of Acoustic Scenes and Events 2021 Workshop (DCASE2021)*, Barcelona, Spain, November 2021, pp. 125–129.
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

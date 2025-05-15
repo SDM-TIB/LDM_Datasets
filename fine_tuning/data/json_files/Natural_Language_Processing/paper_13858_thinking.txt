@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Do Pre-trained Code Models Possess Knowledge of Correct API Names?" by Terry Yue Zhuo et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract mentions that "all experiment results, data and source code used in this work are available at https://doi.org/10.5281/zenodo.7902072," which indicates that there is a dataset associated with this research.
+
+Next, I will look for specific sections that detail the datasets used in the experiments. In the **experiments section**, the authors discuss the construction of a benchmark called **PyINK**, which is designed to evaluate the name knowledge of Python APIs. This is a significant dataset that I need to document.
+
+In the **section detailing the evaluation setup**, the authors provide a comprehensive overview of the PyINK dataset, stating that it contains 597,141 main pop quizzes for evaluation, derived from 79,754 unique APIs extracted from 8,294 Python libraries across 13,519 repositories. This information is crucial for understanding the dataset's scope and purpose.
+
+Now, I will consult the **References section** to find full citations for the datasets mentioned. The paper references the **CSNet dataset**, which is used for pre-training the models. The citation for CSNet is:
+> Husain, H., Wu, H.-H., Gazit, T., Allamanis, M., & Brockschmidt, M. (2019). Codesearchnet challenge: Evaluating the state of semantic code search. arXiv preprint arXiv:1909.09436.
+
+Additionally, the PyINK dataset is associated with the DOI link provided in the abstract. I will format the citation for PyINK as follows:
+> Zhuo, T. Y., Du, X., Xing, Z., Sun, J., Quan, H., Li, L., & Zhu, L. (2023). Do Pre-trained Code Models Possess Knowledge of Correct API Names? Zenodo. https://doi.org/10.5281/zenodo.7902072.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. The datasets extracted from the paper are:
+
+1. **PyINK Dataset**: A benchmark for evaluating Python API name knowledge, containing 597,141 pop quizzes derived from 79,754 unique APIs.
+2. **CSNet Dataset**: A collection of datasets and benchmarks for semantic code retrieval, used for pre-training the models.
+
+I will ensure that the full citations for both datasets are included in the final output.

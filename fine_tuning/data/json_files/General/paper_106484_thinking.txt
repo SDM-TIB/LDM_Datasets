@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Bayesian Optimization over Permutation Spaces" by Aryan Deshwal et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract mentions that the authors make "new resources and real-world benchmarks available to the community," which suggests that datasets are included.
+
+Next, I will focus on the **experiments section** (section 6) where the authors describe the benchmarks used for their experiments. They mention several benchmarks, including:
+
+1. **Quadratic Assignment Problem (QAP)**: The authors refer to QAPLIB, a library containing multiple QAP instances, which is a well-known dataset for evaluating algorithms in combinatorial optimization.
+
+2. **Traveling Salesman Problem (TSP)**: The authors mention that TSP problems are derived from low-dimensional variants of the printed circuit board (PCB) problems from the TSPLIB library.
+
+3. **Floor Planning (FP)**: The authors describe two variants of this benchmark (FP1 and FP2) that involve optimizing the placement of rectangular blocks.
+
+4. **Cell Placement (CP)**: This benchmark involves optimizing the placement of rectangular cells based on a netlist.
+
+5. **Heterogeneous Manycore Design (HMD)**: This is a problem from the Rodinia benchmark suite, which involves optimizing the placement of cores in a manycore architecture.
+
+Now, I will look into the **References section** to find the full citations for these datasets:
+
+- For **QAPLIB**, the citation is:
+  > Burkard, R. E., Karisch, S. E., & Rendl, F. (1997). QAPLIB–a quadratic assignment problem library. *Journal of Global Optimization*, 10(4), 391–403.
+
+- For **TSPLIB**, the citation is:
+  > Reinelt, G. (1995). TSplib95. *Interdisziplinäres Zentrum für Wissenschaftliches Rechnen (IWR), Heidelberg*, 338, 1–16.
+
+- For **Rodinia Benchmark**, the citation is:
+  > Che, S., Boyer, M., Meng, J., Tarjan, D., Sheaffer, J. W., Lee, S.-H., & Skadron, K. (2009). Rodinia: A Benchmark suite for Heterogeneous Computing. In *IEEE International Symposium on Workload Characterization (IISWC)*, 44–54.
+
+The authors do not provide specific citations for the Floor Planning and Cell Placement benchmarks, but they are commonly used datasets in the field of computer-aided design.
+
+Finally, I will compile the dataset entries with their respective citations into a structured format for clarity and future reference.

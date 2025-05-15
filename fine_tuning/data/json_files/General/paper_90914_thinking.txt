@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "On Sparsifying Encoder Outputs in Sequence-to-Sequence Models" by Biao Zhang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets that are explicitly mentioned or described. In the abstract, the authors discuss their experiments on two machine translation tasks and two summarization tasks, which suggests that datasets are involved.
+
+Next, I will focus on the **experimental setup section (Section 5)**, where the authors detail the datasets used for their experiments. Here, they mention:
+
+1. **WMT14 English-German Translation Task**: This dataset is used for evaluating the translation quality, specifically mentioning the newstest2013 as the validation set and newstest2014 for testing.
+
+2. **WMT18 Chinese-English Translation Task**: Similar to the WMT14 task, this dataset uses newstest2017 as the validation set and newstest2018 for testing.
+
+3. **CNN/Daily Mail Dataset**: This dataset is used for document summarization, consisting of news articles paired with multi-sentence summaries.
+
+4. **WikiSum Dataset**: This dataset is used for summarization tasks, containing instances where top-40 paragraphs are extracted for each instance paired with a summary.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For the **WMT14 dataset**, the citation is:
+  > Ondrej Bojar, Christian Buck, Christian Federmann, Barry Haddow, Philipp Koehn, Johannes Leveling, Christof Monz, Pavel Pecina, Matt Post, Herve Saint-Amand, Radu Soricut, Lucia Specia, and Aleˇs Tamchyna. *Findings of the 2014 workshop on statistical machine translation*. In Proceedings of the Ninth Workshop on Statistical Machine Translation, pages 12–58, Baltimore, Maryland, USA, 2014.
+
+- For the **WMT18 dataset**, the citation is:
+  > Ondˇrej Bojar, Christian Federmann, Mark Fishel, Yvette Graham, Barry Haddow, Philipp Koehn, and Christof Monz. *Findings of the 2018 conference on machine translation (WMT18)*. In Proceedings of the Third Conference on Machine Translation: Shared Task Papers, pages 272–303, Belgium, Brussels, 2018.
+
+- For the **CNN/Daily Mail dataset**, the citation is:
+  > Karl Moritz Hermann, Tomas Kocisky, Edward Grefenstette, Lasse Espeholt, Will Kay, Mustafa Suleyman, and Phil Blunsom. *Teaching machines to read and comprehend*. In Advances in Neural Information Processing Systems 28, pages 1693–1701, 2015.
+
+- For the **WikiSum dataset**, the citation is:
+  > Peter J. Liu, Mohammad Saleh, Etienne Pot, Ben Goodrich, Ryan Sepassi, Lukasz Kaiser, and Noam Shazeer. *Generating Wikipedia by summarizing long sequences*. In International Conference on Learning Representations, 2018.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. Each dataset will be clearly documented with its name, description, and full citation.

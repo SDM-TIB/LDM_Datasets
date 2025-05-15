@@ -1,0 +1,118 @@
+[
+    {
+        "dcterms:creator": [
+            "K. Young",
+            "A. Ramesh",
+            "L. Kirsch",
+            "J. Schmidhuber"
+        ],
+        "dcterms:description": "ProcMaze consists of procedurally generated gridworld mazes which require navigating from a start state to a goal state. The maze layout, start state and goal state are randomized at the start of each episode. A reward of -1 is given for each step until the goal is reached, at which point the episode terminates.",
+        "dcterms:title": "ProcMaze",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Gridworld"
+        ],
+        "dcat:keyword": [
+            "Maze navigation",
+            "Procedural generation",
+            "Reinforcement learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Navigation",
+            "Planning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Young",
+            "A. Ramesh",
+            "L. Kirsch",
+            "J. Schmidhuber"
+        ],
+        "dcterms:description": "ElectricProcMaze is a variant of the ProcMaze environment where instead of remaining in place upon transitioning into a wall, the agent is allowed to move into the wall cell but with a large negative reward set to be equal to one more than the largest possible number of steps required to reach the goal across all possible maze configurations.",
+        "dcterms:title": "ElectricProcMaze",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Gridworld"
+        ],
+        "dcat:keyword": [
+            "Maze navigation",
+            "Negative rewards",
+            "Reinforcement learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Navigation",
+            "Planning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Young",
+            "A. Ramesh",
+            "L. Kirsch",
+            "J. Schmidhuber"
+        ],
+        "dcterms:description": "Compass is a grid environment where an agent starts each episode in a random location on a 2-dimensional grid and must navigate to one of the edges, which contains a positive reward. The optimal policy will always go in the same direction for every state in a particular grid instance.",
+        "dcterms:title": "Compass",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Gridworld"
+        ],
+        "dcat:keyword": [
+            "Grid navigation",
+            "Reward structure",
+            "Reinforcement learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Navigation",
+            "Planning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Young",
+            "A. Ramesh",
+            "L. Kirsch",
+            "J. Schmidhuber"
+        ],
+        "dcterms:description": "HierarchicalElectricProcMaze is an environment that consists of a base-environment (ElectricProcMaze) and a controller-environment, where executing a single action in the base-environment requires a sequence of coherent actions in the controller-environment.",
+        "dcterms:title": "HierarchicalElectricProcMaze",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Hierarchical Learning"
+        ],
+        "dcat:keyword": [
+            "Hierarchical control",
+            "Maze navigation",
+            "Reinforcement learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Navigation",
+            "Planning"
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Subgraph-Aware Training of Text-based Methods for Knowledge Graph Completion" by Youmin Ko et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract states that the authors conducted extensive experiments on four KGC benchmarks, which suggests that datasets are involved.
+
+Next, I will focus on **section 5 (Experiments)**, where the authors provide details about the datasets used for their experiments. They mention four datasets:
+
+1. **WN18RR**: This dataset is derived from WordNet and consists of 40,943 entities and 11 relations. It has 86,835 training triples, 3,034 validation triples, and 3,134 test triples.
+
+2. **NELL-995**: This dataset is extracted from the web and contains 74,332 entities and 200 relations. It includes 149,678 training triples, 543 validation triples, and 3,992 test triples.
+
+3. **FB15k-237**: This is a dense knowledge graph with 14,541 entities and 237 relations. It has 272,115 training triples, 17,535 validation triples, and 20,466 test triples.
+
+4. **Wikidata5M**: This dataset is much larger and is divided into two settings: 
+   - **Wikidata5M-Trans**: For the transductive setting, it has 4,594,485 entities and 822 relations, with 20,614,279 training triples, 5,163 validation triples, and 5,163 test triples.
+   - **Wikidata5M-Ind**: For the inductive setting, it has similar statistics to the transductive setting.
+
+After identifying the datasets, I will check the **References section** to find the full citations for these datasets. The citations for the datasets are as follows:
+
+- **WN18RR**: 
+  > George A. Miller. *WordNet: A lexical database for English*. In Speech and Natural Language: Proceedings of a Workshop Held at Harriman, New York, February 23-26, 1992.
+
+- **NELL-995**: 
+  > Ji et al. (2021). *A survey on knowledge graphs: Representation, acquisition, and applications*. IEEE Transactions on Neural Networks and Learning Systems.
+
+- **FB15k-237**: 
+  > Bordes et al. (2013). *Translating embeddings for modeling multi-relational data*. Advances in Neural Information Processing Systems, 26.
+
+- **Wikidata5M**: 
+  > Wang et al. (2021c). *KEPLER: A unified model for knowledge embedding and pre-trained language representation*. Transactions of the Association for Computational Linguistics, 9:176–194.
+
+Now, I will compile the dataset entries with their respective citations into a structured format for further processing or review.

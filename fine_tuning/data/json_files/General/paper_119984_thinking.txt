@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "LUNA: Language Understanding with Number Augmentations on Transformers via Number Plugins and Pre-training" by Hongwei Han et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors evaluate their framework on three large-scale transformer models over three different downstream tasks, which suggests that datasets are involved.
+
+Next, I will focus on **section 2 (Related Work)**, where the authors explicitly mention three datasets used for evaluation: **TAT-QA**, **TabFact**, and **CrediTrans**. I will take note of the descriptions provided for each dataset to ensure I capture their details accurately.
+
+In **section 4.1 (Datasets and Evaluation Metrics)**, the authors provide further details about these datasets:
+
+1. **TAT-QA**: This dataset contains 16,552 questions associated with 2,757 hybrid contexts from real-world financial reports. It is designed for question answering requiring numerical reasoning over tabular and textual data.
+
+2. **TabFact**: This dataset consists of 16,000 Wikipedia tables used for fact verification, with 118,000 human-annotated statements. The goal is to determine whether the statements are entailed by the tables.
+
+3. **CrediTrans**: This dataset is a time series corpus for credit card transactions, containing 24 million transactions from 20,000 users, with various attributes for each transaction.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **TAT-QA**, the citation is:
+  > Fengbin Zhu, Wenqiang Lei, Youcheng Huang, Jiancheng Lv, Fuli Chao Wang, Shuo Zhang, and Tat-Seng Chua. *TAT-QA: A question answering benchmark on a hybrid of tabular and textual content*. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), pages 3277–3287, Online, 2021.
+
+- For **TabFact**, the citation is:
+  > Wenhu Chen, Hongmin Wang, Jianshu Chen, Yunkai Zhang, Hong Wang, Shiyang Li, Xiyou Zhou, and William Yang Wang. *TabFact: A large-scale dataset for table-based fact verification*. In International Conference on Learning Representations (ICLR), Addis Ababa, Ethiopia, 2020.
+
+- For **CrediTrans**, the citation is:
+  > Inkit Padhi, Yair Schiff, Igor Melnyk, Mattia Rigotti, Youssef Mroueh, Pierre Dognin, Jerret Ross, Ravi Nair, and Erik Altman. *Tabular transformers for modeling multivariate time series data*. In ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 3565–3569, IEEE, 2021.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is described with its citation, ready for further processing or review.

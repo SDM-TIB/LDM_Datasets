@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "STREET: A Multi-Task Structured Reasoning and Explanation Benchmark" by Danilo Ribeiro et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned. The abstract introduces the STREET benchmark and hints at the inclusion of various tasks and datasets, which suggests that there are specific datasets to look for.
+
+Next, I will focus on **section 2 (Task and Data)**, where the authors define the tasks and provide details about the datasets used. Here, they mention several datasets that contribute to the STREET benchmark:
+
+1. **AI2 Reasoning Challenge (ARC)**: This dataset is used for science questions and contains structured reasoning steps. The authors note that it includes annotated structured reasoning steps provided by ENTAILMENTBANK.
+
+2. **Sequential Context-Dependent Execution (SCONE)**: This dataset involves questions that describe sequences of actions modifying a toy world. The authors explain that reasoning steps are extracted programmatically from this dataset.
+
+3. **GSM8K**: This dataset contains math questions and unstructured rationales. The authors mention that they further annotate this dataset to create structured reasoning steps.
+
+4. **AQUA-RAT**: Similar to GSM8K, this dataset involves math questions and requires reasoning. The authors also annotate this dataset to include structured reasoning steps.
+
+5. **AR-LSAT**: This dataset is used for analytical reasoning tasks and does not come with any rationale or explanation. The authors describe how they annotated the rationales and reasoning structure from scratch for this dataset.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- **AI2 Reasoning Challenge (ARC)**:
+  > Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and Oyvind Tafjord. *Think you have solved question answering? try arc, the ai2 reasoning challenge*. arXiv preprint arXiv:1803.05457, 2018.
+
+- **SCONE**:
+  > Reginald Long, Panupong Pasupat, and Percy Liang. *Simpler context-dependent logical forms via model projections*. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 1456–1465, Berlin, Germany, August 2016.
+
+- **GSM8K**:
+  > Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman. *Training verifiers to solve math word problems*. arXiv preprint arXiv:2110.14168, 2021.
+
+- **AQUA-RAT**:
+  > Wang Ling, Dani Yogatama, Chris Dyer, and Phil Blunsom. *Program induction by rationale generation: Learning to solve and explain algebraic word problems*. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 158–167, Vancouver, Canada, July 2017.
+
+- **AR-LSAT**:
+  > Wanjun Zhong, Siyuan Wang, Duyu Tang, Zenan Xu, Daya Guo, Jiahai Wang, Jian Yin, Ming Zhou, and Nan Duan. *AR-LSAT: Investigating analytical reasoning of text*. arXiv preprint arXiv:2104.06598, 2021.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

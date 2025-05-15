@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Distributional Reinforcement Learning for Energy-Based Sequential Models" by Tetiana Parshakova et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the research, and I will look for any references to datasets used in the experiments.
+
+Next, I will focus on the **experiments section** (section 4), as this is where the authors typically describe the datasets used for their experiments. I will look for any specific dataset names, descriptions, and the context in which they were used. The authors mention that they conducted experiments on synthetic data generated according to a specific process, which indicates that there may be a dataset or datasets created for this purpose.
+
+In the experiments section, the authors describe the generation of datasets D, V, and T of binary sequences based on an underlying process ptrue. They mention that these datasets are filtered according to whether they contain a specific substring (motif) anywhere inside the sequence. This suggests that the datasets are synthetic and generated under controlled conditions.
+
+I will also check the **supplementary material** for any additional details regarding the datasets, as sometimes authors provide more information about the datasets used in their experiments in supplementary sections.
+
+Now, I will compile the information I have gathered about the datasets:
+
+1. **Dataset D**: This is the training dataset of binary sequences generated according to the underlying process ptrue. The authors describe how this dataset is created and filtered based on the presence of specific motifs.
+
+2. **Dataset V**: This is the validation dataset, which is also generated in a similar manner to Dataset D.
+
+3. **Dataset T**: This is the test dataset, again generated based on the same underlying process.
+
+Since these datasets are synthetic and generated for the purpose of the experiments, they may not have formal citations like publicly available datasets. However, I will document the details as follows:
+
+- For **Dataset D**: The authors describe it as a training dataset of binary sequences filtered by a specific motif.
+- For **Dataset V**: The authors describe it as a validation dataset generated similarly to Dataset D.
+- For **Dataset T**: The authors describe it as a test dataset generated similarly to Dataset D.
+
+Next, I will check the **References section** to see if there are any citations related to the methods used for generating these datasets or any foundational papers that describe the underlying process. The authors reference a previous work ([15]) that introduces Global Autoregressive Models (GAMs), which may provide context for the dataset generation process.
+
+The citation for the foundational work is:
+> Tetiana Parshakova, Jean-Marc Andreoli, and Marc Dymetman. *Global Autoregressive Models for Data-Efficient Sequence Learning*. In CoNLL 2019, Hong Kong, November 2019.
+
+Now, I will summarize the datasets extracted from the paper:
+
+- **Dataset D**: Training dataset of binary sequences generated according to the underlying process ptrue.
+- **Dataset V**: Validation dataset of binary sequences generated similarly to Dataset D.
+- **Dataset T**: Test dataset of binary sequences generated similarly to Dataset D.
+
+Finally, I will compile this information into a structured format for easy reference and ensure that I include the relevant citations for any foundational work related to the datasets.

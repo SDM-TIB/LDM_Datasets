@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "CONTRACLM: Contrastive Learning For Causal Language Model" by Nihal Jain et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract highlights the evaluation of CONTRACLM on various downstream tasks, which suggests that datasets are involved.
+
+Next, I will focus on **section 4.1 (Data and Models)**, where the authors describe the datasets used for training and evaluation. Here, they mention:
+
+1. **WikiText-103**: This dataset is a collection of over 100 million tokens extracted from verified Good and Featured articles on Wikipedia. It is used for training the GPT-2 model.
+
+2. **CodeGen Dataset**: This dataset consists of permissively licensed Python code collected from GitHub, specifically designed for training the CodeGen model.
+
+Additionally, in **section 4.3.1 (Code Search)**, the authors refer to the **CodeNet dataset** for the code-to-code search task, which contains problem solutions in Ruby, Python, and Java languages.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **WikiText-103**, the citation is:
+  > Stephen Merity, Caiming Xiong, James Bradbury, and Richard Socher. *Pointer Sentinel Mixture Models*. In Proceedings of the 5th International Conference on Learning Representations (ICLR), 2017.
+
+- For **CodeNet**, the citation is:
+  > Ruchir Puri, David Kung, Geert Janssen, Wei Zhang, Giacomo Domeniconi, Vladimir Zolotov, et al. *CodeNet: A Large-Scale AI for Code Dataset for Learning a Diversity of Coding Tasks*. In Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks, volume 1, 2021.
+
+- For **CodeGen**, the citation is:
+  > Erik Nijkamp, Bo Pang, Hiroaki Hayashi, Lifu Tu, Huan Wang, Yingbo Zhou, et al. *A Conversational Paradigm for Program Synthesis*. arXiv preprint arXiv:2203.13474, 2022.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is clearly documented for future reference or analysis.

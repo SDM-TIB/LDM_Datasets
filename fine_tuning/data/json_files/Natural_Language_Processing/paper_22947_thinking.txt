@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Optimizing Large Language Models for OpenAPI Code Completion" by Bohdan Petryshyn and Mantas Lukoševičius, I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will start by reviewing the **abstract and introduction** sections. The abstract mentions a "semantics-aware OpenAPI completion benchmark" and states that the dataset, benchmark, and model fine-tuning code are publicly available. This indicates that there is at least one dataset involved in the research.
+
+Next, I will look for specific sections that typically contain dataset information, such as **Methods**, **Datasets**, or **Experiments**. In this paper, the relevant information is likely found in **Section III (Methods and Datasets)**, where the authors describe the OpenAPI completion evaluation criteria and the datasets used.
+
+In **Section III**, the authors mention that the evaluation dataset was collected from the **APIs-guru definitions directory**, which contains over 4,000 OpenAPI definitions in YAML format. They specify that the dataset was curated to ensure it represents different domains and styles, and they selected ten definitions for the evaluation dataset.
+
+The authors also mention a **fine-tuning dataset** collected from the same **APIs-guru OpenAPI definitions directory**, which contains 990 definitions. They took care to limit the number of definitions from a single producer to avoid bias.
+
+Now, I will gather the full citations for these datasets. The paper references the APIs-guru directory, which is a publicly available resource. I will note the citation as follows:
+
+- For the **APIs-guru definitions directory**, the citation is:
+  > "APIs-guru definitions directory," https://github.com/APIs-guru/openapi-directory, [Accessed 26-03-2024].
+
+Next, I will summarize the datasets extracted from the paper:
+
+1. **Evaluation Dataset**: Collected from the APIs-guru definitions directory, containing over 4,000 OpenAPI definitions in YAML format. The authors selected ten definitions for the evaluation dataset.
+   - Citation: "APIs-guru definitions directory," https://github.com/APIs-guru/openapi-directory, [Accessed 26-03-2024].
+
+2. **Fine-tuning Dataset**: Also collected from the APIs-guru definitions directory, containing 990 definitions, with a limit on the number of definitions from a single producer to avoid bias.
+   - Citation: "APIs-guru definitions directory," https://github.com/APIs-guru/openapi-directory, [Accessed 26-03-2024].
+
+After compiling this information, I will ensure that I have accurately captured the datasets and their citations for further processing or review. This structured approach will help maintain clarity and ensure that all relevant details are included.

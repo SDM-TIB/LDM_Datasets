@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "ADS_UNet: A Nested UNet for Histopathology Image Segmentation" by Yilong Yang, Srinandan Dasmahapatra, and Sasan Mahmoodi, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract mentions that empirical evidence is provided on three histopathology datasets, which indicates that datasets are indeed present.
+
+Next, I will focus on **section 4.1 (Datasets)**, where the authors explicitly list the datasets used in their experiments. Here, I will find detailed descriptions of each dataset, including their names, characteristics, and any relevant statistics.
+
+The datasets mentioned in the paper are:
+
+1. **CRAG Dataset**: This dataset contains 213 Hematoxylin and Eosin images taken from 38 whole-slide images (WSIs) scanned under 20× magnification. It is split into 173 training images and 40 test images, with images resized to 1024×1024 pixels and cropped into patches of 512×512 pixels.
+
+2. **BCSS Dataset**: The Breast Cancer Semantic Segmentation dataset consists of 151 H&E stained whole-slide images and corresponding ground truth masks for breast cancer cases. The dataset includes five tissue types and uses data augmentation techniques to enhance training samples.
+
+3. **MoNuSeg Dataset**: This dataset is focused on multi-organ nucleus segmentation, containing 30 training images from four different organs and 14 test images with over 7000 nucleus boundary annotations. Each image is separated into tiles of 400×400 pixels for training and testing.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For the **CRAG Dataset**:
+  > Awan, R., Sirinukunwattana, K., Epstein, D., Jefferyes, S., Qidwai, U., Aftab, Z., Mujeeb, I., Snead, D., Rajpoot, N. (2017). Glandular morphometrics for objective grading of colorectal adenocarcinoma histology images. *Scientific Reports*, 7, 1-12.
+
+- For the **BCSS Dataset**:
+  > Amgad, M., Elfandy, H., Hussein, H., Atteya, L.A., Elsebaie, M.A., Abo Elnasr, L.S., Sakr, R.A., Salem, H.S., Ismail, A.F., Saad, A.M., et al. (2019). Structured crowdsourcing enables convolutional segmentation of histology images. *Bioinformatics*, 35, 3461-3467.
+
+- For the **MoNuSeg Dataset**:
+  > Kumar, N., Verma, R., Anand, D., Zhou, Y., Onder, O.F., Tsougenis, E., Chen, H., Heng, P.A., Li, J., Hu, Z., et al. (2019). A multi-organ nucleus segmentation challenge. *IEEE Transactions on Medical Imaging*, 39, 1380-1391.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will prepare to format this information according to the required structure for downstream processing.

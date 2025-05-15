@@ -1,0 +1,57 @@
+To extract datasets from the research paper titled "Structure-aware Protein Self-supervised Learning" by Can (Sam) Chen et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on three downstream tasks, which suggests that datasets are involved, but I need to find specific names.
+
+Next, I will look into the **experiments section**, particularly the **pretraining settings** subsection, where the authors mention sampling an independent set from the Alphafold protein database. This is a clear indication of a dataset being used.
+
+In the **availability and implementation** section, the authors provide links to several resources, including the Alphafold2 database and PDB files. I will note these as datasets used in their research.
+
+Now, I will gather the necessary details for each dataset:
+
+1. **Alphafold Protein Database**: This dataset is mentioned as being sampled to create a pretraining set of size 40,000. The authors do not provide a specific citation for this database, but I will note the URL for reference:
+   > Alphafold2 database: https://alphafold.ebi.ac.uk/
+
+2. **PDB Files**: The authors mention that PDB files are available for use. Again, a specific citation is not provided, but I will include the URL:
+   > PDB files: https://www.rcsb.org/
+
+3. **Downstream Tasks Datasets**: The authors refer to three downstream tasks with specific datasets:
+   - **C2 (Binary classification into membrane/non-membrane proteins)**: The dataset consists of 2221 training samples and 568 testing samples.
+   - **C10 (Location classification into 10 cellular compartments)**: This dataset has 3874 training samples and 988 testing samples.
+   - **C384 (Enzyme-catalyzed reaction classification into 384 EC numbers)**: This dataset includes 15001 training samples and 2799 testing samples.
+
+For the downstream tasks, the authors reference other works for the datasets used, so I will need to look up the citations for these tasks:
+- For **C2**, the citation is:
+  > AASS+17. José Juan Almagro Armenteros et al. "DeepLoc: prediction of protein subcellular localization using deep learning." Bioinformatics, 2017.
+
+- For **C10**, the citation is:
+  > AASS+17. José Juan Almagro Armenteros et al. "DeepLoc: prediction of protein subcellular localization using deep learning." Bioinformatics, 2017.
+
+- For **C384**, the citation is:
+  > HSL+20. Pedro Hermosilla et al. "Intrinsic-extrinsic convolution and pooling for learning on 3D protein structures." In ICLR, 2020.
+
+Now, I will compile the dataset entries with their respective citations:
+
+1. **Alphafold Protein Database**
+   - URL: https://alphafold.ebi.ac.uk/
+   - Citation: Not explicitly provided.
+
+2. **PDB Files**
+   - URL: https://www.rcsb.org/
+   - Citation: Not explicitly provided.
+
+3. **C2 Dataset**
+   - Training Samples: 2221
+   - Testing Samples: 568
+   - Citation: AASS+17. José Juan Almagro Armenteros et al. "DeepLoc: prediction of protein subcellular localization using deep learning." Bioinformatics, 2017.
+
+4. **C10 Dataset**
+   - Training Samples: 3874
+   - Testing Samples: 988
+   - Citation: AASS+17. José Juan Almagro Armenteros et al. "DeepLoc: prediction of protein subcellular localization using deep learning." Bioinformatics, 2017.
+
+5. **C384 Dataset**
+   - Training Samples: 15001
+   - Testing Samples: 2799
+   - Citation: HSL+20. Pedro Hermosilla et al. "Intrinsic-extrinsic convolution and pooling for learning on 3D protein structures." In ICLR, 2020.
+
+After gathering all this information, I will ensure that it is structured properly for any further processing or review.

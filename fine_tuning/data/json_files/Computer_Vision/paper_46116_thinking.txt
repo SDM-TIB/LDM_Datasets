@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "AutoInt: Automatic Integration for Fast Neural Volume Rendering" by David B. Lindell, Julien N. P. Martel, and Gordon Wetzstein, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract discusses the application of the proposed method in neural volume rendering, but it does not explicitly mention datasets. Therefore, I will need to look deeper into the paper.
+
+Next, I will focus on the **experiments section** where datasets are typically described. In this paper, the authors mention using a dataset of measurements corresponding to sparse angular projections for computed tomography. This indicates that there is a dataset involved, but I need to find its specific name and details.
+
+In the **results section**, the authors refer to using synthetic datasets of scenes rendered from the Blender Cycles engine. They also mention evaluating their method on captured data from the Local Light Field Fusion datasets. This gives me two datasets to note.
+
+Now, I will compile the details of the datasets:
+
+1. **Synthetic Blender Dataset**: This dataset consists of various synthetic scenes rendered using the Blender Cycles engine. The authors mention that they trained their model on eight objects, each rendered from 100 different camera positions.
+
+2. **Local Light Field Fusion Dataset**: This dataset consists of captured, forward-facing image data used for evaluating the performance of their method. The authors partitioned the captured images for testing.
+
+Next, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Blender dataset**, while the paper does not provide a specific citation, it is commonly known in the graphics community. The Blender project can be cited as:
+  > Blender Foundation. *Blender: A 3D creation suite*. Available at: https://www.blender.org.
+
+- For the **Local Light Field Fusion dataset**, the citation is:
+  > Ben Mildenhall, Pratul P. Srinivasan, Rodrigo Ortiz-Cayon, Nima Khademi Kalantari, Ravi Ramamoorthi, Ren Ng, and Abhishek Kar. *Local light field fusion: Practical view synthesis with prescriptive sampling guidelines*. ACM Trans. Graph. (SIGGRAPH), 38(4), 2019.
+
+Now that I have identified the datasets and their citations, I will summarize them clearly:
+
+1. **Synthetic Blender Dataset**: A dataset of synthetic scenes rendered from 100 different camera positions using the Blender Cycles engine. 
+   - Citation: Blender Foundation. *Blender: A 3D creation suite*. Available at: https://www.blender.org.
+
+2. **Local Light Field Fusion Dataset**: A dataset consisting of captured, forward-facing image data for evaluating the proposed method.
+   - Citation: Ben Mildenhall, Pratul P. Srinivasan, Rodrigo Ortiz-Cayon, Nima Khademi Kalantari, Ravi Ramamoorthi, Ren Ng, and Abhishek Kar. *Local light field fusion: Practical view synthesis with prescriptive sampling guidelines*. ACM Trans. Graph. (SIGGRAPH), 38(4), 2019.
+
+With this information, I am ready to compile the dataset entries into a structured format for further processing.

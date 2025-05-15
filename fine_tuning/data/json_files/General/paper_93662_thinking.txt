@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "A Hybrid BERT and LightGBM based Model for Predicting Emotion GIF Categories on Twitter" by Ye Bi et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and dataset sections** to identify any datasets mentioned. The abstract mentions participation in the EmotionGIF 2020 challenge, which suggests that there is a specific dataset used for this task.
+
+Next, I will focus on **section 2 (Dataset and preprocessing)**, where the authors describe the dataset in detail. They mention that the dataset consists of **40,000 two-turn Twitter threads**, which are split into three parts: 
+
+1. **32,000 samples with gold labels for training**: This part includes labeled data that will be used for training the model.
+2. **4,000 unlabeled samples for practice**: This is a set of data without labels, likely used for model tuning or validation.
+3. **4,000 unlabeled samples for final evaluation**: This dataset is used to assess the model's performance after training.
+
+The authors also specify that each sample includes the text of the original tweet, the reply text, and for training samples, an MP4-format file and the category of the GIF response, which can belong to multiple categories.
+
+Now, I will check the **References section** to find the full citation for the EmotionGIF 2020 challenge, as it is the source of the dataset. The relevant citation is:
+
+- For the EmotionGIF 2020 challenge, the citation is:
+  > Boaz Shmueli and Lun-Wei Ku. *SocialNLP EmotionGIF 2020 Challenge Overview: Predicting Reaction GIF Categories on Social Media*. Technical report, 2020.
+
+With this information, I can summarize the dataset as follows:
+
+1. **EmotionGIF 2020 Dataset**: This dataset consists of 40,000 two-turn Twitter threads, split into training, practice, and evaluation sets. The training set contains 32,000 labeled samples, while the practice and evaluation sets contain 4,000 unlabeled samples each. Each sample includes the original tweet text, reply text, and for training samples, an MP4 file and GIF category labels.
+
+Now, I will compile the dataset entry into a structured format for further processing.

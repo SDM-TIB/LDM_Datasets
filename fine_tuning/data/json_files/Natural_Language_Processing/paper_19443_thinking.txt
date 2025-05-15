@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Can Language Models Act as Knowledge Bases at Scale?" by Qiyuan He et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections to see if any datasets are mentioned or referenced. The abstract discusses the use of large language models (LLMs) and mentions "Wikidata" as a knowledge base, which suggests that it might be a dataset of interest.
+
+Next, I will look into **section 2 (Training LMs on Large-Scale KB)**, where the authors describe the datasets used for training. Here, they explicitly mention the use of **Wikidata** as the primary knowledge base, which is crucial for their experiments. They describe how they filtered the data from the January 2022 snapshot of Wikidata to create a dataset of 46 million (subject, relation, object) triplets, referred to as **D0**.
+
+In addition, I will check for any other datasets mentioned in the paper. The authors also refer to datasets created for specific tasks, such as **PopQA**, which is used for fine-tuning the models on natural language queries. They mention that PopQA consists of 14,000 knowledge triplets converted into natural language questions and answers.
+
+Furthermore, I will look for datasets related to missing facts, specifically the dataset released by **Veseli et al. (2023b)**, which contains 350 factual triplets missing from Wikidata.
+
+Now, I will compile the full citations for each dataset mentioned:
+
+1. **Wikidata**:
+   > Pellissier Tanon, T., Vrandečić, D., Schaffert, S., Steiner, T., & Pintscher, L. (2016). From Freebase to Wikidata: The Great Migration. In Proceedings of the 25th International Conference on World Wide Web (WWW '16), pages 1419–1428. International World Wide Web Conferences Steering Committee.
+
+2. **PopQA**:
+   > Mallen, A., Asai, A., Zhong, V., Das, R., Khashabi, D., & Hajishirzi, H. (2023). When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 9802–9822. Association for Computational Linguistics.
+
+3. **Missing Facts Dataset**:
+   > Veseli, B., Singhania, S., Razniewski, S., & Weikum, G. (2023b). Evaluating Language Models for Knowledge Base Completion. In The Semantic Web: 20th International Conference, ESWC 2023, pages 227–243. Springer-Verlag.
+
+After gathering this information, I will summarize the datasets in a structured format, ensuring that each dataset is clearly defined along with its citation. This will provide a comprehensive overview of the datasets utilized in the research paper.

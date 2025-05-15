@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Folded Recurrent Neural Networks for Future Video Prediction" by Marc Oliu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** to see if any datasets are mentioned. The abstract discusses challenges in future video prediction and mentions improvements on datasets like MMNIST and UCF101, indicating that these datasets are likely used in the research.
+
+Next, I will examine the **introduction** section for any additional context or mentions of datasets. The introduction discusses the importance of leveraging large volumes of unlabelled data for video-related tasks, but I need to look for specific dataset names.
+
+Moving on to **section 4.1 (Data and evaluation protocol)**, I will find detailed descriptions of the datasets used in the experiments. The authors explicitly mention three datasets:
+
+1. **Moving MNIST (MMNIST)**: This dataset consists of 64 × 64 grayscale sequences of length 20 displaying pairs of digits moving around the image. It contains a fixed test partition with 10,000 sequences and an additional million samples generated for training.
+
+2. **KTH Dataset**: This dataset includes 600 videos of 15-20 seconds featuring 25 subjects performing 6 actions in 4 different settings. The videos are grayscale, with a resolution of 120 × 160 pixels and 25 fps, split into training and testing sets.
+
+3. **UCF101 Dataset**: This dataset contains 101 action classes, with 9,950 training sequences and 3,361 test sequences. The videos are RGB at a resolution of 320 × 240 pixels and 25 fps, with a focus on high intra-class variability.
+
+I will then confirm the use of these datasets in the **experiments** section, where the authors discuss their evaluation metrics and methods, further validating that these datasets were indeed utilized.
+
+Next, I will check the **References section** to gather full citations for each dataset:
+
+- For **Moving MNIST**, the citation is:
+  > Srivastava, N., Mansimov, E., Salakhudinov, R. "Unsupervised learning of video representations using LSTMs." In: International Conference on Machine Learning, 2015, pp. 843–852.
+
+- For **KTH Dataset**, the citation is:
+  > Schuldt, C., Laptev, I., Caputo, B. "Recognizing human actions: a local SVM approach." In: Pattern Recognition, 2004. ICPR 2004. Proceedings of the 17th International Conference on, Volume 3, IEEE, 2004, pp. 32–36.
+
+- For **UCF101 Dataset**, the citation is:
+  > Soomro, K., Zamir, A.R., Shah, M. "UCF101: A dataset of 101 human actions classes from videos in the wild." arXiv preprint arXiv:1212.0402, 2012.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or processing.

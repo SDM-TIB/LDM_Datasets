@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "DriveAdapter: Breaking the Coupling Barrier of Perception and Planning in End-to-End Autonomous Driving" by Xiaosong Jia et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions that the authors achieve state-of-the-art performance on multiple closed-loop simulation-based benchmarks of CARLA, which suggests that datasets related to CARLA might be involved.
+
+Next, I will focus on **section 4.1 (Dataset and Benchmark)**, where the authors explicitly describe the datasets used for their experiments. Here, they mention that they collected data using the CARLA simulator and provide details about the data collection process, including the number of frames and the towns used.
+
+The authors state that they collected a dataset with **2 million frames on 8 towns** for training, which is significant. They also mention that they followed a common protocol for data collection, which indicates that the dataset is comparable to others in the field.
+
+In this section, I will note the following datasets mentioned:
+
+1. **CARLA Simulator Dataset**: This dataset consists of 2 million frames collected from various towns in the CARLA simulator, specifically Town01, Town03, Town04, and Town06. The dataset includes raw sensor data from 4 cameras and 1 LiDAR, along with labels such as depth, segmentation, control signals, and ground-truth features.
+
+Next, I will check the **References section** to find the full citation for the CARLA simulator, as it is crucial to provide proper attribution. The citation for the CARLA simulator is:
+
+- **CARLA Simulator**:
+  > Alexey Dosovitskiy, German Ros, Felipe Codevilla, Antonio Lopez, and Vladlen Koltun. *CARLA: An Open Urban Driving Simulator*. In CoRL, pages 1–16, 2017.
+
+Now that I have identified the dataset and its citation, I will compile this information into a structured format for clarity.
+
+In summary, I have extracted the following dataset from the paper:
+
+- **Dataset Name**: CARLA Simulator Dataset
+- **Description**: A dataset consisting of 2 million frames collected from the CARLA simulator, including raw sensor data from 4 cameras and 1 LiDAR, along with various labels.
+- **Full Citation**: Alexey Dosovitskiy, German Ros, Felipe Codevilla, Antonio Lopez, and Vladlen Koltun. *CARLA: An Open Urban Driving Simulator*. In CoRL, pages 1–16, 2017.
+
+This structured approach ensures that I have accurately captured the dataset information and provided the necessary citations for future reference.

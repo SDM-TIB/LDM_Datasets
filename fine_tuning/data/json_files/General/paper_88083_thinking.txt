@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Toward Filament Segmentation Using Deep Neural Networks" by Azim Ahmadzadeh et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and data sections** of the paper. The abstract mentions the use of a deep neural network framework, Mask R-CNN, for identifying solar filaments in H-α images from the Big Bear Solar Observatory (BBSO). This indicates that there is a dataset related to solar images.
+
+Next, I will focus on the **Data Sources section**. Here, the authors describe the types of data used for their analysis. They mention that full disk H-α images of the Sun are captured by multiple telescopes, but they specifically rely on the images provided by BBSO. This suggests that the BBSO dataset is crucial for their research.
+
+In the **Data Acquisition section**, the authors detail how they retrieved full-disk H-α images from the BBSO archive for the period of 2012 through 2016. They specify that they used both JPG and FITS formats of these images, which further confirms the existence of a dataset.
+
+The authors also mention the integration of spatiotemporal metadata of filaments retrieved from the Heliophysics Events Knowledgebase (HEK) system. This indicates that there is another dataset related to the metadata of solar events.
+
+Now, I will compile the information about the datasets:
+
+1. **BBSO H-α Images Dataset**: This dataset consists of full-disk H-α images captured by the Big Bear Solar Observatory from 2012 to 2016. The images are available in both JPG and FITS formats.
+
+2. **HEK Filament Metadata Dataset**: This dataset includes spatiotemporal metadata of filaments detected by the Feature Finding Team, which is reported to the Heliophysics Events Knowledgebase (HEK). This metadata is used in conjunction with the BBSO images for training the segmentation model.
+
+Next, I will look at the **References section** to find the full citations for these datasets. The BBSO images are referenced in the context of their availability and usage, but they do not have a specific citation like a traditional dataset. However, I can cite the relevant paper that discusses the BBSO images:
+
+- For the BBSO H-α images, the citation is:
+  > C. Denker, A. Johannesson, W. Marquette, P. Goode, H. Wang, and H. Zirin. *Synoptic Hα full-disk observations of the sun from Big Bear Solar Observatory–I. Instrumentation, image processing, data products, and first results*. Solar Physics, vol. 184, no. 1, pp. 87–102, 1999.
+
+- For the HEK metadata, the citation is:
+  > N. Hurlburt, M. Cheung, C. Schrijver, L. Chang, S. Freeland, S. Green, C. Heck, A. Jaffey, A. Kobashi, D. Schiff et al. *Heliophysics event knowledgebase for the solar dynamics observatory (sdo) and beyond*. In The Solar Dynamics Observatory. Springer, 2010, pp. 67–78.
+
+After gathering all this information, I will prepare the dataset entries for review or further processing, ensuring that each dataset is clearly defined and properly cited.

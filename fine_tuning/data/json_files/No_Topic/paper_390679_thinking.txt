@@ -1,0 +1,47 @@
+To extract datasets from the research paper titled "Numerical Data Imputation for Multimodal Data Sets: A Probabilistic Nearest-Neighbor Kernel Density Approach" by Lalande Florian and Doya Kenji, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses the introduction of a new imputation method and mentions the use of both artificial and real-world datasets for comparison, which indicates that datasets are likely included.
+
+Next, I will focus on the **background and related work section** to see if any specific datasets are referenced. The authors mention using synthetic datasets to illustrate the shortcomings of current methods, which suggests that these datasets will be detailed later in the paper.
+
+In the **results section**, I will look for any explicit mentions of datasets used for experiments. The authors describe three synthetic datasets: **2d_linear**, **2d_sine**, and **2d_ring**, which are generated to demonstrate the performance of their method. They also mention using real-world datasets from UCI and other repositories, which will need to be identified.
+
+I will then check the **appendices** for a comprehensive list of datasets. The paper includes a section titled "Presentation of the data sets," which provides details about both real-world and simulated datasets. Here, I will find the names, sizes, and sources of the datasets.
+
+The datasets mentioned in the paper are:
+
+1. **2d_linear**: A synthetic dataset with 500 observations and 2 features, used to illustrate the method's performance.
+2. **2d_sine**: Another synthetic dataset with 500 observations and 2 features.
+3. **2d_ring**: A synthetic dataset with 500 observations and 2 features.
+4. **geyser**: A real-world dataset with 272 observations and 2 features, sourced from Azzalini & Bowman (1990).
+5. **penguin**: A dataset with 342 observations and 4 features, sourced from Horst et al. (2020).
+6. **pollen**: A dataset with 3848 observations and 5 features, sourced from OpenML.
+7. **planets**: A dataset with 550 observations and 6 features, sourced from the NASA Exoplanet Archive (Akeson et al., 2013).
+8. **abalone**: A dataset with 4177 observations and 7 features, sourced from Nash et al. (1994).
+9. **sulfur**: A dataset with 10081 observations and 6 features, sourced from Fortuna et al. (2007).
+10. **gaussians**: A synthetic dataset with 10000 observations and 8 features, generated with random factors.
+11. **wine_red**: A dataset with 1599 observations and 11 features, sourced from Cortez et al. (2009).
+12. **wine_white**: A dataset with 4898 observations and 11 features, also sourced from Cortez et al. (2009).
+13. **japanese_vowels**: A dataset with 9960 observations and 12 features, sourced from Kudo et al. (1999).
+14. **sylvine**: A dataset with 5124 observations and 20 features.
+15. **breast**: A dataset with 569 observations and 30 features, sourced from Bennett & Mangasarian (1992).
+
+Now, I will compile the full citations for each dataset:
+
+- **2d_linear**: No citation needed as it is synthetic.
+- **2d_sine**: No citation needed as it is synthetic.
+- **2d_ring**: No citation needed as it is synthetic.
+- **Geyser Dataset**: Azzalini, A., & Bowman, A. W. (1990). A look at some data on the old faithful geyser. *Applied Statistics*, 39.
+- **Penguin Dataset**: Horst, A. M., Hill, A. P., & Gorman, K. B. (2020). Palmer Archipelago (Antarctica) penguin data. *R package version 0.1.0*.
+- **Pollen Dataset**: OpenML (no specific citation provided).
+- **Planets Dataset**: Akeson, R. L., et al. (2013). The NASA Exoplanet Archive: Data and tools for exoplanet research. *Publications of the Astronomical Society of the Pacific*, 125.
+- **Abalone Dataset**: Nash, W., et al. (1994). The population biology of abalone (Haliotis species) in Tasmania. *Technical Report No, 48*.
+- **Sulfur Dataset**: Fortuna, L., et al. (2007). Soft Sensors for Monitoring and Control of Industrial Processes. *Springer*.
+- **Gaussians Dataset**: No citation needed as it is synthetic.
+- **Wine Red Dataset**: Cortez, P., et al. (2009). Modeling wine preferences by data mining from physicochemical properties. *Decision Support Systems*, 47.
+- **Wine White Dataset**: Cortez, P., et al. (2009). Modeling wine preferences by data mining from physicochemical properties. *Decision Support Systems*, 47.
+- **Japanese Vowels Dataset**: Kudo, M., et al. (1999). Multidimensional curve classification using passing-through regions. *Pattern Recognition Letters*, 20.
+- **Sylvine Dataset**: No citation needed as it is synthetic.
+- **Breast Dataset**: Bennett, K. P., & Mangasarian, O. L. (1992). Robust linear programming discrimination of two linearly inseparable sets. *Optimization Methods and Software*, 1.
+
+After gathering all this information, I will prepare the dataset entries for further processing or review.

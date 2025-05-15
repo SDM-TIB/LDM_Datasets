@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Decentralized cooperative perception for autonomous vehicles: Learning to value the unknown" by Maxime Chaveroche, Franck Davoine, and Véronique Cherfaoui, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the research and may mention key datasets used in the experiments. The introduction often discusses the context and significance of the datasets.
+
+Next, I will look for a dedicated **section on datasets** or **experiments**. In this paper, the authors describe their experiments conducted in the CARLA driving simulator, which suggests that the datasets are derived from this environment. I will pay close attention to any specific datasets mentioned, including their characteristics and how they were generated.
+
+In the **experiments section**, the authors detail the creation of a dataset composed of 1560 sequences of 50 timesteps each, which is crucial information. I will note the specifics of this dataset, including its dimensions (80x120x6) and the context in which it was collected (i.e., using a frontal depth camera in the CARLA simulator).
+
+I will also check the **references section** for any citations related to the datasets. If the authors refer to existing datasets or methodologies, I will ensure to capture those citations accurately.
+
+The key datasets identified in this paper are:
+
+1. **Dataset from CARLA Simulator**: Composed of 1560 sequences of 50 timesteps each, with each perception being 80x120x6. This dataset is used for training the models and evaluating the communication policies.
+
+2. **Visual Memory Dataset**: A second dataset created from the first one by selecting random regions of the complete observations to generate the ego-vehicle's perception.
+
+Now, I will compile the full citations for these datasets based on the information provided in the paper and any relevant references.
+
+For the CARLA dataset, the citation is:
+> Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2017). *CARLA: An open urban driving simulator*. In Conference on robot learning (CoRL), pp. 1–16.
+
+For the visual memory dataset, since it is derived from the CARLA dataset, I will reference it as part of the CARLA dataset citation.
+
+After gathering all this information, I will prepare the dataset entries in the required format for further processing.

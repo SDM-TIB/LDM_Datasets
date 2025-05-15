@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Turns Out I’m Not Real: Towards Robust Detection of AI-Generated Videos" by Qingyuan Liu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract and introduction** sections to identify any mentions of datasets. The abstract indicates that the authors collected a new benchmark video dataset for diffusion-generated videos, which suggests that there are specific datasets involved.
+
+Next, I will examine the **methodology section** (specifically section 3) where the authors describe their approach. Here, they mention constructing a dataset for evaluating their method, which includes both in-domain and out-domain test sets. This section is crucial as it likely contains detailed descriptions of the datasets used.
+
+In **section 4 (Experiment)**, the authors provide a table (Table 3) that outlines the composition of their video dataset. This table specifies the sources of the videos, the number of clips, and the conditions under which the videos were generated. The datasets mentioned include:
+
+1. **VidVRD Dataset**: This dataset is used as the source for real video clips. It contains 1,000 source videos, which are utilized for generating fake videos.
+
+2. **Stable Video Diffusion (SVD)**: This is one of the generative models used to create fake videos from the real clips in the VidVRD dataset.
+
+3. **Pika**: Another generative model mentioned for creating fake videos.
+
+4. **Gen-2**: A third generative model used in the study.
+
+The authors also mention that they collected real videos from YouTube and SORA as part of their out-domain test sets.
+
+Now, I will look at the **References section** to find full citations for each dataset mentioned. The citations for the datasets are as follows:
+
+- For **VidVRD Dataset**:
+  > Xindi Shang, Tongwei Ren, Jingfan Guo, Hanwang Zhang, and Tat-Seng Chua. *Video visual relation detection*. In ACM International Conference on Multimedia, Mountain View, CA, USA, 2017.
+
+- For **Stable Video Diffusion**:
+  > Andreas Blattmann, Tim Dockhorn, Sumith Kulal, Daniel Mendelevitch, Maciej Kilian, Dominik Lorenz, Yam Levi, Zion English, Vikram Voleti, Adam Letts, Varun Jampani, and Robin Rombach. *Stable video diffusion: Scaling latent video diffusion models to large datasets*. 2023.
+
+- For **Pika**:
+  > Pika labs. (2024). *Pika [text-to-video model]*. https://www.pika.art/.
+
+- For **Gen-2**:
+  > Runway ml. (2024). *Gen-2 [text-to-video model]*. https://research.runwayml.com/.
+
+With this information, I will compile the dataset entries, ensuring that each dataset is accurately described and includes the full citation. This will provide a comprehensive overview of the datasets used in the research paper.

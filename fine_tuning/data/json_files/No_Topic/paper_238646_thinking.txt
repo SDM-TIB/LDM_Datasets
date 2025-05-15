@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Meta-Baseline: Exploring Simple Meta-Learning for Few-Shot Learning" by Yinbo Chen et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and results sections** to gather initial insights about the datasets used in the research. The abstract mentions that the authors evaluate their method on standard benchmarks, which suggests that datasets are involved.
+
+Next, I will focus on **section 4 (Results on Standard Benchmarks)**, where the authors explicitly list the datasets used for evaluation. In this section, they mention three datasets:
+
+1. **miniImageNet**: This dataset is described as a common benchmark for few-shot learning, containing 100 classes sampled from ILSVRC-2012, with each class containing 600 images of size 84 × 84.
+
+2. **tieredImageNet**: This dataset is noted as a more recent benchmark, consisting of 608 classes from 34 super-categories, split into training, validation, and testing sets, with images also sized at 84 × 84.
+
+3. **ImageNet-800**: This dataset is derived from ILSVRC-2012, where 800 classes are randomly selected as base classes and 200 classes as novel classes, with the base classes containing images from the original training set and novel classes from the original validation set.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For **miniImageNet**, the citation is:
+  > Oriol Vinyals, Charles Blundell, Timothy Lillicrap, Daan Wierstra, et al. *Matching networks for one shot learning*. In Advances in neural information processing systems, pages 3630–3638, 2016.
+
+- For **tieredImageNet**, the citation is:
+  > Mengye Ren, Eleni Triantafillou, Sachin Ravi, Jake Snell, Kevin Swersky, Joshua B Tenenbaum, Hugo Larochelle, and Richard S Zemel. *Meta-learning for semi-supervised few-shot classification*. arXiv preprint arXiv:1803.00676, 2018.
+
+- For **ImageNet-800**, the citation is:
+  > Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, et al. *Imagenet large scale visual recognition challenge*. International journal of computer vision, 115(3):211–252, 2015.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing or review.

@@ -1,0 +1,158 @@
+[
+    {
+        "dcterms:creator": [
+            "J. Schulman",
+            "P. Dhariwal",
+            "A. Radford",
+            "O. Klimov"
+        ],
+        "dcterms:description": "Proximal Policy Optimization (PPO) is used in the first example problem where the action space is continuous, demonstrating its lack of robustness against small measurement noise.",
+        "dcterms:title": "Proximal Policy Optimization (PPO)",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://arxiv.org/abs/1707.06347",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Control Systems"
+        ],
+        "dcat:keyword": [
+            "Policy Optimization",
+            "Continuous Action Space",
+            "Robustness"
+        ],
+        "dcat:landingPage": "http://arxiv.org/abs/1707.06347",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Control Policy Derivation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "V. Mnih",
+            "K. Kavukcuoglu",
+            "D. Silver",
+            "A. Rusu",
+            "J. Veness",
+            "M. Bellemare",
+            "A. Graves",
+            "M. Riedmiller",
+            "A. Fidjeland",
+            "G. Ostrovski",
+            "S. Petersen",
+            "C. Beattie",
+            "A. Sadik",
+            "I. Antonoglou",
+            "H. King",
+            "D. Kumaran",
+            "D. Wierstra",
+            "S. Legg",
+            "D. Hassabis"
+        ],
+        "dcterms:description": "Deep Q-Network (DQN) is used in the second example problem where the action space is discrete, illustrating its failure to avoid obstacles in the presence of small measurement noise.",
+        "dcterms:title": "Deep Q-Network (DQN)",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Control Systems"
+        ],
+        "dcat:keyword": [
+            "Q-Learning",
+            "Discrete Action Space",
+            "Obstacle Avoidance"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Control Policy Derivation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Raffin",
+            "A. Hill",
+            "A. Gleave",
+            "A. Kanervisto",
+            "M. Ernestus",
+            "N. Dormann"
+        ],
+        "dcterms:description": "Stable Baselines3 is a library used for implementing the PPO and DQN algorithms in the examples presented, providing reliable reinforcement learning implementations.",
+        "dcterms:title": "Stable Baselines3",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://jmlr.org/papers/v22/20-1364.html",
+        "dcat:theme": [
+            "Reinforcement Learning",
+            "Software Libraries"
+        ],
+        "dcat:keyword": [
+            "Reinforcement Learning",
+            "Implementation",
+            "Algorithms"
+        ],
+        "dcat:landingPage": "http://jmlr.org/papers/v22/20-1364.html",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Algorithm Implementation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. G. Sanfelice",
+            "A. R. Teel",
+            "R. Goebel"
+        ],
+        "dcterms:description": "The Unit Circle Problem is a control problem aimed at robustly globally asymptotically stabilizing a set-point on the unit circle, demonstrating the limitations of PPO in the presence of measurement noise.",
+        "dcterms:title": "Unit Circle Problem",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Control Theory",
+            "Stability Analysis"
+        ],
+        "dcat:keyword": [
+            "Unit Circle",
+            "Stabilization",
+            "Control Systems"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Control Policy Derivation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. G. Sanfelice",
+            "M. J. Messina",
+            "S. Emre Tuna",
+            "A. R. Teel"
+        ],
+        "dcterms:description": "The Obstacle Avoidance Problem involves steering a vehicle past an obstacle to reach a target, illustrating the failure of DQN to avoid collisions under measurement noise.",
+        "dcterms:title": "Obstacle Avoidance Problem",
+        "dcterms:issued": "2006",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Control Theory",
+            "Robust Control"
+        ],
+        "dcat:keyword": [
+            "Obstacle Avoidance",
+            "Vehicle Control",
+            "Safety"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Control Policy Derivation"
+        ]
+    }
+]

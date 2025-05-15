@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Neural Video Coding using Multiscale Motion Compensation and Spatiotemporal Context Model" by Haojie Liu et al., I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper. The abstract provides a brief overview of the research and may mention datasets used for evaluation. In this case, the abstract does not explicitly mention any datasets.
+
+Next, I will focus on the **Introduction section**. Here, the authors discuss the motivation behind their research and the context of video coding. However, they do not specify any datasets in this section either.
+
+I will then examine the **Experimental Studies section**, specifically subsection A, which discusses datasets and hyperparameters for model training. The authors mention the following datasets:
+
+1. **COCO Dataset**: Used for training the neuro-Intra model. The authors state that training samples are randomly cropped into 256×256×3 dimensions.
+   
+2. **CLIC Dataset**: Also used for training the neuro-Intra model, with similar cropping dimensions as COCO.
+
+3. **Vimeo 90k Dataset**: This dataset is used for joint training of the neuro-Motion, MS-MCN, and neuro-Res models, with sample sizes of 192×192×3.
+
+4. **HEVC Test Sequences**: These sequences are used for evaluating the NVC framework, covering various classes with different motion, frame rates, and resolutions.
+
+5. **Ultra Video Group (UVG) Dataset**: This dataset consists of seven 1080p videos and is also used for evaluating the NVC framework.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets mentioned are as follows:
+
+- **COCO Dataset**:
+  > Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollár, P., & Zitnick, C. L. (2014). *Microsoft COCO: Common Objects in Context*. In European Conference on Computer Vision (pp. 740–755).
+
+- **CLIC Dataset**:
+  > Challenge on Learned Image Compression 2018. (2018). *Available: http://www.compression.cc/challenge/*.
+
+- **Vimeo 90k Dataset**:
+  > Xue, T., Chen, B., Wu, J., Wei, D., & Freeman, W. T. (2019). *Video Enhancement with Task-Oriented Flow*. International Journal of Computer Vision, 127(8), 1106–1125.
+
+- **HEVC Test Sequences**:
+  > Wiegand, T., Sullivan, G. J., Bjontegaard, G., & Luthra, A. (2003). *Overview of the H.264/AVC Video Coding Standard*. IEEE Transactions on Circuits and Systems for Video Technology, 13(7), 560–576.
+
+- **Ultra Video Group (UVG) Dataset**:
+  > UVG Dataset. (2019). *Available: https://ultravideo.cs.toronto.edu/*.
+
+Now that I have gathered the datasets and their citations, I will compile this information into a structured format for further processing or review.

@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Non-autoregressive Text Editing with Copy-aware Latent Alignments" by Yu Zhang et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to locate any references to datasets. The abstract mentions conducting experiments on **GEC and sentence fusion tasks**, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (section 4) where the authors describe their experimental setup. In **section 4.1 (Grammatical Error Correction)**, they mention using three datasets for training their GEC models:
+
+1. **CLANG-8**: A cleaned version of the LANG-8 data, which is used for pretraining.
+2. **FCE (First Certificate in English)**: A dataset containing learner English sentences for grammatical error correction.
+3. **NUCLE (National University of Singapore Corpus of Learner English)**: Another dataset for grammatical error correction.
+4. **W&I+LOCNESS**: A dataset that combines the W&I corpus with LOCNESS for further training.
+
+In **section 4.2 (Sentence Fusion)**, the authors state that they trained their models on the **DiscoFuse** dataset, which is used for the task of fusing sentences.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **CLANG-8**, the citation is:
+  > Rothe, S., & others. (2021). *CLANG-8: A large-scale dataset for grammatical error correction*. In Proceedings of EMNLP.
+
+- For **FCE**, the citation is:
+  > Yannakoudakis, H., Briscoe, T., & Medlock, B. (2011). *A new dataset and method for automatically grading ESOL texts*. In Proceedings of ACL.
+
+- For **NUCLE**, the citation is:
+  > Dahlmeier, D., & Ng, H. T. (2013). *Building a large annotated corpus of learner English: The NUS corpus of learner English*. In Proceedings of BEA.
+
+- For **W&I+LOCNESS**, the citation is:
+  > Bryant, C., Felice, M., & Briscoe, T. (2019). *The BEA-2019 shared task on grammatical error correction*. In Proceedings of BEA.
+
+- For **DiscoFuse**, the citation is:
+  > Geva, M., Malmi, E., Szpektor, I., & Berant, J. (2019). *DiscoFuse: A large-scale dataset for discourse-based sentence fusion*. In Proceedings of NAACL.
+
+After gathering this information, I will compile the dataset entries, ensuring that each entry includes the dataset name, a brief description, and the full citation. This structured approach will ensure that I accurately capture all relevant datasets from the paper.

@@ -1,0 +1,42 @@
+To extract datasets from the research paper titled "VIBE: Video Inference for Human Body Pose and Shape Estimation" by Muhammed Kocabas et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions the use of a "large-scale motion capture dataset (AMASS)" for training, which indicates that this dataset is significant for the research. I will also look for any other datasets mentioned in the introduction or experiments.
+
+In the **introduction**, the authors discuss the challenges of estimating 3D human motion from video and highlight the importance of training data. They specifically mention leveraging the AMASS dataset, which I will note down.
+
+Next, I will focus on the **experiments section**. Here, the authors provide a detailed summary of the datasets used for training and evaluation. They mention several datasets:
+
+1. **AMASS**: This dataset is used for adversarial training to obtain real samples of 3D human motion. It is crucial for the model's performance.
+2. **3DPW**: This dataset is used for evaluation and contains in-the-wild videos with SMPL body pose captured using IMU sensors.
+3. **MPI-INF-3DHP**: A multi-view dataset used for training and evaluation, primarily indoors.
+4. **Human3.6M**: Another dataset used for training, which contains 3D annotations in a controlled environment.
+5. **PennAction**: This dataset includes video sequences with 2D human keypoint annotations.
+6. **InstaVariety**: A dataset curated from Instagram videos with 2D annotations.
+7. **PoseTrack**: A benchmark for multi-person pose estimation and tracking in videos.
+
+I will now check the **References section** to gather the full citations for each dataset mentioned. The citations are crucial for proper attribution and to provide readers with sources for further exploration.
+
+The citations I will extract are:
+
+- For **AMASS**:
+  > Naureen Mahmood, Nima Ghorbani, Nikolaus F. Troje, Gerard Pons-Moll, and Michael J. Black. *AMASS: Archive of motion capture as surface shapes*. In International Conference on Computer Vision, 2019.
+
+- For **3DPW**:
+  > Timo von Marcard, Roberto Henschel, Michael Black, Bodo Rosenhahn, and Gerard Pons-Moll. *Recovering accurate 3D human pose in the wild using IMUs and a moving camera*. In European Conference on Computer Vision, 2018.
+
+- For **MPI-INF-3DHP**:
+  > Dushyant Mehta, Helge Rhodin, Dan Casas, Pascal Fua, Oleksandr Sotnychenko, Weipeng Xu, and Christian Theobalt. *Monocular 3D human pose estimation in the wild using improved CNN supervision*. In International Conference on 3DVision, 2017.
+
+- For **Human3.6M**:
+  > Catalin Ionescu, Dragos Papava, Vlad Olaru, and Cristian Sminchisescu. *Human3.6M: Large scale datasets and predictive methods for 3D human sensing in natural environments*. In IEEE Transaction on Pattern Analysis and Machine Intelligence, 2014.
+
+- For **PennAction**:
+  > Weiyu Zhang, Menglong Zhu, and Konstantinos G. Derpanis. *From actemes to action: A strongly-supervised representation for detailed action understanding*. In International Conference on Computer Vision, 2013.
+
+- For **InstaVariety**:
+  > Muhammed Kocabas, Salih Karagoz, and Emre Akbas. *MultiPoseNet: Fast multi-person pose estimation using pose residual network*. In European Conference on Computer Vision (ECCV), 2018.
+
+- For **PoseTrack**:
+  > Mykhaylo Andriluka, Umar Iqbal, Eldar Insafutdinov, Leonid Pishchulin, Anton Milan, Juergen Gall, and Bernt Schiele. *Posetrack: A benchmark for human pose estimation and tracking*. In IEEE Conference on Computer Vision and Pattern Recognition, June 2018.
+
+After gathering all the necessary information, I will compile the dataset entries along with their full citations for clarity and completeness. This structured approach ensures that I accurately capture all relevant datasets and their sources from the paper.

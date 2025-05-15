@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Neural Network Reconstruction of the Left Atrium using Sparse Catheter Paths" by Alon Baram et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract indicates that a large dataset of 3D atria shapes was acquired to train the network, which suggests that this dataset is crucial for the study. I will look for specific names or descriptions of datasets in these sections.
+
+Next, I will examine **section III (Methods)**, particularly the subsections that discuss data generation. Here, the authors mention generating a dataset of 5006 samples for training and 1800 samples for testing, which are derived from a left atrium shape generator developed by Biosense Webster. This is a key dataset that I need to document.
+
+I will also check **section IV (Experiments)**, where the authors describe the experiments conducted using synthetic paths and clinical cases. They mention using 1800 pairs of paths and corresponding atria for synthetic path experiments, which reinforces the importance of the dataset generated for training.
+
+Now, I will look into the **References section** to find full citations for the datasets mentioned. The paper references the left atrium shape generator developed by Biosense Webster, which is essential for understanding the source of the synthetic data. However, the paper does not provide a specific citation for the dataset itself, as it is likely proprietary or internal to the company.
+
+The relevant datasets I have identified are:
+
+1. **Synthetic Left Atria Dataset**: This dataset consists of 5006 samples for training and 1800 samples for testing, generated using a left atrium shape generator.
+   - Citation: While the paper does not provide a formal citation for this dataset, it references the generator developed by Biosense Webster, which is crucial for understanding the dataset's origin.
+
+2. **Clinical Cases Dataset**: This dataset includes 80 clinical cases used for testing the proposed methods, with 26 cases having properly registered meshes from CT segmentation.
+   - Citation: The paper does not provide a specific citation for this dataset either, as it is based on clinical data collected during procedures.
+
+In summary, I will document the datasets as follows:
+
+- **Synthetic Left Atria Dataset**: 5006 training samples and 1800 testing samples generated from the left atrium shape generator by Biosense Webster.
+- **Clinical Cases Dataset**: 80 clinical cases, with 26 having registered meshes from CT segmentation.
+
+I will ensure that I clearly note the lack of formal citations for these datasets, as they are either proprietary or based on clinical data that may not have a specific publication reference.

@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Dis-AE: Multi-domain & Multi-task Generalisation on Real-World Clinical Data" by Daniel Kreuter et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, materials & methods, and results sections** of the paper. The abstract mentions evaluating the model on synthetic datasets and clinical data, which indicates that there are datasets to be identified.
+
+In the **Materials & Methods section**, the authors explicitly list the datasets used for evaluation. They mention four synthetic datasets (A, B, C, and Many Affines) and two clinical datasets (INTERVAL and COMPARE). I will extract the details of each dataset from this section.
+
+1. **Synthetic Datasets**:
+   - **Dataset A**: Contains 13,000 samples for a classification problem with one task and one domain.
+   - **Dataset B**: Also contains 13,000 samples but adds multiple dependent continuous domains.
+   - **Dataset C**: Comprises 26,000 samples involving three distinct tasks, with varying class balances.
+   - **Many Affines Dataset**: A large-scale dataset with 500,000 samples focusing on a single task with two balanced classes.
+
+2. **Clinical Datasets**:
+   - **INTERVAL Dataset**: Contains rich full blood count (R-FBC) data from 48,460 donors, with 15,438 samples remaining after pre-filtering.
+   - **COMPARE Dataset**: Contains R-FBC data from 29,029 donors, with 12,064 samples remaining after pre-filtering.
+   - **Cambridge University Hospitals (CUH) Dataset**: Contains HL-FBC data from 438,483 patients, with 1,036,709 samples remaining after pre-filtering.
+
+Next, I will check the **References section** to find the full citations for the datasets mentioned. The citations for the clinical datasets are particularly important as they provide the source of the data.
+
+- For the **INTERVAL Dataset**, the citation is:
+  > Angelantonio, E.D., et al. "Efficiency and safety of varying the frequency of whole blood donation (INTERVAL): A randomised trial of 45,000 donors." *The Lancet*, 390(10110), 2360–2371, 2017. https://doi.org/10.1016/s0140-6736(17)31928-1
+
+- For the **COMPARE Dataset**, the citation is:
+  > Bell, S., et al. "Comparison of four methods to measure haemoglobin concentrations in whole blood donors (COMPARE): A diagnostic accuracy study." *Transfusion Medicine*, 31(2), 94–103, 2020. https://doi.org/10.1111/tme.12750
+
+- For the **Cambridge University Hospitals (CUH) Dataset**, the citation is:
+  > EpiCov Version 1.0. https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/epicov-version10/
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured all relevant details regarding the datasets used in the research.

@@ -1,0 +1,157 @@
+[
+    {
+        "dcterms:creator": [
+            "Marcus Hutter"
+        ],
+        "dcterms:description": "The dataset consists of 100 million characters taken from 205 different characters including alphabets, XML markups, and special symbols, modeled at the character-level to predict the next character of the input sequence.",
+        "dcterms:title": "Hutter Prize Wikipedia dataset",
+        "dcterms:issued": "2012",
+        "dcterms:language": "English",
+        "dcterms:identifier": "http://prize.hutter1.net",
+        "dcat:theme": [
+            "Language Modeling"
+        ],
+        "dcat:keyword": [
+            "Character-level modeling",
+            "Language modeling",
+            "Text dataset"
+        ],
+        "dcat:landingPage": "http://prize.hutter1.net",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Character prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Yann LeCun",
+            "Léon Bottou",
+            "Yoshua Bengio",
+            "Patrick Haffner"
+        ],
+        "dcterms:description": "The dataset consists of 50000 training and 10000 validation/test handwritten digit images of size 28x28.",
+        "dcterms:title": "MNIST dataset",
+        "dcterms:issued": "1998",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "Handwritten digits",
+            "Image dataset",
+            "Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Digit classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Quoc V Le",
+            "Navdeep Jaitly",
+            "Geoffrey E Hinton"
+        ],
+        "dcterms:description": "A sequential version of the MNIST dataset where the goal is to classify the digit after sequentially reading the pixels in a scan-line order.",
+        "dcterms:title": "Sequential MNIST",
+        "dcterms:issued": "2015",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "Sequential data",
+            "Handwritten digits",
+            "Image dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Digit classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Martin Arjovsky",
+            "Amar Shah",
+            "Yoshua Bengio"
+        ],
+        "dcterms:description": "A permuted version of the MNIST dataset where the original image pixels are permuted in a fixed random order, resulting in a problem that has longer range dependencies across pixels.",
+        "dcterms:title": "Sequential Permuted MNIST (pMNIST)",
+        "dcterms:issued": "2016",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification"
+        ],
+        "dcat:keyword": [
+            "Permuted data",
+            "Handwritten digits",
+            "Image dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Digit classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Nal Kalchbrenner",
+            "Ivo Danihelka",
+            "Alex Graves"
+        ],
+        "dcterms:description": "A dataset for the addition task where the network sums two 15-digit integers, reading one digit per timestep and predicting the summation.",
+        "dcterms:title": "Addition task dataset",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Algorithmic Tasks"
+        ],
+        "dcat:keyword": [
+            "Addition task",
+            "Integer addition",
+            "Sequence learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Integer addition"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Nal Kalchbrenner",
+            "Ivo Danihelka",
+            "Alex Graves"
+        ],
+        "dcterms:description": "A dataset for the memorization task where the goal is to memorize a sequence of 20 random symbols.",
+        "dcterms:title": "Memorization task dataset",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Algorithmic Tasks"
+        ],
+        "dcat:keyword": [
+            "Memorization task",
+            "Random symbols",
+            "Sequence learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Sequence memorization"
+        ]
+    }
+]

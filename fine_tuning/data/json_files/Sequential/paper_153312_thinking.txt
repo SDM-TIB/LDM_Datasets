@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Shape and Time Distortion Loss for Training Deep Time Series Forecasting Models" by Vincent Le Guen and Nicolas Thome, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that experiments were conducted on various non-stationary datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4.1 (Experimental setup)**, where the authors explicitly list the datasets used for their experiments. Here, they mention three datasets:
+
+1. **Synthetic Dataset**: This dataset is generated for the purpose of the study, consisting of 500 time series for training, 500 for validation, and 500 for testing. Each series has 40 time steps, with the first 20 as inputs and the last 20 as targets.
+
+2. **ECG5000 Dataset**: This dataset is sourced from the UCR Time Series Classification Archive and contains 5000 electrocardiograms (ECG) of length 140. The authors specify that they use the first 84 time steps as input and predict the last 56 steps.
+
+3. **Traffic Dataset**: This dataset includes road occupancy rates from the California Department of Transportation, covering 48 months of data measured hourly. The authors work with a univariate series of length 17544, predicting 24 future points based on the past 168 points.
+
+I will then check the **References section** to find the full citations for these datasets:
+
+- For the **Synthetic Dataset**, since it is generated specifically for this study, it may not have a formal citation. However, I will note that it is described in detail within the paper.
+
+- For the **ECG5000 Dataset**, the citation is:
+  > Yanping Chen, Eamonn Keogh, Bing Hu, Nurjahan Begum, Anthony Bagnall, Abdullah Mueen, and Gustavo Batista. *The UCR time series classification archive*. 2015.
+
+- For the **Traffic Dataset**, the authors do not provide a specific citation, but it is based on data from the California Department of Transportation. I will note this as well.
+
+Now, I will compile the dataset entries, ensuring to include the relevant details and citations for each dataset. This will provide a comprehensive overview of the datasets used in the research paper.

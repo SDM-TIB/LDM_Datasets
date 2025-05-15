@@ -1,0 +1,353 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Contains over 11,000 images and 9,000 annotations recorded as a 25 Hz video during about a 9-minute long ride in Paris. The images have a relatively low resolution of 640×480 pixels. All labels were annotated manually as bounding boxes (BBoxes) with object IDs for tracking evaluation. The TL state was labeled as green, orange, red, or ambiguous.",
+        "dcterms:title": "La Route Automatisée (LaRa) dataset",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic light recognition",
+            "Traffic light detection",
+            "Autonomous driving"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Traffic Light Detection",
+            "Traffic Light Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "M. B. Jensen",
+            "M. P. Philipsen",
+            "A. Møgelmose",
+            "T. B. Moeslund",
+            "M. M. Trivedi"
+        ],
+        "dcterms:description": "Contains over 40,000 images, originating from the Vision for Intelligent Vehicles and Application (VIVA) challenge, which included the traffic light detection benchmark. The data was captured as a 10 Hz video using a stereo camera with an image resolution of 1280 × 960 pixels. Additionally, depth disparity maps for each image are provided. The dataset consists of a training subset and a test subset, the latter is kept private to serve as the basis for benchmarking.",
+        "dcterms:title": "LISA Traffic Light Dataset",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic light detection",
+            "Traffic light classification",
+            "Stereo camera"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Traffic Light Detection",
+            "Traffic Light Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Behrendt",
+            "L. Novak",
+            "R. Botros"
+        ],
+        "dcterms:description": "Recorded along the El Camino Real in California’s San Francisco Bay Area using a stereo camera. The dataset includes the corresponding disparity maps. All labels were annotated manually utilizing 15 classes to describe the color and pictogram of the TLs.",
+        "dcterms:title": "Bosch Small Traffic Lights Dataset (BSTLD)",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic light detection",
+            "Traffic light classification",
+            "Stereo camera"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Traffic Light Detection",
+            "Traffic Light Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Fregin",
+            "J. Muller",
+            "U. Krebel",
+            "K. Dietmayer"
+        ],
+        "dcterms:description": "Published in 2016, this dataset has a number of images comparable to LISA but exceeds all other datasets in terms of the number of annotations (more than 230,000). Images with a resolution of 2048×1024 pixels were recorded by a stereo camera with a frame rate of 15 Hz. The dataset includes the corresponding disparity maps.",
+        "dcterms:title": "DriveU Traffic Light Dataset (DTLD) v1.0",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic light detection",
+            "Traffic light classification",
+            "Stereo camera"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "v1.0",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Traffic Light Detection",
+            "Traffic Light Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Fregin",
+            "J. Muller",
+            "U. Krebel",
+            "K. Dietmayer"
+        ],
+        "dcterms:description": "Released in 2021 as an extension of the DTLD v1.0. It contains images of the same resolution and frame rate but covers a broader range of traffic scenarios, such as roundabouts and T-junctions.",
+        "dcterms:title": "DriveU Traffic Light Dataset (DTLD) v2.0",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic light detection",
+            "Traffic light classification",
+            "Stereo camera"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "v2.0",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Traffic Light Detection",
+            "Traffic Light Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Janosovits"
+        ],
+        "dcterms:description": "Contains images with fine annotations from the Cityscapes dataset with additional TL labels for four attributes: type, relevant, visible, and state.",
+        "dcterms:title": "Cityscapes TL++ dataset",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic light detection",
+            "Traffic light classification",
+            "Semantic segmentation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Traffic Light Detection",
+            "Traffic Light Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "X. Yang",
+            "J. Yan",
+            "W. Liao",
+            "X. Yang",
+            "J. Tang",
+            "T. He"
+        ],
+        "dcterms:description": "Detecting small, cluttered and rotated objects via instance-level feature denoising and rotation loss smoothing.",
+        "dcterms:title": "S2TLD",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic light detection",
+            "Traffic light classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Traffic Light Detection",
+            "Traffic Light Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "David Kirchhoff",
+            "Philip Hoang"
+        ],
+        "dcterms:description": "COCO Dataset Extensions for Driving Tasks, where TL states were annotated in the images from the COCO dataset.",
+        "dcterms:title": "COCO Traffic",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic light detection",
+            "Traffic light classification"
+        ],
+        "dcat:landingPage": "https://www.neuralception.com/cocodatasetextension/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Traffic Light Detection",
+            "Traffic Light Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A modified version of the Udacity Self-Driving Car Dataset that includes labeled TL states.",
+        "dcterms:title": "Roboflow Self-Driving Car dataset",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic light detection",
+            "Traffic light classification"
+        ],
+        "dcat:landingPage": "https://public.roboflow.com/object-detection/self-driving-car",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Traffic Light Detection",
+            "Traffic Light Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A modified version of the Udacity Self-Driving Car Dataset that includes labeled TL states.",
+        "dcterms:title": "Udacity Self-Driving Car Dataset",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic light detection",
+            "Traffic light classification"
+        ],
+        "dcat:landingPage": "https://github.com/udacity/self-driving-car",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Traffic Light Detection",
+            "Traffic Light Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Waymo Open Dataset, which includes labeled TL states.",
+        "dcterms:title": "Waymo Open Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic light detection",
+            "Traffic light classification"
+        ],
+        "dcat:landingPage": "https://waymo.com/open/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Traffic Light Detection",
+            "Traffic Light Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Z. Chen",
+            "X. Huang"
+        ],
+        "dcterms:description": "Accurate and reliable detection of traffic lights using multiclass learning and multiobject tracking.",
+        "dcterms:title": "WPI",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic light detection",
+            "Traffic light classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Traffic Light Detection",
+            "Traffic Light Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A diverse driving dataset for heterogeneous multitask learning.",
+        "dcterms:title": "BDD100K",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic light detection",
+            "Traffic light classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Traffic Light Detection",
+            "Traffic Light Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "ApolloScape Dataset, which includes labeled TL states.",
+        "dcterms:title": "ApolloScape",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic light detection",
+            "Traffic light classification"
+        ],
+        "dcat:landingPage": "https://apolloscape.auto/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Traffic Light Detection",
+            "Traffic Light Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "M. Cordts",
+            "M. Omran",
+            "S. Ramos",
+            "T. Rehfeld",
+            "M. Enzweiler",
+            "R. Benenson",
+            "U. Franke",
+            "S. Roth",
+            "B. Schiele"
+        ],
+        "dcterms:description": "The Cityscapes dataset for semantic urban scene understanding.",
+        "dcterms:title": "Cityscapes",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Traffic light detection",
+            "Traffic light classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Traffic Light Detection",
+            "Traffic Light Classification"
+        ]
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A tree-like structured environment where the agent starts at the root and moves downward. It consists of simple states with one possible action and junction states where the agent must choose between multiple roads. Rewards are given only upon reaching junction or terminal states.",
+        "dcterms:title": "Road-Tree Environment",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Reinforcement Learning",
+            "Tree Structure",
+            "Criticality Function"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A rectangular playing field environment where the agent controls a gun to shoot at a moving target. The agent can choose to shoot in one of three directions or not shoot at all. The criticality measure is binary, assigning criticality of 1.0 before the shot and 0.0 after.",
+        "dcterms:title": "Shooter Environment",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Reinforcement Learning",
+            "Shooting Game",
+            "Criticality Measure"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "An environment consisting of two rackets, a ball, and a playing field. The agent's racket can move up, down, or stay in place. The opponent's racket follows a noisy variant of the optimal policy. The criticality measure is binary, with criticality of 1.0 when the ball is moving towards the agent.",
+        "dcterms:title": "Tennis Environment",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Reinforcement Learning",
+            "Tennis Game",
+            "Criticality Function"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

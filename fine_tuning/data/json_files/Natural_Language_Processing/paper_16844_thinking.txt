@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Is Bigger and Deeper Always Better? Probing LLaMA Across Scales and Layers" by Nuo Chen et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are referenced. The abstract mentions conducting experiments on various probing tasks, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section**, particularly sections that detail the probing tasks. The authors describe five probing tasks: calculation, math problem solving (MPS), logical reasoning, truthfulness, and factual knowledge detection. I will look for specific datasets associated with these tasks.
+
+Upon reviewing the paper, I find the following datasets explicitly mentioned:
+
+1. **GSM8K**: This dataset is used for the math problem-solving (MPS) tasks. It is referenced in the context of constructing challenging options for the probing tasks.
+
+2. **Reclor**: This dataset is utilized for evaluating logical reasoning skills. It consists of logical reasoning questions derived from standardized tests.
+
+3. **TruthfulQA**: This dataset is employed to assess the truthfulness of the model's responses, focusing on its ability to generate factually correct answers.
+
+4. **LAMA**: This dataset is used for factual knowledge detection, where the model's ability to recall factual information is tested.
+
+Next, I will consult the **References section** to find the full citations for these datasets:
+
+- For **GSM8K**, the citation is:
+  > Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman. *Training verifiers to solve math word problems*. CoRR, abs/2110.14168, 2021.
+
+- For **Reclor**, the citation is:
+  > Weihao Yu, Zihang Jiang, Yanfei Dong, and Jiashi Feng. *Reclor: A reading comprehension dataset requiring logical reasoning*. In ICLR. OpenReview.net, 2020.
+
+- For **TruthfulQA**, the citation is:
+  > Stephanie Lin, Jacob Hilton, and Owain Evans. *TruthfulQA: Measuring how models mimic human falsehoods*. In ACL (1), pages 3214–3252, 2022.
+
+- For **LAMA**, the citation is:
+  > Fabio Petroni, Tim Rocktäschel, Sebastian Riedel, Patrick S. H. Lewis, Anton Bakhtin, Yuxiang Wu, and Alexander H. Miller. *Language models as knowledge bases?* In EMNLP/IJCNLP (1), pages 2463–2473, 2019.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their respective references.

@@ -1,0 +1,38 @@
+To extract datasets from the research paper titled "Extreme Learning Machine for the Characterization of Anomalous Diffusion from Single Trajectories (AnDi-ELM)" by Carlo Manzo, I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract mentions the Anomalous Diffusion challenge (AnDi) and indicates that datasets are used for evaluating methods. This suggests that there are specific datasets that I need to look for.
+
+Next, I will focus on **section 2.1 (Datasets, preprocessing, and feature engineering)**, where the author describes the datasets used in the study. Here, I find that the datasets correspond to simulated trajectories generated with the Python package andi-dataset. The author specifies that training, validation, and test datasets for each task and dimension were composed of 10,000 trajectories each.
+
+The paper mentions that these trajectories were generated according to five theoretical models included in the AnDi challenge: 
+1. Continuous-time random walk (CTRW)
+2. Fractional Brownian motion (FBM)
+3. Lévy walk (LW)
+4. Annealed transient time motion (ATTM)
+5. Scaled Brownian motion (SBM)
+
+Each of these models contributes to the datasets used for the tasks of the AnDi challenge. 
+
+In addition, I will look for the **References section** to find full citations for the datasets and the models mentioned. The relevant citation for the dataset is:
+
+- For the AnDi challenge dataset, the citation is:
+  > Muñoz-Gil G, Manzo C, Volpe G, Garcia-March M A, Metzler R, and Lewenstein M. *The anomalous diffusion challenge dataset*. URL: https://github.com/AnDiChallenge/ANDI_datasets, 2020.
+
+I will also note the citations for the theoretical models used to generate the datasets:
+
+- For **CTRW**:
+  > Scher H, Montroll E W. *Physical Review B*, 12:2455, 1975.
+
+- For **FBM**:
+  > Mandelbrot B B, Van Ness J W. *SIAM Review*, 10:422–437, 1968.
+
+- For **LW**:
+  > Klafter J, Zumofen G. *Physical Review E*, 49:4873, 1994.
+
+- For **ATTM**:
+  > Massignan P, Manzo C, Torreno-Pina J, Garcia-Parajo M, Lewenstein M, Lapeyre Jr G J. *Physical Review Letters*, 112:150603, 2014.
+
+- For **SBM**:
+  > Lim S, Muniandy S. *Physical Review E*, 66:021114, 2002.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing. This will ensure that I have a clear and comprehensive record of the datasets used in the study, along with their full citations.

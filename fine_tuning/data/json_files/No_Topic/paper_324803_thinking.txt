@@ -1,0 +1,24 @@
+To extract the datasets mentioned in the research paper titled "Characterizing and addressing the issue of oversmoothing in neural autoregressive sequence modeling" by Ilia Kulikov et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors conducted experiments using three different datasets for a neural machine translation task, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 5 (Experimental Setup)**, where the authors describe the tasks and models used in their experiments. Here, they mention three datasets:
+
+1. **IWSLT’17**: This dataset is used for language pairs including De→En, Fr→En, and Zh→En. The training sets consist of 209K, 236K, and 235K sentence pairs respectively. The authors also specify the development and test sets used for validation and testing.
+
+2. **WMT’16**: This dataset is prepared following the FairSeq recipe, with a training set containing 4.5M sentence pairs. The development and test sets are specified as newstest13 and newstest14, each containing 3K sentence pairs.
+
+3. **WMT’19**: This dataset includes language pairs Ru→En and De↔En, with the training set consisting of slightly more than 1M and 2M training sentence pairs respectively. The authors mention that they fine-tuned single model checkpoints from previous work.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. However, since the datasets are commonly used in the field, they may not have specific citations in the references. Instead, I will note the original sources or relevant papers associated with these datasets:
+
+- For **IWSLT’17**, the citation is:
+  > Cettolo, M., Girardi, C., & Federico, M. (2012). *WIT3: Web Inventory of Transcribed and Translated Talks*. In Proceedings of the Eighth International Conference on Language Resources and Evaluation (LREC).
+
+- For **WMT’16**, the citation is:
+  > Bojar, O., et al. (2016). *Findings of the 2016 Conference on Machine Translation (WMT16)*. In Proceedings of the First Conference on Machine Translation.
+
+- For **WMT’19**, the citation is:
+  > Barrault, L., et al. (2019). *Findings of the 2019 Conference on Machine Translation (WMT19)*. In Proceedings of the Fourth Conference on Machine Translation.
+
+Now, I will compile the dataset entries with their respective citations into a structured format for further processing.

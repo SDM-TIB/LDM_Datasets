@@ -1,0 +1,62 @@
+[
+    {
+        "dcterms:creator": [
+            "A. Bachmann",
+            "A. Becker",
+            "D. Buerckner",
+            "M. Hilker",
+            "F. Kock",
+            "M. Lehmann",
+            "P. Tiburtius",
+            "B. Funk"
+        ],
+        "dcterms:description": "The dataset records the P2P lending transactions from Lending Club, which is the largest US P2P lending platform, ranging from 2007 to 2017. It includes millions of loan transactions with over thirty features describing the financial information of borrowers and loan details.",
+        "dcterms:title": "Lending Club Data",
+        "dcterms:issued": "2011",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Finance",
+            "Peer-to-Peer Lending"
+        ],
+        "dcat:keyword": [
+            "P2P lending",
+            "loan transactions",
+            "default risk",
+            "financial information"
+        ],
+        "dcat:landingPage": "https://www.lendingclub.com/info/download-data.action",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": [
+            "Risk Prediction",
+            "Default Rate Modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "P. Jakubik"
+        ],
+        "dcterms:description": "The unemployment rate dataset (unemp_rate) is a macroeconomic feature recorded monthly, which is correlated with the interest rate in the P2P lending market and is used to improve the performance of the LSTM model.",
+        "dcterms:title": "Unemployment Rate (unemp_rate)",
+        "dcterms:issued": "2007",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Economics",
+            "Macroeconomic Factors"
+        ],
+        "dcat:keyword": [
+            "unemployment rate",
+            "macroeconomic factor",
+            "economic cycles"
+        ],
+        "dcat:landingPage": "https://datahub.io/core/employment-us#data",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": [
+            "Risk Prediction",
+            "Default Rate Modeling"
+        ]
+    }
+]

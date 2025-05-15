@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "SkySense: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery" by Xin Guo et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions that SkySense is pre-trained on a curated multi-modal Remote Sensing Imagery (RSI) dataset with 21.5 million temporal sequences. This indicates that there is a significant dataset involved, which I need to explore further.
+
+Next, I will look into **section 3 (Pre-training Dataset)**, where the authors provide detailed information about the dataset used for pre-training. Here, they describe the dataset as comprising high-spatial-resolution optical images (HSROIs), medium-resolution temporal multispectral imagery (TMsI), and temporal Synthetic Aperture Radar imagery (TSARI). The dataset consists of 21.5 million training samples, each containing a static HSROI, a TMsI sequence, and a TSARI sequence.
+
+The paper also specifies the sources of these datasets:
+1. **HSROIs**: Collected from WorldView-3 and WorldView-4, with an average Ground Sample Distance (GSD) of 0.3 meters.
+2. **TMsI**: Collected from Sentinel-2, specifically using Level-2A atmospherically corrected surface reflectance images.
+3. **TSARI**: Collected from Sentinel-1, using ground-range-detected products with VV and VH polarization.
+
+In addition to the main dataset, I will check the **References section** for any citations related to these datasets. The authors may not provide formal citations for the datasets themselves, but they do reference the original sources of the imagery.
+
+Now, I will compile the information into a structured format, ensuring to include full citations for each dataset where applicable. The citations for the datasets are as follows:
+
+- For **WorldView-3 and WorldView-4** imagery, the citation is:
+  > DigitalGlobe. *WorldView-3 and WorldView-4 Satellite Imagery*. [Online]. Available: https://www.digitalglobe.com/
+
+- For **Sentinel-2 imagery**, the citation is:
+  > European Space Agency. *Sentinel-2 User Handbook*. [Online]. Available: https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi
+
+- For **Sentinel-1 imagery**, the citation is:
+  > European Space Agency. *Sentinel-1 User Handbook*. [Online]. Available: https://sentinel.esa.int/web/sentinel/user-guides/sentinel-1-sar
+
+After gathering all this information, I will summarize the datasets in a clear and concise manner, ensuring that each dataset is properly cited and described according to the requirements of the task.

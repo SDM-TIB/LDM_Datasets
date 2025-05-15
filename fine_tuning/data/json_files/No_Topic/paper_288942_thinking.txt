@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "GraphSMOTE: Imbalanced Node Classification on Graphs with Graph Neural Networks" by Tianxiang Zhao et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the proposed framework is evaluated using three different datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will look into **section 5 (Experiments)**, where the authors describe the datasets used for their experiments. This section typically contains the most detailed information about the datasets, including their characteristics and how they were utilized in the study.
+
+In **subsection 5.1.1 (Datasets)**, the authors provide descriptions of the three datasets:
+
+1. **Cora**: A citation network dataset containing 2,708 papers from 7 areas, with a total of 5,429 citation links. Each node has a 1,433-dimensional attribute vector. The dataset is used in a semi-supervised learning setting with an imbalanced distribution created for the experiments.
+
+2. **BlogCatalog**: A social network dataset with 10,312 bloggers and 333,983 friendship edges. This dataset does not contain node attributes, but the authors attribute each node with a 64-dimensional embedding vector obtained from Deepwalk.
+
+3. **Twitter**: A dataset for fake account detection, containing 61,122 genuine users and 2,045 bots. The dataset is used for binary classification, and node embeddings are obtained through Deepwalk, supplemented with node degrees.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The full citations for the datasets are as follows:
+
+- For **Cora**:
+  > Sen, P., Namata, G., Bilgic, M., Getoor, L., Gallagher, B., & Eliassi-Rad, T. (2008). Collective Classification in Network Data. *AI Magazine*, 29(3), 93-106.
+
+- For **BlogCatalog**:
+  > Tang, L., & Liu, H. (2009). Relational learning via latent social dimensions. In *Proceedings of the 15th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining* (pp. 817-826).
+
+- For **Twitter**:
+  > Mohammadrezaei, M., Shiri, M. E., & Rahmani, A. M. (2018). Identifying fake accounts on social networks based on graph analysis and classification algorithms. *Security and Communication Networks*, 2018.
+
+Now, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that all information is accurate and complete for future reference or processing.

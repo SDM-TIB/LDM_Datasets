@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Toward Understanding Dynamic Scenes with Large Language Models" by Zongxin Yang et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors evaluate their method on three benchmarks, which suggests that datasets are involved.
+
+Next, I will focus on **section 3 (Experiment)**, where the authors describe their experimental setup. Here, they mention three datasets used for validation:
+
+1. **NExT-QA**: This dataset contains 34,132 training and 4,996 validation video-question pairs, with each question annotated with a type and answer candidates. This dataset is crucial for evaluating video question answering.
+
+2. **TVQA+**: An enhanced version of the original TVQA dataset, it includes 310.8K bounding boxes linking visual concepts in questions and answers to depicted objects in videos. The authors sampled 900 questions from the validation set for evaluation.
+
+3. **Ref-YouTube-VOS**: A large-scale referring video object segmentation dataset with approximately 15,000 referential expressions associated with over 3,900 videos. The authors used the validation set for their experiments.
+
+After identifying these datasets, I will check the **References section** for full citations to ensure proper attribution. The citations for the datasets are as follows:
+
+- For **NExT-QA**, the citation is:
+  > Xiao, J., Shang, X., Yao, A., & Chua, T.-S. (2021). NExT-QA: Next phase of question-answering to explaining temporal actions. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 9777-9786.
+
+- For **TVQA+**, the citation is:
+  > Lei, J., Yu, L., Berg, T. L., & Bansal, M. (2020). TVQA+: Spatio-temporal grounding for video question answering. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL), 2020.
+
+- For **Ref-YouTube-VOS**, the citation is:
+  > Seo, S., Lee, J.-Y., & Han, B. (2020). URVOS: Unified referring video object segmentation network with a large-scale benchmark. In Proceedings of the European Conference on Computer Vision (ECCV), 208-223.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or processing.

@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "RLingua: Improving Reinforcement Learning Sample Efficiency in Robotic Manipulations With Large Language Models" by Liangliang Chen et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to identify any datasets mentioned. The abstract mentions that RLingua was validated in "four robot tasks of panda_gym" and "12 sampled sparsely rewarded robot tasks in RLBench." This indicates that there are specific datasets related to these tasks.
+
+Next, I will look for explicit mentions of datasets in the **experiments section**. In this section, the authors describe the tasks used for validation. They mention:
+
+1. **panda_gym**: This is referenced multiple times as the environment where several tasks were tested, including PandaReach, PandaPush, PandaPickAndPlace, PandaSlide, and PandaStack.
+
+2. **RLBench**: The authors also mention that they sampled 12 tasks from this environment, including tasks like meat_off_grill, close_jar, and push_button.
+
+Now, I will check the **References section** to find full citations for these datasets. The citations for the environments are as follows:
+
+- For **panda_gym**, the citation is:
+  > Q. Gallouédec, N. Cazin, E. Dellandrèa, and L. Chen. *panda-gym: Open-source goal-conditioned environments for robotic learning*. arXiv preprint arXiv:2106.13687, 2021.
+
+- For **RLBench**, the citation is:
+  > S. James, Z. Ma, D. R. Arrojo, and A. J. Davison. *RLBench: The robot learning benchmark & learning environment*. IEEE Robot. Automat. Lett., vol. 5, no. 2, pp. 3019–3026, 2020.
+
+With these citations, I can now compile the dataset entries. Each dataset will include the name, description, and citation, ensuring that the full citation is included for each dataset.
+
+Finally, I will prepare the dataset entries in the required format for downstream processing, ensuring clarity and completeness in the information provided.

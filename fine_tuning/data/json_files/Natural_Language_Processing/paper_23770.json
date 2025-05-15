@@ -1,0 +1,76 @@
+[
+    {
+        "dcterms:creator": [
+            "Holger Caesar",
+            "Varun Bankiti",
+            "Alex H Lang",
+            "Sourabh Vora",
+            "Venice Erin Liong",
+            "Qiang Xu",
+            "Anush Krishnan",
+            "Yu Pan",
+            "Giancarlo Baldan",
+            "Oscar Beijbom"
+        ],
+        "dcterms:description": "This database includes 1000 scenarios, each lasting 20 seconds and captured using a 32-beam lidar sensor at a sampling rate of 20Hz. Keyframes within each scenario are annotated with a 2Hz sampling rate. For the semantic segmentation task, point-wise semantic labels are provided for 16 categories, including 10 foreground classes and 6 background classes, and mean Intersection over Union (mIoU) is employed as the evaluation metric. For the object detection task, bounding box annotations are provided for the same 10 foreground categories as those in the segmentation task.",
+        "dcterms:title": "nuScenes",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Autonomous Driving",
+            "3D Object Detection",
+            "Semantic Segmentation"
+        ],
+        "dcat:keyword": [
+            "Lidar",
+            "Semantic Segmentation",
+            "Object Detection",
+            "Autonomous Driving"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Semantic Segmentation",
+            "Object Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Pei Sun",
+            "Henrik Kretzschmar",
+            "Xerxes Dotiwalla",
+            "Aurelien Chouard",
+            "Vijaysai Patnaik",
+            "Paul Tsui",
+            "James Guo",
+            "Yin Zhou",
+            "Yuning Chai",
+            "Benjamin Caine"
+        ],
+        "dcterms:description": "This dataset contains 2000 scenarios captured by a 64-beam lidar sensor at a sampling rate of 10Hz. Each scenario spans 20 seconds, with detection annotations available for all frames, while point-wise semantic labels are only provided for selected keyframes. For the semantic segmentation task, semantic labels are provided for 23 classes, and the evaluation metric employed is mIoU as well. For the object detection task, bounding box annotations are provided for 3 categories, e.g., vehicles, pedestrians, and cyclists.",
+        "dcterms:title": "Waymo Open Dataset (WOD)",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Autonomous Driving",
+            "3D Object Detection",
+            "Semantic Segmentation"
+        ],
+        "dcat:keyword": [
+            "Lidar",
+            "Semantic Segmentation",
+            "Object Detection",
+            "Autonomous Driving"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Semantic Segmentation",
+            "Object Detection"
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Physics Informed Recurrent Neural Networks for Seismic Response Evaluation of Nonlinear Systems" by Faisal Nissar Malik et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and numerical examples sections** to gather initial insights into the datasets used. The abstract discusses the evaluation of seismic response using machine learning, which suggests that datasets related to seismic data might be involved.
+
+Next, I will focus on the **numerical examples section** (Section IV), where the authors describe the datasets used for training their model. Here, they mention that the data is generated using finite element analysis and that two numerical examples are investigated.
+
+1. **First Example (SDOF Boucwen System)**: The authors state that this dataset is the same as that used by Zhang [7], consisting of **85 synthetic ground motions**. They specify that the ground motion duration is **30 seconds**, sampled at **50 Hz**, resulting in **1501 data points**. They used **60 examples for training** and **25 for evaluation**.
+
+2. **Second Example (Nonlinear MDOF System)**: The authors describe a dataset consisting of **274 ground motions**, also sampled at **50 Hz** with a duration of **30 seconds**. They mention that **130 examples were used for training** and **144 for validation**. The dataset includes a combination of real-world ground motion records from the **PEER NGA West 2 database** [1] and synthetic ground motions.
+
+Now, I will look into the **References section** to find the full citations for the datasets mentioned:
+
+- For the **PEER NGA West 2 database**, the citation is:
+  > Thomas D Ancheta, Robert B Darragh, Jonathan P Stewart, Erdal Seyhan, Walter J Silva, Brian S J Chiou, Keith E Wooddell, Robert W Graves, Albert R Kottke, David M Boore, Tadahiro Kishida, and Jennifer L Donahue. *Peer NGA-West2 Database, PEER Report 2013-03*. Technical report, Pacific Earthquake Engineering Research Center, University of California, Berkeley, CA, 2013.
+
+- For the dataset used by **Zhang [7]**, the citation is:
+  > Ruiyang Zhang, Yang Liu, and Hao Sun. *Physics-informed multi-LSTM networks for metamodeling of nonlinear structures*. Computer Methods in Applied Mechanics and Engineering, 369:113226, 2020.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research paper.

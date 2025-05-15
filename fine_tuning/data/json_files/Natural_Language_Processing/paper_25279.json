@@ -1,0 +1,295 @@
+[
+    {
+        "dcterms:creator": [
+            "Christian Zimmermann",
+            "Duygu Ceylan",
+            "Jimei Yang",
+            "Bryan Russell",
+            "Max Argus",
+            "Thomas Brox"
+        ],
+        "dcterms:description": "A large-scale multiview hand dataset with 3D hands annotations, popularly used by 3D hand reconstruction studies. The training set contains 33k samples collected by 08 cameras in a green-screen studio environment, which are further enhanced by replacing the backgrounds, leading to an overall 132k samples. The evaluation set contains 4K samples including both in-door and out-door in-the-wild scenarios.",
+        "dcterms:title": "FreiHAND",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "3D Hand Reconstruction",
+            "Computer Vision"
+        ],
+        "dcat:keyword": [
+            "3D hand pose",
+            "RGB images",
+            "multiview dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "3D Hand Reconstruction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Shreyas Hampali",
+            "Mahdi Rad",
+            "Markus Oberweger",
+            "Vincent Lepetit"
+        ],
+        "dcterms:description": "Markerless hand-object interaction dataset containing 3D poses for both hand and object, released in 2020. The sequences in the dataset came from the YCB dataset and were collected by single or multiple RGBD cameras.",
+        "dcterms:title": "HO3D",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "3D Hand Reconstruction",
+            "Hand-Object Interaction"
+        ],
+        "dcat:keyword": [
+            "3D hand pose",
+            "hand-object interaction",
+            "RGBD cameras"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "v2",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "3D Hand Reconstruction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Donglai Xiang",
+            "Hanbyul Joo",
+            "Yaser Sheikh"
+        ],
+        "dcterms:description": "A dataset that captures both the 3D body and hand poses without using markers. The dataset recorded 40 subjects for 2.5 minutes and included 111K hand images and their 3D pose.",
+        "dcterms:title": "MTC",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "3D Hand Reconstruction",
+            "Human Pose Estimation"
+        ],
+        "dcat:keyword": [
+            "3D hand pose",
+            "body and hand poses",
+            "markerless capture"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "3D Hand Reconstruction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Christian Zimmermann",
+            "Thomas Brox"
+        ],
+        "dcterms:description": "A synthetic dataset for better annotation quality, utilizing 20 different 3D characters performing 39 actions, containing around 44k images in total.",
+        "dcterms:title": "RHD",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "3D Hand Reconstruction",
+            "Synthetic Data"
+        ],
+        "dcat:keyword": [
+            "3D hand pose",
+            "synthetic dataset",
+            "image annotations"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "3D Hand Reconstruction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Gyeongsik Moon",
+            "Shoou-I Yu",
+            "He Wen",
+            "Takaaki Shiratori",
+            "Kyoung Mu Lee"
+        ],
+        "dcterms:description": "A large-scale real-captured hand interaction dataset containing 2.6M labeled RGB images showing single or two interacting hands, collected using more than 80 cameras in a precisely calibrated multi-view studio.",
+        "dcterms:title": "InterHand2.6M",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "3D Hand Reconstruction",
+            "Hand Interaction"
+        ],
+        "dcat:keyword": [
+            "interacting hands",
+            "RGB images",
+            "multi-view dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "3D Hand Reconstruction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Shreyas Hampali",
+            "Sayan Deb Sarkar",
+            "Vincent Lepetit"
+        ],
+        "dcterms:description": "A dataset that improves the accuracy of hand-object annotations of the HO-3D dataset, released in 2021.",
+        "dcterms:title": "H2O3D",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "3D Hand Reconstruction",
+            "Hand-Object Interaction"
+        ],
+        "dcat:keyword": [
+            "hand-object interaction",
+            "3D hand pose",
+            "annotation improvement"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "v3",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "3D Hand Reconstruction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Yu-Wei Chao",
+            "Wei Yang",
+            "Yu Xiang",
+            "Pavlo Molchanov",
+            "Ankur Handa",
+            "Jonathan Tremblay",
+            "Yashraj S Narang",
+            "Karl Van Wyk",
+            "Umar Iqbal",
+            "Stan Birchfield"
+        ],
+        "dcterms:description": "A benchmark for capturing hand grasping of objects, containing 582k RGBD images for 10 subjects grasping 20 different objects.",
+        "dcterms:title": "DexYCB",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Hand Grasping",
+            "Object Interaction"
+        ],
+        "dcat:keyword": [
+            "hand grasping",
+            "RGBD images",
+            "benchmark dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Hand Grasping"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Sheng Jin",
+            "Lumin Xu",
+            "Jin Xu",
+            "Can Wang",
+            "Wentao Liu",
+            "Chen Qian",
+            "Wanli Ouyang",
+            "Ping Luo"
+        ],
+        "dcterms:description": "A dataset for whole-body human pose estimation in the wild, containing 200k RGB images with 250k instances.",
+        "dcterms:title": "COCO-Wholebody",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Human Pose Estimation",
+            "Whole-body Detection"
+        ],
+        "dcat:keyword": [
+            "whole-body pose",
+            "RGB images",
+            "in-the-wild dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Human Pose Estimation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Hao-Shu Fang",
+            "Jiefeng Li",
+            "Hongyang Tang",
+            "Chao Xu",
+            "Haoyi Zhu",
+            "Yuliang Xiu",
+            "Yong-Lu Li",
+            "Cewu Lu"
+        ],
+        "dcterms:description": "An in-the-wild RGB dataset for full-body human-object interaction, containing 50k training and 5k test instances.",
+        "dcterms:title": "Halpe",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Human-Object Interaction",
+            "Human Pose Estimation"
+        ],
+        "dcat:keyword": [
+            "full-body interaction",
+            "RGB dataset",
+            "human-object interaction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Human-Object Interaction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Tomas Simon",
+            "Hanbyul Joo",
+            "Iain Matthews",
+            "Yaser Sheikh"
+        ],
+        "dcterms:description": "A mixing dataset containing in-the-wild, multiview studio collected and synthetic RGB images, with 11k rendered synthetic samples and 2.8k manually annotated in-the-wild images.",
+        "dcterms:title": "MPII NZSL",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Sign Language Recognition",
+            "Human Pose Estimation"
+        ],
+        "dcat:keyword": [
+            "sign language",
+            "RGB images",
+            "multiview dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Image",
+        "mls:task": [
+            "Sign Language Recognition"
+        ]
+    }
+]

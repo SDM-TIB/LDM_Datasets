@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Exploring the Trade-Offs: Unified Large Language Models vs Local Fine-Tuned Models for Highly-Specific Radiology NLI Task" by Zihao Wu et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the study evaluates the performance of ChatGPT and GPT-4 on a radiology NLI task, which suggests that there may be specific datasets used for this evaluation.
+
+Next, I will focus on the **methodology** and **dataset** sections, particularly section 3, where the authors describe the datasets used in their experiments. Here, I will look for explicit mentions of datasets, their characteristics, and how they were utilized in the study.
+
+In section 3.1, the authors discuss the **RadQA dataset**, which is a radiology question-answering dataset containing 6,148 question-answer evidence pairs derived from the MIMIC-III database. This dataset is crucial for understanding the context of the study, as it serves as the foundation for creating the new RadQNLI dataset.
+
+In section 3.2, the authors describe the **RadQNLI dataset**, which is derived from the RadQA dataset. They explain the process of converting RadQA into RadQNLI, detailing how they paired questions with context sentences and assigned labels. This dataset is specifically designed for the NLI task in the radiology domain.
+
+Now, I will check the **References section** to find the full citations for both datasets:
+
+1. For the **RadQA dataset**, the citation is:
+   > Soni S, Gudala M, Pajouhi A, Roberts K. *RadQA: A Question Answering Dataset to Improve Comprehension of Radiology Reports*. In: Proceedings of the Thirteenth Language Resources and Evaluation Conference. Marseille, France: European Language Resources Association; 2022. p. 6250-9. Available from: https://aclanthology.org/2022.lrec-1.672.
+
+2. For the **MIMIC-III database**, the citation is:
+   > Johnson AE, Pollard TJ, Shen L, Lehman LwH, Feng M, Ghassemi M, et al. *MIMIC-III, a freely accessible critical care database*. Scientific data. 2016;3(1):1-9.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+- **RadQA Dataset**: A radiology question-answering dataset with 6,148 question-answer pairs derived from MIMIC-III.
+- **RadQNLI Dataset**: A dataset created from RadQA for the NLI task, containing 9,838 question-sentence pairs.
+
+Finally, I will compile this information into a structured format for easy reference and ensure that the full citations are included for each dataset. This will provide a comprehensive overview of the datasets utilized in the research paper.

@@ -1,0 +1,39 @@
+To extract datasets from the research paper titled "Masked Autoencoders are Efficient Continual Federated Learners" by Subarnaduti Paul et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will start by examining the **abstract** and **introduction** sections to see if any datasets are mentioned. The abstract discusses empirical evaluations on several continual federated scenarios on both image and binary datasets, which suggests that datasets are involved.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments** section. In the paper, the authors describe three sequences of unsupervised tasks, which include:
+
+1. **Sequential MNIST**: This dataset consists of 10 distinct digit classes, with 5 consecutive tasks per client, each containing images of a single random digit.
+
+2. **Numerical Binary Data**: This sequence includes four popular binary datasets for distribution estimation, namely:
+   - **RCV1**
+   - **Adult**
+   - **Connect4**
+   - **Tretail**
+
+3. **MNIST + EMNIST**: This dataset comprises 36 distinct subsets, including 10 digits and 26 letters, with a total of 215,600 data samples.
+
+In the **appendix**, the authors provide detailed descriptions of the datasets used in their experiments, including the number of tasks, classes, and train-validation-test splits.
+
+Now, I will gather the full citations for each dataset mentioned:
+
+- For **MNIST**, the citation is:
+  > Li Deng. The MNIST database of handwritten digit images for machine learning research. IEEE Signal Processing Magazine, 2012.
+
+- For **EMNIST**, the citation is:
+  > Gregory Cohen, Saeed Afshar, Jonathan Tapson, and André van Schaik. EMNIST: An extension of MNIST to handwritten letters. arXiv preprint arXiv:1702.05373, 2017.
+
+- For **Adult**, the citation is:
+  > Dheeru Dua and Casey Graff. UCI machine learning repository. University of California, Irvine, School of Information and Computer Sciences, 2017.
+
+- For **Connect4**, the citation is:
+  > Dheeru Dua and Casey Graff. UCI machine learning repository. University of California, Irvine, School of Information and Computer Sciences, 2017.
+
+- For **Tretail**, the citation is:
+  > Dheeru Dua and Casey Graff. UCI machine learning repository. University of California, Irvine, School of Information and Computer Sciences, 2017.
+
+- For **RCV1**, the citation is:
+  > Benigno Uria, Marc-Alexandre Côté, Karol Gregor, Iain Murray, and Hugo Larochelle. Neural autoregressive distribution estimation. arXiv preprint arXiv:1605.02226, 2016.
+
+After compiling this information, I will ensure that each dataset is clearly documented with its respective citation, ready for inclusion in any structured output or further analysis.

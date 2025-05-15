@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Exploiting Summarization Data to Help Text Simplification" by Renliang Sun et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors have created a dataset named **Sum4Simp (S4S)**, which is derived from summarization datasets. This is a strong indication that I should look for more details about this dataset in the subsequent sections.
+
+Next, I will focus on the **introduction** where the authors discuss the limitations of existing simplification datasets and the motivation behind creating S4S. They mention that existing datasets are limited to Wikipedia and Newsela, which provides context for the need for new datasets.
+
+In the **methods section**, particularly in section 3, the authors describe their process for extracting aligned sentence pairs from summarization datasets. They specifically mention using the **CNN/Daily Mail summarization dataset** as a source for their S4S dataset. This is crucial information as it identifies the original dataset from which S4S is derived.
+
+I will also check the **experiments section** to confirm the datasets used in their evaluations. The authors state that they used **WikiLarge** and **WikiSmall** as comparison datasets in their experiments, which further emphasizes the context in which S4S is being evaluated.
+
+Now, I will gather the full citations for the datasets mentioned:
+
+1. **Sum4Simp (S4S)**: The authors created this dataset from the CNN/Daily Mail summarization dataset. The citation for the S4S dataset is not explicitly provided in the references, but it is derived from the following:
+   > Nallapati, R., Zhou, B., Santos, C. d., Gulçehre, Ç., & Xiang, B. (2016). Abstractive text summarization using sequence-to-sequence RNNs and beyond. In Proceedings of The 20th SIGNLL Conference on Computational Natural Language Learning (pp. 280–290).
+
+2. **WikiLarge**: The citation for this dataset is:
+   > Zhang, X., & Lapata, M. (2017). Sentence simplification with deep reinforcement learning. In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (pp. 584–594).
+
+3. **WikiSmall**: The citation for this dataset is:
+   > Zhu, Z., Bernhard, D., & Gurevych, I. (2010). A monolingual tree-based translation model for sentence simplification. In Proceedings of the 23rd International Conference on Computational Linguistics (Coling 2010) (pp. 1353–1361).
+
+After gathering this information, I will compile the dataset entries into a structured format for further processing or review. This systematic approach ensures that I accurately capture the datasets and their citations as presented in the research paper.

@@ -1,0 +1,84 @@
+[
+    {
+        "dcterms:creator": [
+            "Stephanie C. Lin",
+            "Jacob Hilton",
+            "Owain Evans"
+        ],
+        "dcterms:description": "The TruthfulQA dataset contains 817 distinct examples, each with a single query and a variable number of correct and incorrect answers, used to evaluate the performance of language models in generating accurate responses.",
+        "dcterms:title": "TruthfulQA Dataset",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://api.semanticscholar.org/CorpusID:237532606",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Language Models",
+            "Few-Shot Learning",
+            "Evaluation Metrics"
+        ],
+        "dcat:landingPage": "https://api.semanticscholar.org/CorpusID:237532606",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Question Answering",
+            "Text Generation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Stephanie C. Lin",
+            "Jacob Hilton",
+            "Owain Evans"
+        ],
+        "dcterms:description": "DMC is the dataset containing all distinct (query, answer) pairs from the TruthfulQA dataset, used for calculating various evaluation metrics.",
+        "dcterms:title": "DMC",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Stephanie C. Lin",
+            "Jacob Hilton",
+            "Owain Evans"
+        ],
+        "dcterms:description": "DDPO is the set of every distinct (query, answer, incorrect answer) triple contained in the DMC dataset, used for calculating the DPO metric.",
+        "dcterms:title": "DDPO",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "Stephanie C. Lin",
+            "Jacob Hilton",
+            "Owain Evans"
+        ],
+        "dcterms:description": "DICL is the set of every distinct (query, answer) pair contained in the DMC dataset, used for drawing contexts for evaluation.",
+        "dcterms:title": "DICL",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    }
+]

@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Pyramid Frequency Network with Spatial Attention Residual Refinement Module for Monocular Depth Estimation" by Zhengyang Lu and Ying Chen, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the proposed method is evaluated on three benchmark datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4 (Experiments)**, particularly **subsection 4.2 (Datasets)**, where the authors explicitly describe the datasets used for evaluation. Here, they mention three datasets:
+
+1. **Make3D Dataset**: This dataset contains 534 outdoor images, with 400 images for training and 134 for testing. The images have a resolution of 2272×1704, and the depth maps are resized to 512×512 for processing.
+
+2. **KITTI Depth Dataset**: This dataset includes 42,382 rectified stereo pairs from 61 scenes, with a typical image size of 1242×375 pixels. The images and depth maps are resized to 620×188 for model input.
+
+3. **NYUv2 Dataset**: This dataset consists of 464 indoor video scenes captured by a Microsoft Kinect camera. The images are resized to 512×512, and the depth maps are also resized to 512×512.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For the **Make3D Dataset**, the citation is:
+  > Saxena, A., Sun, M., & Ng, A. Y. (2008). *Make3D: Learning 3D scene structure from a single still image*. IEEE Transactions on Pattern Analysis and Machine Intelligence, 31(5), 824-840.
+
+- For the **KITTI Depth Dataset**, the citation is:
+  > Geiger, A., Lenz, P., & Stiller, C. (2013). *Vision meets robotics: The KITTI dataset*. The International Journal of Robotics Research, 32(11), 1231-1237.
+
+- For the **NYUv2 Dataset**, the citation is:
+  > Silberman, N., Hoiem, D., Kohli, P., & Fergus, R. (2012). *Indoor segmentation and support inference from RGBD images*. In European Conference on Computer Vision (pp. 746-760). Springer.
+
+Now that I have the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

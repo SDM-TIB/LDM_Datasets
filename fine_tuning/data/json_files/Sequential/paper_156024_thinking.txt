@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "Dynamic Chunk Convolution for Unified Streaming and Non-Streaming Conformer ASR" by Xilai Li et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experimental settings sections** to identify any datasets mentioned. The abstract indicates that the authors evaluate their models on several datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 3 (Experimental Settings)**, where the authors explicitly mention the datasets used for training and benchmarking their models. Here, they describe three different speech corpora:
+
+1. **In-house English Corpus**: A large-scale dataset with over 50,000 hours of audio, which includes a diverse mix of accents, speakers, sampling rates, and background noise. This dataset is crucial for training their models.
+
+2. **Small-scale In-house English Corpus**: A subset of the larger corpus, containing 5,000 hours of audio. This dataset is also used for training and is representative of various speech applications.
+
+3. **LibriSpeech Corpus**: An open-source dataset that combines train-clean-100, train-clean-360, and train-other-500, totaling 960 hours of training data. This dataset is widely used in the ASR community and serves as a benchmark for evaluating the models.
+
+In addition to the training datasets, the authors mention several benchmarking datasets in the same section:
+
+1. **Conversational Dataset**: An in-house dataset with over 10 hours of audio, designed to resemble user inputs for conversational dialog systems.
+
+2. **Multi-accent Dataset**: A 100+ hour in-house dataset featuring 12 different accents from across the US.
+
+3. **Wall Street Journal (WSJ) Dataset**: A 0.7-hour long dataset prepared using Kaldi's WSJ recipe, used for evaluation.
+
+4. **Voxpopuli Dataset**: A 4.9-hour long dataset used for evaluation, specifically the English test partition.
+
+Next, I will check the **References section** to gather the full citations for the datasets mentioned. The citations are as follows:
+
+- For **LibriSpeech**:
+  > Vassil Panayotov, Guoguo Chen, Daniel Povey, and Sanjeev Khudanpur. *Librispeech: An ASR corpus based on public domain audio books*. In Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 5206–5210, 2015.
+
+- For **Wall Street Journal (WSJ)**:
+  > John Garofolo, David Graff, Doug Paul, and David Pallett. *CSR-I (WSJ0) Complete LDC93S6A*. Web Download. Philadelphia: Linguistic Data Consortium, vol. 83, 1993.
+
+- For **Voxpopuli**:
+  > Changhan Wang, Morgane Riviere, Ann Lee, Anne Wu, Chaitanya Talnikar, Daniel Haziza, Mary Williamson, Juan Pino, and Emmanuel Dupoux. *Voxpopuli: A large-scale multilingual speech corpus for representation learning, semi-supervised learning and interpretation*. arXiv preprint arXiv:2101.00390, 2021.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding citations.

@@ -1,0 +1,66 @@
+To extract datasets from the research paper titled "AUTOMATA: Gradient Based Data Subset Selection for Compute-Efficient Hyper-Parameter Tuning" by Krishnateja Killamsetty et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions that the authors empirically evaluate their method on several real-world datasets across text, vision, and tabular domains. This indicates that multiple datasets are likely discussed in detail later in the paper.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments section**. In this paper, the authors provide a comprehensive overview of the datasets used in their experiments in **Section 3.3 (Datasets, Model Architecture, and Experimental Setup)**. Here, they explicitly list the datasets they utilized for their experiments.
+
+The datasets mentioned in the paper are:
+
+1. **SST2 Dataset**: A sentiment analysis dataset with 8,544 training instances, 1,101 validation instances, and 2,210 test instances. The dataset classifies sentences as either negative or positive.
+
+2. **SST5 Dataset**: Another sentiment analysis dataset with 8,544 training instances, 1,101 validation instances, and 2,210 test instances. It classifies sentences into five categories: negative, somewhat negative, neutral, somewhat positive, and positive.
+
+3. **glue-SST2 Dataset**: This dataset is used for sentiment classification and has 63,982 training instances, 872 validation instances, and 3,367 test instances.
+
+4. **TREC6 Dataset**: A question classification dataset with 4,907 training instances, 545 validation instances, and 500 test instances. It categorizes questions into six broad semantic categories.
+
+5. **CIFAR10 Dataset**: A vision dataset containing 60,000 colored images divided into 10 classes, with 50,000 training samples and 10,000 test samples.
+
+6. **CIFAR100 Dataset**: Similar to CIFAR10 but with 100 classes, containing 60,000 images, with 50,000 training samples and 10,000 test samples.
+
+7. **SVHN Dataset**: A dataset of street view house numbers, containing 73,257 training digits and 26,032 testing digits.
+
+8. **CONNECT-4 Dataset**: A tabular dataset from LIBSVM with 67,557 training instances.
+
+9. **DNA Dataset**: A tabular dataset with 1,400 training instances.
+
+10. **SATIMAGE Dataset**: A tabular dataset with 3,104 training instances.
+
+11. **LETTER Dataset**: A tabular dataset with 10,500 training instances.
+
+Now, I will gather the full citations for these datasets from the references section of the paper. The citations are as follows:
+
+- **SST2 Dataset**: 
+  > Socher, R., Perelygin, A., Wu, J., Chuang, J., Manning, C. D., Ng, A., & Potts, C. (2013). Recursive deep models for semantic compositionality over a sentiment treebank. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 1631–1642.
+
+- **SST5 Dataset**: 
+  > Socher, R., Perelygin, A., Wu, J., Chuang, J., Manning, C. D., Ng, A., & Potts, C. (2013). Recursive deep models for semantic compositionality over a sentiment treebank. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 1631–1642.
+
+- **glue-SST2 Dataset**: 
+  > Wang, A., Singh, A., Michael, J., Hill, F., Levy, O., & Bowman, S. R. (2019). GLUE: A multi-task benchmark and analysis platform for natural language understanding. In Proceedings of ICLR.
+
+- **TREC6 Dataset**: 
+  > Li, X., & Roth, D. (2002). Learning question classifiers. In Proceedings of the 19th International Conference on Computational Linguistics (COLING), pages 1–7.
+
+- **CIFAR10 Dataset**: 
+  > Krizhevsky, A. (2009). Learning multiple layers of features from tiny images. Technical report.
+
+- **CIFAR100 Dataset**: 
+  > Krizhevsky, A. (2009). Learning multiple layers of features from tiny images. Technical report.
+
+- **SVHN Dataset**: 
+  > Netzer, Y., Wang, T., Coates, A., Bissacco, A., Wu, B., & Ng, A. Y. (2011). Reading digits in natural images with unsupervised feature learning. In Proceedings of the 2011 International Conference on Machine Learning.
+
+- **CONNECT-4 Dataset**: 
+  > Chang, C.-C., & Lin, C.-J. (2011). LIBSVM: A library for support vector machines. ACM Transactions on Intelligent Systems and Technology, 2(3), 27:1–27:27.
+
+- **DNA Dataset**: 
+  > Chang, C.-C., & Lin, C.-J. (2011). LIBSVM: A library for support vector machines. ACM Transactions on Intelligent Systems and Technology, 2(3), 27:1–27:27.
+
+- **SATIMAGE Dataset**: 
+  > Chang, C.-C., & Lin, C.-J. (2011). LIBSVM: A library for support vector machines. ACM Transactions on Intelligent Systems and Technology, 2(3), 27:1–27:27.
+
+- **LETTER Dataset**: 
+  > Chang, C.-C., & Lin, C.-J. (2011). LIBSVM: A library for support vector machines. ACM Transactions on Intelligent Systems and Technology, 2(3), 27:1–27:27.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Machine Learning Approach to Force Reconstruction in Photoelastic Materials" by Renat Sergazinov and Miroslav Kramár, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses the use of a large synthetic dataset for pretraining neural networks, which indicates that there is at least one dataset involved.
+
+Next, I will focus on the **introduction** where the authors mention the challenges of obtaining large labeled datasets for training neural networks. This suggests that they may provide details about the datasets used later in the paper.
+
+In the **methodology section**, particularly in **Section 5 (Training of the Neural Networks)**, the authors describe the generation of synthetic datasets for training the models. They mention creating a dataset for particles with different radii, specifically stating that the dataset for the larger particle contains 24,000 distinct force lists and the dataset for the smaller particle contains 7,400 force lists. This is a clear indication of the datasets used.
+
+I will also check the **results section** to see if there are any additional datasets mentioned or referenced, particularly in relation to the performance of the models on these datasets.
+
+Now, I will compile the full citations for the datasets mentioned in the paper. The authors refer to the synthetic datasets they generated, but they do not provide a formal citation for these datasets since they are original contributions of the authors. However, they do reference the original works that inspired their methods and datasets.
+
+1. **Synthetic Dataset for Larger Particles**: 
+   - The dataset contains 24,000 distinct force lists generated for particles with a radius of 0.008 meters.
+   - Citation: 
+     > Sergazinov, R., & Kramár, M. (2020). Convolutional neural networks for force reconstruction in granular media. Retrieved from https://github.com/mrsergazinov/PhotoForceReconML
+
+2. **Synthetic Dataset for Smaller Particles**: 
+   - The dataset contains 7,400 distinct force lists generated for particles with a radius of 0.004 meters.
+   - Citation: 
+     > Sergazinov, R., & Kramár, M. (2020). Convolutional neural networks for force reconstruction in granular media. Retrieved from https://github.com/mrsergazinov/PhotoForceReconML
+
+After gathering this information, I will summarize the datasets and their citations in a structured format for clarity and future reference.

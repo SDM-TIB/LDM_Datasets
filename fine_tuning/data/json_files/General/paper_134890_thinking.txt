@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "LLAMAS KNOW WHAT GPTS DON’T SHOW: SURROGATE MODELS FOR CONFIDENCE ESTIMATION" by Vaishnavi Shrivastava, Percy Liang, and Ananya Kumar, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract provides a brief overview of the study, and the introduction typically outlines the context and significance of the research, which may include references to datasets.
+
+In the **introduction**, the authors mention evaluating their method on **12 question-answering datasets**. This indicates that multiple datasets are involved, and I need to find their specific names and details.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **methods or experiments sections**. In this paper, the authors explicitly list the datasets used for evaluation in the **setup section**. They mention the following datasets:
+
+1. **TruthfulQA (TQA)**: A benchmark designed to test the truthfulness of large language models across various categories.
+2. **CommonsenseQA (CSQA)**: A multiple-choice benchmark testing commonsense reasoning.
+3. **OpenbookQA (OBQA)**: A dataset requiring multi-step reasoning over common and commonsense knowledge.
+4. **MedQA**: A dataset testing medical knowledge based on USMLE and other medical board exams.
+5. **MMLU**: A massive benchmark covering 57 subjects from diverse areas, testing both rudimentary and advanced knowledge.
+
+The authors also mention that they sampled 250 questions from the test split of each dataset for their experiments.
+
+Now, I will check the **references section** to find full citations for these datasets. The citations for the datasets are as follows:
+
+- **TruthfulQA**: 
+  > Lin, S., Hilton, J., & Evans, O. (2021). *TruthfulQA: Measuring how models mimic human falsehoods*. arXiv preprint arXiv:2109.07958.
+
+- **CommonsenseQA**: 
+  > Talmor, A., Herzig, J., Lourie, N., & Berant, J. (2019). *CommonsenseQA: A question answering challenge targeting commonsense knowledge*. In Proceedings of the North American Association for Computational Linguistics (NAACL).
+
+- **OpenbookQA**: 
+  > Mihaylov, T., Clark, P., Khot, T., & Sabharwal, A. (2018). *Can a suit of armor conduct electricity? A new dataset for open book question answering*. In Proceedings of the Empirical Methods in Natural Language Processing (EMNLP).
+
+- **MedQA**: 
+  > Jin, D., Pan, E., Oufattole, N., Weng, W.-H., Fang, H., & Szolovits, P. (2021). *What disease does this patient have? A large-scale open domain question answering dataset from medical exams*. arXiv preprint arXiv:2009.13081.
+
+- **MMLU**: 
+  > Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhardt, J. (2021). *Measuring massive multitask language understanding*. In Proceedings of the International Conference on Learning Representations (ICLR).
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations. This will ensure that I have accurately captured all relevant details for each dataset mentioned in the paper.

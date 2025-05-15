@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "ItTakesTwo: Leveraging Peer Representations for Semi-supervised LiDAR Semantic Segmentation" by Yuyuan Liu et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions that the proposed method achieves state-of-the-art performance on public benchmarks, which suggests that specific datasets are used for evaluation. The introduction further emphasizes the importance of outdoor LiDAR semantic segmentation and hints at the datasets utilized in the experiments.
+
+Next, I will look for a dedicated **Datasets** section, which is often included in research papers. In this case, the paper discusses the datasets in **section 4 (Experiments)**. Here, the authors explicitly mention three datasets used for evaluation:
+
+1. **nuScenes Dataset**: This dataset is described as having 29,130 training scans and 6,019 validation scans, with 23 categories that are merged into 16 for training and validation.
+
+2. **SemanticKITTI Dataset**: This dataset is noted for its 19 categories for semantic segmentation, with specific sequences used for training and validation.
+
+3. **ScribbleKITTI Dataset**: This dataset is based on line-scribbles labeling to reduce annotation effort, and it is mentioned in conjunction with the SemanticKITTI dataset.
+
+To ensure accuracy, I will check the **References section** of the paper to find the full citations for these datasets:
+
+- For the **nuScenes Dataset**, the citation is:
+  > Caesar, H., Bankiti, V., Lang, A.H., Vora, S., Liong, V.E., Xu, Q., Krishnan, A., Pan, Y., Baldan, G., Beijbom, O. (2020). *nuscenes: A multimodal dataset for autonomous driving*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 11621–11631.
+
+- For the **SemanticKITTI Dataset**, the citation is:
+  > Behley, J., Garbade, M., Milioto, A., Quenzel, J., Behnke, S., Stachniss, C., Gall, J. (2019). *SemanticKITTI: A dataset for semantic scene understanding of lidar sequences*. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pp. 9297–9307.
+
+- For the **ScribbleKITTI Dataset**, the citation is:
+  > Unal, O., Dai, D., Van Gool, L. (2022). *Scribble-supervised lidar semantic segmentation*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 2697–2707.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described along with its full citation. This will provide a comprehensive overview of the datasets utilized in the research, which is crucial for reproducibility and further research in the field.

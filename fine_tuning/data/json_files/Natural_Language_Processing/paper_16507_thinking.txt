@@ -1,0 +1,46 @@
+To extract datasets from the research paper titled "VILLS: Video-Image Learning to Learn Semantics for Person Re-Identification" by Siyuan Huang et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** of the paper. The abstract mentions the development of a self-supervised method for person re-identification, which suggests that datasets are likely involved in the training and evaluation of the proposed method.
+
+Next, I will focus on **section 4.1 (Datasets and Evaluation Metrics)**, where the authors explicitly list the datasets used for pre-training and evaluation. Here, they mention two large-scale datasets:
+
+1. **LUPerson**: This dataset is specifically designed for ReID tasks and contains 4,180,243 person images. This is a significant dataset for training models in person re-identification.
+
+2. **Kinetics-700 (K-700)**: This dataset is a comprehensive action recognition dataset containing 700 actions across approximately 650,000 videos. The authors created a custom dataset based on K-700 for their experiments, which involved preprocessing to minimize background noise and ensure high-quality video data for ReID tasks.
+
+In the same section, the authors also evaluate their method on eight diverse datasets, which include:
+
+- **PRCC**: A dataset used for image-only ReID tasks.
+- **LTCC**: Another image-only dataset.
+- **Market1501**: A well-known dataset for person re-identification.
+- **PRID2011**: A video-only dataset.
+- **MARS**: Another video-only dataset.
+- **BRIAR-2, BRIAR-3, and BRIAR-4**: These represent image-video mixed datasets.
+
+Now, I will look at the **References section** to gather full citations for these datasets. The citations for the datasets mentioned are as follows:
+
+- For **LUPerson**, the citation is:
+  > Fu, D., Chen, D., Bao, J., Yang, H., Yuan, L., Zhang, L., Li, H., & Chen, D. (2021). Unsupervised pre-training for person re-identification. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 14750–14759.
+
+- For **Kinetics-700**, the citation is:
+  > Carreira, J., Noland, E., Hillier, C., & Zisserman, A. (2019). A short note on the kinetics-700 human action dataset. arXiv preprint arXiv:1907.06987.
+
+- For **PRCC**, the citation is:
+  > Yang, Q., Wu, A., & Zheng, W.-S. (2019). Person re-identification by contour sketch under moderate clothing change. IEEE Transactions on Pattern Analysis and Machine Intelligence, 43(6), 2029–2046.
+
+- For **LTCC**, the citation is:
+  > Qian, X., Wang, W., Zhang, L., Zhu, F., Fu, Y., Jiang, Y.-G., & Xue, X. (2020). Long-term cloth-changing person re-identification. In Proceedings of the Asian Conference on Computer Vision.
+
+- For **Market1501**, the citation is:
+  > Zheng, L., Shen, L., Tian, L., Wang, J., & Tian, Q. (2015). Scalable person re-identification: A benchmark. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 1116–1124.
+
+- For **PRID2011**, the citation is:
+  > Hirzer, M., Beleznai, C., Roth, P. M., & Bischof, H. (2011). Person re-identification by descriptive and discriminative classification. In Image Analysis: 17th Scandinavian Conference, SCIA 2011, pages 91–102. Springer.
+
+- For **MARS**, the citation is:
+  > Zheng, L., Bie, Z., Sun, Y., Wang, J., & Tian, Q. (2016). MARS: A video benchmark for large-scale person re-identification. In Computer Vision–ECCV 2016: 14th European Conference, pages 868–884. Springer.
+
+- For **BRIAR-2, BRIAR-3, and BRIAR-4**, the citation is:
+  > Cornett, D., Brogan, J., Barber, N., Aykac, D., Baird, S., Burchfield, N., Dukes, C., Duncan, A., Ferrell, R., Goddard, J., et al. (2023). Expanding accurate person recognition to new altitudes and ranges: The BRIAR dataset. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, pages 593–602.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

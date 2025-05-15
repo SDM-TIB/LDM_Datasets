@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Two-dimensional total absorption spectroscopy with conditional generative adversarial networks" by C. Dembski et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** to identify any mention of datasets. The abstract discusses the use of machine learning techniques for analyzing data from segmented γ-ray total absorption spectrometers (TAS), which suggests that there may be datasets related to TAS measurements.
+
+Next, I will examine the **introduction** section for any explicit references to datasets. The introduction provides context about the challenges in analyzing TAS data and mentions the use of simulated and experimental matrices, indicating that datasets are likely involved.
+
+I will then focus on the **methods** section, particularly **section 3 (Data Preparation)**, where the authors describe how they simulated their training data. Here, they mention that they simulated a total of 19,401 training examples, which includes both single γ-ray and double γ-ray decay spectra. This section is crucial as it provides specific details about the datasets used in their experiments.
+
+In **section 4 (Evaluation and Results)**, the authors discuss the evaluation of their model using both simulated and experimentally measured spectra. They specifically mention using matrices for the decays of common γ-ray sources like 60Co and 137Cs, which indicates that these are additional datasets utilized in their analysis.
+
+Now, I will compile the information about the datasets:
+
+1. **Simulated Training Dataset**: This dataset consists of 19,401 training examples, including 9,950 single γ-ray decay spectra and 9,451 double γ-ray decay spectra. The authors used the GEANT4 simulation package to generate these spectra.
+
+2. **Experimental Datasets**: The authors evaluated their model using experimental data from the decays of 60Co and 137Cs. These datasets are crucial for validating the performance of their machine learning model.
+
+Next, I will look for the **References section** to find full citations for the datasets mentioned. The citations for the datasets are as follows:
+
+- For the **GEANT4 simulation package**, the citation is:
+  > S. Agostinelli et al., "Geant4—a simulation toolkit," *Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment*, 506 (2003) 250–303. doi:10.1016/S0168-9002(03)01368-8.
+
+- For the **60Co decay**, the citation is:
+  > A. Spyrou et al., "Novel technique for constraining r-process (n, γ) reaction rates," *Phys. Rev. Lett.*, 113 (2014) 232502. doi:10.1103/PhysRevLett.113.232502.
+
+- For the **137Cs decay**, the citation is:
+  > B. C. Rasco et al., "Complete β-decay pattern for the high-priority decay-heat isotopes 137I and 137Xe determined using total absorption spectroscopy," *Phys. Rev. C*, 95 (2017) 054328. doi:10.1103/PhysRevC.95.054328.
+
+After gathering all this information, I will summarize the datasets and their citations in a structured format for easy reference and further processing.

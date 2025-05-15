@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Discriminative Feature Attributions: Bridging Post Hoc Explainability and Inherent Interpretability" by Usha Bhalla et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract** and **introduction** sections to see if any datasets are mentioned. The abstract discusses experiments on semi-synthetic and real-world datasets, which indicates that datasets are indeed involved, but I need to find their specific names.
+
+Next, I will look into the **experiments section** (section 5) where the authors describe their empirical evaluations. Here, they mention three datasets:
+
+1. **Hard MNIST**: This dataset is a variant of the MNIST dataset where digits are placed on a colored background with distractor digits and noise patches. The authors specify that the signal consists of the actual digit pixels, while the distractor includes background and noise.
+
+2. **Chest X-ray**: This is a semi-synthetic dataset used for pneumonia classification. The authors explain that they injected a spurious correlation into the dataset by adding noise patches to the "normal" class, which serves as the signal, while the rest of the X-ray image is considered the distractor.
+
+3. **CelebA**: This dataset is a subset of the CelebA dataset used for hair color classification. The authors note that it does not have a ground truth signal-distractor decomposition, as there are many unknown spurious correlations.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For **MNIST**, the citation is:
+  > Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. *The MNIST Database of Handwritten Digits*. 1998. URL: http://yann.lecun.com/exdb/mnist/.
+
+- For **Chest X-ray**, the citation is:
+  > Daniel Kermany, Kang Zhang, Michael Goldbaum, et al. *Labeled Optical Coherence Tomography (OCT) and Chest X-ray Images for Classification*. Mendeley Data, 2(2):651, 2018.
+
+- For **CelebA**, the citation is:
+  > Ziwei Liu, Ping Luo, Xiaogang Wang, and Xiaoou Tang. *Large-scale CelebFaces Attributes (CelebA) Dataset*. Retrieved August, 15(2018):11, 2018.
+
+Now that I have the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

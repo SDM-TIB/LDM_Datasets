@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Efficient Out-of-Distribution Detection Using Latent Space of β-VAE for Cyber-Physical Systems" by Shreyas Ramakrishna et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to locate any references to datasets. The abstract mentions the use of a real-world automotive dataset called **nuImages**, which indicates that there is at least one dataset to extract.
+
+Next, I will look for specific sections that detail the datasets used in the experiments. In the **introduction**, the authors discuss the challenges of detecting out-of-distribution (OOD) conditions in Cyber-Physical Systems (CPS) and mention the use of the **CARLA simulator** and the **nuImages dataset** for their experiments. This suggests that both datasets are relevant for the study.
+
+In the **experiments section**, the authors provide a detailed description of the datasets used. They mention:
+
+1. **CARLA Simulator**: This is a synthetic dataset generated from the CARLA simulator, which is used to create various driving scenarios for testing their approach. The paper describes how they generated scenes with different weather conditions and road segments.
+
+2. **nuImages Dataset**: This dataset is derived from the nuScenes dataset and contains images with annotations for various features such as traffic and pedestrian density. The authors explain how they partitioned this dataset into training and test sets based on different traffic and pedestrian values.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **CARLA Simulator**, while the paper does not provide a formal citation, it is widely recognized in the field. The general reference is:
+  > Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2017). CARLA: An open urban driving simulator. arXiv preprint arXiv:1711.03938.
+
+- For the **nuImages dataset**, the citation is:
+  > Caesar, H., Bankiti, V., Lang, A. H., Vora, S., Liong, V. E., Xu, Q., ... & Beijbom, O. (2020). nuscenes: A multimodal dataset for autonomous driving. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (pp. 11621-11631).
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations. This will ensure that all relevant details are captured for future reference or analysis.

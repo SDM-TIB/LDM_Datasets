@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "UNeRF: Time and Memory Conscious U-Shaped Network for Training Neural Radiance Fields" by Abiramy Kuganesan et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and evaluation sections** to identify any datasets mentioned. The abstract provides a high-level overview, but the evaluation section is likely to contain specific details about the datasets used for experiments.
+
+In the **evaluation section (Section 5)**, the authors mention three datasets used for their experiments:
+
+1. **Blender Dataset**: This dataset consists of 7 static synthetic scenes, including objects like Chair, Drums, Ficus, Lego, Materials, and Ship, processed at a resolution of 512 × 512. The authors state that they follow the same train, validation, and test split as the original NeRF paper.
+
+2. **LLFF Dataset**: This dataset includes 5 complex forward-facing camera scenes (Fern, Horns, Room, Trex, and Flower) with a total of 20 to 62 images per scene. The authors mention that they use an eighth of these images as the test split, following the data split from the NeRF paper.
+
+3. **SURREAL Dataset**: This dynamic synthetic dataset contains 10,800 training images from 1,200 3D human body poses rendered from 9 cameras. The test set consists of 300 body poses from 5 different scene cameras, totaling 1,500 test images. The authors note that this dataset was initially presented in the "Learning from Synthetic Humans" paper but was later adapted by A-NeRF.
+
+Next, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Blender Dataset**, the citation is:
+  > Mildenhall, B., Srinivasan, P.P., Tancik, M., Barron, J.T., Ramamoorthi, R., Ng, R. (2020). *NeRF: Representing scenes as neural radiance fields for view synthesis*. In Proceedings of the European Conference on Computer Vision (ECCV).
+
+- For the **LLFF Dataset**, the citation is:
+  > Mildenhall, B., Srinivasan, P.P., Cayon, R.O., Kalantari, N.K., Ramamoorthi, R., Ng, R. (2019). *Local light field fusion: Practical view synthesis with prescriptive sampling guidelines*. CoRR abs/1905.00889.
+
+- For the **SURREAL Dataset**, the citation is:
+  > Varol, G., Romero, J., Martin, X., Mahmood, N., Black, M., Laptev, I., Schmid, C. (2017). *Learning from synthetic humans*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This methodical approach ensures that I capture all relevant details and provide accurate citations for each dataset mentioned in the paper.

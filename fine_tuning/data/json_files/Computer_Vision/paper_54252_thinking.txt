@@ -1,0 +1,40 @@
+To extract datasets from the research paper titled "What is Where by Looking: Weakly-Supervised Open-World Phrase-Grounding without Text Inputs" by Tal Shaharabany, Yoad Tewel, and Lior Wolf, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the method is trained on **COCO images and their captions**, which suggests that the COCO dataset is one of the datasets used.
+
+Next, I will look for specific mentions of datasets in the **experiments section**. In this section, the authors describe their evaluation on various tasks, including weakly supervised object localization (WSOL) and weakly supervised phrase grounding (WSG). They mention using the **CUB-200-2011 dataset**, **Stanford Cars dataset**, and **Stanford Dogs dataset** for WSOL, and **MSCOCO** and **Visual Genome (VG)** for WSG.
+
+I will also check the **datasets section** where the authors provide detailed descriptions of the datasets used:
+
+1. **CUB-200-2011 Dataset**: Contains 200 bird species with 11,788 images, split into 5,994 training images and 5,794 test images.
+2. **Stanford Cars Dataset**: Comprises 196 categories of cars with 8,144 samples in the training set and 8,041 samples in the test set.
+3. **Stanford Dogs Dataset**: Consists of 20,580 images, with 12,000 for training and 8,580 for testing, covering 120 classes of dogs.
+4. **MSCOCO 2014 Dataset**: Contains 82,783 training images and 40,504 validation images, with each image having five captions.
+5. **Visual Genome (VG) Dataset**: Includes 77,398 training images, 5,000 validation images, and 5,000 test images, with free-form text annotated bounding boxes.
+6. **Flickr30k Entities**: Based on the Flickr30k dataset, it contains 224K phrases describing objects in over 31K images, each described by five captions.
+7. **ReferIt Dataset**: Contains 20K images and 99,535 segmented images with descriptions for the entire image.
+
+After identifying these datasets, I will refer to the **References section** to find the full citations for each dataset:
+
+- **CUB-200-2011 Dataset**:
+  > Wah, C., Branson, S., Welinder, P., Perona, P., & Belongie, S. (2011). The Caltech-UCSD Birds-200-2011 Dataset.
+
+- **Stanford Cars Dataset**:
+  > Krause, J., Stark, M., Deng, J., & Fei-Fei, L. (2013). 3D Object Representations for Fine-Grained Categorization. In Proceedings of the IEEE International Conference on Computer Vision Workshops.
+
+- **Stanford Dogs Dataset**:
+  > Khosla, A., Jayadevaprakash, N., Yao, B., & Li, F.-F. (2011). Novel Dataset for Fine-Grained Image Categorization: Stanford Dogs. In Proceedings of the CVPR Workshop on Fine-Grained Visual Categorization.
+
+- **MSCOCO 2014 Dataset**:
+  > Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollár, P., & Zitnick, C. L. (2014). Microsoft COCO: Common Objects in Context. In European Conference on Computer Vision (ECCV).
+
+- **Visual Genome Dataset**:
+  > Krishna, R., Zhu, Y., Groth, O., Johnson, J., Hata, K., Kravitz, J., Chen, S., Kalantidis, Y., Li, L.-J., Shamma, D. A., et al. (2017). Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations. International Journal of Computer Vision.
+
+- **Flickr30k Entities**:
+  > Plummer, B. A., Wang, L., Cervantes, C. M., Caicedo, J. C., Hockenmaier, J., & Lazebnik, S. (2015). Flickr30k Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models. In Proceedings of the IEEE International Conference on Computer Vision.
+
+- **ReferIt Dataset**:
+  > Kazemzadeh, A., Ordonez, V., Matten, M., & Berg, T. (2014). ReferIt Game: Referring to Objects in Photos of Natural Scenes. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+
+Now, I will compile the dataset entries with their full citations for further processing.

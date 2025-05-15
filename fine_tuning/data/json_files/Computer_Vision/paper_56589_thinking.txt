@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Shared Manifold Learning Using a Triplet Network for Multiple Sensor Translation and Fusion with Missing Data" by Aditya Dutt et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on a **manually labeled multimodal dataset** and validated their model on two benchmark datasets: **Berlin Dataset** and **MUUFL Gulfport Dataset**. This suggests that there are specific datasets that I need to extract.
+
+Next, I will focus on the **experiments section**, particularly the **Datasets Description** subsection, which provides detailed information about the datasets used:
+
+1. **AVIRIS-NG and NEON Data**: This dataset consists of hyperspectral data from the NEON Airborne Observation Platform (AOP) Imaging Spectrometer and LiDAR data from NEON. The data was collected over Healy, Alaska, in 2017. The NEON HSI data comprises 426 bands with a spectral resolution of 5 nm, while the LiDAR data consists of 1000 x 1000 pixels with a spatial resolution of 1 m.
+
+2. **MUUFL Gulfport Data**: Acquired in November 2010 over the University of Southern Mississippi Gulfport Campus, this dataset includes coregistered hyperspectral and LiDAR data. The HSI data was captured by the Compact Airborne Spectrographic Imager (CASI)-1500 sensor, and the LiDAR data was collected using the Gemini airborne laser terrain mapper (ALTM). The dataset consists of 325 x 220 pixels with 64 spectral channels.
+
+3. **HS-SAR Berlin Data**: This dataset includes hyperspectral data from the EnMAP HS image, simulated from HyMap HS data, and corresponding Sentinel-1 SAR data. The HSI data consists of 797 x 220 pixels with 244 spectral bands, while the SAR data includes four bands with a spatial resolution of 13.89 m GSD.
+
+Now, I will look into the **References section** to find the full citations for these datasets:
+
+- For **AVIRIS-NG and NEON Data**, the citation is:
+  > National Ecological Observatory Network (NEON). "NEON Airborne Observation Platform (AOP) Imaging Spectrometer Data." [Online]. Available: https://www.neonscience.org/data.
+
+- For **MUUFL Gulfport Data**, the citation is:
+  > Gader, P., Zare, A., Close, R., Aitken, J., & Tuell, G. (2013). "MUUFL Gulfport Hyperspectral and LiDAR Airborne Data Set." University of Florida, Gainesville, FL, USA. Tech. Rep. REP-2013-570.
+
+- For **HS-SAR Berlin Data**, the citation is:
+  > Guanter, L., Segl, K., & Bookhagen, B. (2020). "EnMAP Hyperspectral Data for the Berlin Urban Area." [Online]. Available: https://www.enmap.org/data.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset name, description, and full citation for each dataset. This will ensure that all relevant details are captured accurately for future reference or processing.

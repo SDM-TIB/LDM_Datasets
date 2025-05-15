@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Learning State Abstractions for Transfer in Continuous Control" by Kavosh Asadi et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract discusses the use of a learning algorithm for continuous control tasks, which suggests that there may be datasets related to these tasks.
+
+Next, I will focus on the **experiments section** (section 6), where the authors describe their experimental setup. Here, they mention three different domains: **Puddle World**, **Lunar Lander**, and **Cart Pole**. Each of these domains likely corresponds to a dataset used for training and testing their algorithms.
+
+In the **Puddle World** subsection, the authors describe the MDP and the parameters used for training, indicating that they collected a dataset of (s, πE(s), r, s') tuples from the environment. This dataset is crucial for their experiments.
+
+In the **Lunar Lander** subsection, they mention using a dataset of 10,000 (s, πE(s), r, s') tuples, which is also essential for their experiments. The details about the environment and the nature of the data collected are provided, confirming its relevance.
+
+In the **Cart Pole** subsection, they state that they trained their model based on a dataset of 1000 (s, πE(s), r, s') tuples. This dataset is similarly important for their experiments.
+
+Now, I will check the **References section** to find full citations for the datasets or the original papers that describe these environments. The citations for the environments are as follows:
+
+- For **Puddle World**, the citation is:
+  > Boyan, J. A., & Moore, A. W. (1995). Generalization in reinforcement learning: Safely approximating the value function. In Advances in Neural Information Processing Systems (pp. 369–376).
+
+- For **Lunar Lander**, the citation is:
+  > Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., & Zaremba, W. (2016). OpenAI Gym.
+
+- For **Cart Pole**, the citation is:
+  > Widrow, B., & Smith, F. W. (1964). Pattern-recognizing control systems. Computer and Information Sciences (COINS) Proceedings.
+
+With these citations in hand, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited according to the information provided in the paper. This will allow for a comprehensive understanding of the datasets used in the research.

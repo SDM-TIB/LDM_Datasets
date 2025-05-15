@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Neural Architecture Search without Training" by Joseph Mellor et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and sections that discuss datasets** to find any explicit mentions of datasets. The abstract mentions evaluating the proposed method on several benchmarks, which suggests that datasets are involved.
+
+Next, I will focus on the **introduction** where the authors discuss the challenges of Neural Architecture Search (NAS) and mention specific benchmarks. They refer to **NAS-Bench-101, NAS-Bench-201, NATS-Bench, and Network Design Spaces (NDS)**, indicating that these are the datasets used for evaluation.
+
+In the **Background section**, the authors provide a detailed description of the NAS benchmarks. I will extract the relevant information about each dataset:
+
+1. **NAS-Bench-101**: This dataset consists of 423,624 neural networks that have been exhaustively trained on the CIFAR-10 dataset for 108 epochs. The authors provide a citation for this dataset:
+   > Ying, C., Klein, A., Real, E., Christiansen, E., Murphy, K., & Hutter, F. (2019). *Nas-bench-101: Towards reproducible neural architecture search*. In International Conference on Machine Learning.
+
+2. **NAS-Bench-201**: This dataset includes 15,625 networks trained multiple times on CIFAR-10, CIFAR-100, and ImageNet-16-120. The citation is:
+   > Dong, X., & Yang, Y. (2020). *Searching for a robust neural architecture in four GPU hours*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition.
+
+3. **NATS-Bench**: This dataset comprises two search spaces: a topology search space (NATS-Bench TSS) and a size search space (NATS-Bench SSS), containing 15,625 networks and 32,768 networks respectively. The citation is:
+   > Dong, X., Liu, L., Musial, K., & Gabrys, B. (2021). *NATS-Bench: Benchmarking nas algorithms for architecture topology and size*. IEEE Transactions on Pattern Analysis and Machine Intelligence.
+
+4. **Network Design Spaces (NDS)**: This dataset is used to compare different NAS search spaces and includes networks sampled from various architectures. The citation is:
+   > Radosavovic, I., Johnson, J., Xie, S., Lo, W.-Y., & Dollar, P. (2019). *On network design spaces for visual recognition*. In Proceedings of the International Conference on Computer Vision.
+
+After identifying these datasets and their citations, I will ensure that I have accurately captured the relevant details for each dataset, including their purpose and the specific benchmarks they relate to.
+
+Finally, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ready for further processing or review.

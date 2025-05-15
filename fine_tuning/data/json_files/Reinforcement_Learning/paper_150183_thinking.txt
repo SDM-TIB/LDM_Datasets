@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Deep W-Networks: Solving Multi-Objective Optimisation Problems With Deep Reinforcement Learning" by Jernej Hribar, Luke Hackett, and Ivana Dusparic, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and evaluation sections** to identify any datasets mentioned. The abstract mentions evaluating the proposed method in two widely-accepted multi-objective RL benchmarks: **deep sea treasure** and **multi-objective mountain car**. This indicates that these environments are likely the datasets used for evaluation.
+
+Next, I will look into **section 4 (Evaluation)**, where the authors describe the two environments in detail. In this section, they provide specific information about the **multi-objective mountain car** and **deep sea treasure** environments, including their characteristics and how they are structured for the experiments.
+
+1. **Multi-Objective Mountain Car**: This environment is described as a scenario where a car must reach the top of a valley, with three different objectives: time penalty, backward acceleration penalty, and forward acceleration penalty. The authors reference the original implementation of this environment as defined in (Vamplew et al., 2011).
+
+2. **Deep Sea Treasure**: This environment is a grid-world scenario where the agent learns to optimize for future rewards while collecting treasure. The authors also reference the original implementation of this environment as proposed in (Vamplew et al., 2011).
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned:
+
+- For the **multi-objective mountain car environment**, the citation is:
+  > Vamplew, P., Dazeley, R., Berry, A., Issabekov, R., and Dekker, E. (2011). *Empirical evaluation methods for multiobjective reinforcement learning algorithms*. Machine learning, 84(1):51–80.
+
+- For the **deep sea treasure environment**, the citation is the same as it is referenced in the same paper by Vamplew et al. (2011).
+
+Having gathered this information, I will compile the dataset entries with their respective citations. Each dataset will be clearly defined, ensuring that the full citation is included for proper attribution.
+
+Finally, I will prepare the dataset entries for structured output, ensuring they are ready for review or further processing.

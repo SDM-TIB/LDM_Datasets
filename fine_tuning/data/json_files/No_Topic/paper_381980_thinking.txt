@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Can’t Take the Pressure? Examining the Challenges of Blood Pressure Estimation via Pulse Wave Analysis" by Suril Mehta et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methods, results, and conclusion sections** to identify any datasets that are explicitly mentioned or referenced. The abstract provides a brief overview of the research focus, which includes the use of wearable sensor data for health measures, hinting at the potential datasets involved.
+
+Next, I will focus on the **introduction** to see if the authors mention any specific datasets used in their analysis. The introduction discusses the challenges of predicting blood pressure from PPG signals but does not explicitly name any datasets.
+
+Moving on to the **methods section**, I will look for any references to datasets used for training or validation of the models. The authors mention that they conducted a systematic review of prior work and analyzed results from various studies, which may include specific datasets.
+
+In the **results section**, the authors refer to the MIMIC dataset and the Aurora-BP dataset. They describe the MIMIC dataset as containing continuous PPG signals and corresponding arterial BP values, while the Aurora-BP dataset consists of records from multiple sensors, including PPG and ECG.
+
+Now, I will check the **appendices** and **references section** for full citations of these datasets. The paper provides the following details:
+
+1. **MIMIC Dataset**: 
+   - Description: Contains records of continuous high-resolution physiological waveforms of patients in the ICU, including PPG and arterial BP values.
+   - Citation: 
+     > Goldberger, A. L. et al. PhysioBank, PhysioToolkit, and PhysioNet: components of a new research resource for complex physiologic signals. *Circulation* 101, E215–20 (2000).
+
+2. **Aurora-BP Dataset**: 
+   - Description: Consists of records from multiple sensors, including optical PPG, EKG, and cuff-based blood pressure measurements.
+   - Citation: 
+     > Mieloszyk, R. et al. A comparison of wearable tonometry, photoplethysmography, and electrocardiography for cuff-less measurement of blood pressure in an ambulatory setting. *IEEE Journal Biomedical Health Informatics* (2022).
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a clear and structured overview of the datasets used in the research paper, which is essential for reproducibility and further research.

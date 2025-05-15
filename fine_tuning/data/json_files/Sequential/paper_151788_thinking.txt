@@ -1,0 +1,33 @@
+To extract the datasets mentioned in the research paper titled "Removing Confounding Factors Associated Weights in Deep Neural Networks Improves the Prediction Accuracy for Healthcare Applications" by Haohan Wang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the paper's focus on improving prediction accuracy in healthcare applications, which suggests that datasets are likely involved.
+
+Next, I will focus on **section 4 (Experiments)**, as this section typically contains detailed information about the datasets used in the experiments. Here, the authors describe four different tasks, each with its own dataset:
+
+1. **Lung Adenocarcinoma Prediction**: This dataset is composed of three parts:
+   - **Data Set 1**: CT-images from healthy individuals collected from the ELCAP Public Lung Image Database, consisting of 1,310 DICOM images from 25 persons.
+   - **Data Set 2**: CT-scans of diseased lungs collected from 69 different patients, with diagnostic contrast-enhanced CT scans.
+   - **Data Set 3**: A processed version of Data Set 2, containing 475 series from 69 patients, with explicit labels of contrast information.
+
+2. **Segmentation on Right Ventricle of Heart**: This dataset contains 243 physician-segmented CT images (216×256 pixels) from 16 patients. The authors mention that data augmentation techniques were used to increase the number of samples.
+
+3. **Students’ Confusion Status Prediction**: This dataset includes EEG brainwave data from 10 college students while they watch MOOC video clips. The EEG data is collected using MindSet equipment, and the identities of the students are considered confounding factors.
+
+4. **Brain Tumor Prediction**: This dataset consists of MRA scans of healthy brains and CT-scans of tumors, with the healthy dataset comprising images from 100 healthy subjects and the tumor dataset from 120 patients.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset mentioned in the experiments. The citations are crucial for proper attribution and further exploration of the datasets.
+
+For example:
+- For **Data Set 1**, the citation is:
+  > ELCAP Public Lung Image Database. Available at: http://www.via.cornell.edu/lungdb.html
+
+- For **Data Set 2**, the citation is:
+  > O. Grove, A. E. Berglund, M. B. Schabath, H. J. Aerts, A. Dekker, H. Wang, E. R. Velazquez, P. Lambin, Y. Gu, Y. Balagurunathan et al. "Data from Rembrandt: The Cancer Imaging Archive." PloS one 10, p. e0118261 (2015).
+
+- For **Data Set 3**, the citation is:
+  > Kaggle. "Heart Disease Diagnosis with Deep Learning." Available at: https://www.kaggle.com/kmader/siim-medical-images/home
+
+- For the **Segmentation dataset**, the citation is:
+  > C.-H. Yee. "Heart disease diagnosis with deep learning: State-of-the-art results with 60x fewer parameters." Available at: https://blog.insightdatascience.com/heart-disease-diagnosis-with-deep-learning-c2d92c27e730.
+
+Now, I will compile the dataset entries, ensuring that I include the full citations for each dataset as I prepare the structured output for review or further processing.

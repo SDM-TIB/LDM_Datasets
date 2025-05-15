@@ -1,0 +1,57 @@
+[
+    {
+        "dcterms:creator": [
+            "S. Narayan",
+            "S. B. Cohen",
+            "M. Lapata"
+        ],
+        "dcterms:description": "XSUM contains 226,711 online British Broadcasting Corporation (BBC) articles covering domains like news, politics, sports, business and more. Each article is paired with a single sentence summary written by the BBC journalists. The dataset is split into three subsets: training, validation, and test sets.",
+        "dcterms:title": "XSUM",
+        "dcterms:issued": "2018",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Text Summarization",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "Abstractive Summarization",
+            "News Articles",
+            "Single Sentence Summary"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Text Summarization"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "M. Cao",
+            "Y. Dong",
+            "J. Cheung"
+        ],
+        "dcterms:description": "XENT contains 800 article and summary pairs where the articles are sampled from the XSUM test set and the summaries are generated using a fine-tuned BART model. Each entity in the summary is annotated with three labels: non-hallucinated, factual hallucination, and non-factual hallucination.",
+        "dcterms:title": "XENT",
+        "dcterms:issued": "2022",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Factuality Assessment",
+            "Text Summarization"
+        ],
+        "dcat:keyword": [
+            "Entity-level Factuality",
+            "Hallucination Detection",
+            "Text Summarization"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Factuality Evaluation",
+            "Text Summarization"
+        ]
+    }
+]

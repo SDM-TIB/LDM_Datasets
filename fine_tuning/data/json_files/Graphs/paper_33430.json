@@ -1,0 +1,141 @@
+[
+    {
+        "dcterms:creator": [
+            "T. Kawamura",
+            "S. Egami",
+            "K. Matsushita",
+            "T. Ugai",
+            "K. Fukuda",
+            "K. Kozaki"
+        ],
+        "dcterms:description": "A complex RDF-star dataset based on KGRC-RDF, designed for benchmarking RDF-star embeddings and constructed from mystery stories. It features nested statements and scenes.",
+        "dcterms:title": "KGRC-RDF-star",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Knowledge Graphs",
+            "Data Mining",
+            "Explainable AI"
+        ],
+        "dcat:keyword": [
+            "RDF-star",
+            "Knowledge Graph Embedding",
+            "Complex Structures",
+            "Nested QTs"
+        ],
+        "dcat:landingPage": "https://github.com/aistairc/KGRC-RDF-star",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "RDF",
+        "mls:task": [
+            "Classification",
+            "Clustering",
+            "Entity Relatedness",
+            "QT Similarity"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "K. Kozaki",
+            "S. Egami",
+            "K. Matsushita",
+            "T. Ugai",
+            "T. Kawamura",
+            "K. Fukuda"
+        ],
+        "dcterms:description": "A dataset of mystery stories designed for knowledge graph reasoning challenges, providing a structured RDF dataset for benchmarking.",
+        "dcterms:title": "KGRC-RDF",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Knowledge Graphs",
+            "Data Mining"
+        ],
+        "dcat:keyword": [
+            "Mystery Stories",
+            "Knowledge Graph Reasoning",
+            "RDF"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "RDF",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset comprising pairs of entities and labels classified into Person, Object, and Place, extracted from KGRC-RDF-star.",
+        "dcterms:title": "PersonObjectPlace",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Entity Classification",
+            "Knowledge Graph"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset containing pairs of QTs and labels classified into Situation, Statement, and Thought, extracted from KGRC-RDF-star.",
+        "dcterms:title": "QT900",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "QT Classification",
+            "Knowledge Graph"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset consisting of person entities and their related entities, created to assess entity relatedness.",
+        "dcterms:title": "kgrc_entity_relatedness",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Entity Relatedness",
+            "Knowledge Graph"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Entity Relatedness"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset created for assessing QT similarity, containing pairs of QTs and their similarity ratings.",
+        "dcterms:title": "QT50",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "QT Similarity",
+            "Knowledge Graph"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "QT Similarity"
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "R2CNN: Rotational Region CNN for Orientation Robust Scene Text Detection" by Yingying Jiang et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** to identify any datasets mentioned. The abstract states that the method achieves competitive results on text detection benchmarks: **ICDAR 2015** and **ICDAR 2013**. This indicates that these datasets are likely used in the experiments.
+
+Next, I will examine the **introduction** section for further details about the datasets. The introduction discusses the challenges of scene text detection and mentions the importance of evaluating methods on established benchmarks, specifically referencing **ICDAR 2015** and **ICDAR 2013** again.
+
+Moving on to the **experiments section**, I will look for a dedicated subsection that discusses the datasets used. In **section 4.1 (Implementation details)**, the authors explicitly mention that their training dataset includes 1000 incidental scene text images from **ICDAR 2015** and 2000 focused scene text images they collected. They also describe the augmentation process for the ICDAR 2015 dataset.
+
+In **section 4.2 (Performance)**, the authors evaluate their method on both **ICDAR 2015** and **ICDAR 2013**, providing performance metrics. This confirms that both datasets are integral to their evaluation.
+
+Now, I will gather the full citations for these datasets from the **References section**:
+
+1. **ICDAR 2015**:
+   > D. Karatzas, L. Gomez-Bigorda, A. Nicolaou, S. Ghosh, A. Bagdanov, M. Iwamura, J. Matas, L. Neumann, V. R. Chandrasekhar, S. Lu, et al. *ICDAR 2015 competition on robust reading*. In Proc. of ICDAR, 2015.
+
+2. **ICDAR 2013**:
+   > D. Karatzas, F. Shafait, S. Uchida, M. Iwamura, L. G. i Bigorda, S. R. Mestre, J. Mas, D. F. Mota, J. A. Almazan, and L. P. de las Heras. *ICDAR 2013 robust reading competition*. In Proc. of ICDAR, 2013.
+
+With this information, I will summarize the datasets as follows:
+
+- **ICDAR 2015**: A dataset consisting of 500 images containing incidental scene texts with arbitrary orientations, used for training and evaluation.
+- **ICDAR 2013**: A dataset consisting of 233 focused scene text images, primarily horizontal texts, used for evaluation.
+
+Finally, I will compile the dataset entries, ensuring that each entry includes the dataset name, description, and full citation, ready for structured output.

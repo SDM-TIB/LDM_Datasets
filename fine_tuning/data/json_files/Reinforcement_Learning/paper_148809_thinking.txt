@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Application of deep learning to large scale riverine flow velocity estimation" by Mojtaba Forghani et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract and introduction** to get an overview of the study's objectives and any datasets that may be referenced. The abstract mentions the use of "flow velocity measurements" and "synthetic data," which suggests that there are datasets involved.
+
+Next, I will focus on the **methods section** (section 2) where the authors describe the data preparation process. Here, they mention the use of "flow velocity observations" and "synthetic data" generated from the U.S. Army Corps of Engineers’ Adaptive Hydraulics (AdH) model. This indicates that there are specific datasets related to flow velocities and bathymetry.
+
+In **section 3 (Data preparation)**, the authors detail how they estimate bathymetry using flow velocity observations and generate synthetic datasets. They specifically mention generating 450 bathymetries and 4500 flow velocity datasets based on boundary conditions (BCs). This section is crucial as it provides insights into the datasets used for training their deep learning models.
+
+I will also check the **results section** (section 4) to see if the authors refer to any specific datasets when discussing the performance of their models. They mention using the "PCGA posterior distribution" for bathymetry estimation and the flow velocities derived from this data, which confirms the datasets' relevance.
+
+Finally, I will consult the **references section** to find full citations for the datasets mentioned. The authors refer to the U.S. Army Corps of Engineers’ Adaptive Hydraulics (AdH) model, which is a key dataset for their study. I will also look for any other datasets they might have referenced in their methodology or results.
+
+Now, I will compile the identified datasets along with their full citations:
+
+1. **Flow Velocity Measurements**: The authors generated synthetic flow velocity measurements using the AdH model. The citation for the AdH model is:
+   > Savant, G., Berger, C., McAlpin, T. O., & Tate, J. N. (2010). Efficient implicit finite-element hydrodynamic model for dam and levee breach. *Journal of Hydraulic Engineering*, 137(10), 1005-1018.
+
+2. **Bathymetry Data**: The reference bathymetry was obtained from an in-situ survey by the Army Corps of Engineers. The citation is:
+   > Lee, J., & Kitanidis, P. K. (2014). Large-scale hydraulic tomography and joint inversion of head and tracer data using the principal component geostatistical approach (PCGA). *Water Resources Research*, 50(7), 5410-5427.
+
+3. **Boundary Condition Data**: The boundary conditions were extracted from the United States Geological Survey (USGS) gage data. The citation is:
+   > USGS 02197000 Savannah river at Augusta, GA. Retrieved from https://waterdata.usgs.gov/ga/nwis/uv?site_no=02197000.
+
+After gathering this information, I will prepare the dataset entries for further processing or review.

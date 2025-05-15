@@ -1,0 +1,25 @@
+To extract the datasets mentioned in the research paper titled "TO WHAT EXTENT CAN PLUG-AND-PLAY METHODS OUTPERFORM NEURAL NETWORKS ALONE IN LOW-DOSE CT RECONSTRUCTION" by Qifan Xu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the study involves low-dose CT reconstruction, which suggests that there may be specific datasets used for this purpose.
+
+In the **introduction**, the authors discuss the challenges of low-dose CT and the need for effective reconstruction methods. However, they do not mention specific datasets here, so I will need to look further into the methods section.
+
+In **section 2 (Methods and Materials)**, the authors state that they used a dataset from the cancer image archive (TCIA) provided by Mayo Clinic, specifically focusing on lung CT data. They mention that this dataset includes 42 scans from Siemens and that Poisson noise was added to simulate low-dose CT. This is a clear indication of a dataset being utilized.
+
+Next, I will look for any additional datasets mentioned in the paper. In **section 2.5**, the authors refer to two public datasets used for training automated segmentation networks: 
+
+1. **Airway Dataset**: This dataset contains binary airway annotations for 40 CT scans from the LIDC-IDRI database.
+2. **Pulmonary Lobe Segmentation Dataset**: This dataset contains annotations for 50 CT scans from the LUNA16 dataset.
+
+Now, I will check the **References section** to gather the full citations for each of these datasets:
+
+- For the **Low-dose CT dataset** from TCIA, the citation is:
+  > TR Moen, B Chen, DR 3rd Holmes, and et al., “Low-dose ct image and projection dataset,” Med. Phys., vol. 48, no. 2, pp. 902–911, 2021.
+
+- For the **Airway Dataset** from LIDC-IDRI, the citation is:
+  > SG 3rd Armato, G McLennan, L Bidaut, and et al., “The lung image database consortium (lidc) and image database resource initiative (idri): a completed reference database of lung nodules on ct scans,” Med. Phys., vol. 38, no. 2, pp. 915–931, 2011.
+
+- For the **Pulmonary Lobe Segmentation Dataset** from LUNA16, the citation is:
+  > AAA Setio, Alberto Traverso, Thomas de Bel, and et al., “Validation, comparison, and combination of algorithms for automatic detection of pulmonary nodules in computed tomography images: The luna16 challenge,” Medical Image Analysis, vol. 42, pp. 1–13, 2017.
+
+With these citations in hand, I will now compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Improved Efficient Two-Stage Denoising Diffusion" by Jianhua Pei et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and case studies** sections to identify any datasets that are explicitly mentioned or referenced. The abstract provides a brief overview of the study, and the introduction typically outlines the context and significance of the research, which may include references to datasets.
+
+In the **introduction**, the authors discuss the challenges of measurement uncertainties in power systems and mention the need for data recovery approaches. However, they do not specify any datasets at this point.
+
+Next, I will focus on the **case studies section** where the authors describe their experimental setup. Here, they mention two application scenarios: the RTU-based SCADA system and the PMU-based WAMS. They provide specific details about the datasets used in these scenarios.
+
+1. **SCADA Dataset**: The authors state that training and test data for IEEE 30, 57, and 118-bus systems were obtained via simulation on MATPOWER 7.0. They also mention that load data is extracted from a specific source, which is crucial for citation.
+
+   - Citation for load data:
+     > H. Li, J. H. Yeo, and A. L. Bornsheuer. "The creation and validation of load time series for synthetic electric power systems." *IEEE Trans. Power Syst.*, vol. 36, no. 2, pp. 961–969, 2021.
+
+2. **Renewable Power Output Data**: The authors indicate that parts of the generation profiles are replaced with actual renewable power output from January 2022 to June 2023 in Belgium. This data is also important to note.
+
+   - Citation for renewable power output data:
+     > J.-F. Toubeau and J. Bottieau. "Data-driven scheduling of energy storage in day-ahead energy and reserve markets with probabilistic guarantees on real-time delivery." *IEEE Trans. Power Syst.*, vol. 36, no. 4, pp. 2815–2828, 2021.
+
+3. **WAMS Dataset**: For the WAMS scenario, the authors mention that transient data of IEEE 39-bus and NPCC 140-bus systems were obtained using the open-source simulator Python-based ANDES. They also reference PMUs installed at specific locations.
+
+   - Citation for the WAMS dataset:
+     > H. Cui, F. Li, and K. Tomsovic. "Hybrid symbolic-numeric framework for power system modeling and analysis." *IEEE Trans. Power Syst.*, vol. 36, no. 2, pp. 1373–1384, 2021.
+
+In the **results section**, the authors provide performance metrics and comparisons of their proposed method against other models, but they do not introduce new datasets. Instead, they utilize the previously mentioned datasets for their experiments.
+
+Finally, I will compile the identified datasets along with their full citations into a structured format for clarity and future reference. This ensures that all relevant information is documented accurately and can be easily accessed for further analysis or replication of the study.

@@ -1,0 +1,27 @@
+To extract the datasets mentioned in the research paper titled "Mixed Graph Contrastive Network for Semi-Supervised Node Classification" by Xihong Yang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors conducted extensive experiments on six datasets, which suggests that these datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4 (Experiment)**, where the authors provide a subsection titled **4.1 Datasets & Metric**. Here, they list the six datasets used for their experiments, which are:
+
+1. **DBLP**: An author network containing authors from four areas, with edges constructed based on co-authorship. The features are bag-of-words of keywords.
+2. **ACM**: A network of papers where edges are formed between papers written by the same author, with features also being bag-of-words of keywords.
+3. **AMAP**: A co-purchase graph from Amazon, where nodes represent products and edges indicate frequent co-purchases, with features being reviews encoded as bag-of-words.
+4. **AMAC**: Similar to AMAP, but specifically extracted from the Amazon co-purchase graph with predefined product categories.
+5. **CITESEER**: A citation network of scientific publications, with features represented by a 0/1-valued word vector indicating the presence or absence of words from a dictionary.
+6. **CORA**: Another citation network of scientific publications, described similarly to CITESEER.
+
+In this section, the authors provide a brief description of each dataset, including the nature of the data, how edges are constructed, and the features used.
+
+Now, I will check the **References section** to find the full citations for these datasets. The authors reference the datasets as follows:
+
+- For **DBLP** and **ACM**, the citation is:
+  > Deyu Bo, Xiao Wang, Chuan Shi, Meiqi Zhu, Emiao Lu, and Peng Cui. *Structural deep clustering network*. In Proc. of WWW, 2020.
+
+- For **AMAP** and **AMAC**, the citation is:
+  > Zonghan Wu, Shirui Pan, Fengwen Chen, Guodong Long, Chengqi Zhang, and S Yu Philip. *A comprehensive survey on graph neural networks*. IEEE Transactions on Neural Networks and Learning Systems, 2020.
+
+- For **CITESEER** and **CORA**, the citation is:
+  > Oleksandr Shchur, Maximilian Mumme, Aleksandar Bojchevski, and Stephan Günnemann. *Pitfalls of graph neural network evaluation*. arXiv preprint arXiv:1811.05868, 2018.
+
+With this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research paper.

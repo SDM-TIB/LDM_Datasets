@@ -1,0 +1,59 @@
+To extract datasets from the research paper titled "MEDCARE: Advancing Medical LLMs through Decoupling Clinical Alignment and Knowledge Aggregation" by Yusheng Liao et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions that the proposed model, MEDCARE, is designed to achieve state-of-the-art performance on over 20 medical tasks, which suggests that multiple datasets are likely involved.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors typically describe the datasets used for evaluation. In this section, they mention several datasets explicitly:
+
+1. **MedQA**: This dataset is used for evaluating medical knowledge and reasoning capabilities. It is specifically mentioned as the Chinese Mainland Medical License Exams.
+
+2. **MMedBench**: This dataset is referenced as the Chinese subset of the Multilingual Medical Benchmark, which is also used for assessing medical knowledge.
+
+3. **CMB**: The authors describe this as a comprehensive multi-level assessment for medical knowledge.
+
+4. **CMExam**: This dataset is identified as the Chinese National Medical Licensing Examination.
+
+5. **CMMLU**: This dataset is noted as a multi-level multi-discipline Chinese evaluation suite for foundation models.
+
+6. **CEval**: This dataset is mentioned as part of the general benchmarks, focusing on medical domain questions.
+
+7. **PLE Pharmacy**: This dataset is part of the 2023 Chinese National Pharmacist Licensure Examination, specifically for the pharmacy track.
+
+8. **PLE TCM**: This dataset is also part of the 2023 Chinese National Pharmacist Licensure Examination, but for the Traditional Chinese Medicine track.
+
+Additionally, for alignment-required tasks, the authors mention:
+
+9. **CBLUE**: This dataset is a Chinese multi-task medical dataset encompassing various medical NLP tasks.
+
+10. **CCTE**: This newly developed dataset is for evaluating clinical tasks, including report generation and image analysis.
+
+Now, I will check the **References section** to find the full citations for each dataset mentioned. This is crucial for proper attribution and to ensure that the datasets can be easily located by others.
+
+- For **MedQA**, the citation is:
+  > Jin, E., Pan, E., Oufattole, N., Weng, W.-H., Fang, H., & Szolovits, P. (2021). What disease does this patient have? A large-scale open domain question answering dataset from medical exams. *Applied Sciences*, 11(14), 6421.
+
+- For **MMedBench**, the citation is:
+  > Qiu, P., Wu, C., Zhang, X., Lin, H., Wang, Y., Zhang, Y., & Xie, W. (2024). MMedBench: A comprehensive medical benchmark in Chinese. arXiv preprint arXiv:2308.08833.
+
+- For **CMB**, the citation is:
+  > Wang, G., Chen, Y., Song, D., & Zhang, Y. (2023). CMB: A comprehensive medical benchmark in Chinese. arXiv preprint arXiv:2308.08833.
+
+- For **CMExam**, the citation is:
+  > Liu, J., Zhou, P., Hua, Y., Chong, D., Tian, Z., Liu, A., & Wang, H. (2024). Benchmarking large language models on CMExam—a comprehensive Chinese medical exam dataset. *Advances in Neural Information Processing Systems*, 36.
+
+- For **CMMLU**, the citation is:
+  > Li, D., Ma, Y., Wang, N., Cheng, Z., Duan, L., Zuo, J., Yang, C., & Tang, M. (2023). CMMLU: Measuring massive multitask language understanding in Chinese. arXiv preprint arXiv:2306.09212.
+
+- For **CEval**, the citation is:
+  > Huang, Y., Bai, Y., Zhu, Z., Zhang, J., Zhang, J., Su, T., Liu, J., & He, J. (2023). C-Eval: A multi-level multi-discipline Chinese evaluation suite for foundation models. In *Advances in Neural Information Processing Systems*.
+
+- For **PLE Pharmacy**, the citation is:
+  > Chen, J., Wang, X., Gao, A., Jiang, F., Chen, S., Zhang, H., & Xie, W. (2023a). HuatuoGPT-II, one-stage training for medical adaptation of LLMs. arXiv preprint arXiv:2311.09774.
+
+- For **PLE TCM**, the citation is the same as for PLE Pharmacy.
+
+- For **CBLUE**, the citation is:
+  > Zhang, N., Chen, M., Bi, Z., Liang, X., Li, L., Shang, X., & Chen, Q. (2022). CBLUE: A Chinese biomedical language understanding evaluation benchmark. In *Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics*.
+
+- For **CCTE**, the citation is not explicitly provided in the references, as it is a newly developed dataset by the authors.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

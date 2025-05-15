@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Multi-modal Scene-compliant User Intention Estimation in Navigation" by Kavindie Katuwandeniya et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, methodology, and dataset sections** of the paper. The abstract provides a brief overview of the research and may mention any datasets used. In this case, it states that experiments were conducted on a dataset collected with a custom wheelchair model built onto the CARLA simulator, indicating that a dataset is indeed present.
+
+Next, I will focus on the **introduction** section, where the authors discuss the challenges of intention recognition and the need for a dataset to train their generative models. They mention the lack of large annotated datasets, which reinforces the importance of the dataset they created.
+
+In the **methodology section**, particularly in section IV (Dataset and Implementation), the authors provide detailed information about the dataset. They describe how the dataset was generated within the CARLA simulator, which is an open-source urban driving simulator. The dataset consists of six ROS bags, with specific details about the duration and number of instances collected for training, validation, and testing.
+
+Now, I will compile the relevant details about the dataset:
+
+1. **CARLA Dataset**: This dataset was generated using the CARLA simulator, specifically designed for realistic urban driving scenarios. It includes six ROS bags with an average duration of 10 minutes each, resulting in a total of 5252 training instances, 1308 validating instances, and 1261 testing instances. The dataset is unannotated, which is a significant aspect of the research.
+
+Next, I will check the **References section** to find the full citation for the CARLA simulator, as it is crucial to provide proper attribution. The citation for CARLA is:
+
+- For **CARLA**:
+  > Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2017). *CARLA: An open urban driving simulator*. In Conference on Robot Learning (pp. 1–16).
+
+After gathering all this information, I will ensure that I have accurately documented the dataset and its citation. This will allow me to create a structured output that includes the dataset details and the full citation, ready for further processing or review.

@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "InstructPix2Pix: Learning to Follow Image Editing Instructions" by Tim Brooks et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. In the abstract, the authors mention generating a large dataset of image editing examples, which indicates that a dataset is involved.
+
+Next, I will focus on the **introduction** where the authors discuss the challenges of acquiring training data for image editing tasks. They mention using a combination of a language model (GPT-3) and a text-to-image model (Stable Diffusion) to generate a paired dataset. This suggests that the dataset is synthetic and generated rather than sourced from existing datasets.
+
+In **section 3 (Method)**, the authors detail the process of generating the dataset. They specifically mention using the **LAION-Aesthetics V2 6.5+ dataset** to sample input captions for fine-tuning GPT-3. This is a critical dataset that I need to document.
+
+The authors state that they sampled **700 input captions** from the LAION dataset and manually wrote instructions and output captions. They then generated a large corpus of over **454,445 examples** of editing instructions and captions using the fine-tuned GPT-3 model. This indicates that the dataset is extensive and diverse.
+
+In **section 3.1.2**, they describe generating paired images from the generated captions using **Stable Diffusion** in combination with **Prompt-to-Prompt**. This further emphasizes the synthetic nature of the dataset, as it is created through a generative process rather than being a traditional dataset.
+
+Now, I will check the **References section** to find the full citation for the LAION dataset:
+
+- For **LAION-Aesthetics V2 6.5+**, the citation is:
+  > Christoph Schuhmann, Romain Beaumont, Richard Vencu, Cade Gordon, Ross Wightman, Mehdi Cherti, Theo Coombes, Aarush Katta, Clayton Mullis, Mitchell Wortsman, et al. *LAION-5B: An Open Large-Scale Dataset for Training Next Generation Image-Text Models*. arXiv preprint arXiv:2210.08402, 2022.
+
+After gathering this information, I will summarize the datasets identified:
+
+1. **LAION-Aesthetics V2 6.5+**: This dataset was used to sample input captions for generating editing instructions and output captions. It is a large-scale dataset that provides diverse content for training the model.
+
+Finally, I will compile the dataset entries into a structured format that includes the dataset names and their full citations, ensuring that all necessary information is accurately documented for future reference or processing.

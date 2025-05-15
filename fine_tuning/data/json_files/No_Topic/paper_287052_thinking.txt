@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Multi-Agent Reinforcement Learning in OpenSpiel: A Reproduction Report" by Michael Walton and Viliam Lisy, I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract mentions the OpenSpiel framework, but does not specify any datasets directly. The introduction discusses the algorithms and environments in OpenSpiel, but again does not explicitly name any datasets.
+
+Next, I will examine the **experiments** section, particularly focusing on the **replications** section, where the authors describe their methodology and the specific algorithms they tested. Here, I will look for any references to datasets used in their experiments. 
+
+As I read through the **replications** section, I notice that the authors mention various algorithms and their implementations but do not specify any datasets directly. Instead, they focus on the performance of algorithms in the context of games, which suggests that the datasets may be inherent to the game environments provided by OpenSpiel.
+
+To confirm this, I will check the **References section** to see if any datasets are cited indirectly through the references to the original works that the authors are reproducing. I will look for any papers that might describe datasets related to the games implemented in OpenSpiel.
+
+Upon reviewing the references, I find that the paper cites the OpenSpiel framework itself, which is a collection of environments for reinforcement learning in games. However, it does not provide specific datasets as standalone entities. Instead, the datasets are likely embedded within the game environments (e.g., Kuhn poker, Leduc poker) that OpenSpiel supports.
+
+Since the paper does not provide explicit datasets with citations, I will summarize the findings as follows:
+
+1. **OpenSpiel Framework**: While the paper does not list specific datasets, it utilizes the OpenSpiel framework, which includes various game environments. The datasets for these environments are not separately cited but are part of the framework's implementation.
+
+2. **Citations**: The primary citation for the OpenSpiel framework is:
+   > Marc Lanctot, Edward Lockhart, Jean-Baptiste Lespiau, Vinicius Zambaldi, Satyaki Upadhyay, Julien Pérolat, Sriram Srinivasan, Finbarr Timbers, Karl Tuyls, Shayegan Omidshaﬁei, Daniel Hennes, Dustin Morrill, Paul Muller, Timo Ewalds, Ryan Faulkner, János Kramár, Bart De Vylder, Brennan Saeta, James Bradbury, David Ding, Sebastian Borgeaud, Matthew Lai, Julian Schrittwieser, Thomas Anthony, Edward Hughes, Ivo Danihelka, and Jonah Ryan-Davis. *OpenSpiel: A framework for reinforcement learning in games*. CoRR, abs/1908.09453, 2019.
+
+In conclusion, while the paper does not provide explicit datasets, it relies on the OpenSpiel framework, which encompasses various game environments that serve as implicit datasets for the experiments conducted. I will document this finding accordingly.

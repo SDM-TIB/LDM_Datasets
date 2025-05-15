@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Deep-TEMPEST: Using Deep Learning to Eavesdrop on HDMI from its Unintended Electromagnetic Emanations" by Santiago Fernández et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any mentions of datasets. The abstract indicates that the authors share a dataset generated for training, which suggests that there is a specific dataset to extract.
+
+Next, I will focus on **section 5.2 (Generating the training set)**, where the authors describe how they constructed their dataset. They mention that the dataset comprises around **3491 clean-degraded image pairs**, which includes **2189 simulated samples** and **1302 real-life samples**. This section provides crucial details about the dataset's composition and its purpose.
+
+I will also check the **conclusion** and **experiments sections** to confirm the dataset's significance in their experiments and any additional details that may be relevant.
+
+Now, I will compile the information about the datasets:
+
+1. **Dataset of Clean-Degraded Image Pairs**: This dataset consists of 3491 pairs, with 2189 simulated samples and 1302 real-life samples. The dataset is used to train and evaluate the deep learning model for eavesdropping on HDMI signals.
+
+2. **Simulated Samples**: These samples are generated using a Python script that simulates the HDMI transmission protocol, the SDR baseband down-conversion, and low-pass filtering. They include various conditions such as Gaussian noise and small frequency errors.
+
+3. **Real-Life Samples**: These samples were obtained using an experimental setup with an antenna and SDR, capturing actual HDMI signals.
+
+Next, I will look for full citations for any datasets mentioned in the references. The authors do not provide specific citations for the datasets themselves, but they reference several works that may be relevant for understanding the context of their dataset.
+
+The references that may be useful for citation purposes include:
+
+- For the **simulated dataset**, I will cite the paper itself since it describes the methodology for generating the dataset:
+  > Santiago Fernández, Emilio Martínez, Gabriel Varela, Pablo Musé, and Federico Larroca. 2024. Deep-TEMPEST: Using Deep Learning to Eavesdrop on HDMI from its Unintended Electromagnetic Emanations. In Proceedings of Submitted. ACM, New York, NY, USA, 10 pages. https://doi.org/XXXXXXX.XXXXXXX
+
+- For the **real-life dataset**, since it is derived from the experimental setup described in the paper, I will use the same citation as above.
+
+Finally, I will summarize the datasets extracted from the paper, ensuring to include the full citations as required. This will provide a clear and comprehensive overview of the datasets used in the research.

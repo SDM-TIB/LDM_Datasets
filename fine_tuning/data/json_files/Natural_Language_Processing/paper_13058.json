@@ -1,0 +1,100 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A synthetic dataset of 5,000 Stochastic-Block-Model graphs with 30 nodes divided into 3 different communities. The probabilities of generating edges connecting nodes within the same community are [0.2, 0.3, 0.4], while the probability of generating edges between nodes of different communities is 0.1.",
+        "dcterms:title": "Stochastic-Block-Model graphs",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Synthetic dataset",
+            "Graph generation",
+            "Community structure"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Subgraph counting",
+            "Adversarial robustness"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset of Erdos-Renyi graphs with 10 nodes and edge generation probabilities of 0.3 for the first dataset and 0.8 for the out-of-distribution dataset.",
+        "dcterms:title": "Erdos-Renyi graphs",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Random graph",
+            "Graph theory",
+            "Erdos-Renyi model"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Subgraph counting",
+            "Out-of-distribution generalization"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "H. Maron",
+            "B. Ben-Hamu",
+            "H. Serviansky",
+            "Y. Lipman"
+        ],
+        "dcterms:description": "PPGN is a graph neural network architecture that represents the graph structure in a tensor and exploits tensor multiplications to enhance expressivity, capable of counting patterns of size three.",
+        "dcterms:title": "PPGN",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Neural Networks",
+            "Subgraph counting"
+        ],
+        "dcat:keyword": [
+            "Graph networks",
+            "Tensor representation",
+            "Expressivity"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Subgraph counting"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Y. Huang",
+            "X. Peng",
+            "J. Ma",
+            "M. Zhang"
+        ],
+        "dcterms:description": "I2-GNN is a graph neural network architecture designed to decompose the whole graph into different subgraphs and process them independently, developed to count arbitrary patterns of size four.",
+        "dcterms:title": "I2-GNN",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Neural Networks",
+            "Subgraph counting"
+        ],
+        "dcat:keyword": [
+            "Graph decomposition",
+            "Independent processing",
+            "Expressivity"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Subgraph counting"
+        ]
+    }
+]

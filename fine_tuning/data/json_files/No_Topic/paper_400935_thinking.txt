@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "AxOMaP: Designing FPGA-based Approximate Arithmetic Operators using Mathematical Programming" by Siva Satyendra Sahoo et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and I will look for any explicit mentions of datasets or data used in the experiments.
+
+Next, I will focus on **section 4 (AxOMaP)**, particularly **subsection 4.1 (Statistical Analysis)**, where the authors discuss dataset generation. Here, they mention using the operator model presented in AppAxO to generate approximate designs for characterization and further data analysis. They describe different datasets generated, including:
+
+1. **AppAxO(TRAIN)**: This dataset is used for training and contains 10,650 approximate signed 8 × 8 multiplier designs.
+2. **AxOMaP(RANDOM)**: A dataset generated using random sampling with uniform distribution.
+3. **AxOMaP(PATTERN)**: A dataset generated using different patterns to achieve a wider range of distribution in the metrics.
+4. **AxOMaP(TRAIN)**: This dataset combines the RANDOM and PATTERN datasets for further analysis and modeling.
+
+In **section 5 (Experiments and Results)**, the authors provide additional context about the datasets used for experimental evaluation, including the designs listed in **Table 2**. This table outlines various designs such as signed 8 × 8 multipliers, low-pass filters for ECG peak detection, and others, along with their respective PPA and BEHAV metrics.
+
+Now, I will consult the **References section** to retrieve full citations for the datasets mentioned. However, since the datasets are generated from the authors' own methodologies and not from external sources, I will note that the citations for the datasets are based on the methodologies described in the paper itself.
+
+The relevant citations for the datasets are as follows:
+
+- For **AppAxO(TRAIN)**, the citation is:
+  > Salim Ullah, Siva Satyendra Sahoo, Nemath Ahmed, Debabrata Chaudhury, and Akash Kumar. *AppAxO: Designing Application-Specific Approximate Operators for FPGA-Based Embedded Systems*. ACM Transactions on Embedded Computing Systems, 21(3), Article 29, 2022. https://doi.org/10.1145/3513262
+
+- For **AxOMaP(RANDOM)** and **AxOMaP(PATTERN)**, these datasets are derived from the methodologies described in the same paper, so they will reference the same citation.
+
+Now, I will compile the dataset entries into a structured format that is ready for review or downstream processing. Each dataset will be described with its name, description, and citation.

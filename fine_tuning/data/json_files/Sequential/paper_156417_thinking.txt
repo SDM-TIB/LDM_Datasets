@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Surpassing GPT-4 Medical Coding with a Two-Stage Approach" by Zhichao Yang et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors evaluated their model on several datasets, which suggests that there are specific datasets to look for.
+
+Next, I will focus on **section 3 (Datasets)**, where the authors provide detailed descriptions of the datasets used in their experiments. Here, I will find the following datasets:
+
+1. **MIMIC-III common**: This dataset is described as containing discharge summary documents from an Intensive Care Unit (ICU), with each document associated with ICD codes labeled by medical coding experts. The authors mention that they filtered the dataset to retain instances featuring at least one of the top 50 most frequent ICD codes, resulting in 8,067 training instances and 1,729 test instances.
+
+2. **MIMIC-III few-shot**: This dataset is a subset of the MIMIC-III common dataset, created to assess the model's performance under limited training data conditions. The authors state that they randomly selected about one-eighth of the instances from the training data, resulting in 1,000 training instances and 1,729 test instances.
+
+3. **MIMIC-III rare**: This dataset was built to evaluate the model's performance on predicting rare disease codes. The authors collected rare diseases defined by medical experts and followed specific pre-processing steps, resulting in approximately 5 training instances per label on average.
+
+4. **MDACE Profee**: This dataset is used for evaluating the model's explainability. It consists of code evidence annotations created by expert annotators, indicating the rationale behind the assignment of ICD codes. The authors mention that there are 172 sentence-ICD pairs in the evaluation dataset.
+
+After identifying these datasets, I will consult the **References section** to retrieve the full citations for each dataset:
+
+- For **MIMIC-III**, the citation is:
+  > Alistair E. W. Johnson, Tom J. Pollard, Lu Shen, Li Wei H. Lehman, Mengling Feng, Mohammad Mahdi Ghassemi, Benjamin Moody, Peter Szolovits, Leo Anthony Celi, and Roger G. Mark. *MIMIC-III, a freely accessible critical care database*. Scientific Data, 3, 2016. URL https://doi.org/10.1038/s41597-016-0006-8.
+
+- For **MDACE Profee**, the citation is:
+  > Hua Cheng, Rana Jafari, April Russell, Russell Klopfer, Edmond Lu, Benjamin Striner, and Matthew Gormley. *MDACE: MIMIC documents annotated with code evidence*. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 7534–7550, Toronto, Canada, July 2023. Association for Computational Linguistics. doi: 10.18653/v1/2023.acl-long.416. URL https://aclanthology.org/2023.acl-long.416.
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing or review.

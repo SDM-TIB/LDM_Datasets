@@ -1,0 +1,228 @@
+[
+    {
+        "dcterms:creator": [
+            "Stephen Merity",
+            "Caiming Xiong",
+            "James Bradbury",
+            "Richard Socher"
+        ],
+        "dcterms:description": "The WikiText language modeling dataset consists of over 100 million tokens that have been extracted from the set of verified Good and Featured articles on Wikipedia. The task is to measure the perplexity on the Wikitext dataset, via rolling loglikelihoods. A lower perplexity means better text generation performance.",
+        "dcterms:title": "WikiText2",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Language Modeling"
+        ],
+        "dcat:keyword": [
+            "Text generation",
+            "Language modeling",
+            "Perplexity"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Language Modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Christopher Clark",
+            "Kenton Lee",
+            "Ming-Wei Chang",
+            "Tom Kwiatkowski",
+            "Michael Collins",
+            "Kristina Toutanova"
+        ],
+        "dcterms:description": "The BoolQ dataset contains 15942 examples of yes/no questions. The questions are generated naturally – they occur in an unprompted and unrestricted environment. Each example is a triplet (questions, passages, answers), with a title as an optional context.",
+        "dcterms:title": "BoolQ",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.18653/v1/N19-1300",
+        "dcat:theme": [
+            "Question Answering"
+        ],
+        "dcat:keyword": [
+            "Yes/No questions",
+            "Natural language processing",
+            "Question answering"
+        ],
+        "dcat:landingPage": "https://aclanthology.org/N19-1300",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Question Answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Peter Clark",
+            "Isaac Cowhey",
+            "Oren Etzioni",
+            "Tushar Khot",
+            "Ashish Sabharwal",
+            "Carissa Schoenick",
+            "Oyvind Tafjord"
+        ],
+        "dcterms:description": "The ARC dataset includes 7,787 science exam questions selected from various sources, including questions provided by AI2 affiliates under license. The exam questions are text-only, English language questions that span several grade levels. Questions are structured with multiple-choice answers (usually four options).",
+        "dcterms:title": "ARC",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1803.05457v1",
+        "dcat:theme": [
+            "Question Answering"
+        ],
+        "dcat:keyword": [
+            "Science questions",
+            "Multiple-choice",
+            "Reasoning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Question Answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Keisuke Sakaguchi",
+            "Ronan Le Bras",
+            "Chandra Bhagavatula",
+            "Yejin Choi"
+        ],
+        "dcterms:description": "WinoGrande consists of 44k fill-in-the-blank type problems with binary options. It requires common sense reasoning to choose the right option for a given sentence.",
+        "dcterms:title": "WinoGrande",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Common Sense Reasoning"
+        ],
+        "dcat:keyword": [
+            "Fill-in-the-blank",
+            "Common sense",
+            "Binary options"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Common Sense Reasoning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Rowan Zellers",
+            "Ari Holtzman",
+            "Yonatan Bisk",
+            "Ali Farhadi",
+            "Yejin Choi"
+        ],
+        "dcterms:description": "HellaSwag is a challenge dataset for evaluating commonsense Natural Language Inference that is especially hard for models, though its questions are trivial for humans (>95% accuracy). The questions are four-way multiple-choice problems.",
+        "dcterms:title": "HellaSwag",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Inference"
+        ],
+        "dcat:keyword": [
+            "Commonsense reasoning",
+            "Multiple-choice",
+            "Natural language inference"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Natural Language Inference"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Yonatan Bisk",
+            "Rowan Zellers",
+            "Ronan Le Bras",
+            "Jianfeng Gao",
+            "Yejin Choi"
+        ],
+        "dcterms:description": "PIQA (Physical Interaction: Question Answering) is a dataset for commonsense reasoning, designed to investigate the physical knowledge of the models. The underlying task is a binary choice question answering task.",
+        "dcterms:title": "PIQA",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Commonsense Reasoning"
+        ],
+        "dcat:keyword": [
+            "Physical knowledge",
+            "Binary choice",
+            "Question answering"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Commonsense Reasoning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Todor Mihaylov",
+            "Peter Clark",
+            "Tushar Khot",
+            "Ashish Sabharwal"
+        ],
+        "dcterms:description": "OpenbookQA is based on open-book exams and is a question-answering dataset that assesses human understanding of subjects through question-answering. There are 5,957 multiple-choice questions addressing elementary science topics.",
+        "dcterms:title": "OpenbookQA",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Question Answering"
+        ],
+        "dcat:keyword": [
+            "Open-book exams",
+            "Multiple-choice",
+            "Elementary science"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Question Answering"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Dan Hendrycks",
+            "Collin Burns",
+            "Steven Basart",
+            "Andrew Critch",
+            "Jerry Li",
+            "Dawn Song",
+            "Jacob Steinhardt"
+        ],
+        "dcterms:description": "MMLU consists of a series of 15,908 multiple-choice questions covering 57 academic disciplines including mathematics, philosophy, law and medicine as well as many other areas of academic study.",
+        "dcterms:title": "MMLU",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Multitask Learning"
+        ],
+        "dcat:keyword": [
+            "Multiple-choice",
+            "Academic disciplines",
+            "Question answering"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Question Answering"
+        ]
+    }
+]

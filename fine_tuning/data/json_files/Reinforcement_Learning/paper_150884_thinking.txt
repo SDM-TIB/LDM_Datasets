@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Activate and Reject: Towards Safe Domain Generalization under Category Shift" by Chaoqi Chen et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses the challenges of domain generalization under category shifts, but it does not explicitly mention any datasets. Therefore, I will need to look deeper into the paper.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors typically describe the datasets used for their experiments. In this section, they mention evaluating their method on four standard domain generalization benchmarks:
+
+1. **PACS Dataset**: This dataset contains 9,991 images across seven object classes from four domains: Photo, Art Painting, Cartoon, and Sketch. The authors specify that four classes (dog, elephant, giraffe, and guitar) are used as known classes, while the remaining three classes are treated as unknown.
+
+2. **Office-Home Dataset**: This dataset consists of 15,500 images across 65 classes from four domains: Artistic, Clipart, Product, and Real World. The first 15 classes are selected as known classes, and the remaining 50 classes are treated as unknown.
+
+3. **Office-31 Dataset**: This dataset includes 31 classes collected from three domains: Amazon, DSLR, and Webcam. The authors mention that the 10 classes shared with Caltech-256 are used as known classes, while the last 11 classes are treated as unknown.
+
+4. **Digits Dataset**: This dataset comprises four handwritten digit domains, including MNIST, MNIST-M, SVHN, and USPS. MNIST is used as the source domain, and the other datasets are treated as target domains. The known classes include numbers from 0 to 4.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For **PACS Dataset**:
+  > Da Li, Yongxin Yang, Yi-Zhe Song, and Timothy M Hospedales. *Deeper, broader and artier domain generalization*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 5542–5550, 2017.
+
+- For **Office-Home Dataset**:
+  > Venkateswara, Hemanth, Jose Eusebio, Chakraborty, and Sethuraman Panchanathan. *Deep hashing network for unsupervised domain adaptation*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 5018–5027, 2017.
+
+- For **Office-31 Dataset**:
+  > Saenko, Kate, Brian Kulis, Mario Fritz, and Trevor Darrell. *Adapting visual category models to new domains*. In Proceedings of the European Conference on Computer Vision (ECCV), pages 213–226, 2010.
+
+- For **Digits Dataset**:
+  > LeCun, Yann, Léon Bottou, Yoshua Bengio, and Patrick Haffner. *Gradient-based learning applied to document recognition*. Proceedings of the IEEE, 86(11):2278–2324, 1998.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

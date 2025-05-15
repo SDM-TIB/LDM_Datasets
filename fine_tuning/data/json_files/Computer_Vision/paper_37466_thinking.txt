@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "maxDNN: An Efficient Convolution Kernel for Deep Learning with Maxwell GPUs" by Andrew Lavin, I will follow a systematic approach to identify and document any datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to see if any datasets are explicitly referenced. The abstract primarily discusses the maxDNN kernel's efficiency and does not mention any datasets, so I will move on to the introduction.
+
+In the **introduction**, the focus is on convolutional neural networks and the efficiency of various implementations, but there are no specific datasets mentioned. I will continue to the **experiments section** where the authors compare the performance of maxDNN against cuDNN on specific neural network architectures.
+
+In **section 3.3 (Experiments)**, the authors mention that they compare the performance of maxDNN to cuDNN v.2 RC1 on a GEFORCE GTX980 graphics card. They report results for two recent Imagenet contest winners, **Alexnet (v.2)** and **Overfeat**. This indicates that the datasets used for evaluation are related to these networks.
+
+Next, I will look for the **References section** to find full citations for the datasets mentioned. The paper does not provide explicit dataset citations, but I can infer the datasets based on the networks discussed.
+
+For **Alexnet**, the dataset used is the **ImageNet** dataset, which is widely known in the field of deep learning. The citation for the ImageNet dataset is:
+> Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Fei-Fei Li. *ImageNet: A Large-Scale Hierarchical Image Database*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 248–255, 2009.
+
+For **Overfeat**, it also utilizes the **ImageNet** dataset for training and evaluation, so the same citation applies.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing. 
+
+In summary, the datasets extracted from the paper are:
+1. **ImageNet Dataset** (used for Alexnet and Overfeat)
+   - Citation: Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Fei-Fei Li. *ImageNet: A Large-Scale Hierarchical Image Database*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 248–255, 2009.
+
+With this information, I am ready to create the dataset entries as needed.

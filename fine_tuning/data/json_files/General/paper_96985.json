@@ -1,0 +1,53 @@
+[
+    {
+        "dcterms:creator": [
+            "J. Jacobs",
+            "B. Rudis"
+        ],
+        "dcterms:description": "The dataset consists of 133,926 unique domains of type A with 81,261 legitimate domains and 52,665 DGA domains. Each record consists of the complete URL of the domain, the domain accessed, and the classification of the domain (either legit or dga).",
+        "dcterms:title": "Labeled Dataset",
+        "dcterms:issued": "2014",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Cybersecurity",
+            "Machine Learning"
+        ],
+        "dcat:keyword": [
+            "Domain classification",
+            "Legitimate domains",
+            "DGA domains"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Domain classification",
+            "Typosquatting detection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The unlabeled dataset consists of 750,719,726 type A records, but only the first 1 million records are used in this work. Each record consists of the domain accessed and the IPv4 address associated with the domain.",
+        "dcterms:title": "DNS Census 2013",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Cybersecurity",
+            "Data Analysis"
+        ],
+        "dcat:keyword": [
+            "DNS records",
+            "Domain names",
+            "IPv4 addresses"
+        ],
+        "dcat:landingPage": "http://dnscensus2013.neocities.org/index.html",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Domain analysis",
+            "Clustering"
+        ]
+    }
+]

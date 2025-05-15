@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "Learning Multiple Categories on Deep Convolution Networks" by Duncan Gillies and Mohamed Hajaj, I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, experiments, and results sections** to locate any references to datasets. The abstract mentions the effectiveness of deep convolution networks with large datasets, specifically referencing **ImageNet** as a significant dataset. This indicates that ImageNet is likely a primary dataset used in the experiments.
+
+Next, I will examine **section 2 (Experiments)**, particularly **subsection 2.1 (Performance vs number of classes)**, where the authors describe their experiments with datasets sampled from ImageNet. They mention using datasets of varying sizes (10, 50, 100, 500, and 1000 classes) sampled from the **ILSVRC 2015** version of ImageNet. This section provides crucial details about the datasets used for performance evaluation.
+
+In **subsection 2.2 (Classifying Multiple Categories)**, the authors describe constructing a dataset made up of 100 classes from ImageNet, divided into 10 categories (e.g., birds, cars, cats). Each category consists of 10 classes, with 1300 training images and 50 test images per class. This detailed description confirms the existence of a specific dataset created for their experiments.
+
+I will also check the **References section** to find full citations for the datasets mentioned. The primary dataset referenced is **ImageNet**, which is widely recognized in the field. The citation for ImageNet is as follows:
+- For **ImageNet**, the citation is:
+  > Olga Russakovsky, Jia Deng, Hao Sheng, et al. *ImageNet Large Scale Visual Recognition Challenge*. International Journal of Computer Vision, 115(3):211-252, 2015.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. The datasets identified are:
+1. **ImageNet**: Used for various experiments, including performance measurement across different class sizes.
+2. **Custom Dataset from ImageNet**: A specific dataset constructed for the experiments, consisting of 100 classes divided into 10 categories.
+
+After gathering all necessary information, I will prepare the dataset entries for structured output, ensuring that each entry includes the full citation for proper referencing.

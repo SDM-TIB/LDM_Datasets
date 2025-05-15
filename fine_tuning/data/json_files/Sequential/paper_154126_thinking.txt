@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Hierarchical Deep Learning of Multiscale Differential Equation Time-Steppers" by Yuying Liu et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract discusses the development of a deep learning framework for approximating solutions to nonlinear differential equations, but it does not explicitly mention any datasets. I will need to look deeper into the paper.
+
+Next, I will examine the **methodology** and **experiments** sections, as these are likely to contain detailed descriptions of the datasets used for training and testing the models. In section 2.2, the authors mention collecting trajectories sampled at various time steps for training neural network flow map approximations. This indicates that there are datasets involved, but I need to find specific names and details.
+
+In section 3 (Numerical Experiments), the authors benchmark their approach against several systems, including the **Lorenz system**, **Van der Pol oscillator**, and others. They mention using sampled trajectories for training, validating, and testing, but again, specific dataset names are not provided.
+
+I will also check the **appendices** for any additional details on datasets. In Appendix A.3, the authors describe the data used for sequence generation tasks, including:
+- **Kuramoto-Sivashinsky (KS) equation**: 4001 snapshots on 512 spatial points.
+- **Fluid flow**: Data generated using the immersed boundary projection method at a Reynolds number of 100.
+- **Music data**: A snippet from Bach’s Fugue No. 1 In C Major.
+- **Video frame**: 175 image snapshots of blooming flowers.
+
+Now, I will compile the full citations for these datasets from the references section of the paper:
+
+1. **Kuramoto-Sivashinsky (KS) equation**: The dataset is generated through numerical simulations, but no specific citation is provided in the references.
+2. **Fluid flow**: The authors reference the immersed boundary method, which can be cited as:
+   > K. Taira and T. Colonius. "The immersed boundary method: a projection approach." *Journal of Computational Physics*, vol. 225, no. 2, pp. 2118–2137, 2007.
+3. **Music data**: The dataset is a snippet from Bach’s Fugue No. 1 In C Major, but no specific citation is provided.
+4. **Video frame**: The dataset is described but lacks a specific citation.
+
+After gathering this information, I will summarize the datasets as follows:
+
+- **Kuramoto-Sivashinsky (KS) equation**: 4001 snapshots on 512 spatial points.
+- **Fluid flow dataset**: Generated using the immersed boundary projection method.
+- **Music data**: Snippet from Bach’s Fugue No. 1 In C Major.
+- **Video frame dataset**: 175 image snapshots of blooming flowers.
+
+Finally, I will ensure that I have the full citations for the datasets that have them and note any datasets that do not have specific citations. This will help in accurately documenting the datasets used in the research paper.

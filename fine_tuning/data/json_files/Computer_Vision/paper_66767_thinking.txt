@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Sluggish and Chemically-Biased Interstitial Diffusion in Concentrated Solid Solution Alloys: Mechanisms and Methods" by Biao Xu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, results, and methods sections** to identify any datasets mentioned. The abstract discusses the use of machine learning and kinetic Monte Carlo methods to study interstitial diffusion in Fe-Ni concentrated solid solution alloys, which suggests that there may be datasets related to energy barriers or diffusion coefficients.
+
+Next, I will focus on the **methods section**, where the authors describe how they obtained their data. They mention that the database for machine learning training was created using LAMMPS simulations based on the embedded-atom method (EAM) potential. They state that approximately **70,000 migration barriers** were obtained, with at least **500 samples for each possible transition** in different concentrations of Fe-Ni alloys. This indicates a substantial dataset related to interstitial migration barriers.
+
+In the **results section**, the authors present diffusivity data obtained from their simulations. They compare results from their machine learning-based kinetic Monte Carlo (ML-kMC) method with those from molecular dynamics (MD) simulations and a state-of-the-art kinetic Monte Carlo method (Ref-kMC). This comparison suggests that there are datasets for diffusivity at various temperatures and compositions.
+
+I will also check the **data availability section**, which states that the data supporting the findings of this study can be found at a specific GitHub repository. This is crucial for obtaining the full dataset citations.
+
+Now, I will compile the datasets identified:
+
+1. **Migration Barriers Dataset**: This dataset consists of approximately 70,000 migration barriers for various interstitial transitions in Fe-Ni alloys, with at least 500 samples for each transition. The dataset is essential for training the machine learning model used in the study.
+
+   Citation:
+   > Xu, B., Fu, H., Huang, S., Ma, S., Xiong, Y., Zhang, J., Xiang, X., Lu, W., Kai, J.-J., Zhao, S. (2022). Revealing the crucial role of rough energy landscape on self-diffusion in high-entropy alloys based on machine learning and kinetic Monte Carlo. *Acta Materialia*, 234, 118051. doi:10.1016/j.actamat.2022.118051
+
+2. **Diffusivity Dataset**: This dataset includes diffusivity values calculated using the ML-kMC method, compared against results from MD simulations and Ref-kMC at various temperatures (e.g., 500K, 700K, 900K, and 1100K). This dataset is critical for understanding the performance of the proposed methods.
+
+   Citation:
+   > Xu, B., Fu, H., Huang, S., Ma, S., Xiong, Y., Zhang, J., Xiang, X., Lu, W., Kai, J.-J., Zhao, S. (2022). Revealing the crucial role of rough energy landscape on self-diffusion in high-entropy alloys based on machine learning and kinetic Monte Carlo. *Acta Materialia*, 234, 118051. doi:10.1016/j.actamat.2022.118051
+
+After gathering this information, I will ensure that the dataset entries are structured appropriately for further processing or review. This systematic approach allows me to extract and cite the datasets effectively from the research paper.

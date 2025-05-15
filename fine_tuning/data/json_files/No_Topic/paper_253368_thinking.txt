@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "A Learning-Based Method for Online Adjustment of C-Arm Cone-Beam CT Source Trajectories for Artifact Avoidance" by Mareike Thies et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract discusses the use of convolutional neural networks trained on simulated data and real CBCT acquisitions, which suggests that datasets are involved.
+
+Next, I will focus on the **Methods** section, particularly subsection 2.3, where the authors describe the datasets used for training their neural network. Here, they mention two datasets:
+
+1. **TCIA Chest Dataset**: This dataset is based on five publicly available chest CT scans from The Cancer Imaging Archive (TCIA). The authors state that screw positions were manually annotated in six different vertebrae per scan, and they generated projection data for training.
+
+2. **Semianthropomorphic Phantom Dataset**: This dataset is created using a semianthropomorphic representation of a human chest, which includes various anatomical structures and screws. The authors describe how they generated projection data similar to the TCIA dataset.
+
+In the **Experiments and Results** section, the authors confirm that they used the TCIA Chest Dataset for experiments on synthetic data and the Semianthropomorphic Phantom Dataset for training the network in real data cases. This reinforces the importance of both datasets in their research.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For the **TCIA Chest Dataset**, the citation is:
+  > Kenneth Clark, Bruce Vendt, Kirk Smith, John Freymann, Justin Kirby, Paul Koppel, Stephen Moore, Stanley Phillips, David Maffitt, Michael Pringle, and L Tarbox. *The Cancer Imaging Archive (TCIA): Maintaining and operating a public information repository*. Journal of digital imaging, 26(6):1045–1057, 2013.
+
+- The **Semianthropomorphic Phantom Dataset** does not have a specific citation listed in the references, as it appears to be a dataset created by the authors for their experiments. Therefore, I will note it as an internal dataset without a formal citation.
+
+With this information, I will summarize the datasets as follows:
+
+1. **TCIA Chest Dataset**: Used for training the neural network, includes five publicly available chest CT scans with annotated screw positions.
+2. **Semianthropomorphic Phantom Dataset**: Created by the authors for their experiments, simulating various anatomical structures.
+
+Finally, I will compile these dataset entries into a structured format for further processing or review.

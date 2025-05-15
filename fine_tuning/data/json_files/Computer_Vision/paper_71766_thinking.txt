@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "A Prompt-driven Universal Model for View-Agnostic Echocardiography Analysis" by Sekeun Kim et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the authors conducted extensive experiments on three standard views, which suggests that multiple datasets are involved.
+
+Next, I will look for a dedicated **datasets section** or any relevant subsections within the **methodology** or **experiments** sections. In this paper, there is a **Table 1** that lists the datasets used for training and evaluation, which is crucial for my extraction process.
+
+From **Table 1**, I can identify the following datasets:
+
+1. **CAMUS**: This dataset is used for echocardiography segmentation and includes annotations for left ventricle endocardium (LVendo) and left ventricle epicardium (LVepi). The total number of scans is 500, with a training/test split of 450/50.
+
+2. **EchoNet-Pediatric**: Similar to CAMUS, this dataset also includes annotations for LVendo and LVepi, with a total of 500 scans and a training/test split of 450/50.
+
+3. **EchoNet-Dynamic**: This dataset is larger, containing 3284 scans with a training/test split of 2580/704, and it includes annotations for LVendo.
+
+4. **A2C, A4C, PSAX**: These refer to specific scan views used in the datasets, but they are not datasets themselves. They are part of the annotation details for the datasets listed above.
+
+Now, I will refer to the **References section** to find the full citations for each dataset mentioned. The citations for the datasets are as follows:
+
+- For **CAMUS**, the citation is:
+  > Leclerc, S., Smistad, E., Pedrosa, J., Østvik, A., Cervenansky, F., Espinosa, F., Espeland, T., Berg, E.A.R., Jodoin, P.M., Grenier, T., et al. *Deep learning for segmentation using an open large-scale dataset in 2D echocardiography*. IEEE Transactions on Medical Imaging, 38(9), 2198–2210, 2019.
+
+- For **EchoNet-Pediatric**, the citation is:
+  > Ouyang, D., He, B., Ghorbani, A., Yuan, N., Ebinger, J., Langlotz, C.P., Heidenreich, P.A., Harrington, R.A., Liang, D.H., Ashley, E.A., et al. *Video-based AI for beat-to-beat assessment of cardiac function*. Nature, 580(7802), 252–256, 2020.
+
+- For **EchoNet-Dynamic**, the citation is:
+  > Reddy, C.D., Lopez, L., Ouyang, D., Zou, J.Y., He, B. *Video-based deep learning for automated assessment of left ventricular ejection fraction in pediatric patients*. Journal of the American Society of Echocardiography, 36(5), 482–489, 2023.
+
+After gathering this information, I will compile the dataset entries with their respective citations, ensuring that each dataset is accurately represented and properly cited for future reference or processing.

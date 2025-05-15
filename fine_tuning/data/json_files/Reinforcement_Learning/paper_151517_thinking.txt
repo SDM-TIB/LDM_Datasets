@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "LightCPPgen: An Explainable Machine Learning Pipeline for Rational Design of Cell Penetrating Peptides" by Gabriele Maroni et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract provides a brief overview of the study but may not contain specific dataset details. The introduction may mention previous works or datasets used in the context of cell-penetrating peptides (CPPs).
+
+Next, I will focus on **section 2 (Material and Methods)**, specifically **subsection 2.1 (Dataset description)**, where the authors describe the datasets used in their study. Here, they mention that they employed the Layer1 training and testing datasets from MLCPP 2.0. They detail how the training dataset was derived from six existing methods, including C2Pred, CellPPD, CPPred-RF, KELM-CPPpred, MLCPP, and BChemRF-CPPred. They also describe the refinement process using the CD-HIT algorithm, resulting in a set of 573 CPPs and a balanced set of 573 non-CPPs.
+
+In the same subsection, they describe the test dataset, which includes positive samples collected from various sources, ensuring dissimilarity with the training dataset. They mention that the final test dataset consists of 157 CPPs and 2184 non-CPPs.
+
+Now, I will look for the **References section** to find full citations for the datasets mentioned. The citations for the datasets used in the study are crucial for proper attribution.
+
+1. **MLCPP 2.0 Dataset**: The citation for this dataset is:
+   > Manavalan, B.; Patra, M. C. MLCPP 2.0: An Updated Cell-Penetrating Peptides and Their Uptake Efficiency Predictor. *J. Mol. Biol.* 2022, 434 (11), 167604. https://doi.org/10.1016/j.jmb.2022.167604.
+
+2. **C2Pred Dataset**: The citation for this dataset is:
+   > Pandey, P.; Patel, V.; George, N. V.; Mallajosyula, S. S. KELM-CPPpred: Kernel Extreme Learning Machine Based Prediction Model for Cell-Penetrating Peptides. *J. Proteome Res.* 2018, 17 (9), 3214–3222. https://doi.org/10.1021/acs.jproteome.8b00322.
+
+3. **CellPPD Dataset**: The citation for this dataset is:
+   > Gautam, A.; Chaudhary, K.; Kumar, R.; Raghava, G. P. S. Computer-Aided Virtual Screening and Designing of Cell-Penetrating Peptides. In *Cell-Penetrating Peptides*; Langel, Ü., Ed.; Methods in Molecular Biology; Springer New York: New York, NY, 2015; Vol. 1324, pp 59–69. https://doi.org/10.1007/978-1-4939-2806-4_4.
+
+4. **CPPred-RF Dataset**: The citation for this dataset is:
+   > Wei, L.; Xing, P.; Su, R.; Shi, G.; Ma, Z. S.; Zou, Q. CPPred-RF: A Sequence-Based Predictor for Identifying Cell-Penetrating Peptides and Their Uptake Efficiency. *J. Proteome Res.* 2017, 16 (5), 2044–2053. https://doi.org/10.1021/acs.jproteome.7b00019.
+
+5. **KELM-CPPpred Dataset**: The citation for this dataset is:
+   > Fu, X.; Cai, L.; Zeng, X.; Zou, Q. StackCPPred: A Stacking and Pairwise Energy Content-Based Prediction of Cell-Penetrating Peptides and Their Uptake Efficiency. *Bioinformatics* 2020, 36 (10), 3028–3034. https://doi.org/10.1093/bioinformatics/btaa131.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the study, which is essential for reproducibility and further research.

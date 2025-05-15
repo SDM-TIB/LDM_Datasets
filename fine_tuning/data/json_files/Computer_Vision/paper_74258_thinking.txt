@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "One-Step Effective Diffusion Network for Real-World Image Super-Resolution" by Rongyuan Wu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract mentions the use of pre-trained text-to-image diffusion models for image super-resolution, which suggests that datasets are likely involved in the training and evaluation of the proposed method.
+
+In the **introduction**, the authors discuss the challenges of real-world image super-resolution and the need for LQ-HQ image pairs. This indicates that they may have used specific datasets to create these pairs.
+
+Next, I will focus on the **experiments section**, particularly **section 4.1 (Experimental Settings)**, where the authors explicitly mention the datasets used for training and testing their model. Here, they state that they trained OSEDiff on:
+
+1. **LSDIR**: A large-scale dataset for image restoration.
+2. **FFHQ**: Specifically, the first 10,000 face images from the FFHQ dataset.
+
+The authors also mention the degradation pipeline used to synthesize LQ-HQ training pairs, which is relevant but does not constitute a dataset itself.
+
+In the same section, they describe the evaluation datasets used to compare their method against others, which include:
+
+1. **DrealSR**: A dataset for real-world image super-resolution.
+2. **RealSR**: Another dataset for real-world image super-resolution.
+
+Now, I will look into the **References section** to find the full citations for each of these datasets:
+
+- For **LSDIR**, the citation is:
+  > Yawei Li, Kai Zhang, Jingyun Liang, Jiezhang Cao, Ce Liu, Rui Gong, Yulun Zhang, Hao Tang, Yun Liu, Denis Demandolx, et al. *LSDIR: A Large Scale Dataset for Image Restoration*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 1775–1787, 2023.
+
+- For **FFHQ**, the citation is:
+  > Tero Karras, Samuli Laine, and Timo Aila. *A Style-Based Generator Architecture for Generative Adversarial Networks*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4401–4410, 2019.
+
+- For **DrealSR**, the citation is:
+  > Jianrui Cai, Hui Zeng, Hongwei Yong, Zisheng Cao, and Lei Zhang. *Toward Real-World Single Image Super-Resolution: A New Benchmark and a New Model*. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3086–3095, 2019.
+
+- For **RealSR**, the citation is:
+  > Jianrui Cai, Hui Zeng, Hongwei Yong, Zisheng Cao, and Lei Zhang. *Toward Real-World Single Image Super-Resolution: A New Benchmark and a New Model*. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3086–3095, 2019.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

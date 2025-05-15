@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "LIGANDFORMER: A GRAPH NEURAL NETWORK FOR PREDICTING COMPOUND PROPERTY WITH ROBUST INTERPRETATION" by Jinjiang Guo et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract provides a general overview, but the methods section is likely to contain specific details about the datasets used.
+
+In the **introduction**, the authors discuss the importance of QSAR methods and mention that they will evaluate their model on various chemical properties. However, they do not specify datasets here.
+
+Next, I will focus on **section 3 (Method and Experiments)**, where the authors describe their experiments. They mention three chemical properties for which they trained and tested their model: **aqueous solubility, Caco-2 cell permeability, and Ames mutagenesis**. This indicates that there are datasets associated with these properties.
+
+The authors provide detailed descriptions of the datasets in this section:
+
+1. **Aqueous Solubility Dataset**: This dataset was downloaded from the Online Chemical Database and Modeling Environment (OCHEM) and includes 1,311 assay records. The authors set a cut-off for binary classification based on the log solubility value.
+
+2. **Caco-2 Cell Permeability Dataset**: This dataset consists of 7,624 assayed data points collected from public and commercial sources, including REAXYS. The authors define a threshold for determining positive and negative results regarding drug absorption.
+
+3. **Ames Mutagenesis Dataset**: This dataset includes 7,617 assayed data points collected from public sources. The authors set a cut-off based on the number of colonies to classify the results as positive or negative for mutagenicity.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The datasets are derived from various sources, and I will ensure to cite them correctly:
+
+- For the **Aqueous Solubility Dataset**, the citation is:
+  > Iurii Sushko, Sergii Novotarskyi, Robert Körner, Anil Kumar Pandey, Matthias Rupp, Wolfram Teetz, Stefan Brandmaier, Ahmed Abdelaziz, Volodymyr V Prokopenko, Vsevolod Y Tanchuk, et al. *Online chemical modeling environment (ochem): web platform for data storage, model development and publishing of chemical information*. Journal of computer-aided molecular design, 25(6):533–554, 2011.
+
+- For the **Caco-2 Cell Permeability Dataset**, the citation is:
+  > Richard B van Breemen and Yongmei Li. *Caco-2 cell permeability assays to measure drug absorption*. Expert opinion on drug metabolism & toxicology, 1(2):175–185, 2005.
+
+- For the **Ames Mutagenesis Dataset**, the citation is:
+  > Kristien Mortelmans and Errol Zeiger. *The Ames salmonella/microsome mutagenicity assay*. Mutation research/fundamental and molecular mechanisms of mutagenesis, 455(1-2):29–60, 2000.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

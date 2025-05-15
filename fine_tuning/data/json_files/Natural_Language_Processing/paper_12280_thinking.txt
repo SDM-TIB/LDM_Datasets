@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Towards Automated Design of Riboswitches" by Frederic Runge et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract discusses the development of a new method, libLEARNA, and mentions the generation of riboswitch libraries, which suggests that datasets may be involved in the training and validation of this method.
+
+Next, I will look into the **Method** section, particularly the subsections that describe the training and validation datasets. In this paper, the authors mention generating three training datasets with different length distributions, which are crucial for the training of their model. Specifically, I will focus on the details provided in **Table 3**, which summarizes the datasets used:
+
+1. **Training Dataset 1 ("LONG")**: Contains 100,000 samples with a mean length of 470.9 nucleotides and a length range of 200 to 8033 nucleotides.
+2. **Training Dataset 2 ("SHORT")**: Contains 100,000 samples with a mean length of 103.9 nucleotides and a length range of 23 to 200 nucleotides.
+3. **Training Dataset 3 ("RANDOM")**: Contains 100,000 samples with a mean length of 142.7 nucleotides and a length range of 23 to 6361 nucleotides.
+4. **Validation Dataset**: A non-overlapping validation set of 100 samples with a mean length of 135.8 nucleotides and a length range of 46 to 1802 nucleotides.
+
+I will also check the **References section** for any citations related to the datasets. The authors mention using the Rfam database for generating training data, which is a key resource for RNA sequences.
+
+The full citation for the Rfam database is:
+> Griffiths-Jones, S., Bateman, A., Marshall, M., Khanna, A., and Eddy, S. R. Rfam: an RNA family database. *Nucleic Acids Research*, 31(1):439–441, 2003.
+
+Now, I will compile the information into a structured format, ensuring that each dataset is clearly described along with its full citation. This will include the dataset name, a brief description, and the citation for the Rfam database.
+
+After gathering all this information, I will prepare the dataset entries for further processing or review.

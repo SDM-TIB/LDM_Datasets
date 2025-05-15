@@ -1,0 +1,488 @@
+[
+    {
+        "dcterms:creator": [
+            "Vijay Prakash Dwivedi",
+            "Chaitanya K Joshi",
+            "Thomas Laurent",
+            "Yoshua Bengio",
+            "Xavier Bresson"
+        ],
+        "dcterms:description": "A dataset consisting of 12K molecular graphs from the ZINC database of commercially available chemical compounds, used for regressing constrained solubility (logP) of the molecule.",
+        "dcterms:title": "ZINC",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Chemistry",
+            "Molecular Graphs"
+        ],
+        "dcat:keyword": [
+            "Molecular dataset",
+            "Chemical compounds",
+            "Solubility prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Regression"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Vijay Prakash Dwivedi",
+            "Chaitanya K Joshi",
+            "Thomas Laurent",
+            "Yoshua Bengio",
+            "Xavier Bresson"
+        ],
+        "dcterms:description": "A dataset derived from the MNIST image classification dataset, constructed as an 8 nearest-neighbor graph of SLIC superpixels for each image, used for a 10-class classification task.",
+        "dcterms:title": "MNIST",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Graph Representation"
+        ],
+        "dcat:keyword": [
+            "Image dataset",
+            "Superpixel graph",
+            "Digit classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Vijay Prakash Dwivedi",
+            "Chaitanya K Joshi",
+            "Thomas Laurent",
+            "Yoshua Bengio",
+            "Xavier Bresson"
+        ],
+        "dcterms:description": "A dataset derived from the CIFAR10 image classification dataset, constructed as an 8 nearest-neighbor graph of SLIC superpixels for each image, used for a 10-class classification task.",
+        "dcterms:title": "CIFAR10",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Classification",
+            "Graph Representation"
+        ],
+        "dcat:keyword": [
+            "Image dataset",
+            "Superpixel graph",
+            "Object classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Vijay Prakash Dwivedi",
+            "Chaitanya K Joshi",
+            "Thomas Laurent",
+            "Yoshua Bengio",
+            "Xavier Bresson"
+        ],
+        "dcterms:description": "A synthetic dataset sampled from Stochastic Block Model, used for inductive node-level classification to recognize which nodes belong to one of 100 possible sub-graph patterns.",
+        "dcterms:title": "PATTERN",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Data",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Synthetic dataset",
+            "Node classification",
+            "Sub-graph patterns"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Vijay Prakash Dwivedi",
+            "Chaitanya K Joshi",
+            "Thomas Laurent",
+            "Yoshua Bengio",
+            "Xavier Bresson"
+        ],
+        "dcterms:description": "A synthetic dataset sampled from Stochastic Block Model, used for inductive node-level classification to infer which cluster ID each node belongs to.",
+        "dcterms:title": "CLUSTER",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Synthetic Data",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Synthetic dataset",
+            "Node classification",
+            "Cluster identification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Weihua Hu",
+            "Matthias Fey",
+            "Marinka Zitnik",
+            "Yuxiao Dong",
+            "Hongyu Ren",
+            "Bowen Liu",
+            "Michele Catasta",
+            "Jure Leskovec"
+        ],
+        "dcterms:description": "A molecular property prediction dataset adopted by OGB from MoleculeNet, used for binary classification of a molecule's fitness to inhibit HIV replication.",
+        "dcterms:title": "ogbg-molhiv",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Molecular Biology",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Molecular dataset",
+            "HIV inhibition",
+            "Binary classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Weihua Hu",
+            "Matthias Fey",
+            "Marinka Zitnik",
+            "Yuxiao Dong",
+            "Hongyu Ren",
+            "Bowen Liu",
+            "Michele Catasta",
+            "Jure Leskovec"
+        ],
+        "dcterms:description": "A molecular property prediction dataset adopted by OGB from MoleculeNet, used for multi-task binary classification of results of 128 bioassays.",
+        "dcterms:title": "ogbg-molpcba",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Molecular Biology",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Molecular dataset",
+            "Bioassay prediction",
+            "Multi-task classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Weihua Hu",
+            "Matthias Fey",
+            "Marinka Zitnik",
+            "Yuxiao Dong",
+            "Hongyu Ren",
+            "Bowen Liu",
+            "Michele Catasta",
+            "Jure Leskovec"
+        ],
+        "dcterms:description": "A dataset consisting of protein-protein association networks derived from 1581 species, used for classifying which of the 37 taxonomic groups a PPA network originates from.",
+        "dcterms:title": "ogbg-ppa",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Biology",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Protein dataset",
+            "Taxonomic classification",
+            "Network analysis"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Weihua Hu",
+            "Matthias Fey",
+            "Marinka Zitnik",
+            "Yuxiao Dong",
+            "Hongyu Ren",
+            "Bowen Liu",
+            "Michele Catasta",
+            "Jure Leskovec"
+        ],
+        "dcterms:description": "A dataset comprised of abstract syntax trees derived from source code of functions written in Python, used for predicting the first 5 subtokens of the original function's name.",
+        "dcterms:title": "ogbg-code2",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Science",
+            "Graph Representation"
+        ],
+        "dcat:keyword": [
+            "Code dataset",
+            "Syntax tree",
+            "Function name prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Weihua Hu",
+            "Matthias Fey",
+            "Hongyu Ren",
+            "Maho Nakata",
+            "Yuxiao Dong",
+            "Jure Leskovec"
+        ],
+        "dcterms:description": "A large-scale molecular dataset used for regressing the HOMO-LUMO gap, a quantum physical property originally calculated using Density Functional Theory.",
+        "dcterms:title": "PCQM4Mv2",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Molecular Physics",
+            "Graph Regression"
+        ],
+        "dcat:keyword": [
+            "Molecular dataset",
+            "Quantum properties",
+            "Regression"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Regression"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Scott Freitas",
+            "Yuxiao Dong",
+            "Joshua Neil",
+            "Duen Horng Chau"
+        ],
+        "dcterms:description": "A subset of MalNet that consists of function call graphs derived from Android APKs, used for predicting the type of software based on the structure alone.",
+        "dcterms:title": "MalNet-Tiny",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Software Analysis",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Function call graphs",
+            "Malware detection",
+            "Software classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Vijay Prakash Dwivedi",
+            "Ladislav Rampášek",
+            "Mikhail Galkin",
+            "Ali Parviz",
+            "Guy Wolf",
+            "Anh Tuan Luu",
+            "Dominique Beaini"
+        ],
+        "dcterms:description": "Derived from Pascal VOC and MS COCO image datasets, this dataset is used for node classification where each superpixel node belongs to a particular object class.",
+        "dcterms:title": "PascalVOC-SP",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Segmentation",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Superpixel dataset",
+            "Object classification",
+            "Image analysis"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Vijay Prakash Dwivedi",
+            "Ladislav Rampášek",
+            "Mikhail Galkin",
+            "Ali Parviz",
+            "Guy Wolf",
+            "Anh Tuan Luu",
+            "Dominique Beaini"
+        ],
+        "dcterms:description": "Derived from Pascal VOC and MS COCO image datasets, this dataset is used for node classification where each superpixel node belongs to a particular object class.",
+        "dcterms:title": "COCO-SP",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Image Segmentation",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Superpixel dataset",
+            "Object classification",
+            "Image analysis"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Vijay Prakash Dwivedi",
+            "Ladislav Rampášek",
+            "Mikhail Galkin",
+            "Ali Parviz",
+            "Guy Wolf",
+            "Anh Tuan Luu",
+            "Dominique Beaini"
+        ],
+        "dcterms:description": "Derived from PCQM4Mv2 and respective 3D molecular structures, this dataset is used for binary link prediction, identifying pairs of nodes that are considered to be in 3D contact yet distant in the 2D graph.",
+        "dcterms:title": "PCQM-Contact",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Molecular Biology",
+            "Graph Link Prediction"
+        ],
+        "dcat:keyword": [
+            "Molecular dataset",
+            "Link prediction",
+            "3D contact"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Link Prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Vijay Prakash Dwivedi",
+            "Ladislav Rampášek",
+            "Mikhail Galkin",
+            "Ali Parviz",
+            "Guy Wolf",
+            "Anh Tuan Luu",
+            "Dominique Beaini"
+        ],
+        "dcterms:description": "A dataset composed of atomic graphs of peptides retrieved from SATPdb, used for multi-label graph classification into 10 nonexclusive peptide functional classes.",
+        "dcterms:title": "Peptides-func",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Biochemistry",
+            "Graph Classification"
+        ],
+        "dcat:keyword": [
+            "Peptide dataset",
+            "Functional classification",
+            "Graph analysis"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Vijay Prakash Dwivedi",
+            "Ladislav Rampášek",
+            "Mikhail Galkin",
+            "Ali Parviz",
+            "Guy Wolf",
+            "Anh Tuan Luu",
+            "Dominique Beaini"
+        ],
+        "dcterms:description": "A dataset composed of atomic graphs of peptides retrieved from SATPdb, used for graph regression of 11 3D structural properties of the peptides.",
+        "dcterms:title": "Peptides-struct",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Biochemistry",
+            "Graph Regression"
+        ],
+        "dcat:keyword": [
+            "Peptide dataset",
+            "Structural regression",
+            "Graph analysis"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Regression"
+        ]
+    }
+]

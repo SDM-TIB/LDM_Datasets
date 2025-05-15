@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Efficient Chemical Space Exploration Using Active Learning Based on Marginalized Graph Kernel: an Application for Predicting the Thermodynamic Properties of Alkanes with Molecular Simulation" by Yan Xiang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract indicates that the study involves **251,728 alkane molecules** and their thermodynamic properties, which suggests that this is a significant dataset.
+
+Next, I will look for specific mentions of datasets in the **introduction**. The authors reference the **NIST ThermoData Engine (TDE)**, which is a source of experimental data, and they also mention the **Industrial Fluid Properties Simulation Challenges (IFPSC)**, indicating that these datasets may be relevant.
+
+In the **methods section**, the authors describe the **active learning molecular simulation (ALMS) workflow** and mention that they targeted **alkane molecules with 4 to 19 carbon atoms**, totaling **251,728 distinct molecules**. This is a clear indication of the dataset they constructed for their study.
+
+The **results section** discusses the performance of their model using subsets of the original dataset, specifically mentioning subsets with different uncertainty thresholds (e.g., **313, 599, and 1679 molecules**). This indicates that they utilized these subsets for training and validation.
+
+Now, I will check the **references section** to find full citations for the datasets mentioned:
+
+1. For the **NIST ThermoData Engine (TDE)**, the citation is:
+   > Diky, V., Muzny, C. D., Smolyanitsky, A. Y., Bazyleva, A., Chirico, R. D., Magee, J. W., Paulechka, Y., Kazakov, A. F., Townsend, S. A., Lemmon, E. W., Frenkel, M. D., and Kroenlein, K. G. "ThermoData Engine (TDE) Version 10.1 (Pure Compounds, Binary Mixtures, Ternary Mixtures, and Chemical Reactions): NIST Standard Reference Database 103b," 2019. Available: https://www.nist.gov/publications/thermodata-engine-tde-version-101-pure-compounds-binary-mixtures-ternary-mixtures-and
+
+2. For the **Industrial Fluid Properties Simulation Challenge (IFPSC)**, the citation is:
+   > Case, F., Chaka, A., Friend, D. G., Frurip, D., Golab, J., Johnson, R., Moore, J., Mountain, R. D., Olson, J., Schiller, M., and Storer, J. "The first industrial fluid properties simulation challenge," Fluid Phase Equilibria, vol. 217, no. 1, pp. 1–10, Mar. 2004. Available: https://www.sciencedirect.com/science/article/pii/S0378381203002085
+
+After gathering this information, I will compile the dataset entries, ensuring that I include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research paper.

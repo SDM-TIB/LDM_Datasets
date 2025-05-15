@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Towards a Universal Code Formatter through Machine Learning" by Terence Parr and Jurgen Vinju, I will follow a systematic approach to identify and document any datasets mentioned in the text.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to see if any datasets are mentioned. The abstract discusses the development of a code formatter called CODEBUFF and mentions experiments conducted on various programming languages, which suggests that there may be datasets involved.
+
+Next, I will look for specific sections that typically contain dataset information, such as **section 4 (Empirical results)** and **section 5 (Test of Generality)**. In these sections, the authors describe the corpora used for training and testing CODEBUFF. 
+
+Upon examining section 4.2, I find that the authors list several corpora used in their experiments:
+
+1. **antlr**: A subset of 12 grammars from ANTLR’s grammar repository, manually formatted by the authors.
+2. **st**: All 59 Java source files for StringTemplate.
+3. **guava**: All 511 Java source files for Google’s Guava.
+4. **sql noisy**: 36 SQL files taken from a GitHub repository, which were groomed and truncated for compatibility with SQLite and TSQL grammars.
+5. **sql**: The same 36 SQL files as formatted using IntelliJ IDE, with some manual formatting interventions.
+
+I will also check the **References section** to find full citations for these datasets. However, since these datasets are not traditional datasets with formal citations, I will note them as they are described in the paper.
+
+Now, I will compile the information about each dataset:
+
+1. **antlr**: A subset of 12 grammars from ANTLR’s grammar repository, manually formatted by the authors.
+2. **StringTemplate (st)**: All 59 Java source files for StringTemplate.
+3. **Google Guava (guava)**: All 511 Java source files for Google’s Guava.
+4. **SQL noisy**: 36 SQL files taken from a GitHub repository, groomed for SQLite and TSQL grammars.
+5. **SQL**: The same 36 SQL files formatted using IntelliJ IDE, with manual formatting corrections.
+
+Since the paper does not provide formal citations for these datasets, I will summarize them based on the descriptions provided in the text.
+
+Finally, I will prepare to present this information in a structured format, ensuring that each dataset is clearly identified and described based on the content of the paper.

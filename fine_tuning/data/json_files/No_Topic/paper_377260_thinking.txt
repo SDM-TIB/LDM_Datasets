@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Solving High-Dimensional Inverse Problems with Auxiliary Uncertainty via Operator Learning with Limited Data" by J. Hart et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract discusses the challenges of high-dimensional inverse problems and mentions the use of surrogate models, which may imply the presence of datasets used for training these models.
+
+Next, I will focus on the **methodology section**, particularly where the authors describe their experiments and data generation processes. This section is likely to contain explicit mentions of datasets, including details about how they were generated or sourced. 
+
+In the **experiments section**, the authors detail their numerical example involving an atmospheric aerosol dispersion model. They mention generating a dataset by solving a specific partial differential equation (PDE) for various combinations of source magnitudes and wind fields. This indicates that there is a dataset derived from these simulations.
+
+I will note the following datasets mentioned in the paper:
+
+1. **SO2 Dispersion Data**: This dataset is generated from the advection-diffusion-reaction PDE described in the paper. It includes various combinations of source magnitudes and wind fields, specifically designed to study the dispersion of SO2 in the atmosphere.
+
+2. **Training Dataset**: The authors mention that the training dataset consists of 12 PDE solves with specific source magnitudes and wind fields, which are used to train their flow map approximation.
+
+3. **Validation Dataset**: This dataset is derived from 4 PDE solves and is used to tune the flow map architecture.
+
+Next, I will check the **References section** to find full citations for any datasets or related works that are referenced. The paper may not provide formal citations for the datasets themselves, as they are generated from the authors' own simulations, but I will ensure to note any relevant references that describe the methodologies or models used.
+
+For the **SO2 dispersion data**, I will create a citation based on the context provided in the paper, as it is derived from the authors' own work and simulations. The citation might look like this:
+
+- **SO2 Dispersion Data**: Hart, J., Gulian, M., Manickam, I., & Swiler, L. (2023). *Solving High-Dimensional Inverse Problems with Auxiliary Uncertainty via Operator Learning with Limited Data*. Sandia National Laboratories.
+
+Finally, I will compile the dataset entries, ensuring that each dataset is clearly described and includes the appropriate citations. This will provide a comprehensive overview of the datasets used in the research, ready for further processing or review.

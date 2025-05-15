@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Generalizing Deep Whole Brain Segmentation for Pediatric and Post-Contrast MRI with Augmented Transfer Learning" by Camilo Bermudez et al., I will follow a systematic approach.
+
+First, I will read through the **abstract** to identify any datasets mentioned. The abstract indicates that the authors optimized for age with a dataset of T1-weighted MRI of young children and another dataset of paired pre- and post-contrast MRI. This suggests that there are at least two datasets to look for.
+
+Next, I will examine the **introduction** and **methods sections** to gather more details about these datasets. In the methods section, specifically under **2.1 Imaging Datasets**, the authors describe three datasets used for transfer learning:
+
+1. **Adult T1-weighted brain MRI dataset**: This dataset consists of 45 subjects with manual labels, which were used for pretraining the SLANT model.
+
+2. **Pediatric T1-weighted brain MRI dataset**: This dataset includes 30 subjects aged 2.34 to 4.31 years, with manually corrected volumetric labels.
+
+3. **Paired clinical dataset**: This dataset consists of 36 subjects with clinically acquired T1-weighted MRI, both pre- and post-contrast, without manual labels.
+
+I will now look for the **full citations** for these datasets in the **references section** of the paper. 
+
+- For the **OASIS dataset** (used for the adult T1-weighted brain MRI), the citation is:
+  > Marcus, D.S., Wang, T.H., Parker, J., Csernansky, J.G., Morris, J.C., Buckner, R.L. *Open Access Series of Imaging Studies (OASIS): Longitudinal MRI Data in Non-Demented and Demented Older Adults*. NeuroImage, 2007.
+
+- The **pediatric T1-weighted brain MRI dataset** does not have a specific citation provided in the references, as it appears to be a custom dataset created for this study.
+
+- For the **paired clinical dataset**, the authors do not provide a specific citation either, as it is likely derived from clinical data collected at their institution.
+
+Now, I will summarize the datasets with their descriptions and citations:
+
+1. **Adult T1-weighted brain MRI dataset**: 
+   - Description: A dataset consisting of 45 subjects with T1-weighted brain MRI and manual labels.
+   - Citation: Marcus, D.S., Wang, T.H., Parker, J., Csernansky, J.G., Morris, J.C., Buckner, R.L. *Open Access Series of Imaging Studies (OASIS): Longitudinal MRI Data in Non-Demented and Demented Older Adults*. NeuroImage, 2007.
+
+2. **Pediatric T1-weighted brain MRI dataset**: 
+   - Description: A dataset of 30 pediatric subjects (ages 2.34 – 4.31 years) with manually corrected volumetric labels.
+   - Citation: Not explicitly provided in the paper.
+
+3. **Paired clinical dataset**: 
+   - Description: A dataset of 36 subjects with clinically acquired T1-weighted MRI, both pre- and post-contrast.
+   - Citation: Not explicitly provided in the paper.
+
+Finally, I will compile this information into a structured format for further processing or review.

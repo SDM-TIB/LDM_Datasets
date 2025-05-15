@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "Robustifying Sentiment Classification by Maximally Exploiting Few Counterfactuals" by Maarten De Raedt et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors used **IMDb data for training** and other datasets for out-of-distribution (OOD) tests, specifically mentioning **Amazon, SemEval, and Yelp**. This suggests that these datasets are important for the research.
+
+Next, I will look into the **experimental setup** section, particularly focusing on the **Datasets** subsection. Here, the authors provide detailed statistics about the datasets used:
+
+1. **IMDb Dataset**: This dataset is used for both training and testing. The paper mentions that the training set consists of **1,707 samples** and the test set has **488 samples**. The original IMDb dataset contains **25,000 reviews**.
+
+2. **Counterfactual Dataset (Dtrain CAD)**: This dataset consists of counterfactual samples created from the original IMDb dataset, with the same number of samples as the training set (1,707).
+
+3. **Out-of-Distribution Datasets**:
+   - **Amazon Dataset (DAMZN OOD)**: Used for testing, but specific details about the number of samples are not provided in the main text.
+   - **Yelp Dataset (DYELP OOD)**: Also used for testing, with similar lack of specific sample details.
+   - **SemEval Dataset (DSE OOD)**: Another dataset used for testing, again without specific sample details.
+
+In the **results** section, the authors discuss the performance of their models on these datasets, confirming their significance in the experiments.
+
+Now, I will check the **References section** to find the full citations for each dataset mentioned:
+
+- For the **IMDb Dataset**, the citation is:
+  > Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. *Learning word vectors for sentiment analysis*. In Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies, pages 142–150, Portland, Oregon, USA. Association for Computational Linguistics, 2011.
+
+- For the **Amazon Dataset**, the citation is:
+  > Jianmo Ni, Jiacheng Li, and Julian McAuley. *Justifying recommendations using distantly-labeled reviews and fine-grained aspects*. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 188–197, Hong Kong, China. Association for Computational Linguistics, 2019.
+
+- For the **SemEval Dataset**, the citation is:
+  > Sara Rosenthal, Noura Farra, and Preslav Nakov. *SemEval-2017 task 4: Sentiment analysis in Twitter*. In Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-2017), pages 502–518, Vancouver, Canada. Association for Computational Linguistics, 2017.
+
+- For the **Yelp Dataset**, the citation is:
+  > Divyansh Kaushik, Eduard Hovy, and Zachary Lipton. *Learning the difference that makes a difference with counterfactually-augmented data*. In International Conference on Learning Representations, 2019.
+
+After gathering all this information, I will compile the dataset entries with their full citations to ensure they are ready for any further processing or review.

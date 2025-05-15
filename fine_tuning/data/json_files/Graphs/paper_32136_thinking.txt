@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Von Mises Mixture Distributions for Molecular Conformation Generation" by Kirk Swanson, Jake Williams, and Eric Jonas, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract provides a brief overview of the study, and the introduction often discusses the context and significance of the datasets used.
+
+In the **introduction**, the authors mention the need for datasets that contain Boltzmann samples for various molecules. This indicates that datasets are crucial for their experiments.
+
+Next, I will focus on the **methods section**, specifically **section 2.2 (Datasets)**, where the authors explicitly describe the datasets they constructed. Here, they mention two datasets:
+
+1. **NMRShiftDB**: This dataset consists of 32,171 molecules derived from a popular database of nuclear magnetic resonance spectra, limited to molecules with specific criteria (up to 64 atoms and certain elements).
+
+2. **GDB-17**: This dataset includes a random subset of 134,228 molecules from a larger database of "lead-like" molecules, with specific criteria for selection.
+
+The authors also describe how they split these datasets into training and test sets, which is important for understanding their experimental setup.
+
+Now, I will check the **references section** to find the full citations for these datasets:
+
+- For **NMRShiftDB**, the citation is:
+  > Kuhn, E. J. (2019). Rapid prediction of NMR spectral properties with quantified uncertainty. *Journal of Cheminformatics*, 11(50).
+
+- For **GDB-17**, the citation is:
+  > Ruddigkeit, L., van Deursen, R., Blum, L. C., & Reymond, J.-L. (2012). Enumeration of 166 Billion Organic Small Molecules in the Chemical Universe Database GDB-17. *Journal of Chemical Information and Modeling*, 52(11), 2864–2875.
+
+With these citations in hand, I will summarize the datasets as follows:
+
+1. **NMRShiftDB**: A dataset of 32,171 molecules used for NMR spectral analysis.
+   - Citation: Kuhn, E. J. (2019). Rapid prediction of NMR spectral properties with quantified uncertainty. *Journal of Cheminformatics*, 11(50).
+
+2. **GDB-17**: A dataset of 134,228 molecules from a large enumeration of chemical space.
+   - Citation: Ruddigkeit, L., van Deursen, R., Blum, L. C., & Reymond, J.-L. (2012). Enumeration of 166 Billion Organic Small Molecules in the Chemical Universe Database GDB-17. *Journal of Chemical Information and Modeling*, 52(11), 2864–2875.
+
+Finally, I will compile this information into a structured format for further use, ensuring that each dataset is clearly described along with its full citation.

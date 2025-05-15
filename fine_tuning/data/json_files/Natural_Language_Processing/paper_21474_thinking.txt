@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "OmniSat: Self-Supervised Modality Fusion for Earth Observation" by Guillaume Astruc et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions the introduction of a novel architecture called OmniSat and highlights the augmentation of two existing datasets with new modalities. This indicates that datasets are indeed present in the paper.
+
+Next, I will focus on the **experiments section**, specifically **section 4.1 (Datasets)**, where the authors explicitly list the datasets used in their experiments. Here, I will look for detailed descriptions of each dataset, including their names, characteristics, and any modifications made to them.
+
+The paper mentions three datasets:
+
+1. **TreeSatAI-TS**: This dataset is an extension of the original TreeSatAI dataset, which contains 50,381 tiles of 60 × 60m with multi-label annotations for 20 classes. It includes very high resolution RGB and near-infrared images, as well as Sentinel-1 and Sentinel-2 time series data.
+
+2. **PASTIS-HD**: This dataset is an enhanced version of the PASTIS dataset, which integrates contemporaneous very high resolution satellite images with Sentinel-1 radar time series. It is designed for semantic and panoptic segmentation of agricultural parcels.
+
+3. **FLAIR**: This dataset combines very high resolution aerial images with time series data, comprising 77,762 aerial tiles with corresponding Sentinel-2 time series.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to provide readers with sources for further exploration.
+
+The citations I will extract are:
+
+- For **TreeSatAI**:
+  > Steve Ahlswede, Christian Schulz, Christiano Gava, Patrick Helber, Benjamin Bischke, Michael Förster, Florencia Arias, Jörn Hees, Begüm Demir, and Birgit Kleinschmit. *TreeSatAI Benchmark Archive: A multi-sensor, multi-label dataset for tree species classification in remote sensing*. Earth System Science Data Discussions, 2022.
+
+- For **PASTIS**:
+  > Vivien Sainte Fare Garnot and Loic Landrieu. *Panoptic segmentation of satellite image time series with convolutional temporal attention networks*. In ICCV, 2021.
+
+- For **FLAIR**:
+  > Anatol Garioud, Nicolas Gonthier, Loic Landrieu, Apolline De Wit, Marion Valette, Marc Poupée, Sébastien Giordano, and Boris Wattrelos. *FLAIR: A country-scale land cover semantic segmentation dataset from multi-source optical imagery*. In NeurIPS Dataset and Benchmark, 2023.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for clarity and ease of use. This will ensure that the datasets are accurately represented and properly cited for any future references or analyses.

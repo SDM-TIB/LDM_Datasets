@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "Parrot: Pareto-optimal Multi-Reward Reinforcement Learning Framework for Text-to-Image Generation" by Seung Hyun Lee et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reading the **abstract** and **introduction** sections to get an overview of the research context and any datasets that may be referenced. The abstract mentions the use of a large-scale text dataset named **Promptist**, which is a strong indication that this dataset is significant to the research.
+
+Next, I will look into the **methodology** section, particularly in **section 5 (Experiments)**, where the authors describe the datasets used for training and evaluation. Here, they mention that the Prompt Expansion Network (PEN) is fine-tuned on the **Promptist** dataset, which consists of 360K constructed prompt pairs for original prompt and prompt expansion demonstrations. This dataset is crucial for understanding the training process of their model.
+
+Additionally, I will check the **experiments** section for any other datasets that might be used for evaluation or comparison. The authors also mention using the **LAION-5B** dataset for pre-training their T2I model based on Stable Diffusion 1.5. This dataset is relevant as it provides the foundational training data for their image generation model.
+
+Now, I will consult the **References section** to find the full citations for these datasets:
+
+1. For the **Promptist dataset**, the citation is:
+   > Yaru Hao, Zewen Chi, Li Dong, and Furu Wei. *Optimizing prompts for text-to-image generation*. In CoRR, 2022.
+
+2. For the **LAION-5B dataset**, the citation is:
+   > Christoph Schuhmann, Romain Beaumont, Richard Vencu, Cade Gordon, Ross Wightman, Mehdi Cherti, Theo Coombes, Aarush Katta, Clayton Mullis, Mitchell Wortsman, et al. *Laion-5b: An open large-scale dataset for training next generation image-text models*. NeurIPS, 2022.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a clear and structured overview of the datasets utilized in the research paper, which is essential for understanding the context and validity of the findings presented.

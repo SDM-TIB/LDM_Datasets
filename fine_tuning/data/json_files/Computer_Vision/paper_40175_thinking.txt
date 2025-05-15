@@ -1,0 +1,17 @@
+To extract the datasets from the research paper titled "Multi-scale GANs for Memory-efficient Generation of High Resolution Medical Images" by Hristina Uzunova et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract mentions generating high-resolution 2D and 3D images, which suggests that datasets are involved, but I need to find specific names and details.
+
+In the **introduction**, the authors discuss the limitations of GANs in generating high-resolution medical images, hinting at the need for specific datasets but not naming any yet.
+
+Next, I will focus on the **results section**, specifically **section 3.2 (High Resolution Medical Image Generation)**, where the authors explicitly list the datasets used in their experiments:
+
+1. **Thorax CT**: This dataset consists of 3D CT images (approximately 512³) from 56 subjects with varying degrees of chronic obstructive pulmonary disease. The data is reconstructed using both a soft (B20f) and a sharp (B80f) kernel.
+
+2. **Low-dose thorax CT**: This dataset includes low-dose 4D lung CT images (120kVp, 40mAs) from 12 patients, resulting in a total of 166 3D volumes. The images are cropped around the lungs, resulting in about 320³ voxels.
+
+3. **Thorax X-ray**: An open-access chest X-ray dataset from Indiana University, containing frontal and lateral images, typically around the size of 2000². The authors used about 1500 frontal images of size 2048² in their experiments.
+
+Now, I will check the **References section** to find full citations for these datasets. However, the paper does not provide specific citations for the datasets themselves, as they are likely derived from common medical imaging datasets used in the field. Therefore, I will note that the citations for these datasets may need to be sourced from external literature or databases related to medical imaging.
+
+Finally, I will compile the dataset entries, ensuring to include the dataset names, descriptions, and any relevant details, while noting the absence of formal citations in the paper itself. This will prepare the information for structured output or further processing.

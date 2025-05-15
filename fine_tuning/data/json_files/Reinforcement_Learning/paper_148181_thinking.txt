@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames" by Erik Wijmans et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract mentions training on **Habitat-Sim** and achieving results on the **Habitat Autonomous Navigation Challenge 2019**, which suggests that datasets related to these challenges may be included.
+
+Next, I will look for a dedicated **datasets section** or any relevant mentions in the **experiments** section. In this paper, the authors describe their experimental setup in **section 4 (Experimental Setup)**, where they detail the datasets used for training their agents.
+
+In this section, I find the following datasets mentioned:
+
+1. **Gibson Dataset**: The authors state that they utilize training data from the **Habitat Challenge 2019**, which consists of 72 scenes from the Gibson dataset. They also mention filtering the dataset based on quality ratings.
+
+2. **Matterport3D Dataset**: The authors augment their training data with all 90 scenes from the Matterport3D dataset, which enhances the training set's diversity and quality.
+
+3. **Gibson-4+ and Gibson-2+**: The paper specifies that they use the Gibson dataset filtered for quality ratings, with Gibson-4+ containing scenes rated 4 or above, and Gibson-2+ containing scenes rated 2 or above.
+
+Next, I will check the **References section** to find the full citations for these datasets. The citations I need to extract are:
+
+- For the **Gibson Dataset**:
+  > Xia, F., Zamir, A. R., He, Z., Sax, A., Malik, J., & Savarese, S. (2018). *Gibson env: real-world perception for embodied agents*. In CVPR.
+
+- For the **Matterport3D Dataset**:
+  > Chang, A., Dai, A., Funkhouser, T., Halber, M., Niessner, M., Savva, M., Song, S., Zeng, A., & Zhang, Y. (2017). *Matterport3D: Learning from RGB-D data in indoor environments*. In 3DV.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing. This includes ensuring that each dataset is clearly described along with its full citation, which is crucial for proper attribution in any subsequent analysis or application of the research findings.

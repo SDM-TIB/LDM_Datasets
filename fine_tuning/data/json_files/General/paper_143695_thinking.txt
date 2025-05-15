@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "Improving Single Domain-Generalized Object Detection: A Focus on Diversification and Alignment" by Muhammad Sohail Danish et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to locate any references to datasets. The abstract mentions the use of a single source domain for training and various target domains for evaluation, which indicates that datasets are involved.
+
+Next, I will focus on the **experiments section**, specifically looking for any explicit mentions of datasets. In this section, the authors describe two main experiments: "Real to Artistic" and "Urban Scene Detection." They mention specific datasets used in these experiments.
+
+1. **Real to Artistic Datasets**: The authors state that this experiment consists of four datasets:
+   - **Pascal VOC**: This dataset contains real images from 20 different object classes and serves as the source domain.
+   - **Clipart1k**: This dataset includes artistic images and shares the same 20 classes as Pascal VOC.
+   - **Watercolor2k**: This dataset consists of 6 classes, which are subsets of the Pascal VOC classes.
+   - **Comic2k**: Similar to Watercolor2k, this dataset also contains 6 classes that are subsets of the Pascal VOC classes.
+
+2. **Urban Scene Detection Dataset**: The authors describe this dataset as a self-driving dataset that includes images under five different weather conditions. The images are collected from three different datasets:
+   - **Berkeley Deep Drive 100k (BDD-100k)**: This dataset provides images for the Daytime Sunny condition.
+   - **FoggyCityscapes**: This dataset contributes images for the Daytime Foggy condition.
+   - **Adverse Weather**: This dataset includes images for the Night Clear, Night Rainy, and Dusk Rainy conditions.
+
+Now, I will check the **References section** of the paper to find the full citations for these datasets:
+
+- For **Pascal VOC**, the citation is:
+  > M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman. *The Pascal Visual Object Classes (VOC) Challenge*. International Journal of Computer Vision, 88(2):303–338, 2010.
+
+- For **Clipart1k**, **Watercolor2k**, and **Comic2k**, the citations are not explicitly provided in the paper, but they are commonly referenced datasets in the domain of domain adaptation and generalization. I will note that they are often cited in related works.
+
+- For **BDD-100k**, the citation is:
+  > Fisher Yu, Wenqi Xian, Yingying Chen, Fangchen Liu, Mike Liao, Vashisht Madhavan, and Trevor Darrell. *BDD100K: A Diverse Driving Video Database with Scalable Annotation Tooling*. arXiv preprint arXiv:1805.04687, 2018.
+
+- For **FoggyCityscapes**, the citation is:
+  > Andreas Geiger, Philip Lenz, and Raquel Urtasun. *Are We Ready for Autonomous Driving? The KITTI Vision Benchmark Suite*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 3354–3361, 2012.
+
+- For **Adverse Weather**, the citation is:
+  > M. Hassaballah, Mourad A. Kenk, Khan Muhammad, and Shervin Minaee. *Vehicle Detection and Tracking in Adverse Weather Using a Deep Learning Framework*. IEEE Transactions on Intelligent Transportation Systems, 22(7):4230–4242, 2021.
+
+After gathering all this information, I will compile the dataset entries with their respective citations for further processing or review.

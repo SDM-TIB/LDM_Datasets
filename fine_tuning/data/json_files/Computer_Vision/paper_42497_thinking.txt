@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "Augmented Cyclic Consistency Regularization for Unpaired Image-to-Image Translation" by Takehiko Ohkawa et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the challenges of unpaired image-to-image translation and hints at the use of various datasets, which suggests that I should look for specific names.
+
+Next, I will focus on **section IV (Experiments)**, where the authors typically describe the datasets used for their experiments. Here, they mention several datasets explicitly:
+
+1. **MNIST**: This dataset consists of 60,000 training images and 10,000 validation images of centered, 28x28 pixel grayscale images of single-digit numbers. The authors rescale these images to 32x32 pixels and extend the channel to RGB.
+
+2. **MNIST-M**: This dataset contains 59,000 training images and 1,000 validation images of centered, 32x32 pixel digits on a variant background, which is substituted by randomly extracted patches from color photos from the BSDS500 dataset.
+
+3. **SVHN (Street View House Numbers)**: This dataset is larger than MNIST and contains 73,257 training images and 26,032 validation images of real-world street numbers, often with extraneous numbers included.
+
+4. **Maps**: This dataset consists of 3,292 pairs of aerial photos and corresponding maps, with 1,098 images used for training and 1,096 for testing.
+
+5. **Cityscapes**: This dataset contains 2,975 pairs of training images from the Cityscapes training set and its segmentation labels, with the validation set used for testing.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **MNIST**, the citation is:
+  > Y. LeCun, L. Bottou, Y. Bengio, and P. Haner. *Gradient-Based Learning Applied to Document Recognition*. Proc. of the IEEE, 86(11):2278-2324, 1998.
+
+- For **MNIST-M**, the citation is:
+  > Y. Ganin, E. Ustinova, H. Ajakan, P. Germain, H. Larochelle, F. Laviolette, M. Marchand, and V. Lempitsky. *Domain-Adversarial Training of Neural Networks*. Proc. JMLR, 2015.
+
+- For **SVHN**, the citation is:
+  > Y. Netzer, T. Wang, A. Coates, A. Bissacco, B. Wu, and A. Y. Ng. *Reading Digits in Natural Images with Unsupervised Feature Learning*. Proc. NeurIPSW, 2011.
+
+- For **Maps**, the citation is:
+  > P. Arbelaez, M. Maire, C. Fowlkes, and J. Malik. *Contour Detection and Hierarchical Image Segmentation*. Proc. PAMI, 2011.
+
+- For **Cityscapes**, the citation is:
+  > M. Cordts, M. Omran, S. Ramos, T. Rehfeld, M. Enzweiler, R. Benenson, U. Franke, S. Roth, and B. Schiele. *The Cityscapes Dataset for Semantic Urban Scene Understanding*. Proc. CVPR, 2016.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

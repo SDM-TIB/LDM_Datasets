@@ -1,0 +1,42 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "WikiHowQA is an English dataset collected from www.wikihow.com, a hot QA website where the questions and answers are all carefully edited by human. Most pages of this site are in a specific pattern where the title is a “How to” question and the content contains a list-type answer. Therefore, we can automatically obtain the 〈Question, AnswerList〉 pairs by parsing the html structure. The whole dataset is randomly split to 197,936/25,000/25,000 for train, validation, and test.",
+        "dcterms:title": "WikiHowQA",
+        "dcterms:issued": "",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Question Answering",
+            "List-form Answers",
+            "Natural Language Processing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Extractive Question Answering"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "WebQA is a Chinese dataset collected from structural web pages. We first fetch a large number of raw html pages from about 90 human-selected QA sites. Then, we select the pages according to the following criteria: (1) The page title is a question, which can be recognized by question keywords and patterns. (2) The answers scattered in different positions of the passage, which can be recognized by rules and patterns based on the page structures. Finally, we check the selected pages by human and obtain the final dataset, including 31,597/4,000/4,000 for train, validation, and test.",
+        "dcterms:title": "WebQA",
+        "dcterms:issued": "",
+        "dcterms:language": "Chinese",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Question Answering",
+            "List-form Answers",
+            "Natural Language Processing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Extractive Question Answering"
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Looking into Black Box Code Language Models" by Muhammad Umair Haider et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the study, and I will look for any explicit mentions of datasets or data sources.
+
+Next, I will focus on the **methodology section**, particularly where the authors describe their approach to data collection. In this section, they mention that they collected **5,000 code files from active GitHub repositories** for three programming languages: **Java, Go, and Python**. This indicates that the datasets are derived from GitHub, which is a crucial detail.
+
+I will also check the **tables** included in the paper, specifically **Table II**, which outlines the criteria for dataset collection, and **Table III**, which provides statistics about the dataset. This will help me gather more detailed information about the datasets used in the study.
+
+The authors mention two specific models, **Codegen-Mono** and **Polycoder**, and describe the datasets they were trained on. I will extract the relevant datasets associated with these models:
+
+1. **THEPILE**: An 825.18 GB English text corpus for language modeling, constructed from diverse high-quality subsets, including programming language data from GitHub repositories.
+2. **BIGQUERY**: A multilingual dataset consisting of code in multiple programming languages, derived from Google’s publicly available BigQuery dataset.
+3. **BIGPYTHON**: A monolingual dataset containing a large amount of data in the Python programming language.
+
+Next, I will consult the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and will be formatted as follows:
+
+- For **THEPILE**:
+  > Leo Gao, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles Foster, Jason Phang, Horace He, Anish Thite, Noa Nabeshima, et al. *The pile: An 800gb dataset of diverse text for language modeling*. arXiv preprint arXiv:2101.00027, 2020.
+
+- For **BIGQUERY**:
+  > Google. *Bigquery public datasets*. https://cloud.google.com/bigquery/public-data, 2023.
+
+- For **BIGPYTHON**: The citation is not explicitly mentioned in the references, but it is part of the Codegen model's training data, which is referenced in the paper.
+
+Now, I will compile the dataset entries, ensuring that I include the full citations for each dataset as required. This structured approach will help me accurately extract and document the datasets used in the research paper.

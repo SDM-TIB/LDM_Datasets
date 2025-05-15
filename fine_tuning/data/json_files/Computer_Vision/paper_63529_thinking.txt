@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Interaction-Aware Personalized Vehicle Trajectory Prediction Using Temporal Graph Neural Networks" by Amr Abdelraouf, Rohit Gupta, and Kyungtae Han, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and data description sections** to identify any datasets mentioned. The abstract indicates that the authors utilize a large-scale trajectory dataset for pre-training their model, which suggests that there is a specific dataset involved.
+
+Next, I will focus on the **introduction** where the authors discuss the importance of personalized driving patterns and mention the use of a large-scale vehicle trajectory dataset named **CitySim** for pre-training their model. This is a key dataset that I need to note.
+
+In the **data description section (Section IV)**, the authors provide detailed information about the datasets used. They mention two datasets:
+
+1. **CitySim Dataset**: This dataset is used for pre-training the model. It includes bird’s-eye view vehicle trajectories obtained from drone videos, covering a duration of 35 minutes with data from 7,307 vehicles. The average trajectory length is 45 seconds.
+
+2. **Personalized Naturalistic Driving Data**: This dataset is collected through a human-in-the-loop simulation using the CARLA driving simulator. It consists of personalized driving data from five distinct drivers, with each driver contributing 40 minutes of data under varying traffic conditions.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **CitySim Dataset**, the citation is:
+  > O. Zheng, M. Abdel-Aty, L. Yue, A. Abdelraouf, Z. Wang, and N. Mahmoud. *Citysim: A drone-based vehicle trajectory dataset for safety oriented research and digital twins*. arXiv preprint arXiv:2208.11036, 2022.
+
+- The personalized naturalistic driving data does not have a specific citation since it was collected as part of the study, but I will note that it is based on the CARLA driving simulator.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations. This will ensure that all relevant details are captured for future reference or processing.

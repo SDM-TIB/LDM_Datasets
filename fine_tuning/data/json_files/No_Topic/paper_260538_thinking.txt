@@ -1,0 +1,41 @@
+To extract datasets from the research paper titled "Uncertainty Aware Semi-Supervised Learning on Graph Data" by Xujiang Zhao et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the authors validated their model on **six real network datasets**, which indicates that datasets are indeed present.
+
+Next, I will focus on the **experiments section** (section 6) where the authors explicitly list the datasets used for their experiments. They mention using **three citation network datasets** (Cora, Citeseer, Pubmed) and **three new datasets** (Coauthor Physics, Amazon Computer, Amazon Photo). This gives me a clear indication of the datasets involved.
+
+I will then look for a **datasets description section** or any part of the paper that provides details about these datasets. In the appendix (B.2), the authors provide a summary of the datasets, including the number of nodes, edges, classes, features, and the number of training, validation, and test nodes for each dataset.
+
+The datasets identified are:
+
+1. **Cora Dataset**: 
+   - Description: A citation network dataset with 2,708 nodes, 5,429 edges, 7 classes, and 1,433 features.
+   - Citation: 
+     > Sen, P., Namata, G., Bilgic, M., Getoor, L., Galligher, B., & Eliassi-Rad, T. (2008). Collective classification in network data. AI Magazine, 29(3), 93-93.
+
+2. **Citeseer Dataset**: 
+   - Description: A citation network dataset with 3,327 nodes, 4,732 edges, 6 classes, and 3,703 features.
+   - Citation: 
+     > Sen, P., Namata, G., Bilgic, M., Getoor, L., Galligher, B., & Eliassi-Rad, T. (2008). Collective classification in network data. AI Magazine, 29(3), 93-93.
+
+3. **Pubmed Dataset**: 
+   - Description: A citation network dataset with 19,717 nodes, 44,338 edges, 3 classes, and 500 features.
+   - Citation: 
+     > Sen, P., Namata, G., Bilgic, M., Getoor, L., Galligher, B., & Eliassi-Rad, T. (2008). Collective classification in network data. AI Magazine, 29(3), 93-93.
+
+4. **Coauthor Physics Dataset**: 
+   - Description: A co-authorship graph dataset with 34,493 nodes, 282,455 edges, 5 classes, and 8,415 features.
+   - Citation: 
+     > Shchur, O., Mumme, M., Bojchevski, A., & Günnemann, S. (2018). Pitfalls of graph neural network evaluation. arXiv preprint arXiv:1811.05868.
+
+5. **Amazon Computer Dataset**: 
+   - Description: A co-purchase graph dataset with 13,381 nodes, 259,159 edges, 10 classes, and 767 features.
+   - Citation: 
+     > McAuley, J., Targett, C., Shi, Q., & Van Den Hengel, A. (2015). Image-based recommendations on styles and substitutes. In Proceedings of the 38th international ACM SIGIR conference on research and development in information retrieval (pp. 43-52).
+
+6. **Amazon Photo Dataset**: 
+   - Description: A co-purchase graph dataset with 7,487 nodes, 126,530 edges, 8 classes, and 745 features.
+   - Citation: 
+     > McAuley, J., Targett, C., Shi, Q., & Van Den Hengel, A. (2015). Image-based recommendations on styles and substitutes. In Proceedings of the 38th international ACM SIGIR conference on research and development in information retrieval (pp. 43-52).
+
+Finally, I will compile this information into a structured format that clearly outlines each dataset along with its citation, ensuring that the citations are complete and accurate for future reference.

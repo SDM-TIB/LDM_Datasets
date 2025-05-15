@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Locality-Sensitive Experience Replay for Online Recommendation" by Xiaocong Chen et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract** and **introduction** sections to see if any datasets are mentioned. The abstract discusses experiments on three online simulation platforms, which suggests that these platforms may serve as datasets or environments for the experiments.
+
+Next, I will look into **section 3 (Experiments)**, where the authors describe the evaluation of their method. They mention three platforms: **VirtualTB**, **RecSim**, and **RecoGym**. I will gather details about each of these platforms to understand their characteristics and how they are used in the experiments.
+
+1. **VirtualTB**: This is described as a real-time simulation platform for recommendation, which generates user interactions based on dynamic interests. It uses a pre-trained generative adversarial imitation learning (GAIL) model to simulate user behavior.
+
+2. **RecSim**: This platform is noted for its configurable simulation environments that support sequential interactions. It includes tasks like interest evolution and long-term satisfaction, which are relevant for evaluating recommendation strategies.
+
+3. **RecoGym**: This is a smaller platform designed for computational advertising, where users do not have long-term goals. It uses a click-or-not reward signal similar to RecSim.
+
+After identifying these platforms, I will check the **References section** to find full citations for each of the datasets or platforms mentioned. However, since these platforms are likely proprietary or specific to the authors' research, they may not have formal citations like traditional datasets.
+
+For the platforms mentioned:
+- **VirtualTB** does not have a specific citation in the references, but it is described in detail in the paper.
+- **RecSim** is referenced as a configurable simulation platform, and its citation is:
+  > Eugene Ie, Chih wei Hsu, Martin Mladenov, Vihan Jain, Sanmit Narvekar, Jing Wang, Rui Wu, and Craig Boutilier. *RecSim: A Configurable Simulation Platform for Recommender Systems*. arXiv:1909.04847 [cs.LG], 2019.
+  
+- **RecoGym** is also referenced in the paper, and its citation is:
+  > David Rohde, Stephen Bonner, Travis Dunlop, Flavian Vasile, and Alexandros Karatzoglou. *Recogym: A reinforcement learning environment for the problem of product recommendation in online advertising*. arXiv:1808.00720 [cs.LG], 2018.
+
+Now that I have identified the datasets/platforms and their citations, I will compile this information into a structured format for further processing or review. Each dataset will be documented with its name, description, and full citation where applicable.

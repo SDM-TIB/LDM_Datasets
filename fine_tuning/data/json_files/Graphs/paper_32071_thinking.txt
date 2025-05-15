@@ -1,0 +1,38 @@
+To extract datasets from the research paper titled "LibAUC: A Deep Learning Library for X-Risk Optimization" by Dixian Zhu et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. In the abstract, the authors mention that the LibAUC library has been used in various projects and competitions, which suggests that specific datasets may be referenced later in the paper. The introduction may provide context about the datasets used for benchmarking the library's performance.
+
+Next, I will look for a dedicated **Datasets** section or any mention of datasets in the **experiments** section. In this paper, the authors discuss their experiments on three tasks: classification for imbalanced data, learning to rank, and contrastive learning of representations. Each of these tasks likely involves specific datasets.
+
+Upon reviewing the **experiments section**, I find that the authors mention several datasets:
+
+1. **CIFAR10**: A natural image dataset used for classification tasks. The authors note that they constructed an imbalanced training set with a positive sample ratio of 1%.
+
+2. **CheXpert**: A medical image dataset used for classification tasks, specifically for detecting five selected diseases. The authors mention the imbalanced ratios for each disease.
+
+3. **OGB-HIV**: A molecular graph dataset used for classification tasks, with a specified imbalanced ratio.
+
+4. **MovieLens20M** and **MovieLens25M**: Datasets used for learning to rank tasks, containing millions of movie ratings from users.
+
+5. **ImageNet**: Used for contrastive learning tasks, specifically in the context of self-supervised learning.
+
+Next, I will check the **References section** to find full citations for these datasets. The citations may not always be explicitly listed as datasets, but I will look for the original papers or sources that describe these datasets.
+
+The citations I find are as follows:
+
+- For **CIFAR10**, the citation is:
+  > Alex Krizhevsky, Geoffrey Hinton, et al. 2009. *Learning multiple layers of features from tiny images*. (2009).
+
+- For **CheXpert**, the citation is:
+  > Jeremy Irvin, Pranav Rajpurkar, Michael Ko, et al. 2019. *Chexpert: A large chest radiograph dataset with uncertainty labels and expert comparison*. In Proceedings of the AAAI Conference on Artificial Intelligence, Vol. 33. 590–597.
+
+- For **OGB-HIV**, the citation is:
+  > Weihua Hu, Matthias Fey, et al. 2020. *Open graph benchmark: Datasets for machine learning on graphs*. Advances in neural information processing systems 33 (2020), 22118–22133.
+
+- For **MovieLens datasets**, the citation is:
+  > F Maxwell Harper and Joseph A Konstan. 2015. *The movielens datasets: History and context*. ACM transactions on interactive intelligent systems (tiis) 5, 4 (2015), 1–19.
+
+- For **ImageNet**, the citation is:
+  > Jia Deng, Wei Dong, Richard Socher, et al. 2009. *Imagenet: A large-scale hierarchical image database*. In 2009 IEEE conference on computer vision and pattern recognition. IEEE, 248–255.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for clarity and future reference. This will ensure that I have accurately documented the datasets used in the research paper along with their full citations.

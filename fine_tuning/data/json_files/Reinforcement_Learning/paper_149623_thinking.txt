@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "OmniSyn: Synthesizing 360 Videos with Wide-baseline Panoramas" by David Li et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract mentions that the authors demonstrate the effectiveness of their method on the **CARLA** and **Matterport** datasets, indicating that these are the datasets used for their experiments.
+
+Next, I will look closely at **section 4.1 (Datasets and Metrics)**, where the authors explicitly state that they conduct experiments on the **CARLA** and **Matterport3D** datasets. They provide details about how they utilize these datasets, including the specific scenes and configurations used for training and testing.
+
+1. **CARLA Dataset**: The authors describe using scenes from Town 1 to Town 6, with specific training, validation, and testing splits. They generate sequences of frames consisting of RGB panoramas, depth panoramas, and pose metadata.
+
+2. **Matterport3D Dataset**: The authors mention using Habitat-Sim to generate frames and follow a specific train/test split similar to the CARLA dataset. They also describe how they create 256 × 256 ERP images from cubemap sides.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **CARLA Dataset**, the citation is:
+  > Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2017). CARLA: An open urban driving simulator. In Proceedings of the 1st Annual Conference on Robot Learning (pp. 1–16).
+
+- For the **Matterport3D Dataset**, the citation is:
+  > Chang, A., Dai, A., Funkhouser, T., Halber, M., Niessner, M., Savva, M., Song, S., Zeng, A., & Zhang, Y. (2017). Matterport3D: Learning from RGB-D data in indoor environments. In International Conference on 3D Vision (3DV).
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and that the full citations are included. This will provide a clear and comprehensive overview of the datasets used in the research.

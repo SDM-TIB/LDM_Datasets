@@ -1,0 +1,18 @@
+To extract the datasets mentioned in the paper titled "VolMap: A Real-time Model for Semantic Segmentation of a LiDAR 360° surrounding view" by Hager Radi and Waleed Ali, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and method sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors evaluated their method on a large-scale 3D object detection benchmark and the KITTI dataset, which suggests that datasets are involved.
+
+Next, I will focus on **section 4.1 (Datasets)**, where the authors explicitly list the datasets used in their experiments. Here, they mention two datasets:
+
+1. **SCALA Dataset**: This dataset is described as containing both highway and urban scenes with annotated classes for Car and Truck. The annotations are provided as 3D bounding boxes, which are used to extract point-wise segmentation labels.
+
+2. **KITTI Dataset**: The authors note that while KITTI is a public dataset for autonomous driving tasks, it does not have a benchmark for semantic segmentation. Instead, they used the 3D object detection benchmark from KITTI to derive point-wise classifications.
+
+To ensure I have the correct citations for these datasets, I will check the **References section** of the paper:
+
+- For the **KITTI Dataset**, the citation is:
+  > Andreas Geiger, Philip Lenz, and Raquel Urtasun. *Are we ready for autonomous driving? The KITTI vision benchmark suite*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 3354–3361, 2012.
+
+The SCALA dataset does not have a specific citation provided in the references, as it appears to be an internal dataset developed by Valeo.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing. The SCALA dataset will be noted as an internal dataset without a formal citation, while the KITTI dataset will be properly cited.

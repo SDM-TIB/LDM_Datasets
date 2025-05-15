@@ -1,0 +1,37 @@
+To extract datasets from the research paper titled "Learning Task Embeddings for Teamwork Adaptation in Multi-Agent Reinforcement Learning" by Lukas Schäfer et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the research and may mention specific datasets used for evaluation.
+
+Next, I will focus on the **experimental evaluation section** where the authors typically describe the datasets used in their experiments. In this case, I will look for any sections that specifically mention datasets, such as "Multi-Agent Environments" or "Experimental Setup."
+
+Upon reviewing the paper, I find that the authors mention four distinct environments used for their experiments:
+
+1. **Multi-Robot Warehouse (RWARE)**: This environment simulates a logistics task where agents control robots to collect and deliver items from shelves. The authors reference the original work by Papoudakis et al. (2021) and Christianos et al. (2020) for this dataset.
+
+2. **Multi-Agent Particle Environment (MPE)**: This environment involves cooperative navigation tasks where agents must navigate to landmarks while avoiding collisions. The authors cite Mordatch and Abbeel (2018) and Lowe et al. (2017) as the sources for this dataset.
+
+3. **Boulder-Push (BPUSH)**: This is a new environment introduced in this work, where agents push a box towards a goal location. Since this is a novel environment created by the authors, it does not have an external citation.
+
+4. **Level-Based Foraging (LBF)**: This environment requires agents to collect food in a gridworld. The authors reference Albrecht and Ramamoorthy (2013) and Albrecht and Stone (2018) for this dataset.
+
+Now, I will compile the full citations for each dataset as follows:
+
+- For **Multi-Robot Warehouse (RWARE)**:
+  > Papoudakis, G., Christianos, F., & Albrecht, S. (2021). Benchmarking multi-agent deep reinforcement learning algorithms in cooperative tasks. In Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks.
+
+  > Christianos, F., Schäfer, L., & Albrecht, S. (2020). Shared experience actor-critic for multi-agent reinforcement learning. In Advances in Neural Information Processing Systems.
+
+- For **Multi-Agent Particle Environment (MPE)**:
+  > Mordatch, I., & Abbeel, P. (2018). Emergence of grounded compositional language in multi-agent populations. In AAAI Conference on Artificial Intelligence.
+
+  > Lowe, R., Wu, Y., Tamar, A., Harb, J., Abbeel, P., & Mordatch, I. (2017). Multi-agent actor-critic for mixed cooperative-competitive environments. Advances in Neural Information Processing Systems.
+
+- For **Boulder-Push (BPUSH)**: 
+  > This dataset is introduced in the current paper and does not have an external citation.
+
+- For **Level-Based Foraging (LBF)**:
+  > Albrecht, S. V., & Ramamoorthy, S. (2013). A Game-Theoretic Model and Best-Response Learning Method for Ad Hoc Coordination in Multiagent Systems. In International Conference on Autonomous Agents and Multi-Agent Systems.
+
+  > Albrecht, S. V., & Stone, P. (2018). Autonomous agents modelling other agents: A comprehensive survey and open problems. Artificial Intelligence, 258, 66–95.
+
+After gathering this information, I will ensure that the dataset entries are clearly documented with their respective citations for future reference or processing.

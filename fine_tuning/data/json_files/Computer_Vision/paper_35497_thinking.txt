@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Learning a Generative Model for Validity in Complex Discrete Structures" by David Janz et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions the use of a generative model for Python 3 source code and SMILES strings, indicating that datasets related to these domains may be present.
+
+Next, I will focus on the **experiments section** where the authors describe their methodology and the datasets used. In **section 4.2 (SMILES Molecules)**, the authors explicitly mention three datasets:
+
+1. **ZINC Dataset**: This dataset is referenced as a source of valid SMILES strings for molecular structures. The authors cite the original paper for this dataset.
+
+2. **USPTO 15k Reaction Products Dataset**: This dataset is used as withheld test data for validating their model's predictions on SMILES strings.
+
+3. **Molecule Solubility Information Dataset**: This dataset is also mentioned as withheld test data, providing additional validation for the model.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **ZINC Dataset**, the citation is:
+  > John J Irwin and Brian K Shoichet. *ZINC - A Free Database of Commercially Available Compounds for Virtual Screening*. Journal of Chemical Information and Modeling, 45(1):177–182, 2005.
+
+- For the **USPTO 15k Reaction Products Dataset**, the citation is:
+  > Daniel Mark Lowe. *Patent Reaction Extraction*. Available at https://bitbucket.org/dan2097/patent-reaction-extraction/downloads, 2014.
+
+- For the **Molecule Solubility Information Dataset**, the citation is:
+  > Jarmo Huuskonen. *Estimation of Aqueous Solubility for a Diverse Set of Organic Compounds Based on Molecular Topology*. Journal of Chemical Information and Computer Sciences, 40(3):773–777, 2000.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets utilized in the research, which is crucial for reproducibility and further research in the field.

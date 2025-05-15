@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Layer-Wise Pruning of Transformer Attention Heads for Efficient Language Modeling" by Kyuhong Shim et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to locate any references to datasets. In the abstract, the authors mention that their pruned model shows lower perplexity on the **WikiText-103 language modeling benchmark**, which indicates that this dataset is used in their experiments.
+
+Next, I will examine **section 4.1 (Setup)**, where the authors explicitly list the datasets used for evaluation. They mention two datasets:
+
+1. **WikiText-103**: This dataset is used for word-level language modeling and is noted for its perplexity evaluation metric.
+2. **Text8**: This dataset is utilized for character-level language modeling, with performance reported in bits-per-character (bpc).
+
+Both datasets are critical for understanding the performance of the proposed model.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **WikiText-103**, the citation is:
+  > Stephen Merity, Caiming Xiong, James Bradbury, and Richard Socher. *Pointer Sentinel Mixture Models*. arXiv preprint arXiv:1609.07843, 2016.
+
+- For **Text8**, the citation is:
+  > Matt Mahoney. *Large Text Compression Benchmark*. http://mattmahoney.net/dc/, 2009.
+
+Having identified the datasets and their citations, I will ensure that I document each dataset clearly, including their names, descriptions, and full citations, as this is crucial for proper attribution and further research.
+
+Finally, I will compile the dataset information into a structured format for easy reference and potential downstream processing.

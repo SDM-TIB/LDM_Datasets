@@ -1,0 +1,34 @@
+To extract the datasets from the research paper titled "Unified Focal Loss: Generalising Dice and Cross Entropy-based Losses to Handle Class Imbalanced Medical Image Segmentation" by Michael Yeung et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors evaluate their proposed loss function on five publicly available, class-imbalanced medical imaging datasets. This suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 3 (Materials and Methods)**, where the authors describe the datasets used for their experiments. Here, they explicitly list the five datasets:
+
+1. **CVC-ClinicDB**: This dataset consists of 612 frames containing colorectal polyps, generated from 23 video sequences from 13 different patients using standard colonoscopy interventions. The image resolution is 288 × 384 pixels.
+
+2. **DRIVE**: The DRIVE dataset includes 40 colored fundus photographs obtained from diabetic retinopathy screening in the Netherlands. The resolution of the images is 768 × 584 pixels.
+
+3. **Breast Ultrasound 2017 (BUS2017)**: This dataset contains 163 ultrasound images with associated ground truth segmentations. The mean image size is 760 × 570 pixels, and it includes both benign and cancerous lesions.
+
+4. **Brain Tumour Segmentation 2020 (BraTS20)**: The BraTS20 dataset comprises 494 multimodal scans of patients with gliomas, with images manually annotated for various tumor regions. The dataset focuses on gadolinium-enhancing tumor segmentation.
+
+5. **Kidney Tumour Segmentation 2019 (KiTS19)**: This dataset consists of 300 arterial phase abdominal CT scans from patients who underwent partial or complete removal of kidney tumors. The image size is 512 × 512 pixels.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- **CVC-ClinicDB**: 
+  > Bernal, J., Sánchez, F. J., Fernández-Esparrach, G., Gil, D., Rodríguez, C., & Vilariño, F. (2015). Wm-dova maps for accurate polyp highlighting in colonoscopy: Validation vs. saliency maps from physicians. *Computerized Medical Imaging and Graphics*, 43, 99–111.
+
+- **DRIVE**: 
+  > Staal, J., Abràmoff, M. D., Niemeijer, M., Viergever, M. A., & Van Ginneken, B. (2004). Ridge-based vessel segmentation in color images of the retina. *IEEE Transactions on Medical Imaging*, 23, 501–509.
+
+- **Breast Ultrasound 2017 (BUS2017)**: 
+  > Yap, M. H., Pons, G., Marti, J., Ganau, S., Sentis, M., Zwiggelaar, R., Davison, A. K., & Marti, R. (2017). Automated breast ultrasound lesions detection using convolutional neural networks. *IEEE Journal of Biomedical and Health Informatics*, 22, 1218–1226.
+
+- **Brain Tumour Segmentation 2020 (BraTS20)**: 
+  > Bakas, S., Akbari, H., Sotiras, A., Bilello, M., Rozycki, M., Kirby, J. S., Freymann, J. B., Farahani, K., & Davatzikos, C. (2017). Advancing the cancer genome atlas glioma MRI collections with expert segmentation labels and radiomic features. *Scientific Data*, 4, 170117.
+
+- **Kidney Tumour Segmentation 2019 (KiTS19)**: 
+  > Heller, N., Isensee, F., Maier-Hein, K. H., Hou, X., Xie, C., Li, F., Nan, Y., Mu, G., Lin, Z., Han, M. et al. (2021). The state of the art in kidney and kidney tumor segmentation in contrast-enhanced CT imaging: Results of the KiTS19 challenge. *Medical Image Analysis*, 67, 101821.
+
+With this information, I will compile the dataset entries into a structured format for further processing or review.

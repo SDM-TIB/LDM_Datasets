@@ -1,0 +1,72 @@
+To extract datasets from the research paper titled "Open-domain Visual Entity Recognition: Towards Recognizing Millions of Wikipedia Entities" by Hexiang Hu et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions the construction of the **OVEN-Wiki dataset**, which is a key dataset for the proposed task. This indicates that I should look for details about this dataset in the subsequent sections.
+
+Next, I will focus on the **section 3 (The OVEN-Wiki dataset)**, where the authors provide a comprehensive description of how the dataset was created. They mention that the OVEN-Wiki dataset is constructed by repurposing **14 existing datasets** and grounding their labels to Wikipedia entities. This section will likely contain the specific datasets that were combined to create OVEN-Wiki.
+
+In this section, the authors list the **14 existing datasets** used to construct OVEN-Wiki, which include:
+
+1. **ImageNet21k-P**: A large-scale image classification dataset.
+2. **iNaturalist2017**: A dataset for species classification.
+3. **Cars196**: A dataset for fine-grained classification of car models.
+4. **SUN397**: A scene recognition dataset.
+5. **Food101**: A dataset for food classification.
+6. **Sports100**: A dataset for sports image classification.
+7. **Aircraft**: A dataset for aircraft classification.
+8. **Oxford Flower**: A dataset for flower classification.
+9. **Google Landmarks v2**: A dataset for landmark recognition.
+10. **VQA v2**: A visual question answering dataset.
+11. **Visual7W**: A dataset for grounded question answering in images.
+12. **Visual Genome**: A dataset that connects language and vision.
+13. **OK-VQA**: A visual question answering benchmark requiring external knowledge.
+14. **Text-VQA**: A dataset for visual question answering that requires reading text in images.
+
+I will also note that the authors provide a detailed explanation of how they linked the labels from these datasets to Wikipedia entities, which is crucial for understanding the OVEN-Wiki dataset.
+
+Next, I will check the **References section** to find the full citations for each of the datasets mentioned. This is important for proper attribution and to provide readers with the necessary information to locate these datasets.
+
+The citations for the datasets are as follows:
+
+- **ImageNet21k-P**: 
+  > Tal Ridnik, Emanuel Ben-Baruch, Asaf Noy, and Lihi Zelnik-Manor. *Imagenet-21k pretraining for the masses*. In NeurIPS, 2021.
+
+- **iNaturalist2017**: 
+  > Grant Van Horn, Oisin Mac Aodha, Yang Song, Yin Cui, Chen Sun, Alex Shepard, Hartwig Adam, Pietro Perona, and Serge Belongie. *The iNaturalist species classification and detection dataset*. In CVPR, 2018.
+
+- **Cars196**: 
+  > Jonathan Krause, Michael Stark, Jia Deng, and Li Fei-Fei. *3D object representations for fine-grained categorization*. In 3dRR-13, 2013.
+
+- **SUN397**: 
+  > Jianxiong Xiao, James Hays, Krista A Ehinger, Aude Oliva, and Antonio Torralba. *Sun database: Large-scale scene recognition from abbey to zoo*. In CVPR, 2010.
+
+- **Food101**: 
+  > Lukas Bossard, Matthieu Guillaumin, and Luc Van Gool. *Food-101 – mining discriminative components with random forests*. In ECCV, 2014.
+
+- **Sports100**: 
+  > Gerry. Sports100: 100 sports image classification. https://www.kaggle.com/datasets/gpiosenka/sports-classification/metadata, 2021.
+
+- **Aircraft**: 
+  > S. Maji, J. Kannala, E. Rahtu, M. Blaschko, and A. Vedaldi. *Fine-grained visual classification of aircraft*. Technical report, 2013.
+
+- **Oxford Flower**: 
+  > Maria-Elena Nilsback and Andrew Zisserman. *Automated flower classification over a large number of classes*. In 2008 Sixth Indian Conference on Computer Vision, Graphics & Image Processing. IEEE, 2008.
+
+- **Google Landmarks v2**: 
+  > Tobias Weyand, Andre Araujo, Bingyi Cao, and Jack Sim. *Google landmarks dataset v2-a large-scale benchmark for instance-level recognition and retrieval*. In CVPR, 2020.
+
+- **VQA v2**: 
+  > Yash Goyal, Tejas Khot, Douglas Summers-Stay, Dhruv Batra, and Devi Parikh. *Making the v in vqa matter: Elevating the role of image understanding in visual question answering*. In CVPR, 2017.
+
+- **Visual7W**: 
+  > Yuke Zhu, Oliver Groth, Michael Bernstein, and Li Fei-Fei. *Visual7w: Grounded question answering in images*. In Proceedings of the IEEE conference on computer vision and pattern recognition, 2016.
+
+- **Visual Genome**: 
+  > Ranjay Krishna, Yuke Zhu, Oliver Groth, Justin Johnson, Kenji Hata, Joshua Kravitz, Stephanie Chen, Yannis Kalandidis, Li-Jia Li, David A Shamma, et al. *Visual genome: Connecting language and vision using crowdsourced dense image annotations*. International journal of computer vision, 123(1):32–73, 2017.
+
+- **OK-VQA**: 
+  > Kenneth Marino, Mohammad Rastegari, Ali Farhadi, and Roozbeh Mottaghi. *Ok-vqa: A visual question answering benchmark requiring external knowledge*. In Proceedings of the IEEE/cvf conference on computer vision and pattern recognition, pages 3195–3204, 2019.
+
+- **Text-VQA**: 
+  > Amanpreet Singh, Vivek Natarajan, Meet Shah, Yu Jiang, Xinlei Chen, Dhruv Batra, Devi Parikh, and Marcus Rohrbach. *Towards vqa models that can read*. In CVPR, 2019.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited, ready for downstream processing or review.

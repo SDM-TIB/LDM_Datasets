@@ -1,0 +1,99 @@
+[
+    {
+        "dcterms:creator": [
+            "John N Weinstein",
+            "Eric A Collisson",
+            "Gordon B Mills",
+            "Kenna R Mills Shaw",
+            "Brad A Ozenberger",
+            "Kyle Ellrott",
+            "Ilya Shmulevich",
+            "Chris Sander",
+            "Joshua M Stuart",
+            "Cancer Genome Atlas Research Network"
+        ],
+        "dcterms:description": "The TCGA dataset consists of gene expression measurements for cancer patients. There are 9659 samples for which we used the measurements from the 4000 most variable genes. The gene expression data was log-normalized and each feature was scaled in the [0, 1] interval.",
+        "dcterms:title": "TCGA",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://doi.org/10.1038/ng.2764",
+        "dcat:theme": [
+            "Cancer Research",
+            "Genomics"
+        ],
+        "dcat:keyword": [
+            "Gene expression",
+            "Cancer",
+            "Genomics"
+        ],
+        "dcat:landingPage": "https://www.cancer.gov/tcga",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Cancer outcome prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Patrick Schwab",
+            "Lorenz Linhardt",
+            "Stefan Bauer",
+            "Joachim M Buhmann",
+            "Walter Karlen"
+        ],
+        "dcterms:description": "The News dataset consists of word counts for news items. We extracted 10000 news items each with 2858 features. The outcome can be thought of as user satisfaction.",
+        "dcterms:title": "News",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://arxiv.org/abs/1902.00981",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Media Analysis"
+        ],
+        "dcat:keyword": [
+            "Word counts",
+            "News articles",
+            "User satisfaction"
+        ],
+        "dcat:landingPage": "https://arxiv.org/abs/1902.00981",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "User satisfaction prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Alistair EW Johnson",
+            "Tom J Pollard",
+            "Lu Shen",
+            "H Lehman Li-wei",
+            "Mengling Feng",
+            "Mohammad Ghassemi",
+            "Benjamin Moody",
+            "Peter Szolovits",
+            "Leo Anthony Celi",
+            "Roger G Mark"
+        ],
+        "dcterms:description": "The MIMIC III database consists of observational data from patients in the ICU. We extracted 3000 patients that receive antibiotics treatment and used 9 clinical covariates as features.",
+        "dcterms:title": "MIMIC III",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://doi.org/10.1038/sdata.2016.35",
+        "dcat:theme": [
+            "Healthcare",
+            "Clinical Data"
+        ],
+        "dcat:keyword": [
+            "ICU data",
+            "Clinical covariates",
+            "Patient outcomes"
+        ],
+        "dcat:landingPage": "https://mimic.physionet.org/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Patient outcome prediction"
+        ]
+    }
+]

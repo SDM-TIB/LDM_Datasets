@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Characterising Harmful Data Sources When Constructing Multi-Fidelity Surrogate Models" by Nicolau Andrés-Thió et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the study's focus, and the introduction often outlines the context and significance of the datasets used.
+
+Next, I will look for specific sections that typically contain dataset information, such as **section 3 (ISA of Bf-EBB surrogate modelling with fixed sample)** and **section 3.1 (Generating an unbiased test suite)**. These sections are likely to detail the datasets used in the experiments and their characteristics.
+
+In section 3.1, the authors mention a set of **321 function pairs** that were used to create instances for their analysis. They specify that these function pairs include both literature-based and disturbance-based function pairs. I will note the following datasets:
+
+1. **Literature Function Pairs**: The authors reference over **200 literature function pairs** from various studies, which are crucial for their analysis. However, the specific datasets are not named in the abstract or introduction, so I will need to look at the references for full citations.
+
+2. **Disturbance-Based Function Pairs**: The authors generated over **80,000 function pairs** using a disturbance-based procedure. While the exact datasets are not listed, the methodology for generating these pairs is described, indicating that they are synthetic.
+
+3. **SOLAR Simulation Engine**: The authors mention using the **SOLAR simulation engine** for additional function pairs, which provides black-box objective functions. This is a significant dataset as it simulates real-world scenarios.
+
+Now, I will check the **References section** to find full citations for the literature function pairs mentioned. The references include various studies that contributed to the dataset pool. Here are some key citations:
+
+- For the literature function pairs, I will extract citations from the references, such as:
+  > Rajnarayan, D., Haas, A., & Kroo, I. (2008). A multifidelity gradient-free optimization method and application to aerodynamic design. In 12th AIAA/ISSMO Multidisciplinary Analysis and Optimization Conference, page 6020.
+
+- The SOLAR simulation engine is cited as:
+  > Garneau, M. L. (2015). Modelling of a solar thermal power plant for benchmarking blackbox optimization solvers. Master’s thesis, Polytechnique Montréal. URL: https://publications.polymtl.ca/1996/.
+
+After gathering this information, I will compile the datasets and their citations into a structured format for clarity and future reference. This will ensure that I have accurately captured the datasets used in the research and their respective sources.

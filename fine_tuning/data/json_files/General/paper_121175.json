@@ -1,0 +1,163 @@
+[
+    {
+        "dcterms:creator": [
+            "Daniel Plohmann"
+        ],
+        "dcterms:description": "A database containing information about Domain Generation Algorithms (DGAs) and their seeds, used to generate domains for all DGA versions and campaigns in their database ahead of their validity periods.",
+        "dcterms:title": "DGArchive",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://dgarchive.caad.fkie.fraunhofer.de",
+        "dcat:theme": [
+            "Cybersecurity",
+            "Malware Analysis"
+        ],
+        "dcat:keyword": [
+            "DGA",
+            "Domain Generation Algorithms",
+            "Malware",
+            "Seeds"
+        ],
+        "dcat:landingPage": "https://dgarchive.caad.fkie.fraunhofer.de",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Database",
+        "mls:task": [
+            "Domain Generation",
+            "Malware Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Victor Le Pochat",
+            "Tom Van Goethem",
+            "Samaneh Tajalizadehkhoob",
+            "Maciej Korczyński",
+            "Wouter Joosen"
+        ],
+        "dcterms:description": "A list of top websites created to provide a more reliable and resilient set of data compared to traditional lists, used for training machine learning models.",
+        "dcterms:title": "Tranco List",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://tranco-list.eu/list/GK8K",
+        "dcat:theme": [
+            "Web Traffic Analysis",
+            "Cybersecurity"
+        ],
+        "dcat:keyword": [
+            "Top Sites",
+            "Web Ranking",
+            "Malware Detection"
+        ],
+        "dcat:landingPage": "https://tranco-list.eu/list/GK8K",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "List",
+        "mls:task": [
+            "Training Data for ML",
+            "Domain Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "The Shadowserver Foundation"
+        ],
+        "dcterms:description": "DNS logs generated from executing malware samples within a secluded system, used to identify unknown campaigns of known DGAs.",
+        "dcterms:title": "ShadowServer DNS-logs",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://www.shadowserver.org",
+        "dcat:theme": [
+            "Cybersecurity",
+            "Malware Analysis"
+        ],
+        "dcat:keyword": [
+            "DNS Logs",
+            "Malware",
+            "Domain Generation Algorithms"
+        ],
+        "dcat:landingPage": "http://www.shadowserver.org",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Logs",
+        "mls:task": [
+            "Malware Detection",
+            "Domain Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Amazon"
+        ],
+        "dcterms:description": "A dataset containing the top one million websites based on traffic, used for training machine learning models to differentiate between humanly generated domains and algorithmically generated domains.",
+        "dcterms:title": "Alexa-1-Million",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.alexa.com/",
+        "dcat:theme": [
+            "Web Traffic Analysis",
+            "Cybersecurity"
+        ],
+        "dcat:keyword": [
+            "Top Sites",
+            "Web Ranking",
+            "Domain Classification"
+        ],
+        "dcat:landingPage": "https://www.alexa.com/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "List",
+        "mls:task": [
+            "Training Data for ML",
+            "Domain Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Cisco"
+        ],
+        "dcterms:description": "A dataset containing the top one million domains based on DNS requests, used for training machine learning models to identify benign domains.",
+        "dcterms:title": "Cisco Umbrella",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://umbrella.cisco.com/blog/cisco-umbrella-1-million",
+        "dcat:theme": [
+            "Web Traffic Analysis",
+            "Cybersecurity"
+        ],
+        "dcat:keyword": [
+            "Top Sites",
+            "Web Ranking",
+            "Domain Classification"
+        ],
+        "dcat:landingPage": "https://umbrella.cisco.com/blog/cisco-umbrella-1-million",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "List",
+        "mls:task": [
+            "Training Data for ML",
+            "Domain Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Majestic"
+        ],
+        "dcterms:description": "A dataset containing the top one million websites based on backlinks, used for training machine learning models to differentiate between humanly generated domains and algorithmically generated domains.",
+        "dcterms:title": "Majestic Million",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://majestic.com/reports/majestic-million",
+        "dcat:theme": [
+            "Web Traffic Analysis",
+            "Cybersecurity"
+        ],
+        "dcat:keyword": [
+            "Top Sites",
+            "Web Ranking",
+            "Domain Classification"
+        ],
+        "dcat:landingPage": "https://majestic.com/reports/majestic-million",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "List",
+        "mls:task": [
+            "Training Data for ML",
+            "Domain Classification"
+        ]
+    }
+]

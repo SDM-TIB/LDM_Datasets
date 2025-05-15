@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Regularizing Second-Order Influences for Continual Learning" by Zhicheng Sun et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that experiments were conducted on "multiple continual learning benchmarks," which suggests that datasets are involved.
+
+Next, I will focus on **section 4.1 (Experimental Setup)**, where the authors explicitly list the datasets used for their experiments. Here, they mention three continual learning benchmarks:
+
+1. **Split CIFAR-10**: This dataset is derived from the original CIFAR-10 dataset, which consists of 60,000 32x32 color images in 10 classes, with 6,000 images per class. The authors note that it is split into 5 disjoint subsets, each containing 2 classes.
+
+2. **Split CIFAR-100**: Similar to Split CIFAR-10, this dataset is constructed from the CIFAR-100 dataset, which contains 60,000 images across 100 classes. The authors specify that it is divided into 10 tasks with disjoint class labels.
+
+3. **Split miniImageNet**: This dataset is derived from the miniImageNet dataset, which is a subset of ImageNet containing 100 classes and 600 images per class. The authors indicate that it is divided into 5 sequential tasks.
+
+In the **experiments section**, the authors provide further details about the datasets and their configurations, confirming their use in the experiments.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **CIFAR-10**, the citation is:
+  > Alex Krizhevsky. *Learning multiple layers of features from tiny images*. Master’s thesis, University of Toronto, 2009.
+
+- For **CIFAR-100**, the citation is:
+  > Alex Krizhevsky. *Learning multiple layers of features from tiny images*. Master’s thesis, University of Toronto, 2009.
+
+- For **miniImageNet**, the citation is:
+  > Oriol Vinyals, Charles Blundell, Timothy Lillicrap, Daan Wierstra, et al. *Matching networks for one shot learning*. In NeurIPS, pages 3637–3645, 2016.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or processing.

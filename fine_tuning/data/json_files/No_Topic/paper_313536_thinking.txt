@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Making Heads and Tails of Models with Marginal Calibration for Sparse Tagsets" by Michael Kranzlein et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to look for any explicit mentions of datasets. The abstract provides a general overview of the study but does not specify datasets. The introduction discusses the context of the research but does not name any datasets either.
+
+Next, I will focus on **section 4 (Experiments)**, where the authors describe the tagging tasks and the datasets used for evaluation. Here, they mention two specific datasets:
+
+1. **CCG (Combinatory Categorial Grammar) Dataset**: This dataset is used for the syntactic task of supertagging. The authors reference the CCGBank, which contains over 1,200 unique CCG labels and is derived from the Penn Treebank. They mention that the model is limited to predicting tags that appeared at least 10 times in the training data, resulting in 425 tags plus an unknown (UNK) tag.
+
+2. **STREUSLE Dataset**: This dataset is used for the Lexical Semantic Recognition task. The authors cite Schneider and Smith (2015) and Schneider et al. (2018) as the sources for this dataset, which involves the identification of multi-word expressions and classification of lexical units.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **CCGBank**, the citation is:
+  > Julia Hockenmaier and Mark Steedman. *CCGbank: A corpus of CCG derivations and dependency structures extracted from the Penn Treebank*. Computational Linguistics, 33(3):355–396, 2007.
+
+- For the **STREUSLE Dataset**, the citations are:
+  > Nathan Schneider and Noah A. Smith. *A corpus and model integrating multiword expressions and supersenses*. In Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 1537–1547, Denver, Colorado, 2015.
+  
+  > Nathan Schneider, Jena D. Hwang, Vivek Srikumar, Jakob Prange, Austin Blodgett, Sarah R. Moeller, Aviram Stern, Adi Bitan, and Omri Abend. *Comprehensive supersense disambiguation of English prepositions and possessives*. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 185–196, Melbourne, Australia, 2018.
+
+With these citations in hand, I will now compile the dataset entries, ensuring to include the full citations as required. This will provide a comprehensive overview of the datasets utilized in the research.

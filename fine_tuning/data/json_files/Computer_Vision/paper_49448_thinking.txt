@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "From Voxel to Point: IoU-guided 3D Object Detection for Point Cloud with Voxel-to-Point Decoder" by Jiale Li et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract states that the method is evaluated on the **KITTI** and **Waymo Open Dataset**, which indicates that these datasets are crucial for the research.
+
+Next, I will look for detailed descriptions of these datasets in the **experiments section**. In section 4.1, the authors provide specific information about the datasets:
+
+1. **KITTI Dataset**: This dataset is widely used for 3D object detection in autonomous driving. It contains 7,481 training samples and 7,518 testing samples, with annotations for objects in the camera field of vision. The authors mention that they follow a common practice of splitting the training samples into a training set of 3,712 samples and a validation set of 3,769 samples.
+
+2. **Waymo Open Dataset**: This dataset is noted as the largest public dataset for autonomous driving, containing approximately 158,000 point cloud training samples and around 40,000 validation samples. It provides object annotations across a full 360° field of view, which is different from the KITTI dataset.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **KITTI Dataset**, the citation is:
+  > Andreas Geiger, Philip Lenz, and Raquel Urtasun. *Are We Ready for Autonomous Driving? The KITTI Vision Benchmark Suite*. In 2012 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 3354–3361, 2012.
+
+- For the **Waymo Open Dataset**, the citation is:
+  > Pei Sun, Henrik Kretzschmar, Xerxes Dotiwalla, Aurelien Chouard, Vijaysai Patnaik, Paul Tsui, James Guo, Yin Zhou, Yuning Chai, Benjamin Caine, and others. *Scalability in Perception for Autonomous Driving: Waymo Open Dataset*. In 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 2443–2451, 2020.
+
+With this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research.

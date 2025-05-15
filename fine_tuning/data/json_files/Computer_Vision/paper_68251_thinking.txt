@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "HQ-VAE: Hierarchical Discrete Representation Learning with Variational Bayes" by Yuhta Takida et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on image datasets and an audio dataset, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on the **experiments section** (Section 5) where the authors typically describe the datasets used for their experiments. I will look for any explicit mentions of datasets, including their names, characteristics, and the context in which they were used.
+
+In the **experiments section**, the authors mention the following datasets:
+
+1. **CIFAR10**: This dataset consists of ten classes of 32×32 color images, with a total of 50,000 training samples and 10,000 test samples. The authors use the default split and further randomly select 10,000 samples from the training set for validation.
+
+2. **CelebA-HQ**: This dataset contains 30,000 high-resolution face images selected from the CelebA dataset. The authors use the default training/validation/test split of 24,183/2,993/2,824 samples.
+
+3. **FFHQ**: This dataset includes 70,000 high-resolution face images. The authors split the images into training (60,000 samples), validation (5,000 samples), and test (5,000 samples) sets.
+
+4. **ImageNet**: This dataset contains 1,281,167 training images, 50,000 validation images, and 100,000 test images across 1,000 classes. The authors resize the images to 256×256.
+
+5. **UrbanSound8K**: This dataset consists of 8,732 labeled audio clips of urban sounds across ten classes. The authors use folds 1-8 for training, fold 9 for validation, and fold 10 for testing.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- **CIFAR10**: 
+  > Krizhevsky, A., Hinton, G. E., et al. (2009). *Learning multiple layers of features from tiny images*. 
+
+- **CelebA-HQ**: 
+  > Karras, T., Aila, T., Laine, S., & Lehtinen, J. (2018). *A style-based generator architecture for generative adversarial networks*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 4401–4410.
+
+- **FFHQ**: 
+  > Karras, T., Laine, S., & Aila, T. (2019). *Analyzing and improving the image quality of StyleGAN*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 8110–8119.
+
+- **ImageNet**: 
+  > Deng, J., Dong, W., Socher, R., Li, L.-J., Li, K., & Fei-Fei, L. (2009). *Imagenet: A large-scale hierarchical image database*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 248–255.
+
+- **UrbanSound8K**: 
+  > Salamon, J., Jacoby, C., & Bello, J. P. (2014). *A dataset and taxonomy for urban sound research*. In ACM International Conference on Multimedia (ACM MM), pp. 1041–1044.
+
+After gathering all this information, I will compile the dataset entries with their respective citations for further processing or review.

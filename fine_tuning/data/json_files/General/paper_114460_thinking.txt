@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "SuperLine3D: Self-supervised Line Segmentation and Description for LiDAR Point Cloud" by Xiangrui Zhao et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, method, and experiments sections** to identify any datasets mentioned. The abstract discusses the development of a learning-based feature segmentation model for 3D lines in LiDAR point clouds, which suggests that datasets are likely involved in the training and evaluation of the model.
+
+In the **introduction**, the authors mention the challenges of point cloud registration and the lack of available labeled line datasets for LiDAR scans. This indicates that they may have created or utilized specific datasets for their experiments.
+
+Next, I will focus on the **method section**, particularly where they describe the synthetic data generation process. The authors state that they generated **5,000 synthetic point clouds** for training their model. This synthetic dataset is crucial for understanding their approach, but I need to ensure I capture any real datasets they may have used as well.
+
+In **section 4.1 (Network Training)**, the authors specify that they used the **KITTI odometry dataset** for training their network. They mention using sequences 00-07 from this dataset, which is a well-known benchmark in the field of autonomous driving and LiDAR data processing.
+
+In **section 4.2 (Point Cloud Registration Test)**, they further confirm the use of the **KITTI odometry dataset** for testing their model's performance, specifically mentioning sequences 08-10 for evaluation. This reinforces the importance of this dataset in their experiments.
+
+Now, I will look at the **References section** to find the full citations for the datasets mentioned:
+
+1. For the **KITTI odometry dataset**, the citation is:
+   > Andreas Geiger, Philip Lenz, and Raquel Urtasun. *Are we ready for autonomous driving? The KITTI vision benchmark suite*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 3354–3361, 2012.
+
+2. The synthetic dataset they generated does not have a formal citation since it is created by the authors themselves, but I will note that it consists of **5,000 synthetic point clouds** generated for training purposes.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation, ready for structured output or further processing.

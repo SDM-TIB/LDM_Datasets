@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Like a Bilingual Baby: The Advantage of Visually Grounding a Bilingual Language Model" by Khai-Nguyen Nguyen et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions training a recurrent language model on images and corresponding text in English and Spanish from the **MS-COCO-ES** dataset, indicating that this dataset is crucial for the study.
+
+Next, I will focus on the **experiments section** (section 4), where the authors describe their methodology and the datasets used. In section 4.1, they explicitly mention the **MS-COCO-ES dataset**, detailing that it contains 100,000 human-annotated English captions and 100,000 Spanish captions, which are machine-translated from the English captions. This dataset is essential for their experiments, and I will note its details.
+
+Additionally, in section 4.2, the authors discuss several datasets used for evaluating semantic similarity, including:
+
+1. **SimLex-999**: A dataset consisting of 999 pairs of words in English scored on a scale of 0 to 10 based on semantic similarity.
+2. **MEN**: This dataset includes 3000 pairs of words in English scored by semantic relatedness on a scale of 0 to 50.
+3. **WordSim353**: Comprising 353 pairs of words in English scored by semantic similarity on a scale of 0 to 10, with subsets for similarity and relatedness.
+4. **RG-65**: A dataset with 65 pairs of words in English scored by semantic similarity on a scale of 0 to 4, along with its Spanish version (RG-65ES) and a cross-lingual version (RG-65EN-ES).
+
+I will now check the **References section** to find the full citations for each dataset mentioned:
+
+- For **MS-COCO-ES**, the citation is:
+  > Carlos Garcia He. *MS-COCO-ES Dataset*. Available at: https://github.com/carlosGarciaHe/MS-COCO-ES.
+
+- For **SimLex-999**, the citation is:
+  > Hill, F., Reichart, R., & Korhonen, A. (2015). *SimLex-999: Evaluating semantic models with (genuine) similarity estimation*. Computational Linguistics, 41(4), 665-695.
+
+- For **MEN**, the citation is:
+  > Bruni, E., Tran, N.-K., & Baroni, M. (2014). *Multimodal distributional semantics*. Journal of Artificial Intelligence Research, 49, 1-47.
+
+- For **WordSim353**, the citation is:
+  > Finkelstein, L., Gabrilovich, E., Matias, Y., Rivlin, E., Solan, Z., Wolfman, G., & Ruppin, E. (2001). *Placing search in context: The concept revisited*. In Proceedings of the 10th International Conference on World Wide Web (pp. 406-414).
+
+- For **RG-65**, the citation is:
+  > Rubenstein, H., & Goodenough, J. B. (1965). *Contextual correlates of synonymy*. Communications of the ACM, 8(10), 627-633.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

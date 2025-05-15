@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "C3Net: Compound Conditioned ControlNet for Multimodal Content Generation" by Juntao Zhang et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors contribute a "high-quality tri-modal validation set," which suggests that there are specific datasets used for their experiments.
+
+Next, I will focus on **section 4.1 (Training Datasets)**, where the authors detail the datasets used for fine-tuning their model. Here, they mention several datasets:
+
+1. **AudioCap**: This dataset is described as containing sounds with event descriptions for audio captioning. The authors also mention that they used sound effects from Epidemic Sound and selected 1 million ten-second sound clips from AudioSet.
+
+2. **COCO**: The authors state that this dataset consists of images and corresponding text captions, which they used for fine-tuning the image and text Control C3-UNets.
+
+3. **LAION-400M**: This dataset is also mentioned as part of the fine-tuning process for image and text generation, consisting of images and their corresponding text captions.
+
+4. **AudioSet**: This dataset is referenced again, indicating its use in combination with AudioCap for training the audio Control C3-UNet.
+
+In **section 4.2 (Tri-modality Test Set)**, the authors describe the creation of a tri-modal test set based on AudioCap, which includes 2,000 data tuples of audio, image, and text captions generated using Stable Diffusion.
+
+Now, I will look at the **References section** to gather the full citations for each dataset mentioned:
+
+- For **AudioCap**, the citation is:
+  > Chris Dongjoo Kim, Byeongchang Kim, Hyunmin Lee, and Gunhee Kim. *Audiocaps: Generating captions for audios in the wild*. In NAACL-HLT, 2019.
+
+- For **COCO**, the citation is:
+  > Tsung-Yi Lin, Michael Maire, Serge Belongie, Lubomir Bourdev, Ross Girshick, James Hays, Pietro Perona, Deva Ramanan, C. Lawrence Zitnick, and Piotr Dollár. *Microsoft COCO: Common objects in context*. In 2015.
+
+- For **LAION-400M**, the citation is:
+  > Christoph Schuhmann, Richard Vencu, Romain Beaumont, Robert Kaczmarczyk, Clayton Mullis, Aarush Katta, Theo Coombes, Jenia Jitsev, and Aran Komatsuzaki. *Laion-400m: Open dataset of clip-filtered 400 million image-text pairs*. 2021.
+
+- For **AudioSet**, the citation is:
+  > Jort F. Gemmeke, Daniel P. W. Ellis, Dylan Freedman, Aren Jansen, Wade Lawrence, R. Channing Moore, Manoj Plakal, and Marvin Ritter. *Audio set: An ontology and human-labeled dataset for audio events*. In 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 776–780, 2017.
+
+After gathering all this information, I will compile the dataset entries with their full citations to ensure clarity and completeness in the extraction process. This structured approach will help in accurately documenting the datasets used in the research.

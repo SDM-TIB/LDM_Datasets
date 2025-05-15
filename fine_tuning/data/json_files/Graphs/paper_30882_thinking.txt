@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Transductive Linear Probing: A Novel Framework for Few-Shot Node Classification" by Zhen Tan et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will start by reading through the **abstract** and **introduction** sections to identify any datasets that are mentioned or referenced. The abstract provides a brief overview of the research and may mention specific datasets used for evaluation. The introduction often elaborates on the context of the research and may highlight key datasets.
+
+Next, I will look for a dedicated **datasets section** within the paper, which is typically where authors describe the datasets used in their experiments. In this paper, the authors mention conducting experiments on **six widely-used real-world datasets**. I will carefully note the names of these datasets and any relevant details provided about them.
+
+In the **experimental study section**, the authors provide a comprehensive review of their experiments, including the datasets used. I will extract the names of the datasets along with any specific characteristics mentioned, such as the number of nodes, edges, features, and the class distribution.
+
+After identifying the datasets, I will check the **references section** to find the full citations for each dataset. This is crucial for proper attribution and to allow others to locate the datasets easily. I will ensure to note the authors, title, publication venue, and year for each dataset.
+
+The datasets mentioned in the paper include:
+
+1. **CoraFull**: A citation network dataset with nodes representing papers and edges representing citation relationships. The dataset is designed for node classification tasks.
+   - Citation: Aleksandar Bojchevski and Stephan Günnemann. *Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking*. In ICLR, 2018.
+
+2. **ogbn-arxiv**: A directed citation network consisting of CS papers from the Microsoft Academic Graph. Nodes represent papers, and edges denote citation relationships.
+   - Citation: Weihua Hu, Matthias Fey, Marinka Zitnik, Yuxiao Dong, Hongyu Ren, Bowen Liu, Michele Catasta, and Jure Leskovec. *Open Graph Benchmark: Datasets for Machine Learning on Graphs*. In NeurIPS, 2020.
+
+3. **Coauthor-CS**: A co-authorship graph where nodes are authors connected by edges if they co-authored a paper. Node features represent paper keywords.
+   - Citation: Oleksandr Shchur, Maximilian Mumme, Aleksandar Bojchevski, and Stephan Günnemann. *Pitfalls of Graph Neural Network Evaluation*. Relational Representation Learning Workshop, NeurIPS 2018.
+
+4. **Amazon-Computer**: A co-purchase graph where nodes represent products, and edges indicate frequent co-purchases. Node features are bag-of-words encoded product reviews.
+   - Citation: Julian McAuley, Rahul Pandey, and Jure Leskovec. *Inferring Networks of Substitutable and Complementary Products*. In SIGKDD, 2015.
+
+5. **Cora**: A citation network dataset designed for node classification tasks, where nodes represent papers and edges represent citation relationships.
+   - Citation: Zhilin Yang, William Cohen, and Ruslan Salakhudinov. *Revisiting Semi-Supervised Learning with Graph Embeddings*. In International Conference on Machine Learning, 2016.
+
+6. **CiteSeer**: Another citation network dataset for node classification, where nodes represent scientific publications.
+   - Citation: Zhilin Yang, William Cohen, and Ruslan Salakhudinov. *Revisiting Semi-Supervised Learning with Graph Embeddings*. In International Conference on Machine Learning, 2016.
+
+Finally, I will compile the dataset information along with their citations into a structured format for easy reference and use in future research or applications. This ensures that all relevant details are captured and properly attributed.

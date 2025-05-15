@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "XAIQA: Explainer-Based Data Augmentation for Extractive Question Answering" by Joel Stremmel et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract highlights the use of synthetic QA pairs generated from electronic health records, which suggests that there are datasets involved.
+
+Next, I will focus on **section 3 (Datasets)**, where the authors explicitly describe the datasets used in their research. Here, they mention:
+
+1. **MIMIC-III ≥ 100**: This dataset consists of discharge summaries from the MIMIC-III database, focusing on ICD-9 codes that occur in at least 100 summaries. The authors chose this dataset for its public availability and the diversity of medical conditions it covers.
+
+2. **emrQA relations dataset**: This dataset contains medical document question-answer pairs, specifically a random 5% sample of the test set consisting of 10,835 QA pairs, which is used to evaluate the performance of their model.
+
+3. **mimicQA dataset**: This dataset, released by Yue et al. (2021), contains 1,287 QA pairs, with 975 clinician-verified pairs and 312 clinician-generated pairs. It is used as a test set only.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **MIMIC-III**, the citation is:
+  > Alistair E. W. Johnson et al. *MIMIC-III, a freely accessible critical care database*. Scientific Data, 3(1):160035, 2016. doi: 10.1038/sdata.2016.35.
+
+- For **emrQA**, the citation is:
+  > Anusri Pampari et al. *emrQA: A Large Corpus for Question Answering on Electronic Medical Records*. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 2357–2368, 2018. doi: 10.18653/v1/D18-1258.
+
+- For **mimicQA**, the citation is:
+  > Xiang Yue et al. *CliniQG4QA: Generating Diverse Questions for Domain Adaptation of Clinical Question Answering*. arXiv:2010.16021, 2021.
+
+Now that I have gathered the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

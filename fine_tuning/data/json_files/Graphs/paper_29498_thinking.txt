@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "A Closer Look at Few-shot Image Generation" by Yunqing Zhao et al., I will follow a systematic approach to ensure that I capture all relevant datasets and their citations accurately.
+
+First, I will start by reviewing the **abstract** and **introduction** sections of the paper. In the abstract, the authors mention conducting extensive experiments on several public datasets, which indicates that there are datasets to be identified. I will look for specific names or descriptions of these datasets.
+
+Next, I will examine the **experiments section** (Section 6) where the authors typically describe the datasets used for their experiments. In this section, they mention using models pretrained on different source domains, specifically:
+
+1. **FFHQ (Flickr-Faces-HQ)**: This dataset is mentioned as the source domain for training the GAN. It contains 70,000 images and is widely used for face generation tasks.
+
+2. **LSUN (Large-scale Scene Understanding)**: The authors refer to using LSUN datasets, specifically the **LSUN Church** and **LSUN Cars** datasets, as source domains for their experiments.
+
+Additionally, I will look for any target datasets mentioned in the context of few-shot adaptation. The authors mention adapting the pretrained model to several target domains, including:
+
+1. **Sketches**: A dataset containing sketches of human faces.
+2. **FFHQ-Babies**: A subset of the FFHQ dataset focused on baby images.
+3. **FFHQ-Sunglasses**: Another subset of the FFHQ dataset featuring images of people wearing sunglasses.
+4. **Haunted Houses**: A dataset of images depicting haunted houses.
+5. **Wrecked Cars**: A dataset containing images of wrecked cars.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are crucial for proper attribution. Here are the citations I will extract:
+
+- For **FFHQ**:
+  > Tero Karras, Samuli Laine, and Timo Aila. *A style-based generator architecture for generative adversarial networks*. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 4401–4410, 2019.
+
+- For **LSUN**:
+  > Fisher Yu, Yinda Zhang, Shuran Song, Ari Seff, and Jianxiong Xiao. *LSUN: Construction of a large-scale image dataset using deep learning with humans in the loop*. arXiv preprint arXiv:1506.03365, 2015.
+
+- For **Sketches**:
+  > Xiaogang Wang and Xiaoou Tang. *Face photo-sketch synthesis and recognition*. IEEE transactions on pattern analysis and machine intelligence, 31(11):1955–1967, 2008.
+
+- For **FFHQ-Babies** and **FFHQ-Sunglasses**, since they are subsets of FFHQ, I will reference the same citation as FFHQ.
+
+- For **Haunted Houses** and **Wrecked Cars**, I will need to check if there are specific citations provided in the references for these datasets. If not, I will note that they are used but may not have formal citations.
+
+Finally, I will compile the dataset information, including their descriptions and citations, ensuring that each dataset is accurately represented and attributed. This structured approach will help ensure that I do not miss any important details regarding the datasets used in the research.

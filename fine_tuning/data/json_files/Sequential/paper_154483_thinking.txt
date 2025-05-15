@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Day-ahead electricity price prediction applying hybrid models of LSTM-based deep learning methods and feature selection algorithms under consideration of market coupling" by Wei Li and Denis Becker, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and data description sections** to identify any datasets mentioned. The abstract highlights the importance of accurate day-ahead electricity price forecasts and mentions the Nordic market, which suggests that relevant datasets may be discussed in detail.
+
+Next, I will focus on **section 2 (Data description)**, where the authors provide a comprehensive overview of the datasets used in their research. Here, they mention the Nordic system price as the central reference price in the Nordic electricity market and describe the features included in their dataset. They also specify the data sources, which include Nord Pool, Thomson Reuters Eikon, and Entsoe, and the time range of the data collected (from 01/01/2015 to 31/12/2019).
+
+In this section, the authors detail the input features considered for the prediction, such as day-ahead prices, production, consumption, and cross-border electricity flows. They also mention the exclusion of the Russian electricity market due to its differences from European models.
+
+I will then compile the specific datasets mentioned in the paper:
+
+1. **Nordic System Price Dataset**: This dataset includes the day-ahead prices calculated by Nord Pool based on all bids and offers posted in Nordic bidding zones. The dataset spans from 01/01/2015 to 31/12/2019.
+
+2. **Cross-border Electricity Flow Dataset**: This dataset includes data on electricity exchanges between Nord Pool and its integrated countries, specifically Germany, the Netherlands, Lithuania, Estonia, Poland, and Russia. The authors note that the data is sourced from Nord Pool and Entsoe.
+
+Next, I will ensure to retrieve the full citations for these datasets from the references section of the paper. The citations for the datasets are as follows:
+
+- For the **Nordic System Price**, the citation is:
+  > Nord Pool. *Nordic Electricity Market Data*. Available at: https://www.nordpoolgroup.com/
+
+- For the **Cross-border Electricity Flow**, the citation is:
+  > Entsoe. *Transparency Platform*. Available at: https://transparency.entsoe.eu/
+
+After gathering this information, I will summarize the datasets and their citations clearly, ensuring that each dataset is accurately represented with its respective source.
+
+Finally, I will prepare the dataset entries for further processing or review, ensuring that all necessary details are included for clarity and completeness.

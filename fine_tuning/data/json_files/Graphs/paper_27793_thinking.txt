@@ -1,0 +1,17 @@
+To extract datasets from the research paper titled "Experiments with graph convolutional networks for solving the vertex p-center problem" by Elisabeth Gaar and Markus Sinnl, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a general overview, but the experiments section is likely to contain specific details about the datasets used.
+
+In the **experiments section (3.1 Data set)**, the authors describe their dataset creation process. They mention that they train and evaluate their model on fixed-size problem instances, specifically stating that they create instances by randomly sampling points in the integer-square [0, 100]². They also specify the number of points (n = m = 50) and the number of facilities to open (p = 5). This indicates that the dataset is generated rather than sourced from an existing repository.
+
+Next, I will check the **References section** to see if any datasets are cited or if there are any relevant papers that describe datasets used in similar contexts. However, since the dataset is generated, there may not be a formal citation for it.
+
+The authors mention that the training set consists of 100,000 pairs of problem instances and optimal solutions, and the test set consists of 1,000 such pairs. They also note that the optimal solutions were calculated using the IP solver CPLEX, which is relevant for understanding the dataset's context but does not constitute a dataset citation.
+
+Since the dataset is not a standard one with a formal citation, I will summarize the dataset creation process as follows:
+
+1. **Generated Dataset for Vertex p-Center Problem**: The dataset consists of randomly generated instances of the vertex p-center problem, where each instance is created by sampling 50 points in the integer-square [0, 100]². The training set includes 100,000 pairs of problem instances and optimal solutions, while the test set includes 1,000 pairs.
+
+Now, I will compile the information into a structured format, ensuring to note that this dataset is generated and does not have a formal citation. I will also include a note about the use of CPLEX for obtaining optimal solutions, as it is relevant to the dataset's context.
+
+After gathering all this information, I will prepare the dataset entry for review or further processing.

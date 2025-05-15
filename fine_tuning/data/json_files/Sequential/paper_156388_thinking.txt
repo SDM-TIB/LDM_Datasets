@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Forecasting Post-Wildfire Vegetation Recovery in California using a Convolutional Long Short-Term Memory Tensor Regression Network" by Jiahe Liu and Xiaodi Wang, I will follow a systematic approach.
+
+First, I will read through the **abstract** and **introduction** to identify any mentions of datasets. The abstract indicates that the study analyzes data from **104 major California wildfires** occurring between 2013 and 2020, which suggests that a dataset is involved.
+
+Next, I will examine the **Data and Methods section** (specifically section 2) to gather detailed information about the datasets used. In section 2.1, the authors mention that they collected data points including coordinates, burn areas, and fire start and end dates from the **California Department of Forestry and Fire Protection (CAL FIRE)**. This indicates that the dataset is derived from publicly available wildfire data.
+
+In section 2.2, the authors describe the global spatial indices collected from **NASA’s Moderate Resolution Imaging Spectroradiometer (MODIS)**, which includes:
+- **Normalized Difference Vegetation Index (NDVI)** from MOD13Q1
+- **Enhanced Vegetation Index (EVI)** from MOD13Q1
+- **Land Surface Temperature (LST)** from MOD11A2
+- **Fire mask** from MOD14A2
+- **Daily precipitation data** from NASA’s Integrated Multi-satellite Retrievals for GPM (IMERG)
+
+These indices are crucial for the study and represent the datasets used for analysis.
+
+Now, I will look into the **References section** to find full citations for the datasets mentioned. The relevant citations are:
+
+1. For **MOD13Q1 (NDVI)**:
+   > Didan, K. (2021). MODIS/Terra vegetation indices 16-day L3 global 250m SIN grid V061. NASA EOSDIS Land Processes Distributed Active Archive Center. https://doi.org/10.5067/MODIS/MOD13Q1.061.
+
+2. For **MOD11A2 (LST)**:
+   > Wan, Z., Hook, S., & Hulley, G. (2015). MOD11A2 MODIS/Terra land surface temperature/emissivity 8-day L3 global 1km SIN grid V006. NASA EOSDIS Land Processes Distributed Active Archive Center. https://doi.org/10.5067/MODIS/MOD11A2.006.
+
+3. For **MOD14A2 (Fire mask)**:
+   > Didan, K. (2021). MODIS/Terra burned area 8-day L3 global 500m SIN grid V061. NASA EOSDIS Land Processes Distributed Active Archive Center. https://doi.org/10.5067/MODIS/MOD14A2.061.
+
+4. For **IMERG (Precipitation data)**:
+   > Huffman, G.J., Stocker, E.F., Bolvin, D.T., Neklin, E.J., & Tan, J. (2019). GPM IMERG early precipitation L3 1 day 0.1 degree x 0.1 degree V06. Goddard Earth Sciences Data and Information Services Center. https://doi.org/10.5067/GPM/IMERGDE/DAY/06.
+
+Now that I have identified the datasets and their full citations, I will compile this information into a structured format for further processing or review. Each dataset will be clearly described, ensuring that the citations are included for proper attribution.

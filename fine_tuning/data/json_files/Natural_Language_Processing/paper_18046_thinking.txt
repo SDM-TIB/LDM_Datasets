@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "PixelDINO: Semi-Supervised Semantic Segmentation for Detecting Permafrost Disturbances" by Konrad Heidler et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the use of a semi-supervised learning approach for detecting retrogressive thaw slumps (RTS) in permafrost regions, which suggests that datasets related to RTS detection may be included.
+
+Next, I will focus on the **experiments section**, particularly **section IV (Experiments & Results)**, where the authors describe their data acquisition and preprocessing methods. Here, they mention using the RTS inventory from Nitze et al. (2021), which consists of polygons manually labeled using satellite imagery. This indicates that the RTS inventory is a key dataset for their study.
+
+The authors specify that the RTS inventory contains **4335 polygon annotations of RTS footprints** from the years 2018 and 2019, with a combined area of approximately **84 km²**. This detailed description provides essential information about the dataset.
+
+Additionally, they mention using **Sentinel-2 imagery** as the source for unlabelled data, which is crucial for their semi-supervised learning approach. They state that they downloaded **83 matching Sentinel-2 Level 1C imagery** sourced from Google Earth Engine, which will also be noted as part of the datasets used.
+
+Now, I will look at the **References section** to find the full citations for the datasets mentioned:
+
+1. For the **RTS inventory**, the citation is:
+   > Nitze, I., Heidler, K., Barth, S., & Grosse, G. (2021). Developing and Testing a Deep Learning Approach for Mapping Retrogressive Thaw Slumps. *Remote Sensing*, 13(21), 4294.
+
+2. For the **Sentinel-2 imagery**, while the paper does not provide a specific citation, it is generally known that Sentinel-2 data is publicly available through the Copernicus program. Therefore, I will note it as:
+   > European Space Agency. (2015). Sentinel-2 User Handbook. Retrieved from https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This will provide a comprehensive overview of the datasets utilized in the research paper.

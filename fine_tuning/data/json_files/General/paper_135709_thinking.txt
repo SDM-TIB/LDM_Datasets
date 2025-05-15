@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Gaussian Grouping: Segment and Edit Anything in 3D Scenes" by Mingqiao Ye et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the research and may mention key datasets used for evaluation or comparison.
+
+Next, I will focus on the **experiments section** (Section 4) where the authors typically describe the datasets used for their experiments. In this section, I will look for any specific dataset names, descriptions, and the context in which they are used. The authors mention the **LERF-Mask dataset**, which is constructed based on the existing **LERF-Localization** dataset. They describe how they manually annotated three scenes with accurate masks instead of using coarse bounding boxes.
+
+I will also check the **implementation details** to see if there are any additional datasets mentioned or if there are specific references to datasets used for training or evaluation purposes. The authors mention using diverse 3D scene cases from **LLFF**, **Tanks & Temples**, and **Instruct-NeRF2NeRF** for visual comparisons, which are important datasets to note.
+
+Now, I will compile the full citations for each dataset mentioned in the paper. The citations are crucial for proper attribution and to allow others to access the datasets used in the research.
+
+1. **LERF-Mask Dataset**: This dataset is a new dataset created by the authors, so it does not have a traditional citation but should be referenced as follows:
+   > Ye, M., Danelljan, M., Yu, F., & Ke, L. (2023). *LERF-Mask: A dataset for open-world 3D segmentation*. In Gaussian Grouping: Segment and Edit Anything in 3D Scenes.
+
+2. **LERF-Localization Dataset**: The original dataset referenced is:
+   > Kerr, J., Kim, C. M., Goldberg, K., Kanazawa, A., & Tancik, M. (2023). *LERF: Language Embedded Radiance Fields*. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV).
+
+3. **Mip-NeRF 360 Dataset**: The citation for this dataset is:
+   > Barron, J. T., Mildenhall, B., Verbin, D., Srinivasan, P. P., & Hedman, P. (2022). *Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).
+
+4. **LLFF Dataset**: The citation for this dataset is:
+   > Mildenhall, B., Srinivasan, P. P., Ortiz-Cayon, R., Khademi Kalantari, N., Ramamoorthi, R., Ng, R., & Kar, A. (2019). *Local Light Field Fusion: Practical View Synthesis with Prescriptive Sampling Guidelines*. ACM Transactions on Graphics (TOG).
+
+5. **Tanks & Temples Dataset**: The citation for this dataset is:
+   > Knapitsch, A., Park, J., Zhou, Q.-Y., & Koltun, V. (2017). *Tanks and Temples: Benchmarking Large-Scale Scene Reconstruction*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).
+
+6. **Instruct-NeRF2NeRF Dataset**: The citation for this dataset is:
+   > Haque, A., Tancik, M., Efros, A. A., Holynski, A., & Kanazawa, A. (2023). *Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions*. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV).
+
+After gathering all this information, I will ensure that each dataset is clearly documented with its respective citation for future reference and validation of the research findings. This structured approach will help in accurately extracting and presenting the datasets used in the paper.

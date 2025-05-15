@@ -1,0 +1,34 @@
+To extract the datasets mentioned in the research paper titled "Training without training data: Improving the generalizability of automated medical abbreviation disambiguation" by Marta Skreta et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and datasets sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors trained their model on a public dataset (MIMIC-III) and tested it on datasets from different sources (CASI, i2b2). This suggests that these datasets are important for the study.
+
+Next, I will focus on **section 2 (Datasets)**, where the authors provide detailed descriptions of the datasets used in their study. They mention five datasets:
+
+1. **MIMIC-III**: This dataset is used as the training set, consisting of clinical notes that contain abbreviation expansions. The authors also mention using MIMIC-III to pretrain word embeddings.
+
+2. **AllAcronyms**: This is a crowd-sourced database that contains a list of 80,000 medical abbreviations and their potential expansions. The authors filtered this dataset to retain 30,974 abbreviations that have multiple disambiguations.
+
+3. **CASI**: This dataset consists of admission notes, consultation notes, and discharge summaries from hospitals affiliated with the University of Minnesota. It contains 67 hand-labeled abbreviations with approximately 500 samples per abbreviation, used as an orthogonal test set.
+
+4. **i2b2**: This dataset is a collection of patient discharge summaries from Harvard Medical School. It does not have hand-labeled annotations, so the authors generated labels using reverse substitution (RS).
+
+5. **UMLS**: While not a dataset in the traditional sense, the Unified Medical Language System (UMLS) is mentioned as a source of medical concepts used to augment the training set.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **MIMIC-III**, the citation is:
+  > Alistair E W Johnson, Tom J Pollard, Lu Shen, Li-Wei H Lehman, Mengling Feng, Mohammad Ghassemi, Benjamin Moody, Peter Szolovits, Leo Anthony Celi, and Roger G Mark. *MIMIC-III, a freely accessible critical care database*. Sci Data, 3:160035, May 2016.
+
+- For **CASI**, the citation is:
+  > Sungrim Moon, Serguei V. S. Pakhomov, Nathan Liu, James O. Ryan, and Genevieve B. Melton. *A sense inventory for clinical abbreviations and acronyms created using clinical notes and medical dictionary resources*. JAMIA, 21(2):299–307, 2014. doi: 10.1136/amiajnl-2012-001506.
+
+- For **i2b2**, the citation is:
+  > i2b2. *Informatics for integrating biology and the bedside (i2b2)*. https://www.i2b2.org/.
+
+- For **AllAcronyms**, the citation is:
+  > AllAcronyms. *Allacronyms*. https://www.allacronyms.com/.
+
+- For **UMLS**, the citation is:
+  > UMLS. *Unified Medical Language System (UMLS)*. https://www.nlm.nih.gov/research/umls/.
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

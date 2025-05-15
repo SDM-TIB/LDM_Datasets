@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "GraphMETRO: Mitigating Complex Graph Distribution Shifts via Mixture of Aligned Experts" by Shirley Wu et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that GraphMETRO achieves state-of-the-art results on four datasets from the GOOD benchmark, which indicates that datasets are involved.
+
+Next, I will focus on the **experiments section** (Section 4), where the authors describe their methodology and the datasets used for evaluation. In this section, they explicitly list the datasets they utilized:
+
+1. **WebKB**: A dataset for classifying university webpages into five classes based on different university domains. This dataset is mentioned as a benchmark for evaluating the model's performance.
+
+2. **Twitch**: A binary classification dataset that predicts whether a user streams mature content, with nodes split mainly by user language domains.
+
+3. **Twitter**: A dataset used for node classification tasks, where the graphs differ in sentence length and language style.
+
+4. **GraphSST2**: A grammar tree graph dataset that poses challenges in generalizing to different language lengths and styles.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to provide context for future researchers.
+
+The citations for the datasets are as follows:
+
+- For **WebKB**, the citation is:
+  > Pei, H., Wei, B., Chang, K. C.-C., Lei, Y., & Yang, B. (2020). Geom-gcn: Geometric graph convolutional networks. In ICLR.
+
+- For **Twitch**, the citation is:
+  > Rozemberczki, B., & Sarkar, R. (2020). Characteristic functions on graphs: Birds of a feather, from statistical descriptors to parametric models. In CIKM.
+
+- For **Twitter**, the citation is:
+  > Yuan, H., Yu, H., Gui, S., & Ji, S. (2023). Explainability in graph neural networks: A taxonomic survey. IEEE Transactions on Pattern Analysis and Machine Intelligence.
+
+- For **GraphSST2**, the citation is:
+  > Socher, R., Perelygin, A., Wu, J., Chuang, J., Manning, C. D., Ng, A. Y., & Potts, C. (2013). Recursive deep models for semantic compositionality over a sentiment treebank. In EMNLP.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that all relevant details are captured accurately and can be referenced appropriately in future work.

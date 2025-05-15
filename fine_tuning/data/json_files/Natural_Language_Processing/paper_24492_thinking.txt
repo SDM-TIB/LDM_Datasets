@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "GRASS: Compute Efficient Low-Memory LLM Training with Structured Sparse Gradients" by Aashiq Muhamed et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions "extensive experiments on pretraining and finetuning tasks," which suggests that datasets are likely involved.
+
+Next, I will examine the **experiments section** in detail, particularly the subsections that discuss pretraining and finetuning. In these sections, the authors typically describe the datasets used for their experiments. 
+
+Upon reviewing the paper, I find that the authors mention the following datasets:
+
+1. **C4 Dataset**: This dataset is described as a cleaned version of Common Crawl, specifically designed for pretraining language models. The authors state that they pretrain their models on the cleaned C4 subset of Dolma.
+
+2. **GLUE Benchmark**: This is a well-known benchmark for evaluating natural language understanding tasks. The authors mention that they fine-tune their models on the GLUE benchmark.
+
+3. **Alpaca Dataset**: The authors refer to this dataset as containing 52k samples used for instruction tuning.
+
+4. **FLAN v2 Dataset**: This dataset is mentioned as a 100k sample subset used for instruction tuning.
+
+Now, I will look into the **References section** to find the full citations for these datasets:
+
+- For the **C4 Dataset**, the citation is:
+  > Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J. Liu. *Exploring the limits of transfer learning with a unified text-to-text transformer*. J. Mach. Learn. Res., 21:140:1–140:67, 2020.
+
+- For the **GLUE Benchmark**, the citation is:
+  > Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R. Bowman. *GLUE: A multi-task benchmark and analysis platform for natural language understanding*. BLACKBOXNLP@EMNLP, 2018.
+
+- For the **Alpaca Dataset**, the citation is:
+  > Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li, Carlos Guestrin, Percy Liang, and Tatsunori B. Hashimoto. *Stanford Alpaca: An instruction-following LLaMA model*. https://github.com/tatsu-lab/stanford_alpaca, 2023.
+
+- For the **FLAN v2 Dataset**, the citation is:
+  > Jason Wei, Maarten Bosma, Vincent Y. Zhao, Kelvin Guu, Adams Wei Yu, Brian Lester, Nan Du, Andrew M. Dai, and Quoc V. Le. *Finetuned language models are zero-shot learners*. arXiv preprint arXiv:2109.01652, 2021.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

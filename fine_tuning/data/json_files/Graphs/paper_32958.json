@@ -1,0 +1,72 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Self-collected dataset includes 20 subjects using multiple cameras. The subjects are mainly Japanese, and their skin color type is Asian race. We collected facial videos, pulse waves, HRs, and respiratory waves from the subjects. Facial videos were captured simultaneously using two devices: a Logitech C920n HD PRO webcam and a Google Pixel 5 smartphone. Pulse waves were acquired using the wearable sensor E4 wristband and utilized as supervised labels to train DL models (not for our method but for the comparative methods). HRs were obtained by the OxyTrue A pulse oximeter and used as the ground-truth for evaluating the HR estimation performance. Respiratory waves were acquired by the RIP respiratory sensor and used as supervised labels (for comparative methods) and as the ground-truth for evaluating the RR estimation performance.",
+        "dcterms:title": "Multi-camera Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Facial videos",
+            "Heart rate",
+            "Respiratory rate",
+            "Multi-camera",
+            "Self-collected"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Video",
+        "mls:task": [
+            "Heart Rate Estimation",
+            "Respiratory Rate Estimation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Self-collected dataset for pre-training includes 22 subjects using a webcam. The subjects are mainly Japanese, and their skin color type is Asian race. This dataset was used for CalibrationPhys w/ Pre-train. We collected facial videos, pulse waves, HRs, and respiratory waves from the subjects. Facial videos were captured by a Logitech C920n HD PRO webcam.",
+        "dcterms:title": "Pre-train Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Facial videos",
+            "Pre-training",
+            "Self-collected"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Video",
+        "mls:task": [
+            "Pre-training for Heart Rate Estimation",
+            "Pre-training for Respiratory Rate Estimation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "S. Bobbia",
+            "R. Macwan",
+            "Y. Benezeth",
+            "A. Mansouri"
+        ],
+        "dcterms:description": "Public dataset includes 42 subjects using a webcam. Facial videos and pulse waves were collected from the subjects. Facial videos were captured by the same Logitech C920n HD PRO webcam as our self-collected dataset. The length of each video was about 60 seconds. This dataset was used to evaluate the HR estimation performance of the webcam model trained with the multi-camera dataset (i.e., cross-dataset evaluation).",
+        "dcterms:title": "UBFC-rPPG",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Facial videos",
+            "Pulse waves",
+            "Public dataset",
+            "Cross-dataset evaluation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Video",
+        "mls:task": [
+            "Heart Rate Estimation"
+        ]
+    }
+]

@@ -1,0 +1,53 @@
+To extract datasets from the research paper titled "PromptFix: You Prompt and We Fix the Photo" by Yongsheng Yu et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors constructed a **large-scale instruction-following dataset** for various image-processing tasks, which suggests that there are specific datasets involved.
+
+Next, I will focus on **section 3 (Data Curation)**, where the authors detail their dataset collection process. Here, they mention several datasets used for different tasks:
+
+1. **Object Removal and Creation Dataset**: This dataset consists of 300,000 image pairs based on the GQA dataset. The authors describe how they segment objects and generate instructions for object removal and creation.
+
+2. **Image Dehazing Dataset**: This dataset combines synthetic datasets (RESIDE, SRRS) and real-world datasets (Dense-Haze, O-Haze), totaling 102,230 synthetic image pairs and 100 real-world pairs.
+
+3. **Colorization Dataset**: A subset of Laion-5b containing 46,465 images is used to generate grayscale images for colorization tasks.
+
+4. **Super Resolution Dataset**: This dataset is compiled from subsets of Laion-5b, Flickr30K, HQ-50K, Flickr1M, and Pexels100K, resulting in 288,015 image pairs.
+
+5. **Low Light Enhancement Dataset**: This dataset combines LOL, SID, SMID, and SDSD datasets, containing 47,139 pairs of images.
+
+6. **Snow Removal Dataset**: This dataset is created from SRRS, CSD, RVSD, and Snow100K, totaling 60,879 pairs of images.
+
+7. **Watermark Removal Dataset**: This dataset combines CLWD and LOGO30K, containing 124,805 pairs of images.
+
+After identifying these datasets, I will then look into the **References section** to find the full citations for the datasets mentioned. Here are the citations I will include:
+
+- For the **GQA dataset**:
+  > Antol, S., Agrawal, A., Lu, J., Mitchell, M., Batra, D., Zitnick, C.L., Parikh, D. (2015). *VQA: Visual Question Answering*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV).
+
+- For the **RESIDE dataset**:
+  > Chen, Z., Wu, J., Wang, W., Su, W., Chen, G., Xing, S., Muyan, Z., Zhang, Q., Zhu, X., Lu, L., et al. (2018). *Benchmarking Single-Image Dehazing and Beyond*. IEEE Transactions on Image Processing.
+
+- For the **Dense-Haze dataset**:
+  > Ancuti, C.O., Ancuti, C., Sbert, M., Timofte, R. (2019). *Dense-haze: A benchmark for image dehazing with dense-haze and haze-free images*. In Proceedings of the IEEE International Conference on Image Processing (ICIP).
+
+- For the **O-Haze dataset**:
+  > Ancuti, C.O., Ancuti, C., Timofte, R., De Vleeschouwer, C. (2018). *O-haze: A dehazing benchmark with real hazy and haze-free outdoor images*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW).
+
+- For the **Laion-5b dataset**:
+  > Schuhmann, C., Beaumont, R., Vencu, R., Gordon, C., Wightman, R., Cherti, M., Coombes, T., Katta, A., Mullis, C., Wortsman, M., et al. (2022). *LAION-5B: An open large-scale dataset for training next generation image-text models*. In Proceedings of the NeurIPS.
+
+- For the **Flickr30K dataset**:
+  > Plummer, B.A., Wang, L., Cervantes, C.M., Caicedo, J.C., Hockenmaier, J., Lazebnik, S. (2015). *Flickr30k entities: Collecting region-to-phrase correspondences for richer image-to-sentence models*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV).
+
+- For the **HQ-50K dataset**:
+  > Yang, Q., Chen, D., Tan, Z., Liu, Q., Chu, Q., Bao, J., Yuan, L., Hua, G., Yu, N. (2023). *HQ-50K: A large-scale, high-quality dataset for image restoration*. arXiv preprint arXiv:2306.05390.
+
+- For the **Snow100K dataset**:
+  > Yildirim, A.B., Baday, V., Erdem, E., Erdem, A., Dundar, A. (2018). *Desnownet: Context-aware deep network for snow removal*. IEEE Transactions on Image Processing.
+
+- For the **CLWD dataset**:
+  > Liu, Y., Zhu, Z., Bai, X. (2021). *WDNet: Watermark-decomposition network for visible watermark removal*. In Proceedings of the IEEE Winter Conference on Applications of Computer Vision (WACV).
+
+- For the **LOGO30K dataset**:
+  > Cun, X., Pun, C. (2021). *Split then refine: Stacked attention-guided ResUNets for blind single image visible watermark removal*. In Proceedings of the AAAI Conference on Artificial Intelligence.
+
+Now, I will compile the dataset entries and their citations into a structured format for further processing.

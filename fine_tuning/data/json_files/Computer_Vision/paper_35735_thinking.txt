@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "A Novel Embedding Model for Knowledge Base Completion Based on Convolutional Neural Network" by Dai Quoc Nguyen et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract states that the proposed model, ConvKB, achieves better link prediction performance on two benchmark datasets, which indicates that datasets are involved.
+
+Next, I will focus on the **introduction section**, where the authors discuss large-scale knowledge bases and mention that their model is evaluated on benchmark datasets. This section may provide context about the datasets used.
+
+In the **experiments section**, specifically **section 3.1 (Datasets)**, the authors explicitly mention the two datasets used for evaluation:
+
+1. **WN18RR**: This dataset is a subset of WN18, which is designed to avoid the reversible relation problem present in the original dataset. It contains 40,943 entities, 3,134 relations, and a total of 86,835 triples.
+
+2. **FB15k-237**: This dataset is a subset of FB15k, also created to mitigate the reversible relation issue. It includes 14,541 entities, 237 relations, and a total of 272,115 triples.
+
+The authors also provide statistics about the datasets, confirming their relevance and usage in the experiments.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **WN18RR**, the citation is:
+  > Tim Dettmers, Pasquale Minervini, Pontus Stenetorp, and Sebastian Riedel. *Convolutional 2D Knowledge Graph Embeddings*. In Proceedings of the 32nd AAAI Conference on Artificial Intelligence, 2018.
+
+- For **FB15k-237**, the citation is:
+  > Kristina Toutanova and Danqi Chen. *Observed Versus Latent Features for Knowledge Base and Text Inference*. In Proceedings of the 3rd Workshop on Continuous Vector Space Models and their Compositionality, pages 57–66, 2015.
+
+With this information, I can now compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research paper.

@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Towards Characterizing Domain Counterfactuals for Invertible Latent Causal Models" by Zeyu Zhou et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the research and may mention datasets used for experiments or evaluations.
+
+Next, I will focus on the **experiments section**, which typically contains detailed descriptions of the datasets used in the study. I will look for any tables or figures that summarize the datasets, as well as any textual descriptions that provide context about the datasets, such as their size, characteristics, and how they were used in the experiments.
+
+In this paper, the authors mention several datasets in the **experiments section**:
+
+1. **Rotated MNIST**: A dataset derived from the MNIST dataset, where images of digits are rotated at various angles. The authors specify that they use a split of 90% for training and 10% for validation.
+
+2. **Rotated FashionMNIST**: Similar to Rotated MNIST, but using the FashionMNIST dataset, which contains images of clothing items.
+
+3. **3D Shapes**: A dataset of procedurally generated 3D shapes with various attributes, used to evaluate the model's performance in generating domain counterfactuals.
+
+4. **Colored Rotated MNIST (CRMNIST)**: An extension of the Rotated MNIST dataset that includes a latent color variable affecting the images.
+
+5. **Causal3DIdent**: A dataset containing rendered images of 3D objects with varying backgrounds, used to test the model's ability to generate counterfactuals.
+
+After identifying these datasets, I will check the **References section** of the paper to find the full citations for each dataset. This is crucial for proper attribution and to allow others to access the datasets used in the research.
+
+The citations I will extract are:
+
+- For **Rotated MNIST** and **Rotated FashionMNIST**, I will refer to the original MNIST and FashionMNIST papers:
+  > Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. *The MNIST Database of Handwritten Digits*. 1998. 
+  > Fashion-MNIST: A Novel Image Dataset for Benchmarking Machine Learning Algorithms. *arXiv preprint arXiv:1708.07747*, 2017.
+
+- For **3D Shapes**, the citation is:
+  > Chris Burgess and Hyunjik Kim. *3D Shapes Dataset*. https://github.com/deepmind/3dshapes-dataset/, 2018.
+
+- For **Colored Rotated MNIST**, the citation is:
+  > The same as Rotated MNIST, as it is an extension of that dataset.
+
+- For **Causal3DIdent**, the citation is:
+  > Julius Von K¨ugelgen et al. *Causal3DIdent Dataset*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021.
+
+Finally, I will compile the dataset entries, including their descriptions and citations, into a structured format for easy reference and use in future research or applications.

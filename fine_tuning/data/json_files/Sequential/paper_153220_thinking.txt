@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "TEST: an End-to-End Network Traffic Examination and Identification Framework Based on Spatio-Temporal Features Extraction" by Yi Zeng et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimentation sections** to identify any datasets mentioned. The abstract discusses the framework's performance but does not specify datasets. The introduction provides context but does not name any datasets either.
+
+Next, I will focus on **section III (Experimentation)**, where the authors describe the datasets used for their experiments. Here, they mention two public datasets:
+
+1. **ISCX VPN-nonVPN Traffic Dataset**: This dataset contains seven kinds of encrypted traffic, categorized into Chat, Email, File Transfer, P2P, Streaming, VoIP, and Browsing. However, the authors note that they removed the Browsing category for simplicity.
+
+2. **USTC-TFC 2016 Dataset**: This dataset includes unencrypted benign traffic and traffic captured during malicious actions. The authors extracted 26,229 samples from both benign and malware traffic for their experiments.
+
+The authors also mention that they created a new dataset by combining these two datasets, ensuring a balanced representation of the classes for training their model.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For the **ISCX VPN-nonVPN Traffic Dataset**, the citation is:
+  > G. Draper-Gil, A. H. Lashkari, M. S. I. Mamun, and A. A. Ghorbani. "Characterization of encrypted and VPN traffic using time-related features." In Proceedings of the 2nd International Conference on Information Systems Security and Privacy (ICISSP), 2016, pp. 407–414.
+
+- For the **USTC-TFC 2016 Dataset**, the citation is:
+  > USTC-TFC 2016 Dataset. "A dataset for traffic classification and analysis." Available at: [insert URL if available].
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research paper.

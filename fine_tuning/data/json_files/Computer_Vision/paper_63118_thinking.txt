@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Neural Schrödinger Bridge with Sinkhorn Losses: Application to Data-driven Minimum Effort Control of Colloidal Self-assembly" by Iman Nodozi et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the research and may mention key datasets used for training or validation. 
+
+Next, I will focus on the **methodology section**, particularly where the authors describe their approach to learning the drift and diffusion coefficients. Here, they mention using **molecular dynamics (MD) simulation data** to train their neural networks. This indicates that MD simulation data is a crucial dataset for their experiments.
+
+In the **numerical case study section**, the authors detail how they generated the training and test data from MD simulations. They mention that the simulation data consisted of **200 state trajectories** of the order parameters ⟨C10⟩ and ⟨C12⟩, which represent the time evolution of the system. This section confirms the use of MD simulation data as a dataset.
+
+I will also check the **references section** to find any citations related to the datasets mentioned. The authors refer to various works that may provide additional context or details about the datasets used.
+
+Now, I will compile the information about the datasets:
+
+1. **Molecular Dynamics Simulation Data**: This dataset is used to learn the drift and diffusion coefficients for the colloidal self-assembly control problem. The authors mention that the data consists of 200 state trajectories of the order parameters ⟨C10⟩ and ⟨C12⟩.
+
+   Citation:
+   > J. A. Anderson, J. Glaser, and S. C. Glotzer. *HOOMD-blue: A python package for high-performance molecular dynamics and hard particle monte carlo simulations*. Computational Materials Science, vol. 173, p. 109363, 2020.
+
+2. **Order Parameters Data**: The authors specifically use the Steinhardt bond order parameters ⟨C10⟩ and ⟨C12⟩, which are derived from the positional information of particles in the MD simulations.
+
+   Citation:
+   > P. J. Steinhardt, D. R. Nelson, and M. Ronchetti. *Bond-orientational order in liquids and glasses*. Physical Review B, vol. 28, no. 2, 1983.
+
+After gathering this information, I will ensure that I have the full citations for each dataset and prepare to format them according to the required structure for further processing or review.

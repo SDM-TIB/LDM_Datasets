@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Intensity-free Convolutional Temporal Point Process: Incorporating Local and Global Event Contexts" by Wang-Tao Zhou et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and the introduction often outlines the context and significance of the datasets used.
+
+In the **introduction**, the authors discuss the importance of event prediction and mention that they conduct experiments on three real-world datasets. This indicates that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 5 (Experimental Results and Discussion)**, where the authors explicitly mention the datasets used for their experiments. They list three datasets: **StackOverflow (SO)**, **Retweet**, and **LastFM**. Each dataset is described in terms of its characteristics, such as the number of types, sequence lengths, and the number of sequences.
+
+I will summarize the details of each dataset as follows:
+
+1. **StackOverflow (SO)**: This dataset contains records of users obtaining badges from the Stack Overflow website, which is a forum for programmers. It has 22 types of badges, with a sequence length of 256 and a total of 4,777 sequences.
+
+2. **Retweet**: This dataset records the timestamps of retweets on Twitter. The events are categorized based on user types (small, medium, large) depending on their follower counts. It has 3 types, a sequence length of 256, and a total of 20,000 sequences.
+
+3. **LastFM**: This dataset contains records of songs listened to by users, with events marked by the singer of the song. It has over 3,000 mark types, a sequence length of 256, and a total of 743 sequences.
+
+After identifying the datasets, I will refer to the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+The citations for the datasets are as follows:
+
+- For **StackOverflow (SO)**, the citation is:
+  > Jure Leskovec and Andrej Krevl. *SNAP Datasets: Stanford large network dataset collection*. http://snap.stanford.edu/data, June 2014.
+
+- For **Retweet**, the citation is:
+  > Qingyuan Zhao, Murat A Erdogdu, Hera Y He, Anand Rajaraman, and Jure Leskovec. *Seismic: A self-exciting point process model for predicting tweet popularity*. In Proceedings of the 21th ACM SIGKDD international conference on knowledge discovery and data mining, pages 1513–1522, 2015.
+
+- For **LastFM**, the citation is:
+  > Thierry Bertin-Mahieux, Daniel P.W. Ellis, Brian Whitman, and Paul Lamere. *The million song dataset*. In Proceedings of the 12th International Conference on Music Information Retrieval (ISMIR 2011), 2011.
+
+Now that I have gathered all the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing or review.

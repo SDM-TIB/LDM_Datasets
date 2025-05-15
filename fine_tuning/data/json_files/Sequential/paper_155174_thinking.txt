@@ -1,0 +1,48 @@
+To extract datasets from the research paper titled "Data Processing Matters: SRPH-Konvergen AI’s Machine Translation System for WMT’21" by Lintang Sutawika and Jan Christian Blaise Cruz, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors participated in the WMT’21 Large Scale Multilingual Translation Task, which suggests that they likely used specific datasets for their experiments.
+
+In the **introduction**, the authors mention the languages involved in their multilingual machine translation system, which hints at the datasets used. They refer to the **FLORES-101 devtest set** as a benchmark for evaluation, which is a strong indication that this dataset is crucial for their work.
+
+Next, I will look into the **data preprocessing section** (Section 2) where the authors describe various datasets they utilized. They mention several sources of parallel text, including:
+
+1. **FLORES-101**: This dataset is explicitly mentioned as the evaluation benchmark for their models. It is essential to note its significance in their experiments.
+
+2. **CCAligned**: A massive collection of cross-lingual web-document pairs, which is also referenced in the context of their preprocessing techniques.
+
+3. **MultiCCAligned**: Another dataset mentioned alongside CCAligned, indicating its relevance in their data processing.
+
+4. **ParaCrawl**: This dataset is noted as a source of parallel text, which is important for multilingual translation tasks.
+
+5. **TED2020**: Cited as a dataset used for training, which is significant for understanding the context of their machine translation system.
+
+6. **WikiMatrix**: Mentioned as a source of parallel sentences mined from Wikipedia, which is relevant for their multilingual approach.
+
+7. **OpenSubtitles**: This dataset is included as part of their preprocessing, indicating its role in the training data.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset mentioned. The citations are crucial for proper attribution and to provide readers with the necessary information to locate the datasets.
+
+The citations I will extract include:
+
+- For **FLORES-101**:
+  > Naman Goyal, Cynthia Gao, Vishrav Chaudhary, Peng-Jen Chen, Guillaume Wenzek, Da Ju, Sanjana Krishnan, Marc’Aurelio Ranzato, Francisco Guzman, and Angela Fan. *The flores-101 evaluation benchmark for low-resource and multilingual machine translation*. arXiv preprint arXiv:2106.03193, 2021.
+
+- For **CCAligned**:
+  > Ahmed El-Kishky, Vishrav Chaudhary, Francisco Guzmán, and Philipp Koehn. *CCAligned: A massive collection of cross-lingual web-document pairs*. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020), pages 5960–5969, Online. Association for Computational Linguistics, 2020.
+
+- For **MultiCCAligned**:
+  > Ahmed El-Kishky, Vishrav Chaudhary, Francisco Guzmán, and Philipp Koehn. *CCAligned: A massive collection of cross-lingual web-document pairs*. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020), pages 5960–5969, Online. Association for Computational Linguistics, 2020.
+
+- For **ParaCrawl**:
+  > ParaCrawl. *https://www.paracrawl.eu/*.
+
+- For **TED2020**:
+  > Nils Reimers and Iryna Gurevych. *Making monolingual sentence embeddings multilingual using knowledge distillation*. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics, 2020.
+
+- For **WikiMatrix**:
+  > Holger Schwenk, Vishrav Chaudhary, Shuo Sun, Hongyu Gong, and Francisco Guzmán. *WikiMatrix: Mining 135m parallel sentences in 1620 language pairs from Wikipedia*. arXiv preprint arXiv:1907.05791, 2019.
+
+- For **OpenSubtitles**:
+  > Jörg Tiedemann. *Parallel data, tools and interfaces in opus*. In Proceedings of the Eight International Conference on Language Resources and Evaluation (LREC’12), Istanbul, Turkey. European Language Resources Association (ELRA), 2012.
+
+After gathering all this information, I will compile the dataset entries with their respective citations for further processing or review.

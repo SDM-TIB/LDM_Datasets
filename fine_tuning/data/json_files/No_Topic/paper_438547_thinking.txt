@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Physics-guided Full Waveform Inversion using Encoder-Solver Convolutional Neural Networks" by Matan M. Goren and Eran Treister, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the study, and the introduction often outlines the context and significance of the datasets used.
+
+In the **introduction**, the authors discuss the challenges of Full Waveform Inversion (FWI) and mention the use of various models and techniques, but I need to look for specific datasets. 
+
+Next, I will focus on the **methodology section**, particularly where the authors describe their experiments and data generation processes. Here, they mention creating datasets for training their Encoder-Solver model. They specify that the dataset consists of samples of the form (etrue, ri, mi, γ), where:
+- **etrue** is the corresponding error vector,
+- **ri** is the residual vector,
+- **mi** is the slowness model,
+- **γ** is the attenuation model.
+
+The authors also describe the process of generating these datasets, which involves creating spatially dependent random linear slowness models and using a specific method to generate the right-hand-side vectors.
+
+In the **results section**, the authors present experiments conducted on two specific models: the **SEG/EAGE salt model** and the **Marmousi model**. They provide details about the grid sizes and the parameters used for these models, which indicates that these models serve as datasets for their experiments.
+
+Now, I will look at the **References section** to find full citations for the datasets mentioned. The SEG/EAGE salt model and the Marmousi model are both well-known datasets in the field of geophysics.
+
+The full citations for these datasets are:
+
+1. **SEG/EAGE Salt Model**:
+   > F. Aminzadeh, J. Brac, and T. Kunz. *3-D Salt and Overthrust Models*. Society of Exploration Geophysicists, 1997.
+
+2. **Marmousi Model**:
+   > A. Brougois, M. Bourget, P. Lailly, M. Poulet, P. Ricarte, and R. Versteeg. *Marmousi, Model and Data*. In EAEG Workshop - Practical Aspects of Seismic Data Inversion, pages cp–108. European Association of Geoscientists & Engineers, 1990.
+
+With this information, I can now compile the dataset entries, ensuring that I include the full citations for each dataset as required. This structured approach allows me to accurately extract and document the datasets used in the research paper.

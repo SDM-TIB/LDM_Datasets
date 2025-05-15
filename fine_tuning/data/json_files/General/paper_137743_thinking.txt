@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "DeepRLI: A Multi-objective Framework for Universal Protein–Ligand Interaction Prediction" by Haoyu Lin et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will start by examining the **abstract and introduction** sections. The abstract mentions that the authors propose a novel framework for protein-ligand interaction prediction and hints at the use of datasets for training and validation. This suggests that datasets will be discussed in detail later in the paper.
+
+Next, I will focus on the **Methods section**, particularly the **Datasets subsection** (2.3). Here, the authors explicitly describe the datasets used for training and validation of their model. They mention three specific datasets:
+
+1. **PDBbindGS_HiQ**: This dataset is derived from the PDBbind database, which collects protein-ligand complex structures and their binding affinity data. The authors clarify that they curated this dataset to include only those structures with precise binding free energy data.
+
+2. **PDBbindRS_RD**: This dataset is created by re-docking structures from the PDBbind refined set using AutoDock Vina, generating various binding conformations. The authors explain how they classify conformations based on their RMSD from the original structures.
+
+3. **PDBbindRS_CD**: This dataset is generated through a cross-docking protocol involving various small molecules with proteins from the PDBbind refined set, providing a comprehensive dataset for enhancing the model's predictive accuracy.
+
+After identifying these datasets, I will look into the **References section** to find the full citations for each dataset mentioned. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For **PDBbind**, the citation is:
+  > Wang, R.; Fang, X.; Lu, Y.; Wang, S. The PDBbind Database: Collection of binding affinities for protein–ligand complexes with known three-dimensional structures. *J. Med. Chem.* 2004, 47, 2977–2980.
+
+- The authors also reference the use of **AutoDock Vina** for generating the PDBbindRS_RD dataset, which is cited as:
+  > Trott, O.; Olson, A. J. AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. *J. Comput. Chem.* 2010, 31, 455–461.
+
+- The cross-docking methodology is based on the original PDBbind database, so the citation remains the same.
+
+Now, I will compile the extracted datasets along with their citations into a structured format for further processing or review. This ensures that all relevant information is captured accurately and comprehensively.

@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "Keeping it Simple: Language Models can learn Complex Molecular Distributions" by Daniel Flam-Shepherd et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and methods sections** to gather initial insights about the datasets used. The abstract mentions that the authors introduce several generative modeling tasks by compiling complex distributions of molecules, which suggests that datasets are involved.
+
+Next, I will focus on the **results section**, where the authors describe three specific tasks: the Penalized LogP Task, the Multi-distribution Task, and the Large Scale Task. Each task is likely associated with a distinct dataset.
+
+1. **Penalized LogP Task**: The authors state that they built a training dataset by screening the **ZINC15 database** for molecules with penalized LogP scores exceeding 4.0. They mention that this dataset contains approximately 160,000 molecules.
+
+2. **Multi-distribution Task**: For this task, the authors created a dataset by combining subsets from four sources:
+   - **GDB13**: Molecules with molecular weight (MW) ≤ 185.
+   - **ZINC**: Molecules with 185 ≤ MW ≤ 425.
+   - **Harvard Clean Energy Project (CEP)**: Molecules with 460 ≤ MW ≤ 600.
+   - **POLYMERS**: Molecules with MW ≥ 600.
+   The total training dataset for this task consists of around 200,000 molecules.
+
+3. **Large Scale Task**: The authors utilized the **PubChem database** to screen for the largest molecules with more than 100 heavy atoms, resulting in a dataset of 300,000 molecules.
+
+After identifying the datasets, I will refer to the **References section** to find the full citations for each dataset:
+
+- For the **ZINC15 database**, the citation is:
+  > J. J. Irwin and B. K. Shoichet. "Zinc - a free database of commercially available compounds for virtual screening." *Journal of Chemical Information and Modeling* 45, 177 (2005).
+
+- For **GDB13**, the citation is:
+  > L. C. Blum and J.-L. Reymond. "970 million druglike small molecules for virtual screening in the chemical universe database GDB-13." *Journal of the American Chemical Society* 131, 8732 (2009).
+
+- For the **Harvard Clean Energy Project (CEP)**, the citation is:
+  > J. Hachmann et al. "The Harvard Clean Energy Project: large-scale computational screening and design of organic photovoltaics on the world community grid." *The Journal of Physical Chemistry Letters* 2, 2241 (2011).
+
+- For **PubChem**, the citation is:
+  > S. Kim et al. "PubChem substance and compound databases." *Nucleic Acids Research* 44, D1202 (2016).
+
+Now, I will compile the dataset entries with their respective citations into a structured format for further processing or review.

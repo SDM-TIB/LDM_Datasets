@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "The Database and Benchmark for Source Speaker Verification Against Voice Conversion" by Ze Li et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, methods, experiments, and conclusion sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors generated a large-scale converted speech database, which suggests that there is a dataset involved.
+
+In the **introduction**, the authors discuss the challenges in source speaker verification due to limited data availability, hinting at the need for datasets. They mention constructing a large-scale dataset of converted speech using 16 voice conversion methods, which is a key point to note.
+
+Next, I will look into the **experiments section**, specifically **section 3 (Database)**, where the authors detail the datasets used. They mention using **Librispeech** as the source speaker dataset and **VoxCeleb** as the target speaker dataset. The specifics provided about the subsets of these datasets (e.g., train-clean, dev-clean, test-clean for Librispeech) are crucial for understanding the dataset's structure.
+
+The paper also lists the 16 voice conversion methods used to generate the converted speech dataset, which is essential for documenting the dataset's diversity and the methods employed.
+
+Now, I will consult the **References section** to gather full citations for the datasets mentioned:
+
+1. For **Librispeech**, the citation is:
+   > V. Panayotov, G. Chen, D. Povey, and S. Khudanpur. *Librispeech: An ASR corpus based on public domain audio books*. In Proceedings of ICASSP, 2015, pp. 5206–5210.
+
+2. For **VoxCeleb**, the citation is:
+   > A. Nagrani, J. S. Chung, and A. Zisserman. *Voxceleb: A large-scale speaker identification dataset*. In Proceedings of Interspeech, 2017.
+
+3. For **VoxCeleb2**, the citation is:
+   > J. S. Chung, A. Nagrani, and A. Zisserman. *VoxCeleb2: Deep Speaker Recognition*. In Proceedings of Interspeech, 2018, pp. 1086–1090.
+
+Next, I will summarize the datasets identified:
+
+- **Librispeech**: A dataset used for training, consisting of 132,553 utterances from 1,172 speakers in the train-clean section, with additional subsets for development and testing.
+
+- **VoxCeleb**: A dataset used for target speaker verification, containing 1,092,009 utterances from 5,994 speakers.
+
+- **VoxCeleb2**: An extension of VoxCeleb, used for development and testing, with specific subsets mentioned.
+
+Finally, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited for future reference.

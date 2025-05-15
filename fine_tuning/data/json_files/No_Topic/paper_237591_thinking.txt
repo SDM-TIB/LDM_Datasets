@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "RIDE: Rewarding Impact-Driven Exploration for Procedurally-Generated Environments" by Roberta Raileanu and Tim Rocktäschel, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors evaluate their method on multiple challenging procedurally-generated tasks in MiniGrid, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (Section 5) where the authors describe the environments used for evaluation. In this section, they mention that they evaluate RIDE on procedurally-generated environments from **MiniGrid** and also on two existing singleton environments: **Mario** and **VizDoom**. 
+
+In **Section 5.1**, the authors specify the types of hard exploration tasks in MiniGrid, including:
+1. **MultiRoomNXSY**: A procedurally-generated grid-world environment.
+2. **KeyCorridorS3R3**: Another task in MiniGrid.
+3. **ObstructedMaze2Dlh**: A maze-like environment in MiniGrid.
+
+In **Section 5.2**, they mention the use of the **Mario** environment (Kauten, 2018) and the **VizDoom** environment (Kempka et al., 2016). 
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+1. For **MiniGrid**, the citation is:
+   > Maxime Chevalier-Boisvert, Lucas Willems, and Suman Pal. *Minimalistic gridworld environment for OpenAI Gym*. https://github.com/maximecb/gym-minigrid, 2018.
+
+2. For **Mario**, the citation is:
+   > Christian Kauten. *Super Mario Bros for OpenAI Gym*. GitHub, 2018. URL https://github.com/Kautenja/gym-super-mario-bros.
+
+3. For **VizDoom**, the citation is:
+   > Michał Kempka, Marek Wydmuch, Grzegorz Runc, Jakub Toczek, and Wojciech Jaśkowski. *VizDoom: A Doom-based AI research platform for visual reinforcement learning*. In 2016 IEEE Conference on Computational Intelligence and Games (CIG), pp. 1–8. IEEE, 2016.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented with its source.

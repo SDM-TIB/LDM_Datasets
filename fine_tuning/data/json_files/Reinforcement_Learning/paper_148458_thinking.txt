@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "PlanGAN: Model-based Planning With Sparse Rewards and Multiple Goals" by Henry Charlesworth and Giovanni Montana, I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** of the paper. The abstract provides a brief overview of the research and may mention any datasets used. In this case, the abstract discusses the performance of PlanGAN on robotic navigation/manipulation tasks, which suggests that datasets related to these tasks may be present.
+
+Next, I will focus on the **experiments section** (section 5), as it typically contains detailed information about the datasets used for testing the proposed methods. Here, the authors mention that they tested PlanGAN on four continuous environments built in MuJoCo: **Four Rooms Navigation, Three-link Reacher, Fetch Push, and Fetch Pick And Place**. This indicates that these environments are the datasets used for evaluation.
+
+I will then look for any specific references to these datasets in the **appendix** or **related work sections** to find full citations. The appendix provides detailed descriptions of the environments, but it does not explicitly cite them. However, I can infer that these environments are standard benchmarks in the reinforcement learning community.
+
+To ensure I have the correct citations, I will refer to the original sources of these environments:
+
+1. **MuJoCo** (Multi-Joint dynamics with Contact): The environments mentioned are part of the MuJoCo physics engine, which is widely used in reinforcement learning research. The citation for MuJoCo is:
+   > Todorov, E., Erez, T., & Tassa, Y. (2012). MuJoCo: A physics engine for model-based control. In Proceedings of the IEEE International Conference on Robotics and Automation (ICRA).
+
+2. **Four Rooms Navigation**: This is a classic environment often used in reinforcement learning, but it is typically not cited individually as it is part of the MuJoCo suite.
+
+3. **Three-link Reacher**: Similar to Four Rooms, this is also a standard environment in the MuJoCo suite.
+
+4. **Fetch Push and Fetch Pick And Place**: These tasks are part of the Fetch robotics environments, which are also included in the MuJoCo framework.
+
+Since the paper does not provide specific citations for each environment, I will use the citation for MuJoCo as the authoritative source for all the environments mentioned.
+
+Now, I will compile the dataset entries with their respective citations:
+
+- **Four Rooms Navigation**: 
+  > Todorov, E., Erez, T., & Tassa, Y. (2012). MuJoCo: A physics engine for model-based control. In Proceedings of the IEEE International Conference on Robotics and Automation (ICRA).
+
+- **Three-link Reacher**: 
+  > Todorov, E., Erez, T., & Tassa, Y. (2012). MuJoCo: A physics engine for model-based control. In Proceedings of the IEEE International Conference on Robotics and Automation (ICRA).
+
+- **Fetch Push**: 
+  > Todorov, E., Erez, T., & Tassa, Y. (2012). MuJoCo: A physics engine for model-based control. In Proceedings of the IEEE International Conference on Robotics and Automation (ICRA).
+
+- **Fetch Pick And Place**: 
+  > Todorov, E., Erez, T., & Tassa, Y. (2012). MuJoCo: A physics engine for model-based control. In Proceedings of the IEEE International Conference on Robotics and Automation (ICRA).
+
+After gathering this information, I will ensure that the dataset entries are structured correctly for any downstream processing or review.

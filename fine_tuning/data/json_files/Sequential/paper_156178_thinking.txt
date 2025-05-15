@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Multimodal Machine Learning for Extraction of Theorems and Proofs in the Scientific Literature" by Shrey Mishra et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to gather initial insights about any datasets referenced. The abstract mentions a dataset of roughly 200k English-language papers from arXiv, which indicates that a significant dataset is involved.
+
+Next, I will focus on **section 4 (Dataset and Setup)**, where the authors describe the dataset preparation process in detail. Here, they explain that they collected all arXiv papers (PDF and sources) until May 2020, using arXiv’s bulk data access. They filtered the articles to retain only those written in English and containing theorem or proof environments. This section provides crucial information about the dataset's size and characteristics.
+
+The authors also mention the use of a ground-truth annotation script to determine the positions of theorem-like environments and proofs in PDF documents based on their LaTeX sources. This indicates that the dataset is not only large but also well-annotated for the specific task of theorem and proof extraction.
+
+In addition, I will check the **References section** to find any citations related to the datasets used. However, since the dataset is primarily derived from arXiv papers, it may not have a separate citation but rather be referenced as a collection of papers.
+
+The key dataset identified is:
+1. **arXiv Dataset**: This dataset consists of roughly 200,000 English-language papers from arXiv, specifically filtered to include only those with theorem or proof environments. The dataset is used for training and evaluating the multimodal machine learning models proposed in the paper.
+
+Now, I will compile the full citation for the dataset:
+- For the **arXiv Dataset**, the citation is:
+  > arXiv. *arXiv Bulk Data Access*. Available at: https://info.arxiv.org/help/bulk_data_s3.html (Accessed: May 2020).
+
+After gathering this information, I will summarize the dataset details and prepare them for structured output, ensuring that the citation is included for proper referencing.

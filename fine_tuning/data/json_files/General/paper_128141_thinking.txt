@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "5IDER: Unified Query Rewriting for Steering, Intent Carryover, Disfluencies, Entity Carryover and Repair" by Jiarui Lu et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and data sections** to identify any datasets mentioned. The abstract provides a brief overview of the problem and the proposed solution, but it may not contain specific dataset details. The introduction will likely discuss the context and challenges, which may hint at the datasets used.
+
+Next, I will focus on **section 2 (Data)**, where the authors describe their data collection process. Here, they mention creating **six datasets** in total, with five datasets for each of the tasks they focus on and one for compositions of the tasks. This section is crucial as it outlines the datasets' purposes and how they were constructed.
+
+The datasets mentioned are:
+
+1. **Entity Carryover Dataset**: This dataset is created by identifying consecutive query pairs with common entities or intents. Annotators provide contextual queries that simplify follow-ups through entity carryover.
+
+2. **Intent Carryover Dataset**: Similar to the entity carryover dataset, this one focuses on intent carryover, where consecutive queries share the same intent.
+
+3. **Repair Dataset**: This dataset is generated from user corrections in ASR transcriptions, using templates to create examples of corrections.
+
+4. **Disfluency Dataset**: This dataset is constructed similarly to the repair dataset, focusing on disfluencies in user speech.
+
+5. **Steering Dataset**: This dataset captures consecutive queries where the first query is an exact prefix of the second, simulating steering behavior.
+
+6. **Compositional Dataset**: This dataset is created through synthetic templates that require resolving two of the aforementioned tasks simultaneously.
+
+Each of these datasets contains **60,000 datapoints**, except for the compositional dataset, which contains **20,000 datapoints**. They also mention the training, validation, and test splits for each dataset.
+
+Now, I will check the **References section** to find full citations for any datasets mentioned. However, since these datasets are likely created by the authors themselves, they may not have external citations. Instead, I will note that the datasets are original contributions of the authors.
+
+Finally, I will compile the dataset entries, ensuring to include the dataset names, descriptions, and any relevant details, while also noting that the citations are not applicable as they are original datasets.
+
+After gathering all this information, I will prepare the dataset entries for structured output.

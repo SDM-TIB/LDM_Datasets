@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "FLARE up your data: Diffusion-based Augmentation Method in Astronomical Imaging" by Mohammed Talha Alam et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to get an overview of the datasets referenced. The abstract mentions that the authors conducted experiments on several downstream cosmos datasets and created an optimally distributed SpaceNet dataset. This indicates that there are multiple datasets involved.
+
+Next, I will look into **section 4.1 (Dataset)**, where the authors provide detailed information about the datasets used in their experiments. Here, they mention:
+
+1. **Raw Cosmos Dataset**: This dataset was collected through web scraping from NASA’s official website, resulting in around 2,500 images classified into eight distinct astronomical categories. After manual curation, the dataset comprises 1,616 images across eight fine-grained classes.
+
+2. **Synthetic Dataset (DT2I)**: This dataset was generated using the UniDiffuser model with class-concatenated text prompts, resulting in 8,080 synthetic images. This dataset matches the number of raw augmented images in the high-resolution dataset.
+
+3. **SpaceNet Dataset**: This is the optimally distributed dataset created through the FLARE method, which combines the augmented raw images and synthetic variations. It consists of approximately 12,900 samples and is the first in the astronomy domain to have hierarchically structured high-resolution images.
+
+Additionally, the authors mention using several existing datasets for out-of-domain tasks, including:
+
+- **Galaxy Zoo Dataset**: A dataset focusing on morphological classifications for nearly 900,000 galaxies.
+- **Space Dataset**: A dataset referenced in the context of astronomical image classification.
+- **Spiral Dataset**: Another dataset used for classification tasks.
+
+Now, I will gather the full citations for each dataset mentioned in the paper from the **References section**:
+
+- For the **Galaxy Zoo Dataset**, the citation is:
+  > Karen Masters, Chris J Lintott, and Kevin Schawinski. *Galaxy zoo 1: Data release of morphological classifications for nearly 900,000 galaxies*. 2010.
+
+- For the **Spiral Dataset**, the citation is:
+  > Altruistic Emphasis. *Spiral galaxies*. https://www.kaggle.com/datasets/altruisticemphasis/spiral-galaxies, year when the dataset was published or last updated. Accessed: access date.
+
+- For the **Space Dataset**, the citation is:
+  > Abhikalp Srivastava. *Space images category*. https://www.kaggle.com/datasets/abhikalpsrivastava15/space-images-category, year when the dataset was published or last updated. Accessed: access date.
+
+- For the **SpaceNet Dataset**, since it is a new dataset introduced in this paper, I will cite it as:
+  > Mohammed Talha Alam, Raza Imam, Mohsen Guizani, and Fakhri Karray. *SpaceNet Dataset*. Available at: https://github.com/Razaimam45/PlanetX_Dxb.
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

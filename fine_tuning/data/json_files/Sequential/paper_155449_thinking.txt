@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "UnrealNAS: Can We Search Neural Architectures with Unreal Data?" by Zhen Dong et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will start by reading the **abstract** and **introduction** sections to get an overview of the datasets discussed. The abstract mentions the construction of three types of unreal datasets, which indicates that there are specific datasets I need to identify.
+
+Next, I will look for a dedicated **Datasets** section or any relevant subsections throughout the paper. In this case, the authors describe the datasets in detail in **section 3.3 (UnrealNAS)**. Here, they outline three types of unreal datasets:
+
+1. **Randomly Labeled Real Data (RLRD)**: This dataset is constructed using 25,000 images from the CIFAR-10 dataset, where the labels are randomly generated. The authors mention that the images can be labeled in an arbitrary number of classes.
+
+2. **Randomly Labeled Generative Data (RLGD)**: This dataset is based on fractal images generated using an iterated function system (IFS). The authors specify that it consists of 100 categories with 600 instances each, and the images are also 32x32 pixels in size.
+
+3. **Randomly Labeled Random Noise (RLRN)**: This dataset consists of randomly generated tensors with a resolution of 32x32 and three channels, where the pixel values are sampled from a standard normal distribution.
+
+After identifying these datasets, I will check the **References section** to find full citations for the original datasets used in the construction of the unreal datasets. The paper references the CIFAR-10 dataset and the FractalDB dataset, which I need to cite properly.
+
+The full citation for the CIFAR-10 dataset is:
+> Alex Krizhevsky and Geoffrey Hinton. *Learning Multiple Layers of Features from Tiny Images*. Technical Report, 2009.
+
+The FractalDB dataset citation is:
+> Kataoka, H., Okayasu, K., Matsumoto, A., Yamagata, E., Yamada, R., Inoue, N., Nakamura, A., Satoh, Y. *Pre-training without natural images*. In: Asian Conference on Computer Vision (ACCV), 2020.
+
+Now, I will compile the dataset entries, ensuring to include the dataset names, descriptions, and full citations in a structured manner.
+
+In summary, I will extract the following datasets from the paper:
+1. Randomly Labeled Real Data (RLRD) - CIFAR-10
+2. Randomly Labeled Generative Data (RLGD) - FractalDB
+3. Randomly Labeled Random Noise (RLRN) - Normal Distribution
+
+Finally, I will ensure that each dataset entry is documented with the necessary details and citations for clarity and completeness.

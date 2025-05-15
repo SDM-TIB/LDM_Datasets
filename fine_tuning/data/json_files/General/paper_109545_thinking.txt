@@ -1,0 +1,46 @@
+To extract datasets from the research paper titled "A Broad Study of Pre-training for Domain Generalization and Adaptation" by Donghyun Kim et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract highlights the importance of pre-training datasets for domain adaptation and generalization, which suggests that specific datasets will be discussed later in the paper.
+
+Next, I will focus on the **experiments section**, particularly **section 3 (Analysis Setup)** and **section 4 (Experiments)**. In section 3, the authors mention several datasets used for pre-training and downstream tasks. I will take note of these datasets and their characteristics.
+
+In **section 3**, the authors specifically mention the following pre-training datasets:
+1. **ImageNet-1K**: A widely used dataset containing 1.2 million images across 1000 classes.
+2. **ImageNet-22K**: A larger dataset that includes 14.1 million images across 22,000 classes.
+3. **JFT-300M**: A dataset with 300 million images, primarily used for training large models.
+4. **Conceptual Captions**: A dataset consisting of image-text pairs for training vision-language models.
+
+In **section 4**, the authors discuss the downstream datasets used for evaluation:
+1. **Office-Home (OH)**: Contains 15,000 images from 4 domains (Real, Painting, Clipart, Art) across 65 classes.
+2. **DomainNet (DN)**: Comprises 586,000 images from 6 domains (Clipart, Infograph, Painting, Quickdraw, Real, Sketch) across 345 classes.
+3. **CUB (Caltech-UCSD Birds-200-2011)**: Contains 15,000 images of 200 fine-grained bird species.
+4. **iWildCAM2020 (WILD)**: A dataset with images from 182 different animal species captured by camera traps.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset mentioned. The citations are crucial for proper attribution and to provide context for the datasets used in the research.
+
+The full citations I will extract are:
+- For **ImageNet-1K**:
+  > Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z., Karpathy, A., Khosla, A., Bernstein, M., et al. *ImageNet Large Scale Visual Recognition Challenge*. International Journal of Computer Vision (IJCV), 115(3), 211–252, 2015.
+
+- For **ImageNet-22K**:
+  > Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z., Karpathy, A., Khosla, A., Bernstein, M., et al. *ImageNet Large Scale Visual Recognition Challenge*. International Journal of Computer Vision (IJCV), 115(3), 211–252, 2015. (Note: This citation is the same as ImageNet-1K since ImageNet-22K is a superset.)
+
+- For **JFT-300M**:
+  > Sun, C., Shrivastava, A., Singh, S., Gupta, A. *Revisiting Unreasonable Effectiveness of Data in Deep Learning Era*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2017.
+
+- For **Conceptual Captions**:
+  > Sharma, P., Ding, N., Goodman, S., Soricut, R. *Conceptual Captions: A Cleaned, Hypernymed, Image Alt-Text Dataset for Automatic Image Captioning*. In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2018.
+
+- For **Office-Home**:
+  > Venkateswara, H., Eusebio, J., Chakraborty, S., Panchanathan, S. *Deep Hashing Network for Unsupervised Domain Adaptation*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
+
+- For **DomainNet**:
+  > Peng, X., Bai, Q., Xia, X., Huang, Z., Saenko, K., Wang, B. *Moment Matching for Multi-source Domain Adaptation*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2019.
+
+- For **CUB**:
+  > Wah, C., Branson, S., Welinder, P., Perona, P., Belongie, S. *The Caltech-UCSD Birds-200-2011 Dataset*. 2011.
+
+- For **iWildCAM2020**:
+  > Beery, S., Cole, E., Gjoka, A. *The iWildCam 2020 Competition Dataset*. arXiv preprint arXiv:2004.10340, 2020.
+
+Finally, I will compile the dataset information along with their citations into a structured format for easy reference and further processing.

@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers" by Kai Shen et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental settings sections** to identify any datasets mentioned. The abstract indicates that the authors scaled their TTS system to large-scale datasets with **44K hours of speech and singing data**, which suggests that there are specific datasets used.
+
+Next, I will focus on **section 4 (Experimental Settings)**, particularly **subsection 4.1 (Datasets)**, where the authors explicitly describe the datasets used for training and evaluation:
+
+1. **Multilingual LibriSpeech (MLS)**: This dataset is used for training the neural audio codec and diffusion model. It contains **44K hours of transcribed speech data** derived from LibriVox audiobooks, with a total of **5,490 distinct speakers** (2,742 males and 2,748 females). The sample rate is **16KHz**.
+
+2. **LibriSpeech**: This dataset is used for evaluation and contains **40 distinct speakers** with **5.4 hours of annotated speech data**. The authors mention that they randomly sample **15 utterances for each speaker**, forming a subset of **600 utterances** for evaluation.
+
+3. **VCTK Dataset**: Another evaluation dataset that contains **108 distinct speakers**. The authors randomly sample **5 utterances for each speaker**, resulting in a subset of **540 utterances** for evaluation.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **Multilingual LibriSpeech (MLS)**, the citation is:
+  > Vineel Pratap, Qiantong Xu, Anuroop Sriram, Gabriel Synnaeve, and Ronan Collobert. *MLS: A large-scale multilingual dataset for speech research*. Proc. Interspeech 2020, pages 2757–2761, 2020.
+
+- For **LibriSpeech**, the citation is:
+  > Vassil Panayotov, Guoguo Chen, Daniel Povey, and Sanjeev Khudanpur. *LibriSpeech: an ASR corpus based on public domain audio books*. In 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 5206–5210. IEEE, 2015.
+
+- For **VCTK Dataset**, the citation is:
+  > Christophe Veaux, Junichi Yamagishi, Kirsten MacDonald, et al. *Superseded-CSTK VCTK corpus: English multi-speaker corpus for CSTK voice cloning toolkit*. 2016.
+
+With this information, I can now compile the dataset entries, ensuring to include the full citations for each dataset as required. This structured approach ensures that I capture all relevant details accurately.

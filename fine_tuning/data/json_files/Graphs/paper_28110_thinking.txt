@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Jointly Attacking Graph Neural Network and its Explanations" by Wenqi Fan et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper to locate any references to datasets. The abstract mentions "extensive experiments on two explainers under various real-world datasets," indicating that datasets are used in the experiments.
+
+Next, I will focus on the **experimental settings section** (Section 5) where the authors describe the datasets used for their experiments. In this section, they explicitly mention three datasets:
+
+1. **CITESEER**: This dataset is described as a research paper citation network with nodes representing papers and edges representing their citation relationships. The node labels are based on the paper topics, and the node attributes are bag-of-words descriptions about the papers.
+
+2. **CORA**: Similar to CITESEER, CORA is also a citation network where nodes are papers and edges represent citation relationships. The node attributes are bag-of-words descriptions, and the papers are divided into seven classes.
+
+3. **ACM**: This dataset is extracted from the ACM dataset, where nodes represent papers with bag-of-words representations as node attributes. An edge between two nodes indicates they are from the same author, and the nodes are divided into three classes.
+
+I will now check the **References section** to find the full citations for these datasets. The citations for the datasets are as follows:
+
+- For **CITESEER**, the citation is:
+  > Thomas N. Kipf and Max Welling. *Semi-supervised classification with graph convolutional networks*. In ICLR, 2017.
+
+- For **CORA**, the citation is:
+  > Will Hamilton, Zhitao Ying, and Jure Leskovec. *Inductive representation learning on large graphs*. In NeurIPS, pages 1024–1034, 2017.
+
+- For **ACM**, the citation is:
+  > Xiao Wang, Meiqi Zhu, Deyu Bo, Peng Cui, Chuan Shi, and Jian Pei. *Am-gcn: Adaptive multi-channel graph convolutional networks*. In ACM KDD, 2020.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and that the full citations are included for reference. This structured approach will ensure that I capture all relevant details about the datasets used in the research paper.

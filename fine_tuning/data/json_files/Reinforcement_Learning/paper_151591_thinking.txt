@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Two-Step Q-Learning" by V. Antony Vijesh and Shreyas S R, I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to look for any references to datasets. The abstract mentions testing the proposed algorithms on benchmark problems, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** (Section 5) where the authors describe their empirical tests. Here, they mention using benchmark problems such as the **roulette problem**, **maximization bias problem**, and **randomly generated Markov decision processes (MDPs)**. I need to determine if these problems are associated with specific datasets or if they are standard benchmarks in the field.
+
+In the experiments section, the authors refer to the **MDP toolbox** for generating random MDPs, which indicates that there is a dataset or a method for generating datasets used in their experiments. I will note this down as it is relevant to the datasets used.
+
+I will also check the **References section** to find full citations for any datasets or tools mentioned. The authors reference the MDP toolbox, which is crucial for understanding the datasets used in their experiments.
+
+The citation for the MDP toolbox is:
+> Github. Python MDP toolbox. https://github.com/sawcordwell/pymdptoolbox
+
+Additionally, the authors mention a maximization bias example discussed in a previous work, which is also relevant. The citation for this work is:
+> W. Weng et al. (2020). *The mean-squared error of double Q-learning*. Advances in Neural Information Processing Systems, 33, 6815-6826.
+
+Now, I will compile the identified datasets and their citations into a structured format for clarity. 
+
+1. **Randomly Generated Markov Decision Processes (MDPs)**: Generated using the MDP toolbox.
+   - Citation: Github. Python MDP toolbox. https://github.com/sawcordwell/pymdptoolbox
+
+2. **Maximization Bias Example**: Discussed in the context of double Q-learning.
+   - Citation: Weng, W., Gupta, H., He, N., Ying, L., Srikant, R. (2020). *The mean-squared error of double Q-learning*. Advances in Neural Information Processing Systems, 33, 6815-6826.
+
+After gathering this information, I will ensure that the dataset entries are clearly documented and ready for any further processing or review.

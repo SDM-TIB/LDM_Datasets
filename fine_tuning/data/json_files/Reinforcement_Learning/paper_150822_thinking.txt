@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Stabilizing RLHF Through Advantage Model and Selective Rehearsal" by Baolin Peng et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors conducted experiments on both public and proprietary datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4.1 (Datasets and Models)**, where the authors explicitly describe the datasets used in their experiments. Here, they mention:
+
+1. **HH-RLHF Dataset**: This dataset consists of 118,000 helpful and 42,000 harmless examples for training, along with 8,500 for testing. The authors note that they did not distinguish between helpful and harmless examples during their experiments.
+
+2. **COIG Dataset**: This dataset is used for sampling queries in the PPO training phase, with 64,364 examples for training and 2,623 for testing. The authors clarify that there is no intersection between the training and testing sets.
+
+3. **Firefly Dataset**: Similar to COIG, this dataset is also used for sampling queries in the PPO training phase.
+
+4. **SFT Test Data**: The authors selected 1,704 examples from this dataset to create a forget test set, which is used to evaluate the model's ability to retain learned knowledge.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations may not always be explicitly listed for datasets, especially proprietary ones, but I will look for any relevant papers or sources that describe the datasets mentioned.
+
+- For the **HH-RLHF Dataset**, the citation is:
+  > Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, et al. *Training a helpful and harmless assistant with reinforcement learning from human feedback*. arXiv preprint arXiv:2204.05862, 2022a.
+
+- For the **COIG Dataset**, the citation is:
+  > BAAI. *COIG Dataset*. Available at: https://huggingface.co/datasets/BAAI/COIG.
+
+- For the **Firefly Dataset**, the citation is:
+  > YeungNLP. *Firefly Dataset*. Available at: https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M.
+
+The **SFT Test Data** does not have a specific citation provided in the references, as it appears to be part of the proprietary data used by the authors.
+
+After gathering all this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations. This will ensure that I have accurately captured the datasets used in the research paper for further analysis or processing.

@@ -1,0 +1,244 @@
+[
+    {
+        "dcterms:creator": [
+            "Samuel R Bowman",
+            "Luke Vilnis",
+            "Oriol Vinyals",
+            "Andrew M Dai",
+            "Rafal Jozefowicz",
+            "Samy Bengio"
+        ],
+        "dcterms:description": "A large corpus containing 58 million utterances from 29 customer care applications. Each utterance comes with an audio, a recognized hypothesis, and an intent label.",
+        "dcterms:title": "Out-of-domain (OOD) corpus",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1511.06349",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Speech Recognition"
+        ],
+        "dcat:keyword": [
+            "Customer care",
+            "Utterances",
+            "Intent classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Intent classification",
+            "Speech recognition"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Geoffrey Hinton",
+            "Li Deng",
+            "Dong Yu",
+            "George E Dahl",
+            "Abdel-rahman Mohamed",
+            "Navdeep Jaitly",
+            "Andrew Senior",
+            "Vincent Vanhoucke",
+            "Patrick Nguyen",
+            "Tara N Sainath"
+        ],
+        "dcterms:description": "A hybrid DNN-HMM model trained with the cross-entropy criterion followed by the state-level Minimum Bayes Risk (sMBR) objective.",
+        "dcterms:title": "Generic acoustic model (genericAM)",
+        "dcterms:issued": "2012",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Speech Recognition",
+            "Acoustic Modeling"
+        ],
+        "dcat:keyword": [
+            "Acoustic model",
+            "Deep Neural Networks",
+            "Speech recognition"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Speech recognition"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Slava Katz"
+        ],
+        "dcterms:description": "An interpolated language model between 29 individual LMs, each trained for one application.",
+        "dcterms:title": "Generic language model (genericLM)",
+        "dcterms:issued": "1987",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Language Modeling"
+        ],
+        "dcat:keyword": [
+            "Language model",
+            "N-gram model",
+            "Speech recognition"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Language modeling"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "In-domain data for application A, containing several utterance examples per intent from the new application.",
+        "dcterms:title": "In-domain data for application A",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "In-domain data",
+            "Utterances",
+            "Intent classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Intent classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "In-domain data for application B, containing several utterance examples per intent from the new application.",
+        "dcterms:title": "In-domain data for application B",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "In-domain data",
+            "Utterances",
+            "Intent classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Intent classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Gerard Salton",
+            "Chris Buckley"
+        ],
+        "dcterms:description": "A method for computing sentence similarity using term frequency-inverse document frequency (TF-IDF).",
+        "dcterms:title": "TF-IDF based data selection",
+        "dcterms:issued": "1987",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Information Retrieval",
+            "Natural Language Processing"
+        ],
+        "dcat:keyword": [
+            "TF-IDF",
+            "Data selection",
+            "Text retrieval"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Data selection"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Tomas Mikolov",
+            "Ilya Sutskever",
+            "Kai Chen",
+            "Greg S Corrado",
+            "Jeff Dean"
+        ],
+        "dcterms:description": "A method for generating word embeddings to measure similarity between words and sentences.",
+        "dcterms:title": "Embedding approach",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Word Embeddings"
+        ],
+        "dcat:keyword": [
+            "Word embeddings",
+            "Similarity measurement",
+            "Data expansion"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Data expansion"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Kamal Nigam",
+            "Andrew Kachites McCallum",
+            "Sebastian Thrun",
+            "Tom Mitchell"
+        ],
+        "dcterms:description": "A method for text classification from labeled and unlabeled documents using Expectation-Maximization.",
+        "dcterms:title": "Semi-supervised learning approach",
+        "dcterms:issued": "2000",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Text Classification"
+        ],
+        "dcat:keyword": [
+            "Semi-supervised learning",
+            "Text classification",
+            "Expectation-Maximization"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Text classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Sibel Yaman",
+            "Li Deng",
+            "Dong Yu",
+            "Ye-Yi Wang",
+            "Alex Acero"
+        ],
+        "dcterms:description": "An integrative and discriminative technique for spoken utterance classification.",
+        "dcterms:title": "N-gram based data selection",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Speech Recognition"
+        ],
+        "dcat:keyword": [
+            "N-gram",
+            "Data selection",
+            "Utterance classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Utterance classification"
+        ]
+    }
+]

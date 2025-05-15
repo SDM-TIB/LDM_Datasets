@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "SCINeRF: Neural Radiance Fields from a Snapshot Compressive Image" by Yunhao Li et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections of the paper. The abstract mentions that the authors conducted evaluations using both synthetic data and real data captured by their SCI system. This indicates that there are datasets involved, but I need to identify their specific names and details.
+
+Next, I will look into **section 4 (Experiments)**, which is likely to contain detailed information about the datasets used for evaluation. In this section, the authors describe their experimental setup, including the synthetic datasets generated from commonly-used multi-view datasets for image-based rendering and novel-view synthesis. They mention specific datasets such as:
+
+1. **LLFF Dataset**: This dataset is used for image-based rendering and novel-view synthesis.
+2. **NeRF Synthetic360 Dataset**: Another dataset utilized for similar purposes.
+3. **Blender-synthesized datasets**: These include four virtual scenes: **Cozy2room**, **Tanabata**, **Factory**, and **Vender**, generated to simulate the capturing process along a real camera trajectory.
+
+The authors also mention that they collected real snapshot compressed images using a specific hardware setup, which indicates that there is a real-world dataset involved, but they do not provide a specific name for this dataset.
+
+After identifying these datasets, I will check the **References section** to find the full citations for the datasets mentioned. The citations for the datasets are as follows:
+
+- For the **LLFF Dataset**, the citation is:
+  > Ben Mildenhall, Pratul P Srinivasan, Rodrigo Ortiz-Cayon, Nima Khademi Kalantari, Ravi Ramamoorthi, Ren Ng, and Abhishek Kar. *Local light field fusion: Practical view synthesis with prescriptive sampling guidelines*. ACM Transactions on Graphics (TOG), 38(4):1–14, 2019.
+
+- For the **NeRF Synthetic360 Dataset**, the citation is:
+  > Ben Mildenhall, Pratul P Srinivasan, Matthew Tancik, Jonathan T Barron, Ravi Ramamoorthi, and Ren Ng. *NeRF: Representing scenes as neural radiance fields for view synthesis*. Communications of the ACM, 65(1):99–106, 2021.
+
+- For the **Blender-synthesized datasets**, since they are generated from scenes provided in the **DeblurNeRF** paper, I will cite that paper:
+  > Li Ma, Xiaoyu Li, Jing Liao, Qi Zhang, Xuan Wang, Jue Wang, and Pedro V Sander. *Deblur-nerf: Neural radiance fields from blurry images*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 12861–12870, 2022.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

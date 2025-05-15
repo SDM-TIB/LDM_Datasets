@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Segment Anything in Medical Images" by Jun Ma et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract indicates that the authors developed a model called MedSAM on a large-scale medical image dataset with **1,570,263 image-mask pairs**, which suggests that this dataset is significant.
+
+Next, I will focus on the **methods section**, particularly the subsection on dataset curation and pre-processing. Here, the authors describe how they curated their dataset by collating images from various publicly available medical image segmentation datasets. They mention specific sources such as the **Cancer Imaging Archive (TCIA)**, Kaggle, Grand-Challenge, and others. This indicates that the dataset is a compilation of multiple sources rather than a single dataset.
+
+In the **results section**, the authors discuss the performance of MedSAM on **86 internal validation tasks** and **60 external validation tasks**, but they do not specify individual datasets used for these tasks. However, they do mention that the dataset covers **10 imaging modalities and over 30 cancer types**, which provides context for the diversity of the dataset.
+
+Now, I will compile the full citations for the datasets mentioned. The paper references the following sources:
+
+1. **Cancer Imaging Archive (TCIA)**:
+   > Clark, K., Vendt, B., Smith, K., Freymann, J., Kirby, J., Koppel, P., Moore, S., Phillips, S., Maffitt, D., Pringle, M., et al. "The cancer imaging archive (TCIA): maintaining and operating a public information repository." *Journal of Digital Imaging* 26(6), 1045–1057 (2013).
+
+2. **Adrenocortical carcinoma CT dataset**:
+   > Moawad, A.W., Ahmed, A.A., ElMohr, M., Eltaher, M., Habra, M.A., Fisher, S., Perrier, N., Zhang, M., Fuentes, D., Elsayes, K. "Voxel-level segmentation of pathologically-proven Adrenocortical carcinoma with Ki-67 expression (Adrenal-ACC-Ki67-Seg)." *Data set*. https://doi.org/10.7937/1FPG-VM46 (2023).
+
+Next, I will summarize the datasets extracted from the paper:
+
+1. **Large-scale medical image dataset**: Contains **1,570,263 image-mask pairs** covering various imaging modalities and cancer types. This dataset is not attributed to a single source but is a compilation from multiple datasets.
+
+2. **Adrenocortical carcinoma CT dataset**: Specifically mentioned in the context of human annotation studies, this dataset is used for evaluating the performance of MedSAM.
+
+Finally, I will ensure that I have all the necessary information to create structured entries for each dataset, including their descriptions and citations, ready for downstream processing.

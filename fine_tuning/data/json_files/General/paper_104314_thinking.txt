@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "End-to-End Complex-Valued Multidilated Convolutional Neural Network for Joint Acoustic Echo Cancellation and Noise Suppression" by Karn N. Watcharasupat et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors evaluated their model on both synthetic and real test sets, which suggests that datasets are involved.
+
+Next, I will focus on **section 3 (Experiments)**, where the authors describe their training process. They mention using a **synthetic dataset from the Microsoft AEC Challenges**. This section provides details about the dataset, including that it consists of four signals for each acoustic scene: clean nearend speech, potentially noisy farend loopback, potentially noisy echo, and potentially noisy nearend microphone signals. The authors also specify the number of scenes in the training and test sets, which is crucial information.
+
+I will also check the **References section** to find the full citation for the dataset mentioned. The relevant citation for the synthetic dataset is:
+
+- For the **Microsoft AEC Challenges dataset**, the citation is:
+  > K. Sridhar, R. Cutler, A. Saabas, T. Parnamaa, M. Loide, H. Gamper, S. Braun, R. Aichner, and S. Srinivasan. *ICASSP 2021 Acoustic Echo Cancellation Challenge: Datasets, Testing Framework, and Results*. In Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), pages 151–155, 2021.
+
+Additionally, the authors mention evaluating their model on the **Interspeech 2021 AEC Challenge blind test set**. I will also look for its citation in the references:
+
+- For the **Interspeech 2021 AEC Challenge dataset**, the citation is:
+  > S. Braun, R. Cutler, A. Saabas, T. Parnamaa, M. Loide, S. Sootla, M. Purin, H. Gamper, K. Sorensen, R. Aichner, and S. Srinivasan. *Interspeech 2021 Acoustic Echo Cancellation Challenge*. In Proceedings of the Interspeech Conference, pages 4748–4752, 2021.
+
+Now, I will compile the dataset entries with their respective citations. The datasets extracted from the paper are:
+
+1. **Synthetic Dataset from Microsoft AEC Challenges**: This dataset includes clean nearend speech, noisy farend loopback, noisy echo, and noisy nearend microphone signals, with a total of 9.5K training scenes and 500 test scenes.
+   - Citation: K. Sridhar et al. *ICASSP 2021 Acoustic Echo Cancellation Challenge: Datasets, Testing Framework, and Results*. In Proceedings of ICASSP, pages 151–155, 2021.
+
+2. **Interspeech 2021 AEC Challenge Blind Test Set**: This dataset consists of 800 real-world recordings with various challenging conditions.
+   - Citation: S. Braun et al. *Interspeech 2021 Acoustic Echo Cancellation Challenge*. In Proceedings of Interspeech, pages 4748–4752, 2021.
+
+After gathering all this information, I will prepare the dataset entries for further processing or review.

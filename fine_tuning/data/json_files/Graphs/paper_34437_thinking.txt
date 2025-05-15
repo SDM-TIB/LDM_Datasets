@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "G-FARS: Gradient-Field-based Auto-Regressive Sampling for 3D Part Grouping" by Junfeng Cheng and Tania Stathaki, I will follow a systematic approach to identify and document the datasets used in the study.
+
+First, I will read through the **abstract, introduction, and methods sections** to gather initial insights about the datasets. The abstract mentions the introduction of a novel task called "3D part grouping" and references the use of a dataset called **PartNet** for experiments. This indicates that there is at least one dataset to look for.
+
+Next, I will focus on the **experiments section** where the authors describe their methodology and the datasets used. In section 5.1, they explicitly state that they used parts from **PartNet** for their experiments, which includes various shapes such as chairs, tables, and lamps. They also mention the creation of mixed part sets from these categories.
+
+In the **supplementary materials**, the authors provide detailed statistics about the datasets, including the number of parts and the mixing method used to create the training and testing datasets. They specify that they created mixed sets from the following categories:
+- **Chair**: 2,381 training parts, 3,160 testing parts
+- **Table**: 3,160 training parts, 1,352 testing parts
+- **Lamp**: 1,352 training parts, 329 testing parts
+
+Now, I will look for the full citation of the **PartNet** dataset in the references section. The relevant citation is:
+> Kaichun Mo, Shilin Zhu, Angel X Chang, Li Yi, Subarna Tripathi, Leonidas J Guibas, and Hao Su. *PartNet: A large-scale benchmark for fine-grained and hierarchical part-level 3D object understanding*. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 909–918, 2019.
+
+With this information, I will summarize the datasets extracted from the paper:
+
+1. **PartNet Dataset**: Used for creating mixed part sets for the 3D part grouping task, including parts from chairs, tables, and lamps.
+
+Now, I will compile the dataset entries into a structured format that includes the dataset name, description, and full citation, ensuring that all necessary details are captured for future reference or processing.

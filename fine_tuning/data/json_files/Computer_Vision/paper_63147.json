@@ -1,0 +1,130 @@
+[
+    {
+        "dcterms:creator": [
+            "J. Yamagishi",
+            "C. Veaux",
+            "K. MacDonald"
+        ],
+        "dcterms:description": "The training dataset Dtrain uses speakers from the CSTR-VCTK corpus to generate NE and FE utterances. Each speaker can appear as NE or FE to discourage the trained model from overfitting to speakers.",
+        "dcterms:title": "CSTR-VCTK corpus",
+        "dcterms:issued": "2017",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Speech Synthesis",
+            "Voice Cloning"
+        ],
+        "dcat:keyword": [
+            "Multi-speaker corpus",
+            "Speech synthesis",
+            "Voice cloning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Speech Generation",
+            "Voice Cloning"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. Thiemann",
+            "N. Ito",
+            "E. Vincent"
+        ],
+        "dcterms:description": "Background noise is generated using random cuts from the DEMAND database at a signal-to-noise ratio (SNR) in the range of [−2.4, 32.4] dB.",
+        "dcterms:title": "DEMAND",
+        "dcterms:issued": "2013",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Environmental Noise"
+        ],
+        "dcat:keyword": [
+            "Noise database",
+            "Environmental noise",
+            "Multi-channel recordings"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Noise Reduction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D. B. Dean",
+            "S. Sridharan",
+            "R. J. Vogt",
+            "M. W. Mason"
+        ],
+        "dcterms:description": "Background noise is also cut from the QUT-NOISE database at a signal-to-noise ratio (SNR) in the range of [−2.4, 32.4] dB.",
+        "dcterms:title": "QUT-NOISE",
+        "dcterms:issued": "2010",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Voice Activity Detection"
+        ],
+        "dcat:keyword": [
+            "Noise database",
+            "Voice activity detection",
+            "Environmental noise"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Voice Activity Detection"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "Noise is cut from the ETSI database, which provides background noise simulation techniques.",
+        "dcterms:title": "ETSI database",
+        "dcterms:issued": "2008",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Speech Quality Assessment"
+        ],
+        "dcat:keyword": [
+            "Background noise",
+            "Speech quality"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": []
+    },
+    {
+        "dcterms:creator": [
+            "J. S. Garofolo",
+            "L. F. Lamel",
+            "W. M. Fisher",
+            "J. G. Fiscus",
+            "D. S. Pallett"
+        ],
+        "dcterms:description": "The test dataset Dtest is created from speakers of the TIMIT speech corpus, which is used for evaluating the performance of the proposed model.",
+        "dcterms:title": "TIMIT speech corpus",
+        "dcterms:issued": "1993",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Speech Recognition"
+        ],
+        "dcat:keyword": [
+            "Speech corpus",
+            "Phonetic transcription",
+            "Speech recognition"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Speech Recognition"
+        ]
+    }
+]

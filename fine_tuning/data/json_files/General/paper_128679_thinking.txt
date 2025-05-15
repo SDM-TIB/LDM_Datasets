@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Evaluating Data Attribution for Text-to-Image Models" by Sheng-Yu Wang et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to gather initial insights about any datasets that are referenced. The abstract mentions the creation of a "visual data attribution dataset," which indicates that there is a dataset central to the research.
+
+Next, I will focus on **section 3 (Creating an Attribution Dataset)**, where the authors describe the process of generating the dataset. They mention using a pretrained generative model and tuning it toward exemplar images, which leads to the creation of synthesized images. This section is likely to contain detailed information about the dataset's composition and its purpose.
+
+In this section, the authors specify that they create a large dataset of pairs of exemplar and synthesized images using **Custom Diffusion**. They also mention using exemplar objects from **ImageNet** and styles from **BAM-FG** and **Artchive**. This gives me the names of the datasets involved.
+
+I will then look for the **References section** to find the full citations for these datasets:
+
+1. **ImageNet**: The citation is:
+   > J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei. *ImageNet: A Large-Scale Hierarchical Image Database*. In CVPR, 2009.
+
+2. **BAM-FG**: The citation is:
+   > Dan Ruta, Saeid Motiian, Baldo Faieta, Zhe Lin, Hailin Jin, Alex Filipkowski, Andrew Gilbert, and John Collomosse. *ALADIN: All Layer Adaptive Instance Normalization for Fine-Grained Style Similarity*. In ICCV, 2021.
+
+3. **Artchive**: The citation is:
+   > Mark Harden. *Mark Harden’s Artchive*. Available at: https://www.artchive.com/.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This will provide a comprehensive overview of the datasets utilized in the research.
+
+Finally, I will prepare the dataset entries for structured output, ensuring that all relevant details are included for further processing or review.

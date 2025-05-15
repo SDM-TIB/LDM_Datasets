@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Evolutionary Population Curriculum for Scaling Multi-Agent Reinforcement Learning" by Qian Long et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the paper's contributions, and the introduction often highlights key datasets used in the experiments.
+
+Next, I will focus on the **experiments section** (Section 5) where the authors describe the environments used for testing their proposed method. This section is likely to contain explicit mentions of datasets or environments that serve as datasets for their experiments.
+
+In **Section 5.1 (Environments)**, the authors describe three environments: 
+
+1. **Grassland Game**: This environment involves two roles of agents (sheep and wolves) and is designed to test the proposed method in a predator-prey scenario.
+
+2. **Adversarial Battle Game**: This environment consists of two teams of agents competing for resources, which serves as another dataset for evaluating the method.
+
+3. **Food Collection Game**: This environment involves fully cooperative agents working together to collect food, providing a different context for testing.
+
+Each of these environments can be considered a dataset in the context of multi-agent reinforcement learning.
+
+Now, I will check the **References section** to find full citations for any foundational papers or datasets mentioned in relation to these environments. The authors reference several foundational works, including:
+
+- For the **Grassland Game**, the authors mention it is adapted from the original Predator-prey game introduced by the MADDPG paper. The citation for this foundational work is:
+  > Ryan Lowe, Yi Wu, Aviv Tamar, Jean Harb, Pieter Abbeel, and Igor Mordatch. *Multi-agent actor-critic for mixed cooperative-competitive environments*. NIPS, 2017.
+
+- For the **Adversarial Battle Game**, the authors state it is adapted from the mean-field MARL paper. The citation for this work is:
+  > Yaodong Yang, Rui Luo, Minne Li, Ming Zhou, Weinan Zhang, and Jun Wang. *Mean field multi-agent reinforcement learning*. ICML, 2018.
+
+- The **Food Collection Game** is mentioned as being the same as the Cooperative Navigation game in the MADDPG paper, which again refers back to the same citation as above.
+
+After gathering this information, I will compile the dataset entries with their respective citations. Each environment will be treated as a dataset, and I will ensure to include the full citation for each foundational work referenced in the paper.
+
+Finally, I will prepare the dataset entries in a structured format for easy review and processing, ensuring that all necessary details and citations are included.

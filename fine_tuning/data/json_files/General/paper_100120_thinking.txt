@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "Improved Surrogate Modeling of Fluid Dynamics with Physics-Informed Neural Networks" by Jian Cheng Wong et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract discusses the use of Physics-Informed Neural Networks (PINNs) for surrogate modeling in fluid dynamics, but it does not explicitly mention any datasets. The introduction may provide more context or specific datasets used in the experiments.
+
+Next, I will examine the **Methods** section, particularly the subsection titled **Fluid dynamic model**. Here, the authors describe the simulation of a 2-D lid-driven cavity and mention that they used data from three different mesh resolutions: 32 × 32, 96 × 96, and 1024 × 1024 grids. They specify that the 32 × 32 and 96 × 96 data points are treated as synthetic experimental points, while the 1024 × 1024 grid serves as the ground truth for evaluating test error. This indicates that these grid datasets are crucial for their experiments.
+
+I will also look for any additional datasets mentioned in the **Results** section, where the authors discuss various case studies. They refer to different Reynolds number (Re) scenarios (Re = {50, 100, 150, 200, 300}) that were simulated, which may imply that the datasets are generated based on these conditions.
+
+After identifying the datasets, I will check the **References section** for full citations related to the datasets. However, since the datasets are derived from numerical simulations rather than external sources, I will note that the authors do not provide specific external citations for these datasets.
+
+The datasets I will extract are:
+
+1. **Synthetic Experimental Points**: 
+   - Description: Data points from a uniform 32 × 32 grid and a uniform 96 × 96 grid used as synthetic experimental points.
+   - Citation: Not applicable (derived from numerical simulations).
+
+2. **Ground Truth Dataset**: 
+   - Description: Data from a uniform 1024 × 1024 grid used for evaluating test error.
+   - Citation: Not applicable (derived from numerical simulations).
+
+3. **Reynolds Number Scenarios**: 
+   - Description: Simulated scenarios for Re = {50, 100, 150, 200, 300} used in various experiments.
+   - Citation: Not applicable (derived from numerical simulations).
+
+Now, I will compile the dataset entries, ensuring to note that these datasets are based on numerical simulations and do not have external citations. This will be important for clarity in any structured output or documentation.

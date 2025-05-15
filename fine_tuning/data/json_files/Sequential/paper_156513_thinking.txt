@@ -1,0 +1,21 @@
+To extract the datasets from the research paper titled "D-Nikud: Enhancing Hebrew Diacritization with LSTM and Pretrained Models" by Adi Rosenthal and Nadav Shaked, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and data sections** to identify any datasets mentioned. The abstract indicates that the authors showcase state-of-the-art results on several benchmark datasets, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 3 (Data)**, particularly the subsections **3.1 (Data Sources)** and **3.2 (Full Script Reconciliation)**, where the authors describe the datasets used for training their model. In subsection 3.1, they mention two main sources for their training data:
+
+1. **Nakdimon Training Corpora**: This dataset is compiled from various genres, including blogs, books, and news articles, totaling 1.81 million Hebrew tokens. The authors provide a detailed breakdown of the number of files and tokens by genre, which is crucial for understanding the dataset's composition.
+
+2. **Dicta Organization Data**: This dataset includes half a million words from standard-score Wikipedia in "ktiv male" format, which is also essential for the training of their model.
+
+In subsection 3.1, the authors also mention that they have a manually curated collection of modern Hebrew texts, which were diacritized using Dicta and corrected for errors. This dataset spans about 1.5 million Hebrew tokens and is noted for its consistency.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Nakdimon Training Corpora**, the citation is:
+  > Elazar Gershuni and Yuval Pinter. *Restoring Hebrew Diacritics Without a Dictionary*. 2022, March. Available at: https://arxiv.org/pdf/2105.05209.pdf.
+
+- For the **Dicta Organization Data**, the citation is:
+  > Avi Shmidman, Shaltiel Shmidman, Moshe Koppel, and Yoav Goldberg. *Nakdan: Professional Hebrew Diacritizer*. 2020, March. Available at: https://arxiv.org/pdf/2005.03312.pdf.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations. This will ensure that all relevant details are captured for further processing or review.

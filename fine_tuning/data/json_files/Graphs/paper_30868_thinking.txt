@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Contrastive View Design Strategies to Enhance Robustness to Domain Shifts in Downstream Object Detection" by Kyle Buettner and Adriana Kovashka, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental approach sections** to identify any datasets mentioned. The abstract discusses the evaluation of contrastive learning strategies on various domain shifts, which suggests that datasets are involved.
+
+Next, I will focus on the **experimental approach section**, where the authors describe their methodology. They mention two pretraining datasets: **ImageNet-Subset** and **COCO**. The paper states that ImageNet-Subset is a sampled version of the original ImageNet dataset, reduced from over 1 million images to 50,000 images for their experiments. COCO is referenced as a standard dataset for object detection, specifically using the COCO2017 train set.
+
+In the **domain shift datasets section**, the authors specify several datasets used for evaluation:
+1. **VOC (PASCAL Visual Object Classes)**: Used for finetuning, specifically VOC0712 train+val, which contains 16,551 images.
+2. **Clipart, Watercolor, and Comic**: These datasets are used for evaluating appearance shifts, collectively referred to as the **Abstract** dataset, with Clipart containing 1,000 samples and Watercolor and Comic each containing 2,000 samples.
+3. **UnRel**: This dataset is used for evaluating out-of-context robustness, containing 1,049 images with unusual object relations.
+4. **Pascal-C and COCO-C**: These are collections of datasets synthetically domain-shifted on natural corruption types, specifically focusing on the **VOC-Weather** and **COCO-Weather** datasets.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **ImageNet**, the citation is:
+  > Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). *ImageNet classification with deep convolutional neural networks*. Advances in Neural Information Processing Systems, 25.
+
+- For **COCO**, the citation is:
+  > Lin, T.-Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollar, P., & Zitnick, C. L. (2014). *Microsoft COCO: Common objects in context*. In European Conference on Computer Vision (pp. 740-755). Springer.
+
+- For **VOC**, the citation is:
+  > Everingham, M., Van Gool, L., Williams, C. K., Winn, J., & Zisserman, A. (2010). *The Pascal visual object classes (VOC) challenge*. International Journal of Computer Vision, 88(2), 303-338.
+
+- For **Clipart, Watercolor, and Comic**, the citation is:
+  > Inoue, N., Furuta, R., Yamasaki, T., & Aizawa, K. (2018). *Cross-domain weakly-supervised object detection through progressive domain adaptation*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (pp. 5001-5009).
+
+- For **UnRel**, the citation is:
+  > Peyre, J., Sivic, J., Laptev, I., & Schmid, C. (2017). *Weakly-supervised learning of visual relations*. In Proceedings of the IEEE International Conference on Computer Vision (pp. 5179-5188).
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

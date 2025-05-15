@@ -1,0 +1,23 @@
+To extract the datasets mentioned in the research paper titled "DHFormer: A Vision Transformer-Based Attention Module for Image Dehazing" by Abdul Wasi and O. Jeba Shiney, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the research but may not contain detailed dataset information. Therefore, I will focus on the **methodology section**, particularly section 3, which is likely to contain specific details about the datasets used for training and testing.
+
+In **section 3.1 (Dataset)**, the authors mention that they rely on the **NYU2 depth dataset** for training the model and the **SOTS** and **HSTS datasets** for testing. This is a clear indication of the datasets involved in their research.
+
+Next, I will gather more details about each dataset:
+
+1. **NYU2 Depth Dataset**: The authors explain that this dataset contains clear haze-free images and their corresponding depth maps. They utilize these depth maps to generate a hazy dataset by approximating the transmission matrix and assigning a constant value to the global atmospheric light.
+
+2. **SOTS Dataset**: This dataset is used for testing and consists of images captured in indoor setups.
+
+3. **HSTS Dataset**: This dataset is also used for testing and contains images captured outdoors.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **NYU2 Depth Dataset**, the citation is:
+  > N. Silberman, D. Hoiem, P. Kohli, and R. Fergus. *Indoor segmentation and support inference from RGBD images*. In Proceedings of the European Conference on Computer Vision (ECCV), vol. 7576, pp. 746–760, 2012.
+
+- For the **SOTS and HSTS datasets**, the citation is:
+  > B. Li, W. Ren, D. Fu, D. Tao, D. Feng, W. Zeng, and Z. Wang. *Benchmarking single-image dehazing and beyond*. IEEE Transactions on Image Processing, vol. 28, no. 1, pp. 492–505, 2018.
+
+With these citations, I have gathered all necessary information about the datasets used in the paper. I will now compile the dataset entries into a structured format for further processing.

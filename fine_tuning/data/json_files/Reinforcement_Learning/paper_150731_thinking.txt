@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Circumventing Concept Erasure Methods For Text-to-Image Generative Models" by Minh Pham et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to see if any datasets are explicitly mentioned. The abstract discusses various concept erasure methods but does not specify datasets. However, the introduction mentions the **LAION-400M** dataset as a common dataset used in training text-image models, which is a potential dataset of interest.
+
+Next, I will focus on the **experiments section** where the authors describe their methodology and the datasets used for evaluation. In section 4.2 (Evaluation Protocol), the authors mention several datasets used for their experiments:
+
+1. **Imagenette Dataset**: This dataset is referenced in the context of evaluating object concepts. It comprises ten easily identifiable classes and is used to assess the effectiveness of the concept erasure methods.
+
+2. **I2P Dataset**: This dataset is specifically mentioned as a benchmark for measuring the effectiveness of NSFW concept erasure. It includes 4,703 unique prompts with corresponding seeds.
+
+3. **MNIST Dataset**: This dataset is referenced in the context of experiments comparing performance on concepts that are well represented versus those that are not.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **LAION-400M**, the citation is:
+  > Christoph Schuhmann, Romain Beaumont, Richard Vencu, Cade Gordon, Ross Wightman, Mehdi Cherti, Theo Coombes, Aarush Katta, Clayton Mullis, Mitchell Wortsman, Patrick Schramowski, Srivatsa Kundurthy, Katherine Crowson, Ludwig Schmidt, Robert Kaczmarczyk, and Jenia Jitsev. *LAION-5B: an open large-scale dataset for training next generation image-text models*. In Advances in Neural Information Processing Systems, 2022.
+
+- For **Imagenette**, the citation is:
+  > Jeremy Howard. *Imagenette*, 2019.
+
+- For **I2P Dataset**, the citation is:
+  > Eric Zhang, Kai Wang, Xingqian Xu, Zhangyang Wang, and Humphrey Shi. *Forget-me-not: Learning to forget in text-to-image diffusion models*. CoRR, abs/2303.17591, 2023.
+
+- For **MNIST**, the citation is:
+  > Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. *MNIST handwritten digit database*. ATT Labs [Online]. Available: http://yann.lecun.com/exdb/mnist, 2, 2010.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and cited according to the findings in the paper. This will provide a comprehensive overview of the datasets utilized in the research.

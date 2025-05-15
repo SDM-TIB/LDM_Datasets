@@ -1,0 +1,188 @@
+[
+    {
+        "dcterms:creator": [
+            "Hanqing Zeng",
+            "Hongkuan Zhou",
+            "Ajitesh Srivastava",
+            "Rajgopal Kannan",
+            "Viktor Prasanna"
+        ],
+        "dcterms:description": "A graph where each node represents an image uploaded to Flickr. An undirected edge is drawn between two nodes if the corresponding images share common properties, such as the same geographic location, same gallery, or were commented on by the same user. The node features are 500-dimensional bag-of-words representations of the images.",
+        "dcterms:title": "Flickr",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://openreview.net/forum?id=BJe8pkHFwS",
+        "dcat:theme": [
+            "Image Processing",
+            "Graph Learning"
+        ],
+        "dcat:keyword": [
+            "Image dataset",
+            "Social network",
+            "Graph representation"
+        ],
+        "dcat:landingPage": "https://openreview.net/forum?id=BJe8pkHFwS",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Hu",
+            "M. Fey",
+            "M. Zitnik",
+            "Y. Dong",
+            "H. Ren",
+            "B. Liu",
+            "M. Catasta",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "An Amazon product co-purchasing network where each node corresponds to an Amazon product, and edges between nodes indicate that the two products are frequently purchased together. The node features are 100-dimensional bag-of-words vectors of the product descriptions.",
+        "dcterms:title": "ogbn-products",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "E-commerce",
+            "Graph Learning"
+        ],
+        "dcat:keyword": [
+            "Product dataset",
+            "Co-purchasing network",
+            "Graph representation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "W. Hu",
+            "M. Fey",
+            "M. Zitnik",
+            "Y. Dong",
+            "H. Ren",
+            "B. Liu",
+            "M. Catasta",
+            "J. Leskovec"
+        ],
+        "dcterms:description": "A paper citation network curated from arXiv, consisting of nodes representing arXiv papers and directed edges indicating citation relationships. The 128-dimensional node features are derived by averaging the embeddings of words in the paper’s title and abstract.",
+        "dcterms:title": "ogbn-arxiv",
+        "dcterms:issued": "2020",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Academic Publishing",
+            "Graph Learning"
+        ],
+        "dcat:keyword": [
+            "Citation network",
+            "Research papers",
+            "Graph representation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D. Lim",
+            "F. Hohne",
+            "X. Li",
+            "S. L. Huang",
+            "V. Gupta",
+            "O. Bhalerao",
+            "S. N. Lim"
+        ],
+        "dcterms:description": "A Facebook friendship network from 2005 representing university students. Each node represents a student, with node features including major, second major/minor, dorm/house, year, and high school.",
+        "dcterms:title": "Penn94",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Network",
+            "Graph Learning"
+        ],
+        "dcat:keyword": [
+            "Friendship network",
+            "Social graph",
+            "University students"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D. Lim",
+            "F. Hohne",
+            "X. Li",
+            "S. L. Huang",
+            "V. Gupta",
+            "O. Bhalerao",
+            "S. N. Lim"
+        ],
+        "dcterms:description": "The friendship graph of a Slovak online social network where nodes represent users, and edges represent directed friendship relations. Node features include profile information such as geographical region, registration time, and age.",
+        "dcterms:title": "pokec",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Network",
+            "Graph Learning"
+        ],
+        "dcat:keyword": [
+            "Social network",
+            "Friendship relations",
+            "User profiles"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D. Lim",
+            "F. Hohne",
+            "X. Li",
+            "S. L. Huang",
+            "V. Gupta",
+            "O. Bhalerao",
+            "S. N. Lim"
+        ],
+        "dcterms:description": "A connected undirected graph representing relationships between accounts on the streaming platform Twitch. Each node represents a Twitch user, and an edge indicates mutual followers. Node features include the number of views, creation and update dates, language, lifetime, and whether the account is dead.",
+        "dcterms:title": "twitch-gamer",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Network",
+            "Graph Learning"
+        ],
+        "dcat:keyword": [
+            "Streaming platform",
+            "User relationships",
+            "Social graph"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Node Classification"
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+To extract datasets from the research paper titled "Rethinking Transformers Pre-training for Multi-Spectral Satellite Imagery" by Mubashir Noman et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract indicates that the authors conducted extensive experiments on six datasets, which suggests that these datasets are crucial to the research.
+
+Next, I will look for a dedicated **Datasets** section or any mention of datasets in the **experiments** section. In the introduction, the authors mention two specific datasets used for pre-training: **fMoW-RGB** and **fMoW-Sentinel**. I will note these down as they are likely to be significant datasets for the study.
+
+In the **experiments** section, the authors provide detailed descriptions of the datasets used. They mention:
+
+1. **fMoW-RGB**: This dataset is described as a large-scale publicly available dataset of high-resolution satellite images, divided into 62 categories for classification, comprising about 363,000 training and 53,000 test images.
+
+2. **fMoW-Sentinel**: This dataset refines and extends the fMoW-RGB dataset and includes Sentinel-2 data. It also has 62 class categories and contains 712,874 training, 84,939 validation, and 84,966 test images.
+
+Additionally, the authors mention four other datasets used for downstream tasks:
+
+3. **EuroSAT**: A dataset for land use and land cover classification, categorized into 10 classes and comprising 27,000 images.
+
+4. **RESISC-45**: A scene classification dataset with 31,500 images across 45 scene classes.
+
+5. **UC-Merced**: A land use dataset containing 2,100 images across 21 scene classes.
+
+6. **BigEarthNet**: A multi-label land cover classification dataset with 590,326 Sentinel-2 images categorized into 19 classes.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **fMoW-RGB**:
+  > Gordon Christie, Neil Fendley, James Wilson, and Ryan Mukherjee. *Functional map of the world*. In CVPR, 2018.
+
+- For **fMoW-Sentinel**:
+  > Yezhen Cong, Samar Khanna, Chenlin Meng, Patrick Liu, Erik Rozi, Yutong He, Marshall Burke, David B. Lobell, and Stefano Ermon. *Satmae: Pre-training transformers for temporal and multi-spectral satellite imagery*. In NeurIPS, 2022.
+
+- For **EuroSAT**:
+  > Patrick Helber, Benjamin Bischke, Andreas Dengel, and Damian Borth. *Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification*. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 12(7):2217–2226, 2019.
+
+- For **RESISC-45**:
+  > Gong Cheng, Junwei Han, and Xiaoqiang Lu. *Remote sensing image scene classification: Benchmark and state of the art*. Proceedings of the IEEE, 105(10):1865–1883, 2017.
+
+- For **UC-Merced**:
+  > Yi Yang and S. Newsam. *Bag-of-visual-words and spatial extensions for land-use classification*. In ACM SIGSPATIAL International Workshop on Advances in Geographic Information Systems, 2010.
+
+- For **BigEarthNet**:
+  > Gencer Sumbul, Marcela Charfuelan, Begum Demir, and Volker Markl. *Bigearthnet: A large-scale benchmark archive for remote sensing image understanding*. In IGARSS, 2019.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

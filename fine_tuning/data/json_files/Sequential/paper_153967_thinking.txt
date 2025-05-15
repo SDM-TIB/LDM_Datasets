@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Does Unsupervised Architecture Representation Learning Help Neural Architecture Search?" by Shen Yan et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experimental results sections** to locate any references to datasets. The abstract mentions that the authors validate their method on three commonly used NAS search spaces, which suggests that datasets are involved.
+
+Next, I will focus on **section 4 (Experimental Results)**, where the authors describe their experiments. They specifically mention three datasets used for validation:
+
+1. **NAS-Bench-101**: This dataset is described as the first rigorous NAS dataset designed for benchmarking NAS methods, containing 423,624 unique neural architectures with pre-computed validation and test accuracies on CIFAR-10.
+
+2. **NAS-Bench-201**: This dataset features a fixed cell-based DAG representation of neural architectures, with training details provided for three datasets: CIFAR-10, CIFAR-100, and ImageNet-16-120.
+
+3. **DARTS Search Space**: The authors mention that this search space consists of two cells and allows for roughly 109 DAGs, with a focus on the mobile setting for architecture sampling.
+
+In the **References section**, I will look for full citations for these datasets. The citations for the datasets are as follows:
+
+- For **NAS-Bench-101**, the citation is:
+  > Ying, C., Klein, A., Christiansen, E., Real, E., Murphy, K., & Hutter, F. (2019). NAS-Bench-101: Towards reproducible neural architecture search. In Proceedings of the International Conference on Machine Learning (ICML).
+
+- For **NAS-Bench-201**, the citation is:
+  > Dong, X., & Yang, Y. (2020). NAS-Bench-201: Extending the scope of reproducible neural architecture search. In Proceedings of the International Conference on Learning Representations (ICLR).
+
+- For **DARTS**, the citation is:
+  > Liu, H., Simonyan, K., & Yang, Y. (2019). DARTS: Differentiable architecture search. In Proceedings of the International Conference on Learning Representations (ICLR).
+
+Now, I will compile the dataset entries with their respective citations, ensuring that each dataset is accurately represented and properly cited. This will provide a comprehensive overview of the datasets used in the research paper.

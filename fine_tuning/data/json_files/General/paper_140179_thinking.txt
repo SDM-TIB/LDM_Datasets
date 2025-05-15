@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "Self-Supervision in Time for Satellite Images (S3-TSS)" by Akansh Maurya et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, method, and experiments sections** of the paper. The abstract mentions that the authors perform experiments on various downstream datasets, which indicates that there are specific datasets used in their research.
+
+In the **introduction**, the authors discuss the challenges of labeled data in remote sensing and the potential of self-supervised learning. They reference the Seasonal Contrast (SeCo) dataset, which is crucial for their pre-training task. This suggests that the SeCo dataset is one of the primary datasets used.
+
+Next, I will focus on **section 3.3 (Datasets for Downstream Tasks of Interest)**, where the authors explicitly list the datasets used for their downstream tasks. They mention four datasets:
+
+1. **EuroSAT Dataset**: This dataset consists of 27,000 labeled images across ten classes related to land use and land cover.
+
+2. **Aerial Image Dataset (AID)**: A large-scale dataset containing 10,000 images categorized into 30 different aerial scene types.
+
+3. **UCMerced Land Use Dataset**: This dataset includes 2,100 images across 21 classes, with each image measuring 256x256 pixels.
+
+4. **WHU-RS19 Dataset**: A high-resolution dataset with 19 classes of scenes, containing approximately 50 samples per class.
+
+Additionally, I will note that the authors used the **SeCo dataset** for pre-training, which consists of 100,000 images with seasonal variants.
+
+Now, I will check the **References section** to gather full citations for each dataset mentioned:
+
+- For the **SeCo dataset**, the citation is:
+  > Oscar Mañas, Alexandre Lacoste, Xavier Giro i Nieto, David Vazquez, and Pau Rodriguez. *Seasonal contrast: Unsupervised pre-training from uncurated remote sensing data*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2021.
+
+- For the **EuroSAT Dataset**, the citation is:
+  > Patrick Helber, Benjamin Bischke, Andreas Dengel, and Damian Borth. *Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
+
+- For the **Aerial Image Dataset (AID)**, the citation is:
+  > Gui-Song Xia, Jingwen Hu, Fan Hu, Baoguang Shi, Xiang Bai, Yanfei Zhong, Liangpei Zhang, and Xiaoqiang Lu. *AID: A benchmark data set for performance evaluation of aerial scene classification*. IEEE Transactions on Geoscience and Remote Sensing, 55(7):3965–3981, 2017.
+
+- For the **UCMerced Land Use Dataset**, the citation is:
+  > Yi Yang and Shawn Newsam. *Bag-of-visual-words and spatial extensions for land-use classification*. In Proceedings of the 18th SIGSPATIAL International Conference on Advances in Geographic Information Systems, GIS ’10, pages 270–279, 2010.
+
+- For the **WHU-RS19 Dataset**, the citation is:
+  > Dengxin Dai and Wen Yang. *Satellite image classification via two-layer sparse coding with biased image representation*. IEEE Transactions on Geoscience and Remote Sensing, 8(1):173–176, 2011.
+
+With all this information gathered, I will now compile the dataset entries, ensuring that each dataset is accurately described and includes its full citation. This will provide a comprehensive overview of the datasets used in the research paper.

@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Form Follows Function: Text-to-Text Conditional Graph Generation Based on Functional Requirements" by Peter A. Zachares et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions that the authors evaluate their method using "publicly available and widely studied molecule and knowledge graph datasets." This indicates that datasets are indeed involved, but I need to find their specific names.
+
+Next, I will look into **section 5 (Experiments)**, where the authors describe the datasets they created for their experiments. Here, they mention two datasets:
+
+1. **Valency Dataset**: This dataset consists of (number of valency electrons functional description, graph) pairs derived from the original PCQM4M dataset. It includes all molecules with less than 20 atoms, totaling over 2 million examples.
+
+2. **QED Dataset**: Similar to the Valency dataset, this one contains (QED functional description, graph) pairs, also derived from the PCQM4M dataset, with the same criteria regarding the number of atoms.
+
+In the same section, the authors provide a summary of the datasets, including their construction and the functional descriptions used. This confirms that these datasets are central to their experiments.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned. The original dataset referenced is:
+
+- **PCQM4M Dataset**: The citation is:
+  > Weihua Hu, Matthias Fey, Hongyu Ren, Maho Nakata, Yuxiao Dong, and Jure Leskovec. *OGB-LSC: A Large-Scale Challenge for Machine Learning on Graphs*. arXiv preprint arXiv:2103.09430, 2021.
+
+Since the Valency and QED datasets are derived from the PCQM4M dataset, I will use this citation for both datasets.
+
+After gathering all the necessary information, I will compile the dataset entries, ensuring that each dataset is clearly described and properly cited. This will include the dataset names, descriptions, and their respective citations, ready for structured output or further processing.

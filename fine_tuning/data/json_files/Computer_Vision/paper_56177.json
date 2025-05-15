@@ -1,0 +1,95 @@
+[
+    {
+        "dcterms:creator": [
+            "I. Sharafaldin",
+            "A. H. Lashkari",
+            "A. A. Ghorbani"
+        ],
+        "dcterms:description": "The CIC-IDS2017 dataset resembles real world network activity data (PCAPs) for benign and malicious behavior. It is broken into 5 csv files, and each file contains 80 features describing the activity as well as a label to indicate if the activity is benign or one of the various attack types.",
+        "dcterms:title": "CIC-IDS2017",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Intrusion Detection",
+            "Network Security"
+        ],
+        "dcat:keyword": [
+            "Network activity",
+            "Anomaly detection",
+            "Cyber-attacks",
+            "PCAP",
+            "Labeled data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "CSV"
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The CIC-IDS2018 dataset is similar to the CIC-IDS2017 dataset but contains labeled network traffic and system logs from 420 machines and 30 servers. It is broken into 10 csv files, each containing 80 features and labeled as either benign or various attack types.",
+        "dcterms:title": "CIC-IDS2018",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.unb.ca/cic/datasets/ids-2018.html",
+        "dcat:theme": [
+            "Intrusion Detection",
+            "Network Security"
+        ],
+        "dcat:keyword": [
+            "Network traffic",
+            "Anomaly detection",
+            "Cyber-attacks",
+            "Labeled data"
+        ],
+        "dcat:landingPage": "https://www.unb.ca/cic/datasets/ids-2018.html",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "CSV"
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The NCC-DC dataset contains labeled network activity data for benign and various attack types. It includes the same 80 features as the CIC-IDS datasets along with attributes capturing the source port and the source and destination IP addresses.",
+        "dcterms:title": "NCC-DC",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.nationalccdc.org/",
+        "dcat:theme": [
+            "Intrusion Detection",
+            "Network Security"
+        ],
+        "dcat:keyword": [
+            "Network activity",
+            "Anomaly detection",
+            "Cyber-attacks",
+            "Labeled data"
+        ],
+        "dcat:landingPage": "https://www.nationalccdc.org/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "CSV"
+    },
+    {
+        "dcterms:creator": [
+            "R. Fontugne",
+            "P. Borgnat",
+            "P. Abry",
+            "K. Fukuda"
+        ],
+        "dcterms:description": "The MAWI-Lab dataset is a collection of benign activity data containing 66 features, which are a subset of the CIC-IDS/NCC-DC datasets. It includes attributes capturing the source port, source and destination IP addresses, and is processed to fit the format of the CIC-IDS and NCC-DC datasets.",
+        "dcterms:title": "MAWI-Lab",
+        "dcterms:issued": "2010",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Anomaly Detection",
+            "Network Traffic Analysis"
+        ],
+        "dcat:keyword": [
+            "Benign activity",
+            "Network traffic",
+            "Anomaly detection"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "CSV"
+    }
+]

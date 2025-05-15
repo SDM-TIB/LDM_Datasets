@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Dynamic Simplex: Balancing Safety and Performance in Autonomous Cyber Physical Systems" by Baiting Luo et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to see if any datasets are mentioned. The abstract discusses the evaluation of the proposed approach using an autonomous vehicle case study in the CARLA simulator, which suggests that there may be datasets related to this simulation.
+
+Next, I will look into the **experiments section** (Section 4) to find specific details about the datasets used. In Section 4.1, the authors describe the setup for their autonomous vehicle (AV) experiments, mentioning that they ran 111,800 simulations across 50 road segments in the CARLA simulator. This indicates that the CARLA simulator itself is a dataset used for the experiments.
+
+I will also check the **references section** to find the full citation for the CARLA simulator, as it is crucial to provide proper attribution. The citation for the CARLA simulator is:
+> Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2017). CARLA: An open urban driving simulator. arXiv:1711.03938.
+
+Additionally, I will look for any other datasets mentioned throughout the paper, particularly in the context of training the controllers or any historical data used for the surrogate models. The paper mentions using historical data for training the deep neural network (DNN) for the performant controller, but it does not specify a separate dataset for this purpose. Instead, it implies that the data is generated from the simulations conducted in the CARLA environment.
+
+Since the CARLA simulator is the primary dataset referenced in the paper, I will summarize my findings:
+
+1. **CARLA Simulator**: This dataset is used for evaluating the proposed dynamic simplex strategy in various driving conditions and scenarios.
+
+Now, I will compile the dataset entry with the full citation into a structured format for clarity and completeness. 
+
+In conclusion, I have identified the CARLA simulator as the main dataset used in the research, and I have documented its citation appropriately.

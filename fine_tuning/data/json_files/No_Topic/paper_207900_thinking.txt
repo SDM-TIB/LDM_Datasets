@@ -1,0 +1,39 @@
+To extract datasets from the research paper titled "End-to-End Streaming Keyword Spotting" by Raziel Alvarez and Hyun-Jin Park, I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets mentioned. The abstract provides a brief overview of the system, but I need to look for specific datasets in the introduction and experimental setup.
+
+In the **introduction**, the authors discuss the importance of keyword spotting and the challenges involved, but they do not mention specific datasets. Therefore, I will move on to the **experimental setup** section.
+
+In **section 3 (Experimental Setup)**, the authors describe the training data used for their experiments. They mention that the training data consists of **1 million anonymized hand-transcribed utterances** of the keywords "Ok Google" and "Hey Google," which is a significant dataset for their study. They also mention creating "multi-style" training data by synthetically distorting the utterances, which indicates that they have generated additional data for robustness.
+
+Next, I will look for any specific datasets used for evaluation. In **section 3.4 (Dataset)**, the authors detail four sets representative of various environmental conditions:
+
+1. **Clean non-accented**: Contains 170K non-accented English utterances of the keywords in clean conditions, plus 64K samples without the keywords.
+2. **Clean accented**: Contains 153K English utterances of the keywords with Australian, British, and Indian accents, plus 64K samples without the keywords.
+3. **High pitched**: Contains 1K high pitched utterances of the keywords, and 64K samples without them.
+4. **Query logs**: Contains 110K keyword and 21K non-keyword utterances, collected from anonymized voice search queries.
+
+These datasets are crucial for evaluating the performance of the proposed keyword spotting system.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. However, since the datasets are primarily created or compiled by the authors themselves, they may not have formal citations like publicly available datasets. Instead, I will note the details provided in the paper.
+
+For the datasets mentioned, I will summarize the information as follows:
+
+- **Dataset 1: Anonymized hand-transcribed utterances of "Ok Google" and "Hey Google"**
+  - Description: 1 million anonymized utterances, evenly distributed.
+  
+- **Dataset 2: Clean non-accented**
+  - Description: 170K non-accented English utterances in clean conditions, plus 64K samples without keywords.
+  
+- **Dataset 3: Clean accented**
+  - Description: 153K English utterances with various accents, plus 64K samples without keywords.
+  
+- **Dataset 4: High pitched**
+  - Description: 1K high pitched utterances, plus 64K samples without keywords.
+  
+- **Dataset 5: Query logs**
+  - Description: 110K keyword and 21K non-keyword utterances from anonymized voice search queries.
+
+Since these datasets are not sourced from other publications, they do not have formal citations. However, I will ensure to document the details accurately.
+
+Finally, I will compile the dataset entries into a structured format for clarity and future reference.

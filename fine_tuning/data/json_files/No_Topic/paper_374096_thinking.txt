@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Classification of structural building damage grades from multi-temporal photogrammetric point clouds using a machine learning model trained on virtual laser scanning data" by Vivien Zahs et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets mentioned. The abstract indicates that the authors evaluate their method on real-world point clouds and simulated data, which suggests that there are datasets involved.
+
+Next, I will focus on the **Study Site and Data section** (Section 2), where the authors describe the datasets used for their experiments. They mention using UAV-borne dense image matching (DIM) point clouds of the city of L’Aquila, Italy, which were generated from images captured before and after the earthquake event on April 6, 2009. This is a clear indication of a dataset.
+
+The authors provide specific details about the **real-world DIM dataset**:
+- **Dataset Name**: UAV-borne DIM point clouds of L’Aquila
+- **Description**: The dataset consists of point clouds generated from oblique and nadir RGB images captured before (2008-08-30) and after (2009-04-29) the earthquake event. The resulting point clouds contain around 72 million and 78 million points, respectively, with an average point spacing of 0.1 m.
+
+Additionally, I will look for the **simulated dataset** mentioned in the methods section. The authors describe generating simulated point clouds through virtual laser scanning (VLS) of virtual scenes. This dataset is crucial for training their machine learning model.
+
+For the **simulated dataset**, I will note:
+- **Dataset Name**: Simulated point clouds from virtual laser scanning (VLS)
+- **Description**: The dataset consists of simulated point clouds generated from 3D building models with various damage patterns, labeled with damage grades. The simulation is performed using the HELIOS++ tool.
+
+Now, I will check the **References section** for full citations of the datasets mentioned. The authors refer to a damage catalogue developed by Kohns and Stempniewski (2021), which is relevant for the simulated dataset.
+
+The full citations for the datasets are as follows:
+1. For the **UAV-borne DIM point clouds of L’Aquila**:
+   > CGR S.p.A. (Compagnia Generale Ripreseaeree). *Real-world image data of the city of L’Aquila for deriving photogrammetric point clouds used in this study*.
+
+2. For the **Virtual Laser Scanning (VLS)**:
+   > Kohns, J., & Stempniewski, L. (2021). *Development of damage catalogues for visual assessment of buildings in the event of an earthquake*. IABSE Congress: Structural Engineering for Future Societal Needs, 1366–1374. doi:10.2749/ghent.2021.1366.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

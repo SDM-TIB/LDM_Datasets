@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "What changes when you randomly choose BPE merge operations?" by Jonne Sälevä and Constantine Lignos, I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the research focus, but I will need to look deeper into the introduction and experimental setup for specific dataset details.
+
+In the **introduction**, the authors discuss the context of their research, mentioning the use of subword segmentation algorithms like BPE, but they do not specify datasets yet. I will continue to the **experimental setup** section, where they describe the task and data used for their experiments.
+
+In the **experimental setup**, the authors state that they experiment with translation from English to several morphologically rich languages: **Finnish, Estonian, German, and Uzbek**. They mention that for all languages except Uzbek, they use the **WMT shared task data from He et al. (2020)**. For Uzbek, they specify using the **Turkic Interlingua corpus (Mirzakhalov et al., 2021)**.
+
+Next, I will look at the **References section** to find the full citations for these datasets:
+
+1. For the **WMT shared task data**, the citation is:
+   > Xuanli He, Gholamreza Haffari, and Mohammad Norouzi. *Dynamic programming encoding for subword segmentation in neural machine translation*. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pages 3042–3051, 2020.
+
+2. For the **Turkic Interlingua corpus**, the citation is:
+   > Jamshidbek Mirzakhalov, Anoop Babu, Aigiz Kunaﬁn, Ahsan Wahab, Bekhzodbek Moydinboyev, Sardana Ivanova, Mokhiyakhon Uzokova, Shaxnoza Pulatova, Duygu Ataman, Julia Kreutzer, Francis Tyers, Orhan Firat, John Licato, and Sriram Chellappan. *Evaluating multiway multilingual NMT in the Turkic languages*. In Proceedings of the Sixth Conference on Machine Translation, pages 518–530, 2021.
+
+Now that I have identified the datasets and their citations, I will summarize the findings:
+
+- **WMT shared task data**: Used for translation tasks into Finnish, Estonian, and German.
+- **Turkic Interlingua corpus**: Used for translation tasks into Uzbek.
+
+Finally, I will compile these dataset entries into a structured format for further processing or review.

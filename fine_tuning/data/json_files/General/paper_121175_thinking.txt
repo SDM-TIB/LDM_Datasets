@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Open SESAME: Fighting Botnets with Seed Reconstructions of Domain Generation Algorithms" by Nils Weissgerber et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and data sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the paper's focus on Domain Generation Algorithms (DGAs) and mentions the evaluation of their approach on DNS lookups, which suggests that datasets related to DNS data may be involved.
+
+Next, I will focus on the **Data section (Section 3)**, where the authors describe the datasets used in their research. Here, they mention three main sets of data:
+
+1. **AGD Data**: This dataset is sourced from DGArchive, which contains algorithmically generated domains (AGDs) from known DGAs. The authors specify that they used a full database export from June 19, 2020, consisting of 86 different DGA families with over 86 million unique domains.
+
+2. **HGD Data**: The authors mention using the Tranco list to gather human-generated domains (HGDs). This dataset is more resilient against manipulation compared to other public datasets. They specifically used the list created on July 20, 2020, which contains the top domains.
+
+3. **DNS-logs Data**: This dataset consists of DNS data from sandbox runs of malware, provided by the ShadowServer Foundation. The authors state that they analyzed over 20 GB of real-world DNS data generated from malware executed between January 2018 and December 2020.
+
+After identifying these datasets, I will look into the **References section** to find the full citations for each dataset:
+
+- For **DGArchive**, the citation is:
+  > Daniel Plohmann. *DGArchive - A deep dive into domain generating malware*. Botconf, 2015.
+
+- For **Tranco List**, the citation is:
+  > Victor Le Pochat et al. *Tranco: A research-oriented top sites ranking hardened against manipulation*. In Proceedings of the 26th Annual Network and Distributed System Security Symposium, NDSS 2019, February 2019.
+
+- For **ShadowServer Foundation**, the citation is:
+  > The Shadowserver Foundation. *Shadowserver*. http://www.shadowserver.org, accessed 2022-01-31.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their respective sources.

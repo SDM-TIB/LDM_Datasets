@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Resource-aware Time Series Imaging Classification for Wireless Link Layer Anomalies" by Blaž Bertalanič et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by examining the **abstract** and **introduction** sections of the paper. The abstract mentions the use of image-based representation techniques for wireless anomaly detection, which suggests that datasets are involved. I will look for any specific datasets mentioned in these sections.
+
+Next, I will check the **methodology** section, particularly the **dataset generation** subsection, as it is likely to contain detailed information about the datasets used in the experiments. Here, the authors mention the **Rutgers dataset**, which consists of real-world measurements of Received Signal Strength Indicator (RSSI) from wireless nodes. This dataset is crucial for their experiments.
+
+In the **dataset generation** subsection, the authors describe how they synthetically injected anomalies into the Rutgers dataset, resulting in four raw time series datasets corresponding to different types of anomalies: Sudden degradation without recovery (SuddenD), Sudden degradation with recovery (SuddenR), Instantaneous degradation (InstaD), and Slow degradation (SlowD). Each of these anomalies is represented by a specific number of samples.
+
+I will also look for the **References section** to find the full citation for the Rutgers dataset. The citation provided in the paper is:
+> S. K. Kaul, I. Seskar, and M. Gruteser. "CRAWDAD dataset rutgers/noise (v. 2007-04-20)." Downloaded from https://crawdad.org/rutgers/noise/20070420/RSSI, Apr. 2007.
+
+Now, I will summarize the datasets identified in the paper:
+
+1. **Rutgers Dataset**: This dataset contains real-world measurements of RSSI from 29 nodes at 5 different noise levels, with each RSSI value representing the signal strength of a received packet sent every 100 milliseconds for a period of 30 seconds. The dataset is used to evaluate the proposed anomaly detection methods.
+
+2. **Synthetic Anomaly Datasets**: The authors created four datasets by injecting anomalies into the Rutgers dataset:
+   - **SuddenD**: Represents sudden degradation without recovery.
+   - **SuddenR**: Represents sudden degradation with recovery.
+   - **InstaD**: Represents instantaneous degradation.
+   - **SlowD**: Represents slow degradation.
+
+Each of these datasets is derived from the original Rutgers dataset and is used to train and evaluate the proposed deep learning model.
+
+Finally, I will compile the dataset entries along with their citations into a structured format for further processing.

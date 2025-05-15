@@ -1,0 +1,158 @@
+[
+    {
+        "dcterms:creator": [
+            "Arthur Asuncion",
+            "David Newman"
+        ],
+        "dcterms:description": "Extracted from the Adult Data Set. Each node represents an individual, with connections established based on criteria similar to the original dataset. The sensitive feature in this dataset is race, and the task involves classifying whether an individual's salary exceeds 50,000 annually.",
+        "dcterms:title": "Income",
+        "dcterms:issued": "2007",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Sociodemographic Data",
+            "Income Prediction"
+        ],
+        "dcat:keyword": [
+            "Income",
+            "Race",
+            "Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Lubos Takac",
+            "Zabovsky Michal"
+        ],
+        "dcterms:description": "Collected from Pokec, a popular social network in Slovakia. Each user is a node, and each edge stands for the friendship relation between two users. The locating region of users is the sensitive feature. The task is to classify the working field of users.",
+        "dcterms:title": "Pokec-z",
+        "dcterms:issued": "2012",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Network Analysis",
+            "User Classification"
+        ],
+        "dcat:keyword": [
+            "Social Network",
+            "User Classification",
+            "Region"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Lubos Takac",
+            "Zabovsky Michal"
+        ],
+        "dcterms:description": "Collected from Pokec, a popular social network in Slovakia. Each user is a node, and each edge stands for the friendship relation between two users. The locating region of users is the sensitive feature. The task is to classify the working field of users.",
+        "dcterms:title": "Pokec-n",
+        "dcterms:issued": "2012",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Network Analysis",
+            "User Classification"
+        ],
+        "dcat:keyword": [
+            "Social Network",
+            "User Classification",
+            "Region"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Kareem L Jordan",
+            "Tina L Freiburger"
+        ],
+        "dcterms:description": "This dataset represents defendants who were released on bail at the U.S. state courts during 1990-2009. Nodes represent clients within a bail bank, features are gender, loan amount, and other account-related details. The objective is to categorize clients' credit risk as either high or low, with 'gender' designated as the sensitive feature.",
+        "dcterms:title": "Bail",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Criminal Justice",
+            "Risk Assessment"
+        ],
+        "dcat:keyword": [
+            "Bail",
+            "Gender",
+            "Risk Assessment"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Arthur Asuncion",
+            "David Newman"
+        ],
+        "dcterms:description": "Extracted from the Adult Data Set. Nodes represent defendants released in Germany from 1990 to 2009, connected by edges based on shared past criminal records and demographics. The goal is predicting a defendant's likelihood of committing either a violent or nonviolent crime post-release, with 'race' as the sensitive feature.",
+        "dcterms:title": "German",
+        "dcterms:issued": "2007",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Criminal Justice",
+            "Risk Assessment"
+        ],
+        "dcat:keyword": [
+            "Crime Prediction",
+            "Race",
+            "Classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Arthur Asuncion",
+            "David Newman"
+        ],
+        "dcterms:description": "Extracted from the Adult Data Set. Comprising individuals connected based on similarities in spending and payment patterns. Age serves as the sensitive feature, while the label feature denotes defaulting on credit card payments.",
+        "dcterms:title": "Credit",
+        "dcterms:issued": "2007",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Financial Data",
+            "Credit Risk"
+        ],
+        "dcat:keyword": [
+            "Credit",
+            "Age",
+            "Default Prediction"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": [
+            "Node Classification"
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "On the (In)Effectiveness of Large Language Models for Chinese Text Correction" by Yinghui Li et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract mentions evaluating various representative LLMs on two main tasks: **Chinese Grammatical Error Correction (CGEC)** and **Chinese Spelling Check (CSC)**. This indicates that datasets related to these tasks are likely discussed in the paper.
+
+Next, I will focus on the **methodology section**, particularly the subsections that describe the datasets used for the experiments. Here, the authors mention specific datasets for both CGEC and CSC tasks. 
+
+1. **Wang271K**: This dataset is described as a generated pseudo dataset consisting of 271,329 training examples for the CSC task. The citation for this dataset is:
+   > Wang, D., Song, Y., Li, J., Han, J., & Zhang, H. (2018). *A hybrid approach to automatic corpus generation for Chinese spelling check*. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (pp. 2517–2527). Association for Computational Linguistics.
+
+2. **SIGHAN Datasets**: The authors refer to SIGHAN13, SIGHAN14, and SIGHAN15 datasets, which are used for the CSC task. The citations for these datasets are:
+   > Wu, S.-H., Liu, C.-L., & Lee, L.-H. (2013). *Chinese spelling check evaluation at SIGHAN bake-off 2013*. In Proceedings of the Seventh SIGHAN Workshop on Chinese Language Processing (pp. 35–42). Asian Federation of Natural Language Processing.
+   > Tseng, Y.-H., Lee, L.-H., Chang, L.-P., & Chen, H.-H. (2015). *Introduction to SIGHAN 2015 bake-off for Chinese spelling check*. In Proceedings of the Eighth SIGHAN Workshop on Chinese Language Processing (pp. 32–37). Association for Computational Linguistics.
+
+3. **FCGEC**: This dataset is a human-annotated corpus for CGEC, consisting of sentences from public school Chinese examinations. The citation is:
+   > Xu, L., Wu, J., Peng, J., Fu, J., & Cai, M. (2022). *FCGEC: Fine-grained corpus for Chinese grammatical error correction*. In Findings of the Association for Computational Linguistics: EMNLP 2022 (pp. 1900–1918). Association for Computational Linguistics.
+
+4. **NaCGEC**: This dataset focuses on grammatical errors made by native Chinese speakers. The citation is:
+   > Ma, S., Li, Y., Sun, R., Zhou, Q., Huang, S., Zhang, D., Yangning, L., Liu, R., Li, Z., Cao, Y., Zheng, H., & Shen, Y. (2022). *Linguistic rules-based corpus generation for native Chinese grammatical error correction*. In Findings of the Association for Computational Linguistics: EMNLP 2022 (pp. 576–589). Association for Computational Linguistics.
+
+After identifying these datasets, I will ensure to compile their descriptions and citations accurately. This will involve confirming the details in the methodology and experiments sections to ensure that I have captured the correct datasets used in the experiments.
+
+Finally, I will prepare the dataset entries for structured output, ensuring that each dataset is accompanied by its full citation for clarity and reference.

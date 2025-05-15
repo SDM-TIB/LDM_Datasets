@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Drones4Good: Supporting Disaster Relief Through Remote Sensing and AI" by Nina Merkle et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, experiments, and conclusion sections** to identify any datasets mentioned. The abstract discusses the use of drone-based data combined with deep learning for automated situation assessment, which suggests that datasets are likely involved.
+
+In the **introduction**, the authors highlight the importance of timely information in disaster response, which may lead to the identification of specific datasets used for mapping and analysis.
+
+Next, I will focus on the **experiments section**, particularly where the authors describe the training and evaluation of their models. Here, they mention several datasets explicitly:
+
+1. **DeepGlobe18 Dataset**: This dataset consists of 1,632 km² of annotated image data at a ground sampling distance (GSD) of 50 cm/px from Southeast Asia. It is used for training the road segmentation model.
+
+2. **Inria Dataset**: This dataset contains 405 km² of labeled image data at a GSD of 20 cm/px from the USA and Austria, utilized for building segmentation training.
+
+3. **Custom Person Detection Dataset**: The authors created a new dataset consisting of 311 aerial and drone images covering various scenarios and countries, with a total of 10,050 annotated persons. This dataset is crucial for training the person detection model.
+
+After identifying these datasets, I will check the **References section** for full citations:
+
+- For the **DeepGlobe18 Dataset**, the citation is:
+  > Ilke Demir, Krzysztof Koperski, David Lindenbaum, Guan Pang, Jing Huang, Saikat Basu, Forest Hughes, Devis Tuia, and Ramesh Raskar. *Deepglobe 2018: A challenge to parse the earth through satellite images*. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), pages 172–17209, 2018.
+
+- For the **Inria Dataset**, the citation is:
+  > Emmanuel Maggiori, Yuliya Tarabalka, Guillaume Charpiat, and Pierre Alliez. *Can semantic labeling methods generalize to any city? the inria aerial image labeling benchmark*. In Proceedings of the IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2017.
+
+- For the **Custom Person Detection Dataset**, the citation is:
+  > Reza Bahmanyar and Nina Merkle. *Saving lives from above: Person detection in disaster response using deep neural networks*. In ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, ISPRS Geospatial Week 2023, Cairo, Egypt, 02-07 Sep, 2023.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding references.

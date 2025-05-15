@@ -1,0 +1,35 @@
+To extract datasets from the research paper titled "Unified Medical Image-Text-Label Contrastive Learning With Continuous Prompt" by Yuhao Wang, I will follow a systematic approach to identify and document each dataset mentioned in the text.
+
+First, I will read through the **abstract, introduction, method, and experiment sections** to locate any datasets that are explicitly mentioned or described. The abstract provides a general overview of the research but does not specify datasets. Therefore, I will focus on the **introduction** and **experiments** sections for more detailed information.
+
+In the **introduction**, the authors discuss the challenges of medical data annotation and the potential of using large-scale datasets for Image-Text Pre-training. However, they do not list specific datasets here. I will then move to the **experiments section**, where the authors provide a detailed description of the datasets used for pre-training and evaluation.
+
+In **section 3.1 (Datasets and Implementation details)**, the authors mention several datasets:
+
+1. **CheXpert**: This dataset contains 224,316 chest X-rays from 65,240 patients, with labeled information from free-text reports describing the presence of 14 common chest diseases.
+   
+2. **MIMIC-CXR**: This dataset includes nearly 227,835 chest X-ray images, each corresponding to a text report from various US medical institutions.
+
+3. **CheXpert-5x200**: A multi-class classification dataset sampled from the testing split of CheXpert, containing 200 positive samples for each of the classes.
+
+4. **MIMIC-5x200**: Similar to CheXpert-5x200, this dataset is sampled for evaluation purposes.
+
+5. **COVID-19**: A dataset collected from several hospitals in Qatar, containing a balanced subset of COVID and non-COVID cases.
+
+6. **RSNA pneumonia**: This dataset contains 26,684 chest X-ray images of patients with pneumonia and normal individuals, sampled for evaluation.
+
+Next, I will look at the **References section** to find the full citations for each dataset mentioned. 
+
+- For **CheXpert**, the citation is:
+  > Irvin, J., Rajpurkar, P., Ko, M., Yu, Y., Ciurea-Ilcus, S., Chute, C.G., Marklund, H., Haghgoo, B., Ball, R.L., Shpanskaya, K., Seekins, J., Mong, D.A., Halabi, S., Sandberg, J.K., Jones, R., Larson, D.B., Langlotz, C.P., Patel, B.N., Lungren, M.P., Ng, A.Y. (2019). *Chexpert: A large chest radiograph dataset with uncertainty labels and expert comparison*. Proceedings of the AAAI Conference on Artificial Intelligence.
+
+- For **MIMIC-CXR**, the citation is:
+  > Johnson, A.E.W., Pollard, T.J., Berkowitz, S.A., Greenbaum, N.R., Lungren, M.P., Deng, C.Y., Mark, R.G., Horng, S. (2019). *MIMIC-CXR, a de-identified publicly available database of chest radiographs with free-text reports*. 
+
+- For **COVID-19**, the citation is:
+  > Rahman, T., Khandakar, A., Qiblawey, Y., Tahir, A., Kiranyaz, S., Kashem, S.B.A., Islam, M.T., Maadeed, S.A., Zughaier, S.M., Khan, M.S., Chowdhury, M.E.H. (2021). *Exploring the effect of image enhancement techniques on COVID-19 detection using chest X-ray images*. Computers in Biology and Medicine.
+
+- For **RSNA pneumonia**, the citation is:
+  > Shih, G., Wu, C.C., Halabi, S., Kohli, M.D., Prevedello, L.M., Cook, T.S., Sharma, A., Amorosa, J.K., Arteaga, V., Galperin-Aizenberg, M., Gill, R.R., Godoy, M.C.B., Hobbs, S.B., Jeudy, J., Laroia, A.T., Shah, P., Vummidi, D., Yaddanapudi, K., Stein, A. (2019). *Augmenting the National Institutes of Health Chest Radiograph Dataset with Expert Annotations of Possible Pneumonia*. Radiology.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

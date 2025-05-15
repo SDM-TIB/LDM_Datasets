@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "HateBERT: Retraining BERT for Abusive Language Detection in English" by Tommaso Caselli et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the authors trained their model on **RAL-E**, a dataset of Reddit comments, which is a strong indication that this dataset is significant.
+
+Next, I will look for explicit mentions of datasets in the **methodology section**. The authors describe the **RAL-E dataset** in detail, explaining how it was collected from banned Reddit communities. This dataset is crucial for understanding the context of their research.
+
+In the **experiments section**, the authors mention three additional datasets used for evaluation: **OffensEval 2019**, **AbusEval**, and **HatEval**. I will take note of these datasets as they are essential for the experiments conducted in the paper.
+
+Now, I will gather detailed descriptions of each dataset:
+
+1. **RAL-E (Reddit Abusive Language English dataset)**: This dataset consists of 1,492,740 messages collected from Reddit communities banned for promoting offensive, abusive, or hateful content. The dataset spans from January 2012 to June 2015 and contains a total of 43,820,621 tokens.
+
+2. **OffensEval 2019**: This dataset contains 14,100 tweets annotated for offensive language, with a training set of 13,240 messages and a test set of 860 messages. The dataset is part of the SemEval 2019 Task 6 evaluation exercise.
+
+3. **AbusEval**: This dataset is derived from OffensEval 2019 by adding a layer of abusive language annotation. It also contains 14,100 tweets, with the same training and test splits as OffensEval 2019.
+
+4. **HatEval**: This dataset includes 13,000 tweets annotated for hate speech against migrants and women, with a training set of 10,000 messages and a test set of 3,000 messages. It was distributed for the SemEval 2019 Task 5 evaluation exercise.
+
+Next, I will check the **References section** to find the full citations for each dataset:
+
+- For **RAL-E**, the citation is:
+  > Caselli, T., Basile, V., Mitrovic, J., & Granitzer, M. (2020). HateBERT: Retraining BERT for Abusive Language Detection in English. *Proceedings of the 12th Language Resources and Evaluation Conference*, pages 6193–6202, Marseille, France, May. European Language Resources Association.
+
+- For **OffensEval 2019**, the citation is:
+  > Zampieri, M., Malmasi, S., Nakov, P., Rosenthal, S., Farra, N., & Kumar, R. (2019). SemEval-2019 task 6: Identifying and categorizing offensive language in social media (OffensEval). *Proceedings of the 13th International Workshop on Semantic Evaluation*, pages 75–86, Minneapolis, Minnesota, USA, June. Association for Computational Linguistics.
+
+- For **AbusEval**, the citation is:
+  > Caselli, T., Basile, V., Mitrovic, J., Kartoziya, I., & Granitzer, M. (2020). I feel offended, don’t be abusive! implicit/explicit messages in offensive and abusive language. *Proceedings of The 12th Language Resources and Evaluation Conference*, pages 6193–6202, Marseille, France, May. European Language Resources Association.
+
+- For **HatEval**, the citation is:
+  > Basile, V., Bosco, C., Fersini, E., Nozza, D., Patti, V., Rangel Pardo, F. M., Rosso, P., & Sanguinetti, M. (2019). SemEval-2019 task 5: Multilingual detection of hate speech against immigrants and women in Twitter. *Proceedings of the 13th International Workshop on Semantic Evaluation*, pages 54–63, Minneapolis, Minnesota, USA, June. Association for Computational Linguistics.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review.

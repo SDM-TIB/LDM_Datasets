@@ -1,0 +1,72 @@
+[
+    {
+        "dcterms:creator": [
+            "F. Karimi",
+            "C. Wagner",
+            "F. Lemmerich",
+            "M. Jadidi",
+            "M. Strohmaier"
+        ],
+        "dcterms:description": "A dataset of Brazilian names used to train and evaluate models for predicting gender based on first names, containing 100787 names with gender information derived from CENSO data.",
+        "dcterms:title": "Brazilian Names Dataset",
+        "dcterms:issued": "2016",
+        "dcterms:language": "Portuguese",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Gender Prediction"
+        ],
+        "dcat:keyword": [
+            "Brazilian names",
+            "gender prediction",
+            "machine learning",
+            "deep learning"
+        ],
+        "dcat:landingPage": "https://brasil.io/dataset/genero-nomes/grupos/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Gender classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A subset of the Brazilian Names Dataset consisting of names that have a 100% gender ratio, used for training models focused on gender classification.",
+        "dcterms:title": "Names with 100% Gender Ratio",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Brazilian names",
+            "gender prediction",
+            "100% gender ratio"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Gender classification"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset containing all Brazilian names regardless of their gender ratio, used for training models in gender classification tasks.",
+        "dcterms:title": "All Names Regardless of Gender Ratio",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Brazilian names",
+            "gender prediction",
+            "mixed gender ratio"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Gender classification"
+        ]
+    }
+]

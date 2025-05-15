@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "OER: Offline Experience Replay for Continual Offline Reinforcement Learning" by Sibo Gai et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract discusses the challenges of continual offline reinforcement learning (CORL) and mentions the use of "widely-used Mujoco environments" for experiments. This indicates that there are specific datasets related to Mujoco environments that I need to identify.
+
+Next, I will look into the **experiments section** (section 6) where the authors explicitly mention the datasets used for their experiments. In this section, they describe three sets of tasks from a continuous control offline meta-RL library, which are:
+
+1. **Ant-2D Direction (Ant-Dir)**: This dataset involves training a simulated ant with 8 articulated joints to run in a 2D direction.
+2. **Walker-2D Params (Walker-Par)**: This dataset is used to train a simulated agent to move forward, with different tasks requiring the agent to move at different speeds.
+3. **Half-Cheetah Velocity (Cheetah-Vel)**: This dataset involves training a cheetah to run at a random velocity.
+
+The authors also mention that for each set of tasks, they randomly sample five tasks to form sequential tasks \( T_1 \) to \( T_5 \). This indicates that the datasets are derived from these tasks.
+
+Now, I will check the **references section** to find the full citations for these datasets. However, since these datasets are likely standard benchmarks in the reinforcement learning community, they may not have specific papers associated with them. Instead, I will note that they are part of the Mujoco environments, which are widely recognized in the field.
+
+To summarize, I will document the datasets as follows:
+
+1. **Ant-2D Direction (Ant-Dir)**: A dataset for training a simulated ant to run in a 2D direction.
+2. **Walker-2D Params (Walker-Par)**: A dataset for training a simulated agent to move forward with varying parameters.
+3. **Half-Cheetah Velocity (Cheetah-Vel)**: A dataset for training a cheetah to run at random velocities.
+
+Since these datasets are part of the Mujoco environments, I will reference the Mujoco documentation as the source.
+
+Finally, I will compile the dataset entries with their descriptions and citations into a structured format for clarity and future reference.

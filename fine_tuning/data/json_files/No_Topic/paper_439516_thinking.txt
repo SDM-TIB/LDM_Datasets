@@ -1,0 +1,56 @@
+To extract datasets from the research paper titled "PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling" by Zefan Cai et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract mentions that the authors conducted experiments using the **LongBench benchmark**, which suggests that this benchmark may contain multiple datasets.
+
+Next, I will focus on **section 5 (Experiment)**, where the authors describe their experimental setup. Here, they explicitly state that they used **LongBench** to evaluate their method, which is a benchmark suite designed for long-context inputs. This section will likely provide details about the specific datasets included in LongBench.
+
+In **section 5.2 (Datasets)**, the authors list the datasets used in their experiments. They mention 17 datasets covering various tasks, including:
+
+1. **Single-Document QA**: 
+   - **NarrativeQA**: A dataset for reading comprehension based on narratives.
+   - **Qasper**: A dataset for question answering based on scientific papers.
+   - **MultiFieldQA-en**: A dataset for multi-field question answering.
+
+2. **Multi-Document QA**:
+   - **HotpotQA**: A dataset for multi-hop question answering.
+   - **2WikiMultihopQA**: A dataset for multi-hop question answering across two Wikipedia articles.
+   - **MuSiQue**: A dataset for multi-document question answering.
+
+3. **Summarization**:
+   - **GovReport**: A dataset for summarizing government reports.
+   - **QMSum**: A dataset for query-based multi-domain meeting summarization.
+   - **MultiNews**: A dataset for multi-document summarization.
+
+4. **Few-shot Learning**:
+   - **TREC**: A dataset for question classification.
+   - **TriviaQA**: A large-scale dataset for reading comprehension.
+   - **SAMSum**: A dataset for dialogue summarization.
+
+5. **Synthetic Task**:
+   - **PassageCount**: A dataset for passage retrieval tasks.
+   - **PassageRetrieval-en**: A dataset for English passage retrieval tasks.
+
+Next, I will check the **References section** to find the full citations for these datasets. The citations for the datasets mentioned in the LongBench benchmark are as follows:
+
+- **NarrativeQA**: 
+  > Koˇcisk`y, T., Schwarz, J., Blunsom, P., Dyer, C., Hermann, K. M., Melis, G., & Grefenstette, E. (2018). The NarrativeQA Reading Comprehension Challenge. *Transactions of the Association for Computational Linguistics*, 6, 317-328.
+
+- **Qasper**: 
+  > Dasigi, P., Lo, K., Beltagy, I., Cohan, A., Smith, N. A., & Gardner, M. (2021). A Dataset of Information-Seeking Questions and Answers Anchored in Research Papers. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 4599-4610.
+
+- **HotpotQA**: 
+  > Yang, Z., Qi, P., Zhang, S., Bengio, Y., Cohen, W. W., Salakhutdinov, R., & Manning, C. D. (2018). HotpotQA: A Dataset for Diverse, Explainable Multi-Hop Question Answering. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, 2369-2380.
+
+- **QMSum**: 
+  > Zhong, M., Yin, D., Yu, T., Zaidi, A., Mutuma, M., Jha, R., Hassan, A., Celikyilmaz, A., Liu, Y., & Qiu, X. (2021). QMSum: A New Benchmark for Query-Based Multi-Domain Meeting Summarization. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 5905-5921.
+
+- **TREC**: 
+  > Li, X., & Roth, D. (2002). Learning Question Classifiers. In COLING 2002: The 19th International Conference on Computational Linguistics.
+
+- **TriviaQA**: 
+  > Joshi, M., Choi, E., Weld, D. S., & Zettlemoyer, L. (2017). TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 1601-1611.
+
+- **SAMSum**: 
+  > Gliwa, B., Mochol, I., Biesek, M., & Wawer, A. (2019). SAMSum Corpus: A Human-Annotated Dialogue Dataset for Abstractive Summarization. EMNLP-IJCNLP 2019.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use.

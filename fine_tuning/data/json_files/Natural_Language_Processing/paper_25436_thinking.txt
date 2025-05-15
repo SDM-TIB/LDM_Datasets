@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "ROLeR: Effective Reward Shaping in Offline Reinforcement Learning for Recommender Systems" by Yi Zhang et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reading through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract states that extensive experiments were conducted on four benchmark datasets, which indicates that datasets are indeed present.
+
+Next, I will look into **section 6.1.1 (Datasets)**, where the authors provide detailed descriptions of the datasets used in their experiments. Here, I will find the following datasets:
+
+1. **KuaiRec**: This dataset is described as a video dataset containing a fully-observed user-item interaction matrix used for evaluation. The normalized viewing time of a video serves as the reward signal.
+
+2. **KuaiRand-Pure**: This dataset contains user-item interactions collected by randomly inserting target videos into the standard recommendation stream. The "is_click" signal is used as the reward.
+
+3. **Coat**: A shopping dataset consisting of user ratings on self-selected and uniformly sampled items, with ratings serving as reward signals.
+
+4. **Yahoo**: A music dataset similar to Coat, where user ratings on selected items are used for training, and ratings on randomly picked items are used for testing.
+
+After identifying the datasets, I will check the **References section** to find the full citations for each dataset. The citations are as follows:
+
+- For **KuaiRec**:
+  > Chongming Gao, Shijun Li, Yuan Zhang, Jiawei Chen, Biao Li, Wenqiang Lei, Peng Jiang, and Xiangnan He. *KuaiRec: A fully-observed dataset and insights for evaluating recommender systems*. In Proceedings of the 31st ACM International Conference on Information & Knowledge Management, pages 540–550, 2022.
+
+- For **KuaiRand-Pure**:
+  > Chongming Gao, Shijun Li, Yuan Zhang, Jiawei Chen, Biao Li, Wenqiang Lei, Peng Jiang, and Xiangnan He. *KuaiRand: An Unbiased Sequential Recommendation Dataset with Randomly Exposed Videos*. In Proceedings of the 31st ACM International Conference on Information & Knowledge Management, pages 3953–3957, 2022.
+
+- For **Coat**:
+  > Tobias Schnabel, Adith Swaminathan, Ashudeep Singh, Navin Chandak, and Thorsten Joachims. *Recommendations as treatments: Debiasing learning and evaluation*. In Proceedings of the 15th ACM Conference on Recommender Systems, pages 63–74, 2021.
+
+- For **Yahoo**:
+  > Benjamin M Marlin and Richard S Zemel. *Collaborative prediction and ranking with non-random missing data*. In Proceedings of the third ACM conference on Recommender systems, pages 5–12, 2009.
+
+Now that I have gathered the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured the datasets used in the research and their corresponding citations.

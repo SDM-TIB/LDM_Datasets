@@ -1,0 +1,45 @@
+To extract datasets from the research paper titled "Fine-tuning Transformer-based Encoder for Turkish Language Understanding Tasks" by Savaş Yıldırım, I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract indicates that the study involves fine-tuning a Turkish BERT model and mentions a benchmark dataset for Turkish language tasks, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 3 (The Transformer-Based Model for the Turkish Language)**, where the author discusses the fine-tuning of the BERT model for various tasks. This section is likely to contain detailed information about the datasets used for each task.
+
+In **subsection 3.2 (Sentiment Analysis)**, the author describes the dataset used for sentiment analysis, which is compiled from two studies. The dataset includes movie and product reviews from a Turkish cinema website and an e-commerce platform. The relevant details include:
+
+- **Dataset Name**: Sentiment Analysis Dataset
+- **Description**: Contains over 5,000 positive and 5,000 negative comments from a Turkish cinema website and product reviews from an e-commerce site.
+- **Citation**: 
+  > Erkin Demirtas and Mykola Pechenizkiy. *Cross-Lingual Polarity Detection with Machine Translation*. In Proceedings of the Second International Workshop on Issues of Sentiment Discovery and Opinion Mining (WISDOM ’13), 2013. https://doi.org/10.1145/2502069.2502078
+
+In **subsection 3.3 (Named-Entity Recognition)**, the author mentions two datasets used for NER tasks. The first is the WikiANN dataset, which includes various language datasets compiled from Wikipedia. The second dataset is shared by the NLP community. The details are:
+
+- **Dataset Name**: WikiANN Dataset
+- **Description**: Contains annotated entities in multiple languages, including Turkish.
+- **Citation**: 
+  > Xiaoman Pan et al. *Cross-lingual Name Tagging and Linking for 282 Languages*. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics, 2017. https://doi.org/10.18653/v1/P17-1178
+
+- **Dataset Name**: Community NER Dataset
+- **Description**: Annotated dataset for named entities shared by the NLP community.
+- **Citation**: 
+  > Stefan Schweter. *BERTurk - BERT models for Turkish*. 2020. https://doi.org/10.5281/zenodo.3770924
+
+In **subsection 3.4 (Question Answering)**, the author discusses the TQuAD dataset, which is a Turkish question answering dataset modeled after the SQuAD format. The details are:
+
+- **Dataset Name**: TQuAD
+- **Description**: A Turkish question answering dataset with questions based on Turkish & Islamic Science History.
+- **Citation**: 
+  > TQuAD Dataset. *Turkish Question Answering Dataset*. 2018. https://github.com/TQuad/turkish-nlp-qa-dataset
+
+In **subsection 3.5 (Text Classification)**, the author mentions two datasets used for text classification tasks: TTC-4900 and TTC-3600. The details are:
+
+- **Dataset Name**: TTC-4900
+- **Description**: A dataset for Turkish text categorization with seven categories, each containing 700 articles.
+- **Citation**: 
+  > Deniz Kılınç et al. *A new benchmark dataset for Turkish text categorization*. Journal of Information Science, 2017. https://doi.org/10.1177/0165551515620551
+
+- **Dataset Name**: TTC-3600
+- **Description**: A dataset for Turkish text categorization with six categories, each containing 600 examples.
+- **Citation**: 
+  > Gökhan Akın Şeker and Gülşen Eryiğit. *Initial explorations on using CRFs for Turkish named entity recognition*. In Proceedings of COLING 2012, 2012. https://www.aclweb.org/anthology/P11-3019
+
+Finally, I will compile all the extracted datasets and their citations into a structured format for further processing or review.

@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "R2L: Distilling Neural Radiance Field to Neural Light Field for Efficient Novel View Synthesis" by Huan Wang et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors conducted extensive experiments on both synthetic and real-world scenes, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section**, specifically looking for any explicit mentions of datasets. In this section, the authors list the datasets used for evaluation:
+
+1. **NeRF Datasets**: This includes two specific datasets:
+   - **Synthetic Dataset (Realistic Synthetic 360°)**: Contains path-traced images of 8 objects with 100 views for training and 200 for testing, each with a resolution of 800x800.
+   - **Real Forward-Facing Dataset**: Comprises 8 scenes captured with a handheld cellphone, containing between 20 to 62 images per scene, with a resolution of 1008x756.
+
+2. **DONeRF Dataset**: This dataset includes synthetic data rendered using Blender's Cycles path tracer, consisting of 300 images per scene, split into training, validation, and test sets at a 70%, 10%, 20% ratio.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset mentioned. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+For the **NeRF Datasets**, the citation is:
+- Mildenhall, B., Srinivasan, P.P., Tancik, M., Barron, J.T., Ramamoorthi, R., & Ng, R. (2020). *NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis*. In Proceedings of the European Conference on Computer Vision (ECCV).
+
+For the **DONeRF Dataset**, the citation is:
+- Neff, T., Stadlbauer, P., Parger, M., Kurz, A., Mueller, J.H., Chaitanya, C.R.A., & Kaplanyan, A.S. (2021). *DONeRF: Towards Real-Time Rendering of Compact Neural Radiance Fields using Depth Oracle Networks*. Computer Graphics Forum.
+
+Now, I will compile the dataset entries, ensuring that each dataset is described accurately and includes the full citation for each one. This will provide a clear and structured overview of the datasets used in the research paper.

@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Convolutional Deep Denoising Autoencoders for Radio Astronomical Images" by C. Gheller and F. Vazza, I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will read through the **abstract** to see if any datasets are mentioned. The abstract discusses the creation of realistic mock observations for training, which suggests that there may be datasets involved.
+
+Next, I will examine the **introduction** section, where the authors may provide context about the datasets used in their research. I will look for any explicit mentions of datasets or references to data sources.
+
+I will then focus on **section 3 (Synthetic Observations)**, which is likely to contain detailed descriptions of the datasets used for training the autoencoder. Here, the authors describe the generation of synthetic images and the types of datasets created, such as:
+
+1. **Sky Images**: Generated from cosmological MHD simulations, these images represent diffuse radio emission and are used as the primary dataset for training the autoencoder.
+
+2. **Noise Images**: Created by adding random Gaussian noise to the Sky images, these datasets simulate realistic observational conditions.
+
+3. **Clean Images**: These are the result of applying LOFAR's instrumental response to the Sky images, including noise and artefacts.
+
+4. **Dirty Images**: Raw images affected by noise and artefacts from the imaging process, used to test the autoencoder's performance under challenging conditions.
+
+In the **data availability section**, the authors mention that the Sky, Clean, and Dirty images are publicly available in FITS format at a specified URL. This is crucial for documenting the datasets.
+
+Next, I will check the **References section** to find full citations for any datasets or methodologies referenced in the paper. This may include citations for the cosmological simulations or any other relevant works that contributed to the dataset creation.
+
+After gathering all this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research.
+
+Finally, I will prepare the dataset entries in a structured format for easy reference and further analysis.

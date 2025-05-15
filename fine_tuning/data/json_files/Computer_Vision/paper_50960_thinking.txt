@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "Direct Voxel Grid Optimization: Super-fast Convergence for Radiance Fields Reconstruction" by Cheng Sun et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions evaluating the method on "five inward-facing benchmarks," which indicates that datasets are involved. I will look for specific names of these datasets.
+
+Next, I will focus on **section 6 (Experiments)**, where the authors explicitly list the datasets used for evaluation. Here, they mention:
+
+1. **Synthetic-NeRF Dataset**: Contains eight objects with realistic images synthesized by NeRF. The image resolution is set to 800 × 800 pixels, with 100 views for training and 200 views for testing.
+
+2. **Synthetic-NSVF Dataset**: Another dataset containing eight objects synthesized by NSVF, following similar resolution and view setups as the Synthetic-NeRF dataset.
+
+3. **BlendedMVS Dataset**: A synthetic MVS dataset with realistic ambient lighting, using a subset of four objects provided by NSVF. The image resolution is 768 × 576 pixels, with one-eighth of the images reserved for testing.
+
+4. **Tanks & Temples Dataset**: A real-world dataset consisting of five scenes captured by an inward-facing camera. The image resolution is 1920 × 1080 pixels, with one-eighth of the images for testing.
+
+5. **DeepVoxels Dataset**: Contains four simple Lambertian objects, with image resolutions of 512 × 512, where each scene has 479 views for training and 1000 views for testing.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- **Synthetic-NeRF Dataset**: 
+  > Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, and Ren Ng. *NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis*. In European Conference on Computer Vision (ECCV), 2020.
+
+- **Synthetic-NSVF Dataset**: 
+  > Lingjie Liu, Jiatao Gu, Kyaw Zaw Lin, Tat-Seng Chua, and Christian Theobalt. *Neural Sparse Voxel Fields*. In NeurIPS, 2020.
+
+- **BlendedMVS Dataset**: 
+  > Yao Yao, Zixin Luo, Shiwei Li, Jingyang Zhang, Yufan Ren, Lei Zhou, Tian Fang, and Long Quan. *BlendedMVS: A Large-Scale Dataset for Generalized Multi-View Stereo Networks*. In CVPR, 2020.
+
+- **Tanks & Temples Dataset**: 
+  > Arno Knapitsch, Jaesik Park, Qian-Yi Zhou, and Vladlen Koltun. *Tanks and Temples: Benchmarking Large-Scale Scene Reconstruction*. ACM Transactions on Graphics (TOG), 2017.
+
+- **DeepVoxels Dataset**: 
+  > Vincent Sitzmann, Michael Zollhöfer, and Gordon Wetzstein. *DeepVoxels: Learning Persistent 3D Feature Embeddings*. In CVPR, 2019.
+
+Now that I have gathered the datasets and their citations, I will compile this information into a structured format for further processing or review.

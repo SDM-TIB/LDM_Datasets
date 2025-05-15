@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "MetaDT: Meta Decision Tree for Interpretable Few-Shot Learning" by Baoquan Zhang et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract discusses the challenges of Few-Shot Learning (FSL) and hints at the use of datasets for experiments, but does not specify names. The introduction elaborates on the FSL problem and mentions the need for datasets but again does not provide specific names.
+
+Next, I will focus on the **experiments section** (section 6) where the authors typically describe the datasets used for their experiments. Here, I find that the authors mention three datasets:
+
+1. **miniImagenet**: This dataset is a subset of ImageNet, containing 100 classes. The authors state that they split it into 64 classes for training, 16 for validation, and 20 for testing. The class hierarchy is constructed from WordNet.
+
+2. **CIFAR-FS**: This dataset is built from CIFAR100, including 100 classes. The authors split it into 64 classes for training, 16 for validation, and 20 for testing, similar to miniImagenet. The class hierarchy is also derived from WordNet.
+
+3. **tieredImagenet**: This dataset is a more challenging FSL dataset constructed from ImageNet, including 608 classes. The authors partition it into 34 high-level classes and then split it into 20 classes for training, 6 for validation, and 8 for testing. The class hierarchy is again extracted from WordNet.
+
+To confirm the details of these datasets, I will check the **References section** for any citations related to these datasets. However, since miniImagenet and CIFAR-FS are commonly used datasets in the FSL community, they may not have specific citations in this paper. Instead, I will provide general citations for the original datasets:
+
+- For **miniImagenet**, the citation is:
+  > Vinyals, O., Blundell, C., Lillicrap, T., & Wierstra, D. (2016). Matching networks for one shot learning. In NeurIPS (pp. 3630-3638).
+
+- For **CIFAR-FS**, the citation is:
+  > Bertinetto, L., Henriques, J. F., Torr, P. H. S., & Vedaldi, A. (2019). Meta-learning with differentiable closed-form solvers. In ICLR.
+
+- For **tieredImagenet**, the citation is:
+  > Ren, M., Triantafillou, E., Ravi, S., Snell, J., Swersky, K., Tenenbaum, J. B., & Larochelle, H. (2018). Meta-learning for semi-supervised few-shot classification. In ICLR.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

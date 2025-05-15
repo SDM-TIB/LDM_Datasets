@@ -1,0 +1,33 @@
+To extract datasets from the research paper titled "Vision Language Model is NOT All You Need: Augmentation Strategies for Molecule Language Models" by Namkyeong Lee et al., I will follow a systematic approach to identify and document the datasets mentioned throughout the paper.
+
+First, I will start by reviewing the **abstract** and **introduction** sections. The abstract mentions the challenges in molecule language models (MoLM) due to limited molecule-text paired data, which suggests that datasets are likely discussed in detail later in the paper. The introduction further emphasizes the need for datasets in the context of molecular science, indicating that specific datasets may be referenced.
+
+Next, I will examine the **methodology** section, particularly the subsections that discuss the datasets used for training and evaluation. In this paper, the authors mention using the **PubChem database** for pre-training AMOLE, which is a significant dataset in the field of molecular science. The paper states that the PubChem database consists of multiple data sources, including DrugBank, CTD, and PharmGKB, and it contains a total of 299K unique molecules and 336K molecule-text pairs.
+
+I will also look into the **experiments** section, where the authors describe various downstream tasks and the datasets used for evaluation. They mention several specific datasets for tasks such as zero-shot cross-modal retrieval, zero-shot question answering, molecular property prediction, and zero-shot virtual screening. 
+
+The datasets mentioned include:
+
+1. **PubChem Database**: Used for pre-training AMOLE, containing 299K unique molecules and 336K molecule-text pairs.
+   - Citation: 
+     > Kim, S., Chen, J., Cheng, T., Gindulyte, A., He, J., He, S., ... & Thiessen, P. A. (2021). PubChem in 2021: new data content and improved web interfaces. *Nucleic Acids Research*, 49(D1), D1388-D1395.
+
+2. **DrugBank**: A source of molecular data included in the PubChem database.
+   - Citation:
+     > Wishart, D. S., Feunang, Y. D., Guo, A. C., Lo, J., Marcu, A., & Sajed, T. (2018). DrugBank 5.0: a major update to the DrugBank database for 2018. *Nucleic Acids Research*, 46(D1), D1074-D1082.
+
+3. **Therapeutics Data Commons (TDC)**: Used for the zero-shot virtual screening task.
+   - Citation:
+     > Huang, K., Fu, T., Gao, W., Zhao, Y., Roohani, Y., ... & Sun, J. (2021). Therapeutics data commons: Machine learning datasets and tasks for drug discovery and development. *arXiv preprint arXiv:2102.09548*.
+
+4. **LIT-PCBA**: Another dataset used for the zero-shot virtual screening task.
+   - Citation:
+     > Tran-Nguyen, V. K., Jacquemard, C., & Rognan, D. (2020). LIT-PCBA: an unbiased data set for machine learning and virtual screening. *Journal of Chemical Information and Modeling*, 60(9), 4263-4273.
+
+5. **MoleculeNet Benchmark**: Used for molecular property prediction tasks.
+   - Citation:
+     > Wu, Z., Ramsundar, B., Feinberg, E. N., Gomes, J., Geniesse, C., ... & Pande, V. (2018). MoleculeNet: a benchmark for molecular machine learning. *Chemical Science*, 9(2), 513-530.
+
+After identifying these datasets, I will ensure to document their full citations accurately, as they are crucial for proper referencing in any subsequent analysis or application of the research findings.
+
+Finally, I will compile the dataset entries into a structured format for easy access and review, ensuring that each dataset is clearly described along with its citation.

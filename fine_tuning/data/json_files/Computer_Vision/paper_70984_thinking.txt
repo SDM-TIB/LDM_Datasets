@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "A Framework for Portrait Stylization with Skin-Tone Awareness and Nudity Identification" by Seungkwon Kim et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the challenges of portrait stylization and mentions the use of a nudity content identification module and a skin-tone-aware portrait stylization module, but it does not specify datasets yet.
+
+Next, I will focus on the **introduction** section, where the authors reference various studies and datasets related to image-to-image (I2I) portrait stylization. They mention the **FFHQ dataset** as a prior dataset used in their work, which is a good lead.
+
+Moving on to the **experiments section**, I will look for specific mentions of datasets used in their experiments. The authors state that they constructed three training datasets based on NAVER Webtoon works, each containing 15 or fewer portrait images. They also mention augmenting these datasets to increase the number of images to 40-50 per dataset. However, they do not provide specific names for these datasets, which may be proprietary or internal to their research.
+
+Additionally, they mention obtaining a nudity dataset from a source [19], which is crucial for the nudity content identification module. I will need to look up this reference to find the full citation.
+
+In the **references section**, I will locate the full citation for the **FFHQ dataset** and the source for the nudity dataset. The FFHQ dataset citation is:
+> Tero Karras, Samuli Laine, and Timo Aila. *A style-based generator architecture for generative adversarial networks*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2019, pp. 4401–4410.
+
+For the nudity dataset, the reference [19] corresponds to:
+> deepghs. *Huggingface repository: nsfw detect*. Available at: https://huggingface.co/datasets/deepghs/nsfw_detect.
+
+Now, I will summarize the datasets I have identified:
+
+1. **FFHQ Dataset**: A dataset used for training generative models, particularly in the context of portrait stylization.
+2. **NAVER Webtoon Datasets**: Three internal datasets constructed from NAVER Webtoon works, each containing 15 or fewer portrait images, augmented to 40-50 images.
+3. **Nudity Dataset**: A dataset used for nudity content identification, sourced from Hugging Face.
+
+Finally, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This structured approach will help ensure that I have accurately captured all relevant datasets from the paper.

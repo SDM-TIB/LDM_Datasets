@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Assessing the Robustness of Intelligence-Driven Reinforcement Learning" by Lorenzo Nodari and Federico Cerutti, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to identify any datasets mentioned. The abstract discusses the importance of robustness in reinforcement learning systems but does not explicitly mention any datasets. Therefore, I will need to look deeper into the paper.
+
+In the **introduction**, the authors describe a scenario involving a micro UAV and a compound, but again, no datasets are mentioned. I will continue to the **methodology** section, where they discuss the experimental analysis based on two different grid-world environments.
+
+In the **methodology**, the authors mention two environments: **CookieWorld** and **SymbolWorld**. They describe the characteristics of these environments and how they are used for training agents. However, they do not provide specific dataset citations or references for these environments.
+
+Next, I will check the **results section** to see if there are any references to datasets used in the experiments. The results focus on the performance metrics of the agents trained in the two environments but do not provide citations for the datasets.
+
+Since the paper does not provide explicit citations for the datasets used (CookieWorld and SymbolWorld), I will need to refer to the **References section** to find any relevant citations that may pertain to these environments. 
+
+In the references, I find that CookieWorld and SymbolWorld are mentioned in reference [5]:
+> R. Toro Icarte, E. Waldie, T. Klassen, R. Valenzano, M. Castro, and S. McIlraith. *Learning Reward Machines for Partially Observable Reinforcement Learning*. In Advances in Neural Information Processing Systems, vol. 32. Curran Associates, Inc., 2019.
+
+This citation provides the necessary information for the CookieWorld and SymbolWorld environments.
+
+Now, I will compile the dataset entries based on the information gathered:
+
+1. **CookieWorld**: A grid-world environment where an agent can access three rooms and must navigate to collect cookies, with specific rules governing the rewards.
+   - Citation: R. Toro Icarte, E. Waldie, T. Klassen, R. Valenzano, M. Castro, and S. McIlraith. *Learning Reward Machines for Partially Observable Reinforcement Learning*. In Advances in Neural Information Processing Systems, vol. 32. Curran Associates, Inc., 2019.
+
+2. **SymbolWorld**: Another grid-world environment similar to CookieWorld but involves navigating to collect symbols instead of cookies, with different rules for rewards.
+   - Citation: R. Toro Icarte, E. Waldie, T. Klassen, R. Valenzano, M. Castro, and S. McIlraith. *Learning Reward Machines for Partially Observable Reinforcement Learning*. In Advances in Neural Information Processing Systems, vol. 32. Curran Associates, Inc., 2019.
+
+After gathering this information, I will prepare the dataset entries for further processing or review.

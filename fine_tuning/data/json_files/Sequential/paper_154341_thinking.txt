@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "Pretraining Strategies, Waveform Model Choice, and Acoustic Configurations for Multi-Speaker End-to-End Speech Synthesis" by Erica Cooper et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned or implied. The abstract discusses pretraining strategies and mentions the use of various corpora, which suggests that datasets are involved.
+
+Next, I will focus on the **main body of the paper**, particularly the sections that detail the **training corpora** and **experiments**. In the introduction, the authors mention the importance of diverse data sources for training multi-speaker TTS models, which indicates that specific datasets will be discussed later.
+
+In **section 2 (Base Corpora and Training Strategy)**, the authors list several datasets used for model initialization and training. I will extract the following datasets:
+
+1. **VCTK Corpus**: This dataset contains studio-quality recordings from 99 speakers and is used for training the multi-speaker Tacotron model.
+2. **Nancy Corpus**: A single-speaker dataset used for warm-starting the model, containing 1 speaker with 40,373 utterances.
+3. **LJSpeech**: Another single-speaker dataset with 1 speaker and 11,092 utterances, also used for warm-starting.
+4. **LibriTTS**: This dataset is divided into two subsets: clean-360 and other-500, with 854 and 1,148 speakers respectively, and is used for fine-tuning.
+
+I will also check the **experiments section** to confirm that these datasets were indeed used in the experiments and to gather any additional details about their application.
+
+After identifying the datasets, I will refer to the **References section** to find the full citations for each dataset:
+
+- For **VCTK Corpus**, the citation is:
+  > Christophe Veaux, Junichi Yamagishi, and Kirsten MacDonald. *CSTR VCTK corpus: English multi-speaker corpus for CSTR voice cloning toolkit*. 2017.
+
+- For **Nancy Corpus**, the citation is:
+  > Simon King and Vasilis Karaiskos. *The Blizzard Challenge 2011*. In Blizzard Challenge Workshop, 2011.
+
+- For **LJSpeech**, the citation is:
+  > Keith Ito and Linda Johnson. *The LJ Speech dataset*. Online: https://keithito.com/LJ-Speech-Dataset/, 2017.
+
+- For **LibriTTS**, the citation is:
+  > Heiga Zen, Rob Clark, Ron J. Weiss, Viet Dang, Ye Jia, Yonghui Wu, Yu Zhang, and Zhifeng Chen. *LibriTTS: A corpus derived from LibriSpeech for text-to-speech*. Interspeech, 2019.
+
+Now that I have gathered all the necessary information about the datasets, I will compile this into a structured format for further processing or review. This includes ensuring that each dataset is clearly described along with its full citation, as this is crucial for proper attribution and reference in future work.

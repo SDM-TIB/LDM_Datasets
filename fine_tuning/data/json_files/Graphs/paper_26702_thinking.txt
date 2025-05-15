@@ -1,0 +1,44 @@
+To extract datasets from the research paper titled "EPGAT: Gene Essentiality Prediction With Graph Attention Networks" by Joo Schapke, Anderson Tavares, and Mariana Recamonde-Mendoza, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and materials and methods sections** to identify any datasets mentioned. The abstract indicates that the authors benchmarked their method on four organisms, which suggests that datasets related to these organisms are likely included.
+
+Next, I will focus on **section II (Materials and Methods)**, specifically the **Data Collection and Preprocessing** subsection. Here, the authors describe the datasets used for their experiments:
+
+1. **Essential Genes Dataset**: This dataset includes annotations for essential and non-essential genes for four organisms: 
+   - **Saccharomyces cerevisiae**: 5,636 genes (18.63% essential)
+   - **Escherichia coli**: 3,686 genes (6.56% essential)
+   - **Drosophila melanogaster**: 12,329 genes (1.95% essential)
+   - **Homo sapiens**: 18,476 genes (9.88% essential)
+   The dataset was obtained from the Online Gene Essentiality (OGEE) database.
+
+2. **PPI Networks**: The authors utilized three different PPI networks for their experiments:
+   - **DIP (Database of Interacting Proteins)**: Contains protein pairs experimentally shown to bind to each other.
+   - **BioGRID (Biological General Repository for Interaction Datasets)**: Provides curated protein interactions reported in the biomedical literature.
+   - **STRING (Search Tool for the Retrieval of Interacting Genes/Proteins)**: Assembles PPI collected from various evidence channels.
+
+3. **Gene Expression Profiles**: The authors used gene expression data from the Gene Expression Omnibus (GEO) database, specifically:
+   - **E. coli**: GSE7326 and GSE40693
+   - **S. cerevisiae**: GSE3431
+   - **H. sapiens**: GSE86354
+   - **D. melanogaster**: GSE67547
+
+4. **Subcellular Localization and Orthology Information**: The authors gathered orthology information from the InParanoid database and subcellular localization data from the COMPARTMENTS database.
+
+Now, I will check the **References section** to obtain full citations for these datasets:
+
+- For the **Online Gene Essentiality (OGEE)** database:
+  > Chen, W.-H., Lu, G., Chen, X., Zhao, X.-M., & Bork, P. (2016). OGEE v2: an update of the online gene essentiality database with special focus on differentially essential genes in human cancer cell lines. *Nucleic Acids Research*, 44(D1), D1042-D1048.
+
+- For the **DIP** database:
+  > Salwinski, L., Miller, C. S., Smith, A. J., Pettit, F. K., Bowie, J. U., & Eisenberg, D. (2004). The database of interacting proteins: 2004 update. *Nucleic Acids Research*, 32(Suppl 1), D449-D451.
+
+- For the **BioGRID** database:
+  > Oughtred, R., Stark, C., Breitkreutz, B.-J., Rust, J., Boucher, L., Chang, C., Kolas, N., O'Donnell, L., Leung, G., McAdam, R., et al. (2019). The BioGRID interaction database: 2019 update. *Nucleic Acids Research*, 47(D1), D529-D541.
+
+- For the **STRING** database:
+  > Szklarczyk, D., Gable, A. L., Lyon, D., Junge, A., Wyder, S., Huerta-Cepas, J., Simonovic, M., Doncheva, N. T., Morris, J. H., Bork, P., et al. (2019). STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets. *Nucleic Acids Research*, 47(D1), D607-D613.
+
+- For the **Gene Expression Omnibus (GEO)**:
+  > Barrett, T., Wilhite, S. E., Ledoux, P., Evangelista, C., Kim, I. F., Tomashevsky, M., Marshall, K. A., Phillippy, K. H., Sherman, P. M., Holko, M., et al. (2012). NCBI GEO: archive for functional genomics data sets-update. *Nucleic Acids Research*, 41(D1), D991-D995.
+
+With these citations, I can now compile the dataset entries into a structured format for further processing. This systematic approach ensures that I accurately capture all relevant datasets and their citations from the paper.

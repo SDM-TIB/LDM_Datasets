@@ -1,0 +1,42 @@
+To extract datasets from the research paper titled "Effectiveness of Vision Language Models for Open-world Single Image Test Time Adaptation" by Manogna Sreenivas and Soma Biswas, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract mentions "extensive experimentation on diverse domain adaptation benchmarks," which suggests that datasets are involved, but I need to find specific names.
+
+Next, I will focus on the **experiments section** (section 4) where the authors typically describe the datasets used for their experiments. In this section, they mention using a diverse set of datasets for weak and strong out-of-distribution (OOD) data. Specifically, they list:
+
+1. **CIFAR-10C**: A corruption dataset consisting of 10 classes with 15 common corruption types, totaling 10,000 images for each corruption.
+2. **CIFAR-100C**: Similar to CIFAR-10C but with 100 classes, also totaling 10,000 images for each corruption.
+3. **ImageNet-C**: A large-scale corruption dataset with 1,000 categories and 50,000 images, synthesized from various corruption types.
+4. **ImageNet-R**: A style transfer dataset with 200 classes and 30,000 images.
+5. **VisDA**: A synthetic-to-real dataset with 152,397 synthetic training images and 55,388 real testing images across 12 categories.
+6. **MNIST**: A dataset of handwritten digits with 60,000 training and 10,000 testing images.
+7. **SVHN**: A dataset of house numbers from real street images, consisting of 50,000 training images and 10,000 testing images.
+8. **Tiny ImageNet**: A smaller version of ImageNet with 200 classes and 100,000 images.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- **CIFAR-10C**:
+  > Hendrycks, D., & Dietterich, T. (2019). Benchmarking neural network robustness to common corruptions and perturbations. *arXiv preprint arXiv:1903.12261*.
+
+- **CIFAR-100C**:
+  > Hendrycks, D., & Dietterich, T. (2019). Benchmarking neural network robustness to common corruptions and perturbations. *arXiv preprint arXiv:1903.12261*.
+
+- **ImageNet-C**:
+  > Hendrycks, D., Basart, S., Mu, N., Kadavath, S., Wang, F., Dorundo, E., Desai, R., Zhu, T., Parajuli, S., Guo, M., et al. (2021). The many faces of robustness: A critical analysis of out-of-distribution generalization. *CVPR*.
+
+- **ImageNet-R**:
+  > Hendrycks, D., & Dietterich, T. (2021). Benchmarking neural network robustness to common corruptions and perturbations. *arXiv preprint arXiv:1903.12261*.
+
+- **VisDA**:
+  > Peng, X., Usman, B., Kaushik, N., Hoffman, J., Wang, D., & Saenko, K. (2017). VisDA: The visual domain adaptation challenge. *arXiv preprint arXiv:1710.06924*.
+
+- **MNIST**:
+  > LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-based learning applied to document recognition. *Proceedings of the IEEE, 86*(11), 2278-2324.
+
+- **SVHN**:
+  > Netzer, Y., Wang, T., Coates, A., Bissacco, A., Wu, A. Y., & Ng, A. Y. (2011). Reading digits in natural images with unsupervised feature learning. *NIPS workshop on deep learning and unsupervised feature learning*.
+
+- **Tiny ImageNet**:
+  > Le, Y., & Yang, X. (2015). Tiny ImageNet visual recognition challenge. *CS 231N 7.7*.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

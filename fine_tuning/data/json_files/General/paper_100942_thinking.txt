@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Neural semi-Markov CRF for Monolingual Word Alignment" by Wuwei Lan et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reading through the **abstract** and **introduction** sections. The abstract mentions the creation of a "new benchmark with human annotations that cover four different text genres," which indicates that multiple datasets are involved. The introduction further elaborates on the importance of monolingual word alignment and hints at the datasets used for evaluation.
+
+Next, I will focus on **section 4 (A Multi-Genre Benchmark for Monolingual Word Alignment)**, where the authors describe the datasets in detail. This section outlines the **MultiMWA benchmark**, which consists of four datasets:
+
+1. **MultiMWA-MTRef**: This dataset is created by annotating 3,998 sentence pairs from the MTReference dataset. The authors mention that the original labels were noisy and corrected by in-house annotators. The citation for MTReference is:
+   > Yuchen Yao. *Feature-driven Question Answering With Natural Language Alignment*. Ph.D. thesis, Johns Hopkins University, 2014.
+
+2. **MultiMWA-Newsela**: This dataset consists of 1,932 English news articles and their simplified versions. The authors state that they randomly selected 500 complex-simple sentence pairs for annotation. The citation for Newsela is:
+   > Xu, M., Napoles, C., & Callison-Burch, C. *Problems in current text simplification research: New data can help*. Transactions of the Association for Computational Linguistics (TACL), 2015.
+
+3. **MultiMWA-arXiv**: This dataset is derived from the arXiv platform, containing 750 randomly sampled research papers and their historical versions. The authors used a neural CRF model for sentence alignment. The citation for the arXiv dataset is:
+   > Dong, Q., Wan, X., & Cao, Y. *Parasci: A large scientific paraphrase dataset for longer paraphrase generation*. In Proceedings of the European Chapter of the Association for Computational Linguistics (EACL), 2021.
+
+4. **MultiMWA-Wiki**: This dataset is created from Wikipedia revision history, containing 4,099 sentence pairs. The authors mention that they used a neural semi-CRF word aligner for annotation. The citation for the Wikipedia dataset is:
+   > Pryzant, R., Diehl Martinez, R., Kurohashi, S., Jurafsky, D., & Yang, D. *Automatically neutralizing subjective bias in text*. In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2020.
+
+After identifying these datasets, I will ensure to verify their descriptions and any additional details provided in the paper, such as the number of samples, the nature of the annotations, and the intended use cases.
+
+Finally, I will compile the dataset entries along with their full citations into a structured format for further processing or review. This systematic approach ensures that I accurately capture all relevant information regarding the datasets mentioned in the paper.

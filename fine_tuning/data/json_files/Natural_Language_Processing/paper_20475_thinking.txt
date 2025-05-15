@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Finding the Missing Data: A BERT-inspired Approach Against Package Loss in Wireless Sensing" by Zijian Zhao et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and dataset sections** to locate any references to datasets. The abstract mentions a collected dataset called **WiGesture**, which is a strong indication that a dataset is involved.
+
+Next, I will focus on **section IV (Dataset and Numerical Analysis)**, where the authors provide detailed information about the dataset used in their study. Here, they describe how the dataset was collected using the ESP32S3 microcontroller and a home Wi-Fi network, including specifics about the sampling rate, the environment, and the gestures performed by participants.
+
+In this section, the authors detail the following:
+
+1. **WiGesture Dataset**: This dataset was collected at a sampling rate of 100Hz in a cluttered conference room. It includes data from eight volunteers performing various gestures, resulting in 60 samples per action. The dataset captures the Channel State Information (CSI) embedded in Ping Replies, which is crucial for their experiments.
+
+Now, I will check the **References section** to find the full citation for the dataset. However, since the dataset is a product of the authors' own research and not a previously published dataset, it may not have a formal citation in the references. Instead, I will note that the dataset is publicly available at the provided GitHub link.
+
+The relevant information I will compile for the dataset is as follows:
+
+- **Dataset Name**: WiGesture
+- **Description**: A dataset collected using the ESP32S3 microcontroller and a home Wi-Fi network, containing CSI data from eight volunteers performing various gestures.
+- **Citation**: The dataset is publicly available at https://github.com/RS2002/CSI-BERT.
+
+After gathering this information, I will ensure that it is clearly documented and formatted appropriately for any further processing or review. This structured approach will help in accurately capturing the dataset details from the research paper.

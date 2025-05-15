@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Adversarial Examples Improve Image Recognition" by Cihang Xie et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract mentions the use of adversarial examples to improve image recognition models, which suggests that datasets are likely involved in the experiments.
+
+In the **introduction**, the authors discuss the challenges posed by adversarial examples and their potential benefits. They hint at the use of datasets like **ImageNet**, which is a well-known dataset in the field of image recognition.
+
+Next, I will focus on the **experiments section** where the authors detail their methodology and the datasets used. In **section 5.1 (Experiments Setup)**, they explicitly state that they use the **ImageNet dataset** for training their models. They also mention testing on several other datasets:
+
+1. **ImageNet-C**: This dataset is designed to measure robustness against common image corruptions, consisting of 15 corruption types with varying severity levels.
+2. **ImageNet-A**: This dataset contains 7,500 natural images that are challenging for recognition, drawn from difficult scenarios.
+3. **Stylized-ImageNet**: This dataset is created by removing local texture cues while retaining global shape information, requiring models to learn more shape-based representations.
+
+In the **results section**, the authors provide performance metrics on these datasets, confirming their use in the experiments.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For **ImageNet**, the citation is:
+  > Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, Alexander C. Berg, and Li Fei-Fei. *ImageNet Large Scale Visual Recognition Challenge*. IJCV, 2015.
+
+- For **ImageNet-C**, the citation is:
+  > Dan Hendrycks and Thomas G Dietterich. *Benchmarking Neural Network Robustness to Common Corruptions and Surface Variations*. arXiv preprint arXiv:1807.01697, 2018.
+
+- For **ImageNet-A**, the citation is:
+  > Dan Hendrycks, Kevin Zhao, Steven Basart, Jacob Steinhardt, and Dawn Song. *Natural Adversarial Examples*. arXiv preprint arXiv:1907.07174, 2019.
+
+- For **Stylized-ImageNet**, the citation is:
+  > Robert Geirhos, Patricia Rubisch, Claudio Michaelis, Matthias Bethge, Felix A Wichmann, and Wieland Brendel. *ImageNet-trained CNNs are Biased Towards Texture; Increasing Shape Bias Improves Accuracy and Robustness*. In ICLR, 2018.
+
+After gathering all this information, I will compile the dataset entries with their full citations to ensure they are ready for structured output or further processing.

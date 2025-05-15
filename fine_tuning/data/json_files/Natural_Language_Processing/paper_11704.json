@@ -1,0 +1,95 @@
+[
+    {
+        "dcterms:creator": [
+            "P. Kumar",
+            "S. Sahoo",
+            "V. Shah",
+            "V. Kondameedi",
+            "A. Jain",
+            "A. Verma",
+            "C. Bhattacharyya",
+            "V. Vishwanath"
+        ],
+        "dcterms:description": "ARD-16 is a real-world industrial LiDAR dataset collected using a 16-beam VLP-Puck LiDAR sensor. It has paired correspondence information available and is challenging due to its sparsity, making it difficult to learn features of dynamic and static objects.",
+        "dcterms:title": "ARD-16",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "LiDAR Data",
+            "Industrial Applications"
+        ],
+        "dcat:keyword": [
+            "LiDAR",
+            "Dynamic Objects",
+            "Static Structures",
+            "Industrial Dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Point Cloud",
+        "mls:task": [
+            "Static Structure Reconstruction",
+            "Dynamic Object Segmentation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Geiger",
+            "P. Lenz",
+            "R. Urtasun"
+        ],
+        "dcterms:description": "KITTI dataset is used to demonstrate the model's performance in the absence of correspondence information. It contains less than 7% of static scans without any correspondence information available.",
+        "dcterms:title": "KITTI",
+        "dcterms:issued": "2012",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Autonomous Driving",
+            "Computer Vision"
+        ],
+        "dcat:keyword": [
+            "LiDAR",
+            "Autonomous Vehicles",
+            "Dynamic Environments"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Point Cloud",
+        "mls:task": [
+            "Static Structure Reconstruction",
+            "Navigation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Dosovitskiy",
+            "G. Ros",
+            "F. Codevilla",
+            "A. Lopez",
+            "V. Koltun"
+        ],
+        "dcterms:description": "CARLA-64 is an extensive dataset collected using the CARLA simulator, featuring paired correspondence between static and dynamic scans, making it viable for training models in urban and industrial settings.",
+        "dcterms:title": "CARLA-64",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Simulation",
+            "Urban Driving"
+        ],
+        "dcat:keyword": [
+            "LiDAR",
+            "Simulation",
+            "Dynamic Environments",
+            "Urban Scenarios"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Point Cloud",
+        "mls:task": [
+            "Static Structure Reconstruction",
+            "Dynamic Object Segmentation"
+        ]
+    }
+]

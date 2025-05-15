@@ -1,0 +1,26 @@
+To extract the datasets from the research paper titled "Label Dropout: Improved Deep Learning Echocardiography Segmentation Using Multiple Datasets With Domain Shift and Partial Labelling" by Iman Islam et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, materials and methods, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors used multiple diverse datasets for training their segmentation models, which suggests that specific datasets will be detailed later in the paper.
+
+In the **introduction**, the authors mention the existence of public datasets for training echo segmentation models and refer to a summary of these datasets in Table 1. This indicates that I should look closely at Table 1 for the specific datasets used.
+
+Next, I will locate **Table 1** in the materials and methods section, which summarizes the datasets. The three datasets listed are:
+
+1. **CAMUS**: This dataset has 500 subjects and 10,024 images, with labels for left ventricle (LV), left ventricular myocardium (LVM), and left atrium (LA) available.
+2. **Unity Imaging**: This dataset has 1,000 subjects and 400 images, with labels for LV, LVM, and LA available, but some segmentations were discarded due to overlabeling.
+3. **EchoNet Dynamic**: This dataset has 2,048 images with labels for LV, LVM, and LA available.
+
+The authors also provide citations for these datasets in the references section, which I will need to retrieve for full citations.
+
+Now, I will check the **References section** to find the full citations for each dataset:
+
+- For **CAMUS**, the citation is:
+  > Leclerc, S., Smistad, E., Pedrosa, J., Ostvik, A., Cervenansky, F., Espinosa, F., Espeland, T., Berg, E.A.R., Jodoin, P.M., Grenier, T., Lartizien, C., Dhooge, J., Lovstakken, L., Bernard, O. (2019). Deep Learning for Segmentation Using an Open Large-Scale Dataset in 2D Echocardiography. *IEEE Transactions on Medical Imaging*, 38(9), 2198–2210. https://doi.org/10.1109/TMI.2019.2900516.
+
+- For **Unity Imaging**, the citation is:
+  > Huang, Z., Sidhom, M.J., Wessler, B.S., Hughes, M.C. (2023). Fix-A-Step: Semi-supervised Learning from Uncurated Unlabeled Data. *arXiv preprint arXiv:2208.11870*.
+
+- For **EchoNet Dynamic**, the citation is:
+  > Ouyang, D., He, B., Ghorbani, A., Yuan, N., Ebinger, J., Langlotz, C.P., Heidenreich, P.A., Harrington, R.A., Liang, D.H., Ashley, E.A., Zou, J.Y. (2020). Video-based AI for beat-to-beat assessment of cardiac function. *Nature*, 580(7802), 252–256. https://doi.org/10.1038/s41586-020-2145-8.
+
+Having gathered the dataset names and their full citations, I will now compile this information into a structured format for further processing or review.

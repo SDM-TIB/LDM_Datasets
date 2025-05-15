@@ -1,0 +1,37 @@
+To extract datasets from the research paper titled "BLOOM+1: Adding Language Support to BLOOM for Zero-Shot Prompting" by Zheng-Xin Yong et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any datasets mentioned. The abstract discusses the adaptation of the BLOOM model to support eight new languages, which suggests that there may be datasets associated with these languages.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments** section. In this paper, the authors mention adapting BLOOM to support languages such as German, Russian, Bulgarian, Thai, Turkish, Greek, Korean, and Guarani. I will check if these languages are linked to specific datasets used for evaluation.
+
+In the **experimental settings** section, the authors describe the languages used for adaptation and mention that they sampled data from the OSCAR corpus for these languages. I will note that the adaptation involved using monolingual corpora, specifically mentioning the number of samples and tokens for each language.
+
+I will also look for any **tables** or **figures** that summarize the datasets used. For instance, Table 6 provides the number of samples and tokens for each language, which is crucial for understanding the dataset's scope.
+
+Now, I will compile the datasets mentioned in the paper along with their full citations. The relevant datasets identified are:
+
+1. **OSCAR Corpus**: This dataset is used for language adaptation and is mentioned multiple times throughout the paper. The citation for the OSCAR dataset is:
+   > Ortiz Suárez, P. J., Sagot, B., & Romary, L. (2019). Asynchronous pipelines for processing huge corpora on medium to low resource infrastructures. In Proceedings of the Workshop on Challenges in the Management of Large Corpora (CMLC-7), pages 9–16.
+
+2. **Guarani Dataset**: The authors mention using the Jojajovai parallel corpus for Guarani, which is a low-resource language. The citation for this dataset is:
+   > Chiruzzo, L., Góngora, S., Alvarez, A., Giménez-Lugo, G., Agüero-Torales, M., & Rodríguez, Y. (2022). Jojajovai: A parallel Guarani-Spanish corpus for MT benchmarking. In Proceedings of the Thirteenth Language Resources and Evaluation Conference, pages 2098–2107.
+
+3. **XNLI Dataset**: This dataset is used for evaluating cross-lingual sentence representations. The citation is:
+   > Conneau, A., Rinott, R., Lample, G., Williams, A., Bowman, S., Schwenk, H., & Stoyanov, V. (2018). XNLI: Evaluating cross-lingual sentence representations. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 2475–2485.
+
+4. **KLUE-NLI Dataset**: This dataset is mentioned for evaluating Korean language understanding. The citation is:
+   > Park, S., Moon, J., Kim, S., Cho, W. I., Lee, J., & Kim, H. (2021). KLUE: Korean language understanding evaluation. In Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2).
+
+5. **AmericasNLI Dataset**: This dataset is used for evaluating zero-shot natural language understanding in low-resource languages. The citation is:
+   > Ebrahimi, E., Mager, M., Oncevay, A., Chaudhary, V., Chiruzzo, L., Fan, A., & Kann, K. (2022). AmericasNLI: Evaluating zero-shot natural language understanding of pretrained multilingual models in truly low-resource languages. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics, pages 6279–6299.
+
+6. **XCOPA Dataset**: This dataset is used for commonsense reasoning tasks. The citation is:
+   > Ponti, E. C., Glavaš, G., Majewska, O., Liu, Q., Vulić, I., & Korhonen, A. (2020). XCOPA: A multilingual dataset for causal common-sense reasoning. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing, pages 2362–2376.
+
+7. **XStoryCloze Dataset**: This dataset is used for evaluating story completion tasks. The citation is:
+   > Lin, T., Mihaylov, T., Artetxe, M., Wang, T., Chen, S., Simig, D., & Zettle-Moyer, L. (2021). XStoryCloze: A cross-lingual dataset for story completion. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 2627–2636.
+
+8. **PAWS-X Dataset**: This dataset is used for paraphrase identification tasks. The citation is:
+   > Yang, Z., Roller, S., Goyal, N., Artetxe, M., Chen, M., & Diab, M. (2019). PAWS-X: A cross-lingual adversarial dataset for paraphrase identification. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 3687–3692.
+
+After gathering all this information, I will ensure that the dataset entries are clearly structured and ready for any further processing or review.

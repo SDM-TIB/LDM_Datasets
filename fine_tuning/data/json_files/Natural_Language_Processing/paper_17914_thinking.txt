@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "An Exploratory Assessment of LLM’s Potential Toward Flight Trajectory Reconstruction Analysis" by Qilei Zhang and John H. Mott, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to identify any datasets mentioned. The abstract mentions the use of **Automatic Dependent Surveillance-Broadcast (ADS-B) data**, which indicates that this is a key dataset for the study.
+
+Next, I will focus on the **methodology section**, specifically **section III (Methodology)**, where the authors describe the data collection and generation process. Here, they mention the use of **BlueSky**, an open-source Python package, to generate a synthetic flight dataset that mirrors the statistical characteristics of ideal flight data. This synthetic dataset is crucial for their experiments.
+
+In this section, the authors detail how the dataset was created, including the simulation of diverse flight operations and the introduction of irregularities to reflect real-world ADS-B data. They also specify the number of flight trajectories included in the training, validation, and testing datasets, which are 7281, 911, and 910 trajectories, respectively.
+
+Now, I will check the **references section** to find the full citation for the **BlueSky** dataset. The relevant citation is:
+
+- For **BlueSky**:
+  > J. M. Hoekstra and J. Ellerbroek, “Bluesky atc simulator project: an open data and open source approach,” in Proceedings of the 7th international conference on research in air transportation, vol. 131. FAA/Eurocontrol USA/Europe, 2016, p. 132.
+
+Additionally, I will note that the paper discusses the use of **ADS-B data** but does not provide a specific citation for it, as it is a well-known system used in aviation. However, I will still mention it as a dataset used in the study.
+
+Finally, I will compile the dataset entries, ensuring to include the full citations for each dataset mentioned in the paper. The datasets identified are:
+
+1. **Synthetic Flight Dataset** generated using BlueSky.
+2. **ADS-B Data** (general reference, no specific citation provided).
+
+Now, I will prepare to format these findings into the required structured output for further processing.

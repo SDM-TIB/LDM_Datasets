@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "An Ensemble of Pre-trained Transformer Models For Imbalanced Multiclass Malware Classification" by Ferhat Demirkıran et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to identify any datasets mentioned. The abstract indicates that the authors evaluated their model on **four different datasets** containing API call sequences of malware samples, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 3 (Methodology)**, where the authors describe the datasets used in their experiments. They mention that there are two types of datasets: **dynamic API call datasets** and **static API call datasets**. 
+
+1. **Catak Dataset**: This dataset consists of 7,107 samples of Windows Operating System API calls obtained from a Cuckoo Sandbox environment. The malware family labels were determined using unique hash codes from Virus Total.
+   - Citation: 
+     > Catak, F. O., & Yazı, A. F. (2019). A benchmark API call dataset for Windows PE malware classification. *arXiv preprint arXiv:1905.01999*.
+
+2. **Oliveira Dataset**: This dataset contains 42,797 malware and 1,079 benign API call sequences, also obtained via Cuckoo Sandbox. The dataset was refined to include only the first 100 non-consecutive API calls for each sample.
+   - Citation: 
+     > Oliveira, A., & Sassi, R. (2019). Behavioral malware detection using deep graph convolutional neural networks. *TechRxiv*.
+
+3. **VirusShare Dataset**: This dataset includes 13,849 malware samples with their corresponding API call sequences, obtained from Virus Share. The unique hash codes were used to determine malware families.
+   - Citation: 
+     > Düzgün, B., Çayır, A., Demirkıran, F., Kayha, C. N., Gençaydın, B., & Dağ, H. (2021). New datasets for dynamic malware classification. *arXiv preprint arXiv:2111.15205*.
+
+4. **VirusSample Dataset**: This dataset consists of 9,732 malware samples, with API calls extracted similarly to the VirusShare dataset. The authors ensured that malware families with fewer than 100 samples were removed.
+   - Citation: 
+     > Düzgün, B., Çayır, A., Demirkıran, F., Kayha, C. N., Gençaydın, B., & Dağ, H. (2021). New datasets for dynamic malware classification. *arXiv preprint arXiv:2111.15205*.
+
+After identifying these datasets, I will ensure to note their specific characteristics and the context in which they were used in the experiments. 
+
+Finally, I will compile the dataset entries, ensuring that each dataset is accurately cited with the full citation as provided in the references section of the paper. This will ensure that the information is complete and ready for any further processing or review.

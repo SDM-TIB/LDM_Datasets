@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation" by Yen-Chi Cheng et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that the authors conduct experiments on various datasets, which indicates that there are datasets to be found.
+
+Next, I will focus on the **experiments section** (Section 4) where the authors typically describe the datasets used for their evaluations. In this section, they explicitly mention three datasets:
+
+1. **ShapeNet**: This dataset is described as a large-scale 3D CAD model dataset with 16 common object classes. The authors use the train/test splits provided by Xu et al. (2018).
+
+2. **BuildingNet**: This dataset is introduced as a new large-scale 3D building model dataset that provides more geometric details compared to ShapeNet. The authors mention that they use a signed distance function (SDF) of 128³ resolution for this dataset.
+
+3. **Pix3D**: This dataset is used for single-view 3D reconstruction tasks. The authors refer to the provided train/test splits on the Pix3D dataset for their evaluations.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **ShapeNet**, the citation is:
+  > Angel X. Chang, Thomas Funkhouser, Leonidas Guibas, Pat Hanrahan, Qixing Huang, Zimo Li, Silvio Savarese, Manolis Savva, Shuran Song, Hao Su, Jianxiong Xiao, Li Yi, and Fisher Yu. *ShapeNet: An Information-Rich 3D Model Repository*. Technical Report arXiv:1512.03012 [cs.GR], Stanford University — Princeton University — Toyota Technological Institute at Chicago, 2015.
+
+- For **BuildingNet**, the citation is:
+  > Pratheba Selvaraju, Mohamed Nabail, Marios Loizou, Maria Maslioukova, Melinos Averkiou, Andreas Andreou, Siddhartha Chaudhuri, and Evangelos Kalogerakis. *BuildingNet: Learning to Label 3D Buildings*. In ICCV, 2021.
+
+- For **Pix3D**, the citation is:
+  > Xingyuan Sun, Jiajun Wu, Xiuming Zhang, Zhoutong Zhang, Chengkai Zhang, Tianfan Xue, Joshua B. Tenenbaum, and William T. Freeman. *Pix3D: Dataset and Methods for Single-Image 3D Shape Modeling*. In CVPR, 2018.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further use or processing.

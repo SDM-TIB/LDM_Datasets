@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "GTRL: An Entity Group-Aware Temporal Knowledge Graph Representation Learning Method" by Xing Tang and Ling Chen, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. In the abstract, the authors mention conducting extensive experiments on **six real-world datasets**, which indicates that datasets are indeed present.
+
+Next, I will focus on the **experiments section** (Section 5), where the authors explicitly list the datasets used for evaluation. They mention the following datasets:
+
+1. **ICEWS14-full**: This dataset includes 7,128 entities and 205 relations, with a total of 74,845 training samples, 35,665 validation samples, and 4,412 test samples. The time granularity is 24 hours.
+
+2. **ICEWS18-full**: This dataset contains 23,033 entities and 208 relations, with 1,734,399 training samples, 238,765 validation samples, and 21,351 test samples. The time granularity is also 24 hours.
+
+3. **GDELT18-full**: This dataset has 7,691 entities and 219 relations, with 305,241 training samples, 27,407 validation samples, and 4,661 test samples. The time granularity is 15 minutes.
+
+Additionally, the authors refer to three other datasets derived from the above datasets by filtering for country-specific events:
+
+4. **ICEWS14**: A filtered version of ICEWS14-full.
+5. **ICEWS18**: A filtered version of ICEWS18-full.
+6. **GDELT18**: A filtered version of GDELT18-full.
+
+Now, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **ICEWS** datasets, the citation is:
+  > Elizabeth Boschee, Jennifer Lautenschlager, Sean O’Brien, Steve Shellman, James Starz, and Michael Ward. *ICEWS coded event data*. Harvard Dataverse, 2015.
+
+- For **GDELT** dataset, the citation is:
+  > Kalev Leetaru and Philip A. Schrodt. *GDELT: Global data on events, location, and tone, 1979-2012*. ISA Annual Convention, 2013.
+
+With this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research paper.

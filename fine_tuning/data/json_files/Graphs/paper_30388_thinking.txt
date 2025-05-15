@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Predicting fluid-structure interaction with graph neural networks" by Rui Gao and Rajeev K. Jaiman, I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to locate any references to datasets. The abstract mentions the effectiveness of the proposed framework on two prototypical fluid-structure systems, which suggests that datasets are involved.
+
+Next, I will focus on the **experiments section** where the authors describe the two specific cases they evaluated: the flow around an elastically-mounted cylinder and the flow around a hyperelastic plate attached to a fixed cylinder. This indicates that there are datasets generated from simulations for these cases.
+
+In the **ground truth data generation subsection**, the authors detail how the data for the elastically-mounted cylinder is generated. They mention that a total of 2499 time steps are sampled from stable conditions, and the flow data is interpolated onto a coarser mesh. This indicates that the dataset for this case is based on computational fluid dynamics (CFD) simulations.
+
+For the **hyperelastic plate case**, the authors state that the ground truth data is generated via the open-source toolbox redbKIT, which is a clear indication of another dataset being used.
+
+Now, I will compile the information to create a list of datasets along with their full citations:
+
+1. **Elastically-mounted Cylinder Dataset**: This dataset is generated from CFD simulations with 2499 time steps sampled from stable conditions. The authors reference the original work for validation of the simulation results.
+   - Citation: 
+     > R. K. Jaiman, M. Z. Guan, and T. P. Miyanawala. *Partitioned iterative and dynamic subgrid-scale methods for freely vibrating square-section structures at subcritical Reynolds number*. Computers & Fluids, 133, 68–89, 2016.
+
+2. **Hyperelastic Plate Dataset**: This dataset is generated using the redbKIT toolbox for the Turek-Hron benchmark case, which involves a hyperelastic plate in a channel flow.
+   - Citation: 
+     > S. Turek and J. Hron. *Proposal for numerical benchmarking of fluid-structure interaction between an elastic object and laminar incompressible flow*. Springer, 2006.
+
+After gathering this information, I will ensure that the dataset entries are structured appropriately for any further processing or review.

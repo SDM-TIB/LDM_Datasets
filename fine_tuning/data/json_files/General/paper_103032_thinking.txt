@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Detection and Localization of Multiple Image Splicing using MobileNet V1" by Kalyani Kadam et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors used their own dataset, the **Multiple Image Splicing Dataset (MISD)**, for training and testing their model. This is a strong indication that I need to gather details about this dataset.
+
+Next, I will focus on **section III (MISD Dataset)**, where the authors provide a detailed description of the MISD. Here, they mention that the dataset consists of **918 images**, with **618 authentic (AU) images** and **300 multiple spliced images**. The AU images are sourced from the CASIA 1.0 dataset, and the spliced images are created using various image editing operations with Figma software. The authors also note that ground truth masks are available for the spliced images, which is an important detail.
+
+I will also check the **related work section** to see if any other datasets are referenced. The authors discuss several datasets used in image splicing forgery detection, including:
+
+1. **Columbia Gray Dataset**: Contains 1845 image blocks, with 933 authentic and 912 spliced images. The images are in BMP format and were created using simple cut-paste operations.
+   - Citation: Ng, T. T., Chang, S. F., & Sun, Q. (2004). *A data set of authentic and spliced image blocks*. Columbia University, ADVENT Technical Report.
+
+2. **Columbia Color Dataset**: Contains 363 images, with 183 authentic and 180 spliced images, in TIFF format.
+   - Citation: Hsu, Y. F., & Chang, S. F. (2006). *Detecting Image Splicing Using Geometry Invariants And Camera Characteristics Consistency*. In Proceedings of ICME.
+
+3. **CASIA 1.0 Dataset**: Comprises 1725 images, with 800 authentic and 925 spliced images, in JPG format.
+   - Citation: Box, P. O. (2013). *CASIA IMAGE TAMPERING DETECTION EVALUATION DATABASE*. Institute of Automation, Chinese Academy of Sciences.
+
+4. **CASIA 2.0 Dataset**: Contains 12614 images, with 7491 authentic and 5123 spliced images, in JPEG and TIFF formats.
+   - Citation: Box, P. O. (2013). *CASIA IMAGE TAMPERING DETECTION EVALUATION DATABASE*. Institute of Automation, Chinese Academy of Sciences.
+
+5. **WildWeb Dataset**: Contains 9666 spliced images created from 82 categories, with ground truth masks available.
+   - Citation: Zampoglou, M., Papadopoulos, S., & Kompatsiaris, Y. (2015). *Detecting image splicing in the wild (web)*. In Proceedings of ICMEW.
+
+6. **AbhAS Dataset**: Contains 93 images, with 45 authentic and 48 spliced images, and ground truth masks available.
+   - Citation: Gokhale, A. L., Thepade, S. D., Aarons, N. R., Pramod, D., & Kulkarni, R. (2020). *AbhAS: A Novel Realistic Image Splicing Forensics Dataset*. Journal of Applied Security Research.
+
+After gathering all the necessary details, I will compile the dataset entries, ensuring to include full citations for each dataset mentioned in the paper. This will provide a comprehensive overview of the datasets utilized in the research.

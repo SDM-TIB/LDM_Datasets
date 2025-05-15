@@ -1,0 +1,28 @@
+To extract datasets from the research paper titled "Towards Fair Graph Neural Networks via Graph Counterfactual" by Zhimeng Guo et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will start by reading through the **abstract, introduction, methodology, and experiments sections** of the paper. The abstract mentions that the authors conducted extensive experiments on synthetic and real-world datasets, which indicates that datasets are indeed involved.
+
+Next, I will focus on the **introduction** section, where the authors discuss the importance of fairness in graph neural networks and mention the datasets used for their experiments. They specifically refer to three real-world datasets: **German Credit**, **Credit Defaulter**, and **Bail**. I will look for detailed descriptions of these datasets in the subsequent sections.
+
+In the **experiments section**, particularly subsection 5.1.1, the authors provide a detailed description of the real-world datasets:
+
+1. **German Credit Dataset**: This dataset consists of 1,000 nodes (clients) and 22,242 edges, with 27 attributes. The sensitive attribute is "gender," and the task is to classify the credit risk level as high or low.
+
+2. **Credit Defaulter Dataset**: This dataset includes 30,000 nodes (credit card users) and 1,436,858 edges, with 13 attributes. The sensitive attribute is "age," and the task is to classify the default payment method.
+
+3. **Bail Dataset**: This dataset contains 18,876 nodes (defendants) and 321,308 edges, with 18 attributes. The sensitive attribute is "race," and the task is to classify whether defendants are on bail or not.
+
+Additionally, the authors mention a **synthetic dataset** created based on a Structural Causal Model (SCM), which provides ground-truth counterfactuals for evaluation purposes.
+
+Now, I will check the **References section** to find the full citations for the datasets mentioned. The citations for the datasets are as follows:
+
+- For the **German Credit Dataset**, the citation is:
+  > Asuncion, A., & Newman, D. (2007). UCI machine learning repository.
+
+- For the **Credit Defaulter Dataset**, the citation is:
+  > Yeh, I.-C., & Lien, C.-H. (2009). The comparisons of data mining techniques for the predictive accuracy of probability of default of credit card clients. *Expert Systems with Applications*, 36(2), 2473-2480.
+
+- For the **Bail Dataset**, the citation is:
+  > Jordan, K. L., & Freiburger, T. L. (2015). The effect of race/ethnicity on sentencing: Examining sentence type, jail length, and prison length. *Journal of Ethnicity in Criminal Justice*, 13(3), 179-196.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This structured approach will help ensure that I capture all relevant details accurately.

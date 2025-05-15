@@ -1,0 +1,224 @@
+[
+    {
+        "dcterms:creator": [
+            "Denny Vrandeˇci´c",
+            "Markus Krötzsch"
+        ],
+        "dcterms:description": "This TKG dataset is constructed from the Wikidata Knowledge Graph where it contains facts paired with Wikipedia pages. Each fact connects two entities via an explicit relation (edge type). This dataset contains Wikidata entities with IDs smaller than 1 million. The temporal relations either describe point in time relations (event-based) or relations with duration (fact-based).",
+        "dcterms:title": "tkgl-smallpedia",
+        "dcterms:issued": "2014",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Knowledge Graph",
+            "Temporal Data"
+        ],
+        "dcat:keyword": [
+            "Wikidata",
+            "Temporal Knowledge Graph",
+            "Event-based relations",
+            "Fact-based relations"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Future fact prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Grace I. Scarborough",
+            "Benjamin E. Bagozzi",
+            "Andreas Beger",
+            "John Berrie",
+            "Andrew Halterman",
+            "Philip A. Schrodt",
+            "Jevon Spivey"
+        ],
+        "dcterms:description": "This TKG dataset is based on the POLitical Event Classification, Attributes, and Types (POLECAT) dataset which records coded interactions between socio-political actors of both cooperative or hostile actions. POLECAT utilizes the PLOVER ontology to analyze new stories in seven languages across the globe to generate time-stamped, geolocated events.",
+        "dcterms:title": "tkgl-polecat",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Political Events",
+            "Temporal Data"
+        ],
+        "dcat:keyword": [
+            "Political interactions",
+            "Event classification",
+            "Temporal Knowledge Graph"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Future political event prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Elizabeth Boschee",
+            "Jennifer Lautenschlager",
+            "Sean O’Brien",
+            "Steve Shellman",
+            "James Starz",
+            "Michael Ward"
+        ],
+        "dcterms:description": "This TKG dataset is extracted from the ICEWS Coded Event Data which spans a time frame from 1995 to 2022. The dataset records political events between actors and is classified based on the CAMEO taxonomy of events optimized for the study of mediation.",
+        "dcterms:title": "tkgl-icews",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Political Events",
+            "Temporal Data"
+        ],
+        "dcat:keyword": [
+            "Political events",
+            "CAMEO taxonomy",
+            "Temporal Knowledge Graph"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Future interaction prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Denny Vrandeˇci´c",
+            "Markus Krötzsch"
+        ],
+        "dcterms:description": "This TKG dataset is extracted from the Wikidata KG and constitutes a superset of tkgl-smallpedia. The temporal relations are properties between Wikidata entities.",
+        "dcterms:title": "tkgl-wikidata",
+        "dcterms:issued": "2014",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Knowledge Graph",
+            "Temporal Data"
+        ],
+        "dcat:keyword": [
+            "Wikidata",
+            "Temporal Knowledge Graph",
+            "Property forecasting"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Future property prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Kian Ahrabian",
+            "Daniel Tarlow",
+            "Hehuimin Cheng",
+            "Jin LC Guo"
+        ],
+        "dcterms:description": "This THG dataset is based on Github data collected by GH Arxiv. Only nodes with at least 10 edges were kept in the graph, resulting in 14 types of relations and 4 node types. The dataset spans January 2024.",
+        "dcterms:title": "thgl-software",
+        "dcterms:issued": "2024",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Software Development",
+            "Temporal Data"
+        ],
+        "dcat:keyword": [
+            "Github",
+            "User activity prediction",
+            "Temporal Heterogeneous Graph"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Next activity prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Amirhossein Nadiri",
+            "Frank W Takes"
+        ],
+        "dcterms:description": "This THG dataset is based on the user and subreddit interaction network on Reddit. The node types encode users or subreddits, with edge relations indicating user replies and posts.",
+        "dcterms:title": "thgl-forum",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Social Media",
+            "Temporal Data"
+        ],
+        "dcat:keyword": [
+            "Reddit interactions",
+            "User engagement prediction",
+            "Temporal Heterogeneous Graph"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "User interaction prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Kian Ahrabian",
+            "Daniel Tarlow",
+            "Hehuimin Cheng",
+            "Jin LC Guo"
+        ],
+        "dcterms:description": "This THG dataset is based on Github data collected from the GH Arxiv. It tracks user, pull request, issue, and repository nodes with 14 edge types.",
+        "dcterms:title": "thgl-github",
+        "dcterms:issued": "2024",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Software Development",
+            "Temporal Data"
+        ],
+        "dcat:keyword": [
+            "Github",
+            "User activity prediction",
+            "Temporal Heterogeneous Graph"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Next activity prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Erfan Loghmani",
+            "MohammadAmin Fazli"
+        ],
+        "dcterms:description": "This THG dataset is based on the Myket Android App market, documenting user installation or update interactions within the market.",
+        "dcterms:title": "thgl-myket",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Mobile Applications",
+            "Temporal Data"
+        ],
+        "dcat:keyword": [
+            "Myket",
+            "User interactions",
+            "Temporal Heterogeneous Graph"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "User interaction prediction"
+        ]
+    }
+]

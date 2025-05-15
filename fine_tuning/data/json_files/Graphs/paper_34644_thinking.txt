@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "Learning Optimal Linear Precoding for Cell-Free Massive MIMO with GNN" by Benjamin Parlier et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the research, and I will look for any explicit references to datasets used for training or evaluation.
+
+Next, I will focus on **section 4.4 (Training and Loss Function)**, where the authors describe how they generated data for training their model. They mention that they created datasets from two environments: **free space 60GHz LoS** and **urban 2GHz NLoS**. Each environment has specific configurations regarding the number of access points (APs) and user equipments (UEs).
+
+In this section, the authors specify that they generated **eight datasets**, each containing **10,000 samples**. They used **9,000 samples for training**, **500 for validation**, and **500 for testing**. This indicates that the datasets are structured for machine learning purposes, with clear splits for training and evaluation.
+
+Now, I will look for the **full citations** of the datasets mentioned. The paper does not provide explicit citations for the datasets themselves, but it does reference the environments and the simulation settings. I will note that the datasets are derived from simulations based on the following references:
+
+1. For the **60GHz LoS environment**, the authors refer to a model that is identical to the one in a previous work. I will look for the citation of that work in the references section.
+2. For the **urban 2GHz NLoS environment**, the authors mention that it follows the ITU-R recommendations. I will also find the relevant citation for this in the references.
+
+After reviewing the references, I find the following relevant citations:
+
+- For the **60GHz LoS model**, the citation is:
+  > Yang, H. (2021). *Cell-free Massive MIMO in LoS*. In IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC), pp. 672–677.
+
+- For the **urban 2GHz NLoS model**, the citation is:
+  > Series, M. (2009). *Guidelines for evaluation of radio interface technologies for IMT-Advanced*. Report ITU M.2135-1.
+
+Now that I have identified the datasets and their corresponding citations, I will summarize the findings:
+
+1. **Dataset Name**: Free Space 60GHz LoS Dataset
+   - **Description**: Simulated dataset for training the OLP-GNN model, containing 10,000 samples with 9,000 for training, 500 for validation, and 500 for testing.
+   - **Citation**: Yang, H. (2021). *Cell-free Massive MIMO in LoS*. In IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC), pp. 672–677.
+
+2. **Dataset Name**: Urban 2GHz NLoS Dataset
+   - **Description**: Simulated dataset for training the OLP-GNN model, containing 10,000 samples with 9,000 for training, 500 for validation, and 500 for testing.
+   - **Citation**: Series, M. (2009). *Guidelines for evaluation of radio interface technologies for IMT-Advanced*. Report ITU M.2135-1.
+
+Finally, I will compile this information into a structured format for further processing or review.

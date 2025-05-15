@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Multi-domain improves out-of-distribution and data-limited scenarios for medical image analysis" by Ece Ozkan et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to locate any references to datasets. The abstract mentions the use of "three publicly available datasets," which indicates that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 2.1 (Datasets)**, where the authors explicitly describe the datasets used in their experiments. Here, they introduce three datasets:
+
+1. **PolyMNIST**: This dataset is described as a multi-modal benchmark consisting of sets of ten MNIST digits, with each set including images of the same digit but with different backgrounds and styles. The total number of images used is 50,000 for training and validation, and 891 for testing.
+
+2. **MedMNIST**: The authors refer to MedMNIST v2, specifically the Organ{A,C,S}MNIST subset, which includes CT images from different viewpoints (axial, coronal, sagittal). The dataset comprises 61,521 training samples, 11,335 validation samples, and 34,875 test samples.
+
+3. **ImageCLEFmedical**: This dataset is derived from the extended Radiology Objects in COntext (ROCO) dataset and includes biomedical images paired with Unified Medical Language System (UMLS) concepts. The authors mention using a subset of images and concepts, focusing on nine distinct body organs across various imaging modalities.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset:
+
+- For **PolyMNIST**, the citation is:
+  > Thomas M. Sutter, Imant Daunhawer, and Julia E. Vogt. *Generalized multimodal ELBO*. In Proceedings of the International Conference on Machine Learning, 2021.
+
+- For **MedMNIST**, the citation is:
+  > Jianing Yang, Rui Shi, Donglai Wei, Zequan Liu, Lin Zhao, Bilian Ke, Hanspeter Pfister, and Bingbing Ni. *MedMNIST v2 - a large-scale lightweight benchmark for 2D and 3D biomedical image classification*. Scientific Data, 10(1), January 2023. doi: 10.1038/s41597-022-01721-8.
+
+- For **ImageCLEFmedical**, the citation is:
+  > Bogdan Ionescu, Henning Müller, Renaud Péteri, Johannes Rückert, Asma Ben Abacha, Alba G. Seco de Herrera, Christoph M. Friedrich, Louise Bloch, Raphael Brüngel, Ahmad Idrissi-Yaghir, et al. *Overview of the ImageCLEF 2022: Multimedia retrieval in medical, social media and nature applications*. In Lecture Notes in Computer Science, pp. 541–564. Springer International Publishing, 2022. doi: 10.1007/978-3-031-13643-6_31.
+
+Now, I will compile the dataset entries, ensuring to include the full citations as required. This structured approach will ensure that I accurately capture all relevant information regarding the datasets used in the research paper.

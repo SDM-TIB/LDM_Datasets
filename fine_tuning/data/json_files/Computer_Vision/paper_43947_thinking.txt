@@ -1,0 +1,35 @@
+To extract the datasets mentioned in the research paper titled "Scale-Space Autoencoders for Unsupervised Anomaly Segmentation in Brain MRI" by Christoph Baur et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a general overview of the research but does not specify dataset names. Therefore, I will focus on the **introduction** and **experiments sections** for detailed information.
+
+In the **introduction**, the authors discuss the challenges of segmenting anomalies in brain MRI and mention the use of unsupervised representation learning. However, they do not specify any datasets here.
+
+Next, I will examine **section 3 (Experiments and Results)**, where the authors introduce the datasets used for their experiments. They mention four datasets:
+
+1. **Dhealthy**: This dataset consists of FLAIR images from 100 healthy subjects acquired with a Philips Achieva 3T MR scanner. This dataset is used for training the models.
+
+2. **DM S**: This dataset contains FLAIR scans of 49 subjects with multiple sclerosis (MS), also taken with the same Philips scanner. It is used for testing the models.
+
+3. **DGB**: This is a non-public dataset consisting of 26 subjects with Glioblastoma, acquired with Siemens scanners. It is also used for testing.
+
+4. **DM SLU B**: This dataset is publicly available and comes from the University Hospital of Ljubljana. It contains scans of MS patients with lesion segmentations based on multi-rater consensus.
+
+Now, I will check the **References section** to find the full citations for these datasets. The paper does not provide specific citations for the datasets directly, but I can infer the following based on the context:
+
+- For **Dhealthy**, since it is a dataset created by the authors, I will note it as an internal dataset without a formal citation.
+  
+- For **DM S**, it is also an internal dataset, so I will note it similarly.
+
+- For **DGB**, since it is a non-public dataset, it may not have a formal citation available.
+
+- For **DM SLU B**, I will look for the reference provided in the text:
+  > Lesjak, Ž., Galimzianova, A., Koren, A., Lukin, M., Pernuš, F., Likar, B., & Špiclin, Ž. (2018). A novel public MR image dataset of multiple sclerosis patients with lesion segmentations based on multi-rater consensus. *Neuroinformatics*, 16(1), 51–63.
+
+With this information, I will summarize the datasets as follows:
+
+1. **Dhealthy**: Internal dataset of FLAIR images from 100 healthy subjects.
+2. **DM S**: Internal dataset of FLAIR scans from 49 subjects with MS.
+3. **DGB**: Non-public dataset of 26 subjects with Glioblastoma.
+4. **DM SLU B**: Public dataset with the citation provided above.
+
+Finally, I will compile the dataset entries into a structured format for further processing or review.

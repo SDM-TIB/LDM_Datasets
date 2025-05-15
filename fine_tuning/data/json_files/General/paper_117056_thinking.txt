@@ -1,0 +1,19 @@
+To extract datasets from the research paper titled "Graph2Vid: Flow graph to Video Grounding for Weakly-supervised Multi-Step Localization" by Nikita Dvornik et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to look for any references to datasets. The abstract mentions extending the **CrossTask dataset** with procedure flow graph information, indicating that this dataset is central to the research.
+
+Next, I will focus on **section 4.1 (Dataset construction)**, where the authors describe how they constructed their dataset. They mention that they extended the **CrossTask dataset** by associating procedure text with each category and parsing the instructions into a procedure flow graph. This section provides crucial details about the dataset's purpose and how it was modified for their experiments.
+
+In this section, the authors outline the steps taken to create the dataset:
+1. They grabbed procedure text from the web for each procedure class (e.g., "Build floating shelves" or "Making pancakes").
+2. They extracted flow graphs from the procedural text, ensuring that each node corresponds to a step from the procedure text.
+3. They manually found correspondences between nodes in the graph and step instructions provided with the original datasets.
+
+The authors also mention that these correspondences are used to associate the original ground truth temporal annotations of each step with nodes in their flow graph.
+
+Now, I will check the **References section** to find the full citation for the **CrossTask dataset**. The citation is as follows:
+> Zhukov, D., Alayrac, J.B., Cinbis, R.G., Fouhey, D., Laptev, I., & Sivic, J. (2019). Cross-task weakly supervised learning from instructional videos. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
+
+Since the paper primarily discusses the **CrossTask dataset**, I will document this dataset in detail, including its modifications as described in the paper.
+
+Finally, I will compile the dataset information, ensuring to include the full citation for the **CrossTask dataset** as it is crucial for proper attribution in any downstream applications or analyses.

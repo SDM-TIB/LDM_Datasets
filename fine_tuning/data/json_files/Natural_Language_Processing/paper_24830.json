@@ -1,0 +1,104 @@
+[
+    {
+        "dcterms:creator": [
+            "Pierre Lison",
+            "Jörg Tiedemann",
+            "Milen Kouylekov"
+        ],
+        "dcterms:description": "A dataset of user-submitted subtitles and their translations, used to investigate context-related errors in machine translation.",
+        "dcterms:title": "OpenSubtitles corpus",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Translation",
+            "Subtitling"
+        ],
+        "dcat:keyword": [
+            "Subtitles",
+            "Translation",
+            "Parallel corpus"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation",
+            "Error Analysis"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Sebastian Vincent",
+            "Robert Flynn",
+            "Carolina Scarton"
+        ],
+        "dcterms:description": "A multi-encoder Transformer designed for contextual neural machine translation, leveraging contextual signals such as film metadata and document-level information.",
+        "dcterms:title": "MTCUE",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Translation",
+            "Contextual Translation"
+        ],
+        "dcat:keyword": [
+            "Contextual MT",
+            "Neural Machine Translation",
+            "Dialogue"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation",
+            "Contextual Analysis"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Sebastian Vincent",
+            "Robert Flynn",
+            "Carolina Scarton"
+        ],
+        "dcterms:description": "A non-contextual Transformer-based translation model parameter-matched to MTCUE and trained on the same data, excluding context.",
+        "dcterms:title": "BASE-NMT",
+        "dcterms:issued": "2023",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Translation"
+        ],
+        "dcat:keyword": [
+            "Neural Machine Translation",
+            "Non-contextual MT"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A general-purpose neural machine translation engine used in previous work.",
+        "dcterms:title": "GOOGLE (Google Translate)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Translation"
+        ],
+        "dcat:keyword": [
+            "Neural Machine Translation",
+            "General-purpose MT"
+        ],
+        "dcat:landingPage": "https://translate.google.com/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Machine Translation"
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Machine learning force-field models for metallic spin glass" by Menglin Shi et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the study, and I will look for any references to datasets used for training or testing the machine learning models.
+
+Next, I will focus on the **methodology section**, particularly where the authors describe their experiments and the data generation process. In this section, they mention that they generated datasets through exact diagonalization (ED) and ED-LLG simulations on a system consisting of 100 atoms with various configurations. This indicates that there are datasets related to the atomic configurations and the corresponding spin states.
+
+I will also check the **results section** to see if the authors provide any specific details about the datasets used for training their machine learning models. They mention that the size of the effective datasets is 250 * 100 = 25,000 data points, which is crucial information for understanding the scale of the datasets.
+
+After identifying the datasets, I will consult the **references section** to find full citations for any datasets or models that are referenced in the paper. This may include citations for the original models or datasets used in their experiments.
+
+Based on the information gathered, I will compile the following datasets:
+
+1. **Dataset from Exact Diagonalization (ED)**: This dataset is generated from the exact diagonalization of the random s-d model for various spin configurations. The authors mention that they used 10 different realizations of random atomic configurations, leading to a total of 250 different spin configurations.
+
+2. **Dataset from ED-LLG Simulations**: This dataset is used to benchmark the machine learning model against the exact diagonalization results. It includes the local fields and energies computed from the simulations.
+
+Now, I will write down the full citations for these datasets:
+
+- For the **Exact Diagonalization (ED)** dataset, the citation is:
+  > Menglin Shi, Sheng Zhang, and Gia-Wei Chern. *Machine learning force-field models for metallic spin glass*. arXiv:2311.00001 [cond-mat.stat-mech], 2023.
+
+- For the **ED-LLG Simulations** dataset, the citation is the same as above since it is part of the same study.
+
+Finally, I will ensure that I have documented each dataset clearly, including their descriptions and citations, to facilitate further analysis or use in future research.

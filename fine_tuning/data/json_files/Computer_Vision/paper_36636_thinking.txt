@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Deep Generative Models for Relational Data with Side Information" by Changwei Hu, Piyush Rai, and Lawrence Carin, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract mentions that the authors report results on several benchmark datasets, which indicates that there are datasets to extract.
+
+Next, I will focus on **section 5 (Experiments)**, where the authors describe the datasets used in their experiments. They mention seven real-world datasets, which I will list and describe in detail:
+
+1. **Protein230**: This dataset contains information about protein-protein interactions of 230 proteins, with 595 edges. It does not have any side information.
+
+2. **NIPS234**: This coauthor network consists of the top 234 authors in NIPS conferences from 1-17, with 598 edges. This dataset also lacks side information.
+
+3. **Conflicts**: This dataset represents military disputes between countries from 1990 to 2000, consisting of 130 countries and 320 edges. Each country has three features: GDP, population, and polity.
+
+4. **Facebook**: This dataset includes user-user interactions from the Facebook social network, comprising 228 users from 14 ego-network communities. Each user is associated with 92 profile information features.
+
+5. **Metabolic**: This dataset contains metabolic pathway interaction data for Saccharomyces cerevisiae, with 668 nodes. Each node has three sets of features: phylogenetic information, gene expression information, and gene location.
+
+6. **NIPS 1-17**: This dataset is a coauthorship network containing 2865 authors and 9466 edges. It includes side information derived from the first 100 SVD-based author features.
+
+7. **CiteSeer**: A citation network consisting of 3312 scientific publications from six categories. The side information for this dataset is the category label for each paper, converted into a one-hot representation.
+
+After identifying the datasets, I will check the **References section** to find the full citations for any datasets that have been previously published. However, in this case, the datasets mentioned are either original to the paper or derived from existing datasets, so I will note that.
+
+Now, I will compile the dataset entries with their descriptions and citations into a structured format for further processing or review.

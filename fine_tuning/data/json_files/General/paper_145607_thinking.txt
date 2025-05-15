@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Image Distillation for Safe Data Sharing in Histopathology" by Zhe Li and Bernhard Kainz, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract indicates that the authors are working with a synthetic dataset generated for histopathology images, which suggests that there may be specific datasets referenced.
+
+In the **introduction**, the authors discuss the challenges of data scarcity and privacy in histopathology, hinting at the use of real datasets for training their models. They mention that their method is applied to the **PathMNIST dataset**, which is a significant clue that I need to explore further.
+
+Next, I will focus on the **experiments section**, where the authors explicitly mention the datasets used. They state that they evaluate their distillation approach on the **MedMNIST datasets**, specifically applying their method to **PathMNIST**, which consists of histopathology images for colon biopsies. The paper provides details about the dataset, including the number of samples and the types of tissues included.
+
+The **PathMNIST dataset** is described as containing 107,180 image samples divided into training, validation, and test sets. This dataset is crucial for understanding the performance of their proposed method.
+
+Now, I will check the **References section** to find the full citation for the **PathMNIST dataset**. The citation is as follows:
+> Yang, J., Shi, R., Wei, D., Liu, Z., Zhao, L., Ke, B., Pfister, H., Ni, B. (2023). MedMNIST v2 - a large-scale lightweight benchmark for 2D and 3D biomedical image classification. *Scientific Data*, 10(1), 41.
+
+Additionally, I will note that the authors mention using a **class conditional latent diffusion model** to generate synthetic images, but they do not provide a separate dataset citation for the synthetic images since they are generated from the original dataset.
+
+In summary, I have identified the following dataset for extraction:
+
+1. **PathMNIST Dataset**: A dataset containing histopathology images for colon biopsies, consisting of 107,180 samples divided into training, validation, and test sets.
+
+Now, I will compile the dataset entry with the full citation into a structured format for further processing.

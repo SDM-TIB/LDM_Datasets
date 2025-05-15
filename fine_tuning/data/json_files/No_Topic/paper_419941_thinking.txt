@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "An Easy-to-use Instruction Processing Framework for Large Language Models" by Yixin Ou et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to see if any datasets are mentioned. The abstract discusses the construction of high-quality instruction datasets, which suggests that there may be specific datasets referenced later in the paper.
+
+Next, I will examine the **experiments** section, particularly **section 4 (Evaluation)**, where the authors describe their experimental setups. Here, they mention four instruction datasets used in their experiments:
+
+1. **self_instruct_5k**: This dataset is constructed using the Self-Instruct method to distill instruction data from the text-davinci-003 model.
+
+2. **alpaca_data_5k**: This dataset is randomly sampled from the Alpaca dataset, which is referenced in the paper.
+
+3. **evol_instruct_5k**: This dataset is created using the Evol-Instruct method, which is another approach discussed in the paper.
+
+4. **easyinstruct_5k**: This dataset is collected by integrating the three instruction datasets mentioned above and applying multiple selectors to extract high-quality instruction datasets.
+
+I will also check the **References section** to find the full citations for the datasets mentioned. The citations for the datasets are as follows:
+
+- For **Self-Instruct**, the citation is:
+  > Yizhong Wang, Swaroop Mishra, Pegah Alipoormolabashi, Yeganeh Kordi, Amirreza Mirzaei, Atharva Naik, Arjun Ashok, Arut Selvan Dhanasekaran, Anjana Arunkumar, David Stap, Eshaan Pathak, Giannis Karamanolakis, Haizhi Gary Lai, Ishan Purohit, Ishani Mondal, Jacob Anderson, Kirby Kuznia, Krima Doshi, Kuntal Kumar Pal, Maitreya Patel, Mehrad Moradshahi, Mihir Parmar, Mirali Purohit, Neeraj Varshney, Phani Rohitha Kaza, Pulkit Verma, Ravsehaj Singh Puri, Rushang Karia, Savan Doshi, Shailaja Keyur Sampat, Siddhartha Mishra, Sujan Reddy A, Sumanta Patro, Tanay Dixit, and Xudong Shen. *Super-naturalinstructions: Generalization via declarative instructions on 1600+ NLP tasks*. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, EMNLP 2022, Abu Dhabi, United Arab Emirates, December 7-11, 2022, pages 5085–5109. Association for Computational Linguistics.
+
+- For **Alpaca**, the citation is:
+  > Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li, Carlos Guestrin, Percy Liang, and Tatsunori B. Hashimoto. *Stanford Alpaca: An instruction-following LLaMA model*. https://github.com/tatsu-lab/stanford_alpaca.
+
+- For **Evol-Instruct**, the citation is:
+  > Can Xu, Qingfeng Sun, Kai Zheng, Xiubo Geng, Pu Zhao, Jiazhan Feng, Chongyang Tao, and Daxin Jiang. *WizardLM: Empowering large language models to follow complex instructions*. CoRR, abs/2304.12244.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for clarity and future reference. This will ensure that I have accurately captured the datasets used in the research and their respective sources.

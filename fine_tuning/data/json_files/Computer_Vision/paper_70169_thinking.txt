@@ -1,0 +1,25 @@
+To extract datasets from the research paper titled "What do we learn from inverting CLIP models?" by Hamid Kazemi et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to see if any datasets are explicitly referenced. The abstract discusses the use of an inversion-based approach to examine CLIP models but does not mention specific datasets. The introduction provides context about CLIP models but does not specify datasets either.
+
+Next, I will focus on the **experiments and analysis sections**. In these sections, the authors discuss various experiments conducted using prompts and the results of model inversions. They mention the use of different CLIP models trained on various datasets, particularly in the context of analyzing biases and NSFW content. 
+
+In **section 4.4 (Effect of Training Data Scale)**, the authors specifically mention three datasets used to train different CLIP models:
+1. **OpenAI CLIP training data**: This dataset consists of 400 million image-caption pairs.
+2. **CC12M**: This dataset contains 12 million images.
+3. **YFCC15M**: This dataset includes 15 million images.
+
+These datasets are crucial for understanding the performance of the CLIP models in the context of the experiments conducted.
+
+Now, I will check the **References section** to find the full citations for these datasets. However, since these datasets are not typically published in the same way as academic papers, I will note the information provided in the paper itself:
+
+- For **OpenAI CLIP training data**, the citation is:
+  > Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry, G., Askell, A., Mishkin, P., Clark, J., et al. *Learning transferable visual models from natural language supervision*. arXiv preprint arXiv:2103.00020, 2021.
+
+- For **CC12M**, the citation is:
+  > Changpinyo, S., Sharma, P., Ding, N., and Soricut, R. *Conceptual 12M: Pushing web-scale image-text pre-training to recognize long-tail visual concepts*. In CVPR, 2021.
+
+- For **YFCC15M**, the citation is:
+  > Thomee, B., Shamma, D. A., Friedland, G., Elizalde, B., Ni, K., Poland, D., Borth, D., and Li, L.-J. *Yfcc100m: The new data in multimedia research*. Communications of the ACM, 59(2):64–73, 2016.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation for proper attribution. This will provide a comprehensive overview of the datasets utilized in the research.

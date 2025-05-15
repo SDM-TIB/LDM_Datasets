@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Hyperbolic Hierarchical Contrastive Hashing" by Rukai Wei et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions that "extensive experiments on four benchmark datasets demonstrate that the proposed method outperforms the state-of-the-art unsupervised hashing methods." This indicates that multiple datasets are used, but I need to find their specific names.
+
+Next, I will look into **section 4 (Experiments)**, where the authors typically provide detailed information about the datasets used. In this section, they explicitly list the datasets as follows:
+
+1. **ImageNet**: A large-scale dataset commonly used for image classification tasks. The authors mention that they randomly select 100 categories for their experiments, using 5,000 images as the query set and the remaining images for retrieval.
+
+2. **CIFAR-10**: This dataset consists of 60,000 images across 10 classes. The authors specify that they select 1,000 images (100 per class) as the query set, with the remaining images used for retrieval.
+
+3. **FLICKR25K**: A multi-label dataset containing 25,000 images from 24 categories. The authors state that they randomly sample 1,000 images as the query set and use the remaining images for retrieval.
+
+4. **NUS-WIDE**: This dataset contains 269,648 images from 81 classes. The authors mention that they only use images from the 21 most frequent classes, with 100 images per class as the query set.
+
+After identifying the datasets, I will check the **References section** to find the full citations for these datasets. The citations are as follows:
+
+- For **ImageNet**, the citation is:
+  > Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. *ImageNet: A large-scale hierarchical image database*. In 2009 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2009), pages 248–255, 2009.
+
+- For **CIFAR-10**, the citation is:
+  > Alex Krizhevsky, Geoffrey Hinton, et al. *Learning multiple layers of features from tiny images*. 2009.
+
+- For **FLICKR25K**, the citation is:
+  > Mark J. Huiskes and Michael S. Lew. *The MIR flickr retrieval evaluation*. In Proceedings of the 1st ACM SIGMM International Conference on Multimedia Information Retrieval, pages 39–43, 2008.
+
+- For **NUS-WIDE**, the citation is:
+  > Tat-Seng Chua, Jinhui Tang, Richang Hong, Haojie Li, Zhiping Luo, and Yantao Zheng. *NUS-WIDE: a real-world web image database from National University of Singapore*. In Proceedings of the 8th ACM International Conference on Image and Video Retrieval, pages 1–8, 2009.
+
+Now that I have gathered the dataset names and their citations, I will compile this information into a structured format for further processing or review.

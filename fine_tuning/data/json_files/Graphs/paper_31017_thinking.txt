@@ -1,0 +1,55 @@
+To extract datasets from the research paper titled "Learning Compiler Pass Orders using Coreset and Normalized Value Prediction" by Youwei Liang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to locate any references to datasets. The abstract mentions that the proposed method is evaluated on a "large collection (4683) of unseen code repositories from diverse domains across 14 datasets." This indicates that multiple datasets are involved.
+
+Next, I will examine **section 3.5 (Dataset Preparation)**, where the authors provide a detailed breakdown of the datasets used in their experiments. They categorize the datasets into two types: **curated** and **uncurated**. 
+
+1. **Curated Datasets**: These are small collections of hand-picked programs used solely for evaluation. The paper lists the following curated datasets:
+   - **Cbench**: A benchmark suite for evaluating compiler optimizations.
+   - **CHStone**: A benchmark program suite for practical C-based high-level synthesis.
+   - **MiBench**: A free, commercially representative embedded benchmark suite.
+   - **NPB (NAS Parallel Benchmarks)**: A benchmark suite for evaluating parallel applications.
+
+2. **Uncurated Datasets**: These consist of individual compiler IRs from open-source repositories and synthetically generated programs. The paper lists the following uncurated datasets:
+   - **Anghabench**: A suite with one million compilable C benchmarks for code-size reduction.
+   - **BLAS**: Basic Linear Algebra Subprograms.
+   - **GitHub**: Datasets derived from various GitHub repositories.
+   - **Linux**: Datasets derived from the Linux kernel.
+   - **OpenCV**: A library of programming functions mainly aimed at real-time computer vision.
+   - **TensorFlow**: An open-source platform for machine learning.
+
+In **Table 2**, the authors provide a summary of the dataset types and their training splits, which includes the number of training, validation, and test programs for each dataset.
+
+Now, I will check the **References section** to find full citations for the datasets mentioned. The citations for the datasets are as follows:
+
+- **Cbench**: 
+  > Fursin, G. (2014). *Collective tuning initiative*. arXiv preprint arXiv:1407.3487.
+
+- **CHStone**: 
+  > Hara, Y., Tomiyama, H., Honda, S., Takada, H., & Ishii, K. (2008). *Chstone: A benchmark program suite for practical c-based high-level synthesis*. In 2008 IEEE International Symposium on Circuits and Systems (ISCAS), pp. 1192–1195. IEEE.
+
+- **MiBench**: 
+  > Guthaus, M. R., Ringenberg, J. S., Ernst, D., Austin, T. M., Mudge, T., & Brown, R. B. (2001). *MiBench: A free, commercially representative embedded benchmark suite*. In Proceedings of the fourth annual IEEE international workshop on workload characterization. WWC-4 (Cat. No. 01EX538), pp. 3–14. IEEE.
+
+- **NPB**: 
+  > Bailey, D., Harris, T., Saphir, W., Van Der Wijngaart, R., Woo, A., & Yarrow, M. (1995). *The NAS parallel benchmarks 2.0*. Technical report, Technical Report NAS-95-020, NASA Ames Research Center.
+
+- **Anghabench**: 
+  > Da Silva, A. F., Kind, B. C., de Souza Magalhães, J. W., Rocha, J. N., Guimaraes, B. C. F., & Pereira, F. M. Q. (2021). *Anghabench: A suite with one million compilable C benchmarks for code-size reduction*. In 2021 IEEE/ACM International Symposium on Code Generation and Optimization (CGO), pp. 378–390. IEEE.
+
+- **BLAS**: 
+  > No specific citation provided in the paper; generally known as a standard library.
+
+- **GitHub**: 
+  > No specific citation provided; refers to various repositories.
+
+- **Linux**: 
+  > No specific citation provided; refers to the Linux kernel.
+
+- **OpenCV**: 
+  > No specific citation provided; refers to the OpenCV library.
+
+- **TensorFlow**: 
+  > No specific citation provided; refers to the TensorFlow library.
+
+After gathering all this information, I will compile the dataset entries into a structured format for further processing or review. This ensures that I have accurately documented the datasets along with their full citations as required.

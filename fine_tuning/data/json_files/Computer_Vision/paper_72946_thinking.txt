@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Response Matching for generating materials and molecules" by Bingqing Cheng, I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, methods, and examples sections** of the paper. The abstract mentions the use of a "small organic molecular dataset," which indicates that there are datasets involved. I will look for specific names and details of these datasets.
+
+In the **introduction**, the author discusses the importance of machine learning in generating new molecular and material structures and references datasets used in previous studies. I will note any datasets mentioned here.
+
+Next, I will focus on the **methods section**, where the author describes the generative method and its application to various datasets. I will look for explicit mentions of datasets used for training or evaluation.
+
+In the **examples section**, the author provides detailed descriptions of the datasets used in the experiments. Here, I find three key datasets:
+
+1. **QM7b Dataset**: This dataset is curated based on GDB-13 and consists of 7,211 molecules of up to 23 atoms. The author describes how random displacements were added during training and provides insights into the model's performance on this dataset.
+
+2. **Materials Project (MP-20) Structures**: This dataset includes almost all experimentally stable materials from the Materials Project, with unit cells containing at most 20 atoms. The author mentions that the training set contains 27,136 structures and describes the training process.
+
+3. **Single Diamond Structure**: The author describes a one-shot learning approach using a single cubic diamond structure, detailing the training process and the results obtained.
+
+Now, I will check the **references section** to find the full citations for these datasets:
+
+- For the **QM7b Dataset**, the citation is:
+  > Grégoire Montavon, Matthias Rupp, Vivekanand Gobre, Alvaro Vazquez-Mayagoitia, Katja Hansen, Alexandre Tkatchenko, Klaus-Robert Müller, and O Anatole von Lilienfeld. *Machine learning of molecular electronic properties in chemical compound space*. New Journal of Physics, 15(9):095003, 2013.
+
+- For the **Materials Project**, the citation is:
+  > Anubhav Jain, Shyue Ping Ong, Geoffroy Hautier, Wei Chen, William Davidson Richards, Stephen Dacek, Shreyas Cholia, Dan Gunter, David Skinner, Gerbrand Ceder, et al. *Commentary: The materials project: A materials genome approach to accelerating materials innovation*. APL Materials, 1(1), 2013.
+
+- The **single diamond structure** does not have a specific dataset citation as it is based on a single data point, but it is referenced in the context of the methods used.
+
+After gathering all this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will allow for a clear understanding of the datasets used in the research and their significance in the context of the study.

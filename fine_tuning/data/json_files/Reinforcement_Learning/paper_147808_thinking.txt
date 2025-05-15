@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Parametrized Deep Q-Networks Learning: Reinforcement Learning with Discrete-Continuous Hybrid Action Space" by Jiechao Xiong et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract provides a brief overview of the research and may mention specific datasets used for evaluation. 
+
+Next, I will focus on the **experiments section** (section 4) where the authors typically describe the datasets used in their evaluations. In this paper, the experiments are conducted in three environments: a simulation example, the Half Field Offense (HFO) domain, and the game King of Glory (KOG). I will look for any explicit mentions of datasets or environments that could be considered datasets.
+
+In **section 4.1 (A Simulation Example)**, the authors describe a simulation environment but do not mention a specific dataset. Instead, they outline the setup and parameters used for the simulation.
+
+In **section 4.2 (HFO)**, the authors refer to the HFO domain, which is based on the Helios-Agent2D’s world model. They mention that the state features are derived from this model, but again, they do not provide a formal dataset citation. However, I will note that the HFO domain is a recognized benchmark in reinforcement learning.
+
+In **section 4.3 (Solo mode of King of Glory)**, the authors describe the game environment and the features used to represent the state. They mention that the features are extracted from the game engine, but they do not provide a formal dataset citation either. 
+
+After reviewing these sections, I will check the **References section** for any citations that might correspond to datasets or environments used in the experiments. The references include works related to the HFO domain and the King of Glory game, but they do not provide a specific dataset citation.
+
+Since the paper does not explicitly mention datasets with formal citations, I will summarize the environments used in the experiments as follows:
+
+1. **Simulation Environment**: A custom simulation setup for testing the proposed algorithm.
+2. **Half Field Offense (HFO)**: Based on the Helios-Agent2D’s world model, which can be referenced as:
+   > Akiyama, H. (2010). Agent2d base code.
+3. **King of Glory (KOG)**: A popular mobile game environment, but no formal dataset citation is provided.
+
+Now, I will compile the information into a structured format, ensuring to include the relevant citations for the environments mentioned. This will help in documenting the datasets used in the research effectively.

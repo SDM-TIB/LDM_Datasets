@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "A Condensed Transition Graph Framework for Zero-shot Link Prediction with Large Language Models" by Mingchen Li et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will start by examining the **abstract** and **introduction** sections. The abstract mentions that the proposed method achieves state-of-the-art performance on three standard ZSLP datasets, which indicates that there are specific datasets used in the experiments.
+
+Next, I will look for a dedicated **datasets section** or any mention of datasets in the **experiments section**. In this case, the **experiments section (5.1)** explicitly lists three datasets used for evaluation:
+
+1. **FB60K-NYT10**: This dataset includes the FB-60K knowledge graph and the NYT10 corpus. The paper notes that triples are excluded if either the head or tail entity is not found in the knowledge graph.
+
+2. **UMLS**: This dataset contains triples from the Unified Medical Language System, which provides knowledge in the healthcare and medicine domain.
+
+3. **NELL**: The NELL dataset consists of individual graphs corresponding to each query relation, sourced from the web.
+
+Now, I will gather the full citations for each dataset from the **References section** of the paper:
+
+- For **FB60K-NYT10**, the citation is:
+  > Cong Fu, Tong Chen, Meng Qu, Woojeong Jin, and Xiang Ren. *Collaborative policy learning for open knowledge graph reasoning*. arXiv preprint arXiv:1909.00230, 2019.
+
+- For **UMLS**, the citation is:
+  > Stanley Kok and Pedro Domingos. *Statistical predicate invention*. In Proceedings of the 24th international conference on Machine learning, pages 433–440, 2007.
+
+- For **NELL**, the citation is:
+  > Rajarshi Das, Shehzaad Dhuliawala, Manzil Zaheer, Luke Vilnis, Ishan Durugkar, Akshay Krishnamurthy, Alex Smola, and Andrew McCallum. *Go for a walk and arrive at the answer: Reasoning over paths in knowledge bases using reinforcement learning*. arXiv preprint arXiv:1711.05851, 2017.
+
+After collecting this information, I will summarize the datasets and their citations in a structured format, ensuring that each dataset is clearly described along with its full citation for proper attribution. This will provide a comprehensive overview of the datasets utilized in the research.

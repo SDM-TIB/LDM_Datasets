@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Safe Deep Q-Network for Autonomous Vehicles at Unsignalized Intersection" by Kasra Mokhtari and Alan R. Wagner, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and experiments sections** to identify any datasets mentioned. The abstract indicates that the authors evaluate their method in the **CARLA simulation environment**, which suggests that the data used for experiments may be derived from this simulation.
+
+Next, I will look for specific mentions of datasets in the **methodology section**. Here, the authors describe the data generation process for the ego vehicle and pedestrians, indicating that they generated data for **2000 episodes of 100 timesteps** in CARLA. This suggests that the CARLA simulation itself is a key dataset used in their experiments.
+
+In the **experiments section**, the authors detail how they spawn pedestrians and generate noisy observations, which implies that the data collected during these experiments is also significant. They mention using Gaussian noise to simulate imperfect observations, which indicates that the dataset includes variations of pedestrian data.
+
+Now, I will check the **references section** for any citations related to the CARLA simulator or any other datasets mentioned. The paper cites the CARLA simulator as follows:
+> Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V. (2017). *CARLA: An open urban driving simulator*. arXiv preprint arXiv:1711.03938.
+
+Additionally, the authors mention using pedestrian data generated in the simulation, but they do not provide a specific dataset citation for this pedestrian data. Since the pedestrian data is derived from the CARLA simulation, I will reference the CARLA paper as the source for this dataset.
+
+In summary, the datasets extracted from the paper are:
+
+1. **CARLA Simulation Dataset**: This dataset includes the generated data for the ego vehicle and pedestrians during the simulation, which is crucial for evaluating the proposed method.
+
+Now, I will compile the dataset entries with their full citations for clarity and completeness.

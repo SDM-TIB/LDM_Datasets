@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "Data Augmentation for Supervised Graph Outlier Detection with Latent Diffusion Models" by Kay Liu et al., I will follow a systematic approach to ensure I capture all relevant information, including full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract mentions that extensive experiments were conducted on multiple datasets, which indicates that datasets are likely discussed in detail later in the paper.
+
+Next, I will focus on **section IV (Experiments)**, where the authors provide statistics of the datasets used. Here, they mention five datasets: **Weibo, Tolokers, Questions, Elliptic, and DGraph**. I will extract the relevant details for each dataset, including the number of nodes, edges, features, and the outlier ratio.
+
+1. **Weibo Dataset**: This dataset involves a graph of associations between users and hashtags from the Tecent-Weibo platform. It consists of 8,405 users and 61,964 hashtags, with 868 users classified as suspicious (outliers) and 7,537 as benign. The primary feature vector includes geolocation data and a bag-of-words representation.
+
+   Citation:
+   > Zhao, T., Deng, C., Yu, K., Jiang, T., Wang, D., & Jiang, M. (2020). Error-bounded graph anomaly loss for GNNs. In Proceedings of the 29th ACM International Conference on Information & Knowledge Management.
+
+2. **Tolokers Dataset**: This dataset is from the Toloka crowdsourcing platform, consisting of nodes representing individual workers. Edges are established between workers who have contributed to the same task. The features include personal profile information and task-related performance metrics.
+
+   Citation:
+   > Platonov, O., Kuznedelev, D., Diskin, M., Babenko, A., & Prokhorenkova, L. (2022). A critical look at the evaluation of GNNs under heterophily: Are we really making progress? In The Eleventh International Conference on Learning Representations.
+
+3. **Questions Dataset**: Derived from Yandex Q, this dataset represents users as nodes and establishes edges based on user interactions within a year. The target is to predict user activity on the platform, with features derived from user descriptions.
+
+   Citation:
+   > Platonov, O., Kuznedelev, D., Diskin, M., Babenko, A., & Prokhorenkova, L. (2022). A critical look at the evaluation of GNNs under heterophily: Are we really making progress? In The Eleventh International Conference on Learning Representations.
+
+4. **Elliptic Dataset**: This dataset comprises a graph of Bitcoin transactions, with nodes representing transactions and edges representing payment flows. It includes 203,769 nodes and 234,355 edges, with various attributes related to the transactions.
+
+   Citation:
+   > Weber, M., Domeniconi, G., Chen, J., Weidele, D. K. I., Bellei, C., Robinson, T., & Leiserson, C. (2019). Anti-money laundering in bitcoin: Experimenting with graph convolutional networks for financial forensics. In ACM SIGKDD International Conference on Knowledge Discovery and Data Mining.
+
+5. **DGraph Dataset**: A large-scale heterogeneous temporal graph with 3 million nodes and 4 million dynamic edges. It includes user accounts in a financial organization, with outliers identified as accounts with overdue payments.
+
+   Citation:
+   > Huang, X., Yang, Y., Wang, C., Wang, Z., Zhang, Z., Xu, J., Chen, L., & Vazirgiannis, M. (2022). DGraph: A large-scale financial dataset for graph anomaly detection. In Advances in Neural Information Processing Systems.
+
+After gathering the dataset descriptions and citations, I will ensure that I have accurately represented each dataset's key characteristics and provided the full citations as required. This will allow for proper referencing and further exploration of the datasets used in the research.

@@ -1,0 +1,20 @@
+To extract datasets from the research paper titled "Self-Supervised Contrastive Learning for Efficient User Satisfaction Prediction in Conversational Agents" by Mohammad Kachuee et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets mentioned. The abstract discusses the challenges of obtaining reliable annotated samples for user satisfaction prediction, which suggests that datasets are involved.
+
+Next, I will focus on **section 3 (User Satisfaction Modeling)**, where the authors explicitly mention two datasets:
+
+1. **Dsup**: This dataset consists of approximately 891,000 real-world conversation sessions, where each session's specific turn is annotated as either SAT (satisfying) or DSAT (dissatisfying) by human annotators. The authors note that the annotators followed a standard protocol and had access to the session context.
+
+2. **Dunsup**: This is a larger pool of unlabeled session data, which is about twice the size of Dsup. It contains real-world session data without annotations, allowing for a broader context in training models.
+
+In the **experiments section**, the authors confirm that they utilized both Dsup and Dunsup for their experiments, reinforcing the importance of these datasets in their research.
+
+Now, I will check the **References section** for full citations related to these datasets. However, since Dsup and Dunsup are proprietary datasets derived from a commercial system (Alexa), the authors do not provide formal citations for them. Instead, they mention that the datasets were sampled from real traffic and that there are confidentiality concerns preventing the disclosure of exact specifications.
+
+Since I cannot provide formal citations for Dsup and Dunsup, I will note that they are derived from a large-scale commercial conversational agent (Alexa) and are referenced in the paper as follows:
+
+- **Dsup**: Dataset of approximately 891,000 annotated conversation sessions (Kachuee et al., 2023).
+- **Dunsup**: Unlabeled dataset of real-world session data, approximately twice the size of Dsup (Kachuee et al., 2023).
+
+Finally, I will summarize the findings and prepare to compile the dataset entries into a structured format for further processing.

@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "ABNet: Attention BarrierNet for Safe and Scalable Robot Learning" by Wei Xiao, Tsun-Hsuan Wang, and Daniela Rus, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract discusses the application of the proposed model in various robot control tasks, which suggests that datasets may be involved.
+
+Next, I will focus on the **experiments section** (Section 4) where the authors typically describe the datasets used for their experiments. I will look for any explicit mentions of datasets, including their names and descriptions.
+
+In **Section 4.1 (2D Robot Obstacle Avoidance)**, the authors mention that they used a dataset that includes 100 trajectories, each with 137 trajectory points. They state that the ground truth controls were obtained via solving HOCBF-based QPs. This indicates that there is a specific dataset used for this experiment, but I need to find the full citation.
+
+In **Section 4.2 (Safe Robot Manipulation)**, the authors describe another dataset that includes 1000 trajectories, each with about 350 trajectory points. Again, they mention that the ground truth controls were obtained via solving HOCBF-based QPs. This is another dataset that needs to be cited.
+
+In **Section 4.3 (Vision-based End-to-End Autonomous Driving)**, the authors refer to an open dataset that includes 0.4 million image-control pairs collected from the VISTA simulator. This dataset is crucial for the experiments conducted in this section.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+1. For the **2D Robot Obstacle Avoidance dataset**, the authors do not provide a specific citation, but they mention that the dataset was created based on their own experiments. Therefore, I will note it as:
+   > "2D Robot Obstacle Avoidance Dataset: Includes 100 trajectories with 137 trajectory points each, ground truth controls obtained via solving HOCBF-based QPs."
+
+2. For the **Safe Robot Manipulation dataset**, similar to the previous dataset, the authors do not provide a specific citation. I will note it as:
+   > "Safe Robot Manipulation Dataset: Includes 1000 trajectories with approximately 350 trajectory points each, ground truth controls obtained via solving HOCBF-based QPs."
+
+3. For the **VISTA dataset**, the citation is:
+   > Amini, A., Wang, T.-H., Gilitschenski, I., Schwarting, W., Liu, Z., Han, S., Karaman, S., & Rus, D. (2022). *VISTA 2.0: An open, data-driven simulator for multimodal sensing and policy learning for autonomous vehicles*. In Proceedings of the 2022 International Conference on Robotics and Automation (ICRA), pages 2419–2426. IEEE.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "EdgeSAM: Prompt-In-the-Loop Distillation for On-Device Deployment of SAM" by Chong Zhou et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to locate any references to datasets. The abstract mentions that EdgeSAM achieves performance improvements on the **COCO** and **LVIS** datasets, which indicates that these datasets are used in the research.
+
+Next, I will examine the **experiments section** in detail, particularly focusing on the **Datasets** subsection. Here, the authors explicitly mention the datasets used for evaluation:
+
+1. **SA-1B Dataset**: This dataset is described as the largest segmentation dataset to date, containing over 1 billion mask annotations across 11 million images. It is crucial for the training of the SAM model.
+
+2. **COCO Dataset**: The authors refer to the COCO dataset, which is a well-known dataset for object detection and segmentation tasks. It is used for evaluating the performance of EdgeSAM.
+
+3. **LVIS Dataset**: This dataset is mentioned as another benchmark for evaluating the model's performance, particularly in the context of instance segmentation.
+
+Additionally, the authors create a test set called **SA-1K**, which is constructed from the SA-1B dataset by randomly selecting 1,000 images that were not used during training.
+
+Now, I will look at the **References section** to find the full citations for each dataset:
+
+- For the **SA-1B Dataset**, the citation is:
+  > Alexander Kirillov, Eric Mintun, Nikhila Ravi, Hanzi Mao, Chloe Rolland, Laura Gustafson, Tete Xiao, Spencer Whitehead, Alexander C Berg, Wan-Yen Lo, et al. *Segment Anything*. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), 2023.
+
+- For the **COCO Dataset**, the citation is:
+  > Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollár, and C Lawrence Zitnick. *Microsoft COCO: Common Objects in Context*. In European Conference on Computer Vision (ECCV), 2014.
+
+- For the **LVIS Dataset**, the citation is:
+  > Agrim Gupta, Piotr Dollar, and Ross Girshick. *LVIS: A Dataset for Large Vocabulary Instance Segmentation*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
+
+After gathering this information, I will compile the dataset entries into a structured format that includes the dataset names, descriptions, and full citations, ensuring that each dataset is accurately represented and properly cited.

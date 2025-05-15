@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Thinking Outside the Box: Generation of Unconstrained 3D Room Layouts" by Henry Howard-Jenkins et al., I will follow a systematic approach to identify and document the datasets mentioned.
+
+First, I will read through the **abstract, introduction, and experimental evaluation sections** to identify any datasets that are explicitly referenced. The abstract provides a brief overview of the method but may not mention specific datasets. The introduction typically outlines the context and significance of the research, which might include references to datasets used in prior work or for evaluation.
+
+Next, I will focus on **section 5 (Experimental Evaluation)**, where the authors discuss their training and evaluation processes. Here, they mention using the **SUN RGB-D dataset** for training their network, which provides room corner coordinates and other relevant data. This is a clear indication of a dataset being utilized.
+
+In the same section, they also refer to the **NYUDv2 303 dataset** for evaluating their room layout estimation method. This dataset is crucial for understanding how well their approach performs in real-world scenarios.
+
+Additionally, the authors mention using the **ScanNet dataset** for qualitative evaluations, although they clarify that they did not train on this dataset. This is important to note as it indicates the versatility of their method across different datasets.
+
+Now, I will look at the **References section** to find the full citations for each of these datasets:
+
+1. For the **SUN RGB-D dataset**, the citation is:
+   > Shuran Song, Samuel P Lichtenberg, and Jianxiong Xiao. *SUN RGB-D: A RGB-D Scene Understanding Benchmark Suite*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 567–576, 2015.
+
+2. For the **NYUDv2 303 dataset**, the citation is:
+   > Nathan Silberman, Derek Hoiem, and Rob Fergus. *Indoor Segmentation and Support Inference from RGBD Images*. In European Conference on Computer Vision, pages 746–760, 2012.
+
+3. For the **ScanNet dataset**, the citation is:
+   > Angela Dai, Angel X Chang, Manolis Savva, Maciej Halber, Thomas Funkhouser, and Matthias Nießner. *ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 1–1, 2017.
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets used in the research, which is essential for reproducibility and further research in the field.

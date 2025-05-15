@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "Don’t Stop Learning: Towards Continual Learning for the CLIP Model" by Yuxuan Ding et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to look for any explicit mentions of datasets. The abstract provides a brief overview of the study's focus on continual learning for the CLIP model, but I need to find specific datasets used for evaluation or training.
+
+Next, I will examine **section II (Background and Related Work)** and **section III (Continual Learning for the CLIP Model)**, as these sections often discuss the datasets used in experiments. In section III, the authors mention using **MSCOCO** for constructing training data for updated classes and **tiered-ImageNet** for evaluating zero-shot learning performance. This indicates that these datasets are crucial for the experiments conducted in the study.
+
+In **section III.B (Evaluation of the CL-CLIP)**, the authors describe the datasets used for different tasks:
+1. **MSCOCO**: This dataset is used to construct training data for updated classes, consisting of 596,974 cropped training images and 35,360 testing images.
+2. **tiered-ImageNet**: A subset of ImageNet used for zero-shot learning evaluation, containing 351 classes with 100 samples each for testing.
+3. **MSCOCO (Karpathy’s split)**: Also mentioned as a validation set, which includes 5,000 validation images.
+
+I will also check the **References section** to find the full citations for these datasets. The citations are essential for proper attribution and to provide context for future researchers.
+
+The citations I will extract are:
+- For **MSCOCO**:
+  > T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollár, and C. L. Zitnick. *Microsoft COCO: Common Objects in Context*. In European Conference on Computer Vision, 2014, pp. 740–755.
+
+- For **tiered-ImageNet**:
+  > O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. Bernstein et al. *ImageNet Large Scale Visual Recognition Challenge*. International Journal of Computer Vision, vol. 115, no. 3, pp. 211–252, 2015.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This structured approach will help ensure that all relevant information is captured accurately for future reference or analysis.

@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "Neural-PDE: A RNN based neural network for solving time dependent PDEs" by Yihao Hu et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and experiments sections** to see if any datasets are explicitly mentioned. The abstract provides a brief overview of the research, and the introduction often outlines the context and significance of the work, which may include references to datasets.
+
+Next, I will focus on the **experiments section** where the authors typically describe the datasets used for testing their methods. In this paper, the authors mention applying their Neural-PDE framework to solve various partial differential equations (PDEs) and provide details about the datasets used for training and testing.
+
+Upon reviewing the paper, I find that the authors conducted experiments on several PDEs, including:
+
+1. **1D Wave Equation**: The authors describe the dataset generated using the analytical solution for the wave equation, which is defined over a specific spatial domain and time interval.
+
+2. **2D Heat Equation**: The dataset for this experiment is generated based on the initial and boundary conditions specified for the heat equation, and the authors mention the grid size and time discretization used.
+
+3. **Inviscid Burgers’ Equation**: The authors created a dataset using a finite difference scheme to simulate the dynamics of the inviscid Burgers’ equation, including the initial and boundary conditions.
+
+4. **Coupled Cahn–Hilliard–Navier–Stokes System**: The dataset for this complex fluid system is generated using a finite element method (FEM) solver, and the authors provide details about the initial conditions and parameters used.
+
+Next, I will check the **References section** to find full citations for any datasets or methods referenced in the paper. However, since the datasets are generated from the authors' own simulations and methods, they may not have formal citations like publicly available datasets.
+
+For the datasets mentioned, I will summarize them as follows:
+
+- **1D Wave Equation Dataset**: Generated using the analytical solution for the wave equation defined over the spatial domain [0, 1] and time interval [0, 2]. The dataset includes the exact solution for training and testing.
+
+- **2D Heat Equation Dataset**: Created based on the initial condition \( u(x, y, 0) \) and boundary conditions for the heat equation over the spatial domain [0, 2] × [0, 2] and time interval [0, 0.15].
+
+- **Inviscid Burgers’ Equation Dataset**: Generated using a finite difference scheme with specific initial and boundary conditions, focusing on the dynamics of the equation over the spatial domain [0, 1] × [0, 1] and time interval [0, 1].
+
+- **Coupled Cahn–Hilliard–Navier–Stokes System Dataset**: Created using a FEM solver with initial conditions defined for the fluid phase and pressure, focusing on the dynamics over the spatial domain [-0.5, 0.5] × [-0.5, 0.5] and time interval [0, 1].
+
+Finally, I will compile this information into a structured format that clearly presents each dataset along with its relevant details, ensuring that I include any necessary citations or references to the methods used to generate the datasets.

@@ -1,0 +1,29 @@
+To extract datasets from the research paper titled "CHEMREASONER: Heuristic Search over a Large Language Model’s Knowledge Space using Quantum-Chemical Feedback" by Henry W. Sprueill et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methods sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors are releasing all their datasets, which suggests that there are multiple datasets to look for.
+
+Next, I will focus on the **Background and Related Work section** and the **Experimental setup section**. In the experimental setup, the authors mention using an augmented version of a chemistry-focused reasoning query benchmark originally proposed in a previous work. This indicates that there are specific datasets being utilized for their experiments.
+
+In **section 4.1 (Experimental setup)**, the authors describe the datasets used for their experiments:
+
+1. **OpenCatalyst Dataset**: This dataset is derived from the Open Catalyst Project and contains DFT calculations for various adsorbate-catalyst pairs. It is intended for training surrogate models for computational chemistry simulations related to catalysis.
+
+2. **BioFuels Dataset**: This dataset targets adsorbates related to the production of sustainable fuels from organic materials and includes queries for specific adsorbates like phenol, methanol, and ethanol.
+
+3. **CO2-Conversion Dataset**: This dataset consists of queries designed to benchmark the CHEMREASONER’s ability to recommend catalysts for the conversion of CO2 to methanol and ethanol.
+
+Next, I will check the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets.
+
+- For the **OpenCatalyst Dataset**, the citation is:
+  > Zitnick, C. L., Chanussot, L., Das, A., Goyal, S., Heras-Domingo, J., Ho, C., Hu, W., Lavril, T., Palizhati, A., Riviere, M., et al. *An introduction to electrocatalyst design using machine learning for renewable energy storage*. arXiv preprint arXiv:2010.09435, 2020.
+
+- For the **BioFuels Dataset**, the citation includes multiple references:
+  > Canakci, M., & Van Gerpen, J. *Biodiesel production via acid catalysis*. Transactions of the ASAE, 42(5):1203–1210, 1999.
+  > Daza, Y. A., & Kuhn, J. N. *CO2 conversion by reverse water gas shift catalysis: comparison of catalysts, mechanisms and their consequences for CO2 conversion to liquid fuels*. RSC Advances, 6(55):49675–49691, 2016.
+  > Artz, J., Müller, T. E., Thenert, K., et al. *Sustainable conversion of carbon dioxide: an integrated review of catalysis and life cycle assessment*. Chemical Reviews, 118(2):434–504, 2018.
+
+- For the **CO2-Conversion Dataset**, the citation includes:
+  > Ling, G. Z. S., Foo, J. J., Tan, X.-Q., & Ong, W.-J. *Transition into net-zero carbon community from fossil fuels: Life cycle assessment of light-driven CO2 conversion to methanol using graphitic carbon nitride*. ACS Sustainable Chemistry & Engineering, 11(14):5547–5558, 2023.
+  > Mondal, U., & Yadav, G. D. *Methanol economy and net zero emissions: critical analysis of catalytic processes, reactors and technologies*. Green Chemistry, 23(21):8361–8405, 2021.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

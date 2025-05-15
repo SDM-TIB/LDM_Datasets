@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "Link Prediction under Heterophily: A Physics-Inspired Graph Neural Network Approach" by Andrea Giuseppe Di Francesco et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper.
+
+First, I will read through the **abstract** and **introduction** sections to get an overview of the research context and any datasets that may be referenced. The abstract mentions the introduction of GRAFF-LP and its evaluation on a collection of heterophilic graphs, which suggests that datasets are involved.
+
+Next, I will focus on **section 5 (Experiments)**, particularly the **subsection 5.1.1 (Datasets)**, where the authors provide a table listing various datasets used in their experiments. This section is crucial as it contains specific details about each dataset, including the number of nodes, edges, features, classes, and homophily measures.
+
+The datasets mentioned in the paper are:
+
+1. **Texas**: A heterophilic graph with 183 nodes, 574 edges, and 5 classes.
+2. **Wisconsin**: A heterophilic graph with 251 nodes, 916 edges, and 5 classes.
+3. **Cornell**: A heterophilic graph with 183 nodes, 557 edges, and 5 classes.
+4. **Amazon Ratings**: A graph with 24,492 nodes, 186,100 edges, and 5 classes, where nodes represent products and edges connect frequently bought items.
+5. **Roman Empire**: A graph with 22,662 nodes, 65,854 edges, and 18 classes, constructed from a Wikipedia article.
+6. **Minesweepers**: A synthetic dataset with 10,000 nodes, 78,804 edges, and 2 classes, representing a grid of cells.
+7. **Questions**: A graph with 48,921 nodes, 307,080 edges, and 2 classes, based on user interactions on a question-answering website.
+
+After identifying these datasets, I will check the **References section** for full citations related to the datasets. The paper references the following sources for the datasets:
+
+- For **Texas, Wisconsin, and Cornell**, the citation is:
+  > Hongbin Pei, Bingzhe Wei, Kevin Chen-Chuan Chang, Yu Lei, and Bo Yang. *Geom-GCN: Geometric Graph Convolutional Networks*. In International Conference on Learning Representations. https://openreview.net/forum?id=S1e2agrFvS
+
+- For **Amazon Ratings**, the citation is:
+  > Shashank Pandit, Duen Horng Chau, Samuel Wang, and Christos Faloutsos. *Netprobe: A Fast and Scalable System for Fraud Detection in Online Auction Networks*. In Proceedings of the 16th International Conference on World Wide Web (Banff, Alberta, Canada) (WWW ’07). Association for Computing Machinery, New York, NY, USA, 201–210. https://doi.org/10.1145/1242572.1242600
+
+- For **Roman Empire**, the citation is:
+  > Oleg Platonov, Denis Kuznedelev, Michael Diskin, Artem Babenko, and Liudmila Prokhorenkova. *A critical look at the evaluation of GNNs under heterophily: are we really making progress?* arXiv:2302.11640 [cs.LG]
+
+- For **Minesweepers** and **Questions**, the citation is:
+  > Oleg Platonov, Denis Kuznedelev, Michael Diskin, Artem Babenko, and Liudmila Prokhorenkova. *Characterizing Graph Datasets for Node Classification: Homophily-Heterophily Dichotomy and Beyond*. arXiv:2209.06177 [cs.SI]
+
+Now that I have gathered the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing or review.

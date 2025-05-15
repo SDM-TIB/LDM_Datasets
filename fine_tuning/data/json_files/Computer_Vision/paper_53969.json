@@ -1,0 +1,114 @@
+[
+    {
+        "dcterms:creator": [
+            "B. Waxman"
+        ],
+        "dcterms:description": "The dataset contains randomly generated Waxman graphs. Specifically, 20,000 graphs with 12 nodes and node features uniformly drawn from [0, 1]² were created. Each graph connects nodes with a certain probability based on their features, and only the largest connected subgraphs with at least 5 nodes are retained.",
+        "dcterms:title": "Waxman random graph dataset",
+        "dcterms:issued": "1988",
+        "dcterms:language": "",
+        "dcterms:identifier": "10.1109/49.12889",
+        "dcat:theme": [
+            "Graph Generation",
+            "Random Graphs"
+        ],
+        "dcat:keyword": [
+            "Graph dataset",
+            "Random graphs",
+            "Graph properties"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph Generation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Y. Du",
+            "S. Wang",
+            "X. Guo",
+            "H. Cao",
+            "S. Hu",
+            "J. Jiang",
+            "A. Varala",
+            "A. Angirekula",
+            "L. Zhao"
+        ],
+        "dcterms:description": "The protein dataset is a benchmark for graph generation, containing graphs with 8 nodes where the node features are their 3D coordinate vectors. There are no edge features, and the dataset consists of 76,000 graphs, split evenly for training and testing.",
+        "dcterms:title": "Protein dataset",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Graph Generation",
+            "Biological Data"
+        ],
+        "dcat:keyword": [
+            "Protein graphs",
+            "Graph dataset",
+            "3D coordinates"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Graph Generation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "R. Ramakrishnan",
+            "P. O. Dral",
+            "M. Rupp",
+            "O. A. Von Lilienfeld"
+        ],
+        "dcterms:description": "QM9 is a dataset containing quantum chemistry structures and properties of 134,000 molecules, each consisting of up to 9 heavy atoms. The dataset is used for various tasks in molecular generation and property prediction.",
+        "dcterms:title": "QM9",
+        "dcterms:issued": "2014",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Molecular Data",
+            "Quantum Chemistry"
+        ],
+        "dcat:keyword": [
+            "Molecular dataset",
+            "Quantum chemistry",
+            "Molecule generation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Molecule Generation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "T. Sterling",
+            "J. J. Irwin"
+        ],
+        "dcterms:description": "ZINC is a dataset for ligand discovery, containing approximately 250,000 molecules, each consisting of 9 to 38 heavy atoms. The dataset is widely used in drug discovery and molecular generation tasks.",
+        "dcterms:title": "ZINC",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Molecular Data",
+            "Drug Discovery"
+        ],
+        "dcat:keyword": [
+            "Molecule dataset",
+            "Ligand discovery",
+            "Drug-like molecules"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Graph",
+        "mls:task": [
+            "Molecule Generation"
+        ]
+    }
+]

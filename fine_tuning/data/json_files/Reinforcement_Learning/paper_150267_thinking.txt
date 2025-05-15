@@ -1,0 +1,21 @@
+To extract datasets from the research paper titled "DISCO: Distilling Counterfactuals with Large Language Models" by Zeming Chen et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract discusses the generation of counterfactual data and mentions the application of the method to the task of natural language inference (NLI), which suggests that there may be relevant datasets involved.
+
+Next, I will focus on the **experiments section**, particularly section 5, where the authors detail their methodology and the datasets used for evaluation. Here, they mention using the **SNLI (Stanford Natural Language Inference) dataset** as the source dataset for generating DISCO data and for data augmentation. This is a key dataset for the experiments.
+
+Additionally, the authors refer to **WANLI (Worker and AI Collaboration for NLI)** as another dataset used for augmentation. They describe how they augment the DISCO dataset on WANLI to analyze the benefits of counterfactual data augmentation.
+
+In **Table 2**, the authors provide a summary of evaluation datasets, including:
+- **SNLI-hard**: A subset of the SNLI dataset used for counterfactual evaluation.
+- **WANLI**: Another dataset used for counterfactual evaluation.
+
+Now, I will look for the full citations of these datasets in the **References section** of the paper:
+
+1. For the **SNLI dataset**, the citation is:
+   > Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D. Manning. *A large annotated corpus for learning natural language inference*. In Proceedings of EMNLP, 2015.
+
+2. For the **WANLI dataset**, the citation is:
+   > Alisa Liu, Swabha Swayamdipta, Noah A. Smith, and Yejin Choi. *WANLI: Worker and AI collaboration for natural language inference dataset creation*. In Findings of EMNLP, 2022.
+
+After gathering this information, I will compile the dataset entries, ensuring that each entry includes the dataset name, a brief description, and the full citation. This structured approach will ensure that I accurately capture all relevant datasets from the paper.

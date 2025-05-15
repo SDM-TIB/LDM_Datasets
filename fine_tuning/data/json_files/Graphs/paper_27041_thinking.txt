@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "MEG: Multi-Evidence GNN for Multimodal Semantic Forensics" by Ekraam Sabir et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and evaluation sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a general overview of the research focus, but I will need to look deeper into the introduction and evaluation sections for specific dataset names.
+
+In the **introduction**, the authors reference the **multimodal entity image repurposing (MEIR) dataset**, which is crucial for their work. They mention that this dataset was introduced by Sabir et al. [6] and is used for evaluating their proposed model.
+
+Next, I will check the **evaluation section (Section IV)**, where the authors discuss the datasets used for their experiments. They mention three datasets:
+
+1. **MEIR Dataset**: This dataset is described as a multimodal dataset comprising images, text, and location modalities, with manipulations present in text and location. It contains 82,156 packages in the reference dataset and 57,940 packages split between training, test, and validation sets.
+
+2. **Google Landmarks Dataset**: This dataset is used to evaluate location manipulation. The authors mention that it originally contains over 1.2 million images and 14,951 different landmarks, but they prune it down to 152,074 images for their experiments.
+
+3. **Painter by Numbers Dataset**: This dataset is adapted for semantic forensics, where the identity of the artist for a given painting is manipulated. The authors mention that they restructure the dataset to ensure no overlap between artists in training, test, and validation sets.
+
+Now, I will look at the **References section** to gather the full citations for these datasets:
+
+- For the **MEIR Dataset**, the citation is:
+  > E. Sabir, W. AbdAlmageed, Y. Wu, and P. Natarajan. "Deep Multimodal Image-Repurposing Detection." In Proceedings of the 26th ACM International Conference on Multimedia, ser. MM '18. New York, NY, USA: ACM, 2018, pp. 1337–1345. [Online]. Available: http://doi.acm.org/10.1145/3240508.3240707
+
+- For the **Google Landmarks Dataset**, the citation is:
+  > H. Noh, A. Araujo, J. Sim, T. Weyand, and B. Han. "Large-scale image retrieval with attentive deep local features." In Proceedings of the IEEE International Conference on Computer Vision, 2017, pp. 3456–3465.
+
+- For the **Painter by Numbers Dataset**, the citation is:
+  > "Painter by Numbers." [Online]. Available: https://kaggle.com/c/painter-by-numbers
+
+After gathering this information, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This structured approach will help ensure that I capture all relevant details accurately for further processing or review.

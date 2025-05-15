@@ -1,0 +1,173 @@
+[
+    {
+        "dcterms:creator": [
+            "Dongkuan Xu",
+            "Wei Cheng",
+            "Dongsheng Luo",
+            "Yameng Gu",
+            "Xinyu Liu",
+            "Jingchao Ni",
+            "Bo Zong",
+            "Haifeng Chen",
+            "Xiang Zhang"
+        ],
+        "dcterms:description": "The Brain dataset is derived from a real-world fMRI brain scans dataset, where nodes represent brain tissues, and edges capture nodes’ activation time similarity in the examined period. The goal is to predict the functionality of each node, which is one of the 10 categories.",
+        "dcterms:title": "Brain10",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Neuroscience",
+            "Graph Neural Networks"
+        ],
+        "dcat:keyword": [
+            "fMRI",
+            "brain tissues",
+            "node classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Dongkuan Xu",
+            "Wei Cheng",
+            "Dongsheng Luo",
+            "Yameng Gu",
+            "Xinyu Liu",
+            "Jingchao Ni",
+            "Bo Zong",
+            "Haifeng Chen",
+            "Xiang Zhang"
+        ],
+        "dcterms:description": "The DBLP dataset is an extracted co-author network from the DBLP website, where nodes are authors and edges represent co-authorship relationships. The extracted authors are from 5 research areas, serving as class labels.",
+        "dcterms:title": "DBLP5",
+        "dcterms:issued": "2019",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Science",
+            "Graph Neural Networks"
+        ],
+        "dcat:keyword": [
+            "co-authorship",
+            "network analysis",
+            "node classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "William L. Hamilton",
+            "Rex Ying",
+            "Jure Leskovec"
+        ],
+        "dcterms:description": "The Reddit dataset is extracted from the Reddit platform, where nodes represent posts, and edges are constructed between nodes having similar keywords. The node attributes are word2vec representations of the comments of a post, and node labels correspond to one of the 4 communities or 'subreddits'.",
+        "dcterms:title": "Reddit4",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1706.02216",
+        "dcat:theme": [
+            "Social Media",
+            "Graph Neural Networks"
+        ],
+        "dcat:keyword": [
+            "Reddit",
+            "community detection",
+            "node classification"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Node Classification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Jianfei Gao",
+            "Bruno Ribeiro"
+        ],
+        "dcterms:description": "The PeMS04 dataset represents traffic sensor networks in California, where each node symbolizes a road sensor, and the edge weights denote the geographical distance between two sensors. The dataset captures average traffic statistics over a 5-minute interval.",
+        "dcterms:title": "PeMS04",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Transportation",
+            "Graph Neural Networks"
+        ],
+        "dcat:keyword": [
+            "traffic prediction",
+            "sensor networks",
+            "time series"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Regression"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Jianfei Gao",
+            "Bruno Ribeiro"
+        ],
+        "dcterms:description": "The PeMS08 dataset is similar to PeMS04, representing traffic sensor networks in California, capturing average traffic statistics over a 5-minute interval.",
+        "dcterms:title": "PeMS08",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Transportation",
+            "Graph Neural Networks"
+        ],
+        "dcat:keyword": [
+            "traffic prediction",
+            "sensor networks",
+            "time series"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Regression"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "Jianfei Gao",
+            "Bruno Ribeiro"
+        ],
+        "dcterms:description": "The England-COVID dataset is created by aggregating information from the mobility log released by Facebook for England. The nodes are cities, and the edges represent transportation statistics between them. The goal is to predict the infection rate of the next day.",
+        "dcterms:title": "England-COVID",
+        "dcterms:issued": "2022",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Public Health",
+            "Graph Neural Networks"
+        ],
+        "dcat:keyword": [
+            "COVID-19",
+            "mobility data",
+            "epidemiology"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "",
+        "mls:task": [
+            "Regression"
+        ]
+    }
+]

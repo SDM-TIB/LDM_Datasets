@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "LogiCoT: Logical Chain-of-Thought Instruction Tuning" by Hanmeng Liu et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract and introduction** sections to identify any datasets that are mentioned or referenced. The abstract indicates that the paper introduces a new instruction-tuning dataset called **LogiCoT**, which is a strong lead for dataset extraction.
+
+Next, I will focus on the **Datasets section** (Section 3) where the authors describe the construction of the LogiCoT dataset. Here, they mention several seminal datasets that were repurposed for their instruction-tuning process. I will list these datasets along with their descriptions:
+
+1. **LOGICINFERENCE**: A dataset for teaching logical inference using propositional logic and a subset of first-order logic. The authors provide a brief description of its structure and purpose.
+
+2. **EntailmentBank**: An open-domain question answering dataset that includes rationales as entailment trees, specifically designed for grade school science questions.
+
+3. **FOLIO**: A dataset that includes first-order logic annotations and is noted for its high-quality data input, which is automatically verified by an inference engine.
+
+4. **ReClor**: A dataset derived from verbal reasoning examinations that require various types of logical reasoning for answering multiple-choice questions.
+
+5. **LogiQA**: Another dataset derived from verbal reasoning examinations, specifically the Chinese version used in their experiments.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset mentioned. This is crucial for proper attribution and to provide readers with the necessary information to locate the datasets.
+
+The full citations I will extract are as follows:
+
+- For **LOGICINFERENCE**:
+  > Santiago Ontanon, Joshua Ainslie, Vaclav Cvicek, and Zachary Fisher. *Logicinference: A new dataset for teaching logical inference to seq2seq models*. In Conference on Empirical Methods in Natural Language Processing, 2022.
+
+- For **EntailmentBank**:
+  > Bhavana Dalvi, Peter Alexander Jansen, Oyvind Tafjord, Zhengnan Xie, Hannah Smith, Leighanna Pipatanangkura, and Peter Clark. *Explaining answers with entailment trees*. In Conference on Empirical Methods in Natural Language Processing, 2021.
+
+- For **FOLIO**:
+  > Simeng Han, Hailey Schoelkopf, Yilun Zhao, Zhenting Qi, Martin Riddell, Luke Benson, Lucy Sun, Ekaterina Zubova, Yujie Qiao, Matthew Burtell, David Peng, Jonathan Fan, Yixin Liu, Brian Wong, Malcolm Sailor, Ansong Ni, Linyong Nan, Jungo Kasai, Tao Yu, Rui Zhang, Shafiq Joty, Alexander R. Fab bri, Wojciech Kryscinski, Xi Victoria Lin, Caiming Xiong, and Dragomir Radev. *Folio: Natural language reasoning with first-order logic*. 2022.
+
+- For **ReClor**:
+  > Weihao Yu, Zihang Jiang, Yanfei Dong, and Jiashi Feng. *Reclor: A reading comprehension dataset requiring logical reasoning*. In Proceedings of ICLR, 2020.
+
+- For **LogiQA**:
+  > Jian Liu, Leyang Cui, Hanmeng Liu, Dandan Huang, Yile Wang, and Yue Zhang. *LogiQA: A challenge dataset for machine reading comprehension with logical reasoning*. CoRR, 2020.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review. This ensures that I have accurately captured all necessary details for each dataset mentioned in the paper.

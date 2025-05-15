@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Control3Diff: Learning Controllable 3D Diffusion Models from Single-view Images" by Jiatao Gu et al., I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, and experimental sections** of the paper to identify any datasets that are explicitly mentioned. The abstract indicates that the authors validate their method on standard image generation benchmarks, which suggests that datasets are involved.
+
+Next, I will focus on the **experimental settings section** where the authors typically describe the datasets used for their experiments. In this section, they mention three datasets:
+
+1. **FFHQ (Flickr-Faces-HQ)**: This dataset contains 70,000 high-resolution images of real human faces. The authors note that they used a downsampled version provided by EG3D, which includes camera pose estimates.
+
+2. **AFHQ-cat**: This dataset consists of 5,000 images of cat faces, also in high resolution. Similar to FFHQ, the authors used a version with estimated camera poses.
+
+3. **ShapeNet**: This dataset includes 3D models of various objects, specifically focusing on Cars and Chairs. The authors mention using a modified version of the dataset as provided by pixelNeRF, which includes a predefined train/val/test split.
+
+After identifying these datasets, I will check the **References section** for full citations. The citations for the datasets are as follows:
+
+- For **FFHQ**, the citation is:
+  > Tero Karras, Samuli Laine, and Timo Aila. *A style-based generator architecture for generative adversarial networks*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 4401–4410, 2019.
+
+- For **AFHQ**, the citation is:
+  > Yunjey Choi, Youngjung Uh, Jaejun Yoo, and Jung-Woo Ha. *Stargan v2: Diverse image synthesis for multiple domains*. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
+
+- For **ShapeNet**, the citation is:
+  > Angel X. Chang, et al. *ShapeNet: An Information-Rich 3D Model Repository*. arXiv preprint arXiv:1512.03012, 2015.
+
+Now, I will compile the dataset entries, ensuring that each entry includes the dataset name, a brief description, and the full citation. This structured approach will ensure that I accurately capture all relevant information regarding the datasets used in the research paper.

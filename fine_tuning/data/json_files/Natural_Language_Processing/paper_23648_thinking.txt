@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "MambaDepth: Enhancing Long-range Dependency for Self-Supervised Fine-Structured Monocular Depth Estimation" by Ionut Grigore and Călin-Adrian Popa, I will follow a systematic approach.
+
+First, I will read through the **abstract** to identify any datasets mentioned. The abstract states that the authors conducted comprehensive testing across the **KITTI dataset** and also mention **Make3D** and **Cityscapes** as datasets used for evaluation. This indicates that these datasets are relevant for my extraction.
+
+Next, I will examine the **introduction** section for any additional context or details about the datasets. The introduction reiterates the use of the **KITTI dataset** for testing and highlights the generalization capabilities of the model on **Make3D** and **Cityscapes**. This confirms that these datasets are indeed utilized in the research.
+
+In the **experiments section**, specifically section IV, the authors provide detailed information about the datasets used. They mention:
+
+1. **KITTI Dataset**: This dataset is widely recognized for stereo image sequences and is utilized in self-supervised monocular depth estimation. The authors specify that they used the Eigen split, which consists of approximately 26,000 images for training and 697 for testing.
+
+2. **Cityscapes Dataset**: This dataset is noted for its complexity and abundance of moving objects. The authors conducted a zero-shot evaluation on Cityscapes using a model pretrained on KITTI.
+
+3. **Make3D Dataset**: This dataset is used to assess the generalization capability of MambaDepth. The authors mention that the model was subjected to a zero-shot evaluation using this dataset.
+
+Now, I will check the **References section** to gather the full citations for each dataset mentioned:
+
+- For the **KITTI dataset**, the citation is:
+  > Andreas Geiger, Philip Lenz, Christoph Stiller, and Raquel Urtasun. *Vision meets robotics: The KITTI dataset*. The International Journal of Robotics Research, 32(11):1231–1237, 2013.
+
+- For the **Cityscapes dataset**, the citation is:
+  > Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele. *The Cityscapes dataset for semantic urban scene understanding*. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 3213–3223, 2016.
+
+- For the **Make3D dataset**, the citation is:
+  > Ashutosh Saxena, Min Sun, and Andrew Y Ng. *Learning 3-D scene structure from a single still image*. In 2007 IEEE 11th International Conference on Computer Vision, pages 1–8. IEEE, 2007.
+
+With this information, I can now compile the dataset entries, ensuring that I include the full citations for each dataset as required. This structured approach ensures that I have accurately identified and documented the datasets used in the research paper.

@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Advancing Hungarian Text Processing with HuSpaCy" by György Orosz et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to gather initial insights about any datasets that may be referenced. The abstract mentions the development of text processing models for Hungarian, but does not specify datasets. Therefore, I will focus on the **introduction** and **background sections** for more detailed information.
+
+In the **background section**, specifically under **2.2 Annotated Datasets for Preprocessing Hungarian Texts**, the authors provide clear references to several datasets:
+
+1. **Szeged Corpus**: This dataset comprises 1.2 million manually annotated words for part-of-speech tags, morphological descriptions, and lemmata. It is a foundational dataset for Hungarian NLP.
+
+2. **Szeged NER**: Developed in 2006, this is the first Hungarian named entity recognition corpus, consisting of 200,000 words from business and criminal news.
+
+3. **NYTK-NerKor**: This dataset extends the capabilities for training and benchmarking entity recognition systems for Hungarian, containing a one million word multi-domain corpus.
+
+Next, I will verify the details of these datasets in the **experiments section**, where the authors mention that the entity recognizer is benchmarked on the combination of the **NYTK-NerKor** and **Szeged NER** datasets. This confirms their relevance and use in the experiments.
+
+Now, I will look at the **References section** to find the full citations for these datasets:
+
+- For the **Szeged Corpus**, the citation is:
+  > Csendes, D., Csirik, J., Gyimóthy, T. (2004). *The Szeged Corpus: A POS tagged and syntactically annotated Hungarian natural language corpus*. In: International Conference on Text, Speech and Dialogue. pp. 41–47. Springer.
+
+- For the **Szeged NER**, the citation is:
+  > Szarvas, G., Farkas, R., Kocsor, A. (2006). *A multilingual named entity recognition system using boosting and C4.5 decision tree learning algorithms*. In: International Conference on Discovery Science. pp. 267–278. Springer.
+
+- For the **NYTK-NerKor**, the citation is:
+  > Simon, E., Vadász, N. (2021). *Introducing NYTK-NerKor, A Gold Standard Hungarian Named Entity Annotated Corpus*. In: Text, Speech, and Dialogue - 24th International Conference, TSD 2021, Olomouc, Czech Republic, September 6-9, 2021, Proceedings. Lecture Notes in Computer Science, vol. 12848, pp. 222–234. Springer.
+
+With these citations in hand, I will compile the dataset entries, ensuring that each dataset is accurately described and properly cited. This will provide a comprehensive overview of the datasets utilized in the research, ready for further processing or review.

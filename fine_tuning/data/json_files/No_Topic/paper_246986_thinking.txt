@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Binary DAD-Net: Binarized Driveable Area Detection Network for Autonomous Driving" by Alexander Frickenstein et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experiments sections** to identify any datasets mentioned. The abstract indicates that the binary DAD-Net outperforms state-of-the-art methods on public datasets, suggesting that specific datasets are used.
+
+Next, I will focus on **section IV (Experiments and Results)**, where the authors discuss the datasets used for training and evaluation. In this section, they mention two primary datasets:
+
+1. **Cityscapes Dataset**: This dataset consists of 2,975 training images, 500 validation images, and 1,525 test images, with pixel-level semantic labels for urban scenes. The authors note that the images are down-sampled for training purposes.
+
+2. **KITTI Road Dataset**: This dataset includes 289 images with manually annotated ground truth labels, split into 259 for training and 30 for validation. The authors also mention that the images are down-sampled for consistency with the Cityscapes dataset.
+
+Additionally, the authors refer to **automatic annotations** generated from a training data generator (TDG) proposed by Mayr et al. This dataset is used to augment the training data, but it is not a standalone dataset like Cityscapes or KITTI.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For the **Cityscapes Dataset**, the citation is:
+  > Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele. *The Cityscapes Dataset for Semantic Urban Scene Understanding*. In IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2016.
+
+- For the **KITTI Road Dataset**, the citation is:
+  > Andreas Geiger, Philip Lenz, and Raquel Urtasun. *Are We Ready for Autonomous Driving? The KITTI Vision Benchmark Suite*. In IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2012.
+
+- For the **TDG annotations**, the citation is:
+  > Jakob Mayr, Christian Unger, and Federico Tombari. *Self-Supervised Learning of the Drivable Area for Autonomous Vehicles*. In IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2018.
+
+With these details in hand, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research.

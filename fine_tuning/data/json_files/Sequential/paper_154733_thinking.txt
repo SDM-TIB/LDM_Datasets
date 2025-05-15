@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Restoring Hebrew Diacritics Without a Dictionary" by Elazar Gershuni and Yuval Pinter, I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract indicates that the authors present a training set and a test set collected from diverse sources, which suggests that there are datasets to extract.
+
+Next, I will focus on **section 2 (Task and Datasets)**, which is likely to provide detailed information about the datasets used in the research. Within this section, I will look for subsections that describe the datasets, such as **2.2 Training corpora** and **2.3 New test set**. 
+
+In **subsection 2.2**, the authors describe the training corpora, which consists of three parts:
+1. **PRE-MODERN portion**: This includes texts from Project Ben-Yehuda and rabbinical texts, totaling approximately 1.81 million Hebrew tokens.
+2. **AUTOMATIC portion**: This consists of 547 short stories dotted using Dicta, contributing roughly 1.27 million Hebrew tokens.
+3. **MODERN portion**: This is a manually collected dataset from various modern Hebrew sources, containing about 326,000 Hebrew tokens.
+
+In **subsection 2.3**, the authors introduce a new test set derived from a variety of texts, totaling 20,474 Hebrew tokens. This test set is larger and more diverse than existing datasets, which is significant for the evaluation of their model.
+
+Now, I will gather the full citations for the datasets mentioned:
+- For the **PRE-MODERN portion**, the citation is:
+  > Project Ben-Yehuda. *Ben-Yehuda Project: A Digital Library of Hebrew Literature*. Available at: https://benyehuda.org
+
+- For the **AUTOMATIC portion**, the citation is:
+  > Dicta. *Nakdan: Professional Hebrew Diacritizer*. Available at: http://nakdan.com/Nakdan.aspx
+
+- For the **MODERN portion**, the citation is:
+  > Various sources including news articles, opinion columns, and Wikipedia. Specific citations are not provided, but the authors mention that the data is collected from diverse online sources.
+
+- For the **New test set**, the citation is:
+  > Shmidman et al. (2020). *Nakdan: Professional Hebrew diacritizer*. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations, pages 197–203, Online. Association for Computational Linguistics.
+
+After gathering this information, I will compile the dataset entries into a structured format that reflects the details and citations accurately, ensuring that each dataset is properly referenced for future use or verification.

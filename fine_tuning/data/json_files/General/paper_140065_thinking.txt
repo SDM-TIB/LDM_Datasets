@@ -1,0 +1,27 @@
+To extract datasets from the research paper titled "Rapidly Developing High-quality Instruction Data and Evaluation Benchmark for Large Language Models with Minimal Human Effort: A Case Study on Japanese" by Yikun Sun et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to identify any datasets mentioned. The abstract indicates that the authors created a high-quality Japanese instruction dataset and an evaluation benchmark, which suggests that there are datasets to extract.
+
+In the **introduction**, the authors discuss the challenges of generating instruction data for non-English languages and mention the use of a self-instruct method based on GPT-4. They also reference existing datasets like Japanese-Alpaca, which indicates that I should look for specific datasets used or created in their research.
+
+Next, I will focus on the **methodology section**, particularly the parts that describe the generation of the instruction data and the evaluation benchmark. Here, the authors mention that they generated a Japanese instruction dataset using a small set of English seed tasks translated into Japanese and post-edited for quality. They also constructed an evaluation benchmark consisting of 80 questions across 8 categories.
+
+In the **results section**, the authors provide empirical results that demonstrate the effectiveness of their generated datasets. They compare their self-instruct data against the MT Alpaca dataset, which is crucial for understanding the context of their datasets.
+
+Now, I will compile the datasets identified:
+
+1. **Japanese Instruction Dataset**: This dataset was generated using the self-instruct method with GPT-4, consisting of 52,000 instruction examples. The authors emphasize its high quality compared to existing datasets.
+
+2. **Japanese LLM Evaluation Benchmark**: This benchmark includes 80 questions across 8 categories, designed to evaluate the performance of Japanese LLMs. The questions were translated from the English Vicuna benchmark and assessed using GPT-4.
+
+Next, I will look into the **References section** to find full citations for the datasets mentioned. The authors reference the following:
+
+- For **Japanese-Alpaca**, the citation is:
+  > Kunishou. 2023. Japanese-alpaca-lora. https://github.com/kunishou/Japanese-Alpaca-LoRA.
+
+- For the **Vicuna benchmark**, the citation is:
+  > Wei-Lin Chiang et al. 2023. Vicuna: An open-source chatbot impressing GPT-4 with 90%* ChatGPT quality. https://github.com/tatsu-lab/stanford_alpaca.
+
+Finally, I will ensure that I have the correct citations for the datasets I have identified, as this is crucial for proper attribution and further research.
+
+After gathering all this information, I will prepare the dataset entries in the required format for downstream processing.

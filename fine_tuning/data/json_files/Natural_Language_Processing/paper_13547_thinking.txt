@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "Point-Bind & Point-LLM: Aligning Point Cloud with Multi-modality for 3D Understanding, Generation, and Instruction Following" by Ziyu Guo et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets mentioned. The abstract provides a brief overview of the work, and I will look for any explicit mentions of datasets or data sources.
+
+Next, I will focus on **section 3 (Point-Bind)**, particularly **subsection 3.2 (Training Data)**, where the authors describe how they collected their datasets. Here, they mention the construction of a unified dataset comprising 3D-image-audio-text pairs. This indicates that multiple datasets are involved.
+
+The authors specifically mention the following datasets:
+
+1. **ShapeNet**: This dataset is used to obtain 3D-image-text triplets. It contains a large collection of 3D CAD models, which are paired with corresponding text descriptions and 2D images generated through multi-view rendering.
+
+2. **ESC-50**: This dataset is utilized for collecting audio data paired with 3D objects. It contains environmental sound classifications, and the authors mention selecting categories from ShapeNet that correspond to sounds in ESC-50.
+
+In addition, the authors describe the process of matching 3D-audio pairs with their corresponding 3D-image-text data, resulting in a unified dataset for training.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+- For **ShapeNet**, the citation is:
+  > Angel X Chang, Thomas Funkhouser, Leonidas Guibas, Pat Hanrahan, Qixing Huang, Zimo Li, Silvio Savarese, Manolis Savva, Shuran Song, Hao Su, et al. *ShapeNet: An Information-rich 3D Model Repository*. arXiv preprint arXiv:1512.03012, 2015.
+
+- For **ESC-50**, the citation is:
+  > Karol J Piczak. *ESC: Dataset for Environmental Sound Classification*. In ACM International Conference on Multimedia, pages 1015–1018, 2015.
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets used in the research paper.

@@ -1,0 +1,30 @@
+To extract datasets from the research paper titled "SecureNet: A Comparative Study of DeBERTa and Large Language Models for Phishing Detection" by Sakshi Mahendru and Tejul Pandit, I will follow a systematic approach to identify and document each dataset mentioned in the paper, ensuring to include full citations for each.
+
+First, I will read through the **abstract, introduction, and dataset description sections** to identify any datasets that are explicitly mentioned. The abstract indicates that the authors used "comprehensive public datasets" for their experiments, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **Section II (Dataset Description)**, where the authors provide detailed information about the datasets used in their study. Here, I will look for the names of the datasets, their characteristics, and any relevant statistics that describe their contents.
+
+1. **HuggingFace Phishing Dataset**: This dataset is described as a compilation of phishing datasets sourced from reputable repositories, including various forms of communication such as URLs, SMS messages, and emails. The authors mention that it contains 77,568 samples, with a balanced distribution of phishing and benign samples. 
+
+2. **Nazario and Nigerian Fraud Dataset**: This dataset is composed of two parts: the Nazario 5 dataset and the Nigeria 5 dataset. The Nazario 5 dataset includes legitimate emails from various sources, while the Nigeria 5 dataset focuses on fraudulent emails, particularly those related to Nigerian scams. The authors provide details about the composition and size of these datasets.
+
+3. **Synthetic Data Generation**: The authors also mention that they generated synthetic data using LLMs, specifically GPT-4, to augment their dataset. This synthetic dataset includes both phishing and legitimate email samples, with a total of 120 samples (40 legitimate and 80 phishing).
+
+After identifying these datasets, I will consult the **References section** to find the full citations for each dataset:
+
+- For the **HuggingFace Phishing Dataset**, the citation is:
+  > HuggingFace Phishing Dataset. Available at: https://huggingface.co/datasets/ealvaradob/phishing-dataset.
+
+- For the **Nazario and Nigerian Fraud Dataset**, the citation is:
+  > Nazario, J. (2005). The online phishing corpus. Available at: http://monkey.org/∼jose/wiki/doku.php.
+
+- For the **Nigerian Fraud Corpus**, the citation is:
+  > Nigerian Fraud Corpus. Available at: https://www.kaggle.com/datasets/rtatman/fraudulent-email-corpus.
+
+- For the **Spam Assassin Public Corpus**, which is part of the Nazario dataset, the citation is:
+  > Spam Assassin Project (2015). Spam Assassin Public Corpus. Available at: https://spamassassin.apache.org/publiccorpus/.
+
+- For the **CEAS 2008 Live Spam Challenge Corpus**, which is also part of the Nazario dataset, the citation is:
+  > CEAS 2008 Live Spam Challenge Corpus, University of Waterloo. Available at: https://plg.uwaterloo.ca∼gvcormacceascorpus.
+
+Now that I have gathered all the necessary information about the datasets and their citations, I will compile this information into a structured format for further processing or review.

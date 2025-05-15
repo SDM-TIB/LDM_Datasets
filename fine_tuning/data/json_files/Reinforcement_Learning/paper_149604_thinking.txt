@@ -1,0 +1,24 @@
+To extract datasets from the research paper titled "Transfer Reinforcement Learning for Differing Action Spaces via Q-Network Representations" by Nathan Beck et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, method, and experiments sections** to locate any references to datasets. The abstract mentions evaluating the proposed method on the **Acrobot-v1** and **Pendulum-v0** domains, which suggests that these environments are key datasets for the experiments.
+
+Next, I will examine the **introduction** for any additional context or details about these environments. The introduction discusses the challenges of transfer learning in reinforcement learning, but it primarily focuses on the methodology rather than specific datasets.
+
+In the **method section**, I will look for any definitions or descriptions of the environments used. The authors mention the **Pendulum** and **Acrobot** environments, providing some details about their action spaces. Specifically, they refer to the original versions of these environments as source environments and the modified versions as target environments.
+
+In the **experiments section**, the authors describe how they utilize the **Pendulum-v0** and **Acrobot-v1** environments from OpenAI Gym, confirming their role as datasets for the experiments. They also mention modifications made to these environments to create target environments with restricted action spaces.
+
+Now, I will check the **References section** to find the full citations for these datasets:
+
+1. For the **Pendulum** environment, the citation is:
+   > Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., & Zaremba, W. (2016). *OpenAI Gym*. arXiv preprint arXiv:1606.01540.
+
+2. For the **Acrobot** environment, the citation is:
+   > Geramifard, A., Dann, C., Klein, R. H., Dabney, W., & How, J. P. (2015). *RLPy: a value-function-based reinforcement learning framework for education and research*. Machine Learning Research, 16(1), 1573–1578.
+
+With these citations in hand, I will summarize the datasets:
+
+- **Pendulum-v0**: A continuous control environment used for evaluating reinforcement learning algorithms.
+- **Acrobot-v1**: A discrete control environment also used for evaluating reinforcement learning algorithms.
+
+Finally, I will compile the dataset entries into a structured format for further processing, ensuring that each dataset is accurately represented with its full citation.

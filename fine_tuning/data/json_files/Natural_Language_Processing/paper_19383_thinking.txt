@@ -1,0 +1,23 @@
+To extract datasets from the research paper titled "How Important is Domain Specificity in Language Models and Instruction Finetuning for Biomedical Relation Extraction?" by Aviv Brokman and Ramakanth Kavuluru, I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and experimental setup sections** to identify any datasets mentioned. The abstract indicates that the authors tested their hypotheses across **four datasets**, which suggests that specific datasets will be detailed later in the paper.
+
+Next, I will focus on **section 4 (Experimental Setup)**, particularly **subsection 4.2 (Datasets)**, where the authors explicitly describe the datasets used in their experiments. Here, I will look for the names of the datasets, their descriptions, and any relevant details such as the number of instances, types of annotations, and the context in which they are used.
+
+The paper mentions four datasets:
+
+1. **CDR (Chemical Disease Relation)**: This dataset consists of PubMed abstracts with mentions of chemicals and diseases annotated for relations. It includes 1500 abstracts split into train, validation, and test sets of equal size. The citation for this dataset is:
+   > Li, J., Sun, Y., Johnson, R. J., Sciaky, D., Wei, C.-H., Leaman, R., Mattingly, C. J., Wiegers, T. C., & Lu, Z. (2016). Biocreative V CDR task corpus: a resource for chemical disease relation extraction. *Database: The Journal of Biological Databases and Curation*, 2016.
+
+2. **ChemProt**: This dataset consists of PubMed abstracts with annotations for chemical compounds/drugs and genes/proteins, focusing on intra-sentence relations. The citation for this dataset is:
+   > Krallinger, M., Rabal, O., Akhondi, S. A., Pérez Pérez, M., Santamaría, J., & Tsatsaronis, G. (2017). Overview of the BioCreative VI chemical-protein interaction track. In *Proceedings of the sixth BioCreative challenge evaluation workshop* (pp. 141-146).
+
+3. **DCE (Drug Combinations Extraction)**: This dataset includes sentences from PubMed abstracts annotated for drug combinations with positive effects. The citation for this dataset is:
+   > Tiktinsky, A., Viswanathan, V., Niezni, D., Meron Azagury, D., Shamay, Y., Taub-Tabib, H., Hope, T., & Goldberg, Y. (2022). A dataset for n-ary relation extraction of drug combinations. In *Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies* (pp. 3190-3203).
+
+4. **DDI (Drug-Drug Interaction)**: This dataset consists of texts from DrugBank and Medline annotated for drug interactions. The citation for this dataset is:
+   > Herrero-Zazo, M., Segura-Bedmar, I., Martínez, P., & Declerck, T. (2013). The ddi corpus: An annotated corpus with pharmacological substances and drug–drug interactions. *Journal of Biomedical Informatics*, 46(5), 914-920.
+
+After identifying these datasets and their citations, I will ensure that I have captured all relevant details, including the context of their use in the experiments, to provide a comprehensive overview.
+
+Finally, I will compile the dataset information into a structured format for further processing or review.

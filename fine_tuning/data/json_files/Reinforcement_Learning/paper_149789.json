@@ -1,0 +1,72 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The Census Income Dataset labels whether the income of an adult is over $50K or not. It contains 32,561 samples and 13 features, involving three protected attributes: gender, age, and race.",
+        "dcterms:title": "Census Income Dataset",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://archive.ics.uci.edu/ml/datasets/Census+Income",
+        "dcat:theme": ["Socioeconomic Data", "Fairness Testing"],
+        "dcat:keyword": ["Income prediction", "Census data", "Fairness"],
+        "dcat:landingPage": "http://archive.ics.uci.edu/ml/datasets/Census+Income",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": ["Classification", "Fairness Testing"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The German Credit Dataset is used to assess the credit level of applicants (i.e., good or bad) based on their personal conditions. It contains 600 samples depicted by 20 diverse features, with protected attributes being gender and age.",
+        "dcterms:title": "German Credit Dataset",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)",
+        "dcat:theme": ["Financial Data", "Fairness Testing"],
+        "dcat:keyword": ["Credit assessment", "Financial fairness", "Classification"],
+        "dcat:landingPage": "https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": ["Classification", "Fairness Testing"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The Bank Marketing Dataset is related to the direct marketing campaign of a Portuguese banking institution. The objective is to predict whether the client would subscribe to a term deposit based on their information. It contains 45,211 samples and 16 features, with age as the protected attribute.",
+        "dcterms:title": "Bank Marketing Dataset",
+        "dcterms:issued": "2021",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://archive.ics.uci.edu/ml/datasets/Bank+Marketing",
+        "dcat:theme": ["Marketing Data", "Fairness Testing"],
+        "dcat:keyword": ["Bank marketing", "Customer prediction", "Fairness"],
+        "dcat:landingPage": "https://archive.ics.uci.edu/ml/datasets/Bank+Marketing",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Tabular",
+        "mls:task": ["Classification", "Fairness Testing"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The IMDB Dataset is a large movie review dataset for binary sentiment classification. It contains 50,000 samples, where each sample contains an average of 210 words. The protected attributes are gender and country.",
+        "dcterms:title": "IMDB Dataset",
+        "dcterms:issued": "2021",
+        "dcterms:language": "English",
+        "dcterms:identifier": "https://www.imdb.com/interfaces/",
+        "dcat:theme": ["Text Data", "Sentiment Analysis"],
+        "dcat:keyword": ["Movie reviews", "Sentiment classification", "Fairness"],
+        "dcat:landingPage": "https://www.imdb.com/interfaces/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": ["Sentiment Analysis", "Fairness Testing"]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The Stanford Sentiment Treebank (SST) Dataset is used to classify whether a movie comment is positive or negative. It contains 9,613 samples, with each sample having about 19 words on average. The protected attributes are the same as those of the IMDB dataset.",
+        "dcterms:title": "SST Dataset",
+        "dcterms:issued": "2021",
+        "dcterms:language": "English",
+        "dcterms:identifier": "http://nlpprogress.com/english/sentiment_analysis.html",
+        "dcat:theme": ["Text Data", "Sentiment Analysis"],
+        "dcat:keyword": ["Sentiment classification", "Movie comments", "Fairness"],
+        "dcat:landingPage": "http://nlpprogress.com/english/sentiment_analysis.html",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": ["Sentiment Analysis", "Fairness Testing"]
+    }
+]

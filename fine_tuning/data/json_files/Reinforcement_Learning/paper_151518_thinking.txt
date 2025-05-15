@@ -1,0 +1,32 @@
+To extract datasets from the research paper titled "An Efficient Multi Quantile Regression Network with Ad Hoc Prevention of Quantile Crossing" by Jens Decke et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, methodology, and results sections** to locate any references to datasets. The abstract mentions that the authors evaluate their method using "nine datasets," which indicates that there are multiple datasets to extract.
+
+Next, I will focus on **section 3 (Methodology)**, where the authors explicitly describe the datasets used for their experiments. They mention using three base example functions, which are augmented with three different error distributions, resulting in a total of nine datasets. The specific functions and their error distributions are detailed, which is crucial for understanding the datasets.
+
+The three base functions are:
+1. **Example 0**: \(y = \sin(2x_1) + 2 \exp(-16x_2^2) + 0.5\epsilon\) with \(x_1 \sim N(0, 1)\) and \(x_2 \sim N(0, 1)\).
+2. **Example 1**: \(y = (1 - x - 2x_2) \exp(-0.5x^2) + 1 + 0.2x^5\) with \(x \sim U(-4, 4)\).
+3. **Example 2**: \(y = 40 \exp{[(x_1 - 0.5)^2 + (x_2 - 0.5)^2]} \exp{8[x_1 - 0.2)^2 + (x_2 - 0.7)^2]} + \exp{8[(x_1 - 0.7)^2 + (x_2 - 0.7)^2]} + \epsilon\) with \(x_1 \sim U(0, 1)\) and \(x_2 \sim U(0, 1)\).
+
+The error distributions used to augment these functions are:
+- Normal distribution: \(\epsilon \sim N(0, 0.25)\)
+- Student's t-distribution: \(\epsilon \sim t(3)\)
+- Chi-squared distribution: \(\epsilon \sim \chi^2(3)\)
+
+This results in nine datasets derived from the combinations of the three base functions and the three error distributions.
+
+Additionally, the authors mention the **U-bend dataset**, which is a more complex dataset used for real-world applications, described by 28 parameters. This dataset is referenced as being introduced by Decke et al. in another paper.
+
+Now, I will look at the **References section** to find the full citations for the datasets mentioned. The relevant citations are:
+
+1. For the base functions and their error distributions, the original papers are:
+   - Xu et al. (2017): 
+     > Q. Xu, K. Deng, C. Jiang, F. Sun, and X. Huang. *Composite quantile regression neural network with applications*. Expert Systems with Applications, vol. 76, pp. 129–139, 2017.
+   - Cannon (2017):
+     > A. J. Cannon. *Non-crossing nonlinear regression quantiles by monotone composite quantile regression neural network, with application to rainfall extremes*. Earth Arxiv wg7sn, Center for Open Science, Dec. 2017.
+
+2. For the U-bend dataset:
+   > J. Decke, O. Wünsch, and B. Sick. *Dataset of a parameterized u-bend flow for deep learning applications*. Data in Brief, vol. 50, 2023.
+
+With this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This structured approach will ensure that I accurately capture all relevant datasets from the paper.

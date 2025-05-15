@@ -1,0 +1,22 @@
+To extract datasets from the research paper titled "Active Reinforcement Learning for Robust Building Control" by Doseok Jang et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper, ensuring to include full citations for each dataset.
+
+First, I will read through the **abstract, introduction, methods, and experiments sections** to identify any datasets that are explicitly mentioned or described. The abstract discusses the use of reinforcement learning (RL) for building control, but I need to look for specific datasets.
+
+In the **introduction**, the authors mention various applications of RL, but they do not specify datasets. I will continue to the **methods section**, where they describe the environment used for their experiments.
+
+In **section 3 (Experiments)**, the authors mention using a modified version of the **Sinergym** environment, which is based on the **EnergyPlus** simulation engine. This indicates that the authors are using a specific simulation environment rather than a traditional dataset. However, they also mention that they constructed a dataset of 120 randomly sampled weather patterns from across the US, which is crucial for my extraction.
+
+Next, I will look for the details of this dataset in the **experiments section**. The authors describe how they scraped the EnergyPlus weather data website to obtain recorded weather patterns, specifically referring to **Typical Meteorological Year (TMY)** data. This dataset is essential for their experiments.
+
+Now, I will consult the **References section** to find the full citation for the datasets mentioned:
+
+1. **Sinergym**: The citation for the Sinergym environment is:
+   > Jiménez-Raboso, J., Campoy-Nieves, A., Manjavacas-Lucas, A., Gómez-Romero, J., & Molina-Solana, M. (2021). Sinergym: A Building Simulation and Control Framework for Training Reinforcement Learning Agents. In Proceedings of the 8th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation, 319–323. New York, NY, USA: Association for Computing Machinery. ISBN 9781450391146.
+
+2. **EnergyPlus**: The citation for the EnergyPlus simulation engine is:
+   > Crawley, D. B., Lawrie, L. K., Winkelmann, F. C., Buhl, W. F., Huang, Y. J., Pedersen, C. O., Strand, R. K., Liesen, R. J., Fisher, D. E., Witte, M. J., et al. (2001). EnergyPlus: creating a new-generation building energy simulation program. Energy and Buildings, 33(4), 319–331.
+
+3. **Typical Meteorological Year (TMY)**: The citation for the TMY data is:
+   > Wilcox, S., & Marion, W. (2008). Users manual for tmy3 data sets (revised). Technical report, National Renewable Energy Lab. (NREL), Golden, CO (United States).
+
+After gathering this information, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. This will provide a comprehensive overview of the datasets utilized in the research paper.

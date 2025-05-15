@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "DESCGEN: A Distantly Supervised Dataset for Generating Abstractive Entity Descriptions" by Weijia Shi et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract and introduction** sections to identify any datasets mentioned. The abstract states that DESCGEN consists of **37K entity descriptions from Wikipedia and Fandom**, which indicates that these two sources are significant datasets.
+
+Next, I will look into the **dataset collection section** (Section 3) where the authors describe how they collected the data. They mention three main sources for their dataset:
+
+1. **Wikilinks**: This dataset is designed for cross-document coreference and consists of non-Wikipedia web pages that contain entities hyperlinked to Wikipedia. The authors use the lead section of the corresponding Wikipedia page as the description.
+
+2. **Real News**: This dataset is derived from a large corpus of news articles from Common Crawl, which includes entity mentions that are linked to the respective articles.
+
+3. **Fandom**: This dataset includes specialized entities that do not have Wikipedia pages, focusing on various entertainment subjects. The authors extract descriptions from the lead sections of Fandom pages.
+
+In the **dataset analysis section** (Section 4), the authors provide statistics about DESCGEN, confirming that it contains **37K entity descriptions** and **481K automatically gathered source documents**. This reinforces the significance of the datasets mentioned.
+
+Now, I will gather the full citations for each dataset mentioned in the paper. The citations are as follows:
+
+- For **Wikilinks**, the citation is:
+  > Singh, A., et al. (2012). *Wikilinks: A large-scale cross-document coreference corpus labeled via links to Wikipedia*. University of Massachusetts, Amherst, Tech. Rep. UM-CS-2012.
+
+- For **Real News**, the citation is:
+  > Zellers, R., et al. (2019). *Defending against neural fake news*. In Advances in Neural Information Processing Systems, pages 9054–9065.
+
+- For **Fandom**, the citation is:
+  > Fandom. (n.d.). *Fandom is a collection of encyclopedias centered around forms of entertainment such as movies, games, etc.* Retrieved from https://www.fandom.com/
+
+After compiling this information, I will ensure that I have accurately captured the datasets and their respective citations. This will allow me to create a structured output that can be used for further analysis or processing.

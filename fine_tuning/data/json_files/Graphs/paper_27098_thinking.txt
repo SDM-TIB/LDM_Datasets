@@ -1,0 +1,18 @@
+To extract datasets from the research paper titled "Saying No is An Art: Contextualized Fallback Responses for Unanswerable Dialogue Queries" by Ashish Shrivastava et al., I will follow a systematic approach to identify and document the datasets mentioned in the text.
+
+First, I will read through the **abstract, introduction, methods, and results sections** to identify any datasets that are explicitly mentioned or described. The abstract indicates that the authors have developed a neural approach for generating contextualized fallback responses, which suggests that they may have used datasets for training or evaluation.
+
+In the **introduction**, the authors discuss the limitations of existing fallback mechanisms in dialogue systems and mention the need for a dataset to generate contextualized responses. They state that "there are no publicly available datasets to generate such contextualised responses," which implies that they have created their own dataset.
+
+Next, I will focus on the **methods section**, particularly the subsection titled "Sequence-to-Sequence Approach." Here, the authors describe the creation of a dataset called the "I Don't Know Dataset" (IDKD), which consists of 100,000 pairs of (query, don’t-know-response). This dataset is crucial for their experiments and model training.
+
+I will also check the **results section** to see if there are any additional datasets mentioned or referenced. However, the primary dataset discussed is the IDKD, which is synthesized from various sources, including the Quora Question Pairs dataset (QQP). The authors mention filtering questions from QQP to create their dataset, but they do not provide a separate citation for QQP in the context of their work.
+
+Now, I will compile the full citations for the datasets mentioned:
+
+1. **I Don't Know Dataset (IDKD)**: The authors created this dataset themselves, so I will note that it is a synthetic dataset generated for their research.
+
+2. **Quora Question Pairs Dataset (QQP)**: The citation for this dataset is:
+   > Iulian V. Serban, Chinnadhurai Sankar, Mathieu Germain, Saizheng Zhang, Zhouhan Lin, Sandeep Subramanian, Taesup Kim, Michael Pieper, Nan Rosemary Ke, et al. *A deep reinforcement learning chatbot*. In Proceedings of the 17th Annual Meeting of the Special Interest Group on Discourse and Dialogue, pages 55–63, Los Angeles. Association for Computational Linguistics, 2017.
+
+After gathering this information, I will summarize the datasets in a structured format, ensuring that each dataset is clearly identified along with its citation. This will provide a comprehensive overview of the datasets used in the research paper.

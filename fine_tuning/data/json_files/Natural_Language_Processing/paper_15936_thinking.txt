@@ -1,0 +1,36 @@
+To extract datasets from the research paper titled "COFFEE: Boost Your Code LLMs by Fixing Bugs with Feedback" by Seungjun Moon et al., I will follow a systematic approach to identify and document each dataset mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methods sections** to locate any references to datasets. The abstract mentions the creation of a dataset called **COFFEE**, which is specifically designed for code editing with feedback. This indicates that there is at least one dataset to extract.
+
+Next, I will examine **section 2 (COFFEE: A Dataset for Code Fixing with Feedback)**, where the authors provide a detailed description of the COFFEE dataset. They explain that it includes diverse solutions to programming problems collected from online competitive programming platforms, along with annotated natural language feedback. This section will provide essential details about the dataset's structure, purpose, and content.
+
+In **section 4.1 (Datasets)**, the authors mention that they evaluate their framework on several benchmarks, specifically **HumanEvalFix**, **HumanEvalSynthesize**, **APPS**, and **MBPP**. I will need to gather information about these benchmarks as they are also considered datasets for the experiments.
+
+Now, I will compile the details of each dataset:
+
+1. **COFFEE Dataset**: This dataset is designed for code fixing with feedback. It includes diverse programming problems and solutions, annotated with natural language feedback. The authors also mention that they used ChatGPT to generate synthetic test cases for evaluation.
+
+   Full citation for COFFEE:
+   > Seungjun Moon, Hyungjoo Chae, Dongjin Kang, Kai Tzu-iunn Ong, Yongho Song, Seung-won Hwang, Taeyoon Kwon, Jinyoung Yeo. *COFFEE: Boost Your Code LLMs by Fixing Bugs with Feedback*. In Proceedings of the Conference on Neural Information Processing Systems (NeurIPS), 2023.
+
+2. **HumanEvalFix**: This dataset is a benchmark for code editing, consisting of incorrect code functions that need to be fixed. It is derived from the original HumanEval dataset.
+
+   Full citation for HumanEval:
+   > Chen, T., Tworek, J., Jun, H., Yuan, Q., Ponde de Oliveira Pinto, H., Kaplan, J., ... & Zaremba, W. (2021). *Evaluating Large Language Models Trained on Code*. In Proceedings of the 2021 Conference on Neural Information Processing Systems (NeurIPS).
+
+3. **HumanEvalSynthesize**: This dataset is used for evaluating code synthesis models, where models are prompted to synthesize correct code from natural language descriptions.
+
+   Full citation for HumanEvalSynthesize:
+   > Chen, T., Tworek, J., Jun, H., Yuan, Q., Ponde de Oliveira Pinto, H., Kaplan, J., ... & Zaremba, W. (2021). *Evaluating Large Language Models Trained on Code*. In Proceedings of the 2021 Conference on Neural Information Processing Systems (NeurIPS).
+
+4. **APPS**: This dataset consists of 10,000 coding problems along with human-authored solutions, designed to assess coding abilities.
+
+   Full citation for APPS:
+   > Hendrycks, D., Basart, S., Kadavath, S., Mazeika, M., Arora, A., Guo, E., ... & Steinhardt, J. (2021). *Measuring Coding Challenge Competence with APPS*. In Proceedings of the 2021 Conference on Neural Information Processing Systems (NeurIPS).
+
+5. **MBPP**: This dataset is designed for entry-level programming problems in Python, containing a variety of tasks and their corresponding solutions.
+
+   Full citation for MBPP:
+   > Austin, J., Odena, J., Nye, M., Bosma, M., Michalewski, H., Dohan, D., ... & Le, Q. V. (2021). *Program Synthesis with Large Language Models*. In Proceedings of the 2021 Conference on Neural Information Processing Systems (NeurIPS).
+
+After gathering this information, I will ensure that each dataset is clearly documented with its purpose, structure, and full citation for future reference or processing. This structured approach will help maintain clarity and accuracy in the dataset extraction process.

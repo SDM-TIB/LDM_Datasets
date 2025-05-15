@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Revisiting Additive Compositionality: AND, OR, and NOT Operations with Word Embeddings" by Masahiro Naito et al., I will follow a systematic approach to ensure I capture all relevant datasets and their citations accurately.
+
+First, I will read through the **abstract, introduction, and experiments sections** of the paper. The abstract provides a brief overview of the research and may mention datasets used for experiments. The introduction often elaborates on the context and significance of the datasets, while the experiments section typically details the datasets employed in the study.
+
+In the **introduction**, the authors discuss the challenges of additive compositionality and mention various theories and methods. However, they do not explicitly name any datasets here, so I will proceed to the experiments section.
+
+In **section 5 (Experiments)**, the authors describe their experimental setup and results. They mention using several datasets for evaluating their methods. Specifically, they refer to:
+
+1. **BATS Dataset**: This dataset is used for the analogy task and specifies relationships between word pairs. The authors created a dataset of word triples (x, y, z) that satisfy the condition x + y = z based on BATS.
+
+2. **WordNet (noun)**: The authors extracted hypernym-hyponym relations from WordNet to create a set of tuples (w, w1, ..., ws) that satisfy the condition w = w1 ∨ w2 ∨ ... ∨ ws. They mention using nouns with a frequency of 100 or more, with a sample size of 985.
+
+3. **WordNet (verb)**: Similar to the noun dataset, this dataset contains verb relationships extracted from WordNet, with a sample size of 530.
+
+Next, I will consult the **References section** to find the full citations for these datasets. The citations are crucial for proper attribution and to allow others to access the datasets used in the research.
+
+- For the **BATS Dataset**, the citation is:
+  > Gladkova, A., Drozd, A., & Matsuo, S. (2016). Analogy-based detection of morphological and semantic relations with word embeddings: what works and what doesn’t. In Proceedings of the NAACL Student Research Workshop (pp. 8-15).
+
+- For **WordNet (noun)**, the citation is:
+  > Miller, G. A. (1995). WordNet: A lexical database for English. Communications of the ACM, 38(11), 39-41.
+
+- For **WordNet (verb)**, the citation is the same as for the noun dataset since it is part of the same lexical database:
+  > Miller, G. A. (1995). WordNet: A lexical database for English. Communications of the ACM, 38(11), 39-41.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing or review.

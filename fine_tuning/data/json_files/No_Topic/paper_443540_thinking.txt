@@ -1,0 +1,34 @@
+To extract datasets from the research paper titled "Connect Later: Improving Fine-tuning for Robustness with Targeted Augmentations" by Helen Qu and Sang Michael Xie, I will follow a systematic approach to identify and document each dataset mentioned in the text.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly named or described. The abstract mentions that the authors evaluate their framework on **four real-world datasets**, which indicates that there are specific datasets to look for.
+
+Next, I will focus on the **introduction** section, where the authors discuss the tasks they are addressing. They mention datasets related to wildlife identification, tumor detection, and astronomical time-series classification. This gives me a clear direction to look for specific dataset names.
+
+In the **methodology section**, particularly in the subsections where they describe the tasks and targeted augmentations, the authors provide detailed descriptions of the datasets used:
+
+1. **iWildCam-WILDS**: This dataset is used for wildlife species identification from static camera trap images. It consists of labeled data from 243 camera traps and is aimed at generalizing to data from 48 unseen camera traps.
+
+2. **Camelyon17-WILDS**: This dataset is used for tumor detection, specifically classifying whether a patch of a histopathology slide contains a tumor. The source data comes from hospitals 1-3, while the target data comes from hospitals 4 and 5.
+
+3. **AstroClassification**: This dataset involves predicting the object type from time-series data of astronomical objects. It is curated from the Photometric LSST Astronomical Time Series Classification Challenge.
+
+4. **Redshifts**: This is a new dataset introduced in the paper for predicting the redshift of astronomical objects, derived from the same source as AstroClassification.
+
+After identifying these datasets, I will check the **References section** to find the full citations for each dataset. The citations are crucial for proper attribution and to provide readers with the necessary information to access the datasets.
+
+The citations I will extract are:
+
+- For **iWildCam-WILDS**:
+  > Beery, S., Cole, E., & Gjoka, A. (2020). The iWildCam 2020 competition dataset. arXiv preprint arXiv:2004.10340.
+
+- For **Camelyon17-WILDS**:
+  > Bandi, P., Geessink, O., Manson, Q., et al. (2018). From detection of individual metastases to classification of lymph node status at the patient level: the Camelyon17 challenge. IEEE Transactions on Medical Imaging, 38(2), 550-560.
+
+- For **AstroClassification**:
+  > The PLAsTiCC team, et al. (2019). The photometric LSST astronomical time-series classification challenge (PLAsTiCC): Data set. arXiv preprint arXiv:1902.10000.
+
+- For **Redshifts**:
+  > This dataset is newly introduced in the paper, so I will cite it as:
+  > Qu, H., & Xie, S. M. (2023). Redshifts dataset. In Connect Later: Improving Fine-tuning for Robustness with Targeted Augmentations.
+
+Now, I will compile the dataset entries, ensuring that each dataset is clearly described along with its full citation. This structured approach will help ensure that all relevant information is captured accurately for future reference or analysis.

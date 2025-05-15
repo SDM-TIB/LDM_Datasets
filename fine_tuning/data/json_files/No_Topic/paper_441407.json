@@ -1,0 +1,138 @@
+[
+    {
+        "dcterms:creator": [
+            "V. Panayotov",
+            "G. Chen",
+            "D. Povey",
+            "S. Khudanpur"
+        ],
+        "dcterms:description": "Librispeech is utilized as the source speaker dataset, specifically the train-clean section, which comprises 132,553 utterances from 1,172 speakers.",
+        "dcterms:title": "Librispeech",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Speech Recognition",
+            "Speaker Verification"
+        ],
+        "dcat:keyword": [
+            "ASR corpus",
+            "Public domain audio books",
+            "Speech dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Source Speaker Verification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "A. Nagrani",
+            "J. S. Chung",
+            "A. Zisserman"
+        ],
+        "dcterms:description": "VoxCeleb is used as the target speaker dataset, sourced from the VoxCeleb2 development set, encompassing 1,092,009 utterances from 5,994 speakers.",
+        "dcterms:title": "VoxCeleb",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Speaker Identification",
+            "Speaker Verification"
+        ],
+        "dcat:keyword": [
+            "Large-scale dataset",
+            "Speaker identification",
+            "Voice dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Source Speaker Verification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "J. S. Chung",
+            "A. Nagrani",
+            "A. Zisserman"
+        ],
+        "dcterms:description": "VoxCeleb2 is referenced as a development set for pre-training the model to learn general features for better performance on subsequent tasks.",
+        "dcterms:title": "VoxCeleb2",
+        "dcterms:issued": "2018",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Speaker Recognition",
+            "Speaker Verification"
+        ],
+        "dcat:keyword": [
+            "Deep speaker recognition",
+            "Voice dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Source Speaker Verification"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "D. Snyder",
+            "G. Chen",
+            "D. Povey"
+        ],
+        "dcterms:description": "MUSAN is used as a noise source for data augmentation, providing music, speech, and noise samples.",
+        "dcterms:title": "MUSAN",
+        "dcterms:issued": "2015",
+        "dcterms:language": "",
+        "dcterms:identifier": "arXiv:1510.08484",
+        "dcat:theme": [
+            "Data Augmentation",
+            "Noise Corpus"
+        ],
+        "dcat:keyword": [
+            "Music dataset",
+            "Speech dataset",
+            "Noise dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Data Augmentation"
+        ]
+    },
+    {
+        "dcterms:creator": [
+            "T. Ko",
+            "V. Peddinti",
+            "D. Povey",
+            "M. Seltzer",
+            "S. Khudanpur"
+        ],
+        "dcterms:description": "RIR Noise is utilized as a source for convolutional reverberation noise in the training process.",
+        "dcterms:title": "RIR Noise",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Data Augmentation",
+            "Noise Corpus"
+        ],
+        "dcat:keyword": [
+            "Reverberation noise",
+            "Speech dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Audio",
+        "mls:task": [
+            "Data Augmentation"
+        ]
+    }
+]

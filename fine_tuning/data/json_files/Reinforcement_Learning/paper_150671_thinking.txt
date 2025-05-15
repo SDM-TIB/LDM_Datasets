@@ -1,0 +1,26 @@
+To extract datasets from the research paper titled "Capturing Local Temperature Evolution during Additive Manufacturing through Fourier Neural Operators" by Jiangce Chen et al., I will follow a systematic approach to identify and document the datasets mentioned in the paper.
+
+First, I will read through the **abstract, introduction, and methodology sections** to identify any datasets that are explicitly mentioned or described. The abstract provides a brief overview of the study's focus on data-driven models for thermal behavior in additive manufacturing, which suggests that datasets are involved.
+
+Next, I will focus on **section 4 (Dataset Generation)**, where the authors detail the process of dataset creation. Here, they mention the use of an autoregressive generative model called **SkexGen** to create geometric models, which indicates that this model is part of the dataset generation process.
+
+In **subsection 4.1 (Geometric Model Creation)**, the authors describe how SkexGen generates a diverse set of CAD models with variations in topological and geometric features. This section confirms that the generated geometric models are part of the dataset.
+
+In **subsection 4.2 (Thermal Simulation)**, the authors explain that a high-fidelity finite element simulation is employed to obtain temperature histories for the generated geometric models. This indicates that the temperature data generated from these simulations is also part of the dataset.
+
+I will also check the **References section** to find full citations for the datasets mentioned. The authors reference the SkexGen model, which is crucial for understanding the dataset's origin:
+
+- For **SkexGen**, the citation is:
+  > Xiang Xu, Karl DD Willis, Joseph G Lambourne, Chin-Yi Cheng, Pradeep Kumar Jayaraman, and Yasutaka Furukawa. *Skexgen: Autoregressive generation of cad construction sequences with disentangled codebooks*. arXiv preprint arXiv:2207.04632, 2022.
+
+Additionally, the authors reference the thermal simulation algorithm developed by Nijhuis et al. for generating temperature data:
+
+- For the thermal simulation method, the citation is:
+  > Björn Nijhuis, Bert Geijselaers, and Ton van den Boogaard. *Efficient thermal simulation of large-scale metal additive manufacturing using hot element addition*. Computers & Structures, 245:106463, 2021.
+
+Now, I will compile the dataset entries, ensuring to include the full citations for each dataset as required. The datasets identified are:
+
+1. **Geometric Models Dataset**: Generated using SkexGen, which includes various CAD models with different topological and geometric features.
+2. **Temperature Histories Dataset**: Derived from high-fidelity thermal simulations based on the geometric models.
+
+After gathering all the necessary information, I will prepare the dataset entries for structured output, ensuring that each entry includes the full citation for proper attribution.

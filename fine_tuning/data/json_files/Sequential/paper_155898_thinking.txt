@@ -1,0 +1,31 @@
+To extract datasets from the research paper titled "RMSim: Controlled Respiratory Motion Simulation on Static Patient Scans" by Donghoon Lee et al., I will follow a systematic approach to ensure that I capture all relevant information, including full citations for each dataset.
+
+First, I will start by reviewing the **abstract** and **introduction** sections to identify any mentions of datasets. The abstract provides a brief overview of the study's objectives and methods, which may include references to datasets used for training or validation.
+
+Next, I will focus on the **Materials and Methods** section, specifically **section 2.1 (Datasets)**, where the authors typically describe the datasets in detail. Here, I will look for specific dataset names, sizes, descriptions, and purposes. The authors mention using an internal lung 4D-CT dataset, the LUNA challenge dataset, the POPI dataset, and the Learn2Reg dataset. I will extract the relevant details for each of these datasets.
+
+1. **Internal 4D-CT Dataset**: This dataset consists of 140 non-small cell lung cancer (NSCLC) patients' 4D-CT images, which were used for training and testing the RMSim model. The dataset is described as containing 10-phase radiotherapy 4D-CTs.
+
+2. **LUNA Challenge Dataset**: This dataset includes 20 cases of 3D radiology CTs for lung tumor detection. It is used to demonstrate the generalizability of the RMSim model.
+
+3. **POPI Dataset**: This dataset contains 6 10-phase 4D-CTs with segmented lung masks and annotated landmarks. It is used for testing the model's generality and evaluating the accuracy of deformation vector fields (DVFs).
+
+4. **Learn2Reg Dataset**: This dataset consists of 30 subjects with 3D CT thorax images taken in inhale and exhale phases. It is used for training and testing the RMSim-augmented deep learning deformable image registration method.
+
+After identifying these datasets, I will then refer to the **References section** to find the full citations for each dataset. The citations may not always be directly provided in the text, so I will need to look for the original sources or relevant papers that describe these datasets.
+
+The full citations I will compile are as follows:
+
+- For the **Internal 4D-CT Dataset**, since it is an internal dataset, it may not have a formal citation but can be described as:
+  > Internal lung 4D-CT dataset from Memorial Sloan Kettering Cancer Center, New York, NY, USA.
+
+- For the **LUNA Challenge Dataset**, the citation is:
+  > Arnaud Arindra Adiyoso Setio et al. "Validation, comparison, and combination of algorithms for automatic detection of pulmonary nodules in computed tomography images: The LUNA16 challenge." *Medical Image Analysis*, 42:1–13, 2017.
+
+- For the **POPI Dataset**, the citation is:
+  > Jef Vandemeulebroucke et al. "Spatiotemporal motion estimation for respiratory-correlated imaging of the lungs." *Medical Physics*, 38(1):166–178, 2011.
+
+- For the **Learn2Reg Dataset**, the citation is:
+  > Alessa Hering et al. "Learn2Reg Challenge: CT Lung Registration - Training Data." May 2020.
+
+Finally, I will compile all the extracted dataset information and their citations into a structured format for easy reference and further processing.

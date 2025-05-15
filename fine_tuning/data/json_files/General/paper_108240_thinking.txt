@@ -1,0 +1,31 @@
+To extract the datasets mentioned in the paper titled "The VolcSpeech System for the ICASSP 2022 Multi-Channel Multi-Party Meeting Transcription Challenge" by Chen Shen et al., I will follow a systematic approach.
+
+First, I will read through the **abstract, introduction, and data preparation sections** to identify any datasets that are explicitly mentioned. The abstract provides a brief overview of the methods used, but I need to look for specific dataset names and details.
+
+In the **introduction**, the authors discuss their systems for speaker diarization and automatic speech recognition (ASR) for the M2MeT challenge. However, they do not mention specific datasets here, so I will move on to the **data preparation section**.
+
+In **section 2.1 (Data Preparation)**, the authors describe the datasets used for their speaker diarization system. They mention:
+
+1. **AliMeeting Corpus**: This dataset is used for training the direction-of-arrival (DOA) estimator and is simulated with different room impulse responses (RIRs).
+
+2. **CN-Celeb**: This dataset is used for training speaker embeddings. It is referenced multiple times in the paper, indicating its importance in the training process.
+
+3. **AISHELL-4**: This dataset is mentioned as containing long audio segments that are split into short segments for training.
+
+4. **MUSAN**: This dataset is used for data augmentation in the training of speaker embedding extractors.
+
+Next, I will check the **references section** to find the full citations for these datasets:
+
+- For **AliMeeting Corpus**, the citation is:
+  > Fan Yu et al., "M2met: The icassp 2022 multi-channel multi-party meeting transcription challenge," arXiv preprint arXiv:2110.07393, 2021.
+
+- For **CN-Celeb**, the citation is:
+  > Yue Fan et al., "CN-Celeb: A challenging Chinese speaker recognition dataset," 2019.
+
+- For **AISHELL-4**, the citation is:
+  > Yihui Fu et al., "AISHELL-4: An Open Source Dataset for Speech Enhancement, Separation, Recognition and Speaker Diarization in Conference Scenario," arXiv preprint arXiv:2104.03603, 2021.
+
+- For **MUSAN**, the citation is:
+  > David Snyder et al., "MUSAN: A music, speech, and noise corpus," arXiv preprint arXiv:1510.08484, 2015.
+
+Now that I have identified the datasets and their citations, I will compile this information into a structured format for further processing. Each dataset will be described with its name, description, and full citation.
