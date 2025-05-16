@@ -81,7 +81,7 @@ class FileProgressBar(std_tqdm):
         super().close()
 
 # Initialize OpenAI client
-client = AsyncOpenAI(api_key="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")
+client = AsyncOpenAI(api_key="XXX")
 
 # Define model
 MODEL = "gpt-4o-mini"
