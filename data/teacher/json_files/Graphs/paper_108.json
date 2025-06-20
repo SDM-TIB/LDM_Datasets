@@ -1,0 +1,48 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The Xing dataset contains interactions on job postings for 770,000 users over an 80-day period. User behaviors include click, bookmark, reply, and delete. Sessions are split by a 30-minute idle threshold, and interactions of the same type within sessions are discarded to reduce noise.",
+        "dcterms:title": "Xing Dataset",
+        "dcterms:issued": "2016",
+        "dcterms:language": "",
+        "dcterms:identifier": "http://2016.recsyschallenge.com/",
+        "dcat:theme": [
+            "Recommender Systems",
+            "Job Postings"
+        ],
+        "dcat:keyword": [
+            "User Interaction",
+            "Job Recommendations",
+            "Session Data"
+        ],
+        "dcat:landingPage": "http://2016.recsyschallenge.com/",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "CSV",
+        "mls:task": [
+            "Session-based Recommendation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The Reddit dataset contains tuples of user names, subreddits where users make comments, and timestamps for interactions. Sessions are split manually using a 60-minute time threshold.",
+        "dcterms:title": "Reddit Dataset",
+        "dcterms:issued": "2017",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://www.kaggle.com/colemaclean/subreddit-interactions",
+        "dcat:theme": [
+            "Recommender Systems",
+            "Social Media"
+        ],
+        "dcat:keyword": [
+            "User Interaction",
+            "Comment Data",
+            "Session Data"
+        ],
+        "dcat:landingPage": "https://www.kaggle.com/colemaclean/subreddit-interactions",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "CSV",
+        "mls:task": [
+            "Session-based Recommendation"
+        ]
+    }
+]

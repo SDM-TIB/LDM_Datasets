@@ -1,0 +1,111 @@
+[
+    {
+        "dcterms:creator": [
+            "Paweł Budzianowski",
+            "Tsung-Hsien Wen",
+            "Bo-Hsiang Tseng",
+            "Iñigo Casanueva",
+            "Ultes Stefan",
+            "Ramadan Osman",
+            "Milica Gašić"
+        ],
+        "dcterms:description": "MultiWOZ 3.0 is a reannotation of the MultiWOZ 2.1 dataset, which includes English task-oriented dialogues across five domains: Attraction, Hotel, Restaurant, Taxi, and Train. The dataset aims to improve the accuracy of semantic parsers by providing a more precise formal representation of dialogues.",
+        "dcterms:title": "MultiWOZ 3.0",
+        "dcterms:issued": "2021",
+        "dcterms:language": "English",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Natural Language Processing",
+            "Dialogue Systems"
+        ],
+        "dcat:keyword": [
+            "Task-oriented dialogue",
+            "Semantic parsing",
+            "Multi-domain",
+            "Dialogue state tracking"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "3.0",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Dialogue State Tracking",
+            "Semantic Parsing"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A synthesized dataset generated using a state-machine-based simulator and agent, consisting of 1.5 million dialogues across all five domains.",
+        "dcterms:title": "Synthesized Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Synthetic dialogue",
+            "Dialogue generation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Dialogue Generation"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A paraphrase dataset obtained by automatically paraphrasing the synthesized data to increase the variety of natural language in each turn.",
+        "dcterms:title": "Paraphrase Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Paraphrasing",
+            "Natural language processing"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Natural Language Understanding"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A few-shot dataset consisting of a split of 168 dialogues from the original validation set of MultiWOZ 2.1, representing 2% of the original training set.",
+        "dcterms:title": "Few-Shot Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Few-shot learning",
+            "Dialogue annotation"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Dialogue State Tracking"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A self-trained dataset obtained by self-training on the MultiWOZ training set, leveraging unannotated data to improve model performance.",
+        "dcterms:title": "Self-Trained Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [],
+        "dcat:keyword": [
+            "Self-training",
+            "Unannotated data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Text",
+        "mls:task": [
+            "Dialogue State Tracking"
+        ]
+    }
+]

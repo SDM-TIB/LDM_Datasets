@@ -1,0 +1,72 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The QM9 dataset contains approximately 130,000 molecules made up of H, C, N, O, and F atoms along with 13 quantum chemical properties (e.g., atomization energy, HOMO, and LUMO) for each molecule. These molecular properties were calculated using a hybrid quantum simulation (Gaussian 09) at the B3LYP/6-31G(2df,p) level of theory.",
+        "dcterms:title": "QM9 Dataset",
+        "dcterms:issued": "2014",
+        "dcterms:language": "",
+        "dcterms:identifier": "https://doi.org/10.1038/sdata.2014.22",
+        "dcat:theme": [
+            "Chemistry",
+            "Quantum Chemistry"
+        ],
+        "dcat:keyword": [
+            "Molecular properties",
+            "Quantum chemical properties",
+            "Machine learning dataset"
+        ],
+        "dcat:landingPage": "https://doi.org/10.1038/sdata.2014.22",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Data",
+        "mls:task": [
+            "Energy prediction",
+            "Molecular property prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A subset of the QM9 dataset with a limited number of atoms (M ≤ 14) per molecule, referred to as the 'QM9under14atoms' dataset. It includes approximately 15,000 molecules and focuses on three kinds of energy properties: atomization energy at 0 K, zero point vibrational energy, and enthalpy at 298.15 K.",
+        "dcterms:title": "QM9under14atoms Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Chemistry",
+            "Quantum Chemistry"
+        ],
+        "dcat:keyword": [
+            "Molecular properties",
+            "Energy prediction",
+            "Subset dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Data",
+        "mls:task": [
+            "Energy prediction"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "A dataset from the QM9 dataset that includes molecules consisting of more than 15 atoms, referred to as the 'QM9over15atoms' dataset. It is used for testing the trained QDF model for extrapolation evaluation.",
+        "dcterms:title": "QM9over15atoms Dataset",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Chemistry",
+            "Quantum Chemistry"
+        ],
+        "dcat:keyword": [
+            "Molecular properties",
+            "Energy prediction",
+            "Extrapolation dataset"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Data",
+        "mls:task": [
+            "Energy prediction"
+        ]
+    }
+]

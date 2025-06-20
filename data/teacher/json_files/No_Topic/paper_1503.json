@@ -1,0 +1,127 @@
+[
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "GDELT is an international relations dataset consisting of country-to-country interaction events of the form 'country i took action a toward country j at time t,' extracted from news corpora. Five count matrices were created, one for each year from 2001 through 2005, counting the number of events for each pair during each day.",
+        "dcterms:title": "Global Database of Events, Language, and Tone (GDELT)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "International Relations",
+            "Event Data"
+        ],
+        "dcat:keyword": [
+            "GDELT",
+            "International events",
+            "Country interactions",
+            "Count data"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Count Matrix",
+        "mls:task": [
+            "Smoothing",
+            "Forecasting"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "ICEWS is an international relations event dataset extracted from news corpora. It is more highly curated than GDELT and contains fewer events. Three count matrices were created for the years 2001-2003, 2004-2006, and 2007-2009, counting the number of events for each undirected pair of countries during each three-day time step.",
+        "dcterms:title": "Integrated Crisis Early Warning System (ICEWS)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "International Relations",
+            "Event Data"
+        ],
+        "dcat:keyword": [
+            "ICEWS",
+            "Crisis events",
+            "Count data",
+            "International relations"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Count Matrix",
+        "mls:task": [
+            "Smoothing",
+            "Forecasting"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The SOTU corpus contains the text of the annual State-of-the-Union speech transcripts from 1790 through 2014. A single count matrix was created with one column per year, counting tokens after discarding stopwords.",
+        "dcterms:title": "State-of-the-Union transcripts (SOTU)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Political Discourse",
+            "Text Analysis"
+        ],
+        "dcat:keyword": [
+            "SOTU",
+            "Speech transcripts",
+            "Count data",
+            "Political analysis"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Count Matrix",
+        "mls:task": [
+            "Smoothing",
+            "Forecasting"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "DBLP is a database of computer science research papers. A subset of this corpus was used to evaluate GP-DPFA, corresponding to a count matrix with unique word types and tokens.",
+        "dcterms:title": "DBLP conference abstracts (DBLP)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Computer Science",
+            "Research Papers"
+        ],
+        "dcat:keyword": [
+            "DBLP",
+            "Conference abstracts",
+            "Count data",
+            "Computer science research"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Count Matrix",
+        "mls:task": [
+            "Smoothing",
+            "Forecasting"
+        ]
+    },
+    {
+        "dcterms:creator": [],
+        "dcterms:description": "The NIPS corpus contains the text of every NIPS conference paper from 1987 to 2003. A single count matrix was created with one column per year, counting unique word types after discarding stopwords.",
+        "dcterms:title": "NIPS corpus (NIPS)",
+        "dcterms:issued": "",
+        "dcterms:language": "",
+        "dcterms:identifier": "",
+        "dcat:theme": [
+            "Machine Learning",
+            "Conference Proceedings"
+        ],
+        "dcat:keyword": [
+            "NIPS",
+            "Conference papers",
+            "Count data",
+            "Machine learning"
+        ],
+        "dcat:landingPage": "",
+        "dcterms:hasVersion": "",
+        "dcterms:format": "Count Matrix",
+        "mls:task": [
+            "Smoothing",
+            "Forecasting"
+        ]
+    }
+]
