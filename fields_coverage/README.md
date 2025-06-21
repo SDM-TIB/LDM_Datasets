@@ -3,7 +3,6 @@
 
 ### Coverage Overview
 
-The analysis reveals significant variation in field population rates:
 
 - **Excellent Coverage (>95%)**: Basic metadata fields are very well populated
   - Title (99.75%)
@@ -24,6 +23,9 @@ The analysis reveals significant variation in field population rates:
   - Identifier/DOI (14.35%)
   - Landing Page (13.34%)
   - Version Information (2.41%)
+  
+  
+The poor coverage fields indicate that the imformation was not presented in the paper in order to be extracted.
 
 ## Field Coverage Distribution Chart
 
@@ -31,4 +33,3 @@ The analysis reveals significant variation in field population rates:
 
 
 
-The poor coverage fields indicate that the imformation was not presented in the paper in order to be extracted.
